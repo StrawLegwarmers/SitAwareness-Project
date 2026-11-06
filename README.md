@@ -1,4 +1,4 @@
-# SitAware
+# SitAwareness Project
 
 An open-source "Feedly on steroids": it reads ~130 RSS feeds every day, uses Claude to group the
 articles into running **narratives**, tracks how those narratives change from day to day, and
