@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# CYBER sources: every feed the Cyber site reads.
+#
+# Mainstream cyber news outlets, government advisories and vendor threat
+# research blogs (for Global Intelligence), plus aviation trade press (for the
+# Aviation, Airline & Aerospace industry page). Each feed URL was tested.
+#
+# HOW TO ADD A SOURCE: same as geo/sources.yaml (see the top of that file).
+#
+# FIELDS
+#   name, feed, lang, enabled, note: same meaning as in geo/sources.yaml
+#   section  Which page the source mainly feeds:
+#              news   -> Cyber news
+#              intel  -> Global Intelligence (original research, advisories)
+#              aviation -> Industry: Aviation, Airline & Aerospace
+#            Narratives are built from ALL sections together.
+#
+# IOC feeds (abuse.ch, CISA KEV) are not RSS, so they get their own file in Lesson 7.
+# ─────────────────────────────────────────────────────────────────────────────
+
+sources:
+
+  # ── Cyber news ────────────────────────────────────────────────────────────
+  - {name: BleepingComputer,      feed: "https://www.bleepingcomputer.com/feed/",           section: news, lang: en}
+  - {name: The Hacker News,       feed: "https://feeds.feedburner.com/TheHackersNews",      section: news, lang: en}
+  - {name: Infosecurity Magazine, feed: "https://www.infosecurity-magazine.com/rss/news/",  section: news, lang: en}
+  - {name: The Register Security, feed: "https://www.theregister.com/security/headlines.atom", section: news, lang: en}
+  - {name: Security Affairs,      feed: "https://securityaffairs.com/feed",                 section: news, lang: en}
+  - {name: The Record,            feed: "https://therecord.media/feed",                     section: news, lang: en}
+  - {name: Dark Reading,          feed: "https://www.darkreading.com/rss.xml",              section: news, lang: en}
+  - {name: SecurityWeek,          feed: "https://www.securityweek.com/feed/",               section: news, lang: en}
+  - {name: Krebs on Security,     feed: "https://krebsonsecurity.com/feed/",                section: news, lang: en}
+  - {name: CyberScoop,            feed: "https://cyberscoop.com/feed/",                     section: news, lang: en}
+
+  # ── Global Intelligence (government advisories + vendor research) ─────────
+  # CISA blocks some cloud servers. If the checker shows HTTP 403, it's the network, not the URL.
+  - {name: CISA Advisories,       feed: "https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml", section: intel, lang: en, note: "may 403 from cloud IPs"}
+  - {name: CISA Analysis Reports, feed: "https://www.cisa.gov/cybersecurity-advisories/analysis-reports.xml",        section: intel, lang: en, note: "may 403 from cloud IPs"}
+  - {name: Cisco Talos,           feed: "https://blog.talosintelligence.com/rss/",          section: intel, lang: en}
+  - {name: Unit 42 (Palo Alto),   feed: "https://unit42.paloaltonetworks.com/feed/",        section: intel, lang: en}
+  - {name: Microsoft Threat Intelligence, feed: "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/", section: intel, lang: en}
+  - {name: Google Threat Intelligence, feed: "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/", section: intel, lang: en}
+  - {name: ESET WeLiveSecurity,   feed: "https://www.welivesecurity.com/en/rss/feed/",      section: intel, lang: en}
+  - {name: Kaspersky Securelist,  feed: "https://securelist.com/feed/",                     section: intel, lang: en}
+  - {name: Check Point Research,  feed: "https://research.checkpoint.com/feed/",            section: intel, lang: en}
+  - {name: Proofpoint Threat Insight, feed: "https://www.proofpoint.com/us/threat-insight-blog.xml", section: intel, lang: en}
+  - {name: Sophos X-Ops,          feed: "https://www.sophos.com/en-us/category/threat-research/feed", section: intel, lang: en}
+  - {name: SentinelLabs,          feed: "https://www.sentinelone.com/labs/feed/",           section: intel, lang: en}
+  - {name: Recorded Future Research, feed: "https://www.recordedfuture.com/feed",           section: intel, lang: en}
+  - {name: The DFIR Report,       feed: "https://thedfirreport.com/feed/",                  section: intel, lang: en}
+
+  # ── Industry: Aviation, Airline & Aerospace ───────────────────────────────
+  # Trade press covers the whole industry; the pipeline keeps the security-relevant items.
+  # The Google News search feed catches aviation cyber stories from any outlet.
+  - {name: "Google News: aviation cyber", feed: "https://news.google.com/rss/search?q=(airline+OR+airport+OR+aviation+OR+aerospace)+(cyberattack+OR+ransomware+OR+breach+OR+hackers)&hl=en-US&gl=US&ceid=US:en", section: aviation, lang: en, note: "search feed: edit the q= words to tune it"}
+  - {name: FlightGlobal,          feed: "https://www.flightglobal.com/feed/",               section: aviation, lang: en}
+  - {name: AeroTime,              feed: "https://www.aerotime.aero/feed",                   section: aviation, lang: en}
+  - {name: Simple Flying,         feed: "https://simpleflying.com/feed/",                   section: aviation, lang: en}
+  - {name: Airport Technology,    feed: "https://www.airport-technology.com/feed/",         section: aviation, lang: en}
+
+  # ── On file but not fetched ───────────────────────────────────────────────
+  - {name: Aviation Week,         feed: "https://aviationweek.com/rss.xml",                 section: aviation, lang: en, enabled: false, note: "feed stopped updating in March 2026"}
+  - {name: The Aviation Herald,   site: "https://avherald.com/", site_only: true,           section: aviation, enabled: false, note: "no RSS found"}

@@ -1,0 +1,4 @@
+# Python packages the pipeline needs. Install with:  pip install -r requirements.txt
+feedparser>=6.0     # reads RSS and Atom feeds, whatever their quirks
+requests>=2.31      # downloads web pages and feeds
+PyYAML>=6.0         # reads the config/*.yaml files

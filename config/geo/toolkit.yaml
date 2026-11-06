@@ -1,0 +1,102 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# GEO toolkit: reference links, not news feeds.
+#
+# Common OSINT bookmarks and X/Twitter accounts. Nothing here is
+# fetched or analysed; the site shows it as a "Toolkit" page so analysts keep
+# their OSINT tools next to the daily brief. Add or remove links freely.
+# ─────────────────────────────────────────────────────────────────────────────
+
+groups:
+
+  - title: General research & OSINT
+    links:
+      - {name: Wayback Machine, url: "https://archive.org/"}
+      - {name: TinEye reverse image search, url: "https://tineye.com/"}
+      - {name: Google reverse image search, url: "https://images.google.com/"}
+      - {name: Wolfram Alpha, url: "https://www.wolframalpha.com/"}
+      - {name: Media Bias Fact Check, url: "https://mediabiasfactcheck.com/"}
+      - {name: Crisis24 country reports, url: "https://crisis24.garda.com/insights-intelligence/intelligence/country-reports"}
+      - {name: The Ultimate OSINT Collection, url: "https://start.me/p/DPYPMz/the-ultimate-osint-collection"}
+      - {name: IntelTechniques links, url: "https://www.inteltechniques.com/links.html"}
+      - {name: OSINT Tools (Lorand Bodo), url: "https://start.me/p/7kxyy2/osint-tools-curated-by-lorand-bodo"}
+      - {name: OSINT Combine tools, url: "https://www.osintcombine.com/tools"}
+      - {name: Factal, url: "https://www.factal.com/"}
+      - {name: CIA World Factbook, url: "https://www.cia.gov/the-world-factbook/"}
+
+  - title: Fact-checking
+    links:
+      - {name: AFP Fact Check, url: "https://factcheck.afp.com/"}
+      - {name: Reuters Fact Check, url: "https://www.reuters.com/fact-check"}
+      - {name: BBC Verify, url: "https://www.bbc.com/news/reality_check"}
+      - {name: Africa Check, url: "https://africacheck.org/"}
+      - {name: PesaCheck, url: "https://pesacheck.org/"}
+      - {name: Correctiv, url: "https://correctiv.org/faktencheck/"}
+      - {name: Debunk.org, url: "https://debunk.media/"}
+      - {name: Snopes, url: "https://www.snopes.com/"}
+      - {name: FactCheck.org, url: "https://www.factcheck.org/"}
+      - {name: PolitiFact, url: "https://www.politifact.com/"}
+
+  - title: Translation
+    links:
+      - {name: DeepL, url: "https://www.deepl.com/translator"}
+      - {name: Google Translate, url: "https://translate.google.com/"}
+      - {name: Yandex image translator, url: "https://translate.yandex.com/ocr"}
+      - {name: Yamli (Arabic), url: "https://www.yamli.com/"}
+
+  - title: Social media research
+    links:
+      - {name: Thread Reader, url: "https://threadreaderapp.com/"}
+      - {name: TGStat (Telegram), url: "https://tgstat.ru/en"}
+      - {name: Telegram channel search, url: "https://telegramchannels.me/"}
+      - {name: Social Searcher, url: "https://www.social-searcher.com/"}
+      - {name: YouTube DataViewer (Amnesty), url: "https://citizenevidence.amnestyusa.org/"}
+      - {name: YouTube Geofind, url: "https://mattw.io/youtube-geofind/location"}
+      - {name: Namecheckr, url: "https://www.namecheckr.com/"}
+
+  - title: Aviation
+    links:
+      - {name: Flightradar24, url: "https://www.flightradar24.com/"}
+      - {name: ADS-B Exchange, url: "https://www.adsbexchange.com/"}
+      - {name: FlightAware, url: "https://flightaware.com/live/"}
+      - {name: FlightStats, url: "https://www.flightstats.com/v2/"}
+      - {name: JetPhotos, url: "https://www.jetphotos.com/"}
+      - {name: Bellingcat flight tracking guide, url: "https://www.bellingcat.com/resources/how-tos/2019/10/15/a-beginners-guide-to-flight-tracking/"}
+
+  - title: Maritime
+    links:
+      - {name: MarineTraffic, url: "https://www.marinetraffic.com/"}
+      - {name: VesselFinder, url: "https://www.vesselfinder.com/"}
+      - {name: FleetMon, url: "https://www.fleetmon.com/"}
+      - {name: ShipSpotting, url: "https://www.shipspotting.com/"}
+
+  - title: Maps & geography
+    links:
+      - {name: Liveuamap, url: "https://liveuamap.com/"}
+      - {name: GeoNames, url: "https://www.geonames.org/"}
+      - {name: USGS EarthExplorer, url: "https://earthexplorer.usgs.gov/"}
+      - {name: UT Austin map collection, url: "https://maps.lib.utexas.edu/"}
+      - {name: GDACS disaster alerts, url: "https://www.gdacs.org/"}
+      - {name: OpenStreetMap, url: "https://www.openstreetmap.org/"}
+
+  - title: Conflict & data
+    links:
+      - {name: ACLED, url: "https://acleddata.com/"}
+      - {name: SIPRI databases, url: "https://www.sipri.org/databases"}
+      - {name: Oryx equipment losses, url: "https://www.oryxspioenkop.com/"}
+      - {name: CSIS Ukraine, url: "https://www.csis.org/programs/crisis-crossroads-ukraine"}
+      - {name: Gapminder, url: "https://www.gapminder.org/data/"}
+      - {name: Henley Passport Index, url: "https://www.henleyglobal.com/passport-index"}
+
+  - title: X accounts (not ingested, needs paid API)
+    links:
+      - {name: ISW, url: "https://x.com/TheStudyofWar"}
+      - {name: Rob Lee, url: "https://x.com/RALee85"}
+      - {name: Michael Kofman, url: "https://x.com/KofmanMichael"}
+      - {name: Tatarigami, url: "https://x.com/Tatarigami_UA"}
+      - {name: OSINTtechnical, url: "https://x.com/Osinttechnical"}
+      - {name: UK MoD, url: "https://x.com/DefenceHQ"}
+      - {name: Ukraine General Staff, url: "https://x.com/GeneralStaffUA"}
+      - {name: GebeilyM, url: "https://x.com/GebeilyM"}
+      - {name: Emanuel Fabian, url: "https://x.com/manniefabian"}
+      - {name: FalconFeeds, url: "https://x.com/FalconFeedsio"}
+      - {name: Dark Web Informer, url: "https://x.com/DarkWebInformer"}

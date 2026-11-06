@@ -1,0 +1,164 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# GEO sources: every feed the Geopolitical site reads.
+#
+# A curated list of global, regional and local outlets covering Europe, MENA,
+# Africa and the Russia-Ukraine, Israel-Gaza and Iran conflicts. Each feed URL was tested.
+#
+# HOW TO ADD A SOURCE
+#   1. Find its feed:   python pipeline/check_sources.py --discover https://example.com
+#   2. Copy one block below, paste it in the right region, change the values.
+#   3. Test it:         python pipeline/check_sources.py --site geo
+#
+# FIELDS
+#   name     Display name shown on the site.
+#   feed     The RSS/Atom URL (not the homepage).
+#   region   global | namerica | europe | mena | africa  (add more any time)
+#   topics   Optional tags that match a running conflict or theme.
+#   type     wire | international | regional | local | think-tank | state-media
+#            The AI uses this: state-media claims get attributed, never stated as fact.
+#   lang     Language code (en, fr, ar...). The AI reads all of them and writes English.
+#   enabled  false = keep it on file but don't fetch it. Use 'note' to say why.
+# ─────────────────────────────────────────────────────────────────────────────
+
+sources:
+
+  # ── Global ────────────────────────────────────────────────────────────────
+  - {name: Al Jazeera,        feed: "https://www.aljazeera.com/xml/rss/all.xml",               region: global, type: international, lang: en}
+  - {name: BBC World,         feed: "https://feeds.bbci.co.uk/news/world/rss.xml",              region: global, type: international, lang: en}
+  - {name: New York Times World, feed: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml", region: global, type: international, lang: en}
+  - {name: The Guardian World, feed: "https://www.theguardian.com/world/rss",                   region: global, type: international, lang: en}
+  - {name: DW,                feed: "https://rss.dw.com/rdf/rss-en-all",                        region: global, type: international, lang: en}
+  - {name: France 24,         feed: "https://www.france24.com/en/rss",                          region: global, type: international, lang: en}
+  # Reuters and AP have no public RSS. A Google News search feed is a common workaround:
+  # news.google.com/rss/search?q=<query> returns any search as a feed.
+  - {name: Reuters,           feed: "https://news.google.com/rss/search?q=site:reuters.com+world&hl=en-US&gl=US&ceid=US:en", region: global, type: wire, lang: en, note: "via Google News search"}
+  - {name: Associated Press,  feed: "https://news.google.com/rss/search?q=site:apnews.com+world&hl=en-US&gl=US&ceid=US:en",  region: global, type: wire, lang: en, note: "via Google News search"}
+  - {name: Crisis Group,      feed: "https://www.crisisgroup.org/rss/",                         region: global, type: think-tank, lang: en, note: "items have no dates; pipeline uses first-seen time"}
+
+  # ── North America ─────────────────────────────────────────────────────────
+  - {name: Politico,          feed: "https://rss.politico.com/politics-news.xml",               region: namerica, type: international, lang: en}
+
+  # ── Europe ────────────────────────────────────────────────────────────────
+  - {name: RFE/RL,            feed: "https://www.rferl.org/api/",                               region: europe, type: international, lang: en}
+  - {name: BBC Europe,        feed: "https://www.bbc.com/news/world/europe/rss.xml",            region: europe, type: international, lang: en}
+  - {name: The Guardian Europe, feed: "https://www.theguardian.com/world/europe-news/rss",      region: europe, type: international, lang: en}
+  - {name: NYT Europe,        feed: "https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml",  region: europe, type: international, lang: en}
+  - {name: France 24 Europe,  feed: "https://www.france24.com/en/europe/rss",                   region: europe, type: international, lang: en}
+  - {name: Atlantic Council Europe & Eurasia, feed: "https://www.atlanticcouncil.org/region/europe-eurasia/feed/", region: europe, type: think-tank, lang: en}
+  - {name: ISW,               feed: "https://news.google.com/rss/search?q=site:understandingwar.org&hl=en-US&gl=US&ceid=US:en", region: europe, topics: [russia-ukraine, iran], type: think-tank, lang: en, note: "site blocks automated requests; via Google News"}
+  # Russia-Ukraine
+  - {name: Ukrinform,         feed: "https://www.ukrinform.net/rss/block-lastnews",            region: europe, topics: [russia-ukraine], type: local, lang: en}
+  - {name: Kyiv Post,         feed: "https://www.kyivpost.com/feed/",                           region: europe, topics: [russia-ukraine], type: local, lang: en}
+  - {name: Kyiv Independent,  feed: "https://kyivindependent.com/news-archive/rss/",            region: europe, topics: [russia-ukraine], type: local, lang: en}
+  - {name: The Moscow Times,  feed: "https://www.themoscowtimes.com/rss/news",                  region: europe, topics: [russia-ukraine], type: local, lang: en}
+  - {name: Meduza,            feed: "https://meduza.io/rss/en/all",                             region: europe, topics: [russia-ukraine], type: local, lang: en}
+  - {name: TASS,              feed: "https://tass.com/rss/v2.xml",                              region: europe, topics: [russia-ukraine], type: state-media, lang: en}
+  - {name: RT,                feed: "https://rt-english.com/feed/",                             region: europe, topics: [russia-ukraine], type: state-media, lang: en}
+  - {name: RIA Novosti,       feed: "https://ria.ru/export/rss2/archive/index.xml",             region: europe, topics: [russia-ukraine], type: state-media, lang: ru}
+  # Local press
+  - {name: El País (English), feed: "https://feeds.elpais.com/mrss-s/pages/ep/site/english.elpais.com/portada", region: europe, type: local, lang: en}
+  - {name: La Razón,          feed: "https://www.larazon.es/?outputType=xml",                   region: europe, type: local, lang: es}
+  - {name: Le Figaro,         feed: "https://www.lefigaro.fr/rss/figaro_actualites.xml",        region: europe, type: local, lang: fr}
+  - {name: ANSA,              feed: "https://www.ansa.it/rss.xml",                              region: europe, type: local, lang: it}
+  - {name: The Guardian UK,   feed: "https://www.theguardian.com/uk/rss",                       region: europe, type: local, lang: en}
+  - {name: The Telegraph,     feed: "https://www.telegraph.co.uk/rss/",                         region: europe, type: local, lang: en}
+  - {name: BILD,              feed: "http://www.bild.de/rss-feeds/rss-16725492,feed=home.bild.html", region: europe, type: local, lang: de}
+  - {name: RTÉ,               feed: "https://www.rte.ie/feeds/rss/?index=/news/",               region: europe, type: local, lang: en}
+  - {name: The Irish Times,   feed: "https://www.irishtimes.com/arc/outboundfeeds/rss/",        region: europe, type: local, lang: en}
+  - {name: De Telegraaf,      feed: "https://www.telegraaf.nl/rss",                             region: europe, type: local, lang: nl}
+  - {name: Correio da Manhã,  feed: "https://www.cmjornal.pt/rss/",                             region: europe, type: local, lang: pt}
+  - {name: 20 Minuten,        feed: "https://partner-feeds.20min.ch/rss/20minuten",             region: europe, type: local, lang: de}
+  - {name: Dnevni Avaz,       feed: "https://avaz.ba/rss/",                                     region: europe, type: local, lang: bs}
+  - {name: Klix,              feed: "https://www.klix.ba/rss",                                  region: europe, type: local, lang: bs}
+  - {name: Nezavisne Novine,  feed: "https://www.nezavisne.com/rss/najnovije",                  region: europe, type: local, lang: sr}
+  - {name: Prishtina Insight, feed: "https://prishtinainsight.com/feed/",                       region: europe, type: local, lang: en}
+  - {name: Jyllands-Posten,   feed: "https://feeds.jp.dk/jp/topnyheder",                        region: europe, type: local, lang: da}
+  - {name: VG,                feed: "https://www.vg.no/rss/feed/?format=rss",                   region: europe, type: local, lang: no}
+  - {name: Dagens Nyheter,    feed: "https://www.dn.se/rss/",                                   region: europe, type: local, lang: sv}
+  - {name: Gazeta Wyborcza,   feed: "https://wyborcza.pl/pub/rss/najnowsze_wyborcza.xml",       region: europe, type: local, lang: pl}
+  - {name: Rzeczpospolita,    feed: "https://www.rp.pl/rss_main",                               region: europe, type: local, lang: pl}
+
+  # ── Middle East & North Africa ────────────────────────────────────────────
+  - {name: Al Arabiya English, feed: "https://english.alarabiya.net/feed/rss2/en.xml",          region: mena, type: regional, lang: en}
+  - {name: BBC Middle East,   feed: "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",  region: mena, type: international, lang: en}
+  - {name: NYT Middle East,   feed: "https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml", region: mena, type: international, lang: en}
+  - {name: The Guardian Middle East, feed: "https://www.theguardian.com/world/middleeast/rss",  region: mena, type: international, lang: en}
+  - {name: France 24 Middle East, feed: "https://www.france24.com/en/middle-east/rss",          region: mena, type: international, lang: en}
+  - {name: Middle East Monitor, feed: "https://www.middleeastmonitor.com/feed/",                region: mena, type: regional, lang: en}
+  - {name: Atlantic Council Middle East, feed: "https://www.atlanticcouncil.org/region/middle-east/feed/", region: mena, type: think-tank, lang: en}
+  # Israel-Gaza
+  - {name: BBC Israel-Gaza,   feed: "https://feeds.bbci.co.uk/news/topics/c2vdnvdg6xxt/rss.xml", region: mena, topics: [israel-gaza], type: international, lang: en}
+  - {name: The Times of Israel, feed: "https://www.timesofisrael.com/feed/",                    region: mena, topics: [israel-gaza], type: local, lang: en}
+  - {name: Haaretz,           feed: "https://www.haaretz.com/srv/haaretz-latest-headlines",     region: mena, topics: [israel-gaza], type: local, lang: en}
+  - {name: The Jerusalem Post, feed: "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",        region: mena, topics: [israel-gaza], type: local, lang: en}
+  - {name: The New Arab,      feed: "https://www.newarab.com/rss",                              region: mena, topics: [israel-gaza], type: regional, lang: en}
+  # Iran
+  - {name: The Guardian Iran, feed: "https://www.theguardian.com/world/iran/rss",               region: mena, topics: [iran], type: international, lang: en}
+  - {name: IRNA English,      feed: "https://en.irna.ir/rss",                                   region: mena, topics: [iran], type: state-media, lang: en}
+  - {name: Tehran Times,      feed: "https://www.tehrantimes.com/rss/",                         region: mena, topics: [iran], type: state-media, lang: en}
+  # Local press
+  - {name: Sabah,             feed: "https://www.sabah.com.tr/rss/anasayfa.xml",                region: mena, type: local, lang: tr}
+  - {name: Al-Watan (Syria),  feed: "https://alwatan.sy/feed/",                                 region: mena, type: local, lang: ar}
+  - {name: Al Mada (Iraq),    feed: "https://almadapaper.net/feed/",                            region: mena, type: local, lang: ar}
+  - {name: Sada El Balad,     feed: "https://www.elbalad.news/rss.aspx",                        region: mena, type: local, lang: ar}
+  - {name: Naharnet,          feed: "https://www.naharnet.com/tags/lebanon/en/feed.atom",       region: mena, type: local, lang: en}
+  - {name: Felesteen,         feed: "https://felesteen.news/rss/category/all",                  region: mena, topics: [israel-gaza], type: local, lang: ar}
+  - {name: Khaleej Times,     feed: "https://www.khaleejtimes.com/api/v1/collections/top-section.rss", region: mena, type: local, lang: en}
+  - {name: The National,      feed: "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml", region: mena, type: local, lang: en}
+  - {name: Egypt Independent, feed: "https://www.egyptindependent.com/feed/",                   region: mena, type: local, lang: en}
+  - {name: La Presse (Tunisia), feed: "https://www.lapresse.tn/feed/",                          region: mena, type: local, lang: fr}
+  - {name: Echorouk,          feed: "https://www.echoroukonline.com/feed/",                     region: mena, type: local, lang: ar}
+  - {name: Liberté (Algeria), feed: "https://www.liberte-algerie.com/feed/",                    region: mena, type: local, lang: fr}
+  - {name: Assabah (Morocco), feed: "https://assabah.ma/feed",                                  region: mena, type: local, lang: ar}
+
+  # ── Africa ────────────────────────────────────────────────────────────────
+  - {name: BBC Africa,        feed: "https://www.bbc.com/news/world/africa/rss.xml",            region: africa, type: international, lang: en}
+  - {name: NYT Africa,        feed: "https://rss.nytimes.com/services/xml/rss/nyt/Africa.xml",  region: africa, type: international, lang: en}
+  - {name: The Guardian Africa, feed: "https://www.theguardian.com/world/africa/rss",           region: africa, type: international, lang: en}
+  - {name: France 24 Africa,  feed: "https://www.france24.com/en/africa/rss",                   region: africa, type: international, lang: en}
+  - {name: Africanews,        feed: "https://www.africanews.com/feed/",                         region: africa, type: regional, lang: en}
+  - {name: AllAfrica,         feed: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf", region: africa, type: regional, lang: en}
+  - {name: Atlantic Council Africa, feed: "https://www.atlanticcouncil.org/region/africa/feed/", region: africa, type: think-tank, lang: en}
+  # Local press
+  - {name: Burkina 24,        feed: "https://burkina24.com/feed/",                              region: africa, type: local, lang: fr}
+  - {name: Le Pays (Burkina Faso), feed: "https://lepays.bf/feed/",                             region: africa, type: local, lang: fr}
+  - {name: Al Wihda (Chad),   feed: "https://www.alwihdainfo.com/rss/",                         region: africa, type: local, lang: fr}
+  - {name: Nation (Kenya),    feed: "https://nation.africa/kenya/rss.xml",                      region: africa, type: local, lang: en}
+  - {name: The East African,  feed: "https://www.theeastafrican.co.ke/rss.xml",                 region: africa, type: regional, lang: en}
+  - {name: AMAP (Mali),       feed: "https://amap.ml/feed/",                                    region: africa, type: state-media, lang: fr}
+  - {name: Journal du Mali,   feed: "https://journaldumali.com/feed/",                          region: africa, type: local, lang: fr}
+  - {name: ANP (Niger),       feed: "https://anp.ne/feed/",                                     region: africa, type: state-media, lang: fr}
+  - {name: BBC Pidgin,        feed: "https://www.bbc.com/pidgin/feed/",                         region: africa, type: international, lang: pcm}
+  - {name: Legit (Nigeria),   feed: "https://www.legit.ng/rss/all.rss",                         region: africa, type: local, lang: en}
+  - {name: Naija News,        feed: "https://www.naijanews.com/feed/",                          region: africa, type: local, lang: en}
+  - {name: Premium Times,     feed: "https://www.premiumtimesng.com/feed",                      region: africa, type: local, lang: en}
+  - {name: Punch,             feed: "https://punchng.com/feed/",                                region: africa, type: local, lang: en}
+  - {name: The Authority (Nigeria), feed: "https://authorityngr.com/feed/",                     region: africa, type: local, lang: en}
+  - {name: The Sun (Nigeria), feed: "https://thesun.ng/feed/",                                  region: africa, type: local, lang: en}
+  - {name: The Will (Nigeria), feed: "https://thewillnews.com/feed/",                           region: africa, type: local, lang: en}
+  - {name: This Day,          feed: "https://www.thisdaylive.com/feed/",                        region: africa, type: local, lang: en}
+  - {name: Vanguard,          feed: "https://www.vanguardngr.com/feed/",                        region: africa, type: local, lang: en}
+  - {name: Mareeg,            feed: "https://mareeg.com/feed/",                                 region: africa, type: local, lang: en}
+  - {name: Radio Mogadishu,   feed: "https://radiomuqdisho.so/feed/",                           region: africa, type: state-media, lang: so}
+  - {name: Somali Guardian,   feed: "https://www.somaliguardian.com/feed/",                     region: africa, type: local, lang: en}
+  - {name: Mail & Guardian,   feed: "https://mg.co.za/atom/",                                   region: africa, type: local, lang: en}
+  - {name: Al Taghyeer,       feed: "https://www.altaghyeer.info/en/feed/",                     region: africa, type: local, lang: en}
+
+  # ── On file but not fetched (enabled: false) ──────────────────────────────
+  # Worth reading, but no working feed was found from a cloud server.
+  # Try them again later, or replace with a Google News search feed like ISW above.
+  - {name: Sputnik,           feed: "https://sputnikglobe.com/export/rss2/archive/index.xml", region: europe, topics: [russia-ukraine], type: state-media, lang: en, enabled: false, note: "timed out"}
+  - {name: Corriere della Sera, feed: "https://xml2.corriereobjects.it/rss/homepage.xml",      region: europe, type: local, lang: it, enabled: false, note: "feed stopped updating in 2024"}
+  - {name: Mako (Hebrew),     feed: "https://rcs.mako.co.il/rss/31750a2610f26110VgnVCM1000005201000aRCRD.xml", region: mena, topics: [israel-gaza], type: local, lang: he, enabled: false, note: "last item 17 Oct; check again"}
+  - {name: Kosova Press,      feed: "https://kosovapress.com/en/feed/",                        region: europe, type: local, lang: en, enabled: false, note: "HTTP 429 rate-limited; retry"}
+  - {name: CFR,               site: "https://www.cfr.org/",                site_only: true, region: global, type: think-tank, enabled: false, note: "no RSS"}
+  - {name: Europe Elects,     site: "https://europeelects.eu/",            site_only: true, region: europe, type: think-tank, enabled: false, note: "no RSS"}
+  - {name: L'Orient-Le Jour,  site: "https://www.lorientlejour.com/",      site_only: true, region: mena, type: local, enabled: false, note: "no RSS found"}
+  - {name: APA News,          site: "http://apanews.net/",                 site_only: true, region: africa, type: regional, enabled: false, note: "HTTP 403"}
+  # Also without a usable feed: Reuters (direct), Al Jazeera regional pages, Al Jadeed,
+  # Brussels Times, Novosti, Hürriyet, Fars, Iran Newspaper, Az Zaman, Jordan Times,
+  # Addustour, Al-Hayat al-Jadida, Wafa, Ahram, LANA, Libya Observer, TAP, Le Matin,
+  # Al-Thawrah, Al-Baath, Ver Angola, Centrafrique Presse, Journal du Tchad, Eritrea Daily,
+  # Addis Admass, Ethiopian Reporter, L'Essor, Moçambique on-line, ActuNiger,
+  # Guardian/Independent/The Nation (Nigeria), New Times (Rwanda), Garowe Online,
+  # News24, Sowetan, Sudan Tribune. X/Twitter accounts can't be read without a paid API.
