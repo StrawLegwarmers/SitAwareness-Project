@@ -25,9 +25,27 @@ TIMEOUT = 20  # seconds
 COMMON_FEED_PATHS = ["feed/", "rss/", "rss.xml", "feed.xml", "atom.xml", "index.xml", "?feed=rss2", "rss", "feed"]
 
 
-def fetch(url: str) -> requests.Response:
-    """Download a URL with our User-Agent and a timeout."""
-    return requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=TIMEOUT, allow_redirects=True)
+def fetch(url: str, etag: str | None = None, modified: str | None = None) -> requests.Response:
+    """
+    Download a URL with our User-Agent and a timeout.
+
+    etag / modified make it a *conditional* request: "send me this feed only if it changed
+    since last time". If nothing changed, the server answers 304 Not Modified with no body,
+    which saves both sides bandwidth. (Lesson 2.)
+    """
+    headers = {"User-Agent": USER_AGENT}
+    if etag:
+        headers["If-None-Match"] = etag
+    if modified:
+        headers["If-Modified-Since"] = modified
+    return requests.get(url, headers=headers, timeout=TIMEOUT, allow_redirects=True)
+
+
+def short_error(ex: Exception) -> str:
+    """Network errors from `requests` are very long. Keep just the useful part."""
+    if isinstance(ex, (requests.Timeout, requests.ConnectionError)):
+        return type(ex).__name__          # e.g. ConnectTimeout, ReadTimeout, SSLError
+    return f"{type(ex).__name__}: {ex}"[:120]
 
 
 def _newest(entries) -> str | None:
@@ -68,7 +86,7 @@ def check_feed(url: str) -> dict:
         result.update(ok=True, items=len(parsed.entries), newest=_newest(parsed.entries),
                       title=parsed.feed.get("title"))
     except Exception as ex:  # network errors, timeouts, SSL problems...
-        result["error"] = f"{type(ex).__name__}: {ex}"[:200]
+        result["error"] = short_error(ex)
     return result
 
 
