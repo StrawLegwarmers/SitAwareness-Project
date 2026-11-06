@@ -44,7 +44,7 @@ Config → YAML. Pipeline → JSON. Website → reads JSON. That's what lets you
 
 ## Roadmap
 
-1. **Sources**: what RSS is, finding feeds, a config you can edit ← *you are here*
+1. **Sources**: what RSS is, finding feeds, a config you can edit 
 2. **Fetch & store**: download everything daily, remove duplicates, keep history
 3. **Narratives**: Claude groups articles and compares them with yesterday
 4. **The daily brief**: headline, overview, watch list, and the JSON "contract"
