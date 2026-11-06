@@ -143,6 +143,7 @@ sources:
   - {name: Somali Guardian,   feed: "https://www.somaliguardian.com/feed/",                     region: africa, type: local, lang: en}
   - {name: Mail & Guardian,   feed: "https://mg.co.za/atom/",                                   region: africa, type: local, lang: en}
   - {name: Al Taghyeer,       feed: "https://www.altaghyeer.info/en/feed/",                     region: africa, type: local, lang: en}
+  - {name: South China Morning Post, feed: "https://www.scmp.com/rss/feed", region: asia, type: regional, lang: en}
 
   # ── On file but not fetched (enabled: false) ──────────────────────────────
   # Worth reading, but no working feed was found from a cloud server.
