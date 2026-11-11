@@ -1,0 +1,46 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Guardrails: the checks every AI-written sentence must pass before it is kept.
+#
+# This is a COLLECTION tool. The AI may only restate what an outlet reported,
+# attributed to that outlet. Any sentence that fails a check is removed and
+# written to state/<site>/audit.json with the reason, so you can see what was
+# caught. Tighten or loosen the checks here; no code changes needed.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Check 1: every sentence must cite at least one article, e.g. "[12] reported ...".
+# (Always on. A sentence with no source is never kept.)
+
+# Check 2: every sentence must use a reporting verb, so it reads as attribution, not assertion.
+reporting_verbs: [reported, reports, said, says, stated, announced, claimed, wrote, published,
+                  quoted, cited, told, according to, confirmed, denied, warned, alleged, added,
+                  issued, released, disclosed, posted, listed]
+
+# Check 3: every number in the sentence must appear in the cited articles.
+# Numbers (casualties, money, dates) are what AI most often gets wrong.
+check_numbers: true
+
+# Check 4: names (capitalised words) in the sentence must appear in the cited articles.
+# Only applied when all cited articles are in English, because the AI translates the others.
+# 0.7 = at least 70% of the names must be found (some leeway for "U.S." vs "United States").
+check_names: true
+name_match_min: 0.7
+
+# Check 5: the WORDING must come from the source. At least this share of the sentence's
+# meaningful words (not "the", "and", "reported"...) must appear in the cited articles.
+# This catches added ideas that contain no names or numbers, like
+# "... that will permanently alter the political landscape". English sources only.
+check_wording: true
+wording_match_min: 0.65
+
+# Check 6: analysis and speculation words are not allowed, UNLESS the cited article itself
+# uses the same word (then the AI is repeating the source, not adding its own judgment).
+analysis_words: [likely, unlikely, probably, possibly, perhaps, might, could, may, suggests,
+                 suggesting, indicates, indicating, signals, signalling, signaling, underscores,
+                 underscoring, highlights, highlighting, amid, appears, seems, apparently,
+                 significant, significantly, major, dramatic, dramatically, shocking, crucial,
+                 critical, unprecedented, escalating, escalation, sparking, fuelling, fueling,
+                 raising fears, in a bid to, aimed at, as part of a broader, reflects, reflecting,
+                 implications, setback, blow, boost]
+
+# Sentences longer than this are rejected: one report = one simple sentence.
+max_words: 45

@@ -1,0 +1,139 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# The daily robot.
+#
+# Every morning GitHub starts a fresh Linux machine, and this file tells it what to do:
+#   1. get the repo                      5. write the website's JSON (export)
+#   2. install Python + libraries         6. save the database for tomorrow
+#   3. bring back yesterday's database    7. commit the day's memory and brief to the repo
+#   4. fetch feeds, run the AI            8. publish site/ to GitHub Pages
+#
+# Run it by hand any time: Actions tab -> "Daily brief" -> "Run workflow".
+# ─────────────────────────────────────────────────────────────────────────────
+name: Daily brief
+ 
+on:
+  schedule:
+    # Main run. Off the hour on purpose: GitHub delays (or even drops) scheduled runs at the
+    # start of each hour when it's busy, so 07:37 is more reliable than 08:00.
+    - cron: "37 7 * * *"
+      timezone: "Europe/London"   # UK time: GMT in winter, BST in summer, switches by itself
+    # Backup run. If the main run was delayed or dropped, this one builds the brief.
+    # If today's brief already exists, it stops after a few seconds (see the "check" job).
+    - cron: "23 9 * * *"
+      timezone: "Europe/London"
+  workflow_dispatch: {}           # the "Run workflow" button (always builds)
+ 
+permissions:
+  contents: write               # commit state/ and site/data/ back to the repo
+  pages: write                  # publish to GitHub Pages
+  id-token: write               # lets Pages confirm the upload came from this workflow
+ 
+concurrency:                    # never run two briefs at the same time
+  group: daily-brief
+  cancel-in-progress: false
+ 
+jobs:
+  # A tiny first job: has today's brief already been built? Only scheduled runs can be skipped.
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      skip: ${{ steps.today.outputs.skip }}
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v7
+ 
+      - name: Has today's brief already been built?
+        id: today
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "schedule" ] && [ -f "site/data/geo/$(date -u +%F).json" ]; then
+            echo "Today's brief already exists, so this backup run has nothing to do."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Building today's brief."
+          fi
+ 
+  build:
+    needs: check
+    if: needs.check.outputs.skip != 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v7
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+ 
+      - name: Install libraries
+        run: pip install -r requirements.txt
+ 
+      # The database (data/sitaware.db) is working memory, not committed to Git.
+      # GitHub's cache keeps it between runs. If it's ever lost, the pipeline just rebuilds
+      # it from the feeds; the important memory (state/) is in Git.
+      - name: Bring back yesterday's database
+        uses: actions/cache/restore@v6
+        with:
+          path: data/sitaware.db
+          key: db-${{ github.run_id }}
+          restore-keys: db-
+ 
+      - name: Fetch feeds
+        run: python pipeline/fetch.py
+ 
+      # continue-on-error: a problem with an indicator source must never block the brief.
+      - name: Collect exploited vulnerabilities and IOCs
+        run: python pipeline/indicators.py
+        continue-on-error: true
+        env:
+          ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # optional: ThreatFox is skipped if not set
+ 
+      - name: Group stories and collect reports
+        run: python pipeline/narratives.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+ 
+      - name: Write the website's data
+        run: python pipeline/export.py
+ 
+      - name: Save the database for tomorrow
+        if: always()
+        uses: actions/cache/save@v6
+        with:
+          path: data/sitaware.db
+          key: db-${{ github.run_id }}
+ 
+      # Commits are made by GitHub's own bot account, so they don't carry your name or email.
+      - name: Commit the day's memory and brief
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state site/data
+          if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
+          git commit -m "Daily brief $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
+ 
+      - name: Prepare the site for Pages
+        uses: actions/configure-pages@v6
+ 
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+ 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+ 

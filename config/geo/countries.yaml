@@ -1,0 +1,230 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Countries: which country a story is ABOUT, and which region page it belongs on.
+#
+# No AI. pipeline/countries.py looks for these names in each story's title, reports and
+# headlines, and counts them. A story goes on the page of the region its countries are in;
+# if its countries are spread over several regions, it goes on Global.
+#
+#   id        short name used in the website's addresses (#/geo/europe/c-poland)
+#   region    namerica | latam | europe | mena | africa | asia   (the geo page it belongs on)
+#   global    tier 1-3: how much the country matters worldwide   (orders "Countries in the news")
+#   regional  tier 1-3: how much it matters in its region        (orders the region page;
+#             tier 1 countries ALWAYS get a block on their region page, even on a quiet day)
+#   also      other words that mean this country: people, capital, institutions.
+#             Matching is CASE-SENSITIVE, so "US" never matches the word "us".
+#   ambiguous true = the name alone means something else too (Georgia, the US state), so only
+#             the words under "also" count.
+#
+# Tiers are YOUR judgement as an analyst, set here and nowhere else. They only change the
+# ORDER things are shown in and which blocks always appear. They never hide or rank reporting.
+# Missing tiers count as 3. Leaders' names are left out on purpose: they change. Add any you
+# want under "also".
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Phrases that contain a country word but aren't about that country. Removed before matching.
+not_countries: [Latin America, Latin American, Latin Americans, South America, South American, Central America,
+                Central American, North America, North American, the Americas, Pan-American, Inter-American,
+                New Mexico, Indian Ocean, Indian Premier League, West Indies, Turkey Day, Jim Jordan, Michael Jordan,
+                French Open, Irish Sea, Persian Gulf, Arabian Sea, Arab League, Arab world, Georgia Tech, New Guinea Highlands,
+                Gulf of Mexico, Gulf of America, Panama Papers, Brazil nut, Swiss cheese, Chinese New Year, Dutch auction,
+                Jordan Bardella, Jordan Peterson, Washington Post, South China Morning Post, Paris Agreement,
+                Paris climate, Paris Saint-Germain, Paris Club, Rome Statute, Indian National Congress, Real Madrid, Atletico Madrid]
+
+# Cities that often HOST talks about other countries ("Russia-Ukraine talks in Abu Dhabi").
+# A match here counts a quarter, so the venue doesn't outweigh the countries being discussed.
+# (Capitals like Moscow or Beijing aren't here: they usually mean that country's government.)
+venues: [Abu Dhabi, Dubai, Doha, Riyadh, Jeddah, Istanbul, Cairo, Muscat, Baku, Vienna, Oslo, The Hague,
+         Abu Dabi, Riad, Riyad, Estambul, İstanbul, El Cairo, Le Caire, Kairo, Wien, Den Haag, الرياض, دبي, أبوظبي, Баку]
+
+countries:
+  # ── North America ────────────────────────────────────────────────────────
+  - {id: us,        name: United States,  region: namerica, global: 1, regional: 1, also: [US, U.S., USA, U.S.A., America, American, Americans, Washington, White House, Pentagon, US Congress, US Senate, Capitol Hill, State Department]}
+  - {id: canada,    name: Canada,         region: namerica, global: 2, regional: 1, also: [Canadian, Canadians, Ottawa]}
+
+  # ── Latin America & Caribbean ────────────────────────────────────────────
+  - {id: mexico,    name: Mexico,         region: latam, global: 2, regional: 1, also: [Mexican, Mexicans, México, Mexico City]}
+  - {id: brazil,    name: Brazil,         region: latam, global: 2, regional: 1, also: [Brazilian, Brazilians, Brasil, Brasília, Brasilia]}
+  - {id: venezuela, name: Venezuela,      region: latam, global: 2, regional: 1, also: [Venezuelan, Venezuelans, Caracas]}
+  - {id: colombia,  name: Colombia,       region: latam, global: 3, regional: 1, also: [Colombian, Colombians, Bogotá, Bogota]}
+  - {id: argentina, name: Argentina,      region: latam, global: 3, regional: 1, also: [Argentine, Argentines, Argentinian, Buenos Aires]}
+  - {id: cuba,      name: Cuba,           region: latam, global: 3, regional: 1, also: [Cuban, Cubans, Havana, La Habana]}
+  - {id: chile,     name: Chile,          region: latam, regional: 2, also: [Chilean, Chileans, Santiago de Chile]}
+  - {id: peru,      name: Peru,           region: latam, regional: 2, also: [Peruvian, Peruvians, Perú, Lima]}
+  - {id: ecuador,   name: Ecuador,        region: latam, regional: 2, also: [Ecuadorian, Ecuadorians, Quito, Guayaquil]}
+  - {id: bolivia,   name: Bolivia,        region: latam, regional: 2, also: [Bolivian, Bolivians, La Paz]}
+  - {id: haiti,     name: Haiti,          region: latam, regional: 2, also: [Haitian, Haitians, Haití, Port-au-Prince]}
+  - {id: nicaragua, name: Nicaragua,      region: latam, regional: 2, also: [Nicaraguan, Managua]}
+  - {id: panama,    name: Panama,         region: latam, regional: 2, also: [Panamanian, Panamá, Panama Canal]}
+  - {id: paraguay,  name: Paraguay,       region: latam, also: [Paraguayan, Asunción]}
+  - {id: uruguay,   name: Uruguay,        region: latam, also: [Uruguayan, Montevideo]}
+  - {id: guatemala, name: Guatemala,      region: latam, also: [Guatemalan]}
+  - {id: honduras,  name: Honduras,       region: latam, also: [Honduran, Tegucigalpa]}
+  - {id: el-salvador, name: El Salvador,  region: latam, also: [Salvadoran, San Salvador]}
+  - {id: costa-rica, name: Costa Rica,    region: latam, also: [Costa Rican]}
+  - {id: dominican-republic, name: Dominican Republic, region: latam, also: [Santo Domingo]}
+  - {id: jamaica,   name: Jamaica,        region: latam, also: [Jamaican]}
+  - {id: trinidad,  name: Trinidad and Tobago, region: latam, also: [Trinidad, Tobago, Port of Spain]}
+  - {id: guyana,    name: Guyana,         region: latam, also: [Guyanese]}
+  - {id: suriname,  name: Suriname,       region: latam, also: [Surinamese, Paramaribo]}
+  - {id: belize,    name: Belize,         region: latam, also: [Belizean]}
+  - {id: bahamas,   name: Bahamas,        region: latam, also: [Bahamian, Nassau]}
+  - {id: barbados,  name: Barbados,       region: latam, also: [Barbadian, Bridgetown]}
+  - {id: puerto-rico, name: Puerto Rico,  region: latam, also: [Puerto Rican]}
+
+  # ── Europe (including Russia, Turkey and the Caucasus) ───────────────────
+  - {id: russia,    name: Russia,         region: europe, global: 1, regional: 1, also: [Russian, Russians, Moscow, Kremlin, Russian Federation]}
+  - {id: ukraine,   name: Ukraine,        region: europe, global: 1, regional: 1, also: [Ukrainian, Ukrainians, Kyiv, Kiev, Donbas, Donbass, Crimea, Zaporizhzhia, Kharkiv, Odesa]}
+  - {id: uk,        name: United Kingdom, region: europe, global: 1, regional: 1, also: [UK, U.K., Britain, British, Britons, England, English Channel, Scotland, Scottish, Wales, Welsh, Northern Ireland, London, Downing Street, Westminster]}
+  - {id: france,    name: France,         region: europe, global: 1, regional: 1, also: [French, Paris, Élysée, Elysee]}
+  - {id: germany,   name: Germany,        region: europe, global: 1, regional: 1, also: [German, Germans, Berlin, Bundestag, Deutschland]}
+  - {id: poland,    name: Poland,         region: europe, global: 2, regional: 1, also: [Polish, Poles, Warsaw, Polska, Kraków, Krakow]}
+  - {id: turkey,    name: Turkey,         region: europe, global: 2, regional: 2, also: [Türkiye, Turkiye, Turkish, Turks, Ankara, Istanbul]}
+  - {id: italy,     name: Italy,          region: europe, global: 2, regional: 2, also: [Italian, Italians, Rome, Italia]}
+  - {id: spain,     name: Spain,          region: europe, global: 2, regional: 1, also: [Spanish, Madrid, España, Espagne]}
+  - {id: belarus,   name: Belarus,        region: europe, global: 2, regional: 2, also: [Belarusian, Belarusians, Minsk]}
+  - {id: netherlands, name: Netherlands,  region: europe, regional: 2, also: [Dutch, Amsterdam, Holland, The Hague]}
+  - {id: hungary,   name: Hungary,        region: europe, regional: 2, also: [Hungarian, Hungarians, Budapest]}
+  - {id: romania,   name: Romania,        region: europe, regional: 2, also: [Romanian, Romanians, Bucharest]}
+  - {id: moldova,   name: Moldova,        region: europe, regional: 2, also: [Moldovan, Chisinau, Chișinău, Transnistria]}
+  - {id: serbia,    name: Serbia,         region: europe, regional: 2, also: [Serbian, Serbs, Belgrade]}
+  - {id: kosovo,    name: Kosovo,         region: europe, regional: 2, also: [Kosovar, Pristina, Prishtina]}
+  - {id: georgia,   name: Georgia,        region: europe, regional: 2, ambiguous: true, also: [Tbilisi, Georgian Dream, Georgian government, Georgian opposition]}
+  - {id: armenia,   name: Armenia,        region: europe, regional: 2, also: [Armenian, Armenians, Yerevan]}
+  - {id: azerbaijan, name: Azerbaijan,    region: europe, regional: 2, also: [Azerbaijani, Azeri, Baku]}
+  - {id: sweden,    name: Sweden,         region: europe, regional: 2, also: [Swedish, Swedes, Stockholm]}
+  - {id: finland,   name: Finland,        region: europe, regional: 2, also: [Finnish, Finns, Helsinki]}
+  - {id: norway,    name: Norway,         region: europe, regional: 2, also: [Norwegian, Norwegians, Oslo]}
+  - {id: denmark,   name: Denmark,        region: europe, regional: 2, also: [Danish, Danes, Copenhagen]}
+  - {id: greenland, name: Greenland,      region: europe, regional: 2, also: [Greenlandic, Greenlanders, Nuuk]}
+  - {id: estonia,   name: Estonia,        region: europe, regional: 2, also: [Estonian, Estonians, Tallinn]}
+  - {id: latvia,    name: Latvia,         region: europe, regional: 2, also: [Latvian, Latvians, Riga]}
+  - {id: lithuania, name: Lithuania,      region: europe, regional: 2, also: [Lithuanian, Lithuanians, Vilnius]}
+  - {id: belgium,   name: Belgium,        region: europe, also: [Belgian, Belgians]}
+  - {id: ireland,   name: Ireland,        region: europe, also: [Irish, Dublin, Taoiseach]}
+  - {id: portugal,  name: Portugal,       region: europe, also: [Portuguese, Lisbon]}
+  - {id: greece,    name: Greece,         region: europe, also: [Greek, Greeks, Athens]}
+  - {id: cyprus,    name: Cyprus,         region: europe, also: [Cypriot, Cypriots, Nicosia]}
+  - {id: austria,   name: Austria,        region: europe, also: [Austrian, Austrians, Vienna]}
+  - {id: switzerland, name: Switzerland,  region: europe, also: [Swiss, Bern]}
+  - {id: czechia,   name: Czechia,        region: europe, also: [Czech Republic, Czech, Czechs, Prague]}
+  - {id: slovakia,  name: Slovakia,       region: europe, also: [Slovak, Slovaks, Bratislava]}
+  - {id: slovenia,  name: Slovenia,       region: europe, also: [Slovenian, Ljubljana]}
+  - {id: croatia,   name: Croatia,        region: europe, also: [Croatian, Croats, Zagreb]}
+  - {id: bosnia,    name: Bosnia and Herzegovina, region: europe, also: [Bosnia, Bosnian, Bosnians, Sarajevo, Republika Srpska]}
+  - {id: montenegro, name: Montenegro,    region: europe, also: [Montenegrin, Podgorica]}
+  - {id: north-macedonia, name: North Macedonia, region: europe, also: [Macedonian, Skopje]}
+  - {id: albania,   name: Albania,        region: europe, also: [Albanian, Albanians, Tirana]}
+  - {id: bulgaria,  name: Bulgaria,       region: europe, also: [Bulgarian, Bulgarians]}
+  - {id: iceland,   name: Iceland,        region: europe, also: [Icelandic, Reykjavik]}
+  - {id: luxembourg, name: Luxembourg,    region: europe, also: [Luxembourgish]}
+  - {id: malta,     name: Malta,          region: europe, also: [Maltese, Valletta]}
+
+  # ── Middle East & North Africa ───────────────────────────────────────────
+  - {id: israel,    name: Israel,         region: mena, global: 1, regional: 1, also: [Israeli, Israelis, Tel Aviv, Knesset, IDF]}
+  - {id: iran,      name: Iran,           region: mena, global: 1, regional: 1, also: [Iranian, Iranians, Tehran, Islamic Republic, IRGC]}
+  - {id: palestine, name: Palestinian territories, region: mena, global: 2, regional: 1, also: [Palestine, Palestinian, Palestinians, Gaza, Gazans, West Bank, Ramallah]}
+  - {id: saudi-arabia, name: Saudi Arabia, region: mena, global: 2, regional: 1, also: [Saudi, Saudis, Riyadh, Jeddah]}
+  - {id: syria,     name: Syria,          region: mena, global: 2, regional: 1, also: [Syrian, Syrians, Damascus, Aleppo]}
+  - {id: lebanon,   name: Lebanon,        region: mena, global: 2, regional: 1, also: [Lebanese, Beirut, Hezbollah]}
+  - {id: iraq,      name: Iraq,           region: mena, global: 2, regional: 2, also: [Iraqi, Iraqis, Baghdad, Erbil, Kurdistan Region]}
+  - {id: yemen,     name: Yemen,          region: mena, global: 2, regional: 2, also: [Yemeni, Yemenis, Sanaa, Houthi, Houthis, Aden]}
+  - {id: egypt,     name: Egypt,          region: mena, global: 2, regional: 2, also: [Egyptian, Egyptians, Cairo]}
+  - {id: uae,       name: United Arab Emirates, region: mena, global: 2, regional: 2, also: [UAE, Emirati, Emiratis, Abu Dhabi, Dubai]}
+  - {id: qatar,     name: Qatar,          region: mena, global: 2, regional: 2, also: [Qatari, Doha]}
+  - {id: jordan,    name: Jordan,         region: mena, regional: 2, also: [Jordanian, Jordanians, Amman]}
+  - {id: libya,     name: Libya,          region: mena, regional: 2, also: [Libyan, Libyans, Benghazi]}
+  - {id: kuwait,    name: Kuwait,         region: mena, also: [Kuwaiti]}
+  - {id: bahrain,   name: Bahrain,        region: mena, also: [Bahraini, Manama]}
+  - {id: oman,      name: Oman,           region: mena, also: [Omani, Muscat]}
+  - {id: algeria,   name: Algeria,        region: mena, regional: 2, also: [Algerian, Algerians, Algiers, Algérie]}
+  - {id: morocco,   name: Morocco,        region: mena, regional: 2, also: [Moroccan, Moroccans, Rabat, Maroc]}
+  - {id: tunisia,   name: Tunisia,        region: mena, also: [Tunisian, Tunisians, Tunis, Tunisie]}
+  - {id: western-sahara, name: Western Sahara, region: mena, also: [Sahrawi, Polisario]}
+
+  # ── Sub-Saharan Africa ───────────────────────────────────────────────────
+  - {id: nigeria,   name: Nigeria,        region: africa, global: 2, regional: 1, also: [Nigerian, Nigerians, Abuja, Lagos]}
+  - {id: south-africa, name: South Africa, region: africa, global: 2, regional: 1, also: [South African, South Africans, Pretoria, Johannesburg, Cape Town]}
+  - {id: sudan,     name: Sudan,          region: africa, global: 2, regional: 1, also: [Sudanese, Khartoum, Darfur, El Fasher, Port Sudan]}
+  - {id: ethiopia,  name: Ethiopia,       region: africa, global: 2, regional: 1, also: [Ethiopian, Ethiopians, Addis Ababa, Tigray, Amhara]}
+  - {id: drc,       name: DR Congo,       region: africa, global: 3, regional: 1, also: [DRC, Democratic Republic of Congo, Democratic Republic of the Congo, Congo-Kinshasa, Congo, Kinshasa, Goma, RDC]}
+  - {id: kenya,     name: Kenya,          region: africa, regional: 1, also: [Kenyan, Kenyans, Nairobi]}
+  - {id: somalia,   name: Somalia,        region: africa, regional: 2, also: [Somali, Somalis, Mogadishu, al-Shabaab, Al-Shabaab, Somaliland]}
+  - {id: south-sudan, name: South Sudan,  region: africa, regional: 2, also: [South Sudanese, Juba]}
+  - {id: mali,      name: Mali,           region: africa, regional: 2, also: [Malian, Malians, Bamako]}
+  - {id: burkina-faso, name: Burkina Faso, region: africa, regional: 2, also: [Burkinabe, Burkinabè, Ouagadougou]}
+  - {id: niger,     name: Niger,          region: africa, regional: 2, also: [Nigerien, Niamey]}
+  - {id: chad,      name: Chad,           region: africa, regional: 2, also: [Chadian, N'Djamena, Tchad]}
+  - {id: cameroon,  name: Cameroon,       region: africa, regional: 2, also: [Cameroonian, Yaoundé, Yaounde, Cameroun]}
+  - {id: ghana,     name: Ghana,          region: africa, regional: 2, also: [Ghanaian, Ghanaians, Accra]}
+  - {id: senegal,   name: Senegal,        region: africa, regional: 2, also: [Senegalese, Dakar, Sénégal]}
+  - {id: ivory-coast, name: Côte d'Ivoire, region: africa, regional: 2, also: [Ivory Coast, Ivorian, Abidjan, "Cote d'Ivoire"]}
+  - {id: uganda,    name: Uganda,         region: africa, regional: 2, also: [Ugandan, Ugandans, Kampala]}
+  - {id: tanzania,  name: Tanzania,       region: africa, regional: 2, also: [Tanzanian, Dodoma, Dar es Salaam, Zanzibar]}
+  - {id: rwanda,    name: Rwanda,         region: africa, regional: 2, also: [Rwandan, Kigali]}
+  - {id: mozambique, name: Mozambique,    region: africa, regional: 2, also: [Mozambican, Maputo, Cabo Delgado]}
+  - {id: zimbabwe,  name: Zimbabwe,       region: africa, regional: 2, also: [Zimbabwean, Harare]}
+  - {id: eritrea,   name: Eritrea,        region: africa, also: [Eritrean, Asmara]}
+  - {id: djibouti,  name: Djibouti,       region: africa, also: [Djiboutian]}
+  - {id: burundi,   name: Burundi,        region: africa, also: [Burundian, Gitega, Bujumbura]}
+  - {id: car,       name: Central African Republic, region: africa, also: [Centrafrique, Bangui]}
+  - {id: congo,     name: Republic of the Congo, region: africa, also: [Republic of Congo, Congo-Brazzaville, Brazzaville]}
+  - {id: gabon,     name: Gabon,          region: africa, also: [Gabonese, Libreville]}
+  - {id: equatorial-guinea, name: Equatorial Guinea, region: africa, also: [Malabo]}
+  - {id: guinea,    name: Guinea,         region: africa, also: [Guinean, Conakry, Guinée]}
+  - {id: guinea-bissau, name: Guinea-Bissau, region: africa, also: [Bissau]}
+  - {id: sierra-leone, name: Sierra Leone, region: africa, also: [Sierra Leonean, Freetown]}
+  - {id: liberia,   name: Liberia,        region: africa, also: [Liberian, Monrovia]}
+  - {id: togo,      name: Togo,           region: africa, also: [Togolese, Lomé, Lome]}
+  - {id: benin,     name: Benin,          region: africa, also: [Beninese, Cotonou, Bénin]}
+  - {id: gambia,    name: Gambia,         region: africa, also: [Gambian, Banjul]}
+  - {id: mauritania, name: Mauritania,    region: africa, also: [Mauritanian, Nouakchott]}
+  - {id: angola,    name: Angola,         region: africa, also: [Angolan, Luanda]}
+  - {id: zambia,    name: Zambia,         region: africa, also: [Zambian, Lusaka]}
+  - {id: malawi,    name: Malawi,         region: africa, also: [Malawian, Lilongwe]}
+  - {id: namibia,   name: Namibia,        region: africa, also: [Namibian, Windhoek]}
+  - {id: botswana,  name: Botswana,       region: africa, also: [Gaborone]}
+  - {id: madagascar, name: Madagascar,    region: africa, also: [Malagasy, Antananarivo]}
+  - {id: lesotho,   name: Lesotho,        region: africa, also: [Maseru]}
+  - {id: eswatini,  name: Eswatini,       region: africa, also: [Swaziland]}
+  - {id: mauritius, name: Mauritius,      region: africa, also: [Mauritian]}
+  - {id: cabo-verde, name: Cabo Verde,    region: africa, also: [Cape Verde]}
+  - {id: comoros,   name: Comoros,        region: africa, also: [Comorian]}
+  - {id: seychelles, name: Seychelles,    region: africa, also: []}
+
+  # ── Asia & Pacific (including Central and South Asia) ────────────────────
+  - {id: china,     name: China,          region: asia, global: 1, regional: 1, also: [Chinese, Beijing, PRC, Xinjiang, Tibet]}
+  - {id: india,     name: India,          region: asia, global: 1, regional: 1, also: [Indian, Indians, New Delhi, Delhi, Mumbai]}
+  - {id: japan,     name: Japan,          region: asia, global: 1, regional: 1, also: [Japanese, Tokyo]}
+  - {id: taiwan,    name: Taiwan,         region: asia, global: 2, regional: 1, also: [Taiwanese, Taipei]}
+  - {id: north-korea, name: North Korea,  region: asia, global: 2, regional: 1, also: [North Korean, North Koreans, N. Korea, N. Korean, Pyongyang, DPRK]}
+  - {id: south-korea, name: South Korea,  region: asia, global: 2, regional: 1, also: [South Korean, South Koreans, S. Korea, S. Korean, Seoul, Korea, Korean]}
+  - {id: pakistan,  name: Pakistan,       region: asia, global: 2, regional: 1, also: [Pakistani, Pakistanis, Islamabad, Karachi, Lahore]}
+  - {id: afghanistan, name: Afghanistan,  region: asia, global: 2, regional: 2, also: [Afghan, Afghans, Kabul, Taliban]}
+  - {id: indonesia, name: Indonesia,      region: asia, global: 2, regional: 2, also: [Indonesian, Indonesians, Jakarta]}
+  - {id: australia, name: Australia,      region: asia, global: 2, regional: 2, also: [Australian, Australians, Canberra, Sydney, Melbourne, New South Wales]}
+  - {id: philippines, name: Philippines,  region: asia, regional: 2, also: [Philippine, Filipino, Filipinos, Manila]}
+  - {id: myanmar,   name: Myanmar,        region: asia, regional: 2, also: [Burma, Burmese, Naypyidaw, Yangon]}
+  - {id: bangladesh, name: Bangladesh,    region: asia, regional: 2, also: [Bangladeshi, Bangladeshis, Dhaka]}
+  - {id: vietnam,   name: Vietnam,        region: asia, regional: 2, also: [Vietnamese, Hanoi, Viet Nam]}
+  - {id: thailand,  name: Thailand,       region: asia, regional: 2, also: [Thai, Bangkok]}
+  - {id: malaysia,  name: Malaysia,       region: asia, regional: 2, also: [Malaysian, Malaysians, Kuala Lumpur]}
+  - {id: hong-kong, name: Hong Kong,      region: asia, regional: 2, also: []}
+  - {id: kazakhstan, name: Kazakhstan,    region: asia, regional: 2, also: [Kazakh, Kazakhs, Astana, Almaty]}
+  - {id: singapore, name: Singapore,      region: asia, also: [Singaporean, Singaporeans]}
+  - {id: cambodia,  name: Cambodia,       region: asia, also: [Cambodian, Phnom Penh]}
+  - {id: laos,      name: Laos,           region: asia, also: [Laotian, Vientiane]}
+  - {id: mongolia,  name: Mongolia,       region: asia, also: [Mongolian, Ulaanbaatar]}
+  - {id: sri-lanka, name: Sri Lanka,      region: asia, also: [Sri Lankan, Colombo]}
+  - {id: nepal,     name: Nepal,          region: asia, also: [Nepali, Nepalese, Kathmandu]}
+  - {id: bhutan,    name: Bhutan,         region: asia, also: [Bhutanese, Thimphu]}
+  - {id: maldives,  name: Maldives,       region: asia, also: [Maldivian, Malé]}
+  - {id: uzbekistan, name: Uzbekistan,    region: asia, also: [Uzbek, Tashkent]}
+  - {id: kyrgyzstan, name: Kyrgyzstan,    region: asia, also: [Kyrgyz, Bishkek]}
+  - {id: tajikistan, name: Tajikistan,    region: asia, also: [Tajik, Dushanbe]}
+  - {id: turkmenistan, name: Turkmenistan, region: asia, also: [Turkmen, Ashgabat]}
+  - {id: new-zealand, name: New Zealand,  region: asia, also: [New Zealander, New Zealanders, Auckland]}
+  - {id: papua-new-guinea, name: Papua New Guinea, region: asia, also: [Port Moresby]}
+  - {id: timor-leste, name: Timor-Leste,  region: asia, also: [East Timor, Dili]}
+  - {id: fiji,      name: Fiji,           region: asia, also: [Fijian, Suva]}
+  - {id: solomon-islands, name: Solomon Islands, region: asia, also: [Honiara]}
+  - {id: brunei,    name: Brunei,         region: asia, also: []}

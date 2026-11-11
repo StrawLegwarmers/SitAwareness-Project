@@ -1,0 +1,55 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Opinion and analysis vs. news reporting
+#
+# Every article gets a "kind": news, opinion or analysis.
+#   - Only NEWS goes to the AI, can be quoted in a report, and counts toward "N outlets reported this".
+#   - Opinion and analysis are still collected and shown, clearly labelled, in a separate
+#     "Opinion and analysis" block. They are never restated as fact.
+#
+# No AI decides this. It uses the outlet's OWN labels, checked in this order (first match wins):
+#   1. the source's setting in sources.yaml     kind: opinion | analysis | news
+#   2. the article's RSS categories             the outlet tagged it "Opinion"
+#   3. its web address                          .../opinion/..., .../commentisfree/...
+#   4. its headline                             "Analysis: ...", "... - opinion"
+#   5. the source type                          think tanks publish analysis
+# Anything that matches nothing is news.
+#
+# Measured on a day of 8,300 articles: about 3% were opinion or analysis (docs/collection.md).
+# Add a word when you spot a mislabelled piece; matching ignores upper/lower case.
+# ─────────────────────────────────────────────────────────────────────────────
+
+opinion:
+  # RSS category, the WHOLE category must match (so "Polls and public opinion" doesn't count)
+  tags: [opinion, opinions, opinión, opinião, opiniones, op-ed, oped, commentary, editorial, editorials,
+         editoriales, column, columns, columnist, columnists, columnas, chronique, chroniques, opinionistas,
+         "storytype:comment", "meinung, kommentare & kolumnen", letters to the editor]
+  # One folder of the web address, e.g. theguardian.com/commentisfree/2026/... (several languages)
+  url_parts: [opinion, opinions, commentisfree, op-ed, oped, ideas, editorial, editorials, comment, commentary,
+              column, columns, columnists, letters, opinion-analysis,
+              opinion-y-analisis, columnas, columnistas, editoriales, tribuna,       # Spanish
+              opiniao, coluna, colunas, colunistas,                                  # Portuguese
+              idees, tribunes, chroniques, debats,                                   # French
+              meinung, kommentar, kommentare,                                        # German
+              opinioni, commenti, editoriali,                                        # Italian
+              opinie, komentarze, felietony, yazarlar]                               # Polish, Turkish
+  headline_starts: ["Opinion:", "Opinion |", "Op-ed:", "Editorial:", "Commentary:", "Comment:", "Letters:",
+                    "[OPINION]", "[EDITORIAL]", "[COMMENTARY]", "Column:", "Opinión:", "Tribune:"]
+  headline_ends: [" - opinion", "| Opinion", "| Editorial", "(opinion)"]
+  headline_patterns: ['^the [^:]{2,40} view on ']      # newspaper editorials: "The Guardian view on ..."
+
+analysis:
+  tags: [analysis, news analysis, analysis and comment, explainer, explainers, timely commentary & analysis]
+  url_parts: [analysis, news-analysis, explainer, explainers, explained]
+  headline_starts: ["Analysis:", "Analysis |", "News analysis:", "Explainer:", "Explained:", "[ANALYSIS]",
+                    "CNA Explains:"]
+  headline_ends: ["| Analysis", " - analysis"]
+  headline_patterns: []
+
+# If an item ALSO carries one of these RSS categories, its categories are ignored (they contradict
+# each other) and the address and headline decide. Seen in practice: an interview tagged both
+# "News" and "Opinion".
+news_tags: [news, breaking news, latest news, world news, noticias, actualités, nachrichten]
+
+# Sources of these types publish analysis by default. A source can override with "kind: news".
+source_types:
+  think-tank: analysis

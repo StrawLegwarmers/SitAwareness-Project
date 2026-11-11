@@ -1,0 +1,16 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Manual corrections. When grouping goes wrong, fix it here instead of in code.
+# narratives.py applies these on every run, and logs what it changed in the audit.
+# Leaving an old rule in is harmless: once the story is clean (or archived) it does nothing.
+#
+# remove_country: take everything about a country OUT of a story it was wrongly mixed into.
+#   story:    the story's title as shown on the website (or its id)
+#   country:  the country's id in config/geo/countries.yaml
+# Removed are the articles and reports that mention that country and none of the countries in
+# the story's own title. They don't disappear: they show under the country on its region page,
+# and the next run can start a proper story for them.
+# ─────────────────────────────────────────────────────────────────────────────
+
+remove_country:
+  # A separate story was merged into this one by the duplicate check.
+  - {story: "Paraguay political and banking crisis", country: spain}

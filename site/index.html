@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Situational Awareness Project</title>
+  <meta name="description" content="Daily open-source collection: geopolitical and cyber reporting, grouped into stories, every line attributed.">
+  <meta name="robots" content="noindex">
+  <!-- Security policy: the browser may only load scripts, data and styles from this site itself.
+       Even if a malicious headline slipped through, it couldn't load or run outside code. -->
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <!-- Don't tell news sites which page the reader came from. -->
+  <meta name="referrer" content="no-referrer">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/theme.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <button type="button" id="menu" class="icon menu-btn" aria-label="Show pages" aria-expanded="false" aria-controls="sidebar">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <!-- The title: a radar that keeps sweeping, and letters that "decode" once (app.js) -->
+    <a class="brand" href="#/geo" aria-label="Situational Awareness Project, home">
+      <svg class="radar" viewBox="0 0 24 24" width="34" height="34" fill="none" aria-hidden="true">
+        <circle cx="12" cy="12" r="10.2" class="ring"/>
+        <circle cx="12" cy="12" r="5.6" class="ring dashed"/>
+        <path d="M12 1.8v20.4M1.8 12h20.4" class="cross"/>
+        <g class="sweep">
+          <path d="M12 12 L12 1.8 A10.2 10.2 0 0 1 19.2 4.8 Z" class="wedge"/>
+          <path d="M12 12 L12 1.8" class="beam"/>
+        </g>
+        <circle cx="16.4" cy="7.6" r="1.3" class="blip"/>
+      </svg>
+      <span id="brand-title" class="brand-title">Situational Awareness Project</span>
+    </a>
+    <div class="tools">
+      <div class="datenav" id="datenav">
+        <button type="button" id="prev" aria-label="Previous day">&#8249;</button>
+        <!-- A calendar: Pick one day, or several to combine into one view. -->
+        <button type="button" id="datebtn" class="datebtn" aria-haspopup="dialog" aria-expanded="false" aria-controls="calendar">…</button>
+        <button type="button" id="next" aria-label="Next day">&#8250;</button>
+      </div>
+      <div id="calendar" class="calendar" role="dialog" aria-label="Choose a day or several days" hidden></div>
+      <input type="search" id="search" placeholder="Search stories and headlines" aria-label="Search">
+      <button type="button" id="theme" class="icon" aria-label="Switch light or dark mode">&#9680;</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <!-- One sidebar for both sites and the reference pages. Built by app.js from each day's "pages". -->
+    <nav id="sidebar" class="sidebar" aria-label="Pages"></nav>
+    <div class="main">
+      <main id="view" class="page"><p class="muted">Loading…</p></main>
+      <footer class="footer">
+        <p><strong>How this works.</strong> Articles come from public RSS feeds. An AI model groups them into
+        stories and restates what each outlet reported. Every sentence cites its source and is checked by code
+        (numbers, names and wording must match the cited article). Original headlines are always listed.
+        This is a collection tool: verify at source before you rely on anything.
+        Opinion and analysis pieces are labelled by their outlets and kept apart from reporting.</p>
+        <p class="muted">Feeds for other tools:
+          <a href="feeds/geo.xml">Geopolitical RSS</a> ·
+          <a href="feeds/cyber.xml">Cyber RSS</a> ·
+          <a href="feeds/iocs.csv">IOCs (CSV, real values)</a> ·
+          <a href="feeds/vulnerabilities.csv">Vulnerabilities (CSV)</a>
+          · Icons: <a href="https://tabler.io/icons" target="_blank" rel="noopener noreferrer">Tabler Icons</a> (MIT licence)</p>
+        <p id="footer-stats" class="muted"></p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

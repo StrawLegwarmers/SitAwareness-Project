@@ -1,0 +1,152 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Industry sections: the "Industry intelligence" page on the Cyber site.
+#
+# Each industry picks out items from EVERY source (cyber and geopolitical) using word lists:
+#   topic:         words that mean "this is about the industry"
+#   concern:       words that mean "this is a security, safety or disruption issue"
+#                  (the shared list below, plus the industry's own "also_concern")
+#   exclude:       phrases that contain a topic word but aren't about the industry
+#   cyber_headline: true = for cyber sources too, the topic word must be IN THE HEADLINE.
+#                  Needed for broad industries: almost every cyber article mentions software.
+# Rules (plain code, no AI):
+#   - Cyber news and research:   a topic word anywhere is enough (they're already about security)
+#   - Everything else:           a topic word IN THE HEADLINE, and a concern word anywhere
+#   - Vendor advisories are left out (thousands of one-line bulletins, already on the
+#     IOCs and vulnerabilities page)
+# Words in ALL CAPITALS (FAA, NHS) only match in capitals; everything else ignores case.
+# Add an industry by copying a block: it appears on the Industry intelligence page with its own
+# heading and button. An item can belong to several industries (a hospital's software supplier).
+# ─────────────────────────────────────────────────────────────────────────────
+
+# The concern words every industry shares.
+concern: [cyber, cyberattack, cyberattacks, cyber attack, hack, hacked, hacker, hackers, ransomware, breach,
+          data breach, data leak, leak, leaked, outage, outages, IT failure, system failure, attack, attacks,
+          drone, drones, jamming, spoofing, phishing, DDoS, threat, threats, security, sabotage, closed, closure,
+          evacuated, evacuation, bomb, explosion, blast, fire, missile, strike, strikes, shutdown, disruption,
+          disrupted, espionage, spy, malware, vulnerability, exploit, extortion, stolen, theft, fraud, scam,
+          sanctions, sanctioned, seized, seizure, raid, arrested, shortage, collapse, crash]
+
+industries:
+  - id: aviation
+    name: Aviation and air transport     # airlines, airports, air traffic, aerospace makers
+    topic: [airline, airlines, airliner, airliners, airport, airports, aviation, aerospace, aircraft,
+            air traffic, air traffic control, airspace, air navigation, flight, flights, runway, airfield,
+            NOTAM, FAA, EASA, ICAO, IATA, NATS, TSA, Eurocontrol, Boeing, Airbus, Embraer, Bombardier,
+            Rolls-Royce, GE Aerospace, Pratt & Whitney, Collins Aerospace, SITA, Lockheed Martin,
+            Ryanair, Lufthansa, British Airways, Air France, KLM, easyJet, Wizz Air, Turkish Airlines,
+            Qatar Airways, Singapore Airlines, Cathay Pacific, Qantas, Aeroflot, Air India,
+            Delta Air Lines, United Airlines, American Airlines, Southwest Airlines, JetBlue, Alaska Airlines]
+    also_concern: [GPS, crash, emergency landing, grounded, hijack, hijacked, shot down]
+    exclude: [aircraft carrier, aircraft carriers, anti-aircraft, military aircraft, fighter aircraft]
+
+  - id: finance
+    name: Finance                        # banks, payments, insurance, markets, crypto
+    topic: [bank, banks, banking, central bank, fintech, payments, payment processor, payment system,
+            credit card, credit cards, debit card, ATM, ATMs, SWIFT, stock exchange, stock market, crypto,
+            cryptocurrency, cryptocurrencies, crypto exchange, bitcoin, stablecoin, DeFi, insurer, insurers,
+            insurance, reinsurance, asset manager, hedge fund, brokerage, financial services,
+            financial institution, financial institutions, Visa, Mastercard, PayPal, Stripe, JPMorgan,
+            Goldman Sachs, Morgan Stanley, Citigroup, HSBC, Barclays, Deutsche Bank, BNP Paribas, Santander,
+            UBS, Wells Fargo, Bank of America, Coinbase, Binance, money laundering]
+    also_concern: [heist, laundering, default, insolvency, bankruptcy, run on, frozen, freeze]
+    cyber_headline: true
+    exclude: [West Bank, World Bank, food bank, food banks, blood bank, river bank, bank holiday, data bank,
+              memory bank, piggy bank]
+
+  - id: logistics
+    name: Logistics and transportation   # shipping, ports, rail, road freight, postal, public transport
+    topic: [shipping, shipping line, container ship, container ships, cargo, freight, logistics, port, ports,
+            harbour, harbor, maritime, vessel, vessels, oil tanker, oil tankers, LNG tanker, bulk carrier, Maersk, MSC, CMA CGM,
+            Hapag-Lloyd, COSCO, Suez Canal, Panama Canal, Strait of Hormuz, Red Sea shipping, rail, railway,
+            railways, rail network, freight train, passenger train, train crash, train drivers, train strike,
+            derailment, trucking, lorry, lorries, haulage, supply chain, supply chains, courier, parcel, parcels,
+            postal, Royal Mail, FedEx, UPS, DHL, USPS, metro, subway, public transport, transit system]
+    also_concern: [blockade, hijack, hijacked, piracy, pirates, Houthi, Houthis, collision, derailed,
+                   sank, sinking, delays, GPS, port closure]
+    exclude: [Port Sudan, Port-au-Prince, Port Moresby, Port Harcourt, Port Louis, Port Said, Port Vila,
+              shadow fleet]
+    cyber_headline: true
+
+  - id: food
+    name: Food and beverage              # producers, drinks, supermarkets, restaurants, agriculture
+    topic: [food, foods, food safety, food supply, food prices, food maker, beverage, beverages, drinks maker,
+            brewery, brewer, brewers, dairy, meat, poultry, grain, grains, wheat, rice, sugar, cocoa, coffee,
+            fertiliser, fertilizer, restaurant, restaurants, fast food, supermarket, supermarkets, grocery,
+            groceries, grocer, Nestlé, Nestle, PepsiCo, Coca-Cola, Unilever, Danone, Kraft Heinz, Mondelez,
+            JBS, Tyson Foods, Cargill, McDonald's, Starbucks, Ahold Delhaize, Tesco, Carrefour, Lidl, Aldi]
+    also_concern: [contamination, contaminated, recall, recalled, outbreak, salmonella, listeria, E. coli,
+                   poisoning, export ban, refrigerator, refrigeration]
+    exclude: [food aid, food assistance, food parcels, food bank, food banks, food insecurity, food for thought,
+              energy drink, energy drinks]
+
+  - id: manufacturing
+    name: Industrial manufacturing       # factories, steel, chemicals, automotive, semiconductors, OT
+    topic: [manufacturing, manufacturer, manufacturers, factory, factories, manufacturing plant, chemical plant,
+            steel plant, steelmaker, steel, aluminium, aluminum, chemicals, petrochemical, automotive, carmaker,
+            carmakers, automaker, automakers, auto parts, semiconductor, semiconductors, chipmaker, chipmakers,
+            industrial control, industrial control systems, ICS, SCADA, OT, PLC, PLCs, Siemens,
+            Schneider Electric, Rockwell, Honeywell, Bosch, Volkswagen, Toyota, Stellantis, BMW, Mercedes-Benz,
+            Renault, Hyundai, TSMC, Foxconn, Jaguar Land Rover, JLR, Nissan, Tesla, defence contractor,
+            defense contractor, arms maker, arms makers]
+    also_concern: [production halt, halted, halts production, recall]
+    exclude: [Internet Connection Sharing]
+
+  - id: communications
+    name: Communication services         # telecoms, mobile, internet providers, cables, satellites
+    topic: [telecom, telecoms, telecommunications, telco, telcos, mobile operator, mobile operators,
+            network operator, wireless carrier, ISP, ISPs, internet provider, internet service provider,
+            broadband, mobile network, mobile networks, 5G, undersea cable, subsea cable, submarine cable,
+            internet cable, satellite internet, satellite operator, satellite communications, Starlink, internet outage, internet shutdown,
+            internet blackout, phone network, SIM swap, SIM swapping, SMS, Vodafone, Telefónica, Telefonica,
+            Deutsche Telekom, T-Mobile, Verizon, AT&T, BT Group, China Mobile, China Telecom, China Unicom,
+            MTN, Airtel, Safaricom, Ericsson, Nokia, Huawei, ZTE, Salt Typhoon, Cloudflare, DNS]
+    also_concern: [cut, severed, damaged]
+    exclude: []
+    cyber_headline: true
+
+  - id: energy
+    name: Energy                         # oil, gas, power grids, nuclear, renewables, utilities
+    topic: [energy, oil, crude, natural gas, LNG, gas field, oil field, pipeline, pipelines, refinery, refineries,
+            power grid, grid, electricity, power plant, power plants, power station, power outage, blackout,
+            blackouts, substation, substations, nuclear plant, nuclear power, utility, utilities,
+            solar farm, wind farm, offshore wind, hydropower, OPEC, Aramco, Gazprom, Rosneft, Lukoil, Shell,
+            BP, ExxonMobil, Exxon, Chevron, TotalEnergies, Equinor, Eni, Nord Stream, Druzhba,
+            energy infrastructure, Zaporizhzhia nuclear]
+    also_concern: [outage, outages, blackout, rolling blackouts, leak]
+    exclude: [energy drink, energy drinks, web shell, webshell, reverse shell, shell company, shell companies,
+              shell script, CI/CD pipeline, build pipeline, data pipeline, talent pipeline, tear gas, nerve gas,
+              grid search]
+    cyber_headline: true
+
+  - id: healthcare
+    name: Healthcare                     # hospitals, health systems, pharma, medical devices, insurers
+    topic: [hospital, hospitals, healthcare, health care, health system, health service, NHS, clinic, clinics,
+            patient, patients, patient data, medical records, medical, pharma, pharmaceutical, pharmaceuticals,
+            pharmacy, pharmacies, drugmaker, drug maker, biotech, health insurer, health insurance,
+            medical device, medical devices, Pfizer, Moderna, AstraZeneca, Novartis, Roche,
+            Johnson & Johnson, Merck, Sanofi, GSK, Bayer, UnitedHealth, Change Healthcare, Kaiser Permanente,
+            ambulance, ambulances]
+    also_concern: [outbreak, epidemic, cholera, Ebola, recall]
+    # "died in hospital" is about a person, not the health system
+    exclude: [in hospital, to hospital, from hospital, hospitalised, hospitalized, heart attack, panic attack]
+    cyber_headline: true
+
+  - id: services
+    name: Professional services          # consulting, audit and accounting (Big Four), legal
+    topic: [consulting, consultancy, consultancies, consulting firm, consultant, consultants, auditor, auditors,
+            audit firm, accounting firm, accountancy, Deloitte, PwC, EY, Ernst & Young, KPMG, Big Four,
+            McKinsey, Accenture, Boston Consulting Group, BCG, Bain, Capgemini, law firm, law firms,
+            legal services, outsourcing, outsourcer, professional services, staffing firm, recruitment firm]
+    also_concern: []
+    exclude: []
+
+  - id: it
+    name: IT and software                # software makers, cloud, IT service providers, chips, AI firms
+    topic: [software, SaaS, cloud provider, cloud service, cloud services, data center, data centre, data centers,
+            IT provider, IT services, MSP, MSPs, managed service provider, software vendor, software supply chain,
+            open source, npm, PyPI, GitHub, GitLab, Microsoft, Google, Apple, Oracle, SAP, Salesforce, Atlassian,
+            Cisco, Fortinet, Palo Alto Networks, Ivanti, Citrix, VMware, Broadcom, Okta, Snowflake, CrowdStrike,
+            AWS, Azure, Google Cloud, IBM, Dell, HPE, Intel, AMD, Nvidia, OpenAI, tech company, tech firm, tech giant]
+    also_concern: [zero-day, patch, patched, supply chain attack, backdoor]
+    exclude: []
+    cyber_headline: true

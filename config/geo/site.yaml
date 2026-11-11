@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# GEO site settings: how the AI should think about this site.
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Geopolitical Daily
+
+# What counts as a story here, and what to skip. These lines go straight into the AI prompt.
+focus: >-
+  geopolitics, armed conflict, diplomacy, elections and political crises, security,
+  sanctions and economic shocks, migration, and humanitarian emergencies
+ignore: >-
+  sports, entertainment, celebrity, lifestyle, horoscopes, adverts, routine local crime,
+  and weather (unless it is a disaster)
+
+# One AI call per group per run. Articles go to the group whose id matches their 'region'.
+# Add a region to sources.yaml and a line here, and the site gets a new section.
+#
+# ORDER MATTERS: groups run top to bottom, and every group can continue any story already
+# tracked. Regions go first so they "claim" their stories; Global runs last, so global outlets
+# add to those stories instead of creating duplicates. What's left in Global is cross-regional
+# news or places with no section of their own (Latin America, Oceania...).
+groups:
+  - {id: namerica, name: North America}
+  - {id: latam,    name: Latin America & Caribbean}
+  - {id: europe,   name: Europe}
+  - {id: mena,     name: Middle East & North Africa}
+  - {id: africa,   name: Africa}
+  - {id: asia,     name: Asia & Pacific}
+  - {id: global,   name: Global}
+
+# The sidebar. Pages are shown in THIS order (the groups above keep their own
+# order, which only matters to the AI). "show" lists what each page contains, top to bottom:
+#   bluf      Bottom line up front           top         Most reported (cards)
+#   regions   every region at a glance       countries   countries in the news, hotspots first
+#   group:<id>  one region: its stories by country (config/geo/countries.yaml), plus its
+#               opinion and analysis pieces
+# "icon" is the picture in the sidebar: dashboard, world, europe, north-america, asia, mena,
+# latin-america, africa, brief, briefcase, plane, fingerprint, flask, broadcast, tool, rss, link
+# (see ICONS in app.js).
+# Ids may only use a-z, 0-9 and "-".
+pages:
+  - {id: overview, name: Overview,                    icon: dashboard,     show: [bluf, top, countries, regions]}
+  - {id: global,   name: Global,                      icon: world,         show: [group:global]}
+  - {id: europe,   name: Europe,                      icon: europe,        show: [group:europe]}
+  - {id: namerica, name: North America,               icon: north-america, show: [group:namerica]}
+  - {id: asia,     name: Asia & Pacific,              icon: asia,          show: [group:asia]}
+  - {id: mena,     name: Middle East & North Africa,  icon: mena,          show: [group:mena]}
+  - {id: latam,    name: Latin America & Caribbean,   icon: latin-america, show: [group:latam]}
+  - {id: africa,   name: Africa,                      icon: africa,        show: [group:africa]}
+
+# Weekend catch-up: on these weekdays the brief covers more than one day.
+# monday: 4  =  Friday, Saturday, Sunday and Monday, so nothing from the weekend is missed.
+# Add e.g. "tuesday: 2" after a bank holiday, or delete the line to turn it off.
+# Keep expire_days (below) longer than the longest catch-up, so stories are still tracked.
+catch_up_days:
+  monday: 4
+
+# Housekeeping: daily briefs older than this many days are removed from the website.
+# Git keeps every old version in its history, so they can always be recovered.
+keep_days: 365
+
+max_narratives: 10   # per group per run
+expire_days: 6       # a narrative with no new reporting for this many days is archived

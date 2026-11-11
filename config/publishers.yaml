@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Publishers: several feeds from ONE news organisation count as ONE outlet.
+#
+# Without this, a story covered by "BBC World" and "BBC Africa" would show as
+# "2 outlets", inflating the ranking and hiding single-source stories.
+# Format:  Publisher name: [source names from sources.yaml]
+# A source that isn't listed here counts as its own publisher.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Geopolitical
+BBC: [BBC World, BBC Europe, BBC Middle East, BBC Africa, BBC Israel-Gaza, BBC Pidgin, BBC News,
+      BBC Latin America, BBC US & Canada, BBC Asia]
+The Guardian: [The Guardian World, The Guardian Europe, The Guardian Middle East, The Guardian Africa,
+               The Guardian Iran, The Guardian UK, The Guardian US, The Guardian]
+New York Times: [New York Times World, NYT Europe, NYT Middle East, NYT Africa, NYT Americas,
+                 NYT Asia Pacific, NYT US, The New York Times]
+France 24: [France 24, France 24 Europe, France 24 Middle East, France 24 Africa]
+RFI: [RFI English, RFI Afrique]
+ABC Australia: [ABC Australia, ABC Australia World]
+El País: [El País (English), El País (Spanish)]
+Politico: [Politico, Politico Europe]
+Al Jazeera: [Al Jazeera, Al Jazeera English]
+Associated Press: [Associated Press, AP News, AP]
+Reuters: [Reuters]
+Atlantic Council: [Atlantic Council Europe & Eurasia, Atlantic Council Middle East, Atlantic Council Africa, DFRLab]
+
+# Cyber
+The Register: [The Register Security, The Register]
+CISA: [CISA Advisories, CISA Analysis Reports, CISA ICS Advisories, CISA Alerts, CISA News]
+Microsoft: [Microsoft Threat Intelligence, Microsoft Security Blog, Microsoft MSRC]
+Cisco: [Cisco Talos, Cisco Security Blog, Cisco Security Advisories]
+Kaspersky: [Kaspersky Securelist, Kaspersky Blog]
+Google: [Google Threat Intelligence, Google Project Zero, Chrome Releases]
+AlmaLinux: [AlmaLinux 8 Errata, AlmaLinux 9 Errata]
+CXSecurity: [CXSecurity Vulnerabilities, CXSecurity Exploits]

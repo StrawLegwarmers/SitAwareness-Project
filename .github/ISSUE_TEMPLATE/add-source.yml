@@ -1,0 +1,59 @@
+# The "Add a source" form. The "Manage sources" workflow reads it and does the rest.
+name: Add a source
+description: Add an RSS feed, or a website (the robot looks for its feed).
+title: "Add source: "
+labels: [source]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The robot downloads the feed to check it works, adds it to the right `sources.yaml` and replies here.
+        Only requests from the repository's owner are acted on.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: How it should appear on the site.
+      placeholder: Balkan Insight
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Feed or website address
+      description: The RSS feed if you know it; otherwise the website, and the robot will look for the feed.
+      placeholder: https://balkaninsight.com
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Region (geopolitical) or section (cyber)
+      options:
+        - Global
+        - Europe
+        - North America
+        - Asia & Pacific
+        - Middle East & North Africa
+        - Latin America & Caribbean
+        - Africa
+        - "Cyber: news"
+        - "Cyber: vendor research (intel)"
+        - "Cyber: aviation"
+        - "Cyber: advisories"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type (geopolitical only)
+      options: [regional, international, local, wire, specialist, think-tank, state-media, government]
+  - type: input
+    id: lang
+    attributes:
+      label: Language code
+      description: en, es, fr, de... Leave empty for English.
+  - type: textarea
+    id: note
+    attributes:
+      label: Note (optional)

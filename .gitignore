@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+/data/
+
+# Machine feeds hold REFANGED (real) IOC values. Published, never committed.
+/site/feeds/

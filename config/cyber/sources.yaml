@@ -1,0 +1,129 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# CYBER sources: every feed the Cyber site reads.
+#
+# Mainstream cyber news outlets, government advisories and vendor threat
+# research blogs, plus aviation trade press. Each feed URL was tested.
+#
+# HOW TO ADD A SOURCE: same as geo/sources.yaml (see the top of that file).
+#
+# FIELDS
+#   name, feed, lang, enabled, note: same meaning as in geo/sources.yaml
+#   section  Which page the source mainly feeds:
+#              news       -> Global intelligence (cyber news outlets)
+#              intel      -> Vendor intelligence (original research)
+#              aviation   -> Industry intelligence: aviation trade press
+#              advisories -> IOCs and vulnerabilities: advisories and bulletins (a plain list; NOT sent to the AI)
+#            Narratives are built from ALL sections together.
+#
+# IOC sources (CISA KEV, Feodo Tracker, ThreatFox) are not RSS: see pipeline/indicators.py.
+# ─────────────────────────────────────────────────────────────────────────────
+
+sources:
+
+  # ── Cyber news ────────────────────────────────────────────────────────────
+  - {name: BleepingComputer,      feed: "https://www.bleepingcomputer.com/feed/",           section: news, lang: en}
+  - {name: The Hacker News,       feed: "https://feeds.feedburner.com/TheHackersNews",      section: news, lang: en}
+  - {name: Infosecurity Magazine, feed: "https://www.infosecurity-magazine.com/rss/news/",  section: news, lang: en}
+  - {name: The Register Security, feed: "https://www.theregister.com/security/headlines.atom", section: news, lang: en}
+  - {name: Security Affairs,      feed: "https://securityaffairs.com/feed",                 section: news, lang: en}
+  - {name: The Record,            feed: "https://therecord.media/feed",                     section: news, lang: en}
+  - {name: Dark Reading,          feed: "https://www.darkreading.com/rss.xml",              section: news, lang: en}
+  - {name: SecurityWeek,          feed: "https://www.securityweek.com/feed/",               section: news, lang: en}
+  - {name: Krebs on Security,     feed: "https://krebsonsecurity.com/feed/",                section: news, lang: en}
+  - {name: CyberScoop,            feed: "https://cyberscoop.com/feed/",                     section: news, lang: en}
+
+  # ── Global Intelligence (government advisories + vendor research) ─────────
+  # CISA blocks some cloud servers. If the checker shows HTTP 403, it's the network, not the URL.
+  - {name: CISA Advisories,       feed: "https://www.cisa.gov/cybersecurity-advisories/cybersecurity-advisories.xml", section: intel, lang: en, note: "may 403 from cloud IPs"}
+  - {name: CISA Analysis Reports, feed: "https://www.cisa.gov/cybersecurity-advisories/analysis-reports.xml",        section: intel, lang: en, note: "may 403 from cloud IPs"}
+  - {name: Cisco Talos,           feed: "https://blog.talosintelligence.com/rss/",          section: intel, lang: en}
+  - {name: Unit 42 (Palo Alto),   feed: "https://unit42.paloaltonetworks.com/feed/",        section: intel, lang: en}
+  - {name: Microsoft Threat Intelligence, feed: "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/feed/", section: intel, lang: en}
+  - {name: Google Threat Intelligence, feed: "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/", section: intel, lang: en}
+  - {name: ESET WeLiveSecurity,   feed: "https://www.welivesecurity.com/en/rss/feed/",      section: intel, lang: en}
+  - {name: Kaspersky Securelist,  feed: "https://securelist.com/feed/",                     section: intel, lang: en}
+  - {name: Check Point Research,  feed: "https://research.checkpoint.com/feed/",            section: intel, lang: en}
+  - {name: Proofpoint Threat Insight, feed: "https://www.proofpoint.com/us/threat-insight-blog.xml", section: intel, lang: en}
+  - {name: Sophos X-Ops,          feed: "https://www.sophos.com/en-us/category/threat-research/feed", section: intel, lang: en}
+  - {name: SentinelLabs,          feed: "https://www.sentinelone.com/labs/feed/",           section: intel, lang: en}
+  - {name: Recorded Future Research, feed: "https://www.recordedfuture.com/feed",           section: intel, lang: en}
+  - {name: The DFIR Report,       feed: "https://thedfirreport.com/feed/",                  section: intel, lang: en}
+
+  # ── Industry: Aviation, Airline & Aerospace ───────────────────────────────
+  # Trade press covers the whole industry; the pipeline keeps the security-relevant items.
+  # The Google News search feed catches aviation cyber stories from any outlet.
+  - {name: "Google News: aviation cyber", feed: "https://news.google.com/rss/search?q=(airline+OR+airport+OR+aviation+OR+aerospace)+(cyberattack+OR+ransomware+OR+breach+OR+hackers)&hl=en-US&gl=US&ceid=US:en", section: aviation, lang: en, note: "search feed: edit the q= words to tune it"}
+  - {name: FlightGlobal,          feed: "https://www.flightglobal.com/feed/",               section: aviation, lang: en}
+  - {name: AeroTime,              feed: "https://www.aerotime.aero/feed",                   section: aviation, lang: en}
+  - {name: Simple Flying,         feed: "https://simpleflying.com/feed/",                   section: aviation, lang: en}
+  - {name: Airport Technology,    feed: "https://www.airport-technology.com/feed/",         section: aviation, lang: en}
+
+  # ── On file but not fetched ───────────────────────────────────────────────
+  - {name: Aviation Week,         feed: "https://aviationweek.com/rss.xml",                 section: aviation, lang: en, enabled: false, note: "feed stopped updating in March 2026"}
+  - {name: The Aviation Herald,   site: "https://avherald.com/", site_only: true,           section: aviation, enabled: false, note: "no RSS found"}
+
+  # ════ Added November 2026 ════════════════════════════════════════════════
+
+  # ── Cyber news ──
+  - {name: Help Net Security, feed: "https://www.helpnetsecurity.com/feed/", section: news, lang: en}
+  - {name: Security Magazine, feed: "https://www.securitymagazine.com/rss/topic/2788-cyber-security", section: news, lang: en}
+  - {name: ComputerWeekly Security, feed: "https://www.computerweekly.com/rss/IT-security.xml", section: news, lang: en}
+  - {name: IT Security Guru, feed: "https://www.itsecurityguru.org/feed/", section: news, lang: en}
+  - {name: WIRED Security, feed: "https://www.wired.com/feed/category/security/latest/rss", section: news, lang: en}
+  - {name: The Guardian Data and computer security, feed: "https://www.theguardian.com/technology/data-computer-security/rss", section: news, lang: en}
+  - {name: ZDNet Security, feed: "https://www.zdnet.com/topic/security/rss.xml", section: news, lang: en}
+  - {name: Gizmodo Security, feed: "https://gizmodo.com/tag/security/feed", section: news, lang: en}
+  - {name: Latest Hacking News, feed: "https://latesthackingnews.com/feed/", section: news, lang: en}
+  - {name: Darknet, feed: "https://www.darknet.org.uk/feed/", section: news, lang: en}
+  - {name: Homeland Security Newswire, feed: "https://news.google.com/rss/search?q=site:homelandsecuritynewswire.com&hl=en-US&gl=US&ceid=US:en", section: news, lang: en, note: "via Google News"}
+  - {name: Cybersecurity News, feed: "https://cybersecuritynews.com/feed/", section: news, lang: en}
+  - {name: Schneier on Security, feed: "https://www.schneier.com/feed/atom/", section: news, lang: en}
+  - {name: Graham Cluley, feed: "https://grahamcluley.com/feed/", section: news, lang: en}
+  - {name: Troy Hunt, feed: "https://www.troyhunt.com/rss/", section: news, lang: en}
+
+  # ── Global Intelligence ──
+  - {name: Cisco Security Blog, feed: "https://blogs.cisco.com/security/feed", section: intel, lang: en}
+  - {name: Kaspersky Blog, feed: "https://www.kaspersky.com/blog/feed/", section: intel, lang: en}
+  - {name: Malwarebytes Labs, feed: "https://www.malwarebytes.com/blog/feed/index.xml", section: intel, lang: en}
+  - {name: CrowdStrike Blog, feed: "https://www.crowdstrike.com/en-us/blog/feed", section: intel, lang: en}
+  - {name: FortiGuard Labs, feed: "https://feeds.fortinet.com/fortinet/blog/threat-research", section: intel, lang: en}
+  - {name: Flashpoint, feed: "https://flashpoint.io/blog/feed/", section: intel, lang: en}
+  - {name: Microsoft Security Blog, feed: "https://www.microsoft.com/en-us/security/blog/feed/", section: intel, lang: en}
+  - {name: Qualys Security Blog, feed: "https://blog.qualys.com/feed", section: intel, lang: en}
+  - {name: Heimdal Security Blog, feed: "https://heimdalsecurity.com/blog/feed/", section: intel, lang: en}
+  - {name: Google Project Zero, feed: "https://projectzero.google/feed.xml", section: intel, lang: en}
+  - {name: CISA ICS Advisories, feed: "https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml", section: intel, lang: en}
+  - {name: CISA Alerts, feed: "https://www.cisa.gov/cybersecurity-advisories/alerts.xml", section: intel, lang: en}
+  - {name: CISA News, feed: "https://www.cisa.gov/news.xml", section: intel, lang: en}
+  - {name: SANS Internet Storm Center, feed: "https://isc.sans.edu/rssfeed_full.xml", section: intel, lang: en}
+
+  # ── Vulnerabilities and advisories (shown as lists, not sent to the AI) ──
+  - {name: CERT/CC Vulnerability Notes, feed: "https://kb.cert.org/vuls/atomfeed/", section: advisories, lang: en}
+  - {name: MS-ISAC Advisories, feed: "https://www.cisecurity.org/feed/advisories", section: advisories, lang: en}
+  - {name: JVN (Japan), feed: "https://jvn.jp/en/rss/jvn.rdf", section: advisories, lang: en}
+  - {name: Microsoft MSRC, feed: "https://api.msrc.microsoft.com/update-guide/rss", section: advisories, lang: en}
+  - {name: Cisco Security Advisories, feed: "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml", section: advisories, lang: en}
+  - {name: Chrome Releases, feed: "http://feeds.feedburner.com/GoogleChromeReleases", section: advisories, lang: en}
+  - {name: Oracle Security Alerts, feed: "https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml", section: advisories, lang: en}
+  - {name: Jenkins Security Advisories, feed: "https://www.jenkins.io/security/advisories/rss.xml", section: advisories, lang: en}
+  - {name: Elastic Security Announcements, feed: "https://discuss.elastic.co/c/announcements/security-announcements/31.rss", section: advisories, lang: en}
+  - {name: Splunk Security Advisories, feed: "https://advisory.splunk.com/feed.xml", section: advisories, lang: en}
+  - {name: Acronis Security Advisories, feed: "https://security-advisory.acronis.com/feed", section: advisories, lang: en}
+  - {name: AlmaLinux 8 Errata, feed: "https://errata.almalinux.org/8/errata.rss", section: advisories, lang: en}
+  - {name: AlmaLinux 9 Errata, feed: "https://errata.almalinux.org/9/errata.rss", section: advisories, lang: en}
+  - {name: Full Disclosure, feed: "https://seclists.org/rss/fulldisclosure.rss", section: advisories, lang: en}
+  - {name: Exploit-DB, feed: "https://www.exploit-db.com/rss.xml", section: advisories, lang: en}
+  - {name: CXSecurity Vulnerabilities, feed: "https://cxsecurity.com/wlb/rss/vulnerabilities/", section: advisories, lang: en}
+  - {name: CXSecurity Exploits, feed: "https://cxsecurity.com/wlb/rss/exploit/", section: advisories, lang: en}
+
+  # ── Added but not fetched (no usable feed) ──
+  - {name: Trend Micro Research, site: "https://www.trendmicro.com/en_us/research.html", site_only: true, section: intel, lang: en, enabled: false, note: "no working feed"}
+  - {name: Talos Vulnerability Reports, site: "https://talosintelligence.com/vulnerability_reports.rss", site_only: true, section: advisories, lang: en, enabled: false, note: "no separate feed (covered by Cisco Talos)"}
+  - {name: Apple Security Updates, site: "https://support.apple.com/en-us/100100", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: Android Security Bulletins, site: "https://source.android.com/docs/security/bulletin", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: Adobe Security Bulletins, site: "https://helpx.adobe.com/security.html", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: Dell Security Advisories, site: "https://www.dell.com/support/security/en-us", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: HP Security Bulletins, site: "https://support.hp.com/us-en/security-bulletins", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: NVIDIA Product Security, site: "https://www.nvidia.com/en-us/security/", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: Zoom Security Bulletin, site: "https://www.zoom.com/en/trust/security-bulletin/", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS"}
+  - {name: GitHub Advisory Database, site: "https://github.com/advisories", site_only: true, section: advisories, lang: en, enabled: false, note: "no RSS (has an API)"}

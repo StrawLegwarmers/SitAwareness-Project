@@ -1,0 +1,33 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Machine-readable feeds, for OpenCTI or any tool that reads RSS or CSV.
+#
+# Written by pipeline/export.py into site/feeds/ and published with the website, so a tool
+# can PULL them on a schedule. Nothing here needs a key, and the website holds no keys:
+# your OpenCTI instance fetches from the site, the site never connects to OpenCTI.
+#
+#   site/feeds/geo.xml, cyber.xml   RSS: one item per story per day it had new reporting
+#                                   (OpenCTI: RSS Feed -> each item becomes a Report)
+#   site/feeds/iocs.csv             indicators from the last few days, REFANGED (real values)
+#                                   (OpenCTI: CSV Feed + a CSV mapper, see docs/feeds-and-opencti.md)
+#   site/feeds/vulnerabilities.csv  CISA KEV additions and CVEs in the news
+#   site/feeds/cyber-stix.json      both of the above as a STIX 2.1 bundle
+#
+# site/feeds/ is rebuilt on every run and is NOT committed to Git (.gitignore), so real IOC
+# values never sit in the repo's history. They are still public on the website: that's how
+# a pull feed works. The website pages themselves keep showing them defanged.
+# ─────────────────────────────────────────────────────────────────────────────
+
+rss: true
+rss_days: 3              # stories with new reporting in the last N days
+
+iocs_csv: true
+ioc_days: 3              # indicators first seen in the last N days
+# Which kinds go into iocs.csv. "url" is left out by default: a refanged URL is a working
+# link to something malicious. Add it if your tool needs URLs and you're comfortable with that.
+ioc_types: [sha256, sha1, md5, ip, ip:port, domain]
+
+vulnerabilities_csv: true
+
+# The indicators and vulnerabilities above as one STIX 2.1 bundle (site/feeds/cyber-stix.json),
+# the standard threat-intelligence format. OpenCTI imports it as a file (Data > Import).
+stix: true

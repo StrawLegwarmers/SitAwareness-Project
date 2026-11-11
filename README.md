@@ -1,0 +1,90 @@
+# Situational Awareness Project
+
+An open-source collection tool for geopolitical and cyber threat analysts. Every morning it reads
+about 330 public RSS feeds, groups the articles into running **stories**, and publishes a daily brief
+as a static website, plus feeds that threat-intelligence platforms such as OpenCTI can ingest.
+
+It reports what outlets **reported**, nothing more. An AI model only groups articles and restates
+single reported facts with a citation; code checks every sentence against the article it cites and
+removes what doesn't match. Opinion and analysis pieces are labelled and kept apart from reporting.
+Rankings are counted (number of outlets), never judged.
+
+## What you get
+
+- **Geopolitical**: an overview (bottom line up front, most reported stories, countries in the news)
+  and one page per region: Global, Europe, North America, Asia & Pacific, Middle East & North Africa,
+  Latin America & Caribbean, Africa. Stories are filed by the countries they are about, with
+  analyst-set country tiers and activity hotspots.
+- **Cyber**: the daily brief, industry intelligence for ten sectors, exploited vulnerabilities
+  (CISA KEV and CVEs in the news), indicators of compromise from vendor research, vendor research
+  and cyber news headlines.
+- **Reference**: an OSINT toolkit, the health of every source (with add and change requests from the
+  browser), and instructions for connecting OpenCTI.
+- **Any period**: pick one day, or combine up to 14 days into a single view.
+- **Machine feeds**: RSS of stories, CSV of indicators and vulnerabilities, and a STIX 2.1 bundle.
+
+## How it works
+
+```
+ config/*.yaml          pipeline/ (Python, runs daily on GitHub Actions)              site/ (GitHub Pages)
+┌──────────────┐   ┌──────────┐   ┌──────────┐   ┌────────────┐   ┌──────────┐   ┌──────────────────┐
+│ sources,     │──▶│  fetch   │──▶│  store   │──▶│ narratives │──▶│  export  │──▶│ website + feeds  │
+│ countries,   │   │ RSS, tag │   │ SQLite,  │   │ AI groups, │   │ daily    │   │ static HTML + JS │
+│ industries   │   │ opinion  │   │ dedupe   │   │ code checks│   │ JSON,RSS │   │ reads the JSON   │
+└──────────────┘   └──────────┘   └──────────┘   └────────────┘   └──────────┘   └──────────────────┘
+```
+
+Each layer talks to the next only through files: configuration is YAML, the pipeline writes JSON,
+the website reads JSON. The website is plain HTML and JavaScript with no server and no keys.
+
+## Quick start
+
+```bash
+pip install -r requirements.txt
+python pipeline/check_sources.py                 # test every feed
+python pipeline/fetch.py                         # download the latest articles
+python pipeline/indicators.py                    # CISA KEV and indicators of compromise
+AI_PROVIDER=mock python pipeline/narratives.py   # group stories without an AI key (test mode)
+python pipeline/export.py                        # write the website's data and feeds
+python -m http.server --directory site 8000      # open http://localhost:8000
+```
+
+For daily automated runs on GitHub (free for public repositories), see
+[docs/operations.md](docs/operations.md).
+
+## Documentation
+
+| Document | What it covers |
+|---|---|
+| [Architecture](docs/architecture.md) | The pipeline step by step, and where every file lives |
+| [Configuration](docs/configuration.md) | Every configuration file and setting |
+| [Sources](docs/sources.md) | Source format, finding feeds, the Sources page, adding sources from the browser |
+| [Collection](docs/collection.md) | Fetching, storage, duplicates, opinion and analysis |
+| [Stories and guardrails](docs/stories.md) | How stories are grouped, what the checks do, corrections |
+| [Geography](docs/geography.md) | Countries, regions, tiers, hotspots, other languages |
+| [Cyber](docs/cyber.md) | Exploited vulnerabilities, indicators of compromise, industries |
+| [Website](docs/website.md) | Pages, the calendar and date ranges, search, security |
+| [Feeds and OpenCTI](docs/feeds-and-opencti.md) | RSS, CSV and STIX outputs, and OpenCTI setup |
+| [Operations](docs/operations.md) | Daily automation, keys, limits, retention, troubleshooting |
+
+## Folder map
+
+| Path | What's in it |
+|---|---|
+| `config/<site>/sources.yaml` | The feeds, per site (`geo`, `cyber`) |
+| `config/<site>/site.yaml` | AI focus, story groups, headline lists, sidebar pages, retention |
+| `config/geo/countries.yaml`, `country_names.yaml` | Countries, regions, tiers, names in other languages |
+| `config/geo/corrections.yaml` | Manual fixes when grouping goes wrong |
+| `config/cyber/industries.yaml` | Industry keyword lists |
+| `config/content_types.yaml` | How opinion and analysis are recognised |
+| `config/guardrails.yaml`, `config/prompts/` | The checks and the AI instructions |
+| `config/feeds.yaml` | RSS, CSV and STIX outputs |
+| `pipeline/` | The Python pipeline |
+| `site/` | The website (and its daily data in `site/data/`) |
+| `state/` | Stories being tracked, and the audit log of removed sentences |
+| `.github/` | The daily workflow, the source-request workflow and its forms |
+
+## Licence
+
+The code and configuration are released under the [MIT licence](LICENSE). Headlines, article links
+and the material they point to belong to their publishers; see [NOTICE.md](NOTICE.md).

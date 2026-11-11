@@ -1,0 +1,17 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Which AI model writes the narratives.
+#
+# Switching provider is a one-line change. The API key always comes from an
+# environment variable (never from this file, because this file is public):
+#   gemini     -> GEMINI_API_KEY      free tier at aistudio.google.com
+#   anthropic  -> ANTHROPIC_API_KEY   paid, console.anthropic.com
+#   mock       -> no key; fake answers for testing the pipeline offline
+# ─────────────────────────────────────────────────────────────────────────────
+
+provider: gemini
+model: gemini-3.5-flash-lite       # free tier. For better writing try gemini-3.8-flash
+                                   # (anthropic example: claude-haiku-5-5)
+
+pause_seconds: 15        # wait between AI calls, to stay under free-tier rate limits
+max_per_source: 25       # newest N articles per source per run (some outlets post 150+ a day)
+max_per_call: 1000       # cap per AI call; if exceeded, every source is trimmed evenly
