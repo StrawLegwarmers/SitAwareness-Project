@@ -93,6 +93,18 @@ untrusted:
 
 Tested with deliberately malicious headlines, names and addresses in every data file: nothing runs.
 
+## Accessibility
+
+- **Keyboard**: a "Skip to the brief" link comes first; every section heading holds a button that
+  folds the section (Enter or Space), and says whether it's open; after moving to another page the
+  focus goes to the top of the new page.
+- **Screen readers**: headings stay headings; the browser tab's title names the page, site and
+  date; "Copied" is announced; loading and error messages are announced too.
+- **Colour**: links inside sentences are underlined; text and buttons meet WCAG AA contrast in both
+  themes (checked with axe-core on every page).
+- **Errors**: a file that fails to download shows a message and a "Try again" button instead of a
+  blank page.
+
 ## Icons and appearance
 
 Icons are inline SVG, so nothing is loaded from elsewhere. Most come from

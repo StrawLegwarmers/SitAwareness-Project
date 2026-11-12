@@ -40,7 +40,7 @@ def download(source: dict, state: dict | None) -> dict:
             return {"status": "unchanged"}
         if r.status_code != 200:
             return {"status": "error", "error": f"HTTP {r.status_code}"}
-        parsed = parse_feed_bytes(r.content)
+        parsed = parse_feed_bytes(r.content, allow_empty=True)
         if not parsed:
             return {"status": "error", "error": "not a feed"}
         return {"status": "ok", "entries": parsed.entries, "host": urlsplit(r.url).netloc,

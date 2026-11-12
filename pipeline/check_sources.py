@@ -7,6 +7,7 @@ Usage (run from the repo folder):
   python pipeline/check_sources.py --all           # include disabled sources too
   python pipeline/check_sources.py --discover https://www.example.com
                                                    # find the feed for a new website
+  python pipeline/check_sources.py --validate-only # check every config file, no downloads (used by the tests)
 
 What it does, in order:
   1. Validates the YAML (missing fields, typos in region names, duplicates).
@@ -65,6 +66,37 @@ def run_checks(site_filter: str | None, include_disabled: bool) -> int:
     return 0 if ok == len(results) else 1
 
 
+def run_validate() -> int:
+    """
+    Every configuration file, checked without touching the network: sources, pages, countries,
+    content rules, guardrails, prompts. A typo fails here instead of in the morning run.
+    """
+    import content
+    import countries
+    from config import CONFIG, load_site, load_yaml
+    problems = [p for site in sites() for p in validate(site)]
+    for site in sites():
+        try:
+            from export import pages_for
+            pages_for(load_site(site))                 # raises SystemExit with a clear message on a typo
+        except SystemExit as ex:
+            problems.append(str(ex))
+    try:
+        if countries.load("geo") is None:
+            problems.append("config/geo/countries.yaml is missing")
+        content.rules()
+        load_yaml(CONFIG / "guardrails.yaml")
+        prompt = (CONFIG / "prompts" / "narratives.md").read_text(encoding="utf-8")
+        if "# PROMPT" not in prompt:
+            problems.append("config/prompts/narratives.md has no '# PROMPT' line")
+    except (SystemExit, Exception) as ex:          # noqa: BLE001 - any failure is a config problem here
+        problems.append(f"{type(ex).__name__}: {ex}")
+    for p in problems:
+        print("  -", p)
+    print(f"{len(problems)} configuration problem(s)." if problems else "Configuration OK.")
+    return 1 if problems else 0
+
+
 def run_discover(url: str) -> int:
     print(f"Looking for a feed on {url} ...")
     d = discover_feed(url)
@@ -87,5 +119,8 @@ if __name__ == "__main__":
     ap.add_argument("--site", choices=sites(), help="only check one site")
     ap.add_argument("--all", action="store_true", help="include disabled sources")
     ap.add_argument("--discover", metavar="URL", help="find the feed for a website")
+    ap.add_argument("--validate-only", action="store_true", help="check the config files only, no downloads")
     a = ap.parse_args()
+    if a.validate_only:
+        sys.exit(run_validate())
     sys.exit(run_discover(a.discover) if a.discover else run_checks(a.site, a.all))

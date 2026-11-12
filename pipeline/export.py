@@ -34,6 +34,7 @@ import countries as gazetteer
 import store
 from config import CONFIG, ROOT, load_site, load_sources, load_yaml, sites
 from industries import Industry, load_industries
+from machine_feeds import cell
 from narratives import load_state, overlap, publisher, status_of, strip_links, words
 
 SITE = ROOT / "site"
@@ -176,7 +177,8 @@ def coverage(state: dict, start: str, date: str) -> dict | None:
     out = Counter()
     for d in days:
         out.update({k: v for k, v in d.items() if isinstance(v, (int, float))})
-    return dict(out)
+    errors = [e for d in days for e in d.get("errors", [])][-3:]       # why AI calls failed, if they did
+    return dict(out) | ({"errors": errors} if errors else {})
 
 
 def bluf(stories: list[dict], start: str) -> list[dict]:
@@ -211,10 +213,17 @@ def headline_lists(conn, site: str, cfg: dict, date: str, window: int = 1) -> li
     return out
 
 
+# Audit entries written before entries had a "kind": these reasons were never removed sentences
+NOT_REMOVALS = ("duplicate story merged", "title replaced", "cited only opinion", "manual correction",
+                "new story with fewer", "story returned without")
+
+
 def guardrail_stats(site: str, start: str) -> dict:
+    """How many AI-written sentences the guardrails removed in the window (not merges, titles or notes)."""
     path = ROOT / "state" / site / "audit.json"
-    removed = [e for e in json.loads(path.read_text(encoding="utf-8"))
-               if e["date"] >= start and e.get("text")] if path.exists() else []   # only real sentences
+    entries = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    removed = [e for e in entries if e["date"] >= start and (
+        e.get("kind") == "rejected" or ("kind" not in e and e.get("text") and not e["reason"].startswith(NOT_REMOVALS)))]
     return {"removed": len(removed)}
 
 
@@ -527,7 +536,8 @@ def indicators(conn, date: str, start: str) -> dict:
     with path.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["first_seen", "source", "report_title", "report_url", "type", "value_defanged", "malware"])
-        w.writerows([r["first_seen"], r["source"], r["report_title"], r["report_url"], r["type"], r["value"], r["malware"] or ""] for r in rows)
+        w.writerows([r["first_seen"], cell(r["source"]), cell(r["report_title"]), cell(r["report_url"]), r["type"], r["value"],
+                     cell(r["malware"])] for r in rows)
     ordered = sorted(groups.values(), key=lambda g: (g["kind"] != "report", -sum(g["counts"].values())))
     return {"groups": ordered, "total": len(rows), "csv": f"data/cyber/iocs-{date}.csv" if rows else None}
 

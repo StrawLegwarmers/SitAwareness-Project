@@ -28,7 +28,7 @@ from datetime import datetime, timedelta, timezone
 import requests
 
 import store
-from feeds import USER_AGENT, short_error
+from feeds import USER_AGENT, fetch, short_error
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
 FEODO_URL = "https://feodotracker.abuse.ch/downloads/ipblocklist.json"
@@ -94,7 +94,7 @@ def extract(text: str) -> dict[str, set[str]]:
 
 
 def page_text(url: str) -> str:
-    r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=25)
+    r = fetch(url)                       # same User-Agent, timeout and size limit as the feeds
     r.raise_for_status()
     t = re.sub(r"<(script|style|noscript)\b.*?</\1>", " ", r.text, flags=re.S | re.I)
     return html.unescape(re.sub(r"<[^>]+>", " ", t))

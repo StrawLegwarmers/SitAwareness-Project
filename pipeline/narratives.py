@@ -32,6 +32,7 @@ import argparse
 import json
 import re
 import time
+import traceback
 from collections import Counter
 from datetime import datetime, timedelta, timezone
 from string import Template
@@ -102,6 +103,7 @@ SCHEMA = {
                     "articles": {"type": "array", "items": {"type": "integer"}},
                     "reports": {
                         "type": "array",
+                        "maxItems": 3,
                         "items": {
                             "type": "object",
                             "properties": {"text": {"type": "string"},
@@ -138,6 +140,18 @@ def save_state(site: str, state: dict):
     path.parent.mkdir(parents=True, exist_ok=True)
     state["updated"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     path.write_text(json.dumps(state, indent=1, ensure_ascii=False, sort_keys=True), encoding="utf-8")
+
+
+# Every audit entry has a "kind", so the website can count what matters:
+#   rejected    a sentence that failed a guardrail (the number shown as "sentences removed")
+#   title       a story title replaced by a real headline
+#   skipped     a story the AI proposed that code didn't create or extend
+#   merged      a duplicate story merged into another
+#   correction  your manual fix from corrections.yaml
+#   commentary  a report removed because it rested only on opinion or analysis
+#   info        anything else worth seeing in --audit
+def note(audit: list[dict], kind: str, today: str, group: str, story: str, text: str, reason: str):
+    audit.append({"date": today, "kind": kind, "group": group, "story": story, "text": text, "reason": reason})
 
 
 def save_audit(site: str, entries: list[dict], today: str):
@@ -419,8 +433,7 @@ def apply_corrections(state: dict, site: str, today: str, audit: list[dict]) -> 
             n["article_count"] = max(len(arts), n["article_count"] - (len(n["articles"]) - len(arts)))
             n["articles"], n["reports"] = arts, reps
             name = g.countries[country]["name"]
-            audit.append({"date": today, "group": n["group"], "story": n["title"], "text": "",
-                          "reason": f"manual correction: removed {gone} items about {name}"})
+            note(audit, "correction", today, n["group"], n["title"], "", f"manual correction: removed {gone} items about {name}")
             done.append(f"{n['title']}: removed {gone} items about {name}")
     return done
 
@@ -498,20 +511,46 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
     counts = Counter()
     placed: dict[int, dict] = {}                     # article number -> story it went into
 
+    story_group = ""
+
     def reject(story, text, reason):
-        audit.append({"date": today, "group": story_group, "story": story, "text": text, "reason": reason})
+        note(audit, "rejected", today, story_group, story, text, reason)
         counts["rejected"] += 1
         counts["why: " + reason.split(":")[0]] += 1
 
+    def skip(story, reason):
+        note(audit, "skipped", today, story_group, story, "", reason)
+        counts["skipped"] += 1
+
+    # Which tracked story code suggested for each article number ("continues: <id>" in the prompt)
+    suggested = {k: c["hint"]["id"] for c in batch["groups"] if c.get("hint") for k in c.get("nums", [])}
+    idx = batch.get("idx")
+
     for item in result.get("narratives", []):
-        nums = [k for k in dict.fromkeys(item.get("articles", [])) if k in refs]
+        if not isinstance(item, dict):
+            continue
+        nums = [k for k in dict.fromkeys(item.get("articles") or []) if isinstance(k, int) and k in refs]
         n = index.get(item.get("id") or "")
         hint = subject_hint(site, item.get("country", ""), [refs[k] for k in nums])
         story_group = n["group"] if n else home_group(site, site_cfg, item.get("title", ""), [refs[k] for k in nums], hint)
 
+        # The AI says "this continues story X". Fine if code suggested X for these articles; otherwise
+        # the headlines must back it up (cluster.related), or unrelated news from the same country
+        # ends up under an old story's title.
+        if n is not None and idx is not None and nums and not any(suggested.get(k) == n["id"] for k in nums) \
+                and not cluster.related(idx, [refs[k] for k in nums], n, site):
+            skip(n["title"], f"continuation not supported by the headlines: {refs[nums[0]]['title'][:80]}")
+            n = None
+            item = dict(item, id="", title="")   # its title was the old story's: a new one comes from its headlines
+            story_group = home_group(site, site_cfg, "", [refs[k] for k in nums], hint)
+
         if n is None and len(nums) < 2:                       # rule 4, enforced in code
             if nums:
-                reject(item.get("title", ""), "", "new story with fewer than 2 articles")
+                skip(item.get("title", ""), "new story with fewer than 2 articles")
+            continue
+
+        if n is None and content.offtopic_story(item.get("title", ""), [refs[k]["title"] for k in nums], site):
+            skip(item.get("title", ""), "off-topic for this site (entertainment, sport...): not created")
             continue
 
         if n is None:   # the AI says "new story": first check it isn't one we already track
@@ -521,13 +560,13 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
             if best and is_duplicate(item.get("title", ""), [refs[k] for k in nums], best, site):
                 n = best
                 counts["merged"] += 1
-                audit.append({"date": today, "group": best["group"], "story": best["title"], "text": item.get("title", ""),
-                              "reason": "duplicate story merged into an existing one"})
+                note(audit, "merged", today, best["group"], best["title"], item.get("title", ""),
+                     "duplicate story merged into an existing one")
 
         if n is None:                                          # brand-new story
             title, why = checked_title(item.get("title", ""), [refs[k] for k in nums])
             if why:
-                reject(item.get("title", ""), item.get("title", ""), f"title replaced by a headline: {why}")
+                note(audit, "title", today, story_group, title, item.get("title", ""), f"title replaced by a headline: {why}")
             n = {"id": slugify(title, taken), "group": story_group, "title": title, "first_seen": today,
                  "articles": [], "article_count": 0, "reports": []}
             taken.add(n["id"])
@@ -540,13 +579,14 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
 
         new_reports, corroborated = [], False
         if not item.get("reports") and n["first_seen"] == today and not n["reports"]:
-            audit.append({"date": today, "group": n["group"], "story": n["title"], "text": "",
-                          "reason": "new story returned without any report (headlines still shown)"})
-        for r in item.get("reports", []):
+            note(audit, "info", today, n["group"], n["title"], "", "new story returned without any report (headlines still shown)")
+        for r in item.get("reports") or []:
+            if not isinstance(r, dict):
+                continue
             text = (r.get("text") or "").strip()
             cited = [int(k) for k in re.findall(r"\d+", " ".join(guardrails.CITE.findall(text)))]
             if not cited:   # named the outlet instead of writing [n]? (see repair_citation)
-                pointed = [k for k in r.get("articles", []) if k in refs] or nums
+                pointed = [k for k in r.get("articles") or [] if isinstance(k, int) and k in refs] or nums
                 text, cited = repair_citation(text, pointed, refs)
                 counts["repaired"] += bool(cited)
             if any(k not in refs for k in cited):
@@ -600,10 +640,9 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
     # Articles of a group the AI didn't see (only 10 per group are shown): added by code to the
     # story that got most of the group, if each one passes the grouping test with an article the
     # AI placed there. Never used for reports, only listed as coverage.
-    idx = batch.get("idx")
     for c in batch["groups"]:
         homes = Counter(id(placed[k]) for k in c.get("nums", []) if k in placed)
-        if not homes or not c["extra"] or not idx:
+        if not homes or not c.get("extra") or not idx:
             continue
         top, hits = homes.most_common(1)[0]
         if hits * 2 < len(c["nums"]):
@@ -641,8 +680,8 @@ def merge_duplicates(state: dict, site: str, today: str, audit: list[dict], idx)
     recent = (datetime.fromisoformat(today) - timedelta(days=2)).date().isoformat()
     live = [n for n in state["narratives"] if n["last_updated"] >= recent]
     live.sort(key=lambda n: (n["first_seen"], -n.get("article_count", 0)))      # oldest first: they absorb
-    titles = {n["id"]: [n["title"]] + [a["title"] for a in n["articles"][:15]] for n in live}
-    where = {n["id"]: (set(g.score(titles[n["id"]][1:], n["title"])) if g else set()) for n in live}
+    heads = {n["id"]: cluster.story_heads(n, 15) for n in live}
+    where = {n["id"]: (set(g.score([t for t, _ in heads[n["id"]][1:]], n["title"])) if g else set()) for n in live}
     done, gone = [], set()
     for i, keep in enumerate(live):
         if keep["id"] in gone:
@@ -652,7 +691,7 @@ def merge_duplicates(state: dict, site: str, today: str, audit: list[dict], idx)
                 continue
             if where[keep["id"]] and where[other["id"]] and not where[keep["id"]] & where[other["id"]]:
                 continue
-            if cluster.same_story_share(idx, titles[keep["id"]], titles[other["id"]]) < MERGE_SHARE:
+            if cluster.same_story_share(idx, heads[keep["id"]], heads[other["id"]]) < MERGE_SHARE:
                 continue
             known = {a["id"] for a in keep["articles"]}
             moved = [a for a in other["articles"] if a["id"] not in known]
@@ -660,11 +699,10 @@ def merge_duplicates(state: dict, site: str, today: str, audit: list[dict], idx)
             keep["article_count"] = keep.get("article_count", 0) + len(moved)
             keep["reports"] = sorted(other["reports"] + keep["reports"], key=lambda r: r["date"], reverse=True)[:KEEP_REPORTS]
             keep["last_updated"] = max(keep["last_updated"], other["last_updated"])
-            keep["last_reported"] = max(keep.get("last_reported", ""), other.get("last_reported", "")) or None
+            keep["last_reported"] = max(keep.get("last_reported") or "", other.get("last_reported") or "") or None
             keep.setdefault("merged", []).append(other["id"])
             gone.add(other["id"])
-            audit.append({"date": today, "group": keep["group"], "story": keep["title"], "text": other["title"],
-                          "reason": "duplicate story merged into an existing one"})
+            note(audit, "merged", today, keep["group"], keep["title"], other["title"], "duplicate story merged into an existing one")
             done.append(f"{other['title']} -> {keep['title']}")
     state["narratives"] = [n for n in state["narratives"] if n["id"] not in gone]
     return done
@@ -683,8 +721,8 @@ def drop_commentary(conn, state: dict, site: str, today: str, audit: list[dict])
         if len(news) == len(n["articles"]) and not drop:
             continue
         for r in drop:
-            audit.append({"date": today, "group": n["group"], "story": n["title"], "text": strip_links(r["text"]),
-                          "reason": "cited only opinion, analysis or off-topic pieces (not news reporting)"})
+            note(audit, "commentary", today, n["group"], n["title"], strip_links(r["text"]),
+                 "cited only opinion, analysis or off-topic pieces (not news reporting)")
         n["articles"], n["reports"] = news, keep
         n["article_count"] = max(len(news), n["article_count"] - len(comment))
         removed += len(drop)
@@ -705,6 +743,8 @@ def status_of(n: dict, start: str) -> str:
 
 def finalize(state: dict, today: str):
     """Counted, not judged: how many outlets reported each story today, and sourcing flags."""
+    # A story left with nothing to show (every article removed as commentary, say) is dropped.
+    state["narratives"] = [n for n in state["narratives"] if n["articles"] or n["reports"]]
     for n in state["narratives"]:
         # Status comes from DATES, not from this run, so running twice in a day gives the same
         # result as running once (the second run used to mark the morning's stories "unchanged").
@@ -719,8 +759,12 @@ def finalize(state: dict, today: str):
         n["state_media_only_today"] = bool(todays) and all(a.get("type") == "state-media" for a in todays)
 
 
-def save_coverage(state: dict, today: str, cov: dict, totals: Counter, failed: int):
-    """Collection statistics per day (summed over runs), shown on the Overview's quality panel."""
+def save_coverage(state: dict, today: str, cov: dict, totals: Counter, failed: int, errors: list[str] | None = None):
+    """
+    Collection statistics per day (summed over runs), shown on the Overview's quality panel.
+    errors: why AI calls failed (no keys or personal data can be in them: they come from the
+    model's or the service's own error messages), so a failure can be diagnosed without the logs.
+    """
     days = state.setdefault("coverage", [])
     day = next((d for d in days if d["date"] == today), None)
     if not day:
@@ -728,10 +772,13 @@ def save_coverage(state: dict, today: str, cov: dict, totals: Counter, failed: i
         days.insert(0, day)
     for k in ("articles", "groups", "reported_by_2", "candidates", "continuing", "sent", "calls", "waiting"):
         day[k] = day.get(k, 0) + cov.get(k, 0)
-    for k in ("new", "updated", "kept", "rejected", "corroborated", "attached by code", "in stories", "merged"):
+    for k in ("new", "updated", "kept", "rejected", "corroborated", "attached by code", "in stories", "merged",
+              "skipped", "split calls"):
         day[k.replace(" ", "_")] = day.get(k.replace(" ", "_"), 0) + totals.get(k, 0)
     day["failed_calls"] = day.get("failed_calls", 0) + failed
     day["runs"] = day.get("runs", 0) + 1
+    if errors:
+        day["errors"] = (day.get("errors", []) + [e[:200] for e in errors])[-5:]
     state["coverage"] = days[:COVERAGE_DAYS]
 
 
@@ -746,6 +793,39 @@ def expire(state: dict, site_cfg: dict, today: str) -> list[str]:
 
 
 # ── Putting it together ─────────────────────────────────────────────────────
+
+def split(batch: dict) -> list[dict]:
+    """A batch of groups cut in two halves, each with the tracked stories its own groups may continue."""
+    mid = len(batch["groups"]) // 2
+    halves = []
+    for part in (batch["groups"][:mid], batch["groups"][mid:]):
+        hints = {c["hint"]["id"]: c["hint"] for c in part if c.get("hint")}
+        halves.append({"groups": part, "stories": list(hints.values()), "idx": batch.get("idx")})
+    return halves
+
+
+def ask_batch(site_cfg: dict, batch: dict, today: str, ai: dict, label: str, depth: int = 0):
+    """
+    One AI call. If the answer was cut off, unreadable or blocked (LLMError.smaller), the groups are
+    split in two and each half is tried once: a smaller answer usually fits.
+    Returns ([(batch, answer)], [batches that failed], [why]).
+    """
+    system, prompt = build_prompt(site_cfg, batch, today)
+    try:
+        return [(batch, ask_json(system, prompt, SCHEMA))], [], []
+    except LLMError as ex:
+        why = f"{label}: {ex}"
+        if getattr(ex, "smaller", False) and depth == 0 and len(batch["groups"]) >= 2:
+            print(f"  {why} -> splitting it in two and trying each half")
+            done, failed, errors = [], [], []
+            for k, half in enumerate(split(batch)):
+                time.sleep(ai.get("pause_seconds", 10))
+                d, f, e = ask_batch(site_cfg, half, today, ai, f"{label}{'ab'[k]}", depth + 1)
+                done, failed, errors = done + d, failed + f, errors + e
+            return done, failed, errors
+        print(f"  {why}")
+        return [], [batch], [why]
+
 
 def run_site(site: str, only_group: str | None, dry_run: bool):
     site_cfg, ai = load_site(site), load_ai()
@@ -770,33 +850,41 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
     run_touched: set[str] = set()
     audit: list[dict] = []
     totals = Counter()
-    failed, failed_calls = [], 0
+    failed, failed_calls, errors = [], 0, []
     for i, batch in enumerate(batches):
-        system, prompt = build_prompt(site_cfg, batch, today)
-        n_groups, n_arts = len(batch["groups"]), len(batch["refs"])
         if dry_run:
+            system, prompt = build_prompt(site_cfg, batch, today)
             out = ROOT / "data" / "prompts" / f"{site}-{i + 1}.txt"
             out.parent.mkdir(parents=True, exist_ok=True)
             out.write_text(f"=== SYSTEM ===\n{system}\n\n=== PROMPT ===\n{prompt}", encoding="utf-8")
-            print(f"  call {i + 1}: {n_groups} groups, {n_arts} articles; prompt saved to {out.relative_to(ROOT)} "
-                  f"(~{len(system + prompt) // 4:,} tokens)")
+            print(f"  call {i + 1}: {len(batch['groups'])} groups, {len(batch['refs'])} articles; prompt saved to "
+                  f"{out.relative_to(ROOT)} (~{len(system + prompt) // 4:,} tokens)")
             continue
         if i > 0:
             time.sleep(ai.get("pause_seconds", 10))
-        try:
-            result = ask_json(system, prompt, SCHEMA)
-        except LLMError as ex:
-            print(f"  call {i + 1}: FAILED: {ex}")      # its articles are retried next run
-            failed += [a["id"] for c in batch["groups"] for a in c["items"]]
+        done, bad, why = ask_batch(site_cfg, batch, today, ai, f"call {i + 1}")
+        totals["split calls"] += int(len(done) + len(bad) > 1)
+        errors += why
+        for b in bad:                                  # their articles are retried on the next run
+            failed += [a["id"] for c in b["groups"] for a in c["items"]]
             failed_calls += 1
-            continue
-        counts = apply_result(state, site_cfg, batch, result, today, run_touched, audit)
-        totals.update({k: v for k, v in counts.items() if k != "ids"})
-        print(f"  call {i + 1}: {n_groups} groups, {n_arts} articles -> {counts['new']} new, {counts['updated']} updated stories; "
-              f"{counts['kept']} reports kept, {counts['rejected']} removed by guardrails"
-              + (f", {counts['corroborated']} corroborations" if counts["corroborated"] else "")
-              + (f" ({counts['repaired']} citations added by code)" if counts["repaired"] else "")
-              + (f"; {counts['attached by code']} more articles added by code" if counts["attached by code"] else ""))
+        for part, result in done:
+            label = f"call {i + 1}" + (f" ({len(part['groups'])} of its groups)" if part is not batch else "")
+            try:
+                counts = apply_result(state, site_cfg, part, result, today, run_touched, audit)
+            except Exception as ex:                    # one strange answer (or a bug) must not lose the whole run
+                traceback.print_exc()
+                errors.append(f"{label}: the answer could not be used ({type(ex).__name__})")
+                failed += [a["id"] for c in part["groups"] for a in c["items"]]
+                failed_calls += 1
+                continue
+            totals.update({k: v for k, v in counts.items() if k != "ids"})
+            print(f"  {label}: {len(part['groups'])} groups, {len(part['refs'])} articles -> {counts['new']} new, "
+                  f"{counts['updated']} updated stories; {counts['kept']} reports kept, {counts['rejected']} removed by guardrails"
+                  + (f", {counts['corroborated']} corroborations" if counts["corroborated"] else "")
+                  + (f", {counts['skipped']} proposals skipped" if counts["skipped"] else "")
+                  + (f" ({counts['repaired']} citations added by code)" if counts["repaired"] else "")
+                  + (f"; {counts['attached by code']} more articles added by code" if counts["attached by code"] else ""))
 
     if dry_run:
         conn.close()
@@ -819,7 +907,7 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
     else:
         state["last_run"] = {"all": now.isoformat()}
         state["retry"] = (cov["retry"] + failed)[:RETRY_MAX]
-    save_coverage(state, today, cov, totals, failed_calls)
+    save_coverage(state, today, cov, totals, failed_calls, errors)
     names = {g["id"]: g["name"] for g in site_cfg["groups"]}
     for n in (n for n in state["narratives"] if n["id"] in run_touched):
         print(f"   [{n['status']:<9}] {n['title']}  ({names.get(n['group'], n['group'])})")
@@ -853,9 +941,11 @@ def show(site: str):
 def show_audit(site: str):
     path = STATE / site / "audit.json"
     entries = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
-    print(f"\n=== Removed by guardrails ({site}, last {AUDIT_DAYS} days): {len(entries)} ===")
+    kinds = Counter(e.get("kind", "?") for e in entries)
+    print(f"\n=== Audit ({site}, last {AUDIT_DAYS} days): {len(entries)} entries: "
+          + ", ".join(f"{v} {k}" for k, v in kinds.most_common()) + " ===")
     for e in entries[-40:]:
-        print(f"\n  {e['date']} · {e['story']}\n    \"{e['text']}\"\n    -> {e['reason']}")
+        print(f"\n  {e['date']} · [{e.get('kind', '?')}] {e['story']}\n    \"{e['text']}\"\n    -> {e['reason']}")
 
 
 if __name__ == "__main__":

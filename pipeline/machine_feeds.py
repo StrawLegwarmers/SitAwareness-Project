@@ -38,6 +38,19 @@ NOTE = ("Collected automatically from public RSS feeds. Each sentence restates w
         "and passed automated checks against that outlet's headline and summary. Verify at source.")
 
 
+FORMULA_START = ("=", "+", "-", "@", "\t", "\r")
+
+
+def cell(value) -> str:
+    """
+    A text cell that a spreadsheet can't run as a formula. Report titles, malware names and
+    descriptions come from outside; one starting with "=" could run something when an analyst
+    opens the CSV in Excel ("CSV injection"). A leading apostrophe makes it plain text.
+    """
+    v = "" if value is None else str(value)
+    return "'" + v if v.startswith(FORMULA_START) else v
+
+
 def settings() -> dict:
     path = CONFIG / "feeds.yaml"
     return load_yaml(path) if path.exists() else {}
@@ -157,7 +170,7 @@ def iocs_csv(conn, days: int, kinds: list[str]) -> int:
             if r["type"] == "ip:port":
                 value, _, port = value.rpartition(":")
             w.writerow([OPENCTI_TYPE.get(r["type"], r["type"]), value, HASH_NAME.get(r["type"], ""), port, r["type"],
-                        r["first_seen"], r["source"], r["report_title"], r["report_url"], r["malware"] or ""])
+                        r["first_seen"], cell(r["source"]), cell(r["report_title"]), cell(r["report_url"]), cell(r["malware"])])
             n += 1
     return n
 
@@ -174,17 +187,17 @@ def vulnerabilities_csv(conn, days: int) -> int:
         seen = set()
         for k in kev:
             mention = next((c for c in news if c["cve"] == k["cve"]), None)
-            w.writerow([k["cve"], "CISA KEV" + (" + news" if mention else ""), k["vendor"], k["product"], k["name"],
-                        k["description"], k["date_added"], k["due_date"], k["ransomware"],
-                        mention["outlets"] if mention else 0, mention["articles"][0]["url"] if mention else ""])
+            w.writerow([k["cve"], "CISA KEV" + (" + news" if mention else ""), cell(k["vendor"]), cell(k["product"]),
+                        cell(k["name"]), cell(k["description"]), k["date_added"], k["due_date"], cell(k["ransomware"]),
+                        mention["outlets"] if mention else 0, cell(mention["articles"][0]["url"]) if mention else ""])
             seen.add(k["cve"])
         for c in news:
             if c["cve"] in seen:
                 continue
             kv = c.get("kev") or {}
-            w.writerow([c["cve"], "news" + (" (in KEV)" if kv else ""), kv.get("vendor", ""), kv.get("product", ""),
-                        kv.get("name", ""), kv.get("description", ""), kv.get("date_added", ""), kv.get("due_date", ""),
-                        kv.get("ransomware", ""), c["outlets"], c["articles"][0]["url"] if c["articles"] else ""])
+            w.writerow([c["cve"], "news" + (" (in KEV)" if kv else ""), cell(kv.get("vendor")), cell(kv.get("product")),
+                        cell(kv.get("name")), cell(kv.get("description")), kv.get("date_added", ""), kv.get("due_date", ""),
+                        cell(kv.get("ransomware")), c["outlets"], cell(c["articles"][0]["url"]) if c["articles"] else ""])
             seen.add(c["cve"])
     return len(seen)
 

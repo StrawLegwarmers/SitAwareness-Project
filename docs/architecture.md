@@ -23,7 +23,8 @@ service and no API key in the website.
 | `config/` | Everything you can change: sources, countries, industries, pages, checks, prompts | Yes |
 | `data/sitaware.db` | Working memory: every article from the last 30 days, feed status, vulnerabilities, indicators | No. Carried between runs by the GitHub Actions cache, and rebuilt from the feeds if lost |
 | `state/<site>/narratives.json` | The stories being tracked, with their articles and checked reports | Yes |
-| `state/<site>/audit.json` | Every sentence the checks removed in the last 7 days, and why | Yes |
+| `state/<site>/audit.json` | Everything the checks removed or refused in the last 7 days, and why (each entry has a kind) | Yes |
+| `tests/` | Automated tests, run on every push by `.github/workflows/tests.yml` | Yes |
 | `site/data/<site>/<date>.json` | One day's brief, exactly as it was published | Yes (last 12 months) |
 | `site/data/<site>/headlines/<date>.json` | Per-country headlines for that day | Yes (last 12 months) |
 | `site/data/cyber/iocs-<date>.csv` | That day's indicators, defanged | Yes (last 12 months) |

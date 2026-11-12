@@ -7,6 +7,7 @@
   --bg: #F5F7FA;  --surface: #FFFFFF;  --surface-2: #EEF2F7;
   --text: #0F1B2D;  --muted: #5A6B85;  --border: #DCE3EC;
   --accent: #C8661A;  --accent-soft: #FBEBDD;  --accent-text: #8A4310;
+  --accent-strong: #B05A14;  --on-accent: #FFFFFF;     /* filled buttons: 4.9:1 contrast */
   --link: #1F4E8C;
   --updated-soft: #E1ECF8;  --updated-text: #1F4E8C;
   --flag: #8A5A00;  --flag-soft: #FFF3D6;  --state: #9B2C2C;  --state-soft: #FBE4E4;
@@ -19,6 +20,7 @@
     --bg: #0E1626;  --surface: #152036;  --surface-2: #1B2842;
     --text: #DCE3EC;  --muted: #8A9AB3;  --border: #24324D;
     --accent: #F28C38;  --accent-soft: #3A2410;  --accent-text: #F7B57A;
+    --accent-strong: #F28C38;  --on-accent: #0E1626;
     --link: #7FB2E5;
     --updated-soft: #17304F;  --updated-text: #9CC6EE;
     --flag: #E8C06A;  --flag-soft: #3A2E10;  --state: #F2A19A;  --state-soft: #3A1A18;
@@ -28,6 +30,7 @@
   --bg: #0E1626;  --surface: #152036;  --surface-2: #1B2842;
   --text: #DCE3EC;  --muted: #8A9AB3;  --border: #24324D;
   --accent: #F28C38;  --accent-soft: #3A2410;  --accent-text: #F7B57A;
+  --accent-strong: #F28C38;  --on-accent: #0E1626;
   --link: #7FB2E5;
   --updated-soft: #17304F;  --updated-text: #9CC6EE;
   --flag: #E8C06A;  --flag-soft: #3A2E10;  --state: #F2A19A;  --state-soft: #3A1A18;
@@ -87,7 +90,7 @@ button:disabled { opacity: .4; cursor: default; }
 .cal-grid button { height: 34px; padding: 0; border: 0; border-radius: 6px; font-size: 13.5px; }
 .cal-grid button:disabled { opacity: .3; }
 .cal-grid button.in { background: var(--accent-soft); color: var(--accent-text); border-radius: 0; }
-.cal-grid button.end, .cal-grid button.pick { background: var(--accent); color: #fff; border-radius: 6px; font-weight: 600; }
+.cal-grid button.end, .cal-grid button.pick { background: var(--accent-strong); color: var(--on-accent); border-radius: 6px; font-weight: 600; }
 .cal-msg { font-size: 12px; color: var(--muted); margin: 8px 2px; }
 .cal-presets { display: flex; flex-wrap: wrap; gap: 4px; }
 .cal-presets button { height: 28px; font-size: 12.5px; border-radius: 99px; }
@@ -193,15 +196,36 @@ code { font: 0.9em var(--mono); background: var(--surface-2); padding: 0 4px; bo
 .sidebar a[aria-current="page"] .n { background: var(--surface); color: var(--accent-text); }
 .side-status { margin: auto 12px 0; padding-top: 16px; border-top: 1px solid var(--border); font-size: 12px; line-height: 1.6; color: var(--muted); }
 
-/* Foldable sections: click a heading to fold what's under it */
-.fold { cursor: pointer; user-select: none; }
-.fold::before { content: ""; width: 9px; height: 9px; flex: none; align-self: center; margin-right: -2px;
+/* Foldable sections: each heading holds a button that folds what's under it (keyboard and screen
+   reader friendly: the heading stays a heading, the button says whether it's open) */
+.fold-btn { display: inline-flex; align-items: baseline; flex-wrap: wrap; gap: 6px 10px; height: auto; padding: 0; margin: 0;
+  font: inherit; color: inherit; text-align: left; background: none; border: 0; border-radius: 4px; cursor: pointer; }
+.fold-btn:hover { background: none; }
+.fold-btn::before { content: ""; width: 9px; height: 9px; flex: none; align-self: center; margin-right: -2px;
   border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg) translate(-2px, -2px); transition: transform .15s; }
-.fold.closed::before { transform: rotate(-45deg); }
-.fold:hover::before { border-color: var(--text); }
-h3.sub.fold { display: flex; align-items: center; gap: 8px; }
-h3.sub.fold::before { width: 7px; height: 7px; }
+.fold.closed .fold-btn::before { transform: rotate(-45deg); }
+.fold-btn:hover::before { border-color: var(--text); }
+h3.sub .fold-btn { align-items: center; gap: 8px; }
+h3.sub .fold-btn::before { width: 7px; height: 7px; }
+.fold-btn.icon-only { width: 22px; height: 22px; justify-content: center; align-self: center; }
 .fold-body[hidden] { display: none; }
+
+/* Links inside sentences are underlined, so they don't rely on colour alone */
+.reports a, .bluf a, .also a, .page-meta a, .footer a, .steps a, .catchup a, p a, li > a {
+  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+button.linklike { height: auto; padding: 0; border: 0; background: none; font: inherit; color: inherit; text-align: left;
+  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; cursor: pointer; }
+button.linklike:hover { background: none; color: var(--link); }
+
+/* Skip link: first thing a keyboard user reaches; visible only when focused */
+.skip { position: absolute; left: 12px; top: -48px; z-index: 50; padding: 8px 12px; border-radius: 8px;
+  background: var(--accent-strong); color: var(--on-accent); font-weight: 600; }
+.skip:focus { top: 12px; text-decoration: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+#view:focus { outline: none; }
+.loading { color: var(--muted); }
+.error-box { background: var(--state-soft); color: var(--state); border-radius: var(--radius); padding: 12px 16px; }
+.error-box button { margin-top: 8px; }
 
 /* Overview: regions at a glance */
 .region h3 a { color: var(--text); }
@@ -261,8 +285,8 @@ h3.sub.fold::before { width: 7px; height: 7px; }
 .btn { display: inline-flex; align-items: center; height: 36px; padding: 0 14px; border-radius: 8px; border: 1px solid var(--border);
   background: var(--surface); color: var(--text); font-weight: 600; font-size: 14px; }
 .btn:hover { text-decoration: none; background: var(--surface-2); }
-.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-.btn.primary:hover { filter: brightness(1.08); background: var(--accent); }
+.btn.primary { background: var(--accent-strong); border-color: var(--accent-strong); color: var(--on-accent); }
+.btn.primary:hover { filter: brightness(1.08); background: var(--accent-strong); }
 .list.sources .row { grid-template-columns: 230px 1fr auto; align-items: baseline; }
 .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; background: var(--muted); }
 .dot.ok { background: #2E8B57; } .dot.failing { background: var(--state); } .dot.quiet { background: var(--flag); }

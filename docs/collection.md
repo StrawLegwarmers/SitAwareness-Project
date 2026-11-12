@@ -6,13 +6,15 @@ re-run.
 
 ## Downloading
 
-- **Sixteen feeds at a time,** each with a 20-second timeout.
+- **Sixteen feeds at a time,** each with a 20-second timeout and a 15 MB size limit (a bigger
+  response is a mistake or an attack, and is stopped while downloading).
 - **Conditional requests.** Each feed's `ETag` and `Last-Modified` are remembered; an unchanged feed
   answers "not modified" and nothing is downloaded.
 - **Three-day window.** Items older than three days are ignored, so a feed that carries months of
   archive doesn't flood the first run.
 - **Failures are recorded, not fatal.** A failing feed is logged with its error and a count of
-  failures in a row (shown on the Sources page); the other feeds carry on.
+  failures in a row (shown on the Sources page); the other feeds carry on. A valid feed that simply
+  has no items today counts as working (quiet), not failing.
 
 ## Cleaning each item
 
@@ -84,6 +86,7 @@ inside the database file records which labels it has).
 | Table | Contents |
 |---|---|
 | `articles` | Every article from the last 30 days: source, outlet, address, headline, summary, dates, region or section, type, language, kind |
+| `forgotten` | Ids of articles deleted after 30 days, kept 120 days. Some feeds keep undated items for months; without this they would come back as "new" |
 | `feed_state` | Per feed: ETag, Last-Modified, last success, last error, failures in a row |
 | `fetch_log` | One row per feed per run |
 | `kev` | The CISA Known Exploited Vulnerabilities catalog |

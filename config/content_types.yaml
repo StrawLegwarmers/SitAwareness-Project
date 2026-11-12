@@ -35,6 +35,17 @@ offtopic:
   headline_starts: ["Match report:", "Horoscope", "Recipe:"]
   headline_ends: []
   headline_patterns: []
+  # A NEW story is not created when its title, or half of its headlines, contain one of these.
+  # Catches entertainment and sport the AI grouped anyway (a film festival, an actor's death).
+  # English words only: they're checked against the AI's English title and English headlines.
+  story_terms: [film festival, red carpet, box office, premiere, actor, actress, singer, rapper, album, concert,
+                celebrity, celebrities, oscars, oscar, grammy, grammys, emmy, emmys, golden globe, golden globes,
+                fashion week, beauty pageant, miss universe, horoscope, recipe, football, soccer, basketball,
+                tennis, cricket, rugby, golf, formula 1, grand prix, olympic, olympics, premier league,
+                champions league, transfer window, world cup, tv series, sitcom, reality show, netflix series]
+  # ...unless the phrase is one of these (a "threat actor" is not a film star)
+  not_story_terms: [threat actor, threat actors, state actor, state actors, non-state actor, non-state actors,
+                    bad actor, bad actors]
 
 opinion:
   # RSS category, the WHOLE category must match (so "Polls and public opinion" doesn't count)

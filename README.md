@@ -57,6 +57,9 @@ python -m http.server --directory site 8000      # open http://localhost:8000
 For daily automated runs on GitHub (free for public repositories), see
 [docs/operations.md](docs/operations.md).
 
+Tests need no key and no network: `pip install -r requirements-dev.txt`, then `python -m pytest -q`.
+They also run on GitHub on every push.
+
 ## Documentation
 
 | Document | What it covers |
@@ -81,13 +84,15 @@ For daily automated runs on GitHub (free for public repositories), see
 | `config/geo/countries.yaml`, `country_names.yaml` | Countries, regions, tiers, names in other languages |
 | `config/geo/corrections.yaml` | Manual fixes when grouping goes wrong |
 | `config/cyber/industries.yaml` | Industry keyword lists |
-| `config/content_types.yaml` | How opinion and analysis are recognised |
+| `config/content_types.yaml` | How opinion, analysis and off-topic sections are recognised |
+| `config/geo/entities.yaml` | Cities, institutions, people and companies that point to a country |
 | `config/guardrails.yaml`, `config/prompts/` | The checks and the AI instructions |
 | `config/feeds.yaml` | RSS, CSV and STIX outputs |
 | `pipeline/` | The Python pipeline |
 | `site/` | The website (and its daily data in `site/data/`) |
 | `state/` | Stories being tracked, and the audit log of removed sentences |
-| `.github/` | The daily workflow, the source-request workflow and its forms |
+| `.github/` | The daily, tests and source-request workflows, and the source forms |
+| `tests/` | Automated tests (`python -m pytest -q`) |
 
 ## Licence
 

@@ -313,6 +313,14 @@ function storyText(s, day) {
   return lines.join("\n");
 }
 
+// A polite announcement for screen readers ("Copied"), from the hidden live region in index.html.
+function announce(text) {
+  const el = $("announce");
+  if (!el) return;
+  el.textContent = "";
+  setTimeout(() => { el.textContent = text; }, 50);
+}
+
 async function copyText(text, btn) {
   try { await navigator.clipboard.writeText(text); }
   catch (e) {
@@ -323,6 +331,7 @@ async function copyText(text, btn) {
   }
   const old = btn.innerHTML;
   btn.textContent = "Copied";
+  announce("Copied, with sources");
   setTimeout(() => { btn.innerHTML = old; }, 1500);
 }
 
@@ -347,7 +356,7 @@ const BLOCKS = {
   bluf(day) {
     if (!day.bluf.length) return null;
     return { html: `<section class="bluf" aria-label="Bottom line up front"><p class="bluf-label">BLUF</p><ul>${day.bluf.map((b) =>
-      `<li><strong><a href="#" data-jump="${esc(b.story)}" style="color:inherit">${esc(b.title)}</a>:</strong> ${md(b.text)}
+      `<li><strong><button type="button" class="linklike" data-jump="${esc(b.story)}" title="Show this story">${esc(b.title)}</button>:</strong> ${md(b.text)}
        ${b.kind === "headline" ? `<span class="via">(headline)</span>` : ""}</li>`).join("")}</ul></section>` };
   },
 
@@ -388,7 +397,9 @@ const BLOCKS = {
         ${cell(c.corroborated, "corroborations", "Another outlet reported facts already collected: added as 'also reported by'")}
         ${cell(c.waiting, "groups waiting", "Groups that didn't fit in this run's AI calls; they go first next run")}
       </div>
-      ${c.failed_calls ? `<p class="small" style="color:var(--state)">${plural(c.failed_calls, "AI call")} failed; their articles are retried on the next run.</p>` : ""}` };
+      ${c.failed_calls ? `<p class="small" style="color:var(--state)">${plural(c.failed_calls, "AI call")} failed; their articles are retried on the next run.
+        ${(c.errors || []).length ? `Last reason: ${esc(c.errors[c.errors.length - 1])}` : ""}</p>` : ""}
+      ${c.skipped ? `<p class="small muted">${plural(c.skipped, "story")} proposed by the AI not created or extended by code (off-topic, too few articles, or not backed by the headlines). Details: <code>python pipeline/narratives.py --audit</code></p>` : ""}` };
   },
 
   stories(day, P) {
@@ -674,6 +685,7 @@ function renderPage(day, page) {
 // Every section heading (h2) and sub-heading (h3.sub) folds what follows it, up to the next
 // heading of the same level. Your browser remembers what you folded (nothing is sent anywhere).
 const FOLDED_KEY = "sap-folded";
+let foldCount = 0;
 function foldedSet() {
   try { return new Set(JSON.parse(localStorage.getItem(FOLDED_KEY) || "[]")); } catch (e) { return new Set(); }
 }
@@ -697,20 +709,29 @@ function fold(root, prefix) {
     h.after(body);
     const name = (h.firstChild && h.firstChild.textContent || h.textContent).trim().slice(0, 60);
     const key = `${prefix}:${h.id || name}`;
+    body.id = body.id || `fold-${++foldCount}`;
+    // The heading stays a heading; a button inside it opens and closes the section (WAI-ARIA disclosure).
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "fold-btn";
+    btn.setAttribute("aria-controls", body.id);
+    if (h.querySelector("a, button")) {          // links can't go inside a button: a small button before them
+      btn.classList.add("icon-only");
+      btn.setAttribute("aria-label", `Show or hide: ${name}`);
+      h.prepend(btn);
+    } else {
+      btn.append(...h.childNodes);
+      h.append(btn);
+    }
     h.classList.add("fold");
-    h.tabIndex = 0;
-    h.setAttribute("role", "button");
-    const set = (closed) => { h.classList.toggle("closed", closed); body.hidden = closed; h.setAttribute("aria-expanded", String(!closed)); };
+    const set = (closed) => { h.classList.toggle("closed", closed); body.hidden = closed; btn.setAttribute("aria-expanded", String(!closed)); };
     set(folded.has(key));
-    const toggle = (e) => {
-      if (e.target.closest("a, button")) return;
+    btn.addEventListener("click", () => {
       const s = foldedSet(), closed = !h.classList.contains("closed");
       closed ? s.add(key) : s.delete(key);
       saveFolded(s);
       set(closed);
-    };
-    h.addEventListener("click", toggle);
-    h.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(e); } });
+    });
     h._unfold = () => set(false);
   });
 }
@@ -868,6 +889,7 @@ function renderToolkit(tk, q) {
     .filter((g) => g.links.length);
   view.innerHTML = `<p class="kicker">REFERENCE</p><h1>Toolkit</h1>
     <p class="page-meta">Open-source research links. Nothing here is fetched or analysed. Edit them in <code>config/geo/toolkit.yaml</code>.</p>
+    <h2 class="sr-only">Links</h2>
     <div class="grid toolkit" style="margin-top:22px">${groups.map((g) => `<section class="card"><h3>${esc(g.title)}</h3><ul>${g.links.map((l) =>
       `<li>${ext(l.url, esc(l.name))}</li>`).join("")}</ul></section>`).join("")}</div>
     ${groups.length ? "" : `<p class="empty">Nothing matches.</p>`}`;
@@ -995,6 +1017,14 @@ async function renderOpenCTI() {
 
 function renderEmpty(msg) {
   view.innerHTML = `<h1>No brief yet</h1><p class="muted">${msg}</p>`;
+}
+
+// Something didn't download (offline, or a file is missing): say so, and offer to try again.
+function renderError(msg) {
+  $("footer-stats").textContent = "";
+  view.innerHTML = `<div class="error-box" role="alert"><p style="margin:0">${esc(msg)}</p>
+    <button type="button" id="retry">Try again</button></div>`;
+  $("retry").addEventListener("click", () => { S.cache.clear(); route(); });
 }
 
 // ── Routing: decide what to show from the address ─────────────────────────
@@ -1204,6 +1234,26 @@ function toggleCalendar(open) {
 
 // ── Routing: decide what to show from the address ─────────────────────────
 
+// The browser tab's title follows the page, so history, bookmarks and screen readers say where you are.
+function setTitle(...parts) {
+  document.title = [...parts.filter(Boolean), "Situational Awareness Project"].join(" · ");
+}
+
+// After moving to another page, put the keyboard focus at the top of the new page (not on the first load).
+let routed = 0;
+function focusPage() {
+  if (routed++ === 0 || document.activeElement === $("search")) return;   // never while typing a search
+  view.setAttribute("tabindex", "-1");
+  view.focus({ preventScroll: true });
+}
+
+// Shown while files download (a range of 14 days can take a moment); only if it takes a while.
+function loading(on) {
+  clearTimeout(loading.t);
+  view.setAttribute("aria-busy", String(on));
+  if (on) loading.t = setTimeout(() => { view.innerHTML = `<p class="loading" role="status">Loading…</p>`; }, 250);
+}
+
 async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   const REFS = ["toolkit", "sources", "opencti", "watch"];           // pages without a date of their own
@@ -1230,7 +1280,12 @@ async function route() {
     S.range = null;
     S.date = info && info.dates.includes(seg) ? seg : info ? info.dates[0] : null;
   }
-  await loadDays();
+  loading(true);
+  try {
+    await loadDays();
+  } finally {
+    loading(false);
+  }
   markSeen(S.days.geo);
   markSeen(S.days.cyber);
 
@@ -1243,7 +1298,9 @@ async function route() {
       else if (site === "sources") renderSources(await getJSON("data/sources.json"), q);
       else if (site === "watch") await renderWatch();
       else await renderOpenCTI();
-    } catch (e) { renderEmpty(`This page's file is missing. Run <code>python pipeline/export.py</code>.`); }
+    } catch (e) { renderError(`This page's file couldn't be loaded.`); }
+    setTitle({ toolkit: "Toolkit", sources: "Sources", watch: "Watchlist", opencti: "OpenCTI" }[site]);
+    focusPage();
     window.scrollTo(0, 0);
     return;
   }
@@ -1254,13 +1311,18 @@ async function route() {
   $("next").disabled = (S.range ? S.range.to : S.date) >= latest;
 
   S.day = S.days[site];
-  if (!S.day) return renderEmpty(`Couldn't load this brief.`);
+  if (!S.day) {
+    renderSidebar();
+    return renderError(`This brief couldn't be loaded. Check your connection and try again.`);
+  }
   const pages = pagesFor(S.day);
   const current = pages.find((p) => p.id === page) || pages[0];
   S.page = current.id;
   renderSidebar();
+  setTitle(q ? `Search “${S.q.trim()}”` : current.name, S.index.sites[site].label, dateLabel());
   if (q) return renderSearch(S.day, q);
   renderPage(S.day, current);
+  focusPage();
   const target = anchor && document.getElementById(anchor);
   if (target) { reveal(target); target.scrollIntoView({ block: "start" }); } else window.scrollTo(0, 0);
 }
@@ -1301,6 +1363,8 @@ $("menu").addEventListener("click", () => {
   $("menu").setAttribute("aria-expanded", String(open));
 });
 window.addEventListener("hashchange", route);
+// "Skip to the brief" (index.html): moves the focus to the page without changing the address.
+$("skip").addEventListener("click", (e) => { e.preventDefault(); view.setAttribute("tabindex", "-1"); view.focus(); });
 
 (async () => {
   decodeTitle();

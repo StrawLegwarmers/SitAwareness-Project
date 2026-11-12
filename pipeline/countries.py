@@ -56,6 +56,7 @@ class Gazetteer:
                     for word in words or []:
                         self.terms.setdefault(str(word), cid)
         # Cities, institutions, people, companies (config/geo/entities.yaml)
+        self.country_terms = set(self.terms)      # countries, demonyms, capitals: names of PLACES, shared by many events
         entities = entities or {}
         weights = entities.get("weights") or {}
         for kind in ("places", "institutions", "people", "companies"):

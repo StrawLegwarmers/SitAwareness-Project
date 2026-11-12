@@ -20,6 +20,7 @@ import requests
 # Identify ourselves politely. Some sites block requests with no User-Agent.
 USER_AGENT = "SitAware/0.1 (open-source news reader; +https://github.com/)"
 TIMEOUT = 20  # seconds
+MAX_BYTES = 15_000_000  # a feed bigger than this is a mistake (or an attack): stop reading
 
 # Paths many sites use for their feed. Tried in order when a page has no <link> tag.
 COMMON_FEED_PATHS = ["feed/", "rss/", "rss.xml", "feed.xml", "atom.xml", "index.xml", "?feed=rss2", "rss", "feed"]
@@ -38,7 +39,19 @@ def fetch(url: str, etag: str | None = None, modified: str | None = None) -> req
         headers["If-None-Match"] = etag
     if modified:
         headers["If-Modified-Since"] = modified
-    return requests.get(url, headers=headers, timeout=TIMEOUT, allow_redirects=True)
+    # Read in chunks and stop at MAX_BYTES, so one huge or endless response can't fill the memory.
+    r = requests.get(url, headers=headers, timeout=TIMEOUT, allow_redirects=True, stream=True)
+    body, size = [], 0
+    try:
+        for chunk in r.iter_content(65536):
+            size += len(chunk)
+            if size > MAX_BYTES:
+                raise ValueError(f"response larger than {MAX_BYTES // 1_000_000} MB")
+            body.append(chunk)
+    finally:
+        r.close()
+    r._content = b"".join(body)        # so r.content and r.text work as usual
+    return r
 
 
 def short_error(ex: Exception) -> str:
@@ -60,12 +73,17 @@ def _newest(entries) -> str | None:
     return best.isoformat() if best else None
 
 
-def parse_feed_bytes(content: bytes):
-    """Parse raw bytes as a feed. Returns the feedparser result, or None if it isn't a feed."""
+def parse_feed_bytes(content: bytes, allow_empty: bool = False):
+    """
+    Parse raw bytes as a feed. Returns the feedparser result, or None if it isn't a feed.
+    feedparser is forgiving: it will "parse" an HTML page into zero entries. So a result counts as
+    a feed only if it has items, or (allow_empty) if feedparser recognised a real RSS/Atom document
+    that simply has no items today: that's a quiet feed, not a broken one.
+    """
     parsed = feedparser.parse(content)
-    # feedparser is forgiving: it will "parse" an HTML page into zero entries.
-    # So we only accept it as a feed if it actually has items.
     if parsed.entries:
+        return parsed
+    if allow_empty and parsed.get("version") and not parsed.get("bozo"):
         return parsed
     return None
 
@@ -79,7 +97,7 @@ def check_feed(url: str) -> dict:
         if r.status_code != 200:
             result["error"] = f"HTTP {r.status_code}"
             return result
-        parsed = parse_feed_bytes(r.content)
+        parsed = parse_feed_bytes(r.content, allow_empty=True)
         if not parsed:
             result["error"] = "not a feed (no items found)"
             return result

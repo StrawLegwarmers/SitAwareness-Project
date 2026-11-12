@@ -5,18 +5,23 @@ We use SQLite: a whole database in one file (data/sitaware.db). No server to ins
 built into Python, and you can query it with plain SQL. Three tables:
 
   articles     one row per article we've ever seen (kept for KEEP_DAYS days)
+  forgotten    ids of articles deleted by prune(), kept REMEMBER_DAYS (see insert_article)
   feed_state   per feed: ETag/Last-Modified for conditional requests, and failure streaks
   fetch_log    one row per feed per run: what happened (for health reports)
 """
 from __future__ import annotations
 
+import os
 import sqlite3
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 from config import ROOT
 
-DB_PATH = ROOT / "data" / "sitaware.db"
+# SITAWARE_DB=/tmp/test.db points everything at another database (the tests use this).
+DB_PATH = Path(os.environ.get("SITAWARE_DB") or ROOT / "data" / "sitaware.db")
 KEEP_DAYS = 30          # older articles are deleted at the end of each run
+REMEMBER_DAYS = 120     # ...but their ids are remembered this long, so they never come back as "new"
 DUPE_TITLE_DAYS = 3     # same headline within 3 days on the same site = duplicate
 
 SCHEMA = """
@@ -73,6 +78,10 @@ CREATE INDEX IF NOT EXISTS idx_iocs_seen ON iocs(first_seen);
 -- Research pages already scanned for IOCs, so each is downloaded only once
 CREATE TABLE IF NOT EXISTS ioc_pages (url TEXT PRIMARY KEY, scanned_at TEXT, found INTEGER);
 
+-- Articles deleted after KEEP_DAYS. Some feeds keep old items for months and give them no date
+-- (the pipeline then dates them when first seen); without this list they'd come back as "new".
+CREATE TABLE IF NOT EXISTS forgotten (id TEXT PRIMARY KEY, pruned_at TEXT);
+
 CREATE TABLE IF NOT EXISTS fetch_log (
     run_at   TEXT, site TEXT, source TEXT, status TEXT,
     items    INTEGER, new INTEGER, dupes INTEGER, old INTEGER, error TEXT
@@ -82,7 +91,7 @@ CREATE TABLE IF NOT EXISTS fetch_log (
 
 def connect() -> sqlite3.Connection:
     """Open (or create) the database file and make sure the tables exist."""
-    DB_PATH.parent.mkdir(exist_ok=True)
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row          # rows behave like dicts: row["title"]
     conn.executescript(SCHEMA)
@@ -156,7 +165,8 @@ def is_title_dupe(conn, art: dict) -> bool:
 
 def insert_article(conn, art: dict) -> str:
     """Insert one article. Returns 'new', 'seen' (same URL already stored) or 'dupe' (same headline)."""
-    if conn.execute("SELECT 1 FROM articles WHERE id=?", (art["id"],)).fetchone():
+    if conn.execute("SELECT 1 FROM articles WHERE id=? UNION ALL SELECT 1 FROM forgotten WHERE id=?",
+                    (art["id"], art["id"])).fetchone():
         return "seen"
     if is_title_dupe(conn, art):
         return "dupe"
@@ -174,8 +184,12 @@ def log_fetch(conn, **row):
 
 
 def prune(conn) -> int:
-    """Delete articles and logs older than KEEP_DAYS so the database stays small."""
-    cutoff = (datetime.now(timezone.utc) - timedelta(days=KEEP_DAYS)).isoformat()
+    """Delete articles and logs older than KEEP_DAYS so the database stays small. Their ids are remembered."""
+    now = datetime.now(timezone.utc)
+    cutoff = (now - timedelta(days=KEEP_DAYS)).isoformat()
+    conn.execute("INSERT OR IGNORE INTO forgotten(id, pruned_at) SELECT id, ? FROM articles WHERE published < ?",
+                 (now.isoformat(timespec="seconds"), cutoff))
     n = conn.execute("DELETE FROM articles WHERE published < ?", (cutoff,)).rowcount
     conn.execute("DELETE FROM fetch_log WHERE run_at < ?", (cutoff,))
+    conn.execute("DELETE FROM forgotten WHERE pruned_at < ?", ((now - timedelta(days=REMEMBER_DAYS)).isoformat(),))
     return n

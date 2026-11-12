@@ -13,6 +13,7 @@ model: gemini-3.5-flash-lite       # free tier. For better writing try gemini-3.
                                    # (anthropic example: claude-haiku-5-5)
 
 pause_seconds: 15        # wait between AI calls, to stay under free-tier rate limits
+max_output_tokens: 16384 # longest answer allowed. An answer cut off at this limit is retried as two smaller calls.
 
 # What each run collects. Code groups the headlines first (pipeline/cluster.py); only groups
 # reported by 2+ outlets, or continuing a tracked story, go to the AI, about 40 per call.

@@ -33,6 +33,31 @@ feeds → save the database → commit `state/` and `site/data/` as `github-acti
 To run a fresh build after changing code, use **Run workflow**. **Re-run all jobs** on an old run
 re-uses that run's version of the code.
 
+## The tests workflow
+
+`.github/workflows/tests.yml` runs the automated tests (`tests/`) on every push and pull request:
+about 100 checks of feed parsing, the guardrails, grouping, placement, dates, the AI-answer checks,
+the machine feeds, the source-request validation, and security rules (no keys or personal email
+addresses in the repository, no untrusted text pasted into workflow commands, least-privilege
+permissions, the website's security policy). It needs no key, no network and no AI (the mock is
+used), and also checks that every configuration file is valid. Run them locally with:
+
+```bash
+pip install -r requirements.txt -r requirements-dev.txt
+python -m pytest -q
+python pipeline/check_sources.py --validate-only     # config files only, no downloads
+```
+
+A red cross on the Actions tab means a change broke something; the daily brief is a separate
+workflow and keeps running.
+
+## Workflow permissions
+
+Each workflow starts with no permissions (`permissions: {}`) and each job gets only what it needs:
+the daily `check` job can only read; `build` can commit (`contents: write`) and read the Pages
+settings; only `deploy` can publish and request the identity token Pages uses. The source-request
+job can commit and reply on issues; the tests can only read.
+
 ## The source-request workflow
 
 `.github/workflows/manage-sources.yml` reacts to issues opened with the "Add a source" or "Change a
@@ -78,6 +103,7 @@ secret.
 | The workflow fails at "Group stories" with "GEMINI_API_KEY is not set" | The secret is missing or misnamed |
 | Many reports removed in the audit | Normal on busy days; read `python pipeline/narratives.py --audit` to see why |
 | An AI call failed with a rate-limit error | The free-tier quota was reached; its articles are retried on the next run. Lower `max_calls` in `ai.yaml` if it keeps happening |
+| "An AI call failed" on the Overview | The reason is shown there ("cut off at the output limit", "HTTP 429"...). Cut-off answers are already retried as two smaller calls; if it keeps happening, lower `batch_groups` in `ai.yaml` |
 | A story is on the wrong region page | Run `python pipeline/countries.py --stories` to see which rule placed it; add the missing name to `entities.yaml`, or fix that story with `place:` in `corrections.yaml` |
 | Unrelated articles in one story, or one event split in two | Run `python pipeline/cluster.py --site geo` to see the code's groups; use `remove_country` in `corrections.yaml` for a mixed story |
 | A source shows Failing | Check its error on the Sources page; disable it or replace its address |
@@ -93,3 +119,11 @@ secret.
 - Turn on two-factor authentication.
 - Restrict the AI key to the API it needs.
 - Only add collaborators you trust: they can trigger the source workflow and edit files directly.
+- Uploading files through the GitHub website stamps the commit with your computer's time zone
+  (for example `+0100`). Commit from a terminal with `TZ=UTC git commit ...` if that matters to you.
+- Rewriting history doesn't remove old commits from GitHub's caches: a commit that was ever pushed
+  stays reachable by its address until GitHub Support purges it (*Remove data from a repository*
+  in GitHub's documentation), or the repository is deleted and recreated.
+- The IOC files under `site/feeds/` are published with real (refanged) values on purpose, for
+  tools like OpenCTI. Security scanners can flag a site that lists live malicious addresses; if
+  that happens, turn off `iocs_csv` and `stix` in `config/feeds.yaml`, or host the feeds privately.

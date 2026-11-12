@@ -110,8 +110,8 @@ def add(site_where: str, name: str, url: str, type_: str = "", lang: str = "", n
     if not where:
         return f"Not done: unknown region or section '{site_where}'."
     site, field, value = where
-    if not name or len(name) > 80 or "\n" in name:
-        return "Not done: the name must be 1 to 80 characters on one line."
+    if not name or len(name) > 80 or not name.isprintable():
+        return "Not done: the name must be 1 to 80 ordinary characters on one line."
     if not URL_RE.match(url) or len(url) > 500:
         return "Not done: the address must start with https:// (or http://) and contain no spaces."
     lang = (lang or "en").strip().lower()
@@ -138,7 +138,7 @@ def add(site_where: str, name: str, url: str, type_: str = "", lang: str = "", n
         parts.append(f"type: {type_}")
     parts.append(f"lang: {lang}")
     stamp = datetime.now().strftime("%Y-%m-%d")
-    note = re.sub(r"\s+", " ", (note or "").strip())[:120]
+    note = "".join(ch for ch in re.sub(r"\s+", " ", (note or "").strip()) if ch.isprintable())[:120]
     parts.append(f"note: {json.dumps(('Added from the browser ' + stamp + (' (issue #' + issue + ')' if issue else '') + ('. ' + note if note else '')), ensure_ascii=False)}")
     line = "  - {" + ", ".join(parts) + "}"
     text = sources_path(site).read_text(encoding="utf-8").rstrip("\n")

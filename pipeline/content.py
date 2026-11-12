@@ -41,7 +41,32 @@ def rules() -> dict:
             "ends": tuple(s.lower() for s in r.get("headline_ends", [])),
             "patterns": [re.compile(p, re.I) for p in r.get("headline_patterns", [])],
         }
+    terms = (cfg.get("offtopic") or {}).get("story_terms") or []
+    out["offtopic"]["story_terms"] = re.compile(
+        r"(?<![\w-])(?:" + "|".join(re.escape(t) for t in sorted(terms, key=len, reverse=True)) + r")(?![\w-])", re.I) if terms else None
+    out["offtopic"]["not_terms"] = re.compile(
+        r"(?<![\w-])(?:" + "|".join(re.escape(t) for t in (cfg.get("offtopic") or {}).get("not_story_terms") or []) + r")(?![\w-])",
+        re.I) if (cfg.get("offtopic") or {}).get("not_story_terms") else None
     return out
+
+
+def offtopic_story(title: str, headlines: list[str], site: str) -> bool:
+    """
+    A NEW story the AI proposed that is really entertainment or sport (a film festival, an actor's
+    death, a transfer), recognised by words in its title or in half of its headlines
+    (content_types.yaml, offtopic: story_terms). The articles stay in the database; no story is made.
+    """
+    r = rules()["offtopic"]
+    if not r.get("story_terms") or (r["sites"] and site not in r["sites"]):
+        return False
+
+    def hit(text):
+        text = r["not_terms"].sub(" ", text) if r.get("not_terms") else text
+        return bool(r["story_terms"].search(text))
+    if hit(title or ""):
+        return True
+    heads = [h for h in headlines if h]
+    return bool(heads) and sum(hit(h) for h in heads) * 2 >= len(heads)
 
 
 @lru_cache(maxsize=1)

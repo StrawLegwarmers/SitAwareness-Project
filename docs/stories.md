@@ -25,8 +25,11 @@ AI_PROVIDER=mock python pipeline/narratives.py           # test mode: no key, de
    when they share at least three *rare* words worth enough together, at least one of them a name
    (a word capitalised inside the headline), and their countries don't clash. Rarity is measured on
    the run's own articles, so "Abu Dhabi" or "Hegseth" count and "says" or "government" don't.
+   Words that are common in their own language never count (each language's little words are
+   listed in `cluster.py`, and in a language with 150+ headlines, any word in 12% of them).
    Each group is also compared with the stories already tracked: when a third of its headlines
-   match a story's headlines, code suggests "continues: <story>".
+   match a story's headlines, sharing a *distinctive* name (not a country, and not a name in more
+   than 2% of the day's headlines, like "Trump" or "Gaza"), code suggests "continues: <story>".
 3. **Choose what goes to the AI**: every group reported by two or more outlets, and every group
    (even one article) that continues a tracked story. Biggest first, about 40 groups per call
    (`batch_groups`), showing at most 10 articles per group (`group_articles`), up to `max_calls`
@@ -36,10 +39,10 @@ AI_PROVIDER=mock python pipeline/narratives.py           # test mode: no key, de
    articles that don't belong; continue a tracked story before creating one; return a story for
    every group that fits the site's focus; a new story needs at least two articles; report only
    new facts; each report cites article numbers such as `[12]`; no assessment; attribute state media.
-5. **Check** every report and title (below), insert the real links, record corroboration, and save.
-   A group's articles that the AI didn't see are added to the same story by code, if each one passes
-   the grouping test against an article the AI placed there. They are listed as coverage, never
-   used for a report.
+5. **Check** the AI's answer (below): every report and title, every story it continues, every
+   story it creates. Insert the real links, record corroboration, and save. A group's articles
+   that the AI didn't see are added to the same story by code, if each one passes the grouping
+   test against an article the AI placed there. They are listed as coverage, never used for a report.
 6. **Merge** stories that turn out to be the same event (the AI started one in two different calls):
    when half the headlines of one match the other's, in the same countries.
 
@@ -47,9 +50,32 @@ Measured on one day: 3,664 articles formed about 3,000 groups, 211 of them repor
 outlets; with the stories they continue, about 300 groups went to the AI in 8 calls. Before code
 grouping, the AI found 30 to 60 stories in the same volume.
 
-If a call fails, its articles are retried on the next run. If every call fails, the clock isn't
-moved and the whole run is retried. Collection numbers per day are kept in the state file and shown
-on the website ("Collection and checks").
+### When a call fails
+
+- **Network problems, rate limits, busy servers**: retried three times, waiting 15, 30 and 60
+  seconds (or as long as the service asks).
+- **An answer cut off at the output limit** (`max_output_tokens`), unreadable, or blocked by the
+  model's filters: the call is split in two halves and each half is tried once. A smaller answer
+  usually fits.
+- **Still failing**: that call's articles are kept and tried first on the next run. If every call
+  fails, the clock isn't moved and the whole run is retried. An answer that can't be used (a bug,
+  or something strange from the model) is skipped the same way, without losing the other calls.
+
+The reason for each failure is kept in the state file and shown on the website, under
+"Collection and checks" on the Overview, with the day's collection numbers.
+
+### What code checks in the AI's answer
+
+| The AI says | Code checks |
+|---|---|
+| "These articles continue story X" | Code suggested X for these articles, or at least one headline shares two rare words, including a distinctive name, with the story's title or headlines. Otherwise the articles start a new story (with a title from their own headlines), so unrelated news isn't glued onto an old story about the same country |
+| "This is a new story" | It has at least two articles; it isn't a story already tracked (see Duplicates); it isn't entertainment or sport (`story_terms` in `content_types.yaml`: a film festival, an actor's death, a transfer) |
+| A report | The guardrails below |
+| A title | The same checks; a title that fails is replaced by a real headline |
+
+Everything code refuses is logged in `state/<site>/audit.json` with a kind: `rejected` (a sentence
+failed a guardrail), `title`, `skipped` (a story not created or extended), `merged`, `correction`,
+`commentary` or `info`. Only `rejected` sentences count as "removed by the checks" on the website.
 
 ### Status
 
@@ -88,10 +114,16 @@ explicit dates within the two weeks before publication count; weekday names are 
 | 1 | Cites a real article by number | Sentences with no source, or a number that doesn't exist |
 | 2 | Attributed with a reporting verb ("reported", "said", "according to"…) | Claims stated as fact |
 | 3 | Every number appears in the cited articles (digits and number words) | Changed or invented figures |
-| 4 | At least 70% of capitalised names appear in the cited articles (English sources) | Invented people, places, organisations |
-| 5 | At least 65% of the meaningful words come from the cited articles | The AI's own conclusions and paraphrase drift |
+| 4 | English sources: at least 70% of capitalised names appear in the cited articles. Translated sources: the sentence's countries must not all differ from the article's | Invented people, places, organisations; a story put in the wrong country |
+| 5 | At least 65% of the meaningful words come from the cited articles (English sources) | The AI's own conclusions and paraphrase drift |
 | 6 | No analysis words ("likely", "signals", "escalation", "unprecedented"…) unless the source used them | Assessment dressed as reporting |
 | 7 | At most 45 words | Run-on summaries |
+
+Numbers are compared as values: "15,000" matches "15 thousand", "15 mil" or Turkish "15 bin";
+"$6.3bn" matches "6.3 billion"; for an article in another language, small numbers written as words
+count too (Russian "две машины" backs "two cars"). Countries match across languages and forms:
+"Chinese" is backed by "China", "Spain" by "España". The description of a state outlet that the
+prompt asks for ("[7], a Russian state outlet, reported...") is not checked as content.
 
 The AI writes `[12]`; code replaces it with a link to article 12's outlet. **The AI never writes a
 web address.** When the AI names an outlet instead of a number, code adds the number only if that
@@ -111,6 +143,7 @@ examples.
 | Two tracked stories turn out to be one event | Merged after the run, when half the headlines of one pass the grouping test against the other's, in the same countries |
 | A report repeats one already in the story, from the same outlets | Skipped |
 | A report repeats facts already collected, from a new outlet | Added to the earlier report as "also reported by" |
+| Several outlets report the same fact in the same call | The prompt asks for one report citing them all: "[4][9] reported that..." |
 | An opinion, analysis or off-topic piece sits in a story | Removed from the story; a report resting only on such pieces is removed and logged |
 
 The country condition matters for stories whose headlines are mostly in other languages: described

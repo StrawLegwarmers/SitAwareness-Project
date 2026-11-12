@@ -80,11 +80,11 @@ A shared `concern` word list, then each industry's `topic`, `also_concern`, `exc
 
 | File | What it controls |
 |---|---|
-| `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls; what a run collects: `max_per_source`, `max_per_run`; how groups are sent: `batch_groups` and `batch_articles` per call, `group_articles` shown per group, `max_calls` per site per run |
+| `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls, `max_output_tokens` (longest answer; a cut-off answer is retried as two smaller calls); what a run collects: `max_per_source`, `max_per_run`; how groups are sent: `batch_groups` and `batch_articles` per call, `group_articles` shown per group, `max_calls` per site per run |
 | `guardrails.yaml` | The checks on every AI sentence: reporting verbs, number/name/wording checks and thresholds, banned analysis words, maximum length |
 | `prompts/narratives.md` | The instructions given to the AI |
 | `publishers.yaml` | Feeds that belong to one organisation, so they count as one outlet |
-| `content_types.yaml` | How opinion, analysis and off-topic sections (sport, entertainment) are recognised: RSS categories, address folders, headline markers, source types |
+| `content_types.yaml` | How opinion, analysis and off-topic sections (sport, entertainment) are recognised: RSS categories, address folders, headline markers, source types; and `story_terms`, words that stop the AI from creating an entertainment or sport story |
 | `feeds.yaml` | Which machine feeds to write, how many days they cover, which indicator types to include |
 
 ## Environment variables
@@ -95,3 +95,5 @@ A shared `concern` word list, then each industry's `topic`, `also_concern`, `exc
 | `AI_PROVIDER` | `narratives.py` | Overrides `ai.yaml` for one run; `mock` needs no key |
 | `ABUSECH_AUTH_KEY` | `indicators.py` | Optional: enables ThreatFox indicators |
 | `SITE_URL` | `machine_feeds.py` | Public address used in feed links; on GitHub it's worked out automatically |
+| `SITAWARE_DB` | every script | Use another database file (the tests point it at a throwaway one) |
+| `MOCK_MAX_GROUPS` | `llm.py` (mock) | Test mode: pretend answers with more groups than this are cut off, to exercise the split-and-retry |

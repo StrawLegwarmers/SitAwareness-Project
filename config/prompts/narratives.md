@@ -20,14 +20,19 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 1. CHECK each group. List only the articles that really are about the same event. Leave out
    any that aren't (just don't list their numbers). If a group holds two different events,
    return two stories. If two groups are the same event, return one story with both.
-2. CONTINUE before you create. When a group says "continues: <id>", the code thinks it continues
-   that tracked story: use that id if the articles really are about it. A group can also
-   continue any other story in (A). Use `id: ""` only for a story that is not in (A).
+2. CONTINUE before you create, but only the SAME story. When a group says "continues: <id>",
+   the code thinks it continues that tracked story: use that id if the articles really are
+   about the same event or ongoing development (the same incident, talks, election, trial,
+   crisis). Another event in the same country is a different story: use `id: ""` for it.
+   Code checks every continuation against the story's headlines.
 3. Return a story for EVERY group that fits this site: $focus.
-   Skip a group only if it is about: $ignore.
+   Return NOTHING for a group about: $ignore. That includes film festivals, premieres,
+   celebrities, an actor's or a singer's death, and sport results or transfers.
 4. A new story needs at least 2 articles.
 5. Report only what is NEW: don't repeat a fact already reported in (A). If an outlet only
    repeats what (A) already has, list its article but write no report for it.
+   Write ONE report per distinct fact. When several outlets report the same fact with the
+   same numbers, write it once and cite them all: "[4][9][12] reported that ...".
 6. Every report starts with its source and a reporting verb:
    "[12] reported that ...", "[4] said ...", "According to [9], ...".
    Put each article number in its own brackets: [4][9], never [4, 9]. Don't write dates:
@@ -52,8 +57,8 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 - `title`: as rule 11
 - `country`: as rule 12
 - `articles`: numbers of EVERY article in (B) that belongs to this story
-- `reports`: 0 to 4 items, each `{"text": one sentence per rules 6–10, "articles": [numbers cited]}`.
-  A new story must have at least one report. Prefer reports from different outlets.
+- `reports`: 0 to 3 items, each `{"text": one sentence per rules 5–10, "articles": [numbers cited]}`.
+  A new story must have at least one report. Each report is a different fact (rule 5).
 
 ## Example of the exact format
 
@@ -62,7 +67,7 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
   {"id": "", "title": "Port Elm shipping incidents", "country": "Norland",
    "articles": [4, 17, 22],
    "reports": [
-     {"text": "[4] reported that the Norland coast guard said four cargo ships hit sea mines near Port Elm.", "articles": [4]},
+     {"text": "[4][22] reported that the Norland coast guard said four cargo ships hit sea mines near Port Elm.", "articles": [4, 22]},
      {"text": "[17], a state-run outlet, reported that two vessels were detained.", "articles": [17]}
    ]},
   {"id": "norland-coalition-talks", "title": "Norland: coalition talks", "country": "Norland",
