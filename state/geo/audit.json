@@ -435,42 +435,50 @@
  },
  {
   "date": "2026-11-12",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
-  "text": "[8][9][11] reported that Megaspeed pledged to cooperate with a United States investigation.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-12",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Gaza: Severe Storms and Floods Damage Displaced Persons Tents",
-  "text": "[62] reported that the Israeli military announced the assassination of the Khan Younis brigade commander in a strike on the Nasser Medical Complex.",
-  "reason": "countries not in cited articles: israel"
- },
- {
-  "date": "2026-11-12",
   "kind": "title",
-  "group": "europe",
-  "story": "Iranian men found guilty in UK of assisting Iranian intelligence",
-  "text": "UK Iranian espionage convictions",
-  "reason": "title replaced by a headline: wording not from cited articles: espionage, convictions"
+  "group": "africa",
+  "story": "Thugs attack NDC supporters in Lagos",
+  "text": "Lagos political town hall disruption",
+  "reason": "title replaced by a headline: wording not from cited articles: political, disruption"
  },
  {
   "date": "2026-11-12",
   "kind": "rejected",
-  "group": "mena",
-  "story": "US-Iran Tensions: Regional Diplomacy and Maritime Incidents",
-  "text": "[32] reported that a call between Donald Trump and Benjamin Netanyahu descended into a shouting match over the Iran war.",
-  "reason": "names not in cited articles: Benjamin, Donald"
+  "group": "europe",
+  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
+  "text": "[17][18][19] reported that U.S. special envoys Steve Witkoff and Jared Kushner arrived at the Kremlin to meet with Vladimir Putin following trilateral negotiations in Abu Dhabi.",
+  "reason": "names not in cited articles: Jared, Steve, Vladimir"
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
+  "text": "[75], a state-media outlet, reported that the European Union welcomed the Abu Dhabi talks while preparing its 22nd package of sanctions against Russia.",
+  "reason": "names not in cited articles: European, Union"
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Bulgaria flu vaccine distribution",
+  "text": "[60][61] reported that wholesale distributors are delivering the final 300,000 doses of flu vaccines to general practitioners' offices for free immunizations.",
+  "reason": "number not in cited articles: 300000"
  },
  {
   "date": "2026-11-12",
   "kind": "rejected",
   "group": "asia",
-  "story": "Imran Khan sisters released from jail",
-  "text": "[48] reported that two sisters of former Pakistani Prime Minister Imran Khan were released from jail.",
-  "reason": "wording not from cited articles: former, prime, minister"
+  "story": "Ukraine drone strikes on Russia and energy attacks",
+  "text": "[74] reported that milbloggers and mainstream media indicated Russia may have shot down its own helicopters while repelling Ukrainian drone attacks on Ust-Luga.",
+  "reason": "analysis word not used by the source: 'may'"
+ },
+ {
+  "date": "2026-11-12",
+  "kind": "merged",
+  "group": "europe",
+  "story": "French presidential guard collapse",
+  "text": "French Republican Guards collapse at Elysee",
+  "reason": "duplicate story merged into an existing one"
  }
 ]

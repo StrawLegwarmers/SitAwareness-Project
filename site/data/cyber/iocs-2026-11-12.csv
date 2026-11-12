@@ -1,4 +1,24 @@
 first_seen,source,report_title,report_url,type,value_defanged,malware
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,www[.]whatsappgroup[.]cc,ClearFake
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,145.63.138[.]47:9019,XWorm
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://72[.]255[.]18[.]22:55017/Mozi[.]a,Mozi
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://102[.]33[.]170[.]151:41205/Mozi[.]m,Mozi
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,207[.]205[.]59[.]34[.]bc[.]googleusercontent[.]com,php.shin_webshell
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://196[.]191[.]120[.]244:35388/Mozi[.]a,Mozi
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,dashu[.]store,ClearFake
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,fuzy[.]store,ClearFake
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wv2opp5z[.]fuzy[.]store,ClearFake
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,035d9999050019ecb044f05b345bdaafc911b021b2abfe6af2f1065a9fdf6e36,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ac230f636708568ec91a2886db2b10d3c683d7ddcfb24c2c1838ca731d058ed6,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,70d72b33ea056aea43ef88c354c01ec39477b39d72dcff54312ed1367e4661b7,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6b628ad194a04e55573f28566de7a19faf6e0cefbc2cd826b56087b4942a9f97,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,4f2d32b75ae3c38630896df05d66445d90235fe4232dd662f37e78929859ea15,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,88eaa6e3bdfd11fff47976b7630fc6df97627039ede0db60094699d56ee06efa,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,05c81d7963f72703d49f2eb1a7d3cb0535f1cff2d0529321fbb89e1196870744,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,98cca99e2d5ef6c39bfbfead76bab9675e38a7e38a1af89c56ff5a129cdcf38b,Mirai
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,050ttxvn[.]dashu[.]store,ClearFake
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,5imogene[.]workers[.]dev,php.shin_webshell
+2026-11-12T13:11:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,a8[.]animtoto[.]org,Vidar
 2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,trnrr37084[.]workers[.]dev,php.shin_webshell
 2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,38.60.214[.]47:22,Havoc
 2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,p37[.]anka4d[.]org,Vidar
