@@ -3,6 +3,7 @@ __pycache__/
 .venv/
 .env
 .DS_Store
+.pytest_cache/
 /data/
 
 # Machine feeds hold REFANGED (real) IOC values. Published, never committed.
