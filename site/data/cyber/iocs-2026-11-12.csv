@@ -1,4 +1,22 @@
 first_seen,source,report_title,report_url,type,value_defanged,malware
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,trnrr37084[.]workers[.]dev,php.shin_webshell
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,38.60.214[.]47:22,Havoc
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,p37[.]anka4d[.]org,Vidar
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,anka4d[.]org,Vidar
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,r2[.]animtoto[.]org,Vidar
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://blog[.]ryoana[.]com/,Remcos
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,gofur[.]store,ClearFake
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,j9aln2cd[.]gofur[.]store,ClearFake
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,blog[.]ryoana[.]com,AsyncRAT
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,thejoints[.]shop,ClearFake
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,hian8[.]com,AsyncRAT
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,difeja[.]workers[.]dev,php.shin_webshell
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.207.208[.]51:3306,Cobalt Strike
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.207.208[.]51:8089,Cobalt Strike
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,106.12.61[.]28:10888,Cobalt Strike
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.207.208[.]51:111,Cobalt Strike
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.207.208[.]51:2222,Cobalt Strike
+2026-11-12T12:06:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,f2[.]animtoto[.]org,Vidar
 2026-11-12T10:37:35+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,colimaenmovimiento[.]com,Unknown malware
 2026-11-12T10:37:35+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,product-search-83-99-206-235[.]geedo[.]com,php.shin_webshell
 2026-11-12T10:37:35+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,leknswn8[.]dapeng[.]store,ClearFake

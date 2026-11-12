@@ -435,93 +435,42 @@
  },
  {
   "date": "2026-11-12",
-  "group": "asia",
-  "story": "Xi Jinping Taiwan reunification remarks",
-  "text": "[28] reported that Chinese President Xi Jinping stated Taiwan 'reunification' must happen as history cannot be stopped.",
-  "reason": "names not in cited articles: Chinese, Jinping"
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
+  "text": "[8][9][11] reported that Megaspeed pledged to cooperate with a United States investigation.",
+  "reason": "names not in cited articles: States, United"
  },
  {
   "date": "2026-11-12",
+  "kind": "rejected",
   "group": "mena",
-  "story": "Cairo International Film Festival opening",
-  "text": "[44] reported that veteran artist Yousra attended the opening ceremony of the 47th Cairo Film Festival amid a large number of art stars and celebrities.",
-  "reason": "number not in cited articles: 47"
+  "story": "Gaza: Severe Storms and Floods Damage Displaced Persons Tents",
+  "text": "[62] reported that the Israeli military announced the assassination of the Khan Younis brigade commander in a strike on the Nasser Medical Complex.",
+  "reason": "countries not in cited articles: israel"
  },
  {
   "date": "2026-11-12",
+  "kind": "title",
   "group": "europe",
-  "story": "Istanbul Northern Railway Crossing Project bids",
-  "text": "[68] reported that Transport and Infrastructure Minister Uraloglu stated they received the first bids within the tender process for the Istanbul Northern Railway Crossing Project.",
-  "reason": "names not in cited articles: Crossing, Infrastructure, Northern, Project, Railway, Transport"
+  "story": "Iranian men found guilty in UK of assisting Iranian intelligence",
+  "text": "UK Iranian espionage convictions",
+  "reason": "title replaced by a headline: wording not from cited articles: espionage, convictions"
  },
  {
   "date": "2026-11-12",
-  "group": "africa",
-  "story": "Turkish Defense Ministry denies Somali troop claims",
-  "text": "[70] reported that Ministry of National Defense Spokesperson Rear Admiral Zeki Aktürk stated that claims of sending 15,000 soldiers to Somalia do not reflect the truth.",
-  "reason": "number not in cited articles: 15000"
+  "kind": "rejected",
+  "group": "mena",
+  "story": "US-Iran Tensions: Regional Diplomacy and Maritime Incidents",
+  "text": "[32] reported that a call between Donald Trump and Benjamin Netanyahu descended into a shouting match over the Iran war.",
+  "reason": "names not in cited articles: Benjamin, Donald"
  },
  {
   "date": "2026-11-12",
-  "group": "europe",
-  "story": "Moscow Matveevskaya street car fire",
-  "text": "[90] reported that two cars caught fire in the courtyard of an apartment residential building on Matveevskaya Street in the west of Moscow.",
-  "reason": "number not in cited articles: 2"
- },
- {
-  "date": "2026-11-12",
-  "group": "europe",
-  "story": "Sercan Sayal arrested in Greece",
-  "text": "[98] reported that the Ministry of Interior announced that Sercan Sayal, leader of a new-generation organized crime organization sought with a red bulletin, was captured in Greece.",
-  "reason": "names not in cited articles: Greece, Interior"
- },
- {
-  "date": "2026-11-12",
-  "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "Abu Dhabi peace talks details and follow-up",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-12",
-  "group": "europe",
-  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
-  "text": "Nvidia CEO Jensen Huang Affair and Succession Scandal",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-12",
-  "group": "europe",
-  "story": "Spain General Strike Over Housing Costs",
-  "text": "Spain police action during general strike",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-12",
-  "group": "africa",
-  "story": "South Africa: ANC Suffers Historic Setback in Municipal Elections",
-  "text": "Mail & Guardian reported that double Olympic gold medallist Tatjana Smith switched her allegiance to represent the Netherlands.",
-  "reason": "cited only opinion, analysis or off-topic pieces (not news reporting)"
- },
- {
-  "date": "2026-11-12",
-  "group": "europe",
-  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
-  "text": "Klix reported that Kimberly Powell, vice president of healthcare at Nvidia, was the focus of reports regarding an extramarital affair with Huang.",
-  "reason": "cited only opinion, analysis or off-topic pieces (not news reporting)"
- },
- {
-  "date": "2026-11-12",
+  "kind": "rejected",
   "group": "asia",
-  "story": "South Korea National Soccer Team Internal Divisions Resolved",
-  "text": "South China Morning Post reported that Son Heung-min and four other South Korean players stated they had put their differences aside after reports of internal divisions within the national team.",
-  "reason": "cited only opinion, analysis or off-topic pieces (not news reporting)"
- },
- {
-  "date": "2026-11-12",
-  "group": "asia",
-  "story": "South Korea National Soccer Team Internal Divisions Resolved",
-  "text": "CNA reported that Son Heung-min apologized to the public and football fans for concerns caused by recent reports concerning the national team.",
-  "reason": "cited only opinion, analysis or off-topic pieces (not news reporting)"
+  "story": "Imran Khan sisters released from jail",
+  "text": "[48] reported that two sisters of former Pakistani Prime Minister Imran Khan were released from jail.",
+  "reason": "wording not from cited articles: former, prime, minister"
  }
 ]
