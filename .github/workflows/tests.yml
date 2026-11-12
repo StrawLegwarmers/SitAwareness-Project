@@ -1,0 +1,36 @@
+name: Tests
+
+on:
+  push:
+    paths-ignore: ["site/data/**", "state/**"]
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install libraries
+        run: pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Run the tests
+        run: python -m pytest -q
+
+      - name: Check the website's JavaScript parses
+        run: node --check site/assets/app.js && node --check site/assets/theme.js
+
+      - name: Check the configuration files
+        run: python pipeline/check_sources.py --validate-only
