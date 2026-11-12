@@ -25,10 +25,20 @@ publishes it. Both are free for public repositories.
 | 09:23 UK time | Backup run: builds the brief only if the main run didn't; otherwise stops within seconds |
 | Any time | *Run workflow* on the Actions tab always builds |
 
-Steps: restore yesterday's database from the Actions cache → fetch feeds → collect vulnerabilities and
-indicators (allowed to fail without stopping the run) → group stories → write the website's data and
-feeds → save the database → commit `state/` and `site/data/` as `github-actions[bot]` → publish
-`site/` to Pages. Two runs never overlap.
+Steps: restore yesterday's database from the Actions cache → fetch feeds → turn off feeds that keep
+failing (below) → collect vulnerabilities and indicators (allowed to fail without stopping the run)
+→ group stories → write the website's data and feeds → save the database → commit `state/`,
+`site/data/` and the source lists as `github-actions[bot]` → publish `site/` to Pages. Two runs
+never overlap.
+
+### Feeds that keep failing
+
+A feed that has failed on every run for 7 days (and at least 5 runs in a row) is turned off:
+`enabled: false` and a dated note ("Auto-disabled 2026-11-20: failing since 2026-11-13 (HTTP 403)")
+are written into its line in `sources.yaml`, and it shows as Disabled on the Sources page with that
+note. Re-enable it with a "Change a source" issue once it works. If more than a fifth of the feeds
+fail at once, nothing is turned off: that's a network problem, not the feeds. To preview:
+`python pipeline/manage_sources.py auto-disable --dry-run`.
 
 To run a fresh build after changing code, use **Run workflow**. **Re-run all jobs** on an old run
 re-uses that run's version of the code.
@@ -36,7 +46,7 @@ re-uses that run's version of the code.
 ## The tests workflow
 
 `.github/workflows/tests.yml` runs the automated tests (`tests/`) on every push and pull request:
-about 100 checks of feed parsing, the guardrails, grouping, placement, dates, the AI-answer checks,
+about 110 checks of feed parsing, grouping accuracy on a labelled day, the guardrails, grouping, placement, dates, the AI-answer checks,
 the machine feeds, the source-request validation, and security rules (no keys or personal email
 addresses in the repository, no untrusted text pasted into workflow commands, least-privilege
 permissions, the website's security policy). It needs no key, no network and no AI (the mock is
@@ -51,12 +61,27 @@ python pipeline/check_sources.py --validate-only     # config files only, no dow
 A red cross on the Actions tab means a change broke something; the daily brief is a separate
 workflow and keeps running.
 
+## The maintenance workflow
+
+`.github/workflows/maintenance.yml` runs only when you start it (Actions → Maintenance → Run
+workflow). Unticked, it lists the stories that mix unrelated events and the titles that no longer
+fit; with *apply* ticked, it splits those stories and commits `state/`. See
+[stories](stories.md#maintenance). It uses the AI key to double-check code's suspicions.
+
+## Pinned actions and Dependabot
+
+Every action in the workflows is pinned to an exact commit, with its version in a comment
+(`actions/checkout@3d3c42e…  # v7.0.1`): a version tag can be moved to other code, a commit
+can't. `.github/dependabot.yml` asks GitHub's Dependabot to check weekly for newer versions of the
+actions and of the Python libraries; it opens a pull request, the tests run on it, and you merge it
+if they pass. The tests fail if an action isn't pinned.
+
 ## Workflow permissions
 
 Each workflow starts with no permissions (`permissions: {}`) and each job gets only what it needs:
 the daily `check` job can only read; `build` can commit (`contents: write`) and read the Pages
 settings; only `deploy` can publish and request the identity token Pages uses. The source-request
-job can commit and reply on issues; the tests can only read.
+job can commit and reply on issues; maintenance can commit; the tests can only read.
 
 ## The source-request workflow
 

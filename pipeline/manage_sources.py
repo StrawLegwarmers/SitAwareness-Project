@@ -9,6 +9,8 @@ replies on the issue. In the Codespace you can run it directly:
   python pipeline/manage_sources.py disable --name "Naija News"
   python pipeline/manage_sources.py enable  --name "Naija News"
   python pipeline/manage_sources.py remove  --name "Naija News"
+  python pipeline/manage_sources.py auto-disable           # turn off feeds that keep failing (daily run)
+  python pipeline/manage_sources.py auto-disable --dry-run # just list them
 
 SAFETY. The issue text is typed by a person, so it's treated as untrusted:
   - the workflow only runs for the repository owner (anyone can open an issue on a public repo)
@@ -182,6 +184,71 @@ def change(name: str, action: str) -> str:
     return f"Done: {verb} **{item['name']}** in `config/{site}/sources.yaml`. It takes effect from the next daily run."
 
 
+# ── Feeds that keep failing ─────────────────────────────────────────────────
+# A feed that has failed on every run for a week is turned off, with a note saying when and why,
+# so it stops slowing the run and cluttering the Sources page. It isn't deleted: re-enable it with a
+# "Change a source" issue (Enable) once it works again. Never more than a fifth of the feeds at once:
+# if that many fail together, the problem is the network, not the feeds.
+AUTO_DISABLE_DAYS = 7          # failing for at least this long...
+AUTO_DISABLE_FAILURES = 5      # ...and on at least this many runs in a row
+AUTO_DISABLE_MAX_SHARE = 0.2
+
+
+def failing_feeds(conn, days: int = AUTO_DISABLE_DAYS, failures: int = AUTO_DISABLE_FAILURES,
+                  now: datetime | None = None) -> list[dict]:
+    """Enabled feeds failing for `days` and `failures` runs in a row, from the database's feed health."""
+    from datetime import timedelta, timezone
+    now = now or datetime.now(timezone.utc)
+    cutoff = (now - timedelta(days=days)).isoformat()
+    out = []
+    for site in ("geo", "cyber"):
+        for _, item in entries(site):
+            if item.get("enabled") is False or not item.get("feed"):
+                continue
+            st = conn.execute("SELECT fails_in_row, last_ok, last_error FROM feed_state WHERE feed=?", (item["feed"],)).fetchone()
+            if not st or (st["fails_in_row"] or 0) < failures:
+                continue
+            # When did this run of failures start? After the last success, or at the first run we have.
+            since = st["last_ok"] or conn.execute("SELECT MIN(run_at) FROM fetch_log WHERE source=? AND site=?",
+                                                  (item["name"], site)).fetchone()[0]
+            if since and since <= cutoff:
+                out.append({"site": site, "name": item["name"], "error": st["last_error"] or "error",
+                            "fails": st["fails_in_row"], "since": since[:10]})
+    return out
+
+
+def set_fields(site: str, name: str, **fields) -> str | None:
+    """Change fields of one source line (rewritten as one YAML line, every text quoted). Returns a problem or None."""
+    hit = find(name)
+    if not hit or hit[0] != site:
+        return f"no source called {name}"
+    _, i, item = hit
+    item.update(fields)
+    lines = sources_path(site).read_text(encoding="utf-8").splitlines()
+    indent = lines[i][: len(lines[i]) - len(lines[i].lstrip())]
+    parts = [f"{k}: {json.dumps(v, ensure_ascii=False) if isinstance(v, str) else json.dumps(v)}" for k, v in item.items()]
+    lines[i] = indent + "- {" + ", ".join(parts) + "}"
+    return safe_write(site, "\n".join(lines) + "\n")
+
+
+def auto_disable(conn, dry_run: bool = False, days: int = AUTO_DISABLE_DAYS, failures: int = AUTO_DISABLE_FAILURES) -> str:
+    bad = failing_feeds(conn, days, failures)
+    enabled = sum(1 for site in ("geo", "cyber") for _, it in entries(site) if it.get("feed") and it.get("enabled") is not False)
+    if not bad:
+        return "Feed health: no feed has been failing long enough to turn off."
+    if len(bad) > AUTO_DISABLE_MAX_SHARE * max(enabled, 1):
+        return (f"Feed health: {len(bad)} of {enabled} feeds failing at once. That looks like a network problem, "
+                "so nothing was turned off.")
+    lines = []
+    stamp = datetime.now().strftime("%Y-%m-%d")
+    for f in bad:
+        note = f"Auto-disabled {stamp}: failing since {f['since']} ({f['fails']} runs, {f['error'][:60]}). Re-enable when it works again."
+        problem = None if dry_run else set_fields(f["site"], f["name"], enabled=False, note=note)
+        lines.append(f"  {'would turn off' if dry_run else 'turned off' if not problem else 'COULD NOT turn off'} "
+                     f"{f['site']}: {f['name']} ({f['error'][:60]}, failing since {f['since']})" + (f": {problem}" if problem else ""))
+    return f"Feed health: {len(bad)} feed(s) failing for {days}+ days:\n" + "\n".join(lines)
+
+
 def from_issue() -> str:
     """Called by the workflow. Title and body come from environment variables, never the command line."""
     title, body = os.environ.get("ISSUE_TITLE", ""), os.environ.get("ISSUE_BODY", "")
@@ -197,15 +264,23 @@ def from_issue() -> str:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Add, disable, enable or remove a source.")
-    ap.add_argument("action", choices=["add", "disable", "enable", "remove", "from-issue"])
+    ap.add_argument("action", choices=["add", "disable", "enable", "remove", "from-issue", "auto-disable"])
     ap.add_argument("--name")
     ap.add_argument("--url")
     ap.add_argument("--where", help="region (geo) or section (cyber): europe, namerica, news, intel...")
     ap.add_argument("--type", default="")
     ap.add_argument("--lang", default="en")
     ap.add_argument("--out", help="also write the result to this file (the workflow posts it on the issue)")
+    ap.add_argument("--dry-run", action="store_true", help="auto-disable: only list the feeds")
+    ap.add_argument("--days", type=int, default=AUTO_DISABLE_DAYS, help="auto-disable: failing for this many days")
+    ap.add_argument("--failures", type=int, default=AUTO_DISABLE_FAILURES, help="auto-disable: and this many runs in a row")
     a = ap.parse_args()
-    if a.action == "from-issue":
+    if a.action == "auto-disable":
+        import store
+        conn = store.connect()
+        result = auto_disable(conn, a.dry_run, a.days, a.failures)
+        conn.close()
+    elif a.action == "from-issue":
         result = from_issue()
     elif a.action == "add":
         result = add(a.where or "", a.name or "", a.url or "", a.type, a.lang)

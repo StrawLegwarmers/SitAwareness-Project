@@ -65,6 +65,7 @@ SAME_FACTS = 0.7      # ...or, from a new outlet, added to it as "also reported 
 MERGE_SHARE = 0.5     # two tracked stories are merged when this share of headlines match (cluster.py)
 COVERAGE_DAYS = 14    # days of collection statistics kept in the state file
 RETRY_MAX = 1500      # articles carried over to the next run when the AI call limit is reached
+RETITLE_SUPPORT = 0.25  # a title matching fewer than a quarter of the recent English headlines may be renamed
 
 PUBLISHERS = load_publishers()
 
@@ -229,13 +230,25 @@ def pick_shown(items: list[dict], k: int) -> tuple[list[dict], list[dict]]:
     return shown, [a for a in items if a not in shown]
 
 
-def make_batches(articles: list[dict], stories: list[dict], site: str, ai: dict) -> tuple[list[dict], dict]:
+def is_promo(title: str, words: list[str], source: str = "") -> bool:
+    """
+    Product news and marketing from a vendor's blog ("Introducing...", "...acquires...", or a headline
+    that starts with the vendor's own name, "CrowdStrike Extends..."): never a story on its own.
+    """
+    t = " " + re.sub(r"[^a-z0-9]+", " ", (title or "").lower()) + " "
+    vendor = re.sub(r"[^a-z0-9]+", " ", source.lower()).split()[:1]
+    return any(f" {w.lower()} " in t for w in words) or bool(vendor and t.startswith(f" {vendor[0]} "))
+
+
+def make_batches(articles: list[dict], stories: list[dict], site: str, ai: dict,
+                 solo: set[str] | frozenset = frozenset(), promo: list[str] | None = None) -> tuple[list[dict], dict]:
     """
     Cluster the articles (cluster.py), find which tracked story each group probably continues,
     and pack the groups into AI calls. Returns (batches, coverage numbers).
 
-    A group goes to the AI if two or more outlets reported it, or if it continues a tracked
-    story. Biggest first. Groups that don't fit in max_calls wait for the next run.
+    A group goes to the AI if two or more outlets reported it, if it continues a tracked story,
+    or if it holds research from a source listed in site.yaml's single_source_stories (a major
+    lab's report is news on its own). Biggest first. Groups that don't fit wait for the next run.
     """
     idx = cluster.index_for(articles)
     groups = cluster.cluster(articles, site, idx)
@@ -244,8 +257,11 @@ def make_batches(articles: list[dict], stories: list[dict], site: str, ai: dict)
     for items in groups:
         outlets = len({a["publisher"] for a in items})
         hint, hits = tracked.match(items)
-        if outlets >= 2 or hint:
-            candidates.append({"items": items, "outlets": outlets, "hint": hint})
+        research = next((a for a in items if a.get("source") in solo and not is_promo(a["title"], promo or [], a["source"])),
+                        None) if outlets < 2 else None
+        if outlets >= 2 or hint or research:
+            candidates.append({"items": items, "outlets": outlets, "hint": hint,
+                               "research": research["outlet"] if research and not hint else None})
     candidates.sort(key=lambda c: (-c["outlets"], -len(c["items"])))
     per_group, per_call = ai.get("group_articles", 10), ai.get("batch_articles", 300)
     max_groups, max_calls = ai.get("batch_groups", 40), ai.get("max_calls", 8)
@@ -280,6 +296,26 @@ def strip_links(text: str) -> str:
     return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text or "")
 
 
+def drifted_titles(batch: dict, today: str) -> set[str]:
+    """
+    Tracked stories (among this call's) whose title no longer matches what they're about: fewer than
+    RETITLE_SUPPORT of their recent English headlines (yesterday, today and this call's groups) share
+    the title's words. Only these may be renamed, and only to a title that passes the checks.
+    """
+    idx = batch.get("idx")
+    if idx is None:
+        return set()
+    since = (datetime.fromisoformat(today) - timedelta(days=1)).date().isoformat()
+    out = set()
+    for n in batch["stories"]:
+        recent = [a for a in n["articles"] if (a.get("added") or "") >= since]
+        recent += [a for c in batch["groups"] if c.get("hint") is n for a in c["shown"]]
+        share = cluster.title_support(idx, n["title"], recent)
+        if share is not None and share < RETITLE_SUPPORT:
+            out.add(n["id"])
+    return out
+
+
 def build_prompt(site_cfg: dict, batch: dict, today: str):
     """
     The prompt for one AI call: the tracked stories its groups may continue (A), and the groups (B).
@@ -290,9 +326,11 @@ def build_prompt(site_cfg: dict, batch: dict, today: str):
     system_part = system_part.replace("# SYSTEM", "", 1).strip()
 
     names = {g["id"]: g["name"] for g in site_cfg["groups"]}
+    batch["retitle"] = drifted_titles(batch, today)
     existing_txt = "\n\n".join(
         f"id: {n['id']}\nsection: {names.get(n['group'], n['group'])}\ntitle: {n['title']}\n"
-        f"last reported: {n['last_updated']}\n"
+        + ("title may no longer fit: its recent headlines are about something else (rule 11)\n" if n["id"] in batch["retitle"] else "")
+        + f"last reported: {n['last_updated']}\n"
         + "".join(f"already reported (context only, don't copy this format): {strip_links(r['text'])}\n"
                   for r in n["reports"][:3])
         for n in batch["stories"]
@@ -300,7 +338,8 @@ def build_prompt(site_cfg: dict, batch: dict, today: str):
 
     lines, refs, k = [], {}, 0
     for gi, c in enumerate(batch["groups"], start=1):
-        lines.append(f"\n### Group {gi}" + (f" · continues: {c['hint']['id']}" if c["hint"] else ""))
+        lines.append(f"\n### Group {gi}" + (f" · continues: {c['hint']['id']}" if c["hint"] else "")
+                     + (f" · research by {c['research']}: can be a story on its own" if c.get("research") else ""))
         c["nums"] = []
         for a in c["shown"]:
             k += 1
@@ -544,7 +583,11 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
             item = dict(item, id="", title="")   # its title was the old story's: a new one comes from its headlines
             story_group = home_group(site, site_cfg, "", [refs[k] for k in nums], hint)
 
-        if n is None and len(nums) < 2:                       # rule 4, enforced in code
+        # Rule 4, enforced in code: a new story needs two articles, unless its one article is
+        # research from a source in single_source_stories (site.yaml).
+        solo = (len(nums) == 1 and refs[nums[0]].get("source") in set(site_cfg.get("single_source_stories") or [])
+                and not is_promo(refs[nums[0]]["title"], site_cfg.get("single_source_skip") or [], refs[nums[0]].get("source") or ""))
+        if n is None and len(nums) < 2 and not solo:
             if nums:
                 skip(item.get("title", ""), "new story with fewer than 2 articles")
             continue
@@ -573,7 +616,17 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
             state["narratives"].append(n)
             index[n["id"]] = n
             counts["new"] += 1
-        # Existing stories keep their title: a story's name stays the same day to day.
+        # Existing stories keep their title (a story's name stays the same day to day), unless code
+        # found the title no longer fits (drifted_titles) and the AI's new one passes the checks.
+        new_title = " ".join(str(item.get("title") or "").split())
+        if n["id"] in batch.get("retitle", ()) and new_title and new_title.lower() != n["title"].lower():
+            recent = [a for a in n["articles"] if a.get("added") == today] + [refs[k] for k in nums]
+            checked, why = checked_title(new_title, recent or [refs[k] for k in nums])
+            if not why:
+                note(audit, "title", today, n["group"], checked, n["title"], "renamed: the old title no longer fit its recent headlines")
+                n.setdefault("previous_titles", []).append(n["title"])
+                n["title"] = checked
+                counts["renamed"] += 1
         if hint and not n.get("subject"):
             n["subject"] = hint                                # checked: named in its own headlines
 
@@ -842,7 +895,8 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
 
     print(f"\n=== {site_cfg['name']} ({ai.get('provider')}: {ai.get('model')}) ===")
     articles = select_articles(conn, site, site_cfg, since, ai, only_group, state.get("retry"))
-    batches, cov = make_batches(articles, state["narratives"], site, ai)
+    batches, cov = make_batches(articles, state["narratives"], site, ai, set(site_cfg.get("single_source_stories") or []),
+                                site_cfg.get("single_source_skip") or [])
     print(f"{len(articles)} new articles -> {cov['groups']} groups ({cov['reported_by_2']} reported by 2+ outlets); "
           f"{cov['candidates']} go to the AI ({cov['continuing']} continue a tracked story) in {len(batches)} call(s)"
           + (f"; {cov['waiting']} wait for the next run (max_calls)" if cov["waiting"] else ""))
@@ -883,6 +937,7 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
                   f"{counts['updated']} updated stories; {counts['kept']} reports kept, {counts['rejected']} removed by guardrails"
                   + (f", {counts['corroborated']} corroborations" if counts["corroborated"] else "")
                   + (f", {counts['skipped']} proposals skipped" if counts["skipped"] else "")
+                  + (f", {counts['renamed']} stories renamed" if counts["renamed"] else "")
                   + (f" ({counts['repaired']} citations added by code)" if counts["repaired"] else "")
                   + (f"; {counts['attached by code']} more articles added by code" if counts["attached by code"] else ""))
 

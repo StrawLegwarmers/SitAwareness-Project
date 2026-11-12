@@ -3,6 +3,17 @@
 Besides its stories, the Cyber site has three collections built with plain code and no AI:
 exploited vulnerabilities, indicators of compromise, and industry intelligence.
 
+## Single-source research
+
+Most stories need two outlets. On Cyber, a major lab's or agency's own publication is news on its
+own: a new campaign, threat actor or implant from Mandiant (published on Google Threat
+Intelligence), Unit 42, Microsoft, CrowdStrike, Talos and others, or a CISA advisory. Sources listed
+under `single_source_stories` in `config/cyber/site.yaml` go to the AI even when nobody else has
+reported the same thing, marked "research by <outlet>", and can become a story with that one
+article. Their product news never does: a headline with a word from `single_source_skip`
+("introducing", "acquires", "webinar"...), or starting with the vendor's own name ("CrowdStrike
+Extends..."), is left out. Such stories carry the *single source* flag until others report them.
+
 ## Exploited vulnerabilities
 
 `pipeline/indicators.py` downloads the **CISA Known Exploited Vulnerabilities (KEV)** catalog on every

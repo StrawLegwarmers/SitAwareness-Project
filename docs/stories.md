@@ -30,8 +30,9 @@ AI_PROVIDER=mock python pipeline/narratives.py           # test mode: no key, de
    Each group is also compared with the stories already tracked: when a third of its headlines
    match a story's headlines, sharing a *distinctive* name (not a country, and not a name in more
    than 2% of the day's headlines, like "Trump" or "Gaza"), code suggests "continues: <story>".
-3. **Choose what goes to the AI**: every group reported by two or more outlets, and every group
-   (even one article) that continues a tracked story. Biggest first, about 40 groups per call
+3. **Choose what goes to the AI**: every group reported by two or more outlets, every group
+   (even one article) that continues a tracked story, and on Cyber, research from the labs and
+   agencies listed in `single_source_stories` (see [cyber](cyber.md#single-source-research)). Biggest first, about 40 groups per call
    (`batch_groups`), showing at most 10 articles per group (`group_articles`), up to `max_calls`
    calls. Groups that don't fit wait for the next run.
 4. **Prompt** the AI with (A) the tracked stories its groups may continue and (B) the numbered
@@ -49,6 +50,26 @@ AI_PROVIDER=mock python pipeline/narratives.py           # test mode: no key, de
 Measured on one day: 3,664 articles formed about 3,000 groups, 211 of them reported by two or more
 outlets; with the stories they continue, about 300 groups went to the AI in 8 calls. Before code
 grouping, the AI found 30 to 60 stories in the same volume.
+
+### How accurate the grouping is
+
+`tests/data/grouping_day.json.gz` holds one real day of 6,223 headlines. For 722 of them, a person
+checked which event each reports (about 45 events of 2 to 40 headlines, in 15 languages, and about
+230 headlines that are their own event, including look-alikes such as separate drone strikes on the
+same night). `python pipeline/evaluate_grouping.py` scores code's grouping against them:
+
+| | Score | Meaning |
+|---|---|---|
+| Precision | 0.968 | Groups are rarely a mix of different events |
+| Recall | 0.563 | An event's headlines often end up in several groups, mostly across languages and wordings |
+
+Precision matters more: a mixed group misleads the AI, while split groups are joined by the AI
+("If two groups are the same event, return one story") and by later continuations. The thresholds
+were tuned on this day (`--tune` tries 90 combinations; the earlier settings scored 0.957 and
+0.561). Lower thresholds raised recall to 0.60 but let look-alikes in (precision 0.93); joining
+groups that share one rare name raised recall to 0.7 but dropped precision to 0.72. Neither was
+adopted. The tests fail if precision falls below 0.95 or recall below 0.5. `--mistakes` lists the
+worst merges and splits; labels are judgment calls and can be edited in the file.
 
 ### When a call fails
 
@@ -69,7 +90,8 @@ The reason for each failure is kept in the state file and shown on the website, 
 | The AI says | Code checks |
 |---|---|
 | "These articles continue story X" | Code suggested X for these articles, or at least one headline shares two rare words, including a distinctive name, with the story's title or headlines. Otherwise the articles start a new story (with a title from their own headlines), so unrelated news isn't glued onto an old story about the same country |
-| "This is a new story" | It has at least two articles; it isn't a story already tracked (see Duplicates); it isn't entertainment or sport (`story_terms` in `content_types.yaml`: a film festival, an actor's death, a transfer) |
+| "This is a new story" | It has at least two articles (one is enough for research from a source in `single_source_stories`, unless the headline is product news); it isn't a story already tracked (see Duplicates); it isn't entertainment or sport (`story_terms` in `content_types.yaml`: a film festival, an actor's death, a transfer) |
+| A new title for a tracked story | Only accepted when code found the old title no longer fits (fewer than a quarter of the story's recent English headlines share a rare word with it, places aside), and the new title passes the title checks. The old title is kept in `previous_titles` |
 | A report | The guardrails below |
 | A title | The same checks; a title that fails is replaced by a real headline |
 
@@ -148,6 +170,22 @@ examples.
 
 The country condition matters for stories whose headlines are mostly in other languages: described
 by only a few English words, two unrelated stories can look 50% similar by accident.
+
+## Maintenance
+
+`pipeline/maintenance.py`, also on the Actions tab as **Maintenance** (Run workflow; tick *apply* to
+make the changes, leave it unticked to only list them):
+
+- **clean** finds stories that mix unrelated events, from before code checked continuations
+  (a minister's resignation under a migrant-boat story). For each story with four or more
+  articles: its core is its title and the articles from its first day; every other article must
+  share something with the core, directly or through another kept article (a country in any
+  language, two rare words, or one rare name). Articles sharing nothing are suspects; the AI then
+  checks the suspects (`config/prompts/cleanup.md`), and only those both agree on are moved: two or
+  more about the same thing become their own story, with the reports that cite only them; single
+  ones leave the story. Everything moved is in the audit log (kind `cleanup`).
+- **titles** lists stories whose title no longer fits their recent headlines. These are renamed
+  by the next daily run, when they get new articles (see above), so nothing needs doing by hand.
 
 ## Corrections
 

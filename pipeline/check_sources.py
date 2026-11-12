@@ -81,6 +81,10 @@ def run_validate() -> int:
             pages_for(load_site(site))                 # raises SystemExit with a clear message on a typo
         except SystemExit as ex:
             problems.append(str(ex))
+        names = {s["name"] for s in load_sources(site, include_disabled=True)}
+        for name in load_site(site).get("single_source_stories") or []:
+            if name not in names:
+                problems.append(f"config/{site}/site.yaml, single_source_stories: no source called '{name}' in sources.yaml")
     try:
         if countries.load("geo") is None:
             problems.append("config/geo/countries.yaml is missing")

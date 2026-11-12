@@ -269,9 +269,9 @@ function card(s, day, showGroup) {
   } else if (!active && earlier.length) {
     lead = `<ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
   } else if (s.status === "covered" && earlier.length) {
-    lead = `<p class="muted small" style="margin:0">More outlets covered this ${P.since}, with no new facts. Latest report:</p><ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
+    lead = `<p class="muted small m0">More outlets covered this ${P.since}, with no new facts. Latest report:</p><ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
   } else {
-    lead = `<p class="muted" style="margin:0;font-size:13px">No checked report. See the original headlines below.</p>`;
+    lead = `<p class="muted m0 small13">No checked report. See the original headlines below.</p>`;
   }
   const mix = s.mix ? Object.entries(s.mix).map(([k, n]) => `${n} ${k === "state-media" ? "state media" : k}`).join(" · ") : "";
   const dates = (s.dates || []).length ? `<p class="dates" title="Dates written in the articles themselves, found by code (not the AI)">Dates in the reporting: ${s.dates.map((d) =>
@@ -376,7 +376,7 @@ const BLOCKS = {
     if (!wide.length) return null;
     return { id: "sec-worldwide", label: "Reported worldwide", html: `<h2 id="sec-worldwide">Reported worldwide ${P.since}
       <span class="count">ranked by how many regions' outlets reported it, then by outlets</span></h2>
-      <p class="page-meta" style="margin-bottom:10px">Each story also appears on the page of the region it is about.</p>
+      <p class="page-meta mb10">Each story also appears on the page of the region it is about.</p>
       <div class="grid${S.compact ? " compact" : ""}">${wide.map((s) => card(s, day, true)).join("")}</div>` };
   },
 
@@ -397,7 +397,7 @@ const BLOCKS = {
         ${cell(c.corroborated, "corroborations", "Another outlet reported facts already collected: added as 'also reported by'")}
         ${cell(c.waiting, "groups waiting", "Groups that didn't fit in this run's AI calls; they go first next run")}
       </div>
-      ${c.failed_calls ? `<p class="small" style="color:var(--state)">${plural(c.failed_calls, "AI call")} failed; their articles are retried on the next run.
+      ${c.failed_calls ? `<p class="small state-text">${plural(c.failed_calls, "AI call")} failed; their articles are retried on the next run.
         ${(c.errors || []).length ? `Last reason: ${esc(c.errors[c.errors.length - 1])}` : ""}</p>` : ""}
       ${c.skipped ? `<p class="small muted">${plural(c.skipped, "story")} proposed by the AI not created or extended by code (off-topic, too few articles, or not backed by the headlines). Details: <code>python pipeline/narratives.py --audit</code></p>` : ""}` };
   },
@@ -439,7 +439,7 @@ const BLOCKS = {
       if (!total) return "";
       const note = total > shown ? `<p class="small muted">The newest ${shown} of ${total} ${P.multi ? P.since : "from the last 24 hours"}.</p>` : "";
       return `<details class="quiet heads"${open ? " open" : ""}><summary>Other headlines mentioning ${esc(C[k].name)} (${total})</summary>
-        <div class="list" data-heads="${esc(k)}" style="margin-top:8px"><div class="row"><span class="muted">Loading…</span></div></div>${note}</details>`;
+        <div class="list mt8" data-heads="${esc(k)}"><div class="row"><span class="muted">Loading…</span></div></div>${note}</details>`;
     };
     const badges = (k) => `${C[k].regional < 3 ? `<span class="tier t${C[k].regional}" title="Regional tier, set in config/geo/countries.yaml">Tier ${C[k].regional}</span>` : ""}
       ${C[k].hotspot ? `<span class="hot" title="${C[k].last24} headlines in 24 hours; its usual share of the news would be about ${C[k].avg7}">Hotspot</span>` : ""}`;
@@ -502,9 +502,9 @@ const BLOCKS = {
     if (!items.length) return null;
     const id = `sec-comment${groupId ? "-" + groupId : ""}`;
     return { id, label: "Opinion and analysis", html: `<h2 id="${id}">Opinion and analysis <span class="count">${plural(items.length, "piece")}, labelled by the outlets themselves</span></h2>
-      <p class="page-meta" style="margin-bottom:10px">Commentary is collected but kept apart: it is never restated in a report and never counted as an outlet reporting a story.</p>
+      <p class="page-meta mb10">Commentary is collected but kept apart: it is never restated in a report and never counted as an outlet reporting a story.</p>
       <details class="quiet" ${items.length <= 6 ? "open" : ""}><summary>Show ${plural(items.length, "piece")}</summary>
-      <div class="list" style="margin-top:10px">${listRows(items)}</div></details>` };
+      <div class="list mt10">${listRows(items)}</div></details>` };
   },
 
   // Many industries, so the block opens with a row of industry buttons (with counts),
@@ -523,7 +523,7 @@ const BLOCKS = {
       if (!ind.items.length) return h + `<p class="muted">Nothing matched ${P.since}. Keywords are in <code>config/cyber/industries.yaml</code>.</p>`;
       h += `<h3 class="sub">Matching headlines, from every source</h3><div class="list">${listRows(ind.items.slice(0, SHOW))}</div>`;
       if (ind.items.length > SHOW) h += `<details class="quiet"><summary>Show ${ind.items.length - SHOW} more</summary>
-        <div class="list" style="margin-top:8px">${listRows(ind.items.slice(SHOW))}</div></details>`;
+        <div class="list mt8">${listRows(ind.items.slice(SHOW))}</div></details>`;
       return h;
     }).join("");
     return { id: inds.length > 1 ? "sec-industries" : `sec-ind-${inds[0].id}`, label: inds.length > 1 ? "Industries" : inds[0].name,
@@ -553,14 +553,14 @@ const BLOCKS = {
     if (!io) return null;
     let h = `<h2 id="sec-iocs">New IOCs <span class="count">${plural(io.total, "indicator")}, defanged, never clickable</span></h2>`;
     if (!io.total) return { id: "sec-iocs", label: "New IOCs", html: h + `<p class="muted">No new indicators in this period.</p>` };
-    h += `<p class="page-meta" style="margin-bottom:12px">From the indicator lists that vendors publish in their research reports, plus tracker feeds.
+    h += `<p class="page-meta mb12">From the indicator lists that vendors publish in their research reports, plus tracker feeds.
       Every value is defanged (<code>example[.]com</code>, <code>hxxp://</code>), so nothing here is a working link.
       ${io.csv ? `<a href="${esc(io.csv)}" download>Download all as CSV</a>` : ""}
       ${io.csvs ? `CSV per day: ${io.csvs.map((c) => `<a href="${esc(c.url)}" download>${esc(fmtDM(c.date))}</a>`).join(" · ")}` : ""}</p>`;
     h += `<div class="grid">${io.groups.map((g) => `<section class="card ioc">
       <div class="card-top"><span class="badge ${g.kind === "report" ? "updated" : "unchanged"}">${g.kind === "report" ? "Research report" : "Tracker"}</span><span>${esc(g.source)}</span></div>
       <h3>${g.url ? ext(g.url, esc(g.title)) : esc(g.title)}</h3>
-      <p class="muted" style="margin:0;font-size:13px">${Object.entries(g.counts).map(([t, n]) => `${n} ${esc(t)}`).join(" · ")}</p>
+      <p class="muted m0 small13">${Object.entries(g.counts).map(([t, n]) => `${n} ${esc(t)}`).join(" · ")}</p>
       <details class="more"><summary>Show indicators</summary>${Object.entries(g.items).map(([t, vals]) =>
         `<h4>${esc(t.toUpperCase())}</h4><pre class="iocs">${vals.map(esc).join("\n")}</pre>`).join("")}</details>
     </section>`).join("")}</div>`;
@@ -890,7 +890,7 @@ function renderToolkit(tk, q) {
   view.innerHTML = `<p class="kicker">REFERENCE</p><h1>Toolkit</h1>
     <p class="page-meta">Open-source research links. Nothing here is fetched or analysed. Edit them in <code>config/geo/toolkit.yaml</code>.</p>
     <h2 class="sr-only">Links</h2>
-    <div class="grid toolkit" style="margin-top:22px">${groups.map((g) => `<section class="card"><h3>${esc(g.title)}</h3><ul>${g.links.map((l) =>
+    <div class="grid toolkit mt22">${groups.map((g) => `<section class="card"><h3>${esc(g.title)}</h3><ul>${g.links.map((l) =>
       `<li>${ext(l.url, esc(l.name))}</li>`).join("")}</ul></section>`).join("")}</div>
     ${groups.length ? "" : `<p class="empty">Nothing matches.</p>`}`;
   highlight(view, q);
@@ -1022,7 +1022,7 @@ function renderEmpty(msg) {
 // Something didn't download (offline, or a file is missing): say so, and offer to try again.
 function renderError(msg) {
   $("footer-stats").textContent = "";
-  view.innerHTML = `<div class="error-box" role="alert"><p style="margin:0">${esc(msg)}</p>
+  view.innerHTML = `<div class="error-box" role="alert"><p class="m0">${esc(msg)}</p>
     <button type="button" id="retry">Try again</button></div>`;
   $("retry").addEventListener("click", () => { S.cache.clear(); route(); });
 }

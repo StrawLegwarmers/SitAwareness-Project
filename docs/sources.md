@@ -48,7 +48,7 @@ unwrapped so the real publisher and headline are recorded.
 
 | Status | Meaning |
 |---|---|
-| Failing | The last download failed. Shows the error (for example `HTTP 410`, `not a feed`), how many runs in a row, and when it last worked |
+| Failing | The last download failed. Shows the error (for example `HTTP 410`, `not a feed`), how many runs in a row, and when it last worked. After 7 days of failures the daily run turns it off automatically, with a dated note ([operations](operations.md#feeds-that-keep-failing)) |
 | Quiet this week | Downloads work but nothing was published in 7 days |
 | Not fetched yet | Added since the last run |
 | Working | Articles in the last 7 days, and the newest |

@@ -350,3 +350,14 @@ button.copy:hover { color: var(--text); }
 .card.compact { position: relative; }
 .card.compact .card-foot { position: absolute; right: 14px; bottom: 6px; }
 .card.compact button.copy { height: 22px; }
+
+/* Small spacing helpers. The page's security policy forbids inline style="..." attributes, so
+   markup built by app.js uses these classes instead. Kept last so they win over earlier rules. */
+.m0 { margin: 0; }
+.mt8 { margin-top: 8px; }
+.mt10 { margin-top: 10px; }
+.mt22 { margin-top: 22px; }
+.mb10 { margin-bottom: 10px; }
+.mb12 { margin-bottom: 12px; }
+.small13 { font-size: 13px; }
+.state-text { color: var(--state); }

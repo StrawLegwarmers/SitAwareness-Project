@@ -87,7 +87,10 @@ untrusted:
 - **Everything is escaped** before display, so a headline can never become HTML.
 - **Only ordinary web links** (`http`, `https`) become clickable; anything else becomes a harmless `#`.
 - **Content Security Policy**: the browser may only load scripts, styles and data from the site
-  itself, so even injected markup couldn't load or run outside code.
+  itself, and runs no inline scripts or inline styles at all (`style-src 'self'`, no
+  `unsafe-inline`), so even injected markup couldn't load, run or restyle anything. Spacing that
+  used to be written inline is in small classes at the end of `style.css`; the tests fail if a
+  `style="..."` attribute comes back.
 - **No referrer** is sent to news sites when you follow a link.
 - **Indicators of compromise** are always shown defanged and never as links.
 

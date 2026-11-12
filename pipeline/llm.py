@@ -192,6 +192,9 @@ def _mock(system: str, prompt: str, schema: dict, model: str) -> dict:
     the first group it deliberately writes some BAD reports (an analysis word, an article number
     that doesn't exist, a wrong number) so you can watch the guardrails remove them.
     """
+    if "### Story " in prompt:     # maintenance.py's clean-up check: call every suspect different
+        return {"stories": [{"id": sid, "different": [int(k) for k in re.findall(r"^\s+\[(\d+)\]", block, re.M)]}
+                            for sid, block in re.findall(r"^### Story (\S+)\n(.*?)(?=^### Story |\Z)", prompt, re.M | re.S)]}
     heads = {int(n): h for n, h in re.findall(r"^\[(\d+)\] [^|]*\| ([^|\n]+)", prompt, re.M)}
     out = []
     blocks = re.split(r"^### Group \d+", prompt, flags=re.M)[1:]

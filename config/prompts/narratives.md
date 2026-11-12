@@ -28,7 +28,10 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 3. Return a story for EVERY group that fits this site: $focus.
    Return NOTHING for a group about: $ignore. That includes film festivals, premieres,
    celebrities, an actor's or a singer's death, and sport results or transfers.
-4. A new story needs at least 2 articles.
+4. A new story needs at least 2 articles. Exception: a group marked "research by <outlet>" is a
+   security lab's or agency's own publication, and can be a story with that one article if it
+   fits the focus (a campaign, a threat actor, a vulnerability, an advisory). Product news and
+   marketing are not stories.
 5. Report only what is NEW: don't repeat a fact already reported in (A). If an outlet only
    repeats what (A) already has, list its article but write no report for it.
    Write ONE report per distinct fact. When several outlets report the same fact with the
@@ -47,7 +50,9 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 10. Write in English whatever the article's language. Neutral, plain, no adjectives of your own.
 11. `title` (for new stories only): a neutral 3–8 word topic label made of names from the
     articles, like "Port Elm shipping incidents" or "Norland: coalition talks".
-    No verbs of judgment, no adjectives. For existing stories, repeat the existing title.
+    No verbs of judgment, no adjectives. For existing stories, repeat the existing title, unless
+    (A) says "title may no longer fit": then write a new title, by the same rules, for what the
+    story's articles in (B) are about.
 12. `country`: the one country the story is mainly about, written as the articles name it
     ("Norland"), or "" if it is about several countries equally or none.
 

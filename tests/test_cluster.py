@@ -38,7 +38,7 @@ def test_story_continuation_needs_a_distinctive_name(art):
              "articles": [art(1, "Guerre en Ukraine: Starshield, la Russie et les satellites", lang="fr")]}
     arts = [art(2, "Guerre en Ukraine: les émissaires américains vont rencontrer Poutine en Russie", lang="fr"),
             art(3, "Zelenskyy says Starshield satellite speed caps helped Russian drones"),
-            *[art(10 + i, f"Unrelated headline number {i} about farming yields") for i in range(300)]]
+            *[art(10 + i, f"Unrelated headline number {i} about farming yields") for i in range(2000)]]   # a day's worth
     idx = cluster.index_for(arts + story["articles"])
     tracked = cluster.Stories([story], idx, "geo")
     assert tracked.match([arts[0]])[0] is None

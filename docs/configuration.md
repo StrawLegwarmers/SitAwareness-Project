@@ -21,6 +21,7 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 | `pages` | The sidebar. Each page has an `id`, a `name`, an `icon` and `show`: the blocks it contains, top to bottom (below) |
 | `catch_up_days` | Weekdays whose brief covers several days, for example `monday: 4` (Friday to Monday) |
 | `expire_days` | A story with no new reporting for this many days is archived |
+| `single_source_stories`, `single_source_skip` | Cyber: sources whose research can be a story on its own, and headline words that mark their product news (see [cyber](cyber.md#single-source-research)) |
 | `keep_days` | Daily files older than this are removed from the website (default 365) |
 
 **Blocks** a page can show:
@@ -83,6 +84,7 @@ A shared `concern` word list, then each industry's `topic`, `also_concern`, `exc
 | `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls, `max_output_tokens` (longest answer; a cut-off answer is retried as two smaller calls); what a run collects: `max_per_source`, `max_per_run`; how groups are sent: `batch_groups` and `batch_articles` per call, `group_articles` shown per group, `max_calls` per site per run |
 | `guardrails.yaml` | The checks on every AI sentence: reporting verbs, number/name/wording checks and thresholds, banned analysis words, maximum length |
 | `prompts/narratives.md` | The instructions given to the AI |
+| `prompts/cleanup.md` | The AI's instructions for the Maintenance clean-up's double check |
 | `publishers.yaml` | Feeds that belong to one organisation, so they count as one outlet |
 | `content_types.yaml` | How opinion, analysis and off-topic sections (sport, entertainment) are recognised: RSS categories, address folders, headline markers, source types; and `story_terms`, words that stop the AI from creating an entertainment or sport story |
 | `feeds.yaml` | Which machine feeds to write, how many days they cover, which indicator types to include |

@@ -91,7 +91,7 @@ They also run on GitHub on every push.
 | `pipeline/` | The Python pipeline |
 | `site/` | The website (and its daily data in `site/data/`) |
 | `state/` | Stories being tracked, and the audit log of removed sentences |
-| `.github/` | The daily, tests and source-request workflows, and the source forms |
+| `.github/` | The daily, tests, maintenance and source-request workflows, Dependabot, and the source forms |
 | `tests/` | Automated tests (`python -m pytest -q`) |
 
 ## Licence

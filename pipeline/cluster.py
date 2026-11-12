@@ -19,7 +19,7 @@ How two headlines are compared:
     enough headlines, a word in more than 12% of them is treated as common too. Otherwise two
     unrelated Bulgarian headlines would "match" on the Bulgarian for "after" and "over".
   - two headlines are about the same event when they share at least 3 rare words worth at
-    least 14 points together (the summary's words count half), and at least one of those words
+    least 16 points together (or 20 points without a shared name) (the summary's words count half), and at least one of those words
     is a NAME (capitalised inside a headline). Without that, "Gunmen attack leaves one dead" and
     "Airstrike on hospital leaves six dead" would match on their common words alone.
   - if both name countries and none in common, they are never the same event.
@@ -36,13 +36,18 @@ from datetime import datetime, timedelta, timezone
 import countries as gazetteer
 import guardrails
 
+# Tuned on a labelled day (pipeline/evaluate_grouping.py, tests/data/grouping_day.json.gz):
+# precision 0.968, recall 0.563 (the earlier 14/24 scored 0.957 and 0.561). Lower scores grouped
+# more but mixed in unrelated look-alikes (separate drone strikes, two budgets); RARE between 1.5
+# and 2.5 and MIN_SHARED 2 or 3 made no difference.
 RARE = 2.0          # a word must be at least this rare (IDF) to count
 MIN_SHARED = 3      # rare title words two headlines must share...
-MIN_SCORE = 14.0    # ...worth at least this much together, one of them a name
-STRONG = 24.0       # ...or this much, names or not (headlines in Title Case, scripts without capitals)
+MIN_SCORE = 16.0    # ...worth at least this much together, one of them a name
+STRONG = 20.0       # ...or this much, names or not (headlines in Title Case, scripts without capitals)
 SUMMARY_WEIGHT = 0.5
 LANG_COMMON = 0.12  # in a language with LANG_MIN_DOCS+ headlines, a word in this share of them is common
 LANG_MIN_DOCS = 150
+MERGE_SCORE = 18.0  # merging two tracked stories (merge_duplicates) needs this much: nothing checks it after
 # Looser test for "does this article belong to that tracked story?" (follow-ups use new words)
 RELATED_SHARED, RELATED_SCORE = 2, 9.0
 # Telling code "this group continues story X" needs a DISTINCTIVE shared name: not a country or
@@ -160,12 +165,14 @@ class Index:
         return pts, len(shared)
 
     def passes(self, a: set[str], a_names: set[str], b: set[str], b_names: set[str],
-               a_summary: set[str] = frozenset(), min_shared: int = MIN_SHARED, min_score: float = MIN_SCORE,
+               a_summary: set[str] = frozenset(), min_shared: int | None = None, min_score: float | None = None,
                distinct: bool = False) -> float:
         """
         The grouping test. Returns the points if it passes, else 0.
-        distinct=True: the shared name must be distinctive (see DISTINCT_IDF), for story continuations.
+        distinct=True: the shared name must be distinctive (see DISTINCT_SHARE), for story continuations.
         """
+        min_shared = MIN_SHARED if min_shared is None else min_shared     # read now, so the evaluation can tune them
+        min_score = MIN_SCORE if min_score is None else min_score
         pts, shared = self.score(a, b, a_summary)
         if shared < min_shared or pts < min_score:
             return 0.0
@@ -222,7 +229,7 @@ def cluster(articles: list[dict], site: str = "geo", idx: Index | None = None) -
         where = _countries(g, a["title"])
         best, best_pts = None, 0.0
         near = Counter(i for w in t for i in by_word.get(w, ()))
-        for i, k in near.items():
+        for i, k in sorted(near.items()):          # in a fixed order, so a tie always goes the same way
             if k < MIN_SHARED:
                 continue
             grp = groups[i]
@@ -275,8 +282,9 @@ def same_story_share(idx: Index, a_heads: list[tuple[str, str | None]], b_heads:
     A = [features(idx, t, lang) for t, lang in a_heads if t]
     B = [features(idx, t, lang) for t, lang in b_heads if t]
 
+    # Stricter than grouping (no AI checks a merge): more points and a distinctive name.
     def share(X, Y):
-        hits = sum(1 for x in X if any(idx.passes(*x, *y) for y in Y))
+        hits = sum(1 for x in X if any(idx.passes(*x, *y, min_score=MERGE_SCORE, distinct=True) for y in Y))
         return hits / len(X) if X else 0.0
     return max(share(A, B), share(B, A))
 
@@ -300,6 +308,66 @@ def related(idx: Index, articles: list[dict], story: dict, site: str = "geo") ->
         if any(idx.passes(*f, *t, min_shared=RELATED_SHARED, min_score=RELATED_SCORE, distinct=True) for t in theirs):
             return True
     return False
+
+
+def pair_related(idx: Index, a: dict, b: dict, g=None) -> bool:
+    """Two articles plausibly about the same story: the loose test, a distinctive shared name, no country clash."""
+    if g:
+        ca, cb = _countries(g, a["title"]), _countries(g, b["title"])
+        if ca and cb and not ca & cb:
+            return False
+    return idx.passes(*features(idx, a["title"], a.get("lang")), *features(idx, b["title"], b.get("lang")),
+                      min_shared=RELATED_SHARED, min_score=RELATED_SCORE, distinct=True) > 0
+
+
+def loose_link(idx: Index, a: dict, b: dict, g=None) -> bool:
+    """
+    The loosest sign two articles belong to one story, used to find articles that have NOTHING to do
+    with the story they were filed under: a country in common (in any language, so translations
+    count), or two rare words in common, or one rare name. Never when their countries differ.
+    """
+    ca = _countries(g, a["title"]) if g else set()
+    cb = _countries(g, b["title"]) if g else set()
+    if ca and cb:
+        return bool(ca & cb)
+    ta, na = features(idx, a["title"], a.get("lang"))
+    tb, nb = features(idx, b["title"], b.get("lang"))
+    common = ta & tb
+    return len(common) >= 2 or bool(common & (na | nb))
+
+
+def connected(idx: Index, core: list[dict], others: list[dict], site: str = "geo") -> tuple[list[dict], list[dict]]:
+    """
+    Which of `others` are connected to the core of a story, directly or through each other
+    (loose_link): a story can move on (talks -> prisoner swap -> envoys' visit) as long as each
+    step shares something with an earlier one. Returns (connected, not connected).
+    """
+    g = gazetteer.load(site)
+    kept, rest = list(core), list(others)
+    changed = True
+    while changed and rest:
+        changed = False
+        for a in list(rest):
+            if any(loose_link(idx, a, k, g) for k in kept):
+                kept.append(a)
+                rest.remove(a)
+                changed = True
+    return kept[len(core):], rest
+
+
+def title_support(idx: Index, title: str, articles: list[dict]) -> float | None:
+    """
+    Share of these (English) headlines that still match the story's title. None if there are too
+    few English headlines to judge (titles are written in English).
+    """
+    english = [a for a in articles if (a.get("lang") or "en") == "en"]
+    if len(english) < 3:
+        return None
+    # A headline supports the title when they share a rare word that isn't just a place: "GitHub",
+    # "Colom", "floods". "Gaza" alone doesn't make an airstrike story fit a floods title.
+    t = idx.rare(tokens(title), "en") - place_tokens()
+    hits = sum(1 for a in english if t & idx.rare(tokens(a["title"]), "en"))
+    return hits / len(english)
 
 
 def publisher_of(a: dict) -> str:
@@ -332,7 +400,7 @@ class Stories:
         where = set().union(*(_countries(self.g, a["title"]) for a in items[:8])) if items else set()
         near = {i for h, _ in heads for w in h for i in self.by_word.get(w, ())}
         best, best_hits = None, 0
-        for i in near:
+        for i in sorted(near):
             n, theirs, countries = self.items[i]
             if where and countries and not where & countries:
                 continue

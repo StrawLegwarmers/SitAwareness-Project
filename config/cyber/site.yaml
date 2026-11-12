@@ -46,6 +46,36 @@ pages:
   - {id: vendor,   name: Vendor intelligence,      icon: flask,       show: [list:intel]}
   - {id: global,   name: Global intelligence,      icon: broadcast,   show: [list:news]}
 
+# Research from these sources can become a story ON ITS OWN, before any other outlet covers it:
+# a new campaign or threat-actor report from a major lab, or a government advisory, is news.
+# Their articles go to the AI even when no other outlet reported the same thing; the AI still
+# skips product news and marketing. Names must match sources.yaml exactly. The card is flagged
+# "single source" until other outlets report it too.
+single_source_stories:
+  - Google Threat Intelligence        # Mandiant's research is published here
+  - Unit 42 (Palo Alto)
+  - Microsoft Threat Intelligence
+  - CrowdStrike Blog
+  - Cisco Talos
+  - ESET WeLiveSecurity
+  - Kaspersky Securelist
+  - Check Point Research
+  - Proofpoint Threat Insight
+  - Sophos X-Ops
+  - SentinelLabs
+  - Recorded Future Research
+  - The DFIR Report
+  - Google Project Zero
+  - CISA Advisories
+  - CISA Analysis Reports
+# ...but not their product news: a headline with one of these words is never a story on its own.
+single_source_skip: [introducing, introduces, announces, announcing, launch, launches, launching, acquire,
+                     acquires, acquisition, partnership, partners, webinar, award, awarded, named a leader,
+                     gartner, forrester, idc, innovations, now available, generally available, customer,
+                     customers, platform, falcon, agentic, sponsored, podcast, event, summit, conference,
+                     advances, secures, extends, expands, unveils, delivers]
+# (A headline that starts with the vendor's own name, "CrowdStrike Extends...", is product news too.)
+
 # Weekend catch-up: on these weekdays the brief covers more than one day.
 # monday: 4  =  Friday, Saturday, Sunday and Monday, so nothing from the weekend is missed.
 # Add e.g. "tuesday: 2" after a bank holiday, or delete the line to turn it off.

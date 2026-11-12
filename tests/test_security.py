@@ -73,8 +73,22 @@ def test_page_security_policy():
     html = (ROOT / "site" / "index.html").read_text()
     csp = re.search(r'http-equiv="Content-Security-Policy"\s+content="([^"]+)"', html).group(1)
     assert "script-src 'self'" in csp and "object-src 'none'" in csp and "base-uri 'none'" in csp
-    assert "unsafe-eval" not in csp
+    assert "unsafe-eval" not in csp and "unsafe-inline" not in csp
+    assert "style-src 'self'" in csp
     assert not re.search(r"<script(?![^>]*\bsrc=)[^>]*>", html), "no inline scripts"
     assert 'name="referrer" content="no-referrer"' in html and 'content="noindex"' in html
     js = (ROOT / "site" / "assets" / "app.js").read_text()
     assert "eval(" not in js and "new Function" not in js
+    # The policy forbids inline styles, so the page must not use them (they would silently not apply)
+    assert not re.search(r"\bstyle=", js + html), "use a class from style.css instead of style=\"...\""
+    assert "<style" not in html
+
+
+def test_actions_are_pinned_to_exact_commits():
+    """A tag can be moved; a commit can't. Dependabot (.github/dependabot.yml) keeps the pins current."""
+    for wf in (ROOT / ".github" / "workflows").glob("*.yml"):
+        for line in wf.read_text().splitlines():
+            if line.strip().startswith(("uses:", "- uses:")):
+                ref = line.split("uses:", 1)[1].split("#")[0].strip()
+                assert re.search(r"@[0-9a-f]{40}$", ref), f"{wf.name}: {ref} is not pinned to a commit"
+    assert (ROOT / ".github" / "dependabot.yml").exists()
