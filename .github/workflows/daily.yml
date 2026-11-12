@@ -10,7 +10,7 @@
 # Run it by hand any time: Actions tab -> "Daily brief" -> "Run workflow".
 # ─────────────────────────────────────────────────────────────────────────────
 name: Daily brief
- 
+
 on:
   schedule:
     # Main run. Off the hour on purpose: GitHub delays (or even drops) scheduled runs at the
@@ -24,11 +24,11 @@ on:
   workflow_dispatch: {}           # the "Run workflow" button (always builds)
 
 permissions: {}
- 
+
 concurrency:                    # never run two briefs at the same time
   group: daily-brief
   cancel-in-progress: false
- 
+
 jobs:
   # A tiny first job: has today's brief already been built? Only scheduled runs can be skipped.
   check:
@@ -39,8 +39,8 @@ jobs:
       skip: ${{ steps.today.outputs.skip }}
     steps:
       - name: Get the repo
-        uses: actions/checkout@v7
- 
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
       - name: Has today's brief already been built?
         id: today
         env:
@@ -52,7 +52,7 @@ jobs:
           else
             echo "Building today's brief."
           fi
- 
+
   build:
     needs: check
     if: needs.check.outputs.skip != 'true'
@@ -63,71 +63,77 @@ jobs:
         pages: write
     steps:
       - name: Get the repo
-        uses: actions/checkout@v7
- 
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
         with:
           python-version: "3.12"
           cache: pip
- 
+
       - name: Install libraries
         run: pip install -r requirements.txt
- 
+
       # The database (data/sitaware.db) is working memory, not committed to Git.
       # GitHub's cache keeps it between runs. If it's ever lost, the pipeline just rebuilds
       # it from the feeds; the important memory (state/) is in Git.
       - name: Bring back yesterday's database
-        uses: actions/cache/restore@v6
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
         with:
           path: data/sitaware.db
           key: db-${{ github.run_id }}
           restore-keys: db-
- 
+
       - name: Fetch feeds
         run: python pipeline/fetch.py
- 
+
+      # A feed failing on every run for 7 days is turned off, with a dated note in sources.yaml.
+      # Re-enable it with a "Change a source" issue. Never stops the brief.
+      - name: Turn off feeds that keep failing
+        run: python pipeline/manage_sources.py auto-disable
+        continue-on-error: true
+
       # continue-on-error: a problem with an indicator source must never block the brief.
       - name: Collect exploited vulnerabilities and IOCs
         run: python pipeline/indicators.py
         continue-on-error: true
         env:
           ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # optional: ThreatFox is skipped if not set
- 
+
       - name: Group stories and collect reports
         run: python pipeline/narratives.py
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
- 
+
       - name: Write the website's data
         run: python pipeline/export.py
- 
+
       - name: Save the database for tomorrow
         if: always()
-        uses: actions/cache/save@v6
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
         with:
           path: data/sitaware.db
           key: db-${{ github.run_id }}
- 
+
       # Commits are made by GitHub's own bot account, so they don't carry your name or email.
       - name: Commit the day's memory and brief
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state site/data
+          git add state site/data config/geo/sources.yaml config/cyber/sources.yaml
           if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
           git commit -m "Daily brief $(date -u +%F)"
           git pull --rebase --autostash
           git push
- 
+
       - name: Prepare the site for Pages
-        uses: actions/configure-pages@v6
- 
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d  # v6.0.0
+
       - name: Upload the site
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:
           path: site
- 
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -140,4 +146,4 @@ jobs:
     steps:
       - name: Publish to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346  # v5.0.1

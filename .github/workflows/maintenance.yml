@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Maintenance: tidy the tracked stories, by hand, when you choose.
+#
+# Actions tab -> "Maintenance" -> Run workflow:
+#   - leave "apply" unticked first: the log lists what WOULD change (stories that mix unrelated
+#     events, and what would be split off or removed), and nothing is changed;
+#   - run it again with "apply" ticked to make those changes. They show on the website after the
+#     next "Daily brief" run.
+# Details: pipeline/maintenance.py and docs/stories.md (Maintenance).
+# ─────────────────────────────────────────────────────────────────────────────
+name: Maintenance
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Make the changes (unticked: only list them)"
+        type: boolean
+        default: false
+
+permissions: {}
+
+concurrency:                    # never at the same time as the daily brief
+  group: daily-brief
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write           # commit the tidied state/
+    steps:
+      - name: Get the repo
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0  # v7.1.0
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install libraries
+        run: pip install -r requirements.txt
+
+      - name: Stories that mix unrelated events
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}   # the AI double-checks code's suspicions
+          APPLY: ${{ inputs.apply }}
+        run: |
+          if [ "$APPLY" = "true" ]; then python pipeline/maintenance.py clean --apply; else python pipeline/maintenance.py clean; fi
+
+      - name: Stories whose title no longer fits
+        run: python pipeline/maintenance.py titles
+
+      - name: Commit the tidied stories
+        if: inputs.apply
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
+          git commit -m "Maintenance: split stories that mixed unrelated events"
+          git pull --rebase --autostash
+          git push

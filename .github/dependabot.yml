@@ -1,0 +1,29 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Dependabot: GitHub's robot that keeps the pinned versions current.
+#
+# The workflows pin every action to an exact commit ("uses: actions/checkout" + commit + "# v7.0.1"), so a
+# tag moved by an attacker can't change what runs. Once a week Dependabot checks for newer
+# releases and opens a pull request that updates the commit and the comment together; the
+# Tests workflow runs on it. Merge it if the tests pass. Same for the Python libraries.
+# ─────────────────────────────────────────────────────────────────────────────
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      actions:                 # one pull request for all actions, not one each
+        patterns: ["*"]
+    commit-message:
+      prefix: "Actions"
+
+  - package-ecosystem: pip
+    directory: "/"
+    schedule:
+      interval: weekly
+    groups:
+      python:
+        patterns: ["*"]
+    commit-message:
+      prefix: "Python"
