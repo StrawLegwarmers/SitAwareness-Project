@@ -1,0 +1,156 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Entities: names that point to a country without naming it.
+#
+# "Nvidia boss questioned by FBI" never says "United States", but both names do. These lists
+# let pipeline/countries.py place such stories by what they are about. No AI is involved.
+#
+#   places        cities, states and provinces that aren't already in countries.yaml
+#   institutions  government bodies, armed forces and armed groups
+#   people        political figures, whether or not they are still in office (a former
+#                 leader still belongs to the same country)
+#   companies     large companies, by the country of their headquarters. They count HALF,
+#                 so "EU fines a US company" still leans to the country taking the action.
+#
+# Under each heading: country id (from countries.yaml): [names]. Matching is CASE-SENSITIVE
+# and whole-word, like countries.yaml. A name already listed there (capitals, "Kremlin"...)
+# isn't needed here. Leave out names that also mean something else ("Nice", "Georgia").
+# When an entity misleads placement, delete it here, or fix one story in corrections.yaml.
+# ─────────────────────────────────────────────────────────────────────────────
+
+weights: {places: 1.0, institutions: 1.0, people: 1.0, companies: 0.5}
+
+places:
+  us: [New York, New York City, NYC, Manhattan, Brooklyn, Bronx, Queens, Los Angeles, Hollywood, North Hollywood,
+       Chicago, Houston, San Francisco, Miami, Seattle, Boston, Philadelphia, Atlanta, Dallas, Detroit, Las Vegas,
+       Minneapolis, New Orleans, Phoenix, Denver, Portland, San Diego, Austin, Baltimore, Pittsburgh,
+       California, Texas, Florida, New Jersey, Illinois, Pennsylvania, Ohio, Michigan, Virginia, North Carolina,
+       South Carolina, Arizona, Nevada, Colorado, Minnesota, Wisconsin, Massachusetts, Louisiana, Alabama,
+       Tennessee, Kentucky, Oregon, New Mexico, Hawaii, Alaska, Iowa, Missouri, Oklahoma, Utah, Maryland,
+       Puerto Rico, Guam]
+  canada: [Toronto, Montreal, Vancouver, Calgary, Edmonton, Alberta, Quebec, Ontario, British Columbia, Manitoba]
+  mexico: [Guadalajara, Monterrey, Tijuana, Ciudad Juárez, Sinaloa, Culiacán, Jalisco, Michoacán, Chihuahua, Acapulco]
+  brazil: [São Paulo, Sao Paulo, Rio de Janeiro, Bahia]
+  colombia: [Medellín, Medellin, Cali, Cartagena]
+  argentina: [Rosario, Patagonia]
+  uk: [Manchester, Birmingham, Glasgow, Edinburgh, Liverpool, Belfast, Leeds, Bristol, Cardiff, Heathrow]
+  france: [Marseille, Lyon, Toulouse, Bordeaux, Strasbourg, Corsica, New Caledonia]
+  germany: [Munich, Hamburg, Frankfurt, Cologne, Stuttgart, Düsseldorf, Bavaria]
+  spain: [Barcelona, Catalonia, Valencia, Seville, Andalusia, Basque Country, Canary Islands]
+  italy: [Milan, Naples, Venice, Turin, Florence, Sicily, Sardinia, Lampedusa]
+  russia: [St Petersburg, St. Petersburg, Saint Petersburg, Kursk, Belgorod, Bryansk, Chechnya, Siberia, Kaliningrad, Dagestan]
+  ukraine: [Lviv, Dnipro, Odessa, Kherson, Mykolaiv, Sumy, Chernihiv, Donetsk, Luhansk, Pokrovsk, Zaporizhzhia]
+  poland: [Gdańsk, Gdansk, Wrocław, Wroclaw, Poznań, Rzeszów]
+  turkey: [Izmir, İzmir, Antalya, Diyarbakır]
+  israel: [Haifa, Eilat, Negev]
+  iran: [Isfahan, Natanz, Fordow, Bandar Abbas, Mashhad, Shiraz, Tabriz]
+  syria: [Idlib, Homs, Latakia, Deir ez-Zor, Raqqa]
+  iraq: [Mosul, Basra, Kirkuk, Fallujah]
+  egypt: [Sinai, Suez Canal, Sharm el-Sheikh]
+  saudi-arabia: [Mecca, Medina, NEOM]
+  nigeria: [Kano, Borno, Port Harcourt]
+  south-africa: [Durban, KwaZulu-Natal]
+  china: [Shanghai, Shenzhen, Guangzhou, Wuhan, Chongqing, Tianjin, Hainan, Fujian, Inner Mongolia]
+  india: [Bengaluru, Bangalore, Kolkata, Chennai, Uttar Pradesh, Maharashtra, Gujarat, Kerala, Manipur, Assam]
+  pakistan: [Peshawar, Quetta, Rawalpindi, Balochistan, Khyber Pakhtunkhwa]
+  japan: [Osaka, Okinawa, Hiroshima, Nagasaki, Fukushima, Hokkaido, Kyoto, Yokohama]
+  south-korea: [Busan, Incheon]
+  australia: [Brisbane, Perth, Adelaide, Queensland, Tasmania]
+  indonesia: [Bali, Papua, Sumatra, Java]
+
+institutions:
+  us: [FBI, CIA, NSA, FEMA, DHS, ICE, FAA, FDA, CDC, SEC, Federal Reserve, Fed, Justice Department, Treasury Department,
+       Department of Justice, Department of Defense, Department of War, Homeland Security, US Army, US Navy, US Air Force,
+       Marine Corps, National Guard, Secret Service, Supreme Court of the United States, Senate Republicans,
+       Senate Democrats, House Republicans, House Democrats, GOP, Mar-a-Lago]
+  uk: [MI5, MI6, GCHQ, Whitehall, Home Office, Foreign Office, Ministry of Defence, Royal Navy, House of Commons,
+       House of Lords, Labour Party, Conservative Party, Tories, Reform UK, Scotland Yard, Metropolitan Police]
+  russia: [FSB, GRU, SVR, Duma, State Duma, Rosgvardia, Wagner Group, Roscosmos]
+  ukraine: [Verkhovna Rada, SBU, HUR, Naftogaz]
+  france: [Matignon, Assemblée nationale, National Assembly of France, Rassemblement National, National Rally, DGSE]
+  germany: [Bundeswehr, Bundesrat, Bundesbank, AfD, CDU, SPD, BND]
+  poland: [Sejm]
+  israel: [Mossad, Shin Bet, Likud, Iron Dome]
+  palestine: [Hamas, Palestinian Authority, Islamic Jihad]
+  iran: [Revolutionary Guards, Basij, Majlis]
+  yemen: [Ansar Allah]
+  china: [PLA, People's Liberation Army, Zhongnanhai, Communist Party of China, CCP, Politburo]
+  india: [Lok Sabha, Rajya Sabha, BJP, RBI]
+  pakistan: [ISI]
+  japan: [Self-Defense Forces, LDP]
+  south-korea: [Blue House, National Assembly of Korea]
+  myanmar: [Tatmadaw, junta in Myanmar]
+  sudan: [Rapid Support Forces]
+  drc: [M23]
+  nigeria: [Boko Haram]
+  brazil: [Planalto, Itamaraty, STF]
+  argentina: [Casa Rosada]
+  venezuela: [Miraflores, Tren de Aragua]
+  mexico: [Sinaloa Cartel, CJNG, Jalisco cartel]
+
+people:
+  us: [Trump, Donald Trump, JD Vance, Vance, Marco Rubio, Rubio, Pete Hegseth, Hegseth, Kash Patel, Tulsi Gabbard,
+       Scott Bessent, Kristi Noem, Mike Johnson, Chuck Schumer, Hakeem Jeffries, Biden, Kamala Harris, Obama,
+       Gavin Newsom, Zohran Mamdani, Elon Musk, Musk, Jensen Huang, Thomas Massie, Jim Jordan]
+  canada: [Mark Carney, Carney, Pierre Poilievre, Trudeau]
+  mexico: [Claudia Sheinbaum, Sheinbaum, López Obrador, AMLO]
+  brazil: [Lula, Bolsonaro]
+  argentina: [Javier Milei, Milei]
+  venezuela: [Nicolás Maduro, Maduro, María Corina Machado, Delcy Rodríguez]
+  colombia: [Gustavo Petro]
+  el-salvador: [Nayib Bukele, Bukele]
+  russia: [Putin, Vladimir Putin, Lavrov, Peskov, Medvedev, Shoigu, Belousov, Gerasimov, Navalny]
+  ukraine: [Zelensky, Zelenskyy, Volodymyr Zelensky, Yermak, Syrskyi, Budanov, Svyrydenko, Sybiha]
+  uk: [Keir Starmer, Starmer, Rachel Reeves, Yvette Cooper, David Lammy, Kemi Badenoch, Nigel Farage, Farage, King Charles]
+  france: [Macron, Emmanuel Macron, Marine Le Pen, Le Pen, Lecornu, Bayrou]
+  germany: [Friedrich Merz, Merz, Scholz, Pistorius, Wadephul]
+  italy: [Giorgia Meloni, Meloni, Tajani, Mattarella]
+  spain: [Pedro Sánchez, Pedro Sanchez, Feijóo, Feijoo]
+  poland: [Donald Tusk, Tusk, Karol Nawrocki, Nawrocki, Sikorski]
+  hungary: [Viktor Orbán, Orbán, Orban]
+  turkey: [Erdogan, Erdoğan, Recep Tayyip Erdogan, Hakan Fidan]
+  israel: [Netanyahu, Benjamin Netanyahu, Israel Katz, Ben-Gvir, Smotrich, Eisenkot, Gadi Eisenkot, Yair Lapid, Naftali Bennett, Isaac Herzog]
+  iran: [Khamenei, Ali Khamenei, Pezeshkian, Araghchi]
+  syria: [al-Sharaa, Ahmed al-Sharaa, Assad]
+  lebanon: [Joseph Aoun, Nawaf Salam]
+  saudi-arabia: [Mohammed bin Salman, MBS]
+  egypt: [Sisi, el-Sisi, al-Sisi]
+  china: [Xi Jinping, Xi, Wang Yi, Li Qiang]
+  india: [Narendra Modi, Modi, Jaishankar, Rahul Gandhi, Amit Shah]
+  pakistan: [Shehbaz Sharif, Shehbaz, Asim Munir, Imran Khan, Ishaq Dar]
+  japan: [Sanae Takaichi, Takaichi, Ishiba]
+  south-korea: [Lee Jae-myung, Lee Jae Myung, Yoon Suk Yeol]
+  north-korea: [Kim Jong Un, Kim Jong-un, Kim Yo Jong]
+  taiwan: [Lai Ching-te]
+  australia: [Anthony Albanese, Albanese]
+  indonesia: [Prabowo, Prabowo Subianto]
+  south-africa: [Cyril Ramaphosa, Ramaphosa]
+  nigeria: [Bola Tinubu, Tinubu]
+  ethiopia: [Abiy Ahmed, Abiy]
+  rwanda: [Paul Kagame, Kagame]
+  drc: [Félix Tshisekedi, Tshisekedi]
+
+companies:
+  us: [Nvidia, Apple, Microsoft, Google, Alphabet, Meta, Tesla, OpenAI, Boeing, Lockheed Martin, Raytheon,
+       Northrop Grumman, General Dynamics, ExxonMobil, Exxon, Chevron, JPMorgan, Goldman Sachs, Intel, AMD, Palantir,
+       SpaceX, Starlink, Pfizer, Moderna, BlackRock, Mastercard, Walmart, Disney, Netflix, Oracle, Qualcomm]
+  canada: [Shopify, Bombardier]
+  mexico: [Pemex]
+  brazil: [Petrobras, Embraer]
+  uk: [BP, BAE Systems, HSBC, Barclays, Rolls-Royce, Unilever]
+  france: [TotalEnergies, Renault, Dassault, Thales, LVMH, EDF]
+  germany: [Volkswagen, Siemens, BMW, Mercedes-Benz, Rheinmetall, Lufthansa, Deutsche Bank, Bosch]
+  netherlands: [ASML, Philips]
+  switzerland: [Nestlé, UBS, Glencore, Novartis, Roche]
+  sweden: [Ericsson, Volvo, Saab]
+  finland: [Nokia]
+  denmark: [Maersk, Novo Nordisk, Ørsted]
+  norway: [Equinor]
+  russia: [Gazprom, Rosneft, Lukoil, Rosatom, Sberbank, Novatek]
+  israel: [Elbit, Rafael Advanced Defense Systems, Israel Aerospace Industries]
+  saudi-arabia: [Aramco, Saudi Aramco]
+  uae: [ADNOC, Emirates airline, Etihad]
+  china: [Huawei, Alibaba, Tencent, BYD, ByteDance, Xiaomi, CATL, DeepSeek, ZTE, Sinopec, CNOOC, COSCO, SMIC]
+  taiwan: [TSMC, Foxconn, MediaTek]
+  south-korea: [Samsung, Hyundai, SK Hynix, LG Energy Solution, Kia]
+  japan: [Toyota, Sony, SoftBank, Nissan, Honda, Mitsubishi, Panasonic]
+  india: [Reliance Industries, Tata, Adani, Infosys, Wipro]

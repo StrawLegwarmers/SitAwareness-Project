@@ -34,12 +34,14 @@ import countries as gazetteer
 import store
 from config import CONFIG, ROOT, load_site, load_sources, load_yaml, sites
 from industries import Industry, load_industries
-from narratives import load_state, overlap, publisher, strip_links, words
+from narratives import load_state, overlap, publisher, status_of, strip_links, words
 
 SITE = ROOT / "site"
 DATA = SITE / "data"
 TOP_N = 5          # "Most reported today"
 BLUF_N = 5         # bullets in the BLUF
+WORLDWIDE_N = 12   # Global page: stories reported in the most regions
+WORLDWIDE_MIN = 3  # ...by outlets from at least this many regions
 HEADLINES_N = 40   # per headline list on the cyber page
 
 # Headline lists (Cyber page) are configured in config/<site>/site.yaml under "lists:".
@@ -63,30 +65,118 @@ def window_for(cfg: dict, date: str) -> tuple[int, str]:
     return days, (datetime.fromisoformat(date) - timedelta(days=days - 1)).date().isoformat()
 
 
-def story_for_site(n: dict, start: str, kinds: dict[str, str]) -> dict:
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+
+def short_date(iso: str | None) -> str:
+    """'2026-11-12T08:30:00+00:00' -> '12 Nov 2026' (the same in every country, unlike 11/12/2026)."""
+    try:
+        d = datetime.fromisoformat(iso).date() if iso and "T" in iso else datetime.fromisoformat((iso or "")[:10]).date()
+    except ValueError:
+        return ""
+    return f"{d.day} {MONTHS[d.month - 1]} {d.year}"
+
+
+def dated(text: str, published: str | None) -> str:
+    """'[Reuters](...) reported that ...' -> 'On 12 Nov 2026, [Reuters](...) reported that ...'. Code, not AI."""
+    when = short_date(published)
+    if not when:
+        return text
+    if text.startswith("According to "):
+        text = "according to " + text[len("According to "):]
+    return f"On {when}, {text}"
+
+
+def story_for_site(n: dict, start: str, kinds: dict[str, str], info: dict[str, dict] | None = None) -> dict:
     """
     Only the fields the website needs, counted over the brief's window (start .. today).
     Opinion and analysis pieces are left out of the story, its counts and its reports
     (content.split_story); they're listed separately under "Opinion and analysis".
+    info: {article id: {"region", "type"}} from the database, for articles stored before
+    stories kept the source region.
     """
+    info = info or {}
     news, comment, keep, _ = content.split_story(n, kinds)
     n = n | {"articles": news, "reports": keep,
              "article_count": max(len(news), n.get("article_count", 0) - len(comment))}
+    for a in n["articles"]:
+        a.setdefault("region", (info.get(a.get("id")) or {}).get("region"))
     arts = [a for a in n.get("articles", []) if (a.get("added") or "") >= start]
     reps = [r for r in n.get("reports", []) if r["date"] >= start]
-    outlets = {a.get("publisher") or publisher(a["outlet"]) for a in arts} | {o for r in reps for o in r.get("outlets", [])}
+    also = [x for r in n.get("reports", []) for x in r.get("also", []) if (x.get("date") or "") >= start]
+    outlets = {a.get("publisher") or publisher(a["outlet"]) for a in arts} | {o for r in reps for o in r.get("outlets", [])} \
+        | {x["outlet"] for x in also}
+    window = arts or n["articles"]
+    regions = sorted({a["region"] for a in window if a.get("region")})
+    mix = Counter(a.get("type") if a.get("type") in ("wire", "state-media") else "other" for a in window)
+    mentioned: dict[str, set] = {}
+    for a in n["articles"]:
+        for d in a.get("dates") or []:
+            mentioned.setdefault(d, set()).add(a.get("publisher") or publisher(a["outlet"]))
+    published = {a["id"]: a.get("published") for a in n["articles"] if a.get("id")}
     out = {k: n.get(k) for k in ("id", "group", "title", "first_seen", "last_updated", "article_count")}
     out.update(
-        status="new" if n["first_seen"] >= start else "updated" if n["last_updated"] >= start else "unchanged",
+        status=status_of(n, start),
         outlets_period=len(outlets),
         articles_period=len(arts),
+        reach=len(regions),                  # how many source regions' outlets reported it (geo)
+        regions=regions,
+        mix={k: v for k, v in mix.items() if k != "other"},
         single_source=len(outlets) == 1,
         state_media_only=bool(arts) and all(a.get("type") == "state-media" for a in arts),
+        dates=[{"date": d, "outlets": len(p)} for d, p in sorted(mentioned.items())][-4:],
     )
-    out["reports"] = [{k: r[k] for k in ("date", "text", "outlets")} for r in n.get("reports", [])]
-    out["articles"] = [{k: a.get(k) for k in ("title", "outlet", "url", "published", "type", "lang", "added")}
+    out["reports"] = []
+    for r in n.get("reports", []):
+        when = r.get("published") or min((published.get(i) or "" for i in r.get("articles", [])), default="") or r["date"]
+        out["reports"].append({"date": r["date"], "published": when, "text": dated(r["text"], when),
+                               "outlets": r.get("outlets", []),
+                               "also": [{k: x.get(k) for k in ("outlet", "url", "published", "date")} for x in r.get("also", [])]})
+    out["articles"] = [{k: a.get(k) for k in ("title", "outlet", "url", "published", "type", "lang", "added", "region")}
                        for a in n.get("articles", [])]
+    if n.get("subject"):
+        out["subject"] = n["subject"]
     return out
+
+
+def article_info(conn, articles: list[dict]) -> dict[str, dict]:
+    """{article id: {"region", "type"}} from the database (source region for reach)."""
+    ids = [a["id"] for a in articles if a.get("id") and not a.get("region")]
+    out = {}
+    for i in range(0, len(ids), 500):
+        chunk = ids[i:i + 500]
+        out.update({r[0]: {"region": r[1], "type": r[2]} for r in conn.execute(
+            f"SELECT id, region, type FROM articles WHERE id IN ({','.join('?' * len(chunk))})", chunk)})
+    return out
+
+
+def rank_key(s: dict):
+    """Counted, not judged: most source regions first (geo), then most outlets, then most articles."""
+    return (-s.get("reach", 0), -s["outlets_period"], -s["articles_period"], -s["article_count"])
+
+
+def worldwide(stories: list[dict], site: str) -> list[str]:
+    """Global page: stories reported by outlets in the most regions, whatever region they are about."""
+    g = gazetteer.load(site)
+    if not g:
+        return []
+    def tier(s):
+        lead = (s.get("countries") or [None])[0]
+        return g.tier(lead, "global") if lead in g.countries else 3
+    wide = [s for s in stories if s["status"] != "unchanged" and s.get("reach", 0) >= WORLDWIDE_MIN]
+    wide.sort(key=lambda s: (-s["reach"], -s["outlets_period"], tier(s)))
+    return [s["id"] for s in wide[:WORLDWIDE_N]]
+
+
+def coverage(state: dict, start: str, date: str) -> dict | None:
+    """Collection statistics for the window (narratives.py save_coverage), summed over its days."""
+    days = [d for d in state.get("coverage", []) if start <= d["date"] <= date]
+    if not days:
+        return None
+    out = Counter()
+    for d in days:
+        out.update({k: v for k, v in d.items() if isinstance(v, (int, float))})
+    return dict(out)
 
 
 def bluf(stories: list[dict], start: str) -> list[dict]:
@@ -132,12 +222,13 @@ def export_site(site: str, conn, date: str) -> str:
     cfg, state = load_site(site), load_state(site)
     days, start = window_for(cfg, date)
     recent = (datetime.fromisoformat(start) - timedelta(days=1)).date().isoformat()
-    kinds = content.kinds_by_id(conn, [a for n in state["narratives"] for a in n["articles"]], site)
-    stories = [story_for_site(n, start, kinds) for n in state["narratives"]]
+    all_articles = [a for n in state["narratives"] for a in n["articles"]]
+    kinds = content.kinds_by_id(conn, all_articles, site)
+    info = article_info(conn, all_articles)
+    stories = [story_for_site(n, start, kinds, info) for n in state["narratives"]]
     place_stories(site, stories)
-    # Counted, not judged: most outlets in the window first, then most articles, then most overall
-    stories.sort(key=lambda s: (-s["outlets_period"], -s["articles_period"], -s["article_count"]))
-    active = [s for s in stories if s["status"] in ("new", "updated")]
+    stories.sort(key=rank_key)
+    active = [s for s in stories if s["status"] in ("new", "updated")]      # new reporting, not just more coverage
     sources = load_sources(site)
     countries, headlines = country_summary(conn, site, stories, start, date)
     day = {
@@ -150,6 +241,7 @@ def export_site(site: str, conn, date: str) -> str:
         "pages": pages_for(cfg),
         "bluf": bluf(active, start),
         "top": [s["id"] for s in active[:TOP_N]],
+        "worldwide": worldwide(stories, site),
         "stories": stories,
         "lists": headline_lists(conn, site, cfg, date, days),
         # Headline-type sections look back one extra day: the brief runs in the morning, so
@@ -162,6 +254,8 @@ def export_site(site: str, conn, date: str) -> str:
         "headlines": headlines,         # per-country headlines, in their own file
         "stats": {"sources": len(sources),
                   "reports": sum(1 for s in stories for r in s["reports"] if r["date"] >= start),
+                  "corroborations": sum(1 for s in stories for r in s["reports"] for x in r["also"] if (x.get("date") or "") >= start),
+                  "coverage": coverage(state, start, date),
                   **guardrail_stats(site, start)},
     }
     path = DATA / site / f"{date}.json"
@@ -173,7 +267,7 @@ def export_site(site: str, conn, date: str) -> str:
 # ── Pages and opinion ──────────────────────────────────────────────────────
 
 # What a page can show, top to bottom (set per page in config/<site>/site.yaml under "pages:")
-BLOCKS = {"bluf", "top", "stories", "regions", "countries", "commentary", "industries", "vulns", "iocs"}
+BLOCKS = {"bluf", "top", "worldwide", "stories", "regions", "countries", "commentary", "industries", "vulns", "iocs", "quality"}
 COMMENTARY_N = 30        # opinion and analysis pieces listed per group
 
 
@@ -210,7 +304,7 @@ def commentary(conn, site: str, cfg: dict, state: dict, kinds: dict[str, str], s
     default = cfg["groups"][0]["id"]
     rows = [dict(r) for r in conn.execute(
         """SELECT title, outlet, url, published, type, kind, region, section FROM articles
-           WHERE site=? AND COALESCE(kind, 'news') != 'news' AND first_seen >= ? ORDER BY published DESC""",
+           WHERE site=? AND kind IN ('opinion', 'analysis') AND first_seen >= ? ORDER BY published DESC""",
         (site, since))]
     # Pieces that sat inside a story from before opinion was separated
     for n in state["narratives"]:
@@ -232,18 +326,54 @@ def commentary(conn, site: str, cfg: dict, state: dict, kinds: dict[str, str], s
 # ── Countries and tiers ───────────────────────────────────────────────────
 
 HOT_MIN = 8          # a hotspot needs at least this many headlines in the last 24 hours...
-HOT_RATIO = 2.0      # ...and twice its daily average over the 7 days before
+HOT_RATIO = 2.0      # ...and twice its usual SHARE of all headlines over the 7 days before
+HOT_DAYS = 3         # days of full collection needed before any hotspot is shown
 HEADS_N = 25         # "other headlines" kept per country, newest first
 
 
+def baseline(per_day: dict[int, Counter], totals: dict[int, int]) -> tuple[dict[str, float], int]:
+    """
+    Each country's usual share of headlines, from the days before the last 24 hours.
+    Only "full" days count: a day with less than 60% of the busiest day's headlines was a
+    partial download (first run, outage) and would make every country look unusually busy.
+    Returns ({country: share}, number of full days).
+    """
+    if not totals:
+        return {}, 0
+    full = [d for d, n in totals.items() if n >= 0.6 * max(totals.values())]
+    seen = sum(totals[d] for d in full) or 1
+    shares = Counter()
+    for d in full:
+        shares.update(per_day.get(d, Counter()))
+    return {c: n / seen for c, n in shares.items()}, len(full)
+
+
 def place_stories(site: str, stories: list[dict]):
-    """Add countries, region (by subject, not by outlet) and domestic/international to each story."""
+    """
+    Add countries, lead country, region (by subject, not by outlet) and domestic/international
+    to each story (countries.py). Then your manual placements from corrections.yaml ("place:").
+    """
     g = gazetteer.load(site)
     if not g:
         return
     for s in stories:
         texts = [strip_links(r["text"]) for r in s["reports"][:10]] + [a["title"] for a in s["articles"]]
-        s.update(g.place(g.score(texts, s["title"]), s["group"], s["title"]))
+        sources = Counter(a["region"] for a in s["articles"] if a.get("region"))
+        s.update(g.place(g.score(texts, s["title"]), s["group"], s["title"], s.get("subject"), sources))
+    path = CONFIG / site / "corrections.yaml"
+    rules = (load_yaml(path).get("place") or []) if path.exists() else []
+    regions = {c["region"] for c in g.countries.values()} | {"global"}
+    for rule in rules:
+        want = str(rule.get("story", "")).strip().lower()
+        for s in stories:
+            if want and want in (s["id"].lower(), s["title"].lower()):
+                if rule.get("region") in regions:
+                    s["region"] = rule["region"]
+                cs = [c for c in rule.get("countries") or [] if c in g.countries]
+                if cs:
+                    s["countries"], s["lead"] = cs, cs[0]
+                    s["scope"] = "domestic" if len(cs) == 1 else "international"
+                s["why"] = "placed by hand (corrections.yaml)"
 
 
 def country_summary(conn, site: str, stories: list[dict], start: str, date: str) -> tuple[dict | None, str | None]:
@@ -262,24 +392,35 @@ def country_summary(conn, site: str, stories: list[dict], start: str, date: str)
     now = datetime.now(timezone.utc)
     day_ago, week_ago = (now - timedelta(days=1)).isoformat(), (now - timedelta(days=8)).isoformat()
     since = min(day_ago, start)                       # 24 hours, or the catch-up window if longer
-    oldest = conn.execute("SELECT MIN(published) FROM articles WHERE site=?", (site,)).fetchone()[0] or now.isoformat()
-    history = (now - datetime.fromisoformat(oldest)).days >= 4          # enough days to know what's "normal"
     in_story = {a["url"] for s in stories for a in s["articles"]}
-    last24, before, heads = Counter(), Counter(), {}
+    last24, heads = Counter(), {}
+    per_day, totals, total24 = {}, Counter(), 0       # day 1..7 before the last 24 hours
     for r in conn.execute("""SELECT title, outlet, url, published, type FROM articles
                              WHERE site=? AND COALESCE(kind, 'news')='news' AND published >= ?
                              ORDER BY published DESC""", (site, week_ago)):
         hits = [c for c, w in g.find(r["title"]).items() if w >= 1]       # venues alone don't count
+        try:
+            ago = (now - datetime.fromisoformat(r["published"])).days      # 0 = last 24 hours
+        except ValueError:
+            continue
+        if ago <= 0:
+            total24 += 1
+            last24.update(hits)
+        elif ago <= 7:
+            totals[ago] += 1
+            per_day.setdefault(ago, Counter()).update(hits)
         for c in hits:
-            (last24 if r["published"] >= day_ago else before)[c] += 1
             if r["published"] >= since and r["url"] not in in_story:
                 heads.setdefault(c, []).append(dict(r))
+    shares, full_days = baseline(per_day, totals)
+    history = full_days >= HOT_DAYS                   # enough full days to know what's "normal"
     wanted = set(last24) | set(heads) | {c for s in stories for c in s.get("countries", [])} \
         | {c for c in g.countries if g.tier(c, "regional") == 1}
     out, items, index, by_country = {}, [], {}, {}
     for c in wanted:
         info = g.countries[c]
-        avg = before[c] / 7 if history else None
+        # "usual" = its normal share of today's volume, so adding sources doesn't make everything hot
+        avg = shares.get(c, 0) * total24 if history else None
         mine, keys = [], set()
         for a in heads.get(c, []):                     # collapse the same headline from several feeds
             key = re.sub(r"[^a-z0-9]+", "", a["title"].lower())[:60]
@@ -322,7 +463,8 @@ def industry_sections(conn, site: str, stories: list[dict], start: str, recent: 
     out = []
     rows = [dict(r) for r in conn.execute(
         """SELECT site, section, outlet, title, summary, url, published, type, kind FROM articles
-           WHERE published >= ? AND NOT (site = 'cyber' AND section = 'advisories')""", (recent,))]   # bulletins have their own page
+           WHERE published >= ? AND NOT (site = 'cyber' AND section = 'advisories')
+             AND COALESCE(kind, 'news') != 'offtopic'""", (recent,))]   # bulletins have their own page
     for cfg in load_industries(site):
         ind = Industry(cfg)
         hits = [r for r in rows if ind.matches(r["title"], r["summary"], r["site"] == "cyber" and r["section"] in ("news", "intel"))]
@@ -407,6 +549,34 @@ def prune_old(site: str, today: str) -> int:
     return gone
 
 
+SEARCH_DAYS = 30
+
+
+def write_search_index(site: str):
+    """
+    site/data/<site>/search-index.json: the stories of the last 30 briefs, in a few fields each, so
+    the website can search earlier days without downloading 30 full files. Read from the daily files.
+    """
+    files = sorted((DATA / site).glob("20*.json"), reverse=True)[:SEARCH_DAYS]
+    out, dates = [], []
+    for path in files:
+        try:
+            day = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        dates.append(day["date"])
+        start = (day.get("window") or {}).get("start", day["date"])
+        for s in day.get("stories", []):
+            if s.get("status") == "unchanged":
+                continue
+            reps = [strip_links(r["text"]) for r in s.get("reports", []) if r["date"] >= start][:2]
+            out.append({"d": day["date"], "id": s["id"], "t": s["title"], "s": s.get("status"),
+                        "g": s.get("region") or s.get("group"), "o": s.get("outlets_period", 0),
+                        "x": " ".join(reps)[:400]})
+    write_json(DATA / site / "search-index.json", {"dates": dates, "stories": out})
+    return len(out)
+
+
 def write_index(extra: dict | None = None):
     """List every site and every date that has a file, newest first."""
     index = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "sites": {},
@@ -461,6 +631,7 @@ if __name__ == "__main__":
     conn = store.connect()
     for s in [a.site] if a.site else sites():
         print("Wrote", export_site(s, conn, date))
+        write_search_index(s)
         if (n := prune_old(s, date)):
             print(f"Removed {n} files older than {load_site(s).get('keep_days', 365)} days from site/data/{s}/")
     srcs = write_sources(conn)

@@ -79,6 +79,12 @@ def page_for(day: dict, story: dict) -> str:
     return (day.get("pages") or [{"id": ""}])[0]["id"]
 
 
+def also_html(r: dict) -> str:
+    """ (also reported by AP, BBC): other outlets that reported the same facts, with links."""
+    links = [f'<a href="{html.escape(x["url"])}">{html.escape(x["outlet"])}</a>' for x in r.get("also") or [] if str(x.get("url", "")).startswith(("https://", "http://"))]
+    return f" (also reported by {', '.join(links)})" if links else ""
+
+
 def rss(site: str, days: int) -> int:
     day = latest_day(site)
     if not day:
@@ -99,7 +105,7 @@ def rss(site: str, days: int) -> int:
             where = [names.get(s.get("region") or s["group"], "")] + [countries.get(c, {}).get("name", c) for c in s.get("countries", [])]
             body = f"<p><b>{html.escape(' · '.join(w for w in where if w))}</b></p>"
             if reps:
-                body += f"<p><b>Reported on {d}:</b></p><ul>" + "".join(f"<li>{md_to_html(r['text'])}</li>" for r in reps) + "</ul>"
+                body += f"<p><b>Collected on {d}:</b></p><ul>" + "".join(f"<li>{md_to_html(r['text'])}{also_html(r)}</li>" for r in reps) + "</ul>"
             if arts:
                 body += "<p><b>Original headlines:</b></p><ul>" + "".join(
                     f'<li><a href="{html.escape(a["url"])}">{html.escape(a["title"])}</a> ({html.escape(a["outlet"])})</li>' for a in arts) + "</ul>"

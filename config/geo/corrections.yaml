@@ -9,8 +9,19 @@
 # Removed are the articles and reports that mention that country and none of the countries in
 # the story's own title. They don't disappear: they show under the country on its region page,
 # and the next run can start a proper story for them.
+#
+# place: put a story on the region page you choose, with the countries you choose. Use it when
+#   automatic placement gets one wrong (python pipeline/countries.py --stories shows why a story
+#   went where it did). Applied every time the website files are written.
+#   story:      the story's title as shown on the website (or its id)
+#   region:     namerica | latam | europe | mena | africa | asia | global
+#   countries:  (optional) country ids from countries.yaml, the main one first
 # ─────────────────────────────────────────────────────────────────────────────
 
 remove_country:
   # A separate story was merged into this one by the duplicate check.
   - {story: "Paraguay political and banking crisis", country: spain}
+
+place:
+  # Example (remove the # to use it):
+  # - {story: "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims", region: namerica, countries: [us, china]}

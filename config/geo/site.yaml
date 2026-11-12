@@ -12,13 +12,10 @@ ignore: >-
   sports, entertainment, celebrity, lifestyle, horoscopes, adverts, routine local crime,
   and weather (unless it is a disaster)
 
-# One AI call per group per run. Articles go to the group whose id matches their 'region'.
-# Add a region to sources.yaml and a line here, and the site gets a new section.
-#
-# ORDER MATTERS: groups run top to bottom, and every group can continue any story already
-# tracked. Regions go first so they "claim" their stories; Global runs last, so global outlets
-# add to those stories instead of creating duplicates. What's left in Global is cross-regional
-# news or places with no section of their own (Latin America, Oceania...).
+# Groups: one per region. Articles belong to the group whose id matches their source's 'region'
+# (sources.yaml). Add a region to sources.yaml and a line here, and the site gets a new section.
+# All groups are collected together: code groups the day's headlines (pipeline/cluster.py), the
+# AI checks the groups, and a new story is filed under the region it is ABOUT (countries.py).
 groups:
   - {id: namerica, name: North America}
   - {id: latam,    name: Latin America & Caribbean}
@@ -28,10 +25,11 @@ groups:
   - {id: asia,     name: Asia & Pacific}
   - {id: global,   name: Global}
 
-# The sidebar. Pages are shown in THIS order (the groups above keep their own
-# order, which only matters to the AI). "show" lists what each page contains, top to bottom:
+# The sidebar. Pages are shown in THIS order. "show" lists what each page contains, top to bottom:
 #   bluf      Bottom line up front           top         Most reported (cards)
 #   regions   every region at a glance       countries   countries in the news, hotspots first
+#   worldwide the stories reported in the most regions (reach), whatever region they are about
+#   quality   collection and checks: articles collected, events found, reports kept and removed
 #   group:<id>  one region: its stories by country (config/geo/countries.yaml), plus its
 #               opinion and analysis pieces
 # "icon" is the picture in the sidebar: dashboard, world, europe, north-america, asia, mena,
@@ -39,8 +37,8 @@ groups:
 # (see ICONS in app.js).
 # Ids may only use a-z, 0-9 and "-".
 pages:
-  - {id: overview, name: Overview,                    icon: dashboard,     show: [bluf, top, countries, regions]}
-  - {id: global,   name: Global,                      icon: world,         show: [group:global]}
+  - {id: overview, name: Overview,                    icon: dashboard,     show: [bluf, top, countries, regions, quality]}
+  - {id: global,   name: Global,                      icon: world,         show: [worldwide, group:global]}
   - {id: europe,   name: Europe,                      icon: europe,        show: [group:europe]}
   - {id: namerica, name: North America,               icon: north-america, show: [group:namerica]}
   - {id: asia,     name: Asia & Pacific,              icon: asia,          show: [group:asia]}
@@ -59,5 +57,4 @@ catch_up_days:
 # Git keeps every old version in its history, so they can always be recovered.
 keep_days: 365
 
-max_narratives: 10   # per group per run
 expire_days: 6       # a narrative with no new reporting for this many days is archived

@@ -90,12 +90,16 @@ def connect() -> sqlite3.Connection:
     return conn
 
 
+SCHEMA_VERSION = 2      # bump when the labels below change, so stored articles get relabelled
+
+
 def upgrade(conn):
     """
     A database made by an older version lacks newer columns. Add them, and fill them in, so
     nobody has to delete their database. (This is called a "migration".)
     """
     cols = {r["name"] for r in conn.execute("PRAGMA table_info(articles)")}
+    version = conn.execute("PRAGMA user_version").fetchone()[0]
     if "kind" not in cols:
         from content import kind_of            # news / opinion / analysis
         conn.execute("ALTER TABLE articles ADD COLUMN kind TEXT DEFAULT 'news'")
@@ -103,6 +107,17 @@ def upgrade(conn):
         conn.executemany("UPDATE articles SET kind=? WHERE id=?", [(kind_of(dict(r)), r["id"]) for r in rows])
         conn.commit()
         print(f"Database upgraded: labelled {len(rows)} stored articles as news / opinion / analysis")
+    if version < 2:
+        # Version 2 added "offtopic" (sport, entertainment...). Only articles labelled news are
+        # re-checked, so labels that came from RSS categories at download time are kept.
+        from content import kind_of
+        rows = conn.execute("SELECT id, site, source, url, title FROM articles WHERE COALESCE(kind, 'news') = 'news'").fetchall()
+        changed = [(k, r["id"]) for r in rows if (k := kind_of(dict(r))) != "news"]
+        conn.executemany("UPDATE articles SET kind=? WHERE id=?", changed)
+        conn.execute(f"PRAGMA user_version = {SCHEMA_VERSION}")
+        conn.commit()
+        if changed:
+            print(f"Database upgraded: {len(changed)} stored articles relabelled (off-topic, opinion or analysis)")
 
 
 def feed_states(conn) -> dict[str, dict]:

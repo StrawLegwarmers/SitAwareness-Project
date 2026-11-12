@@ -1,9 +1,9 @@
 # Geography
 
 Geopolitical stories are filed by the countries they are **about**, not by where the reporting
-outlets are based. No AI is involved: `pipeline/countries.py` counts country names, using
-`config/geo/countries.yaml` (about 180 countries) and `config/geo/country_names.yaml` (names in other
-languages).
+outlets are based. No AI decides this: `pipeline/countries.py` counts names, using
+`config/geo/countries.yaml` (about 180 countries), `config/geo/country_names.yaml` (names in other
+languages) and `config/geo/entities.yaml` (cities, institutions, people and companies).
 
 ```bash
 python pipeline/countries.py "Coalition talks resume in Warsaw"   # test a headline
@@ -17,12 +17,22 @@ headlines. Then:
 
 - **Countries**: those named in the title first, then any other country with at least a quarter of
   the top country's mentions (and more than a passing mention). Up to five.
-- **Region**: the region holding *more than half* of those countries' mentions. If no region does
-  (a summit, trade between two continents), the story goes on **Global**. A title starting with a
-  country and a colon ("Poland: …") settles it.
+- **Lead country**, the one it is mainly about: a title that starts with a country and a colon
+  ("Poland: …"); otherwise the AI's `country` for the story, *only if* the story's own headlines name
+  that country; otherwise the title's most-mentioned country (the first named breaks a tie).
+- **Region**, in this order:
+  1. the region holding *more than half* of the mentions;
+  2. if none does: **Global** when the countries span three or more regions (a summit), otherwise
+     the lead country's region ("France summons Iran's envoy" goes to Europe);
+  3. no country named at all: the region of its outlets when two thirds come from one region (local
+     news, "Police chief sacked over kidnappings"), otherwise **Global**.
 - **Domestic or international**: one country, or several. Shown on every card.
+- Your `place:` rules in `corrections.yaml` override all of the above.
 
-Two refinements keep placement honest:
+`countries.py --stories` prints the rule that decided each story, so a misplaced one is easy to
+trace and fix.
+
+Refinements that keep placement honest:
 
 - **Venues.** Cities that often host talks about other countries (`venues:`) count a quarter, so
   "talks in [host city]" doesn't make the host the subject.
@@ -30,6 +40,32 @@ Two refinements keep placement honest:
   newspaper names, sports clubs) are removed first (`not_countries:`). Matching is case-sensitive,
   so "US" never matches "us". A name that is ambiguous on its own (Georgia) can be marked
   `ambiguous: true`, so only its other words count.
+- **Hyphens** separate names: "Russia-US-Ukraine talks", "Saudi-led", "Kyiv-based".
+
+## Entities
+
+`entities.yaml` lists names that point to a country without naming it, so "Nvidia boss questioned
+by FBI" is placed in the United States:
+
+| Heading | Examples | Weight |
+|---|---|---|
+| `places` | New York City, California, Kharkiv, Shanghai | 1 |
+| `institutions` | FBI, Bundeswehr, Knesset, Hamas | 1 |
+| `people` | political figures, in office or not (a former leader still belongs to the same country) | 1 |
+| `companies` | by headquarters: Nvidia, TSMC, Gazprom | ½, so "EU fines a US company" leans to the side taking action |
+
+Leave out names that also mean something else ("Nice", "Amazon" the river). When an entity misleads
+placement, delete it, or fix the one story with `place:` in `corrections.yaml`.
+
+## Reach and the Global page
+
+**Reach** is how many source regions' outlets reported a story: six regions plus international
+outlets, so 1 to 7. It is counted from the outlets, not judged, and shown on each card.
+
+The Global page opens with **Reported worldwide**: up to 12 stories with coverage from at least
+three regions, widest reach first, then most outlets. These are the stories the whole world is
+reporting, wherever they happened; each also stays on the page of the region it is about. Below
+come the stories filed under Global itself (no single region, or no country named).
 
 ## Region pages
 
@@ -61,9 +97,11 @@ Tiers change order and visibility only. They never hide reporting, change counts
 
 ## Hotspots
 
-A country is a **hotspot** when it has at least 8 headlines in the last 24 hours *and* at least
-twice its daily average over the previous week. The badge needs about four days of history in the
-database before it can appear.
+A country is a **hotspot** when it has at least 8 headlines in the last 24 hours *and* at least twice
+its usual **share** of all headlines. The usual share comes from the previous seven days, using only
+full days of collection (a day with less than 60% of the busiest day's headlines was a partial
+download, and would make every country look busy). Comparing shares rather than counts means adding
+sources doesn't turn every country into a hotspot. The badge needs three full days of history.
 
 ## Other languages
 

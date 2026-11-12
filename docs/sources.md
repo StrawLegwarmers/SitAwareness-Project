@@ -13,7 +13,7 @@ for Cyber. A source is one line:
 |---|---|---|
 | `name` | text | Shown on the site. Must be unique |
 | `feed` | address | The RSS or Atom address (not the home page) |
-| `region` | `global`, `namerica`, `latam`, `europe`, `mena`, `africa`, `asia` | Geopolitical: which AI group reads it |
+| `region` | `global`, `namerica`, `latam`, `europe`, `mena`, `africa`, `asia` | Geopolitical: the region its outlet covers (used for reach, and to file local news that names no country) |
 | `section` | `news`, `intel`, `aviation`, `advisories` | Cyber: cyber news, vendor research, aviation trade press, or advisory bulletins (bulletins are listed but never sent to the AI) |
 | `type` | `wire`, `international`, `regional`, `local`, `specialist`, `think-tank`, `state-media`, `government` | State media claims are always attributed, never stated as fact. Think tanks count as analysis |
 | `kind` | `news`, `opinion`, `analysis` | Optional: overrides how the source's articles are labelled ([collection](collection.md#opinion-and-analysis)) |

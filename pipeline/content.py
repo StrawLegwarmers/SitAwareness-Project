@@ -21,7 +21,8 @@ from urllib.parse import urlsplit
 
 from config import CONFIG, load_sources, load_yaml, sites
 
-KINDS = ("news", "opinion", "analysis")
+KINDS = ("news", "opinion", "analysis", "offtopic")
+COMMENTARY = ("opinion", "analysis")      # shown, labelled, apart from reporting
 
 
 @lru_cache(maxsize=1)
@@ -30,9 +31,10 @@ def rules() -> dict:
     cfg = load_yaml(path) if path.exists() else {}
     out = {"source_types": cfg.get("source_types") or {},
            "news_tags": {t.lower().strip() for t in cfg.get("news_tags", [])}}
-    for kind in ("opinion", "analysis"):
+    for kind in ("offtopic", "opinion", "analysis"):
         r = cfg.get(kind) or {}
         out[kind] = {
+            "sites": set(r.get("sites") or []),
             "tags": {t.lower().strip() for t in r.get("tags", [])},
             "url_parts": {p.lower().strip("/") for p in r.get("url_parts", [])},
             "starts": tuple(s.lower() for s in r.get("headline_starts", [])),
@@ -48,7 +50,8 @@ def source_settings() -> dict[tuple[str, str], dict]:
     return {(s["site"], s["name"]): s for site in sites() for s in load_sources(site, include_disabled=True)}
 
 
-def classify(url: str, title: str, tags: list[str] | None = None, source: dict | None = None) -> tuple[str, str]:
+def classify(url: str, title: str, tags: list[str] | None = None, source: dict | None = None,
+             site: str | None = None) -> tuple[str, str]:
     """Returns (kind, reason). reason says which rule matched, so a wrong label is easy to trace."""
     source = source or {}
     if source.get("kind") in KINDS:
@@ -59,8 +62,11 @@ def classify(url: str, title: str, tags: list[str] | None = None, source: dict |
     tags = [t for t in (tags or []) if t and t.strip()]
     if any(t.lower().strip() in R["news_tags"] for t in tags):
         tags = []                           # tagged "News" AND "Opinion": let the address and headline decide
-    for kind in ("opinion", "analysis"):
+    site = site or source.get("site")
+    for kind in ("offtopic", "opinion", "analysis"):
         r = R[kind]
+        if r["sites"] and site not in r["sites"]:
+            continue
         tag = next((t for t in tags if t.lower().strip() in r["tags"]), None)
         if tag:
             return kind, f"RSS category '{tag}'"
@@ -79,8 +85,9 @@ def kind_of(article: dict, site: str | None = None) -> str:
     """Kind for an article record (from the database or a story), using its source's settings if known."""
     if article.get("kind") in KINDS:
         return article["kind"]
-    src = source_settings().get((site or article.get("site"), article.get("source") or article.get("outlet")))
-    return classify(article.get("url", ""), article.get("title", ""), None, src)[0]
+    site = site or article.get("site")
+    src = source_settings().get((site, article.get("source") or article.get("outlet")))
+    return classify(article.get("url", ""), article.get("title", ""), None, src, site)[0]
 
 
 def kinds_by_id(conn, articles: list[dict], site: str) -> dict[str, str]:
@@ -102,7 +109,8 @@ def split_story(n: dict, kinds: dict[str, str]) -> tuple[list, list, list, list]
     must rest on news. (Stories built by older versions can contain such reports.)
     """
     news = [a for a in n.get("articles", []) if kinds.get(a.get("id"), "news") == "news"]
-    comment = [a | {"kind": kinds[a["id"]]} for a in n.get("articles", []) if kinds.get(a.get("id"), "news") != "news"]
+    comment = [a | {"kind": kinds[a["id"]]} for a in n.get("articles", []) if kinds.get(a.get("id"), "news") in COMMENTARY]
+    # off-topic articles (sport...) are simply dropped
     keep, drop = [], []
     for r in n.get("reports", []):
         cited = r.get("articles") or []
@@ -116,7 +124,7 @@ def report(kind_filter: str | None = None):
     rows = conn.execute("SELECT site, source, title, url, kind FROM articles ORDER BY published DESC").fetchall()
     total = Counter(r["kind"] for r in rows)
     print(f"{len(rows)} articles: " + ", ".join(f"{total[k]} {k}" for k in KINDS))
-    for kind in ([kind_filter] if kind_filter else ("opinion", "analysis")):
+    for kind in ([kind_filter] if kind_filter else ("offtopic", "opinion", "analysis")):
         picked = [r for r in rows if r["kind"] == kind]
         by_source = Counter(r["source"] for r in picked)
         print(f"\n{kind.upper()}: {len(picked)} from {len(by_source)} sources")
@@ -131,5 +139,5 @@ def report(kind_filter: str | None = None):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Show how articles were labelled news / opinion / analysis.")
-    ap.add_argument("--list", choices=["opinion", "analysis"], help="list more examples of one kind")
+    ap.add_argument("--list", choices=["offtopic", "opinion", "analysis"], help="list more examples of one kind")
     report(ap.parse_args().list)

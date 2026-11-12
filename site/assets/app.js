@@ -13,6 +13,7 @@
      #/toolkit                  OSINT links
      #/sources                  every source and how it's doing
      #/opencti                  how to connect OpenCTI, with the feed addresses
+     #/watch                    your watchlist (kept in this browser only)
    Which pages exist, and what each shows, comes from "pages:" in config/<site>/site.yaml.
    ────────────────────────────────────────────────────────────────────────── */
 "use strict";
@@ -42,6 +43,9 @@ const ICONS = {
   link: '<path d="M9 15l6-6M11 6l.463-.536a5 5 0 0 1 7.071 7.072l-.534.464M13 18l-.397.534a5.068 5.068 0 0 1-7.127 0a4.972 4.972 0 0 1 0-7.071l.524-.463"/>',
   copy: '<path d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333zM4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"/>',
   dot: '<circle cx="12" cy="12" r="3"/>',
+  eye: '<path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0"/><path d="M21 12c-2.4 4-5.4 6-9 6c-3.6 0-6.6-2-9-6c2.4-4 5.4-6 9-6c3.6 0 6.6 2 9 6"/>',
+  list: '<path d="M9 6h11M9 12h11M9 18h11M5 6v.01M5 12v.01M5 18v.01"/>',
+  cards: '<path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>',
   briefcase: '<path d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zM8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13a20 20 0 0 0 18 0"/>',
   "north-america": '<path d="M1.5 6 3.5 3.8 7 3 10 3.6 12 2.4 15 2.2 15.5 4.5 17 5.6 17.5 3.5 20.5 3.8 22 6 19.5 8.5 17.5 9.8 16.6 12 17.2 14.8 16 14.6 14.4 13.4 12.6 13.8 12.4 15.6 13.8 16.4 13.4 17.6 15.5 20.5 14.8 21 11.2 18.6 8.4 15 6.8 11.6 5 9 3.6 8.2 2.5 8.8Z"/>',
   "latin-america": '<path d="M4.2 1.4 6 2.4 8.5 4.2 11 3.2 13.5 3.6 15.5 4.6 18 5.8 20.8 8.2 21.4 10.4 19.6 13.2 17.6 14.6 16.2 17.2 14 18.6 12.8 21.2 11.6 22.6 11 20.6 10.8 17.4 10.4 14 8.4 11.4 7.2 9.2 7.4 6.8 6.8 5.4 5.6 3.6 3.8 2.2Z"/>',
@@ -94,7 +98,7 @@ const md = (text) => esc(text).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g,
 const safeUrl = (u) => (/^https?:\/\//i.test(String(u || "")) ? esc(u) : "#");
 const ext = (url, label) => `<a href="${safeUrl(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
 
-const plural = (n, word) => `${n} ${n === 1 ? word : /[^aeiou]y$/.test(word) ? word.slice(0, -1) + "ies" : word + "s"}`;  // story→stories, day→days
+const plural = (n, word) => `${esc(n)} ${n === 1 ? word : /[^aeiou]y$/.test(word) ? word.slice(0, -1) + "ies" : word + "s"}`;  // story→stories, day→days
 
 function fmtTime(iso) {
   if (!iso) return "";
@@ -113,6 +117,9 @@ function fmtDate(ymd) {
   return d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
 }
 
+// "2026-11-08" -> "Sun 8 Nov"
+const fmtDayShort = (ymd) => (DATE_RE.test(String(ymd || "").slice(0, 10)) ? new Date(String(ymd).slice(0, 10) + "T12:00:00Z")
+  .toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "UTC" }) : esc(ymd));
 const addDays = (ymd, n) => new Date(Date.parse(ymd + "T12:00:00Z") + n * 864e5).toISOString().slice(0, 10);
 const daysBetween = (a, b) => Math.round((Date.parse(b + "T12:00:00Z") - Date.parse(a + "T12:00:00Z")) / 864e5) + 1;
 const fmtDM = (ymd) => new Date(ymd + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
@@ -165,10 +172,44 @@ function highlight(root, q) {
 
 // ── Building blocks ───────────────────────────────────────────────────────
 
-const STATUS = { new: "New", updated: "Updated", unchanged: "Still tracked" };
+// new: first seen · updated: new facts reported · covered: more outlets, nothing new · unchanged: quiet
+const STATUS = { new: "New", updated: "Updated", covered: "More coverage", unchanged: "Still tracked" };
 const KIND = { opinion: "Opinion", analysis: "Analysis" };
-const live = (s) => s.status !== "unchanged";
+const live = (s) => s.status !== "unchanged";                         // shown as a card
+const fresh = (s) => s.status === "new" || s.status === "updated";   // new facts, not just more coverage
 const where = (s) => s.region || s.group;      // the region a story is ABOUT (older files: its outlets' region)
+
+// ── Things this browser remembers (never sent anywhere) ──────────────────
+const mem = {
+  get(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v ?? d; } catch (e) { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
+};
+// "New since your last visit": what you had seen before this visit, loaded once when the site opens.
+const SEEN_KEY = "sap-seen";
+S.seenBefore = new Set(mem.get(SEEN_KEY, []));
+const sig = (s) => `${s.id}|${(s.reports[0] || {}).published || (s.reports[0] || {}).date || s.first_seen}`;
+// Only on the latest brief: an older day or a range would flag stories that were simply not on today's.
+const latestView = () => !S.range && ["geo", "cyber"].some((k) => S.index.sites[k] && S.date === S.index.sites[k].dates[0]);
+const isNewForYou = (s) => S.seenBefore.size > 0 && live(s) && latestView() && !S.seenBefore.has(sig(s));
+// Opening the latest brief counts as having seen it (both sites); the badges stay until you come back.
+function markSeen(day) {
+  const info = day && S.index.sites[day.site];
+  if (!info || day.range || day.date !== info.dates[0]) return;
+  const all = mem.get(SEEN_KEY, []), have = new Set(all);
+  for (const s of day.stories) if (live(s) && !have.has(sig(s))) { all.push(sig(s)); have.add(sig(s)); }
+  mem.set(SEEN_KEY, all.slice(-4000));
+}
+// Watchlist: words you follow (a country, a person, a company). Matching ignores case.
+// A word matches at the start of a word: "Iran" finds "Iranian" but not "Tirana".
+S.watch = mem.get("sap-watch", []);
+const watchRe = (w) => new RegExp(`(?<![\\p{L}\\p{N}])${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`, "iu");
+const watchHit = (text) => S.watch.filter((w) => watchRe(w).test(String(text || "")));
+function watchHits(s) {
+  if (!S.watch.length) return [];
+  return watchHit([s.title, ...s.reports.map((r) => r.text), ...s.articles.map((a) => a.title)].join(" \n "));
+}
+S.compact = mem.get("sap-view", "cards") === "list";
+S.cards = new Map();                   // story id -> [story, its day], for "Copy with sources"
 
 // Countries: names, tiers and counts come from config/geo/countries.yaml via export.py.
 const cname = (day, id) => (day.countries && day.countries[id] ? day.countries[id].name : id);
@@ -193,7 +234,18 @@ function headlineItem(a) {
     <span class="src">· ${esc(a.outlet)} · ${fmtTime(a.published)}${tag}</span></li>`;
 }
 
+// "On 12 Nov 2026, Reuters reported ..." Older files have no publication date: show the day collected.
+function reportLine(r, P) {
+  const text = r.published ? md(r.text) : (P.multi ? `<span class="muted">${esc(r.date.slice(5))}:</span> ` : "") + md(r.text);
+  const also = (r.also || []).filter((x) => x.outlet);
+  return `<li>${text}${also.length ? ` <span class="also">Also reported by ${also.map((x) =>
+    `${ext(x.url, esc(x.outlet))}${x.published ? ` <span class="muted">(${esc(fmtDM(x.published.slice(0, 10)))})</span>` : ""}`).join(", ")}</span>` : ""}</li>`;
+}
+
+const regionLabel = (day, r) => (r === "global" ? "international outlets" : groupName(day, r));
+
 function card(s, day, showGroup) {
+  S.cards.set(s.id, [s, day]);
   const P = period(day);
   const today = s.reports.filter((r) => r.date >= P.start);
   const earlier = s.reports.filter((r) => r.date < P.start);
@@ -201,38 +253,77 @@ function card(s, day, showGroup) {
   const outlets = s.outlets_period ?? s.outlets_today;          // ?? = older files use the old name
   const single = s.single_source ?? s.single_source_today;
   const stateOnly = s.state_media_only ?? s.state_media_only_today;
+  const watched = watchHits(s);
   const flags = [
+    isNewForYou(s) ? `<span class="flag fresh" title="Changed since your last visit (remembered in this browser only)">new for you</span>` : "",
     active && single ? `<span class="flag single" title="Only one outlet reported this ${P.label}">single source</span>` : "",
     active && stateOnly ? `<span class="flag state" title="Every source ${P.label} is government-controlled">state media only</span>` : "",
+    ...watched.map((w) => `<span class="flag watch" title="On your watchlist">${icon("eye", "ic-s")}${esc(w)}</span>`),
   ].join("");
-  const reach = active && outlets ? `${plural(outlets, "outlet")} ${P.since}` : `last reported ${esc(s.last_updated)}`;
-  const dated = (r) => (P.multi ? `<span class="muted">${esc(r.date.slice(5))}:</span> ` : "") + md(r.text);
+  const count = active && outlets ? `${plural(outlets, "outlet")} ${P.since}` : `last reported ${esc(s.last_updated)}`;
+  const reach = s.reach > 1 ? `<span class="reach" title="Reported by outlets from: ${esc((s.regions || []).map((r) => regionLabel(day, r)).join(", "))}">${esc(s.reach)} regions</span>` : "";
 
   let lead;
   if (today.length) {
-    lead = `<ul class="reports">${today.slice(0, 2).map((r) => `<li>${dated(r)}</li>`).join("")}</ul>`;
+    lead = `<ul class="reports">${today.slice(0, 2).map((r) => reportLine(r, P)).join("")}</ul>`;
   } else if (!active && earlier.length) {
-    lead = `<ul class="reports"><li><span class="muted">${esc(earlier[0].date)}:</span> ${md(earlier[0].text)}</li></ul>`;
+    lead = `<ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
+  } else if (s.status === "covered" && earlier.length) {
+    lead = `<p class="muted small" style="margin:0">More outlets covered this ${P.since}, with no new facts. Latest report:</p><ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
   } else {
     lead = `<p class="muted" style="margin:0;font-size:13px">No checked report. See the original headlines below.</p>`;
   }
+  const mix = s.mix ? Object.entries(s.mix).map(([k, n]) => `${n} ${k === "state-media" ? "state media" : k}`).join(" · ") : "";
+  const dates = (s.dates || []).length ? `<p class="dates" title="Dates written in the articles themselves, found by code (not the AI)">Dates in the reporting: ${s.dates.map((d) =>
+    `${esc(fmtDayShort(d.date))} <span class="muted">(${plural(d.outlets, "outlet")})</span>`).join(" · ")}</p>` : "";
 
   const more = [
-    today.length > 2 ? `<h4>ALL REPORTS ${P.label.toUpperCase()}</h4><ul class="reports">${today.map((r) => `<li>${dated(r)}</li>`).join("")}</ul>` : "",
-    earlier.length ? `<h4>EARLIER REPORTING</h4><ul class="reports">${earlier.map((r) =>
-      `<li><span class="muted">${esc(r.date)}:</span> ${md(r.text)}</li>`).join("")}</ul>` : "",
+    today.length > 2 ? `<h4>ALL REPORTS ${P.label.toUpperCase()}</h4><ul class="reports">${today.map((r) => reportLine(r, P)).join("")}</ul>` : "",
+    earlier.length ? `<h4>EARLIER REPORTING</h4><ul class="reports">${earlier.map((r) => reportLine(r, { multi: true })).join("")}</ul>` : "",
     `<h4>ORIGINAL HEADLINES</h4><ul class="heads">${s.articles.map(headlineItem).join("")}</ul>`,
   ].join("");
 
-  return `<article class="card ${s.status}" data-story="${esc(s.id)}">
-    <div class="card-top"><span class="badge ${s.status}">${STATUS[s.status] || esc(s.status)}</span>${flags}
-      ${showGroup ? `<span>${esc(groupName(day, where(s)))}</span>` : ""}<span class="spacer"></span><span>${reach}</span></div>
+  return `<article class="card ${esc(s.status)}${S.compact ? " compact" : ""}" data-story="${esc(s.id)}">
+    <div class="card-top"><span class="badge ${esc(s.status)}">${STATUS[s.status] || esc(s.status)}</span>${flags}
+      ${showGroup ? `<span>${esc(groupName(day, where(s)))}</span>` : ""}<span class="spacer"></span>${reach}<span>${count}</span></div>
     <h3>${esc(s.title)}</h3>
     ${countryLine(s, day)}
     ${lead}
+    ${dates}
     <details class="more"><summary>Sources and earlier reporting (${s.articles.length})</summary>${more}</details>
-    <div class="card-foot">First seen ${esc(s.first_seen)} · ${plural(s.article_count, "article")} in total</div>
+    <div class="card-foot"><span>First seen ${esc(fmtDayShort(s.first_seen))} · ${plural(s.article_count, "article")} in total${mix ? ` · ${esc(mix)}` : ""}</span>
+      <button type="button" class="copy" data-copy="${esc(s.id)}" title="Copy the reports with their sources, as plain text">${icon("copy", "ic-s")}Copy with sources</button></div>
   </article>`;
+}
+
+// Plain text for pasting into a report or a chat: every sentence keeps its source link.
+function storyText(s, day) {
+  const plain = (t) => String(t || "").replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, "$1 <$2>");
+  const place = [groupName(day, where(s)), ...(s.countries || []).map((c) => cname(day, c))].filter(Boolean).join(" · ");
+  const P = period(day);
+  const reps = s.reports.filter((r) => r.date >= P.start);
+  const lines = [`${s.title}${place ? ` (${place})` : ""}`, ""];
+  for (const r of (reps.length ? reps : s.reports.slice(0, 3))) {
+    lines.push(`- ${plain(r.text)}`);
+    for (const x of r.also || []) lines.push(`  Also reported by ${x.outlet} <${x.url}>`);
+  }
+  lines.push("", "Sources:");
+  for (const a of s.articles.slice(0, 12)) lines.push(`- ${a.outlet}: ${a.title} <${a.url}>`);
+  lines.push("", `Collected automatically from public news feeds (${location.href.split("#")[0]}). Each sentence restates what one outlet reported; verify at source.`);
+  return lines.join("\n");
+}
+
+async function copyText(text, btn) {
+  try { await navigator.clipboard.writeText(text); }
+  catch (e) {
+    const t = document.createElement("textarea");
+    t.value = text; document.body.append(t); t.select();
+    try { document.execCommand("copy"); } catch (e2) {}
+    t.remove();
+  }
+  const old = btn.innerHTML;
+  btn.textContent = "Copied";
+  setTimeout(() => { btn.innerHTML = old; }, 1500);
 }
 
 function listRows(items) {
@@ -242,8 +333,8 @@ function listRows(items) {
 
 // A group of stories: the ones with new reporting as cards, the quiet ones folded away.
 function storyGrid(day, stories, P, showGroup) {
-  const active = stories.filter(live), quiet = stories.filter((s) => !live(s));
-  let h = active.length ? `<div class="grid">${active.map((s) => card(s, day, showGroup)).join("")}</div>`
+  const active = [...stories.filter(fresh), ...stories.filter((s) => s.status === "covered")], quiet = stories.filter((s) => !live(s));
+  let h = active.length ? `<div class="grid${S.compact ? " compact" : ""}">${active.map((s) => card(s, day, showGroup)).join("")}</div>`
                         : `<p class="muted">No new reporting ${P.since}.</p>`;
   if (quiet.length) h += `<details class="quiet"><summary>${plural(quiet.length, "story")} still tracked, no new reporting ${P.since}</summary>
     <div class="grid">${quiet.map((s) => card(s, day, showGroup)).join("")}</div></details>`;
@@ -264,8 +355,40 @@ const BLOCKS = {
     const byId = Object.fromEntries(day.stories.map((s) => [s.id, s]));
     const top = day.top.map((id) => byId[id]).filter(Boolean);
     if (!top.length) return null;
-    return { id: "sec-top", label: "Most reported", html: `<h2 id="sec-top">Most reported ${P.since} <span class="count">ranked by number of outlets</span></h2>
-      <div class="grid">${top.map((s) => card(s, day, true)).join("")}</div>` };
+    const byReach = top.some((s) => s.reach > 1);
+    return { id: "sec-top", label: "Most reported", html: `<h2 id="sec-top">Most reported ${P.since} <span class="count">ranked by ${byReach ? "regions reporting it, then " : ""}number of outlets</span></h2>
+      <div class="grid${S.compact ? " compact" : ""}">${top.map((s) => card(s, day, true)).join("")}</div>` };
+  },
+
+  // Global page: the stories reported by outlets in the most regions, wherever they happened.
+  worldwide(day, P) {
+    const byId = Object.fromEntries(day.stories.map((s) => [s.id, s]));
+    const wide = (day.worldwide || []).map((id) => byId[id]).filter(Boolean);
+    if (!wide.length) return null;
+    return { id: "sec-worldwide", label: "Reported worldwide", html: `<h2 id="sec-worldwide">Reported worldwide ${P.since}
+      <span class="count">ranked by how many regions' outlets reported it, then by outlets</span></h2>
+      <p class="page-meta" style="margin-bottom:10px">Each story also appears on the page of the region it is about.</p>
+      <div class="grid${S.compact ? " compact" : ""}">${wide.map((s) => card(s, day, true)).join("")}</div>` };
+  },
+
+  // How much was collected, and how much of it the checks kept. Counted by the pipeline, not judged.
+  quality(day, P) {
+    const c = (day.stats || {}).coverage;
+    if (!c) return null;
+    const removed = day.stats.removed ?? 0, kept = c.kept ?? day.stats.reports ?? 0;
+    const cell = (n, label, hint) => `<div class="q" title="${esc(hint)}"><span class="qn">${Number(n || 0).toLocaleString("en-GB")}</span><span class="ql">${esc(label)}</span></div>`;
+    return { id: "sec-quality", label: "Collection", html: `<h2 id="sec-quality">Collection and checks <span class="count">${P.since}, counted by the pipeline</span></h2>
+      <div class="quality">
+        ${cell(c.articles, "news articles collected", "News articles from every feed (opinion, analysis and off-topic sections are kept apart)")}
+        ${cell(c.reported_by_2, "events reported by 2+ outlets", "Groups of headlines about the same event, found by code before any AI")}
+        ${cell(c.sent, "groups checked by the AI", "Groups reported by two or more outlets, or continuing a tracked story")}
+        ${cell((c.new || 0) + (c.updated || 0), "stories with new reports", "New stories plus tracked stories with new facts")}
+        ${cell(kept, "reports kept", "Sentences that passed every guardrail")}
+        ${cell(removed, "sentences removed", "Sentences the guardrails rejected (see state/<site>/audit.json)")}
+        ${cell(c.corroborated, "corroborations", "Another outlet reported facts already collected: added as 'also reported by'")}
+        ${cell(c.waiting, "groups waiting", "Groups that didn't fit in this run's AI calls; they go first next run")}
+      </div>
+      ${c.failed_calls ? `<p class="small" style="color:var(--state)">${plural(c.failed_calls, "AI call")} failed; their articles are retried on the next run.</p>` : ""}` };
   },
 
   stories(day, P) {
@@ -274,7 +397,7 @@ const BLOCKS = {
       const all = day.stories.filter((s) => where(s) === g.id);
       if (!all.length) continue;
       const name = day.groups.length > 1 ? esc(g.name) : "All stories";
-      h += `<h2${h ? "" : ' id="sec-stories"'}>${name} <span class="count">${plural(all.filter(live).length, "story")} with new reporting ${P.since}</span></h2>${storyGrid(day, all, P, false)}`;
+      h += `<h2${h ? "" : ' id="sec-stories"'}>${name} <span class="count">${plural(all.filter(fresh).length, "story")} with new reporting ${P.since}</span></h2>${storyGrid(day, all, P, false)}`;
     }
     return { id: "sec-stories", label: "Stories", html: h || `<p class="muted" id="sec-stories">No stories yet.</p>` };
   },
@@ -285,14 +408,14 @@ const BLOCKS = {
     const C = day.countries;
     const inRegion = C ? Object.keys(C).filter((k) => C[k].region === id) : [];
     if (!inRegion.length) {      // Global, the Cyber site, and older files
-      return { id: `sec-g-${id}`, label: "Stories", html: `<h2 id="sec-g-${esc(id)}">Stories <span class="count">${plural(all.filter(live).length, "story")} with new reporting ${P.since}</span></h2>
+      return { id: `sec-g-${id}`, label: "Stories", html: `<h2 id="sec-g-${esc(id)}">${id === "global" ? "Filed under Global" : "Stories"} <span class="count">${id === "global" ? "no single region: no country named, or countries in three or more regions" : `${plural(all.filter(fresh).length, "story")} with new reporting ${P.since}`}</span></h2>
         ${all.length ? storyGrid(day, all, P, false) : `<p class="muted">No stories tracked here yet.</p>`}${c ? c.html : ""}` };
     }
     // Each story goes under its first country that belongs to this region.
     const lead = (s) => (s.countries || []).find((k) => C[k] && C[k].region === id);
     const byCountry = {};
     for (const s of all) { const k = lead(s) || "_none"; (byCountry[k] = byCountry[k] || []).push(s); }
-    const liveN = (k) => (byCountry[k] || []).filter(live).length;
+    const liveN = (k) => (byCountry[k] || []).filter(fresh).length;
     // A country gets its own block if it has stories, or is regional tier 1 (always shown).
     const shown = inRegion.filter((k) => byCountry[k] || C[k].regional === 1)
       .sort((a, b) => C[a].regional - C[b].regional || liveN(b) - liveN(a) || C[b].last24 - C[a].last24);
@@ -308,7 +431,7 @@ const BLOCKS = {
         <div class="list" data-heads="${esc(k)}" style="margin-top:8px"><div class="row"><span class="muted">Loading…</span></div></div>${note}</details>`;
     };
     const badges = (k) => `${C[k].regional < 3 ? `<span class="tier t${C[k].regional}" title="Regional tier, set in config/geo/countries.yaml">Tier ${C[k].regional}</span>` : ""}
-      ${C[k].hotspot ? `<span class="hot" title="${C[k].last24} headlines in 24 hours, against a daily average of ${C[k].avg7} over the week before">Hotspot</span>` : ""}`;
+      ${C[k].hotspot ? `<span class="hot" title="${C[k].last24} headlines in 24 hours; its usual share of the news would be about ${C[k].avg7}">Hotspot</span>` : ""}`;
 
     let h = `<nav class="jump" aria-label="Countries">${shown.map((k) => `<button type="button" data-goto="c-${esc(k)}">${esc(C[k].name)}${C[k].hotspot ? " ●" : ""}</button>`).join("")}
       ${rest.length ? `<button type="button" data-goto="c-more">More countries</button>` : ""}${c ? `<button type="button" data-goto="${c.id}">Opinion and analysis</button>` : ""}</nav>`;
@@ -339,7 +462,7 @@ const BLOCKS = {
     const anyHot = list.some(([, c]) => c.hotspot);
     return { id: "sec-countries", label: "Countries", html: `<h2 id="sec-countries">Countries in the news <span class="count">headlines ${day.range ? "in this period" : "in the last 24 hours"}${anyHot ? ", hotspots first" : ""}</span></h2>
       <div class="chips">${list.map(([k, c]) => `<a class="chip${c.hotspot ? " is-hot" : ""}${c.global === 1 ? " t1" : ""}" href="${pageHref((regionPage(day, c.region) || "") + `/c-${k}`)}"
-        title="${c.hotspot ? `Hotspot: ${c.last24} headlines vs a daily average of ${c.avg7}` : `Global tier ${c.global}`}">${esc(c.name)} <span class="n">${c.last24}</span></a>`).join("")}</div>
+        title="${c.hotspot ? `Hotspot: ${c.last24} headlines, usually about ${c.avg7}` : `Global tier ${c.global}`}">${esc(c.name)} <span class="n">${c.last24}</span></a>`).join("")}</div>
       ${anyHot ? "" : `<p class="small muted">Hotspots appear once the database holds a few days of history (a country with at least twice its usual number of headlines).</p>`}` };
   },
 
@@ -348,7 +471,7 @@ const BLOCKS = {
     const cards = pages.map((p) => {
       const ids = p.show.filter((b) => b.startsWith("group:")).map((b) => b.slice(6));
       const all = day.stories.filter((s) => ids.includes(where(s)));
-      const act = all.filter(live);
+      const act = all.filter(fresh);
       const n = act.filter((s) => s.status === "new").length;
       return `<section class="card region">
         <div class="card-top">${n ? `<span class="badge new">${n} new</span>` : ""}<span>${plural(act.length, "story")} with new reporting</span></div>
@@ -468,10 +591,13 @@ function renderBlock(day, P, name) {
 // The number next to each page in the sidebar: the first thing on the page that can be counted.
 function pageCount(day, page) {
   const P = period(day);
-  for (const b of page.show) {
+  // A page with indicators counts indicators (the KEV block on the same page is small)
+  const blocks = page.show.includes("iocs") && day.iocs ? ["iocs"] : page.show;
+  for (const b of blocks) {
     const [kind, arg] = b.split(":");
-    if (kind === "group") return { n: day.stories.filter((s) => where(s) === arg && live(s)).length, what: "stories with new reporting" };
-    if (kind === "stories") return { n: day.stories.filter(live).length, what: "stories with new reporting" };
+    if (kind === "worldwide" && (day.worldwide || []).length) return { n: day.worldwide.length, what: "stories reported worldwide" };
+    if (kind === "group") return { n: day.stories.filter((s) => where(s) === arg && fresh(s)).length, what: "stories with new reporting" };
+    if (kind === "stories") return { n: day.stories.filter(fresh).length, what: "stories with new reporting" };
     if (kind === "industries") return { n: (day.industries || []).reduce((t, i) => t + i.items.length, 0), what: `matching headlines ${P.recent}` };
     if (kind === "vulns" && day.vulns) return { n: day.vulns.kev_new.length, what: `added to CISA KEV ${P.recent}` };
     if (kind === "iocs" && day.iocs) return { n: day.iocs.total, what: "new indicators" };
@@ -498,6 +624,9 @@ function renderSidebar() {
     }).join("");
   }
   const fails = (S.index && S.index.sources_failing) || 0;
+  const watched = ["geo", "cyber"].reduce((t, k) => t + ((S.days[k] || {}).stories || []).filter((s) => live(s) && watchHits(s).length).length, 0);
+  h += `<p class="side-label">YOURS</p>` + `<a href="#/watch"${S.site === "watch" ? ' aria-current="page"' : ""}>${icon("eye")}<span class="label">Watchlist</span>${
+    S.watch.length ? `<span class="n" title="${watched} stories with coverage match your watchlist">${watched}</span>` : ""}</a>`;
   h += `<p class="side-label">REFERENCE</p>` + [["toolkit", "Toolkit", "tool", ""], ["sources", "Sources", "rss", fails ? `<span class="n bad" title="${fails} failing">${fails}</span>` : ""],
     ["opencti", "OpenCTI", "link", ""]].map(([id, name, ic, n]) =>
     `<a href="#/${id}"${S.site === id ? ' aria-current="page"' : ""}>${icon(ic)}<span class="label">${name}</span>${n}</a>`).join("");
@@ -513,18 +642,18 @@ function renderPage(day, page) {
   const P = period(day);
   const label = S.index.sites[day.site].label;
   const first = page.id === pagesFor(day)[0].id;
-  const active = day.stories.filter(live);
   const when = P.isRange ? `${fmtDM(day.range.from)} – ${fmtDate(day.range.to)}` : fmtDate(day.date);
   let h = `<p class="kicker">${esc(label.toUpperCase())} · ${esc(when.toUpperCase())}</p>
     <h1>${first ? `${esc(label)} ${P.isRange ? `· ${plural(P.days, "day")}` : P.multi ? "catch-up" : "brief"}` : esc(page.name)}</h1>
     ${P.isRange ? `<p class="catchup">This view combines <strong>${plural(day.range.files, "daily brief")}</strong> from ${esc(P.range)}. Counts and reports cover the whole period.</p>`
       : P.multi ? `<p class="catchup">Catch-up: this brief covers <strong>${esc(P.range)}</strong>, so nothing reported in between is missed.</p>` : ""}`;
-  if (first) {
-    h += `<p class="page-meta">${plural(active.length, "story")} with new reporting ${P.since} · ${plural(day.stats.reports ?? day.stats.reports_today, "attributed report")}
-      · ${plural(day.stats.sources, "source")} · updated ${fmtTime(day.generated)}</p>`;
-  } else {
-    h += `<p class="page-meta">Updated ${fmtTime(day.generated)}</p>`;
-  }
+  const newForYou = day.stories.filter(isNewForYou).length;
+  const meta = first ? `${plural(day.stories.filter(fresh).length, "story")} with new reporting ${P.since} · ${plural(day.stats.reports ?? day.stats.reports_today, "attributed report")}
+      · ${plural(day.stats.sources, "source")} · updated ${fmtTime(day.generated)}` : `Updated ${fmtTime(day.generated)}`;
+  h += `<div class="pagebar"><p class="page-meta">${meta}${newForYou ? ` · <span class="fresh-n">${plural(newForYou, "story")} new since your last visit</span>` : ""}</p>
+    <div class="viewswitch" role="group" aria-label="Show stories as">
+      <button type="button" data-view="cards" aria-pressed="${!S.compact}" title="Cards">${icon("cards", "ic-s")}Cards</button>
+      <button type="button" data-view="list" aria-pressed="${S.compact}" title="Compact list">${icon("list", "ic-s")}List</button></div></div>`;
 
   const blocks = page.show.map((b) => renderBlock(day, P, b)).filter(Boolean);
   const jumps = blocks.filter((b) => b.label);
@@ -595,6 +724,16 @@ function reveal(el) {
 }
 
 function wire() {
+  view.querySelectorAll("[data-copy]").forEach((b) => b.addEventListener("click", () => {
+    const [s, day] = S.cards.get(b.dataset.copy) || [];
+    if (s) copyText(storyText(s, day), b);
+  }));
+  view.querySelectorAll("[data-view]").forEach((b) => b.addEventListener("click", () => {
+    S.compact = b.dataset.view === "list";
+    mem.set("sap-view", S.compact ? "list" : "cards");
+    const y = window.scrollY;
+    route().then(() => window.scrollTo(0, y));
+  }));
   view.querySelectorAll("[data-goto]").forEach((b) => b.addEventListener("click", () => {
     const t = document.getElementById(b.dataset.goto);
     if (t) { reveal(t); t.scrollIntoView({ behavior: "smooth", block: "start" }); }
@@ -652,11 +791,76 @@ async function renderSearch(day, q) {
   let h = `<p class="kicker">${esc(label.toUpperCase())} · ${esc(fmtDate(day.date).toUpperCase())}</p>
     <h1>Search: “${esc(S.q.trim())}”</h1>
     <p class="page-meta">${plural(stories.length, "story")} and ${plural(heads.length, "headline")} across every ${esc(label)} page</p>`;
-  if (stories.length) h += `<h2>Stories</h2><div class="grid">${stories.map((s) => card(s, day, true)).join("")}</div>`;
+  if (stories.length) h += `<h2>Stories</h2><div class="grid${S.compact ? " compact" : ""}">${stories.map((s) => card(s, day, true)).join("")}</div>`;
   if (heads.length) h += `<h2>Headlines</h2><div class="list">${listRows(heads.slice(0, 150))}</div>`;
-  if (!stories.length && !heads.length) h += `<p class="empty">Nothing matches. Try another word, or another day.</p>`;
+  if (!stories.length && !heads.length) h += `<p class="empty">Nothing matches on this day.</p>`;
+  h += `<h2 id="sec-past">Earlier days <span class="count">stories from the last 30 daily briefs</span></h2>
+    <div id="past"><button type="button" id="pastbtn">Search the last 30 days</button></div>`;
   view.innerHTML = h;
+  wire();
   highlight(view, q);
+  $("pastbtn").addEventListener("click", () => searchPast(day, q));
+}
+
+// Stories from the last 30 briefs, from a small index file (export.py), downloaded only when asked.
+async function searchPast(day, q) {
+  const box = $("past");
+  box.innerHTML = `<p class="muted">Loading…</p>`;
+  let idx;
+  try { idx = await getJSON(`data/${day.site}/search-index.json`); }
+  catch (e) { box.innerHTML = `<p class="muted">The search index isn't there yet: it is written by the next run of the pipeline.</p>`; return; }
+  const hits = (idx.stories || []).filter((x) => `${x.t} ${x.x || ""}`.toLowerCase().includes(q));
+  if (!hits.length) { box.innerHTML = `<p class="empty">No story in the last ${plural((idx.dates || []).length, "day")} matches.</p>`; return; }
+  const byDate = {};
+  for (const x of hits) (byDate[x.d] = byDate[x.d] || []).push(x);
+  box.innerHTML = Object.keys(byDate).sort().reverse().map((d) => `<h3 class="sub">${esc(fmtDate(d))}</h3><div class="list">${byDate[d].map((x) =>
+    `<div class="row"><span class="src">${esc(STATUS[x.s] || "")}<br>${plural(x.o || 0, "outlet")}</span><span><a href="#/${esc(day.site)}/${esc(d)}/${esc(regionPage(day, x.g) || pagesFor(day)[0].id)}">${esc(x.t)}</a>
+      ${x.x ? `<span class="small muted">${esc(x.x)}</span>` : ""}</span></div>`).join("")}</div>`).join("");
+  highlight(box, q);
+}
+
+// ── Watchlist: words you follow, kept in this browser only ────────────────
+async function renderWatch() {
+  const terms = S.watch;
+  let h = `<p class="kicker">YOURS · ${esc(dateLabel().toUpperCase())}</p><h1>Watchlist</h1>
+    <p class="page-meta">Words you follow: a country, a person, a company, a place. Stories and headlines that mention them are collected here and
+      marked on every page. Your list is kept in this browser only; nothing is sent anywhere.</p>
+    <form id="watchform" class="watchform"><input type="search" id="watchterm" placeholder="Add a word, e.g. Sahel or Nvidia" maxlength="60"
+      aria-label="Add a word to your watchlist" autocomplete="off"><button type="submit">Add</button></form>
+    <div class="chips">${terms.map((t, i) => `<span class="chip">${esc(t)} <button type="button" class="x" data-unwatch="${i}" aria-label="Remove ${esc(t)}">×</button></span>`).join("")}</div>`;
+  if (!terms.length) h += `<p class="empty">Nothing on your watchlist yet.</p>`;
+  const lower = terms.map((t) => t.toLowerCase());
+  const hit = (text) => watchHit(text).length > 0;
+  for (const site of ["geo", "cyber"]) {
+    const day = S.days[site];
+    if (!day || !terms.length) continue;
+    const stories = day.stories.filter((s) => live(s) && watchHits(s).length);
+    const byCountry = site === "geo" ? (await headlinesFor(day)) || {} : {};
+    const seen = new Set(day.stories.flatMap((s) => s.articles.map((a) => a.url))), heads = [];
+    for (const a of [...(day.lists || []).flatMap((l) => l.items), ...(day.industries || []).flatMap((i) => i.items),
+                     ...(day.commentary || []), ...Object.values(byCountry).flat()]) {
+      if (!seen.has(a.url) && hit(a.title)) { seen.add(a.url); heads.push(a); }
+    }
+    heads.sort(newestFirst);
+    const P = period(day);
+    h += `<h2>${esc(S.index.sites[site].label)} <span class="count">${plural(stories.length, "story")} and ${plural(heads.length, "other headline")} ${P.since}</span></h2>`;
+    h += stories.length ? `<div class="grid${S.compact ? " compact" : ""}">${stories.map((s) => card(s, day, true)).join("")}</div>` : `<p class="muted">No story mentions your words ${P.since}.</p>`;
+    if (heads.length) h += `<h3 class="sub">Other headlines</h3><div class="list">${listRows(heads.slice(0, 80))}</div>`;
+  }
+  view.innerHTML = h;
+  wire();
+  for (const t of lower) highlight(view, t);
+  $("watchform").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const t = $("watchterm").value.trim().slice(0, 60);
+    if (t.length >= 2 && !S.watch.some((w) => w.toLowerCase() === t.toLowerCase())) { S.watch.push(t); mem.set("sap-watch", S.watch); }
+    route();
+  });
+  view.querySelectorAll("[data-unwatch]").forEach((b) => b.addEventListener("click", () => {
+    S.watch.splice(Number(b.dataset.unwatch), 1);
+    mem.set("sap-watch", S.watch);
+    route();
+  }));
 }
 
 function renderToolkit(tk, q) {
@@ -813,12 +1017,16 @@ function mergeDays(days, from, to) {
   const stories = [...byId.values()].filter((s) => tracked.has(s.id) || s.last_updated >= from).map((s) => {
     const arts = s.articles.filter((a) => (a.added || "") >= from);
     const reps = s.reports.filter((r) => r.date >= from);
-    const outlets = new Set([...arts.map((a) => a.outlet), ...reps.flatMap((r) => r.outlets || [])]);
-    return { ...s, status: s.first_seen >= from ? "new" : s.last_updated >= from ? "updated" : "unchanged",
+    const also = s.reports.flatMap((r) => (r.also || []).filter((x) => (x.date || "") >= from));
+    const outlets = new Set([...arts.map((a) => a.outlet), ...reps.flatMap((r) => r.outlets || []), ...also.map((x) => x.outlet)]);
+    const regions = new Set(arts.map((a) => a.region).filter(Boolean));
+    return { ...s, status: s.first_seen >= from ? "new" : reps.length ? "updated" : s.last_updated >= from ? "covered" : "unchanged",
              outlets_period: outlets.size, articles_period: arts.length, single_source: outlets.size === 1,
+             reach: regions.size || s.reach || 0, regions: regions.size ? [...regions].sort() : s.regions,
              state_media_only: arts.length > 0 && arts.every((a) => a.type === "state-media") };
-  }).sort((a, b) => b.outlets_period - a.outlets_period || b.articles_period - a.articles_period || b.article_count - a.article_count);
-  const active = stories.filter(live);
+  }).sort((a, b) => (b.reach || 0) - (a.reach || 0) || b.outlets_period - a.outlets_period || b.articles_period - a.articles_period || b.article_count - a.article_count);
+  const active = stories.filter(fresh);
+  const worldwide = last.worldwide ? stories.filter((s) => live(s) && (s.reach || 0) >= 3).slice(0, 12).map((s) => s.id) : undefined;
   const bluf = active.slice(0, 5).map((s) => {
     const r = s.reports.find((r) => r.date >= from);
     if (r) return { story: s.id, title: s.title, text: r.text, kind: "report" };
@@ -876,10 +1084,18 @@ function mergeDays(days, from, to) {
     }
   }
   return { ...last, date: to, window: { days: daysBetween(from, to), start: from }, range: { from, to, files: days.length },
-           stories, top: active.slice(0, 5).map((s) => s.id), bluf, lists, industries, vulns, iocs, commentary, countries,
+           stories, top: active.slice(0, 5).map((s) => s.id), worldwide, bluf, lists, industries, vulns, iocs, commentary, countries,
            headlines: days.map((d) => d.headlines).filter(Boolean),
            stats: { sources: last.stats.sources, reports: stories.reduce((t, s) => t + s.reports.filter((r) => r.date >= from).length, 0),
-                    removed: days.reduce((t, d) => t + (d.stats.removed ?? d.stats.removed_today ?? 0), 0) } };
+                    removed: days.reduce((t, d) => t + (d.stats.removed ?? d.stats.removed_today ?? 0), 0),
+                    coverage: sumCoverage(days.map((d) => d.stats.coverage).filter(Boolean)) } };
+}
+
+function sumCoverage(list) {
+  if (!list.length) return null;
+  const out = {};
+  for (const c of list) for (const [k, v] of Object.entries(c)) if (typeof v === "number") out[k] = (out[k] || 0) + v;
+  return out;
 }
 
 // Load both sites' brief (the sidebar shows both): one date, or a range merged into one view.
@@ -990,7 +1206,7 @@ function toggleCalendar(open) {
 
 async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
-  const REFS = ["toolkit", "sources", "opencti"];                    // pages without a date
+  const REFS = ["toolkit", "sources", "opencti", "watch"];           // pages without a date of their own
   const site = ["geo", "cyber", ...REFS].includes(parts[0]) ? parts[0] : "geo";
   const seg = parts[1] || "", rng = RANGE_RE.exec(seg), dated = DATE_RE.test(seg) || !!rng;
   const page = (dated ? parts[2] : parts[1]) || "";
@@ -1015,6 +1231,8 @@ async function route() {
     S.date = info && info.dates.includes(seg) ? seg : info ? info.dates[0] : null;
   }
   await loadDays();
+  markSeen(S.days.geo);
+  markSeen(S.days.cyber);
 
   if (ref) {
     $("datenav").hidden = true;
@@ -1023,6 +1241,7 @@ async function route() {
     try {
       if (site === "toolkit") renderToolkit(await getJSON("data/toolkit.json"), q);
       else if (site === "sources") renderSources(await getJSON("data/sources.json"), q);
+      else if (site === "watch") await renderWatch();
       else await renderOpenCTI();
     } catch (e) { renderEmpty(`This page's file is missing. Run <code>python pipeline/export.py</code>.`); }
     window.scrollTo(0, 0);

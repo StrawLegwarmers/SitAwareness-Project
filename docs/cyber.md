@@ -1,6 +1,6 @@
 # Cyber
 
-Besides AI-grouped stories, the Cyber site has three collections built with plain code and no AI:
+Besides its stories, the Cyber site has three collections built with plain code and no AI:
 exploited vulnerabilities, indicators of compromise, and industry intelligence.
 
 ## Exploited vulnerabilities
@@ -75,4 +75,4 @@ geopolitical and cyber, using keyword lists in `config/cyber/industries.yaml`:
 All industries share one list of concern words (`concern:` at the top of the file) and can add their
 own (`also_concern:`). An item can belong to several industries. To add a sector, copy a block: it
 gets its own section and button on the page. Each section shows its newest 12 headlines, with the
-rest folded, plus any AI-grouped stories that match.
+rest folded, plus any stories that match.

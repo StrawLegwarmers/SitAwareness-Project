@@ -1,10 +1,12 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Opinion and analysis vs. news reporting
 #
-# Every article gets a "kind": news, opinion or analysis.
+# Every article gets a "kind": news, opinion, analysis or offtopic.
 #   - Only NEWS goes to the AI, can be quoted in a report, and counts toward "N outlets reported this".
 #   - Opinion and analysis are still collected and shown, clearly labelled, in a separate
 #     "Opinion and analysis" block. They are never restated as fact.
+#   - Off-topic items (sport, entertainment, lifestyle) are stored but never sent to the AI
+#     and never shown, so they can't become stories.
 #
 # No AI decides this. It uses the outlet's OWN labels, checked in this order (first match wins):
 #   1. the source's setting in sources.yaml     kind: opinion | analysis | news
@@ -17,6 +19,22 @@
 # Measured on a day of 8,300 articles: about 3% were opinion or analysis (docs/collection.md).
 # Add a word when you spot a mislabelled piece; matching ignores upper/lower case.
 # ─────────────────────────────────────────────────────────────────────────────
+
+# Checked first, and only on the sites listed: sections of news sites that are never relevant.
+# Deliberately left out (they also carry hard news, measured): culture, arts, travel, people, tv, autos.
+offtopic:
+  sites: [geo]
+  tags: [sport, sports, football, soccer, cricket, tennis, rugby, golf, motorsport, formula 1, boxing,
+         basketball, entertainment, celebrity, celebrities, showbiz, lifestyle, fashion, music,
+         film, movies, horoscope, horoscopes, recipes, deportes, esportes]
+  url_parts: [sport, sports, football, soccer, cricket, tennis, rugby, golf, motorsport, formula-1, f1,
+              athletics, boxing, basketball, nba, nfl, olympics, deportes, esportes, spor, sportif,
+              entertainment, celebrity, celebrities, showbiz, lifestyle, style, fashion, beauty,
+              music, film, movies, television, espectaculos, famosos, gente, farandula, wellness,
+              horoscope, horoscopes, astrology, recipes, property]
+  headline_starts: ["Match report:", "Horoscope", "Recipe:"]
+  headline_ends: []
+  headline_patterns: []
 
 opinion:
   # RSS category, the WHOLE category must match (so "Polls and public opinion" doesn't count)

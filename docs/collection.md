@@ -66,6 +66,19 @@ pieces from 19 sources). See today's labels with `python pipeline/content.py`.
 
 To treat a whole source differently, add `kind: news` (or `opinion`, `analysis`) to its line.
 
+## Off-topic sections
+
+General news sites also publish sport, entertainment, celebrity, lifestyle and property sections.
+On the Geopolitical site these are labelled **off-topic** the same way (RSS category or address
+folder: `/sport/`, `/deportes/`, `/entertainment/`, `/espectaculos/`, `/lifestyle/`…; listed under
+`offtopic:` in `content_types.yaml`) and checked first. Off-topic articles stay in the database but
+are never sent to the AI, never counted and never shown. Measured on 13,000 stored articles: 658
+off-topic, mostly sport. Folders that also carry hard news (culture, arts, travel, people, tv, autos)
+are deliberately not on the list.
+
+When the labels change, the database relabels its stored articles once, by itself (a version number
+inside the database file records which labels it has).
+
 ## The database
 
 | Table | Contents |

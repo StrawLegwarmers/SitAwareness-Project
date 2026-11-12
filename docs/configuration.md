@@ -16,11 +16,10 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 |---|---|
 | `name` | The site's name in the brief |
 | `focus`, `ignore` | What counts as a story and what to skip; passed to the AI as-is |
-| `groups` | One AI call per group per run. Geopolitical groups are regions (articles go to the group matching their source's `region`); Cyber has one group covering several sections. Order matters: groups run top to bottom, and later groups can continue stories created by earlier ones, so Global runs last |
+| `groups` | The site's sections. Geopolitical groups are regions (articles belong to the group matching their source's `region`; a new story is filed under the region it is about); Cyber has one group covering several sections. All groups are collected in one run |
 | `lists` | Plain headline lists (no AI): `section`, `name`, `days` to look back, `limit` |
 | `pages` | The sidebar. Each page has an `id`, a `name`, an `icon` and `show`: the blocks it contains, top to bottom (below) |
 | `catch_up_days` | Weekdays whose brief covers several days, for example `monday: 4` (Friday to Monday) |
-| `max_narratives` | Most new stories per group per run |
 | `expire_days` | A story with no new reporting for this many days is archived |
 | `keep_days` | Daily files older than this are removed from the website (default 365) |
 
@@ -30,6 +29,7 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 |---|---|
 | `bluf` | Bottom line up front |
 | `top` | Most reported stories |
+| `worldwide` | Stories reported by outlets in the most regions (Geopolitical) |
 | `stories` | Every story, by group |
 | `group:<id>` | One region: stories by country, other headlines per country, opinion and analysis |
 | `regions` | Every region at a glance |
@@ -39,9 +39,10 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 | `vulns` | CISA KEV additions and CVEs in the news |
 | `iocs` | New indicators of compromise |
 | `list:<section>` | One of the headline lists |
+| `quality` | Collection and checks: articles collected, events found, reports kept and removed, corroborations |
 
 **Icons**: `dashboard`, `world`, `europe`, `north-america`, `asia`, `mena`, `latin-america`, `africa`,
-`brief`, `briefcase`, `plane`, `fingerprint`, `flask`, `broadcast`, `tool`, `rss`, `link`.
+`brief`, `briefcase`, `plane`, `fingerprint`, `flask`, `broadcast`, `tool`, `rss`, `link`, `eye`, `list`.
 
 ### `geo/countries.yaml`
 
@@ -54,10 +55,17 @@ quarter). See [geography](geography.md).
 
 Country names in other languages, grouped by language. `Name*` matches any ending.
 
+### `geo/entities.yaml`
+
+Names that point to a country without naming it: `places` (cities, states), `institutions`,
+`people` (political figures, in office or not) and `companies` (by headquarters; they count half).
+Under each heading, `country id: [names]`. See [geography](geography.md#entities).
+
 ### `geo/corrections.yaml`
 
 Manual fixes applied on every run. `remove_country` takes everything about one country out of a
-story it was wrongly mixed into. See [stories](stories.md#corrections).
+story it was wrongly mixed into; `place` puts a story on the region page and countries you choose.
+See [stories](stories.md#corrections).
 
 ### `geo/toolkit.yaml`
 
@@ -72,11 +80,11 @@ A shared `concern` word list, then each industry's `topic`, `also_concern`, `exc
 
 | File | What it controls |
 |---|---|
-| `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls, `max_per_source` and `max_per_call` articles |
+| `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls; what a run collects: `max_per_source`, `max_per_run`; how groups are sent: `batch_groups` and `batch_articles` per call, `group_articles` shown per group, `max_calls` per site per run |
 | `guardrails.yaml` | The checks on every AI sentence: reporting verbs, number/name/wording checks and thresholds, banned analysis words, maximum length |
 | `prompts/narratives.md` | The instructions given to the AI |
 | `publishers.yaml` | Feeds that belong to one organisation, so they count as one outlet |
-| `content_types.yaml` | How opinion and analysis are recognised: RSS categories, address folders, headline markers, source types |
+| `content_types.yaml` | How opinion, analysis and off-topic sections (sport, entertainment) are recognised: RSS categories, address folders, headline markers, source types |
 | `feeds.yaml` | Which machine feeds to write, how many days they cover, which indicator types to include |
 
 ## Environment variables

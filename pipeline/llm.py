@@ -124,25 +124,31 @@ def _anthropic(system: str, prompt: str, schema: dict, model: str) -> dict:
 
 def _mock(system: str, prompt: str, schema: dict, model: str) -> dict:
     """
-    No AI at all: pretend. Lets you test everything else offline, for free. It makes one
-    new story and continues one existing story, and it deliberately writes some BAD reports
-    (an analysis word, an article number that doesn't exist, a wrong number) so you can watch
-    the guardrails remove them.
+    No AI at all: pretend. Lets you test everything else offline, for free. It turns every group
+    in the prompt into a story (continuing the suggested one when there is a suggestion), and in
+    the first group it deliberately writes some BAD reports (an analysis word, an article number
+    that doesn't exist, a wrong number) so you can watch the guardrails remove them.
     """
     heads = {int(n): h for n, h in re.findall(r"^\[(\d+)\] [^|]*\| ([^|\n]+)", prompt, re.M)}
-    refs = sorted(heads)
-    existing = re.findall(r"^id: (\S+)", prompt, re.M)
     out = []
-    if existing and len(refs) > 4:
-        out.append({"id": existing[0], "title": "", "articles": refs[3:5],
-                    "reports": [{"text": f"[{refs[3]}] reported: {heads[refs[3]].strip()}", "articles": [refs[3]]}]})
-    if len(refs) > 2:
-        out.append({"id": "", "title": " ".join(heads[refs[0]].split()[:6]), "articles": refs[:3], "reports": [
-            {"text": f"[{refs[0]}] reported: {heads[refs[0]].strip()}", "articles": [refs[0]]},
-            {"text": f"[{refs[1]}] reported a likely escalation.", "articles": [refs[1]]},
-            {"text": f"[{refs[1]}] reported 987654 people were affected.", "articles": [refs[1]]},
-            {"text": "[99999] reported something.", "articles": [99999]},
-        ]})
+    blocks = re.split(r"^### Group \d+", prompt, flags=re.M)[1:]
+    for b, block in enumerate(blocks):
+        cont = re.match(r" · continues: (\S+)", block)
+        refs = [int(n) for n in re.findall(r"^\[(\d+)\]", block, re.M)]
+        if not refs:
+            continue
+        item = {"id": cont.group(1) if cont else "", "title": " ".join(heads[refs[0]].split()[:6]),
+                "country": "", "articles": refs,
+                "reports": [{"text": f"[{refs[0]}] reported: {heads[refs[0]].strip()}", "articles": [refs[0]]}]}
+        if len(refs) > 1:     # a second outlet saying the same thing: should become "also reported by"
+            item["reports"].append({"text": f"[{refs[1]}] reported: {heads[refs[0]].strip()}", "articles": [refs[1]]})
+        if b == 0:
+            item["reports"] += [
+                {"text": f"[{refs[0]}] reported a likely escalation.", "articles": [refs[0]]},
+                {"text": f"[{refs[0]}] reported 987654 people were affected.", "articles": [refs[0]]},
+                {"text": "[99999] reported something.", "articles": [99999]},
+            ]
+        out.append(item)
     return {"narratives": out}
 
 

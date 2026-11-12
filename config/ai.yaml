@@ -13,5 +13,12 @@ model: gemini-3.5-flash-lite       # free tier. For better writing try gemini-3.
                                    # (anthropic example: claude-haiku-5-5)
 
 pause_seconds: 15        # wait between AI calls, to stay under free-tier rate limits
-max_per_source: 25       # newest N articles per source per run (some outlets post 150+ a day)
-max_per_call: 1000       # cap per AI call; if exceeded, every source is trimmed evenly
+
+# What each run collects. Code groups the headlines first (pipeline/cluster.py); only groups
+# reported by 2+ outlets, or continuing a tracked story, go to the AI, about 40 per call.
+max_per_source: 60       # newest N articles per source per run (some outlets post 150+ a day)
+max_per_run: 4000        # all articles per run; if exceeded, every source is trimmed evenly
+batch_groups: 40         # groups per AI call
+batch_articles: 300      # articles per AI call (each group shows at most group_articles)
+group_articles: 10       # articles of one group the AI sees; the rest are added by code if they match
+max_calls: 8             # AI calls per site per run. Groups that don't fit wait for the next run.

@@ -43,7 +43,7 @@ source" forms (`.github/ISSUE_TEMPLATE/`), only for the owner and collaborators.
 
 | Service | What to watch |
 |---|---|
-| AI (Gemini free tier) | Requests per minute and per day, and tokens per minute, per Google Cloud project; daily quotas reset at midnight Pacific time. One run makes one call per group (8 calls), paused 15 seconds apart. Check current quotas in Google AI Studio |
+| AI (Gemini free tier) | Requests per minute and per day, and tokens per minute, per Google Cloud project; daily quotas reset at midnight Pacific time. One run makes up to `max_calls` calls per site (8 by default; usually fewer for Cyber), paused 15 seconds apart. Check current quotas in Google AI Studio |
 | GitHub Actions | Free for public repositories. A run takes about 10 to 15 minutes |
 | GitHub Pages | Published sites up to about 1 GB. Daily files are kept for 12 months (`keep_days`), which stays well under it |
 | Feeds | Some outlets block or rate-limit automated readers; see the Sources page |
@@ -77,7 +77,9 @@ secret.
 |---|---|
 | The workflow fails at "Group stories" with "GEMINI_API_KEY is not set" | The secret is missing or misnamed |
 | Many reports removed in the audit | Normal on busy days; read `python pipeline/narratives.py --audit` to see why |
-| A group failed with a rate-limit error | The free-tier quota was reached; its articles are retried on the next run |
+| An AI call failed with a rate-limit error | The free-tier quota was reached; its articles are retried on the next run. Lower `max_calls` in `ai.yaml` if it keeps happening |
+| A story is on the wrong region page | Run `python pipeline/countries.py --stories` to see which rule placed it; add the missing name to `entities.yaml`, or fix that story with `place:` in `corrections.yaml` |
+| Unrelated articles in one story, or one event split in two | Run `python pipeline/cluster.py --site geo` to see the code's groups; use `remove_country` in `corrections.yaml` for a mixed story |
 | A source shows Failing | Check its error on the Sources page; disable it or replace its address |
 | `git pull` refuses: "local changes would be overwritten" | Test output in `state/`: run `git restore state`, then pull |
 | A YAML error stops the run | The message names the file and line; usually indentation or a missing quote |

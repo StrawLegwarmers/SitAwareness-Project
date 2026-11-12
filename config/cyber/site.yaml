@@ -35,11 +35,12 @@ lists:
 #   stories     every story, by group         commentary   Opinion and analysis pieces
 #   industries  industry sections (industries.yaml)
 #   vulns       CISA KEV and CVEs in the news iocs         new indicators of compromise
+#   quality     collection and checks: articles collected, events found, reports kept and removed
 #   list:<section>  one of the headline lists above
 # "icon" is the picture in the sidebar (names: see config/geo/site.yaml).
 # Add, remove or reorder pages freely; ids may only use a-z, 0-9 and "-".
 pages:
-  - {id: brief,    name: Brief,                    icon: brief,       show: [bluf, top, stories, commentary]}
+  - {id: brief,    name: Brief,                    icon: brief,       show: [bluf, top, stories, commentary, quality]}
   - {id: industry, name: Industry intelligence,    icon: briefcase,   show: [industries, list:aviation]}
   - {id: threats,  name: IOCs and vulnerabilities, icon: fingerprint, show: [vulns, iocs, list:advisories]}
   - {id: vendor,   name: Vendor intelligence,      icon: flask,       show: [list:intel]}
@@ -56,5 +57,4 @@ catch_up_days:
 # Git keeps every old version in its history, so they can always be recovered.
 keep_days: 365
 
-max_narratives: 15
 expire_days: 6

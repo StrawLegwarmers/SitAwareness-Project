@@ -4,23 +4,27 @@ An open-source collection tool for geopolitical and cyber threat analysts. Every
 about 330 public RSS feeds, groups the articles into running **stories**, and publishes a daily brief
 as a static website, plus feeds that threat-intelligence platforms such as OpenCTI can ingest.
 
-It reports what outlets **reported**, nothing more. An AI model only groups articles and restates
-single reported facts with a citation; code checks every sentence against the article it cites and
-removes what doesn't match. Opinion and analysis pieces are labelled and kept apart from reporting.
-Rankings are counted (number of outlets), never judged.
+It reports what outlets **reported**, nothing more. Code groups the headlines that report the same
+event; an AI model only checks each group and restates single reported facts with a citation; code
+checks every sentence against the article it cites, removes what doesn't match, and dates it by its
+source's publication. A late outlet repeating known facts is shown as corroboration, not news.
+Opinion and analysis pieces are labelled and kept apart from reporting. Rankings are counted
+(regions and outlets reporting a story), never judged.
 
 ## What you get
 
 - **Geopolitical**: an overview (bottom line up front, most reported stories, countries in the news)
-  and one page per region: Global, Europe, North America, Asia & Pacific, Middle East & North Africa,
-  Latin America & Caribbean, Africa. Stories are filed by the countries they are about, with
-  analyst-set country tiers and activity hotspots.
+  and one page per region: Global (the stories reported worldwide), Europe, North America, Asia &
+  Pacific, Middle East & North Africa, Latin America & Caribbean, Africa. Stories are filed by the
+  countries they are about, with analyst-set country tiers and activity hotspots.
 - **Cyber**: the daily brief, industry intelligence for ten sectors, exploited vulnerabilities
   (CISA KEV and CVEs in the news), indicators of compromise from vendor research, vendor research
   and cyber news headlines.
 - **Reference**: an OSINT toolkit, the health of every source (with add and change requests from the
   browser), and instructions for connecting OpenCTI.
-- **Any period**: pick one day, or combine up to 14 days into a single view.
+- **Any period**: pick one day, or combine up to 14 days into a single view; search the last 30 days.
+- **Yours**: a watchlist of words you follow and "new since your last visit" markers, kept in your
+  browser only; a compact list view; copy any story with its sources.
 - **Machine feeds**: RSS of stories, CSV of indicators and vulnerabilities, and a STIX 2.1 bundle.
 
 ## How it works
@@ -29,8 +33,9 @@ Rankings are counted (number of outlets), never judged.
  config/*.yaml          pipeline/ (Python, runs daily on GitHub Actions)              site/ (GitHub Pages)
 ┌──────────────┐   ┌──────────┐   ┌──────────┐   ┌────────────┐   ┌──────────┐   ┌──────────────────┐
 │ sources,     │──▶│  fetch   │──▶│  store   │──▶│ narratives │──▶│  export  │──▶│ website + feeds  │
-│ countries,   │   │ RSS, tag │   │ SQLite,  │   │ AI groups, │   │ daily    │   │ static HTML + JS │
-│ industries   │   │ opinion  │   │ dedupe   │   │ code checks│   │ JSON,RSS │   │ reads the JSON   │
+│ countries,   │   │ RSS, tag │   │ SQLite,  │   │code groups,│   │ daily    │   │ static HTML + JS │
+│ industries   │   │ opinion  │   │ dedupe   │   │AI restates,│   │ JSON,RSS │   │ reads the JSON   │
+│              │   │          │   │          │   │code checks │   │          │   │                  │
 └──────────────┘   └──────────┘   └──────────┘   └────────────┘   └──────────┘   └──────────────────┘
 ```
 
