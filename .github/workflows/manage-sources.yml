@@ -18,9 +18,7 @@ on:
   issues:
     types: [opened, edited]
 
-permissions:
-  contents: write     # commit the change
-  issues: write       # reply on the issue and close it
+permissions: {}
 
 concurrency:
   group: manage-sources
@@ -33,6 +31,9 @@ jobs:
       (startsWith(github.event.issue.title, 'Add source') || startsWith(github.event.issue.title, 'Change source'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write
+      issues: write
     steps:
       - name: Get the repo
         uses: actions/checkout@v7
