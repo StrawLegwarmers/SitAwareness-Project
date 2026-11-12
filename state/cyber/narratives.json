@@ -1,7 +1,7 @@
 {
  "archived": [],
  "last_run": {
-  "all": "2026-11-11T15:04:38+00:00"
+  "all": "2026-11-12T08:39:38+00:00"
  },
  "narratives": [
   {
@@ -520,12 +520,12 @@
      "url": "https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "russian-turla-group-targets-government-exchange",
    "last_updated": "2026-11-11",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -594,9 +594,9 @@
      "text": "[CyberScoop](https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/) reported that ESET published research on Turla's Cereal tools targeting Microsoft Exchange servers in the Kazakhstan and Romanian governments without obvious indicators of compromise."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Russian Turla group targets government Exchange servers"
   },
   {
@@ -637,12 +637,12 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "qubole-supply-chain-attack-compromises-customer",
    "last_updated": "2026-11-11",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -678,14 +678,26 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html) reported that an attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Qubole supply chain attack compromises customer data"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "be665c487b5b9283",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-11T18:29:01+00:00",
+     "publisher": "Malwarebytes Labs",
+     "section": "intel",
+     "title": "Vanderbilt restores systems after cyberattack as hackers claim data theft",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft"
+    },
     {
      "added": "2026-11-11",
      "id": "ea3d1f1c47de8c09",
@@ -747,9 +759,20 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "vanderbilt-university-ransomware-attack",
-   "last_updated": "2026-11-11",
+   "last_updated": "2026-11-12",
    "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "be665c487b5b9283"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Malwarebytes Labs"
+     ],
+     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft) reported that Vanderbilt University is restoring campus technology but has not confirmed attackers' claims of stolen student and employee data."
+    },
     {
      "articles": [
       "ea3d1f1c47de8c09"
@@ -926,12 +949,12 @@
      "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "france-blames-iran-for-refrigeration-sabotage",
    "last_updated": "2026-11-11",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1011,9 +1034,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html) reported that U.S. government agencies warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "France blames Iran for refrigeration sabotage attacks"
   },
   {
@@ -1111,8 +1134,32 @@
    "title": "Google patches actively exploited Chrome zero-day vulnerability"
   },
   {
-   "article_count": 5,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "b8504b9aeab4d3ee",
+     "lang": "en",
+     "outlet": "Dark Reading",
+     "published": "2026-11-11T20:05:18+00:00",
+     "publisher": "Dark Reading",
+     "section": "news",
+     "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+     "type": null,
+     "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "cc5a91b10bacd5b1",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-11T17:15:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "section": "news",
+     "title": "N-able Rushes Out N-central Fixes After 33 Zero-Days Go Public",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/n-able-n-central-able2shell-0day/"
+    },
     {
      "added": "2026-11-11",
      "id": "fcecc764ab738cfc",
@@ -1175,9 +1222,31 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "n-able-takes-n-central-offline",
-   "last_updated": "2026-11-11",
+   "last_updated": "2026-11-12",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "b8504b9aeab4d3ee"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Dark Reading"
+     ],
+     "text": "[Dark Reading](https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws) reported that N-able took its N-central platform offline after the discovery of 33 flaws and released a hotfix."
+    },
+    {
+     "articles": [
+      "cc5a91b10bacd5b1"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine"
+     ],
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/n-able-n-central-able2shell-0day/) reported that N-able fixed seven N-central CVEs after 33 alleged zero-days were published."
+    },
     {
      "articles": [
       "fcecc764ab738cfc"
@@ -1621,12 +1690,12 @@
      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-11",
    "group": "all",
    "id": "railway-ai-customer-keys-breach",
    "last_updated": "2026-11-11",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1653,7 +1722,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Railway AI customer keys breach"
   },
   {
@@ -1708,12 +1777,12 @@
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVgza0ZJaU9aY0tKT0VncHNXbVVPbTVZMnpGWXhIRFVVWkhVNXdXQmcxbDJGcVdMLUtIYjhQb2Z1YldGZ3c5LWNNSlB3S2xKQ0pVa0hVLWJ1WUhkUi1iTXczcGUtUVJ3SzBLNUhfX2huX1RzUWFFQ1lwOVZDUWZuMTRkR0ZpUUsx?oc=5"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-11",
    "group": "all",
    "id": "asian-airline-and-bank-supplier-data",
    "last_updated": "2026-11-11",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1762,10 +1831,378 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Asian airline and bank supplier data breaches"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "a49e09a3369b6bab",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-12T08:15:03+00:00",
+     "publisher": "Cybersecurity News",
+     "section": "news",
+     "title": "Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware",
+     "type": null,
+     "url": "https://cybersecuritynews.com/github-accounts/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "14cd9621e81aa9c8",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-12T06:42:47+00:00",
+     "publisher": "The Hacker News",
+     "section": "news",
+     "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "3d9f8ed685e9f389",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-12T04:39:48+00:00",
+     "publisher": "The Hacker News",
+     "section": "news",
+     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "d62efe820204c801",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-11T22:56:21+00:00",
+     "publisher": "BleepingComputer",
+     "section": "news",
+     "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "0ea4a4c2863461bd",
+     "lang": "en",
+     "outlet": "Sophos X-Ops",
+     "published": "2026-11-11T00:00:00+00:00",
+     "publisher": "Sophos X-Ops",
+     "section": "intel",
+     "title": "Malicious ScreenConnect deployments observed",
+     "type": null,
+     "url": "https://www.sophos.com/en-us/blog/malicious-screenconnect-deployments-observed"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "github-and-screenconnect-cyberattacks",
+   "last_updated": "2026-11-12",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "a49e09a3369b6bab"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/github-accounts/) reported that a threat actor used stolen GitHub credentials to push a secret-stealing payload into tens of thousands of code repositories."
+    },
+    {
+     "articles": [
+      "14cd9621e81aa9c8"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html) reported that an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to."
+    },
+    {
+     "articles": [
+      "3d9f8ed685e9f389"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html) reported that ConnectWise disabled five third-party extensions in partner environments following reports of unauthorized access and ScreenConnect attacks targeting at least 288 endpoints across 48 organizations."
+    },
+    {
+     "articles": [
+      "d62efe820204c801"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/) reported that ConnectWise is investigating an active malware campaign targeting managed service providers that uses compromised ScreenConnect environments to deploy rogue clients."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "GitHub and ScreenConnect cyberattacks"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "26e1904512fa2efe",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-12T08:09:33+00:00",
+     "publisher": "Cybersecurity News",
+     "section": "news",
+     "title": "Palo Alto PAN-OS RCE Flaw Allows Attackers to Execute Arbitrary Code With Root Privileges",
+     "type": null,
+     "url": "https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "03ed25e6ec9126d9",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-12T05:17:09+00:00",
+     "publisher": "Cybersecurity News",
+     "section": "news",
+     "title": "Apache Patches Critical HTTP/2 Flaw Allowing Remote Code Execution on Web Servers",
+     "type": null,
+     "url": "https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "9dde62a7df736e61",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-12T05:12:26+00:00",
+     "publisher": "The Hacker News",
+     "section": "news",
+     "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "apache-http-2-and-palo-alto",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "26e1904512fa2efe"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/palo-alto-networks-pan-os-rce-vulnerability/) reported that Palo Alto Networks disclosed a remote code execution vulnerability in PAN-OS software running on Panorama, tracked as CVE-2026-0330."
+    },
+    {
+     "articles": [
+      "03ed25e6ec9126d9"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "4d4aa4e776efc62b",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-11T21:31:32+00:00",
+     "publisher": "Security Affairs",
+     "section": "news",
+     "title": "AI Pentest Tool AntiFox Abused To Steal AWS Credentials",
+     "type": null,
+     "url": "https://securityaffairs.com/202880/hacking/ai-pentest-tool-antifox-abused-to-steal-aws-credentials.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "607fb499e7898fef",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-11T15:34:27+00:00",
+     "publisher": "The Hacker News",
+     "section": "news",
+     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "2ea6eaf0516ecde7",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-11T15:12:59+00:00",
+     "publisher": "BleepingComputer",
+     "section": "news",
+     "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "antifox-ai-penetration-testing-platform-attacks",
+   "last_updated": "2026-11-12",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "4d4aa4e776efc62b"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "text": "[Security Affairs](https://securityaffairs.com/202880/hacking/ai-pentest-tool-antifox-abused-to-steal-aws-credentials.html) reported that Arctic Wolf saw attackers use the AntiFox pentest platform to hit IIS servers and AWS accounts."
+    },
+    {
+     "articles": [
+      "607fb499e7898fef"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html) reported that researchers disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal AWS production secrets."
+    },
+    {
+     "articles": [
+      "2ea6eaf0516ecde7"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/) reported that attackers are using Alibaba Cloud to host self-managed instances of AntiFox to target web services and AWS."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "AntiFox AI penetration testing platform attacks"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "3c16f9264d207302",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-11T23:01:31+00:00",
+     "publisher": "BleepingComputer",
+     "section": "news",
+     "title": "Baker Tilly notifies clients of data breach at third-party provider",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "246b484cb5d56b70",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-11T20:47:36+00:00",
+     "publisher": "Security Affairs",
+     "section": "news",
+     "title": "WhiteArmor Demands $5 Million from Maersk, Claims Theft of 100GB of Data",
+     "type": null,
+     "url": "https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "ec52fb6e5e862189",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-11T16:24:18+00:00",
+     "publisher": "BleepingComputer",
+     "section": "news",
+     "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "maersk-and-baker-tilly-data-breaches",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3c16f9264d207302"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/) reported that the Baker Tilly Advisory Group is notifying clients of a data breach compromising personal information."
+    },
+    {
+     "articles": [
+      "246b484cb5d56b70"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "text": "[Security Affairs](https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html) reported that Maersk confirmed a data breach involving a legacy system, while WhiteArmor claimed 100GB of stolen data and demanded a $5 million ransom."
+    },
+    {
+     "articles": [
+      "ec52fb6e5e862189"
+     ],
+     "date": "2026-11-12",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/) reported that Maersk announced unauthorized access to a local legacy system inherited through an earlier acquisition."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Maersk and Baker Tilly data breaches"
   }
  ],
  "site": "cyber",
- "updated": "2026-11-11T15:04:48+00:00"
+ "updated": "2026-11-12T08:39:42+00:00"
 }

@@ -5,5 +5,26 @@
   "story": "Pro-Russian hackers leak European officials' personal data",
   "text": "[16] reported that Italian Prime Minister Giorgia Meloni blamed pro-Russian hackers for the leak of the foreign minister's data on the dark web.",
   "reason": "names not in cited articles: Giorgia"
+ },
+ {
+  "date": "2026-11-12",
+  "group": "all",
+  "story": "Apache HTTP/2 and Palo Alto vulnerabilities",
+  "text": "[20] reported that an unauthenticated remote code execution flaw in Apache HTTP Server's HTTP/2 module affects versions 2.4.17 through 2.4.65.",
+  "reason": "number not in cited articles: 2.4.17, 2.4.65"
+ },
+ {
+  "date": "2026-11-12",
+  "group": "all",
+  "story": "Notion and Fireworks AI data breach",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-12",
+  "group": "all",
+  "story": "N-able takes N-central offline following zero-day disclosures",
+  "text": "N-able N-central zero-day vulnerabilities",
+  "reason": "duplicate story merged into an existing one"
  }
 ]
