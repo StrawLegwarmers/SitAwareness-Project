@@ -1,13 +1,30 @@
 {
  "archived": [],
+ "coverage": [
+  {
+   "articles": 1285,
+   "attached_by_code": 0,
+   "calls": 2,
+   "candidates": 77,
+   "continuing": 44,
+   "corroborated": 0,
+   "date": "2026-11-12",
+   "failed_calls": 1,
+   "groups": 1190,
+   "in_stories": 104,
+   "kept": 63,
+   "merged": 3,
+   "new": 25,
+   "rejected": 6,
+   "reported_by_2": 44,
+   "runs": 1,
+   "sent": 77,
+   "updated": 6,
+   "waiting": 0
+  }
+ ],
  "last_run": {
-  "africa": "2026-11-12T08:39:42+00:00",
-  "asia": "2026-11-12T08:39:42+00:00",
-  "europe": "2026-11-12T08:39:42+00:00",
-  "global": "2026-11-12T08:39:42+00:00",
-  "latam": "2026-11-12T08:39:42+00:00",
-  "mena": "2026-11-12T08:39:42+00:00",
-  "namerica": "2026-11-12T08:39:42+00:00"
+  "all": "2026-11-12T10:37:40+00:00"
  },
  "narratives": [
   {
@@ -1222,8 +1239,190 @@
    "title": "Poland: Krakow Mass Shooter Dies in Hospital Amid Terrorism Probe"
   },
   {
-   "article_count": 293,
+   "article_count": 309,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "68ee0791db456b8a",
+     "lang": "en",
+     "outlet": "Daily Maverick",
+     "published": "2026-11-12T10:36:45+00:00",
+     "publisher": "Daily Maverick",
+     "region": "africa",
+     "section": null,
+     "title": "US envoys arrive in Moscow for latest round of Ukrainian peace talks with Putin",
+     "type": "local",
+     "url": "https://www.dailymaverick.co.za/article/2026-11-12-us-envoys-arrive-in-moscow-for-latest-round-of-ukrainian-peace-talks-with-putin/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "bd4d7e24708f8603",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-12T10:15:24+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "Russia's Vladimir Putin to meet US envoys Kushner, Witkoff in Moscow for Ukraine peace talks",
+     "type": "local",
+     "url": "https://www.jpost.com/international/internationalrussia-ukraine-war/article-914670"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "1273a5b5ad278916",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-12T10:14:34+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Rusija krivi Bajdena za rat, tvrde da nije odgovorio na Putinovo pismo",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/globus/1087349/rusija-krivi-bajdena-za-rat-tvrde-da-nije-odgovorio-na-putinovo-pismo"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "3b527298451c4bcc",
+     "lang": "en",
+     "outlet": "BBC World",
+     "published": "2026-11-12T10:08:38+00:00",
+     "publisher": "BBC",
+     "region": "global",
+     "section": null,
+     "title": "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "f0344b2a8d9b9f71",
+     "lang": "en",
+     "outlet": "Daily Sabah",
+     "published": "2026-11-12T10:04:00+00:00",
+     "publisher": "Daily Sabah",
+     "region": "mena",
+     "section": null,
+     "title": "Russia, Ukraine trade strikes as US envoys land in Moscow",
+     "type": "local",
+     "url": "https://www.dailysabah.com/world/europe/russia-ukraine-trade-strikes-as-us-envoys-land-in-moscow"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "08645bbb0d0743f2",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-12T09:55:55+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Video / Vitkof i Kušner stigli u Moskvu, sastaju se s Putinom",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/globus/1087346/video-vitkof-i-kusner-stigli-u-moskvu-sastaju-se-s-putinom"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "38ab5023ff8f5308",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-12T09:50:33+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Merz Could Speak With Putin After Abu Dhabi Peace Talks",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/89887"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "7b49ebed69d1f506",
+     "lang": "en",
+     "outlet": "The Moscow Times",
+     "published": "2026-11-12T09:48:06+00:00",
+     "publisher": "The Moscow Times",
+     "region": "europe",
+     "section": null,
+     "title": "U.S. Envoys Arrive in Moscow for Latest Round of Talks With Putin",
+     "type": "local",
+     "url": "https://www.themoscowtimes.com/2026/11/12/us-envoys-arrive-in-moscow-for-latest-round-of-talks-with-putin-a94236"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "c5e2a516650c1265",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-12T09:42:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Detalji pregovora u Abu Dhabiju: Rusija za rat u Ukrajini okrivila Bidena, tvrde da im nije odgovorio na pismo",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/svijet/detalji-pregovora-u-abu-dhabiju-rusija-za-rat-u-ukrajini-okrivila-bidena-tvrde-da-im-nije-odgovorio-na-pismo/261112055"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "f3d9346ba935da1e",
+     "lang": "en",
+     "outlet": "NPR World",
+     "published": "2026-11-12T09:38:46+00:00",
+     "publisher": "NPR World",
+     "region": "namerica",
+     "section": null,
+     "title": "U.S. officials set to meet with Putin, Zelenskyy following Abu Dhabi peace talks",
+     "type": "international",
+     "url": "https://www.npr.org/2026/11/12/nx-s1-6037558/u-s-officials-set-to-meet-with-putin-zelenskyy-following-abu-dhabi-peace-talks"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "1df7c7a25ea8a700",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-12T09:20:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Steve Witkoff i Jared Kushner stigli u Moskvu, održat će sastanak s Vladimirom Putinom",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/svijet/steve-witkoff-i-jared-kushner-stigli-u-moskvu-odrzat-ce-sastanak-s-vladimirom-putinom/261112087"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "fed2b8cb2c0906c2",
+     "lang": "sr",
+     "outlet": "Blic",
+     "published": "2026-11-12T09:11:24+00:00",
+     "publisher": "Blic",
+     "region": "europe",
+     "section": null,
+     "title": "Vitkof i Kušner stigli u Moskvu: Čeka ih sastanak sa Putinom",
+     "type": "local",
+     "url": "https://www.blic.rs/vesti/svet/vitkof-i-kusner-stigli-u-moskvu-ceka-ih-sastanak-sa-putinom/1438qts"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "4f0b0ae01c21281f",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-12T09:01:24+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "US envoys arrive in Moscow for Russia-Ukraine talks with Putin",
+     "type": "international",
+     "url": "https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "5142401e40790185",
+     "lang": "en",
+     "outlet": "Euronews",
+     "published": "2026-11-12T08:57:09+00:00",
+     "publisher": "Euronews",
+     "region": "europe",
+     "section": null,
+     "title": "Witkoff and Kushner arrive in Moscow seeking Putin's 'blessing' to bring Europe into Ukraine peace talks",
+     "type": "international",
+     "url": "https://www.euronews.com/2026/11/12/witkoff-and-kushner-arrive-in-moscow-seeking-putins-blessing-to-bring-europe-into-ukraine-"
+    },
     {
      "added": "2026-11-12",
      "id": "b393e0ca96863747",
@@ -1235,6 +1434,19 @@
      "title": "وصول المبعوثين الأمريكيين ويتكوف و كوشنر إلى روسيا للقاء الرئيس بوتين",
      "type": "local",
      "url": "https://www.elbalad.news/7177706"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "1d7058169891707c",
+     "lang": "en",
+     "outlet": "Egypt Independent",
+     "published": "2026-11-12T08:35:13+00:00",
+     "publisher": "Egypt Independent",
+     "region": "mena",
+     "section": null,
+     "title": "Witkoff and Kushner arrive in Moscow for Ukraine talks with Putin",
+     "type": "local",
+     "url": "https://www.egyptindependent.com/witkoff-and-kushner-arrive-in-moscow-for-ukraine-talks-with-putin/"
     },
     {
      "added": "2026-11-12",
@@ -1355,6 +1567,19 @@
      "title": "Rusia dhe Ukraina shkëmbejnë sulme derisa të dërguarit amerikanë mbërrijnë në Moskë",
      "type": "local",
      "url": "https://www.koha.net/bote/rusia-dhe-ukraina-shkembejne-sulme-teksa-te-derguarit-amerikane-mberrijne-ne-moske"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "8ae9c068f5d6ffce",
+     "lang": "en",
+     "outlet": "RTÉ",
+     "published": "2026-11-12T07:23:52+00:00",
+     "publisher": "RTÉ",
+     "region": "europe",
+     "section": null,
+     "title": "US envoys arrive at Kremlin for talks with Putin",
+     "type": "local",
+     "url": "https://www.rte.ie/news/ukraine/2026/1112/1598908-ukraine-russia/"
     },
     {
      "added": "2026-11-12",
@@ -1511,207 +1736,88 @@
      "title": "Zelensky Rules Out Donbas Concessions as Trump Envoys Arrive in Moscow for Putin Talks",
      "type": "local",
      "url": "https://www.kyivpost.com/post/89851"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "1d8785e769c7da97",
-     "lang": "es",
-     "outlet": "El Tiempo",
-     "published": "2026-11-11T23:10:14+00:00",
-     "publisher": "El Tiempo",
-     "section": null,
-     "title": "Ucrania y Rusia acuerdan un canje de prisioneros 'a gran escala' y continuar con diálogos de paz: enviados estadounidenses viajan a Moscú",
-     "type": "local",
-     "url": "https://www.eltiempo.com/mundo/europa/ucrania-y-rusia-acuerdan-un-canje-de-prisioneros-a-gran-escala-y-continuar-con-dialogos-de-paz-enviados-estadounidenses-viajan-a-moscu-3600332"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "2dd79476682ed6ff",
-     "lang": "en",
-     "outlet": "The Independent World",
-     "published": "2026-11-11T22:40:18+00:00",
-     "publisher": "The Independent World",
-     "section": null,
-     "title": "Russia and Ukraine agree to biggest prisoner swap yet at Abu Dhabi peace summit",
-     "type": "international",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-prisoner-swap-trump-envoy-kushner-witkoff-b3083499.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "eb3f0dde897aba0d",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-11T21:46:12+00:00",
-     "publisher": "France 24",
-     "section": null,
-     "title": "Russia and Ukraine agree to major prisoner swap as peace talks end",
-     "type": "international",
-     "url": "https://www.france24.com/en/europe/20261111-russia-and-ukraine-agree-to-major-prisoner-swap-as-peace-talks-end"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "7a1e261447527986",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-11T21:07:39+00:00",
-     "publisher": "Le Figaro",
-     "section": null,
-     "title": "Guerre en Ukraine: les émissaires américains vont rencontrer Poutine en Russie, puis Zelensky en Irlande",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-les-emissaires-americains-vont-rencontrer-poutine-en-russie-puis-zelensky-en-irlande-20261111"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "27042ac841b204c1",
-     "lang": "pt",
-     "outlet": "Folha de S.Paulo",
-     "published": "2026-11-11T20:34:00+00:00",
-     "publisher": "Folha de S.Paulo",
-     "section": null,
-     "title": "Rússia e Ucrânia deixam negociação em Abu Dhabi sem grandes avanços",
-     "type": "local",
-     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/russia-e-ucrania-deixam-negociacao-em-abu-dhabi-sem-grandes-avancos.shtml"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "3293b3a8054b80e1",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-11T19:57:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "section": null,
-     "title": "Zelenskyy: Americans are trying to find \"modifications\" to Donbas proposals to end war",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062413/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "decbfa87e43459fc",
-     "lang": "en",
-     "outlet": "teleSUR English",
-     "published": "2026-11-11T19:16:27+00:00",
-     "publisher": "teleSUR English",
-     "section": null,
-     "title": "Russia and Ukraine Move Toward a Prisoner Exchange Following Negotiations in Abu Dhabi",
-     "type": "state-media",
-     "url": "https://www.telesurenglish.net/russia-and-ukraine-move-toward-a-prisoner-exchange-following-negotiations-in-abu-dhabi/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "f99153aa2754bb8f",
-     "lang": "en",
-     "outlet": "BBC World",
-     "published": "2026-11-11T18:04:58+00:00",
-     "publisher": "BBC",
-     "section": null,
-     "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-     "type": "international",
-     "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "f0de1c6aa28be531",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-11T17:59:44+00:00",
-     "publisher": "Le Figaro",
-     "section": null,
-     "title": "Guerre en Ukraine : les négociations d’Abu Dhabi mises en échec par l’intransigeance russe",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-les-negociations-d-abu-dhabi-mises-en-echec-par-l-intransigeance-russe-20261111"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "8671cde1f37a4286",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-11T17:41:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "section": null,
-     "title": "Kremlin says Putin will meet Witkoff and Kushner on 12 November",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/11/8062401/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "1406d63ac2800794",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-11T17:03:43+00:00",
-     "publisher": "The Guardian",
-     "section": null,
-     "title": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
-     "type": "international",
-     "url": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "8be5c0aadcd0c1f1",
-     "lang": "en",
-     "outlet": "RT",
-     "published": "2026-11-11T15:42:00+00:00",
-     "publisher": "RT",
-     "section": null,
-     "title": "Prisoner swap, security, and the sidelines: What came out of the Abu Dhabi talks?",
-     "type": "state-media",
-     "url": "https://rt-english.com/russia/648714-russia-ukraine-us-talks-recap/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "732659ce645b2100",
-     "lang": "en",
-     "outlet": "RT",
-     "published": "2026-11-11T15:12:20+00:00",
-     "publisher": "RT",
-     "section": null,
-     "title": "Witkoff and Kushner arrive in Moscow for Ukraine talks with Putin (VIDEO)",
-     "type": "state-media",
-     "url": "https://rt-english.com/news/648705-us-envoys-moscow-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "48ac7808a9ed9bee",
-     "lang": "en",
-     "outlet": "Yeni Şafak (English)",
-     "published": "2026-11-11T14:57:05+00:00",
-     "publisher": "Yeni Şafak (English)",
-     "section": null,
-     "title": "Trump envoys to meet Putin in Moscow for prisoner swap talks",
-     "type": "local",
-     "url": "http://en.yenisafak.com/world/trump-envoys-to-meet-putin-in-moscow-for-prisoner-swap-talks-3725459"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "d53282712f92c61b",
-     "lang": "pl",
-     "outlet": "Gazeta Wyborcza",
-     "published": "2026-11-11T14:56:00+00:00",
-     "publisher": "Gazeta Wyborcza",
-     "section": null,
-     "title": "Rozmowy w Abu Zabi bez przełomu. Spór o terytoria i gwarancje bezpieczeństwa nierozstrzygnięty",
-     "type": "local",
-     "url": "https://wyborcza.pl/7,75399,33127808,rozmowy-w-abu-zabi-bez-przelomu-spor-o-terytoria-i-gwarancje.html"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "11d65a423da484ca",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-11T14:54:36+00:00",
-     "publisher": "Kyiv Independent",
-     "section": null,
-     "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
-     "type": "local",
-     "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/"
     }
    ],
-   "articles_today": 39,
+   "articles_today": 40,
    "first_seen": "2026-11-09",
    "group": "europe",
    "id": "trilateral-peace-talks-and-energy-infrastructure",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 30,
+   "outlets_today": 35,
    "reports": [
+    {
+     "articles": [
+      "c5e2a516650c1265"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-12T09:42:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/svijet/detalji-pregovora-u-abu-dhabiju-rusija-za-rat-u-ukrajini-okrivila-bidena-tvrde-da-im-nije-odgovorio-na-pismo/261112055) reported that US envoys Jared Kushner and Steve Witkoff requested a new security agreement proposal with Europe from Russia."
+    },
+    {
+     "articles": [
+      "1273a5b5ad278916"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Dnevni Avaz"
+     ],
+     "published": "2026-11-12T10:14:34+00:00",
+     "text": "[Dnevni Avaz](https://avaz.ba/vijesti/globus/1087349/rusija-krivi-bajdena-za-rat-tvrde-da-nije-odgovorio-na-putinovo-pismo) reported that Russia blamed Biden for the war during trilateral negotiations in Abu Dhabi, claiming he did not respond to Putin's letter."
+    },
+    {
+     "articles": [
+      "5142401e40790185"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Euronews"
+     ],
+     "published": "2026-11-12T08:57:09+00:00",
+     "text": "[Euronews](https://www.euronews.com/2026/11/12/witkoff-and-kushner-arrive-in-moscow-seeking-putins-blessing-to-bring-europe-into-ukraine-) reported that Steve Witkoff is visiting Russia for the tenth time since Donald Trump's return to the White House, accompanied by Jared Kushner."
+    },
+    {
+     "articles": [
+      "4f0b0ae01c21281f"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Al Jazeera"
+     ],
+     "published": "2026-11-12T09:01:24+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/12/us-envoys-arrive-in-moscow-for-russia-ukraine-talks-with-putin?traffic_source=rss) reported that the meeting with Kushner and Witkoff follows two days of trilateral talks in the UAE that yielded no breakthrough."
+    },
+    {
+     "articles": [
+      "7b49ebed69d1f506"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "The Moscow Times"
+     ],
+     "published": "2026-11-12T09:48:06+00:00",
+     "text": "[The Moscow Times](https://www.themoscowtimes.com/2026/11/12/us-envoys-arrive-in-moscow-for-latest-round-of-talks-with-putin-a94236) reported that this week's talks were the first direct talks between Russia and Ukraine mediated by the U.S. in nine months."
+    },
+    {
+     "articles": [
+      "f0344b2a8d9b9f71"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Daily Sabah"
+     ],
+     "published": "2026-11-12T10:04:00+00:00",
+     "text": "[Daily Sabah](https://www.dailysabah.com/world/europe/russia-ukraine-trade-strikes-as-us-envoys-land-in-moscow) reported that Russia and Ukraine traded overnight strikes as the U.S. envoys arrived."
+    },
     {
      "articles": [
       "2dd79476682ed6ff"
@@ -2085,77 +2191,12 @@
       "Meduza"
      ],
      "text": "[Meduza](https://meduza.io/en/news/2026/11/11/ukraine-rejects-u-s-proposal-to-redraw-donetsk-and-luhansk-borders-the-telegraph-reports) reported that Ukraine rejected a U.S. proposal to redraw the borders of the Donetsk and Luhansk regions."
-    },
-    {
-     "articles": [
-      "a82a337cc1de0518"
-     ],
-     "date": "2026-11-11",
-     "group": "latam",
-     "outlets": [
-      "O Globo"
-     ],
-     "text": "[O Globo](https://oglobo.globo.com/mundo/noticia/2026/11/11/ucrania-e-russia-encerram-segundo-dia-de-negociacao-em-abu-dhabi-sem-anuncios-mas-com-promessa-de-novos-dialogos.ghtml) reported that representatives of the US, Russia, and Ukraine concluded a second day of negotiations in Abu Dhabi without announcements but with a promise of further dialogues."
-    },
-    {
-     "articles": [
-      "e2821db067aaeef8"
-     ],
-     "date": "2026-11-11",
-     "group": "global",
-     "outlets": [
-      "The Guardian"
-     ],
-     "text": "[The Guardian](https://www.theguardian.com/world/live/2026/nov/11/europe-ukraine-russia-us-talks-abu-dhabi-zelenskyy-latest-news-updates) reported that Ukrainian President Volodymyr Zelenskyy is happy with the approach of US envoys as trilateral talks between Ukraine, Russia, and the US enter their second day in Abu Dhabi."
-    },
-    {
-     "articles": [
-      "7bda8ce4b679a65a"
-     ],
-     "date": "2026-11-11",
-     "group": "europe",
-     "outlets": [
-      "Novaya Gazeta Europe"
-     ],
-     "text": "Novaya Gazeta Europe reported that the second day of negotiations between Russia, Ukraine, and the United States began in Abu Dhabi behind closed doors ([Novaya Gazeta Europe](https://novayagazeta.eu/articles/2026/11/11/v-abu-dabi-nachalsia-vtoroi-den-peregovorov-rossii-ukrainy-i-ssha-news))."
-    },
-    {
-     "articles": [
-      "05ef6bb1e50b8592"
-     ],
-     "date": "2026-11-11",
-     "group": "europe",
-     "outlets": [
-      "Ukrinform"
-     ],
-     "text": "Ukrinform reported that the second day of trilateral talks between Ukraine, the United States, and Russia on ending the war started in Abu Dhabi on Wednesday ([Ukrinform](https://www.ukrinform.net/rubric-polytics/4183675-second-day-of-trilateral-talks-begins-in-abu-dhabi.html))."
-    },
-    {
-     "articles": [
-      "5d8b5466c02402a5"
-     ],
-     "date": "2026-11-11",
-     "group": "europe",
-     "outlets": [
-      "Ukrinform"
-     ],
-     "text": "Ukrinform reported that Russian forces attacked energy infrastructure in the southern part of the Odesa region overnight, resulting in the death of a woman ([Ukrinform](https://www.ukrinform.net/rubric-ato/4183660-russian-strikes-hit-energy-infrastructure-in-southern-odesa-region.html))."
-    },
-    {
-     "articles": [
-      "6d2074dfdbc3b726"
-     ],
-     "date": "2026-11-11",
-     "group": "global",
-     "outlets": [
-      "France 24"
-     ],
-     "text": "[France 24](https://www.france24.com/en/europe/20261111-live-ukraine-russia-hold-second-day-of-us-mediated-talks-in-abu-dhabi) reported that Ukraine and Russia held a second day of US-mediated talks in Abu Dhabi as Washington called for a new security framework."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
+   "subject": "russia",
    "title": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks"
   },
   {
@@ -2652,28 +2693,6 @@
     },
     {
      "added": "2026-11-09",
-     "id": "122047ac11d10303",
-     "lang": "de",
-     "outlet": "BILD",
-     "published": "2026-11-09T14:29:41+00:00",
-     "section": null,
-     "title": "Er tritt gegen Le Pen an - Olympiasieger will Frankreichs neuer Präsident werden",
-     "type": "local",
-     "url": "https://www.bild.de/sport/olympia/olympiasieger-riner-will-frankreichs-neuer-praesident-werden-6af1c26ac422fb6d38f47a77"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "24912a15775acc3a",
-     "lang": "bs",
-     "outlet": "Klix",
-     "published": "2026-11-09T13:44:00+00:00",
-     "section": null,
-     "title": "Teddy Riner s tatamija kreće u politiku, želi postati predsjednik Francuske",
-     "type": "local",
-     "url": "https://www.klix.ba/sport/borilacki-sportovi/teddy-riner-s-tatamija-krece-u-politiku-zeli-postati-predsjednik-francuske/261109198"
-    },
-    {
-     "added": "2026-11-09",
      "id": "318e2e6b32206ce4",
      "lang": "fr",
      "outlet": "Le Figaro",
@@ -2720,15 +2739,6 @@
      "title": "Francia, il campione olimpico di judo Teddy Riner si candida alle presidenziali",
      "type": "local",
      "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/09/francia-il-campione-olimpico-di-judo-teddy-riner-si-candida-alle-presidenziali_f9fb683a-83b8-45e0-b006-100cce631e6a.html"
-    },
-    {
-     "id": "acedab009f773f7c",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-09T11:03:56+00:00",
-     "title": "Quintuple champion olympique de judo, Teddy Riner candidat à l’élection présidentielle",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/sports/autres-sports/quintuple-champion-olympique-de-judo-teddy-riner-candidat-a-l-election-presidentielle-20261109"
     },
     {
      "id": "1b67d1712bed84ec",
@@ -3565,8 +3575,60 @@
    "title": "Israel: Coalition Formation Talks and Political Transitions"
   },
   {
-   "article_count": 77,
+   "article_count": 82,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "fc8592bd7e29ea10",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-12T10:30:37+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Israeli airstrike kills six people at Nasser Hospital in southern Gaza",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1580370/israeli-airstrike-kills-six-people-at-nasser-hospital-in-southern-gaza/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "314a2cd44c0166e5",
+     "lang": "so",
+     "outlet": "Jowhar",
+     "published": "2026-11-12T10:20:16+00:00",
+     "publisher": "Jowhar",
+     "region": "africa",
+     "section": null,
+     "title": "Six Dead After Israeli Airstrike Hits Hospital in Gaza",
+     "type": "local",
+     "url": "https://jowhar.com/six-dead-after-israeli-airstrike-hits-hospital-in-gaza/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "5f54b54707c15029",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-12T09:21:54+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "Israeli strike on Gaza hospital kills 6, and other Mideast news",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/europe/israeli-gaza-france-hamas-benjamin-netanyahu-b3083703.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "7581203a868f07bc",
+     "lang": "en",
+     "outlet": "Middle East Monitor",
+     "published": "2026-11-12T09:20:44+00:00",
+     "publisher": "Middle East Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "6 Palestinians killed, dozens injured in Israeli strike on Nasser Medical Complex in Khan Younis",
+     "type": "regional",
+     "url": "https://www.middleeastmonitor.com/20261112-6-palestinians-killed-dozens-injured-in-israeli-strike-on-nasser-medical-complex-in-khan-younis/"
+    },
     {
      "added": "2026-11-12",
      "id": "de0712c077d88e2f",
@@ -3590,6 +3652,19 @@
      "title": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
      "type": "international",
      "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "0560644ab2897b84",
+     "lang": "en",
+     "outlet": "Daily Sabah",
+     "published": "2026-11-12T08:22:00+00:00",
+     "publisher": "Daily Sabah",
+     "region": "mena",
+     "section": null,
+     "title": "Israeli strike on Gaza's Nasser Hospital kills 6, including doctor",
+     "type": "local",
+     "url": "https://www.dailysabah.com/world/mid-east/israeli-strike-on-gazas-nasser-hospital-kills-6-including-doctor"
     },
     {
      "added": "2026-11-12",
@@ -3984,71 +4059,52 @@
      "title": "Four killed in Gaza as sand embankment collapses on tents",
      "type": "local",
      "url": "https://www.thehindu.com/news/international/four-killed-in-gaza-as-sand-embankment-collapses-on-tents/article71682791.ece"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "a3b870632c47d7b0",
-     "lang": "en",
-     "outlet": "The National",
-     "published": "2026-11-09T12:39:20+00:00",
-     "section": null,
-     "title": "'People were screaming': Deadly landslide a warning for winter in Gaza",
-     "type": "local",
-     "url": "https://www.thenationalnews.com/news/mena/2026/11/09/people-were-screaming-deadly-tent-collapse-a-warning-for-winter-in-gaza/"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "51397c24fe4e9b47",
-     "lang": "en",
-     "outlet": "The New Arab",
-     "published": "2026-11-09T12:33:12+00:00",
-     "section": null,
-     "title": "Why are Gaza's children left exposed to deadly winter floods?",
-     "type": "regional",
-     "url": "https://www.newarab.com/news/why-are-gazas-children-left-exposed-deadly-winter-floods"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "97c0845b4614d360",
-     "lang": "ar",
-     "outlet": "Felesteen",
-     "published": "2026-11-09T12:23:00+00:00",
-     "section": null,
-     "title": "اقتصاد غزة تفتح التسجيل لدعم المخابز.. رابط التسجيل",
-     "type": "local",
-     "url": "https://felesteen.news/post/189863/%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF-%D8%BA%D8%B2%D8%A9-%D8%AA%D9%81%D8%AA%D8%AD-%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D9%84%D8%AF%D8%B9%D9%85-%D8%A7%D9%84%D9%85%D8%AE%D8%A7%D8%A8%D8%B2-%D8%B1%D8%A7%D8%A8%D8%B7-%D8%A7%D9%84%D8%AA%D8%B3%D8%AC%D9%8A%D9%84"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "d812197a3a09c967",
-     "lang": "ar",
-     "outlet": "Felesteen",
-     "published": "2026-11-09T12:03:00+00:00",
-     "section": null,
-     "title": "تحت خيام ممزقة.. نازحو مُخيم الصابرين يواجهون برد الشتاء والأمطار بلا الحماية",
-     "type": "local",
-     "url": "https://felesteen.news/post/189864/%D8%AA%D8%AD%D8%AA-%D8%AE%D9%8A%D8%A7%D9%85-%D9%85%D9%85%D8%B2%D9%82%D8%A9-%D9%86%D8%A7%D8%B2%D8%AD%D9%88-%D9%85%D8%AE%D9%8A%D9%85-%D8%A7%D9%84%D8%B5%D8%A7%D8%A8%D8%B1%D9%8A%D9%86-%D9%8A%D9%88%D8%A7%D8%AC%D9%87%D9%88%D9%86-%D8%A8%D8%B1%D8%AF-%D8%A7%D9%84%D8%B4%D8%AA%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%A3%D9%85%D8%B7%D8%A7%D8%B1-%D8%A8%D9%84"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "43342df0d63bf715",
-     "lang": "en",
-     "outlet": "UN News",
-     "published": "2026-11-09T12:00:00+00:00",
-     "publisher": "UN News",
-     "section": null,
-     "title": "Children among the dead as heavy rains flood tents and shelters in Gaza",
-     "type": "government",
-     "url": "https://news.un.org/feed/view/en/story/2026/11/1168766"
     }
    ],
-   "articles_today": 12,
+   "articles_today": 17,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "gaza-heavy-rain-and-floods-inundate",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 8,
+   "outlets_today": 12,
    "reports": [
+    {
+     "articles": [
+      "0560644ab2897b84"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Daily Sabah"
+     ],
+     "published": "2026-11-12T08:22:00+00:00",
+     "text": "[Daily Sabah](https://www.dailysabah.com/world/mid-east/israeli-strike-on-gazas-nasser-hospital-kills-6-including-doctor) reported that an Israeli airstrike on southern Gaza's Nasser Hospital killed at least six people, including a surgeon, according to Palestinian health authorities."
+    },
+    {
+     "articles": [
+      "7581203a868f07bc"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Middle East Monitor"
+     ],
+     "published": "2026-11-12T09:20:44+00:00",
+     "text": "[Middle East Monitor](https://www.middleeastmonitor.com/20261112-6-palestinians-killed-dozens-injured-in-israeli-strike-on-nasser-medical-complex-in-khan-younis/) reported that six Palestinians were killed and dozens injured in an Israeli airstrike on a building inside the Nasser Medical Complex in western Khan Younis."
+    },
+    {
+     "articles": [
+      "fc8592bd7e29ea10"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Daily Times (Pakistan)"
+     ],
+     "published": "2026-11-12T10:30:37+00:00",
+     "text": "[Daily Times (Pakistan)](https://dailytimes.com.pk/1580370/israeli-airstrike-kills-six-people-at-nasser-hospital-in-southern-gaza/) reported that an Israeli airstrike killed six people and wounded around 20 others at Nasser Hospital, according to Gaza's civil defence agency."
+    },
     {
      "articles": [
       "7ba2c731f689ddc6"
@@ -4295,11 +4351,51 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
+   "subject": "israel",
    "title": "Gaza: Severe Storms and Floods Damage Displaced Persons Tents"
   },
   {
-   "article_count": 167,
+   "article_count": 170,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "b351bfd8d32b2544",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-12T10:32:40+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Saudi reports missile debris in Makkah region",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1580383/saudi-reports-missile-debris-in-makkah-region/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "011b7ea625c375b6",
+     "lang": "en",
+     "outlet": "Egypt Independent",
+     "published": "2026-11-12T10:05:23+00:00",
+     "publisher": "Egypt Independent",
+     "region": "mena",
+     "section": null,
+     "title": "Saudi Arabia intercepts two ballistic missiles fired toward Makkah",
+     "type": "local",
+     "url": "https://www.egyptindependent.com/saudi-arabia-intercepts-two-ballistic-missiles-fired-toward-makkah/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "6a7de29810b1d107",
+     "lang": "en",
+     "outlet": "Middle East Monitor",
+     "published": "2026-11-12T09:32:28+00:00",
+     "publisher": "Middle East Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "Debris from 2 intercepted missiles falls in Mecca region, Saudi Arabia says",
+     "type": "regional",
+     "url": "https://www.middleeastmonitor.com/20261112-debris-from-2-intercepted-missiles-falls-in-mecca-region-saudi-arabia-says/"
+    },
     {
      "added": "2026-11-12",
      "id": "8f58830a45ee8eef",
@@ -4743,51 +4839,40 @@
      "title": "Yet another oil tanker catches fire in east of Hormuz Strait",
      "type": "state-media",
      "url": "https://en.mehrnews.com/news/249328/Yet-another-oil-tanker-catches-fire-in-east-of-Hormuz-Strait"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "40ecc4ba038e7070",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-11T07:19:34+00:00",
-     "publisher": "The Hindu (World)",
-     "section": null,
-     "title": "No talks underway with U.S., says Iran top security official",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/no-talks-underway-with-us-says-iran-top-security-official/article71688184.ece"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "ce776e1cbd287364",
-     "lang": "en",
-     "outlet": "The New Arab",
-     "published": "2026-11-11T07:17:09+00:00",
-     "publisher": "The New Arab",
-     "section": null,
-     "title": "Rubio downplays war, Iran insists that US meets conditions",
-     "type": "regional",
-     "url": "https://www.newarab.com/news/rubio-downplays-war-iran-insists-us-meets-conditions"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "47afc75e52b4cf3f",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-11T07:08:19+00:00",
-     "publisher": "The Hindu (World)",
-     "section": null,
-     "title": "Rubio says 'no need' to attack Iran as diplomacy gathers pace",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/rubio-says-no-need-to-attack-iran-as-diplomacy-gathers-pace/article71688168.ece"
     }
    ],
-   "articles_today": 8,
+   "articles_today": 11,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "us-iran-tensions-strait-of-hormuz",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 8,
+   "outlets_today": 11,
    "reports": [
+    {
+     "articles": [
+      "6a7de29810b1d107"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Middle East Monitor"
+     ],
+     "published": "2026-11-12T09:32:28+00:00",
+     "text": "[Middle East Monitor](https://www.middleeastmonitor.com/20261112-debris-from-2-intercepted-missiles-falls-in-mecca-region-saudi-arabia-says/) reported that debris from two intercepted ballistic missiles fell in the Mecca region on Wednesday."
+    },
+    {
+     "articles": [
+      "011b7ea625c375b6"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Egypt Independent"
+     ],
+     "published": "2026-11-12T10:05:23+00:00",
+     "text": "[Egypt Independent](https://www.egyptindependent.com/saudi-arabia-intercepts-two-ballistic-missiles-fired-toward-makkah/) reported that the official spokesperson for the Saudi Civil Defense announced that two ballistic missiles launched by Houthi militia toward the Makkah region were intercepted."
+    },
     {
      "articles": [
       "8f58830a45ee8eef"
@@ -5205,33 +5290,12 @@
       "The Jerusalem Post"
      ],
      "text": "[The Jerusalem Post](https://www.jpost.com/middle-east/iran-news/article-914484) reported that China's envoy called Iran missile aid claims baseless after Israeli security officials spoke out."
-    },
-    {
-     "articles": [
-      "e3f1e4759c3d6c40"
-     ],
-     "date": "2026-11-10",
-     "group": "mena",
-     "outlets": [
-      "Tehran Times"
-     ],
-     "text": "[Tehran Times](https://www.tehrantimes.com/news/532026/IRGC-Unveils-New-Underground-Missile-City-in-Show-of-Power) reported that the IRGC Aerospace Force unveiled a new underground missile city displaying ballistic and cruise missiles."
-    },
-    {
-     "articles": [
-      "d36414ce509c3aa5"
-     ],
-     "date": "2026-11-10",
-     "group": "mena",
-     "outlets": [
-      "Tehran Times"
-     ],
-     "text": "[Tehran Times](https://www.tehrantimes.com/news/532018/Two-oil-tankers-catch-fire-after-explosions-in-Strait-of-Hormuz) reported that two oil tankers in the Strait of Hormuz in violation of maritime rules were hit by explosions and caught fire."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
+   "subject": "saudi-arabia",
    "title": "US-Iran Tensions: Regional Diplomacy and Maritime Incidents"
   },
   {
@@ -5738,18 +5802,6 @@
      "url": "http://www.africanews.com/2026/11/11/south-african-olympic-swimmer-switches-allegiance-to-the-netherlands/"
     },
     {
-     "added": "2026-11-11",
-     "id": "56f90f03e7325fb5",
-     "lang": "en",
-     "outlet": "Mail & Guardian",
-     "published": "2026-11-11T09:51:43+00:00",
-     "publisher": "Mail & Guardian",
-     "section": null,
-     "title": "Tatjana Smith’s switch to the Netherlands is a bitter blow for South African sport",
-     "type": "local",
-     "url": "https://mg.co.za/news/sport/2026-11-11-tatjana-smith-s-switch-to-the-netherlands-is-a-bitter-blow-for-south-african-sport/"
-    },
-    {
      "added": "2026-11-10",
      "id": "86c930978de3f390",
      "lang": "fr",
@@ -6139,17 +6191,6 @@
       "Africanews"
      ],
      "text": "[Africanews](http://www.africanews.com/2026/11/11/south-african-olympic-swimmer-switches-allegiance-to-the-netherlands/) reported that South African Olympic swimmer Tatjana Smith switched her allegiance to the Netherlands due to financial and practical challenges."
-    },
-    {
-     "articles": [
-      "56f90f03e7325fb5"
-     ],
-     "date": "2026-11-11",
-     "group": "africa",
-     "outlets": [
-      "Mail & Guardian"
-     ],
-     "text": "[Mail & Guardian](https://mg.co.za/news/sport/2026-11-11-tatjana-smith-s-switch-to-the-netherlands-is-a-bitter-blow-for-south-african-sport/) reported that double Olympic gold medallist Tatjana Smith switched her allegiance to represent the Netherlands."
     },
     {
      "articles": [
@@ -6586,8 +6627,162 @@
    "title": "Nigeria: Flood Victims in Nasarawa Face Severe Hunger and Disease"
   },
   {
-   "article_count": 80,
+   "article_count": 122,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "7a2022e643331481",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-12T10:36:45+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Nvidia CEO faces fresh affair allegations involving subordinate – Report",
+     "type": "local",
+     "url": "https://punchng.com/nvidia-ceo-faces-fresh-affair-allegations-involving-subordinate-report/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "db3a4465f79631b7",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-12T10:30:04+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "Loyalty vs accountability: a look at the Nvidia board deciding CEO Jensen Huang’s fate",
+     "type": "regional",
+     "url": "https://www.scmp.com/tech/big-tech/article/3374203/loyalty-vs-accountability-look-nvidia-board-deciding-ceo-jensen-huangs-fate"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "e0839f54b1d9b31f",
+     "lang": "en",
+     "outlet": "The Irish Times",
+     "published": "2026-11-12T10:20:12+00:00",
+     "publisher": "The Irish Times",
+     "region": "europe",
+     "section": null,
+     "title": "Who could run Nvidia if Jensen Huang is ousted?",
+     "type": "local",
+     "url": "https://www.irishtimes.com/business/work/2026/11/12/who-could-run-nvidia-if-jensen-huang-is-ousted/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "784c72ce18b2f821",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-12T10:15:17+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Nvidia board considers removing CEO Jensen Huang over two alleged affairs",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1580377/nvidia-board-considers-removing-ceo-jensen-huang-over-two-alleged-affairs/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "55d8573c2151c9ab",
+     "lang": "en",
+     "outlet": "Times of Malta",
+     "published": "2026-11-12T10:07:00+00:00",
+     "publisher": "Times of Malta",
+     "region": "europe",
+     "section": null,
+     "title": "Nvidia preparing to oust CEO Jensen Huang after second affair allegation",
+     "type": "local",
+     "url": "https://timesofmalta.com/article/nvidia-preparing-oust-ceo-jensen-huang-second-affair-allegation.1136967"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "a2b09bdd79519385",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-12T09:40:41+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "China accuses US of 'fabricating' Nvidia spy claims to push tech 'blockade'",
+     "type": "international",
+     "url": "https://www.france24.com/en/asia-pacific/20261112-china-accuses-us-fabricating-nvidia-spy-claims-to-push-tech-blockade"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "d2f2571e6e96f269",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T09:33:45+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Graham Gerade, an inventor, is married to Kimberly Powell, who allegedly had an affair with Nvidia CEO Jensen Huang",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/graham-gerade-an-inventor-is-married-to-kimberly-powell-who-allegedly-had-an-affair-with-nvidia-ceo-jensen-huang-101794473499425.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "c1e9f0230a0a5d0b",
+     "lang": "en",
+     "outlet": "El País (English)",
+     "published": "2026-11-12T09:29:34+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Nvidia moves toward replacing Jensen Huang as CEO following revelation of a new extramarital affair",
+     "type": "local",
+     "url": "https://english.elpais.com/usa/2026-11-12/nvidia-moves-toward-replacing-jensen-huang-as-ceo-following-revelation-of-a-new-extramarital-affair.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "61f2eb8948df7183",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T09:18:55+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Alleged Chinese spy at heart of Nvidia scandal is in Beijing",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/alleged-chinese-spy-at-heart-of-nvidia-scandal-is-in-beijing-101794474894002.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "bc0b9e4331e090d1",
+     "lang": "en",
+     "outlet": "Dawn (Pakistan)",
+     "published": "2026-11-12T09:00:30+00:00",
+     "publisher": "Dawn (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "China says US using spy claims to justify technology 'blockade'",
+     "type": "local",
+     "url": "https://www.dawn.com/news/2044033/china-says-us-using-spy-claims-to-justify-technology-blockade"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "2f906a502a4b60a1",
+     "lang": "en",
+     "outlet": "Nikkei Asia",
+     "published": "2026-11-12T08:38:09+00:00",
+     "publisher": "Nikkei Asia",
+     "section": null,
+     "title": "Jensen Huang scandal sends ripples through tech",
+     "type": "regional",
+     "url": "https://asia.nikkei.com/spotlight/podcasts/podcast-tech-latest/jensen-huang-scandal-sends-ripples-through-tech"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "ee543ac45aa19a60",
+     "lang": "en",
+     "outlet": "Nikkei Asia",
+     "published": "2026-11-12T08:38:09+00:00",
+     "publisher": "Nikkei Asia",
+     "section": null,
+     "title": "Nvidia shares plunge almost 10% on report board may oust Jensen Huang",
+     "type": "regional",
+     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang"
+    },
     {
      "added": "2026-11-12",
      "id": "df85ac90a552df1b",
@@ -6599,6 +6794,18 @@
      "title": "Skandal um Nvidia-Boss - Seine zweite Affäre ist auch verheiratet",
      "type": "local",
      "url": "https://www.bild.de/politik/ausland-und-internationales/jensen-huang-zweite-affaere-setzt-nvidia-chef-unter-druck-6af56a3350175c81de7a2747"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "d72c6b9108a4e737",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-12T08:27:56+00:00",
+     "publisher": "The Guardian",
+     "section": null,
+     "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
+     "type": "international",
+     "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
     },
     {
      "added": "2026-11-12",
@@ -6614,15 +6821,15 @@
     },
     {
      "added": "2026-11-12",
-     "id": "3121fe3df6a7a2ee",
-     "lang": "bs",
-     "outlet": "Klix",
-     "published": "2026-11-12T08:12:00+00:00",
-     "publisher": "Klix",
+     "id": "d618290569e2b6f6",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-12T08:22:08+00:00",
+     "publisher": "South China Morning Post",
      "section": null,
-     "title": "Ko je Kimberly Powell: Potpredsjednica Nvidije za zdravstvo s kojom je Huang navodno imao aferu",
-     "type": "local",
-     "url": "https://www.klix.ba/magazin/showbiz/ko-je-kimberly-powell-potpredsjednica-nvidije-za-zdravstvo-s-kojom-je-huang-navodno-imao-aferu/261112064"
+     "title": "Nvidia’s Jensen Huang affair revives China Initiative concerns in Silicon Valley",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/china/science/article/3374151/nvidias-jensen-huang-affair-revives-china-initiative-concerns-silicon-valley"
     },
     {
      "added": "2026-11-12",
@@ -6635,6 +6842,30 @@
      "title": "LIVE | Dreigend ontslag Nvidia-baas raakt chipfondsen; AEX zakt licht weg bij start",
      "type": "local",
      "url": "https://www.telegraaf.nl/financieel/live-dreigend-ontslag-nvidia-baas-raakt-chipfondsen-aex-zakt-licht-weg-bij-start/164432768.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "c378fa1f687847aa",
+     "lang": "en",
+     "outlet": "Sydney Morning Herald",
+     "published": "2026-11-12T08:05:00+00:00",
+     "publisher": "Sydney Morning Herald",
+     "section": null,
+     "title": "Nvidia billionaire’s affair scandal drags his wife of 41 years into the spotlight",
+     "type": "local",
+     "url": "https://www.smh.com.au/business/companies/nvidia-billionaire-s-affair-scandal-drags-his-wife-of-41-years-into-the-spotlight-20261112-p61dg9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "d3055f7f5427b9fe",
+     "lang": "en",
+     "outlet": "Sydney Morning Herald",
+     "published": "2026-11-12T08:02:45+00:00",
+     "publisher": "Sydney Morning Herald",
+     "section": null,
+     "title": "Nvidia board moving to oust boss as second affair alleged",
+     "type": "local",
+     "url": "https://www.smh.com.au/world/nvidia-board-moving-to-oust-boss-as-second-affair-alleged-20261112-p61dt1.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
     },
     {
      "added": "2026-11-12",
@@ -6674,6 +6905,30 @@
     },
     {
      "added": "2026-11-12",
+     "id": "8c12802118c5f017",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T07:59:26+00:00",
+     "publisher": "Hindustan Times",
+     "section": null,
+     "title": "Alice Huang's husband, Kang Wei, appeared to accept her affair with Nvidia CEO Jensen Huang; had introduced the two",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/who-is-kang-wei-alice-huang-husband-appeared-to-accept-her-affair-with-nvidia-ceo-jensen-huang-how-he-introduced-the-two-101794468272764.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "9388172a725fb16f",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-12T07:54:59+00:00",
+     "publisher": "France 24",
+     "section": null,
+     "title": "Who is Nvidia CEO Jensen Huang?",
+     "type": "international",
+     "url": "https://www.france24.com/en/who-is-nvidia-ceo-jensen-huang"
+    },
+    {
+     "added": "2026-11-12",
      "id": "409475a34342f048",
      "lang": "en",
      "outlet": "Euronews",
@@ -6698,6 +6953,42 @@
     },
     {
      "added": "2026-11-12",
+     "id": "b41377697d8a01b0",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-12T07:43:13+00:00",
+     "publisher": "The Guardian",
+     "section": null,
+     "title": "Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges",
+     "type": "international",
+     "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "08570ec32fa0b8e2",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T07:42:28+00:00",
+     "publisher": "Hindustan Times",
+     "section": null,
+     "title": "‘Don’t think you should be talking to me directly’: Nvidia boss Jensen Huang on second affair question",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/dont-think-you-should-be-talking-to-me-directly-nvidia-jensen-huang-on-second-affair-question-101794465109638.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "0edaf98993ede351",
+     "lang": "en",
+     "outlet": "The Japan Times",
+     "published": "2026-11-12T07:27:00+00:00",
+     "publisher": "The Japan Times",
+     "section": null,
+     "title": "Chinese AI firms rush to secure Nvidia chip capacity as scandal stirs fear of curbs",
+     "type": "local",
+     "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/china-ai-nvidia-spy-us-chip-curbs/"
+    },
+    {
+     "added": "2026-11-12",
      "id": "1d889d5df0aac00e",
      "lang": "en",
      "outlet": "Euronews",
@@ -6707,6 +6998,30 @@
      "title": "Nvidia board weighs Jensen Huang’s future as reports emerge of second affair",
      "type": "international",
      "url": "https://www.euronews.com/2026/11/12/nvidia-board-weighs-jensen-huangs-future-as-reports-emerge-of-second-affair"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "c9ffb1fb2ca3c137",
+     "lang": "en",
+     "outlet": "ABC Australia World",
+     "published": "2026-11-12T07:01:07+00:00",
+     "publisher": "ABC Australia",
+     "section": null,
+     "title": "With Jensen Huang under pressure, Nvidia finds itself with no succession plan",
+     "type": "international",
+     "url": "https://www.abc.net.au/news/2026-11-12/jensen-huang-nvidia-ceo-succession-plan-after-spy-plot/107376722"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "394e34222fec6434",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T06:59:12+00:00",
+     "publisher": "Hindustan Times",
+     "section": null,
+     "title": "‘Nvidia has a significant China problem’: Short seller flagged Jensen Huang's alleged spy links months before probe",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/nvidia-has-a-significant-china-problem-short-seller-flagged-jensen-huangs-alleged-spy-links-months-before-probe-101794461984741.html"
     },
     {
      "added": "2026-11-12",
@@ -6734,6 +7049,18 @@
     },
     {
      "added": "2026-11-12",
+     "id": "44bf5793e4956008",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-12T06:41:33+00:00",
+     "publisher": "The Hindu (World)",
+     "section": null,
+     "title": "Who is Jensen Huang and how the timeline of spy scandal unfolded",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/who-is-nvidia-ceo-jensen-huang-what-we-know-about-alleged-chinese-spy-scandal/article71689414.ece"
+    },
+    {
+     "added": "2026-11-12",
      "id": "22555b24d0ff7fc6",
      "lang": "de",
      "outlet": "20 Minuten",
@@ -6743,6 +7070,18 @@
      "title": "Zweite Affäre: Managerin war Nvidia-CEO Huang direkt unterstellt",
      "type": "local",
      "url": "https://www.20min.ch/story/kimberly-powell-huangs-zweite-affaere-war-mit-einer-ihm-unterstellten-managerin-103665934"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "b81c225c631363b6",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T06:20:39+00:00",
+     "publisher": "Hindustan Times",
+     "section": null,
+     "title": "Family pull, internal hires or tech CEO swap: 7 possible replacements surface as Nvidia board considers ousting CEO Jensen Huang",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/nvidio-ceo-jensen-huang-ouster-alice-huang-affair-china-spying-row-us-ian-buck-madison-huang-colette-kress-lisa-su-amd-101794458513545.html"
     },
     {
      "added": "2026-11-12",
@@ -6767,315 +7106,180 @@
      "title": "Kolejny romans prezesa Nvidii wyszedł na jaw. Jensen Huang może stracić stanowisko",
      "type": "local",
      "url": "https://www.rp.pl/biznes/art45477341-kolejny-romans-prezesa-nvidii-wyszedl-na-jaw-jensen-huang-moze-stracic-stanowisko"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "4ad6842d1f79a157",
-     "lang": "en",
-     "outlet": "The National",
-     "published": "2026-11-12T05:40:12+00:00",
-     "publisher": "The National",
-     "section": null,
-     "title": "Jensen Huang faces second affair claim as Nvidia board considers his future",
-     "type": "local",
-     "url": "https://www.thenationalnews.com/future/technology/2026/11/12/jensen-huang-faces-second-affair-claim-as-nvidia-board-weighs-his-future/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "4cfece4b3ca7710a",
-     "lang": "ar",
-     "outlet": "Asharq News",
-     "published": "2026-11-12T02:13:52+00:00",
-     "publisher": "Asharq News",
-     "section": null,
-     "title": "أزمة \"الرجل المحوري\".. NVIDIA تبدأ البحث عن بدائل لرئيسها التنفيذي",
-     "type": "regional",
-     "url": "https://asharq.com/politics/202762/%D8%A7%D9%84%D8%B1%D8%AC%D9%84-%D8%A7%D9%84%D9%85%D8%AD%D9%88%D8%B1%D9%8A-nvidia-%D8%AA%D8%A8%D8%AF%D8%A3-%D8%A7%D9%84%D8%A8%D8%AD%D8%AB-%D8%B9%D9%86-%D8%A8%D8%AF%D8%A7%D8%A6%D9%84-%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%87%D8%A7-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "e97046d792986d10",
-     "lang": "ar",
-     "outlet": "Asharq News",
-     "published": "2026-11-12T01:46:57+00:00",
-     "publisher": "Asharq News",
-     "section": null,
-     "title": "تداعيات قضية \"إنفيديا\" تصل إلى الكونجرس.. ومطالب باستدعاء وزير التجارة",
-     "type": "regional",
-     "url": "https://asharq.com/politics/202752/%D8%AA%D8%AF%D8%A7%D8%B9%D9%8A%D8%A7%D8%AA-%D9%82%D8%B6%D9%8A%D8%A9-%D8%A5%D9%86%D9%81%D9%8A%D8%AF%D9%8A%D8%A7-%D8%AA%D8%B5%D9%84-%D8%A7%D9%84%D9%83%D9%88%D9%86%D8%AC%D8%B1%D8%B3-%D9%88%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D8%A8%D8%A7%D8%B3%D8%AA%D8%AF%D8%B9%D8%A7%D8%A1-%D9%84%D9%88%D8%AA%D9%86%D9%8A%D9%83/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "96468edd84974946",
-     "lang": "ar",
-     "outlet": "Asharq News",
-     "published": "2026-11-12T01:44:35+00:00",
-     "publisher": "Asharq News",
-     "section": null,
-     "title": "\"بلومبرغ\": أليس هوانج المشتبه بها بالتجسس في فضيحة NVIDIA عادت إلى بكين",
-     "type": "regional",
-     "url": "https://asharq.com/politics/202758/%D8%A3%D9%84%D9%8A%D8%B3-%D9%87%D9%88%D8%A7%D9%86%D8%AC-%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%A8%D9%87-%D8%A8%D9%87%D8%A7-%D8%A8%D8%A7%D9%84%D8%AA%D8%AC%D8%B3%D8%B3-%D9%81%D9%8A-%D9%81%D8%B6%D9%8A%D8%AD%D8%A9-nvidia-%D8%B9%D8%A7%D8%AF%D8%AA-%D8%A5%D9%84%D9%89-%D8%A8%D9%83%D9%8A%D9%86/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "8012304bfd977e55",
-     "lang": "de",
-     "outlet": "20 Minuten",
-     "published": "2026-11-12T01:16:35+00:00",
-     "publisher": "20 Minuten",
-     "section": null,
-     "title": "Weitere Affäre wird publik – Nvidia-Aktie sackt massiv ab",
-     "type": "local",
-     "url": "https://www.20min.ch/story/nvidia-aktie-boerse-einbruch-berichte-um-chef-wechsel-vo-jensen-huang-103665918"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "0f46d6f77e3277fc",
-     "lang": "fr",
-     "outlet": "Le Monde",
-     "published": "2026-11-11T23:30:03+00:00",
-     "publisher": "Le Monde",
-     "section": null,
-     "title": "Le patron de Nvidia, mis en cause pour une liaison avec une Chinoise soupçonnée d’espionnage, accusé d’avoir eu une seconde affaire sentimentale avec une salariée",
-     "type": "local",
-     "url": "https://www.lemonde.fr/economie/article/2026/11/12/le-patron-de-nvidia-mis-en-cause-pour-une-liaison-avec-une-chinoise-soupconnee-d-espionnage-accuse-d-avoir-eu-une-seconde-affaire-sentimentale-avec-une-salariee_6809035_3234.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "10493970fba4fa1c",
-     "lang": "sv",
-     "outlet": "Dagens Nyheter",
-     "published": "2026-11-11T22:59:35+00:00",
-     "publisher": "Dagens Nyheter",
-     "section": null,
-     "title": "Uppgifter: Nvidias styrelse väntas avsätta Jensen Huang",
-     "type": "local",
-     "url": "https://www.dn.se/varlden/uppgifter-nvidias-styrelse-vantas-avsatta-jensen-huang/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "a616a35425759ad8",
-     "lang": "es",
-     "outlet": "El Sol de México",
-     "published": "2026-11-11T22:34:26+00:00",
-     "publisher": "El Sol de México",
-     "section": null,
-     "title": "La presunta espía china del caso Nvidia está en Pekín, según Bloomberg",
-     "type": "local",
-     "url": "https://oem.com.mx/elsoldemexico/mundo/la-presunta-espia-china-del-caso-nvidia-esta-en-pekin-segun-bloomberg-33088327"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "298cb40e4ace7b48",
-     "lang": "es",
-     "outlet": "El Sol de México",
-     "published": "2026-11-11T20:12:08+00:00",
-     "publisher": "El Sol de México",
-     "section": null,
-     "title": "Nvidia prepara salida de Jensen Huang tras presunta relación con mujer espía",
-     "type": "local",
-     "url": "https://oem.com.mx/elsoldemexico/finanzas/nvidia-prepara-salida-de-jensen-huang-tras-presunta-relacion-con-mujer-espia-33086079"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "740e7e1e5c6927ae",
-     "lang": "es",
-     "outlet": "El Tiempo",
-     "published": "2026-11-11T13:38:53+00:00",
-     "publisher": "El Tiempo",
-     "section": null,
-     "title": "Caso Nvidia: exfiscal de Nueva York liderará investigación contra Jensen Huang por presuntos vínculos con espía china",
-     "type": "local",
-     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/caso-nvidia-exfiscal-de-nueva-york-liderara-investigacion-contra-jensen-huang-por-presuntos-vinculos-con-espia-china-3600129"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "5918e22df299a6c5",
-     "lang": "zh",
-     "outlet": "United Daily News (Taiwan)",
-     "published": "2026-11-11T09:30:30+00:00",
-     "publisher": "United Daily News (Taiwan)",
-     "section": null,
-     "title": "黃仁勳桃色醜聞掀陰謀論！分析師：幕後疑似政治運作 恐爆出更多黑料",
-     "type": "local",
-     "url": "https://udn.com/news/story/125066/9872357"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "0a475677baee0656",
-     "lang": "en",
-     "outlet": "El País (English)",
-     "published": "2026-11-11T09:30:00+00:00",
-     "publisher": "El País",
-     "section": null,
-     "title": "Nvidia’s chip advantage made its CEO a target for China",
-     "type": "local",
-     "url": "https://english.elpais.com/economy-and-business/2026-11-11/nvidias-chip-advantage-made-its-ceo-a-target-for-china.html"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "0ba700c938b5e279",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-11T08:53:03+00:00",
-     "publisher": "The Hindu (World)",
-     "section": null,
-     "title": "Alice Huang, who reportedly had affair with Nvidia CEO, is Chinese banker turned tech exec",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/alice-huang-who-reportedly-had-affair-with-nvidia-ceo-is-chinese-banker-turned-tech-exec/article71688893.ece"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "e0ce6d18ff0a2de7",
-     "lang": "en",
-     "outlet": "The Guardian UK",
-     "published": "2026-11-11T08:35:14+00:00",
-     "publisher": "The Guardian",
-     "section": null,
-     "title": "Nvidia’s value tumbles by $430bn since spy allegations, as major US law firm hired to investigate claims – business live",
-     "type": "local",
-     "url": "https://www.theguardian.com/business/live/2026/nov/11/nvidia-spy-allegations-us-law-firm-hired-investigation-stock-markets-pound-dollar-ftse-nasdaq-latest-news-updates"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "f4d3d6358b4ed383",
-     "lang": "sq",
-     "outlet": "Koha Ditore",
-     "published": "2026-11-11T08:19:37+00:00",
-     "publisher": "Koha Ditore",
-     "section": null,
-     "title": "Skandali i spiunazhit - Nvidia humb 430 miliardë dollarë nga vlera e saj",
-     "type": "local",
-     "url": "https://www.koha.net/bote/skandali-i-spiunazhit-nvidia-humb-430-miliarde-dollare-nga-vlera-e-saj"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "e632ce191bb599c1",
-     "lang": "nl",
-     "outlet": "De Telegraaf",
-     "published": "2026-11-11T08:00:00+00:00",
-     "publisher": "De Telegraaf",
-     "section": null,
-     "title": "Van journalist naar Chinese spion: dit is de mysterieuze vrouw in het centrum van het Nvidia-schandaal",
-     "type": "local",
-     "url": "https://www.telegraaf.nl/buitenland/van-journalist-naar-chinese-spion-dit-is-de-mysterieuze-vrouw-in-het-centrum-van-het-nvidia-schandaal/164336923.html"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "965325d9a83949d3",
-     "lang": "en",
-     "outlet": "The Irish Times",
-     "published": "2026-11-11T06:00:01+00:00",
-     "publisher": "The Irish Times",
-     "section": null,
-     "title": "If Jensen Huang’s lover was a Chinese spy what does it mean for the AI race?",
-     "type": "local",
-     "url": "https://www.irishtimes.com/podcasts/in-the-news/if-jensen-huangs-lover-was-a-chinese-spy-what-does-it-mean-for-the-ai-race/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "cf9dcb908ccac572",
-     "lang": "fr",
-     "outlet": "Le Monde",
-     "published": "2026-11-11T04:00:02+00:00",
-     "publisher": "Le Monde",
-     "section": null,
-     "title": "Comment Nvidia s’est retrouvée au cœur d’un scandale international, entre espionne chinoise, guerre des puces et indifférence de Donald Trump",
-     "type": "local",
-     "url": "https://www.lemonde.fr/economie/article/2026/11/11/comment-nvidia-s-est-retrouve-au-c-ur-d-un-scandale-international-entre-espionne-chinoise-guerre-des-puces-et-indifference-de-donald-trump_6808922_3234.html"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "365953ec283a73aa",
-     "lang": "en",
-     "outlet": "Politico Europe",
-     "published": "2026-11-10T20:58:00+00:00",
-     "publisher": "Politico",
-     "section": null,
-     "title": "Nvidia hires Wachtell Lipton for Jensen Huang investigation",
-     "type": "international",
-     "url": "https://www.politico.eu/article/nvidia-hires-wachtell-lipton-for-jensen-huang-investigation/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "3c16e11926bcc8e2",
-     "lang": "sv",
-     "outlet": "Dagens Nyheter",
-     "published": "2026-11-10T19:55:23+00:00",
-     "publisher": "Dagens Nyheter",
-     "section": null,
-     "title": "Mystiskt få uppgifter om Nvidia-vd:ns älskarinna",
-     "type": "local",
-     "url": "https://www.dn.se/varlden/mystiskt-fa-uppgifter-om-nvidia-vdns-alskarinna/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "edb3c5b51d9109e5",
-     "lang": "it",
-     "outlet": "ANSA",
-     "published": "2026-11-10T19:47:40+00:00",
-     "publisher": "ANSA",
-     "section": null,
-     "title": "Mr. Nvidia travolto, gli azionisti fanno causa. In campo l'Fbi",
-     "type": "local",
-     "url": "https://www.ansa.it/sito/notizie/mondo/2026/11/10/mr.-nvidia-travolto-gli-azionisti-fanno-causa.-in-campo-lfbi_d60500af-5cac-4db9-9c44-211ff3ba2ce7.html"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "7f1b2b61b28e8311",
-     "lang": "en",
-     "outlet": "NYT US",
-     "published": "2026-11-10T19:27:59+00:00",
-     "publisher": "New York Times",
-     "section": null,
-     "title": "Despite Denial, Trump Was Told on Trip to China About Spying on Nvidia’s Jensen Huang",
-     "type": "international",
-     "url": "https://www.nytimes.com/2026/11/10/us/politics/trump-china-trip-nvidia.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "88e5f32cd178632a",
-     "lang": "en",
-     "outlet": "NYT US",
-     "published": "2026-11-10T15:45:06+00:00",
-     "publisher": "New York Times",
-     "section": null,
-     "title": "Nvidia CEO Jensen Huang Told Trump He Did Not Know Chinese Woman Was Suspected Spy",
-     "type": "international",
-     "url": "https://www.nytimes.com/2026/11/09/us/politics/trump-jensen-huang-spy.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "08d19d1a49acd926",
-     "lang": "zh",
-     "outlet": "United Daily News (Taiwan)",
-     "published": "2026-11-10T15:22:03+00:00",
-     "publisher": "United Daily News (Taiwan)",
-     "section": null,
-     "title": "市場評估黃仁勳婚外情衝擊 輝達早盤股價再跌4%",
-     "type": "local",
-     "url": "https://udn.com/news/story/6811/9870424"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "39547f4aef82e4ef",
-     "lang": "zh",
-     "outlet": "United Daily News (Taiwan)",
-     "published": "2026-11-10T15:21:58+00:00",
-     "publisher": "United Daily News (Taiwan)",
-     "section": null,
-     "title": "黃仁勳爆醜聞後該去該留？耶魯教授：現在是他退休好時機 與外遇無關",
-     "type": "local",
-     "url": "https://udn.com/news/story/125066/9870478"
     }
    ],
-   "articles_today": 25,
+   "articles_today": 39,
    "first_seen": "2026-11-09",
    "group": "europe",
    "id": "nvidia-ceo-jensen-huang-extramarital-affair",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 16,
+   "merged": [
+    "nvidia-ceo-jensen-huang-affair-and"
+   ],
+   "outlets_today": 28,
    "reports": [
+    {
+     "articles": [
+      "aafb0b725ce2315f"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Reuters"
+     ],
+     "published": "2026-11-12T05:31:00+00:00",
+     "text": "[Reuters](https://news.google.com/rss/articles/CBMiwAFBVV95cUxPc1EtU18tWjZNZTZtOFBZNzdqZkRFMk1nbm9MTm9VWUQwUHlLc1dTdDNLWmNCcllESHVVYjFnXzlKcFJrSWpHUkY2S1lhcTFtWWdPVG9WdkcyTkFSaEpLanVzeWctM1hCTkdxUEJ6VnBrLXFYVnBsalpKUkJVUGQyUE5DOEJtaTctZlFEaV9VR1loQ1JrVlhyRmRxR25UMkI2MVgtZnBFU1pVaXhBcmw0ZV9jb0RPYlduY1ppbnpCTlc?oc=5) reported that Chinese AI firms are rushing to secure Nvidia chip capacity as a spy scandal stirs fear of US curbs."
+    },
+    {
+     "articles": [
+      "61f2eb8948df7183"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-12T09:18:55+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/alleged-chinese-spy-at-heart-of-nvidia-scandal-is-in-beijing-101794474894002.html) reported that the alleged Chinese spy at the center of the Nvidia scandal is in Beijing."
+    },
+    {
+     "articles": [
+      "a2b09bdd79519385"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-12T09:40:41+00:00",
+     "text": "[France 24](https://www.france24.com/en/asia-pacific/20261112-china-accuses-us-fabricating-nvidia-spy-claims-to-push-tech-blockade) reported that China accused the United States of fabricating spy narratives to justify a technology blockade."
+    },
+    {
+     "articles": [
+      "d72c6b9108a4e737"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "The Guardian"
+     ],
+     "text": "[The Guardian](https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest) reported that Nvidia's board reportedly met to decide CEO Jensen Huang's future as the chip giant's share price plunged."
+    },
+    {
+     "articles": [
+      "b41377697d8a01b0"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "The Guardian"
+     ],
+     "text": "[The Guardian](https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair) reported that Nvidia's board is reportedly deciding whether to oust CEO Jensen Huang after he admitted to having a relationship with a woman alleged to be a Chinese spy."
+    },
+    {
+     "articles": [
+      "7f9e9cf052127e55"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "The Independent World"
+     ],
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html) reported that a report revealed Donald Trump was warned about the Nvidia CEO's affair months ago."
+    },
+    {
+     "articles": [
+      "ee543ac45aa19a60"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Nikkei Asia"
+     ],
+     "text": "[Nikkei Asia](https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang) reported that Nvidia shares plunged almost 10% on a report that the board may oust CEO Jensen Huang."
+    },
+    {
+     "articles": [
+      "08570ec32fa0b8e2"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/dont-think-you-should-be-talking-to-me-directly-nvidia-jensen-huang-on-second-affair-question-101794465109638.html) reported that an alleged report stated Jensen Huang had an affair with Nvidia healthcare vice president Kimberly Powell."
+    },
+    {
+     "articles": [
+      "dfac95a78ecef7eb"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Hindu (World)"
+     ],
+     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece) reported that The New York Times stated Jensen Huang was involved in a second extramarital affair with Nvidia's vice-president of health care, Kimberly Powell."
+    },
+    {
+     "articles": [
+      "74d51bc404a01e39"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Japan Times"
+     ],
+     "text": "[The Japan Times](https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-jensen-huang-affairs/) reported that Nvidia is working with an outside firm to identify CEO candidates."
+    },
+    {
+     "articles": [
+      "c1e9f0230a0a5d0b"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-12T09:29:34+00:00",
+     "text": "[El País](https://english.elpais.com/usa/2026-11-12/nvidia-moves-toward-replacing-jensen-huang-as-ceo-following-revelation-of-a-new-extramarital-affair.html) reported that the board of directors of the world's largest chipmaker met Wednesday to discuss the scandal surrounding its founder."
+    },
+    {
+     "articles": [
+      "d2f2571e6e96f269"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-12T09:33:45+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/graham-gerade-an-inventor-is-married-to-kimberly-powell-who-allegedly-had-an-affair-with-nvidia-ceo-jensen-huang-101794473499425.html) reported that Kimberly Powell allegedly had an affair with Nvidia CEO Jensen Huang amid the ongoing scandal involving Alice Huang."
+    },
+    {
+     "articles": [
+      "784c72ce18b2f821"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Daily Times (Pakistan)"
+     ],
+     "published": "2026-11-12T10:15:17+00:00",
+     "text": "[Daily Times (Pakistan)](https://dailytimes.com.pk/1580377/nvidia-board-considers-removing-ceo-jensen-huang-over-two-alleged-affairs/) reported that the Nvidia board of directors is considering removing co-founder and CEO Jensen Huang following reports of two alleged affairs."
+    },
+    {
+     "articles": [
+      "7a2022e643331481"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-12T10:36:45+00:00",
+     "text": "[Punch](https://punchng.com/nvidia-ceo-faces-fresh-affair-allegations-involving-subordinate-report/?utm_source=rss.punchng.com&utm_medium=web) reported that Nvidia CEO Jensen Huang is facing fresh allegations of an extramarital affair with a senior executive, Kimberly Powell."
+    },
     {
      "articles": [
       "43f795299fed4c9a"
@@ -7119,17 +7323,6 @@
       "Rzeczpospolita"
      ],
      "text": "[Rzeczpospolita](https://www.rp.pl/gielda/art45477861-kobieta-szpieg-romansujaca-z-prezesem-nvidii-przebywa-w-pekinie-tapniecie-na-akcjach-giganta-ai) reported that Nvidia shares fell sharply following reports of an alleged romance between CEO Jensen Huang and a woman suspected of spying for China."
-    },
-    {
-     "articles": [
-      "3121fe3df6a7a2ee"
-     ],
-     "date": "2026-11-12",
-     "group": "europe",
-     "outlets": [
-      "Klix"
-     ],
-     "text": "[Klix](https://www.klix.ba/magazin/showbiz/ko-je-kimberly-powell-potpredsjednica-nvidije-za-zdravstvo-s-kojom-je-huang-navodno-imao-aferu/261112064) reported that Kimberly Powell, vice president of healthcare at Nvidia, was the focus of reports regarding an extramarital affair with Huang."
     },
     {
      "articles": [
@@ -7361,127 +7554,6 @@
       "AP News"
      ],
      "text": "[AP News](https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUVJQ2VKOGljZVBJeFJCcVg5aWw2WWVaVzNlNVkwUnQ0ZzV0R09hbkx3aWRVVjhDaHpUdk96UExZSjF0TlBkY2FUeG9tVjhjdVkzRXllRndzMUJ4ZWZFa2p5QWlPRGhRc0ZXMkd5Y0tyVVdfM1gyX0Q4Y21KUEVYTFhuTnFhZWR0Wm00N29DbWU4WnRpSFpfZ1ZpSQ?oc=5) reported that a shareholder lawsuit was filed against Nvidia and Jensen Huang alleging investors were misled about a spy affair."
-    },
-    {
-     "articles": [
-      "c770f3f8259be0e8"
-     ],
-     "date": "2026-11-10",
-     "group": "global",
-     "outlets": [
-      "BBC World"
-     ],
-     "text": "[BBC World](https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss) reported that US President Donald Trump said the FBI is investigating the Nvidia boss's affair with an alleged Chinese spy after speaking with Jensen Huang."
-    },
-    {
-     "articles": [
-      "1799575c5311b94f"
-     ],
-     "date": "2026-11-10",
-     "group": "global",
-     "outlets": [
-      "The Guardian World"
-     ],
-     "text": "[The Guardian World](https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation) reported that Nvidia announced it was initiating an independent investigation after a report that CEO Jensen Huang was the target of foreign intelligence."
-    },
-    {
-     "articles": [
-      "5146b7ab18bb41ae"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "Nikkei Asia"
-     ],
-     "text": "[Nikkei Asia](https://asia.nikkei.com/business/tech/semiconductors/nvidia-probes-ceo-jensen-huang-s-affair-amid-china-security-concerns) reported that Nvidia is probing CEO Jensen Huang's affair amid China security concerns."
-    },
-    {
-     "articles": [
-      "6a656901bb212d73"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "Nikkei Asia"
-     ],
-     "text": "[Nikkei Asia](https://asia.nikkei.com/business/markets/nvidia-shares-drop-as-jensen-huang-affair-raises-china-spy-concerns) reported that Nvidia shares dropped as the Jensen Huang affair raised China spy concerns."
-    },
-    {
-     "articles": [
-      "7955bd58b27c8c01"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "The Hindu (World)"
-     ],
-     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/trump-says-fbi-looking-into-nvidia-ceo-jensen-huangs-affair-with-chinese-agent/article71684773.ece) reported that US President Donald Trump said the FBI is looking into Nvidia CEO Jensen Huang's affair with a Chinese agent."
-    },
-    {
-     "articles": [
-      "682ea23605fd739b"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "South China Morning Post"
-     ],
-     "text": "[South China Morning Post](https://www.scmp.com/tech/tech-war/article/3373960/who-alice-huang-and-why-her-relationship-nvidias-ceo-under-scrutiny) reported that Nvidia founder and CEO Jensen Huang admitted to an extramarital affair as the company investigates reported allegations involving a Chinese businesswoman."
-    },
-    {
-     "articles": [
-      "35bc1c5f529adf1c"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "CNA"
-     ],
-     "text": "[CNA](https://www.channelnewsasia.com/business/nvidia-stock-price-jensen-huang-affair-6537861) reported that the Jensen Huang affair weighed on Nvidia shares while other chip stocks rallied."
-    },
-    {
-     "articles": [
-      "df39eae7c450950e"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "Dawn (Pakistan)"
-     ],
-     "text": "[Dawn (Pakistan)](https://www.dawn.com/news/2043502/trump-says-nvidia-ceo-huang-had-no-idea-lover-was-alleged-chinese-spy) reported that US President Donald Trump stated that Nvidia CEO Huang had no idea his lover was an alleged Chinese spy and is suffering greatly."
-    },
-    {
-     "articles": [
-      "2d77d08aef4826ed"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "CNA"
-     ],
-     "text": "[CNA](https://www.channelnewsasia.com/east-asia/nvidia-ceo-jensen-huang-affair-chinese-businesswoman-alice-huang-6538396) reported that Alice Huang, the Chinese businesswoman tied to Nvidia's CEO, previously worked in banking and investment management."
-    },
-    {
-     "articles": [
-      "6691a97e9a45fd6c"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "The Hindu (World)"
-     ],
-     "text": "[The Hindu (World)](https://www.thehindu.com/sci-tech/technology/untangling-nvidia-chief-jensen-huangs-chinese-spy-connection/article71681955.ece) reported that Nvidia announced it was investigating CEO Jensen Huang after he disclosed he had been intimate with customer Alice Huang, whom US intelligence identified as an alleged Chinese spy."
-    },
-    {
-     "articles": [
-      "2a53a4639d3f26b9"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "CNA"
-     ],
-     "text": "[CNA](https://www.channelnewsasia.com/east-asia/jensen-huang-affair-alice-huang-nvidia-timeline-6535611) reported on the timeline of key developments regarding the controversy surrounding Nvidia's chief executive."
     }
    ],
    "single_source_today": false,
@@ -8817,8 +8889,50 @@
    "title": "Tanzania: 21 People Perish in a Road Carnage Along Iringa-Mbeya Highway"
   },
   {
-   "article_count": 84,
+   "article_count": 88,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "8e721228350a6ba4",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-12T10:36:45+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "Army sentinel rebukes Defense Sec. Pete Hegseth's group for laughing at Tomb of the Unknown Soldier",
+     "type": "local",
+     "url": "https://www.jpost.com/international/article-914675"
+    },
+    {
+     "added": "2026-11-12",
+     "dates": [
+      "2026-11-12"
+     ],
+     "id": "9f769230111397c6",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-12T09:58:02+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "Watch moment Pete Hegseth reprimanded by guard at Tomb of Unknown Soldier",
+     "type": "international",
+     "url": "https://www.independent.co.uk/tv/news/hegseth-reprimanded-tomb-of-unknown-soldier-video-b3083696.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "69ebe9e611c9e6df",
+     "lang": "en",
+     "outlet": "The Irish Times",
+     "published": "2026-11-12T09:14:16+00:00",
+     "publisher": "The Irish Times",
+     "region": "europe",
+     "section": null,
+     "title": "Guard scolds Pete Hegseth’s group for laughing at Tomb of the Unknown Soldier",
+     "type": "local",
+     "url": "https://www.irishtimes.com/world/us/2026/11/12/guard-scolds-pete-hegseths-group-for-laughing-at-tomb-of-the-unknown-soldier/"
+    },
     {
      "added": "2026-11-12",
      "id": "7f0a859e810c1a67",
@@ -8962,6 +9076,19 @@
      "title": "Hegseth and advisers reprimanded by guard at Tomb of the Unknown Soldier",
      "type": "international",
      "url": "https://www.bbc.co.uk/news/videos/ck5y132yq1ymo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "448948aaf98e0851",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-11T21:07:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Hegseth and group reprimanded by guard at Tomb of the Unknown Soldier",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUl9UVDlwekdWUFVILXZsSzY2Nm1MXzB2MjlDZHZpVE11c1JpZk40RmhtTFY3OWdKdWJLN0l5QU90NVYwSDZyUTZjdVRmNERwaVFpZkJIQ001ejNrbFpxWXRDUVIyMTE3Z0NmbWtJd3JsblA0QmpTd1hkNUFoNmJBbnFhWnozakJ2NEtWZDE3VVd2eXY0bjhoTFhLaXJtdXdabEFlb3E4QjU1bXVuVEhscWJGeHY5dEpBTTZhRmRkTEZkV2Rab0E?oc=5"
     },
     {
      "added": "2026-11-12",
@@ -9250,63 +9377,40 @@
      "title": "US Republicans derail bid to impeach Pentagon chief",
      "type": "local",
      "url": "https://www.nzherald.co.nz/world/embattled-pentagon-chief-slams-impeachment-farce/W7JRTBI6NZAKZNPDSPUIEQWPFI/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "5dcd44aa6e417dc0",
-     "lang": "en",
-     "outlet": "Defense News",
-     "published": "2026-11-10T23:31:53+00:00",
-     "publisher": "Defense News",
-     "section": null,
-     "title": "House Republicans sidestep effort to impeach Hegseth",
-     "type": "specialist",
-     "url": "https://www.defensenews.com/congress/2026/11/10/house-republicans-sidestep-effort-to-impeach-hegseth/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "f1514b724ebee004",
-     "lang": "0",
-     "outlet": "VG",
-     "published": "2026-11-10T23:20:22+00:00",
-     "publisher": "VG",
-     "section": null,
-     "title": "Representantenes hus stanset riksrettsforsøk mot Hegseth",
-     "type": "local",
-     "url": "https://www.vg.no/nyheter/i/6PnLk3/representantenes-hus-stanset-riksrettsforsoek-mot-hegseth?utm_medium=rss"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "40be045acf334c7f",
-     "lang": "en",
-     "outlet": "CBC",
-     "published": "2026-11-10T22:52:28+00:00",
-     "publisher": "CBC",
-     "section": null,
-     "title": "Hegseth calls effort to impeach him 'a political spectacle'",
-     "type": "international",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1cW4xMkVOa1hhb1N4RTRJNFRSR3JWUFFBT0pHVnY3QzVBbjg1RGdoVzh3Y3l6WjNHZ2lDMGFnY1J5NjBPNS1QbmNERkl2bHRIYWgwNjBOM0MyQQ?oc=5"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "bd16b639be29ea77",
-     "lang": "en",
-     "outlet": "CGTN",
-     "published": "2026-11-10T21:56:19+00:00",
-     "publisher": "CGTN",
-     "section": null,
-     "title": "Hegseth defends war record amid US House impeachment effort",
-     "type": "state-media",
-     "url": "https://newsus.cgtn.com/news/2026-11-11/Hegseth-defends-war-record-amid-US-House-impeachment-effort-1RYp5B8tw08/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 18,
    "first_seen": "2026-11-10",
    "group": "asia",
    "id": "us-defense-secretary-pete-hegseth-impeachment",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 10,
+   "outlets_today": 14,
    "reports": [
+    {
+     "articles": [
+      "69ebe9e611c9e6df"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Irish Times"
+     ],
+     "published": "2026-11-12T09:14:16+00:00",
+     "text": "[The Irish Times](https://www.irishtimes.com/world/us/2026/11/12/guard-scolds-pete-hegseths-group-for-laughing-at-tomb-of-the-unknown-soldier/) reported that Defense Secretary Pete Hegseth, his wife, and officials were visiting the war memorial at Virginia's Arlington national cemetery."
+    },
+    {
+     "articles": [
+      "8e721228350a6ba4"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Jerusalem Post"
+     ],
+     "published": "2026-11-12T10:36:45+00:00",
+     "text": "[The Jerusalem Post](https://www.jpost.com/international/article-914675) reported that immediately after laughter from the group, the sentinel moved toward them and shouted that all visitors must maintain an atmosphere of silence."
+    },
     {
      "articles": [
       "7f0a859e810c1a67"
@@ -9724,22 +9828,12 @@
       "The Hindu (World)"
      ],
      "text": "[The Hindu (World)](https://www.thehindu.com/news/international/republican-thomas-massie-of-kentucky-launches-bid-to-impeach-defense-secretary-pete-hegseth/article71685083.ece) reported that Republican Thomas Massie of Kentucky launched a bid to impeach Defense Secretary Pete Hegseth, stating his actions amounted to high crimes and misdemeanors."
-    },
-    {
-     "articles": [
-      "d8a0c0c9e87423ac"
-     ],
-     "date": "2026-11-10",
-     "group": "asia",
-     "outlets": [
-      "The Japan Times"
-     ],
-     "text": "[The Japan Times](https://www.japantimes.co.jp/news/2026/11/10/world/politics/hegseth-crimes-impeachment/) reported that Pete Hegseth is among the most enthusiastic backers of the Iran war, which spiked energy prices, fueled inflation, and doomed Republicans in the midterms."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
+   "subject": "us",
    "title": "US Defense Secretary Pete Hegseth Impeachment Effort"
   },
   {
@@ -10078,8 +10172,34 @@
    "title": "Malaysia: Najib Razak House Arrest and Ministerial Resignation"
   },
   {
-   "article_count": 40,
+   "article_count": 42,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "4415b301b4f9b9b9",
+     "lang": "en",
+     "outlet": "Daily Maverick",
+     "published": "2026-11-12T10:36:45+00:00",
+     "publisher": "Daily Maverick",
+     "region": "africa",
+     "section": null,
+     "title": "Indonesia VP hands resignation to parliament as Jokowi backs Prabowo",
+     "type": "local",
+     "url": "https://www.dailymaverick.co.za/article/2026-11-12-indonesia-vp-hands-resignation-to-parliament-as-jokowi-backs-prabowo/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "ea7c4269fa15eb2d",
+     "lang": "en",
+     "outlet": "GMA News",
+     "published": "2026-11-12T09:36:53+00:00",
+     "publisher": "GMA News",
+     "region": "asia",
+     "section": null,
+     "title": "Indonesia VP hands resignation to parliament as dad Jokowi backs Prabowo",
+     "type": "local",
+     "url": "https://www.gmanetwork.com/news/topstories/world/1009283/indonesia-vp-hands-resignation-to-parliament-as-dad-jokowi-backs-prabowo/story/"
+    },
     {
      "added": "2026-11-12",
      "id": "c6ea5e832ef4a292",
@@ -10532,37 +10652,28 @@
      "title": "Indonesia VP Gibran expresses intent to step down, presidential official says",
      "type": "regional",
      "url": "https://www.channelnewsasia.com/asia/indonesia-vice-president-gibran-rakabuming-raka-intention-step-down-6538841"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "29c3bc65497bc92a",
-     "lang": "en",
-     "outlet": "CNA",
-     "published": "2026-11-10T08:13:00+00:00",
-     "section": null,
-     "title": "3 politicians in Prabowo’s Cabinet resign from party led by Jokowi’s son",
-     "type": "regional",
-     "url": "https://www.channelnewsasia.com/asia/indonesia-politicians-psi-ministers-joko-widodo-son-6538586"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "bdb9b7d0fd85c127",
-     "lang": "en",
-     "outlet": "The Japan Times",
-     "published": "2026-11-10T07:09:00+00:00",
-     "section": null,
-     "title": "Fate of Indonesia’s vice president hangs in the balance as lawmakers mull probe",
-     "type": "local",
-     "url": "https://www.japantimes.co.jp/news/2026/11/10/asia-pacific/politics/indonesia-vice-president-probe/"
     }
    ],
-   "articles_today": 24,
+   "articles_today": 26,
    "first_seen": "2026-11-10",
    "group": "asia",
    "id": "indonesia-vice-president-gibran-rakabuming-raka",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 11,
+   "outlets_today": 13,
    "reports": [
+    {
+     "articles": [
+      "ea7c4269fa15eb2d"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "GMA News"
+     ],
+     "published": "2026-11-12T09:36:53+00:00",
+     "text": "[GMA News](https://www.gmanetwork.com/news/topstories/world/1009283/indonesia-vp-hands-resignation-to-parliament-as-dad-jokowi-backs-prabowo/story/) reported that Indonesia VP Gibran Rakabuming Raka handed his resignation to parliament following a push by lawmakers for his impeachment."
+    },
     {
      "articles": [
       "76a461f57a6da936"
@@ -10776,6 +10887,7 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
+   "subject": "indonesia",
    "title": "Indonesia: Vice President Gibran Rakabuming Raka Resignation and Political Turmoil"
   },
   {
@@ -11546,7 +11658,7 @@
    ],
    "single_source_today": true,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "covered",
    "title": "US Military Aircraft Withdrawn from UK Airbase"
   },
   {
@@ -15553,8 +15665,47 @@
    "title": "Haiti security operations by Salvadoran troops"
   },
   {
-   "article_count": 14,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "f9d566eb043e01f4",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-12T09:49:00+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Marlaska promete investigar las cargas policiales mientras la izquierda le pide la dimisión",
+     "type": "local",
+     "url": "https://elpais.com/espana/2026-11-12/marlaska-ordena-una-investigacion-sobre-las-cargas-policiales-en-las-manifestaciones-y-pide-que-no-se-use-gas-lacrimogeno.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "f7ae688caa2b1574",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-12T09:41:36+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "Ofensiva contra Marlaska dentro y fuera del Gobierno por las cargas policiales durante la huelga",
+     "type": "local",
+     "url": "https://www.larazon.es/espana/ofensiva-marlaska-dentro-fuera-gobierno-cargas-policiales-huelga_202611126af589d09a31a65adcd96693.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "556ccf4a1d20e056",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-12T09:14:28+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "Marlaska ordena ahora investigar la actuación policial durante la huelga general",
+     "type": "local",
+     "url": "https://www.larazon.es/espana/marlaska-ordena-ahora-investigar-actuacion-policial-huelga-general_202611126af5837403bbf30bb049669c.html"
+    },
     {
      "added": "2026-11-12",
      "id": "56facae6440602b7",
@@ -15724,13 +15875,41 @@
      "url": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 17,
    "first_seen": "2026-11-12",
    "group": "europe",
    "id": "spain-general-strike-over-housing-costs",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 12,
+   "merged": [
+    "spain-police-action-during-general-strike"
+   ],
+   "outlets_today": 14,
    "reports": [
+    {
+     "articles": [
+      "556ccf4a1d20e056"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "La Razón"
+     ],
+     "published": "2026-11-12T09:14:28+00:00",
+     "text": "[La Razón](https://www.larazon.es/espana/marlaska-ordena-ahora-investigar-actuacion-policial-huelga-general_202611126af5837403bbf30bb049669c.html) reported that the Interior Minister ordered an investigation into police actions during the general strike and instructed agents not to use tear gas in demonstrations."
+    },
+    {
+     "articles": [
+      "f7ae688caa2b1574"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "La Razón"
+     ],
+     "published": "2026-11-12T09:41:36+00:00",
+     "text": "[La Razón](https://www.larazon.es/espana/ofensiva-marlaska-dentro-fuera-gobierno-cargas-policiales-huelga_202611126af589d09a31a65adcd96693.html) reported that Frente Amplio and Podemos demanded the dismissal of the Interior Minister after the police actions on 11-N, while Bolanos discarded his dismissal."
+    },
     {
      "articles": [
       "ba7a7f97792a6aad"
@@ -16005,472 +16184,6 @@
    "title": "UNHCR reports on Nigerians fleeing to Niger Republic"
   },
   {
-   "article_count": 31,
-   "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "2f906a502a4b60a1",
-     "lang": "en",
-     "outlet": "Nikkei Asia",
-     "published": "2026-11-12T08:38:09+00:00",
-     "publisher": "Nikkei Asia",
-     "section": null,
-     "title": "Jensen Huang scandal sends ripples through tech",
-     "type": "regional",
-     "url": "https://asia.nikkei.com/spotlight/podcasts/podcast-tech-latest/jensen-huang-scandal-sends-ripples-through-tech"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "ee543ac45aa19a60",
-     "lang": "en",
-     "outlet": "Nikkei Asia",
-     "published": "2026-11-12T08:38:09+00:00",
-     "publisher": "Nikkei Asia",
-     "section": null,
-     "title": "Nvidia shares plunge almost 10% on report board may oust Jensen Huang",
-     "type": "regional",
-     "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "d72c6b9108a4e737",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-12T08:27:56+00:00",
-     "publisher": "The Guardian",
-     "section": null,
-     "title": "Nvidia board reportedly meets to decide CEO Jensen Huang’s future as chip giant’s share price plunges – follow live",
-     "type": "international",
-     "url": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "d618290569e2b6f6",
-     "lang": "en",
-     "outlet": "South China Morning Post",
-     "published": "2026-11-12T08:22:08+00:00",
-     "publisher": "South China Morning Post",
-     "section": null,
-     "title": "Nvidia’s Jensen Huang affair revives China Initiative concerns in Silicon Valley",
-     "type": "regional",
-     "url": "https://www.scmp.com/news/china/science/article/3374151/nvidias-jensen-huang-affair-revives-china-initiative-concerns-silicon-valley"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "c378fa1f687847aa",
-     "lang": "en",
-     "outlet": "Sydney Morning Herald",
-     "published": "2026-11-12T08:05:00+00:00",
-     "publisher": "Sydney Morning Herald",
-     "section": null,
-     "title": "Nvidia billionaire’s affair scandal drags his wife of 41 years into the spotlight",
-     "type": "local",
-     "url": "https://www.smh.com.au/business/companies/nvidia-billionaire-s-affair-scandal-drags-his-wife-of-41-years-into-the-spotlight-20261112-p61dg9.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "d3055f7f5427b9fe",
-     "lang": "en",
-     "outlet": "Sydney Morning Herald",
-     "published": "2026-11-12T08:02:45+00:00",
-     "publisher": "Sydney Morning Herald",
-     "section": null,
-     "title": "Nvidia board moving to oust boss as second affair alleged",
-     "type": "local",
-     "url": "https://www.smh.com.au/world/nvidia-board-moving-to-oust-boss-as-second-affair-alleged-20261112-p61dt1.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "8c12802118c5f017",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T07:59:26+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "Alice Huang's husband, Kang Wei, appeared to accept her affair with Nvidia CEO Jensen Huang; had introduced the two",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/who-is-kang-wei-alice-huang-husband-appeared-to-accept-her-affair-with-nvidia-ceo-jensen-huang-how-he-introduced-the-two-101794468272764.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "9388172a725fb16f",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-12T07:54:59+00:00",
-     "publisher": "France 24",
-     "section": null,
-     "title": "Who is Nvidia CEO Jensen Huang?",
-     "type": "international",
-     "url": "https://www.france24.com/en/who-is-nvidia-ceo-jensen-huang"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "b41377697d8a01b0",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-12T07:43:13+00:00",
-     "publisher": "The Guardian",
-     "section": null,
-     "title": "Nvidia board reportedly deciding whether to oust CEO Jensen Huang as stock price plunges",
-     "type": "international",
-     "url": "https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "08570ec32fa0b8e2",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T07:42:28+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "‘Don’t think you should be talking to me directly’: Nvidia boss Jensen Huang on second affair question",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/dont-think-you-should-be-talking-to-me-directly-nvidia-jensen-huang-on-second-affair-question-101794465109638.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "0edaf98993ede351",
-     "lang": "en",
-     "outlet": "The Japan Times",
-     "published": "2026-11-12T07:27:00+00:00",
-     "publisher": "The Japan Times",
-     "section": null,
-     "title": "Chinese AI firms rush to secure Nvidia chip capacity as scandal stirs fear of curbs",
-     "type": "local",
-     "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/china-ai-nvidia-spy-us-chip-curbs/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "c9ffb1fb2ca3c137",
-     "lang": "en",
-     "outlet": "ABC Australia World",
-     "published": "2026-11-12T07:01:07+00:00",
-     "publisher": "ABC Australia",
-     "section": null,
-     "title": "With Jensen Huang under pressure, Nvidia finds itself with no succession plan",
-     "type": "international",
-     "url": "https://www.abc.net.au/news/2026-11-12/jensen-huang-nvidia-ceo-succession-plan-after-spy-plot/107376722"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "394e34222fec6434",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T06:59:12+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "‘Nvidia has a significant China problem’: Short seller flagged Jensen Huang's alleged spy links months before probe",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/nvidia-has-a-significant-china-problem-short-seller-flagged-jensen-huangs-alleged-spy-links-months-before-probe-101794461984741.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "44bf5793e4956008",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-12T06:41:33+00:00",
-     "publisher": "The Hindu (World)",
-     "section": null,
-     "title": "Who is Jensen Huang and how the timeline of spy scandal unfolded",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/who-is-nvidia-ceo-jensen-huang-what-we-know-about-alleged-chinese-spy-scandal/article71689414.ece"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "b81c225c631363b6",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T06:20:39+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "Family pull, internal hires or tech CEO swap: 7 possible replacements surface as Nvidia board considers ousting CEO Jensen Huang",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/nvidio-ceo-jensen-huang-ouster-alice-huang-affair-china-spying-row-us-ian-buck-madison-huang-colette-kress-lisa-su-amd-101794458513545.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "8fc413cee3f7df3f",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T05:45:37+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "From AI role to healthcare vice president: Inside Kimberly Powell's rise through Nvidia's ranks over nearly 2 decades",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/who-is-kimberly-powell-nvidia-scandal-what-happened-jensen-huang-kimberly-powell-linkedin-101794459479142.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "0be459fb915d3bf2",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T05:35:03+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "Jensen Huang dreamed up Nvidia in a Denny's booth; now he could be ousted as CEO",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/jensen-huang-dreamed-up-nvidia-in-a-dennys-booth-now-he-could-be-ousted-as-ceo-101794459970922.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "b85877cf6f463e46",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T05:28:08+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "Chinese woman accused of spying on Nvidia's Jensen Huang entered Taiwan 8 times between 2024-25",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/chinese-woman-alice-huang-accused-of-spying-on-nvidias-jensen-huang-entered-taiwan-8-times-between-202425-101794460850616.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "dfac95a78ecef7eb",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-12T05:26:15+00:00",
-     "publisher": "The Hindu (World)",
-     "section": null,
-     "title": "Nvidia preparing to oust CEO Jensen Huang: U.S. media",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "a1e8c15b617cae82",
-     "lang": "kk",
-     "outlet": "Egemen Qazaqstan",
-     "published": "2026-11-12T04:43:41+00:00",
-     "publisher": "Egemen Qazaqstan",
-     "section": null,
-     "title": "NVIDIA бас директоры Дженсен Хуанг қызметінен шеттетілуі мүмкін",
-     "type": "state-media",
-     "url": "https://egemen.kz/news/nvidia-bas-direktory-dzhensen-huang-qyzmetinen-shettetilui-mumkin"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "63bce1c0fc5ce90f",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-12T04:05:14+00:00",
-     "publisher": "France 24",
-     "section": null,
-     "title": "Nvidia board weighs ouster of CEO Jensen Huang amid spy scandal",
-     "type": "international",
-     "url": "https://www.france24.com/en/technology/20261112-nvidia-board-to-decide-whether-to-oust-longtime-ceo-jensen-huang"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "74d51bc404a01e39",
-     "lang": "en",
-     "outlet": "The Japan Times",
-     "published": "2026-11-12T02:59:00+00:00",
-     "publisher": "The Japan Times",
-     "section": null,
-     "title": "Nvidia working with outside firm to identify CEO candidates",
-     "type": "local",
-     "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-jensen-huang-affairs/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "19a363722153925e",
-     "lang": "en",
-     "outlet": "The Japan Times",
-     "published": "2026-11-12T02:39:00+00:00",
-     "publisher": "The Japan Times",
-     "section": null,
-     "title": "Nvidia fallout puts trade truce to the test as Xi welcomes Trump",
-     "type": "local",
-     "url": "https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-trade-truce-xi-trump/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "47e4f536ab29d167",
-     "lang": "en",
-     "outlet": "Bangkok Post",
-     "published": "2026-11-12T00:45:00+00:00",
-     "publisher": "Bangkok Post",
-     "section": null,
-     "title": "Nvidia ‘preparing to oust’ CEO Jensen Huang",
-     "type": "local",
-     "url": "https://www.bangkokpost.com/world/3353336/nvidia-preparing-to-oust-ceo-jensen-huang"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "043545d2484d0b0b",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-12T00:43:26+00:00",
-     "publisher": "Al Jazeera",
-     "section": null,
-     "title": "Nvidia shares plunge amid reports board to discuss CEO Huang’s future",
-     "type": "international",
-     "url": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "3951b9ba41af7445",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-12T00:01:00+00:00",
-     "publisher": "DW",
-     "section": null,
-     "title": "Nvidia board reportedly weighs ousting Huang amid alleged affairs with exec and suspected Chinese spy",
-     "type": "international",
-     "url": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "97cd4a7939bf2588",
-     "lang": "en",
-     "outlet": "The Independent World",
-     "published": "2026-11-11T23:44:30+00:00",
-     "publisher": "The Independent World",
-     "section": null,
-     "title": "Nvidia moves to oust spy-tainted CEO Jensen Huang after word of affair with subordinate: report",
-     "type": "international",
-     "url": "https://www.independent.co.uk/news/world/americas/nvidia-jensen-huang-ceo-affair-b3083502.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "7f9e9cf052127e55",
-     "lang": "en",
-     "outlet": "The Independent World",
-     "published": "2026-11-11T21:41:34+00:00",
-     "publisher": "The Independent World",
-     "section": null,
-     "title": "Nvidia scandal rocks White House as report reveals Trump was ‘warned’ about CEO’s affair months ago",
-     "type": "international",
-     "url": "https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "6c5fab36bcd76a10",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-11T19:32:29+00:00",
-     "publisher": "France 24",
-     "section": null,
-     "title": "Undone by a honey trap? Nvidia's Jensen Huang at heart of China spy scandal",
-     "type": "international",
-     "url": "https://www.france24.com/en/tv-shows/the-debate/20261111-undone-by-a-honey-trap-nvidia-s-jensen-huang-at-heart-of-china-spy-scandal"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "3645e18ca77782e0",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-11T19:23:56+00:00",
-     "publisher": "France 24",
-     "section": null,
-     "title": "Nvidia's Jensen Huang at heart of China spy scandal",
-     "type": "international",
-     "url": "https://www.france24.com/en/tv-shows/the-debate/20261111-nvidia-s-jensen-huang-at-heart-of-china-spy-scandal"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "b1a4aabdaca56aea",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-11T17:04:16+00:00",
-     "publisher": "Reuters",
-     "section": null,
-     "title": "Baird, Morgan Stanley sour on Nvidia as CEO affair controversy deepens",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVVFZRkRxczJkVHdhU0pCMUlmd0tpdGFjdFBkRjhPY3NiLXJtMmYwX1hfNkM1MEdCd2hjalRhWFhYOUtRanJUcHhyY2RXeFJYbGpZRWZIVVRGSml5cFN0MnkyWkFuaUppMGp6b3l0YmRWWTNGVHkwOV9LaFVOdkFxMjJXSmpzQmZkRU5ad1Zob0tvYkgzd1Bkb2VfT0RWQ0lrZWNR?oc=5"
-    }
-   ],
-   "articles_today": 31,
-   "first_seen": "2026-11-12",
-   "group": "asia",
-   "id": "nvidia-ceo-jensen-huang-affair-and",
-   "last_updated": "2026-11-12",
-   "outlets_today": 15,
-   "reports": [
-    {
-     "articles": [
-      "d72c6b9108a4e737"
-     ],
-     "date": "2026-11-12",
-     "group": "global",
-     "outlets": [
-      "The Guardian"
-     ],
-     "text": "[The Guardian](https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest) reported that Nvidia's board reportedly met to decide CEO Jensen Huang's future as the chip giant's share price plunged."
-    },
-    {
-     "articles": [
-      "b41377697d8a01b0"
-     ],
-     "date": "2026-11-12",
-     "group": "global",
-     "outlets": [
-      "The Guardian"
-     ],
-     "text": "[The Guardian](https://www.theguardian.com/technology/2026/nov/12/nvidia-board-decision-ceo-jensen-huang-alleged-second-affair) reported that Nvidia's board is reportedly deciding whether to oust CEO Jensen Huang after he admitted to having a relationship with a woman alleged to be a Chinese spy."
-    },
-    {
-     "articles": [
-      "7f9e9cf052127e55"
-     ],
-     "date": "2026-11-12",
-     "group": "global",
-     "outlets": [
-      "The Independent World"
-     ],
-     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/us-politics/nvidia-scandal-trump-rubio-lutnick-b3083425.html) reported that a report revealed Donald Trump was warned about the Nvidia CEO's affair months ago."
-    },
-    {
-     "articles": [
-      "ee543ac45aa19a60"
-     ],
-     "date": "2026-11-12",
-     "group": "asia",
-     "outlets": [
-      "Nikkei Asia"
-     ],
-     "text": "[Nikkei Asia](https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-shares-plunge-almost-10-on-report-board-may-oust-jensen-huang) reported that Nvidia shares plunged almost 10% on a report that the board may oust CEO Jensen Huang."
-    },
-    {
-     "articles": [
-      "08570ec32fa0b8e2"
-     ],
-     "date": "2026-11-12",
-     "group": "asia",
-     "outlets": [
-      "Hindustan Times"
-     ],
-     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/dont-think-you-should-be-talking-to-me-directly-nvidia-jensen-huang-on-second-affair-question-101794465109638.html) reported that an alleged report stated Jensen Huang had an affair with Nvidia healthcare vice president Kimberly Powell."
-    },
-    {
-     "articles": [
-      "dfac95a78ecef7eb"
-     ],
-     "date": "2026-11-12",
-     "group": "asia",
-     "outlets": [
-      "The Hindu (World)"
-     ],
-     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/nvidia-preparing-to-oust-ceo-jensen-huang-us-media/article71692138.ece) reported that The New York Times stated Jensen Huang was involved in a second extramarital affair with Nvidia's vice-president of health care, Kimberly Powell."
-    },
-    {
-     "articles": [
-      "74d51bc404a01e39"
-     ],
-     "date": "2026-11-12",
-     "group": "asia",
-     "outlets": [
-      "The Japan Times"
-     ],
-     "text": "[The Japan Times](https://www.japantimes.co.jp/business/2026/11/12/tech/nvidia-jensen-huang-affairs/) reported that Nvidia is working with an outside firm to identify CEO candidates."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "title": "Nvidia CEO Jensen Huang Affair and Succession Scandal"
-  },
-  {
    "article_count": 4,
    "articles": [
     {
@@ -16558,8 +16271,37 @@
    "title": "Pakistan: Kohat Police Checkpost Terrorist Ambush"
   },
   {
-   "article_count": 12,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "a53e586853c3ea9e",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-12T10:21:43+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "Two dead, several injured after New York building collapses",
+     "type": "international",
+     "url": "https://www.france24.com/en/video/20261112-two-dead-several-injured-after-new-york-building-collapses"
+    },
+    {
+     "added": "2026-11-12",
+     "dates": [
+      "2026-11-11"
+     ],
+     "id": "a958dba7cd9b32bb",
+     "lang": "en",
+     "outlet": "Africanews",
+     "published": "2026-11-12T08:55:54+00:00",
+     "publisher": "Africanews",
+     "region": "africa",
+     "section": null,
+     "title": "US: Survivor pulled alive from rubble after deadly Brooklyn collapse",
+     "type": "regional",
+     "url": "http://www.africanews.com/2026/11/12/us-survivor-pulled-alive-from-rubble-after-deadly-brooklyn-collapse/"
+    },
     {
      "added": "2026-11-12",
      "id": "d12a7a5fec200af4",
@@ -16658,6 +16400,19 @@
     },
     {
      "added": "2026-11-12",
+     "id": "35ee98da94a18d91",
+     "lang": "en",
+     "outlet": "BBC US & Canada",
+     "published": "2026-11-12T02:33:12+00:00",
+     "publisher": "BBC",
+     "region": "namerica",
+     "section": null,
+     "title": "Survivor pulled from rubble of deadly building collapse in New York",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-12",
      "id": "f06136b4338cbb08",
      "lang": "en",
      "outlet": "The Guardian World",
@@ -16705,13 +16460,26 @@
      "url": "https://news.cgtn.com/news/2026-11-12/news-1S08ujHLoSQ/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
     }
    ],
-   "articles_today": 12,
+   "articles_today": 15,
    "first_seen": "2026-11-12",
    "group": "asia",
    "id": "new-york-city-building-collapse-casualties",
+   "last_reported": "2026-11-12",
    "last_updated": "2026-11-12",
-   "outlets_today": 10,
+   "outlets_today": 12,
    "reports": [
+    {
+     "articles": [
+      "a53e586853c3ea9e"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-12T10:21:43+00:00",
+     "text": "[France 24](https://www.france24.com/en/video/20261112-two-dead-several-injured-after-new-york-building-collapses) reported that two people were killed and at least 17 others injured, including children, after a three-story building collapsed near a construction site in New York."
+    },
     {
      "articles": [
       "d12a7a5fec200af4"
@@ -16771,35 +16539,12 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
+   "subject": "us",
    "title": "New York City Building Collapse Casualties"
   },
   {
    "article_count": 5,
    "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "90c2511548bfeed5",
-     "lang": "en",
-     "outlet": "The Japan Times",
-     "published": "2026-11-12T07:01:00+00:00",
-     "publisher": "The Japan Times",
-     "section": null,
-     "title": "South Korea captain Son says players have resolved their differences",
-     "type": "local",
-     "url": "https://www.japantimes.co.jp/sports/2026/11/12/soccer/son-korea-team-rift/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "dc90522d84a9bf84",
-     "lang": "en",
-     "outlet": "South China Morning Post",
-     "published": "2026-11-12T07:00:06+00:00",
-     "publisher": "South China Morning Post",
-     "section": null,
-     "title": "Son Heung-min, key South Korean players resolve internal divisions at heart of national team",
-     "type": "regional",
-     "url": "https://www.scmp.com/sport/football/article/3374159/son-heung-min-key-south-korean-players-resolve-internal-divisions-heart-national-team"
-    },
     {
      "added": "2026-11-12",
      "id": "cd3a4d2132cc6a1d",
@@ -16814,18 +16559,6 @@
     },
     {
      "added": "2026-11-12",
-     "id": "6850829275303b98",
-     "lang": "en",
-     "outlet": "CNA",
-     "published": "2026-11-12T05:14:11+00:00",
-     "publisher": "CNA",
-     "section": null,
-     "title": "Son Heung-min says divisions at heart of South Korea team resolved",
-     "type": "regional",
-     "url": "https://www.channelnewsasia.com/sport/son-heung-min-says-divisions-heart-south-korea-team-resolved-6544996"
-    },
-    {
-     "added": "2026-11-12",
      "id": "cb2e1eeaee186b40",
      "lang": "en",
      "outlet": "The Express Tribune",
@@ -16837,36 +16570,13 @@
      "url": "https://tribune.com.pk/story/2639908/son-says-south-korea-players-resolve-internal-divisions"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "asia",
    "id": "south-korea-national-soccer-team-internal",
    "last_updated": "2026-11-12",
-   "outlets_today": 5,
-   "reports": [
-    {
-     "articles": [
-      "dc90522d84a9bf84"
-     ],
-     "date": "2026-11-12",
-     "group": "asia",
-     "outlets": [
-      "South China Morning Post"
-     ],
-     "text": "[South China Morning Post](https://www.scmp.com/sport/football/article/3374159/son-heung-min-key-south-korean-players-resolve-internal-divisions-heart-national-team) reported that Son Heung-min and four other South Korean players stated they had put their differences aside after reports of internal divisions within the national team."
-    },
-    {
-     "articles": [
-      "6850829275303b98"
-     ],
-     "date": "2026-11-12",
-     "group": "asia",
-     "outlets": [
-      "CNA"
-     ],
-     "text": "[CNA](https://www.channelnewsasia.com/sport/son-heung-min-says-divisions-heart-south-korea-team-resolved-6544996) reported that Son Heung-min apologized to the public and football fans for concerns caused by recent reports concerning the national team."
-    }
-   ],
+   "outlets_today": 2,
+   "reports": [],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
@@ -16946,8 +16656,1715 @@
    "state_media_only_today": false,
    "status": "new",
    "title": "Nepal Passenger Vehicle Slope Crash"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "4ba9e411a34387f8",
+     "lang": "en",
+     "outlet": "GMA News",
+     "published": "2026-11-12T09:45:22+00:00",
+     "publisher": "GMA News",
+     "region": "asia",
+     "section": null,
+     "title": "China's Xi says Taiwan 'reunification' must happen: 'History cannot be stopped'",
+     "type": "local",
+     "url": "https://www.gmanetwork.com/news/topstories/world/1009285/china-s-xi-says-taiwan-reunification-must-happen-history-cannot-be-stopped/story/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "3a8424c9e9528226",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-12T08:34:45+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Xi Jinping says Taiwan ‘reunification’ with China must happen",
+     "type": "international",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/xi-jinping-says-taiwan-reunification-with-china-must-happen?traffic_source=rss"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "9dbd73b60720d87c",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-12T04:18:00+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "China's Xi says Taiwan 'reunification' must happen as history cannot be stopped",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQanhBckZWOGZoOFJnUGpQNkR5b25Ibm5RYzZRWGJReUNkM2l0dWJPNUdwSUxFbDRGdHNsWm9qaG1ZVm9fNW0yNUdHanFFV2pza05kbjJWREE2ZEFHdVNIT0pmR3JEMUFnVkhFaXdXQ25oUHdEcWVMUGYxX1VSeGh1RGVBT3Bhc3RJckpsVWtfRkpSNTBnWTRzVm1EenJUOFhnOGF3STJXbDUyV3NtUXAtSjFqU1lOTmN0Zm1FSFRn?oc=5"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-12",
+   "group": "asia",
+   "id": "xi-jinping-taiwan-reunification-remarks",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "4ba9e411a34387f8"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "GMA News"
+     ],
+     "published": "2026-11-12T09:45:22+00:00",
+     "text": "[GMA News](https://www.gmanetwork.com/news/topstories/world/1009285/china-s-xi-says-taiwan-reunification-must-happen-history-cannot-be-stopped/story/) reported that Chinese President Xi Jinping urged peaceful reunification with Taiwan, drawing a firm rebuff."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "china",
+   "title": "Xi Jinping Taiwan reunification remarks"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "c9f0c08b25c9bbdc",
+     "lang": "en",
+     "outlet": "Dawn (Pakistan)",
+     "published": "2026-11-12T10:32:05+00:00",
+     "publisher": "Dawn (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Imran’s sisters Uzma, Noreen released from jail after extended detention orders withdrawn, says lawyer",
+     "type": "local",
+     "url": "https://www.dawn.com/news/2044037/imrans-sisters-uzma-noreen-released-from-jail-after-extended-detention-orders-withdrawn-says-lawyer"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "5bee630d8b058fd8",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T10:18:45+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Pakistan ex-PM Imran Khan’s sisters released from jail after detention orders withdrawn: Report",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/pakistan-ex-pm-imran-khan-s-sisters-released-from-jail-after-detention-orders-withdrawn-report-101794478382675.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "701c9ddfd3e4e84c",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-12T10:11:39+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Noreen Niazi and Uzma Khan released from Lahore’s Kot Lakhpat Jail",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1580368/noreen-niazi-and-uzma-khan-released-from-lahores-kot-lakhpat-jail/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "2e9d81137050e2b8",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-12T04:54:26+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Uzma Khan, Noreen Niazi released after 50 days in detention",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2639924/uzma-khan-noreen-niazi-released-after-50-days-in-detention"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "9bd7bdb15c99cab1",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-12T03:11:35+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Fazal Chaudhry rules out any possibility of 'deal, leniency' for PTI after Imran's sisters released",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2639913/fazal-chaudhry-rules-out-any-possibility-of-deal-leniency-for-pti-after-imrans-sisters-released"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-12",
+   "group": "asia",
+   "id": "imran-khan-sisters-released-from-jail",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "2e9d81137050e2b8"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-12T04:54:26+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2639924/uzma-khan-noreen-niazi-released-after-50-days-in-detention) reported that Uzma Khan and Noreen Niazi were released after 50 days in detention, while PTI founder's sister Aleema Khan remains incarcerated at Kot Lakhpat Jail."
+    },
+    {
+     "articles": [
+      "c9f0c08b25c9bbdc"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Dawn (Pakistan)"
+     ],
+     "published": "2026-11-12T10:32:05+00:00",
+     "text": "[Dawn (Pakistan)](https://www.dawn.com/news/2044037/imrans-sisters-uzma-noreen-released-from-jail-after-extended-detention-orders-withdrawn-says-lawyer) reported that Dr Uzma Khan and Noreen Niazi were released from Kot Lakhpat jail following the withdrawal of their extended detention orders."
+    },
+    {
+     "articles": [
+      "9bd7bdb15c99cab1"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-12T03:11:35+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2639913/fazal-chaudhry-rules-out-any-possibility-of-deal-leniency-for-pti-after-imrans-sisters-released) reported that Fazal Chaudhry ruled out any possibility of a deal or leniency for PTI and stated that rumours of backdoor channel talks are baseless."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "pakistan",
+   "title": "Imran Khan sisters released from jail"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "d79be2561f47da27",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-12T10:03:45+00:00",
+     "publisher": "The Guardian",
+     "region": "global",
+     "section": null,
+     "title": "Ukraine hit by ‘significant’ Starshield disruptions as US envoys meet Putin, Zelenskyy says - Europe live",
+     "type": "international",
+     "url": "https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "cfa7657eed3fd733",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-12T10:01:27+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "Guerre en Ukraine : Volodymyr Zelensky signale de nouvelles restrictions du système satellitaire militaire américain Starshield",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/international/guerre-en-ukraine-volodymyr-zelensky-signale-de-nouvelles-restrictions-du-systeme-satellitaire-militaire-americain-starshield-20261112"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "5fb6250cd66d6fa9",
+     "lang": "en",
+     "outlet": "Euronews",
+     "published": "2026-11-12T09:49:15+00:00",
+     "publisher": "Euronews",
+     "region": "europe",
+     "section": null,
+     "title": "Zelenskyy: Starlink again facing restrictions in Ukraine, hampering Russian drone interceptions",
+     "type": "international",
+     "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "cfe412768c83c22b",
+     "lang": "en",
+     "outlet": "Meduza",
+     "published": "2026-11-12T09:45:05+00:00",
+     "publisher": "Meduza",
+     "region": "europe",
+     "section": null,
+     "title": "Zelensky says Starshield again being restricted at the front",
+     "type": "local",
+     "url": "https://meduza.io/en/news/2026/11/12/zelensky-says-starshield-again-being-restricted-at-the-front"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "3cefc412ef623f26",
+     "lang": "en",
+     "outlet": "Ukrainska Pravda",
+     "published": "2026-11-12T09:13:00+00:00",
+     "publisher": "Ukrainska Pravda",
+     "region": "europe",
+     "section": null,
+     "title": "Zelenskyy: Systematic Starshield speed restrictions reported again on front line",
+     "type": "local",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062470/"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "zelenskyy-starshield-satellite-restrictions",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 5,
+   "reports": [
+    {
+     "articles": [
+      "d79be2561f47da27"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-12T10:03:45+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/world/live/2026/nov/12/us-envoys-in-moscow-meeting-putin-abu-dhabi-trilateral-ukraine-ceasefire-talks-latest-news-updates) reported that Ukraine's president stated unwelcome speed restrictions on military connectivity are helping Russians kill."
+    },
+    {
+     "articles": [
+      "3cefc412ef623f26"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Ukrainska Pravda"
+     ],
+     "published": "2026-11-12T09:13:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/12/8062470/) reported that President Volodymyr Zelenskyy stated deliberate 161 km/h speed caps on Starshield allowed Russian drone strikes to penetrate air defences over recent areas."
+    },
+    {
+     "articles": [
+      "cfe412768c83c22b"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Meduza"
+     ],
+     "published": "2026-11-12T09:45:05+00:00",
+     "text": "[Meduza](https://meduza.io/en/news/2026/11/12/zelensky-says-starshield-again-being-restricted-at-the-front) reported that Ukrainian military units observed significant malfunctions in Starshield satellite communications for several days."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "ukraine",
+   "title": "Zelenskyy Starshield satellite restrictions"
+  },
+  {
+   "article_count": 4,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "fa82076c16f34afd",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-12T10:30:00+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "بتلبس أي حاجة.. ناقد موضة يحرج يسرا بسبب فستانها في افتتاح مهرجان القاهرة",
+     "type": "local",
+     "url": "https://www.elbalad.news/7177605"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "0c83fa696372f60e",
+     "lang": "ar",
+     "outlet": "Al-Masry Al-Youm",
+     "published": "2026-11-11T18:05:09+00:00",
+     "publisher": "Al-Masry Al-Youm",
+     "region": "mena",
+     "section": null,
+     "title": "آسر ياسين وزوجته يخطفان الأنظار بإطلالتهما على السجادة الحمراء لمهرجان القاهرة السينمائي",
+     "type": "local",
+     "url": "https://www.almasryalyoum.com/news/details/4407870"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "6a318bb0281f2736",
+     "lang": "ar",
+     "outlet": "Al-Masry Al-Youm",
+     "published": "2026-11-11T18:02:52+00:00",
+     "publisher": "Al-Masry Al-Youm",
+     "region": "mena",
+     "section": null,
+     "title": "إطلالة باللون البرغندي.. هبة مجدي في افتتاح مهرجان القاهرة السينمائي الـ 47",
+     "type": "local",
+     "url": "https://www.almasryalyoum.com/news/details/4407868"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "86f631d5be93dcb4",
+     "lang": "ar",
+     "outlet": "Al-Masry Al-Youm",
+     "published": "2026-11-11T17:54:51+00:00",
+     "publisher": "Al-Masry Al-Youm",
+     "region": "mena",
+     "section": null,
+     "title": "نرمين الفقي تخطف الأنظار بإطلالة أنيقة في افتتاح مهرجان القاهرة السينمائي الـ47 (بث مباشر)",
+     "type": "local",
+     "url": "https://www.almasryalyoum.com/news/details/4407859"
+    }
+   ],
+   "articles_today": 4,
+   "first_seen": "2026-11-12",
+   "group": "mena",
+   "id": "cairo-international-film-festival-opening",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "86f631d5be93dcb4"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Al-Masry Al-Youm"
+     ],
+     "published": "2026-11-11T17:54:51+00:00",
+     "text": "[Al-Masry Al-Youm](https://www.almasryalyoum.com/news/details/4407859) reported that Nermen El Feky attracted attention with an elegant look during her attendance at the 47th Cairo Film Festival opening ceremony."
+    },
+    {
+     "articles": [
+      "6a318bb0281f2736"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Al-Masry Al-Youm"
+     ],
+     "published": "2026-11-11T18:02:52+00:00",
+     "text": "[Al-Masry Al-Youm](https://www.almasryalyoum.com/news/details/4407868) reported that Hoda Magdy attended the 47th Cairo International Film Festival wearing a long burgundy dress."
+    },
+    {
+     "articles": [
+      "0c83fa696372f60e"
+     ],
+     "date": "2026-11-12",
+     "group": "mena",
+     "outlets": [
+      "Al-Masry Al-Youm"
+     ],
+     "published": "2026-11-11T18:05:09+00:00",
+     "text": "[Al-Masry Al-Youm](https://www.almasryalyoum.com/news/details/4407870) reported that Asser Yassin and his wife drew attention with their elegant looks on the red carpet."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "egypt",
+   "title": "Cairo International Film Festival opening"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "dates": [
+      "2026-11-12"
+     ],
+     "id": "f0a903664b7dd155",
+     "lang": "es",
+     "outlet": "El Estímulo",
+     "published": "2026-11-12T09:58:00+00:00",
+     "publisher": "El Estímulo",
+     "region": "latam",
+     "section": null,
+     "title": "El Ebenezer Scrooge de Johnny Depp al fin llega al cine",
+     "type": "local",
+     "url": "https://elestimulo.com/ub/cinemania/2026-11-12/ebenezer-scrooge-de-johnny-depp-cine/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "b53f093379f60e4c",
+     "lang": "fr",
+     "outlet": "Le Monde",
+     "published": "2026-11-10T23:00:06+00:00",
+     "publisher": "Le Monde",
+     "region": "europe",
+     "section": null,
+     "title": "« Scrooge » : Johnny Depp pris dans une machinerie visuelle étouffante",
+     "type": "local",
+     "url": "https://www.lemonde.fr/culture/article/2026/11/11/scrooge-johnny-depp-pris-dans-une-machinerie-visuelle-etouffante_6808910_3246.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "global",
+   "id": "johnny-depp-scrooge-film-release",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b53f093379f60e4c"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "Le Monde"
+     ],
+     "published": "2026-11-10T23:00:06+00:00",
+     "text": "[Le Monde](https://www.lemonde.fr/culture/article/2026/11/11/scrooge-johnny-depp-pris-dans-une-machinerie-visuelle-etouffante_6808910_3246.html) reported that Ti West's feature film inspired by Charles Dickens' A Christmas Carol offers Johnny Depp a spectacular composition as a miser."
+    },
+    {
+     "articles": [
+      "f0a903664b7dd155"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "El Estímulo"
+     ],
+     "published": "2026-11-12T09:58:00+00:00",
+     "text": "[El Estímulo](https://elestimulo.com/ub/cinemania/2026-11-12/ebenezer-scrooge-de-johnny-depp-cine/) reported that the movie Ebenezer: los fantasmas de Navidad delivers the immortal character created by Charles Dickens."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Johnny Depp Scrooge film release"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "2232ed5176431ed1",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-12T10:02:53+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "Democrat Mary Peltola loses court bid for rejected ballot list as Alaska count continues",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/alaska-judge-peltola-absentee-ballots-b3083730.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "656ba5d252505cb1",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-11T01:07:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Judge weighs lawsuit brought by Peltola campaign over absentee ballots in Alaska's US Senate race",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcmJCX19oeTRWOEpPbDFlaGtEa2dvQVZIZWJQcTMzRnEybnlTcDFmMC1Qc1NUZDVLU2JOdDNuRF8wQ0NWdG1hNUtRLU5Xc3h5VmdIWnVQd01NTVQyb1lOS096M1VTU1VNcm90UmVKcTh2X3FpbWNtbFdrSzRPZHFsblVOSXNlU0lybG9oelJucndXUnFDWXhXLTFWeXFzRWpzem1jUENPRVhiUjg?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "namerica",
+   "id": "alaska-us-senate-race-ballot-lawsuit",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "656ba5d252505cb1"
+     ],
+     "date": "2026-11-12",
+     "group": "namerica",
+     "outlets": [
+      "Associated Press"
+     ],
+     "published": "2026-11-11T01:07:00+00:00",
+     "text": "[Associated Press](https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcmJCX19oeTRWOEpPbDFlaGtEa2dvQVZIZWJQcTMzRnEybnlTcDFmMC1Qc1NUZDVLU2JOdDNuRF8wQ0NWdG1hNUtRLU5Xc3h5VmdIWnVQd01NTVQyb1lOS096M1VTU1VNcm90UmVKcTh2X3FpbWNtbFdrSzRPZHFsblVOSXNlU0lybG9oelJucndXUnFDWXhXLTFWeXFzRWpzem1jUENPRVhiUjg?oc=5) reported that a judge is weighing a lawsuit brought by the Peltola campaign over absentee ballots in Alaska's US Senate race."
+    },
+    {
+     "articles": [
+      "2232ed5176431ed1"
+     ],
+     "date": "2026-11-12",
+     "group": "namerica",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-12T10:02:53+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/us-politics/alaska-judge-peltola-absentee-ballots-b3083730.html) reported that Democrat Mary Peltola lost a court bid for a rejected ballot list as the Alaska count continues in the only uncalled Senate race in the country."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "us",
+   "title": "Alaska US Senate race ballot lawsuit"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "b05b0b72297df69d",
+     "lang": "en",
+     "outlet": "DW",
+     "published": "2026-11-12T08:45:00+00:00",
+     "publisher": "DW",
+     "region": "global",
+     "section": null,
+     "title": "Bundeswehr study exposes widespread sexual harassment in German military",
+     "type": "international",
+     "url": "https://www.dw.com/en/bundeswehr-study-exposes-widespread-sexual-harassment-in-german-military/a-79926359?maca=en-rss-en-all-1573-rdf"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "e52b73d3c4f0d1c5",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-11T14:31:56+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "German military promises action after report shows widespread sexual abuse",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORTFJZ2x1elBBZGNGaTV3NW1SME1pZW80T01Bb0R0dkpndllVZHpPTDNySl9Hc25CRUJXendObVN5QkRuNThWRHo2c2ducGEybU5Ua3htSmlnd0VkTDJnYXkzN1E4amlxRE05ZkFZOTdsRHJQVFQtMEI4blhzMG80Ry0yZ09TVW5DRjRkUDdHRkNmUXNGZlBOb2plZjF5UlB4aWpjbnBVZTBLOWYyWmVxTDdGMjA1Ums?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "german-military-sexual-harassment-study",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e52b73d3c4f0d1c5"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Reuters"
+     ],
+     "published": "2026-11-11T14:31:56+00:00",
+     "text": "[Reuters](https://news.google.com/rss/articles/CBMitwFBVV95cUxORTFJZ2x1elBBZGNGaTV3NW1SME1pZW80T01Bb0R0dkpndllVZHpPTDNySl9Hc25CRUJXendObVN5QkRuNThWRHo2c2ducGEybU5Ua3htSmlnd0VkTDJnYXkzN1E4amlxRE05ZkFZOTdsRHJQVFQtMEI4blhzMG80Ry0yZ09TVW5DRjRkUDdHRkNmUXNGZlBOb2plZjF5UlB4aWpjbnBVZTBLOWYyWmVxTDdGMjA1Ums?oc=5) reported that the German military promised action after a report showed widespread sexual abuse."
+    },
+    {
+     "articles": [
+      "b05b0b72297df69d"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "DW"
+     ],
+     "published": "2026-11-12T08:45:00+00:00",
+     "text": "[DW](https://www.dw.com/en/bundeswehr-study-exposes-widespread-sexual-harassment-in-german-military/a-79926359?maca=en-rss-en-all-1573-rdf) reported that a Bundeswehr study exposed widespread sexual harassment, noting younger women are disproportionately affected."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "germany",
+   "title": "German military sexual harassment study"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "fbc1062b9a29903d",
+     "lang": "en",
+     "outlet": "Pakistan Observer",
+     "published": "2026-11-12T05:28:31+00:00",
+     "publisher": "Pakistan Observer",
+     "region": "asia",
+     "section": null,
+     "title": "Islamabad in spotlight as Pakistan Minerals Investment Forum 2026 kicks off today",
+     "type": "local",
+     "url": "https://pakobserver.net/islamabad-in-spotlight-as-pakistan-minerals-investment-forum-2026-kicks-off-today/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "3f83c646cf762ce9",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-12T02:44:09+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Pakistan courts global investors at Minerals Investment Forum as provinces outline opportunities",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2639911/pakistan-courts-global-investors-at-minerals-investment-forum-as-provinces-outline-opportunities"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "asia",
+   "id": "pakistan-minerals-investment-forum",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3f83c646cf762ce9"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-12T02:44:09+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2639911/pakistan-courts-global-investors-at-minerals-investment-forum-as-provinces-outline-opportunities) reported that DPM Dar highlighted Pakistan's vast mineral resources and efforts to diversify its export base at the Minerals Investment Forum."
+    },
+    {
+     "articles": [
+      "fbc1062b9a29903d"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Pakistan Observer"
+     ],
+     "published": "2026-11-12T05:28:31+00:00",
+     "text": "[Pakistan Observer](https://pakobserver.net/islamabad-in-spotlight-as-pakistan-minerals-investment-forum-2026-kicks-off-today/) reported that the Pakistan Minerals Investment Forum 2026 is scheduled to begin at the Jinnah Convention Centre in Islamabad."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "pakistan",
+   "title": "Pakistan Minerals Investment Forum"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "741288d8d322a55d",
+     "lang": "en",
+     "outlet": "Dawn (Pakistan)",
+     "published": "2026-11-12T10:06:56+00:00",
+     "publisher": "Dawn (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "At COP31, PM Shehbaz calls for grant-based finance, resilience funding for climate-vulnerable countries",
+     "type": "local",
+     "url": "https://www.dawn.com/news/2044031/at-cop31-pm-shehbaz-calls-for-grant-based-finance-resilience-funding-for-climate-vulnerable-countries"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "524d08354e5ab800",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-12T03:31:57+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "PM Shehbaz urges grant-based climate finance, warns against 'weaponising water'",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2639916/pm-shehbaz-urges-grant-based-climate-finance-warns-against-weaponizing-water"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "asia",
+   "id": "cop31-climate-finance-discussions",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "524d08354e5ab800"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-12T03:31:57+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2639916/pm-shehbaz-urges-grant-based-climate-finance-warns-against-weaponizing-water) reported that PM Shehbaz urged grant-based climate finance and warned against weaponising water."
+    },
+    {
+     "articles": [
+      "741288d8d322a55d"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "Dawn (Pakistan)"
+     ],
+     "published": "2026-11-12T10:06:56+00:00",
+     "text": "[Dawn (Pakistan)](https://www.dawn.com/news/2044031/at-cop31-pm-shehbaz-calls-for-grant-based-finance-resilience-funding-for-climate-vulnerable-countries) reported that Prime Minister Shehbaz Sharif called for grant-based finance and improved resilience and adaptation funds at COP31."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "COP31 climate finance discussions"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "19212262f44134dd",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-12T10:23:50+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "NDC deputy national publicity secretary dumps party",
+     "type": "local",
+     "url": "https://punchng.com/ndc-deputy-national-publicity-secretary-dumps-party/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "8fd2a5186f3dc530",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-12T08:19:38+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "2027: Setback for NDC as another chieftain dumps party",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/2027-setback-for-ndc-as-another-chieftain-dumps-party/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "africa",
+   "id": "nigeria-democratic-congress-leadership-resignation",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8fd2a5186f3dc530"
+     ],
+     "date": "2026-11-12",
+     "group": "africa",
+     "outlets": [
+      "Nigerian Tribune"
+     ],
+     "published": "2026-11-12T08:19:38+00:00",
+     "text": "[Nigerian Tribune](https://tribuneonlineng.com/2027-setback-for-ndc-as-another-chieftain-dumps-party/) reported that the crisis rocking the Nigeria Democratic Congress deepened following the resignation of another chieftain."
+    },
+    {
+     "articles": [
+      "19212262f44134dd"
+     ],
+     "date": "2026-11-12",
+     "group": "africa",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-12T10:23:50+00:00",
+     "text": "[Punch](https://punchng.com/ndc-deputy-national-publicity-secretary-dumps-party/?utm_source=rss.punchng.com&utm_medium=web) reported that the Deputy National Publicity Secretary of the Nigeria Democratic Congress, Abdulmumin Abdulsalami, resigned citing injustice and exclusion."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "nigeria",
+   "title": "Nigeria Democratic Congress leadership resignation"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "29ddc360909e453d",
+     "lang": "en",
+     "outlet": "Anadolu Agency",
+     "published": "2026-11-12T09:31:42+00:00",
+     "publisher": "Anadolu Agency",
+     "region": "mena",
+     "section": null,
+     "title": "İstanbul Kuzey Demir Yolu Geçişi Projesi için 25 teklif verildi",
+     "type": "state-media",
+     "url": "https://www.aa.com.tr/tr/ekonomi/istanbul-kuzey-demir-yolu-gecisi-projesi-icin-25-teklif-verildi/4122122"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "2c66d48edfc48f6a",
+     "lang": "tr",
+     "outlet": "Sabah",
+     "published": "2026-11-12T08:50:37+00:00",
+     "publisher": "Sabah",
+     "region": "mena",
+     "section": null,
+     "title": "Kuzey Demiryolu Geçişi Projesi'ne yoğun ilgi! Bakan Uraloğlu açıkladı: Toplam 25 teklif aldık",
+     "type": "local",
+     "url": "https://www.sabah.com.tr/ekonomi/kuzey-demiryolu-gecisi-projesine-yogun-ilgi-bakan-uraloglu-acikladi-toplam-25-teklif-aldik-7700197"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "istanbul-northern-railway-crossing-project-bids",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "turkey",
+   "title": "Istanbul Northern Railway Crossing Project bids"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "6f40fcb07b0761a3",
+     "lang": "en",
+     "outlet": "Anadolu Agency",
+     "published": "2026-11-12T10:01:51+00:00",
+     "publisher": "Anadolu Agency",
+     "region": "mena",
+     "section": null,
+     "title": "MSB: Somali'ye 15 bin asker gönderileceği yönündeki iddialar gerçeği yansıtmamaktadır",
+     "type": "state-media",
+     "url": "https://www.aa.com.tr/tr/gundem/msb-somaliye-15-bin-asker-gonderilecegi-yonundeki-iddialar-gercegi-yansitmamaktadir/4122182"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "a6110e597d8f71a1",
+     "lang": "tr",
+     "outlet": "Sabah",
+     "published": "2026-11-12T08:58:28+00:00",
+     "publisher": "Sabah",
+     "region": "mena",
+     "section": null,
+     "title": "Milli Savunma Bakanlığı Somali’ye 15 bin asker gönderileceği iddiasını yalanladı",
+     "type": "local",
+     "url": "https://www.sabah.com.tr/gundem/2026/11/12/milli-savunma-bakanligi-somaliye-15-bin-asker-gonderilecegi-iddiasini-yalanladi"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "africa",
+   "id": "turkish-defense-ministry-denies-somali-troop",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "somalia",
+   "title": "Turkish Defense Ministry denies Somali troop claims"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "dates": [
+      "2026-11-11"
+     ],
+     "id": "1024064764053991",
+     "lang": "en",
+     "outlet": "Africanews",
+     "published": "2026-11-12T09:08:02+00:00",
+     "publisher": "Africanews",
+     "region": "africa",
+     "section": null,
+     "title": "Peru: Pope Leo XIV returns to his adopted homeland on historic visit",
+     "type": "regional",
+     "url": "http://www.africanews.com/2026/11/12/peru-pope-leo-xiv-returns-to-his-adopted-homeland-on-historic-visit/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "6fc17aadf50cbbbe",
+     "lang": "en",
+     "outlet": "Euronews",
+     "published": "2026-11-12T09:00:13+00:00",
+     "publisher": "Euronews",
+     "region": "europe",
+     "section": null,
+     "title": "Pope Leo XIV welcomed by millions on return to his second home Peru",
+     "type": "international",
+     "url": "https://www.euronews.com/2026/11/12/pope-leo-xiv-welcomed-by-millions-on-return-to-his-second-home-peru"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "latam",
+   "id": "pope-leo-xiv-visit-to-peru",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6fc17aadf50cbbbe"
+     ],
+     "date": "2026-11-12",
+     "group": "latam",
+     "outlets": [
+      "Euronews"
+     ],
+     "published": "2026-11-12T09:00:13+00:00",
+     "text": "[Euronews](https://www.euronews.com/2026/11/12/pope-leo-xiv-welcomed-by-millions-on-return-to-his-second-home-peru) reported that Pope Leo XIV started the final stage of his Latin American tour with a six-day visit to Peru."
+    },
+    {
+     "articles": [
+      "1024064764053991"
+     ],
+     "date": "2026-11-12",
+     "group": "latam",
+     "outlets": [
+      "Africanews"
+     ],
+     "published": "2026-11-12T09:08:02+00:00",
+     "text": "[Africanews](http://www.africanews.com/2026/11/12/peru-pope-leo-xiv-returns-to-his-adopted-homeland-on-historic-visit/) reported that Pope Leo XIV received a welcome in Peru where he spent more than two decades as a missionary and bishop, greeted by President Keiko Fujimori."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "peru",
+   "title": "Pope Leo XIV visit to Peru"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "7c107e2a86d8cc3b",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-12T09:23:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Direktorica klinike u kojoj je preminuo Kristian Josip Periš podnijela ostavku, inspekcija utvrdila brojne nepravilnosti",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/regija/direktorica-klinike-u-kojoj-je-preminuo-kristian-josip-peris-podnijela-ostavku-inspekcija-utvrdila-brojne-nepravilnosti/261112093"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "b4c3e3de78f4cb9c",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-12T09:00:15+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Direktorica klinike podnijela ostavku nakon smrti Periša i otkrivenih propusta",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/region/direktorica-klinike-podnijela-ostavku-nakon-smrti-perisa-i-otkrivenih-propusta/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "zagreb-psychiatric-clinic-director-resignation",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b4c3e3de78f4cb9c"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Oslobođenje"
+     ],
+     "published": "2026-11-12T09:00:15+00:00",
+     "text": "[Oslobođenje](https://www.oslobodjenje.ba/vijesti/region/direktorica-klinike-podnijela-ostavku-nakon-smrti-perisa-i-otkrivenih-propusta/) reported that the director of the clinic submitted her resignation following the death of Peris and discovered omissions."
+    },
+    {
+     "articles": [
+      "7c107e2a86d8cc3b"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-12T09:23:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/regija/direktorica-klinike-u-kojoj-je-preminuo-kristian-josip-peris-podnijela-ostavku-inspekcija-utvrdila-brojne-nepravilnosti/261112093) reported that Majda Grah, director of the Sveti Ivan Psychiatric Clinic in Jankomir, Zagreb, resigned after an inspection determined numerous irregularities."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Zagreb psychiatric clinic director resignation"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "7e13eb2b2124416d",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T09:10:24+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Nvidia's Asian supply chain prepares for life after Jensen Huang",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/nvidias-asian-supply-chain-prepares-for-life-after-jensen-huang-101794474356125.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "b588121c3c1ef6c3",
+     "lang": "en",
+     "outlet": "The Japan Times",
+     "published": "2026-11-12T09:06:00+00:00",
+     "publisher": "The Japan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Nvidia’s Asian supply chain prepares for life after Huang",
+     "type": "local",
+     "url": "https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "namerica",
+   "id": "nvidia-asian-supply-chain-future",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b588121c3c1ef6c3"
+     ],
+     "date": "2026-11-12",
+     "group": "namerica",
+     "outlets": [
+      "The Japan Times"
+     ],
+     "published": "2026-11-12T09:06:00+00:00",
+     "text": "[The Japan Times](https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/) reported that Nvidia's Asian supply chain is preparing for life after Huang as the board meets to decide his future."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia Asian supply chain future"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "847578ee8883deb4",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-12T10:32:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Preminuo američki glumac i komičar Anthony Clark, poznat po seriji \"Yes, Dear\"",
+     "type": "local",
+     "url": "https://www.klix.ba/magazin/film-tv/preminuo-americki-glumac-i-komicar-anthony-clark-poznat-po-seriji-yes-dear/261112120"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "a42529f02769e525",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-12T09:07:58+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Anthony Clark, Yes Dear star, died at 62 from pneumonia-related complications",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/anthony-clark-cause-of-death-update-yes-dear-star-died-at-62-from-pneumonia-related-complications-101794472424274.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "global",
+   "id": "anthony-clark-death",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a42529f02769e525"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-12T09:07:58+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/anthony-clark-cause-of-death-update-yes-dear-star-died-at-62-from-pneumonia-related-complications-101794472424274.html) reported that actor Anthony Clark died at 62 from pneumonia-related complications after starring in Yes, Dear."
+    },
+    {
+     "articles": [
+      "847578ee8883deb4"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-12T10:32:00+00:00",
+     "text": "[Klix](https://www.klix.ba/magazin/film-tv/preminuo-americki-glumac-i-komicar-anthony-clark-poznat-po-seriji-yes-dear/261112120) reported that American actor and comedian Anthony Clark passed away on November 10 at the age of 62."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Anthony Clark death"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "3a1ec8af94eaa9ce",
+     "lang": "en",
+     "outlet": "CBC",
+     "published": "2026-11-12T09:54:59+00:00",
+     "publisher": "CBC",
+     "region": "namerica",
+     "section": null,
+     "title": "Missing teen found alive after 6 days in the Australian woodlands",
+     "type": "international",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pcnUwUmdVRU5lMi0zeHFVZ3dMNUhRZ2dmNkJzVEhTaVRQSkVRSkhPaE82bkpRaGRkcmFXaW9LUkdIWjZoM3ZvZjFvY1JzLUJ3T1RjcEc2bXlWM3JkODNDWEZHaVMzLUlrZXotNDJLZHQwR3MyMTFz?oc=5"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "1c12fe76597e6508",
+     "lang": "en",
+     "outlet": "DW",
+     "published": "2026-11-12T09:14:00+00:00",
+     "publisher": "DW",
+     "region": "global",
+     "section": null,
+     "title": "Australian teen found alive after six days in the bush",
+     "type": "international",
+     "url": "https://www.dw.com/en/australian-teen-found-alive-after-six-days-in-the-bush/a-79926046?maca=en-rss-en-all-1573-rdf"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "asia",
+   "id": "missing-australian-teen-found-alive",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1c12fe76597e6508"
+     ],
+     "date": "2026-11-12",
+     "group": "asia",
+     "outlets": [
+      "DW"
+     ],
+     "published": "2026-11-12T09:14:00+00:00",
+     "text": "[DW](https://www.dw.com/en/australian-teen-found-alive-after-six-days-in-the-bush/a-79926046?maca=en-rss-en-all-1573-rdf) reported that an Australian teenager was found alive after six days in the bush when he was spotted during an aerial search."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "australia",
+   "title": "Missing Australian teen found alive"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "b05a618a3ce073ed",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-12T10:18:49+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "España roza ya los 50 millones de habitantes",
+     "type": "local",
+     "url": "https://elpais.com/sociedad/2026-11-12/espana-roza-ya-los-50-millones-de-habitantes.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "f333ff54a530c4be",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-12T09:17:28+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "España roza los 50 millones de habitantes: la población extranjera impulsa el crecimiento",
+     "type": "local",
+     "url": "https://www.larazon.es/sociedad/espana-roza-50-millones-habitantes-poblacion-extranjera-impulsa-crecimiento_202611126af584284196933d7eda6178.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "spain-population-growth-foreign-residents",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f333ff54a530c4be"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "La Razón"
+     ],
+     "published": "2026-11-12T09:17:28+00:00",
+     "text": "[La Razón](https://www.larazon.es/sociedad/espana-roza-50-millones-habitantes-poblacion-extranjera-impulsa-crecimiento_202611126af584284196933d7eda6178.html) reported that foreign-born population growth represents 98.8 percent of Spain's total population increase toward 50 million."
+    },
+    {
+     "articles": [
+      "b05a618a3ce073ed"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-12T10:18:49+00:00",
+     "text": "[El País](https://elpais.com/sociedad/2026-11-12/espana-roza-ya-los-50-millones-de-habitantes.html) reported that there are 49.94 million people living in Spain, according to INE data as of October 1."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "spain",
+   "title": "Spain population growth foreign residents"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "f7cc71fc75fd5e73",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-12T10:36:45+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "Bomb alert at Calais-Fréthun station in northern France halts Eurostar trains to London",
+     "type": "local",
+     "url": "https://www.jpost.com/international/article-914681"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "b388ed92516c2f66",
+     "lang": "en",
+     "outlet": "Sky News World",
+     "published": "2026-11-12T09:27:00+00:00",
+     "publisher": "Sky News World",
+     "region": "global",
+     "section": null,
+     "title": "Bomb alert at Calais train station affects Eurostar",
+     "type": "international",
+     "url": "https://news.sky.com/story/bomb-alert-at-calais-train-station-affects-eurostar-13611403"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "global",
+   "id": "calais-train-station-bomb-alert",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b388ed92516c2f66"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "Sky News World"
+     ],
+     "published": "2026-11-12T09:27:00+00:00",
+     "text": "[Sky News World](https://news.sky.com/story/bomb-alert-at-calais-train-station-affects-eurostar-13611403) reported that a bomb alert at a Calais train station affected Eurostar trains."
+    },
+    {
+     "articles": [
+      "f7cc71fc75fd5e73"
+     ],
+     "date": "2026-11-12",
+     "group": "global",
+     "outlets": [
+      "The Jerusalem Post"
+     ],
+     "published": "2026-11-12T10:36:45+00:00",
+     "text": "[The Jerusalem Post](https://www.jpost.com/international/article-914681) reported that the bomb alert at Calais-Frethun station in northern France halted Eurostar trains to London."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "france",
+   "title": "Calais train station bomb alert"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "b619988e68004b34",
+     "lang": "ru",
+     "outlet": "RIA Novosti",
+     "published": "2026-11-12T10:07:09+00:00",
+     "publisher": "RIA Novosti",
+     "region": "europe",
+     "section": null,
+     "title": "Ефимов: новый пешеходный маршрут связал два района на западе Москвы",
+     "type": "state-media",
+     "url": "https://ria.ru/20261112/efimov-2131066619.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "b661afe8b61ee0ce",
+     "lang": "ru",
+     "outlet": "Novaya Gazeta Europe",
+     "published": "2026-11-12T09:32:39+00:00",
+     "publisher": "Novaya Gazeta Europe",
+     "region": "europe",
+     "section": null,
+     "title": "На западе Москвы загорелись два автомобиля",
+     "type": "local",
+     "url": "https://novayagazeta.eu/articles/2026/11/12/na-zapade-moskvy-zagorelis-dva-avtomobilia-news"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "moscow-matveevskaya-street-car-fire",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "russia",
+   "title": "Moscow Matveevskaya street car fire"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "4323b7b3d85b12d9",
+     "lang": "en",
+     "outlet": "AllAfrica",
+     "published": "2026-11-12T10:35:57+00:00",
+     "publisher": "AllAfrica",
+     "region": "africa",
+     "section": null,
+     "title": "Congo-Kinshasa: Medical Charity Warns Funds for DR Congo Ebola Fight Not Reaching Front",
+     "type": "regional",
+     "url": "https://allafrica.com/stories/202611120312.html"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "24e916bb49095caa",
+     "lang": "en",
+     "outlet": "RFI English",
+     "published": "2026-11-12T09:32:54+00:00",
+     "publisher": "RFI",
+     "region": "global",
+     "section": null,
+     "title": "Medical charity warns funds for DR Congo Ebola fight not reaching front",
+     "type": "international",
+     "url": "https://www.rfi.fr/en/africa/20261112-funds-for-dr-congo-ebola-fight-not-reaching-front-french-medical-charity-msf-says"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "africa",
+   "id": "dr-congo-ebola-outbreak-aid-concerns",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "24e916bb49095caa"
+     ],
+     "date": "2026-11-12",
+     "group": "africa",
+     "outlets": [
+      "RFI"
+     ],
+     "published": "2026-11-12T09:32:54+00:00",
+     "text": "[RFI](https://www.rfi.fr/en/africa/20261112-funds-for-dr-congo-ebola-fight-not-reaching-front-french-medical-charity-msf-says) reported that six months into Congo's Ebola outbreak, the virus is still spreading out of control and large sums of international aid are not reaching the front line."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "drc",
+   "title": "DR Congo Ebola outbreak aid concerns"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "39666eae87f91b92",
+     "lang": "en",
+     "outlet": "Legit (Nigeria)",
+     "published": "2026-11-12T10:04:16+00:00",
+     "publisher": "Legit (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "NYSC Camp Crisis: Group Reveals How 4,300 Corps Members Share Sagamu Facility",
+     "type": "local",
+     "url": "https://www.legit.ng/nigeria/1740957-1-nysc-camps-governors-told-improve-accommodation-sanitation-corps-members/"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "8717ed6978338d2f",
+     "lang": "en",
+     "outlet": "The Authority (Nigeria)",
+     "published": "2026-11-12T09:36:12+00:00",
+     "publisher": "The Authority (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "NYSC Camp Congestion: Centre Tasks State Governors to Rise to their Civic Responsibilities, Improve on Corp Members Welfare",
+     "type": "local",
+     "url": "https://authorityngr.com/2026/11/12/nysc-camp-congestion-centre-tasks-state-governors-to-rise-to-their-civic-responsibilities-improve-on-corp-members-welfare/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "africa",
+   "id": "nysc-camp-congestion-in-nigeria",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8717ed6978338d2f"
+     ],
+     "date": "2026-11-12",
+     "group": "africa",
+     "outlets": [
+      "The Authority (Nigeria)"
+     ],
+     "published": "2026-11-12T09:36:12+00:00",
+     "text": "[The Authority (Nigeria)](https://authorityngr.com/2026/11/12/nysc-camp-congestion-centre-tasks-state-governors-to-rise-to-their-civic-responsibilities-improve-on-corp-members-welfare/) reported that CESJET expressed deep concern over persistent congestion and inadequate accommodation facilities at NYSC camps."
+    },
+    {
+     "articles": [
+      "39666eae87f91b92"
+     ],
+     "date": "2026-11-12",
+     "group": "africa",
+     "outlets": [
+      "Legit (Nigeria)"
+     ],
+     "published": "2026-11-12T10:04:16+00:00",
+     "text": "[Legit (Nigeria)](https://www.legit.ng/nigeria/1740957-1-nysc-camps-governors-told-improve-accommodation-sanitation-corps-members/) reported that CESJET urged Nigerian governors to tackle overcrowding after over 4,300 corps members were deployed to a Sagamu facility built for 2,000."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "nigeria",
+   "title": "NYSC camp congestion in Nigeria"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "45d0832efbd9f23a",
+     "lang": "en",
+     "outlet": "Anadolu Agency",
+     "published": "2026-11-12T09:41:37+00:00",
+     "publisher": "Anadolu Agency",
+     "region": "mena",
+     "section": null,
+     "title": "Kırmızı bültenle aranan \"yeni nesil suç örgütü\" elebaşı Sayal, Yunanistan'da yakalandı",
+     "type": "state-media",
+     "url": "https://www.aa.com.tr/tr/gundem/kirmizi-bultenle-aranan-yeni-nesil-suc-orgutu-elebasi-sayal-yunanistanda-yakalandi/4122144"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "7b93d882c413dd1f",
+     "lang": "tr",
+     "outlet": "Sabah",
+     "published": "2026-11-12T09:38:07+00:00",
+     "publisher": "Sabah",
+     "region": "mena",
+     "section": null,
+     "title": "Son dakika: Yeni nesil organize suç örgütü elebaşı Sercan Sayal yakalandı",
+     "type": "local",
+     "url": "https://www.sabah.com.tr/gundem/2026/11/12/yeni-nesil-organize-suc-orgutu-elebasi-sercan-sayal-yakalandi"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "sercan-sayal-arrested-in-greece",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "greece",
+   "title": "Sercan Sayal arrested in Greece"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-12",
+     "id": "4026c71069595b64",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-12T10:32:18+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Policija u Nikšiću pretresa objekte koje koriste škaljarci i kavčani, pronađeni oružje, novac i narkotici",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/region/1087352/policija-u-niksicu-pretresa-objekte-koje-koriste-skaljarci-i-kavcani-pronadjeni-oruzje-novac-i-narkotici"
+    },
+    {
+     "added": "2026-11-12",
+     "id": "54df6a59d65a3c48",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-12T09:55:21+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Crna Gora: Policija masovno pretresa objekte škaljaraca i kavčana",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/ex-yu/Crna-Gora-Policija-masovno-pretresa-objekte-skaljaraca-i-kavcana/992041"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-12",
+   "group": "europe",
+   "id": "montenegro-police-raids-in-niksic",
+   "last_reported": "2026-11-12",
+   "last_updated": "2026-11-12",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "54df6a59d65a3c48"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Nezavisne Novine"
+     ],
+     "published": "2026-11-12T09:55:21+00:00",
+     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/ex-yu/Crna-Gora-Policija-masovno-pretresa-objekte-skaljaraca-i-kavcana/992041) reported that police in Niksic searched dozens of facilities used by members of the Skaljar and Kavac criminal clans."
+    },
+    {
+     "articles": [
+      "4026c71069595b64"
+     ],
+     "date": "2026-11-12",
+     "group": "europe",
+     "outlets": [
+      "Dnevni Avaz"
+     ],
+     "published": "2026-11-12T10:32:18+00:00",
+     "text": "[Dnevni Avaz](https://avaz.ba/vijesti/region/1087352/policija-u-niksicu-pretresa-objekte-koje-koriste-skaljarci-i-kavcani-pronadjeni-oruzje-novac-i-narkotici) reported that police in Niksic found weapons, money, and narcotics during searches of locations used by criminal clan members."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "montenegro",
+   "title": "Montenegro police raids in Niksic"
   }
  ],
+ "retry": [
+  "d0d91c268913e5b5",
+  "fdba28bfb9ab814f",
+  "f22e9199ef523fc1",
+  "192dea8fa57e6ee0",
+  "602c3989bb95ab31",
+  "ec004e6d4be95b28",
+  "76bb7ab27e3309c6",
+  "f3672a5bb755b5d6",
+  "69c127c009eb4c66",
+  "e012cdf0a2ef68d7",
+  "ea1d5440adea5546",
+  "59a3009ea5f1e4af",
+  "2c5dab1610d5cfc7",
+  "d1ef6c692ff2cad6",
+  "d8c0bd52a61f8877",
+  "e9bf006f92d1a963",
+  "4e518c4dfd79b436",
+  "f6f6f8915eca370e",
+  "b773c8c67cd2c84b",
+  "532a137d51e90b39",
+  "9a052c96eb153dfd",
+  "21637d96b652d3f5",
+  "d528027591fa9e67",
+  "65136c6f3c756804",
+  "58f981fde52ca4b1",
+  "497bd71a4ac47f4c",
+  "5e2a954b024953c2",
+  "8788cb98f53b564a",
+  "534963a9b190c1b8",
+  "f123bed3f719bdb9",
+  "cf7ef95355d9c387",
+  "20e60dbb118edfd7",
+  "0d057af0d878d2f4",
+  "f6790ea820384447",
+  "184d4d7a32c7181f",
+  "6e70c727f8e094fa",
+  "114ba2d8aaa550e2",
+  "a8484df378aab881",
+  "3262b92e42860785",
+  "9a0b81f76a0a2013",
+  "b0e84566e98c6323",
+  "c1c352fecec11b77",
+  "41f1dfaab6f2ea69",
+  "746b5746a5366997",
+  "b55feeeb5fddbc95",
+  "ad53a6f8fec2205d",
+  "fec7d6cce7a63fe0"
+ ],
  "site": "geo",
- "updated": "2026-11-12T08:42:39+00:00"
+ "updated": "2026-11-12T10:40:35+00:00"
 }
