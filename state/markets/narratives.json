@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 563,
+   "articles": 571,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 20,
+   "calls": 4,
+   "candidates": 21,
    "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 512,
-   "in_stories": 40,
-   "kept": 25,
+   "groups": 519,
+   "in_stories": 42,
+   "kept": 26,
    "merged": 1,
-   "new": 15,
+   "new": 16,
    "rejected": 9,
    "reported_by_2": 14,
-   "runs": 3,
-   "sent": 20,
+   "runs": 4,
+   "sent": 21,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -27,7 +27,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T13:05:25+00:00"
+  "all": "2026-11-13T13:17:24+00:00"
  },
  "narratives": [
   {
@@ -1156,9 +1156,69 @@
    "status": "new",
    "title": "Gas bills to rise as Middle East turmoil persists",
    "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "34a74178a901a890",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-13T12:55:01+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Bank of England’s Bailey warns on private credit risks",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/bank-of-englands-bailey-warns-on-private-credit-risks-93CH-5025233"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "76b55353008117e9",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-13T11:35:45+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Private Credit, Stablecoins Pose Risks Beyond Size, Bailey Warns",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/private-credit-stablecoins-pose-risks-beyond-size-bailey-warns"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "bank-of-england-private-credit-warnings",
+   "label": "Bank of England private credit warnings",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "34a74178a901a890",
+      "76b55353008117e9"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-13T11:35:45+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/private-credit-stablecoins-pose-risks-beyond-size-bailey-warns), [Investing.com](https://www.investing.com/news/stock-market-news/bank-of-englands-bailey-warns-on-private-credit-risks-93CH-5025233) reported that Bank of England Governor Andrew Bailey warned that private credit and stablecoins pose risks beyond their size."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bank of England private credit warnings",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T13:07:14+00:00"
+ "updated": "2026-11-13T13:17:40+00:00"
 }

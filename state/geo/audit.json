@@ -483,90 +483,98 @@
  },
  {
   "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Europe to Join Next Ukraine Peace Talks Following US-Putin Meeting",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Zelensky mirëpret përfshirjen e Evropës në bisedimet e paqes mes Rusisë dhe Ukra"
- },
- {
-  "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Star Wars Ultimate Auction",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Global Microsoft outage knocks out Outlook and other services",
+  "text": "[14] France 24 reported that Microsoft stated there is no sign of malicious activity behind the outage.",
+  "reason": "number not in cited articles: 24"
  },
  {
   "date": "2026-11-13",
   "kind": "skipped",
   "group": "europe",
-  "story": "Mauricio Pochettino Manchester United appointment",
+  "story": "Spain and Argentina weather forecasts",
   "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
- },
- {
-  "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): UN watchdog calls on Iran to reopen nuclear facilities to inspection"
- },
- {
-  "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): UN nuclear watchdog urges Iran to take 'steps' towards inspections"
+  "reason": "off-topic for this site (topic: weather): not created"
  },
  {
   "date": "2026-11-13",
   "kind": "rejected",
   "group": "mena",
-  "story": "IAEA increasingly concerned about Iranian enrichment plant, its report says",
-  "text": "[86] reported that the UN watchdog called on Iran to reopen nuclear facilities to inspection and stated it cannot verify whether an underground enrichment plant contains nuclear material.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "Dorian Ducka visit to UAE",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Tinder owner Irish data protection fine",
-  "text": "[96] reported that the Irish Data Protection Commission fined Match Group 11 million euros over Tinder's data tool compliance with GDPR.",
-  "reason": "wording not from cited articles: fined, match, group, million, euros, compliance"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "French social mobilizations and security deployment",
-  "text": "[102] reported that Laurent Nunez announced 70,000 police and gendarmes would be mobilized for social protests across France.",
+  "story": "Al-Aqsa Mosque Friday prayers",
+  "text": "[44][45] reported that 70,000 worshippers performed Friday prayers at the Al-Aqsa Mosque despite Israeli restrictions and checkpoints.",
   "reason": "number not in cited articles: 70000"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "global",
+  "story": "International Energy Agency global oil supply and diesel prices report",
+  "text": "[51] TASS reported that global oil refining throughput fell in October to a seasonal low of 81.3 million barrels per day.",
+  "reason": "number not in cited articles: 81300000"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Israel bars France's Mélenchon over call for French ships to escort Gaza flotillas",
+  "text": "[60] Al Jazeera reported that France slammed Israel's ban on left-wing leader Jean-Luc Mélenchon after France banned a prominent Israeli settler.",
+  "reason": "names not in cited articles: Jazeera, Jean-Luc"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "dropped",
+  "group": "africa",
+  "story": "",
+  "text": "Police arrest suspected robbers terrorising Kano communities",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "Australia cricket captain describes Khawaja’s Sandpapergate claim as ‘utter nonsense’",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-13",
   "kind": "dropped",
   "group": "latam",
   "story": "",
-  "text": "Sergio Mallandro admite que pegadinha envolvendo drogas com Rafael Ilha foi de mau gosto; relembre programa dos anos 1990",
+  "text": "Anitta vence o primeiro Grammy Latino da carreira com 'EQUILIBRIVM'",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-13",
   "kind": "merged",
+  "group": "europe",
+  "story": "Jensen Huang, Howard Lutnick to testify before US Congress amid Nvidia row: Reports",
+  "text": "Nvidia Asian supply chain future",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
+  "text": "Russian Drone Attack Damages Kyiv Trauma Institute",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
   "group": "africa",
-  "story": "DR Congo Ebola outbreak aid concerns",
-  "text": "DRC Ebola outbreak and insecurity",
+  "story": "Court Orders INEC to Reinstate Adebutu as Ogun PDP Guber Candidate Within 24 Hours",
+  "text": "2027: INEC will obey court ruling on Atiku’s candidacy – Amupitan",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Global Microsoft outage knocks out Outlook and other services",
+  "text": "Microsoft Outlook global outage attribution",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

@@ -50,25 +50,25 @@
   {
    "articles": 5374,
    "attached_by_code": 33,
-   "calls": 17,
-   "candidates": 581,
-   "continuing": 290,
-   "corroborated": 20,
+   "calls": 18,
+   "candidates": 616,
+   "continuing": 313,
+   "corroborated": 23,
    "date": "2026-11-13",
-   "dropped": 8,
+   "dropped": 11,
    "failed_calls": 0,
    "groups": 4787,
-   "in_stories": 1163,
-   "kept": 579,
-   "merged": 29,
-   "new": 218,
-   "rejected": 45,
+   "in_stories": 1219,
+   "kept": 603,
+   "merged": 33,
+   "new": 226,
+   "rejected": 49,
    "reported_by_2": 238,
-   "runs": 4,
-   "sent": 581,
-   "skipped": 39,
+   "runs": 5,
+   "sent": 616,
+   "skipped": 40,
    "split_calls": 0,
-   "updated": 138,
+   "updated": 143,
    "waiting": 0
   },
   {
@@ -96,7 +96,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T13:03:51+00:00"
+  "all": "2026-11-13T13:15:58+00:00"
  },
  "narratives": [
   {
@@ -1489,7 +1489,7 @@
    "title": "Poland: Krakow Mass Shooter Dies in Hospital Amid Terrorism Probe"
   },
   {
-   "article_count": 388,
+   "article_count": 392,
    "articles": [
     {
      "added": "2026-11-13",
@@ -2028,12 +2028,24 @@
    "label": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 29,
+   "outlets_today": 30,
    "previous_titles": [
     "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
     "Europe to Join Next Ukraine Peace Talks Following US-Putin Meeting"
    ],
    "reports": [
+    {
+     "articles": [
+      "d41d8f2e9253f166"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "NPR World"
+     ],
+     "published": "2026-11-12T15:26:34+00:00",
+     "text": "[NPR World](https://www.npr.org/2026/11/12/nx-s1-6038809/us-envoys-meet-putin-russia-ukraine-war-talks) NPR World reported that Jared Kushner and Steve Witkoff went to the Kremlin to brief Russian President Vladimir Putin."
+    },
     {
      "articles": [
       "185e2451e8d5096c",
@@ -2515,17 +2527,6 @@
       "La Razón"
      ],
      "text": "[La Razón](https://www.larazon.es/internacional/emisarios-trump-negocian-putin-moscu-otra-noche-misiles-drones_202611126af574ed9a31a65adcd94edd.html) reported that Moscow launched multiple ballistic missiles and 123 long-range drones against Kyiv and other areas of Ukraine."
-    },
-    {
-     "articles": [
-      "3790b29b7fd99a74"
-     ],
-     "date": "2026-11-12",
-     "group": "latam",
-     "outlets": [
-      "Clarín"
-     ],
-     "text": "[Clarín](https://www.clarin.com/estados-unidos/enviados-de-eeuu-viajan-a-moscu-para-reunirse-con-putin-tras-conversaciones-en-abu-dabi_0_GrVpHKcKgE.html) reported that United States representatives met with Russian leadership in Moscow following negotiations in Abu Dhabi regarding a prisoner of war exchange."
     }
    ],
    "single_source_today": false,
@@ -7744,7 +7745,7 @@
    "title": "Nigeria: Flood Victims in Nasarawa Face Severe Hunger and Disease"
   },
   {
-   "article_count": 276,
+   "article_count": 286,
    "articles": [
     {
      "added": "2026-11-13",
@@ -7758,6 +7759,19 @@
      "title": "Who are the three Israelis among those being considered to succeed Jensen Huang as NVIDIA CEO?",
      "type": "local",
      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914815"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "249d8f565f1193f2",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-13T12:53:18+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "Jensen Huang: esta es la millonaria cifra que perderá en acciones de Nvidia tras dejar de ser CEO",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/jensen-huang-esta-es-la-millonaria-cifra-que-perdera-en-acciones-de-nvidia-tras-dejar-de-ser-ceo-3600754"
     },
     {
      "added": "2026-11-13",
@@ -7784,6 +7798,19 @@
      "title": "Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal",
      "type": "local",
      "url": "https://english.elpais.com/usa/2026-11-13/congress-demands-answers-over-nvidia-espionage-allegations-and-jensen-huang-scandal.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "86a1efb47c406ce7",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-13T11:26:34+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "Chinese company linked to Alice Huang obtained banned Nvidia chips: report",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/chinese-company-linked-to-alice-huang-shanghai-longteng-intelligent-computing-obtained-banned-nvidia-chips/article71697606.ece"
     },
     {
      "added": "2026-11-13",
@@ -8206,6 +8233,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "3f2fb09359d4363e",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-13T07:00:40+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "Jensen Huang’s abrupt exit stuns Nvidia’s China staff, clouding the outlook in a key market",
+     "type": "regional",
+     "url": "https://www.scmp.com/tech/big-tech/article/3374316/jensen-huangs-abrupt-exit-stuns-nvidias-china-staff-clouding-outlook-key-market"
+    },
+    {
+     "added": "2026-11-13",
      "id": "28876a4f07f4dd43",
      "lang": "es",
      "outlet": "La Razón",
@@ -8229,45 +8269,6 @@
      "title": "Jensen Huang, Howard Lutnick to testify before US Congress amid Nvidia row: Reports",
      "type": "local",
      "url": "https://www.hindustantimes.com/world-news/jensen-huang-us-commerce-secretary-howard-lutnick-to-testify-before-congress-amid-nvidia-row-reports-101794548999744.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "54b16058510157b9",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-13T06:34:22+00:00",
-     "publisher": "The Hindu (World)",
-     "region": "asia",
-     "section": null,
-     "title": "Who is Colette Kress? Nvidia's new interim CEO following Jensen Huang’s exit",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/who-is-nvidia-new-interim-ceo-colette-kress-after-jensen-huang-exit/article71696530.ece"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "11d7f1c376d613af",
-     "lang": "en",
-     "outlet": "The Express Tribune",
-     "published": "2026-11-13T06:02:26+00:00",
-     "publisher": "The Express Tribune",
-     "region": "asia",
-     "section": null,
-     "title": "US Senate Banking Committee chair calls on Jensen Huang, Lutnick to testify",
-     "type": "local",
-     "url": "https://tribune.com.pk/story/2640125/us-senate-banking-committee-chair-calls-on-jensen-huang-lutnick-to-testify"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "4c715698b465eafd",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-13T05:56:01+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Executive who replaced Jensen Huang was belittled by him, called ‘a deer in the headlights': Report",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/executive-colette-kress-replaced-jensen-huang-was-belittled-insulted-by-him-nvidia-alice-huang-affair-deer-in-headlights-101794547229746.html"
     }
    ],
    "articles_today": 40,
@@ -8283,10 +8284,23 @@
     "nvidia-leadership-developments",
     "european-markets-fall-following-nvidia-ceo",
     "us-congressional-scrutiny-of-nvidia-and",
-    "potential-national-security-crisis-as-nvidia"
+    "potential-national-security-crisis-as-nvidia",
+    "nvidia-asian-supply-chain-future"
    ],
    "outlets_today": 33,
    "reports": [
+    {
+     "articles": [
+      "7bd3ea57ed36a99d"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-13T03:57:01+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss) BBC World reported that ex-Nvidia CEO Jensen Huang was summoned to testify before Congress about an affair with an alleged Chinese spy."
+    },
     {
      "articles": [
       "c13d9fe79c8b8611"
@@ -8372,6 +8386,14 @@
      "text": "[The Guardian](https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement) reported that Colette Kress will take over as interim Nvidia CEO on a short-term basis."
     },
     {
+     "also": [
+      {
+       "date": "2026-11-13",
+       "outlet": "DW",
+       "published": "2026-11-12T15:08:00+00:00",
+       "url": "https://www.dw.com/en/jensen-huang-spy-row-affairs-leave-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-all-1573-rdf"
+      }
+     ],
      "articles": [
       "90f37b0191c650ab"
      ],
@@ -8733,6 +8755,18 @@
     },
     {
      "articles": [
+      "b588121c3c1ef6c3"
+     ],
+     "date": "2026-11-12",
+     "group": "namerica",
+     "outlets": [
+      "The Japan Times"
+     ],
+     "published": "2026-11-12T09:06:00+00:00",
+     "text": "[The Japan Times](https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/) reported that Nvidia's Asian supply chain is preparing for life after Huang as the board meets to decide his future."
+    },
+    {
+     "articles": [
       "21cbb455cc1b3948",
       "ac316faca5f21a72"
      ],
@@ -8768,30 +8802,6 @@
      ],
      "published": "2026-11-12T12:21:46+00:00",
      "text": "[O Globo](https://oglobo.globo.com/economia/noticia/2026/11/12/nvidia-contrata-empresa-de-headhunter-para-trocar-ceo-envolvido-com-suposta-espia-chinesa.ghtml) reported that Nvidia's board of directors is working with an external headhunter firm to identify potential replacements for CEO Jensen Huang."
-    },
-    {
-     "articles": [
-      "6e70c727f8e094fa"
-     ],
-     "date": "2026-11-12",
-     "group": "europe",
-     "outlets": [
-      "ANSA"
-     ],
-     "published": "2026-11-12T09:47:12+00:00",
-     "text": "[ANSA](https://www.ansa.it/sito/notizie/mondo/2026/11/12/pechino-gli-usa-sfruttano-le-accuse-a-nvidia-per-giustificare-un-blocco-tecnologico_0b01f8ad-f5ea-4fd2-a7a4-7ccfc68be774.html) reported that a new affair emerged for Jensen Huang and the New York Times reported that Nvidia's board met to oust him."
-    },
-    {
-     "articles": [
-      "f0c319c64c97d4bc"
-     ],
-     "date": "2026-11-12",
-     "group": "europe",
-     "outlets": [
-      "Al Jazeera"
-     ],
-     "published": "2026-11-12T10:49:41+00:00",
-     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/12/china-says-us-fabricating-nvidia-spy-claims-to-justify-tech-blockade?traffic_source=rss) reported that China stated the US is fabricating Nvidia spy claims to justify a tech blockade."
     }
    ],
    "single_source_today": false,
@@ -16874,8 +16884,21 @@
    }
   },
   {
-   "article_count": 36,
+   "article_count": 63,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "e64a68ecb5a07674",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-13T13:11:35+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian attacks kill four civilians, injure 25 in Kherson Region in past week",
+     "type": "state-media",
+     "url": "https://tass.com/politics/2217879"
+    },
     {
      "added": "2026-11-13",
      "id": "f6caaa525ee5970b",
@@ -16888,6 +16911,22 @@
      "title": "Injury toll in Russian strike on apartment building in Zaporizhzhia rises to 13, including five children",
      "type": "local",
      "url": "https://www.ukrinform.net/rubric-ato/4184338-injury-toll-in-russian-strike-on-apartment-building-in-zaporizhzhia-rises-to-13-including-five-children.html"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "814a8fb3e8b171dc",
+     "lang": "en",
+     "outlet": "Meduza",
+     "published": "2026-11-13T12:22:54+00:00",
+     "publisher": "Meduza",
+     "region": "europe",
+     "section": null,
+     "title": "Russian strikes kill three in Ukraine, injure several others, including children",
+     "type": "local",
+     "url": "https://meduza.io/en/news/2026/11/13/russian-strikes-kill-three-in-ukraine-injure-several-others-including-children"
     },
     {
      "added": "2026-11-13",
@@ -16933,6 +16972,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "9aaee6d48cc59adb",
+     "lang": "en",
+     "outlet": "Euronews",
+     "published": "2026-11-13T12:01:50+00:00",
+     "publisher": "Euronews",
+     "region": "europe",
+     "section": null,
+     "title": "At least three killed and more than 20 injured in Russian strikes on Ukraine",
+     "type": "international",
+     "url": "https://www.euronews.com/2026/11/13/at-least-three-killed-and-more-than-20-injured-in-russian-strikes-on-ukraine"
+    },
+    {
+     "added": "2026-11-13",
      "id": "1af187bd57c8b1d0",
      "lang": "en",
      "outlet": "TASS",
@@ -16943,6 +16995,32 @@
      "title": "Ukrainian forces deliver UAV strike on bus in LPR Yubileiny settlement, killing woman",
      "type": "state-media",
      "url": "https://tass.com/politics/2217807"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "78d585154e2d5b13",
+     "lang": "en",
+     "outlet": "Africanews",
+     "published": "2026-11-13T11:00:16+00:00",
+     "publisher": "Africanews",
+     "region": "africa",
+     "section": null,
+     "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
+     "type": "regional",
+     "url": "http://www.africanews.com/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "2123423ba527bc18",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-13T10:55:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Russian forces strike apartment building in Zaporizhzhia, four injured, including children",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-ato/4184290-russian-forces-strike-apartment-building-in-zaporizhzhia-four-injured-including-children.html"
     },
     {
      "added": "2026-11-13",
@@ -16959,6 +17037,22 @@
     },
     {
      "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "bcf1242a746c5964",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-13T10:48:39+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Russian attacks kill 9, injure 61 across Ukraine over past day, spark fire at Kyiv hospital",
+     "type": "local",
+     "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "9ff9023f7b4bafa2",
      "lang": "en",
      "outlet": "Ukrainska Pravda",
@@ -16969,6 +17063,32 @@
      "title": "Russian strike on Zaporizhzhia kills one and injures four, including children – photos",
      "type": "local",
      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062677/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "ab0a5ae61bee12c3",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-13T10:18:35+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Russian Drone Attack Damages Kyiv Trauma Institute",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/90012"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "f0064cb8251cd9e1",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-13T10:16:00+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "Second car bomb to hit Russia in two days targets exiled Ukrainian political aide, media report",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/second-car-bomb-to-hit-russia-in-two-days-targets-exiled-ukrainian-political-aide-media-report/article71697330.ece"
     },
     {
      "added": "2026-11-13",
@@ -16985,6 +17105,74 @@
     },
     {
      "added": "2026-11-13",
+     "id": "7faaf42abeaccbf0",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-13T10:06:45+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "Ukraine-Russia war latest: Exiled Kyiv political aide hospitalised after second Russian car bomb attack",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-second-car-bomb-zavorotniy-b3084409.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "63e2b45e49711574",
+     "lang": "en",
+     "outlet": "DW",
+     "published": "2026-11-13T10:00:00+00:00",
+     "publisher": "DW",
+     "region": "global",
+     "section": null,
+     "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
+     "type": "international",
+     "url": "https://www.dw.com/en/ukraine-updates-russia-hit-with-second-car-bomb-attack-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "e340bde784ddad42",
+     "lang": "en",
+     "outlet": "DW",
+     "published": "2026-11-13T10:00:00+00:00",
+     "publisher": "DW",
+     "region": "global",
+     "section": null,
+     "title": "Ukraine updates: Second car bomb to hit Russia in two days",
+     "type": "international",
+     "url": "https://www.dw.com/en/ukraine-updates-second-car-bomb-to-hit-russia-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "227218513737a332",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-13T09:55:48+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Russian Strikes Kill 2 Women in Odesa, Injure 6 Others",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/90009"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "6b128f2a8c174cba",
+     "lang": "so",
+     "outlet": "Jowhar",
+     "published": "2026-11-13T09:48:21+00:00",
+     "publisher": "Jowhar",
+     "region": "africa",
+     "section": null,
+     "title": "Ukrainian drones kill four in Russia as Kyiv hospital comes under attack",
+     "type": "local",
+     "url": "https://jowhar.com/ukrainian-drones-kill-four-in-russia-as-kyiv-hospital-comes-under-attack/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "247cb76e81d6855d",
      "lang": "en",
      "outlet": "Ukrainska Pravda",
@@ -16995,6 +17183,32 @@
      "title": "Woman killed and her daughter injured by explosion of unknown device in Kharkiv Oblast",
      "type": "local",
      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062675/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "38ef3985e1df41c0",
+     "lang": "en",
+     "outlet": "RTÉ",
+     "published": "2026-11-13T09:36:40+00:00",
+     "publisher": "RTÉ",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian drones kill four in Russia, Kyiv hospital hit",
+     "type": "local",
+     "url": "https://www.rte.ie/news/ukraine/2026/1113/1599085-ukraine-russia-conflict/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "0d4c72f4f29e5b8a",
+     "lang": "en",
+     "outlet": "The Moscow Times",
+     "published": "2026-11-13T09:26:00+00:00",
+     "publisher": "The Moscow Times",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian Drone Attack Kills 4 Workers, Sparks Fire at Volgograd Oil Refinery",
+     "type": "local",
+     "url": "https://www.themoscowtimes.com/2026/11/13/ukrainian-drone-attack-kills-4-workers-sparks-fire-at-volgograd-oil-refinery-a94250"
     },
     {
      "added": "2026-11-13",
@@ -17021,6 +17235,32 @@
      "title": "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
      "type": "wire",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdmw0dUZybEJwcld4ZjVjZzlZUEJabnM2V3FHZ0wtMTFTTGp1U2w1VGk2TDY3R1dTZFdEb216RGFGV2ZqSDRaY18xSVlzZGhMN3NwR24wVXJ4cW1IRjBmOU9yd0xzVzItcXJnZlpUREg0ZUNsZnJoZXAydHR5QjJHNm5HWGQxY2UxRU5wY1RObFhoMm8xNkJlcERnbGNHRmpMMFhrdEJ6YlJwV2l5UHRzRDVPX1hWM2cwNVVqOEhGSG82Z2o2?oc=5"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "1cf9800e51b0cfd1",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-13T08:45:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Russian attack on Vinnytsia: three injured, over 20 homes damaged",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-ato/4184217-russian-attack-on-vinnytsia-three-injured-over-20-homes-damaged.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "1e7d0b5a188e3682",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-13T08:30:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Russian overnight attack partially destroys second floor of Kyiv hospital, injures three patients",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-ato/4184199-russian-overnight-attack-partially-destroys-second-floor-of-kyiv-hospital-injures-three-patients.html"
     },
     {
      "added": "2026-11-13",
@@ -17082,6 +17322,32 @@
     },
     {
      "added": "2026-11-13",
+     "id": "a3a855ac052a9d39",
+     "lang": "en",
+     "outlet": "Ukrainska Pravda",
+     "published": "2026-11-13T07:52:00+00:00",
+     "publisher": "Ukrainska Pravda",
+     "region": "europe",
+     "section": null,
+     "title": "Russian strikes on Kharkiv Oblast injure 11 people, including minors",
+     "type": "local",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062657/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "ab5ed1d354749423",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-13T07:21:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Fire in Rivne apartment building after Russian strike extinguished, six injured, including two children",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-ato/4184173-fire-in-rivne-apartment-building-after-russian-strike-extinguished-six-injured-including-two-children.html"
+    },
+    {
+     "added": "2026-11-13",
      "dates": [
       "2026-11-13"
      ],
@@ -17127,6 +17393,32 @@
     },
     {
      "added": "2026-11-13",
+     "id": "1a81e913556d1ecc",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-13T06:46:08+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Nearly 1,200 Ukrainian Drones Target Russia in Massive Overnight Assault, Lukoil Refinery Ablaze",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/89990"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "5cf71ad4ea1f6919",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-13T05:35:14+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "3 injured, dozens evacuated after Russian drone damages Kyiv medical facility in overnight attack",
+     "type": "local",
+     "url": "https://kyivindependent.com/3-injured-dozens-evacuated-after-russian-drone-damages-kyiv-medical-facility-in-overnight-attack/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "84152d2082a77258",
      "lang": "en",
      "outlet": "Ukrinform",
@@ -17137,240 +17429,9 @@
      "title": "Russian attack injures two women in Vinnytsia, damages homes, kindergarten",
      "type": "local",
      "url": "https://www.ukrinform.net/rubric-ato/4184149-russian-attack-injures-two-women-in-vinnytsia-damages-homes-kindergarten.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "1d3eeb236a9b9ba0",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-13T04:13:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Russian strike on Vinnytsia leaves two women injured and kindergarten damaged",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062631/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "25d52c4a751e53a7",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-13T02:16:37+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Russian Attack Damages Kindergarten and Homes in Vinnytsia, Injures Two Women",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/89975"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "da10cd6d0baa17f1",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-13T01:44:53+00:00",
-     "publisher": "Kyiv Independent",
-     "region": "europe",
-     "section": null,
-     "title": "Volgograd oil refinery, Rostov-on-Don production facility in flames following Ukrainian drone attack",
-     "type": "local",
-     "url": "https://kyivindependent.com/volgograd-oil-refinery-rostov-on-don-production-facility-in-flames-following-ukrainian-drone-attack/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "c6e6c6c47b34b5a3",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-13T00:57:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Drones attack Volgograd oil refinery: Russians queue for fuel – photo, video",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062627/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "d1be84d1a78e0a15",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-12T23:13:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Two people killed in Russian attack on Sumy Oblast",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062624/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "51bf4f15d65d6746",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-12T21:24:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Russia attacks southern Odesa Oblast, leaving four injured – photos",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062616/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-10-30",
-      "2026-11-11"
-     ],
-     "id": "36d6e61a0e9dab89",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-12T14:46:32+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Ukraine Reports Long-Range Strikes on Russia’s 5 Largest Oil Refineries",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/89937"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "3eabd147980cb111",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-12T12:35:12+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Did Russia Shoot Down Its Own Helicopters While Repelling Ukrainian Drone Attack?",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/89915"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "f0d0f5e357a25c0e",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-12T10:56:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Russia strikes energy infrastructure in Vinnytsia Oblast, injuring woman",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062504/"
-    },
-    {
-     "added": "2026-11-12",
-     "dates": [
-      "2026-11-11"
-     ],
-     "id": "4e518c4dfd79b436",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-12T09:36:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Two firefighters killed and two injured in Russian strikes on Kyiv Oblast – photos",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062474/"
-    },
-    {
-     "added": "2026-11-12",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "e9bf006f92d1a963",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-12T08:39:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Woman aged 99 killed and child injured in Russian aerial bomb strike on Zaporizhzhia Oblast",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062464/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "3b7cf5a94e981caa",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-11T14:01:18+00:00",
-     "publisher": "Kyiv Post",
-     "section": null,
-     "title": "Jet-Powered Russian Drone Slams Into Busy Market, Killing 3 in Odesa Region",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/89814"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "bb5f79e286053d20",
-     "lang": "en",
-     "outlet": "Moldova news (YAM)",
-     "published": "2026-11-11T13:43:22+00:00",
-     "publisher": "Moldova news (YAM)",
-     "section": null,
-     "title": "Ukraine strikes cut Russia’s oil refining capacity by 30%",
-     "type": "local",
-     "url": "https://news.yam.md/ro/story/84044874"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "2860965d0a787710",
-     "lang": "en",
-     "outlet": "Moldova news (YAM)",
-     "published": "2026-11-11T13:43:21+00:00",
-     "publisher": "Moldova news (YAM)",
-     "section": null,
-     "title": "Drone attacks disrupt nine Russian refineries in a week",
-     "type": "local",
-     "url": "https://news.yam.md/ro/story/84044829"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "767f2a211a40235a",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-11T13:16:30+00:00",
-     "publisher": "Kyiv Independent",
-     "section": null,
-     "title": "Russian strike on crowded market in Odesa Oblast kills at least 3, injures 8",
-     "type": "local",
-     "url": "https://kyivindependent.com/russian-strike-on-crowded-market-in-odesa-oblast-kills-at-least-3-injures-8/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "d37ab2471f4d191d",
-     "lang": "en",
-     "outlet": "Daily Times (Pakistan)",
-     "published": "2026-11-11T11:24:05+00:00",
-     "publisher": "Daily Times (Pakistan)",
-     "section": null,
-     "title": "Ukrainian drone strikes kill two in Russia’s Smolensk region",
-     "type": "local",
-     "url": "https://dailytimes.com.pk/1579887/ukrainian-drone-strikes-kill-two-in-russias-smolensk-region/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "35ce82b882a19a77",
-     "lang": "en",
-     "outlet": "The Express Tribune",
-     "published": "2026-11-11T04:05:04+00:00",
-     "publisher": "The Express Tribune",
-     "section": null,
-     "title": "Two killed in Ukrainian drone attack on Russia's Smolensk, Leningrad hit by year's largest attack",
-     "type": "local",
-     "url": "https://tribune.com.pk/story/2639762/two-killed-in-ukrainian-drone-attack-on-russias-smolensk-leningrad-hit-by-years-largest-attack"
     }
    ],
-   "articles_today": 26,
+   "articles_today": 40,
    "first_seen": "2026-11-11",
    "group": "asia",
    "id": "ukraine-drone-strikes-on-russia-and",
@@ -17378,13 +17439,199 @@
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "merged": [
-    "volgograd-and-rostov-on-don-drone"
+    "volgograd-and-rostov-on-don-drone",
+    "russian-drone-attacks-in-ukraine"
    ],
-   "outlets_today": 8,
+   "outlets_today": 15,
    "previous_titles": [
-    "Russian strike on Vinnytsia leaves two women injured and kindergarten damaged"
+    "Russian strike on Vinnytsia leaves two women injured and kindergarten damaged",
+    "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says"
    ],
    "reports": [
+    {
+     "articles": [
+      "814a8fb3e8b171dc",
+      "9aaee6d48cc59adb"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Euronews",
+      "Meduza"
+     ],
+     "published": "2026-11-13T12:01:50+00:00",
+     "text": "[Euronews](https://www.euronews.com/2026/11/13/at-least-three-killed-and-more-than-20-injured-in-russian-strikes-on-ukraine), [Meduza](https://meduza.io/en/news/2026/11/13/russian-strikes-kill-three-in-ukraine-injure-several-others-including-children) reported that Russian strikes across several regions of Ukraine killed at least three people and injured more than 20 others."
+    },
+    {
+     "articles": [
+      "0d4c72f4f29e5b8a"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "The Moscow Times"
+     ],
+     "published": "2026-11-13T09:26:00+00:00",
+     "text": "[The Moscow Times](https://www.themoscowtimes.com/2026/11/13/ukrainian-drone-attack-kills-4-workers-sparks-fire-at-volgograd-oil-refinery-a94250) reported that a Ukrainian drone attack killed four workers and sparked a fire at the Volgograd oil refinery."
+    },
+    {
+     "articles": [
+      "2123423ba527bc18"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrinform"
+     ],
+     "published": "2026-11-13T10:55:00+00:00",
+     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184290-russian-forces-strike-apartment-building-in-zaporizhzhia-four-injured-including-children.html) reported that Russian forces struck a five-story residential building in the Kosmichnyi district of Zaporizhzhia, injuring at least four people including two children."
+    },
+    {
+     "articles": [
+      "e340bde784ddad42"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "DW"
+     ],
+     "published": "2026-11-13T10:00:00+00:00",
+     "text": "[DW](https://www.dw.com/en/ukraine-updates-second-car-bomb-to-hit-russia-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf) reported that a second car bomb in two days exploded in Moscow targeting an exiled Ukrainian political aide."
+    },
+    {
+     "articles": [
+      "f0064cb8251cd9e1"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "The Hindu (World)"
+     ],
+     "published": "2026-11-13T10:16:00+00:00",
+     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/second-car-bomb-to-hit-russia-in-two-days-targets-exiled-ukrainian-political-aide-media-report/article71697330.ece) reported that Russian media stated the car belonged to Sergei Zavorotniy, a onetime spokesman for former Ukrainian Prime Minister Mykola Azarov."
+    },
+    {
+     "articles": [
+      "38ef3985e1df41c0"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "RTÉ"
+     ],
+     "published": "2026-11-13T09:36:40+00:00",
+     "text": "[RTÉ](https://www.rte.ie/news/ukraine/2026/1113/1599085-ukraine-russia-conflict/) reported that Russia stated nearly 1,200 Ukrainian drones were intercepted overnight, resulting in four deaths and a Kyiv hospital hit."
+    },
+    {
+     "articles": [
+      "a3a855ac052a9d39"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrainska Pravda"
+     ],
+     "published": "2026-11-13T07:52:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062657/) reported that Russian aerial strikes on Malynivka and Zlatopil in Kharkiv Oblast injured 11 people, including minors, after hitting residential buildings and a facility."
+    },
+    {
+     "articles": [
+      "227218513737a332"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Post"
+     ],
+     "published": "2026-11-13T09:55:48+00:00",
+     "text": "[Kyiv Post](https://www.kyivpost.com/post/90009) reported that Russian strikes on Odesa killed two women and injured six people."
+    },
+    {
+     "articles": [
+      "1e7d0b5a188e3682"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrinform"
+     ],
+     "published": "2026-11-13T08:30:00+00:00",
+     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184199-russian-overnight-attack-partially-destroys-second-floor-of-kyiv-hospital-injures-three-patients.html) reported that a medical facility operated by the National Academy of Medical Sciences was damaged in an overnight Russian attack on Kyiv, leaving three patients injured."
+    },
+    {
+     "articles": [
+      "bcf1242a746c5964"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-13T10:48:39+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/) reported that Russian forces launched 117 long-range attack drones overnight on Nov. 13, including 63 jet-powered drones."
+    },
+    {
+     "articles": [
+      "1cf9800e51b0cfd1"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrinform"
+     ],
+     "published": "2026-11-13T08:45:00+00:00",
+     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184217-russian-attack-on-vinnytsia-three-injured-over-20-homes-damaged.html) reported that three people were injured and over 20 homes were damaged in a Russian attack on Vinnytsia."
+    },
+    {
+     "articles": [
+      "03f77f9837a65897"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Africanews"
+     ],
+     "published": "2026-11-12T14:26:25+00:00",
+     "text": "[Africanews](http://www.africanews.com/2026/11/12/ukraine-russian-drone-attack-sparks-major-fire-in-kyiv-residential-building/) reported that a Russian drone attack sparked a major fire at a residential building in Kyiv."
+    },
+    {
+     "articles": [
+      "b2a5bbf67e5ad7a2",
+      "e2e18234527bb8b8"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrainska Pravda",
+      "Ukrinform"
+     ],
+     "published": "2026-11-13T01:38:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062625/), [Ukrinform](https://www.ukrinform.net/rubric-ato/4184146-russian-drone-hits-apartment-building-in-rivne-children-among-injured.html) reported that a Russian drone strike on an apartment block in Rivne injured six people, including two children."
+    },
+    {
+     "articles": [
+      "0196ed8d34313681"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrainska Pravda"
+     ],
+     "published": "2026-11-13T05:12:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062642/) reported that a Russian attack on a medical facility in Kyiv left one person injured and caused a fire."
+    },
+    {
+     "articles": [
+      "e64a68ecb5a07674"
+     ],
+     "date": "2026-11-13",
+     "group": "asia",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-13T13:11:35+00:00",
+     "text": "[TASS](https://tass.com/politics/2217879) TASS reported that Ukrainian attacks killed four civilians and injured 25 in the Kherson Region in the past week."
+    },
     {
      "articles": [
       "cca5984c19f245f6"
@@ -17685,30 +17932,19 @@
       "Daily Times (Pakistan)"
      ],
      "text": "[Daily Times (Pakistan)](https://dailytimes.com.pk/1579887/ukrainian-drone-strikes-kill-two-in-russias-smolensk-region/) reported that two people died after Ukraine launched a large-scale drone attack on Russia's Smolensk region."
-    },
-    {
-     "articles": [
-      "35ce82b882a19a77"
-     ],
-     "date": "2026-11-11",
-     "group": "asia",
-     "outlets": [
-      "The Express Tribune"
-     ],
-     "text": "[The Express Tribune](https://tribune.com.pk/story/2639762/two-killed-in-ukrainian-drone-attack-on-russias-smolensk-leningrad-hit-by-years-largest-attack) reported that Russia stated it hit substations in Kryvyi Rih and the Odesa region supporting the Ukrainian defence industry."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "ukraine",
-   "title": "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
+   "title": "Ukrainian Drone Attack Kills 4 Workers, Sparks Fire at Volgograd Oil Refinery",
    "title_from": {
-    "backing": 4,
+    "backing": 8,
     "date": "2026-11-13",
-    "of": 7,
-    "outlet": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdmw0dUZybEJwcld4ZjVjZzlZUEJabnM2V3FHZ0wtMTFTTGp1U2w1VGk2TDY3R1dTZFdEb216RGFGV2ZqSDRaY18xSVlzZGhMN3NwR24wVXJ4cW1IRjBmOU9yd0xzVzItcXJnZlpUREg0ZUNsZnJoZXAydHR5QjJHNm5HWGQxY2UxRU5wY1RObFhoMm8xNkJlcERnbGNHRmpMMFhrdEJ6YlJwV2l5UHRzRDVPX1hWM2cwNVVqOEhGSG82Z2o2?oc=5"
+    "of": 14,
+    "outlet": "The Moscow Times",
+    "url": "https://www.themoscowtimes.com/2026/11/13/ukrainian-drone-attack-kills-4-workers-sparks-fire-at-volgograd-oil-refinery-a94250"
    }
   },
   {
@@ -18424,7 +18660,7 @@
    "title": "US White House Oversight Threats"
   },
   {
-   "article_count": 10,
+   "article_count": 11,
    "articles": [
     {
      "added": "2026-11-13",
@@ -18464,6 +18700,19 @@
      "title": "El Salvador deploys armed robots to fight gangs in Haiti",
      "type": "international",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/13/el-salvador-deploys-armed-robots-to-fight-gangs-in-haiti?traffic_source=rss"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "fd2469244fa0c618",
+     "lang": "fr",
+     "outlet": "Haiti Libre",
+     "published": "2026-11-13T10:52:11+00:00",
+     "publisher": "Haiti Libre",
+     "region": "latam",
+     "section": null,
+     "title": "Haïti - FLASH : L'armée du Salvador utilise des chiens robots de combat équipés de fusil d'assaut (vidéo)",
+     "type": "local",
+     "url": "https://www.haitilibre.com/article-48884-haiti-flash-l-armee-du-salvador-utilise-des-chiens-robots-de-combat-equipes-de-fusil-d-assaut-video.html"
     },
     {
      "added": "2026-11-13",
@@ -18553,7 +18802,7 @@
      "url": "https://www.haitilibre.com/article-48868-haiti-flash-des-helicopteres-du-salvador-tirent-des-roquettes-sur-la-residence-et-le-qg-de-lanmo-san-jou-video.html"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 7,
    "first_seen": "2026-11-12",
    "group": "latam",
    "id": "haiti-security-operations-by-salvadoran-troops",
@@ -18562,6 +18811,18 @@
    "last_updated": "2026-11-13",
    "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "fd2469244fa0c618"
+     ],
+     "date": "2026-11-13",
+     "group": "latam",
+     "outlets": [
+      "Haiti Libre"
+     ],
+     "published": "2026-11-13T10:52:11+00:00",
+     "text": "[Haiti Libre](https://www.haitilibre.com/article-48884-haiti-flash-l-armee-du-salvador-utilise-des-chiens-robots-de-combat-equipes-de-fusil-d-assaut-video.html) Haiti Libre reported that the Salvadoran army uses assault rifle-equipped combat robot dogs during joint operations in Haiti."
+    },
     {
      "articles": [
       "c1341a8ccf165fca"
@@ -20686,8 +20947,21 @@
    }
   },
   {
-   "article_count": 12,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "7ac9c15fd63f1a85",
+     "lang": "en",
+     "outlet": "Ukrainska Pravda",
+     "published": "2026-11-13T12:28:00+00:00",
+     "publisher": "Ukrainska Pravda",
+     "region": "europe",
+     "section": null,
+     "title": "Zelenskyy urges closer contact with US amid Starshield restrictions at the front",
+     "type": "local",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062721/"
+    },
     {
      "added": "2026-11-13",
      "id": "b4dd86ef237f7561",
@@ -20700,6 +20974,32 @@
      "title": "Ukraine war latest: Starshield speed restrictions return, Zelensky says",
      "type": "local",
      "url": "https://kyivindependent.com/ukraine-war-latest-starshield-speed-restrictions-return-zelensky-says/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "eb2b43f49d6f5719",
+     "lang": "en",
+     "outlet": "HuffPost World",
+     "published": "2026-11-12T16:47:28+00:00",
+     "publisher": "HuffPost World",
+     "region": "global",
+     "section": null,
+     "title": "Trump Envoys Meet With Putin In Moscow For Ukraine Talks As Conflict Nears 5 Years",
+     "type": "international",
+     "url": "https://www.huffpost.com/entry/witkoff-kushner-putin-ukraine-negotiations_n_6af5e6abe4b0914f133d16fd"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "cbda101f0ff72eab",
+     "lang": "en",
+     "outlet": "Africanews",
+     "published": "2026-11-12T16:39:23+00:00",
+     "publisher": "Africanews",
+     "region": "africa",
+     "section": null,
+     "title": "War in Ukraine: Putin Meets with envoys from the U.S. President",
+     "type": "regional",
+     "url": "http://www.africanews.com/2026/11/12/war-in-ukraine-putin-meets-with-envoys-from-the-us-president/"
     },
     {
      "added": "2026-11-12",
@@ -20848,15 +21148,39 @@
      "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062470/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 5,
    "first_seen": "2026-11-12",
    "group": "europe",
    "id": "zelenskyy-starshield-satellite-restrictions",
    "label": "Zelenskyy Starshield satellite restrictions",
-   "last_reported": "2026-11-12",
+   "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "cbda101f0ff72eab"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Africanews"
+     ],
+     "published": "2026-11-12T16:39:23+00:00",
+     "text": "[Africanews](http://www.africanews.com/2026/11/12/war-in-ukraine-putin-meets-with-envoys-from-the-us-president/) Africanews reported that Ukrainian President Volodymyr Zelensky warned European leaders against discussions between the United States and Russia."
+    },
+    {
+     "articles": [
+      "7ac9c15fd63f1a85"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Ukrainska Pravda"
+     ],
+     "published": "2026-11-13T12:28:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062721/) Ukrainska Pravda reported that the Ukrainian president instructed officials to intensify contacts with the Pentagon and SpaceX as Starshield speed limits hinder military intelligence."
+    },
     {
      "articles": [
       "6b10e2d595704744"
@@ -20922,9 +21246,16 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "updated",
    "subject": "ukraine",
-   "title": "Zelenskyy Starshield satellite restrictions"
+   "title": "Ukraine war latest: Starshield speed restrictions return, Zelensky says",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 4,
+    "outlet": "Kyiv Independent",
+    "url": "https://kyivindependent.com/ukraine-war-latest-starshield-speed-restrictions-return-zelensky-says/"
+   }
   },
   {
    "article_count": 7,
@@ -22631,63 +22962,6 @@
    "status": "updated",
    "subject": "croatia",
    "title": "Zagreb psychiatric clinic director resignation"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "7e13eb2b2124416d",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-12T09:10:24+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Nvidia's Asian supply chain prepares for life after Jensen Huang",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/nvidias-asian-supply-chain-prepares-for-life-after-jensen-huang-101794474356125.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "b588121c3c1ef6c3",
-     "lang": "en",
-     "outlet": "The Japan Times",
-     "published": "2026-11-12T09:06:00+00:00",
-     "publisher": "The Japan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Nvidia’s Asian supply chain prepares for life after Huang",
-     "type": "local",
-     "url": "https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-12",
-   "group": "namerica",
-   "id": "nvidia-asian-supply-chain-future",
-   "label": "Nvidia Asian supply chain future",
-   "last_reported": "2026-11-12",
-   "last_updated": "2026-11-12",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "b588121c3c1ef6c3"
-     ],
-     "date": "2026-11-12",
-     "group": "namerica",
-     "outlets": [
-      "The Japan Times"
-     ],
-     "published": "2026-11-12T09:06:00+00:00",
-     "text": "[The Japan Times](https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/) reported that Nvidia's Asian supply chain is preparing for life after Huang as the board meets to decide his future."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Nvidia Asian supply chain future"
   },
   {
    "article_count": 2,
@@ -26849,8 +27123,21 @@
    }
   },
   {
-   "article_count": 74,
+   "article_count": 88,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f5b9daf3acb27228",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-13T13:09:58+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "Problemas con Outlook hoy: reportan una falla a nivel mundial y sigue sin funcionar el correo de Microsoft",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/tecnologia/problemas-con-outlook-hoy-reportan-una-falla-a-nivel-mundial-y-sigue-sin-funcionar-el-correo-de-nid13112026/"
+    },
     {
      "added": "2026-11-13",
      "id": "9ad782df1e260469",
@@ -26902,6 +27189,19 @@
      "title": "Microsoft reports gradual traffic recovery after servers failure",
      "type": "state-media",
      "url": "https://tass.com/economy/2217845"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "122cb6bf191143eb",
+     "lang": "es",
+     "outlet": "El Nuevo Siglo",
+     "published": "2026-11-13T11:57:43+00:00",
+     "publisher": "El Nuevo Siglo",
+     "region": "latam",
+     "section": null,
+     "title": "Caída mundial de Outlook: Microsoft descarta un ciberataque",
+     "type": "local",
+     "url": "https://www.elnuevosiglo.com.co/internacional/caida-mundial-de-outlook-microsoft-descarta-un-ciberataque"
     },
     {
      "added": "2026-11-13",
@@ -27113,6 +27413,19 @@
      "title": "Microsoft outage disrupts email and workplace services across South Africa",
      "type": "local",
      "url": "https://mg.co.za/news/tech/2026-11-13-microsoft-outage-disrupts-email-and-workplace-services-across-south-africa/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "79b1067b575dc9e4",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-13T10:12:59+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Microsoft descarta ciberataque tras caída mundial de Outlook; atribuye parón a una \"carga elevada\" en su infraestructura",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/cartera/microsoft-descarta-ciberataque-tras-caida-mundial-de-outlook-atribuye-paron-a-una-carga-elevada-en-su-infraestructura/"
     },
     {
      "added": "2026-11-13",
@@ -27334,45 +27647,6 @@
      "title": "Microsoft ‘seeing positive results’ from attempts to fix global outage affecting Teams and Outlook",
      "type": "international",
      "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "834ddef97c66a654",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-13T08:11:14+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Microsoft outage disrupts global financial markets and trading desks, forces traders to use phones",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/microsoft-outage-disrupts-global-financial-markets-and-trading-desks-forces-traders-to-use-phones-101794556388573.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ba3ba590b30d9fe3",
-     "lang": "es",
-     "outlet": "El País (Spanish)",
-     "published": "2026-11-13T08:06:10+00:00",
-     "publisher": "El País",
-     "region": "europe",
-     "section": null,
-     "title": "Microsoft no logra recuperar la normalidad de sus servicios tras una caída global de más de 12 horas",
-     "type": "local",
-     "url": "https://elpais.com/tecnologia/2026-11-13/microsoft-no-logra-recuperar-sus-servicios-tras-una-caida-global-de-mas-de-12-horas.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "d999a8834dbd0b67",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-13T07:52:21+00:00",
-     "publisher": "The Hindu (World)",
-     "region": "asia",
-     "section": null,
-     "title": "Microsoft Outage LIVE: Microsoft outage enters second day; company says not aware of malicious activity",
-     "type": "local",
-     "url": "https://www.thehindu.com/sci-tech/technology/microsoft-outage-live-updates-november-13-2026-steps-to-fix-outlook-and-other-apps-ongoing/article71696624.ece"
     }
    ],
    "articles_today": 40,
@@ -27386,13 +27660,53 @@
     "microsoft-outage-fixes-continue",
     "microsoft-outlook-service-disruption",
     "microsoft-global-service-outage",
-    "microsoft-global-service-outage-2"
+    "microsoft-global-service-outage-2",
+    "microsoft-outlook-global-outage-attribution"
    ],
-   "outlets_today": 35,
+   "outlets_today": 38,
    "previous_titles": [
-    "Major Microsoft outage disrupts Teams and Outlook as thousands of users affected"
+    "Major Microsoft outage disrupts Teams and Outlook as thousands of users affected",
+    "Global Microsoft outage knocks out Outlook and other services"
    ],
    "reports": [
+    {
+     "articles": [
+      "122cb6bf191143eb",
+      "79b1067b575dc9e4"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "El Universal (Mexico)",
+      "El Nuevo Siglo"
+     ],
+     "published": "2026-11-13T10:12:59+00:00",
+     "text": "[El Universal (Mexico)](https://www.eluniversal.com.mx/cartera/microsoft-descarta-ciberataque-tras-caida-mundial-de-outlook-atribuye-paron-a-una-carga-elevada-en-su-infraestructura/), [El Nuevo Siglo](https://www.elnuevosiglo.com.co/internacional/caida-mundial-de-outlook-microsoft-descarta-un-ciberataque) reported that Microsoft ruled out a cyberattack after a global Outlook outage and attributed the stoppage to high load."
+    },
+    {
+     "articles": [
+      "f5b9daf3acb27228"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "La Nación (Argentina)"
+     ],
+     "published": "2026-11-13T13:09:58+00:00",
+     "text": "[La Nación (Argentina)](https://www.lanacion.com.ar/tecnologia/problemas-con-outlook-hoy-reportan-una-falla-a-nivel-mundial-y-sigue-sin-funcionar-el-correo-de-nid13112026/) La Nación reported that a general service drop affected Microsoft 365, including Outlook email, OneDrive online storage, and the office package."
+    },
+    {
+     "articles": [
+      "ea97a322791fdeba"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "The National"
+     ],
+     "published": "2026-11-13T03:54:40+00:00",
+     "text": "[The National](https://www.thenationalnews.com/future/technology/2026/11/13/microsoft-outlook-outage-update/) The National reported that Microsoft is continuing to work on the Outlook email problem with partial recovery seen in some regions."
+    },
     {
      "articles": [
       "ee0cc3ccf3c6ec45"
@@ -27702,6 +28016,14 @@
      "text": "[Vanguard](https://www.vanguardngr.com/2026/11/microsoft-says-not-aware-of-any-malicious-activity-causing-outlook-outage/) reported that Microsoft stated it was not aware of any malicious activity behind the hours-long disruption of its Outlook services."
     },
     {
+     "also": [
+      {
+       "date": "2026-11-13",
+       "outlet": "The Independent World",
+       "published": "2026-11-13T06:35:39+00:00",
+       "url": "https://www.independent.co.uk/news/world/americas/microsoft-outage-today-latest-outlook-teams-down-openai-fixed-b3084265.html"
+      }
+     ],
      "articles": [
       "7cdaeb554a8eff2b",
       "854e5991d52755e1"
@@ -27747,13 +28069,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Global Microsoft outage knocks out Outlook and other services",
+   "title": "Microsoft Outage Hits Outlook, Teams Worldwide, Draws 130,000 US Reports",
    "title_from": {
-    "backing": 19,
+    "backing": 16,
     "date": "2026-11-13",
-    "of": 27,
-    "outlet": "RFI",
-    "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services"
+    "of": 29,
+    "outlet": "The Will (Nigeria)",
+    "url": "https://thewillnews.com/microsoft-outage-hits-outlook-teams-worldwide-draws-130000-us-reports/"
    }
   },
   {
@@ -28958,558 +29280,6 @@
    }
   },
   {
-   "article_count": 26,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "814a8fb3e8b171dc",
-     "lang": "en",
-     "outlet": "Meduza",
-     "published": "2026-11-13T12:22:54+00:00",
-     "publisher": "Meduza",
-     "region": "europe",
-     "section": null,
-     "title": "Russian strikes kill three in Ukraine, injure several others, including children",
-     "type": "local",
-     "url": "https://meduza.io/en/news/2026/11/13/russian-strikes-kill-three-in-ukraine-injure-several-others-including-children"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "9aaee6d48cc59adb",
-     "lang": "en",
-     "outlet": "Euronews",
-     "published": "2026-11-13T12:01:50+00:00",
-     "publisher": "Euronews",
-     "region": "europe",
-     "section": null,
-     "title": "At least three killed and more than 20 injured in Russian strikes on Ukraine",
-     "type": "international",
-     "url": "https://www.euronews.com/2026/11/13/at-least-three-killed-and-more-than-20-injured-in-russian-strikes-on-ukraine"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "78d585154e2d5b13",
-     "lang": "en",
-     "outlet": "Africanews",
-     "published": "2026-11-13T11:00:16+00:00",
-     "publisher": "Africanews",
-     "region": "africa",
-     "section": null,
-     "title": "Ukraine: Russian drone attacks hit Kyiv hospital, leave two dead in Odesa",
-     "type": "regional",
-     "url": "http://www.africanews.com/2026/11/13/ukraine-russian-drone-attacks-hit-kyiv-hospital-leave-one-dead-in-odesa/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "2123423ba527bc18",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T10:55:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russian forces strike apartment building in Zaporizhzhia, four injured, including children",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184290-russian-forces-strike-apartment-building-in-zaporizhzhia-four-injured-including-children.html"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "bcf1242a746c5964",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-13T10:48:39+00:00",
-     "publisher": "Kyiv Independent",
-     "region": "europe",
-     "section": null,
-     "title": "Russian attacks kill 9, injure 61 across Ukraine over past day, spark fire at Kyiv hospital",
-     "type": "local",
-     "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ab0a5ae61bee12c3",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-13T10:18:35+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Russian Drone Attack Damages Kyiv Trauma Institute",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/90012"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "f0064cb8251cd9e1",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-13T10:16:00+00:00",
-     "publisher": "The Hindu (World)",
-     "region": "asia",
-     "section": null,
-     "title": "Second car bomb to hit Russia in two days targets exiled Ukrainian political aide, media report",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/second-car-bomb-to-hit-russia-in-two-days-targets-exiled-ukrainian-political-aide-media-report/article71697330.ece"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "7faaf42abeaccbf0",
-     "lang": "en",
-     "outlet": "The Independent World",
-     "published": "2026-11-13T10:06:45+00:00",
-     "publisher": "The Independent World",
-     "region": "global",
-     "section": null,
-     "title": "Ukraine-Russia war latest: Exiled Kyiv political aide hospitalised after second Russian car bomb attack",
-     "type": "international",
-     "url": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-second-car-bomb-zavorotniy-b3084409.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "63e2b45e49711574",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-13T10:00:00+00:00",
-     "publisher": "DW",
-     "region": "global",
-     "section": null,
-     "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
-     "type": "international",
-     "url": "https://www.dw.com/en/ukraine-updates-russia-hit-with-second-car-bomb-attack-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "e340bde784ddad42",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-13T10:00:00+00:00",
-     "publisher": "DW",
-     "region": "global",
-     "section": null,
-     "title": "Ukraine updates: Second car bomb to hit Russia in two days",
-     "type": "international",
-     "url": "https://www.dw.com/en/ukraine-updates-second-car-bomb-to-hit-russia-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "227218513737a332",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-13T09:55:48+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Russian Strikes Kill 2 Women in Odesa, Injure 6 Others",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/90009"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "6b128f2a8c174cba",
-     "lang": "so",
-     "outlet": "Jowhar",
-     "published": "2026-11-13T09:48:21+00:00",
-     "publisher": "Jowhar",
-     "region": "africa",
-     "section": null,
-     "title": "Ukrainian drones kill four in Russia as Kyiv hospital comes under attack",
-     "type": "local",
-     "url": "https://jowhar.com/ukrainian-drones-kill-four-in-russia-as-kyiv-hospital-comes-under-attack/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "38ef3985e1df41c0",
-     "lang": "en",
-     "outlet": "RTÉ",
-     "published": "2026-11-13T09:36:40+00:00",
-     "publisher": "RTÉ",
-     "region": "europe",
-     "section": null,
-     "title": "Ukrainian drones kill four in Russia, Kyiv hospital hit",
-     "type": "local",
-     "url": "https://www.rte.ie/news/ukraine/2026/1113/1599085-ukraine-russia-conflict/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "0d4c72f4f29e5b8a",
-     "lang": "en",
-     "outlet": "The Moscow Times",
-     "published": "2026-11-13T09:26:00+00:00",
-     "publisher": "The Moscow Times",
-     "region": "europe",
-     "section": null,
-     "title": "Ukrainian Drone Attack Kills 4 Workers, Sparks Fire at Volgograd Oil Refinery",
-     "type": "local",
-     "url": "https://www.themoscowtimes.com/2026/11/13/ukrainian-drone-attack-kills-4-workers-sparks-fire-at-volgograd-oil-refinery-a94250"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "1cf9800e51b0cfd1",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T08:45:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russian attack on Vinnytsia: three injured, over 20 homes damaged",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184217-russian-attack-on-vinnytsia-three-injured-over-20-homes-damaged.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "1e7d0b5a188e3682",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T08:30:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russian overnight attack partially destroys second floor of Kyiv hospital, injures three patients",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184199-russian-overnight-attack-partially-destroys-second-floor-of-kyiv-hospital-injures-three-patients.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "a3a855ac052a9d39",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-13T07:52:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Russian strikes on Kharkiv Oblast injure 11 people, including minors",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062657/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ab5ed1d354749423",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T07:21:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Fire in Rivne apartment building after Russian strike extinguished, six injured, including two children",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184173-fire-in-rivne-apartment-building-after-russian-strike-extinguished-six-injured-including-two-children.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "1a81e913556d1ecc",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-13T06:46:08+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Nearly 1,200 Ukrainian Drones Target Russia in Massive Overnight Assault, Lukoil Refinery Ablaze",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/89990"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "5cf71ad4ea1f6919",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-13T05:35:14+00:00",
-     "publisher": "Kyiv Independent",
-     "region": "europe",
-     "section": null,
-     "title": "3 injured, dozens evacuated after Russian drone damages Kyiv medical facility in overnight attack",
-     "type": "local",
-     "url": "https://kyivindependent.com/3-injured-dozens-evacuated-after-russian-drone-damages-kyiv-medical-facility-in-overnight-attack/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "0196ed8d34313681",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-13T05:12:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Russians attack hospital in Kyiv, leaving one injured and sparking fire – photos, video",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062642/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "03e7738473925024",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T05:03:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Drone debris sparks fire at medical facility in Kyiv",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184147-drone-debris-sparks-fire-at-medical-facility-in-kyiv.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "b2a5bbf67e5ad7a2",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T04:46:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russian drone hits apartment building in Rivne, children among injured",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184146-russian-drone-hits-apartment-building-in-rivne-children-among-injured.html"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "e0b626522d79f41b",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-13T02:00:46+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Russian Drones Target Kyiv Overnight, Debris Ignites Medical Facility",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/89974"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "e2e18234527bb8b8",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-13T01:38:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Russians strike high-rise residential building in Rivne with drone, injuring six",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062625/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "03f77f9837a65897",
-     "lang": "en",
-     "outlet": "Africanews",
-     "published": "2026-11-12T14:26:25+00:00",
-     "publisher": "Africanews",
-     "region": "africa",
-     "section": null,
-     "title": "Ukraine: Russian drone attack sparks major fire in Kyiv residential building",
-     "type": "regional",
-     "url": "http://www.africanews.com/2026/11/12/ukraine-russian-drone-attack-sparks-major-fire-in-kyiv-residential-building/"
-    }
-   ],
-   "articles_today": 26,
-   "first_seen": "2026-11-13",
-   "group": "europe",
-   "id": "russian-drone-attacks-in-ukraine",
-   "label": "Russian Drone Attacks in Ukraine",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 13,
-   "previous_titles": [
-    "Ukrainian Drone Attack Kills 4 Workers, Sparks Fire at Volgograd Oil Refinery"
-   ],
-   "reports": [
-    {
-     "articles": [
-      "814a8fb3e8b171dc",
-      "9aaee6d48cc59adb"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Euronews",
-      "Meduza"
-     ],
-     "published": "2026-11-13T12:01:50+00:00",
-     "text": "[Euronews](https://www.euronews.com/2026/11/13/at-least-three-killed-and-more-than-20-injured-in-russian-strikes-on-ukraine), [Meduza](https://meduza.io/en/news/2026/11/13/russian-strikes-kill-three-in-ukraine-injure-several-others-including-children) reported that Russian strikes across several regions of Ukraine killed at least three people and injured more than 20 others."
-    },
-    {
-     "articles": [
-      "0d4c72f4f29e5b8a"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "The Moscow Times"
-     ],
-     "published": "2026-11-13T09:26:00+00:00",
-     "text": "[The Moscow Times](https://www.themoscowtimes.com/2026/11/13/ukrainian-drone-attack-kills-4-workers-sparks-fire-at-volgograd-oil-refinery-a94250) reported that a Ukrainian drone attack killed four workers and sparked a fire at the Volgograd oil refinery."
-    },
-    {
-     "articles": [
-      "2123423ba527bc18"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Ukrinform"
-     ],
-     "published": "2026-11-13T10:55:00+00:00",
-     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184290-russian-forces-strike-apartment-building-in-zaporizhzhia-four-injured-including-children.html) reported that Russian forces struck a five-story residential building in the Kosmichnyi district of Zaporizhzhia, injuring at least four people including two children."
-    },
-    {
-     "articles": [
-      "e340bde784ddad42"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "DW"
-     ],
-     "published": "2026-11-13T10:00:00+00:00",
-     "text": "[DW](https://www.dw.com/en/ukraine-updates-second-car-bomb-to-hit-russia-in-two-days/live-79937459?maca=en-rss-en-all-1573-rdf) reported that a second car bomb in two days exploded in Moscow targeting an exiled Ukrainian political aide."
-    },
-    {
-     "articles": [
-      "f0064cb8251cd9e1"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "The Hindu (World)"
-     ],
-     "published": "2026-11-13T10:16:00+00:00",
-     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/second-car-bomb-to-hit-russia-in-two-days-targets-exiled-ukrainian-political-aide-media-report/article71697330.ece) reported that Russian media stated the car belonged to Sergei Zavorotniy, a onetime spokesman for former Ukrainian Prime Minister Mykola Azarov."
-    },
-    {
-     "articles": [
-      "38ef3985e1df41c0"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "RTÉ"
-     ],
-     "published": "2026-11-13T09:36:40+00:00",
-     "text": "[RTÉ](https://www.rte.ie/news/ukraine/2026/1113/1599085-ukraine-russia-conflict/) reported that Russia stated nearly 1,200 Ukrainian drones were intercepted overnight, resulting in four deaths and a Kyiv hospital hit."
-    },
-    {
-     "articles": [
-      "a3a855ac052a9d39"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Ukrainska Pravda"
-     ],
-     "published": "2026-11-13T07:52:00+00:00",
-     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062657/) reported that Russian aerial strikes on Malynivka and Zlatopil in Kharkiv Oblast injured 11 people, including minors, after hitting residential buildings and a facility."
-    },
-    {
-     "articles": [
-      "227218513737a332"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Kyiv Post"
-     ],
-     "published": "2026-11-13T09:55:48+00:00",
-     "text": "[Kyiv Post](https://www.kyivpost.com/post/90009) reported that Russian strikes on Odesa killed two women and injured six people."
-    },
-    {
-     "articles": [
-      "1e7d0b5a188e3682"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Ukrinform"
-     ],
-     "published": "2026-11-13T08:30:00+00:00",
-     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184199-russian-overnight-attack-partially-destroys-second-floor-of-kyiv-hospital-injures-three-patients.html) reported that a medical facility operated by the National Academy of Medical Sciences was damaged in an overnight Russian attack on Kyiv, leaving three patients injured."
-    },
-    {
-     "articles": [
-      "bcf1242a746c5964"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Kyiv Independent"
-     ],
-     "published": "2026-11-13T10:48:39+00:00",
-     "text": "[Kyiv Independent](https://kyivindependent.com/russian-attacks-kill-9-injure-61-across-ukraine-over-past-day-spark-fire-at-kyiv-hospital/) reported that Russian forces launched 117 long-range attack drones overnight on Nov. 13, including 63 jet-powered drones."
-    },
-    {
-     "articles": [
-      "1cf9800e51b0cfd1"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Ukrinform"
-     ],
-     "published": "2026-11-13T08:45:00+00:00",
-     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184217-russian-attack-on-vinnytsia-three-injured-over-20-homes-damaged.html) reported that three people were injured and over 20 homes were damaged in a Russian attack on Vinnytsia."
-    },
-    {
-     "articles": [
-      "03f77f9837a65897"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Africanews"
-     ],
-     "published": "2026-11-12T14:26:25+00:00",
-     "text": "[Africanews](http://www.africanews.com/2026/11/12/ukraine-russian-drone-attack-sparks-major-fire-in-kyiv-residential-building/) reported that a Russian drone attack sparked a major fire at a residential building in Kyiv."
-    },
-    {
-     "articles": [
-      "b2a5bbf67e5ad7a2",
-      "e2e18234527bb8b8"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Ukrainska Pravda",
-      "Ukrinform"
-     ],
-     "published": "2026-11-13T01:38:00+00:00",
-     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062625/), [Ukrinform](https://www.ukrinform.net/rubric-ato/4184146-russian-drone-hits-apartment-building-in-rivne-children-among-injured.html) reported that a Russian drone strike on an apartment block in Rivne injured six people, including two children."
-    },
-    {
-     "articles": [
-      "0196ed8d34313681"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Ukrainska Pravda"
-     ],
-     "published": "2026-11-13T05:12:00+00:00",
-     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/13/8062642/) reported that a Russian attack on a medical facility in Kyiv left one person injured and caused a fire."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "ukraine",
-   "title": "Russian Drone Attack Damages Kyiv Trauma Institute",
-   "title_from": {
-    "backing": 7,
-    "date": "2026-11-13",
-    "of": 10,
-    "outlet": "Kyiv Post",
-    "url": "https://www.kyivpost.com/post/90012"
-   }
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -29836,8 +29606,21 @@
    }
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a580dd94f29ef6f4",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-13T12:57:08+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "France slams Israel’s ‘demagogic’ ban on left-wing leader Melenchon",
+     "type": "international",
+     "url": "https://www.aljazeera.com/news/2026/11/13/france-slams-israels-demagogic-ban-on-left-wing-leader-melenchon?traffic_source=rss"
+    },
     {
      "added": "2026-11-13",
      "id": "bdf166940f6c3311",
@@ -29920,14 +29703,14 @@
      "url": "https://www.france24.com/en/middle-east/20261112-israel-to-ban-far-left-french-politician-jean-luc-m%C3%A9lenchon-from-entry"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 7,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "israel-entry-ban-on-jean-luc",
    "label": "Israel entry ban on Jean-Luc Mélenchon",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 6,
+   "outlets_today": 7,
    "previous_titles": [
     "Israel to ban far-left French politician Jean-Luc Mélenchon from entry"
    ],
@@ -30555,123 +30338,6 @@
     "of": 5,
     "outlet": "The Will (Nigeria)",
     "url": "https://thewillnews.com/2027-inec-chairman-amupitan-faces-angry-diaspora-protesters-in-london-defends-electoral-credibility/"
-   }
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "445d2c9a23395bec",
-     "lang": "en",
-     "outlet": "The Sun (Nigeria)",
-     "published": "2026-11-13T09:22:09+00:00",
-     "publisher": "The Sun (Nigeria)",
-     "region": "africa",
-     "section": null,
-     "title": "INEC chairman Amupitan denies operating pro-Tinubu X account",
-     "type": "local",
-     "url": "https://thesun.ng/inec-chairman-amupitan-denies-operating-pro-tinubu-x-account/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "4d786af7c1d6f1fb",
-     "lang": "en",
-     "outlet": "Legit (Nigeria)",
-     "published": "2026-11-13T07:36:59+00:00",
-     "publisher": "Legit (Nigeria)",
-     "region": "africa",
-     "section": null,
-     "title": "INEC chairman Amupitan reveals what happens to Atiku's 2027 bid if Supreme Court rules against him",
-     "type": "local",
-     "url": "https://www.legit.ng/politics/1741071-will-atiku-participate-2027-election-inec-chairman-speaks-out/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "76b21c090060f4fb",
-     "lang": "en",
-     "outlet": "Punch",
-     "published": "2026-11-13T07:16:27+00:00",
-     "publisher": "Punch",
-     "region": "africa",
-     "section": null,
-     "title": "2027: INEC will obey court ruling on Atiku’s candidacy – Amupitan",
-     "type": "local",
-     "url": "https://punchng.com/2027-inec-will-obey-court-ruling-on-atikus-candidacy-amupitan/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "0e0433fce065ae69",
-     "lang": "en",
-     "outlet": "Vanguard",
-     "published": "2026-11-13T06:39:24+00:00",
-     "publisher": "Vanguard",
-     "region": "africa",
-     "section": null,
-     "title": "INEC to obey court on Atiku’s ADC candidacy – Amupitan",
-     "type": "local",
-     "url": "https://www.vanguardngr.com/2026/11/inec-to-obey-court-on-atikus-adc-candidacy-amupitan/"
-    }
-   ],
-   "articles_today": 4,
-   "first_seen": "2026-11-13",
-   "group": "africa",
-   "id": "inec-court-decision-stance-on-atiku",
-   "label": "INEC court decision stance on Atiku candidacy",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 4,
-   "reports": [
-    {
-     "articles": [
-      "445d2c9a23395bec"
-     ],
-     "date": "2026-11-13",
-     "group": "africa",
-     "outlets": [
-      "The Sun (Nigeria)"
-     ],
-     "published": "2026-11-13T09:22:09+00:00",
-     "text": "[The Sun (Nigeria)](https://thesun.ng/inec-chairman-amupitan-denies-operating-pro-tinubu-x-account/) reported that INEC Chairman Prof. Joash Amupitan denied operating an X account allegedly used to express support for Tinubu."
-    },
-    {
-     "articles": [
-      "0e0433fce065ae69",
-      "76b21c090060f4fb"
-     ],
-     "date": "2026-11-13",
-     "group": "africa",
-     "outlets": [
-      "Vanguard",
-      "Punch"
-     ],
-     "published": "2026-11-13T06:39:24+00:00",
-     "text": "[Vanguard](https://www.vanguardngr.com/2026/11/inec-to-obey-court-on-atikus-adc-candidacy-amupitan/), [Punch](https://punchng.com/2027-inec-will-obey-court-ruling-on-atikus-candidacy-amupitan/?utm_source=rss.punchng.com&utm_medium=web) reported that INEC Chairman Prof. Joash Amupitan stated the commission will abide by the final court decision on Atiku Abubakar's presidential candidacy under the ADC."
-    },
-    {
-     "articles": [
-      "4d786af7c1d6f1fb"
-     ],
-     "date": "2026-11-13",
-     "group": "africa",
-     "outlets": [
-      "Legit (Nigeria)"
-     ],
-     "published": "2026-11-13T07:36:59+00:00",
-     "text": "[Legit (Nigeria)](https://www.legit.ng/politics/1741071-will-atiku-participate-2027-election-inec-chairman-speaks-out/) reported that Amupitan explained what happens to Atiku's 2027 bid if he loses his court battle."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "nigeria",
-   "title": "2027: INEC will obey court ruling on Atiku’s candidacy – Amupitan",
-   "title_from": {
-    "backing": 3,
-    "date": "2026-11-13",
-    "of": 3,
-    "outlet": "Punch",
-    "url": "https://punchng.com/2027-inec-will-obey-court-ruling-on-atikus-candidacy-amupitan/?utm_source=rss.punchng.com&utm_medium=web"
    }
   },
   {
@@ -33509,7 +33175,7 @@
    "title": "Washington DC shooting incident"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
     {
      "added": "2026-11-13",
@@ -33523,6 +33189,32 @@
      "title": "2027: Ondo APC to sustain grassroots mobilisation after Tinubu’s rally – Campaign DG, Olabimtan",
      "type": "local",
      "url": "https://tribuneonlineng.com/2027-ondo-apc-to-sustain-grassroots-mobilisation-after-tinubus-rally-campaign-dg-olabimtan/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "922ca81926f4ff89",
+     "lang": "en",
+     "outlet": "The Sun (Nigeria)",
+     "published": "2026-11-13T08:22:14+00:00",
+     "publisher": "The Sun (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "Tinubu, APC national leaders to storm Jos for North-Central rally",
+     "type": "local",
+     "url": "https://thesun.ng/tinubu-apc-national-leaders-to-storm-jos-for-north-central-rally/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "39987d0afb75ccfb",
+     "lang": "en",
+     "outlet": "AllAfrica",
+     "published": "2026-11-13T07:55:57+00:00",
+     "publisher": "AllAfrica",
+     "region": "africa",
+     "section": null,
+     "title": "Nigeria: Lagos APC Rally - Sanwo-Olu, Ambode, Others, Seek Voters' Support for Tinubu, Hamzat",
+     "type": "regional",
+     "url": "https://allafrica.com/stories/202611130113.html"
     },
     {
      "added": "2026-11-13",
@@ -33551,15 +33243,30 @@
      "url": "https://www.premiumtimesng.com/news/top-news/924776-2027-tompolo-leads-grassroots-mobilisation-for-tinubu-in-jigawa-zamfara-unveils-56-vehicles.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "nigeria-grassroots-mobilisation",
    "label": "Nigeria grassroots mobilisation",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 4,
+   "previous_titles": [
+    "Nigeria: Tompolo Leads Grassroots Mobilisation for Tinubu in Jigawa, Zamfara"
+   ],
    "reports": [
+    {
+     "articles": [
+      "39987d0afb75ccfb"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "AllAfrica"
+     ],
+     "published": "2026-11-13T07:55:57+00:00",
+     "text": "[AllAfrica](https://allafrica.com/stories/202611130113.html) AllAfrica reported that Lagos State Governor Babajide Sanwo-Olu and his predecessor Akinwunmi Ambode sought voters' support for President Bola Tinubu."
+    },
     {
      "articles": [
       "641bea1ed31fe2be"
@@ -33591,13 +33298,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "nigeria",
-   "title": "Nigeria: Tompolo Leads Grassroots Mobilisation for Tinubu in Jigawa, Zamfara",
+   "title": "2027: Ondo APC to sustain grassroots mobilisation after Tinubu’s rally – Campaign DG, Olabimtan",
    "title_from": {
-    "backing": 2,
+    "backing": 3,
     "date": "2026-11-13",
-    "of": 2,
-    "outlet": "AllAfrica",
-    "url": "https://allafrica.com/stories/202611130111.html"
+    "of": 3,
+    "outlet": "Nigerian Tribune",
+    "url": "https://tribuneonlineng.com/2027-ondo-apc-to-sustain-grassroots-mobilisation-after-tinubus-rally-campaign-dg-olabimtan/"
    }
   },
   {
@@ -36050,8 +35757,21 @@
    "title": "Velika Kladusa medication smuggling arrest"
   },
   {
-   "article_count": 11,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a6e8dcad1292d0b8",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-13T13:05:20+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian intelligence services behind car blast in Moscow — Ukraine’s former PM",
+     "type": "state-media",
+     "url": "https://tass.com/world/2217875"
+    },
     {
      "added": "2026-11-13",
      "id": "f88224e9218a40f8",
@@ -36196,7 +35916,7 @@
      "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062667/"
     }
    ],
-   "articles_today": 11,
+   "articles_today": 12,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "moscow-car-explosion-injures-former-azarov",
@@ -36208,6 +35928,18 @@
     "Former Ukrainian PM’s Aide Seriously Injured in Moscow Car Blast – Reports"
    ],
    "reports": [
+    {
+     "articles": [
+      "a6e8dcad1292d0b8"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-13T13:05:20+00:00",
+     "text": "[TASS](https://tass.com/world/2217875) TASS reported that former Ukrainian Prime Minister Nikolay Azarov stated that Ukrainian intelligence services are behind the car blast in Moscow."
+    },
     {
      "articles": [
       "f88224e9218a40f8"
@@ -36695,8 +36427,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "96f26cb3d204e9d1",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-13T13:01:51+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Russia's advance in Ukraine has slowed significantly, Air Assault Forces commander says",
+     "type": "local",
+     "url": "https://kyivindependent.com/russias-advance-in-ukraine-has-slowed-significantly-air-assault-forces-commander-says/"
+    },
     {
      "added": "2026-11-13",
      "id": "4ea87bf8d5ee4489",
@@ -36737,15 +36482,27 @@
      "url": "https://www.ukrinform.net/rubric-ato/4184240-russian-offensive-loses-momentum-as-advance-on-frontline-slows-significantly-ukraines-air-assault-commander.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "ukraine-frontline-advance-and-military-updates",
    "label": "Ukraine frontline advance and military updates",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "96f26cb3d204e9d1"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-13T13:01:51+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/russias-advance-in-ukraine-has-slowed-significantly-air-assault-forces-commander-says/) Kyiv Independent reported that Air Assault Forces commander Maj. Gen. Oleh Apostol stated that heavy casualties are limiting Moscow's ability to sustain its offensive."
+    },
     {
      "articles": [
       "d1206958fc5cbe6f",
@@ -36777,12 +36534,32 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "ukraine",
-   "title": "Ukraine frontline advance and military updates",
+   "title": "Russian Advance Loses ‘Significant’ Momentum, Ukraine’s Air Assault Chief Says",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/90004"
+   },
    "topic": "conflict"
   },
   {
-   "article_count": 14,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "32f0e1b92716ecc6",
+     "lang": "en",
+     "outlet": "The Sun (Nigeria)",
+     "published": "2026-11-13T13:02:45+00:00",
+     "publisher": "The Sun (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "Ogun 2027: Court orders INEC to publish Adebutu’s name, says Commission lacks powers to unilaterally remove candidates",
+     "type": "local",
+     "url": "https://thesun.ng/ogun-2027-court-orders-inec-to-publish-adebutus-name-says-commission-lacks-powers-to-unilaterally-remove-candidates/"
+    },
     {
      "added": "2026-11-13",
      "id": "69b1c91ffe204cfd",
@@ -36954,6 +36731,32 @@
     },
     {
      "added": "2026-11-13",
+     "id": "445d2c9a23395bec",
+     "lang": "en",
+     "outlet": "The Sun (Nigeria)",
+     "published": "2026-11-13T09:22:09+00:00",
+     "publisher": "The Sun (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "INEC chairman Amupitan denies operating pro-Tinubu X account",
+     "type": "local",
+     "url": "https://thesun.ng/inec-chairman-amupitan-denies-operating-pro-tinubu-x-account/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "4d786af7c1d6f1fb",
+     "lang": "en",
+     "outlet": "Legit (Nigeria)",
+     "published": "2026-11-13T07:36:59+00:00",
+     "publisher": "Legit (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "INEC chairman Amupitan reveals what happens to Atiku's 2027 bid if Supreme Court rules against him",
+     "type": "local",
+     "url": "https://www.legit.ng/politics/1741071-will-atiku-participate-2027-election-inec-chairman-speaks-out/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "96bfbc5099a6d339",
      "lang": "en",
      "outlet": "Nigerian Tribune",
@@ -36964,21 +36767,101 @@
      "title": "Adebutu knows fate today as court gives judgment on his exclusion from INEC list",
      "type": "local",
      "url": "https://tribuneonlineng.com/adebutu-knows-fate-today-as-court-gives-judgment-on-his-exclusion-from-inec-list/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "76b21c090060f4fb",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-13T07:16:27+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "2027: INEC will obey court ruling on Atiku’s candidacy – Amupitan",
+     "type": "local",
+     "url": "https://punchng.com/2027-inec-will-obey-court-ruling-on-atikus-candidacy-amupitan/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "0e0433fce065ae69",
+     "lang": "en",
+     "outlet": "Vanguard",
+     "published": "2026-11-13T06:39:24+00:00",
+     "publisher": "Vanguard",
+     "region": "africa",
+     "section": null,
+     "title": "INEC to obey court on Atiku’s ADC candidacy – Amupitan",
+     "type": "local",
+     "url": "https://www.vanguardngr.com/2026/11/inec-to-obey-court-on-atikus-adc-candidacy-amupitan/"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 19,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "ogun-state-pdp-governorship-candidate-court",
    "label": "Ogun State PDP governorship candidate court ruling",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
+   "merged": [
+    "inec-court-decision-stance-on-atiku"
+   ],
    "outlets_today": 8,
    "previous_titles": [
     "Just in: Court orders INEC to publish Adebutu’s name as Ogun PDP gov candidate",
-    "Adebutu knows fate today as court gives judgment on his exclusion from INEC list"
+    "Adebutu knows fate today as court gives judgment on his exclusion from INEC list",
+    "Court Orders INEC to Reinstate Adebutu as Ogun PDP Guber Candidate Within 24 Hours"
    ],
    "reports": [
+    {
+     "articles": [
+      "445d2c9a23395bec"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "The Sun (Nigeria)"
+     ],
+     "published": "2026-11-13T09:22:09+00:00",
+     "text": "[The Sun (Nigeria)](https://thesun.ng/inec-chairman-amupitan-denies-operating-pro-tinubu-x-account/) reported that INEC Chairman Prof. Joash Amupitan denied operating an X account allegedly used to express support for Tinubu."
+    },
+    {
+     "articles": [
+      "0e0433fce065ae69",
+      "76b21c090060f4fb"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "Vanguard",
+      "Punch"
+     ],
+     "published": "2026-11-13T06:39:24+00:00",
+     "text": "[Vanguard](https://www.vanguardngr.com/2026/11/inec-to-obey-court-on-atikus-adc-candidacy-amupitan/), [Punch](https://punchng.com/2027-inec-will-obey-court-ruling-on-atikus-candidacy-amupitan/?utm_source=rss.punchng.com&utm_medium=web) reported that INEC Chairman Prof. Joash Amupitan stated the commission will abide by the final court decision on Atiku Abubakar's presidential candidacy under the ADC."
+    },
+    {
+     "articles": [
+      "4d786af7c1d6f1fb"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "Legit (Nigeria)"
+     ],
+     "published": "2026-11-13T07:36:59+00:00",
+     "text": "[Legit (Nigeria)](https://www.legit.ng/politics/1741071-will-atiku-participate-2027-election-inec-chairman-speaks-out/) reported that Amupitan explained what happens to Atiku's 2027 bid if he loses his court battle."
+    },
+    {
+     "articles": [
+      "32f0e1b92716ecc6"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "The Sun (Nigeria)"
+     ],
+     "published": "2026-11-13T13:02:45+00:00",
+     "text": "[The Sun (Nigeria)](https://thesun.ng/ogun-2027-court-orders-inec-to-publish-adebutus-name-says-commission-lacks-powers-to-unilaterally-remove-candidates/) The Sun reported that the Federal High Court ruled that INEC has no power to unilaterally disqualify a candidate and ordered it to publish Adebutu's name."
+    },
     {
      "articles": [
       "69b1c91ffe204cfd"
@@ -37114,13 +36997,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "nigeria",
-   "title": "Court Orders INEC to Reinstate Adebutu as Ogun PDP Guber Candidate Within 24 Hours",
+   "title": "Adebutu knows fate today as court gives judgment on his exclusion from INEC list",
    "title_from": {
     "backing": 7,
     "date": "2026-11-13",
     "of": 7,
-    "outlet": "The Will (Nigeria)",
-    "url": "https://thewillnews.com/court-orders-inec-to-reinstate-adebutu-as-ogun-pdp-guber-candidate-within-24-hours/"
+    "outlet": "Nigerian Tribune",
+    "url": "https://tribuneonlineng.com/adebutu-knows-fate-today-as-court-gives-judgment-on-his-exclusion-from-inec-list/"
    },
    "topic": "justice"
   },
@@ -37649,8 +37532,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "4f027f62fec2ea51",
+     "lang": "ar",
+     "outlet": "Al-Masry Al-Youm",
+     "published": "2026-11-13T10:08:31+00:00",
+     "publisher": "Al-Masry Al-Youm",
+     "region": "mena",
+     "section": null,
+     "title": "الحرس الثوري الإيراني: سنرد على أدنى اعتداء بضربات مروعة",
+     "type": "local",
+     "url": "https://www.almasryalyoum.com/news/details/4409289"
+    },
     {
      "added": "2026-11-13",
      "id": "49024d775e9eb1e3",
@@ -37678,15 +37574,27 @@
      "url": "https://almadapaper.net/460976/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "story",
    "label": "الحرس الثوري يعلن إصابة ناقلة غاز بانفجار واشتعال النيران فيها بمضيق هرمز",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "4f027f62fec2ea51"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Al-Masry Al-Youm"
+     ],
+     "published": "2026-11-13T10:08:31+00:00",
+     "text": "[Al-Masry Al-Youm](https://www.almasryalyoum.com/news/details/4409289) Al-Masry Al-Youm reported that Islamic Revolutionary Guard Corps Commander-in-Chief Major General Ahmad Vahidi stated that Iran will respond to the slightest aggression with devastating strikes."
+    },
     {
      "articles": [
       "e2d8a9b546109153"
@@ -38172,8 +38080,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "270035edfe01f5ef",
+     "lang": "en",
+     "outlet": "Tehran Times",
+     "published": "2026-11-13T13:02:13+00:00",
+     "publisher": "Tehran Times",
+     "region": "mena",
+     "section": null,
+     "title": "X suspends Palestinian American campaign account after Senate bid",
+     "type": "state-media",
+     "url": "https://www.tehrantimes.com/news/532095/X-suspends-Palestinian-American-campaign-account-after-Senate"
+    },
     {
      "added": "2026-11-13",
      "id": "00b2e120ad51f9a3",
@@ -38201,16 +38122,24 @@
      "url": "http://en.yenisafak.com/technology/palestinian-american-ahmed-moors-campaign-account-suspended-by-x-after-senate-bid-3725532"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "namerica",
    "id": "x-suspension-of-ahmed-moor-campaign",
    "label": "X suspension of Ahmed Moor campaign account",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
+     "also": [
+      {
+       "date": "2026-11-13",
+       "outlet": "Tehran Times",
+       "published": "2026-11-13T13:02:13+00:00",
+       "url": "https://www.tehrantimes.com/news/532095/X-suspends-Palestinian-American-campaign-account-after-Senate"
+      }
+     ],
      "articles": [
       "9c193fc0d3841eef"
      ],
@@ -38227,7 +38156,14 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "us",
-   "title": "X suspension of Ahmed Moor campaign account",
+   "title": "X suspends Palestinian American Ahmed Moor’s campaign account after Senate bid",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Middle East Monitor",
+    "url": "https://www.middleeastmonitor.com/20261113-x-suspends-palestinian-american-ahmed-moors-campaign-account-after-senate-bid/"
+   },
    "topic": "politics"
   },
   {
@@ -38683,8 +38619,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "fcb0c5f4f0c30c68",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-13T13:10:59+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "Global refinery throughput falls in October to seasonal low of 81.3 mbd — IEA",
+     "type": "state-media",
+     "url": "https://tass.com/economy/2217881"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "627deb7fb9e6027f",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-13T13:00:04+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "IEA downgrades outlook on global oil demand growth, projects decline by 2.7 mbd in 2026",
+     "type": "state-media",
+     "url": "https://tass.com/economy/2217863"
+    },
     {
      "added": "2026-11-13",
      "id": "1c1a61b187652945",
@@ -38712,15 +38674,27 @@
      "url": "https://www.euronews.com/2026/11/13/european-diesel-prices-stay-high-as-global-oil-supply-overtakes-demand-iea-says"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "global",
    "id": "international-energy-agency-global-oil-supply",
    "label": "International Energy Agency global oil supply and diesel prices report",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "627deb7fb9e6027f"
+     ],
+     "date": "2026-11-13",
+     "group": "global",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-13T13:00:04+00:00",
+     "text": "[TASS](https://tass.com/economy/2217863) TASS reported that the IEA downgraded its outlook on global oil demand growth and projects a decline in 2026."
+    },
     {
      "articles": [
       "acbe03287f33fd43"
@@ -38749,7 +38723,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "International Energy Agency global oil supply and diesel prices report",
+   "title": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Euronews",
+    "url": "https://www.euronews.com/2026/11/13/european-diesel-prices-stay-high-as-global-oil-supply-overtakes-demand-iea-says"
+   },
    "topic": "economy"
   },
   {
@@ -42255,7 +42236,7 @@
    "topic": "politics"
   },
   {
-   "article_count": 20,
+   "article_count": 21,
    "articles": [
     {
      "added": "2026-11-13",
@@ -42269,6 +42250,19 @@
      "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
      "type": "international",
      "url": "https://www.npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "b3c6b33a93c76566",
+     "lang": "en",
+     "outlet": "Rappler (Philippines)",
+     "published": "2026-11-13T08:42:26+00:00",
+     "publisher": "Rappler (Philippines)",
+     "region": "asia",
+     "section": null,
+     "title": "Huang exit, US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia",
+     "type": "local",
+     "url": "https://www.rappler.com/technology/jensen-huang-exit-us-scrutiny-imperil-chinese-ai-projects-reliant-nvidia/"
     },
     {
      "added": "2026-11-13",
@@ -42524,15 +42518,30 @@
      "url": "https://news.cgtn.com/news/2026-11-12/news-1S1a9P9X8iI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
     }
    ],
-   "articles_today": 20,
+   "articles_today": 21,
    "first_seen": "2026-11-13",
    "group": "namerica",
    "id": "jensen-huang-resigns-as-nvidia-ceo",
    "label": "Jensen Huang resigns as Nvidia CEO",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 16,
+   "outlets_today": 17,
+   "previous_titles": [
+    "Nvidia CEO Jensen Huang Resigns, CFO Colette Kress to Serve as Interim Leader"
+   ],
    "reports": [
+    {
+     "articles": [
+      "b3c6b33a93c76566"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "Rappler (Philippines)"
+     ],
+     "published": "2026-11-13T08:42:26+00:00",
+     "text": "[Rappler (Philippines)](https://www.rappler.com/technology/jensen-huang-exit-us-scrutiny-imperil-chinese-ai-projects-reliant-nvidia/) Rappler reported that Huang's exit and US scrutiny imperil $3 billion in Chinese AI projects reliant on Nvidia."
+    },
     {
      "articles": [
       "7632460441fcb3cc"
@@ -42574,13 +42583,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "us",
-   "title": "Nvidia CEO Jensen Huang Resigns, CFO Colette Kress to Serve as Interim Leader",
+   "title": "Jensen Huang steps down as Nvidia CEO amid infidelity and espionage scandal",
    "title_from": {
-    "backing": 14,
+    "backing": 15,
     "date": "2026-11-13",
-    "of": 15,
-    "outlet": "This Day",
-    "url": "https://www.thisdaylive.com/2026/11/13/nvidia-ceo-jensen-huang-resigns-cfo-colette-kress-to-serve-as-interim-leader/"
+    "of": 16,
+    "outlet": "El País",
+    "url": "https://english.elpais.com/economy-and-business/2026-11-12/jensen-huang-steps-down-as-nvidia-ceo-amid-infidelity-and-espionage-scandal.html"
    },
    "topic": "business-strategic"
   },
@@ -43804,9 +43813,436 @@
    "subject": "spain",
    "title": "Spain pension revaluation decree",
    "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "e743b58f63504e7a",
+     "lang": "ar",
+     "outlet": "Asharq News",
+     "published": "2026-11-13T10:21:51+00:00",
+     "publisher": "Asharq News",
+     "region": "mena",
+     "section": null,
+     "title": "وكالة الطاقة الذرية تدعو إيران إلى التعاون وتحذر من \"مخاوف جدية\" بشأن مخزونات اليورانيوم",
+     "type": "regional",
+     "url": "https://asharq.com/politics/202937/%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B0%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D8%AC%D8%AF%D9%8A%D8%A9/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "b964bb91ee3e94c2",
+     "lang": "ar",
+     "outlet": "Al-Masry Al-Youm",
+     "published": "2026-11-13T09:57:23+00:00",
+     "publisher": "Al-Masry Al-Youm",
+     "region": "mena",
+     "section": null,
+     "title": "«الدولية للطاقة الذرية» تصدر بيانا بشأن «نووي إيران»: لا معلومات لدينا عنه باستثناء محطة بوشهر",
+     "type": "local",
+     "url": "https://www.almasryalyoum.com/news/details/4409281"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "mena",
+   "id": "iaea-iran-nuclear-facilities-access",
+   "label": "IAEA Iran nuclear facilities access",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b964bb91ee3e94c2"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Al-Masry Al-Youm"
+     ],
+     "published": "2026-11-13T09:57:23+00:00",
+     "text": "[Al-Masry Al-Youm](https://www.almasryalyoum.com/news/details/4409281) Al-Masry Al-Youm reported that the International Energy Agency stated in a new report that it has been unable to access Iranian nuclear facilities since attacks in June 2025."
+    },
+    {
+     "articles": [
+      "e743b58f63504e7a"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Asharq News"
+     ],
+     "published": "2026-11-13T10:21:51+00:00",
+     "text": "[Asharq News](https://asharq.com/politics/202937/%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%B0%D8%B1%D9%8A%D8%A9-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%84%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D9%88%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D8%AC%D8%AF%D9%8A%D8%A9/) Asharq News reported that the atomic energy agency called on Iran to cooperate and warned of serious concerns regarding uranium stockpiles."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "iran",
+   "title": "IAEA Iran nuclear facilities access",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "bf282535fcbfef22",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-13T13:10:08+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "6 dead near Kenya’s capital after building collapses",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "4b558cc6965935f6",
+     "lang": "en",
+     "outlet": "Times of India",
+     "published": "2026-11-13T11:27:28+00:00",
+     "publisher": "Times of India",
+     "region": "asia",
+     "section": null,
+     "title": "6 dead after building collapses near Kenya's capital",
+     "type": "local",
+     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/6-dead-after-building-collapses-near-kenyas-capital/articleshow/135801055.cms"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "africa",
+   "id": "kenya-building-collapse",
+   "label": "Kenya building collapse",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4b558cc6965935f6",
+      "bf282535fcbfef22"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "Times of India",
+      "South China Morning Post"
+     ],
+     "published": "2026-11-13T11:27:28+00:00",
+     "text": "[Times of India](https://timesofindia.indiatimes.com/world/rest-of-world/6-dead-after-building-collapses-near-kenyas-capital/articleshow/135801055.cms), [South China Morning Post](https://www.scmp.com/news/world/africa/article/3374388/6-dead-near-kenyas-capital-after-building-collapses) reported that six people died near Kenya's capital after the top floor of a building under construction collapsed."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "kenya",
+   "title": "Kenya building collapse",
+   "topic": "disaster"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9e9d57406e1594ac",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-13T13:05:16+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "Sánchez se olvida de Koldo García y de las cloacas del PSOE con Jordi Wild: \"No sabía quien era\"",
+     "type": "local",
+     "url": "https://www.larazon.es/espana/sanchez-olvida-koldo-garcia-cloacas-psoe-jordi-wild-sabia-quien-era_202611136af70b0c4196933d7edbfb55.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "b8fc373e2c5782d6",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-13T11:47:29+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Tellado anuncia una denuncia contra el PSOE gallego por difundir sin verificar una imagen suya con Koldo García",
+     "type": "local",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-13/tellado-anuncia-una-denuncia-contra-el-psoe-gallego-por-difundir-sin-verificar-una-imagen-suya-con-koldo-garcia.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "spain-political-defamation-dispute",
+   "label": "Spain political defamation dispute",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b8fc373e2c5782d6"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-13T11:47:29+00:00",
+     "text": "[El País](https://elpais.com/espana/elecciones-generales/2026-11-13/tellado-anuncia-una-denuncia-contra-el-psoe-gallego-por-difundir-sin-verificar-una-imagen-suya-con-koldo-garcia.html) El País reported that Miguel Tellado announced a lawsuit against the Galician PSOE for spreading an unverified image of him with Koldo García."
+    },
+    {
+     "articles": [
+      "9e9d57406e1594ac"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "La Razón"
+     ],
+     "published": "2026-11-13T13:05:16+00:00",
+     "text": "[La Razón](https://www.larazon.es/espana/sanchez-olvida-koldo-garcia-cloacas-psoe-jordi-wild-sabia-quien-era_202611136af70b0c4196933d7edbfb55.html) La Razón reported that Pedro Sánchez denied meetings with Leire Díez and did not rule out a lawsuit."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Spain political defamation dispute",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "824737b8c7e65e00",
+     "lang": "en",
+     "outlet": "RTHK Local",
+     "published": "2026-11-13T13:05:20+00:00",
+     "publisher": "RTHK Local",
+     "region": "asia",
+     "section": null,
+     "title": "14-month-old baby girl dies from flu",
+     "type": "state-media",
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1877739-20261113.htm"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "7ae763eb3235ee8c",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-13T12:28:57+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "14-month-old girl is Hong Kong’s third child fatality this flu season",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/hong-kong/health-environment/article/3374384/14-month-old-girl-hong-kongs-third-child-fatality-flu-season"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "asia",
+   "id": "hong-kong-child-influenza-fatalities",
+   "label": "Hong Kong child influenza fatalities",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7ae763eb3235ee8c",
+      "824737b8c7e65e00"
+     ],
+     "date": "2026-11-13",
+     "group": "asia",
+     "outlets": [
+      "South China Morning Post",
+      "RTHK Local"
+     ],
+     "published": "2026-11-13T12:28:57+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/news/hong-kong/health-environment/article/3374384/14-month-old-girl-hong-kongs-third-child-fatality-flu-season), [RTHK Local](https://news.rthk.hk/rthk/en/component/k2/1877739-20261113.htm) reported that health authorities stated a 14-month-old baby girl died from severe influenza, marking the third child flu death in Hong Kong this season."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Hong Kong child influenza fatalities",
+   "topic": "health-emergency"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "4be5d68d86ed320a",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-13T13:10:12+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "70 ألفا يؤدون صلاة الجمعة في المسجد الأقصى المبارك",
+     "type": "local",
+     "url": "https://www.elbalad.news/7179184"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "a43dded13c89eb3b",
+     "lang": "ar",
+     "outlet": "Felesteen",
+     "published": "2026-11-13T12:30:00+00:00",
+     "publisher": "Felesteen",
+     "region": "mena",
+     "section": null,
+     "title": "70 ألف فلسطيني يؤدون صلاة الجمعة في الأقصى رغم إجراءات الاحتلال",
+     "type": "local",
+     "url": "https://felesteen.news/post/190131/70-%D8%A3%D9%84%D9%81-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A-%D9%8A%D8%A4%D8%AF%D9%88%D9%86-%D8%B5%D9%84%D8%A7%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%B9%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89-%D8%B1%D8%BA%D9%85-%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "mena",
+   "id": "al-aqsa-mosque-friday-prayers",
+   "label": "Al-Aqsa Mosque Friday prayers",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Al-Aqsa Mosque Friday prayers",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a694672b27a8425e",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-13T13:00:59+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Vlada FBiH dijeli 180 miliona KM kantonima, poznato je ko će dobiti najviše",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/bih/vlada-f-bi-h-dijeli-180-miliona-km-kantonima-poznato-je-ko-ce-dobiti-najvise/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "67a6b47db4f6328d",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-13T12:41:31+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Vlada FBiH dijeli 180 miliona: Poznato koji kanton će dobiti najviše",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/bih/1087649/vlada-fbih-dijeli-180-miliona-poznato-koji-kanton-ce-dobiti-najvise"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "federation-of-bosnia-and-herzegovina-canton",
+   "label": "Federation of Bosnia and Herzegovina canton allocations",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "67a6b47db4f6328d",
+      "a694672b27a8425e"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Dnevni Avaz",
+      "Oslobođenje"
+     ],
+     "published": "2026-11-13T12:41:31+00:00",
+     "text": "[Dnevni Avaz](https://avaz.ba/vijesti/bih/1087649/vlada-fbih-dijeli-180-miliona-poznato-koji-kanton-ce-dobiti-najvise), [Oslobođenje](https://www.oslobodjenje.ba/vijesti/bih/vlada-f-bi-h-dijeli-180-miliona-km-kantonima-poznato-je-ko-ce-dobiti-najvise/) reported that the Government of the Federation of Bosnia and Herzegovina decided to distribute 180 million to cantons."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "bosnia",
+   "title": "Federation of Bosnia and Herzegovina canton allocations",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f1c8b094d2f7ea18",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-13T13:01:44+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Cuerpo nombra presidentes de perfil técnico para Renfe y Adif: Inmaculada Gutiérrez en la operadora y Joaquim Hortalà en el gestor de la infraestructura",
+     "type": "local",
+     "url": "https://elpais.com/espana/2026-11-13/cuerpo-nombra-presidentes-de-perfil-tecnico-para-renfe-y-adif-inmaculada-gutierrez-en-la-operadora-y-joaquim-hortala-en-el-gestor-de-la-infraestructura.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "b1dcc1c3d3c0c8f0",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-13T12:44:04+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "Cuerpo fulmina a Heredia como presidente de Renfe y nombra nuevo presidente de Adif",
+     "type": "local",
+     "url": "https://www.larazon.es/economia/cuerpo-fulmina-heredia-como-presidente-renfe-nombra-nuevo-presidente-adif_202611136af705f3d3bddc0868b063c5.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "spain-rail-leadership-appointments",
+   "label": "Spain rail leadership appointments",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b1dcc1c3d3c0c8f0",
+      "f1c8b094d2f7ea18"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "La Razón",
+      "El País"
+     ],
+     "published": "2026-11-13T12:44:04+00:00",
+     "text": "[La Razón](https://www.larazon.es/economia/cuerpo-fulmina-heredia-como-presidente-renfe-nombra-nuevo-presidente-adif_202611136af705f3d3bddc0868b063c5.html), [El País](https://elpais.com/espana/2026-11-13/cuerpo-nombra-presidentes-de-perfil-tecnico-para-renfe-y-adif-inmaculada-gutierrez-en-la-operadora-y-joaquim-hortala-en-el-gestor-de-la-infraestructura.html) reported that Carlos Cuerpo dismissed Álvaro Fernández Heredia as Renfe president and appointed Inmaculada Gutiérrez Carrizo, while naming Joaquim Hortalà to head Adif."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Spain rail leadership appointments",
+   "topic": "politics"
   }
  ],
  "retry": [],
  "site": "geo",
- "updated": "2026-11-13T13:05:25+00:00"
+ "updated": "2026-11-13T13:17:24+00:00"
 }
