@@ -6,7 +6,7 @@ an AI. GitHub Pages publishes it; locally, `python -m http.server --directory si
 
 ## Layout
 
-- **Sidebar** pinned to the left: every Geopolitical page, every Cyber page, your Watchlist, then the
+- **Sidebar** pinned to the left: every Geopolitical page, every Cyber page, every Markets page ([markets](markets.md)), your Watchlist, then the
   reference pages (Toolkit, Sources, OpenCTI). Each page shows a count (stories with new reporting, headlines,
   indicators…). At the foot: when the brief was built, sources read and sentences removed by the
   checks. On a phone the sidebar opens from the menu button.

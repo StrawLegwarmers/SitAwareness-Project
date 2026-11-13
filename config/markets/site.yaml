@@ -1,0 +1,63 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# MARKETS site settings: markets, companies and the economy, for traders and analysts.
+#
+# Same rules as the other sites: code groups the headlines, the AI only restates what each
+# outlet reported, with a link, and code checks every sentence. Numbers in the rates table and
+# the calendar come from official data, read by code (pipeline/markets_data.py), never by the AI.
+# Nothing here is investment advice: no ratings, targets, "buy/sell", forecasts or scores.
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Markets Daily
+
+focus: >-
+  markets and the economy: market-moving news, company news (results, deals, leadership changes,
+  regulation and legal action), central banks and interest rates, inflation, jobs and growth data,
+  trade and tariffs, sanctions and export controls, energy and commodities, currencies, government
+  bonds and debt, and financial regulation
+ignore: >-
+  personal finance tips, product reviews and launches, lifestyle, sport, entertainment, celebrity,
+  sponsored content, and pieces that only recommend buying or selling something
+
+# Topics this site keeps (see config/geo/site.yaml): company and market news belongs here.
+topics: [economy, markets, business, energy, markets-strategic, business-strategic, technology-policy,
+         technology, justice, infrastructure, politics, diplomacy]
+
+# Fewer AI calls than the other sites: the news here is concentrated in fewer, bigger stories.
+ai: {max_calls: 3}
+
+groups:
+  - {id: all, name: Markets, sections: [news]}
+
+# Headline lists, straight from the feeds (no AI).
+lists:
+  - {section: official, name: Central banks and official releases, days: 3, limit: 80}
+  - {section: news,     name: Markets headlines,                   days: 2, limit: 80}
+
+# The sidebar (blocks: see config/cyber/site.yaml), plus the Markets blocks:
+#   disclaimer  "what this is and isn't", at the top of the brief
+#   rates       reference rates and prices, from official sources (markets_data.py)
+#   calendar    the next 7 days: central bank decisions, data releases, Treasury auctions
+#   filings     SEC 8-K filings by listed companies, by type (needs the SEC_CONTACT_EMAIL secret)
+#   geolinks    today's Geopolitical stories about energy, trade, sanctions and other market topics
+pages:
+  - {id: brief,     name: Brief,                      icon: brief,     show: [disclaimer, bluf, top, stories, geolinks, quality]}
+  - {id: data,      name: Rates and calendar,         icon: chart,     show: [rates, calendar]}
+  - {id: official,  name: Central banks and releases, icon: bank,      show: [list:official]}
+  - {id: filings,   name: Company filings,            icon: file,      show: [filings]}
+  - {id: analysis,  name: Analysis,                   icon: book,      show: [commentary]}
+  - {id: headlines, name: Markets headlines,          icon: broadcast, show: [list:news]}
+
+# Geopolitical stories shown on the brief under "From the Geopolitical brief": a story whose
+# wider-story name or newest headlines contain one of these words or phrases.
+geo_links: [oil, crude, brent, opec, lng, natural gas, gas field, pipeline, refinery, hormuz, red sea,
+            suez, shipping, tanker, sanctions, sanctioned, tariff, tariffs, trade deal, trade war,
+            export controls, chips, semiconductor, rare earths, critical minerals, wheat, grain,
+            fertiliser, fertilizer, central bank, interest rate, inflation, currency, debt, default,
+            bond, bonds, imf, world bank, nvidia, microsoft outage, blockade]
+
+# Weekend catch-up, as on the other sites.
+catch_up_days:
+  monday: 4
+
+keep_days: 365
+expire_days: 4       # market stories move on quickly

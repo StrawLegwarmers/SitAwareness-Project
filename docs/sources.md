@@ -15,6 +15,7 @@ for Cyber. A source is one line:
 | `feed` | address | The RSS or Atom address (not the home page) |
 | `region` | `global`, `namerica`, `latam`, `europe`, `mena`, `africa`, `asia` | Geopolitical: the region its outlet covers (used for reach, and to file local news that names no country) |
 | `section` | `news`, `intel`, `aviation`, `advisories` | Cyber: cyber news, vendor research, aviation trade press, or advisory bulletins (bulletins are listed but never sent to the AI) |
+| `section` | `news`, `official`, `analysis` | Markets: news grouped into stories, official releases (listed, no AI), or analysis (listed and labelled, with `kind: analysis`) |
 | `type` | `wire`, `international`, `regional`, `local`, `specialist`, `think-tank`, `state-media`, `government` | State media claims are always attributed, never stated as fact. Think tanks count as analysis |
 | `kind` | `news`, `opinion`, `analysis` | Optional: overrides how the source's articles are labelled ([collection](collection.md#opinion-and-analysis)) |
 | `lang` | `en`, `es`, `fr`... | Language code. The AI reads every language and writes English |

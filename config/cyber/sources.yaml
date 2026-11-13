@@ -48,6 +48,7 @@ sources:
   - {name: SentinelLabs,          feed: "https://www.sentinelone.com/labs/feed/",           section: intel, lang: en}
   - {name: Recorded Future Research, feed: "https://www.recordedfuture.com/feed",           section: intel, lang: en}
   - {name: The DFIR Report,       feed: "https://thedfirreport.com/feed/",                  section: intel, lang: en}
+  - {name: OpenSourceMalware,     feed: "https://opensourcemalware.com/rss.xml",            section: intel, lang: en, note: "blog: malicious packages and software supply-chain campaigns (npm, PyPI, VS Code...)"}
 
   # ── Industry: Aviation, Airline & Aerospace ───────────────────────────────
   # Trade press covers the whole industry; the pipeline keeps the security-relevant items.

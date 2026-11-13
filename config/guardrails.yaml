@@ -40,7 +40,11 @@ analysis_words: [likely, unlikely, probably, possibly, perhaps, might, could, ma
                  significant, significantly, major, dramatic, dramatically, shocking, crucial,
                  critical, unprecedented, escalating, escalation, sparking, fuelling, fueling,
                  raising fears, in a bid to, aimed at, as part of a broader, reflects, reflecting,
-                 implications, setback, blow, boost]
+                 implications, setback, blow, boost,
+                 # markets: judgments and advice, allowed only when the source itself used the word
+                 bullish, bearish, overvalued, undervalued, outperform, underperform, overweight,
+                 underweight, upside, downside, buying opportunity, price target, soared, plunged,
+                 tumbled, rallied, surged, slumped, skyrocketed, crashed]
 
 # Sentences longer than this are rejected: one report = one simple sentence.
 max_words: 45

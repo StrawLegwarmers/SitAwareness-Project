@@ -45,6 +45,8 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 8. No analysis. Don't add causes, consequences, motives, predictions, significance or
    context of your own. Never use words like likely, could, may, suggests, signals, amid,
    significant, major, escalation, unless you are repeating the article's own words.
+   Never say whether to buy, sell or hold anything, and never add ratings, price targets or
+   forecasts of your own; an analyst's or company's forecast is reported as theirs, attributed.
 9. Articles marked (state-media) are government-controlled: "[7], a Russian state outlet,
    reported that ...".
 10. Write in English whatever the article's language. Neutral, plain, no adjectives of your own.

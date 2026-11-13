@@ -369,3 +369,19 @@ button.copy:hover { color: var(--text); }
 .mb12 { margin-bottom: 12px; }
 .small13 { font-size: 13px; }
 .state-text { color: var(--state); }
+
+/* ── Markets: note, rates table ── */
+.note-box { margin: 0 0 4px; padding: 10px 14px; font-size: 13px; color: var(--muted); background: var(--surface-2);
+  border-left: 3px solid var(--accent); border-radius: 6px; line-height: 1.5; }
+.note-box strong { color: var(--text); }
+.table-wrap { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+table.rates { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.rates th, table.rates td { padding: 7px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: baseline; }
+table.rates thead th { font: 600 11px var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+table.rates tbody th { font-weight: 500; }
+table.rates tr.grp th { font-size: 12px; font-weight: 600; color: var(--muted); background: var(--surface-2); padding: 5px 12px; }
+table.rates .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.rates tbody tr:last-child th, table.rates tbody tr:last-child td { border-bottom: 0; }
+@media (max-width: 560px) { table.rates th, table.rates td { padding: 6px 8px; font-size: 13px; } }
+/* Links inside a line of text are underlined, so they don't rely on colour alone */
+table.rates td a, .list .row .muted a, .page-meta a { text-decoration: underline; text-underline-offset: 2px; }

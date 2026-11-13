@@ -262,6 +262,8 @@ def export_site(site: str, conn, date: str) -> str:
         "industries": industry_sections(conn, site, stories, start, recent),
         "vulns": vulnerabilities(conn, recent) if site == "cyber" else None,
         "iocs": indicators(conn, date, start) if site == "cyber" else None,
+        "sec_incidents": sec_incidents() if site == "cyber" else None,
+        "markets": markets_extras(cfg, date) if site == "markets" else None,
         "commentary": commentary(conn, site, cfg, state, kinds, recent),
         "countries": countries,
         "headlines": headlines,         # per-country headlines, in their own file
@@ -277,10 +279,66 @@ def export_site(site: str, conn, date: str) -> str:
     return f"{path.relative_to(ROOT)}: {len(stories)} stories, {len(day['bluf'])} BLUF lines{span}"
 
 
+
+# ── Markets extras (markets_data.py) ──────────────────────────────────────────
+
+MARKET_DATA = ROOT / "data" / "markets-data.json"
+GEO_LINKS_N = 12
+
+
+def market_data() -> dict | None:
+    """What markets_data.py fetched this run (None if it didn't run)."""
+    try:
+        return json.loads(MARKET_DATA.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return None
+
+
+def geo_links(cfg: dict, date: str) -> list[dict]:
+    """
+    Today's Geopolitical stories about market topics (site.yaml "geo_links": oil, sanctions,
+    tariffs...): wider-story name, title or newest headlines contain one of the words. Read from
+    the Geopolitical file written just before (sites are exported in alphabetical order).
+    """
+    terms = [t.lower() for t in cfg.get("geo_links") or []]
+    try:
+        geo = json.loads((DATA / "geo" / f"{date}.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    if not terms:
+        return []
+    pattern = re.compile(r"\b(" + "|".join(re.escape(t) for t in terms) + r")\b", re.I)
+    out = []
+    for s in geo.get("stories", []):
+        if s.get("status") not in ("new", "updated", "covered"):
+            continue
+        text = " ".join([s.get("label") or "", s["title"]] + [a["title"] for a in s.get("articles", [])[:6]])
+        found = sorted({m.lower() for m in pattern.findall(text)})
+        if found:
+            out.append({k: s.get(k) for k in ("id", "title", "label", "region", "status", "outlets_period")} | {"terms": found[:4]})
+    out.sort(key=lambda s: -(s.get("outlets_period") or 0))
+    return out[:GEO_LINKS_N]
+
+
+def markets_extras(cfg: dict, date: str) -> dict:
+    data = market_data() or {}
+    return {"generated": data.get("generated"), "rates": data.get("rates") or [],
+            "calendar": data.get("calendar") or {}, "filings": data.get("filings") or {"configured": False},
+            "geo": geo_links(cfg, date)}
+
+
+def sec_incidents() -> dict | None:
+    """For the Cyber site: 8-K Item 1.05 (material cybersecurity incidents) filed in the last day."""
+    f = (market_data() or {}).get("filings") or {}
+    if not f.get("configured") or f.get("error"):
+        return {"configured": bool(f.get("configured")), "error": f.get("error"), "filings": []}
+    return {"configured": True, "filings": next((g["filings"] for g in f.get("groups", []) if g["item"] == "1.05"), [])}
+
 # ── Pages and opinion ──────────────────────────────────────────────────────
 
 # What a page can show, top to bottom (set per page in config/<site>/site.yaml under "pages:")
-BLOCKS = {"bluf", "top", "worldwide", "stories", "regions", "countries", "commentary", "industries", "vulns", "iocs", "quality"}
+BLOCKS = {"bluf", "top", "worldwide", "stories", "regions", "countries", "commentary", "industries", "vulns", "iocs", "quality",
+          "disclaimer", "rates", "calendar", "filings", "geolinks", "secincidents"}
 COMMENTARY_N = 30        # opinion and analysis pieces listed per group
 
 
@@ -597,7 +655,7 @@ def write_index(extra: dict | None = None):
     index = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "sites": {},
              "max_range_days": 14,     # how many days the calendar may combine
              "repo": os.environ.get("GITHUB_REPOSITORY")}   # "owner/name" on GitHub, for the Sources page's links
-    labels = {"geo": "Geopolitical", "cyber": "Cyber"}
+    labels = {"geo": "Geopolitical", "cyber": "Cyber", "markets": "Markets"}
     for site in sites():
         dates = sorted((p.stem for p in (DATA / site).glob("20*.json")), reverse=True)
         if dates:

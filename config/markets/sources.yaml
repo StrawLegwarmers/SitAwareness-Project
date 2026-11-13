@@ -1,0 +1,79 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# MARKETS sources: every feed the Markets site reads. Each feed URL was tested (Nov 2026).
+#
+# FIELDS
+#   name     Display name shown on the site.
+#   feed     The RSS/Atom URL.
+#   section  news      market and company news: grouped into stories, reports written by the AI
+#            official  central banks, statistics offices, regulators: a plain list, no AI
+#            analysis  analysis and commentary from outlets: listed and labelled, never restated
+#   type     wire | international | regional | specialist | government (optional; wires rank first)
+#   kind     analysis for opinion and analysis feeds (kept out of stories)
+#   lang     Language code.
+#
+# Paywalled outlets (FT, WSJ, Bloomberg, The Economist): only the headline and the short summary
+# their public feed carries are used, always with a link back. Article pages are never fetched.
+# Not used: Yahoo Finance (its feed terms forbid modified display), Seeking Alpha (its terms
+# forbid automated reproduction), and index levels such as the S&P 500 or Dow (licensed data).
+# Not working from a cloud server (HTTP 403): BLS feeds (the calendar step reads BLS with a
+# contact address instead) and Mining.com.
+# ─────────────────────────────────────────────────────────────────────────────
+
+sources:
+
+  # ── News: grouped into stories ────────────────────────────────────────────
+  - {name: Bloomberg Markets,        feed: "https://feeds.bloomberg.com/markets/news.rss",                 section: news, type: international, lang: en}
+  - {name: Bloomberg Economics,      feed: "https://feeds.bloomberg.com/economics/news.rss",               section: news, type: international, lang: en}
+  - {name: FT Markets,               feed: "https://www.ft.com/markets?format=rss",                        section: news, type: international, lang: en}
+  - {name: FT Companies,             feed: "https://www.ft.com/companies?format=rss",                      section: news, type: international, lang: en}
+  - {name: FT Global Economy,        feed: "https://www.ft.com/global-economy?format=rss",                 section: news, type: international, lang: en}
+  - {name: WSJ Markets,              feed: "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",  section: news, type: international, lang: en}
+  - {name: WSJ US Business,          feed: "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness", section: news, type: international, lang: en}
+  - {name: WSJ Economy,              feed: "https://feeds.content.dowjones.io/public/rss/socialeconomyfeed", section: news, type: international, lang: en}
+  - {name: MarketWatch Top Stories,  feed: "https://feeds.content.dowjones.io/public/rss/mw_topstories",    section: news, type: international, lang: en}
+  - {name: MarketWatch Bulletins,    feed: "https://feeds.content.dowjones.io/public/rss/mw_bulletins",     section: news, type: international, lang: en}
+  - {name: CNBC Top News,            feed: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114", section: news, type: international, lang: en}
+  - {name: CNBC Economy,             feed: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258",  section: news, type: international, lang: en}
+  - {name: CNBC Finance,             feed: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",  section: news, type: international, lang: en}
+  - {name: CNBC Earnings,            feed: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=15839135",  section: news, type: international, lang: en}
+  - {name: CNBC Energy,              feed: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19836768",  section: news, type: international, lang: en}
+  - {name: CNBC Business,            feed: "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10001147",  section: news, type: international, lang: en}
+  - {name: BBC Business,             feed: "https://feeds.bbci.co.uk/news/business/rss.xml",               section: news, type: international, lang: en}
+  - {name: The Guardian Business,    feed: "https://www.theguardian.com/business/rss",                     section: news, type: international, lang: en}
+  - {name: The Guardian Economics,   feed: "https://www.theguardian.com/business/economics/rss",           section: news, type: international, lang: en}
+  - {name: SCMP Business,            feed: "https://www.scmp.com/rss/92/feed",                             section: news, type: regional, lang: en}
+  - {name: ET Markets,               feed: "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms", section: news, type: regional, lang: en}
+  - {name: Investing.com Economy,    feed: "https://www.investing.com/rss/news_14.rss",                    section: news, type: specialist, lang: en}
+  - {name: Investing.com Stock Markets, feed: "https://www.investing.com/rss/news_25.rss",                 section: news, type: specialist, lang: en}
+  - {name: Investing.com Commodities, feed: "https://www.investing.com/rss/news_11.rss",                   section: news, type: specialist, lang: en}
+  - {name: Oilprice.com,             feed: "https://oilprice.com/rss/main",                                section: news, type: specialist, lang: en}
+  - {name: Rigzone,                  feed: "https://www.rigzone.com/news/rss/rigzone_latest.aspx",         section: news, type: specialist, lang: en}
+
+  # ── Official: central banks, statistics, regulators (a plain list, no AI) ──
+  - {name: Federal Reserve,          feed: "https://www.federalreserve.gov/feeds/press_all.xml",           section: official, type: government, lang: en}
+  - {name: Federal Reserve speeches, feed: "https://www.federalreserve.gov/feeds/speeches.xml",            section: official, type: government, lang: en}
+  - {name: ECB,                      feed: "https://www.ecb.europa.eu/rss/press.html",                     section: official, type: government, lang: en}
+  - {name: ECB statistics,           feed: "https://www.ecb.europa.eu/rss/statpress.html",                 section: official, type: government, lang: en}
+  - {name: Bank of England,          feed: "https://www.bankofengland.co.uk/rss/news",                     section: official, type: government, lang: en}
+  - {name: Bank of Japan,            feed: "https://www.boj.or.jp/en/rss/whatsnew.xml",                    section: official, type: government, lang: en}
+  - {name: Swiss National Bank,      feed: "https://www.snb.ch/public/en/rss/news",                        section: official, type: government, lang: en}
+  - {name: Bank of Canada,           feed: "https://www.bankofcanada.ca/content_type/press-releases/feed/", section: official, type: government, lang: en}
+  - {name: Reserve Bank of Australia, feed: "https://www.rba.gov.au/rss/rss-cb-media-releases.xml",        section: official, type: government, lang: en}
+  - {name: BIS,                      feed: "https://www.bis.org/doclist/all_pressrels.rss",                section: official, type: government, lang: en}
+  - {name: BEA,                      feed: "https://apps.bea.gov/rss/rss.xml",                             section: official, type: government, lang: en, note: "US GDP, income and trade releases"}
+  - {name: US Census indicators,     feed: "https://www.census.gov/economic-indicators/indicator.xml",     section: official, type: government, lang: en}
+  - {name: EIA,                      feed: "https://www.eia.gov/rss/press_rss.xml",                        section: official, type: government, lang: en}
+  - {name: EIA Today in Energy,      feed: "https://www.eia.gov/rss/todayinenergy.xml",                    section: official, type: government, lang: en}
+  - {name: WTO,                      feed: "https://www.wto.org/library/rss/latest_news_e.xml",            section: official, type: government, lang: en}
+  - {name: SEC press releases,       feed: "https://www.sec.gov/news/pressreleases.rss",                   section: official, type: government, lang: en}
+  - {name: CFTC,                     feed: "https://www.cftc.gov/RSS/RSSGP/rssgp.xml",                     section: official, type: government, lang: en}
+
+  # ── Analysis: listed and labelled, never restated as fact ─────────────────
+  - {name: FT Lex,                   feed: "https://www.ft.com/lex?format=rss",                            section: analysis, kind: analysis, lang: en}
+  - {name: FT Alphaville,            feed: "https://www.ft.com/alphaville?format=rss",                     section: analysis, kind: analysis, lang: en}
+  - {name: The Economist Finance and economics, feed: "https://www.economist.com/finance-and-economics/rss.xml", section: analysis, kind: analysis, lang: en}
+  - {name: The Economist Business,   feed: "https://www.economist.com/business/rss.xml",                   section: analysis, kind: analysis, lang: en}
+  - {name: Liberty Street Economics, feed: "https://libertystreeteconomics.newyorkfed.org/feed/",          section: analysis, kind: analysis, lang: en, note: "New York Fed economists' blog"}
+  - {name: FEDS Notes,               feed: "https://www.federalreserve.gov/feeds/feds_notes.xml",          section: analysis, kind: analysis, lang: en, note: "Federal Reserve staff research notes"}
+  - {name: ECB Blog,                 feed: "https://www.ecb.europa.eu/rss/blog.html",                      section: analysis, kind: analysis, lang: en}
+  - {name: Investing.com Analysis,   feed: "https://www.investing.com/rss/302.rss",                        section: analysis, kind: analysis, lang: en}

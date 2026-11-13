@@ -41,13 +41,14 @@ lists:
 #   industries  industry sections (industries.yaml)
 #   vulns       CISA KEV and CVEs in the news iocs         new indicators of compromise
 #   quality     collection and checks: articles collected, events found, reports kept and removed
+#   secincidents  cybersecurity incidents US-listed companies disclosed to the SEC (8-K Item 1.05; Markets data)
 #   list:<section>  one of the headline lists above
 # "icon" is the picture in the sidebar (names: see config/geo/site.yaml).
 # Add, remove or reorder pages freely; ids may only use a-z, 0-9 and "-".
 pages:
   - {id: brief,    name: Brief,                    icon: brief,       show: [bluf, top, stories, commentary, quality]}
   - {id: industry, name: Industry intelligence,    icon: briefcase,   show: [industries, list:aviation]}
-  - {id: threats,  name: IOCs and vulnerabilities, icon: fingerprint, show: [vulns, iocs, list:advisories]}
+  - {id: threats,  name: IOCs and vulnerabilities, icon: fingerprint, show: [vulns, secincidents, iocs, list:advisories]}
   - {id: vendor,   name: Vendor intelligence,      icon: flask,       show: [list:intel]}
   - {id: global,   name: Global intelligence,      icon: broadcast,   show: [list:news]}
 
@@ -70,6 +71,7 @@ single_source_stories:
   - SentinelLabs
   - Recorded Future Research
   - The DFIR Report
+  - OpenSourceMalware                 # software supply-chain research
   - Google Project Zero
   - CISA Advisories
   - CISA Analysis Reports
@@ -78,7 +80,7 @@ single_source_skip: [introducing, introduces, announces, announcing, launch, lau
                      acquires, acquisition, partnership, partners, webinar, award, awarded, named a leader,
                      gartner, forrester, idc, innovations, now available, generally available, customer,
                      customers, platform, falcon, agentic, sponsored, podcast, event, summit, conference,
-                     advances, secures, extends, expands, unveils, delivers]
+                     advances, secures, extends, expands, unveils, delivers, opensourcemalware show]
 # (A headline that starts with the vendor's own name, "CrowdStrike Extends...", is product news too.)
 
 # Weekend catch-up: on these weekdays the brief covers more than one day.

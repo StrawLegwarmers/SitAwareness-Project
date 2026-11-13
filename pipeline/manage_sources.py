@@ -31,7 +31,7 @@ from datetime import datetime
 
 import yaml
 
-from config import CONFIG, validate
+from config import CONFIG, sites, validate
 from feeds import check_feed, discover_feed
 
 # The issue form's choices -> the values sources.yaml uses
@@ -42,6 +42,8 @@ WHERE = {"global": ("geo", "region", "global"), "europe": ("geo", "region", "eur
          "cyber: vendor research (intel)": ("cyber", "section", "intel"), "cyber: aviation": ("cyber", "section", "aviation"),
          "cyber: advisories": ("cyber", "section", "advisories")}
 WHERE.update({v[2]: v for v in list(WHERE.values())})          # the short ids work too (europe, namerica, news...)
+WHERE.update({"markets: news": ("markets", "section", "news"), "markets: official": ("markets", "section", "official"),
+              "markets: analysis": ("markets", "section", "analysis")})   # no short ids: "news" means Cyber news
 TYPES = {"international", "regional", "local", "wire", "specialist", "think-tank", "state-media", "government"}
 URL_RE = re.compile(r"^https?://[^\s\"'<>{}|\\^`]+$", re.I)
 LANG_RE = re.compile(r"^[a-z]{2,3}$")
@@ -83,7 +85,7 @@ def entries(site: str) -> list[tuple[int, dict]]:
 
 def find(name: str) -> tuple[str, int, dict] | None:
     want = name.strip().lower()
-    for site in ("geo", "cyber"):
+    for site in sites():
         for i, item in entries(site):
             if str(item["name"]).strip().lower() == want:
                 return site, i, item
@@ -138,6 +140,8 @@ def add(site_where: str, name: str, url: str, type_: str = "", lang: str = "", n
     parts = [f"name: {json.dumps(name, ensure_ascii=False)}", f"feed: {json.dumps(feed)}", f"{field}: {value}"]
     if site == "geo":
         parts.append(f"type: {type_}")
+    if site == "markets" and value == "analysis":
+        parts.append("kind: analysis")                 # listed and labelled, never restated as fact
     parts.append(f"lang: {lang}")
     stamp = datetime.now().strftime("%Y-%m-%d")
     note = "".join(ch for ch in re.sub(r"\s+", " ", (note or "").strip()) if ch.isprintable())[:120]
@@ -201,7 +205,7 @@ def failing_feeds(conn, days: int = AUTO_DISABLE_DAYS, failures: int = AUTO_DISA
     now = now or datetime.now(timezone.utc)
     cutoff = (now - timedelta(days=days)).isoformat()
     out = []
-    for site in ("geo", "cyber"):
+    for site in sites():
         for _, item in entries(site):
             if item.get("enabled") is False or not item.get("feed"):
                 continue
@@ -233,7 +237,7 @@ def set_fields(site: str, name: str, **fields) -> str | None:
 
 def auto_disable(conn, dry_run: bool = False, days: int = AUTO_DISABLE_DAYS, failures: int = AUTO_DISABLE_FAILURES) -> str:
     bad = failing_feeds(conn, days, failures)
-    enabled = sum(1 for site in ("geo", "cyber") for _, it in entries(site) if it.get("feed") and it.get("enabled") is not False)
+    enabled = sum(1 for site in sites() for _, it in entries(site) if it.get("feed") and it.get("enabled") is not False)
     if not bad:
         return "Feed health: no feed has been failing long enough to turn off."
     if len(bad) > AUTO_DISABLE_MAX_SHARE * max(enabled, 1):

@@ -17,7 +17,8 @@ audit log has a `dropped` entry for it.
 
 Most stories need two outlets. On Cyber, a major lab's or agency's own publication is news on its
 own: a new campaign, threat actor or implant from Mandiant (published on Google Threat
-Intelligence), Unit 42, Microsoft, CrowdStrike, Talos and others, or a CISA advisory. Sources listed
+Intelligence), Unit 42, Microsoft, CrowdStrike, Talos, OpenSourceMalware (software supply chain) and
+others, or a CISA advisory. Sources listed
 under `single_source_stories` in `config/cyber/site.yaml` go to the AI even when nobody else has
 reported the same thing, marked "research by <outlet>", and can become a story with that one
 article. Their product news never does: a headline with a word from `single_source_skip`

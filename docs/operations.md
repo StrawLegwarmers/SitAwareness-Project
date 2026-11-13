@@ -10,6 +10,8 @@ publishes it. Both are free for public repositories.
    repository secret*, name `GEMINI_API_KEY`. Create the key in Google AI Studio; restrict it to the
    Generative Language API. Never paste a key into a file.
 3. **Optional**: add `ABUSECH_AUTH_KEY` (a free key from abuse.ch) to enable ThreatFox indicators.
+   Add `SEC_CONTACT_EMAIL` (a contact address the SEC and BLS ask automated requests to carry) to
+   enable SEC filings and the BLS calendar on the Markets site; see [markets](markets.md#the-contact-email-sec_contact_email).
 4. **Enable Pages**: *Settings → Pages → Source: GitHub Actions*.
 5. **Run it**: *Actions → Daily brief → Run workflow*. The site appears at
    `https://<account>.github.io/<repository>/`.
@@ -27,7 +29,7 @@ publishes it. Both are free for public repositories.
 
 Steps: restore yesterday's database from the Actions cache → fetch feeds → turn off feeds that keep
 failing (below) → collect vulnerabilities and indicators (allowed to fail without stopping the run)
-→ group stories → write the website's data and feeds → save the database → commit `state/`,
+→ market data: rates, calendar, SEC filings (also allowed to fail) → group stories → write the website's data and feeds → save the database → commit `state/`,
 `site/data/` and the source lists as `github-actions[bot]` → publish `site/` to Pages. Two runs
 never overlap.
 

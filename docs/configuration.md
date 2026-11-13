@@ -22,6 +22,8 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 | `pages` | The sidebar. Each page has an `id`, a `name`, an `icon` and `show`: the blocks it contains, top to bottom (below) |
 | `catch_up_days` | Weekdays whose brief covers several days, for example `monday: 4` (Friday to Monday) |
 | `expire_days` | A story with no new reporting for this many days is archived |
+| `ai` | Optional limits for this site only, overriding `config/ai.yaml` (Markets: `{max_calls: 3}`) |
+| `geo_links` | Markets: words that bring a Geopolitical story into "From the Geopolitical brief" |
 | `single_source_stories`, `single_source_skip` | Cyber: sources whose research can be a story on its own, and headline words that mark their product news (see [cyber](cyber.md#single-source-research)) |
 | `keep_days` | Daily files older than this are removed from the website (default 365) |
 
@@ -39,6 +41,8 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 | `commentary` | Opinion and analysis pieces |
 | `industries` | Industry sections (Cyber) |
 | `vulns` | CISA KEV additions and CVEs in the news |
+| `secincidents` | Cybersecurity incidents disclosed to the SEC (8-K Item 1.05) |
+| `disclaimer`, `rates`, `calendar`, `filings`, `geolinks` | Markets blocks (see [markets](markets.md)) |
 | `iocs` | New indicators of compromise |
 | `list:<section>` | One of the headline lists |
 | `quality` | Collection and checks: articles collected, events found, reports kept and removed, corroborations |

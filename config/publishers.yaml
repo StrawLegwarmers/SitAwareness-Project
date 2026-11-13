@@ -8,9 +8,9 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 # Geopolitical
-BBC: [BBC World, BBC Europe, BBC Middle East, BBC Africa, BBC Israel-Gaza, BBC Pidgin, BBC News,
+BBC: [BBC Business, BBC World, BBC Europe, BBC Middle East, BBC Africa, BBC Israel-Gaza, BBC Pidgin, BBC News,
       BBC Latin America, BBC US & Canada, BBC Asia]
-The Guardian: [The Guardian World, The Guardian Europe, The Guardian Middle East, The Guardian Africa,
+The Guardian: [The Guardian Business, The Guardian Economics, The Guardian World, The Guardian Europe, The Guardian Middle East, The Guardian Africa,
                The Guardian Iran, The Guardian UK, The Guardian US, The Guardian]
 New York Times: [New York Times World, NYT Europe, NYT Middle East, NYT Africa, NYT Americas,
                  NYT Asia Pacific, NYT US, The New York Times]
@@ -22,7 +22,7 @@ Politico: [Politico, Politico Europe]
 Al Jazeera: [Al Jazeera, Al Jazeera English]
 Associated Press: [Associated Press, AP News, AP]
 Reuters: [Reuters]
-South China Morning Post: [South China Morning Post, SCMP China Politics, SCMP China Economy]
+South China Morning Post: [SCMP Business, South China Morning Post, SCMP China Politics, SCMP China Economy]
 CGTN: [CGTN, CGTN China]
 Atlantic Council: [Atlantic Council Europe & Eurasia, Atlantic Council Middle East, Atlantic Council Africa, DFRLab]
 
@@ -35,3 +35,15 @@ Kaspersky: [Kaspersky Securelist, Kaspersky Blog]
 Google: [Google Threat Intelligence, Google Project Zero, Chrome Releases]
 AlmaLinux: [AlmaLinux 8 Errata, AlmaLinux 9 Errata]
 CXSecurity: [CXSecurity Vulnerabilities, CXSecurity Exploits]
+
+# Markets
+Bloomberg: [Bloomberg Markets, Bloomberg Economics]
+Financial Times: [FT Markets, FT Companies, FT Global Economy, FT Lex, FT Alphaville]
+Wall Street Journal: [WSJ Markets, WSJ US Business, WSJ Economy]
+MarketWatch: [MarketWatch Top Stories, MarketWatch Bulletins]
+CNBC: [CNBC Top News, CNBC Economy, CNBC Finance, CNBC Earnings, CNBC Energy, CNBC Business]
+Investing.com: [Investing.com Economy, Investing.com Stock Markets, Investing.com Commodities, Investing.com Analysis]
+The Economist: [The Economist Finance and economics, The Economist Business]
+Federal Reserve: [Federal Reserve, Federal Reserve speeches, FEDS Notes]
+ECB: [ECB, ECB statistics, ECB Blog]
+EIA: [EIA, EIA Today in Energy]

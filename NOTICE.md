@@ -23,6 +23,11 @@ on anything.
 - **Feodo Tracker** and **ThreatFox**, published by abuse.ch, used under their terms of use.
 - **Google News search feeds**, used to follow outlets that have no feed of their own.
 - Indicators of compromise extracted from vendors' public research reports, each linked to its report.
+- **Markets data**: US Treasury daily par yield curve rates; New York Fed reference rates (SOFR,
+  EFFR); ECB euro reference exchange rates and euro short-term rate; US Energy Information
+  Administration spot prices; US Securities and Exchange Commission EDGAR filings and company list;
+  Bureau of Labor Statistics and Bureau of Economic Analysis release calendars; TreasuryDirect auction
+  announcements; central bank meeting schedules. Each is shown with its date and a link to its source.
 
 ## Third-party software
 

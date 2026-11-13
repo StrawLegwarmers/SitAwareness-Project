@@ -1079,7 +1079,8 @@ def ask_batch(site_cfg: dict, batch: dict, today: str, ai: dict, label: str, dep
 
 
 def run_site(site: str, only_group: str | None, dry_run: bool):
-    site_cfg, ai = load_site(site), load_ai()
+    site_cfg = load_site(site)
+    ai = {**load_ai(), **(site_cfg.get("ai") or {})}     # a site may lower its own limits (site.yaml "ai")
     state = load_state(site)
     now = datetime.now(timezone.utc).replace(microsecond=0)
     today = now.date().isoformat()

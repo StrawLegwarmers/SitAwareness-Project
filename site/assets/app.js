@@ -18,6 +18,7 @@
    ────────────────────────────────────────────────────────────────────────── */
 "use strict";
 
+const SITES = ["geo", "cyber", "markets"];                  // the sidebar, top to bottom
 const S = { index: null, site: "geo", date: null, page: null, day: null, days: {}, q: "", cache: new Map() };
 const $ = (id) => document.getElementById(id);
 const view = $("view");
@@ -43,6 +44,10 @@ const ICONS = {
   link: '<path d="M9 15l6-6M11 6l.463-.536a5 5 0 0 1 7.071 7.072l-.534.464M13 18l-.397.534a5.068 5.068 0 0 1-7.127 0a4.972 4.972 0 0 1 0-7.071l.524-.463"/>',
   copy: '<path d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333zM4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"/>',
   dot: '<circle cx="12" cy="12" r="3"/>',
+  chart: '<path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 6-7"/>',
+  bank: '<path d="M3 21h18M5 21v-9M9.5 21v-9M14.5 21v-9M19 21v-9M2.5 9.5 12 4l9.5 5.5z"/>',
+  file: '<path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2zM9 13h6M9 17h4"/>',
+  book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5zM4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/>',
   eye: '<path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0-4 0"/><path d="M21 12c-2.4 4-5.4 6-9 6c-3.6 0-6.6-2-9-6c2.4-4 5.4-6 9-6c3.6 0 6.6 2 9 6"/>',
   list: '<path d="M9 6h11M9 12h11M9 18h11M5 6v.01M5 12v.01M5 18v.01"/>',
   cards: '<path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z"/>',
@@ -189,7 +194,7 @@ const SEEN_KEY = "sap-seen";
 S.seenBefore = new Set(mem.get(SEEN_KEY, []));
 const sig = (s) => `${s.id}|${(s.reports[0] || {}).published || (s.reports[0] || {}).date || s.first_seen}`;
 // Only on the latest brief: an older day or a range would flag stories that were simply not on today's.
-const latestView = () => !S.range && ["geo", "cyber"].some((k) => S.index.sites[k] && S.date === S.index.sites[k].dates[0]);
+const latestView = () => !S.range && SITES.some((k) => S.index.sites[k] && S.date === S.index.sites[k].dates[0]);
 const isNewForYou = (s) => S.seenBefore.size > 0 && live(s) && latestView() && !S.seenBefore.has(sig(s));
 // Opening the latest brief counts as having seen it (both sites); the badges stay until you come back.
 function markSeen(day) {
@@ -575,6 +580,112 @@ const BLOCKS = {
     return { id: "sec-iocs", label: "New IOCs", html: h };
   },
 
+  // ── Markets ──
+  disclaimer() {
+    return { html: `<p class="note-box" role="note"><strong>What this is.</strong> What news outlets and official bodies published,
+      collected and linked. The AI only restates single reported facts, each with its source; rates, prices and dates come from
+      official data, read by code. Nothing here is investment advice: no ratings, price targets, forecasts or recommendations.</p>` };
+  },
+
+  // Official rates and prices, read by code (pipeline/markets_data.py). A value that couldn't be
+  // fetched says so; it is never shown as zero or as an older number.
+  rates(day) {
+    const m = day.markets;
+    if (!m) return null;
+    const id = "sec-rates", rows = m.rates || [];
+    let h = `<h2 id="${id}">Rates and prices <span class="count">official data${m.generated ? `, read ${esc(fmtTime(m.generated))}` : ""}</span></h2>`;
+    if (!rows.length) return { id, label: "Rates and prices", html: h + `<p class="muted">Not collected in this run.</p>` };
+    const minus = (x) => (x < 0 ? "−" : "+");
+    const decimals = (v) => Math.min(4, Math.max(2, (String(v).split(".")[1] || "").length));
+    const value = (r) => (r.unit === "%" ? `${r.value.toFixed(decimals(r.value))}%` : r.unit.startsWith("$") ? `$${r.value.toFixed(2)}` : String(r.value));
+    const change = (r) => {
+      if (r.change == null) return "";
+      if (Math.abs(r.change) < 1e-9) return "unchanged";
+      if (r.unit === "%") return `${minus(r.change)}${Math.abs(Math.round(r.change * 100))} bp`;
+      if (r.unit.startsWith("$")) return `${minus(r.change)}${Math.abs(r.change).toFixed(2)} (${minus(r.change)}${Math.abs(r.change / r.previous * 100).toFixed(1)}%)`;
+      return `${minus(r.change)}${Math.abs(r.change).toFixed(decimals(r.value))}`;
+    };
+    let group = "", body = "";
+    for (const r of rows) {
+      if (r.group !== group) { group = r.group; body += `<tr class="grp"><th colspan="4" scope="colgroup">${esc(group)}</th></tr>`; }
+      const unit = r.unit === "%" ? "" : r.unit.startsWith("$") ? ` <span class="muted">${esc(r.unit)}</span>` : "";
+      body += r.value == null
+        ? `<tr><th scope="row">${esc(r.name)}</th><td colspan="2" class="muted">not available (${esc(r.error || "no data")})</td><td>${ext(r.url, esc(r.source))}</td></tr>`
+        : `<tr><th scope="row">${esc(r.name)}</th><td class="num">${esc(value(r))}${unit}${r.stale ? ` <span class="flag single" title="Older than a week">stale</span>` : ""}</td>
+            <td class="num" title="${r.previous_date ? `From ${esc(r.previous)} on ${esc(fmtDM(r.previous_date))}` : ""}">${esc(change(r))}</td>
+            <td>${esc(fmtDM(r.date))} · ${ext(r.url, esc(r.source))}</td></tr>`;
+    }
+    h += `<div class="table-wrap"><table class="rates"><thead><tr><th scope="col">Rate or price</th><th scope="col" class="num">Latest</th>
+      <th scope="col" class="num">Change</th><th scope="col">Date and source</th></tr></thead><tbody>${body}</tbody></table></div>
+      <p class="page-meta mt8">Each value is the latest its source has published, for the date shown; the change is from the source's
+      previous value (bp = basis points, hundredths of a percentage point). Exchange rates are the ECB's daily reference rates, not market
+      closes. Stock index levels are licensed data and are not shown.</p>`;
+    return { id, label: "Rates and prices", html: h };
+  },
+
+  calendar(day) {
+    const c = (day.markets || {}).calendar;
+    if (!c) return null;
+    const id = "sec-calendar", ev = c.events || [];
+    let h = `<h2 id="${id}">The next 7 days <span class="count">central bank decisions, US data releases, Treasury auctions</span></h2>`;
+    if (!ev.length) h += `<p class="muted">Nothing scheduled in the calendars read.</p>`;
+    const days = [...new Set(ev.map((e) => e.date))];
+    h += days.map((d) => `<h3 class="sub">${esc(fmtDayShort(d))}</h3><div class="list">${ev.filter((e) => e.date === d).map((e) =>
+      `<div class="row"><span class="src">${esc(e.time || "")}${e.time ? "<br>" : ""}${esc(e.kind)}</span>
+        <span>${esc(e.title)} <span class="muted">· ${ext(e.url, esc(e.source))}</span></span></div>`).join("")}</div>`).join("");
+    h += `<p class="page-meta mt8">Dates and times as the publishers list them (US releases in Eastern time). No forecasts or consensus
+      numbers. Central bank dates come from <code>config/markets/calendar.yaml</code>${c.central_banks_until ? `, entered up to ${esc(fmtDM(c.central_banks_until))} ${esc(c.central_banks_until.slice(0, 4))}` : ""}.
+      ${(c.problems || []).length ? `Not read this time: ${c.problems.map(esc).join("; ")}.` : ""}</p>`;
+    return { id, label: "Calendar", html: h };
+  },
+
+  filings(day) {
+    const f = (day.markets || {}).filings;
+    if (!f) return null;
+    const id = "sec-filings";
+    let h = `<h2 id="${id}">Company filings <span class="count">SEC 8-K current reports by US-listed companies, last day</span></h2>`;
+    if (!f.configured) return { id, label: "Company filings", html: h + `<p class="muted">Not collected: set the <code>SEC_CONTACT_EMAIL</code>
+      repository secret (the SEC asks every automated request for a contact address). See the Markets documentation.</p>` };
+    if (f.error) return { id, label: "Company filings", html: h + `<p class="muted">SEC EDGAR could not be read in this run (${esc(f.error)}).</p>` };
+    const groups = f.groups || [];
+    h += `<p class="page-meta mb12">${plural(f.listed || 0, "filing")} by listed companies (of ${esc(f.read || 0)} read), by the kind of event the
+      company reports. Shown as filed: open the filing for what it says. Companies without a ticker (funds, private issuers) are left out.</p>`;
+    if (groups.length > 1) h += `<nav class="jump" aria-label="Filing types">${groups.map((g) =>
+      `<button type="button" data-goto="f-${esc(g.item.replace(".", "-"))}">${esc(g.label)} <span class="n">${g.filings.length}</span></button>`).join("")}</nav>`;
+    const SHOW = 15;
+    const rowsOf = (list) => list.map((x) => `<div class="row"><span class="src">${esc(x.ticker)}<br>${esc(fmtDM(x.filed))}</span>
+      <span>${ext(x.url, esc(x.company))} <span class="muted">· ${esc(x.form)} · items ${esc(x.items.join(", "))}</span></span></div>`).join("");
+    h += groups.map((g) => `<h3 class="sub" id="f-${esc(g.item.replace(".", "-"))}">${esc(g.label)} <span class="count">Item ${esc(g.item)} · ${g.filings.length}</span></h3>
+      <div class="list">${rowsOf(g.filings.slice(0, SHOW))}</div>${g.filings.length > SHOW ? `<details class="quiet"><summary>Show ${g.filings.length - SHOW} more</summary>
+      <div class="list mt8">${rowsOf(g.filings.slice(SHOW))}</div></details>` : ""}`).join("") || `<p class="muted">No filings of these kinds in the last day.</p>`;
+    return { id, label: "Company filings", html: h };
+  },
+
+  // Geopolitical stories about market topics (oil, sanctions, tariffs...), linked to their page.
+  geolinks(day) {
+    const g = (day.markets || {}).geo || [];
+    if (!g.length) return null;
+    const geo = S.days.geo;
+    const href = (s) => (geo ? hrefFor("geo", regionPage(geo, s.region) || pagesFor(geo)[0].id) : "#/geo");
+    return { id: "sec-geolinks", label: "From the Geopolitical brief", html: `<h2 id="sec-geolinks">From the Geopolitical brief
+      <span class="count">${plural(g.length, "story")} mentioning energy, trade, sanctions and other market topics</span></h2>
+      <ul class="mini">${g.map((s) => `<li><a href="${href(s)}">${esc(s.title)}</a> <span class="muted">· ${s.label && s.label !== s.title ? `${esc(s.label)} · ` : ""}${plural(s.outlets_period || 0, "outlet")} · ${esc((s.terms || []).join(", "))}</span></li>`).join("")}</ul>` };
+  },
+
+  // Cyber: material cybersecurity incidents US-listed companies disclosed to the SEC (Markets data).
+  secincidents(day) {
+    const x = day.sec_incidents;
+    if (!x) return null;
+    const id = "sec-secinc";
+    let h = `<h2 id="${id}">Incidents disclosed to the SEC <span class="count">8-K Item 1.05, material cybersecurity incidents, last day</span></h2>`;
+    if (!x.configured) return { id, label: "SEC disclosures", html: h + `<p class="muted">Not collected: needs the <code>SEC_CONTACT_EMAIL</code> secret (see the Markets documentation).</p>` };
+    if (x.error) return { id, label: "SEC disclosures", html: h + `<p class="muted">SEC EDGAR could not be read in this run (${esc(x.error)}).</p>` };
+    h += x.filings.length ? `<div class="list">${x.filings.map((f) => `<div class="row"><span class="src">${esc(f.ticker)}<br>${esc(fmtDM(f.filed))}</span>
+      <span>${ext(f.url, esc(f.company))} <span class="muted">· ${esc(f.form)} · items ${esc(f.items.join(", "))}</span></span></div>`).join("")}</div>`
+      : `<p class="muted">None filed in the last day.</p>`;
+    return { id, label: "SEC disclosures", html: h };
+  },
+
   list(day, P, section) {
     const list = (day.lists || []).find((l) => l.id === section);
     if (!list) return null;
@@ -620,6 +731,9 @@ function pageCount(day, page) {
     if (kind === "industries") return { n: (day.industries || []).reduce((t, i) => t + i.items.length, 0), what: `matching headlines ${P.recent}` };
     if (kind === "vulns" && day.vulns) return { n: day.vulns.kev_new.length, what: `added to CISA KEV ${P.recent}` };
     if (kind === "iocs" && day.iocs) return { n: day.iocs.total, what: "new indicators" };
+    if (kind === "calendar" && day.markets) return { n: ((day.markets.calendar || {}).events || []).length, what: "events in the next 7 days" };
+    if (kind === "filings" && day.markets && (day.markets.filings || {}).groups)
+      return { n: day.markets.filings.groups.reduce((t, g) => t + g.filings.length, 0), what: "filings by listed companies" };
     if (kind === "list") {
       const l = (day.lists || []).find((x) => x.id === arg);
       if (l) return { n: l.items.length, what: "headlines" };
@@ -631,7 +745,7 @@ function pageCount(day, page) {
 // One sidebar for everything: Geopolitical pages, Cyber pages, then the Toolkit.
 function renderSidebar() {
   let h = "";
-  for (const site of ["geo", "cyber"]) {
+  for (const site of SITES) {
     const day = S.days[site];
     if (!day) continue;
     h += `<p class="side-label">${esc(S.index.sites[site].label.toUpperCase())}</p>`;
@@ -643,7 +757,7 @@ function renderSidebar() {
     }).join("");
   }
   const fails = (S.index && S.index.sources_failing) || 0;
-  const watched = ["geo", "cyber"].reduce((t, k) => t + ((S.days[k] || {}).stories || []).filter((s) => live(s) && watchHits(s).length).length, 0);
+  const watched = SITES.reduce((t, k) => t + ((S.days[k] || {}).stories || []).filter((s) => live(s) && watchHits(s).length).length, 0);
   h += `<p class="side-label">YOURS</p>` + `<a href="#/watch"${S.site === "watch" ? ' aria-current="page"' : ""}>${icon("eye")}<span class="label">Watchlist</span>${
     S.watch.length ? `<span class="n" title="${watched} stories with coverage match your watchlist">${watched}</span>` : ""}</a>`;
   h += `<p class="side-label">REFERENCE</p>` + [["toolkit", "Toolkit", "tool", ""], ["sources", "Sources", "rss", fails ? `<span class="n bad" title="${fails} failing">${fails}</span>` : ""],
@@ -869,7 +983,7 @@ async function renderWatch() {
   if (!terms.length) h += `<p class="empty">Nothing on your watchlist yet.</p>`;
   const lower = terms.map((t) => t.toLowerCase());
   const hit = (text) => watchHit(text).length > 0;
-  for (const site of ["geo", "cyber"]) {
+  for (const site of SITES) {
     const day = S.days[site];
     if (!day || !terms.length) continue;
     const stories = day.stories.filter((s) => live(s) && watchHits(s).length);
@@ -1147,7 +1261,7 @@ function sumCoverage(list) {
 
 // Load both sites' brief (the sidebar shows both): one date, or a range merged into one view.
 async function loadDays() {
-  await Promise.all(["geo", "cyber"].map(async (site) => {
+  await Promise.all(SITES.map(async (site) => {
     const info = S.index.sites[site];
     if (!info || !info.dates.length) return;
     try {
@@ -1274,7 +1388,7 @@ function loading(on) {
 async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean);
   const REFS = ["toolkit", "sources", "opencti", "watch"];           // pages without a date of their own
-  const site = ["geo", "cyber", ...REFS].includes(parts[0]) ? parts[0] : "geo";
+  const site = [...SITES, ...REFS].includes(parts[0]) ? parts[0] : "geo";
   const seg = parts[1] || "", rng = RANGE_RE.exec(seg), dated = DATE_RE.test(seg) || !!rng;
   const page = (dated ? parts[2] : parts[1]) || "";
   const anchor = (dated ? parts[3] : parts[2]) || "";        // e.g. c-poland: scroll to Poland

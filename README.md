@@ -19,6 +19,9 @@ belongs to.
   and one page per region: Global (the stories reported worldwide), Europe, North America, Asia &
   Pacific, Middle East & North Africa, Latin America & Caribbean, Africa. Stories are filed by the
   countries they are about, with analyst-set country tiers and activity hotspots.
+- **Markets**: market and company stories, official rates and prices (Treasury, New York Fed, ECB,
+  EIA), the next 7 days (central bank decisions, US data releases, Treasury auctions), SEC 8-K
+  filings by listed companies, central bank releases and labelled analysis. Not investment advice.
 - **Cyber**: the daily brief, industry intelligence for ten sectors, exploited vulnerabilities
   (CISA KEV and CVEs in the news), indicators of compromise from vendor research, vendor research
   and cyber news headlines.
@@ -51,6 +54,7 @@ pip install -r requirements.txt
 python pipeline/check_sources.py                 # test every feed
 python pipeline/fetch.py                         # download the latest articles
 python pipeline/indicators.py                    # CISA KEV and indicators of compromise
+python pipeline/markets_data.py                  # official rates, calendar, SEC filings (Markets)
 AI_PROVIDER=mock python pipeline/narratives.py   # group stories without an AI key (test mode)
 python pipeline/export.py                        # write the website's data and feeds
 python -m http.server --directory site 8000      # open http://localhost:8000
@@ -73,6 +77,7 @@ They also run on GitHub on every push.
 | [Stories and guardrails](docs/stories.md) | How stories are grouped, what the checks do, corrections |
 | [Geography](docs/geography.md) | Countries, regions, tiers, hotspots, other languages |
 | [Cyber](docs/cyber.md) | Exploited vulnerabilities, indicators of compromise, industries |
+| [Markets](docs/markets.md) | Market stories, official rates, the calendar, SEC filings |
 | [Website](docs/website.md) | Pages, the calendar and date ranges, search, security |
 | [Feeds and OpenCTI](docs/feeds-and-opencti.md) | RSS, CSV and STIX outputs, and OpenCTI setup |
 | [Operations](docs/operations.md) | Daily automation, keys, limits, retention, troubleshooting |
@@ -81,11 +86,12 @@ They also run on GitHub on every push.
 
 | Path | What's in it |
 |---|---|
-| `config/<site>/sources.yaml` | The feeds, per site (`geo`, `cyber`) |
+| `config/<site>/sources.yaml` | The feeds, per site (`geo`, `cyber`, `markets`) |
 | `config/<site>/site.yaml` | AI focus, story groups, headline lists, sidebar pages, retention |
 | `config/geo/countries.yaml`, `country_names.yaml` | Countries, regions, tiers, names in other languages |
 | `config/geo/corrections.yaml` | Manual fixes when grouping goes wrong |
 | `config/cyber/industries.yaml` | Industry keyword lists |
+| `config/markets/calendar.yaml` | Central bank decision dates for the Markets calendar |
 | `config/content_types.yaml` | How opinion, analysis and off-topic sections are recognised |
 | `config/geo/entities.yaml` | Cities, institutions, people and companies that point to a country |
 | `config/guardrails.yaml`, `config/prompts/` | The checks and the AI instructions |

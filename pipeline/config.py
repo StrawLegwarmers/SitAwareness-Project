@@ -18,6 +18,7 @@ CONFIG = ROOT / "config"
 GEO_REGIONS = {"global", "namerica", "latam", "europe", "mena", "africa", "asia"}
 GEO_TYPES = {"wire", "international", "regional", "local", "think-tank", "state-media", "specialist", "government"}
 CYBER_SECTIONS = {"news", "intel", "aviation", "advisories"}
+MARKETS_SECTIONS = {"news", "official", "analysis"}
 
 
 def sites() -> list[str]:
@@ -93,4 +94,6 @@ def validate(site: str) -> list[str]:
             problems.append(f"{label}: kind '{s['kind']}' must be news, opinion or analysis")
         if site == "cyber" and s.get("section") not in CYBER_SECTIONS:
             problems.append(f"{label}: section '{s.get('section')}' not in {sorted(CYBER_SECTIONS)}")
+        if site == "markets" and s.get("section") not in MARKETS_SECTIONS:
+            problems.append(f"{label}: section '{s.get('section')}' not in {sorted(MARKETS_SECTIONS)}")
     return problems

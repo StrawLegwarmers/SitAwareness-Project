@@ -6,7 +6,7 @@ import maintenance
 import manage_sources as ms
 import narratives as nar
 import store
-from config import load_site
+from config import load_site, sites
 
 CYBER = load_site("cyber")
 GEO = load_site("geo")
@@ -111,7 +111,7 @@ def test_clean_up_splits_unrelated_articles(art, tmp_path, monkeypatch):
 
 def test_feeds_failing_for_a_week_are_turned_off(tmp_path, monkeypatch):
     conn = store.connect()
-    for name in ("geo", "cyber"):
+    for name in sites():
         shutil.copy(ms.CONFIG / name / "sources.yaml", tmp_path / f"{name}.yaml")
     monkeypatch.setattr(ms, "sources_path", lambda site: tmp_path / f"{site}.yaml")
     monkeypatch.setattr(ms, "validate", lambda site: [])
@@ -130,7 +130,7 @@ def test_feeds_failing_for_a_week_are_turned_off(tmp_path, monkeypatch):
 
 def test_mass_failures_disable_nothing(tmp_path, monkeypatch):
     conn = store.connect()
-    for name in ("geo", "cyber"):
+    for name in sites():
         shutil.copy(ms.CONFIG / name / "sources.yaml", tmp_path / f"{name}.yaml")
     monkeypatch.setattr(ms, "sources_path", lambda site: tmp_path / f"{site}.yaml")
     conn.execute("DELETE FROM feed_state")
