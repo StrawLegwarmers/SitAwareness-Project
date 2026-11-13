@@ -100,6 +100,15 @@ jobs:
         env:
           ABUSECH_AUTH_KEY: ${{ secrets.ABUSECH_AUTH_KEY }}   # optional: ThreatFox is skipped if not set
 
+      # Markets: official rates, the 7-day calendar and SEC filings, read by code. Never blocks the brief.
+      # The SEC (and BLS) ask automated requests for a contact email: it is only sent to them, in the
+      # request header, and never written anywhere. Without the secret, filings are skipped.
+      - name: Market data (rates, calendar, SEC filings)
+        run: python pipeline/markets_data.py
+        continue-on-error: true
+        env:
+          SEC_CONTACT_EMAIL: ${{ secrets.SEC_CONTACT_EMAIL }}
+
       - name: Group stories and collect reports
         run: python pipeline/narratives.py
         env:
