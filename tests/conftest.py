@@ -11,7 +11,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "pipeline"))
-os.environ["SITAWARE_DB"] = str(Path(tempfile.mkdtemp(prefix="sitaware-test-")) / "test.db")
+_TMP = Path(tempfile.mkdtemp(prefix="sitaware-test-"))
+os.environ["SITAWARE_DB"] = str(_TMP / "test.db")
+os.environ["SITAWARE_AI_USAGE"] = str(_TMP / "ai-usage.json")
 os.environ["AI_PROVIDER"] = "mock"
 os.environ.pop("MOCK_MAX_GROUPS", None)
 

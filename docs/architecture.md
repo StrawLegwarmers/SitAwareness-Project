@@ -1,20 +1,20 @@
 # Architecture
 
-The project is a pipeline of small Python scripts that run once a day, and a static website that
-reads what they produce. Nothing runs between those daily runs: there is no server, no database
+The project is a pipeline of small Python scripts that run every 3 hours, and a static website that
+reads what they produce. Nothing runs between those runs: there is no server, no database
 service and no API key in the website.
 
-## The daily run
+## One run
 
 | Step | Script | What it does | Writes |
 |---|---|---|---|
 | 1 | `fetch.py` | Downloads every enabled feed (16 at a time), cleans each item, labels it news, opinion or analysis, skips duplicates | `data/sitaware.db` |
 | 2 | `indicators.py` | Downloads the CISA Known Exploited Vulnerabilities catalog and collects indicators of compromise | `data/sitaware.db` |
-| 3 | `narratives.py` | Groups the new news headlines by event in code (`cluster.py`), sends the groups to the AI, which checks them and writes attributed one-sentence reports; code checks every sentence, dates it and records corroboration | `state/<site>/narratives.json`, `state/<site>/audit.json` |
+| 3 | `narratives.py` | Groups the last 24 hours of news headlines by event in code (`cluster.py`), sends the groups to the AI, which checks them and writes attributed one-sentence reports; code checks every sentence, dates it and records corroboration | `state/<site>/narratives.json`, `state/<site>/audit.json` |
 | 4 | `export.py` | Builds the day's brief for the website: placement by country, rankings, industries, vulnerabilities, indicators, opinion pieces, the Sources page; then the machine feeds | `site/data/`, `site/feeds/` |
-| 5 | GitHub Actions | Commits `state/` and `site/data/`, then publishes `site/` to GitHub Pages | |
+| 5 | GitHub Actions | Commits `state/` (and each finished day of `site/data/` once), then publishes `site/` to GitHub Pages | |
 
-`.github/workflows/daily.yml` runs these steps every morning. See [operations](operations.md).
+`.github/workflows/daily.yml` runs these steps every 3 hours. See [operations](operations.md).
 
 ## Where things live
 
@@ -24,8 +24,9 @@ service and no API key in the website.
 | `data/sitaware.db` | Working memory: every article from the last 30 days, feed status, vulnerabilities, indicators | No. Carried between runs by the GitHub Actions cache, and rebuilt from the feeds if lost |
 | `state/<site>/narratives.json` | The stories being tracked, with their articles and checked reports | Yes |
 | `state/<site>/audit.json` | Everything the checks removed or refused in the last 7 days, and why (each entry has a kind) | Yes |
+| `state/ai-usage.json` | AI requests made today (resets at midnight Pacific time), for the daily budget | Yes |
 | `tests/` | Automated tests, run on every push by `.github/workflows/tests.yml` | Yes |
-| `site/data/<site>/<date>.json` | One day's brief, exactly as it was published | Yes (last 12 months) |
+| `site/data/<site>/<date>.json` | One day's brief, as its last run published it | Yes, once the day is over (last 12 months); between runs in the Actions cache |
 | `site/data/<site>/headlines/<date>.json` | Per-country headlines for that day | Yes (last 12 months) |
 | `site/data/cyber/iocs-<date>.csv` | That day's indicators, defanged | Yes (last 12 months) |
 | `site/data/index.json`, `sources.json`, `toolkit.json` | Available dates, source health, toolkit links | Yes |

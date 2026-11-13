@@ -81,7 +81,7 @@ points to a proxy or firewall rule.
 
 ## Good to know
 
-- The files are rebuilt once a day, after the morning run. Polling every few hours is plenty.
+- The files are rebuilt every 3 hours. Polling every hour or two is plenty.
 - Re-ingesting is safe: observables merge by value, vulnerabilities by CVE number, RSS items have
   stable ids.
 - Stories are collection, not assessment: verify at source before relying on them.

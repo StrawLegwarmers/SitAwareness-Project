@@ -17,6 +17,7 @@ import json
 import os
 import re
 import time
+from pathlib import Path
 
 import requests
 
@@ -57,6 +58,62 @@ def _key(name: str) -> str:
 RETRY_WAITS = [15, 30, 60]   # seconds between attempts: "exponential backoff"
 
 
+# ── Staying inside the provider's limits ──────────────────────────────────────
+# config/ai.yaml "limits": requests per minute, input tokens per minute and requests per day, as
+# shown for your project in Google AI Studio. The pipeline uses at most `share` (80%) of each, so a
+# run never trips them. Every attempt counts, retries included (Google counts them too). The day's
+# count is kept in state/ai-usage.json, so a run knows what the earlier runs that day used. It
+# resets at midnight Pacific time, like Google's. A call that would go over the daily budget fails
+# like any other: its articles wait for the next run.
+USAGE = Path(os.environ.get("SITAWARE_AI_USAGE") or ROOT / "state" / "ai-usage.json")   # the tests use a temporary file
+_recent: list[tuple[float, int]] = []     # (time, estimated input tokens) of this process's requests
+
+
+def estimate_tokens(*texts: str) -> int:
+    """A cautious guess at input tokens: about 4 characters each in English, fewer in other scripts."""
+    return sum(len(t or "") for t in texts) // 3 + 1
+
+
+def _pacific_day() -> str:
+    from datetime import datetime
+    from zoneinfo import ZoneInfo
+    return datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
+
+
+def usage_today() -> int:
+    try:
+        u = json.loads(USAGE.read_text(encoding="utf-8"))
+        return int(u.get("requests", 0)) if u.get("date") == _pacific_day() else 0
+    except (OSError, ValueError):
+        return 0
+
+
+def _count_request():
+    USAGE.parent.mkdir(parents=True, exist_ok=True)
+    USAGE.write_text(json.dumps({"date": _pacific_day(), "requests": usage_today() + 1}), encoding="utf-8")
+
+
+def _wait_for_room(tokens: int):
+    """Wait until one more request of about `tokens` input tokens fits the limits; refuse if the day's budget is spent."""
+    lim = load_ai().get("limits") or {}
+    share = float(lim.get("share", 0.8))
+    rpm, tpm, rpd = (int(lim.get(k) or 0) for k in ("requests_per_minute", "input_tokens_per_minute", "requests_per_day"))
+    if rpd and usage_today() + 1 > rpd * share:
+        raise LLMError(f"daily AI budget used up ({usage_today()} of {rpd} requests today, keeping "
+                       f"{round((1 - share) * 100)}% spare): the rest waits for the next run")
+    while True:
+        now = time.time()
+        _recent[:] = [(t, k) for t, k in _recent if now - t < 60]
+        too_many = rpm and len(_recent) + 1 > rpm * share
+        too_big = tpm and _recent and sum(k for _, k in _recent) + tokens > tpm * share
+        if not (too_many or too_big):
+            break
+        wait = max(1.0, 60 - (now - _recent[0][0]) + 1)
+        print(f"    pacing: waiting {wait:.0f}s to stay under the per-minute limits")
+        time.sleep(wait)
+    _recent.append((time.time(), tokens))
+
+
 def scrub(text: str) -> str:
     """
     Error messages end up in the public Actions log and the state file. Google's quota errors name
@@ -70,7 +127,7 @@ def scrub(text: str) -> str:
     return re.sub(r"\b\d{7,}\b", "[number removed]", text)
 
 
-def _post_with_retries(url: str, headers: dict, body: dict) -> dict:
+def _post_with_retries(url: str, headers: dict, body: dict, tokens: int = 0) -> dict:
     """
     POST, retrying on 'too many requests' (429), temporary server errors (5xx) and network
     problems (timeouts, dropped connections). Each retry waits longer than the last (15s, 30s,
@@ -79,6 +136,8 @@ def _post_with_retries(url: str, headers: dict, body: dict) -> dict:
     Never puts the key in an error message: keys travel in headers, which are never printed.
     """
     for wait in [*RETRY_WAITS, None]:
+        _wait_for_room(tokens)
+        _count_request()
         try:
             r = requests.post(url, headers=headers, json=body, timeout=TIMEOUT)
         except (requests.Timeout, requests.ConnectionError) as ex:
@@ -148,7 +207,7 @@ def _gemini(system: str, prompt: str, schema: dict, model: str) -> dict:
             "maxOutputTokens": int(load_ai().get("max_output_tokens", 16384)),
         },
     }
-    data = _post_with_retries(url, {"x-goog-api-key": _key("GEMINI_API_KEY")}, body)
+    data = _post_with_retries(url, {"x-goog-api-key": _key("GEMINI_API_KEY")}, body, estimate_tokens(system, prompt))
     usage = data.get("usageMetadata", {})
     print(f"    tokens: {usage.get('promptTokenCount', '?')} in, {usage.get('candidatesTokenCount', '?')} out"
           + (f", {usage['thoughtsTokenCount']} thinking" if usage.get("thoughtsTokenCount") else ""))
@@ -176,7 +235,7 @@ def _anthropic(system: str, prompt: str, schema: dict, model: str) -> dict:
                       + json.dumps(schema)}],
     }
     headers = {"x-api-key": _key("ANTHROPIC_API_KEY"), "anthropic-version": "2023-06-01"}
-    data = _post_with_retries("https://api.anthropic.com/v1/messages", headers, body)
+    data = _post_with_retries("https://api.anthropic.com/v1/messages", headers, body, estimate_tokens(system, prompt))
     u = data.get("usage", {})
     print(f"    tokens: {u.get('input_tokens', '?')} in, {u.get('output_tokens', '?')} out")
     if data.get("stop_reason") == "max_tokens":

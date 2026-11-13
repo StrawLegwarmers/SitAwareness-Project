@@ -88,7 +88,7 @@ A shared `concern` word list, then each industry's `topic`, `also_concern`, `exc
 
 | File | What it controls |
 |---|---|
-| `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls, `max_output_tokens` (longest answer; a cut-off answer is retried as two smaller calls); what a run collects: `max_per_source`, `max_per_run`; how groups are sent: `batch_groups` and `batch_articles` per call, `group_articles` shown per group, `max_calls` per site per run |
+| `ai.yaml` | `provider` (`gemini`, `anthropic` or `mock`), `model`, `pause_seconds` between calls, `limits` (your project's requests and tokens per minute and requests per day, and the `share` of them the pipeline may use; see [operations](operations.md#ai-limits)), `max_output_tokens` (longest answer; a cut-off answer is retried as two smaller calls); what a run collects: `max_per_source`, `max_per_run`; how groups are sent: `batch_groups` and `batch_articles` per call, `group_articles` shown per group, `max_calls` per site per run |
 | `guardrails.yaml` | The checks on every AI sentence: reporting verbs, number/name/wording checks and thresholds, banned analysis words, maximum length |
 | `prompts/narratives.md` | The instructions given to the AI |
 | `prompts/cleanup.md` | The AI's instructions for the Maintenance clean-up's double check |

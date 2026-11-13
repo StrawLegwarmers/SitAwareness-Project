@@ -1,6 +1,6 @@
 # Operations
 
-The tool runs on GitHub: a scheduled workflow builds the brief each morning and GitHub Pages
+The tool runs on GitHub: a scheduled workflow builds the brief every 3 hours and GitHub Pages
 publishes it. Both are free for public repositories.
 
 ## Setting up a copy
@@ -17,21 +17,43 @@ publishes it. Both are free for public repositories.
    `https://<account>.github.io/<repository>/`.
 6. **Optional**: create an issue label named `source` for source requests.
 
-## The daily workflow
+## The workflow (every 3 hours)
 
 `.github/workflows/daily.yml`:
 
 | When | What |
 |---|---|
-| 07:37 UK time | Main run (off the hour on purpose: GitHub delays or drops scheduled runs at busy times such as the top of the hour) |
-| 09:23 UK time | Backup run: builds the brief only if the main run didn't; otherwise stops within seconds |
-| Any time | *Run workflow* on the Actions tab always builds |
+| 00:37, 03:37, 06:37 … 21:37 UTC | A run every 3 hours (off the hour on purpose: GitHub delays or drops scheduled runs at busy times such as the top of the hour). A dropped run is caught up by the next one |
+| Any time | *Run workflow* on the Actions tab |
 
-Steps: restore yesterday's database from the Actions cache → fetch feeds → turn off feeds that keep
-failing (below) → collect vulnerabilities and indicators (allowed to fail without stopping the run)
-→ market data: rates, calendar, SEC filings (also allowed to fail) → group stories → write the website's data and feeds → save the database → commit `state/`,
-`site/data/` and the source lists as `github-actions[bot]` → publish `site/` to Pages. Two runs
-never overlap.
+Steps: restore the last run's database and website data from the Actions cache → fetch feeds →
+turn off feeds that keep failing (below) → collect vulnerabilities and indicators (allowed to fail
+without stopping the run) → market data: rates, calendar, SEC filings (also allowed to fail) →
+group stories → write the website's data and feeds → save the database and website data to the
+cache → commit as `github-actions[bot]` → publish `site/` to Pages. Two runs never overlap.
+
+### Several runs a day
+
+- **Each run looks at the last 24 hours**, not just at what arrived since the last run, so two
+  outlets reporting the same event hours apart still make a story. Articles already in a story are
+  left out, and the AI is only sent groups with something it hasn't checked yet (see
+  [stories](stories.md#one-run)). A quiet run sends nothing to the AI at all.
+- **What gets committed.** `state/` (the stories' memory, a few tens of KB per run) every run. The
+  website's data once a day: a finished day's files at the next day's first run, and today's at
+  the 21:37 run as a safety copy. Between commits, the latest files travel in the Actions cache
+  and are published to Pages each run. Committing the website data every run would grow the
+  repository by about 1 GB a year; this way it is about 0.2 GB.
+- **The website** shows the day's brief so far, with the time it was last updated.
+
+### AI limits
+
+`limits` in `config/ai.yaml` holds your project's limits as Google AI Studio shows them (for
+Gemini 3.5 Flash-Lite on the free tier: 15 requests a minute, 250,000 input tokens a minute, 500
+requests a day). The pipeline uses at most 80% of each (`share`): before every request it waits
+if the last minute is full, and once the day's budget is used it stops calling, so the remaining
+groups wait for the next run after midnight Pacific time, when Google resets the count. Every
+attempt counts, retries included, as on Google's dashboard. The day's count is in
+`state/ai-usage.json`. A typical run makes 1 to 10 calls; a busy morning run, up to about 20.
 
 ### Feeds that keep failing
 
@@ -96,8 +118,9 @@ source" forms (`.github/ISSUE_TEMPLATE/`), only for the owner and collaborators.
 
 | Service | What to watch |
 |---|---|
-| AI (Gemini free tier) | Requests per minute and per day, and tokens per minute, per Google Cloud project; daily quotas reset at midnight Pacific time. One run makes up to `max_calls` calls per site (8 by default; usually fewer for Cyber), paused 15 seconds apart. Check current quotas in Google AI Studio |
-| GitHub Actions | Free for public repositories. A run takes about 10 to 15 minutes |
+| AI (Gemini free tier) | Requests per minute and per day, and tokens per minute, per Google Cloud project; daily quotas reset at midnight Pacific time. Kept under 80% by the pipeline (see AI limits). One run makes up to `max_calls` calls per site, paused at least 15 seconds apart |
+| GitHub Actions | Free for public repositories. A run takes about 6 minutes; 8 a day |
+| Repository size | GitHub recommends under 1 GB. About 0.2 GB a year with website data committed once a day (see Several runs a day) |
 | GitHub Pages | Published sites up to about 1 GB. Daily files are kept for 12 months (`keep_days`), which stays well under it |
 | Feeds | Some outlets block or rate-limit automated readers; see the Sources page |
 

@@ -13,6 +13,15 @@ model: gemini-3.5-flash-lite       # free tier. For better writing try gemini-3.
                                    # (anthropic example: claude-haiku-5-5)
 
 pause_seconds: 15        # wait between AI calls, to stay under free-tier rate limits
+
+# Your project's limits for this model (Google AI Studio -> Usage -> rate limits). The pipeline uses
+# at most `share` of each: it waits when a minute is full, and stops calling (the rest waits for the
+# next run) when the day's budget is used. The day count is in state/ai-usage.json. 0 = no check.
+limits:
+  requests_per_minute: 15
+  input_tokens_per_minute: 250000
+  requests_per_day: 500
+  share: 0.8
 max_output_tokens: 16384 # longest answer allowed. An answer cut off at this limit is retried as two smaller calls.
 
 # What each run collects. Code groups the headlines first (pipeline/cluster.py); only groups

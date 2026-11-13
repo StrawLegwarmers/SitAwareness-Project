@@ -1,6 +1,6 @@
 # Situational Awareness Project
 
-An open-source collection tool for geopolitical and cyber threat analysts. Every morning it reads
+An open-source collection tool for geopolitical and cyber threat analysts. Every 3 hours it reads
 about 330 public RSS feeds, groups the articles into running **stories**, and publishes a daily brief
 as a static website, plus feeds that threat-intelligence platforms such as OpenCTI can ingest.
 
@@ -35,7 +35,7 @@ belongs to.
 ## How it works
 
 ```
- config/*.yaml          pipeline/ (Python, runs daily on GitHub Actions)              site/ (GitHub Pages)
+ config/*.yaml          pipeline/ (Python, every 3 hours on GitHub Actions)           site/ (GitHub Pages)
 ┌──────────────┐   ┌──────────┐   ┌──────────┐   ┌────────────┐   ┌──────────┐   ┌──────────────────┐
 │ sources,     │──▶│  fetch   │──▶│  store   │──▶│ narratives │──▶│  export  │──▶│ website + feeds  │
 │ countries,   │   │ RSS, tag │   │ SQLite,  │   │code groups,│   │ daily    │   │ static HTML + JS │

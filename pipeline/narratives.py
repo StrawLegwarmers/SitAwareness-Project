@@ -67,6 +67,8 @@ SAME_FACTS = 0.7      # ...or, from a new outlet, added to it as "also reported 
 MERGE_SHARE = 0.5     # two tracked stories are merged when this share of headlines match (cluster.py)
 COVERAGE_DAYS = 14    # days of collection statistics kept in the state file
 RETRY_MAX = 1500      # articles carried over to the next run when the AI call limit is reached
+WINDOW_HOURS = 24     # each run groups the last 24 hours of headlines, so two outlets hours apart still meet
+SEEN_HOURS = 48       # how long the database remembers which articles the AI already checked
 DUP_PAIRS = 30        # at most this many "same event?" questions in the duplicate check after the calls
 DUP_COMMON = 6        # a name shared by more stories than this (Trump, Gaza) doesn't make two stories look alike
 DUP_OVERLAP = 0.3     # ...and their core names must overlap this much (shared / sqrt(a * b))
@@ -261,7 +263,8 @@ def is_promo(title: str, words: list[str], source: str = "") -> bool:
 
 
 def make_batches(articles: list[dict], stories: list[dict], site: str, ai: dict,
-                 solo: set[str] | frozenset = frozenset(), promo: list[str] | None = None) -> tuple[list[dict], dict]:
+                 solo: set[str] | frozenset = frozenset(), promo: list[str] | None = None,
+                 seen: set[str] | frozenset = frozenset()) -> tuple[list[dict], dict]:
     """
     Cluster the articles (cluster.py), find which tracked story each group probably continues,
     and pack the groups into AI calls. Returns (batches, coverage numbers).
@@ -269,12 +272,19 @@ def make_batches(articles: list[dict], stories: list[dict], site: str, ai: dict,
     A group goes to the AI if two or more outlets reported it, if it continues a tracked story,
     or if it holds research from a source listed in site.yaml's single_source_stories (a major
     lab's report is news on its own). Biggest first. Groups that don't fit wait for the next run.
+
+    Several runs a day group the same 24 hours: a group whose articles the AI has all checked
+    already (`seen`) isn't sent again. One new article in it is enough to send it again, so a
+    first outlet's headline at 09:00 and a second outlet's at 14:00 become a two-outlet story.
     """
     idx = cluster.index_for(articles)
     groups = cluster.cluster(articles, site, idx)
     tracked = cluster.Stories(stories, idx, site)
-    candidates = []
+    candidates, checked = [], 0
     for items in groups:
+        if seen and all(a["id"] in seen for a in items):
+            checked += 1                                   # nothing new since the AI saw it
+            continue
         outlets = len({a["publisher"] for a in items})
         hint, hits = tracked.match(items)
         research = next((a for a in items if a.get("source") in solo and not is_promo(a["title"], promo or [], a["source"])),
@@ -305,7 +315,7 @@ def make_batches(articles: list[dict], stories: list[dict], site: str, ai: dict,
         "reported_by_2": sum(1 for g in groups if len({a["publisher"] for a in g}) >= 2),
         "candidates": len(candidates), "continuing": sum(1 for c in candidates if c["hint"]),
         "sent": sum(len(b) for b in sent), "calls": len(sent),
-        "waiting": sum(len(b) for b in waiting),
+        "waiting": sum(len(b) for b in waiting), "already_checked": checked,
     }
     retry = [a["id"] for b in waiting for c in b for a in c["items"]][:RETRY_MAX]
     return out, coverage | {"retry": retry}
@@ -891,12 +901,34 @@ def duplicate_candidates(state: dict, site: str, today: str, idx) -> list[tuple[
     return [(a, b) for _, a, b in pairs[:DUP_PAIRS]]
 
 
-def confirm_duplicates(state: dict, site: str, today: str, audit: list[dict], idx) -> list[str]:
+def pair_key(a: dict, b: dict) -> str:
+    return "|".join(sorted((a["id"], b["id"])))
+
+
+def seen_ids(conn, site: str, now: datetime) -> set[str]:
+    """Articles the AI has checked in the last SEEN_HOURS (older entries are forgotten)."""
+    cutoff = (now - timedelta(hours=SEEN_HOURS)).isoformat()
+    conn.execute("DELETE FROM ai_seen WHERE seen_at < ?", (cutoff,))
+    conn.commit()
+    return {r["id"] for r in conn.execute("SELECT id FROM ai_seen WHERE site = ?", (site,))}
+
+
+def mark_seen(conn, site: str, ids: list[str], now: datetime):
+    """After an AI answer was used: these articles were checked, whatever the AI decided about them."""
+    conn.executemany("INSERT OR REPLACE INTO ai_seen(id, site, seen_at) VALUES (?, ?, ?)",
+                     [(i, site, now.isoformat()) for i in ids])
+    conn.commit()
+
+
+def confirm_duplicates(state: dict, site: str, today: str, audit: list[dict], idx, conn=None) -> list[str]:
     """
     One AI call: "do these two stories report the same event?" for each suspected pair. Code merges
     only the pairs it asked about and the AI answered yes for, into the older story.
     """
     pairs = duplicate_candidates(state, site, today, idx)
+    if conn is not None:          # several runs a day: don't ask about the same pair twice in a day
+        asked = {r["pair"] for r in conn.execute("SELECT pair FROM ai_pairs WHERE asked_at >= ?", (today,))}
+        pairs = [(a, b) for a, b in pairs if pair_key(a, b) not in asked]
     if not pairs:
         return []
     template = (CONFIG / "prompts" / "duplicates.md").read_text(encoding="utf-8")
@@ -913,6 +945,10 @@ def confirm_duplicates(state: dict, site: str, today: str, audit: list[dict], id
         print(f"  duplicate check failed ({ex}): no stories merged by it")
         return []
     same = {p.get("pair") for p in answer.get("pairs") or [] if p.get("same") is True}
+    if conn is not None:
+        conn.executemany("INSERT OR REPLACE INTO ai_pairs(pair, same, asked_at) VALUES (?, ?, ?)",
+                         [(pair_key(a, b), int(k in same), today) for k, (a, b) in enumerate(pairs, start=1)])
+        conn.commit()
     stories = {n["id"]: n for n in state["narratives"]}
     home: dict[str, str] = {}                        # merged story id -> the story it went into
 
@@ -1021,8 +1057,13 @@ def save_coverage(state: dict, today: str, cov: dict, totals: Counter, failed: i
     if not day:
         day = {"date": today}
         days.insert(0, day)
-    for k in ("articles", "groups", "reported_by_2", "candidates", "continuing", "sent", "calls", "waiting"):
+    # Each run looks at the last 24 hours, so what it SAW overlaps with earlier runs: keep the day's
+    # largest count. What it DID (groups sent, calls) adds up. "waiting" is the latest run's.
+    for k in ("articles", "groups", "reported_by_2"):
+        day[k] = max(day.get(k, 0), cov.get(k, 0))
+    for k in ("candidates", "continuing", "sent", "calls"):
         day[k] = day.get(k, 0) + cov.get(k, 0)
+    day["waiting"] = cov.get("waiting", 0)
     for k in ("new", "updated", "kept", "rejected", "corroborated", "attached by code", "in stories", "merged",
               "skipped", "dropped", "split calls"):
         day[k.replace(" ", "_")] = day.get(k.replace(" ", "_"), 0) + totals.get(k, 0)
@@ -1087,16 +1128,24 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
     conn = store.connect()
     if only_group and only_group not in {g["id"] for g in site_cfg["groups"]}:
         raise SystemExit(f"No group '{only_group}' in config/{site}/site.yaml")
-    # One clock for the whole site. Older state files kept one per group: start from the earliest.
+    # The window: the last 24 hours (WINDOW_HOURS), or back to the last run if that was longer ago
+    # (an outage), but never more than 2 days. Several runs a day see overlapping windows; articles
+    # already in a story are left out, and groups the AI already checked aren't sent again.
     last = state["last_run"]
-    since = last.get("all") or min(last.values(), default=None) or (now - timedelta(hours=24)).isoformat()
-    since = max(since, (now - timedelta(hours=48)).isoformat())   # after a long outage, the last 2 days only
+    previous = last.get("all") or min(last.values(), default=None)
+    window = (now - timedelta(hours=WINDOW_HOURS)).isoformat()
+    since = max(min(previous or window, window), (now - timedelta(hours=48)).isoformat())
 
     print(f"\n=== {site_cfg['name']} ({ai.get('provider')}: {ai.get('model')}) ===")
-    articles = select_articles(conn, site, site_cfg, since, ai, only_group, state.get("retry"))
+    placed = {a["id"] for n in state["narratives"] for a in n["articles"]}
+    window_articles = select_articles(conn, site, site_cfg, since, ai, only_group, state.get("retry"))
+    articles = [a for a in window_articles if a["id"] not in placed]
+    seen = seen_ids(conn, site, now)
     batches, cov = make_batches(articles, state["narratives"], site, ai, set(site_cfg.get("single_source_stories") or []),
-                                site_cfg.get("single_source_skip") or [])
-    print(f"{len(articles)} new articles -> {cov['groups']} groups ({cov['reported_by_2']} reported by 2+ outlets); "
+                                site_cfg.get("single_source_skip") or [], seen)
+    cov["articles"] = len(window_articles)            # the panel counts everything collected in the window
+    print(f"{len(window_articles)} articles in the last {WINDOW_HOURS}h, {len(articles)} not yet in a story -> {cov['groups']} groups "
+          f"({cov['reported_by_2']} reported by 2+ outlets, {cov['already_checked']} already checked); "
           f"{cov['candidates']} go to the AI ({cov['continuing']} continue a tracked story) in {len(batches)} call(s)"
           + (f"; {cov['waiting']} wait for the next run (max_calls)" if cov["waiting"] else ""))
 
@@ -1131,6 +1180,7 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
                 failed += [a["id"] for c in part["groups"] for a in c["items"]]
                 failed_calls += 1
                 continue
+            mark_seen(conn, site, [a["id"] for c in part["groups"] for a in c["items"]], now)
             totals.update({k: v for k, v in counts.items() if k != "ids"})
             print(f"  {label}: {len(part['groups'])} groups, {len(part['refs'])} articles -> {counts['new']} new, "
                   f"{counts['updated']} updated stories; {counts['kept']} reports kept, {counts['rejected']} removed by guardrails"
@@ -1146,7 +1196,7 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
     merged = merge_duplicates(state, site, today, audit, batches[0]["idx"]) if batches else []
     if batches and len(failed) < sum(len(c["items"]) for b in batches for c in b["groups"]):
         time.sleep(ai.get("pause_seconds", 10))
-        merged += confirm_duplicates(state, site, today, audit, batches[0]["idx"])
+        merged += confirm_duplicates(state, site, today, audit, batches[0]["idx"], conn)
     totals["merged"] += len(merged)
     for line in merged:
         print(f"\nMerged duplicate story: {line}")

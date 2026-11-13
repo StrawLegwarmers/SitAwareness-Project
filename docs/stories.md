@@ -17,10 +17,12 @@ AI_PROVIDER=mock python pipeline/narratives.py           # test mode: no key, de
 
 ## One run
 
-1. **Select** the news articles that arrived since the last run, from every group's sources at
-   once (opinion, analysis and off-topic sections are never sent). At most `max_per_source` per
-   source; if the total exceeds `max_per_run`, every source is trimmed evenly rather than cutting
-   off the oldest hours.
+1. **Select** the news articles of the last 24 hours (`WINDOW_HOURS`; further back, up to two
+   days, if the last run was longer ago), from every group's sources at once, leaving out articles
+   already in a story (opinion, analysis and off-topic sections are never sent). At most
+   `max_per_source` per source; if the total exceeds `max_per_run`, every source is trimmed evenly
+   rather than cutting off the oldest hours. The brief runs every 3 hours, so the windows overlap:
+   that is what lets a first outlet's headline at 09:00 and a second outlet's at 14:00 meet.
 2. **Group the headlines in code** (`pipeline/cluster.py`). Two headlines are about the same event
    when they share at least three *rare* words worth enough together, at least one of them a name
    (a word capitalised inside the headline), and their countries don't clash. Rarity is measured on
@@ -34,7 +36,9 @@ AI_PROVIDER=mock python pipeline/narratives.py           # test mode: no key, de
    (even one article) that continues a tracked story, and on Cyber, research from the labs and
    agencies listed in `single_source_stories` (see [cyber](cyber.md#single-source-research)). Biggest first, about 40 groups per call
    (`batch_groups`), showing at most 10 articles per group (`group_articles`), up to `max_calls`
-   calls. Groups that don't fit wait for the next run.
+   calls. Groups that don't fit wait for the next run. A group whose articles the AI has all
+   checked already (the database remembers them for two days, table `ai_seen`) isn't sent again;
+   one new article in it is enough to send it again.
 4. **Prompt** the AI with (A) the tracked stories its groups may continue and (B) the numbered
    groups. The instructions are in `config/prompts/narratives.md`: check each group and leave out
    articles that don't belong; continue a tracked story before creating one; return a story for
@@ -197,7 +201,7 @@ examples.
 |---|---|
 | The AI proposes a "new" story that matches one already tracked | Merged into the existing one, if both have at least 6 meaningful words, share at least 3, overlap by at least 50%, and have at least one country in common |
 | Two tracked stories turn out to be one event | Merged after the run, when half the headlines of one pass the grouping test against the other's, in the same countries |
-| Two stories the word test can't link (other languages, a big day when every headline says "Microsoft") | Code lists pairs updated today, one of them new, whose core names overlap (rare capitalised words in the wider-story name or in two of the day's headlines, not countries, not names found in more than 6 stories) and whose countries don't clash: at most 30 pairs. One AI call answers "same event?" for each (`config/prompts/duplicates.md`); code merges only the pairs it asked about and the AI said yes to, into the older story |
+| Two stories the word test can't link (other languages, a big day when every headline says "Microsoft") | Code lists pairs updated today, one of them new, whose core names overlap (rare capitalised words in the wider-story name or in two of the day's headlines, not countries, not names found in more than 6 stories) and whose countries don't clash: at most 30 pairs. One AI call answers "same event?" for each (`config/prompts/duplicates.md`); code merges only the pairs it asked about and the AI said yes to, into the older story. A pair is asked about once a day (table `ai_pairs`) |
 | A report repeats one already in the story, from the same outlets | Skipped |
 | A report repeats facts already collected, from a new outlet | Added to the earlier report as "also reported by" |
 | Several outlets report the same fact in the same call | The prompt asks for one report citing them all: "[4][9] reported that..." |

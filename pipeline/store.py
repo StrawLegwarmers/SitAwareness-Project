@@ -86,6 +86,12 @@ CREATE TABLE IF NOT EXISTS fetch_log (
     run_at   TEXT, site TEXT, source TEXT, status TEXT,
     items    INTEGER, new INTEGER, dupes INTEGER, old INTEGER, error TEXT
 );
+
+-- Several runs a day group the same 24 hours of headlines: these remember what the AI already
+-- checked, so a group is only sent again when something new joins it (narratives.py).
+CREATE TABLE IF NOT EXISTS ai_seen (id TEXT PRIMARY KEY, site TEXT, seen_at TEXT);
+-- Pairs of stories the duplicate check already asked about, and the answer (1 = same event).
+CREATE TABLE IF NOT EXISTS ai_pairs (pair TEXT PRIMARY KEY, same INTEGER, asked_at TEXT);
 """
 
 
