@@ -2,32 +2,32 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 684,
+   "articles": 749,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 26,
-   "continuing": 3,
+   "calls": 7,
+   "candidates": 31,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 619,
-   "in_stories": 55,
-   "kept": 34,
-   "merged": 1,
-   "new": 21,
+   "groups": 675,
+   "in_stories": 63,
+   "kept": 37,
+   "merged": 2,
+   "new": 23,
    "rejected": 10,
    "reported_by_2": 14,
-   "runs": 6,
-   "sent": 26,
-   "skipped": 0,
+   "runs": 7,
+   "sent": 31,
+   "skipped": 1,
    "split_calls": 0,
    "updated": 0,
    "waiting": 0
   }
  ],
  "last_run": {
-  "all": "2026-11-13T16:33:38+00:00"
+  "all": "2026-11-13T19:38:01+00:00"
  },
  "narratives": [
   {
@@ -1088,8 +1088,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "459405c3575ce534",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-13T12:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "WTI Stages Sharp Comeback as Middle East Supply Risks Intensify",
+     "type": "specialist",
+     "url": "https://oilprice.com/Energy/Energy-General/WTI-Stages-Sharp-Comeback-as-Middle-East-Supply-Risks-Intensify.html"
+    },
     {
      "added": "2026-11-13",
      "id": "f56bf3bf8eebb513",
@@ -1117,14 +1130,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -1154,7 +1167,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Gas bills to rise as Middle East turmoil persists",
+   "title": "Oil Prices Rise as Middle East Supply Risks Persist",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f"
+   },
    "topic": "energy"
   },
   {
@@ -1595,9 +1615,183 @@
    "status": "new",
    "title": "BofA Federal Reserve interest rate forecast",
    "topic": "economy"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "94300eb4930b3d49",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-13T18:48:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed likely to need to raise rates amid worsening inflation: Daly",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/fed-likely-to-need-to-raise-rates-amid-worsening-inflation-daly-5026338"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "553cccf364f73e24",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-13T17:53:33+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Daly says rates likely need to rise amid inflation concerns",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "f3dfda98e0098d51",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-13T15:58:42+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Collins says more rate hikes may be needed soon",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-collins-says-more-rate-hikes-may-be-needed-soon-5026128"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "ece8f5e17e3adc6b",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T14:10:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Collins Says Higher Rates Are Appropriate ‘Soon’",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-collins-says-inflation-fight-trumps-housing-woes"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "aad97369659b2af8",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-12T18:54:22+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Daly Says More Rate Hikes Needed to Cool Inflation",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "federal-reserve-interest-rates",
+   "label": "Federal Reserve interest rates",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ece8f5e17e3adc6b",
+      "f3dfda98e0098d51"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-13T14:10:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/fed-s-collins-says-inflation-fight-trumps-housing-woes), [Investing.com](https://www.investing.com/news/economy-news/feds-collins-says-more-rate-hikes-may-be-needed-soon-5026128) reported that Federal Reserve Bank of Boston President Susan Collins said additional interest-rate increases will be needed soon as price pressures broaden."
+    },
+    {
+     "articles": [
+      "553cccf364f73e24",
+      "94300eb4930b3d49",
+      "aad97369659b2af8"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-12T18:54:22+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation), [Investing.com](https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest-rate increases will be needed to bring down inflation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Federal Reserve interest rates",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "76724d3889cc1cbe",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-13T19:33:26+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Supreme Court will hear Robinhood effort to toss IPO info omissions lawsuit",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "edc13cf7592cb81d",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-13T19:00:40+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US Supreme Court to consider lawsuit over Robinhood’s 2021 IPO",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo-5026347"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "supreme-court-robinhood-lawsuit",
+   "label": "Supreme Court Robinhood lawsuit",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "76724d3889cc1cbe",
+      "edc13cf7592cb81d"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC",
+      "Investing.com"
+     ],
+     "published": "2026-11-13T19:00:40+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html), [Investing.com](https://www.investing.com/news/stock-market-news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo-5026347) reported that the Supreme Court will hear an appeal by Robinhood to dismiss an investors' lawsuit over its IPO."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Supreme Court Robinhood lawsuit",
+   "topic": "justice"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T16:33:55+00:00"
+ "updated": "2026-11-13T19:38:18+00:00"
 }

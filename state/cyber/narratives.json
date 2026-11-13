@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 228,
+   "articles": 252,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 29,
+   "calls": 6,
+   "candidates": 32,
    "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 192,
-   "in_stories": 35,
-   "kept": 33,
-   "merged": 2,
-   "new": 13,
+   "groups": 211,
+   "in_stories": 39,
+   "kept": 37,
+   "merged": 3,
+   "new": 15,
    "rejected": 0,
    "reported_by_2": 6,
-   "runs": 7,
-   "sent": 29,
+   "runs": 8,
+   "sent": 32,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -50,7 +50,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T16:31:31+00:00"
+  "all": "2026-11-13T19:35:10+00:00"
  },
  "narratives": [
   {
@@ -3016,8 +3016,34 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f7861f3167f6c872",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T07:20:50+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
+     "type": null,
+     "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "86abe3ba35c845c4",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-12T19:51:16+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
+    },
     {
      "added": "2026-11-13",
      "dates": [
@@ -3048,15 +3074,42 @@
      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "n-able-n-central-zero-day",
    "label": "N-able N-central zero-day vulnerabilities",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "merged": [
+    "n-able-n-central-zero-day-2"
+   ],
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "86abe3ba35c845c4"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-12T19:51:16+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/) reported that hackers are actively exploiting a new N-able N-central zero-day vulnerability dubbed 4EverAble2Shell to compromise servers and deploy cryptocurrency miners."
+    },
+    {
+     "articles": [
+      "f7861f3167f6c872"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-13T07:20:50+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/) reported that the 4EverAble2Shell flaw allows remote, unauthenticated attackers to execute code with root privileges."
+    },
     {
      "articles": [
       "ff3cbde79df9a0df"
@@ -3085,7 +3138,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "N-able N-central zero-day vulnerabilities",
+   "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-13",
+    "of": 3,
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/"
+   },
    "topic": "cyber"
   },
   {
@@ -3450,9 +3510,82 @@
    "status": "new",
    "title": "TSMC data breach",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-12"
+     ],
+     "id": "caba0bb13685e37c",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-13T14:18:29+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations",
+     "type": null,
+     "url": "https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "fa6bb5218f5dbd79",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-12T15:38:49+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "citrix-netscaler-security-vulnerabilities-and-patc",
+   "label": "Citrix NetScaler security vulnerabilities and patches",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "fa6bb5218f5dbd79"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-12T15:38:49+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html) reported that Citrix released patches for 12 NetScaler and Secure Access Client flaws, including authentication bypass."
+    },
+    {
+     "articles": [
+      "caba0bb13685e37c"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-13T14:18:29+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/) reported that Citrix released fixes for 28 security flaws in NetScaler, including a critical flaw in default installations designated CVE-2026-120868."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Citrix NetScaler security vulnerabilities and patches",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-13T16:31:48+00:00"
+ "updated": "2026-11-13T19:35:28+00:00"
 }
