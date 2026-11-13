@@ -1,0 +1,990 @@
+{
+ "archived": [],
+ "coverage": [
+  {
+   "articles": 494,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 14,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-13",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 468,
+   "in_stories": 32,
+   "kept": 21,
+   "merged": 0,
+   "new": 14,
+   "rejected": 8,
+   "reported_by_2": 14,
+   "runs": 1,
+   "sent": 14,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  }
+ ],
+ "last_run": {
+  "all": "2026-11-13T11:38:21+00:00"
+ },
+ "narratives": [
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f5a2aa0161f008af",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-13T09:40:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/global-oil-market-set-to-return-to-surplus-as-gulf-exports-recover-iea-says-d535096c?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "03af71891d5ee3f3",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-13T09:04:06+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Global oil markets swing to surplus as Gulf shipments rebound",
+     "type": "international",
+     "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "607e1c434ce953f7",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T09:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Global Oil Market Swings to Surplus on Gulf Exports, IEA Says",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "global-oil-market-surplus",
+   "label": "Global oil market surplus",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "607e1c434ce953f7",
+      "f5a2aa0161f008af"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-13T09:00:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says), [Wall Street Journal](https://www.wsj.com/business/energy-oil/global-oil-market-set-to-return-to-surplus-as-gulf-exports-recover-iea-says-d535096c?mod=pls_whats_news_us_business_f) reported that the International Energy Agency said global oil markets will swing to a supply surplus for the first time since the start of the Iran war as Persian Gulf exports recover."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/energy-oil/global-oil-market-set-to-return-to-surplus-as-gulf-exports-recover-iea-says-d535096c?mod=pls_whats_news_us_business_f"
+   },
+   "topic": "energy"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "65d1e29da8c043b6",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-13T03:57:01+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "f2c682241a302794",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-10T22:52:15+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "577aa4b8fcde6bcc",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-10T12:45:54+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+     "type": "international",
+     "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "nvidia-and-jensen-huang-sued-in",
+   "label": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "577aa4b8fcde6bcc"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-10T12:45:54+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi) reported that Nvidia and Jensen Huang were sued in the United States over an affair with an alleged Chinese spy, as Donald Trump said the FBI is investigating the tech chief executive's links with Alice Huang."
+    },
+    {
+     "articles": [
+      "f2c682241a302794"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-10T22:52:15+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss) reported that Nvidia hired a major United States law firm to investigate the alleged Chinese spy affair after it emerged Jensen Huang had an affair with a woman believed to be a spy for China."
+    },
+    {
+     "articles": [
+      "65d1e29da8c043b6"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-13T03:57:01+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss) reported that former Nvidia chief executive Jensen Huang was summoned to testify before Congress about the affair after abruptly quitting on Thursday."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "7285f943c22705ff",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-11T09:19:59+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Alibaba readies T-Head chip IPO as Hong Kong frenzy cools",
+     "type": "regional",
+     "url": "https://www.scmp.com/plus/business/banking-finance/article/3374068/alibaba-readies-t-head-chip-ipo-hong-kong-frenzy-cools"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "85dbdca0dc19f62a",
+     "lang": "en",
+     "outlet": "CNBC Finance",
+     "published": "2026-11-11T07:47:54+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Alibaba announces plans to list T-Head, its Nvidia chip rival",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/11/alibaba-pr.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "c09bce4076c08bd4",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-10T13:20:29+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Alibaba chip unit T-Head files Hong Kong IPO plan amid China’s AI self-sufficiency drive",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "alibaba-t-head-hong-kong-ipo",
+   "label": "Alibaba T-Head Hong Kong IPO",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "85dbdca0dc19f62a"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-11T07:47:54+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/11/alibaba-pr.html) reported that Alibaba announced plans to list T-Head, its Nvidia chip rival, noting it had already filed confidentially on September 11 on the Hong Kong Stock Exchange."
+    },
+    {
+     "articles": [
+      "c09bce4076c08bd4"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-10T13:20:29+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive) reported that Alibaba Group Holding's chip design unit T-Head filed for an initial public offering on a confidential basis in Hong Kong amid China's artificial intelligence self-sufficiency drive."
+    },
+    {
+     "articles": [
+      "7285f943c22705ff"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-11T09:19:59+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/plus/business/banking-finance/article/3374068/alibaba-readies-t-head-chip-ipo-hong-kong-frenzy-cools) reported that Alibaba applied to list its chip-design unit T-Head in Hong Kong as the Chinese tech giant braves a cooling initial public offering market."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Alibaba T-Head Hong Kong IPO",
+   "topic": "business"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a8cf07026b80ff3a",
+     "lang": "en",
+     "outlet": "CNBC Finance",
+     "published": "2026-11-13T00:01:19+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "e69794f78192a8e5",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-12T22:02:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Futures Rebound as Trump Shrugs Off Need for Iran Deal",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-resumes-decline-as-risk-premium-fades-bcdc7fc5?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "f973ca72cd89122c",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-12T21:01:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rebound as Trump Questions Need for Iran Deal",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "oil-prices-and-iran-diplomacy",
+   "label": "Oil prices and Iran diplomacy",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Oil prices and Iran diplomacy",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "6d5d920b953bc937",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-11T12:26:57+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "USA Gasoline Falls Below $4 for 1st Time Since August",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/usa_gasoline_falls_below_4_for_1st_time_since_august-11-nov-2026-185058-article/?rss=true"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "ddd18a98c118d4c8",
+     "lang": "en",
+     "outlet": "CNBC Energy",
+     "published": "2026-11-10T20:27:02+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "brent-crude-briefly-dips-below-90",
+   "label": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ddd18a98c118d4c8"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-10T20:27:02+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html) reported that Brent crude briefly dipped below $90 for the first time since August on Iran hopes after President Trump said he thought the conflict was going to end fairly soon."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "0be8413aa7106528",
+     "lang": "en",
+     "outlet": "CNBC Earnings",
+     "published": "2026-11-11T13:18:48+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nissan cuts sales forecast again on China woes as CEO outlines plan to fight back",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/11/nissan-sales-forecast-earnings-china.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "455eced0adcf77c3",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-11T11:09:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nissan, Back in Red, Cuts Sales View on China Slump",
+     "type": "international",
+     "url": "https://www.wsj.com/business/autos/nissan-posts-quarterly-loss-cuts-sales-view-on-china-slump-d5cbb640?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "nissan-sales-forecast-reduction",
+   "label": "Nissan sales forecast reduction",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "455eced0adcf77c3"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-11T11:09:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/autos/nissan-posts-quarterly-loss-cuts-sales-view-on-china-slump-d5cbb640?mod=pls_whats_news_us_business_f) reported that Nissan cut its sales view due to a China slump, attributing weak Chinese sales to slow economic growth and an accelerated shift to electrified vehicles."
+    },
+    {
+     "articles": [
+      "0be8413aa7106528"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-11T13:18:48+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/11/nissan-sales-forecast-earnings-china.html) reported that intensifying competition in the world's largest auto market forced Nissan to cut its annual sales forecast for a second time in months."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nissan sales forecast reduction",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "5cc91b2f3eb73406",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-12T23:41:00+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "From Jell-O to Philadelphia cream cheese, Kraft Heinz is putting a new spin on old favorites",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/12/kraft-heinz-bets-on-protein-foods-to-revive-sales.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "3a9d068b1942d5c3",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-12T13:57:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
+     "type": "international",
+     "url": "https://www.wsj.com/business/retail/kraft-heinz-has-a-comeback-plan-cheesy-ramen-and-high-protein-jell-o-6fbfc2f8?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "kraft-heinz-has-a-comeback-plan",
+   "label": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3a9d068b1942d5c3"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-12T13:57:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/kraft-heinz-has-a-comeback-plan-cheesy-ramen-and-high-protein-jell-o-6fbfc2f8?mod=pls_whats_news_us_business_f) reported that Kraft Heinz has a comeback plan involving investments in new products including cheesy ramen and high-protein Jell-O to bring life to its aging brands."
+    },
+    {
+     "articles": [
+      "5cc91b2f3eb73406"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-12T23:41:00+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/12/kraft-heinz-bets-on-protein-foods-to-revive-sales.html) reported that Kraft Heinz chief executive Steve Cahillane is betting on new products, including cheesy ramen and protein-packed Jell-O pudding, to revive growth."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "309a80a8dc3bea96",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-12T18:03:44+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "US home sales fall to lowest level since 2010 as mortgage rates soar",
+     "type": "international",
+     "url": "https://www.ft.com/content/1e08661e-1db0-4ff7-8236-77254bb05790?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "d9c01407f3853302",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-12T17:08:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Home sales declined in October to their lowest level since 2010, a new trough for a housing market that has been hovering near rock bottom for more than four years",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/housing/home-sales-in-october-plummet-to-16-year-low-16adebc0?mod=rss_socialeconomyfeed"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "home-sales-declined-in-october-to",
+   "label": "Home sales declined in October to their lowest level since 2010, a new trough for a housing market t",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d9c01407f3853302"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-12T17:08:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/housing/home-sales-in-october-plummet-to-16-year-low-16adebc0?mod=rss_socialeconomyfeed) reported that existing home sales declined 5.5% in October from the previous month to their lowest level since 2010."
+    },
+    {
+     "articles": [
+      "309a80a8dc3bea96"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-12T18:03:44+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/1e08661e-1db0-4ff7-8236-77254bb05790?syn-25a6b1a6=1) reported that higher borrowing costs deepened the housing market slump as interest rates weigh on transactions."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Home sales declined in October to their lowest level since 2010, a new trough for a housing market t",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "6c1fbba4ffe02ac3",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-12T22:45:07+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Kalshi cuts ties to Donald Trump Jr after Democrats’ midterm sweep",
+     "type": "international",
+     "url": "https://www.ft.com/content/1352ac24-bdd6-4093-9ebd-7b27b6fd29d3?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "72114b03c304a4a1",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-12T20:03:57+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Donald Trump Jr. exits advisory role at Kalshi prediction market",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "kalshi-and-donald-trump-jr",
+   "label": "Kalshi and Donald Trump Jr",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "72114b03c304a4a1"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-12T20:03:57+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html) reported that Donald Trump Jr. exited his advisory role at the Kalshi prediction market."
+    },
+    {
+     "articles": [
+      "6c1fbba4ffe02ac3"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-12T22:45:07+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/1352ac24-bdd6-4093-9ebd-7b27b6fd29d3?syn-25a6b1a6=1) reported that the prediction market platform ended its advisory deal amid mounting political scrutiny and rival investments in Polymarket following Democrats' midterm sweep."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Kalshi and Donald Trump Jr",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "0610cd6422349443",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-13T02:43:26+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Cerebras surges 17% after beating on quarterly revenue and announcing Microsoft deal",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "63814c7280424c81",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-12T21:18:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Cerebras Lifts Outlook as Cloud Revenue Surges in Third Quarter",
+     "type": "international",
+     "url": "https://www.wsj.com/business/earnings/cerebras-lifts-outlook-as-cloud-revenue-surges-in-third-quarter-87d7cba2?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "cerebras-lifts-outlook-as-cloud-revenue",
+   "label": "Cerebras Lifts Outlook as Cloud Revenue Surges in Third Quarter",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cerebras Lifts Outlook as Cloud Revenue Surges in Third Quarter",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "6fd4b566fda28c7e",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-13T01:26:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Williams Says Still Work to Do to Get Monetary Policy to Right Place",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/feds-williams-says-still-work-to-do-to-get-monetary-policy-to-right-place-cc3b5992?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "2ad4baaa5c165c8b",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-13T00:05:34+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Williams Says Inflation ‘Far Too High,’ Work to Do",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "federal-reserve-monetary-policy-stance",
+   "label": "Federal Reserve monetary policy stance",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2ad4baaa5c165c8b"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T00:05:34+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do) reported that Federal Reserve Bank of New York President John Williams said that United States inflation remains far too high and policymakers have further work to do to contain price pressures."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Federal Reserve monetary policy stance",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "67ab0cbbb14eddf6",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-13T11:09:31+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil set for second weekly loss amid easing fears of fresh U.S.-Iran fighting",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-hold-gains-as-trump-sidelines-vance-from-iran-diplomacy-5023781"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "82346f4bdfef9905",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-13T05:45:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Head for Second Weekly Loss Despite Fresh Middle East Attacks",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "crude-oil-weekly-price-movement",
+   "label": "Crude oil weekly price movement",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "82346f4bdfef9905"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-13T05:45:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Crude oil weekly price movement",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f8d3bd236dbe814e",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T11:26:41+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "New City of London Lord Mayor Seeks to Get Trillions of UK Pensions Invested",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/new-city-of-london-lord-mayor-seeks-to-get-trillions-of-uk-pensions-invested"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "7b4fe86abade1d16",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-13T06:00:07+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "City of London’s new Lord Mayor to press pension funds on investment pledges",
+     "type": "international",
+     "url": "https://www.ft.com/content/ac91b140-2614-48aa-8438-554e2c343373?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "city-of-london-lord-mayor-pension",
+   "label": "City of London Lord Mayor pension investment push",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7b4fe86abade1d16"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-13T06:00:07+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/ac91b140-2614-48aa-8438-554e2c343373?syn-25a6b1a6=1) reported that Bronek Masojada, the South African-born former chief executive of insurer Hiscox, is being sworn in on Friday as the City of London's new Lord Mayor to press pension funds on investment pledges."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "City of London Lord Mayor pension investment push",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a744b89cb32f44b4",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-13T11:23:26+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Widespread Microsoft outage continues, taking down Outlook and other 365 services",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "8ebce37462c43464",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-13T09:32:51+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft stock is dropping amid continued outage of key services: live updates",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "microsoft-service-outage",
+   "label": "Microsoft service outage",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8ebce37462c43464"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-13T09:32:51+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins) reported that Microsoft stock is dropping amid a continued outage of key services."
+    },
+    {
+     "articles": [
+      "a744b89cb32f44b4"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-13T11:23:26+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html) reported that a widespread Microsoft outage on Thursday affected users of services like Outlook, Teams, and 365."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Microsoft service outage",
+   "topic": "infrastructure"
+  }
+ ],
+ "retry": [],
+ "site": "markets",
+ "updated": "2026-11-13T11:38:52+00:00"
+}

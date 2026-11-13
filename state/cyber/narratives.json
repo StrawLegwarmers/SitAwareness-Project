@@ -2,23 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 134,
+   "articles": 166,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 10,
+   "calls": 2,
+   "candidates": 12,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-13",
+   "dropped": 0,
    "failed_calls": 0,
-   "groups": 129,
-   "in_stories": 12,
-   "kept": 11,
+   "groups": 161,
+   "in_stories": 14,
+   "kept": 13,
    "merged": 1,
-   "new": 5,
+   "new": 7,
    "rejected": 0,
    "reported_by_2": 4,
-   "runs": 1,
-   "sent": 10,
+   "runs": 2,
+   "sent": 12,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -49,7 +50,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T08:36:25+00:00"
+  "all": "2026-11-13T11:35:51+00:00"
  },
  "narratives": [
   {
@@ -96,6 +97,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "global-cyberattacks-target-industrial-refrigeratio",
+   "label": "Global Cyberattacks Target Industrial Refrigeration Systems",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [],
@@ -148,6 +150,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
+   "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -203,6 +206,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "cr-dit-mutuel-ark-a-targeted",
+   "label": "Crédit Mutuel Arkéa Targeted in $133 Million Heist",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [],
@@ -246,6 +250,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "digicert-reports-multi-month-data-breach",
+   "label": "DigiCert Reports Multi-Month Data Breach of Customer Data",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [],
@@ -289,6 +294,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "openai-unveils-gpt-6-cyber-model",
+   "label": "OpenAI Unveils GPT-6 Cyber Model",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [],
@@ -332,6 +338,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "ai-hacking-framework-artex-linked-to",
+   "label": "AI Hacking Framework ARTEX Linked to Financial Sector Breaches",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [],
@@ -366,6 +373,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "fake-security-tools-on-github-spread",
+   "label": "Fake Security Tools on GitHub Spread Malware to Developers",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [],
@@ -404,6 +412,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "pro-russian-hackers-leak-european-officials",
+   "label": "Pro-Russian hackers leak European officials' personal data",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [
@@ -454,6 +463,7 @@
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "iris-plaza-cloud-breach-exposes-customer",
+   "label": "Iris Plaza cloud breach exposes customer data",
    "last_updated": "2026-11-09",
    "outlets_today": 0,
    "reports": [
@@ -572,6 +582,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "russian-turla-group-targets-government-exchange",
+   "label": "Russian Turla group targets government Exchange servers",
    "last_updated": "2026-11-11",
    "outlets_today": 0,
    "reports": [
@@ -689,6 +700,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "qubole-supply-chain-attack-compromises-customer",
+   "label": "Qubole supply chain attack compromises customer data",
    "last_updated": "2026-11-11",
    "outlets_today": 0,
    "reports": [
@@ -807,6 +819,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "vanderbilt-university-ransomware-attack",
+   "label": "Vanderbilt University ransomware attack",
    "last_updated": "2026-11-12",
    "outlets_today": 0,
    "reports": [
@@ -1001,6 +1014,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "france-blames-iran-for-refrigeration-sabotage",
+   "label": "France blames Iran for refrigeration sabotage attacks",
    "last_updated": "2026-11-11",
    "outlets_today": 0,
    "reports": [
@@ -1139,6 +1153,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "google-patches-actively-exploited-chrome-zero",
+   "label": "Google patches actively exploited Chrome zero-day vulnerability",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -1270,6 +1285,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "n-able-takes-n-central-offline",
+   "label": "N-able takes N-central offline following zero-day disclosures",
    "last_updated": "2026-11-12",
    "outlets_today": 0,
    "reports": [
@@ -1386,6 +1402,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "sega-newsletter-vendor-data-breach",
+   "label": "SEGA newsletter vendor data breach",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -1458,6 +1475,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "default-admin-password-let-researchers-unlock",
+   "label": "Default Admin Password Let Researchers Unlock and Start Cars",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -1530,6 +1548,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "qnap-warns-users-of-plex2shell-nas",
+   "label": "QNAP warns users of Plex2Shell NAS vulnerabilities",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -1605,6 +1624,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "openssh-sshole-vulnerability",
+   "label": "OpenSSH SSHole vulnerability",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -1679,6 +1699,7 @@
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "fireworks-ai-data-breach",
+   "label": "Fireworks AI data breach",
    "last_updated": "2026-11-10",
    "outlets_today": 0,
    "reports": [
@@ -1742,6 +1763,7 @@
    "first_seen": "2026-11-11",
    "group": "all",
    "id": "railway-ai-customer-keys-breach",
+   "label": "Railway AI customer keys breach",
    "last_updated": "2026-11-11",
    "outlets_today": 0,
    "reports": [
@@ -1829,6 +1851,7 @@
    "first_seen": "2026-11-11",
    "group": "all",
    "id": "asian-airline-and-bank-supplier-data",
+   "label": "Asian airline and bank supplier data breaches",
    "last_updated": "2026-11-11",
    "outlets_today": 0,
    "reports": [
@@ -1950,6 +1973,7 @@
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "github-and-screenconnect-cyberattacks",
+   "label": "GitHub and ScreenConnect cyberattacks",
    "last_updated": "2026-11-12",
    "outlets_today": 0,
    "reports": [
@@ -2073,6 +2097,7 @@
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
+   "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 2,
@@ -2173,6 +2198,7 @@
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "antifox-ai-penetration-testing-platform-attacks",
+   "label": "AntiFox AI penetration testing platform attacks",
    "last_updated": "2026-11-12",
    "outlets_today": 0,
    "reports": [
@@ -2259,6 +2285,7 @@
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "maersk-and-baker-tilly-data-breaches",
+   "label": "Maersk and Baker Tilly data breaches",
    "last_updated": "2026-11-12",
    "outlets_today": 0,
    "reports": [
@@ -2348,6 +2375,7 @@
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "lego-bricklink-marketplace-offline",
+   "label": "Lego BrickLink marketplace offline",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 3,
@@ -2382,7 +2410,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Lego BrickLink marketplace offline"
+   "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Infosecurity Magazine",
+    "url": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/"
+   }
   },
   {
    "article_count": 2,
@@ -2418,6 +2453,7 @@
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-cryptocurrency-and-infrastructure-seizure",
+   "label": "US cryptocurrency and infrastructure seizure",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 2,
@@ -2502,6 +2538,7 @@
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "check-point-firewall-exploitation",
+   "label": "Check Point firewall exploitation",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 3,
@@ -2546,7 +2583,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Check Point firewall exploitation"
+   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+   }
   },
   {
    "article_count": 1,
@@ -2569,6 +2613,7 @@
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "autonomous-ai-attacks-on-semiconductor-and",
+   "label": "Autonomous AI attacks on semiconductor and defense",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 1,
@@ -2612,6 +2657,7 @@
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "post-training-supply-chain-attacks-on",
+   "label": "Post-training supply chain attacks on coding agents",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 1,
@@ -2633,9 +2679,99 @@
    "state_media_only_today": false,
    "status": "new",
    "title": "Post-training supply chain attacks on coding agents"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a55b9a9999ce931f",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-11T12:27:47+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "Online Casino Serves Malicious Python SDK",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/online-casino-serves-malware"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "online-casino-malicious-python-sdk",
+   "label": "Online Casino Malicious Python SDK",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "a55b9a9999ce931f"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-11T12:27:47+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/online-casino-serves-malware) reported that an online casino serves a malicious Python SDK named aurum-pay that fetches and runs a remote command to install a persistent Linux RAT."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Online Casino Malicious Python SDK",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "739a8dfc5750ee71",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-13T09:00:43+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
+     "type": null,
+     "url": "https://securelist.com/esxi-ransomware/121959/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "ransomware-at-the-hypervisor-layer",
+   "label": "Ransomware at the hypervisor layer",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "739a8dfc5750ee71"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Kaspersky"
+     ],
+     "published": "2026-11-13T09:00:43+00:00",
+     "text": "[Kaspersky](https://securelist.com/esxi-ransomware/121959/) reported that Kaspersky experts analyzed a recent ransomware incident involving attackers using ESXi and vCenter features."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Ransomware at the hypervisor layer",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-13T08:36:44+00:00"
+ "updated": "2026-11-13T11:36:09+00:00"
 }

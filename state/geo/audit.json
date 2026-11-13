@@ -484,113 +484,281 @@
  {
   "date": "2026-11-13",
   "kind": "rejected",
+  "group": "asia",
+  "story": "Islamabad local government elections suspension",
+  "text": "[34] reported that the Islamabad High Court suspended the December 20 local government polls over delimitation objections and sought the ECP's response by November 26.",
+  "reason": "names not in cited articles: High"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Jensen Huang congressional and legal scrutiny",
+  "text": "[43] reported that Jensen Huang agreed to testify before the US Congress amid federal probes into alleged ties with Chinese intelligence and technology diversion.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US Congressional Scrutiny of Nvidia and Commerce Department",
+  "text": "[47] reported that Howard Lutnick came under fire following the Nvidia controversy.",
+  "reason": "wording not from cited articles: came, following, controversy"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "title",
+  "group": "asia",
+  "story": "Abby Choi killed by ex-husband, court heard",
+  "text": "Abby Choi murder trial testimony",
+  "reason": "title replaced by a headline: wording not from cited articles: murder, testimony"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
   "group": "mena",
-  "story": "Yemen Conflict: Houthi Drone Attack Damages Riyadh Aramco Tower",
-  "text": "[89] reported that Saudi Arabia is pressuring the European Union to designate the Houthis as a terrorist group.",
-  "reason": "names not in cited articles: European, Union"
+  "story": "Israel: Coalition Formation Talks and Political Transitions",
+  "text": "[65] reported that Gadi Eisenkot met Prime Minister Benjamin Netanyahu for a two-hour security briefing following tensions over potential Iran strikes.",
+  "reason": "names not in cited articles: Benjamin, Gadi"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Israel: Coalition Formation Talks and Political Transitions",
+  "text": "[66] reported that Avigdor Lieberman vowed to stop a politically motivated war and is scheduled to assume the role of head of the Knesset's Foreign Affairs and Defense Committee on Monday.",
+  "reason": "names not in cited articles: Avigdor"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "US-Iran Tensions: Regional Diplomacy and Maritime Incidents",
+  "text": "",
+  "reason": "continuation not supported by the headlines: الحرس الثوري يعلن إصابة ناقلة غاز بانفجار واشتعال النيران فيها بمضيق هرمز"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "title",
+  "group": "mena",
+  "story": "الحرس الثوري يعلن إصابة ناقلة غاز بانفجار واشتعال النيران فيها بمضيق هرمز",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "University of Nigeria student deaths",
+  "text": "[94] reported that Enugu State Governor Peter Mbah mourned the late students and sought a ban on sign-out ceremonies.",
+  "reason": "names not in cited articles: Enugu, Peter"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Jensen Huang congressional and legal scrutiny",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Potential 'national security crisis' as Nvidia ex-CEO summoned by US Congress"
  },
  {
   "date": "2026-11-13",
   "kind": "title",
   "group": "namerica",
-  "story": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
-  "text": "Trump Proposals for Nvidia CEO Replacement",
-  "reason": "title replaced by a headline: names not in cited articles: Proposals, Replacement"
+  "story": "Potential 'national security crisis' as Nvidia ex-CEO summoned by US Congress",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
  },
  {
   "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Pope Leo XIV visit to Peru",
-  "text": "[119] reported that Pope Leo XIV called for an end to violence against women.",
-  "reason": "names not in cited articles: XIV"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
+  "kind": "dropped",
   "group": "europe",
-  "story": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-  "text": "Incident Involving Russian Warship in Baltic Sea",
-  "reason": "title replaced by a headline: names not in cited articles: Incident, Involving"
+  "story": "",
+  "text": "Najskuplji rekvizit iz serijala \"Ratovi zvezda\": Svetlosni mač Darta Vejdera prodat za skoro 5 MILIONA DOLARA (VIDEO)",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-13",
-  "kind": "title",
-  "group": "mena",
-  "story": "53 countries, organizations urge Israel to allow rapid humanitarian access to Gaza",
-  "text": "International Coalition Demands Humanitarian Access to Gaza",
-  "reason": "title replaced by a headline: names not in cited articles: Demands, International"
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Bail posted for Carthage suspect General Duka",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-13",
-  "kind": "title",
-  "group": "mena",
-  "story": "Fourteen dead after truck loses control in 23-vehicle crash in UAE",
-  "text": "UAE Fujairah Multi-Vehicle Traffic Collision",
-  "reason": "title replaced by a headline: names not in cited articles: Collision, Multi-Vehicle"
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "ГЕРБ предлага енергийни компенсации за студентите, живеещи на общежитие",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Търговска верига е глобена 30 хил. евро заради инцидент на детска площадка",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Ogun State PDP governorship candidate court ruling",
+  "text": "Nigerian court candidate list rulings",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-13",
   "kind": "skipped",
-  "group": "global",
-  "story": "Latin Grammy Awards Winners",
+  "group": "europe",
+  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Otkriveno šta je Rusija tražila u Abu Dhabiju, zahtjevi sežu izvan Ukrajine"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Bild: Rusija u Abu Dhabiju zatražila da Finska napusti NATO"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
+  "text": "[11] reported that it was revealed what Russia demanded during talks in Abu Dhabi, with requests extending beyond Ukraine.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
+  "text": "[12] reported that Russian negotiators in Abu Dhabi asked for Finland to leave NATO.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Ukraine drone strikes on Russia and energy attacks",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Ukrainian drones kill four in Russia, Kyiv hospital hit"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Russian Drone Attacks in Ukraine",
+  "text": "",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Oyo State Governor performance rating and political statements",
+  "text": "[17] reported that Oyo State Governor Seyi Makinde rated the Tinubu administration 34 percent and criticized pressure on elected officials to join the ruling party.",
+  "reason": "names not in cited articles: Oyo, Seyi"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "X suspension of Ahmed Moor campaign account",
+  "text": "[20] reported that the social media platform took action after the account gained over 33,000 followers following a Democratic primary challenge announcement.",
+  "reason": "number not in cited articles: 33000"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Zambia Miss Universe withdrawal over US travel restrictions",
   "text": "",
   "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-13",
   "kind": "merged",
-  "group": "asia",
-  "story": "Indonesia: Vice President Gibran Rakabuming Raka Resignation and Political Turmoil",
-  "text": "Indonesian Vice President Resignation",
+  "group": "europe",
+  "story": "Russian Drone Attacks in Ukraine",
+  "text": "Explosions and car bombs target individuals in Russia",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-13",
   "kind": "title",
   "group": "namerica",
-  "story": "Oil prices set for second weekly decline as Trump to stay with Iran blockade",
-  "text": "Global oil prices trend",
+  "story": "Microsoft outage explained: what went wrong and is your data at risk?",
+  "text": "Global Microsoft IT service outage",
   "reason": "title replaced by a headline: names not in cited articles: Global"
  },
  {
   "date": "2026-11-13",
   "kind": "rejected",
-  "group": "europe",
-  "story": "INEC Chairman Amupitan diaspora protest in London",
-  "text": "[45] reported that the demonstration took place outside Chatham House.",
-  "reason": "wording not from cited articles: demonstration, took, place"
+  "group": "namerica",
+  "story": "Microsoft outage explained: what went wrong and is your data at risk?",
+  "text": "[39] reported that a Microsoft outage affected governments, medical clinics, and rival artificial intelligence firms, raising questions about European reliance on US technology.",
+  "reason": "names not in cited articles: European"
  },
  {
   "date": "2026-11-13",
-  "kind": "title",
-  "group": "asia",
-  "story": "Seoul shares drop nearly 1 pct, erasing earlier gains following Nvidia jitters",
-  "text": "Seoul shares drop amid Nvidia jitters",
-  "reason": "title replaced by a headline: analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
+  "kind": "skipped",
   "group": "europe",
-  "story": "Chinese vice president meets Turkish president on sidelines of COP31",
-  "text": "COP31 sideline diplomatic meetings",
-  "reason": "title replaced by a headline: wording not from cited articles: sideline, diplomatic"
+  "story": "Bosnia and Herzegovina contaminated dried apricots recall in Slovenia",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
  },
  {
   "date": "2026-11-13",
   "kind": "rejected",
-  "group": "mena",
-  "story": "Italy School Bomb Threats",
-  "text": "[92][93] reported that several Italian schools were evacuated after receiving emailed bomb warnings across multiple regions.",
-  "reason": "wording not from cited articles: receiving, warnings, across, multiple"
+  "group": "namerica",
+  "story": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
+  "text": "[28] reported that Donald Trump stated Jensen Huang was going through hell and was most upset about hurting his family amid allegations involving a Chinese asset and other women.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "New York City Building Collapse Casualties",
+  "text": "[32] reported that local residents expressed anger and grief following a Brooklyn building collapse, criticizing prioritization of developers' profits over safety.",
+  "reason": "wording not from cited articles: expressed, following, criticizing, prioritization, developers'"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Russell Brand Sexual Misconduct Allegations and Sentencing",
+  "text": "[2] reported that comedian Russell Brand could soon be placed in the Wakefield high-security prison.",
+  "reason": "analysis word not used by the source: 'could'"
  },
  {
   "date": "2026-11-13",
   "kind": "merged",
   "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "Putin talks with US envoys",
+  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
+  "text": "Trump says ex Apple CEO Cook is 'a legend', should replace Huang at Nvidia",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Ukraine drone strikes on Russia and energy attacks",
+  "text": "Volgograd and Rostov-on-Don drone attacks",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Washington DC Condo Building Shooting",
+  "text": "Washington DC gym shooting",
   "reason": "duplicate story merged into an existing one"
  },
  {
@@ -598,183 +766,127 @@
   "kind": "merged",
   "group": "mena",
   "story": "Fourteen dead after truck loses control in 23-vehicle crash in UAE",
-  "text": "Fujairah road accident",
+  "text": "Fujairah multi-vehicle crash",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Russia treason sentencing",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Nvidia leadership developments",
+  "text": "Jensen Huang resignation as Nvidia CEO",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Microsoft global service outage",
+  "text": "Microsoft outlook email outage",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Microsoft global service outage",
+  "text": "Microsoft outage explained: what went wrong and is your data at risk?",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Nvidia leadership developments",
+  "text": "Jensen Huang congressional and legal scrutiny",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  },
  {
   "date": "2026-11-13",
   "kind": "merged",
   "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "Zelensky security model statements",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US Mexico tariff threats",
-  "text": "[53] reported that Claudia Sheinbaum stated no migrant caravans have reached the US border since January 2025.",
-  "reason": "names not in cited articles: Claudia"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
-  "group": "asia",
-  "story": "Punjab, Sindh face severe water shortfall",
-  "text": "Pakistan water shortage",
-  "reason": "title replaced by a headline: names not in cited articles: Pakistan"
- },
- {
-  "date": "2026-11-13",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Melania Trump public activity",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Army Officer Accused of Trying to Spy for Russia Is Afghan War Veteran",
-  "text": "US military officer espionage accusation",
-  "reason": "title replaced by a headline: wording not from cited articles: military, espionage, accusation"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Kansas gubernatorial election",
-  "text": "US Aftermath: Trump Concedes Deportation Policy Was Too Tough",
-  "reason": "renamed: the old title no longer fit its recent headlines"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
-  "group": "asia",
-  "story": "Lee's approval rating falls back below 40 pct: poll",
-  "text": "South Korea presidential approval rating",
-  "reason": "title replaced by a headline: wording not from cited articles: south, presidential"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Haiti security operations by Salvadoran troops",
-  "text": "[41] reported that Haitian security forces and Salvadoran troops regained control of Sylvio Cator Stadium after two years under gang control.",
-  "reason": "names not in cited articles: Cator, Sylvio"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Kia investment in India",
-  "text": "[43] reported that South Korean automaker Kia Corp. plans to invest $2 billion in a second manufacturing plant in India.",
-  "reason": "number not in cited articles: 2000000000"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Pakistan Minerals Investment Forum",
-  "text": "[47] reported that Petroleum Minister Ali Pervaiz Malik stated Pakistan will offer clear fiscal terms and enhanced security frameworks for mining investors.",
-  "reason": "names not in cited articles: Ali, Malik, Pervaiz"
- },
- {
-  "date": "2026-11-13",
-  "kind": "merged",
-  "group": "mena",
-  "story": "US-Iran Tensions: Regional Diplomacy and Maritime Incidents",
-  "text": "IRGC radar attack claim in Bahrain",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Nigeria guaranteed minimum pension and retiree healthcare",
-  "text": "[61] reported that Nigeria started paying a guaranteed minimum pension of N52,500 a month to contributory pension scheme retirees, and Tony Elumelu praised the PenCare Retiree Healthcare Initiative.",
-  "reason": "names not in cited articles: Initiative, PenCare, Tony"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "APC campaign council political violence condemnation",
-  "text": "[63] reported that the APC Presidential Campaign Council condemned attacks on political gatherings and called for the arrest of perpetrators.",
-  "reason": "names not in cited articles: Campaign, Presidential"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "China SMIC AI computing crunch and US chip curbs",
-  "text": "[77] reported that China's SMIC bets that a data center buildout will keep artificial intelligence computing demand strong until 2028 amid tighter chip curbs.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
-  "group": "mena",
-  "story": "Gaza Hospital Airstrike and Casualties",
-  "text": "Gaza: Severe Storms and Floods Damage Displaced Persons Tents",
-  "reason": "renamed: the old title no longer fit its recent headlines"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Thugs attack NDC supporters in Lagos",
-  "text": "[51] reported that many were injured as Nigeria Democratic Congress supporters engaged thugs in a free-for-all at a Lagos town hall.",
-  "reason": "names not in cited articles: Congress, Democratic"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "South Africa: ANC Suffers Historic Setback in Municipal Elections",
-  "text": "[1] reported that ActionSA and the Democratic Alliance explored a Gauteng metro coalition deal after a meeting between Mashaba and Hill-Lewis.",
-  "reason": "names not in cited articles: Alliance, Democratic"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Thugs attack NDC supporters in Lagos",
-  "text": "[5] reported that Doherty warned against underestimating Obi's influence following the attack on Nigeria Democratic Congress supporters.",
-  "reason": "names not in cited articles: Congress, Democratic, Nigeria"
- },
- {
-  "date": "2026-11-13",
-  "kind": "title",
-  "group": "asia",
-  "story": "FSB foils terror plot at Stavropol shopping mall",
-  "text": "US Military Aircraft Withdrawn from UK Airbase",
-  "reason": "renamed: the old title no longer fit its recent headlines"
+  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
+  "text": "Nvidia leadership developments",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  },
  {
   "date": "2026-11-13",
   "kind": "merged",
   "group": "namerica",
   "story": "Global Microsoft IT Outage",
-  "text": "Microsoft outage fixes continue",
-  "reason": "duplicate story merged into an existing one"
+  "text": "Microsoft global service outage",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  },
  {
   "date": "2026-11-13",
   "kind": "merged",
   "group": "namerica",
   "story": "Global Microsoft IT Outage",
-  "text": "Microsoft Outlook service disruption",
-  "reason": "duplicate story merged into an existing one"
+  "text": "Microsoft global service outage",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
+  "text": "European markets fall following Nvidia CEO exit",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
+  "text": "US Congressional Scrutiny of Nvidia and Commerce Department",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "correction",
+  "group": "asia",
+  "story": "US Military Aircraft Withdrawn from UK Airbase",
+  "text": "FSB foils terror plot at Stavropol shopping mall",
+  "reason": "manual correction: headline removed (1 article(s), 1 report(s)), title restored"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "correction",
+  "group": "global",
+  "story": "Star Wars Darth Vader Lightsale Auction Record",
+  "text": "",
+  "reason": "manual correction: story hidden"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "correction",
+  "group": "global",
+  "story": "Prostate cancer screening guidelines",
+  "text": "",
+  "reason": "manual correction: story hidden"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "correction",
+  "group": "namerica",
+  "story": "FIFA US judge ruling",
+  "text": "",
+  "reason": "manual correction: story hidden"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "correction",
+  "group": "global",
+  "story": "Anthony Clark death",
+  "text": "",
+  "reason": "manual correction: story hidden"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "correction",
+  "group": "asia",
+  "story": "Eli Lilly weight-loss pill approval in China",
+  "text": "",
+  "reason": "manual correction: story hidden"
  }
 ]

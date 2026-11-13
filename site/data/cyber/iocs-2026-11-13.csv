@@ -1,4 +1,383 @@
 first_seen,source,report_title,report_url,type,value_defanged,malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,217.69.174[.]72:8823,XWorm
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vaqogosa[.]workers[.]dev,php.shin_webshell
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.57.216[.]232:2404,Remcos
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,5.252.165[.]189:7007,XWorm
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.57.216[.]102:2404,Remcos
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7fdb1968e2250e20e0d073d905c7dd52614a9c26924e76d641e4030ed7e57637,ClipBanker
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cl-78-158-11-2[.]fastlink[.]lt,php.shin_webshell
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,wuohzjgoj[.]localto[.]net,Unknown RAT
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,89.163.135[.]20:3837,Unknown RAT
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.77.57[.]236:8080,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,130.94.67[.]43:22,Cobalt Strike
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,w1[.]antres138[.]org,Vidar
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,www[.]social[.]pureweb[.]com[.]ng,StrelaStealer
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,3k1qo64l[.]etext[.]store,ClearFake
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bflgkza0[.]gerve[.]store,ClearFake
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,n5ht1wk6[.]cojo[.]store,ClearFake
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vbnbuildings[.]ro,StrelaStealer
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,147.45.39[.]37:4433,PureRAT
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,154.12.93[.]116:39082,VShell
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,dorelle415[.]workers[.]dev,php.shin_webshell
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,0dccb865fd6ea565761ae3407f7e67dedc44acb59ec2568c1d26e002c8dd1e5c,SolarisLoader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,97c1b2309fb08cb03805404014de498926bdbad6304b13ac226d2defd9321b3e,Agent Tesla
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b85965fd05837835f8f36d825cb07eb4c83a492fbc642d6a28baa006fd100d0b,Agent Tesla
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,41b554713f3a157b45e81d3196fdc766478369481cb243e0960aa228e75900f2,Agent Tesla
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,28f8fdc502d94b3d3aae6b61e14782ae6e94aa655731a40328452b1ccd30dbeb,Agent Tesla
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,allwater365[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,alishaikh[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,aldamanalmalaky[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,albertafingerprints[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,alaminfood[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,airmed[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,airavathatowing[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,agapeinspiration[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,africamediationassociation[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,affohatchadedji[.]tg,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,addisonroofingcontractors[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ad88[.]black,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,achakzaiglobaltradellc[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,789club8[.]app,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,3fingersbd[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,3dsieutoc[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,2dan-agency[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,10kgdc[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,1-s[.]jp[.]net,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bobbyfarrellandsons[.]ie,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,blowouttaper[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,biodent[.]co,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,binsloomservices[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bib-unna[.]de,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,beyourpeak[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,benefits4consumers[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bansalandco[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bangaliconnection[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bandnegocios[.]online,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bandaemerald[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bakesbyleilei[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,baguinski[.]adv[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,azurterrabuild[.]es,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,aymantrading[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,awadhzeera[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,autoharpquarterly[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,authorkennethmagers[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,artindo[.]co[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,arthaweblabs[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,arnss[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,armughalwoods[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,arenasanimaltraining[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,arabhmc[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,aqdiamondsworld[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,anxofedez[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,antirayapkecoatikus[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,anicagikovska[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,analogcreative[.]com[.]au,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,anaheimmailnmore[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,americaneaglepackagingco[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,altube[.]es,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,decaturblaze[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,davidbetka[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,daftarklik188sbo[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cupuladeleads[.]site,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,crosscut-carpentry[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cotizaciones[.]mexluz[.]mx,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,core-nets[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cooperfaber[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,conciliacionlaley[.]pe,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,coflix[.]com[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,codedigital[.]dev,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,coasttocoasttipis[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ckiservicios[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,christianazenner[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,choeursdarthes[.]fr,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cheapmmoshop[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,chains-consultancy[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cerrajeriariveramonterrey[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cdestoryland[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cdeflashcard[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,casinos-luckyvibe[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,caseacq[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,carolinaventurestudio[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,capitalmultiplier[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,canttfooddeals[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,campus2collegeabroad[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cadetsguru[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,buildtogetherproperty[.]mu,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,brookvaletowtruckservice[.]com[.]au,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,brkphotography[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,bodyvoicefocusing[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,g2g1max[.]club,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,futuresongs[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,fruvision[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,frutonegro[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,framecollegeofpharmacy[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,flectik[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,fastattestuae[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,farwamarket[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,farmafappi[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,faredshehab[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,factsandfiguresconsulting[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,epsnetherland[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,enduracoatingsystems[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,elmuntasser[.]ly,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,elevatesolar[.]com[.]au,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,elearninginst[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,elaiacitychurch[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,egreenvn[.]net,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,edboks[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,droneit[.]ng,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,drift-net[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,dpttravels[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,domsil[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,divorceprolaw[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,dimpleaircompressors[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,digitalcg[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,digimehak[.]shop,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,deysessentials[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,developer-rony[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,detakpatrianews[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,dentalwebcontent[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,delife-eg[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,iocuk[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,investmarathi[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,internetinhindi[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,inspirationdb[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,insideborneo[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,inkballoon[.]us,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ilyailyin[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,iiskota[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,iglepidom[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,iepfadvisors[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,idlerengineering[.]com[.]au,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ibseedu[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,houseonflintint[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hoteldelriver[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,horizonborracha[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,homeimprovementaustralia[.]com[.]au,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,holycrosshospitalckm[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hillside-haven[.]fun,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hhcresolutions[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hechvarietystore[.]com[.]ng,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hechosconamor[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,heavyequipmentexport[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hashe[.]studio,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,haderacats[.]org[.]il,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,graydevworks[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,gratefullywell[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,grannydeespierogi[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,goldencaretravel[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,globelinkuae[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,globalunitedpacificlogistics[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,geprevrpps[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,gameneverending[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mayadeep[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,masterofpawpets[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,masesolutions[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,martinschindler[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,marita-helterhoff[.]de,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,maagnyes[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,luminarylearn[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,lucianapio[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,lorcaderm[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,loansconmichelle[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,litenglishers[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,lg-exch[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,lebistrotbucerias[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,latagupta[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,lapradera[.]com[.]py,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,laococoapc[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,landscapingemirates[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,laboonadventure[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kuberfin[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kniengg[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kmitlalumni[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,klpipesurgeon[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,klamptek[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kjtechsolution[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kientrucabad[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,khairkhawarelieffoundation[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,keyviewproperties[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kevinkirby[.]nz,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kalisleepcoach[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,kadapaoficial[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,juraeinmaleins[.]de,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,joelpetre[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,islamicdawahcenter[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,islamiccomplexdfw[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pittnertour[.]cz,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pinnaclebuilderscontractors[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pinewooddxb[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,phongkhamdakhoayduocsaigongocong[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,phishmerchs[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pensepoupe[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,parqnet[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,paralelo23[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pamodea[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ozonmart[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ontymdelivery[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,onliest[.]co,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,onebet1[.]vip,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,offspringmaternity[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,offigrand[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,oakschans[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nurimportbd[.]xyz,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nuevayexim[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nocatlanticpartners[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nkplacement[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nhabinhchanhgiare[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ngesoengineeringltd[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,naxoraglobal[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,narcissus-gulf[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mxdevents[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mumbaihotelsescort[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mughilansdentalclinic[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,metalurgicasantacruz[.]com[.]ar,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,metaltechegypt[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mendry[.]blog,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,memariassociates[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mayportoilandgas[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mayaindiangrill[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,royal300[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rotomoldeomx[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,roto-powder[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rompikkn[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rodwarnerbooks[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rodolyubie[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,roamiestravelclub[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rideemotos[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ricarstatus[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rfkicks[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rezidencekukliny[.]cz,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,retroboxhub[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,renascentventures[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,reelskin[.]co[.]uk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,reddrogon[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,redcapalf[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,recursosimpulsa[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,razzledazzleevents[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,raseguranca[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rajlubricants[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rageagainstthemachinemerchs[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,radencichsalmonflies[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,radarsumateranews[.]my[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,queennadiatv[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,prorefrige[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,prolificcrafters[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,profjsbrarinstitute[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pre-rollmachine[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,prasunj[.]com[.]np,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ppwatchsale[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,powertripmerchs[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,positivehopes[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pointblue[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pixelationdigitalmedia[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,taybadates[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,swayamexim[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,studioaa[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,story-tv[.]co[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,steelcraftdoors[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,stairwayhk[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,stabilimentoportofino[.]it,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,sscsrebrenica[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,southindiaagencies[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,soulstice[.]eu,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,soloinfo[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,smkn1-tapiannauli[.]sch[.]id,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,smartgoal[.]us,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,skfsteel[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,simvah[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,simtedu[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,simplychiki[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,silvernestmumbai[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,sikhrishte[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,shininbali[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,shetkarifarmhouse[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,servidofer[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,seahandco[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,scholarplanningusa[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,scenerydecor[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,sarconejewelry[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,sanjefer[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,sandhillsports[.]co,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,sancod[.]co[.]il,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,samsfitnessstudio[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rwabts[.]net,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,royerbrothers[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,royalxcasinoapk[.]io,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vyentra[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vrmrevestimentos[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,visionactivated[.]co[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vintagemalecelebs[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vincentburnsplastering[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,villageofviscount[.]ca,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,victorfloors[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,veni-etinam[.]nl,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vegandishe[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,uptownmarketingllc[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,upsbatteriespr[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,uplifting[.]se,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,tylerperrymerch[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,trinityoaks[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,trendtapmedia[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,trakcingdomain[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,tntparana[.]com[.]br,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,thestewardship[.]com[.]ng,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,theremedy[.]world,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,thelanguageduo[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,thejoyspots[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,thegrowthmonks[.]in,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,theforge-wiki[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,theexpensivebusiness[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,tentedelarencontre[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,teeshirtate[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,zriyasolutions[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,yogavibeco[.]space,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,xingmatai[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,womenarisingfordestiny[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,widehomeservices[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wellnessdx[.]org,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,web-portal[.]com[.]pk,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wcltransportation[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wanderingnewlands[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wallspostmedia[.]com,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,209.151.108[.]73:8808,AsyncRAT
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,uqm[.]antres138[.]org,Vidar
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://ssh-node[.]hrtb[.]wreath[.]website:8070/binarys/$U,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,queue[.]prooutlet58[.]website,RevStealer
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,prooutlet58[.]website,RevStealer
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,toolset17[.]tools,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cujokica[.]workers[.]dev,php.shin_webshell
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,85759826f998c687135fc8b6e728b2828d54df0d249fd994d54838394c0ba1a1,Unknown Loader
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://locationdevoitureessaouira[.]com/,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://corporate-housing[.]ch/,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://st[.]fsyehm[.]top/,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://myinternetdirect[.]com/,Unknown malware
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://gypsumkasbah[.]info/identity/reset-layout[.]js,SmartApeSG
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,gypsumkasbah[.]info,SmartApeSG
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,bk[.]antres138[.]org,Vidar
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,anka69[.]org,Vidar
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,e[.]anka69[.]org,Vidar
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://cacaoalcazar[.]org/router/acl-client[.]js,SmartApeSG
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cacaoalcazar[.]org,SmartApeSG
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://cacaoalcazar[.]org/router/endpoint-core,SmartApeSG
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://api[.]globalgamingplatform[.]com/install_stat[.]php,Unknown RAT
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,5bc0839e87e68f192f90c6f2923bea7f739690a412b4b054118107c331119581,vo1d
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,cihqobpe[.]receivewelfarebenefits[.]com,Unknown RAT
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,04e6f503542e4bcf0e8dc51bc97c9698f2c212c664549ebed225ca92e497dc1a,vo1d
+2026-11-13T11:35:21+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://w1[.]antres138[.]org/c3/gate,Vidar
+2026-11-13T11:35:21+00:00,OpenSourceMalware,Online Casino Serves Malicious Python SDK,https://opensourcemalware.com/blog/online-casino-serves-malware,domain,aurum-casino[.]com,
+2026-11-13T11:35:21+00:00,OpenSourceMalware,Online Casino Serves Malicious Python SDK,https://opensourcemalware.com/blog/online-casino-serves-malware,sha1,f0a4a1638252f6957597efb8b9ac7c0623231535,
+2026-11-13T11:35:21+00:00,OpenSourceMalware,Online Casino Serves Malicious Python SDK,https://opensourcemalware.com/blog/online-casino-serves-malware,sha256,d6e250af80317e26d850f41d5c15e61fad4f678074a4f70695069fb6f7cab206,
+2026-11-13T11:35:21+00:00,OpenSourceMalware,Online Casino Serves Malicious Python SDK,https://opensourcemalware.com/blog/online-casino-serves-malware,sha256,c119af2c72f0e68556fc0c7ca0c858845a04b5f46ebb31b614414a5bf470e414,
+2026-11-13T11:35:21+00:00,OpenSourceMalware,Online Casino Serves Malicious Python SDK,https://opensourcemalware.com/blog/online-casino-serves-malware,sha256,36df147e96e7a4de151feaa2259a4e31ce0bd91b83b418c02f41735948bf5b64,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,domain,api[.]cloudvflare[.]com,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,ip,91.92.242[.]121,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,ip,45.149.154[.]135,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,ip,31.41.33[.]212,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,ip,188.240.57[.]94,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,sha1,28f8da19ddcdf26e426875c7a834b34a79bc1c33,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,sha256,5a9b7a0d3f25757aea957713d7e84cabec87597b3474368328a8fd5ed7a12f78,
+2026-11-13T11:35:21+00:00,Kaspersky Securelist,Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes,https://securelist.com/esxi-ransomware/121959/,sha256,15dc419b7fbeb50c50820a7cd27997541deafa4fa710f074bb657f0149574baf,
 2026-11-13T08:36:17+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://45[.]148[.]10[.]183/glm/cryptohunt[.]sh,Unknown malware
 2026-11-13T08:36:17+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,8.163.98[.]217:8090,Cobalt Strike
 2026-11-13T08:36:17+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,laqiceja[.]workers[.]dev,php.shin_webshell
