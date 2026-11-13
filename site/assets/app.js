@@ -284,7 +284,8 @@ function card(s, day, showGroup) {
   const extra = s.reports.length - shown;
   const toggle = `${extra > 0 ? `${plural(extra, "more report")} · ` : ""}${plural(s.articles.length, "source")}`;
   const when = !active ? `last reported ${esc(fmtDayShort(s.last_updated))}` : s.first_seen < P.start ? `since ${esc(fmtDayShort(s.first_seen))}` : "";
-  const place = showGroup ? esc(groupName(day, where(s))) : "";
+  const g = showGroup ? day.groups.find((x) => x.id === where(s)) : null;      // EU, NA, APAC... (site.yaml "short")
+  const place = g ? `<span class="region" title="${esc(g.name)}">${esc(g.short || g.name)}</span>` : "";
   const n = (S.moreSeq = (S.moreSeq || 0) + 1);
 
   return `<article class="card ${esc(s.status)}${S.compact ? " compact" : ""}" data-story="${esc(s.id)}">
@@ -293,9 +294,8 @@ function card(s, day, showGroup) {
     <div class="card-rule" aria-hidden="true"></div>
     ${lead}
     <div class="card-foot">
-      <button type="button" class="more-toggle" aria-expanded="false" aria-controls="more-${n}">${toggle}</button>
-      ${place || when ? `<span class="since">${[place, when].filter(Boolean).join(" · ")}</span>` : ""}${flags}
-      <span class="spacer"></span>
+      <div class="foot-text"><button type="button" class="more-toggle" aria-expanded="false" aria-controls="more-${n}">${toggle}</button>
+        ${place || when ? `<span class="since">${[place, when.replace(/ /g, "\u00a0")].filter(Boolean).join("\u00a0·\u00a0")}</span>` : ""}${flags}</div>
       <button type="button" class="copy" data-copy="${esc(s.id)}" aria-label="Copy with sources" title="Copy the reports with their sources, as plain text">${icon("copy", "ic-s")}</button>
     </div>
     <div class="more" id="more-${n}" hidden>${more}</div>

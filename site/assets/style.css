@@ -145,7 +145,6 @@ h2 .count { font: 500 12.5px var(--label); color: var(--muted); }
 .flag.state { color: var(--state); background: var(--state-soft); }
 .reports { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
 .reports li { font-size: 14px; padding-left: 12px; border-left: 2px solid var(--quote); }
-.card-foot { font-size: 12px; color: var(--muted); margin-top: auto; }
 details > summary { cursor: pointer; color: var(--link); font-size: 13px; list-style: none; }
 details > summary::-webkit-details-marker { display: none; }
 details > summary::before { content: "▸ "; }
@@ -333,8 +332,6 @@ button.wider-link:hover { color: var(--link); text-decoration: underline; }
 button.wider-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
 .small { font-size: 12.5px; }
 .ic-s { width: 14px; height: 14px; vertical-align: -2px; margin-right: 3px; flex: none; }
-.card-foot { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
-.card-foot > span { flex: 1; min-width: 0; }
 button.copy { height: 26px; font-size: 12px; padding: 0 8px; color: var(--muted); display: inline-flex; align-items: center; }
 button.copy:hover { color: var(--text); }
 
@@ -368,8 +365,6 @@ button.copy:hover { color: var(--text); }
 .watchform input[type="search"] { width: 320px; }
 .chip .x { height: 20px; width: 20px; padding: 0; border: 0; background: transparent; color: var(--muted); line-height: 1; }
 .chip .x:hover { color: var(--state); }
-.card.compact { position: relative; }
-.card.compact .card-foot { position: absolute; right: 14px; bottom: 6px; }
 .card.compact button.copy { height: 22px; }
 
 /* Small spacing helpers. The page's security policy forbids inline style="..." attributes, so
@@ -407,8 +402,11 @@ table.rates td a, .list .row .muted a, .page-meta a { text-decoration: underline
 .status.new { color: var(--status-new); }
 .status.covered { color: var(--link); }
 .card-rule { height: 2px; background: var(--accent); margin: 1px 0; }
-.card-foot { display: flex; align-items: center; gap: 4px 10px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin-top: auto; }
-.card-foot .spacer { flex: 1; }
+.card-foot { display: flex; align-items: flex-start; gap: 10px; font-size: 12.5px; color: var(--muted); margin-top: auto; }
+.card-foot .foot-text { flex: 1; min-width: 0; line-height: 1.7; }    /* wraps like a sentence; the copy button stays right */
+.card-foot .foot-text > * { margin-right: 8px; }
+.card-foot .flag { white-space: nowrap; }
+.card-foot .region { font: 500 11.5px var(--label); letter-spacing: .03em; }
 button.more-toggle { all: unset; cursor: pointer; color: var(--link); font-size: 12.5px; }
 button.more-toggle::before { content: "▸ "; }
 button.more-toggle[aria-expanded="true"]::before { content: "▾ "; }

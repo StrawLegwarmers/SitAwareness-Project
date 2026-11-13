@@ -29,3 +29,14 @@ def test_the_story_card_keeps_only_what_was_agreed():
         assert part in card, part
     assert "countryLine(" not in card and "regions</span>" not in card and "<details" not in card
     assert "--status-updated: #1F6FB2" in CSS and "--status-updated: #6CB4EE" in CSS      # Updated in sky blue
+
+
+def test_the_card_footer_stays_on_one_line_and_uses_region_codes():
+    assert ".card-foot > span { flex: 1" not in CSS                      # squeezed "Middle / East &..." into a column
+    assert ".card-foot .foot-text { flex: 1; min-width: 0;" in CSS          # the text wraps as one block, copy stays right
+    assert ".card.compact .card-foot { position: absolute" not in CSS
+    import yaml
+    groups = yaml.safe_load((ROOT / "config" / "geo" / "site.yaml").read_text())["groups"]
+    assert {g["id"]: g["short"] for g in groups} == {"namerica": "NA", "latam": "LATAM", "europe": "EU", "mena": "MENA",
+                                                     "africa": "AFR", "asia": "APAC", "global": "GLOBAL"}
+    assert "g.short || g.name" in JS

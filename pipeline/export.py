@@ -250,7 +250,7 @@ def export_site(site: str, conn, date: str) -> str:
         "date": date,
         "window": {"days": days, "start": start},
         "generated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-        "groups": [{"id": g["id"], "name": g["name"]} for g in cfg["groups"]],
+        "groups": [{"id": g["id"], "name": g["name"]} | ({"short": g["short"]} if g.get("short") else {}) for g in cfg["groups"]],
         "pages": pages_for(cfg),
         "bluf": bluf(active, start),
         "top": [s["id"] for s in active[:TOP_N]],

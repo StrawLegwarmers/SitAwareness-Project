@@ -25,14 +25,15 @@ topics: [conflict, security, diplomacy, politics, elections, justice, economy, e
 # (sources.yaml). Add a region to sources.yaml and a line here, and the site gets a new section.
 # All groups are collected together: code groups the day's headlines (pipeline/cluster.py), the
 # AI checks the groups, and a new story is filed under the region it is ABOUT (countries.py).
+# "short" is the code a card shows on pages that mix regions (Overview, Global).
 groups:
-  - {id: namerica, name: North America}
-  - {id: latam,    name: Latin America & Caribbean}
-  - {id: europe,   name: Europe}
-  - {id: mena,     name: Middle East & North Africa}
-  - {id: africa,   name: Africa}
-  - {id: asia,     name: Asia & Pacific}
-  - {id: global,   name: Global}
+  - {id: namerica, name: North America,              short: NA}
+  - {id: latam,    name: Latin America & Caribbean,  short: LATAM}
+  - {id: europe,   name: Europe,                     short: EU}
+  - {id: mena,     name: Middle East & North Africa, short: MENA}
+  - {id: africa,   name: Africa,                     short: AFR}
+  - {id: asia,     name: Asia & Pacific,             short: APAC}
+  - {id: global,   name: Global,                     short: GLOBAL}
 
 # The sidebar. Pages are shown in THIS order. "show" lists what each page contains, top to bottom:
 #   bluf      Bottom line up front           top         Most reported (cards)
