@@ -1,27 +1,26 @@
 # ─────────────────────────────────────────────────────────────────────────────
-# The daily robot.
+# The brief robot. Runs every 3 hours.
 #
-# Every morning GitHub starts a fresh Linux machine, and this file tells it what to do:
+# Each time GitHub starts a fresh Linux machine, and this file tells it what to do:
 #   1. get the repo                      5. write the website's JSON (export)
-#   2. install Python + libraries         6. save the database for tomorrow
-#   3. bring back yesterday's database    7. commit the day's memory and brief to the repo
+#   2. install Python + libraries         6. save the database and website data for the next run
+#   3. bring back the last run's          7. commit the stories' memory (state/), and each finished
+#      database and website data              day of website data (site/data/) once
 #   4. fetch feeds, run the AI            8. publish site/ to GitHub Pages
 #
-# Run it by hand any time: Actions tab -> "Daily brief" -> "Run workflow".
+# Each run groups the last 24 hours of headlines; the AI only sees what is new since it last
+# looked (docs/operations.md, "Several runs a day"). Run it by hand any time: Actions tab ->
+# "Daily brief" -> "Run workflow".
 # ─────────────────────────────────────────────────────────────────────────────
 name: Daily brief
 
 on:
   schedule:
-    # Main run. Off the hour on purpose: GitHub delays (or even drops) scheduled runs at the
-    # start of each hour when it's busy, so 07:37 is more reliable than 08:00.
-    - cron: "37 7 * * *"
-      timezone: "Europe/London"   # UK time: GMT in winter, BST in summer, switches by itself
-    # Backup run. If the main run was delayed or dropped, this one builds the brief.
-    # If today's brief already exists, it stops after a few seconds (see the "check" job).
-    - cron: "23 9 * * *"
-      timezone: "Europe/London"
-  workflow_dispatch: {}           # the "Run workflow" button (always builds)
+    # Every 3 hours, at 00:37, 03:37 ... 21:37 UTC. Off the hour on purpose: GitHub delays (or even
+    # drops) scheduled runs at the start of each hour when it's busy. A dropped run is caught up by
+    # the next one, since each run looks at the last 24 hours.
+    - cron: "37 */3 * * *"
+  workflow_dispatch: {}           # the "Run workflow" button
 
 permissions: {}
 
@@ -30,32 +29,7 @@ concurrency:                    # never run two briefs at the same time
   cancel-in-progress: false
 
 jobs:
-  # A tiny first job: has today's brief already been built? Only scheduled runs can be skipped.
-  check:
-    runs-on: ubuntu-latest
-    permissions:
-        contents: read
-    outputs:
-      skip: ${{ steps.today.outputs.skip }}
-    steps:
-      - name: Get the repo
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
-
-      - name: Has today's brief already been built?
-        id: today
-        env:
-          EVENT: ${{ github.event_name }}
-        run: |
-          if [ "$EVENT" = "schedule" ] && [ -f "site/data/geo/$(date -u +%F).json" ]; then
-            echo "Today's brief already exists, so this backup run has nothing to do."
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Building today's brief."
-          fi
-
   build:
-    needs: check
-    if: needs.check.outputs.skip != 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     permissions:
@@ -74,15 +48,23 @@ jobs:
       - name: Install libraries
         run: pip install -r requirements.txt
 
-      # The database (data/sitaware.db) is working memory, not committed to Git.
-      # GitHub's cache keeps it between runs. If it's ever lost, the pipeline just rebuilds
-      # it from the feeds; the important memory (state/) is in Git.
-      - name: Bring back yesterday's database
+      # The database (data/sitaware.db) is working memory, not committed to Git; so is today's
+      # website data until the day is over. GitHub's cache keeps both between runs. If the cache is
+      # ever lost, the pipeline rebuilds the database from the feeds; the stories' memory (state/)
+      # and every finished day of website data are in Git.
+      - name: Bring back the last run's database
         uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
         with:
           path: data/sitaware.db
           key: db-${{ github.run_id }}
           restore-keys: db-
+
+      - name: Bring back the last run's website data
+        uses: actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
+        with:
+          path: site/data
+          key: site-${{ github.run_id }}
+          restore-keys: site-
 
       - name: Fetch feeds
         run: python pipeline/fetch.py
@@ -117,21 +99,36 @@ jobs:
       - name: Write the website's data
         run: python pipeline/export.py
 
-      - name: Save the database for tomorrow
+      - name: Save the database for the next run
         if: always()
         uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
         with:
           path: data/sitaware.db
           key: db-${{ github.run_id }}
 
+      - name: Save the website data for the next run
+        if: always()
+        uses: actions/cache/save@55cc8345863c7cc4c66a329aec7e433d2d1c52a9  # v6.1.0
+        with:
+          path: site/data
+          key: site-${{ github.run_id }}
+
       # Commits are made by GitHub's own bot account, so they don't carry your name or email.
-      - name: Commit the day's memory and brief
+      # state/ is committed every run (small). Website data is committed once a day: a finished
+      # day's files at the next day's first run, and today's at the evening run as a safety copy.
+      # Committing it 8 times a day would grow the repository by about 1 GB a year.
+      - name: Commit the stories' memory (and finished days of website data)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state site/data config/geo/sources.yaml config/cyber/sources.yaml
+          git add -A state site/data config/*/sources.yaml
+          TODAY=$(date -u +%F)
+          FINISHED=$(git diff --cached --name-only -- site/data | grep -E '[0-9]{4}-[0-9]{2}-[0-9]{2}' | grep -v "$TODAY" || true)
+          if [ -z "$FINISHED" ] && [ "$(date -u +%H)" -lt 21 ]; then
+            git reset -q -- site/data      # nothing finished yet: today's files are published, not committed
+          fi
           if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
-          git commit -m "Daily brief $(date -u +%F)"
+          git commit -m "Brief $(date -u '+%F %H:%M') UTC"
           git pull --rebase --autostash
           git push
 
