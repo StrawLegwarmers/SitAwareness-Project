@@ -22,9 +22,9 @@ Each card shows:
 - its **title**: the day's lead headline (hover to see whose), and, for a story running since before
   the period, its **wider story** in a small box above it; clicking that opens the earlier reporting
   (see [stories](stories.md#titles-the-latest-headline-under-its-wider-story));
-- **flags**: *new for you* (changed since your last visit), *single source*, *state media only*, and
-  any watchlist words it mentions;
-- **reach** ("6 regions": how many regions' outlets reported it) and the number of outlets in the period;
+- **flags**: *single source*, *state media only*, and any watchlist words it mentions;
+- **reach** ("6 regions": how many regions' outlets reported it); a story with nothing new in the
+  period says when it was last reported;
 - its countries, domestic or international;
 - the newest checked **reports**, each starting with the date its source published it
   ("On 12 Nov 2026, Reuters reported…"), with links, and the outlets that **also reported** the same
@@ -44,13 +44,11 @@ demand). The choice is remembered.
 reported by two or more outlets, groups checked by the AI, stories with new reports, reports kept and
 removed, corroborations, and groups waiting for the next run.
 
-## Yours: new since your last visit, and the watchlist
+## Yours: the watchlist
 
-Both live in your browser only (local storage): nothing is sent anywhere, and another browser or
+It lives in your browser only (local storage): nothing is sent anywhere, and another browser or
 device starts empty.
 
-- **New since your last visit**: opening the latest brief remembers which stories you've seen. Next
-  time, stories with a new report are marked *new for you*, and the page says how many.
 - **Watchlist** (sidebar, Yours): add words you follow, such as a country, a person, a company or a
   place. The page collects every story and headline that mentions them, on both sites, and cards
   everywhere carry a marker. A word matches at the start of a word: "Iran" finds "Iranian" but not

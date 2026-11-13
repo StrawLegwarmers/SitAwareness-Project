@@ -306,7 +306,6 @@ button.linklike:hover { background: none; color: var(--link); }
 .badge.covered { background: var(--surface-2); color: var(--link); }
 .card.covered { opacity: .95; }
 .reach { font: 600 11px var(--mono); color: var(--updated-text); background: var(--updated-soft); padding: 1px 7px; border-radius: 99px; }
-.flag.fresh { color: var(--accent-text); background: var(--accent-soft); border-color: transparent; font-weight: 600; }
 .flag.watch { color: var(--link); background: var(--surface-2); border-color: transparent; display: inline-flex; align-items: center; gap: 3px; }
 .also { display: block; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
 .dates { font-size: 12.5px; color: var(--muted); margin: 0; }
@@ -326,7 +325,6 @@ button.copy:hover { color: var(--text); }
 
 /* Page bar: counts on the left, cards/list switch on the right */
 .pagebar { display: flex; align-items: center; justify-content: space-between; gap: 8px 16px; flex-wrap: wrap; }
-.fresh-n { color: var(--accent-text); font-weight: 600; }
 .viewswitch { display: inline-flex; gap: 0; }
 .viewswitch button { height: 30px; font-size: 12.5px; display: inline-flex; align-items: center; border-radius: 0; }
 .viewswitch button:first-child { border-radius: 8px 0 0 8px; }

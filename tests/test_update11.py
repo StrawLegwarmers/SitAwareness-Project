@@ -193,3 +193,5 @@ def test_a_new_wider_story_name_must_fit_the_story(art, monkeypatch):
 def test_story_cards_show_the_wider_story_and_no_totals():
     js = (ROOT / "site" / "assets" / "app.js").read_text(encoding="utf-8")
     assert "in total" not in js and "data-wider" in js and "Wider story" in js
+    assert "new for you" not in js and "since your last visit</span>" not in js     # removed: less clutter
+    assert '${plural(outlets, "outlet")} ${P.since}' not in js                      # no "N outlets today" on cards

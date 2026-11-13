@@ -28,8 +28,8 @@ belongs to.
 - **Reference**: an OSINT toolkit, the health of every source (with add and change requests from the
   browser), and instructions for connecting OpenCTI.
 - **Any period**: pick one day, or combine up to 14 days into a single view; search the last 30 days.
-- **Yours**: a watchlist of words you follow and "new since your last visit" markers, kept in your
-  browser only; a compact list view; copy any story with its sources.
+- **Yours**: a watchlist of words you follow, kept in your browser only; a compact list view; copy
+  any story with its sources.
 - **Machine feeds**: RSS of stories, CSV of indicators and vulnerabilities, and a STIX 2.1 bundle.
 
 ## How it works

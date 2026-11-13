@@ -189,21 +189,8 @@ const mem = {
   get(k, d) { try { const v = JSON.parse(localStorage.getItem(k)); return v ?? d; } catch (e) { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} },
 };
-// "New since your last visit": what you had seen before this visit, loaded once when the site opens.
-const SEEN_KEY = "sap-seen";
-S.seenBefore = new Set(mem.get(SEEN_KEY, []));
-const sig = (s) => `${s.id}|${(s.reports[0] || {}).published || (s.reports[0] || {}).date || s.first_seen}`;
-// Only on the latest brief: an older day or a range would flag stories that were simply not on today's.
-const latestView = () => !S.range && SITES.some((k) => S.index.sites[k] && S.date === S.index.sites[k].dates[0]);
-const isNewForYou = (s) => S.seenBefore.size > 0 && live(s) && latestView() && !S.seenBefore.has(sig(s));
-// Opening the latest brief counts as having seen it (both sites); the badges stay until you come back.
-function markSeen(day) {
-  const info = day && S.index.sites[day.site];
-  if (!info || day.range || day.date !== info.dates[0]) return;
-  const all = mem.get(SEEN_KEY, []), have = new Set(all);
-  for (const s of day.stories) if (live(s) && !have.has(sig(s))) { all.push(sig(s)); have.add(sig(s)); }
-  mem.set(SEEN_KEY, all.slice(-4000));
-}
+// "New since your last visit" was removed (less clutter): forget what it stored in this browser.
+try { localStorage.removeItem("sap-seen"); } catch (e) {}
 // Watchlist: words you follow (a country, a person, a company). Matching ignores case.
 // A word matches at the start of a word: "Iran" finds "Iranian" but not "Tirana".
 S.watch = mem.get("sap-watch", []);
@@ -255,17 +242,15 @@ function card(s, day, showGroup) {
   const today = s.reports.filter((r) => r.date >= P.start);
   const earlier = s.reports.filter((r) => r.date < P.start);
   const active = live(s);
-  const outlets = s.outlets_period ?? s.outlets_today;          // ?? = older files use the old name
   const single = s.single_source ?? s.single_source_today;
   const stateOnly = s.state_media_only ?? s.state_media_only_today;
   const watched = watchHits(s);
   const flags = [
-    isNewForYou(s) ? `<span class="flag fresh" title="Changed since your last visit (remembered in this browser only)">new for you</span>` : "",
     active && single ? `<span class="flag single" title="Only one outlet reported this ${P.label}">single source</span>` : "",
     active && stateOnly ? `<span class="flag state" title="Every source ${P.label} is government-controlled">state media only</span>` : "",
     ...watched.map((w) => `<span class="flag watch" title="On your watchlist">${icon("eye", "ic-s")}${esc(w)}</span>`),
   ].join("");
-  const count = active && outlets ? `${plural(outlets, "outlet")} ${P.since}` : `last reported ${esc(s.last_updated)}`;
+  const count = active ? "" : `last reported ${esc(s.last_updated)}`;     // no outlet count: less clutter
   const reach = s.reach > 1 ? `<span class="reach" title="Reported by outlets from: ${esc((s.regions || []).map((r) => regionLabel(day, r)).join(", "))}">${esc(s.reach)} regions</span>` : "";
 
   let lead;
@@ -295,7 +280,7 @@ function card(s, day, showGroup) {
 
   return `<article class="card ${esc(s.status)}${S.compact ? " compact" : ""}" data-story="${esc(s.id)}">
     <div class="card-top"><span class="badge ${esc(s.status)}">${STATUS[s.status] || esc(s.status)}</span>${flags}
-      ${showGroup ? `<span>${esc(groupName(day, where(s)))}</span>` : ""}<span class="spacer"></span>${reach}<span>${count}</span></div>
+      ${showGroup ? `<span>${esc(groupName(day, where(s)))}</span>` : ""}<span class="spacer"></span>${reach}${count ? `<span>${count}</span>` : ""}</div>
     ${wider}
     <h3${from}>${esc(s.title)}</h3>
     ${countryLine(s, day)}
@@ -780,10 +765,9 @@ function renderPage(day, page) {
     <h1>${first ? `${esc(label)} ${P.isRange ? `· ${plural(P.days, "day")}` : P.multi ? "catch-up" : "brief"}` : esc(page.name)}</h1>
     ${P.isRange ? `<p class="catchup">This view combines <strong>${plural(day.range.files, "daily brief")}</strong> from ${esc(P.range)}. Counts and reports cover the whole period.</p>`
       : P.multi ? `<p class="catchup">Catch-up: this brief covers <strong>${esc(P.range)}</strong>, so nothing reported in between is missed.</p>` : ""}`;
-  const newForYou = day.stories.filter(isNewForYou).length;
   const meta = first ? `${plural(day.stories.filter(fresh).length, "story")} with new reporting ${P.since} · ${plural(day.stats.reports ?? day.stats.reports_today, "attributed report")}
       · ${plural(day.stats.sources, "source")} · updated ${fmtTime(day.generated)}` : `Updated ${fmtTime(day.generated)}`;
-  h += `<div class="pagebar"><p class="page-meta">${meta}${newForYou ? ` · <span class="fresh-n">${plural(newForYou, "story")} new since your last visit</span>` : ""}</p>
+  h += `<div class="pagebar"><p class="page-meta">${meta}</p>
     <div class="viewswitch" role="group" aria-label="Show stories as">
       <button type="button" data-view="cards" aria-pressed="${!S.compact}" title="Cards">${icon("cards", "ic-s")}Cards</button>
       <button type="button" data-view="list" aria-pressed="${S.compact}" title="Compact list">${icon("list", "ic-s")}List</button></div></div>`;
@@ -1417,8 +1401,6 @@ async function route() {
   } finally {
     loading(false);
   }
-  markSeen(S.days.geo);
-  markSeen(S.days.cyber);
 
   if (ref) {
     $("datenav").hidden = true;
