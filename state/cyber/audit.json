@@ -8,10 +8,18 @@
  },
  {
   "date": "2026-11-13",
+  "kind": "title",
+  "group": "all",
+  "story": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+  "text": "Trezor hardware wallet supply chain compromise",
+  "reason": "title replaced by a headline: wording not from cited articles: supply, chain, compromise"
+ },
+ {
+  "date": "2026-11-13",
   "kind": "merged",
   "group": "all",
-  "story": "N-able N-central zero-day vulnerabilities",
-  "text": "N-able N-central zero-day exploitation",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "story": "AntiFox AI penetration testing platform attacks",
+  "text": "ARTEX and AI-enabled penetration testing platforms",
+  "reason": "duplicate story merged into an existing one"
  }
 ]

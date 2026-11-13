@@ -1,18 +1,34 @@
 [
  {
   "date": "2026-11-13",
-  "kind": "merged",
+  "kind": "rejected",
   "group": "all",
-  "story": "Federal Reserve interest rates",
-  "text": "Federal Reserve interest rates",
-  "reason": "duplicate story merged into an existing one"
+  "story": "US dollar and gold markets",
+  "text": "[8] reported that gold fell about 3% amid an extended rise in the dollar on surging Federal Reserve rate hike bets.",
+  "reason": "names not in cited articles: Reserve"
  },
  {
   "date": "2026-11-13",
-  "kind": "skipped",
+  "kind": "rejected",
   "group": "all",
-  "story": "Ukraine strikes on Russian oil refineries",
-  "text": "",
-  "reason": "off-topic for this site (topic: conflict): not created"
+  "story": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says",
+  "text": "[9][10] reported that the International Energy Agency said global oil supply returned to surplus for the first time since the start of the Iran war, with supplies outstripped by demand by almost 2 million barrels a day in October.",
+  "reason": "number not in cited articles: 2000000"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "all",
+  "story": "Microsoft service outage",
+  "text": "Microsoft global outage",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 252,
+   "articles": 275,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 32,
-   "continuing": 7,
+   "calls": 7,
+   "candidates": 39,
+   "continuing": 10,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 211,
-   "in_stories": 39,
-   "kept": 37,
-   "merged": 3,
-   "new": 15,
+   "groups": 228,
+   "in_stories": 48,
+   "kept": 46,
+   "merged": 4,
+   "new": 18,
    "rejected": 0,
    "reported_by_2": 6,
-   "runs": 8,
-   "sent": 32,
+   "runs": 9,
+   "sent": 39,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -50,7 +50,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T19:35:10+00:00"
+  "all": "2026-11-13T22:24:38+00:00"
  },
  "narratives": [
   {
@@ -107,8 +107,21 @@
    "title": "Global Cyberattacks Target Industrial Refrigeration Systems"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f73ab41f497a8f68",
+     "lang": "en",
+     "outlet": "CISA Alerts",
+     "published": "2026-11-13T12:00:00+00:00",
+     "publisher": "CISA",
+     "region": null,
+     "section": "intel",
+     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+     "type": null,
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
     {
      "id": "76582942e89c3cc8",
      "lang": "en",
@@ -146,14 +159,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
-   "last_updated": "2026-11-10",
-   "outlets_today": 0,
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "f73ab41f497a8f68"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CISA"
+     ],
+     "published": "2026-11-13T12:00:00+00:00",
+     "text": "[CISA](https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog) reported that CISA added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog based on evidence of active exploitation, including CVE-2026-114713."
+    },
     {
      "articles": [
       "76582942e89c3cc8"
@@ -166,9 +192,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -2155,8 +2181,21 @@
    "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "149de458d42dc554",
+     "lang": "en",
+     "outlet": "Cisco Talos",
+     "published": "2026-11-13T20:57:13+00:00",
+     "publisher": "Cisco",
+     "region": null,
+     "section": "intel",
+     "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+     "type": null,
+     "url": "https://blog.talosintelligence.com/artex-and-beyond/"
+    },
     {
      "added": "2026-11-12",
      "id": "4d4aa4e776efc62b",
@@ -2194,14 +2233,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "antifox-ai-penetration-testing-platform-attacks",
    "label": "AntiFox AI penetration testing platform attacks",
-   "last_updated": "2026-11-12",
-   "outlets_today": 0,
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "149de458d42dc554"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cisco"
+     ],
+     "published": "2026-11-13T20:57:13+00:00",
+     "text": "[Cisco](https://blog.talosintelligence.com/artex-and-beyond/) reported that AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions."
+    },
     {
      "articles": [
       "4d4aa4e776efc62b"
@@ -2236,9 +2288,9 @@
      "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/) reported that attackers are using Alibaba Cloud to host self-managed instances of AntiFox to target web services and AWS."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "AntiFox AI penetration testing platform attacks"
   },
   {
@@ -2910,7 +2962,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-13",
@@ -2944,6 +2996,22 @@
     },
     {
      "added": "2026-11-13",
+     "dates": [
+      "2026-11-12"
+     ],
+     "id": "b56941a6bc981265",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-12T20:41:47+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft Cloud Outage Hits Outlook, Teams, Copilot and AI Services",
+     "type": null,
+     "url": "https://securityaffairs.com/202932/security/microsoft-cloud-outage-hits-outlook-teams-copilot-and-ai-services.html"
+    },
+    {
+     "added": "2026-11-13",
      "id": "594efea33c81c3c1",
      "lang": "en",
      "outlet": "BleepingComputer",
@@ -2956,15 +3024,27 @@
      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-365-cloud-service-outage",
    "label": "Microsoft 365 cloud service outage",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "b56941a6bc981265"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-12T20:41:47+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/202932/security/microsoft-cloud-outage-hits-outlook-teams-copilot-and-ai-services.html) reported that a Microsoft outage disrupted Outlook, Teams, and Copilot while also breaking OpenAI and Anthropic connectors to Microsoft 365 accounts."
+    },
     {
      "articles": [
       "594efea33c81c3c1"
@@ -3512,7 +3592,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-13",
@@ -3532,6 +3612,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "ece6a155340ab2dc",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T09:36:56+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
+     "type": null,
+     "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "fa6bb5218f5dbd79",
      "lang": "en",
      "outlet": "The Hacker News",
@@ -3544,15 +3637,27 @@
      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "citrix-netscaler-security-vulnerabilities-and-patc",
    "label": "Citrix NetScaler security vulnerabilities and patches",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "ece6a155340ab2dc"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-13T09:36:56+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/) reported that Citrix patched 10 critical NetScaler vulnerabilities where successful exploitation could lead to unexpected behavior or denial-of-service conditions."
+    },
     {
      "articles": [
       "fa6bb5218f5dbd79"
@@ -3581,11 +3686,206 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Citrix NetScaler security vulnerabilities and patches",
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
+   },
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "e41cd42986d0b8b3",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-13T19:38:36+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-12"
+     ],
+     "id": "7aed0139b5e16c73",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-13T13:54:20+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "trezor-confirms-hidden-implants-in-cryptobilis",
+   "label": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7aed0139b5e16c73"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-13T13:54:20+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html) reported that Trezor confirmed three Safe 5 wallets bought from the reseller CryptoBilis contain an extra circuit board implant that can copy recovery phrases."
+    },
+    {
+     "articles": [
+      "e41cd42986d0b8b3"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-13T19:38:36+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/) reported that cryptocurrency hardware wallet maker Trezor released a fix after confirming that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "ffc0a35ef75ed986",
+     "lang": "en",
+     "outlet": "AeroTime",
+     "published": "2026-11-13T21:53:31+00:00",
+     "publisher": "AeroTime",
+     "region": null,
+     "section": "aviation",
+     "title": "FAA halts all US departures, warns airborne flights to expect holding nationwide",
+     "type": null,
+     "url": "https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "5249a08445b00c29",
+     "lang": "en",
+     "outlet": "Simple Flying",
+     "published": "2026-11-13T21:41:18+00:00",
+     "publisher": "Simple Flying",
+     "region": null,
+     "section": "aviation",
+     "title": "Breaking: FAA Issues Nationwide Ground Stop For All US Flights",
+     "type": null,
+     "url": "https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "faa-nationwide-flight-ground-stop",
+   "label": "FAA nationwide flight ground stop",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5249a08445b00c29"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Simple Flying"
+     ],
+     "published": "2026-11-13T21:41:18+00:00",
+     "text": "[Simple Flying](https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/) reported that the FAA issued a nationwide ground stop for all US flights and cited communication problems."
+    },
+    {
+     "articles": [
+      "ffc0a35ef75ed986"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "AeroTime"
+     ],
+     "published": "2026-11-13T21:53:31+00:00",
+     "text": "[AeroTime](https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026) reported that the US Federal Aviation Administration ordered a nationwide ground stop shortly before 4 p.m. Eastern time and warned airborne flights to expect holding nationwide."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "FAA nationwide flight ground stop",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f56e2429f678379d",
+     "lang": "en",
+     "outlet": "Microsoft Threat Intelligence",
+     "published": "2026-11-13T21:31:44+00:00",
+     "publisher": "Microsoft",
+     "region": null,
+     "section": "intel",
+     "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+     "type": null,
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "sckit-abuses-screenconnect",
+   "label": "SCKit abuses ScreenConnect",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "f56e2429f678379d"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Microsoft"
+     ],
+     "published": "2026-11-13T21:31:44+00:00",
+     "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/) reported that SCKit abuses ScreenConnect to deploy unauthorized remote access and target technician sessions."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "SCKit abuses ScreenConnect",
    "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-13T19:35:28+00:00"
+ "updated": "2026-11-13T22:24:56+00:00"
 }

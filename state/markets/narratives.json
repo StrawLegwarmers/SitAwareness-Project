@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 749,
+   "articles": 784,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 31,
-   "continuing": 4,
+   "calls": 8,
+   "candidates": 37,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-13",
-   "dropped": 1,
+   "dropped": 2,
    "failed_calls": 0,
-   "groups": 675,
-   "in_stories": 63,
-   "kept": 37,
-   "merged": 2,
-   "new": 23,
-   "rejected": 10,
+   "groups": 700,
+   "in_stories": 77,
+   "kept": 44,
+   "merged": 3,
+   "new": 27,
+   "rejected": 12,
    "reported_by_2": 14,
-   "runs": 7,
-   "sent": 31,
+   "runs": 8,
+   "sent": 37,
    "skipped": 1,
    "split_calls": 0,
    "updated": 0,
@@ -27,12 +27,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T19:38:01+00:00"
+  "all": "2026-11-13T22:26:53+00:00"
  },
  "narratives": [
   {
-   "article_count": 5,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "5239260e72d9b620",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-13T13:35:45+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/2026/nov/13/global-oil-supply-returns-to-surplus-for-first-time-since-start-of-iran-war-says-iea"
+    },
     {
      "added": "2026-11-13",
      "id": "2a3ad5f88034289d",
@@ -74,6 +87,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "5af14431b9dd892c",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-13T09:36:32+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "IEA Sees Oil Surplus for First Time in Iran War",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/iea_sees_oil_surplus_for_first_time_in_iran_war-13-nov-2026-185074-article/?rss=true"
+    },
+    {
+     "added": "2026-11-13",
      "id": "03af71891d5ee3f3",
      "lang": "en",
      "outlet": "FT Markets",
@@ -99,14 +125,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 7,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "global-oil-market-surplus",
    "label": "Global oil market surplus",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 5,
+   "outlets_today": 7,
    "reports": [
     {
      "articles": [
@@ -1018,8 +1044,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9c85bcaf5c725dd1",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-13T21:14:22+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "a94182ebd07e70e7",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-13T16:02:57+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft outage live: millions still affected as disruption stretches beyond 18 hours",
+     "type": "international",
+     "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news"
+    },
     {
      "added": "2026-11-13",
      "id": "a744b89cb32f44b4",
@@ -1047,15 +1099,42 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-service-outage",
    "label": "Microsoft service outage",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "merged": [
+    "microsoft-global-outage"
+   ],
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "a94182ebd07e70e7"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-13T16:02:57+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news) reported that Microsoft stated it is continuing to see improvements in service availability after a disruption stretched beyond 18 hours."
+    },
+    {
+     "articles": [
+      "9c85bcaf5c725dd1"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-13T21:14:22+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss) reported that Microsoft is deeply sorry for the global outage after almost 24 hours of disruption."
+    },
     {
      "articles": [
       "8ebce37462c43464"
@@ -1789,9 +1868,268 @@
    "status": "new",
    "title": "Supreme Court Robinhood lawsuit",
    "topic": "justice"
+  },
+  {
+   "article_count": 6,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "6a48f206083cdfbd",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-13T22:18:56+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "FAA issues nationwide ground stop citing communication issues affecting ‘multiple’ air traffic control facilities",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "c6c55a4a581b0260",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-13T22:10:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "bb09cbec3fbc1db8",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-13T22:06:31+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "FAA declares rare, nationwide ground stop on flights",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=ec7dabbe-33f8-48ee-842d-812973ca3947&mod=mw_rss_bulletins"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "77136561e2989a30",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T22:04:51+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "FAA Grounds All Flights Nationwide",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-13/faa-grounds-all-flights-nationwide-video"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "f1849a96ffd786ac",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-13T21:43:51+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "FAA orders nationwide U.S. flight ground stop over air traffic control issues",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/faa-orders-nationwide-ground-stop-citing-extraordinary-safety-concerns-5026489"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "8e179d31993c243d",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-13T21:43:41+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "FAA issues ground stop for flights at all U.S. airports — live",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
+    }
+   ],
+   "articles_today": 6,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "us-federal-aviation-administration-flight-ground",
+   "label": "US Federal Aviation Administration flight ground stop",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "77136561e2989a30"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T22:04:51+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-13/faa-grounds-all-flights-nationwide-video) reported that the Federal Aviation Administration grounded all flights nationwide, citing extraordinary circumstances and reasons of safety."
+    },
+    {
+     "articles": [
+      "6a48f206083cdfbd"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-13T22:18:56+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/13/faa-ground-stop.html) reported that the Federal Aviation Administration issued a nationwide ground stop due to communication issues affecting multiple air traffic control facilities."
+    },
+    {
+     "articles": [
+      "c6c55a4a581b0260"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-13T22:10:00+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories) reported that nearly 8,000 flights were delayed."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-13",
+    "of": 3,
+    "outlet": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories"
+   },
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "275e2abfa59a459a",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T16:44:22+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Dollar Wraps Best Week in Over a Month on Fed Rate Hike Bets",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "b221777b5dc65117",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-12T21:40:16+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold falls about 3% amid extended rise in the dollar on surging Fed rate hike bets",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "us-dollar-and-gold-markets",
+   "label": "US dollar and gold markets",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "275e2abfa59a459a"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T16:44:22+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US dollar and gold markets",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "daa85ba5e742dd35",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-13T19:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Trump Extends Jones Act Waiver For Another 90 Days",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "d6273f68efe46f83",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-13T19:12:29+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US extends shipping law waiver 90 days, to allow freer movement of oil, commodities",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/us-extends-shipping-law-waiver-90-days-to-allow-freer-movement-of-oil-commodities-5026364"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "us-jones-act-waiver-extension",
+   "label": "US Jones Act waiver extension",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d6273f68efe46f83",
+      "daa85ba5e742dd35"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-13T19:12:29+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/us-extends-shipping-law-waiver-90-days-to-allow-freer-movement-of-oil-commodities-5026364), [Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Trump-Extends-Jones-Act-Waiver-For-Another-90-Days.html) reported that President Donald Trump extended the Jones Act waiver for another 90 days to allow foreign-flagged tankers to move oil and other commodities."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US Jones Act waiver extension",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T19:38:18+00:00"
+ "updated": "2026-11-13T22:27:11+00:00"
 }
