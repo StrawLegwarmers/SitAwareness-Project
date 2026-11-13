@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 607,
+   "articles": 684,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 24,
+   "calls": 6,
+   "candidates": 26,
    "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 550,
-   "in_stories": 49,
-   "kept": 31,
+   "groups": 619,
+   "in_stories": 55,
+   "kept": 34,
    "merged": 1,
-   "new": 19,
+   "new": 21,
    "rejected": 10,
    "reported_by_2": 14,
-   "runs": 5,
-   "sent": 24,
+   "runs": 6,
+   "sent": 26,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -27,7 +27,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T13:51:35+00:00"
+  "all": "2026-11-13T16:33:38+00:00"
  },
  "narratives": [
   {
@@ -1434,9 +1434,170 @@
    "status": "new",
    "title": "European stock markets performance",
    "topic": "markets"
+  },
+  {
+   "article_count": 4,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "19f61607aeaa050b",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-13T15:40:08+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Bessent blames Lutnick's Commerce Department for failing to block Megaspeed",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "ff49ce7d37e5f5c9",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-13T15:30:24+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Bessent blames Commerce Dept over lack of export controls for Nvidia partner Megaspeed",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/bessent-says-treasury-favored-limits-on-megaspeed-5025721"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "c56fa6dd81dca8b9",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-13T14:11:36+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
+     "type": "international",
+     "url": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "7be07a5f0acc996b",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-13T13:44:10+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Bessent Blames Lutnick, Commerce for Not Blocking Megaspeed",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/bessent-says-treasury-favored-megaspeed-on-trade-blacklist"
+    }
+   ],
+   "articles_today": 4,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "bessent-blames-commerce-department-over-megaspeed",
+   "label": "Bessent blames Commerce Department over Megaspeed export controls",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "7be07a5f0acc996b"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T13:44:10+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/bessent-says-treasury-favored-megaspeed-on-trade-blacklist) reported that Treasury Secretary Scott Bessent stated his agency had long supported placing Megaspeed International on a trade blacklist."
+    },
+    {
+     "articles": [
+      "19f61607aeaa050b"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-13T15:40:08+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss) reported that Scott Bessent told CNBC that several government agencies were in favour of putting Megaspeed on the entity list for months."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-13",
+    "of": 3,
+    "outlet": "Financial Times",
+    "url": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1"
+   },
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9da56de2585412ba",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-13T15:45:53+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "BofA adds January Fed hike to forecast, says quarterly pace no longer enough",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bofa-adds-january-fed-hike-to-forecast-says-quarterly-pace-no-longer-enough/articleshow/135808910.cms"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "5311553498b7dcce",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-13T11:31:56+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "BofA now sees Fed hiking in January, lifts terminal rate forecast",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/bofa-now-sees-fed-hiking-in-january-lifts-terminal-rate-forecast-5024869"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "bofa-federal-reserve-interest-rate-forecast",
+   "label": "BofA Federal Reserve interest rate forecast",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9da56de2585412ba"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-13T15:45:53+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/bofa-adds-january-fed-hike-to-forecast-says-quarterly-pace-no-longer-enough/articleshow/135808910.cms) reported that BofA Global Research anticipates the Federal Reserve will implement a rate hike in January 2027 following the Consumer Price Index."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "BofA Federal Reserve interest rate forecast",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T13:51:52+00:00"
+ "updated": "2026-11-13T16:33:55+00:00"
 }
