@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 520,
+   "articles": 563,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 19,
+   "calls": 3,
+   "candidates": 20,
    "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-13",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
-   "groups": 477,
+   "groups": 512,
    "in_stories": 40,
    "kept": 25,
    "merged": 1,
    "new": 15,
    "rejected": 9,
    "reported_by_2": 14,
-   "runs": 2,
-   "sent": 19,
+   "runs": 3,
+   "sent": 20,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -27,7 +27,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T12:12:05+00:00"
+  "all": "2026-11-13T13:05:25+00:00"
  },
  "narratives": [
   {
@@ -1160,5 +1160,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T12:12:23+00:00"
+ "updated": "2026-11-13T13:07:14+00:00"
 }

@@ -1,26 +1,10 @@
 [
  {
   "date": "2026-11-13",
-  "kind": "title",
+  "kind": "dropped",
   "group": "all",
-  "story": "Gas bills to rise as Middle East turmoil persists",
-  "text": "Middle East conflict energy impact",
-  "reason": "title replaced by a headline: wording not from cited articles: conflict, impact"
- },
- {
-  "date": "2026-11-13",
-  "kind": "merged",
-  "group": "all",
-  "story": "Oil prices and Iran diplomacy",
-  "text": "Oil prices and Iran diplomacy",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "all",
-  "story": "Oil prices and Iran diplomacy",
-  "text": "[4] reported that Brent climbed over 3% as Trump said the United States does not need a deal with Iran.",
-  "reason": "names not in cited articles: States, United"
+  "story": "",
+  "text": "United Airlines Is Banning AI Bots From Booking Flights",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  }
 ]

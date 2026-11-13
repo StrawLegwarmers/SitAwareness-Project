@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 202,
+   "articles": 207,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 23,
-   "continuing": 4,
+   "calls": 4,
+   "candidates": 26,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 179,
-   "in_stories": 28,
-   "kept": 27,
-   "merged": 1,
+   "in_stories": 32,
+   "kept": 30,
+   "merged": 2,
    "new": 12,
    "rejected": 0,
    "reported_by_2": 6,
-   "runs": 3,
-   "sent": 23,
+   "runs": 4,
+   "sent": 26,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -50,7 +50,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T12:09:59+00:00"
+  "all": "2026-11-13T13:03:34+00:00"
  },
  "narratives": [
   {
@@ -2521,7 +2521,7 @@
    }
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
     {
      "added": "2026-11-13",
@@ -2538,6 +2538,19 @@
      "title": "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell",
      "type": null,
      "url": "https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "84d6fd156fd87ba0",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-13T10:44:22+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Check Point warns of zero-day flaw exploited for root access",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
     },
     {
      "added": "2026-11-13",
@@ -2595,15 +2608,30 @@
      "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "check-point-firewall-exploitation",
    "label": "Check Point firewall exploitation",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 5,
+   "outlets_today": 6,
+   "previous_titles": [
+    "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files"
+   ],
    "reports": [
+    {
+     "articles": [
+      "84d6fd156fd87ba0"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-13T10:44:22+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/) reported that Check Point Software released emergency hotfixes for a high-severity zero-day flaw exploited for root access and persistence."
+    },
     {
      "articles": [
       "9cad47c67ab5666e"
@@ -2668,13 +2696,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+   "title": "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell",
    "title_from": {
-    "backing": 2,
+    "backing": 5,
     "date": "2026-11-13",
-    "of": 2,
-    "outlet": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    "of": 5,
+    "outlet": "Security Affairs",
+    "url": "https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html"
    }
   },
   {
@@ -3035,8 +3063,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "1e29813560889ec8",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T12:20:28+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
+     "type": null,
+     "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/"
+    },
     {
      "added": "2026-11-13",
      "id": "8d99b75ac4f75780",
@@ -3064,14 +3105,14 @@
      "url": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "silentair-and-liminal-panda-telecom-attacks",
    "label": "SilentAir and Liminal Panda telecom attacks",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -3101,7 +3142,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "SilentAir and Liminal Panda telecom attacks",
+   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+   },
    "topic": "security"
   },
   {
@@ -3175,7 +3223,7 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-13",
@@ -3192,6 +3240,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "a5377dd5f0159913",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T10:48:40+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+     "type": null,
+     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
+    },
+    {
+     "added": "2026-11-13",
      "dates": [
       "2026-11-12"
      ],
@@ -3205,17 +3266,54 @@
      "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
      "type": null,
      "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "9b9e6808744bc759",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-12T15:07:20+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "operation-endgame-malware-infrastructure-takedown",
    "label": "Operation Endgame malware infrastructure takedown",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "9b9e6808744bc759"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-12T15:07:20+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/) reported that Europol and law enforcement partners from nine countries seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations."
+    },
+    {
+     "articles": [
+      "a5377dd5f0159913"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-13T10:48:40+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/) reported that investigators seized 235 servers, 257 domains, and 6.4 million victim credentials as part of Operation Endgame."
+    },
     {
      "articles": [
       "b6ad14b16a1f12c8"
@@ -3244,11 +3342,18 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Operation Endgame malware infrastructure takedown",
+   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-13",
+    "of": 3,
+    "outlet": "SecurityWeek",
+    "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
+   },
    "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-13T12:10:18+00:00"
+ "updated": "2026-11-13T13:03:51+00:00"
 }
