@@ -1,2 +1,2 @@
 # Only for running the tests (python -m pytest). The daily pipeline doesn't need it.
-pytest>=8,<10
+pytest>=9.2.0,<10

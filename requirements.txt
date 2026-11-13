@@ -1,6 +1,6 @@
 # Python packages the pipeline needs. Install with:  pip install -r requirements.txt
 # "~=" allows bug-fix and minor updates but never a new major version, which could change behaviour.
 feedparser~=6.0     # reads RSS and Atom feeds, whatever their quirks
-requests~=2.32      # downloads web pages and feeds
+requests~=2.34      # downloads web pages and feeds
 PyYAML~=6.0         # reads the config/*.yaml files
 xlrd~=2.0           # reads the EIA's price spreadsheets (old .xls format) for the Markets site
