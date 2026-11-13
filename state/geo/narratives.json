@@ -50,25 +50,25 @@
   {
    "articles": 5374,
    "attached_by_code": 33,
-   "calls": 18,
-   "candidates": 616,
-   "continuing": 313,
+   "calls": 20,
+   "candidates": 660,
+   "continuing": 338,
    "corroborated": 23,
    "date": "2026-11-13",
-   "dropped": 11,
+   "dropped": 12,
    "failed_calls": 0,
    "groups": 4787,
-   "in_stories": 1219,
-   "kept": 603,
-   "merged": 33,
-   "new": 226,
-   "rejected": 49,
+   "in_stories": 1284,
+   "kept": 630,
+   "merged": 35,
+   "new": 234,
+   "rejected": 56,
    "reported_by_2": 238,
-   "runs": 5,
-   "sent": 616,
-   "skipped": 40,
+   "runs": 6,
+   "sent": 660,
+   "skipped": 50,
    "split_calls": 0,
-   "updated": 143,
+   "updated": 152,
    "waiting": 0
   },
   {
@@ -96,7 +96,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T13:15:58+00:00"
+  "all": "2026-11-13T13:50:24+00:00"
  },
  "narratives": [
   {
@@ -1489,8 +1489,34 @@
    "title": "Poland: Krakow Mass Shooter Dies in Hospital Amid Terrorism Probe"
   },
   {
-   "article_count": 392,
+   "article_count": 396,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9981bdb40733236c",
+     "lang": "en",
+     "outlet": "Yeni Şafak (English)",
+     "published": "2026-11-13T13:46:58+00:00",
+     "publisher": "Yeni Şafak (English)",
+     "region": "mena",
+     "section": null,
+     "title": "EU chief warns security architecture talks risk Russia's 'trap'",
+     "type": "local",
+     "url": "http://en.yenisafak.com/world/eu-chief-warns-security-architecture-talks-risk-russias-trap-3725540"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "cfc7ad94ac8154d0",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-13T13:20:30+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Russia demands Finland leave NATO in peace proposal",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1581007/russia-demands-finland-leave-nato-in-peace-proposal/"
+    },
     {
      "added": "2026-11-13",
      "id": "bc85606988b62be1",
@@ -1691,6 +1717,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "b2ee42a91747e1a9",
+     "lang": "en",
+     "outlet": "RT",
+     "published": "2026-11-13T09:10:20+00:00",
+     "publisher": "RT",
+     "region": "europe",
+     "section": null,
+     "title": "Trump envoy touts new approach to Ukraine peace talks",
+     "type": "state-media",
+     "url": "https://rt-english.com/news/648793-trump-envoy-new-approach-ukraine/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+    },
+    {
+     "added": "2026-11-13",
      "id": "764811d3e947dfad",
      "lang": "en",
      "outlet": "New York Times World",
@@ -1714,6 +1753,19 @@
      "title": "EU leaders in Dublin grapple with who speaks for Europe in peace talks",
      "type": "international",
      "url": "https://www.euronews.com/2026/11/13/eu-leaders-gather-in-dublin-to-decide-who-will-speak-for-europe-in-peace-talks"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "29e862514a919035",
+     "lang": "en",
+     "outlet": "Yeni Şafak (English)",
+     "published": "2026-11-13T07:18:24+00:00",
+     "publisher": "Yeni Şafak (English)",
+     "region": "mena",
+     "section": null,
+     "title": "Russia ready to discuss new European security architecture with US: aide",
+     "type": "local",
+     "url": "http://en.yenisafak.com/world/russia-ready-to-discuss-new-european-security-architecture-with-us-aide-3725515"
     },
     {
      "added": "2026-11-13",
@@ -1964,61 +2016,6 @@
      "title": "Next round of talks on Ukraine already scheduled — Witkoff",
      "type": "state-media",
      "url": "https://tass.com/world/2217497"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "9e0aff9cc0468a54",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-12T22:00:00+00:00",
-     "publisher": "DW",
-     "region": "global",
-     "section": null,
-     "title": "EU leaders tussle over whom to send to Ukraine, Russia peace talks",
-     "type": "international",
-     "url": "https://www.dw.com/en/eu-leaders-tussle-over-whom-to-send-to-ukraine-russia-peace-talks/a-79935468?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "c5d8a1c2753927dd",
-     "lang": "en",
-     "outlet": "The Moscow Times",
-     "published": "2026-11-12T21:54:00+00:00",
-     "publisher": "The Moscow Times",
-     "region": "europe",
-     "section": null,
-     "title": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
-     "type": "local",
-     "url": "https://www.themoscowtimes.com/2026/11/13/putin-agrees-for-europe-to-join-ukraine-peace-talks-witkoff-says-a94236"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "103e8dec7d4483cf",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-12T21:35:58+00:00",
-     "publisher": "Kyiv Independent",
-     "region": "europe",
-     "section": null,
-     "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
-     "type": "local",
-     "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "96aa122e93d03fb5",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-12T20:55:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Zelenskyy meets US representatives Kushner and Witkoff",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062612/"
     }
    ],
    "articles_today": 40,
@@ -2533,13 +2530,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "russia",
-   "title": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+   "title": "Trump's envoy says Putin is ready to allow Europe to join next round of Ukraine peace talks",
    "title_from": {
-    "backing": 19,
+    "backing": 17,
     "date": "2026-11-13",
-    "of": 24,
-    "outlet": "The Moscow Times",
-    "url": "https://www.themoscowtimes.com/2026/11/13/putin-agrees-for-europe-to-join-ukraine-peace-talks-witkoff-says-a94236"
+    "of": 23,
+    "outlet": "Ukrainska Pravda",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/13/8062623/"
    }
   },
   {
@@ -4007,8 +4004,34 @@
    "title": "Israel: Coalition Formation Talks and Political Transitions"
   },
   {
-   "article_count": 120,
+   "article_count": 123,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "23d77d453b29e83c",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-13T13:26:38+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "WHO warns respiratory infections surge in Gaza as winter approaches",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1581076/who-warns-respiratory-infections-surge-in-gaza-as-winter-approaches/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "25d82b81b0582ec2",
+     "lang": "en",
+     "outlet": "RTÉ",
+     "published": "2026-11-13T13:18:09+00:00",
+     "publisher": "RTÉ",
+     "region": "europe",
+     "section": null,
+     "title": "Respiratory illnesses in Gaza to worsen with floods - WHO",
+     "type": "local",
+     "url": "https://www.rte.ie/news/middle-east/2026/1113/1599114-israel-gaza/"
+    },
     {
      "added": "2026-11-13",
      "id": "3fc0a39aaf478243",
@@ -4021,6 +4044,22 @@
      "title": "Israeli strike on vehicle outside wedding hall kills one Palestinian in central Gaza",
      "type": "regional",
      "url": "https://www.middleeastmonitor.com/20261113-israeli-strike-on-vehicle-outside-wedding-hall-kills-one-palestinian-in-central-gaza/"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "32f1672e0b778221",
+     "lang": "en",
+     "outlet": "Al-Monitor",
+     "published": "2026-11-13T12:46:30+00:00",
+     "publisher": "Al-Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "Respiratory illnesses rise in Gaza with worst to come as winter floods arrive, WHO says",
+     "type": "regional",
+     "url": "https://www.al-monitor.com/originals/2026/11/respiratory-illnesses-rise-gaza-worst-come-winter-floods-arrive-who-says"
     },
     {
      "added": "2026-11-13",
@@ -4495,58 +4534,37 @@
      "title": "6 Palestinians killed, dozens injured in Israeli strike on Nasser Medical Complex in Khan Younis",
      "type": "regional",
      "url": "https://www.middleeastmonitor.com/20261112-6-palestinians-killed-dozens-injured-in-israeli-strike-on-nasser-medical-complex-in-khan-younis/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "8788cb98f53b564a",
-     "lang": "ar",
-     "outlet": "Felesteen",
-     "published": "2026-11-12T08:31:00+00:00",
-     "publisher": "Felesteen",
-     "region": "mena",
-     "section": null,
-     "title": "\"الإعلامي الحكومي\": الاحتلال ارتكب 793 هجوماً على القطاع الصحي واستشهد 1725 من كوادره",
-     "type": "local",
-     "url": "https://felesteen.news/post/190062/%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A-%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D8%B1%D8%AA%D9%83%D8%A8-793-%D9%87%D8%AC%D9%88%D9%85%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%88%D8%A7%D8%B3%D8%AA%D8%B4%D9%87"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "de0712c077d88e2f",
-     "lang": "ar",
-     "outlet": "Felesteen",
-     "published": "2026-11-12T08:31:00+00:00",
-     "publisher": "Felesteen",
-     "section": null,
-     "title": "الحكومي بغزة: الاحتلال ارتكب 793 هجوماً على القطاع الصحي واستشهد 1725 من كوادره",
-     "type": "local",
-     "url": "https://felesteen.news/post/190062/%D8%A7%D9%84%D8%AD%D9%83%D9%88%D9%85%D9%8A-%D8%A8%D8%BA%D8%B2%D8%A9-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D8%A7%D8%B1%D8%AA%D9%83%D8%A8-793-%D9%87%D8%AC%D9%88%D9%85%D8%A7-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9-%D8%A7%D9%84%D8%B5%D8%AD%D9%8A-%D9%88%D8%A7%D8%B3%D8%AA%D8%B4%D9%87%D8%AF-17"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "7ba2c731f689ddc6",
-     "lang": "en",
-     "outlet": "New York Times World",
-     "published": "2026-11-12T08:23:37+00:00",
-     "publisher": "New York Times",
-     "section": null,
-     "title": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
-     "type": "international",
-     "url": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html"
     }
    ],
-   "articles_today": 21,
+   "articles_today": 24,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "gaza-heavy-rain-and-floods-inundate",
    "label": "Gaza: Severe Storms and Floods Damage Displaced Persons Tents",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 20,
+   "outlets_today": 23,
    "previous_titles": [
     "Gaza: Severe Storms and Floods Damage Displaced Persons Tents",
     "Gaza Hospital Airstrike and Casualties"
    ],
    "reports": [
+    {
+     "articles": [
+      "23d77d453b29e83c",
+      "25d82b81b0582ec2",
+      "32f1672e0b778221"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Al-Monitor",
+      "RTÉ",
+      "Daily Times (Pakistan)"
+     ],
+     "published": "2026-11-13T12:46:30+00:00",
+     "text": "[Al-Monitor](https://www.al-monitor.com/originals/2026/11/respiratory-illnesses-rise-gaza-worst-come-winter-floods-arrive-who-says), [RTÉ](https://www.rte.ie/news/middle-east/2026/1113/1599114-israel-gaza/), [Daily Times (Pakistan)](https://dailytimes.com.pk/1581076/who-warns-respiratory-infections-surge-in-gaza-as-winter-approaches/) reported that the World Health Organization warned of surging respiratory illnesses in Gaza as winter floods arrive."
+    },
     {
      "articles": [
       "a637b32b81bbbc64"
@@ -7745,8 +7763,34 @@
    "title": "Nigeria: Flood Victims in Nasarawa Face Severe Hunger and Disease"
   },
   {
-   "article_count": 286,
+   "article_count": 293,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9ffbd06e4b4003f7",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-13T13:43:05+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "Trump volvió a respaldar a Jensen Huang tras su renuncia a Nvidia y dijo que “está atravesando un infierno”",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/estados-unidos/trump-volvio-a-respaldar-a-jensen-huang-tras-su-renuncia-a-nvidia-y-dijo-que-esta-atravesando-un-nid13112026/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "3f30b7984c6e2abe",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-13T13:42:21+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "Jensen Huang, el exCEO de Nvidia, tuvo un amorío con una segunda empleada de la empresa, según Reuters",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/economia/IA/jensen-huang-el-exceo-de-nvidia-tuvo-un-amorio-con-una-segunda-empleada-de-la-empresa-segun-reuters-nid13112026/"
+    },
     {
      "added": "2026-11-13",
      "id": "c13d9fe79c8b8611",
@@ -7772,6 +7816,19 @@
      "title": "Jensen Huang: esta es la millonaria cifra que perderá en acciones de Nvidia tras dejar de ser CEO",
      "type": "local",
      "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/jensen-huang-esta-es-la-millonaria-cifra-que-perdera-en-acciones-de-nvidia-tras-dejar-de-ser-ceo-3600754"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "8e91e7622a8836cf",
+     "lang": "pt",
+     "outlet": "O Globo",
+     "published": "2026-11-13T12:23:21+00:00",
+     "publisher": "O Globo",
+     "region": "latam",
+     "section": null,
+     "title": "Quem pode suceder Jensen Huang na Nvidia? Veja nomes cotados para assumir a companhia após renúncia e comando interino",
+     "type": "local",
+     "url": "https://oglobo.globo.com/economia/noticia/2026/11/13/quem-pode-suceder-jensen-huang-na-nvidia-com-renuncia-do-ceo-veja-nomes-cotados-para-assumir-a-gigante-dos-chips-apos-comando-interino.ghtml"
     },
     {
      "added": "2026-11-13",
@@ -8155,6 +8212,19 @@
     },
     {
      "added": "2026-11-13",
+     "id": "1acf1d25f410395a",
+     "lang": "en",
+     "outlet": "RTÉ",
+     "published": "2026-11-13T07:46:15+00:00",
+     "publisher": "RTÉ",
+     "region": "europe",
+     "section": null,
+     "title": "Nvidia ex-CEO to testify before US Senate committee",
+     "type": "local",
+     "url": "https://www.rte.ie/news/us/2026/1113/1599069-nvidia-us/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "4f2a2a18efbe879a",
      "lang": "en",
      "outlet": "The Hindu (World)",
@@ -8217,58 +8287,6 @@
      "title": "Trump backs Tim Cook to replace Jensen Huang as Nvidia CEO",
      "type": "local",
      "url": "http://en.yenisafak.com/world/trump-backs-tim-cook-to-replace-jensen-huang-as-nvidia-ceo-3725513"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "6367abaa5d515802",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-13T07:07:41+00:00",
-     "publisher": "The Guardian",
-     "region": "global",
-     "section": null,
-     "title": "A baffling trail from Australia to Singapore: what is Megaspeed, the company implicated in downfall of Nvidia’s Jensen Huang?",
-     "type": "international",
-     "url": "https://www.theguardian.com/technology/2026/nov/13/a-baffling-trail-from-australia-to-singapore-what-is-megaspeed-the-company-implicated-in-downfall-of-nvidias-jensen-huang"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "3f2fb09359d4363e",
-     "lang": "en",
-     "outlet": "South China Morning Post",
-     "published": "2026-11-13T07:00:40+00:00",
-     "publisher": "South China Morning Post",
-     "region": "asia",
-     "section": null,
-     "title": "Jensen Huang’s abrupt exit stuns Nvidia’s China staff, clouding the outlook in a key market",
-     "type": "regional",
-     "url": "https://www.scmp.com/tech/big-tech/article/3374316/jensen-huangs-abrupt-exit-stuns-nvidias-china-staff-clouding-outlook-key-market"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "28876a4f07f4dd43",
-     "lang": "es",
-     "outlet": "La Razón",
-     "published": "2026-11-13T06:56:59+00:00",
-     "publisher": "La Razón",
-     "region": "europe",
-     "section": null,
-     "title": "Trump dice que Huang está \"pasando por un infierno\" tras su salida de Nvidia",
-     "type": "local",
-     "url": "https://www.larazon.es/internacional/trump-dice-que-huang-esta-pasando-infierno-salida-nvidia_202611136af6b4bb9a31a65adcda9041.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "422d2da3e2fe12f7",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-13T06:42:47+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Jensen Huang, Howard Lutnick to testify before US Congress amid Nvidia row: Reports",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/jensen-huang-us-commerce-secretary-howard-lutnick-to-testify-before-congress-amid-nvidia-row-reports-101794548999744.html"
     }
    ],
    "articles_today": 40,
@@ -8287,8 +8305,51 @@
     "potential-national-security-crisis-as-nvidia",
     "nvidia-asian-supply-chain-future"
    ],
-   "outlets_today": 33,
+   "outlets_today": 37,
+   "previous_titles": [
+    "Jensen Huang, Howard Lutnick to testify before US Congress amid Nvidia row: Reports"
+   ],
    "reports": [
+    {
+     "articles": [
+      "3f30b7984c6e2abe",
+      "a12abbdfe3c3a52d"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "El Tiempo",
+      "La Nación (Argentina)"
+     ],
+     "published": "2026-11-13T04:57:02+00:00",
+     "text": "[El Tiempo](https://www.eltiempo.com/mundo/asia/reuters-revela-una-tercera-relacion-extramarital-de-jensen-huang-fundador-de-nvidia-presuntamente-con-otra-empleada-de-la-compania-esto-se-sabe-3600651), [La Nación (Argentina)](https://www.lanacion.com.ar/economia/IA/jensen-huang-el-exceo-de-nvidia-tuvo-un-amorio-con-una-segunda-empleada-de-la-empresa-segun-reuters-nid13112026/) reported that Reuters revealed a third extramarital relationship involving former Nvidia CEO Jensen Huang with another company employee."
+    },
+    {
+     "articles": [
+      "11d7f1c376d613af",
+      "1acf1d25f410395a"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "The Express Tribune",
+      "RTÉ"
+     ],
+     "published": "2026-11-13T06:02:26+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2640125/us-senate-banking-committee-chair-calls-on-jensen-huang-lutnick-to-testify), [RTÉ](https://www.rte.ie/news/us/2026/1113/1599069-nvidia-us/) reported that the US Senate Banking Committee chair called on Jensen Huang and Howard Lutnick to testify following Huang's resignation."
+    },
+    {
+     "articles": [
+      "8e91e7622a8836cf"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "O Globo"
+     ],
+     "published": "2026-11-13T12:23:21+00:00",
+     "text": "[O Globo](https://oglobo.globo.com/economia/noticia/2026/11/13/quem-pode-suceder-jensen-huang-na-nvidia-com-renuncia-do-ceo-veja-nomes-cotados-para-assumir-a-gigante-dos-chips-apos-comando-interino.ghtml) reported that Colette Kress and others were cited as potential successors to Jensen Huang at Nvidia."
+    },
     {
      "articles": [
       "7bd3ea57ed36a99d"
@@ -8764,57 +8825,19 @@
      ],
      "published": "2026-11-12T09:06:00+00:00",
      "text": "[The Japan Times](https://www.japantimes.co.jp/business/2026/11/12/nvidia-supply-chain-asia/) reported that Nvidia's Asian supply chain is preparing for life after Huang as the board meets to decide his future."
-    },
-    {
-     "articles": [
-      "21cbb455cc1b3948",
-      "ac316faca5f21a72"
-     ],
-     "date": "2026-11-12",
-     "group": "europe",
-     "outlets": [
-      "The Independent World",
-      "Nigerian Tribune"
-     ],
-     "published": "2026-11-12T11:22:56+00:00",
-     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/nvidia-shares-new-york-the-new-york-times-chinese-b3083853.html), [Nigerian Tribune](https://tribuneonlineng.com/nvidia-board-considers-ousting-jensen-huang/) reported that shares of Nvidia fell in trading following reports regarding the board considering the future of CEO Jensen Huang."
-    },
-    {
-     "articles": [
-      "1c8d5114f2eed5d4"
-     ],
-     "date": "2026-11-12",
-     "group": "europe",
-     "outlets": [
-      "Dawn (Pakistan)"
-     ],
-     "published": "2026-11-12T12:18:01+00:00",
-     "text": "[Dawn (Pakistan)](https://www.dawn.com/news/2044050/who-could-be-next-ceo-at-nvidia-after-rockstar-jensen-huang) reported that analysts and investors see two individuals as potential candidates to succeed Nvidia CEO Jensen Huang."
-    },
-    {
-     "articles": [
-      "84f5d5354c3eeb9e"
-     ],
-     "date": "2026-11-12",
-     "group": "europe",
-     "outlets": [
-      "O Globo"
-     ],
-     "published": "2026-11-12T12:21:46+00:00",
-     "text": "[O Globo](https://oglobo.globo.com/economia/noticia/2026/11/12/nvidia-contrata-empresa-de-headhunter-para-trocar-ceo-envolvido-com-suposta-espia-chinesa.ghtml) reported that Nvidia's board of directors is working with an external headhunter firm to identify potential replacements for CEO Jensen Huang."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "us",
-   "title": "Jensen Huang, Howard Lutnick to testify before US Congress amid Nvidia row: Reports",
+   "title": "Congress demands answers over Nvidia espionage allegations and Jensen Huang scandal",
    "title_from": {
-    "backing": 18,
+    "backing": 14,
     "date": "2026-11-13",
-    "of": 24,
-    "outlet": "Hindustan Times",
-    "url": "https://www.hindustantimes.com/world-news/jensen-huang-us-commerce-secretary-howard-lutnick-to-testify-before-congress-amid-nvidia-row-reports-101794548999744.html"
+    "of": 22,
+    "outlet": "El País",
+    "url": "https://english.elpais.com/usa/2026-11-13/congress-demands-answers-over-nvidia-espionage-allegations-and-jensen-huang-scandal.html"
    }
   },
   {
@@ -16884,8 +16907,21 @@
    }
   },
   {
-   "article_count": 63,
+   "article_count": 72,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "7bcd3914abd1908f",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-13T13:23:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Russian attack on Zaporizhzhia: Injury toll rises to 25, rescue operations completed",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-ato/4184371-russian-attack-on-zaporizhzhia-injury-toll-rises-to-25-rescue-operations-completed.html"
+    },
     {
      "added": "2026-11-13",
      "id": "e64a68ecb5a07674",
@@ -16898,6 +16934,22 @@
      "title": "Ukrainian attacks kill four civilians, injure 25 in Kherson Region in past week",
      "type": "state-media",
      "url": "https://tass.com/politics/2217879"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "e08614cd8584af4c",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-13T13:02:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian Neptune missiles hit Russian drone production facility, warehouse, service center in Rostov-on-Don",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-ato/4184347-ukrainian-neptune-missiles-hit-russian-drone-production-facility-warehouse-service-center-in-rostovondon.html"
     },
     {
      "added": "2026-11-13",
@@ -17403,32 +17455,6 @@
      "title": "Nearly 1,200 Ukrainian Drones Target Russia in Massive Overnight Assault, Lukoil Refinery Ablaze",
      "type": "local",
      "url": "https://www.kyivpost.com/post/89990"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "5cf71ad4ea1f6919",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-13T05:35:14+00:00",
-     "publisher": "Kyiv Independent",
-     "region": "europe",
-     "section": null,
-     "title": "3 injured, dozens evacuated after Russian drone damages Kyiv medical facility in overnight attack",
-     "type": "local",
-     "url": "https://kyivindependent.com/3-injured-dozens-evacuated-after-russian-drone-damages-kyiv-medical-facility-in-overnight-attack/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "84152d2082a77258",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-13T05:19:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russian attack injures two women in Vinnytsia, damages homes, kindergarten",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4184149-russian-attack-injures-two-women-in-vinnytsia-damages-homes-kindergarten.html"
     }
    ],
    "articles_today": 40,
@@ -17448,6 +17474,32 @@
     "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says"
    ],
    "reports": [
+    {
+     "articles": [
+      "e08614cd8584af4c"
+     ],
+     "date": "2026-11-13",
+     "group": "asia",
+     "outlets": [
+      "Ukrinform"
+     ],
+     "published": "2026-11-13T13:02:00+00:00",
+     "text": "[Ukrinform](https://www.ukrinform.net/rubric-ato/4184347-ukrainian-neptune-missiles-hit-russian-drone-production-facility-warehouse-service-center-in-rostovondon.html) reported that Ukraine's Navy used Neptune coastal missiles to strike a Russian drone production facility, warehouse, and service center in Rostov-on-Don."
+    },
+    {
+     "articles": [
+      "03e7738473925024",
+      "e0b626522d79f41b"
+     ],
+     "date": "2026-11-13",
+     "group": "asia",
+     "outlets": [
+      "Kyiv Post",
+      "Ukrinform"
+     ],
+     "published": "2026-11-13T02:00:46+00:00",
+     "text": "[Kyiv Post](https://www.kyivpost.com/post/89974), [Ukrinform](https://www.ukrinform.net/rubric-ato/4184147-drone-debris-sparks-fire-at-medical-facility-in-kyiv.html) reported that falling debris from a Russian drone sparked a fire at a medical facility in Kyiv's Shevchenkivskyi district."
+    },
     {
      "articles": [
       "814a8fb3e8b171dc",
@@ -17910,28 +17962,6 @@
       "Kyiv Post"
      ],
      "text": "[Kyiv Post](https://www.kyivpost.com/post/89814) reported that a Russian jet-powered drone struck a crowded market in central Chornomorsk, killing 3 people and injuring 11."
-    },
-    {
-     "articles": [
-      "bb5f79e286053d20"
-     ],
-     "date": "2026-11-11",
-     "group": "europe",
-     "outlets": [
-      "Moldova news (YAM)"
-     ],
-     "text": "[Moldova news (YAM)](https://news.yam.md/ro/story/84044874) reported that Ukrainian drone strikes disrupted nine of Russia's 35 major refineries over the past week, cutting processing capacity by about 30%."
-    },
-    {
-     "articles": [
-      "d37ab2471f4d191d"
-     ],
-     "date": "2026-11-11",
-     "group": "asia",
-     "outlets": [
-      "Daily Times (Pakistan)"
-     ],
-     "text": "[Daily Times (Pakistan)](https://dailytimes.com.pk/1579887/ukrainian-drone-strikes-kill-two-in-russias-smolensk-region/) reported that two people died after Ukraine launched a large-scale drone attack on Russia's Smolensk region."
     }
    ],
    "single_source_today": false,
@@ -20947,8 +20977,24 @@
    }
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "e071928e476289c9",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-13T13:33:27+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Ukraine seeks explanation on Starshield speed restrictions from US",
+     "type": "local",
+     "url": "https://kyivindependent.com/ukraine-seeks-explanation-on-starshield-speed-restrictions-from-us/"
+    },
     {
      "added": "2026-11-13",
      "id": "7ac9c15fd63f1a85",
@@ -21148,7 +21194,7 @@
      "url": "https://www.pravda.com.ua/eng/news/2026/11/12/8062470/"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-12",
    "group": "europe",
    "id": "zelenskyy-starshield-satellite-restrictions",
@@ -21157,6 +21203,18 @@
    "last_updated": "2026-11-13",
    "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "e071928e476289c9"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-13T13:33:27+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/ukraine-seeks-explanation-on-starshield-speed-restrictions-from-us/) reported that President Volodymyr Zelensky stated the Starshield speed restrictions applied over Russian-occupied territory and along the front line."
+    },
     {
      "articles": [
       "cbda101f0ff72eab"
@@ -22039,8 +22097,21 @@
    "title": "Turkish Defense Ministry denies Somali troop claims"
   },
   {
-   "article_count": 38,
+   "article_count": 39,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9fcf27e010c89200",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-13T13:32:44+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "La visita de León XIV impactó a un peronismo que se bifurca en dos caminos posibles hacia 2027",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/politica/la-visita-de-leon-xiv-impacto-a-un-peronismo-que-se-bifurca-en-dos-caminos-posibles-hacia-2027-nid13112026/"
+    },
     {
      "added": "2026-11-13",
      "id": "3e36062beac927f5",
@@ -22546,7 +22617,7 @@
      "url": "https://www.euronews.com/2026/11/12/pope-leo-xiv-welcomed-by-millions-on-return-to-his-second-home-peru"
     }
    ],
-   "articles_today": 33,
+   "articles_today": 34,
    "first_seen": "2026-11-12",
    "group": "latam",
    "id": "pope-leo-xiv-visit-to-peru",
@@ -22781,8 +22852,21 @@
    }
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "8e03c31c7c34d4f5",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-13T13:18:21+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Mrsić podnio ostavku, odlaze i čelnici zagrebačke psihijatrijske klinike",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/region/mrsic-podnio-ostavku-odlaze-i-celnici-zagrebacke-psihijatrijske-klinike/"
+    },
     {
      "added": "2026-11-13",
      "id": "f062fe010fe03be6",
@@ -22875,7 +22959,7 @@
      "url": "https://www.oslobodjenje.ba/vijesti/region/direktorica-klinike-podnijela-ostavku-nakon-smrti-perisa-i-otkrivenih-propusta/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-12",
    "group": "europe",
    "id": "zagreb-psychiatric-clinic-director-resignation",
@@ -22884,6 +22968,18 @@
    "last_updated": "2026-11-13",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "8e03c31c7c34d4f5"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Oslobođenje"
+     ],
+     "published": "2026-11-13T13:18:21+00:00",
+     "text": "[Oslobođenje](https://www.oslobodjenje.ba/vijesti/region/mrsic-podnio-ostavku-odlaze-i-celnici-zagrebacke-psihijatrijske-klinike/) reported that Mrsić resigned along with other leaders of the Zagreb psychiatric clinic following a tragedy."
+    },
     {
      "articles": [
       "6a2bb421522076e5"
@@ -24606,8 +24702,21 @@
    }
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "7f71d27669f768ad",
+     "lang": "en",
+     "outlet": "Premium Times",
+     "published": "2026-11-13T13:38:19+00:00",
+     "publisher": "Premium Times",
+     "region": "africa",
+     "section": null,
+     "title": "Enugu govt speaks on alleged blocking of Peter Obi, NDC from using campaign venue",
+     "type": "local",
+     "url": "https://www.premiumtimesng.com/news/top-news/924935-enugu-govt-speaks-on-alleged-blocking-of-peter-obi-ndc-from-using-campaign-venue.html"
+    },
     {
      "added": "2026-11-13",
      "id": "a11bb2acfa0dd92b",
@@ -24817,7 +24926,7 @@
      "url": "https://www.vanguardngr.com/2026/11/thugs-attack-ndc-supporters-in-lagos/"
     }
    ],
-   "articles_today": 12,
+   "articles_today": 13,
    "first_seen": "2026-11-12",
    "group": "africa",
    "id": "thugs-attack-ndc-supporters-in-lagos",
@@ -24827,8 +24936,20 @@
    "merged": [
     "lagos-apc-response-to-political-gathering"
    ],
-   "outlets_today": 6,
+   "outlets_today": 7,
    "reports": [
+    {
+     "articles": [
+      "7f71d27669f768ad"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "Premium Times"
+     ],
+     "published": "2026-11-13T13:38:19+00:00",
+     "text": "[Premium Times](https://www.premiumtimesng.com/news/top-news/924935-enugu-govt-speaks-on-alleged-blocking-of-peter-obi-ndc-from-using-campaign-venue.html) reported that the Enugu government spoke regarding allegations that Governor Peter Mbah directed the Chairperson of the Enugu State Tourism Board to deny Peter Obi and the NDC the use of a campaign venue."
+    },
     {
      "articles": [
       "a11bb2acfa0dd92b"
@@ -25085,8 +25206,21 @@
    "title": "Faisal Maina prison sentence"
   },
   {
-   "article_count": 10,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "5ee7250494ebb691",
+     "lang": "en",
+     "outlet": "Middle East Monitor",
+     "published": "2026-11-13T13:14:27+00:00",
+     "publisher": "Middle East Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "Pro-Palestine protesters in Dublin rally against European Political Community Summit",
+     "type": "regional",
+     "url": "https://www.middleeastmonitor.com/20261113-pro-palestine-protesters-in-dublin-rally-against-european-political-community-summit/"
+    },
     {
      "added": "2026-11-13",
      "id": "d8e26d523a4b0f54",
@@ -25227,7 +25361,7 @@
      "url": "https://news.yam.md/ro/story/84500755"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 8,
    "first_seen": "2026-11-12",
    "group": "europe",
    "id": "european-political-community-summit-in-dublin",
@@ -25237,11 +25371,24 @@
    "merged": [
     "dublin-european-political-community-summit"
    ],
-   "outlets_today": 5,
+   "outlets_today": 6,
    "previous_titles": [
-    "STRENGTHENING MOLDOVA'S RESILIENCE DISCUSSED AT SUMMIT OF EUROPEAN POLITICAL COMMUNITY"
+    "STRENGTHENING MOLDOVA'S RESILIENCE DISCUSSED AT SUMMIT OF EUROPEAN POLITICAL COMMUNITY",
+    "Welcoming Taoiseach finds hugs and kisses the first political pitfall at Dublin’s EPC summit"
    ],
    "reports": [
+    {
+     "articles": [
+      "5ee7250494ebb691"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Middle East Monitor"
+     ],
+     "published": "2026-11-13T13:14:27+00:00",
+     "text": "[Middle East Monitor](https://www.middleeastmonitor.com/20261113-pro-palestine-protesters-in-dublin-rally-against-european-political-community-summit/) reported that pro-Palestinian demonstrators staged a protest in Dublin against the European Political Community Summit."
+    },
     {
      "articles": [
       "de060e3b9508a7a7"
@@ -25332,13 +25479,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "ireland",
-   "title": "Welcoming Taoiseach finds hugs and kisses the first political pitfall at Dublin’s EPC summit",
+   "title": "Pro-Palestine protesters in Dublin rally against European Political Community Summit",
    "title_from": {
-    "backing": 3,
+    "backing": 4,
     "date": "2026-11-13",
-    "of": 4,
-    "outlet": "The Irish Times",
-    "url": "https://www.irishtimes.com/ireland/2026/11/13/welcoming-taoiseach-finds-hugs-and-kisses-the-first-political-pitfall-at-dublins-epc-summit/"
+    "of": 5,
+    "outlet": "Middle East Monitor",
+    "url": "https://www.middleeastmonitor.com/20261113-pro-palestine-protesters-in-dublin-rally-against-european-political-community-summit/"
    }
   },
   {
@@ -26310,8 +26457,21 @@
    }
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "c9377d561a91b381",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-13T12:02:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Trump tells Vance to shift focus from Iran to targeting ‘corruption and crime’ at home",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94Sm13cW1LVWpOYzNrYmFYZG82WnVXRXdHaGNDYmxkRjRISlZMMVU3b25xUTBLTWxRbElMTGZ3ck52by03SElYcS1YeW1FTHFZWEJrLTlmcjRZZXFZdC1UTXVEcEl3UkJpTTRr?oc=5"
+    },
     {
      "added": "2026-11-13",
      "id": "fde879aea53c0b90",
@@ -26521,7 +26681,7 @@
      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkdBWnZVWXZqcEFwdWFkTmw5XzVHVndjNzBhdW1GZVFfT2d2OFBzVDlLbC1pdmNvZTY5X01iRE01eGktRlh0b0s2bXJSTm9ZS19CZkdnVzR6bmEzOFJlQjNET2NvTl9yVGZjeHg5SkxVcmZ5UHFkLXcxQ1M3N1dRU3R5R05raV9VOVRsUDRFZE9sT1B6NmZ0ZTA4SFB0TlNYTUNhUHdMWVNKV0tDSmd4d19IRERyblE2QkgxSlpzSQ?oc=5"
     }
    ],
-   "articles_today": 16,
+   "articles_today": 17,
    "first_seen": "2026-11-13",
    "group": "namerica",
    "id": "us-policy-and-iran-deal-directive",
@@ -27123,8 +27283,47 @@
    }
   },
   {
-   "article_count": 88,
+   "article_count": 98,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "4ebb524834bdfeba",
+     "lang": "en",
+     "outlet": "Euronews",
+     "published": "2026-11-13T13:33:06+00:00",
+     "publisher": "Euronews",
+     "region": "europe",
+     "section": null,
+     "title": "Portugal government, schools and health services hit by global Microsoft outage",
+     "type": "international",
+     "url": "https://www.euronews.com/2026/11/13/portugal-government-schools-and-health-services-hit-by-global-microsoft-outage"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "8e0f847ca8087942",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-13T13:20:48+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Microsoft avanza en recuperación de sus servicios tras caída global; restablece tráfico gradualmente",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/cartera/microsoft-avanza-en-recuperacion-de-sus-servicios-tras-caida-global-restablece-trafico-gradualmente/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "9d217506e6b0904f",
+     "lang": "en",
+     "outlet": "Dawn (Pakistan)",
+     "published": "2026-11-13T13:13:40+00:00",
+     "publisher": "Dawn (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Hours-long Microsoft outage disrupts businesses, governments globally",
+     "type": "local",
+     "url": "https://www.dawn.com/news/2044258/hours-long-microsoft-outage-disrupts-businesses-governments-globally"
+    },
     {
      "added": "2026-11-13",
      "id": "f5b9daf3acb27228",
@@ -27189,6 +27388,19 @@
      "title": "Microsoft reports gradual traffic recovery after servers failure",
      "type": "state-media",
      "url": "https://tass.com/economy/2217845"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "95631891be1ab25c",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-13T12:16:44+00:00",
+     "publisher": "The Guardian",
+     "region": "global",
+     "section": null,
+     "title": "First Thing: Global Microsoft outage chaos as tech firm says there are ‘signs of stabilisation’",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation"
     },
     {
      "added": "2026-11-13",
@@ -27595,58 +27807,6 @@
      "title": "Microsoft outage live: ‘positive results for server stability’ reported, amid global disruption",
      "type": "local",
      "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "a39ec1a18c54338a",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-13T08:24:32+00:00",
-     "publisher": "Le Figaro",
-     "region": "europe",
-     "section": null,
-     "title": "Entreprises paralysées, examens perturbés, avions retardés… La panne mondiale de Microsoft et Outlook provoque des conséquences en cascade",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/secteur/high-tech/entreprises-paralysees-examens-perturbes-avions-retardes-la-panne-mondiale-de-microsoft-et-outlook-provoque-des-consequences-en-cascade-20261113"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "490d76d3f7d5bd99",
-     "lang": "pcm",
-     "outlet": "BBC Pidgin",
-     "published": "2026-11-13T08:24:08+00:00",
-     "publisher": "BBC",
-     "region": "africa",
-     "section": null,
-     "title": "Global Microsoft outage dey affect tens of thousands of users",
-     "type": "international",
-     "url": "https://www.bbc.com/pidgin/articles/cqx2e0pl80gro?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "85462ba3185f668f",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-13T08:22:33+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Outlook down today: What we know about Microsoft outage hitting email, Teams and 365 worldwide",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/microsoft-outage-today-microsoft-teams-microsoft-outlook-microsoft-365-apps-issue-why-is-outlook-down-downdetector-101794556194172.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "6378024a761496b0",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-13T08:16:11+00:00",
-     "publisher": "The Guardian",
-     "region": "global",
-     "section": null,
-     "title": "Microsoft ‘seeing positive results’ from attempts to fix global outage affecting Teams and Outlook",
-     "type": "international",
-     "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-outlook-teams-word-excel-reports"
     }
    ],
    "articles_today": 40,
@@ -27663,12 +27823,49 @@
     "microsoft-global-service-outage-2",
     "microsoft-outlook-global-outage-attribution"
    ],
-   "outlets_today": 38,
+   "outlets_today": 39,
    "previous_titles": [
     "Major Microsoft outage disrupts Teams and Outlook as thousands of users affected",
-    "Global Microsoft outage knocks out Outlook and other services"
+    "Global Microsoft outage knocks out Outlook and other services",
+    "Microsoft Outage Hits Outlook, Teams Worldwide, Draws 130,000 US Reports"
    ],
    "reports": [
+    {
+     "articles": [
+      "564e55643f7c77cd"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-13T06:35:39+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/microsoft-outage-today-latest-outlook-teams-down-openai-fixed-b3084265.html) reported that Microsoft stated attempts to fix the outage affecting Outlook and Teams were not going as expected."
+    },
+    {
+     "articles": [
+      "95631891be1ab25c"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-13T12:16:44+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/us-news/2026/nov/13/first-thing-global-microsoft-outage-chaos-signs-of-stabilisation) reported that users of Microsoft Teams and Outlook in businesses and public services reported problems, while the tech firm noted signs of stabilisation."
+    },
+    {
+     "articles": [
+      "4ebb524834bdfeba"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "Euronews"
+     ],
+     "published": "2026-11-13T13:33:06+00:00",
+     "text": "[Euronews](https://www.euronews.com/2026/11/13/portugal-government-schools-and-health-services-hit-by-global-microsoft-outage) reported that a global Microsoft outage disrupted sectors in Portugal, hindering access to Outlook and Teams."
+    },
     {
      "articles": [
       "122cb6bf191143eb",
@@ -28069,13 +28266,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Microsoft Outage Hits Outlook, Teams Worldwide, Draws 130,000 US Reports",
+   "title": "Global Microsoft outage knocks out Outlook and other services",
    "title_from": {
-    "backing": 16,
+    "backing": 20,
     "date": "2026-11-13",
-    "of": 29,
-    "outlet": "The Will (Nigeria)",
-    "url": "https://thewillnews.com/microsoft-outage-hits-outlook-teams-worldwide-draws-130000-us-reports/"
+    "of": 30,
+    "outlet": "RFI",
+    "url": "https://www.rfi.fr/en/science-and-technology/20261113-global-microsoft-outage-knocks-out-outlook-and-other-services"
    }
   },
   {
@@ -32110,8 +32307,34 @@
    "title": "Israel military strikes policy"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "2d20d74c3dc612ae",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-13T13:23:48+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "First child death from hypothermia recorded in Gaza — Health Ministry",
+     "type": "state-media",
+     "url": "https://tass.com/world/2217889"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "fc2e76a5a3bccd7e",
+     "lang": "en",
+     "outlet": "Middle East Monitor",
+     "published": "2026-11-13T13:16:41+00:00",
+     "publisher": "Middle East Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "9-month-old baby dies from severe cold in Gaza, 1st cold-related death this winter: Health Ministry",
+     "type": "regional",
+     "url": "https://www.middleeastmonitor.com/20261113-9-month-old-baby-dies-from-severe-cold-in-gaza-1st-cold-related-death-this-winter-health-ministry/"
+    },
     {
      "added": "2026-11-13",
      "id": "fc47a797b66698e7",
@@ -32139,15 +32362,29 @@
      "url": "https://www.newarab.com/news/nine-month-old-baby-dies-cold-gaza"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "gaza-winter-weather-conditions",
    "label": "Gaza winter weather conditions",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "2d20d74c3dc612ae",
+      "fc2e76a5a3bccd7e"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Middle East Monitor",
+      "TASS"
+     ],
+     "published": "2026-11-13T13:16:41+00:00",
+     "text": "[Middle East Monitor](https://www.middleeastmonitor.com/20261113-9-month-old-baby-dies-from-severe-cold-in-gaza-1st-cold-related-death-this-winter-health-ministry/), [TASS](https://tass.com/world/2217889) reported that the Health Ministry recorded the first cold-related death of a nine-month-old baby in Gaza this winter."
+    },
     {
      "articles": [
       "cc9cc97b526b384e",
@@ -32167,7 +32404,14 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "israel",
-   "title": "Gaza winter weather conditions"
+   "title": "9-month-old baby dies from severe cold in Gaza, 1st cold-related death this winter: Health Ministry",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 3,
+    "outlet": "Middle East Monitor",
+    "url": "https://www.middleeastmonitor.com/20261113-9-month-old-baby-dies-from-severe-cold-in-gaza-1st-cold-related-death-this-winter-health-ministry/"
+   }
   },
   {
    "article_count": 2,
@@ -35508,8 +35752,21 @@
    "title": "Sarajevo Canton Assembly constitutive session"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "37ff7ad66403e24d",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-13T13:21:01+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "ESPN's Stephen A Smith speaks out amid speculations over becoming Trump's next White House press secretary",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/espns-stephen-a-smith-speaks-out-amid-speculations-over-becoming-trumps-next-white-house-press-secretary-101794573985255.html"
+    },
     {
      "added": "2026-11-13",
      "id": "0ccdf0fdb4bdb8cf",
@@ -35522,6 +35779,19 @@
      "title": "Stephen Miller's new rule on White House staffers meeting lobbyists: Work for the people of the nation like Donald Trump, not for lobbyists",
      "type": "local",
      "url": "https://timesofindia.indiatimes.com/world/us/stephen-millers-new-rule-on-white-house-staffers-meeting-lobbyists-work-for-the-people-of-the-nation-like-donald-trump-not-for-lobbyists/articleshow/135803346.cms"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "d15144507073c633",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-13T12:20:30+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Trump considering firing White House Cabinet Secretary Meghan Bauer amid post-midterm reshuffle: Report",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/trump-considering-firing-white-house-cabinet-secretary-meghan-bauer-amid-post-midterm-reshuffle-report-101794570976572.html"
     },
     {
      "added": "2026-11-13",
@@ -35563,15 +35833,39 @@
      "url": "https://www.nytimes.com/2026/11/13/us/politics/stephen-miller-memo-wiles.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 6,
    "first_seen": "2026-11-13",
    "group": "namerica",
    "id": "white-house-lobbyist-meeting-rules",
    "label": "White House lobbyist meeting rules",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 4,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "d15144507073c633"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-13T12:20:30+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/trump-considering-firing-white-house-cabinet-secretary-meghan-bauer-amid-post-midterm-reshuffle-report-101794570976572.html) reported that White House Cabinet Secretary Meghan Bauer reportedly faces departure amid a post-midterm reshuffle."
+    },
+    {
+     "articles": [
+      "37ff7ad66403e24d"
+     ],
+     "date": "2026-11-13",
+     "group": "namerica",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-13T13:21:01+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/espns-stephen-a-smith-speaks-out-amid-speculations-over-becoming-trumps-next-white-house-press-secretary-101794573985255.html) reported that Stephen A. Smith dismissed speculation about becoming White House press secretary after meeting with Donald Trump."
+    },
     {
      "articles": [
       "0ccdf0fdb4bdb8cf"
@@ -35625,7 +35919,14 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "us",
-   "title": "White House lobbyist meeting rules"
+   "title": "Stephen Miller's new rule on White House staffers meeting lobbyists: Work for the people of the nation like Donald Trump, not for lobbyists",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 4,
+    "outlet": "Times of India",
+    "url": "https://timesofindia.indiatimes.com/world/us/stephen-millers-new-rule-on-white-house-staffers-meeting-lobbyists-work-for-the-people-of-the-nation-like-donald-trump-not-for-lobbyists/articleshow/135803346.cms"
+   }
   },
   {
    "article_count": 2,
@@ -38619,8 +38920,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 4,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "2a6520b67cab3e62",
+     "lang": "en",
+     "outlet": "The National",
+     "published": "2026-11-13T13:23:42+00:00",
+     "publisher": "The National",
+     "region": "mena",
+     "section": null,
+     "title": "Oil market to return to surplus for first time since start of Iran war, IEA says",
+     "type": "local",
+     "url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-market-to-return-to-surplus-for-first-time-since-start-of-iran-war-iea-says/"
+    },
     {
      "added": "2026-11-13",
      "id": "fcb0c5f4f0c30c68",
@@ -38672,17 +38986,60 @@
      "title": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
      "type": "international",
      "url": "https://www.euronews.com/2026/11/13/european-diesel-prices-stay-high-as-global-oil-supply-overtakes-demand-iea-says"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "858f256b3e20e6e4",
+     "lang": "ar",
+     "outlet": "Asharq News",
+     "published": "2026-11-13T10:31:11+00:00",
+     "publisher": "Asharq News",
+     "region": "mena",
+     "section": null,
+     "title": "وكالة الطاقة الدولية تعلن خططاً لسحب 71 مليون برميل إضافي من مخزونات النفط الاستراتيجية",
+     "type": "regional",
+     "url": "https://asharq.com/reports/202941/%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%AA%D8%B2%D9%85-%D8%B3%D8%AD%D8%A8-71-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D9%85%D9%86-%D9%85%D8%AE%D8%B2%D9%88%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B7/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "c0fc6f0d862515e0",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-13T10:12:11+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "World oil market is returning to surplus as Gulf exports recover, IEA says",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 7,
    "first_seen": "2026-11-13",
    "group": "global",
    "id": "international-energy-agency-global-oil-supply",
    "label": "International Energy Agency global oil supply and diesel prices report",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "merged": [
+    "global-oil-market-surplus-reports"
+   ],
+   "outlets_today": 6,
    "reports": [
+    {
+     "articles": [
+      "2a6520b67cab3e62",
+      "c0fc6f0d862515e0"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Reuters",
+      "The National"
+     ],
+     "published": "2026-11-13T10:12:11+00:00",
+     "text": "[Reuters](https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5), [The National](https://www.thenationalnews.com/business/energy/2026/11/13/oil-market-to-return-to-surplus-for-first-time-since-start-of-iran-war-iea-says/) reported that the IEA stated the world oil market is returning to surplus as Gulf exports recover."
+    },
     {
      "articles": [
       "627deb7fb9e6027f"
@@ -40614,8 +40971,24 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "b869ac85ce875ad1",
+     "lang": "en",
+     "outlet": "Mehr News",
+     "published": "2026-11-13T13:15:25+00:00",
+     "publisher": "Mehr News",
+     "region": "mena",
+     "section": null,
+     "title": "Funeral procession of unidentified martyrs of Sacred Defense",
+     "type": "state-media",
+     "url": "https://en.mehrnews.com/photo/249375/Funeral-procession-of-unidentified-martyrs-of-Sacred-Defense"
+    },
     {
      "added": "2026-11-13",
      "id": "48908cb78a7eb13b",
@@ -40646,14 +41019,28 @@
      "url": "https://en.mehrnews.com/news/249364/Tehran-hosting-funeral-ceremony-of-110-unknown-martyrs"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "iran-unknown-martyrs-funeral",
    "label": "Iran unknown martyrs funeral",
+   "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
    "outlets_today": 2,
-   "reports": [],
+   "reports": [
+    {
+     "articles": [
+      "b869ac85ce875ad1"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Mehr News"
+     ],
+     "published": "2026-11-13T13:15:25+00:00",
+     "text": "[Mehr News](https://en.mehrnews.com/photo/249375/Funeral-procession-of-unidentified-martyrs-of-Sacred-Defense) reported that a funeral ceremony was held in Tehran for unidentified martyrs of the Sacred Defense."
+    }
+   ],
    "single_source_today": false,
    "state_media_only_today": true,
    "status": "new",
@@ -43886,8 +44273,21 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "7e83a69922fa1fca",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-13T13:11:24+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Kenyan building collapse near Nairobi kills six people",
+     "type": "international",
+     "url": "https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss"
+    },
     {
      "added": "2026-11-13",
      "id": "bf282535fcbfef22",
@@ -43903,6 +44303,22 @@
     },
     {
      "added": "2026-11-13",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "5390ac8653a3aa32",
+     "lang": "en",
+     "outlet": "The Rio Times",
+     "published": "2026-11-13T11:57:01+00:00",
+     "publisher": "The Rio Times",
+     "region": "latam",
+     "section": null,
+     "title": "Six Die as Building Collapses Near Nairobi",
+     "type": "regional",
+     "url": "https://www.riotimesonline.com/syokimau-building-collapse-mombasa-road-kenya/"
+    },
+    {
+     "added": "2026-11-13",
      "id": "4b558cc6965935f6",
      "lang": "en",
      "outlet": "Times of India",
@@ -43915,15 +44331,29 @@
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/6-dead-after-building-collapses-near-kenyas-capital/articleshow/135801055.cms"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "kenya-building-collapse",
    "label": "Kenya building collapse",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "5390ac8653a3aa32",
+      "7e83a69922fa1fca"
+     ],
+     "date": "2026-11-13",
+     "group": "africa",
+     "outlets": [
+      "Al Jazeera",
+      "The Rio Times"
+     ],
+     "published": "2026-11-13T11:57:01+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/13/kenyan-building-collapse-near-nairobi-kills-six-people?traffic_source=rss), [The Rio Times](https://www.riotimesonline.com/syokimau-building-collapse-mombasa-road-kenya/) reported that a building under construction collapsed in Syokimau near Nairobi, killing at least six people."
+    },
     {
      "articles": [
       "4b558cc6965935f6",
@@ -43943,7 +44373,14 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "kenya",
-   "title": "Kenya building collapse",
+   "title": "Six Die as Building Collapses Near Nairobi",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-13",
+    "of": 3,
+    "outlet": "The Rio Times",
+    "url": "https://www.riotimesonline.com/syokimau-building-collapse-mombasa-road-kenya/"
+   },
    "topic": "disaster"
   },
   {
@@ -44240,9 +44677,473 @@
    "status": "new",
    "title": "Spain rail leadership appointments",
    "topic": "politics"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "969760e57d09ebc8",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-13T13:25:22+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Šokantne tvrdnje bivšeg inspektora BIA-e: Milan Radoičić otišao u Rusiju, sud mu zabranio izlazak iz Srbije",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/region/1087662/sokantne-tvrdnje-bivseg-inspektora-bia-e-milan-radoicic-otisao-u-rusiju-sud-mu-zabranio-izlazak-iz-srbije"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "7f231fe91a30c9f3",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-13T13:15:13+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Bivši inspektor BIA-e tvrdi da je Milan Radoičić pobjegao u Rusiju",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/region/bivsi-inspektor-bia-e-tvrdi-da-je-milan-radoicic-pobjegao-u-rusiju/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "6bf42c388fc24c22",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-13T13:06:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Bivši inspektor BIA-e tvrdi da je Milan Radoičić pobjegao u Rusiju: Ranije mu zabranjeno napuštanje Srbije",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/regija/bivsi-inspektor-bia-e-tvrdi-da-je-milan-radoicic-pobjegao-u-rusiju-ranije-mu-zabranjeno-napustanje-srbije/261113144"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "milan-radoicic-location-claims",
+   "label": "Milan Radoičić location claims",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "6bf42c388fc24c22",
+      "7f231fe91a30c9f3",
+      "969760e57d09ebc8"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Klix",
+      "Oslobođenje",
+      "Dnevni Avaz"
+     ],
+     "published": "2026-11-13T13:06:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/regija/bivsi-inspektor-bia-e-tvrdi-da-je-milan-radoicic-pobjegao-u-rusiju-ranije-mu-zabranjeno-napustanje-srbije/261113144), [Oslobođenje](https://www.oslobodjenje.ba/vijesti/region/bivsi-inspektor-bia-e-tvrdi-da-je-milan-radoicic-pobjegao-u-rusiju/), [Dnevni Avaz](https://avaz.ba/vijesti/region/1087662/sokantne-tvrdnje-bivseg-inspektora-bia-e-milan-radoicic-otisao-u-rusiju-sud-mu-zabranio-izlazak-iz-srbije) reported that a former BIA inspector claimed Milan Radoičić fled to Russia despite a court ban on leaving Serbia."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "serbia",
+   "title": "Milan Radoičić location claims",
+   "topic": "crime"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "e8c9fb154e54325e",
+     "lang": "fr",
+     "outlet": "Le Monde",
+     "published": "2026-11-13T12:43:02+00:00",
+     "publisher": "Le Monde",
+     "region": "europe",
+     "section": null,
+     "title": "Sébastien Lecornu ouvre une discussion d’un mois avec les syndicats de fonctionnaires, notamment sur la revalorisation des « bas salaires »",
+     "type": "local",
+     "url": "https://www.lemonde.fr/politique/article/2026/11/13/mobilisations-sociales-sebastien-lecornu-ouvre-une-discussion-d-un-mois-avec-les-syndicats_6809324_823448.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "11b2505dd5bbbdda",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-13T12:23:36+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "«Ne pas baisser la garde» : Laurent Nuñez promet un gros dispositif «réactif et percutant» pour un nouveau samedi de colère sociale à hauts risques",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/actualite-france/ne-pas-baisser-la-garde-laurent-nunez-promet-un-gros-dispositif-reactif-et-percutant-pour-un-nouveau-samedi-de-colere-sociale-a-hauts-risques-20261113"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "c0b259faa38df361",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-13T08:34:03+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "EN DIRECT - Colère sociale : les syndicats de fonctionnaires reçus par Lecornu pour réclamer de meilleurs salaires, appel à un «acte V» samedi",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/actualite-france/en-direct-colere-sociale-syndicats-fonctionnaires-greve-mobilisation-lecornu-salaires-lycees-proviseurs-20261113"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "france-civil-service-protests-and-wages",
+   "label": "France civil service protests and wages",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e8c9fb154e54325e"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Le Monde"
+     ],
+     "published": "2026-11-13T12:43:02+00:00",
+     "text": "[Le Monde](https://www.lemonde.fr/politique/article/2026/11/13/mobilisations-sociales-sebastien-lecornu-ouvre-une-discussion-d-un-mois-avec-les-syndicats_6809324_823448.html) reported that Sébastien Lecornu opened a month-long discussion with civil service unions, following which the CFDT announced it will join a public strike and mobilization."
+    },
+    {
+     "articles": [
+      "11b2505dd5bbbdda"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Le Figaro"
+     ],
+     "published": "2026-11-13T12:23:36+00:00",
+     "text": "[Le Figaro](https://www.lefigaro.fr/actualite-france/ne-pas-baisser-la-garde-laurent-nunez-promet-un-gros-dispositif-reactif-et-percutant-pour-un-nouveau-samedi-de-colere-sociale-a-hauts-risques-20261113) reported that Laurent Nuñez promised a large security deployment for a new Saturday of social unrest."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "france",
+   "title": "France civil service protests and wages",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "b5a961e199bf5aa6",
+     "lang": "es",
+     "outlet": "El Colombiano",
+     "published": "2026-11-13T12:53:11+00:00",
+     "publisher": "El Colombiano",
+     "region": "latam",
+     "section": null,
+     "title": "Paz Total, gas y chavismo: las claves del papel de Petro en el fraude electoral de Maduro, según informe gringo",
+     "type": "local",
+     "url": "https://www.elcolombiano.com/colombia/petro-ayudo-a-maduro-a-sostenerse-tras-fraude-electoral-segun-informe-FG43542601"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "55839a81b9a59d34",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-13T03:25:00+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "Gustavo Petro fue 'cómplice' en el fraude electoral de Nicolás Maduro en Venezuela: paz total y agenda energética, entre las claves",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/gustavo-petro-fue-complice-en-el-fraude-electoral-de-nicolas-maduro-en-venezuela-paz-total-y-agenda-energetica-entre-las-claves-3600661"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "latam",
+   "id": "colombia-and-venezuela-political-relations",
+   "label": "Colombia and Venezuela political relations",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "55839a81b9a59d34",
+      "b5a961e199bf5aa6"
+     ],
+     "date": "2026-11-13",
+     "group": "latam",
+     "outlets": [
+      "El Tiempo",
+      "El Colombiano"
+     ],
+     "published": "2026-11-13T03:25:00+00:00",
+     "text": "[El Tiempo](https://www.eltiempo.com/mundo/eeuu-y-canada/gustavo-petro-fue-complice-en-el-fraude-electoral-de-nicolas-maduro-en-venezuela-paz-total-y-agenda-energetica-entre-las-claves-3600661), [El Colombiano](https://www.elcolombiano.com/colombia/petro-ayudo-a-maduro-a-sostenerse-tras-fraude-electoral-segun-informe-FG43542601) reported that a report from the Miranda Center for Democracy stated that Gustavo Petro was complicit in Nicolás Maduro's electoral fraud in Venezuela."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "colombia",
+   "title": "Colombia and Venezuela political relations",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "69c86446f6cce856",
+     "lang": "en",
+     "outlet": "Naharnet",
+     "published": "2026-11-13T13:16:54+00:00",
+     "publisher": "Naharnet",
+     "region": "mena",
+     "section": null,
+     "title": "Low-flying drones buzz Beirut as Israeli shelling targets southern towns",
+     "type": "local",
+     "url": "https://www.naharnet.com/stories/en/323762-low-flying-drones-buzz-beirut-as-israeli-shelling-targets-southern-towns"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "4a02fdde6e9df39a",
+     "lang": "en",
+     "outlet": "Yeni Şafak (English)",
+     "published": "2026-11-13T11:00:17+00:00",
+     "publisher": "Yeni Şafak (English)",
+     "region": "mena",
+     "section": null,
+     "title": "Israeli forces shell 5 southern Lebanon towns as drones fly low over Beirut",
+     "type": "local",
+     "url": "http://en.yenisafak.com/world/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut-3725535"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "mena",
+   "id": "israel-and-lebanon-border-shelling",
+   "label": "Israel and Lebanon border shelling",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4a02fdde6e9df39a",
+      "69c86446f6cce856"
+     ],
+     "date": "2026-11-13",
+     "group": "mena",
+     "outlets": [
+      "Yeni Şafak (English)",
+      "Naharnet"
+     ],
+     "published": "2026-11-13T11:00:17+00:00",
+     "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut-3725535), [Naharnet](https://www.naharnet.com/stories/en/323762-low-flying-drones-buzz-beirut-as-israeli-shelling-targets-southern-towns) reported that Israeli forces shelled five southern Lebanon towns and low-flying drones buzzed Beirut."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "lebanon",
+   "title": "Israel and Lebanon border shelling",
+   "topic": "conflict"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "7595ef19aa5b2ef9",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-13T13:23:46+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Saniran oštećeni zid korita Miljacke između mostova Čobanija i Drvenija",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/sarajevo/saniran-osteceni-zid-korita-miljacke-izmedu-mostova-cobanija-i-drvenija/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "2a4b597c64eafdfa",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-13T11:38:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Saniran oštećeni zid korita Miljacke između mostova Čobanija i Drvenija, radovi koštali 208 hiljada KM",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/saniran-osteceni-zid-korita-miljacke-izmedu-mostova-cobanija-i-drvenija-radovi-kostali-208-hiljada-km/261113116"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "sarajevo-miljacka-riverbed-wall-repairs",
+   "label": "Sarajevo Miljacka riverbed wall repairs",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2a4b597c64eafdfa",
+      "7595ef19aa5b2ef9"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Klix",
+      "Oslobođenje"
+     ],
+     "published": "2026-11-13T11:38:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/bih/saniran-osteceni-zid-korita-miljacke-izmedu-mostova-cobanija-i-drvenija-radovi-kostali-208-hiljada-km/261113116), [Oslobođenje](https://www.oslobodjenje.ba/vijesti/sarajevo/saniran-osteceni-zid-korita-miljacke-izmedu-mostova-cobanija-i-drvenija/) reported that the City of Sarajevo completed repairs on the damaged Miljacka riverbed wall between the Čobanija and Drvenija bridges."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "bosnia",
+   "title": "Sarajevo Miljacka riverbed wall repairs",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "9d9c3c05055a4c54",
+     "lang": "en",
+     "outlet": "RTÉ",
+     "published": "2026-11-13T13:37:00+00:00",
+     "publisher": "RTÉ",
+     "region": "europe",
+     "section": null,
+     "title": "Increased sentence for former priest who raped sisters",
+     "type": "local",
+     "url": "https://www.rte.ie/news/courts/2026/1113/1599116-richard-brennan/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "72bbc7c4d4fa628f",
+     "lang": "en",
+     "outlet": "The Irish Times",
+     "published": "2026-11-13T13:11:31+00:00",
+     "publisher": "The Irish Times",
+     "region": "europe",
+     "section": null,
+     "title": "Former priest’s prison sentence for sexually abusing his sisters increased to 14 years",
+     "type": "local",
+     "url": "https://www.irishtimes.com/ireland/2026/11/14/former-priests-prison-sentence-for-sexually-abusing-his-sisters-increased-to-14-years/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "former-priest-s-prison-sentence-for",
+   "label": "Former priest’s prison sentence for sexually abusing his sisters increased to 14 years",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "72bbc7c4d4fa628f",
+      "9d9c3c05055a4c54"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "The Irish Times",
+      "RTÉ"
+     ],
+     "published": "2026-11-13T13:11:31+00:00",
+     "text": "[The Irish Times](https://www.irishtimes.com/ireland/2026/11/14/former-priests-prison-sentence-for-sexually-abusing-his-sisters-increased-to-14-years/), [RTÉ](https://www.rte.ie/news/courts/2026/1113/1599116-richard-brennan/) reported that former priest Richard Brennan's prison sentence for abusing his sisters was increased."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Former priest’s prison sentence for sexually abusing his sisters increased to 14 years",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "1ccd2c0760f7d752",
+     "lang": "sr",
+     "outlet": "Blic",
+     "published": "2026-11-13T13:35:32+00:00",
+     "publisher": "Blic",
+     "region": "europe",
+     "section": null,
+     "title": "\"SVI SMO SE USAGLASILI DA GLASANJE BUDE JAVNO\" Studentska lista nakon konsultacija: \"Predsednik Skupštine Srbije i potpredsednici biće izglasani većinom na sednici\"",
+     "type": "local",
+     "url": "https://www.blic.rs/vesti/politika/studentska-lista-o-konsultacijama-u-skupstini-srbije-svi-smo-se-slozili-smo-se/6s4lgp3"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "98430af544e3c475",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-13T13:17:40+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Oglasili se Studentska lista, Brnabić i Jovanov: Poznati detalji konsultacija",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/ex-yu/Oglasili-se-Studentska-lista-Brnabic-i-Jovanov-Poznati-detalji-konsultacija/992272"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "europe",
+   "id": "serbia-national-assembly-consultations",
+   "label": "Serbia National Assembly consultations",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1ccd2c0760f7d752",
+      "98430af544e3c475"
+     ],
+     "date": "2026-11-13",
+     "group": "europe",
+     "outlets": [
+      "Nezavisne Novine",
+      "Blic"
+     ],
+     "published": "2026-11-13T13:17:40+00:00",
+     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/ex-yu/Oglasili-se-Studentska-lista-Brnabic-i-Jovanov-Poznati-detalji-konsultacija/992272), [Blic](https://www.blic.rs/vesti/politika/studentska-lista-o-konsultacijama-u-skupstini-srbije-svi-smo-se-slozili-smo-se/6s4lgp3) reported that representatives of the Students' List, Ana Brnabić, and Milenkov attended consultations in the National Assembly of Serbia regarding the upcoming constituent session."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "serbia",
+   "title": "Serbia National Assembly consultations",
+   "topic": "politics"
   }
  ],
  "retry": [],
  "site": "geo",
- "updated": "2026-11-13T13:17:24+00:00"
+ "updated": "2026-11-13T13:51:35+00:00"
 }

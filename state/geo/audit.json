@@ -483,98 +483,170 @@
  },
  {
   "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Global Microsoft outage knocks out Outlook and other services",
-  "text": "[14] France 24 reported that Microsoft stated there is no sign of malicious activity behind the outage.",
-  "reason": "number not in cited articles: 24"
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Manchester United manager appointment",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
  },
  {
   "date": "2026-11-13",
   "kind": "skipped",
   "group": "europe",
-  "story": "Spain and Argentina weather forecasts",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Ucrania anuncia que Europa participará en las negociaciones de paz con Rusia: 'N"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): El enviado de Trump asegura que Putin acepta que Europa se sume a las negociacio"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Europa se da dos semanas para decidir quién la representará en las negociaciones"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Enviado de Donald Trump asegura que Putin acepta que Europa se sume a las negoci"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): US envoys shuttle between Putin and Zelenskyy"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "[17] reported that Ukraine announced Europe will participate in peace negotiations with Russia.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "[18] reported that Donald Trump's envoy stated Putin accepts Europe joining peace negotiations on Ukraine, while the Russian president warned that Western troop deployments would reactivate the war.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Putin Agrees for Europe to Join Ukraine Peace Talks, Witkoff Says",
+  "text": "[19] reported that Kallas claimed the EU should be represented by its institutions, while France and Germany advocated for a tripartite format with the UK.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "France civil service protests and wages",
+  "text": "[21] reported that civil service unions met with Sébastien Lecornu to demand better salaries amid calls for a social protest act V.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Weather forecasts in regional areas",
   "text": "",
   "reason": "off-topic for this site (topic: weather): not created"
  },
  {
   "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Al-Aqsa Mosque Friday prayers",
-  "text": "[44][45] reported that 70,000 worshippers performed Friday prayers at the Al-Aqsa Mosque despite Israeli restrictions and checkpoints.",
-  "reason": "number not in cited articles: 70000"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "global",
-  "story": "International Energy Agency global oil supply and diesel prices report",
-  "text": "[51] TASS reported that global oil refining throughput fell in October to a seasonal low of 81.3 million barrels per day.",
-  "reason": "number not in cited articles: 81300000"
- },
- {
-  "date": "2026-11-13",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Israel bars France's Mélenchon over call for French ships to escort Gaza flotillas",
-  "text": "[60] Al Jazeera reported that France slammed Israel's ban on left-wing leader Jean-Luc Mélenchon after France banned a prominent Israeli settler.",
-  "reason": "names not in cited articles: Jazeera, Jean-Luc"
- },
- {
-  "date": "2026-11-13",
-  "kind": "dropped",
-  "group": "africa",
-  "story": "",
-  "text": "Police arrest suspected robbers terrorising Kano communities",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-13",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Australia cricket captain describes Khawaja’s Sandpapergate claim as ‘utter nonsense’",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-13",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Anitta vence o primeiro Grammy Latino da carreira com 'EQUILIBRIVM'",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-13",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Jensen Huang, Howard Lutnick to testify before US Congress amid Nvidia row: Reports",
-  "text": "Nvidia Asian supply chain future",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-13",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
-  "text": "Russian Drone Attack Damages Kyiv Trauma Institute",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-13",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Court Orders INEC to Reinstate Adebutu as Ogun PDP Guber Candidate Within 24 Hours",
-  "text": "2027: INEC will obey court ruling on Atiku’s candidacy – Amupitan",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-13",
-  "kind": "merged",
+  "kind": "skipped",
   "group": "namerica",
-  "story": "Global Microsoft outage knocks out Outlook and other services",
-  "text": "Microsoft Outlook global outage attribution",
+  "story": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump tira seu vice de negociação com Irã e diz que EUA não precisam de acordo"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Irã ataca radares no Bahrein e relata incidente com navio em Ormuz após Trump mi"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
+  "text": "[40] reported that Donald Trump stated he removed Vice President J.D. Vance from potential peace negotiations with Iran.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
+  "text": "[41] reported that Iran's Revolutionary Guard announced an attack on a US early-warning radar system in Bahrain after Trump minimized the need for a deal.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Global oil market surplus reports",
+  "text": "[74] reported that the International Energy Agency announced plans to withdraw an additional 71 million barrels from strategic oil reserves.",
+  "reason": "number not in cited articles: 71000000"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Kenya building collapse",
+  "text": "Nairobi building collapse",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Guinness World Record for pulling aircraft",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "title",
+  "group": "europe",
+  "story": "Former priest’s prison sentence for sexually abusing his sisters increased to 14 years",
+  "text": "Irish court sentencing of former priest",
+  "reason": "title replaced by a headline: names not in cited articles: Irish"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Board of Peace develops framework to ensure medical access in Gaza amid strikes",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-13",
+  "kind": "merged",
+  "group": "global",
+  "story": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
+  "text": "Global oil market surplus reports",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

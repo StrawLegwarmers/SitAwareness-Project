@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 571,
+   "articles": 607,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 21,
+   "calls": 5,
+   "candidates": 24,
    "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 519,
-   "in_stories": 42,
-   "kept": 26,
+   "groups": 550,
+   "in_stories": 49,
+   "kept": 31,
    "merged": 1,
-   "new": 16,
-   "rejected": 9,
+   "new": 19,
+   "rejected": 10,
    "reported_by_2": 14,
-   "runs": 4,
-   "sent": 21,
+   "runs": 5,
+   "sent": 24,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -27,7 +27,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T13:17:24+00:00"
+  "all": "2026-11-13T13:51:35+00:00"
  },
  "narratives": [
   {
@@ -1216,9 +1216,227 @@
    "status": "new",
    "title": "Bank of England private credit warnings",
    "topic": "economy"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a558bfb1ffc23786",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-13T11:08:09+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Colette Kress, the CFO who challenged Huang’s bets, is Nvidia’s interim CEO",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "31a809476f29648d",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-12T15:19:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/colette-kress-nvidia-interim-ceo-ff26ef3a?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "d1b98307538fed81",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-12T15:10:32+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "who-is-nvidia-s-interim-ceo",
+   "label": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "d1b98307538fed81"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-12T15:10:32+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss) reported that chief financial officer Colette Kress is in charge of Nvidia for now."
+    },
+    {
+     "articles": [
+      "31a809476f29648d"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-12T15:19:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/colette-kress-nvidia-interim-ceo-ff26ef3a?mod=pls_whats_news_us_business_f) reported that Nvidia’s longtime finance chief spent years at Microsoft and Cisco."
+    },
+    {
+     "articles": [
+      "a558bfb1ffc23786"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-13T11:08:09+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/tech/colette-kress-nvidia-interim-ceo-ff26ef3a?mod=pls_whats_news_us_business_f"
+   },
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "784e5791bad86004",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-13T13:33:28+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Bessent urges Fed caution on raising rates amid energy supply shock",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/bessent-urges-fed-caution-on-raising-rates-amid-energy-supply-shock-5025483"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "15e7bf03cff2e010",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-12T02:37:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Dovish BOJ Member Urges Caution in Raising Rates Further",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/dovish-boj-member-urges-caution-in-raising-rates-further-a40524b3?mod=rss_socialeconomyfeed"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "dovish-boj-member-urges-caution-in",
+   "label": "Dovish BOJ Member Urges Caution in Raising Rates Further",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "15e7bf03cff2e010"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-12T02:37:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/dovish-boj-member-urges-caution-in-raising-rates-further-a40524b3?mod=rss_socialeconomyfeed) reported that Bank of Japan board member Toichiro Asada warned about the risk of higher interest rates hurting the economy."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Dovish BOJ Member Urges Caution in Raising Rates Further",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f73c262c4a5cfcfc",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-13T12:49:44+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "How US tech pain is European stock markets' gain",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/how-us-tech-pain-is-european-stock-markets-gain/articleshow/135804056.cms"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "1cc8344859054e9c",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-13T12:42:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Analysis-How US tech pain is European stock markets’ gain",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/analysishow-us-tech-pain-is-european-stock-markets-gain-5025195"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "european-stock-markets-performance",
+   "label": "European stock markets performance",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f73c262c4a5cfcfc"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-13T12:49:44+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/how-us-tech-pain-is-european-stock-markets-gain/articleshow/135804056.cms) reported that European stock markets, particularly the STOXX 600, are performing well as tech turmoil affects global markets."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "European stock markets performance",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T13:17:40+00:00"
+ "updated": "2026-11-13T13:51:52+00:00"
 }
