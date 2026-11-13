@@ -192,9 +192,21 @@ def _mock(system: str, prompt: str, schema: dict, model: str) -> dict:
     the first group it deliberately writes some BAD reports (an analysis word, an article number
     that doesn't exist, a wrong number) so you can watch the guardrails remove them.
     """
-    if "### Story " in prompt:     # maintenance.py's clean-up check: call every suspect different
+    if "### Story " in prompt:
+        stories = re.findall(r"^### Story (\S+)\n(.*?)(?=^### Story |\Z)", prompt, re.M | re.S)
+        if '"label"' in json.dumps(schema):   # maintenance.py's wider-story names: the first headline's first 5 words
+            return {"stories": [{"id": sid, "label": " ".join((re.findall(r"^\s+- (.+)$", block, re.M) or [""])[0].split()[:5])}
+                                for sid, block in stories]}
+        # maintenance.py's clean-up check: call every suspect different
         return {"stories": [{"id": sid, "different": [int(k) for k in re.findall(r"^\s+\[(\d+)\]", block, re.M)]}
-                            for sid, block in re.findall(r"^### Story (\S+)\n(.*?)(?=^### Story |\Z)", prompt, re.M | re.S)]}
+                            for sid, block in stories]}
+    if "### Pair " in prompt:      # the duplicate check: "same" when both names share two words
+        def name_words(s):
+            return {w for w in re.findall(r"\w{4,}", s.lower())}
+        out = []
+        for num, a, b in re.findall(r"^### Pair (\d+)\nA: (.*)\n(?:    - .*\n)*B: (.*)", prompt, re.M):
+            out.append({"pair": int(num), "same": len(name_words(a) & name_words(b)) >= 2})
+        return {"pairs": out}
     heads = {int(n): h for n, h in re.findall(r"^\[(\d+)\] [^|]*\| ([^|\n]+)", prompt, re.M)}
     out = []
     blocks = re.split(r"^### Group \d+", prompt, flags=re.M)[1:]
@@ -208,7 +220,7 @@ def _mock(system: str, prompt: str, schema: dict, model: str) -> dict:
         if not refs:
             continue
         item = {"id": cont.group(1) if cont else "", "title": " ".join(heads[refs[0]].split()[:6]),
-                "country": "", "articles": refs,
+                "country": "", "topic": os.environ.get("MOCK_TOPIC") or "politics", "articles": refs,
                 "reports": [{"text": f"[{refs[0]}] reported: {heads[refs[0]].strip()}", "articles": [refs[0]]}]}
         if len(refs) > 1:     # a second outlet saying the same thing: should become "also reported by"
             item["reports"].append({"text": f"[{refs[1]}] reported: {heads[refs[0]].strip()}", "articles": [refs[1]]})

@@ -7,10 +7,15 @@ name: Cyber Daily
 focus: >-
   cyber threat intelligence: threat actors and campaigns, ransomware and extortion,
   exploited vulnerabilities, data breaches, government advisories and takedowns,
-  cyber policy, and security incidents affecting aviation, airlines and aerospace
+  cyber policy, security incidents affecting aviation, airlines and aerospace, and major outages
+  of cloud, IT, telecom and internet services that many organisations rely on, whatever the cause
 ignore: >-
-  product marketing, webinars, funding rounds, generic tech news with no security angle,
+  product marketing, webinars, funding rounds, generic tech news with no security or outage angle,
   and aviation business news with no security or safety angle
+
+# Topics this site keeps (see config/geo/site.yaml). "infrastructure" covers outages.
+topics: [cyber, security, infrastructure, technology-policy, justice, crime, conflict, diplomacy, disaster,
+         politics, business-strategic]
 
 # Cyber has one group that sees news, intel and aviation together, because the same campaign
 # is often reported by a vendor blog AND the press. "advisories" is deliberately NOT here:

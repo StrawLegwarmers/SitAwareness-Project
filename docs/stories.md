@@ -89,15 +89,48 @@ The reason for each failure is kept in the state file and shown on the website, 
 
 | The AI says | Code checks |
 |---|---|
-| "These articles continue story X" | Code suggested X for these articles, or at least one headline shares two rare words, including a distinctive name, with the story's title or headlines. Otherwise the articles start a new story (with a title from their own headlines), so unrelated news isn't glued onto an old story about the same country |
-| "This is a new story" | It has at least two articles (one is enough for research from a source in `single_source_stories`, unless the headline is product news); it isn't a story already tracked (see Duplicates); it isn't entertainment or sport (`story_terms` in `content_types.yaml`: a film festival, an actor's death, a transfer) |
-| A new title for a tracked story | Only accepted when code found the old title no longer fits (fewer than a quarter of the story's recent English headlines share a rare word with it, places aside), and the new title passes the title checks. The old title is kept in `previous_titles` |
+| "These articles continue story X" | Checked group by group: each of code's groups in the answer must be one code suggested for X, or have a headline sharing two rare words, including a distinctive name, with the story's title or headlines. A group that fails is left out (and any report citing it is refused), so one unrelated headline can't ride along with a correct group. If every group fails, the articles start a new story |
+| "This is a new story" | It has at least two articles (one is enough for research from a source in `single_source_stories`, unless the headline is product news); it isn't a story already tracked (see Duplicates); it isn't entertainment or sport (`story_terms` in `content_types.yaml`); and its **topic** is one the site keeps (see Topics) |
+| A title for a tracked story | Ignored: titles of running stories come from code (see Titles) |
 | A report | The guardrails below |
-| A title | The same checks; a title that fails is replaced by a real headline |
+| A title for a new story | The same checks; a title that fails is replaced by a real headline. It becomes the story's wider-story name |
 
 Everything code refuses is logged in `state/<site>/audit.json` with a kind: `rejected` (a sentence
-failed a guardrail), `title`, `skipped` (a story not created or extended), `merged`, `correction`,
+failed a guardrail), `title`, `skipped` (a story not created or extended), `dropped` (a group of two
+or more outlets the AI returned no story for: usually judged off-topic), `merged`, `correction`,
 `commentary` or `info`. Only `rejected` sentences count as "removed by the checks" on the website.
+`python pipeline/narratives.py --site cyber --audit` answers "why isn't X on the site?".
+
+### Topics
+
+The AI labels every story with one topic from a fixed list (`TOPICS` in `narratives.py`, rule 13 of
+the prompt): conflict, security, diplomacy, politics, elections, justice, economy, energy,
+infrastructure (outages), migration, humanitarian, disaster, health-emergency, cyber,
+technology-policy, crime, business-strategic, markets-strategic, and the ones no site keeps:
+business, markets, health, science, technology, sport, entertainment, culture, celebrity,
+lifestyle, weather, other. Each site lists the topics it keeps (`topics` in `site.yaml`); a new
+story with another topic isn't created, and the audit log says which topic. Company and market
+news stays only when the articles tie it to governments, sanctions, export controls, national
+security, conflict or critical supply chains (business-strategic, markets-strategic). Choosing a
+label is more reliable than remembering a list of exclusions. A story without a topic is kept: the
+other filters still apply.
+
+### Titles: the latest headline, under its wider story
+
+A story has two names:
+
+- its **wider story** (`label`): set on its first day from the AI's topic label ("Nvidia CEO affair
+  and espionage claims"), and kept. Code places the story by it, so it doesn't move region daily.
+- its **title**: each day, the real headline that best represents that day's coverage, picked by
+  code (`cluster.lead_headline`): the English headline that matches the most other outlets'
+  headlines that day, wires and international outlets first on a tie, never a live blog, explainer
+  or question, and never a state outlet's headline when another qualifies. It needs at least three
+  articles that day and backing from at least 40% of the day's other outlets (two at least);
+  otherwise the title stays as it was. So a single unrelated headline filed under the story can
+  never become its title. Earlier titles are kept in `previous_titles`.
+
+The website shows the title first and, for a story running since before the period, its wider
+story in a small box above it, which opens the earlier reporting. The AI never renames a story.
 
 ### Status
 
@@ -151,7 +184,8 @@ The AI writes `[12]`; code replaces it with a link to article 12's outlet. **The
 web address.** When the AI names an outlet instead of a number, code adds the number only if that
 outlet really published one of the articles it pointed to.
 
-Story **titles** are checked the same way; a title that fails is replaced by a real headline.
+Story **names** written by the AI are checked the same way; one that fails is replaced by a real
+headline. Titles of running stories are real headlines picked by code (see Titles).
 
 Every removed sentence is logged in `state/<site>/audit.json` with the reason, kept 7 days, and
 counted at the foot of the website. Run `python pipeline/guardrails.py` to see the checks applied to
@@ -163,6 +197,7 @@ examples.
 |---|---|
 | The AI proposes a "new" story that matches one already tracked | Merged into the existing one, if both have at least 6 meaningful words, share at least 3, overlap by at least 50%, and have at least one country in common |
 | Two tracked stories turn out to be one event | Merged after the run, when half the headlines of one pass the grouping test against the other's, in the same countries |
+| Two stories the word test can't link (other languages, a big day when every headline says "Microsoft") | Code lists pairs updated today, one of them new, whose core names overlap (rare capitalised words in the wider-story name or in two of the day's headlines, not countries, not names found in more than 6 stories) and whose countries don't clash: at most 30 pairs. One AI call answers "same event?" for each (`config/prompts/duplicates.md`); code merges only the pairs it asked about and the AI said yes to, into the older story |
 | A report repeats one already in the story, from the same outlets | Skipped |
 | A report repeats facts already collected, from a new outlet | Added to the earlier report as "also reported by" |
 | Several outlets report the same fact in the same call | The prompt asks for one report citing them all: "[4][9] reported that..." |
@@ -184,8 +219,11 @@ make the changes, leave it unticked to only list them):
   checks the suspects (`config/prompts/cleanup.md`), and only those both agree on are moved: two or
   more about the same thing become their own story, with the reports that cite only them; single
   ones leave the story. Everything moved is in the audit log (kind `cleanup`).
-- **titles** lists stories whose title no longer fits their recent headlines. These are renamed
-  by the next daily run, when they get new articles (see above), so nothing needs doing by hand.
+- **labels** refreshes the wider-story names of stories running more than a day. The AI proposes
+  a neutral topic name covering all of a story's headlines (`config/prompts/labels.md`); code keeps
+  it only if its names and numbers come from the headlines and it fits at least half of the
+  story's English headlines (a shared rare word that isn't a country, and no clash of countries),
+  and not noticeably worse than the old name. Each change is in the audit log (kind `title`).
 
 ## Corrections
 
@@ -197,7 +235,16 @@ remove_country:
   - {story: "Exact story title as shown on the website", country: spain}
 place:
   - {story: "Exact story title", region: namerica, countries: [us, china]}
+remove_headline:     # one headline that doesn't belong, with any report resting only on it
+  - {story: story-id, headline: "FSB foils terror plot at Stavropol"}
+merge:               # into the first one listed
+  - {stories: [story-id, other-story-id]}
+hide:                # off the site (archived, marked hidden)
+  - {story: story-id}
 ```
+
+A story can be named by its id, its title or its wider-story name; the id never changes (it is
+shown in the audit log and in `state/geo/narratives.json`).
 
 `remove_country`: on every run, articles and reports that mention that country and none of the
 countries in the story's own title are taken out of the story and logged in the audit. They then

@@ -6,11 +6,20 @@ name: Geopolitical Daily
 
 # What counts as a story here, and what to skip. These lines go straight into the AI prompt.
 focus: >-
-  geopolitics, armed conflict, diplomacy, elections and political crises, security,
-  sanctions and economic shocks, migration, and humanitarian emergencies
+  geopolitics, armed conflict, diplomacy, elections and political crises, domestic politics and
+  government policy (laws, regulation, appointments and purges, protests), security, sanctions and
+  economic shocks, energy, migration, humanitarian emergencies, and major outages of critical services
 ignore: >-
   sports, entertainment, celebrity, lifestyle, horoscopes, adverts, routine local crime,
-  and weather (unless it is a disaster)
+  weather (unless it is a disaster), medicine and health advice (outbreaks excepted), and company
+  or market news with no tie to governments, sanctions, security, conflict or critical supply chains
+
+# Topics this site keeps (the AI labels every new story with one: narratives.py TOPICS, prompt
+# rule 13). A new story with any other topic is not created, and the audit log says why.
+# Company and market news stays only as business-strategic / markets-strategic.
+topics: [conflict, security, diplomacy, politics, elections, justice, economy, energy, infrastructure,
+         migration, humanitarian, disaster, health-emergency, cyber, technology-policy, crime,
+         business-strategic, markets-strategic]
 
 # Groups: one per region. Articles belong to the group whose id matches their source's 'region'
 # (sources.yaml). Add a region to sources.yaml and a line here, and the site gets a new section.

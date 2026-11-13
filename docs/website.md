@@ -19,6 +19,9 @@ an AI. GitHub Pages publishes it; locally, `python -m http.server --directory si
 Each card shows:
 
 - its **status**: New, Updated (new facts), More coverage (more outlets, no new facts) or Still tracked;
+- its **title**: the day's lead headline (hover to see whose), and, for a story running since before
+  the period, its **wider story** in a small box above it; clicking that opens the earlier reporting
+  (see [stories](stories.md#titles-the-latest-headline-under-its-wider-story));
 - **flags**: *new for you* (changed since your last visit), *single source*, *state media only*, and
   any watchlist words it mentions;
 - **reach** ("6 regions": how many regions' outlets reported it) and the number of outlets in the period;
@@ -28,8 +31,9 @@ Each card shows:
   facts;
 - **dates in the reporting**: dates the articles themselves mention, counted by outlet;
 - under **Sources and earlier reporting**, every original headline and earlier report;
-- first seen, articles in total, the wire and state-media mix, and **Copy with sources**: the
-  title, reports and headlines as plain text, every sentence with its link, ready to paste.
+- first seen, and **Copy with sources**: the title, wider story, reports and headlines as plain
+  text, every sentence with its link, ready to paste. Wire and state-media labels are on each
+  headline under Sources.
 
 Opinion and analysis pieces are listed separately with their outlet's label.
 

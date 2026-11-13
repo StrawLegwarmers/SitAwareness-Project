@@ -173,6 +173,10 @@ class Gazetteer:
             keep = [hint] + keep[:MAX_COUNTRIES - 1]
         if dateline:
             region = self.region(lead)
+        elif lead == hint and hint in in_title:
+            # The AI's subject country, checked in the articles AND named in the title, decides: two
+            # Iranian men convicted in a UK court is a UK story, however often "Iranian" appears.
+            region, why = self.region(lead), why + "; named in the title, so its region"
         else:
             decide = named or keep                     # the title's countries decide, when it names any
             by_region = Counter()

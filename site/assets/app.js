@@ -273,8 +273,13 @@ function card(s, day, showGroup) {
   } else {
     lead = `<p class="muted m0 small13">No checked report. See the original headlines below.</p>`;
   }
-  const mix = s.mix ? Object.entries(s.mix).map(([k, n]) => `${n} ${k === "state-media" ? "state media" : k}`).join(" · ") : "";
-  const dates = (s.dates || []).length ? `<p class="dates" title="Dates written in the articles themselves, found by code (not the AI)">Dates in the reporting: ${s.dates.map((d) =>
+  // A story running since before this period: its wider story above the latest lead headline.
+  // The button opens the earlier reporting, where the wider story's history is.
+  const wider = s.label && s.label !== s.title && s.first_seen < P.start
+    ? `<p class="wider"><span class="wider-tag">Wider story</span> <button type="button" class="wider-link" data-wider="${esc(s.id)}"
+        title="Show the earlier reporting on this story (since ${esc(fmtDayShort(s.first_seen))})">${esc(s.label)}</button></p>` : "";
+  const from = s.title_from && s.title_from.outlet ? ` title="Headline from ${esc(s.title_from.outlet)}"` : "";
+  const dates =(s.dates || []).length ? `<p class="dates" title="Dates written in the articles themselves, found by code (not the AI)">Dates in the reporting: ${s.dates.map((d) =>
     `${esc(fmtDayShort(d.date))} <span class="muted">(${plural(d.outlets, "outlet")})</span>`).join(" · ")}</p>` : "";
 
   const more = [
@@ -286,12 +291,13 @@ function card(s, day, showGroup) {
   return `<article class="card ${esc(s.status)}${S.compact ? " compact" : ""}" data-story="${esc(s.id)}">
     <div class="card-top"><span class="badge ${esc(s.status)}">${STATUS[s.status] || esc(s.status)}</span>${flags}
       ${showGroup ? `<span>${esc(groupName(day, where(s)))}</span>` : ""}<span class="spacer"></span>${reach}<span>${count}</span></div>
-    <h3>${esc(s.title)}</h3>
+    ${wider}
+    <h3${from}>${esc(s.title)}</h3>
     ${countryLine(s, day)}
     ${lead}
     ${dates}
     <details class="more"><summary>Sources and earlier reporting (${s.articles.length})</summary>${more}</details>
-    <div class="card-foot"><span>First seen ${esc(fmtDayShort(s.first_seen))} · ${plural(s.article_count, "article")} in total${mix ? ` · ${esc(mix)}` : ""}</span>
+    <div class="card-foot"><span>First seen ${esc(fmtDayShort(s.first_seen))}</span>
       <button type="button" class="copy" data-copy="${esc(s.id)}" title="Copy the reports with their sources, as plain text">${icon("copy", "ic-s")}Copy with sources</button></div>
   </article>`;
 }
@@ -302,7 +308,9 @@ function storyText(s, day) {
   const place = [groupName(day, where(s)), ...(s.countries || []).map((c) => cname(day, c))].filter(Boolean).join(" · ");
   const P = period(day);
   const reps = s.reports.filter((r) => r.date >= P.start);
-  const lines = [`${s.title}${place ? ` (${place})` : ""}`, ""];
+  const lines = [`${s.title}${place ? ` (${place})` : ""}`];
+  if (s.label && s.label !== s.title) lines.push(`Wider story: ${s.label} (since ${fmtDayShort(s.first_seen)})`);
+  lines.push("");
   for (const r of (reps.length ? reps : s.reports.slice(0, 3))) {
     lines.push(`- ${plain(r.text)}`);
     for (const x of r.also || []) lines.push(`  Also reported by ${x.outlet} <${x.url}>`);
@@ -766,6 +774,15 @@ function wire() {
     const target = cards[cards.length - 1];
     if (target) { reveal(target); target.scrollIntoView({ behavior: "smooth", block: "start" }); target.querySelector("details").open = true; }
   }));
+  // "Wider story": open this card's earlier reporting and bring it into view.
+  view.querySelectorAll("[data-wider]").forEach((b) => b.addEventListener("click", () => {
+    const card = b.closest(".card");
+    const more = card && card.querySelector("details.more");
+    if (!more) return;
+    more.open = true;
+    const h = [...more.querySelectorAll("h4")].find((x) => x.textContent.startsWith("EARLIER")) || more;
+    h.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }));
 }
 
 // Per-country headlines come from their own file, downloaded only when a page needs them.
@@ -830,7 +847,7 @@ async function searchPast(day, q) {
   let idx;
   try { idx = await getJSON(`data/${day.site}/search-index.json`); }
   catch (e) { box.innerHTML = `<p class="muted">The search index isn't there yet: it is written by the next run of the pipeline.</p>`; return; }
-  const hits = (idx.stories || []).filter((x) => `${x.t} ${x.x || ""}`.toLowerCase().includes(q));
+  const hits = (idx.stories || []).filter((x) => `${x.t} ${x.l || ""} ${x.x || ""}`.toLowerCase().includes(q));
   if (!hits.length) { box.innerHTML = `<p class="empty">No story in the last ${plural((idx.dates || []).length, "day")} matches.</p>`; return; }
   const byDate = {};
   for (const x of hits) (byDate[x.d] = byDate[x.d] || []).push(x);

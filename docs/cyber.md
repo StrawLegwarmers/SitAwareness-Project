@@ -3,6 +3,16 @@
 Besides its stories, the Cyber site has three collections built with plain code and no AI:
 exploited vulnerabilities, indicators of compromise, and industry intelligence.
 
+## What counts as a Cyber story
+
+`focus`, `ignore` and `topics` in `config/cyber/site.yaml`: threat actors and campaigns, ransomware,
+exploited vulnerabilities, breaches, advisories and takedowns, cyber policy, security incidents in
+aviation, and major outages of cloud, IT, telecom and internet services, whatever the cause (a
+global Microsoft 365 outage is a Cyber story even when Microsoft reports no malicious activity).
+The two sites are independent: each reads its own feeds and makes its own stories, so the same
+event can appear on both. When the AI returns nothing for a group of two or more outlets, the
+audit log has a `dropped` entry for it.
+
 ## Single-source research
 
 Most stories need two outlets. On Cyber, a major lab's or agency's own publication is news on its

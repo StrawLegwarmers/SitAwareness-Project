@@ -16,6 +16,18 @@
 #   story:      the story's title as shown on the website (or its id)
 #   region:     namerica | latam | europe | mena | africa | asia | global
 #   countries:  (optional) country ids from countries.yaml, the main one first
+#
+# remove_headline: take one headline that doesn't belong OUT of a story, with any report that
+#   rests only on it. If the story's title had become that headline, the title before it returns.
+#   story:     the story's id, title or wider-story name
+#   headline:  the headline, or enough of it to be unique within that story
+#
+# merge: stories about the same event, merged into the FIRST one listed.
+#   stories:   [id or title, id or title, ...]
+#
+# hide: take a story off the site (it is archived, marked hidden). For stories that don't belong
+#   on this site at all. The topic check (site.yaml "topics") stops most of them from being made.
+#   story:     the story's id, title or wider-story name
 # ─────────────────────────────────────────────────────────────────────────────
 
 remove_country:
@@ -25,3 +37,19 @@ remove_country:
 place:
   # Example (remove the # to use it):
   # - {story: "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims", region: namerica, countries: [us, china]}
+
+remove_headline:
+  # A Russian FSB arrest in Stavropol was filed under the RAF Fairford plot and became its title.
+  - {story: us-military-aircraft-withdrawn-from-uk, headline: "FSB foils terror plot at Stavropol shopping mall"}
+
+merge:
+  # One outage, started as four stories by different AI calls (13 Nov).
+  - {stories: [global-microsoft-it-outage, microsoft-global-service-outage, microsoft-global-service-outage-2, microsoft-outlook-email-outage]}
+
+hide:
+  # Off-topic for this site (13 Nov feedback).
+  - {story: star-wars-darth-vader-lightsale-auction}
+  - {story: prostate-cancer-screening-guidelines}
+  - {story: fifa-us-judge-ruling}
+  - {story: anthony-clark-death}
+  - {story: eli-lilly-weight-loss-pill-approval}

@@ -85,6 +85,10 @@ def run_validate() -> int:
         for name in load_site(site).get("single_source_stories") or []:
             if name not in names:
                 problems.append(f"config/{site}/site.yaml, single_source_stories: no source called '{name}' in sources.yaml")
+        from narratives import TOPICS
+        for t in load_site(site).get("topics") or []:
+            if t not in TOPICS:
+                problems.append(f"config/{site}/site.yaml, topics: '{t}' is not one of: {', '.join(TOPICS)}")
     try:
         if countries.load("geo") is None:
             problems.append("config/geo/countries.yaml is missing")

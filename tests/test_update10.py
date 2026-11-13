@@ -1,4 +1,4 @@
-"""Single-source research stories, renaming drifted stories, the clean-up and feed auto-disable."""
+"""Single-source research stories, story names, the clean-up and feed auto-disable."""
 import shutil
 
 import cluster
@@ -59,7 +59,8 @@ def story(sid, title, heads, added="2026-11-12", art=None):
             "articles": [art(100 + i, h, added=added) for i, h in enumerate(heads)]}
 
 
-def test_title_support_and_renaming(art):
+def test_the_ai_cannot_rename_a_story(art):
+    """Since update 11 titles come from code (the day's lead headline); the AI's title for an existing story is ignored."""
     s = story("floods", "Gaza: severe storms and floods damage tents",
               ["Israeli strike on Nasser hospital kills six", "Strike hits Nasser medical complex in Khan Younis",
                "Six killed in strike on Nasser hospital"], art=art)
@@ -68,13 +69,10 @@ def test_title_support_and_renaming(art):
     new = art(1, "Nasser hospital strike death toll rises to six", outlet="A")
     b = {"groups": [{"items": [new], "shown": [new], "extra": [], "hint": s}], "stories": [s], "idx": idx}
     nar.build_prompt(GEO, b, TODAY)
-    assert "floods" in b["retitle"]
     st = {"site": "geo", "narratives": [s], "archived": [], "last_run": {}}
-    audit = []
     nar.apply_result(st, GEO, b, {"narratives": [{"id": "floods", "title": "Nasser hospital strike", "country": "",
-                                                  "articles": [1], "reports": []}]}, TODAY, set(), audit)
-    assert s["title"] == "Nasser hospital strike" and s["previous_titles"] == ["Gaza: severe storms and floods damage tents"]
-    assert any(e["kind"] == "title" and e["reason"].startswith("renamed") for e in audit)
+                                                  "articles": [1], "reports": []}]}, TODAY, set(), [])
+    assert s["title"] == "Gaza: severe storms and floods damage tents"
 
 
 def test_a_fitting_title_is_never_renamed(art):

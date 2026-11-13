@@ -64,9 +64,10 @@ workflow and keeps running.
 ## The maintenance workflow
 
 `.github/workflows/maintenance.yml` runs only when you start it (Actions → Maintenance → Run
-workflow). Unticked, it lists the stories that mix unrelated events and the titles that no longer
-fit; with *apply* ticked, it splits those stories and commits `state/`. See
-[stories](stories.md#maintenance). It uses the AI key to double-check code's suspicions.
+workflow). Unticked, it lists the stories that mix unrelated events and the new wider-story names it
+would use; with *apply* ticked, it splits those stories, renames them and commits `state/`. See
+[stories](stories.md#maintenance). It uses the AI key: the AI double-checks code's suspicions and
+proposes names, and code checks every name.
 
 ## Pinned actions and Dependabot
 

@@ -116,6 +116,10 @@ def story_for_site(n: dict, start: str, kinds: dict[str, str], info: dict[str, d
             mentioned.setdefault(d, set()).add(a.get("publisher") or publisher(a["outlet"]))
     published = {a["id"]: a.get("published") for a in n["articles"] if a.get("id")}
     out = {k: n.get(k) for k in ("id", "group", "title", "first_seen", "last_updated", "article_count")}
+    if n.get("label") and n["label"] != n["title"]:
+        out["label"] = n["label"]                # the wider story; "title" is the latest lead headline
+    if n.get("title_from"):
+        out["title_from"] = {k: n["title_from"].get(k) for k in ("outlet", "url", "date")}
     out.update(
         status=status_of(n, start),
         outlets_period=len(outlets),
@@ -368,14 +372,15 @@ def place_stories(site: str, stories: list[dict]):
     for s in stories:
         texts = [strip_links(r["text"]) for r in s["reports"][:10]] + [a["title"] for a in s["articles"]]
         sources = Counter(a["region"] for a in s["articles"] if a.get("region"))
-        s.update(g.place(g.score(texts, s["title"]), s["group"], s["title"], s.get("subject"), sources))
+        name = s.get("label") or s["title"]       # the wider story places it, so it doesn't move daily
+        s.update(g.place(g.score(texts, name), s["group"], name, s.get("subject"), sources))
     path = CONFIG / site / "corrections.yaml"
     rules = (load_yaml(path).get("place") or []) if path.exists() else []
     regions = {c["region"] for c in g.countries.values()} | {"global"}
     for rule in rules:
         want = str(rule.get("story", "")).strip().lower()
         for s in stories:
-            if want and want in (s["id"].lower(), s["title"].lower()):
+            if want and want in (s["id"].lower(), s["title"].lower(), (s.get("label") or "").lower()):
                 if rule.get("region") in regions:
                     s["region"] = rule["region"]
                 cs = [c for c in rule.get("countries") or [] if c in g.countries]
@@ -582,7 +587,7 @@ def write_search_index(site: str):
             reps = [strip_links(r["text"]) for r in s.get("reports", []) if r["date"] >= start][:2]
             out.append({"d": day["date"], "id": s["id"], "t": s["title"], "s": s.get("status"),
                         "g": s.get("region") or s.get("group"), "o": s.get("outlets_period", 0),
-                        "x": " ".join(reps)[:400]})
+                        "x": " ".join(reps)[:400]} | ({"l": s["label"]} if s.get("label") else {}))
     write_json(DATA / site / "search-index.json", {"dates": dates, "stories": out})
     return len(out)
 

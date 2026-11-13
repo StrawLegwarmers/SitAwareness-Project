@@ -20,7 +20,8 @@ Everything else is plain code, and the code checks the AI's work:
      the date the article was published ("On 12 Nov 2026, Reuters reported that ...").
   2. Every report passes guardrails.py (attribution, numbers, names, no analysis words).
      Failures are removed and logged to state/<site>/audit.json.
-  3. Story titles are checked too; a bad title is replaced by a real headline.
+  3. Story names are checked too: a bad one is replaced by a real headline. Each story has a
+     wider-story name (set when it starts) and a title, the day's lead headline, picked by code.
   4. A report that repeats a fact already collected doesn't appear twice: the new outlet is
      added to the earlier report as "also reported by" (corroboration).
   5. Ranking is by how many different outlets (and regions) reported a story: counted, not judged.
@@ -30,6 +31,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 import time
 import traceback
@@ -65,7 +67,9 @@ SAME_FACTS = 0.7      # ...or, from a new outlet, added to it as "also reported 
 MERGE_SHARE = 0.5     # two tracked stories are merged when this share of headlines match (cluster.py)
 COVERAGE_DAYS = 14    # days of collection statistics kept in the state file
 RETRY_MAX = 1500      # articles carried over to the next run when the AI call limit is reached
-RETITLE_SUPPORT = 0.25  # a title matching fewer than a quarter of the recent English headlines may be renamed
+DUP_PAIRS = 30        # at most this many "same event?" questions in the duplicate check after the calls
+DUP_COMMON = 6        # a name shared by more stories than this (Trump, Gaza) doesn't make two stories look alike
+DUP_OVERLAP = 0.3     # ...and their core names must overlap this much (shared / sqrt(a * b))
 
 PUBLISHERS = load_publishers()
 
@@ -89,6 +93,17 @@ def story_words(title: str, articles: list[dict]) -> set[str]:
     """A story's fingerprint: its title plus its English headlines."""
     return words(title + " " + " ".join(a["title"] for a in articles[:12] if (a.get("lang") or "en") == "en"))
 
+# What a story is about. The AI must pick one for every story (rule 13 of the prompt); each site
+# keeps only the topics listed in its site.yaml ("topics"), and code drops new stories with any other.
+# Choosing a label is more reliable than remembering a list of things to skip.
+TOPICS = [
+    "conflict", "security", "diplomacy", "politics", "elections", "justice", "economy", "energy",
+    "infrastructure", "migration", "humanitarian", "disaster", "health-emergency", "cyber",
+    "technology-policy", "crime", "business-strategic", "markets-strategic",
+    "business", "markets", "health", "science", "technology", "sport", "entertainment", "culture",
+    "celebrity", "lifestyle", "weather", "other",
+]
+
 # The exact JSON shape we want back. The model is forced to follow it (structured output).
 SCHEMA = {
     "type": "object",
@@ -101,6 +116,7 @@ SCHEMA = {
                     "id": {"type": "string", "description": "existing story id, or empty string if new"},
                     "title": {"type": "string"},
                     "country": {"type": "string", "description": "country the story is mainly about, or empty"},
+                    "topic": {"type": "string", "enum": TOPICS},
                     "articles": {"type": "array", "items": {"type": "integer"}},
                     "reports": {
                         "type": "array",
@@ -113,7 +129,7 @@ SCHEMA = {
                         },
                     },
                 },
-                "required": ["id", "title", "country", "articles", "reports"],
+                "required": ["id", "title", "country", "topic", "articles", "reports"],
             },
         }
     },
@@ -133,6 +149,9 @@ def load_state(site: str) -> dict:
         n.setdefault("reports", [])
         for old in ("summary", "today", "importance", "countries", "history", "new_today"):
             n.pop(old, None)
+        # Two names per story: "label", the wider story (set when it starts, stable), and "title",
+        # the day's lead headline (finalize). Stories from before both existed: the first title they had.
+        n.setdefault("label", (n.get("previous_titles") or [n["title"]])[0])
     return state
 
 
@@ -147,6 +166,7 @@ def save_state(site: str, state: dict):
 #   rejected    a sentence that failed a guardrail (the number shown as "sentences removed")
 #   title       a story title replaced by a real headline
 #   skipped     a story the AI proposed that code didn't create or extend
+#   dropped     a group of 2+ outlets the AI returned no story for (judged off-topic or not news)
 #   merged      a duplicate story merged into another
 #   correction  your manual fix from corrections.yaml
 #   commentary  a report removed because it rested only on opinion or analysis
@@ -296,26 +316,6 @@ def strip_links(text: str) -> str:
     return re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text or "")
 
 
-def drifted_titles(batch: dict, today: str) -> set[str]:
-    """
-    Tracked stories (among this call's) whose title no longer matches what they're about: fewer than
-    RETITLE_SUPPORT of their recent English headlines (yesterday, today and this call's groups) share
-    the title's words. Only these may be renamed, and only to a title that passes the checks.
-    """
-    idx = batch.get("idx")
-    if idx is None:
-        return set()
-    since = (datetime.fromisoformat(today) - timedelta(days=1)).date().isoformat()
-    out = set()
-    for n in batch["stories"]:
-        recent = [a for a in n["articles"] if (a.get("added") or "") >= since]
-        recent += [a for c in batch["groups"] if c.get("hint") is n for a in c["shown"]]
-        share = cluster.title_support(idx, n["title"], recent)
-        if share is not None and share < RETITLE_SUPPORT:
-            out.add(n["id"])
-    return out
-
-
 def build_prompt(site_cfg: dict, batch: dict, today: str):
     """
     The prompt for one AI call: the tracked stories its groups may continue (A), and the groups (B).
@@ -326,10 +326,9 @@ def build_prompt(site_cfg: dict, batch: dict, today: str):
     system_part = system_part.replace("# SYSTEM", "", 1).strip()
 
     names = {g["id"]: g["name"] for g in site_cfg["groups"]}
-    batch["retitle"] = drifted_titles(batch, today)
     existing_txt = "\n\n".join(
-        f"id: {n['id']}\nsection: {names.get(n['group'], n['group'])}\ntitle: {n['title']}\n"
-        + ("title may no longer fit: its recent headlines are about something else (rule 11)\n" if n["id"] in batch["retitle"] else "")
+        f"id: {n['id']}\nsection: {names.get(n['group'], n['group'])}\ntitle: {n.get('label') or n['title']}\n"
+        + (f"latest headline: {n['title']}\n" if n.get("label") and n["title"] != n["label"] else "")
         + f"last reported: {n['last_updated']}\n"
         + "".join(f"already reported (context only, don't copy this format): {strip_links(r['text'])}\n"
                   for r in n["reports"][:3])
@@ -352,7 +351,7 @@ def build_prompt(site_cfg: dict, batch: dict, today: str):
 
     values = {
         "site_name": site_cfg["name"], "date": today,
-        "focus": site_cfg.get("focus", ""), "ignore": site_cfg.get("ignore", ""),
+        "focus": site_cfg.get("focus", ""), "ignore": site_cfg.get("ignore", ""), "topics": ", ".join(TOPICS),
         "existing": existing_txt, "articles": "\n".join(lines).strip(), "article_count": len(refs),
         "group_count": len(batch["groups"]),
     }
@@ -447,21 +446,77 @@ def is_duplicate(title: str, arts: list[dict], existing: dict, site: str) -> boo
 def apply_corrections(state: dict, site: str, today: str, audit: list[dict]) -> list[str]:
     """
     Your manual fixes, from config/<site>/corrections.yaml, applied on every run.
-    "remove_country" takes everything about one country OUT of a story it was wrongly mixed into:
-    articles and reports that mention that country and none of the countries in the story's title.
+    "remove_country"   takes everything about one country OUT of a story it was wrongly mixed into:
+                       articles and reports that mention that country and none of the countries in the story's title.
+    "remove_headline"  takes one headline (and any report resting only on it) out of a story. If the
+                       story's title was that headline, the title goes back to the one before.
+    "merge"            merges stories into the first one named.
+    "hide"             takes a story off the site (it is archived, marked hidden).
+    A story is named by its id, its title or its wider-story name.
     """
     path = CONFIG / site / "corrections.yaml"
-    g = gazetteer.load(site)
-    if not path.exists() or not g:
+    if not path.exists():
         return []
     from config import load_yaml
+    rules = load_yaml(path) or {}
+    g = gazetteer.load(site)
     done = []
-    for rule in load_yaml(path).get("remove_country") or []:
+
+    def find(want):
+        want = str(want or "").strip().lower()
+        return next((n for n in state["narratives"]
+                     if want and want in (n["id"].lower(), n["title"].lower(), (n.get("label") or "").lower())), None)
+
+    for rule in rules.get("remove_headline") or []:
+        n, text = find(rule.get("story")), str(rule.get("headline") or "").strip().lower()
+        if not n or not text:
+            continue
+        gone = {a["id"] for a in n["articles"] if text in a["title"].lower()}
+        reps = [r for r in n["reports"] if not (r.get("articles") and set(r["articles"]) <= gone)]
+        retitle = text in n["title"].lower()
+        if not gone and not retitle:
+            continue
+        removed = len(gone)
+        n["articles"] = [a for a in n["articles"] if a["id"] not in gone]
+        n["article_count"] = max(len(n["articles"]), n.get("article_count", 0) - removed)
+        dropped_reports, n["reports"] = len(n["reports"]) - len(reps), reps
+        if retitle:
+            earlier = [t for t in n.get("previous_titles") or [] if text not in t.lower()]
+            n["title"] = earlier[-1] if earlier else n.get("label") or n["title"]
+            n["previous_titles"] = earlier[:-1]
+            n.pop("title_from", None)
+        note(audit, "correction", today, n["group"], n["title"], rule.get("headline", ""),
+             f"manual correction: headline removed ({removed} article(s), {dropped_reports} report(s))"
+             + (", title restored" if retitle else ""))
+        done.append(f"{n['title']}: removed '{rule.get('headline')}'")
+
+    for rule in rules.get("merge") or []:
+        names = rule.get("stories") or []
+        keep = find(names[0]) if names else None
+        for other in (find(x) for x in names[1:]):
+            if keep and other and other is not keep:
+                absorb(keep, other)
+                state["narratives"].remove(other)
+                note(audit, "correction", today, keep["group"], keep["title"], other["title"], "manual correction: merged")
+                done.append(f"{other['title']} -> {keep['title']}")
+
+    for rule in rules.get("hide") or []:
+        n = find(rule.get("story") if isinstance(rule, dict) else rule)
+        if n:
+            state["narratives"].remove(n)
+            state["archived"].insert(0, {k: n.get(k) for k in ("id", "group", "title", "first_seen", "last_updated", "article_count")}
+                                     | {"hidden": True})
+            note(audit, "correction", today, n["group"], n["title"], "", "manual correction: story hidden")
+            done.append(f"{n['title']}: hidden")
+
+    if not g:
+        return done
+    for rule in rules.get("remove_country") or []:
         want, country = str(rule.get("story", "")).strip().lower(), str(rule.get("country", "")).strip().lower()
-        n = next((n for n in state["narratives"] if want in (n["id"].lower(), n["title"].lower())), None)
+        n = find(want)
         if not n or country not in g.countries:
             continue
-        home = {c for c, w in g.find(n["title"]).items() if w >= 1} - {country}
+        home = {c for c, w in g.find(f"{n.get('label') or ''} {n['title']}").items() if w >= 1} - {country}
         def about_it(text):
             found = {c for c, w in g.find(text).items() if w >= 1}
             return country in found and not found & home
@@ -563,25 +618,43 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
 
     # Which tracked story code suggested for each article number ("continues: <id>" in the prompt)
     suggested = {k: c["hint"]["id"] for c in batch["groups"] if c.get("hint") for k in c.get("nums", [])}
+    group_no = {k: gi for gi, c in enumerate(batch["groups"]) for k in c.get("nums", [])}
     idx = batch.get("idx")
+    considered: set[int] = set()                     # every article number the AI put in any story
+    keep_topics = set(site_cfg.get("topics") or [])
 
     for item in result.get("narratives", []):
         if not isinstance(item, dict):
             continue
         nums = [k for k in dict.fromkeys(item.get("articles") or []) if isinstance(k, int) and k in refs]
+        considered.update(nums)
         n = index.get(item.get("id") or "")
         hint = subject_hint(site, item.get("country", ""), [refs[k] for k in nums])
         story_group = n["group"] if n else home_group(site, site_cfg, item.get("title", ""), [refs[k] for k in nums], hint)
+        not_here: set[int] = set()                   # articles code took out of this continuation
 
-        # The AI says "this continues story X". Fine if code suggested X for these articles; otherwise
-        # the headlines must back it up (cluster.related), or unrelated news from the same country
-        # ends up under an old story's title.
-        if n is not None and idx is not None and nums and not any(suggested.get(k) == n["id"] for k in nums) \
-                and not cluster.related(idx, [refs[k] for k in nums], n, site):
-            skip(n["title"], f"continuation not supported by the headlines: {refs[nums[0]]['title'][:80]}")
-            n = None
-            item = dict(item, id="", title="")   # its title was the old story's: a new one comes from its headlines
-            story_group = home_group(site, site_cfg, "", [refs[k] for k in nums], hint)
+        # The AI says "this continues story X". Each code group in its answer is checked on its own:
+        # a group code suggested for X is fine; any other group's headlines must back it up
+        # (cluster.related). Checking the answer as a whole let one unrelated headline ride along
+        # with a correct group ("FSB foils terror plot in Stavropol" filed under the RAF Fairford plot).
+        if n is not None and idx is not None and nums:
+            by_group: dict[int, list[int]] = {}
+            for k in nums:
+                by_group.setdefault(group_no.get(k, -1), []).append(k)
+            for gi, ks in by_group.items():
+                if any(suggested.get(k) == n["id"] for k in ks) or cluster.related(idx, [refs[k] for k in ks], n, site):
+                    continue
+                not_here.update(ks)
+            if not_here and len(not_here) < len(nums):
+                for k in sorted(not_here):
+                    skip(n["title"], f"not added to this story (headline doesn't match it): {refs[k]['title'][:80]}")
+                nums = [k for k in nums if k not in not_here]
+            elif not_here:
+                skip(n["title"], f"continuation not supported by the headlines: {refs[nums[0]]['title'][:80]}")
+                not_here = set()
+                n = None
+                item = dict(item, id="", title="")   # its title was the old story's: a new one comes from its headlines
+                story_group = home_group(site, site_cfg, "", [refs[k] for k in nums], hint)
 
         # Rule 4, enforced in code: a new story needs two articles, unless its one article is
         # research from a source in single_source_stories (site.yaml).
@@ -594,6 +667,13 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
 
         if n is None and content.offtopic_story(item.get("title", ""), [refs[k]["title"] for k in nums], site):
             skip(item.get("title", ""), "off-topic for this site (entertainment, sport...): not created")
+            continue
+
+        # The AI's topic (rule 13), checked against the site's list. A missing topic doesn't drop
+        # a story: the other filters still apply, and losing real news is worse than one stray story.
+        topic = str(item.get("topic") or "").strip().lower()
+        if n is None and keep_topics and topic and topic not in keep_topics:
+            skip(item.get("title", ""), f"off-topic for this site (topic: {topic}): not created")
             continue
 
         if n is None:   # the AI says "new story": first check it isn't one we already track
@@ -610,23 +690,15 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
             title, why = checked_title(item.get("title", ""), [refs[k] for k in nums])
             if why:
                 note(audit, "title", today, story_group, title, item.get("title", ""), f"title replaced by a headline: {why}")
-            n = {"id": slugify(title, taken), "group": story_group, "title": title, "first_seen": today,
-                 "articles": [], "article_count": 0, "reports": []}
+            # "label" names the wider story and stays; "title" becomes each day's lead headline (finalize)
+            n = {"id": slugify(title, taken), "group": story_group, "title": title, "label": title,
+                 "first_seen": today, "articles": [], "article_count": 0, "reports": []}
+            if topic in TOPICS:
+                n["topic"] = topic
             taken.add(n["id"])
             state["narratives"].append(n)
             index[n["id"]] = n
             counts["new"] += 1
-        # Existing stories keep their title (a story's name stays the same day to day), unless code
-        # found the title no longer fits (drifted_titles) and the AI's new one passes the checks.
-        new_title = " ".join(str(item.get("title") or "").split())
-        if n["id"] in batch.get("retitle", ()) and new_title and new_title.lower() != n["title"].lower():
-            recent = [a for a in n["articles"] if a.get("added") == today] + [refs[k] for k in nums]
-            checked, why = checked_title(new_title, recent or [refs[k] for k in nums])
-            if not why:
-                note(audit, "title", today, n["group"], checked, n["title"], "renamed: the old title no longer fit its recent headlines")
-                n.setdefault("previous_titles", []).append(n["title"])
-                n["title"] = checked
-                counts["renamed"] += 1
         if hint and not n.get("subject"):
             n["subject"] = hint                                # checked: named in its own headlines
 
@@ -644,6 +716,9 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
                 counts["repaired"] += bool(cited)
             if any(k not in refs for k in cited):
                 reject(n["title"], text, "cites an article number that doesn't exist")
+                continue
+            if any(k in not_here for k in cited):
+                reject(n["title"], text, "cites an article that doesn't belong to this story")
                 continue
             ok, why = guardrails.check(text, [refs[k] for k in cited])
             if not ok:
@@ -710,6 +785,13 @@ def apply_result(state: dict, site_cfg: dict, batch: dict, result: dict, today: 
             counts["attached by code"] += len(extra)
             touched.add(n["id"])
             run_touched.add(n["id"])
+    # Groups of 2+ outlets the AI said nothing about: logged, so "why isn't X on the site?" has an
+    # answer in the audit (usually: the AI judged it off-topic for this site).
+    for c in batch["groups"]:
+        if c.get("outlets", 0) >= 2 and c.get("nums") and not considered & set(c["nums"]):
+            note(audit, "dropped", today, c["items"][0].get("group", ""), "", refs[c["nums"][0]]["title"],
+                 f"the AI returned no story for this group of {c['outlets']} outlets (judged off-topic or not news)")
+            counts["dropped"] += 1
     counts["in stories"] += len(placed)
     counts["updated"] = sum(1 for i in touched if index[i]["first_seen"] != today)
     counts["ids"] = touched
@@ -746,18 +828,112 @@ def merge_duplicates(state: dict, site: str, today: str, audit: list[dict], idx)
                 continue
             if cluster.same_story_share(idx, heads[keep["id"]], heads[other["id"]]) < MERGE_SHARE:
                 continue
-            known = {a["id"] for a in keep["articles"]}
-            moved = [a for a in other["articles"] if a["id"] not in known]
-            keep["articles"] = sorted(moved + keep["articles"], key=lambda a: a["published"], reverse=True)[:KEEP_ARTICLES]
-            keep["article_count"] = keep.get("article_count", 0) + len(moved)
-            keep["reports"] = sorted(other["reports"] + keep["reports"], key=lambda r: r["date"], reverse=True)[:KEEP_REPORTS]
-            keep["last_updated"] = max(keep["last_updated"], other["last_updated"])
-            keep["last_reported"] = max(keep.get("last_reported") or "", other.get("last_reported") or "") or None
-            keep.setdefault("merged", []).append(other["id"])
+            absorb(keep, other)
             gone.add(other["id"])
             note(audit, "merged", today, keep["group"], keep["title"], other["title"], "duplicate story merged into an existing one")
             done.append(f"{other['title']} -> {keep['title']}")
     state["narratives"] = [n for n in state["narratives"] if n["id"] not in gone]
+    return done
+
+
+def absorb(keep: dict, other: dict):
+    """Move another story's articles and reports into `keep` (the older story keeps its id and names)."""
+    known = {a["id"] for a in keep["articles"]}
+    moved = [a for a in other["articles"] if a["id"] not in known]
+    keep["articles"] = sorted(moved + keep["articles"], key=lambda a: a["published"], reverse=True)[:KEEP_ARTICLES]
+    keep["article_count"] = keep.get("article_count", 0) + len(moved)
+    keep["reports"] = sorted(other["reports"] + keep["reports"], key=lambda r: r["date"], reverse=True)[:KEEP_REPORTS]
+    keep["last_updated"] = max(keep["last_updated"], other["last_updated"])
+    keep["last_reported"] = max(keep.get("last_reported") or "", other.get("last_reported") or "") or None
+    keep.setdefault("merged", []).append(other["id"])
+
+
+# ── Duplicates the word test can't see: code suspects, the AI confirms ──────────
+
+DUP_SCHEMA = {"type": "object", "properties": {"pairs": {"type": "array", "items": {"type": "object", "properties": {
+    "pair": {"type": "integer"}, "same": {"type": "boolean"}}, "required": ["pair", "same"]}}}, "required": ["pairs"]}
+
+
+def duplicate_candidates(state: dict, site: str, today: str, idx) -> list[tuple[dict, dict]]:
+    """
+    Pairs of stories updated today, at least one of them started today, whose countries don't clash
+    and whose CORE names overlap. The word test misses these on a big day: when everyone writes
+    "Microsoft", the word stops being rare, and a Spanish and a French headline share little else.
+
+    A story's core names: rare capitalised words (not countries) in its wider-story name, or in at
+    least two of today's headlines. Names found in more than DUP_COMMON stories (Trump, Putin on a
+    busy day) don't count. Pairs are ranked by overlap relative to their size (shared / sqrt(a * b)),
+    so a long-running story with dozens of names doesn't crowd out the real duplicates.
+    """
+    g = gazetteer.load(site)
+    live = [n for n in state["narratives"] if n["last_updated"] == today]
+    places = cluster.place_tokens()
+    core, where = {}, {}
+    for n in live:
+        arts = [a for a in n["articles"] if a.get("added") == today][:10] or n["articles"][:8]
+        seen = Counter(w for a in arts for w in cluster.features(idx, a["title"], a.get("lang"))[1] - places)
+        label = cluster.features(idx, n.get("label") or n["title"], "en")[1] - places
+        core[n["id"]] = label | {w for w, k in seen.items() if k >= 2 or len(arts) <= 2}
+        where[n["id"]] = set(g.score([a["title"] for a in arts], n.get("label") or n["title"])) if g else set()
+    common = {w for w, k in Counter(w for s in core.values() for w in s).items() if k > DUP_COMMON}
+    pairs = []
+    for i, a in enumerate(live):
+        for b in live[i + 1:]:
+            if today not in (a["first_seen"], b["first_seen"]):
+                continue
+            if where[a["id"]] and where[b["id"]] and not where[a["id"]] & where[b["id"]]:
+                continue
+            na, nb = core[a["id"]] - common, core[b["id"]] - common
+            shared = na & nb
+            if shared and len(shared) / math.sqrt(len(na) * len(nb)) >= DUP_OVERLAP:
+                pairs.append((len(shared) / math.sqrt(len(na) * len(nb)), a, b))
+    pairs.sort(key=lambda p: -p[0])
+    return [(a, b) for _, a, b in pairs[:DUP_PAIRS]]
+
+
+def confirm_duplicates(state: dict, site: str, today: str, audit: list[dict], idx) -> list[str]:
+    """
+    One AI call: "do these two stories report the same event?" for each suspected pair. Code merges
+    only the pairs it asked about and the AI answered yes for, into the older story.
+    """
+    pairs = duplicate_candidates(state, site, today, idx)
+    if not pairs:
+        return []
+    template = (CONFIG / "prompts" / "duplicates.md").read_text(encoding="utf-8")
+    system, prompt = (part.strip() for part in template.split("# PROMPT", 1))
+    system = system.replace("# SYSTEM", "", 1).strip()
+
+    def block(n):
+        heads = [a["title"] for a in n["articles"][:4]]
+        return f"{n.get('label') or n['title']}\n" + "".join(f"    - {h}\n" for h in heads)
+    text = "\n".join(f"### Pair {i}\nA: {block(a)}B: {block(b)}" for i, (a, b) in enumerate(pairs, start=1))
+    try:
+        answer = ask_json(system, Template(prompt).safe_substitute(pairs=text, count=len(pairs)), DUP_SCHEMA)
+    except LLMError as ex:
+        print(f"  duplicate check failed ({ex}): no stories merged by it")
+        return []
+    same = {p.get("pair") for p in answer.get("pairs") or [] if p.get("same") is True}
+    stories = {n["id"]: n for n in state["narratives"]}
+    home: dict[str, str] = {}                        # merged story id -> the story it went into
+
+    def root(i):
+        while i in home:
+            i = home[i]
+        return i
+    done = []
+    for k, (a, b) in enumerate(pairs, start=1):
+        if k not in same:
+            continue
+        ra, rb = root(a["id"]), root(b["id"])
+        if ra == rb:
+            continue
+        keep, other = sorted((stories[ra], stories[rb]), key=lambda n: (n["first_seen"], -n.get("article_count", 0)))
+        absorb(keep, other)
+        home[other["id"]] = keep["id"]
+        note(audit, "merged", today, keep["group"], keep["title"], other["title"],
+             "same event, confirmed by the AI's duplicate check: merged into the older story")
+        done.append(f"{other['title']} -> {keep['title']}")
+    state["narratives"] = [n for n in state["narratives"] if n["id"] not in home]
     return done
 
 
@@ -794,6 +970,28 @@ def status_of(n: dict, start: str) -> str:
             else "covered" if n["last_updated"] >= start else "unchanged")
 
 
+def lead_titles(state: dict, site: str, today: str, idx) -> int:
+    """
+    Each story's title becomes the day's lead headline: the real headline that matches the most
+    other outlets' coverage of it today (cluster.lead_headline). Picked by code, never written by
+    the AI, and never a one-off: without enough backing, yesterday's title stays. The wider-story
+    name ("label") doesn't change, so the website can show "part of: <wider story>" above it.
+    """
+    changed = 0
+    for n in state["narratives"]:
+        todays = [a for a in n["articles"] if a.get("added") == today]
+        best, backing, others = cluster.lead_headline(idx, todays, site)
+        if not best or best["title"] == n["title"]:
+            continue
+        if n["title"] not in (n.get("label"), *(n.get("previous_titles") or [])):
+            n["previous_titles"] = (n.get("previous_titles") or [])[-9:] + [n["title"]]
+        n["title"] = best["title"]
+        n["title_from"] = {"outlet": best.get("publisher") or publisher(best["outlet"]), "url": best["url"],
+                           "date": today, "backing": backing, "of": others}
+        changed += 1
+    return changed
+
+
 def finalize(state: dict, today: str):
     """Counted, not judged: how many outlets reported each story today, and sourcing flags."""
     # A story left with nothing to show (every article removed as commentary, say) is dropped.
@@ -826,7 +1024,7 @@ def save_coverage(state: dict, today: str, cov: dict, totals: Counter, failed: i
     for k in ("articles", "groups", "reported_by_2", "candidates", "continuing", "sent", "calls", "waiting"):
         day[k] = day.get(k, 0) + cov.get(k, 0)
     for k in ("new", "updated", "kept", "rejected", "corroborated", "attached by code", "in stories", "merged",
-              "skipped", "split calls"):
+              "skipped", "dropped", "split calls"):
         day[k.replace(" ", "_")] = day.get(k.replace(" ", "_"), 0) + totals.get(k, 0)
     day["failed_calls"] = day.get("failed_calls", 0) + failed
     day["runs"] = day.get("runs", 0) + 1
@@ -937,7 +1135,7 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
                   f"{counts['updated']} updated stories; {counts['kept']} reports kept, {counts['rejected']} removed by guardrails"
                   + (f", {counts['corroborated']} corroborations" if counts["corroborated"] else "")
                   + (f", {counts['skipped']} proposals skipped" if counts["skipped"] else "")
-                  + (f", {counts['renamed']} stories renamed" if counts["renamed"] else "")
+                  + (f", {counts['dropped']} groups returned without a story" if counts["dropped"] else "")
                   + (f" ({counts['repaired']} citations added by code)" if counts["repaired"] else "")
                   + (f"; {counts['attached by code']} more articles added by code" if counts["attached by code"] else ""))
 
@@ -945,6 +1143,9 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
         conn.close()
         return
     merged = merge_duplicates(state, site, today, audit, batches[0]["idx"]) if batches else []
+    if batches and len(failed) < sum(len(c["items"]) for b in batches for c in b["groups"]):
+        time.sleep(ai.get("pause_seconds", 10))
+        merged += confirm_duplicates(state, site, today, audit, batches[0]["idx"])
     totals["merged"] += len(merged)
     for line in merged:
         print(f"\nMerged duplicate story: {line}")
@@ -953,6 +1154,8 @@ def run_site(site: str, only_group: str | None, dry_run: bool):
     dropped = drop_commentary(conn, state, site, today, audit)
     if dropped:
         print(f"\nRemoved {dropped} report(s) that rested only on opinion or analysis pieces")
+    if batches:
+        print(f"\n{lead_titles(state, site, today, batches[0]['idx'])} stories titled with today's lead headline")
     finalize(state, today)
     gone = expire(state, site_cfg, today)
     if gone:

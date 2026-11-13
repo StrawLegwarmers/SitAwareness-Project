@@ -155,6 +155,18 @@ sources:
   - {name: Bangkok Post,       feed: "https://www.bangkokpost.com/rss/data/topstories.xml",        region: asia, type: local, lang: en}
   - {name: Rappler (Philippines), feed: "https://www.rappler.com/feed/",                           region: asia, type: local, lang: en}
 
+  # ── China and Hong Kong: domestic politics and policy ──────────────────────
+  # Party and state politics, laws, regulation, purges, the economy, Hong Kong. Checked Nov 2026.
+  # Xinhua, People's Daily, China Daily and Global Times have no working (current) feeds.
+  - {name: SCMP China Politics,  feed: "https://www.scmp.com/rss/318198/feed", region: asia, type: regional, lang: en}
+  - {name: SCMP China Economy,   feed: "https://www.scmp.com/rss/318421/feed", region: asia, type: regional, lang: en}
+  - {name: CGTN China,           feed: "https://www.cgtn.com/subscribe/rss/section/china.xml", region: asia, type: state-media, lang: en}
+  - {name: China News Service,   feed: "https://www.chinanews.com.cn/rss/china.xml", region: asia, type: state-media, lang: zh, note: "very high volume: the feed holds about 2 hours of items, so each run sees a slice"}
+  - {name: RTHK Local,           feed: "https://rthk.hk/rthk/news/rss/e_expressnews_elocal.xml", region: asia, type: state-media, lang: en, note: "Hong Kong government broadcaster"}
+  - {name: NPC Observer,         feed: "https://npcobserver.com/feed/", region: asia, type: specialist, lang: en, note: "China's legislature: draft laws and sessions; low volume"}
+  - {name: China Digital Times,  feed: "https://chinadigitaltimes.net/feed/atom/", region: asia, type: specialist, lang: en, note: "the RSS2 address returns broken HTML: use this Atom one"}
+  - {name: RFA China,            feed: "https://www.rfa.org/arc/outboundfeeds/english/rss/category/english/world/asia/china/", region: asia, type: international, lang: en, note: "low volume"}
+
   # ── On file but not fetched (enabled: false) ──────────────────────────────
   # Worth reading, but no working feed was found from a cloud server.
   # Try them again later, or replace with a Google News search feed like ISW above.

@@ -16,6 +16,7 @@ One line per source. See [sources](sources.md) for the fields and how to add one
 |---|---|
 | `name` | The site's name in the brief |
 | `focus`, `ignore` | What counts as a story and what to skip; passed to the AI as-is |
+| `topics` | The topics this site keeps; the AI labels every new story with one, and code drops new stories with any other (see [stories](stories.md#topics)). `check_sources.py --validate-only` checks the names |
 | `groups` | The site's sections. Geopolitical groups are regions (articles belong to the group matching their source's `region`; a new story is filed under the region it is about); Cyber has one group covering several sections. All groups are collected in one run |
 | `lists` | Plain headline lists (no AI): `section`, `name`, `days` to look back, `limit` |
 | `pages` | The sidebar. Each page has an `id`, a `name`, an `icon` and `show`: the blocks it contains, top to bottom (below) |
@@ -65,7 +66,9 @@ Under each heading, `country id: [names]`. See [geography](geography.md#entities
 ### `geo/corrections.yaml`
 
 Manual fixes applied on every run. `remove_country` takes everything about one country out of a
-story it was wrongly mixed into; `place` puts a story on the region page and countries you choose.
+story it was wrongly mixed into; `remove_headline` takes out one headline (and restores the title
+if it had become that headline); `merge` joins stories about the same event; `hide` takes a story
+off the site; `place` puts a story on the region page and countries you choose.
 See [stories](stories.md#corrections).
 
 ### `geo/toolkit.yaml`
@@ -85,6 +88,8 @@ A shared `concern` word list, then each industry's `topic`, `also_concern`, `exc
 | `guardrails.yaml` | The checks on every AI sentence: reporting verbs, number/name/wording checks and thresholds, banned analysis words, maximum length |
 | `prompts/narratives.md` | The instructions given to the AI |
 | `prompts/cleanup.md` | The AI's instructions for the Maintenance clean-up's double check |
+| `prompts/duplicates.md` | The AI's instructions for the "same event?" check after each run |
+| `prompts/labels.md` | The AI's instructions for proposing wider-story names (Maintenance) |
 | `publishers.yaml` | Feeds that belong to one organisation, so they count as one outlet |
 | `content_types.yaml` | How opinion, analysis and off-topic sections (sport, entertainment) are recognised: RSS categories, address folders, headline markers, source types; and `story_terms`, words that stop the AI from creating an entertainment or sport story |
 | `feeds.yaml` | Which machine feeds to write, how many days they cover, which indicator types to include |

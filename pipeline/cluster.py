@@ -269,8 +269,69 @@ def close(idx: Index, a: dict, b: dict) -> bool:
 
 
 def story_heads(story: dict, n: int = 12) -> list[tuple[str, str | None]]:
-    """(headline, language) for a tracked story: its title (written in English) and its newest headlines."""
-    return [(story["title"], "en")] + [(a["title"], a.get("lang")) for a in story.get("articles", [])[:n]]
+    """(headline, language) for a tracked story: its title and wider-story name (English), and its newest headlines."""
+    heads = [(story["title"], "en")]
+    if story.get("label") and story["label"] != story["title"]:
+        heads.append((story["label"], "en"))
+    return heads + [(a["title"], a.get("lang")) for a in story.get("articles", [])[:n]]
+
+
+# Headlines that make poor titles: live blogs, explainers, questions, video pages.
+NOT_A_TITLE = re.compile(r"\b(live|live updates|as it happened|what we know|what to know|explained|explainer|"
+                         r"podcast|newsletter|watch|video|photos|in pictures|opinion|analysis)\b|\?\s*$", re.I)
+LEAD_MIN_ARTICLES = 3   # a day needs this many articles in a story before a headline can become its title
+LEAD_SUPPORT = 0.4      # ...and the headline must match this share of the day's other outlets (at least 2)
+
+
+def lead_headline(idx: Index, articles: list[dict], site: str = "geo") -> tuple[dict | None, int, int]:
+    """
+    The real headline that best represents these articles (one day of a story's coverage): the
+    English headline that matches the most OTHER outlets' headlines (pair_related), wires and
+    international outlets first on a tie, then the one closest to a normal headline length. A state
+    outlet's headline is used only when no other outlet's headline qualifies.
+    Returns (article or None, outlets backing it, outlets that could). None when the day has fewer
+    than LEAD_MIN_ARTICLES articles, or no headline is backed by LEAD_SUPPORT of the other outlets:
+    a one-off headline (an unrelated article filed under the story) can never become its title.
+    """
+    if len(articles) < LEAD_MIN_ARTICLES:
+        return None, 0, 0
+    g = gazetteer.load(site)
+    pubs = {publisher_of(a) for a in articles}
+
+    def usable(a):
+        return (a.get("lang") or "en") == "en" and not NOT_A_TITLE.search(a["title"]) and 20 <= len(a["title"]) <= 150
+    candidates = [a for a in articles if usable(a) and a.get("type") != "state-media"] \
+        or [a for a in articles if usable(a)]
+    best, best_key, best_backing = None, None, 0
+    for a in candidates:
+        backing = {publisher_of(b) for b in articles if b is not a and publisher_of(b) != publisher_of(a)
+                   and pair_related(idx, a, b, g)}
+        key = (len(backing), a.get("type") in ("wire", "international"), -abs(len(a["title"]) - 80), a["title"])
+        if best_key is None or key > best_key:
+            best, best_key, best_backing = a, key, len(backing)
+    others = len(pubs) - 1
+    need = max(2, math.ceil(others * LEAD_SUPPORT))
+    return (best if best is not None and best_backing >= need else None), best_backing, others
+
+
+def story_support(idx: Index, text: str, articles: list[dict], site: str = "geo") -> float | None:
+    """
+    Share of a story's English headlines that `text` fits: they share a rare word that isn't a
+    place ("Fairford", "talks", "outage"), and their countries don't clash. A shared country alone
+    doesn't count: every name for a Polish story "fits" a Polish headline. Used to check a proposed
+    wider-story name: it must fit most of the story, not one day of it. None with fewer than 3.
+    """
+    english = [a for a in articles if (a.get("lang") or "en") == "en"]
+    if len(english) < 3:
+        return None
+    g = gazetteer.load(site)
+    words = idx.rare(tokens(text), "en") - place_tokens()
+    where = _countries(g, text)
+
+    def fits(a):
+        theirs = _countries(g, a["title"])
+        return not (where and theirs and not where & theirs) and bool(words & idx.rare(tokens(a["title"]), "en"))
+    return sum(1 for a in english if fits(a)) / len(english)
 
 
 def same_story_share(idx: Index, a_heads: list[tuple[str, str | None]], b_heads: list[tuple[str, str | None]]) -> float:

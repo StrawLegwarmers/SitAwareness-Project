@@ -1,13 +1,20 @@
 """
-maintenance.py - tidy the stories being tracked. No AI.
+maintenance.py - tidy the stories being tracked. Code decides; the AI is only asked to confirm or name.
 
 Usage:
   python pipeline/maintenance.py clean            # show which stories mix unrelated events (changes nothing)
   python pipeline/maintenance.py clean --apply    # split them
   python pipeline/maintenance.py clean --no-ai    # code's suspicions only (no key needed; not for --apply)
-  python pipeline/maintenance.py titles           # stories whose title no longer fits their recent headlines
+  python pipeline/maintenance.py labels           # propose wider-story names for running stories (changes nothing)
+  python pipeline/maintenance.py labels --apply   # use the proposals that pass code's checks
 
 On GitHub: Actions tab -> "Maintenance" -> Run workflow (tick "apply" to make the changes).
+
+LABELS. Every story has a wider-story name (shown above the day's lead headline) set on its first
+day. A story that has run for days can outgrow it: "Russia hits Ukrainian infrastructure ahead of
+Abu Dhabi talks" became a story about the talks. "labels" asks the AI for a neutral topic name that
+covers all of a story's headlines (config/prompts/labels.md), and code keeps it only if its words
+come from the headlines (the title check) and it fits at least half of them (cluster.story_support).
 
 WHY. Before code checked the AI's "this continues story X" (see narratives.py), the AI sometimes
 filed unrelated news under an old story about the same country: a Greek minister's resignation
@@ -41,10 +48,11 @@ from string import Template
 import cluster
 from config import CONFIG, load_site, sites
 from llm import LLMError, ask_json
-from narratives import (KEEP_ARTICLES, RETITLE_SUPPORT, home_group, load_state, note, save_audit, save_state,
+from narratives import (KEEP_ARTICLES, checked_title, home_group, load_state, note, save_audit, save_state,
                         slugify)
 
 MIN_ARTICLES = 4      # smaller stories are left alone
+LABEL_SUPPORT = 0.5   # a new wider-story name must fit at least half of the story's English headlines
 
 
 def site_index(state: dict):
@@ -82,7 +90,8 @@ def suspects(state: dict, idx, site: str) -> dict[str, list[dict]]:
         if len(n["articles"]) < MIN_ARTICLES:
             continue
         core, others = core_of(n)
-        _, loose = cluster.connected(idx, [{"title": n["title"], "lang": "en", "id": "title"}] + core, others, site)
+        names = [{"title": t, "lang": "en", "id": f"name{i}"} for i, t in enumerate(dict.fromkeys([n.get("label") or n["title"], n["title"]]))]
+        _, loose = cluster.connected(idx, names + core, others, site)
         if loose:
             out[n["id"]] = loose
     return out
@@ -150,7 +159,7 @@ def clean(site: str, apply: bool = False, today: str | None = None, use_ai: bool
                 new_title = best_headline(grp)
                 lines.append(f"    -> new story ({len(grp)} articles, {len(reps)} reports): {new_title[:90]}")
                 if apply:
-                    s = {"id": slugify(new_title, taken), "title": new_title, "split_from": n["id"],
+                    s = {"id": slugify(new_title, taken), "title": new_title, "label": new_title, "split_from": n["id"],
                          "group": home_group(site, site_cfg, new_title, grp, None),
                          "first_seen": min(a.get("added") or today for a in grp),
                          "last_updated": max(a.get("added") or today for a in grp),
@@ -187,45 +196,78 @@ def _old_audit_today(site: str, today: str) -> list[dict]:
     return [e for e in json.loads(path.read_text(encoding="utf-8")) if e["date"] == today] if path.exists() else []
 
 
-def drifted(state: dict, idx, n: dict, today: str, days: int = 2) -> float | None:
-    """
-    How well the title still fits the story's recent headlines (share that match it), or None if
-    there are too few recent English headlines to judge. Below RETITLE_SUPPORT, it has drifted.
-    """
-    since = (datetime.fromisoformat(today) - timedelta(days=days - 1)).date().isoformat()
-    recent = [a for a in n["articles"] if (a.get("added") or "") >= since]
-    return cluster.title_support(idx, n["title"], recent)
+LABEL_SCHEMA = {"type": "object", "properties": {"stories": {"type": "array", "items": {"type": "object", "properties": {
+    "id": {"type": "string"}, "label": {"type": "string"}}, "required": ["id", "label"]}}}, "required": ["stories"]}
 
 
-def titles(site: str, today: str | None = None) -> list[str]:
+def labels(site: str, apply: bool = False, today: str | None = None) -> list[str]:
+    """Wider-story names for stories running more than a day (see LABELS at the top)."""
     state = load_state(site)
     today = today or datetime.now(timezone.utc).date().isoformat()
     idx = site_index(state)
-    out = []
-    for n in state["narratives"]:
-        share = drifted(state, idx, n, today)
-        if share is not None and share < RETITLE_SUPPORT:
-            recent = [a["title"] for a in n["articles"] if (a.get("lang") or "en") == "en"][:3]
-            out.append(f"{n['title']}  (title matches {share:.0%} of recent headlines)\n      recent: "
-                       + " | ".join(t[:70] for t in recent))
+    running = [n for n in state["narratives"] if n["first_seen"] < today and len(n["articles"]) >= MIN_ARTICLES]
+    if not running:
+        return []
+    template = (CONFIG / "prompts" / "labels.md").read_text(encoding="utf-8")
+    system, prompt = (part.strip() for part in template.split("# PROMPT", 1))
+    system = system.replace("# SYSTEM", "", 1).strip()
+    stories = {n["id"]: n for n in running}
+    proposals: dict[str, str] = {}
+    for i in range(0, len(running), PER_CALL):
+        blocks = []
+        for n in running[i:i + PER_CALL]:
+            heads = sorted(n["articles"], key=lambda a: (a.get("lang") or "en") != "en")[:12]
+            blocks.append(f"### Story {n['id']}\nname now: {n.get('label') or n['title']}\nheadlines:\n"
+                          + "\n".join(f"  - {a['title']}" for a in heads))
+        try:
+            answer = ask_json(system, Template(prompt).safe_substitute(stories="\n\n".join(blocks)), LABEL_SCHEMA)
+        except LLMError as ex:
+            print(f"  AI call failed ({ex}): these stories keep their names")
+            continue
+        for item in answer.get("stories") or []:
+            if item.get("id") in stories and str(item.get("label") or "").strip():
+                proposals[item["id"]] = " ".join(str(item["label"]).split())
+    out, audit = [], []
+    for sid, label in proposals.items():
+        n = stories[sid]
+        old = n.get("label") or n["title"]
+        if label.lower() == old.lower():
+            continue
+        checked, why = checked_title(label, n["articles"])
+        new_fit = cluster.story_support(idx, checked, n["articles"], site)
+        old_fit = cluster.story_support(idx, old, n["articles"], site) or 0.0
+        # The AI was told to keep a name that fits, so a proposal means it judged the old one stale.
+        # Code only stops proposals that fit the story badly (an outlier headline) or worse than before.
+        if why or new_fit is None or new_fit < LABEL_SUPPORT or new_fit < old_fit - 0.1:
+            reason = why or (f"fits {new_fit:.0%} of the headlines" if new_fit is not None else "too few English headlines")
+            out.append(f"  kept: {old}\n      (proposed '{label}' rejected: {reason})")
+            continue
+        out.append(f"{old}\n      -> {checked}  (fits {new_fit:.0%} of its headlines; the old name fit {old_fit:.0%})")
+        if apply:
+            note(audit, "title", today, n["group"], checked, old, "wider-story name replaced (maintenance)")
+            n["label"] = checked
+    if apply and audit:
+        save_state(site, state)
+        save_audit(site, audit + _old_audit_today(site, today), today)
     return out
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Tidy the tracked stories.")
-    ap.add_argument("action", choices=["clean", "titles"])
+    ap.add_argument("action", choices=["clean", "labels"])
     ap.add_argument("--site", choices=sites())
-    ap.add_argument("--apply", action="store_true", help="clean: make the changes (default: only show them)")
+    ap.add_argument("--apply", action="store_true", help="make the changes (default: only show them)")
     ap.add_argument("--no-ai", action="store_true", help="clean: code's suspicions only, without the AI check")
     a = ap.parse_args()
     if a.apply and a.no_ai:
         raise SystemExit("--apply needs the AI check: code alone can't read headlines in other scripts.")
     for s in [a.site] if a.site else sites():
-        lines = clean(s, a.apply, use_ai=not a.no_ai) if a.action == "clean" else titles(s)
+        lines = clean(s, a.apply, use_ai=not a.no_ai) if a.action == "clean" else labels(s, a.apply)
         verb = "Split" if a.apply else "Would split"
+        renamed = sum(1 for l in lines if not l.startswith(" "))
         head = {"clean": f"{verb} or trim {sum(1 for l in lines if not l.startswith(' ') and 'kept after' not in l.split(':')[-1][:40])} stories",
-                "titles": f"{len(lines)} stories whose title no longer fits"}[a.action]
+                "labels": f"{'Renamed' if a.apply else 'Would rename'} {renamed} wider stories"}[a.action]
         print(f"\n=== {load_site(s)['name']}: {head} ===")
         print("\n".join(lines) or "  (none)")
-    if a.action == "clean" and not a.apply:
+    if not a.apply:
         print("\nNothing was changed. Run with --apply (or tick 'apply' in the Maintenance workflow) to make these changes.")

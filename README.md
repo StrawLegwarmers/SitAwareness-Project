@@ -9,7 +9,9 @@ event; an AI model only checks each group and restates single reported facts wit
 checks every sentence against the article it cites, removes what doesn't match, and dates it by its
 source's publication. A late outlet repeating known facts is shown as corroboration, not news.
 Opinion and analysis pieces are labelled and kept apart from reporting. Rankings are counted
-(regions and outlets reporting a story), never judged.
+(regions and outlets reporting a story), never judged. Each story is titled with the day's lead
+headline, picked by code from what most outlets reported, under the name of the wider story it
+belongs to.
 
 ## What you get
 

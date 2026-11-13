@@ -48,19 +48,36 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 9. Articles marked (state-media) are government-controlled: "[7], a Russian state outlet,
    reported that ...".
 10. Write in English whatever the article's language. Neutral, plain, no adjectives of your own.
-11. `title` (for new stories only): a neutral 3–8 word topic label made of names from the
-    articles, like "Port Elm shipping incidents" or "Norland: coalition talks".
-    No verbs of judgment, no adjectives. For existing stories, repeat the existing title, unless
-    (A) says "title may no longer fit": then write a new title, by the same rules, for what the
-    story's articles in (B) are about.
-12. `country`: the one country the story is mainly about, written as the articles name it
-    ("Norland"), or "" if it is about several countries equally or none.
+11. `title` (for new stories only): the name of the WIDER story, a neutral 3–8 word topic label
+    made of names from the articles, like "Port Elm shipping incidents" or "Norland: coalition
+    talks". Not a headline: it must still fit when the story develops. No verbs of judgment, no
+    adjectives. (Code shows each day's lead headline separately.) For existing stories, repeat
+    the title from (A).
+12. `country`: the one country where the story happens, written as the articles name it
+    ("Norland"), or "" if it happens in several countries equally or none. A trial, arrest or
+    attack happens where it takes place, whatever the nationality of the people involved.
+13. `topic`: one word from this list for what the story is about: $topics.
+    - conflict: war, strikes, armed groups · security: terrorism, espionage, military, threats ·
+      politics: government, parties, laws, regulation, appointments and purges, protests ·
+      justice: courts and investigations with political or security weight · economy: macro
+      data, trade, tariffs, sanctions, central banks · infrastructure: outages and failures of
+      power, transport, telecom, cloud and IT services · crime: organised crime, mass-casualty
+      or politically significant crime · technology-policy: rules for tech, AI, chips, exports.
+    - business-strategic / markets-strategic: company or market news ONLY when the articles tie
+      it to governments, sanctions, export controls, national security, conflict or critical
+      supply chains, or the company is central to them (a leadership crisis at a firm at the
+      heart of chip export controls). Otherwise: business (results, products, deals, drug
+      approvals) or markets (share and index moves).
+    - health: medicine, guidelines, research (outbreaks are health-emergency) · sport: including
+      court cases about sport · celebrity: including an entertainer's death.
+    Code keeps only the topics this site covers; be honest, don't stretch a label to keep a story.
 
 ## Output fields
 
 - `id`: existing id from (A), or "" for a new story
 - `title`: as rule 11
 - `country`: as rule 12
+- `topic`: as rule 13
 - `articles`: numbers of EVERY article in (B) that belongs to this story
 - `reports`: 0 to 3 items, each `{"text": one sentence per rules 5–10, "articles": [numbers cited]}`.
   A new story must have at least one report. Each report is a different fact (rule 5).
@@ -69,13 +86,13 @@ is ONE sentence saying what ONE outlet (or a few outlets) reported.
 
 ```json
 {"narratives": [
-  {"id": "", "title": "Port Elm shipping incidents", "country": "Norland",
+  {"id": "", "title": "Port Elm shipping incidents", "country": "Norland", "topic": "security",
    "articles": [4, 17, 22],
    "reports": [
      {"text": "[4][22] reported that the Norland coast guard said four cargo ships hit sea mines near Port Elm.", "articles": [4, 22]},
      {"text": "[17], a state-run outlet, reported that two vessels were detained.", "articles": [17]}
    ]},
-  {"id": "norland-coalition-talks", "title": "Norland: coalition talks", "country": "Norland",
+  {"id": "norland-coalition-talks", "title": "Norland: coalition talks", "country": "Norland", "topic": "politics",
    "articles": [31, 32],
    "reports": []}
 ]}
