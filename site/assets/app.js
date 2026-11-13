@@ -8,7 +8,7 @@
      #/geo/europe               the Europe page, latest day
      #/geo/2026-11-09/europe    the Europe page on 9 November
      #/geo/2026-11-09/europe/c-poland   ...scrolled to Poland
-     #/cyber/threats            Cyber, "IOCs and vulnerabilities"
+     #/cyber/threats            Cyber, "IoCs and Vulnerabilities"
      #/geo/2026-11-07..2026-11-11/europe  five days combined into one view
      #/toolkit                  OSINT links
      #/sources                  every source and how it's doing
@@ -44,6 +44,7 @@ const ICONS = {
   link: '<path d="M9 15l6-6M11 6l.463-.536a5 5 0 0 1 7.071 7.072l-.534.464M13 18l-.397.534a5.068 5.068 0 0 1-7.127 0a4.972 4.972 0 0 1 0-7.071l.524-.463"/>',
   copy: '<path d="M7 9.667A2.667 2.667 0 0 1 9.667 7h8.666A2.667 2.667 0 0 1 21 9.667v8.666A2.667 2.667 0 0 1 18.333 21H9.667A2.667 2.667 0 0 1 7 18.333zM4.012 16.737A2 2 0 0 1 3 15V5c0-1.1.9-2 2-2h10c.75 0 1.158.385 1.5 1"/>',
   dot: '<circle cx="12" cy="12" r="3"/>',
+  "info-circle": '<path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0-18 0M12 9h.01M11 12h1v4h1"/>',
   chart: '<path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 6-7"/>',
   bank: '<path d="M3 21h18M5 21v-9M9.5 21v-9M14.5 21v-9M19 21v-9M2.5 9.5 12 4l9.5 5.5z"/>',
   file: '<path d="M14 3v4a1 1 0 0 0 1 1h4"/><path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2zM9 13h6M9 17h4"/>',
@@ -236,6 +237,9 @@ function reportLine(r, P) {
 
 const regionLabel = (day, r) => (r === "global" ? "international outlets" : groupName(day, r));
 
+// A story card: the wider story and the day's lead headline, the status in the corner, a thin
+// line, then up to two reports ("On 13 Nov 2026, Reuters reported that ...") and one footer line.
+// Everything else (more reports, dates mentioned, the original headlines) opens below on demand.
 function card(s, day, showGroup) {
   S.cards.set(s.id, [s, day]);
   const P = period(day);
@@ -244,21 +248,21 @@ function card(s, day, showGroup) {
   const active = live(s);
   const single = s.single_source ?? s.single_source_today;
   const stateOnly = s.state_media_only ?? s.state_media_only_today;
-  const watched = watchHits(s);
   const flags = [
     active && single ? `<span class="flag single" title="Only one outlet reported this ${P.label}">single source</span>` : "",
     active && stateOnly ? `<span class="flag state" title="Every source ${P.label} is government-controlled">state media only</span>` : "",
-    ...watched.map((w) => `<span class="flag watch" title="On your watchlist">${icon("eye", "ic-s")}${esc(w)}</span>`),
+    ...watchHits(s).map((w) => `<span class="flag watch" title="On your watchlist">${icon("eye", "ic-s")}${esc(w)}</span>`),
   ].join("");
-  const count = active ? "" : `last reported ${esc(s.last_updated)}`;     // no outlet count: less clutter
-  const reach = s.reach > 1 ? `<span class="reach" title="Reported by outlets from: ${esc((s.regions || []).map((r) => regionLabel(day, r)).join(", "))}">${esc(s.reach)} regions</span>` : "";
 
-  let lead;
+  let lead, shown = 0;
   if (today.length) {
+    shown = Math.min(2, today.length);
     lead = `<ul class="reports">${today.slice(0, 2).map((r) => reportLine(r, P)).join("")}</ul>`;
   } else if (!active && earlier.length) {
+    shown = 1;
     lead = `<ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
   } else if (s.status === "covered" && earlier.length) {
+    shown = 1;
     lead = `<p class="muted small m0">More outlets covered this ${P.since}, with no new facts. Latest report:</p><ul class="reports">${reportLine(earlier[0], { multi: true })}</ul>`;
   } else {
     lead = `<p class="muted m0 small13">No checked report. See the original headlines below.</p>`;
@@ -269,27 +273,43 @@ function card(s, day, showGroup) {
     ? `<p class="wider"><span class="wider-tag">Wider story</span> <button type="button" class="wider-link" data-wider="${esc(s.id)}"
         title="Show the earlier reporting on this story (since ${esc(fmtDayShort(s.first_seen))})">${esc(s.label)}</button></p>` : "";
   const from = s.title_from && s.title_from.outlet ? ` title="Headline from ${esc(s.title_from.outlet)}"` : "";
-  const dates =(s.dates || []).length ? `<p class="dates" title="Dates written in the articles themselves, found by code (not the AI)">Dates in the reporting: ${s.dates.map((d) =>
+  const dates = (s.dates || []).length ? `<p class="dates" title="Dates written in the articles themselves, found by code (not the AI)">Dates in the reporting: ${s.dates.map((d) =>
     `${esc(fmtDayShort(d.date))} <span class="muted">(${plural(d.outlets, "outlet")})</span>`).join(" · ")}</p>` : "";
-
   const more = [
-    today.length > 2 ? `<h4>ALL REPORTS ${P.label.toUpperCase()}</h4><ul class="reports">${today.map((r) => reportLine(r, P)).join("")}</ul>` : "",
-    earlier.length ? `<h4>EARLIER REPORTING</h4><ul class="reports">${earlier.map((r) => reportLine(r, { multi: true })).join("")}</ul>` : "",
-    `<h4>ORIGINAL HEADLINES</h4><ul class="heads">${s.articles.map(headlineItem).join("")}</ul>`,
+    dates,
+    today.length > 2 ? `<h4>All reports ${esc(P.label)}</h4><ul class="reports">${today.map((r) => reportLine(r, P)).join("")}</ul>` : "",
+    earlier.length ? `<h4>Earlier reporting</h4><ul class="reports">${earlier.map((r) => reportLine(r, { multi: true })).join("")}</ul>` : "",
+    `<h4>Original headlines</h4><ul class="heads">${s.articles.map(headlineItem).join("")}</ul>`,
   ].join("");
+  const extra = s.reports.length - shown;
+  const toggle = `${extra > 0 ? `${plural(extra, "more report")} · ` : ""}${plural(s.articles.length, "source")}`;
+  const when = !active ? `last reported ${esc(fmtDayShort(s.last_updated))}` : s.first_seen < P.start ? `since ${esc(fmtDayShort(s.first_seen))}` : "";
+  const place = showGroup ? esc(groupName(day, where(s))) : "";
+  const n = (S.moreSeq = (S.moreSeq || 0) + 1);
 
   return `<article class="card ${esc(s.status)}${S.compact ? " compact" : ""}" data-story="${esc(s.id)}">
-    <div class="card-top"><span class="badge ${esc(s.status)}">${STATUS[s.status] || esc(s.status)}</span>${flags}
-      ${showGroup ? `<span>${esc(groupName(day, where(s)))}</span>` : ""}<span class="spacer"></span>${reach}${count ? `<span>${count}</span>` : ""}</div>
-    ${wider}
-    <h3${from}>${esc(s.title)}</h3>
-    ${countryLine(s, day)}
+    <div class="card-head"><div class="head-main">${wider}<h3${from}>${esc(s.title)}</h3></div>
+      <span class="status ${esc(s.status)}">● ${STATUS[s.status] || esc(s.status)}</span></div>
+    <div class="card-rule" aria-hidden="true"></div>
     ${lead}
-    ${dates}
-    <details class="more"><summary>Sources and earlier reporting (${s.articles.length})</summary>${more}</details>
-    <div class="card-foot"><span>First seen ${esc(fmtDayShort(s.first_seen))}</span>
-      <button type="button" class="copy" data-copy="${esc(s.id)}" title="Copy the reports with their sources, as plain text">${icon("copy", "ic-s")}Copy with sources</button></div>
+    <div class="card-foot">
+      <button type="button" class="more-toggle" aria-expanded="false" aria-controls="more-${n}">${toggle}</button>
+      ${place || when ? `<span class="since">${[place, when].filter(Boolean).join(" · ")}</span>` : ""}${flags}
+      <span class="spacer"></span>
+      <button type="button" class="copy" data-copy="${esc(s.id)}" aria-label="Copy with sources" title="Copy the reports with their sources, as plain text">${icon("copy", "ic-s")}</button>
+    </div>
+    <div class="more" id="more-${n}" hidden>${more}</div>
   </article>`;
+}
+
+// Open a card's "more" panel (the footer button does the same).
+function openMore(cardEl, open = true) {
+  const btn = cardEl && cardEl.querySelector(".more-toggle");
+  const panel = btn && document.getElementById(btn.getAttribute("aria-controls"));
+  if (!panel) return null;
+  panel.hidden = !open;
+  btn.setAttribute("aria-expanded", String(open));
+  return panel;
 }
 
 // Plain text for pasting into a report or a chat: every sentence keeps its source link.
@@ -566,10 +586,10 @@ const BLOCKS = {
   },
 
   // ── Markets ──
+  // A quiet line under the page header (top: true puts it above the "on this page" buttons).
   disclaimer() {
-    return { html: `<p class="note-box" role="note"><strong>What this is.</strong> What news outlets and official bodies published,
-      collected and linked. The AI only restates single reported facts, each with its source; rates, prices and dates come from
-      official data, read by code. Nothing here is investment advice: no ratings, price targets, forecasts or recommendations.</p>` };
+    return { top: true, html: `<p class="page-note" role="note">${icon("info-circle", "ic-s")}What outlets and official bodies published, collected
+      and linked; the AI only restates reported facts, each with its source, and figures come from official data. Not investment advice.</p>` };
   },
 
   // Official rates and prices, read by code (pipeline/markets_data.py). A value that couldn't be
@@ -703,49 +723,24 @@ function renderBlock(day, P, name) {
   return fn ? fn(day, P, arg) : null;
 }
 
-// The number next to each page in the sidebar: the first thing on the page that can be counted.
-function pageCount(day, page) {
-  const P = period(day);
-  // A page with indicators counts indicators (the KEV block on the same page is small)
-  const blocks = page.show.includes("iocs") && day.iocs ? ["iocs"] : page.show;
-  for (const b of blocks) {
-    const [kind, arg] = b.split(":");
-    if (kind === "worldwide" && (day.worldwide || []).length) return { n: day.worldwide.length, what: "stories reported worldwide" };
-    if (kind === "group") return { n: day.stories.filter((s) => where(s) === arg && fresh(s)).length, what: "stories with new reporting" };
-    if (kind === "stories") return { n: day.stories.filter(fresh).length, what: "stories with new reporting" };
-    if (kind === "industries") return { n: (day.industries || []).reduce((t, i) => t + i.items.length, 0), what: `matching headlines ${P.recent}` };
-    if (kind === "vulns" && day.vulns) return { n: day.vulns.kev_new.length, what: `added to CISA KEV ${P.recent}` };
-    if (kind === "iocs" && day.iocs) return { n: day.iocs.total, what: "new indicators" };
-    if (kind === "calendar" && day.markets) return { n: ((day.markets.calendar || {}).events || []).length, what: "events in the next 7 days" };
-    if (kind === "filings" && day.markets && (day.markets.filings || {}).groups)
-      return { n: day.markets.filings.groups.reduce((t, g) => t + g.filings.length, 0), what: "filings by listed companies" };
-    if (kind === "list") {
-      const l = (day.lists || []).find((x) => x.id === arg);
-      if (l) return { n: l.items.length, what: "headlines" };
-    }
-  }
-  return null;
-}
-
 // One sidebar for everything: Geopolitical pages, Cyber pages, then the Toolkit.
 function renderSidebar() {
   let h = "";
   for (const site of SITES) {
     const day = S.days[site];
     if (!day) continue;
-    h += `<p class="side-label">${esc(S.index.sites[site].label.toUpperCase())}</p>`;
+    // No counts next to pages (less clutter); the page itself says what's new.
+    h += `<p class="side-label">${esc(S.index.sites[site].label)}</p>`;
     h += pagesFor(day).map((p) => {
-      const c = pageCount(day, p);
       const here = S.site === site && S.page === p.id && !S.q.trim();
       return `<a href="${hrefFor(site, p.id)}"${here ? ' aria-current="page"' : ""}>${icon(p.icon || (PAGE_ICON[site] || {})[p.id])}
-        <span class="label">${esc(p.name)}</span>${c ? `<span class="n" title="${c.n} ${esc(c.what)}">${c.n}</span>` : ""}</a>`;
+        <span class="label">${esc(p.name)}</span></a>`;
     }).join("");
   }
-  const fails = (S.index && S.index.sources_failing) || 0;
-  const watched = SITES.reduce((t, k) => t + ((S.days[k] || {}).stories || []).filter((s) => live(s) && watchHits(s).length).length, 0);
-  h += `<p class="side-label">YOURS</p>` + `<a href="#/watch"${S.site === "watch" ? ' aria-current="page"' : ""}>${icon("eye")}<span class="label">Watchlist</span>${
-    S.watch.length ? `<span class="n" title="${watched} stories with coverage match your watchlist">${watched}</span>` : ""}</a>`;
-  h += `<p class="side-label">REFERENCE</p>` + [["toolkit", "Toolkit", "tool", ""], ["sources", "Sources", "rss", fails ? `<span class="n bad" title="${fails} failing">${fails}</span>` : ""],
+  const fails = (S.index && S.index.sources_failing) || 0;      // the one warning kept: a small dot
+  h += `<p class="side-label">Yours</p>` + `<a href="#/watch"${S.site === "watch" ? ' aria-current="page"' : ""}>${icon("eye")}<span class="label">Watchlist</span></a>`;
+  h += `<p class="side-label">Reference</p>` + [["toolkit", "Toolkit", "tool", ""],
+    ["sources", "Sources", "rss", fails ? `<span class="dot bad" role="img" aria-label="${fails} failing" title="${plural(fails, "feed")} failing"></span>` : ""],
     ["opencti", "OpenCTI", "link", ""]].map(([id, name, ic, n]) =>
     `<a href="#/${id}"${S.site === id ? ' aria-current="page"' : ""}>${icon(ic)}<span class="label">${name}</span>${n}</a>`).join("");
   const day = S.days[S.site] || S.days.geo;
@@ -761,7 +756,7 @@ function renderPage(day, page) {
   const label = S.index.sites[day.site].label;
   const first = page.id === pagesFor(day)[0].id;
   const when = P.isRange ? `${fmtDM(day.range.from)} – ${fmtDate(day.range.to)}` : fmtDate(day.date);
-  let h = `<p class="kicker">${esc(label.toUpperCase())} · ${esc(when.toUpperCase())}</p>
+  let h = `<p class="kicker">${esc(label)} · ${esc(when)}</p>
     <h1>${first ? `${esc(label)} ${P.isRange ? `· ${plural(P.days, "day")}` : P.multi ? "catch-up" : "brief"}` : esc(page.name)}</h1>
     ${P.isRange ? `<p class="catchup">This view combines <strong>${plural(day.range.files, "daily brief")}</strong> from ${esc(P.range)}. Counts and reports cover the whole period.</p>`
       : P.multi ? `<p class="catchup">Catch-up: this brief covers <strong>${esc(P.range)}</strong>, so nothing reported in between is missed.</p>` : ""}`;
@@ -772,7 +767,9 @@ function renderPage(day, page) {
       <button type="button" data-view="cards" aria-pressed="${!S.compact}" title="Cards">${icon("cards", "ic-s")}Cards</button>
       <button type="button" data-view="list" aria-pressed="${S.compact}" title="Compact list">${icon("list", "ic-s")}List</button></div></div>`;
 
-  const blocks = page.show.map((b) => renderBlock(day, P, b)).filter(Boolean);
+  const all = page.show.map((b) => renderBlock(day, P, b)).filter(Boolean);
+  const blocks = all.filter((b) => !b.top);
+  h += all.filter((b) => b.top).map((b) => b.html).join("");
   const jumps = blocks.filter((b) => b.label);
   if (jumps.length > 2) h += `<nav class="jump" aria-label="On this page">${jumps.map((b) =>
     `<button type="button" data-goto="${esc(b.id)}">${esc(b.label)}</button>`).join("")}</nav>`;
@@ -870,15 +867,17 @@ function wire() {
     e.preventDefault();
     const cards = view.querySelectorAll(`[data-story="${CSS.escape(a.dataset.jump)}"]`);
     const target = cards[cards.length - 1];
-    if (target) { reveal(target); target.scrollIntoView({ behavior: "smooth", block: "start" }); target.querySelector("details").open = true; }
+    if (target) { reveal(target); target.scrollIntoView({ behavior: "smooth", block: "start" }); openMore(target); }
+  }));
+  // A card's footer button: show or hide everything else about the story.
+  view.querySelectorAll(".more-toggle").forEach((b) => b.addEventListener("click", () => {
+    openMore(b.closest(".card"), b.getAttribute("aria-expanded") !== "true");
   }));
   // "Wider story": open this card's earlier reporting and bring it into view.
   view.querySelectorAll("[data-wider]").forEach((b) => b.addEventListener("click", () => {
-    const card = b.closest(".card");
-    const more = card && card.querySelector("details.more");
+    const more = openMore(b.closest(".card"));
     if (!more) return;
-    more.open = true;
-    const h = [...more.querySelectorAll("h4")].find((x) => x.textContent.startsWith("EARLIER")) || more;
+    const h = [...more.querySelectorAll("h4")].find((x) => x.textContent.startsWith("Earlier")) || more;
     h.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }));
 }

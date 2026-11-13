@@ -47,10 +47,10 @@ lists:
 # Add, remove or reorder pages freely; ids may only use a-z, 0-9 and "-".
 pages:
   - {id: brief,    name: Brief,                    icon: brief,       show: [bluf, top, stories, commentary, quality]}
-  - {id: industry, name: Industry intelligence,    icon: briefcase,   show: [industries, list:aviation]}
-  - {id: threats,  name: IOCs and vulnerabilities, icon: fingerprint, show: [vulns, secincidents, iocs, list:advisories]}
-  - {id: vendor,   name: Vendor intelligence,      icon: flask,       show: [list:intel]}
-  - {id: global,   name: Global intelligence,      icon: broadcast,   show: [list:news]}
+  - {id: industry, name: Industry Intelligence,    icon: briefcase,   show: [industries, list:aviation]}
+  - {id: threats,  name: IoCs and Vulnerabilities, icon: fingerprint, show: [vulns, secincidents, iocs, list:advisories]}
+  - {id: vendor,   name: Vendor Intelligence,      icon: flask,       show: [list:intel]}
+  - {id: global,   name: Global Intelligence,      icon: broadcast,   show: [list:news]}
 
 # Research from these sources can become a story ON ITS OWN, before any other outlet covers it:
 # a new campaign or threat-actor report from a major lab, or a government advisory, is news.

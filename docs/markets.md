@@ -12,13 +12,13 @@ says so at the top of the brief.
 | Page | Shows | Made by |
 |---|---|---|
 | Brief | Bottom line up front, most reported stories, every story, and "From the Geopolitical brief": today's Geopolitical stories about oil, sanctions, tariffs and other market topics (`geo_links` in `site.yaml`), linked to their page | Code groups, the AI restates, code checks |
-| Rates and calendar | Official rates and prices, and the next 7 days | Code only (`pipeline/markets_data.py`) |
-| Central banks and releases | Fed, ECB, Bank of England, Bank of Japan, SNB, Bank of Canada, RBA, BIS, BEA, Census, EIA, WTO, SEC and CFTC releases | Plain list from their feeds |
-| Company filings | SEC 8-K filings by US-listed companies in the last day, by type | Code only |
+| Rates and Calendar | Official rates and prices, and the next 7 days | Code only (`pipeline/markets_data.py`) |
+| Central Banks and Releases | Fed, ECB, Bank of England, Bank of Japan, SNB, Bank of Canada, RBA, BIS, BEA, Census, EIA, WTO, SEC and CFTC releases | Plain list from their feeds |
+| Company Filings | SEC 8-K filings by US-listed companies in the last day, by type | Code only |
 | Analysis | Analysis from outlets (FT Lex and Alphaville, The Economist, Liberty Street Economics, FEDS Notes, ECB Blog), labelled | Listed, never restated |
-| Markets headlines | Every news headline of the last two days | Plain list |
+| Markets Headlines | Every news headline of the last two days | Plain list |
 
-The Cyber site's "IOCs and vulnerabilities" page also lists **material cybersecurity incidents
+The Cyber site's "IoCs and Vulnerabilities" page also lists **material cybersecurity incidents
 disclosed to the SEC** (8-K Item 1.05) from the same filings data.
 
 ## Sources

@@ -31,6 +31,11 @@ on anything.
 
 ## Third-party software
 
+### IBM Plex Sans
+
+The label typeface in `site/assets/fonts/` is IBM Plex Sans, Copyright 2019 IBM Corp., licensed under
+the SIL Open Font License, Version 1.1 (full text in `site/assets/fonts/IBM-Plex-Sans-OFL.txt`).
+
 ### Tabler Icons
 
 Icon outlines in `site/assets/app.js` are taken from Tabler Icons (https://tabler.io/icons).

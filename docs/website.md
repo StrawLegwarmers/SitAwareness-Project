@@ -7,33 +7,32 @@ an AI. GitHub Pages publishes it; locally, `python -m http.server --directory si
 ## Layout
 
 - **Sidebar** pinned to the left: every Geopolitical page, every Cyber page, every Markets page ([markets](markets.md)), your Watchlist, then the
-  reference pages (Toolkit, Sources, OpenCTI). Each page shows a count (stories with new reporting, headlines,
-  indicators…). At the foot: when the brief was built, sources read and sentences removed by the
-  checks. On a phone the sidebar opens from the menu button.
+  reference pages (Toolkit, Sources, OpenCTI), under coloured section headings. No counts: the pages
+  themselves say what's new; a small red dot on Sources means some feeds are failing. At the foot:
+  when the brief was built, sources read and sentences removed by the checks. On a phone the sidebar
+  opens from the menu button.
 - **Top bar**: the title (a radar that keeps sweeping, and letters that decode once when the site
   opens), the date or range, search, and light/dark mode.
 - **Pages** come from `pages:` in each `site.yaml` ([configuration](configuration.md#siteyaml)).
 
 ## Stories
 
-Each card shows:
+Each card shows, top to bottom:
 
-- its **status**: New, Updated (new facts), More coverage (more outlets, no new facts) or Still tracked;
-- its **title**: the day's lead headline (hover to see whose), and, for a story running since before
-  the period, its **wider story** in a small box above it; clicking that opens the earlier reporting
-  (see [stories](stories.md#titles-the-latest-headline-under-its-wider-story));
-- **flags**: *single source*, *state media only*, and any watchlist words it mentions;
-- **reach** ("6 regions": how many regions' outlets reported it); a story with nothing new in the
-  period says when it was last reported;
-- its countries, domestic or international;
-- the newest checked **reports**, each starting with the date its source published it
-  ("On 12 Nov 2026, Reuters reported…"), with links, and the outlets that **also reported** the same
-  facts;
-- **dates in the reporting**: dates the articles themselves mention, counted by outlet;
-- under **Sources and earlier reporting**, every original headline and earlier report;
-- first seen, and **Copy with sources**: the title, wider story, reports and headlines as plain
-  text, every sentence with its link, ready to paste. Wire and state-media labels are on each
-  headline under Sources.
+- for a story running since before the period, its **wider story** in a small box; clicking it
+  opens the earlier reporting (see [stories](stories.md#titles-the-latest-headline-under-its-wider-story));
+- its **title**, the day's lead headline (hover to see whose), with the **status** in the corner:
+  New (green), Updated with new facts (blue), More coverage (more outlets, no new facts) or Still tracked;
+- a thin line, then up to two checked **reports**, each starting with the date its source
+  published it ("On 12 Nov 2026, Reuters reported that…"), with links, and the outlets that **also
+  reported** the same facts;
+- one footer line: a button for the rest (more reports, **dates in the reporting**, every original
+  headline, with wire and state-media labels), since when the story has run, any **flags**
+  (*single source*, *state media only*, watchlist words), and **Copy with sources**: the title,
+  wider story, reports and headlines as plain text, every sentence with its link, ready to paste.
+
+Countries aren't repeated on the card: the page, the region and the headline already say where.
+Labels (the page line, sidebar headings, the wider-story tag) use IBM Plex Sans, stored with the site.
 
 Opinion and analysis pieces are listed separately with their outlet's label.
 

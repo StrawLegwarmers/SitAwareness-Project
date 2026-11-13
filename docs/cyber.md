@@ -65,7 +65,7 @@ whole step is allowed to fail without stopping the rest.
 
 ## Industries
 
-The **Industry intelligence** page picks out items about specific sectors from **every** source,
+The **Industry Intelligence** page picks out items about specific sectors from **every** source,
 geopolitical and cyber, using keyword lists in `config/cyber/industries.yaml`:
 
 | Industry | Covers |

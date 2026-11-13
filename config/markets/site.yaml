@@ -41,11 +41,11 @@ lists:
 #   geolinks    today's Geopolitical stories about energy, trade, sanctions and other market topics
 pages:
   - {id: brief,     name: Brief,                      icon: brief,     show: [disclaimer, bluf, top, stories, geolinks, quality]}
-  - {id: data,      name: Rates and calendar,         icon: chart,     show: [rates, calendar]}
-  - {id: official,  name: Central banks and releases, icon: bank,      show: [list:official]}
-  - {id: filings,   name: Company filings,            icon: file,      show: [filings]}
+  - {id: data,      name: Rates and Calendar,         icon: chart,     show: [rates, calendar]}
+  - {id: official,  name: Central Banks and Releases, icon: bank,      show: [list:official]}
+  - {id: filings,   name: Company Filings,            icon: file,      show: [filings]}
   - {id: analysis,  name: Analysis,                   icon: book,      show: [commentary]}
-  - {id: headlines, name: Markets headlines,          icon: broadcast, show: [list:news]}
+  - {id: headlines, name: Markets Headlines,          icon: broadcast, show: [list:news]}
 
 # Geopolitical stories shown on the brief under "From the Geopolitical brief": a story whose
 # wider-story name or newest headlines contain one of these words or phrases.
