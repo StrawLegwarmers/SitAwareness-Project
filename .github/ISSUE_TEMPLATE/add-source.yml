@@ -41,6 +41,9 @@ body:
         - "Cyber: vendor research (intel)"
         - "Cyber: aviation"
         - "Cyber: advisories"
+        - "Markets: news"
+        - "Markets: official"
+        - "Markets: analysis"
     validations:
       required: true
   - type: dropdown
