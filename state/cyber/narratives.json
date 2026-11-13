@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 166,
+   "articles": 202,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 12,
-   "continuing": 1,
+   "calls": 3,
+   "candidates": 23,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 161,
-   "in_stories": 14,
-   "kept": 13,
+   "groups": 179,
+   "in_stories": 28,
+   "kept": 27,
    "merged": 1,
-   "new": 7,
+   "new": 12,
    "rejected": 0,
-   "reported_by_2": 4,
-   "runs": 2,
-   "sent": 12,
+   "reported_by_2": 6,
+   "runs": 3,
+   "sent": 23,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -50,7 +50,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T11:35:51+00:00"
+  "all": "2026-11-13T12:09:59+00:00"
  },
  "narratives": [
   {
@@ -2420,8 +2420,21 @@
    }
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "16fb12875099eeaf",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-13T10:56:15+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "US Freezes $2.7 Billion Stolen by North Korean Hackers in Massive $6 Billion Binance Crypto Heist",
+     "type": null,
+     "url": "https://cybersecuritynews.com/us-freezes-2-7-billion/"
+    },
     {
      "added": "2026-11-13",
      "id": "c0d30efb63d021ff",
@@ -2449,15 +2462,27 @@
      "url": "https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-cryptocurrency-and-infrastructure-seizure",
    "label": "US cryptocurrency and infrastructure seizure",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "16fb12875099eeaf"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-13T10:56:15+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/us-freezes-2-7-billion/) reported that the US government froze more than $2.7 billion of crypto stolen from Binance on or about October 29, 2026, and the FBI stated North Korea took over $6 billion."
+    },
     {
      "articles": [
       "2496e4e87388c256"
@@ -2486,11 +2511,34 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "US cryptocurrency and infrastructure seizure"
+   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "SecurityWeek",
+    "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
+   }
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-10-30"
+     ],
+     "id": "c673f076cf38f13e",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-13T11:35:05+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell",
+     "type": null,
+     "url": "https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html"
+    },
     {
      "added": "2026-11-13",
      "id": "c4f65913ad22e4e9",
@@ -2503,6 +2551,19 @@
      "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
      "type": null,
      "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "9cad47c67ab5666e",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T07:39:04+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
+     "type": null,
+     "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/"
     },
     {
      "added": "2026-11-13",
@@ -2534,15 +2595,39 @@
      "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "check-point-firewall-exploitation",
    "label": "Check Point firewall exploitation",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "9cad47c67ab5666e"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-13T07:39:04+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/) reported that PHP2Shell enabled initial compromise while CVE-2026-123039 allowed attackers to elevate privileges to root on Check Point Gateway."
+    },
+    {
+     "articles": [
+      "c673f076cf38f13e"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-13T11:35:05+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html) reported that unpatched Check Point gateways were hacked worldwide, leading to root access, backdoors, network intrusion, and destructive wiper attacks starting on 30 October."
+    },
     {
      "articles": [
       "54d72cd1204ce282"
@@ -2769,9 +2854,401 @@
    "status": "new",
    "title": "Ransomware at the hypervisor layer",
    "topic": "cyber"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "a385676b7edbec5b",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-13T08:35:18+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "Worldwide Microsoft 365 outage disrupts Outlook, SharePoint, Teams, and more",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-12",
+      "2026-11-13"
+     ],
+     "id": "689c13e72e2fc43e",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-13T06:51:21+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
+     "type": null,
+     "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "594efea33c81c3c1",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-12T20:15:16+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "microsoft-365-cloud-service-outage",
+   "label": "Microsoft 365 cloud service outage",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "594efea33c81c3c1"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-12T20:15:16+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/) reported that Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot."
+    },
+    {
+     "articles": [
+      "689c13e72e2fc43e"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-13T06:51:21+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/massive-microsoft-365-outage/) reported that a major Microsoft 365 outage disrupted cloud service access on November 12 and continued into November 13, 2026, as Microsoft worked to restore failing infrastructure."
+    },
+    {
+     "articles": [
+      "a385676b7edbec5b"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Malwarebytes Labs"
+     ],
+     "published": "2026-11-13T08:35:18+00:00",
+     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more) reported that a worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-13",
+    "of": 2,
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/"
+   },
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-11"
+     ],
+     "id": "3167d68a64a81bb1",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-12T16:53:00+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
+     "type": null,
+     "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "ff3cbde79df9a0df",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-12T11:51:43+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "n-able-n-central-zero-day",
+   "label": "N-able N-central zero-day vulnerabilities",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ff3cbde79df9a0df"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-12T11:51:43+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html) reported that N-able said it is investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running versions with hotfixes."
+    },
+    {
+     "articles": [
+      "3167d68a64a81bb1"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-12T16:53:00+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/) reported that new exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "N-able N-central zero-day vulnerabilities",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "8d99b75ac4f75780",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-13T11:10:40+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "db9769af4b8fb508",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-12T14:30:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "Hacked Asian Telcos Used to Intercept Taiwanese Calls and Texts",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "silentair-and-liminal-panda-telecom-attacks",
+   "label": "SilentAir and Liminal Panda telecom attacks",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "db9769af4b8fb508"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine"
+     ],
+     "published": "2026-11-12T14:30:00+00:00",
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/) reported that Enea linked SilentAir and Liminal Panda to attacks on Asian mobile operators."
+    },
+    {
+     "articles": [
+      "8d99b75ac4f75780"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-13T11:10:40+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html) reported that a newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "SilentAir and Liminal Panda telecom attacks",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "60b691f2e846fe7f",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-12T18:28:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
+     "type": null,
+     "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "39cf44c5627f55ff",
+     "lang": "en",
+     "outlet": "Graham Cluley",
+     "published": "2026-11-12T15:12:29+00:00",
+     "publisher": "Graham Cluley",
+     "region": null,
+     "section": "news",
+     "title": "WhiteArmor gang claims responsibility for latest cyber attack on shipping giant Maersk",
+     "type": null,
+     "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "maersk-cyber-security-incident",
+   "label": "Maersk cyber security incident",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "39cf44c5627f55ff"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Graham Cluley"
+     ],
+     "published": "2026-11-12T15:12:29+00:00",
+     "text": "[Graham Cluley](https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk) reported that shipping giant Maersk has confirmed that one of its systems was broken into by hackers who have stolen data, and the WhiteArmor gang has claimed responsibility."
+    },
+    {
+     "articles": [
+      "60b691f2e846fe7f"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Record"
+     ],
+     "published": "2026-11-12T18:28:00+00:00",
+     "text": "[The Record](https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system) reported that shipping giant Maersk stated a recent cyber incident affected a legacy system."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Maersk cyber security incident",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "3ff49165ff156b68",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-13T10:55:03+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-11-12"
+     ],
+     "id": "b6ad14b16a1f12c8",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-12T16:58:22+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
+     "type": null,
+     "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "operation-endgame-malware-infrastructure-takedown",
+   "label": "Operation Endgame malware infrastructure takedown",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b6ad14b16a1f12c8"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-12T16:58:22+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/malware-infrastructure-disrupted/) reported that Europol and international partners disrupted infrastructure linked to Gootloader, CastleRAT, and StealC."
+    },
+    {
+     "articles": [
+      "3ff49165ff156b68"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-13T10:55:03+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html) reported that an international police operation took down servers behind Gootloader, CastleRAT, and StealC, seizing 6.4 million stolen logins."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Operation Endgame malware infrastructure takedown",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-13T11:36:09+00:00"
+ "updated": "2026-11-13T12:10:18+00:00"
 }

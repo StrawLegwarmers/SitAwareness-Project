@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 494,
+   "articles": 520,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 14,
-   "continuing": 0,
+   "calls": 2,
+   "candidates": 19,
+   "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-13",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 468,
-   "in_stories": 32,
-   "kept": 21,
-   "merged": 0,
-   "new": 14,
-   "rejected": 8,
+   "groups": 477,
+   "in_stories": 40,
+   "kept": 25,
+   "merged": 1,
+   "new": 15,
+   "rejected": 9,
    "reported_by_2": 14,
-   "runs": 1,
-   "sent": 14,
+   "runs": 2,
+   "sent": 19,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -27,12 +27,38 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T11:38:21+00:00"
+  "all": "2026-11-13T12:12:05+00:00"
  },
  "narratives": [
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "2a3ad5f88034289d",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-13T12:05:22+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Russian crude production rebounds after Trump diesel deal, IEA says as oil markets return to surplus",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "342928b50426f901",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-13T11:36:26+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "World oil market is returning to surplus as Gulf exports recover, IEA says",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/world-oil-market-is-returning-to-surplus-as-gulf-exports-recoveriea-says-5024885"
+    },
     {
      "added": "2026-11-13",
      "id": "f5a2aa0161f008af",
@@ -73,15 +99,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "global-oil-market-surplus",
    "label": "Global oil market surplus",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "2a3ad5f88034289d"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-13T12:05:22+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/13/russia-oil-exports-iea-diesel-deal.html) reported that Russia's crude output rose to 8.73 million barrels a day in October."
+    },
     {
      "articles": [
       "607e1c434ce953f7",
@@ -111,7 +149,7 @@
    "topic": "energy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-13",
@@ -125,6 +163,19 @@
      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
      "type": "international",
      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "eafb8f975b99cd67",
+     "lang": "en",
+     "outlet": "The Guardian Economics",
+     "published": "2026-11-11T16:37:45+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia hires major US law firm to investigate spying claims; UK chancellor ‘dismayed’ by budget leak – as it happened",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/live/2026/nov/11/nvidia-spy-allegations-us-law-firm-hired-investigation-stock-markets-pound-dollar-ftse-nasdaq-latest-news-updates"
     },
     {
      "added": "2026-11-13",
@@ -153,7 +204,7 @@
      "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "nvidia-and-jensen-huang-sued-in",
@@ -301,7 +352,7 @@
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
     {
      "added": "2026-11-13",
@@ -315,6 +366,19 @@
      "title": "Oil prices rise after Trump says no Iran deal needed: 'We've got their Strait'",
      "type": "international",
      "url": "https://www.cnbc.com/2026/11/12/oil-prices-jump-after-trump-says-no-iran-deal-needed-weve-got-their-strait.html"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "44b9e2729097cdee",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-12T22:29:27+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Brent climbs over 3% as Trump says U.S. does not need deal with Iran",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-dip-on-report-of-more-usiran-diplomacy-plans-5020081"
     },
     {
      "added": "2026-11-13",
@@ -341,16 +405,43 @@
      "title": "Oil Prices Rebound as Trump Questions Need for Iran Deal",
      "type": "international",
      "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-investors-weigh-u-s-iran-diplomacy-296e2847?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "96067b712ea18965",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-12T17:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Brent Briefly Hits $96 After Trump Says U.S. Has No Need for Iran Deal",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "oil-prices-and-iran-diplomacy",
    "label": "Oil prices and Iran diplomacy",
+   "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
-   "reports": [],
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "96067b712ea18965"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-12T17:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html) reported that President Donald Trump declared the United States no longer needs a deal with Iran, and Brent briefly hit $96."
+    }
+   ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
@@ -486,8 +577,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "57146ab0229fce4d",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-13T11:27:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Kraft Heinz Plans to Bring New Life to Old Brands",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/investing/kraft-heinz-plans-to-bring-new-life-to-old-brands-8aa9f069?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-13",
      "id": "5cc91b2f3eb73406",
@@ -515,7 +619,7 @@
      "url": "https://www.wsj.com/business/retail/kraft-heinz-has-a-comeback-plan-cheesy-ramen-and-high-protein-jell-o-6fbfc2f8?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "kraft-heinz-has-a-comeback-plan",
@@ -982,9 +1086,79 @@
    "status": "new",
    "title": "Microsoft service outage",
    "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "f56bf3bf8eebb513",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-13T07:37:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rise as Middle East Supply Risks Persist",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "3eec7854d387b602",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-12T06:15:36+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Gas bills to rise as Middle East turmoil persists",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "gas-bills-to-rise-as-middle",
+   "label": "Gas bills to rise as Middle East turmoil persists",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3eec7854d387b602"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-12T06:15:36+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss) reported that Island Energy announced gas bills will increase by about 5% from 1 December as Middle East turmoil persists."
+    },
+    {
+     "articles": [
+      "f56bf3bf8eebb513"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-13T07:37:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gas bills to rise as Middle East turmoil persists",
+   "topic": "energy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T11:38:52+00:00"
+ "updated": "2026-11-13T12:12:23+00:00"
 }
