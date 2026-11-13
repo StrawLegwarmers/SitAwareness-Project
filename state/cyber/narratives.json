@@ -2,6 +2,29 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 134,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 10,
+   "continuing": 1,
+   "corroborated": 0,
+   "date": "2026-11-13",
+   "failed_calls": 0,
+   "groups": 129,
+   "in_stories": 12,
+   "kept": 11,
+   "merged": 1,
+   "new": 5,
+   "rejected": 0,
+   "reported_by_2": 4,
+   "runs": 1,
+   "sent": 10,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
+  {
    "articles": 59,
    "attached_by_code": 0,
    "calls": 0,
@@ -26,7 +49,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-12T13:11:23+00:00"
+  "all": "2026-11-13T08:36:25+00:00"
  },
  "narratives": [
   {
@@ -780,12 +803,12 @@
      "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "vanderbilt-university-ransomware-attack",
    "last_updated": "2026-11-12",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -854,9 +877,9 @@
      "text": "[The Record](https://therecord.media/vanderbilt-cyberattack-ransomware-alert) reported that Vanderbilt University announced a cyberattack warning that campus devices and systems may be impacted."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Vanderbilt University ransomware attack"
   },
   {
@@ -1243,12 +1266,12 @@
      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-10",
    "group": "all",
    "id": "n-able-takes-n-central-offline",
    "last_updated": "2026-11-12",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1330,7 +1353,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "N-able takes N-central offline following zero-day disclosures"
   },
   {
@@ -1923,12 +1946,12 @@
      "url": "https://www.sophos.com/en-us/blog/malicious-screenconnect-deployments-observed"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "github-and-screenconnect-cyberattacks",
    "last_updated": "2026-11-12",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1977,12 +2000,38 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GitHub and ScreenConnect cyberattacks"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "aed8b98e3d5b6c63",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-12T19:12:55+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "7f607d864fcb5a50",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-12T15:38:31+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+     "type": null,
+     "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/"
+    },
     {
      "added": "2026-11-12",
      "id": "26e1904512fa2efe",
@@ -2020,13 +2069,38 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
-   "last_updated": "2026-11-12",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "7f607d864fcb5a50"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-12T15:38:31+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/) reported that the mod_http2 race condition, CVE-2026-119618, was found by Anthropic and Google."
+    },
+    {
+     "articles": [
+      "aed8b98e3d5b6c63"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-12T19:12:55+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/) reported that a critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution."
+    },
     {
      "articles": [
       "26e1904512fa2efe"
@@ -2052,7 +2126,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "updated",
    "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
   },
   {
@@ -2095,12 +2169,12 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "antifox-ai-penetration-testing-platform-attacks",
    "last_updated": "2026-11-12",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2138,7 +2212,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "AntiFox AI penetration testing platform attacks"
   },
   {
@@ -2181,12 +2255,12 @@
      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "maersk-and-baker-tilly-data-breaches",
    "last_updated": "2026-11-12",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2224,11 +2298,344 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Maersk and Baker Tilly data breaches"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "8eb39dc762c35ac0",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-12T20:08:08+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Lego marketplace BrickLink in pieces after 'unusual activity' takes it offline for almost a week",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "b4a246818d987d43",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-12T14:25:49+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "LEGO’s BrickLink taken offline: What users should know",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "478709e0be379d8c",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-12T14:00:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "lego-bricklink-marketplace-offline",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "478709e0be379d8c",
+      "b4a246818d987d43"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine",
+      "Malwarebytes Labs"
+     ],
+     "published": "2026-11-12T14:00:00+00:00",
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/), [Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know) reported that Lego took its BrickLink Marketplace offline after detecting unusual activity."
+    },
+    {
+     "articles": [
+      "8eb39dc762c35ac0"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-12T20:08:08+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425) reported that the Lego marketplace outage approached a week with no confirmed cause."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Lego BrickLink marketplace offline"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "c0d30efb63d021ff",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T02:28:21+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
+     "type": null,
+     "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "2496e4e87388c256",
+     "lang": "en",
+     "outlet": "CyberScoop",
+     "published": "2026-11-13T00:32:19+00:00",
+     "publisher": "CyberScoop",
+     "region": null,
+     "section": "news",
+     "title": "US seizes North Korean hacking infrastructure, $1.2 billion in cryptocurrency stolen from Binance",
+     "type": null,
+     "url": "https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "us-cryptocurrency-and-infrastructure-seizure",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2496e4e87388c256"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "CyberScoop"
+     ],
+     "published": "2026-11-13T00:32:19+00:00",
+     "text": "[CyberScoop](https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/) reported that the US seized North Korean hacking infrastructure belonging to APT38 containing footage used to fool victims over video calls, alongside cryptocurrency stolen from Binance."
+    },
+    {
+     "articles": [
+      "c0d30efb63d021ff"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-13T02:28:21+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/) reported that the FBI stated the US seized 1.2 billion dollars worth of cryptocurrency stolen from Binance and blamed North Korea for a separate social engineering scheme."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US cryptocurrency and infrastructure seizure"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "c4f65913ad22e4e9",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-13T08:05:49+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+    },
+    {
+     "added": "2026-11-13",
+     "dates": [
+      "2026-10-30"
+     ],
+     "id": "e2ebbb57ec3d3c84",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-13T06:38:59+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Check Point Firewall Flaws to Gain Root Access and Deploy Wiper Malware on VMware ESXi",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hackers-exploit-check-point-firewall-flaws/"
+    },
+    {
+     "added": "2026-11-13",
+     "id": "54d72cd1204ce282",
+     "lang": "en",
+     "outlet": "Check Point Research",
+     "published": "2026-11-12T13:56:37+00:00",
+     "publisher": "Check Point Research",
+     "region": null,
+     "section": "intel",
+     "title": "PHP2Shell Exploitation on Check Point Gateway",
+     "type": null,
+     "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "check-point-firewall-exploitation",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "54d72cd1204ce282"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Check Point Research"
+     ],
+     "published": "2026-11-12T13:56:37+00:00",
+     "text": "[Check Point Research](https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/) reported that activity originating from PHP2Shell exploitation on Check Point Gateway was confirmed in late October 2026, approximately one week after a security fix became available."
+    },
+    {
+     "articles": [
+      "e2ebbb57ec3d3c84"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-13T06:38:59+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-exploit-check-point-firewall-flaws/) reported that hackers chained Check Point firewall vulnerabilities to gain root access, plant backdoors, and deploy destructive malware on a VMware ESXi host."
+    },
+    {
+     "articles": [
+      "c4f65913ad22e4e9"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-13T08:05:49+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html) reported that an unknown threat actor targeted unpatched Check Point Security Gateways to obtain initial access via PHP2Shell vulnerabilities and deploy the TSGA backdoor and wipe ESXi files."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Check Point firewall exploitation"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "b5d0feb8c034475a",
+     "lang": "en",
+     "outlet": "Unit 42 (Palo Alto)",
+     "published": "2026-11-12T15:00:31+00:00",
+     "publisher": "Unit 42 (Palo Alto)",
+     "region": null,
+     "section": "intel",
+     "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
+     "type": null,
+     "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "autonomous-ai-attacks-on-semiconductor-and",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "b5d0feb8c034475a"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Unit 42 (Palo Alto)"
+     ],
+     "published": "2026-11-12T15:00:31+00:00",
+     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/) reported that attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense, and civic targets."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Autonomous AI attacks on semiconductor and defense"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-13",
+     "id": "4a1e7cd6829af059",
+     "lang": "en",
+     "outlet": "Microsoft Threat Intelligence",
+     "published": "2026-11-12T17:00:00+00:00",
+     "publisher": "Microsoft",
+     "region": null,
+     "section": "intel",
+     "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+     "type": null,
+     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "post-training-supply-chain-attacks-on",
+   "last_reported": "2026-11-13",
+   "last_updated": "2026-11-13",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "4a1e7cd6829af059"
+     ],
+     "date": "2026-11-13",
+     "group": "all",
+     "outlets": [
+      "Microsoft"
+     ],
+     "published": "2026-11-12T17:00:00+00:00",
+     "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/) reported that Microsoft Defender Research and the AI Red Team discussed how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Post-training supply chain attacks on coding agents"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-12T13:11:23+00:00"
+ "updated": "2026-11-13T08:36:44+00:00"
 }
