@@ -4,25 +4,25 @@
   {
    "articles": 835,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 20,
-   "continuing": 4,
+   "calls": 6,
+   "candidates": 22,
+   "continuing": 5,
    "corroborated": 1,
    "date": "2026-11-14",
    "dropped": 4,
    "failed_calls": 0,
    "groups": 724,
-   "in_stories": 29,
-   "kept": 24,
-   "merged": 1,
+   "in_stories": 32,
+   "kept": 25,
+   "merged": 2,
    "new": 10,
    "rejected": 1,
    "reported_by_2": 9,
-   "runs": 5,
-   "sent": 20,
+   "runs": 6,
+   "sent": 22,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -51,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T13:35:43+00:00"
+  "all": "2026-11-14T16:20:06+00:00"
  },
  "narratives": [
   {
@@ -1770,8 +1770,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 5,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "78fc27705b19b2f8",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-14T15:48:19+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Collins says gradual rate hikes best to manage economic risks",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "2112fae2aef7bd41",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-14T15:08:45+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate"
+    },
     {
      "added": "2026-11-13",
      "id": "94300eb4930b3d49",
@@ -1838,15 +1864,29 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "2112fae2aef7bd41",
+      "78fc27705b19b2f8"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-14T15:08:45+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate), [Investing.com](https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385) reported that Federal Reserve Bank of Boston President Susan Collins stated that a gradual path for interest-rate hikes will be appropriate."
+    },
     {
      "articles": [
       "ece8f5e17e3adc6b",
@@ -1879,7 +1919,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Federal Reserve interest rates",
    "topic": "economy"
   },
@@ -1944,8 +1984,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 12,
+   "article_count": 13,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "153a82f51ccde1c3",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-14T14:19:07+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "U.S. air travel could take days to recover after lifting of FAA ground stop",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=33d31d5c-5642-4214-be85-59ecb023f93c&mod=mw_rss_bulletins"
+    },
     {
      "added": "2026-11-14",
      "id": "f2ef34e8a74ec8d7",
@@ -2103,7 +2156,7 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 7,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
@@ -3046,5 +3099,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T13:36:00+00:00"
+ "updated": "2026-11-14T16:20:23+00:00"
 }
