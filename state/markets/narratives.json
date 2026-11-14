@@ -4,22 +4,22 @@
   {
    "articles": 835,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 16,
+   "calls": 5,
+   "candidates": 20,
    "continuing": 4,
    "corroborated": 1,
    "date": "2026-11-14",
-   "dropped": 3,
+   "dropped": 4,
    "failed_calls": 0,
    "groups": 724,
-   "in_stories": 23,
-   "kept": 20,
+   "in_stories": 29,
+   "kept": 24,
    "merged": 1,
-   "new": 7,
+   "new": 10,
    "rejected": 1,
    "reported_by_2": 9,
-   "runs": 4,
-   "sent": 16,
+   "runs": 5,
+   "sent": 20,
    "skipped": 1,
    "split_calls": 0,
    "updated": 4,
@@ -51,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T10:23:40+00:00"
+  "all": "2026-11-14T13:35:43+00:00"
  },
  "narratives": [
   {
@@ -2113,7 +2113,8 @@
    "outlets_today": 4,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
-    "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US"
+    "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+    "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop"
    ],
    "reports": [
     {
@@ -2200,13 +2201,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop",
+   "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
    "title_from": {
-    "backing": 2,
+    "backing": 3,
     "date": "2026-11-14",
-    "of": 2,
-    "outlet": "MarketWatch",
-    "url": "https://www.marketwatch.com/bulletins/redirect/go?g=296b1b9b-8b6a-4744-8d1e-4c8fb35c65ad&mod=mw_rss_bulletins"
+    "of": 3,
+    "outlet": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
    },
    "topic": "infrastructure"
   },
@@ -2851,9 +2852,199 @@
    "status": "new",
    "title": "Tesla Cybercab sales",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "130c3e4adc5ff42c",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-14T10:16:50+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "da9fa0842b471ca8",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-14T03:41:07+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-sees-sp-500-rising-to-8700-next-year-despite-slower-earnings-growth/articleshow/135821647.cms"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "goldman-sachs-sees-19-return-on",
+   "label": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "130c3e4adc5ff42c"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-14T10:16:50+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027) reported that Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year."
+    },
+    {
+     "articles": [
+      "da9fa0842b471ca8"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-14T03:41:07+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-sees-sp-500-rising-to-8700-next-year-despite-slower-earnings-growth/articleshow/135821647.cms) reported that Goldman Sachs stated the S&P 500 index may reach 8,700 points within the next year."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "00917425f3bead72",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-14T11:10:38+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Yes Bank moves SC seeking review of order on writing off of Rs 8,415 cr AT-1 bonds",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/yes-bank-moves-sc-seeking-review-of-order-on-writing-off-of-rs-8415-cr-at-1-bonds/articleshow/135830873.cms"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "0606e0af1db618f0",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-14T03:48:55+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Yes Bank Seeks India Top Court Review of $893 Million Bond Order",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/yes-bank-seeks-india-top-court-review-of-893-million-bond-order"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "yes-bank-supreme-court-bond-review",
+   "label": "Yes Bank Supreme Court bond review",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "00917425f3bead72",
+      "0606e0af1db618f0"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "ET Markets"
+     ],
+     "published": "2026-11-14T03:48:55+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/yes-bank-seeks-india-top-court-review-of-893-million-bond-order), [ET Markets](https://economictimes.indiatimes.com/markets/bonds/yes-bank-moves-sc-seeking-review-of-order-on-writing-off-of-rs-8415-cr-at-1-bonds/articleshow/135830873.cms) reported that Yes Bank has asked India’s top court to review a ruling regarding bonds written off during its 2020 rescue."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Yes Bank Supreme Court bond review",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "686d94fb055c6dac",
+     "lang": "en",
+     "outlet": "The Guardian Economics",
+     "published": "2026-11-14T12:33:58+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "eb6ae8c3986887d7",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-14T05:00:46+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "BoE chief economist says further rate rises needed to combat inflation",
+     "type": "international",
+     "url": "https://www.ft.com/content/806b0158-41c5-4db2-ac33-93621f72297b?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "bank-of-england-interest-rates",
+   "label": "Bank of England interest rates",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "686d94fb055c6dac",
+      "eb6ae8c3986887d7"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "The Guardian"
+     ],
+     "published": "2026-11-14T05:00:46+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/806b0158-41c5-4db2-ac33-93621f72297b?syn-25a6b1a6=1), [The Guardian](https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist) reported that Bank of England chief economist Huw Pill stated that further interest rate rises are needed to combat inflation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bank of England interest rates",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T10:24:14+00:00"
+ "updated": "2026-11-14T13:36:00+00:00"
 }

@@ -33,10 +33,18 @@
  },
  {
   "date": "2026-11-14",
-  "kind": "merged",
+  "kind": "title",
   "group": "all",
-  "story": "Microsoft service outage",
-  "text": "Microsoft service outage",
-  "reason": "duplicate story merged into an existing one"
+  "story": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+  "text": "Goldman Sachs market forecasts",
+  "reason": "title replaced by a headline: wording not from cited articles: market, forecasts"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "U.S. floated idea of Ukraine ceding Donbas for NATO membership, Zelenskyy says",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  }
 ]
