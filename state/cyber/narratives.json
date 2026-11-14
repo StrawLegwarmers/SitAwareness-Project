@@ -4,25 +4,25 @@
   {
    "articles": 312,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 5,
-   "continuing": 2,
+   "calls": 4,
+   "candidates": 7,
+   "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-14",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 252,
-   "in_stories": 8,
-   "kept": 6,
+   "in_stories": 10,
+   "kept": 7,
    "merged": 0,
-   "new": 3,
-   "rejected": 1,
+   "new": 4,
+   "rejected": 2,
    "reported_by_2": 3,
-   "runs": 3,
-   "sent": 5,
+   "runs": 4,
+   "sent": 7,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -74,7 +74,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T07:43:45+00:00"
+  "all": "2026-11-14T10:21:54+00:00"
  },
  "narratives": [
   {
@@ -131,8 +131,21 @@
    "title": "Global Cyberattacks Target Industrial Refrigeration Systems"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "a28f1fd895d9a3ca",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-14T09:08:00+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds Check Point and UnrealIRCd flaws to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/203040/hacking/u-s-cisa-adds-check-point-and-unrealircd-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
     {
      "added": "2026-11-13",
      "id": "f73ab41f497a8f68",
@@ -183,15 +196,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "a28f1fd895d9a3ca"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-14T09:08:00+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203040/hacking/u-s-cisa-adds-check-point-and-unrealircd-flaws-to-its-known-exploited-vulnerabilities-catalog.html) reported that the U.S. Cybersecurity and Infrastructure Security Agency added Check Point and UnrealIRCd flaws to its Known Exploited Vulnerabilities catalog."
+    },
     {
      "articles": [
       "f73ab41f497a8f68"
@@ -216,9 +241,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -4150,9 +4175,40 @@
    "status": "new",
    "title": "FAA flight groundings",
    "topic": "infrastructure"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "8f94bd803f3f7815",
+     "lang": "en",
+     "outlet": "ESET WeLiveSecurity",
+     "published": "2026-11-13T10:00:00+00:00",
+     "publisher": "ESET WeLiveSecurity",
+     "region": null,
+     "section": "intel",
+     "title": "GTA VI isn’t out yet – and the scams are already in full swing",
+     "type": null,
+     "url": "https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "gta-vi-malware-scams",
+   "label": "GTA VI malware scams",
+   "last_updated": "2026-11-14",
+   "outlets_today": 1,
+   "reports": [],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "GTA VI malware scams",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-14T07:44:02+00:00"
+ "updated": "2026-11-14T10:22:11+00:00"
 }

@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 825,
+   "articles": 835,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 10,
-   "continuing": 3,
+   "calls": 4,
+   "candidates": 16,
+   "continuing": 4,
    "corroborated": 1,
    "date": "2026-11-14",
    "dropped": 3,
    "failed_calls": 0,
-   "groups": 722,
-   "in_stories": 11,
-   "kept": 9,
-   "merged": 0,
-   "new": 3,
+   "groups": 724,
+   "in_stories": 23,
+   "kept": 20,
+   "merged": 1,
+   "new": 7,
    "rejected": 1,
-   "reported_by_2": 6,
-   "runs": 3,
-   "sent": 10,
+   "reported_by_2": 9,
+   "runs": 4,
+   "sent": 16,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -51,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T07:45:51+00:00"
+  "all": "2026-11-14T10:23:40+00:00"
  },
  "narratives": [
   {
@@ -1068,8 +1068,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "11af7fd9bd0f7954",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-14T09:56:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft Service Restored After Widespread Outage, Company Says",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/microsoft-service-restored-after-outage-dddae34b?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "ffa1ff89a380db8b",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-14T07:30:16+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft restores service to Outlook and Teams after global outage",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/microsoft-outlook-teams-outage-eases-after-over-a-day-recovery-timeline-uncertain-5026486"
+    },
     {
      "added": "2026-11-13",
      "id": "9c85bcaf5c725dd1",
@@ -1123,18 +1149,42 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-service-outage",
    "label": "Microsoft service outage",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
    "merged": [
     "microsoft-global-outage"
    ],
-   "outlets_today": 0,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "11af7fd9bd0f7954"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-14T09:56:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/microsoft-service-restored-after-outage-dddae34b?mod=pls_whats_news_us_business_f) reported that Microsoft stated it restored service after widespread disruption to Microsoft 365 and processed a backlog of emails."
+    },
+    {
+     "articles": [
+      "ffa1ff89a380db8b"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-14T07:30:16+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/microsoft-outlook-teams-outage-eases-after-over-a-day-recovery-timeline-uncertain-5026486) reported that Microsoft restored service to Outlook and Teams following a global outage."
+    },
     {
      "articles": [
       "a94182ebd07e70e7"
@@ -1186,7 +1236,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Microsoft service outage",
    "topic": "infrastructure"
   },
@@ -1894,8 +1944,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 11,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "f2ef34e8a74ec8d7",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-14T10:04:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "U.S. flights resume after FAA ground stop, but travel disruption continues",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
+    },
     {
      "added": "2026-11-14",
      "id": "4119b59f59270b72",
@@ -2040,19 +2103,31 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US"
    ],
    "reports": [
+    {
+     "articles": [
+      "f2ef34e8a74ec8d7"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-14T10:04:43+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html) reported that US flights are resuming following the FAA ground stop while delays and cancellations continue to accumulate."
+    },
     {
      "articles": [
       "4119b59f59270b72"
@@ -2476,9 +2551,309 @@
    "status": "new",
    "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
    "topic": "markets"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "e2955952b7ef0657",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-14T08:16:44+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "a1ae63f8d372af0b",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-14T07:46:24+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "China, US Discuss Tariffs in First Meeting of Trade Council",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "bde4cba7f4fb38a3",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-14T07:18:19+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "China, US discuss tariffs, farm trade at first trade council meeting",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/china-us-discuss-tariffs-farm-trade-at-first-trade-council-meeting-5027183"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "us-and-china-trade-council-meeting",
+   "label": "US and China trade council meeting",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "a1ae63f8d372af0b"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-14T07:46:24+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council) reported that China and the US held the first meeting of a new council by video on Friday under their economic and trade consultation mechanism."
+    },
+    {
+     "articles": [
+      "e2955952b7ef0657"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-14T08:16:44+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html) reported that Beijing urged Washington to implement a $60 billion tariff-reduction deal as a prerequisite for increasing purchases of US farm goods."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-14",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html"
+   },
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "5f98a75759370dd1",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-13T06:21:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Japan Fires Off Verbal Warning on Yen as Weakness Stokes Intervention Alert",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "3cd4c7f48d70bc27",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-13T00:53:45+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Japan’s Katayama Warns of FX Steps as Yen Stays Near 160",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/japan-s-katayama-warns-of-fx-steps-after-one-sided-rapid-moves"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "japan-currency-intervention-warnings",
+   "label": "Japan currency intervention warnings",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3cd4c7f48d70bc27"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T00:53:45+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/japan-s-katayama-warns-of-fx-steps-after-one-sided-rapid-moves) reported that Japanese Finance Minister Satsuki Katayama stated that ministry officials will continue to work closely with counterparts in Washington to take appropriate action regarding currency steps."
+    },
+    {
+     "articles": [
+      "5f98a75759370dd1"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-13T06:21:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67?mod=rss_markets_main) reported that Finance Minister Satsuki Katayama called recent yen movements one-sided and rapid."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Japan currency intervention warnings",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "6e4c2d88b46e5603",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T19:53:07+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Centrica, Equinor in Next Round of Germany’s Uniper Sale",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/brookfield-consortium-progresses-to-next-round-of-uniper-sale"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "e85579cc1430dd07",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-13T19:07:10+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Exclusive-Brookfield, CPPIB consortium enters next round in Uniper sales process, sources say",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/exclusivebrookfield-cppib-advance-to-next-round-in-uniper-sales-process-sources-say-5026330"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "uniper-sale-process",
+   "label": "Uniper sale process",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6e4c2d88b46e5603"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T19:53:07+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/brookfield-consortium-progresses-to-next-round-of-uniper-sale) reported that Centrica Plc and Equinor ASA advanced to the second round of the sale process for Germany's Uniper SE."
+    },
+    {
+     "articles": [
+      "e85579cc1430dd07"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-13T19:07:10+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/exclusivebrookfield-cppib-advance-to-next-round-in-uniper-sales-process-sources-say-5026330) reported that a consortium including Brookfield and CPPIB entered the next round in the Uniper sales process."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Uniper sale process",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "fc06ecba84a87fb1",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-14T08:06:18+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Tesla invites select customers to buy Cybercab for personal use",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/tesla-invites-select-customers-to-buy-cybercab-for-personal-use-5027212"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "ce44e0a4b23f7d3f",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-14T03:15:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Tesla Opens Sales Of Autonomous Cybercab For ‘Select’ Customers",
+     "type": "international",
+     "url": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "tesla-cybercab-sales",
+   "label": "Tesla Cybercab sales",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ce44e0a4b23f7d3f"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-14T03:15:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f) reported that Tesla opened sales of its autonomous Cybercab for select customers amidst a federal probe."
+    },
+    {
+     "articles": [
+      "fc06ecba84a87fb1"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-14T08:06:18+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/tesla-invites-select-customers-to-buy-cybercab-for-personal-use-5027212) reported that Tesla invited select customers to buy the Cybercab for personal use."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Tesla Cybercab sales",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T07:46:09+00:00"
+ "updated": "2026-11-14T10:24:14+00:00"
 }
