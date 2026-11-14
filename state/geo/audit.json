@@ -755,322 +755,242 @@
  },
  {
   "date": "2026-11-14",
-  "kind": "rejected",
+  "kind": "skipped",
   "group": "namerica",
-  "story": "FAA grounds all flights across the U.S. due to air traffic control communications problems",
-  "text": "[5] reported that Donald Trump blamed the ground stop outage on old broken stuff.",
-  "reason": "names not in cited articles: Donald"
+  "story": "SpaceX Starship orbital flight and test",
+  "text": "",
+  "reason": "off-topic for this site (topic: technology): not created"
  },
  {
   "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US transportation secretary statements on aviation disruption",
-  "text": "[61] reported that airlines in the United States canceled more than 3,700 flights and delayed nearly 2,000 others.",
-  "reason": "number not in cited articles: 3700"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
+  "kind": "skipped",
   "group": "mena",
-  "story": "Senior MP: Iran’s steadfastness leaves US in strategic dead end",
-  "text": "Iran parliamentary statements on strategic relations",
-  "reason": "title replaced by a headline: wording not from cited articles: parliamentary, statements, relations"
+  "story": "Netanyahu urges Eisenkot to hold unity talks without preconditions, citing Iran nuclear threat",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Očajni Netanyahu na sve načine pokušava ostati u vlasti: Obratio se Eisenkotu, v"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Netanyahu urges Eisenkot to hold unity talks without preconditions, citing Iran nuclear threat",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Netanjahu na sve načine pokušava ostati u vlasti: Pozvao Ajzenkota na dogovor, s"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Turkey and 17 Other Countries Condemn Israeli Attack on Nasser Medical Complex in Gaza",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): 18 دولة عربية وإسلامية تدين استهداف مجمع ناصر الطبي"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Turkey and 17 Other Countries Condemn Israeli Attack on Nasser Medical Complex in Gaza",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): من بينها الجزائر.. 18 دولة تدين القصف الصهيوني لمجمع ناصر الطبي"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Turkey and 17 Other Countries Condemn Israeli Attack on Nasser Medical Complex in Gaza",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): رابطة العالم الإسلامي تدين قصف الاحتلال مجمع ناصر الطبي"
  },
  {
   "date": "2026-11-14",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Zelensky statements on Ukrainian neutrality",
-  "text": "[95][96] reported that President Volodymyr Zelensky stated Ukraine is not going to enshrine neutrality in its constitution.",
-  "reason": "names not in cited articles: Volodymyr"
+  "group": "mena",
+  "story": "Turkey and 17 Other Countries Condemn Israeli Attack on Nasser Medical Complex in Gaza",
+  "text": "[40][41][66] reported that foreign ministers from 18 Arab and Islamic nations condemned the Israeli airstrike targeting the Nasser Medical Complex in Khan Younis.",
+  "reason": "cites an article that doesn't belong to this story"
  },
  {
   "date": "2026-11-14",
-  "kind": "title",
-  "group": "europe",
-  "story": "Zelensky: Russia seeks to revise Europe’s security architecture",
-  "text": "Zelensky warnings on European security architecture",
-  "reason": "title replaced by a headline: names not in cited articles: European"
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Turkey and 17 Other Countries Condemn Israeli Attack on Nasser Medical Complex in Gaza",
+  "text": "[42] reported that the Muslim World League condemned the Israeli bombing of the Nasser Medical Complex and the continued targeting of displaced tents.",
+  "reason": "cites an article that doesn't belong to this story"
  },
  {
   "date": "2026-11-14",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "US transportation secretary explains air traffic failure",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-14",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "Philippines wins first Eurovision Song Contest Asia",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-14",
-  "kind": "dropped",
+  "kind": "skipped",
   "group": "global",
-  "story": "",
-  "text": "Senegal Youth Olympics in Dakar end on high note",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-14",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Lula vai à catedral de Manila visitar Nossa Senhora Aparecida doada por santuário nacional",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-14",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "Marco Rubio can’t hide his pride after daughter Daniella's speech at DC event: ‘Was that cool or what?’",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Paris protests against rising prices",
-  "text": "[7][8] reported that thousands of people took to the streets of Paris to protest rising prices and police violence amid a parliamentary debate on a weapons legality bill.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "europe",
-  "story": "Khmara discusses strengthening air defence, long-range capabilities with Canadian counterpart",
-  "text": "Ukraine and Canada defense ministerial talks",
-  "reason": "title replaced by a headline: wording not from cited articles: defense, ministerial, talks"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "africa",
-  "story": "Melaye slams Galadima, denies alleged remarks on Justice Lifu’s health",
-  "text": "Nigeria political remarks and health rumors dispute",
-  "reason": "title replaced by a headline: wording not from cited articles: political, rumors, dispute"
- },
- {
-  "date": "2026-11-14",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Italy fines Meta $887 million over Android users' data access",
-  "text": "Italy fines Meta for user data access",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Italy fines Meta $887 million over Android users' data access",
-  "text": "[25][26] reported that Italy fined Meta 805 million euros for accessing Android users' photos and videos without consent.",
-  "reason": "number not in cited articles: 805000000"
+  "story": "Andorra goalkeeper suspension",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
  },
  {
   "date": "2026-11-14",
   "kind": "skipped",
   "group": "namerica",
-  "story": "Alaska elects its first Democrat governor in nearly 30 years in major blow to Trump",
+  "story": "Toronto Blue Jays Santander apology",
   "text": "",
-  "reason": "continuation not supported by the headlines: Alaska elige a su primer gobernador demócrata en 20 años y sigue sin definir sen"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Alaska elige a su primer gobernador demócrata en 20 años y sigue sin definir senador",
-  "text": "",
-  "reason": "title replaced by a headline: empty title"
- },
- {
-  "date": "2026-11-14",
-  "kind": "info",
-  "group": "namerica",
-  "story": "Alaska elige a su primer gobernador demócrata en 20 años y sigue sin definir senador",
-  "text": "",
-  "reason": "new story returned without any report (headlines still shown)"
+  "reason": "off-topic for this site (topic: sport): not created"
  },
  {
   "date": "2026-11-14",
   "kind": "skipped",
-  "group": "latam",
-  "story": "Rogerio Froes death and tributes",
+  "group": "global",
+  "story": "NASA Voyager 1 interstellar distance",
   "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "africa",
-  "story": "2027: We won’t allow religion to divide us, Makinde declares",
-  "text": "Oyo State religious division stance",
-  "reason": "title replaced by a headline: wording not from cited articles: division, stance"
- },
- {
-  "date": "2026-11-14",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Philippines wins Eurovision Asia",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-14",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
-  "text": "",
-  "reason": "continuation not supported by the headlines: Yemen’s armed forces say they struck Saudi-backed forces in Lahj"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "mena",
-  "story": "Yemen’s armed forces say they struck Saudi-backed forces in Lahj",
-  "text": "",
-  "reason": "title replaced by a headline: empty title"
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "mena",
-  "story": "EU reiterates ‘grave concern’ over Gaza humanitarian crisis as winter approaches",
-  "text": "EU expresses concern over Gaza humanitarian crisis",
-  "reason": "title replaced by a headline: wording not from cited articles: expresses, concern"
- },
- {
-  "date": "2026-11-14",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "Iran defeats Palestine in Basra football tournament",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Remedios de Escalada gas explosion",
-  "text": "[57][58] reported that five people are in critical condition with severe burns following the Remedios de Escalada gas explosion, while residents face uncertainty and power outages.",
-  "reason": "analysis word not used by the source: 'critical'"
- },
- {
-  "date": "2026-11-14",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "FAA grounds all flights across the U.S. due to air traffic control communications problems",
-  "text": "",
-  "reason": "continuation not supported by the headlines: Copper wire upgrade caused nationwide flight suspension, US transport secretary "
- },
- {
-  "date": "2026-11-14",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
-  "text": "",
-  "reason": "title replaced by a headline: empty title"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Copper wire upgrade caused nationwide flight suspension, US transport secretary says",
-  "text": "[61][62] reported that US transport secretary Sean Duffy stated a copper wire upgrade caused the nationwide flight suspension.",
-  "reason": "names not in cited articles: Duffy, Sean"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Funeral held for 350 Unnamed Martyrs in Tehran, other cities amid calls for “revenge”",
-  "text": "[1], an Iranian state media outlet, reported that a funeral procession was held on Kish Island for 18 unidentified martyrs of the Iran-Iraq war.",
-  "reason": "names not in cited articles: Iran-Iraq"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "5 Takeaways from Joe Biden’s Memoir: The Debate, Dropping Out and Advice From Romney",
-  "text": "[23] reported that Joe Biden's new memoir accuses Benjamin Netanyahu of breaking Gaza promises despite his administration supplying weapons and diplomatic cover.",
-  "reason": "names not in cited articles: Benjamin, Joe"
- },
- {
-  "date": "2026-11-14",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Rio de Janeiro Copacabana parking regulations",
-  "text": "[34] reported that parking is prohibited on Avenida Nossa Senhora de Copacabana from 6 a.m. to 9 p.m. starting Saturday.",
-  "reason": "number not in cited articles: 9"
+  "reason": "off-topic for this site (topic: science): not created"
  },
  {
   "date": "2026-11-14",
   "kind": "rejected",
   "group": "europe",
   "story": "Former Nvidia CEO Jensen Huang misled top lawyer on affair with Alice Huang: report",
-  "text": "[7] reported that former intelligence officials stated the United States is not doing enough regarding Chinese economic espionage following the downfall of Nvidia chief Jensen Huang.",
-  "reason": "names not in cited articles: States, United"
+  "text": "[57] reported that Donald Huang called Jensen Huang to urge him to stay at Nvidia despite receiving intelligence warnings about a woman linked to China's Ministry of State Security.",
+  "reason": "names not in cited articles: Donald, Jensen"
  },
  {
   "date": "2026-11-14",
   "kind": "rejected",
-  "group": "mena",
-  "story": "53 countries, organizations urge Israel to allow rapid humanitarian access to Gaza",
-  "text": "[13] reported that the European Union urged Israel to allow immediate and unimpeded humanitarian aid into flood-hit Gaza and reopen all border crossings.",
-  "reason": "names not in cited articles: European, Union"
+  "group": "africa",
+  "story": "Nigeria JAMB pre-registration system",
+  "text": "[60] reported that the Joint Admissions and Matriculation Board is introducing a pre-registration mobile application and blocking wrong subject combinations.",
+  "reason": "names not in cited articles: Admissions, Board, Joint, Matriculation"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "France pension and labor protests",
+  "text": "[64] reported that French police intervened with tear gas against demonstrators in Paris, Lyon, Rouen, and other cities following calls by trade unions and Yellow Vests.",
+  "reason": "names not in cited articles: Vests, Yellow"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Brazil small aircraft crash in Santa Catarina",
+  "text": "[72] reported that a small acrobatic aircraft hit an electrical transmission tower and crashed into a wooded area in Brusque, Santa Catarina, with the pilot rescued alive.",
+  "reason": "analysis word not used by the source: 'crashed'"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "title",
+  "group": "africa",
+  "story": "Osun community seeks Adeleke’s intervention over two-month blackout",
+  "text": "Nigeria Osun community electricity blackout",
+  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Michel Destot death",
+  "text": "",
+  "reason": "off-topic for this site (topic: celebrity): not created"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "title",
+  "group": "europe",
+  "story": "Vozaču iz BiH izgorjela prikolica sa devet natovarenih automobila",
+  "text": "Germany car transporter fire near Rosenheim",
+  "reason": "title replaced by a headline: countries not in cited articles: germany"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Vozaču iz BiH izgorjela prikolica sa devet natovarenih automobila",
+  "text": "[98] reported that a truck trailer carrying nine vehicles caught fire near Rosenheim, destroying the trailer and four of the cars.",
+  "reason": "number not in cited articles: 4"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Sweden-Bosnia football match cultural attire",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Former Nvidia CEO Jensen Huang misled top lawyer on affair with Alice Huang: report",
+  "text": "[103] reported that copper slid to its lowest in almost four months amid a pause in AI deals tied to Nvidia.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Atentan con explosivo contra vivienda de periodista en Panamá; Sociedad Interame"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Mal y de malas: Falla técnica en conferencia sobre vuelos en EU irrita a Duffy; "
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
+  "text": "[44] reported that a technical failure during a conference on flights in the US irritated Transportation Secretary Sean Duffy.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "African Democratic Congress and Nigerian Bar Association dispute",
+  "text": "[31] reported that the African Democratic Congress accused the Nigerian Bar Association of selective outrage over a disciplinary petition against lawyer Kalu Kalu.",
+  "reason": "names not in cited articles: African, Congress, Democratic"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Fani-Kayode Presents Letter of Credence to Ramaphosa, Pledges to Reset Nigeria–South Africa Relations",
+  "text": "[37] reported that diplomatic tensions emerged between Nigeria and South Africa following mutual complaints regarding exclusion from a diplomatic ceremony livestream.",
+  "reason": "wording not from cited articles: tensions, emerged, following, mutual, complaints, regarding"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine frontline combat engagements",
+  "text": "",
+  "reason": "continuation not supported by the headlines: India’s Assam state demolishes homes of 132 Muslim families"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "skipped",
+  "group": "global",
+  "story": "",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-14",
   "kind": "merged",
   "group": "africa",
-  "story": "South Africa: MK, EFF, SACP Form Bloc to Drive Municipal Agendas, With Conditional Support for ANC",
-  "text": "Fani-Kayode Presents Letter of Credence to Ramaphosa, Pledges to Reset Nigeria–South Africa Relations",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-14",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Three killed, 62 injured in Russian attacks on Zaporizhzhia region over past day",
-  "text": "Russian strikes in Odesa and Poltava",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-14",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Major Omer Minhas among Two Brave Sons of Pak Army Martyred in BLA Drone Attack",
-  "text": "Pakistani security operations",
+  "story": "Benue APC Rejects Akume-led Alliance, Alleges Plot Against Alia’s Re-election",
+  "text": "Rivers Capable Of Delivering Massive Votes For Tinubu, Chinda, Others -Fubara …Charges APC, Rainbow Coalition To Embrace Team Work",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-14",
   "kind": "merged",
   "group": "namerica",
-  "story": "Alaska gubernatorial election",
-  "text": "Alaska elige a su primer gobernador demócrata en 20 años y sigue sin definir senador",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-14",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "Zelenskyy: Revising Europe's security architecture would be dangerous",
-  "text": "Zelensky: Russia seeks to revise Europe’s security architecture",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-14",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "Alaska US Senate race ballot lawsuit",
-  "text": "Alaska gubernatorial election",
+  "story": "Microsoft Outlook, Teams, Copilot recovering after global outage lasting over 24 hours",
+  "text": "Microsoft global technical outage",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

@@ -1,0 +1,703 @@
+first_seen,source,report_title,report_url,type,value_defanged,malware
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wvat5jzlpr[.]workers[.]dev,php.shin_webshell
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,121.89.84[.]167:31337,Sliver
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,103.236.55[.]218:31337,Sliver
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,124.156.204[.]199:31337,Sliver
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,39.108.102[.]94:31337,Sliver
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,117.55.237[.]88:4321,AdaptixC2
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,134.255.218[.]122:56001,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,134.255.218[.]122:56002,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,153.79.249[.]159:5000,Evilginx
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,167.17.74[.]9:25340,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,169.58.38[.]91:4498,AsyncRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,173.195.100[.]55:443,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,18.136.4[.]30:4444,Havoc
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,185.241.208[.]120:7222,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,186.169.91[.]36:5010,AsyncRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,186.169.91[.]36:5011,AsyncRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,186.169.91[.]36:5012,AsyncRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,186.169.91[.]36:5020,DCRat
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,196.251.121[.]237:7777,DCRat
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,209.99.190[.]30:4323,AdaptixC2
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,4.235.120[.]72:443,Unknown malware
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.141.21[.]125:56001,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.156.87[.]167:7777,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.148.239[.]8:56001,PureRAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,95.133.229[.]17:5000,Evilginx
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nordo[.]store,ClearFake
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,ip:port,103.210.144[.]11:80,Mirai
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,ip:port,159.69.58[.]170:80,XMRIG
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,ip:port,185.106.98[.]235:8888,XMRIG
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,ip:port,45.9.148[.]86:45876,XMRIG
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,exportrelay[.]net,XMRIG
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://pdfdocumentsharepoint[.]com/,Unknown malware
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.116.78[.]205:80,VShell
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,p9z5yvie[.]rodac[.]store,ClearFake
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,m[.]geng7[.]org,Vidar
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,jxv[.]appel4d[.]com,Vidar
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://lafrancefabrics[.]screenconnect[.]com/Bin/ScreenConnect[.]ClientSetup[.]exe?e=Access&y=Guest&c=PRACTICE%20MANAGER,Unknown RAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,215e9a36cd2e2e9e1966ef18d68d95e298cee3d2011b565633e2c06842c53a38,Mirai
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,130.94.11[.]208:443,Jackskid
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,pt[.]appel88[.]org,Vidar
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,appel88[.]org,Vidar
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.56.19[.]143:15987,Potassium
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,schneemann[.]cfd,ClearFake
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,7lkbcr8idc[.]workers[.]dev,php.shin_webshell
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,webrtwtre22[.]cc,IClickFix
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,sibel[.]sbs,Unknown RAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://sibel[.]sbs/ws,Unknown RAT
+2026-11-14T22:14:20+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,c6[.]appel88[.]org,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,dpctech[.]net,Unknown malware
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxp://clouven[.]click:8527/tokens,Remus
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f736f7457ddf4ba1f4ad083dd88f3f2e0dae29d69f7fe381b4ee07c7f1890639,Mirai
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pdfdocumentsharepoint[.]com,Unknown malware
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,l5[.]appel4d[.]com,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,c[.]geng7[.]org,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://boost-19[.]com/f/zh2s2xptaamrnzpdyiq0ng/vj1ury4s,AMOS
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://boost-19[.]com/curl/irdxh38dlz/r9yq8jgse57g57oi190[.]dat,AMOS
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,boost-19[.]com,AMOS
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,04a6c4f691286d4c6c6ed280a484931d1cede33b91d0c3611cb4b2ac1928e99f,AMOS
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,lygawuqu[.]workers[.]dev,php.shin_webshell
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,www[.]olip-international[.]at,ClearFake
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,e[.]appel4d[.]com,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,25e620f12932c7fbc5d18eb4b42014a2513478d8,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a2fc9f4f55eef0e3bbf135ca9cbd7c22b697dd834c99951591b86c79bdaab924,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,c1a4a7448bc3f868e624311621535ce1,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2435a5f04a4ffc3f3ed7c065c44d5d254084f46f,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e0cb38109715476c5db9be2fc7fb4611b93e037467b0b3c56872537b623d5ccf,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,5bc927fab5cbfc7b142e43c5c7bcb14e,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,2f96f830b3b01ee31ab78d909ae2f718,Ghost RAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,b60a7b4db2a9360461c3e3a30dc4c4e63dc77f09,Ghost RAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,8ee0ce41863e81229521e81b2bec2c59d1a8dbd471629d225cf1c5d2abf71ed6,Ghost RAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,2560d47ff5e3490c30a79a3c15c6742e,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,a6e6853ab0e697bfb5dc6a09922c99bf42e027e5,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,fc84ea86574c7ba49fd45a223f667905bf7d0cf201b35848c50078b061722747,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,15bff04d1b12e6e5a41a2518c6263858,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,418cd33cb59a5d46af7e9b29c2451fecea1fd414,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,30161f3b7d0ce2c86522cec3a4e97ea2b2a8065eddddfda258d80606da3af449,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,1281b5aa895a3b5d205b813009eaf85a,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,b70eb34572103dc30edefc1879909016eba91a56,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e8c4ac6ff2aa1bebaa07311ba9d6d993d49966daf5b050bf3e911fe926a4f251,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,7ecfb111f55371639acb3d0bcdd20e01,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2ef352398ec899b418746a002f51fb16ebfc6fe3,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,0e5e6d03bf59d4f929b6585e2d284d84d448b946ebe28a0ba6f21d81a25c0bca,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,e1bc0dbd7f1c8af8fb8fb5c235b66e1a,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0fd46c5e4133ede163a249a61708a6bdd4010352,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6b2a818393030f029ab112b754ddc1b35616354fe75f48b705e6fe6552d3b2d0,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,cee2aa4fb426fe7d878d79089d67a239eae9e560,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,cfb1c049fa08ed9b5df3c7a0f8d40ed0737d16e305b2236d4eb3e0a16f709a87,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,edefd8b9348792b19497ff0d9cdeec5d9283d95b3fe70193ae908770c6aed180,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,08db6ec2b40397b84c8e768d3736a2fc,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7c2c2e9b864f38e2b915cb87250f51b2a88b95b3a8737fd9588107da125e9b7e,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,13aae5a1849fdf61d2eec3de6f0fb87a,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,672d0f08ac533cffd47c6905356ba895f0ba3f0c,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,99102a573990e3096da0f373f264104207ff8c2f8d5172cd4e7a779dc4936f2b,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,9c6d2bd1beaac1d7e0f67c8680d11df7,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,a2cb8a9398e88f4b81dd24a02cd2302aed3cacf5,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,52af906ca0e69f2be68ff7393f929b89d42c9d578a8481d962241fb8ac9d319c,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,6d0beeac9ae574a69a6aabc77a34fa55,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,40ac141999c5806f51f3d9d08eb043d472003130,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,f8d417955360e608ed22d94ae7c26ba9627a2d2c,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f03f7ac94f67565bf433896495782ba3fbeed46554ee0ec9fae9de925489f16a,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,1b553d0deee36318fac4ea8a7822bb11,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7dac6de2254f38ca7bd8a3f9ac462b45001bb5d527274732fd35723a3215475c,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,ed3fb8a6afd9f8d624e050a7641352d4,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,d21f87781dab15d16b954fcb2c6602fcf7cd3cc0,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b38bc3df6ff8b00aeb976c80c411e03bb0175299f10a7ea36e369027152faf21,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,d1874a4fae23a0ab5986cc90f7ce565b,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,fe160d81ccd66b4674703f9924bf087dd259eda1,Venus Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7c1f94c62ae58062564b12875f3f0909e6f124787db04d2288bf2516c54542f4,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,693e93d5d5a4693fa58aabc71ea2a074,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,bdde56eab8a97296ccc8f005cd88b4cfa9eaa0b4,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,09ffd1e6d1b5041324dbededdf09a874,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,f748151f1e0134febdf8857de24d72d58ef35d53,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9f0346d0bb09eae27177b9f5f44efcab33ab6e1cd4782bf815b6dd94cb11d7fa,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,dc4fb6036ad95db48cc7312a401adda9,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,7547089fe30716986b6844b0d5c10c93e70c3391,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,0401774f0271b2b66dcf8051986054a4d9cf945c47a452fc8ed258d9de6d75c6,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,730f4ae80cf7b0ce69d50decbf835a54771881c75f4427f275ce6d580b43c6a9,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,dc7e6267a257a4a6b17d120c7943aec5,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,cfc0c3c507c8d9e5c9548732ffd541b3a61e4e9f,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,feb7619915910d7f68ea3ec2af425781e38c6a194ba019ab972def8aa971045a,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,463e8b415e2cb0b07cc04b68a69bedcb,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,8074ba611883600d45b553134754ad4b1bf46cf2,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,85fffaa78e32059f5be3572c9d60f57eb04f90108086691e351c5089f1b0023d,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,4c3611aac028c23b0a737685039fa662,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,5b6973beb48d12727ebb40724b31e03aa60cadb2,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,048fd927062cb3452b766f63221d2b73ce0412a812078b306548a80824699105,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,3e62aa763e960293cff3422f67c29f40,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,02315842a5b8c381b2ab83e2dba7393511c02ef7,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,50674b0276a7d6544bd8dfded2857e8b95a7690234a0687ed60958a96596090c,stealler
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,c97a9593d86bfdb4a8b7a035f983a590,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,de84b717a3226e49fef1bc017f325ef1d550aed0,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9553588c6eda1b492fcafee60dc628da85e47e22b940addd8fa8938defb62688,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,99f147486b8663bd6ac3eb9349edeb3c,stealler
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,3a26669bdd394aaf4206161a6b302deaded2410d,stealler
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,48c0d8c470452c6274156147d6467d242b6c241f4a9a6be1a7417155769cd4c9,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,b74cd8fc1f99f6e5e3aa7d28134c3054,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,168970dcc622d2bd59d89eeb78dbbd3781dbfb83,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,690638f098adb2a5940c2409a412626fb95aa6bfb38a3b9c151008fb99274391,WannaCryptor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,7b52be1e9dcfe72376319d5abc96cb00,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,c045beabd738db955b47ed7d7434107b169e7344,SalatStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a947e19ee6e1e28113205ae36579011ec35455317a2bbcf632d4b55bf39e4174,WannaCryptor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,2a51c732248de5d17647741009b5223c,WannaCryptor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,72f38226f002154975bf4f3031255156fcf9ecc2,WannaCryptor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,27c179a96f38ec75040760c6d4dbabbc147bb5bd20c6d6255a3ae2c80a081b50,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,1e8d8c2c395410af4f1dfeeade015701,WannaCryptor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,ceac9e49264190c6562c1c592a92a2738c56af31,WannaCryptor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b3c04ff117162bfd32c3fbb7a632f72ef8442222fda0645ac9eab3a2f9587e20,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,ec8b3d06e3ff5af7437116100d915d0b,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,3ccbabf2c183855c9a6265d295951ae753e49364,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e087bfa71a879069491b2097e75a3b3301713a10715e2b544e8703b3b4a2ec9f,TinyLoader
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,f1ba1aa49081c49f15865860e7ad521b,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,cfbe95402662013bc58dada3a5424a4519883fc4,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ae80863fd98d887bb70aa7f8c4ff5fa85251a4b9092699769840ea09df3a4543,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,2515ef00269035c25cb6a7b56debb6ac,TinyLoader
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2571e740bf94d78ac1914dc702aad21eac51f31c,TinyLoader
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e664de4eac009b8417d8832d34940d876256e9752aa587cecb6f0ad843f72ad1,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,8d7215fb5ac844d06062c56d931ce912,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2a7339f1241e89d7918549f72d4c9639f49d63b3,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,26dbf062fa2ababe0125ab6e7f2ac3bac9a70facf54c8e2b38e65d618d7cb23c,AdaptixC2
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,7fa0e1a599b3661e06de5a98694df91b,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,4efd92c2646b0bc482ec174b5a9d6afa30d4ca06,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,fefe1d0b39bf94dc5fbca15a6a86b4a9,AdaptixC2
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,ba2813e1aa42bf6f419586c65a84f8e2177ba7e3,AdaptixC2
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,38ada6ba9200ba8ab44a59b541492e44dbfb806338cd60ea6cf18f70abac216f,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,36c22c2f0a3a18e81eb0565729e55e51,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,36e6c20adfbd327760f72a34d564ed9d2da24bb7,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f1d177fd6752b40fbb6a53a76d0a7de76819d73bd87c01bd6add0c37046e916d,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,391d5c7fdafc8bf0eeaa1e28c4863d8e,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,a6f0dc3f900d7047bdb458ce919255f554cf03b3,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,23ff5d33a24096da70940a5e18ae890b,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,bdf45f1d0b0f402448f29c5065af01c2a9213407,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,c0f7fe5744fa2e2f70e5ccd245f72a50f0e9ff3ee5f11010ac99bbcd6f329aa5,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,1ac05af367e3bdaeb1e5739321f389bb,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,27bb266bbea5e5f7f570d91083f1e473c67ffe6c,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,5c4c829af18020bade14bf27d8da16c636ed390ba459cf0965d7d374bf60e7c3,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,c51d39bf1109c2e39cbca82ac8747f51,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,e27af31479a869818aedc47cf80c4810a0a7880b,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9249268a2808ef5c8a209a3cb1e378ffb341598a8e205c74b5911317e856dfcf,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,890afefecc2c1ef0fca404160082604f,SnappyClient
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,1206cb52fd113ba2ad8ba259c5a8682427c3f08e,SnappyClient
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,4207523717b12dcbc8587bca72a7aca4a274823f3ca14c1e8ede7b2ca792798b,SnappyClient
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,43525f10a89e521ba2884d308adefbf8,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,129a73a6619d5b8184265f130e5e99a7776e5a4e,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d61bb5af4b2b1aeeb7bd03c2afd2801d1a3c9bf8c9dab61ccf1dc7c1cd6fb1c4,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,5fff315917c102d44430d45cdb48c926,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,194f4b38b5cd11c5115af97b46156c156286d661,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6f4ccc1718eddb12fab554f0c19e908f0486fd734bb02c706534ad92860d5df2,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,3647f1dd11b4a28e65e03c997b14f1507cfb07ffc412f4b5790dd2b4ec293f92,YiBackdoor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,3c9b11a05c2d8701da8afaffd9e9b68816191c0e107162dba6c3dc1fabc80c96,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,79385e3c89f86ef1f45d66ad1d249b54,YiBackdoor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,33bb5f17c30d278694f63af25a4cbdf0a5a545c5,YiBackdoor
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b533bbf00d28721b87e58052a26ebdbd8183cafa0eb30f1ba639818a07cb0d6c,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,69420afe2ffe9d4e5c9de7f811cb43b2,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,95e51af6466899ab0a1f204716a1d7eac3accc58,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,46080f459577529059ace98473cfd80693744444c8ef828ff5f7377eb10906a0,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,e2b9022fd77b4f7de9c9498db88aaca8,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,ac3f87b82fff745ceda0ad9d0cd09bb4de22b61a,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,2eef62668e8a3ef3124b823f990809c8,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,9f920216394dd90e679fc00760ac1b1d7f1bf74d,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,bcde03f9d0f55392117d48657b12b946,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0d068140197f813e4f990d79b4d4fba6787cdeb5,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,fdeed4bbb15996a5a11f7038740cceefb80e89c7e2e0b9db7c74f18dded3c9e4,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,9fa3225aa13a8fd1db70ed03ec5fdad60c8d1e57,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,8219c601aec2465a74ab251cd5c03eb5689fa5e389192d96dfee218399aa67aa,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,70ffad5b7c728899de393b96b697f83a5015d9a4ab70c336126832281c646509,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,c6758782130ee8901dda3cb4e204d024,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,b44bf93c783f9bf5e01eaae18073d7e2,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,6aba524ad21987051876218357b54ac63be6bc36,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,d821b5a1651471b42b5422682fbf90a6,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,7cc25378c150c928ba8cb273799885f6fa60de6f,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,62c66deba94eb51f268ff10c6d8565f5fc52a9cd67819d243f85b672ee13a872,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,d20854cae980268390822f23cabe88b4eb7b7bd4,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,84df9d2314d7be945b989ec5967b5ad2,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,3bde6d5aba98c766cc41fd79a0141153,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0f7e98f5ecd56c492cea20f43230eb73b4190230,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9c7696e3b9f550450d4bdfc931cdb99ae7eb92689e5fd4c4ab4159d6f462a376,NetWire RC
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,7a050b7cdc7ee533a637cb7cdf38ccaf,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,8903b120b67d13cc694f028e1e7b5cd141636a54,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,0435bb0a9892093b9e6caa564fb7d55c,NetWire RC
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,d0a2be4551064c50cf519634dee3201cce08c5b6,NetWire RC
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,12003c202d993685ce7f54663d9ae66b,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,42f50db7ca63c3cc03938ceae4374bfbdd671a2c,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,a2f697c209de9d4e89384729b1a9b022e457180c,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,7652afac06acfaaacd56858a20e055ce,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0509f447aadf74b026c86d8d78f9fc58034a1c81,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2970ab14673626980da46a594d91ad4d83be969a,stealler
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ce1be8e1e7119519872fe26ef4f995e94bcc3bed6915d1eca22650c9688ade51,stealler
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,b51fca5697c50b4ad0abbd91a0d0fcf5,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,b3802a2f1a5be70d83afba972af67ffe,stealler
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2195efcee5ba73a889c8420fc376099445d43b90,AdaptixC2
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,eb1746f5f5a99874f7e51b0d4d3a216f,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,5808ae87aaa4ba1a26a3766f995a08413189a72c,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,a293b28028115d676fca89e38fe8a441,AdaptixC2
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,0d5068606893fdd667ec18b2e27c4599,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0103b0ba3ff9fdc9a0e1a66bdef9f1acc5fcd999,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,9e9f562b4a45eb1aabbbc404f1ecd3424068654a,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,9bdee65ffa5c09eda6c74a4f3d4bee6d,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,9a67c8e3a1347ef22695947d6f879e0fc91b9cbe,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,dddc1afb119fa58ef0c9cf653fcac8f42c47d7c5,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,e95064404181c29541515a590a1e71d1,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,b05ab82e969f5f9e5b85ebf8d06b9f17,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,7f3d4823a5bef0bb82019098e57697d0195e91b8,ValleyRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,a8a243d77152dc6cf46c351441ea3165,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,8b91d4995253c30ad8cf7870fb7f5f48,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0ab9c42ee92c0d872bde106aaddecb6334d17ed1,Coinminer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,afd3abf5ced28726d94a215bd17389ec,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0f84c9c18ed5b87b152dee3d20b8a4d06edb3020,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,bf1a5d04194302c8032ae3e8958516bd,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,a55896f3e814533e03c7b0a684f73406e9049c2b,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,26faf1933d276fb415b46e6574d8e038a46f6e32,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,bf3bf44b3261049861c36085a97bfd9f,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,28e7431d343b49fd7300bb20fac99b07de641022,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,2900ac50dca3f3e6bbe41af908e78a6bfbb7c88d,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,0c93e7fdddca0d2bb2e9662a119a7ea1a6a433f1543749aa2a759cf4d8aba6be,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,f011be3c56da0aa34eecd6ac6fba8b82,RN Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,1958ce8b298ff89b0d773b9be8a5a1dcef2dec54,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,55a1daee46dd580d7c2fc7ec015790c8b23c18fc225894d920613c8cc30ab12f,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,3817933ffc4096be3cbad2f690ec026f,NjRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,57fd6e1595f6de6441ab0db00c5d750a,Raven Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,5f41323f4d0bc83a13b9859fe03db8aa3c13a0779bf69ea507e0ba9cf9f620d1,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,4870f4e9201fba626a2c8819bd01c647,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,0a492aacabe76b92a0afe4660dc8fe175d91a817,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,c7ca0bbc581814ed0579a7eb6718a675ca6ae83eaf52caa96a00a70eee9b8865,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,76b2f4634f805a29604346adcef2a566,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,d79f8157bbe699679fee210fc9579a21ac781910,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,fcc829f4a247883d5310ab4b20e6d45082501ec8,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,1c741595f6392c2d6167648a9563e1650b0f001ecd2655aa7dac6557f0cd0895,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,b63c54cfdc47bfc3fb01177a3b0e07d146188b22,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f942d3eac52a29a2254cab485253a572c5a985618a35c4cc853fcde2e034d675,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,229de7f7340d45e74749978d25f99deb,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,8e5dadc3e663e6a9efbfc2f7a5272b39a4accdb4,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,aaa05c178844b47e2e9e80a61af679d576cae6eaad26ab7e589cb7da0cdea9a1,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,073ff8f74b87f7a91db184e1962ac3e6,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,924224c6a919a869efee395f69dce99fe1a76d35bef71a49422a88e448a09ee4,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,c55f494f75b7c64c1fad204711a13960,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,a4c66dac353589c79de43e3df37f7c41,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,570dd04491a56ae3b0ae916cea6b89f73e1811d8,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,baed59715b1cd5c31f10172d38af9f8f7d6eae5b6cdf045c5212e05d06b093cd,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,99be07a212f36deae58e7b1515abb080,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,e309f32903408d9905c4865fada530331c0bca22,ZStealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,a2b4e06181d15e3d5384d65cb6cf8793,kkRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,7cc466a1da22db8671a178a80a976626a12d9a27,kkRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7c9baba95531d4c908f15c9befbde8a56a1114c2e006c969695ec0a0de7878e4,kkRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,md5,f01933e12039d516f14b61b6cc303a0c,kkRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha1,1fd6f65f7a6626dda9b7bd8c82c18ae22be95e1a,kkRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,5ecf14994419b1f8b5d9a8d60623ce2cffa7f4b6ecec1751100d5b7a71302313,kkRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,2q942xck[.]rochi[.]store,ClearFake
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://100[.]10[.]1[.]135:34861/Mozi[.]m,Mozi
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://160[.]30[.]109[.]25:55665/Mozi[.]a,Mozi
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.7.60[.]154:85,Unknown malware
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.57.216[.]212:10213,CECbot
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b43866cec329650bff964813ff8cebb93b50a537434ff7fc561a542891f74e8d,Unknown Stealer
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,wordpress-1226367-4631498[.]cloudwaysapps[.]com,ClearFake
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hdrichmondstag[.]wpengine[.]com,ClearFake
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,62.85.91[.]36:8808,AsyncRAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.207.208[.]51:22,Cobalt Strike
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,107.149.96[.]10:10086,VShell
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,210.56.48[.]188:8888,Unknown malware
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,191.107.80[.]209:6001,Quasar RAT
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,zo[.]apaljitu[.]org,Vidar
+2026-11-14T19:23:41+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,bo[.]appel4d[.]com,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,5c9a1663d9354ef92b58614119aff3f11d969783be0df660b710330d0e7930e9,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6378a4efe2174e1a187440440a29b66fe1411c4c93e329ff2e357a9efdc3dbf5,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,8903cc1a1711040216e165d43603f4aeb1551d9c590ee792d797d1083e1ff1a3,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,cb6b149aacaadb53ff64a0cefc09a14cecc7e37355f95c13182a8879857d6cf8,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,eee65a543615e429054763deef9143befa25499ba4bf313bcac4e544ba495142,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,19d52aef11f437ca6fb3905141ee6faf8b19bd344d259b36dce10ffbb443c759,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d650bab654028c4fd16b1eba2d6691710021ccfb553b6505109c3351b340a7bf,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e206ce378787981efa46bf99fa91f229cd5fabd3210e6cdfe1590c48182ac179,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,35f2e4233ec423db7204af2998143c68a5faf47b9ecbe12601e4d38603b4fa31,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,159aaa8e104f42d0445c9d184bbd2f946c4518515d4ee4ef3fc90a9a7c023f20,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a571dd15feb300d046f7f9505fb30197acc4904ac4a37cdf016b384593c86a7c,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e4fed82ac5ee820db1393044746f55324aab1cbce858324d9da7a3698795f5e5,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ac33aeac1d4d741403e4a3cf3f0d35a2d813d8d9c7beba7133ec9ed3b0344800,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7273ae236b007635b0dbc20ef0bee2a43efbd900b52964272d278f6094a3530e,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,efbc1158dcc60c47a133fe57af2759b202dcd1904a44221e4937efeb6fab715a,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e1d417445232ec04b634b32f21fd50f512f5235eafc0c742cbbee091a6d2e0d5,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a48813fa517be4919a0efd0b72c6478bf211e0f2dc36487f01c6c4bad7f5bc01,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,de2d84ee1f77e6d86e1d072d446a833d35c878ac217d44a4adac9bd850b1c125,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ebab8149935920098d7e0d5c148177078c653c79ec6de4132aefd981f005cb3c,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,1632d17336a9071563699e73923c88a4f5b9572fc8332492d89aa7fb25bb6a57,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,dc162de9ac4017bb63717c3f0b1c506f5b920934169e60a2fb9bbd110307e52e,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9cca42dbad84fb6faff04f979b2e2c6bade31287698b61ebd149403ec5be4421,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f45307f30635835b2d7a5fa413bce30c450743f89548fe01ddb95f7d8a1cd5b4,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b568d06782e6cc17ed3155a674060e4cddd2faa362287be6ebc7f883c0056ebe,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,1bcef3819795dff508adfac141f05a1b38a30e726b8f3c08949e47aa5186d55c,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,35e74b9cb37c62bca72ee517f0535c824a7bdc316d770ce2d7a121e15b6230c6,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2bc71ed33460f47baffa7435270d55b708cc1c03fae0a665f2767f399541e586,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,4982ff0b373b7d32ab73ea313210d9033321de4bc86e0849ed70d0de7f24f506,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6e3c3a20328956eb3d80f9e752c5873aaba73a6815e3ed92294159cd5b9e8dd6,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6c6eaeb86293a75b1a28255e4426c08895d57bc15e4450e1b7d5022e7e973912,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e55e217c797e4123d4411735492f87e27b9ed064287cd2df070eae2017084cac,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b25e2635e6f6e2e101e52d68034a728823e54526b63564a40c6c5e5070d886b2,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7011d646f56e2fa8f72e66a87ffc20d4e9e610721a82b366ddce96aaea51ebf7,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6cb8c7e7939ba382e88edd6f4405c9e17f0bb66d719982f4278a4e25c30c0e47,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,3c998ffdd5648bb4072e96387897ab89455b02aabf5ea73494fe555f9f685014,Mirai
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,zs[.]apij4ya[.]org,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,y[.]geng7[.]org,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mutel[.]store,ClearFake
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rochi[.]store,ClearFake
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,172-238-204-199[.]ip[.]linodeusercontent[.]com,php.shin_webshell
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,s7lgx4no[.]rochi[.]store,ClearFake
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f61e9548ea915f7d052b1b929bb5ddf597a3fd93ee208b14b0e03553b98f7583,Unknown Loader
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,kc[.]appel4d[.]com,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,jk[.]apaljitu[.]org,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,appel4d[.]com,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,h99[.]anka69[.]org,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,67.215.228[.]4:25774,Unknown malware
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,tz[.]5671234[.]xyz,Unknown malware
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,pcsofthub[.]cfd,Remus
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,130.94.13[.]23:443,Jackskid
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,130.94.10[.]21:443,Jackskid
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://metaslate[.]org/uBF7J3Oasiut/pE7rAq5Rz02L[.]php,Unknown malware
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,38.60.206[.]178:443,Jackskid
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,38.60.205[.]67:443,Jackskid
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,decapiwo[.]workers[.]dev,php.shin_webshell
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,microsoftoffice365[.]macrosoft[.]ch,IClickFix
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mystore-assets-wordpress[.]integrationsnetz[.]de,IClickFix
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nibol[.]store,ClearFake
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,197.206.148[.]126:999,NjRAT
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,8.162.11[.]200:10856,NjRAT
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,z8t[.]appel4d[.]com,Vidar
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://thewildandfreecafe[.]screenconnect[.]com/Bin/ScreenConnect[.]ClientSetup[.]msi?e=Access&y=Guest&t=wesley[.]docs,Unknown malware
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://thewildandfreecafe[.]screenconnect[.]com/Bin/ScreenConnect[.]ClientSetup[.]msi?e=Access&y=Guest&t=fish[.]docs,Unknown malware
+2026-11-14T16:16:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://fishofwalton-doc-access[.]s3[.]us-east-2[.]amazonaws[.]com/Index1[.]html,Unknown malware
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,mosal[.]store,ClearFake
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,retica[.]store,ClearFake
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,srv2[.]hostswow[.]com,php.shin_webshell
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,337u6zp1[.]retica[.]store,ClearFake
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,23.227.196[.]115:443,AdaptixC2
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,16.170.157[.]239:80,AsyncRAT
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,23.227.196[.]115:8080,AdaptixC2
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,23.227.196[.]115:80,AdaptixC2
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,bo[.]apij4ya[.]org,Vidar
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,apaljitu[.]org,Vidar
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,p3l[.]apaljitu[.]org,Vidar
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,e[.]geng7[.]org,Vidar
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,nomolezo[.]workers[.]dev,php.shin_webshell
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,fg[.]apij4ya[.]org,Vidar
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://94[.]255[.]129[.]5:54253/Mozi[.]m,Mozi
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,161.248.179[.]27:8080,Unknown malware
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,rate-limited-proxy-74-125-151-98[.]google[.]com,php.shin_webshell
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,0c39264337a1186b2e765e24073399cbdcba118306614eb411e315887af578bd,PeckBirdy
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,47.238.116[.]190:8011,Unknown malware
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,129.211.183[.]201:8080,Unknown malware
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,5.188.86[.]227:7443,Unknown malware
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,sc[.]apij4ya[.]org,Vidar
+2026-11-14T13:32:47+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,loranolo[.]workers[.]dev,php.shin_webshell
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,metric[.]mintweekly[.]click,RevStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2431ad790c9decf8a231b36df0fc7763c35005753111d4d89913552c0b9b987a,Unknown Loader
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,proklyod1211[.]com,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,120.79.172[.]40:443,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,120.79.172[.]40:1080,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,120.79.172[.]40:8888,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,py[.]apigcor88[.]org,Vidar
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,geng7[.]org,Vidar
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,f[.]geng7[.]org,Vidar
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://megeve[.]beer/api/,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxp://31[.]76[.]252[.]12/,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,103.89.72[.]90:17880,Unknown RAT
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,f[.]nkking[.]com,Unknown RAT
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,telnets[.]top,Unknown RAT
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,43.167.208[.]199:9090,Unknown RAT
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,154.9.251[.]119:10086,Unknown RAT
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,ligne[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,iccon[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,hhalo[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,gljow[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,gbrid[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,fofrm[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,flvux[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,fglow[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,fakde[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,eycho[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,epbic[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,edvge[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,darry[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,daerk[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,cufbe[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,corge[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,axpex[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,zonce[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,zjero[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,zehst[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,wiqld[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,wfave[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,vvoid[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,viebe[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,vdibe[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,trhue[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,taton[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,soful[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,skies[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,skhin[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,shilk[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,rxise[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,rawew[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,pubre[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,nejxt[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,mifnd[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,mgyth[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,meood[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,mavrk[.]tattoo,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2e8026dd15334043609a49c3c9dc60d428fadaf63e300fde69cc12933f50196f,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9c94c32605f8291956dbda5e2495b3e4cacdcd5f4e068fe5cdd92ff03e3f3353,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,73b58d9e312a7aec2df6f9346714d3b5e611d593276427eaf07af2599f0e7e09,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a18aacc9377f74fafb34e0aabbe2988fdb70fb7dfc82d69b278aaa8c2ce9e7be,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a707615eba9b2cd86d84d5a0aeb208a8f9aa0a96bd92fa7c2a29f1d6daa44c39,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,263a22c8981b279edbffa15531c6076e3d48f7f850989e4c288db8c58e5dc8a1,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,43191bb9ca34c5dfcf286477b64824981fe7c1681f80461df1e43d34be9b7414,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6f49f9b2749cd13d1b8112c23480da8e0af241d9b3b9b74580a606f9aa197226,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2b3cbb277fcf8e474f0db6cbfc86faeacd7586277e696d39c14efc3ea54cacfa,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,4dbf1b3e488c829ff3fe46d8d2a024709e7fc27f1fa43446bfc4ab8951ef0c04,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,fce7a33cda37dba4aeade9c75f82e172dbd89a1b254cd18edd76b5dd3707bdd2,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,98184079c818ae47201d84cd77d528807a6f58c81f5128a90a12dadba8485941,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9c7eb65b1812b3a827dca8df5862b713131d012d364181d8b040d9aef8acbc67,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,323912fe9add1c43a654a013e3184335ad70270db8bbd452851b8e5a15c7c352,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,858ff0cbca65b0149a8b45f3c3207190e423c80a46affbbfe0ec6d6a32b9c425,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,696adc0309b1218f89e3547d94599d78eaf28780a77463c1ddb4763a315a02c6,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,fe419f0107b5c06e99b13f9b00ee37314a9665a7b6ba127eb0605ff81142270c,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,36102789682a0e3171e68eb04cb8fdbdd93bc5942c040eb8dbc9661ba3250b47,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e8362d288e63d8edb6d13579aec05e3eeac1c4e00ba01d511fcb26bad7b61d3f,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,24d67e8b085a20f33e8fe491255dbcde54498cff125a701deef1319a78a005ab,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e5156795ff8dc357a40362cc744d5ab09666be4bb02445cdbbf8f83697c77a11,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6c6ec81758db9f2385cc18755eaef6586a553d17ffe0a13fe338061f42925259,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,a762a142c7c08f991ddffd189f0f226719c570166a72f370e486b0850f9dcc17,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,7872199f2579403f94d7b6b78ca41d9ed16e80626f3684f10ece69fff062d660,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,23d4a386f0f030bb0e9c659b238143e1bf279d424743a340b386b603fa7f899d,WARDENStealer
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ezmobilewebsitetools[.]com,ClearFake
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://alfajrqatar[.]com/,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,8.148.13[.]187:5555,Cobalt Strike
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,120.79.172[.]40:18080,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,120.79.172[.]40:22,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,111.229.193[.]40:38001,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,129.211.183[.]201:18080,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,120.79.172[.]40:18083,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,apij4ya[.]org,Vidar
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,gq[.]apij4ya[.]org,Vidar
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://85[.]11[.]167[.]150/bins/kla[.]sh,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,lapoire10[.]hopto[.]org,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,41.232.128[.]104:8443,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,186.244.226[.]17:9809,ValleyRAT
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,hapyzi[.]workers[.]dev,php.shin_webshell
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,194.59.30[.]10:8443,Evilginx
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,195.248.240[.]197:8080,Evilginx
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,209.99.190[.]30:4322,AdaptixC2
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,23.158.24[.]136:4321,AdaptixC2
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,23c3719c7f949d6074fd3505928116df52de0e95e18a0a9e8c966b276b08e4ee,Mirai
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9e4d3c1ddd607faa8813efddb0ca71ee81d7ae9a23898eb21f9b100200f2b039,Unknown Loader
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,129.211.183[.]201:18083,Unknown malware
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,112.124.108[.]207:8084,VShell
+2026-11-14T10:21:28+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,hl[.]apij4ya[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,149.104.87[.]239:443,Jackskid
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,38.60.242[.]17:443,Jackskid
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,149.104.92[.]194:443,Jackskid
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,38.60.136[.]208:443,Jackskid
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b7eaf8f9e4bd4f69eb69494a3d7124bab061df80c585cfe23d101756153fd299,Mirai
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f7f4aa82b8bed3d8998579518c468337a021221393f7ff95577b66a53518078c,Mirai
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,4b1178a7cf24888437012e347ba87329d9caa0caee75d9543b7e6e0ed03a7e70,WARDENStealer
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,3f6d950304146e671ff9de563d3861b60112eed39b13fba4e8bd293750bdcff0,Mirai
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,8a03d25f900c0301235cacdd1fb17f98a845dd0b73a1292c2905734d752ef3d1,Unknown Loader
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,8eefcc6985dee8ce8d451a034a29ecb0e3fe96d74da540956ec7f9d829d74610,Unknown Loader
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,168.113.170[.]179:34099,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,184.174.36[.]98:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,150.158.140[.]31:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,209.50.56[.]56:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,101.42.255[.]92:9000,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.156.197[.]147:443,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.156.197[.]147:80,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,89.23.107[.]109:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,167.71.52[.]200:7208,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,111.229.193[.]40:8888,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,201.189.35[.]71:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,222.184.253[.]70:45161,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,72.57.79[.]228:7070,NetSupportManager RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,13.53.168[.]237:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,34.223.233[.]97:443,DeimosC2
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,77.11.44[.]16:8080,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,177.22.117[.]251:9001,DanaBot
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,72.57.79[.]232:7070,NetSupportManager RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,72.57.79[.]227:7070,NetSupportManager RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,160.5.218[.]66:4444,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,102.220.163[.]78:4566,DCRat
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.156.197[.]147:50050,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,100.49.73[.]246:443,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,3.144.108[.]33:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,134.255.218[.]122:56003,PureRAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,88.3.80[.]229:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,35.75.172[.]110:443,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,217.60.21[.]214:56003,PureRAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,18.189.73[.]140:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,198.135.55[.]74:56003,PureRAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,143.110.177[.]26:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.115.223[.]173:59764,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,151.242.11[.]245:40127,AdaptixC2
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,107.150.2[.]96:8888,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,49.234.39[.]80:50050,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,198.44.178[.]146:8888,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,102.220.163[.]78:1452,DCRat
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,72.57.79[.]230:7070,NetSupportManager RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,72.57.79[.]226:7070,NetSupportManager RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,136.87.137[.]163:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,151.115.62[.]33:42125,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,35.167.108[.]81:443,DeimosC2
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,155.138.134[.]46:53,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.143.94[.]27:54444,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,43.160.217[.]56:9002,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,171.111.194[.]207:8766,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,37.252.67[.]8:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,34.27.179[.]144:10443,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,78.54.251[.]20:8080,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,37.27.151[.]68:443,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,191.93.113[.]119:30001,DCRat
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,136.119.206[.]84:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,206.189.225[.]93:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,156.67.104[.]155:33333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,167.104.101[.]174:443,PoshC2
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,5.230.174[.]108:8080,Empire Downloader
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,203.176.93[.]72:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.202.7[.]175:2000,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,5.230.174[.]108:8443,Empire Downloader
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,3.210.53[.]18:8000,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,4.247.242[.]77:443,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,194.247.187[.]228:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,16.176.204[.]131:3333,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,72.57.79[.]231:7070,NetSupportManager RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,185.205.209[.]108:31337,Sliver
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,223.206.141[.]52:8080,Mirai
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,93.233.103[.]97:51123,AsyncRAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cewiluji[.]workers[.]dev,php.shin_webshell
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,39.96.78[.]162:50050,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.63.123[.]166:31337,Sliver
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,59.0.153[.]163:80,Nanocore RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,175.24.135[.]131:50050,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.61.161[.]134:31337,Sliver
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,84.131.52[.]238:80,Ghost RAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,189.105.68[.]230:31337,Sliver
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,afaf55ec975e42a4b3a1c110d7c9bd9bf355632e82f35e096b107b049f75a14c,RudeDevil
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,4f0439c96a33a8a273b155a1f6810e6cf6ad520fa25fd127790cf456f81e3dbf,Mirai
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,36c957d8fd1fed8275880bc29ac6479bb239102ed0eefe26b721341e2afc999d,Formbook
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.156.197[.]147:8080,Cobalt Strike
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://steamcommunity[.]com/profiles/76561198603333756,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://telegram[.]me/h3llopk,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://t[.]me/h3llopk,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://104[.]252[.]30[.]60/gate,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxps://195[.]15[.]201[.]249/gate,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,ranta[.]store,ClearFake
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,z[.]gam99[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,x[.]gam99[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,o[.]gam99[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,m[.]gam99[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,j[.]gam99[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,92apigacor889[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,w[.]apigacor889[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,q[.]apigacor889[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,ctn[.]apigacor889[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,no[.]apigcor88[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,xm[.]apigcor88[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,ad[.]apigcor88[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,b[.]apigcor88[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,gam99[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,apigacor889[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,apigcor88[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,104.252.30[.]60:443,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://175[.]147[.]88[.]106:48457/Mozi[.]m,Mozi
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://153[.]117[.]15[.]26:50024/Mozi[.]m,Mozi
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://124[.]29[.]251[.]120:39196/Mozi[.]7,Mozi
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,3.165.190[.]81:443,NjRAT
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,k7spnoil[.]ranta[.]store,ClearFake
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,9c7846ba26a7515556d620bf9b0663f8e8a4ae63311ef3edb2e9b0571828cf86,Unknown Loader
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,vid-security[.]top,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://vid-security[.]top/,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxp://topbnds[.]shop:8592/articles,Remus
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.227.255[.]157:7443,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,49.234.39[.]80:60000,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,111.229.193[.]40:22,Unknown malware
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,oq[.]apacu500[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,tx[.]apigcor88[.]org,Vidar
+2026-11-14T07:43:06+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,baqebohu[.]workers[.]dev,php.shin_webshell
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.58.135[.]130:6667,Unknown malware
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,212.102.48[.]58:6667,Unknown malware
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.79.33[.]42:6667,Unknown malware
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,185.198.56[.]60:6667,Unknown malware
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6eb257d6c98f152506268dacfe71c682a2203d808d6efa9b8f787b3f66a66721,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2d352712cad9e47d9c8ce0b62589e7c09c2a5dd97bd35bf72140a252cc600ea3,AMOS
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ae4f1b9547db90636514df913a422eff22ebf1cf60712e1f1ec5753b6e26a9e8,AMOS
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e5566d680f0c6484b51bceb7d737340bd43aff97164b24bff8b326d02c038af4,AMOS
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b37a50c521283d0101a1fa453ca7e606c9fceee9d1f4d705508975a7da1c3cc7,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b3564ed868679fda9c6cd4a9f0c96cc812c2218effa5f2ab242cb411ac4548e2,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,eecb204514f4961d93147805cdef6d7e4060588f428db663db1889da59f3d8e2,Formbook
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2404b5520fa1205f2bccf7a98d35268ac09772b258f4133f0269975d489a8aa9,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2f49e9b935e1f1a79505356a97697a6822fd662beeff960bce6143552e8dd64f,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,061d9820dc550f8fe032f4e1a38dbba9cfeaca6cbd215d3e58ab86ea6a3cf4c3,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,88f35177758de73153e830964f6015464190d3d125f4f07a37ae707120093095,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2bbba6f62ea49d9826492991a824c47a5562c9ed8be6eaeb8a9dec015b5bc0c7,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,64c23252434dad5c4ff24063d0936a2bda3b3304de8a36ca73d2916b7565b12b,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,447478732888aa72cc09a934d893b4ae831b054db670f73c44a17c54b0e88dec,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,712f44b90c8a14c071870cc0b7ce0328e594c117ac1004c1adfd99defd86145f,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,8b6e5298a4a7e3da7bede6abc174af99bdbfc0282b1750410282050b83b38a69,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f62a618a4289b7f50ee890ffd096e4a74178b12cdc2fca9092e3d3e068ecb6ed,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,cdd6d3adb812f2b018e06f6ccbf3f141ed40b3a284c60b1dc97421f263d82107,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d1b80d5f73b327fb4077d36b80b248fe1e403d20b9706023eff3be35655bfe33,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b4507d1dbf431ac6e2de7668d3ede2ae4677774a7cbb0d127b2255c0ec1c7e66,Unknown Loader
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,104.251.181[.]64:443,AdaptixC2
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.192.213[.]153:8084,VShell
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,104.251.181[.]64:8080,AdaptixC2
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,104.251.181[.]64:80,AdaptixC2
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,fhqz6gm8[.]gomas[.]store,ClearFake
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,206.189.58[.]244:8001,Aisuru
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://pub-9edd485f8a3c4fb1942935530b075a5d[.]r2[.]dev/ScreenConnect[.]ClientSetup[.]msi,Unknown RAT
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,route9[.]clearplaza[.]website,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,url,hxxp://netframework[.]dynamic-dns[.]net:8000/is-ready,Houdini
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d62601d11f25adce7d33f699b80fbe6ab457d0941336627ebe2640cb2675222f,ValleyRAT
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,6fc2257aa8c382907a47853ad2a7f5326a923af5fc91e71cb030da50834ffe9b,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d1a0c6fbe9b121685c40757989c8db4ac45c5a49a7f78775ee03a1153156dcb8,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b3754baad0507f55a54ffc9c37b9093a66471c11cf83af3345b61716f7ba2a45,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ffbb2d190c87f9832e705692d0f9bba7a885672b842a8503279ac50bf0eb0a69,WARDENStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,1ce75f752118bf6039196bad7595b4cdf2fadc6189352c6988cedc5b65e21656,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,60b22e07cd80d6171889f3a027168bb33dac7b7316223d4678bcf6d7f919d12e,Coinminer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d9bb4cb6977d817979c51558d4e12da10b747ed87122b219a62a1ce64576da92,WARDENStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b7f4cbde98525a79c38d64322dba7d9d2289e4903ad5a245e80ea3a6cfcc7ef5,WARDENStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2ea911903802aac88fd73cc65b271737eb4d05024c98cf5845675c503b472341,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b0cc539f7e795ad86e529ef0cdb6b95046dfd0e11bcd10397da4118fe21fd125,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,88ff3f71a48dc2c2caece93a579a2cc9fbf6552dad4889f1425881b6433c911b,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,b797e3534789157cff3ffb1299905648315d89316ff355d122c57e475be1a240,WARDENStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,fe2f1da409b645088f91226eb730c677a37ec1134426f93c74e6afe2855b8bf8,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,f426469d0938ef79dfaf3c821ab6f4034608433de8058e3d8a5a681a81ff7295,RevStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,d48d8c87335633e9ccf35f6b2fcae5146cc357194ec3d9b4e74b94549b759a25,Coinminer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2174253d9e78ed616c82cf2c7334817b3af400cf98c9ac2f348aedb0801d280a,WARDENStealer
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,e02aee7fc71ea85fe26ee02b8be5943ce1afa0d9a955e16f78fc4b288bc2e265,Unknown Loader
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,111.170.148[.]132:1521,Unknown malware
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,111.170.33[.]226:6379,VShell
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,ro[.]apacu500[.]org,Vidar
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,glmdw02885[.]workers[.]dev,php.shin_webshell
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,45.207.222[.]145:55413,Cobalt Strike
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,82.156.197[.]147:8443,Cobalt Strike
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,3151a0e6ca324900e6e7db0e2b7a58a25584bdd21855726af4ea460fab02bd70,Mirai
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,03ca680b35ea9a4feb88d2c390e0b1752c7c77f48c412d5d48f5a365c4bf1081,Unknown Loader
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,edfdafe9395f12f10b8e65a2b42c95cbf3686d8c403a01b1244dec8cd334670e,Unknown Loader
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,55e4f2cfd4c46fa19fd66778370df03f4644bfd3178f368697eda09548a8bae6,Unknown Loader
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,31.57.216[.]180:10213,CECbot
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,69.67.173[.]150:8001,Aisuru
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,139.59.99[.]46:8001,Aisuru
+2026-11-14T04:29:54+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,138.197.215[.]50:8001,Aisuru
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,154.9.235[.]100:443,AdaptixC2
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,154.9.235[.]100:80,AdaptixC2
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,2c85a21fe7baf0defdf8f36da2afa9fa8aa87bfd884f528392da3958f07f0416,Mirai
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,yyy[.]06services[.]it,ClearFake
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,domain,b1[.]apacu500[.]org,Vidar
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,jisfe2f8hc[.]workers[.]dev,php.shin_webshell
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,185[.]122[.]62[.]34[.]bc[.]googleusercontent[.]com,php.shin_webshell
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,177[.]153[.]77[.]34[.]bc[.]googleusercontent[.]com,php.shin_webshell
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxps://vinandrite[.]com/ruf,IClickFix
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,43.157.55[.]140:6666,ValleyRAT
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://153[.]117[.]34[.]117:52811/Mozi[.]m,Mozi
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,url,hxxp://203[.]101[.]186[.]49:44317/Mozi[.]m,Mozi
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,ced186a8664f5ed95a4f516d04e614a27d2407536dd69b5cb8c0045cd3db1900,AdaptixC2
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware sample (payload),,sha256,cf690ffe7647238ad2744224327de38a6d23826eb8e8ecde32f0a37294fa2b0e,Ramnit
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,49.234.39[.]80:443,Cobalt Strike
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,49.234.39[.]80:80,Cobalt Strike
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a botnet command&control server (C&C),,ip:port,49.234.39[.]80:8080,Cobalt Strike
+2026-11-14T01:45:08+00:00,ThreatFox,Indicator that identifies a malware distribution server (payload delivery),,domain,cuzylawi[.]workers[.]dev,php.shin_webshell
