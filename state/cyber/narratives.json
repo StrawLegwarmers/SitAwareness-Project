@@ -2,24 +2,24 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 302,
+   "articles": 312,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 3,
+   "calls": 3,
+   "candidates": 5,
    "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-14",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 245,
-   "in_stories": 4,
-   "kept": 3,
+   "groups": 252,
+   "in_stories": 8,
+   "kept": 6,
    "merged": 0,
-   "new": 1,
-   "rejected": 0,
-   "reported_by_2": 2,
-   "runs": 2,
-   "sent": 3,
+   "new": 3,
+   "rejected": 1,
+   "reported_by_2": 3,
+   "runs": 3,
+   "sent": 5,
    "skipped": 0,
    "split_calls": 0,
    "updated": 2,
@@ -74,7 +74,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T04:30:42+00:00"
+  "all": "2026-11-14T07:43:45+00:00"
  },
  "narratives": [
   {
@@ -4018,9 +4018,141 @@
    "status": "new",
    "title": "SignDrop Windows zero-day exploit",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "10b047f775c37b86",
+     "lang": "en",
+     "outlet": "ABC News - Breaking News, Latest News and Videos",
+     "published": "2026-11-13T23:25:08+00:00",
+     "publisher": "ABC News - Breaking News, Latest News and Videos",
+     "region": null,
+     "section": "aviation",
+     "title": "Nationwide ground stop lifted after more than 4 hours as Trump administration blames old, overloaded tech",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZESEhXTWRPNDJEOGZqM0ZUOUdHeHJlVndERnFVejFBYmNfbnV3OUVIdTRFUEI2eHdqTkhPOWJ0OHY5RTd1WWh2VzV0YS1sVk41QVZfSXpmcmdvMXM2dDVNX3dnQ1l5VmRfOXNrSGUzVzQ5VkJnNDl1OUdXN1ByUDltakdoTVp1b2t0ZE5R0gGTAUFVX3lxTE80VGZ5dW9Tb3hkTDNXTHFnNmxnWXhER1RQbGpWMjB2cEZBX0E5a0xNRXVjNVR2czRCbmVUTkJxRHlNUmFlRXBMWlVEOVNnRHZVY0JNeUx6aDdqalZnbUFpYVZ5WXE5Ukl1RFhvbU5lUGpuRXZ1WFp0M0tBWXU2a3VFenBFTVVPbE9lNGZfUi1Oa3ZkZw?oc=5"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "31a786adf6a2a070",
+     "lang": "en",
+     "outlet": "Menafn",
+     "published": "2026-11-13T16:23:41+00:00",
+     "publisher": "Menafn",
+     "region": null,
+     "section": "aviation",
+     "title": "US Lifts Nationwide Airport Ground Stop, Cites Old Equipment, Not Cyberattack",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "us-airport-ground-stop",
+   "label": "US airport ground stop",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "10b047f775c37b86",
+      "31a786adf6a2a070"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Menafn",
+      "ABC News - Breaking News, Latest News and Videos"
+     ],
+     "published": "2026-11-13T16:23:41+00:00",
+     "text": "[Menafn](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5), [ABC News - Breaking News, Latest News and Videos](https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZESEhXTWRPNDJEOGZqM0ZUOUdHeHJlVndERnFVejFBYmNfbnV3OUVIdTRFUEI2eHdqTkhPOWJ0OHY5RTd1WWh2VzV0YS1sVk41QVZfSXpmcmdvMXM2dDVNX3dnQ1l5VmRfOXNrSGUzVzQ5VkJnNDl1OUdXN1ByUDltakdoTVp1b2t0ZE5R0gGTAUFVX3lxTE80VGZ5dW9Tb3hkTDNXTHFnNmxnWXhER1RQbGpWMjB2cEZBX0E5a0xNRXVjNVR2czRCbmVUTkJxRHlNUmFlRXBMWlVEOVNnRHZVY0JNeUx6aDdqalZnbUFpYVZ5WXE5Ukl1RFhvbU5lUGpuRXZ1WFp0M0tBWXU2a3VFenBFTVVPbE9lNGZfUi1Oa3ZkZw?oc=5) reported that the nationwide airport ground stop was lifted after more than four hours."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US airport ground stop",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "2f079f694e4627f0",
+     "lang": "en",
+     "outlet": "Sada Elbalad English",
+     "published": "2026-11-14T00:04:47+00:00",
+     "publisher": "Sada Elbalad English",
+     "region": null,
+     "section": "aviation",
+     "title": "Breaking News: US Aviation Paralysis: Telecom Outage Grounds Flights at JFK; Officials Rule Out Cyberattack",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUFptYjA4dHF0M2tsZlhFcktTWEwtNV8xQjZualFqNmdDQ3dkQkdyNXlaeEhwX0xvUkU2TC1LM3FKU3pTR1dPdUJuaUVXa2s2T0FIN3lzYnJ3Y2lzSWhSQmp3RFFSWnNSLTVfTVFuU1dkVzNMTXZoZm5ueWd1OEZMTGpsR1ZzbVRwcGNTR0F4d3R5b2ZCS25xRG1tVjVoOHJVdlJmeXhQV3FkaEdjaWhNSkZqcUZud2hZWWlsQ3VR?oc=5"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "9eda75bddaffa170",
+     "lang": "en",
+     "outlet": "Times Now",
+     "published": "2026-11-13T21:52:32+00:00",
+     "publisher": "Times Now",
+     "region": null,
+     "section": "aviation",
+     "title": "Why Did FAA Ground All Flights? Trump Rules Out Cyberattack, AI; DHS Points To Telecom Outage",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON1ZQTEpNeVJDQ0dZamI3dVQ4bjQxMmc4Y0NnZ1lqQVBkejl0LXJ6NEZJNlVHWHNFaWdCTEF5cjdDb0FZSDhIOTNnbnlhR3hsdkZ3NFpwc25QdURsaFlOTFZxV0JINmhBQmV5azhTbEhGVWlzOHBsR3Vvc3FtYkI0T2hQN0IydW16c0s0UWw5UGNKeW1oX2FFOUZIZE4wZXJYQ2RURjhPQzM4d1l2YW5iQUZMem5NNUxMcWF0eXJUVGd4MmdTNnFiS3BNYTNnQnFYLW5r0gHYAUFVX3lxTE1rUUIyYkFzQXpjWVdZdXVOZk8yMUVXRDdxaS1ES2lmaVNHYU5qeE5sZ0M4TmhpQ3NELVJvN1IwQmVmYXRfaFk1YUo2ZXAzOWlIZlZYdEw3anA1SUV5bDNVM1hCVnVONGtCWDFGSGpXMTZnUnE2RUJsMFhzOHBxZkQ2SUdMcGh4WDRySzk2NHgxdGpxaHd1ckdFa3Itd1oySXRaZ0d2TlRkTkx0cC1DQ2V6WmkzaHdpdWtNRzU1WDVjV1o4R1Bpd1EzcTk0WmhhdVNQLUEtSmlvZQ?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "faa-flight-groundings",
+   "label": "FAA flight groundings",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2f079f694e4627f0",
+      "9eda75bddaffa170"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Times Now",
+      "Sada Elbalad English"
+     ],
+     "published": "2026-11-13T21:52:32+00:00",
+     "text": "[Times Now](https://news.google.com/rss/articles/CBMi0wFBVV95cUxON1ZQTEpNeVJDQ0dZamI3dVQ4bjQxMmc4Y0NnZ1lqQVBkejl0LXJ6NEZJNlVHWHNFaWdCTEF5cjdDb0FZSDhIOTNnbnlhR3hsdkZ3NFpwc25QdURsaFlOTFZxV0JINmhBQmV5azhTbEhGVWlzOHBsR3Vvc3FtYkI0T2hQN0IydW16c0s0UWw5UGNKeW1oX2FFOUZIZE4wZXJYQ2RURjhPQzM4d1l2YW5iQUZMem5NNUxMcWF0eXJUVGd4MmdTNnFiS3BNYTNnQnFYLW5r0gHYAUFVX3lxTE1rUUIyYkFzQXpjWVdZdXVOZk8yMUVXRDdxaS1ES2lmaVNHYU5qeE5sZ0M4TmhpQ3NELVJvN1IwQmVmYXRfaFk1YUo2ZXAzOWlIZlZYdEw3anA1SUV5bDNVM1hCVnVONGtCWDFGSGpXMTZnUnE2RUJsMFhzOHBxZkQ2SUdMcGh4WDRySzk2NHgxdGpxaHd1ckdFa3Itd1oySXRaZ0d2TlRkTkx0cC1DQ2V6WmkzaHdpdWtNRzU1WDVjV1o4R1Bpd1EzcTk0WmhhdVNQLUEtSmlvZQ?oc=5), [Sada Elbalad English](https://news.google.com/rss/articles/CBMivgFBVV95cUxOUFptYjA4dHF0M2tsZlhFcktTWEwtNV8xQjZualFqNmdDQ3dkQkdyNXlaeEhwX0xvUkU2TC1LM3FKU3pTR1dPdUJuaUVXa2s2T0FIN3lzYnJ3Y2lzSWhSQmp3RFFSWnNSLTVfTVFuU1dkVzNMTXZoZm5ueWd1OEZMTGpsR1ZzbVRwcGNTR0F4d3R5b2ZCS25xRG1tVjVoOHJVdlJmeXhQV3FkaEdjaWhNSkZqcUZud2hZWWlsQ3VR?oc=5) reported that officials ruled out a cyberattack regarding the FAA grounding of all flights."
+    },
+    {
+     "articles": [
+      "2f079f694e4627f0"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Sada Elbalad English"
+     ],
+     "published": "2026-11-14T00:04:47+00:00",
+     "text": "[Sada Elbalad English](https://news.google.com/rss/articles/CBMivgFBVV95cUxOUFptYjA4dHF0M2tsZlhFcktTWEwtNV8xQjZualFqNmdDQ3dkQkdyNXlaeEhwX0xvUkU2TC1LM3FKU3pTR1dPdUJuaUVXa2s2T0FIN3lzYnJ3Y2lzSWhSQmp3RFFSWnNSLTVfTVFuU1dkVzNMTXZoZm5ueWd1OEZMTGpsR1ZzbVRwcGNTR0F4d3R5b2ZCS25xRG1tVjVoOHJVdlJmeXhQV3FkaEdjaWhNSkZqcUZud2hZWWlsQ3VR?oc=5) reported that a telecom outage grounded flights at JFK."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "FAA flight groundings",
+   "topic": "infrastructure"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-14T04:30:58+00:00"
+ "updated": "2026-11-14T07:44:02+00:00"
 }

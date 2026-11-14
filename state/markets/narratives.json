@@ -2,25 +2,25 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 800,
+   "articles": 825,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 7,
+   "calls": 3,
+   "candidates": 10,
    "continuing": 3,
    "corroborated": 1,
    "date": "2026-11-14",
    "dropped": 3,
    "failed_calls": 0,
-   "groups": 704,
-   "in_stories": 7,
-   "kept": 5,
+   "groups": 722,
+   "in_stories": 11,
+   "kept": 9,
    "merged": 0,
-   "new": 1,
+   "new": 3,
    "rejected": 1,
-   "reported_by_2": 5,
-   "runs": 2,
-   "sent": 7,
-   "skipped": 0,
+   "reported_by_2": 6,
+   "runs": 3,
+   "sent": 10,
+   "skipped": 1,
    "split_calls": 0,
    "updated": 2,
    "waiting": 0
@@ -51,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T04:31:58+00:00"
+  "all": "2026-11-14T07:45:51+00:00"
  },
  "narratives": [
   {
@@ -2336,9 +2336,149 @@
    "status": "new",
    "title": "Trump and Xi summit",
    "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "9b059f9812ecc36b",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T14:59:35+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Russian Diesel Exports Drop as Ukraine Renews Refinery Attacks",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/russian-diesel-exports-drop-as-ukraine-renews-refinery-attacks"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "4d48ffc86685556c",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-12T05:00:21+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
+     "type": "international",
+     "url": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "russian-diesel-exports-and-refinery-attacks",
+   "label": "Russian diesel exports and refinery attacks",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4d48ffc86685556c"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-12T05:00:21+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1) reported that Russian diesel exports doubled after sanctions were lifted, but shipments are expected to be shortlived after Ukraine resumes attacks on refineries."
+    },
+    {
+     "articles": [
+      "9b059f9812ecc36b"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T14:59:35+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/russian-diesel-exports-drop-as-ukraine-renews-refinery-attacks) reported that Russian diesel exports slumped at the start of November as renewed Ukrainian attacks on refineries threatened to curb fuel output."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Russian diesel exports and refinery attacks",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "9a378c329f61d338",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-14T04:28:50+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia has worst week since Trump tariff selloff as Huang exits",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "077fbcd202af59b7",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T18:24:41+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "nvidia-eyes-worst-week-since-trump",
+   "label": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "077fbcd202af59b7"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T18:24:41+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits) reported that Nvidia Corp. stock is on track to notch its worst week in more than 18 months as its share price continues to reel after Jensen Huang's ouster from the top chip post."
+    },
+    {
+     "articles": [
+      "9a378c329f61d338"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-14T04:28:50+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms) reported that Nvidia Corp. witnessed a drastic stock plunge with a 13% decrease in stock value within a week following the ousting of CEO Jensen Huang amid scandals."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T04:32:15+00:00"
+ "updated": "2026-11-14T07:46:09+00:00"
 }
