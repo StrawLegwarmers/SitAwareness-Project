@@ -4,22 +4,22 @@
   {
    "articles": 312,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 7,
+   "calls": 5,
+   "candidates": 8,
    "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-14",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 252,
-   "in_stories": 10,
-   "kept": 7,
+   "in_stories": 12,
+   "kept": 9,
    "merged": 0,
-   "new": 4,
+   "new": 5,
    "rejected": 2,
    "reported_by_2": 3,
-   "runs": 6,
-   "sent": 7,
+   "runs": 7,
+   "sent": 8,
    "skipped": 0,
    "split_calls": 0,
    "updated": 3,
@@ -74,7 +74,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T16:17:22+00:00"
+  "all": "2026-11-14T19:24:20+00:00"
  },
  "narratives": [
   {
@@ -4206,9 +4206,82 @@
    "status": "new",
    "title": "GTA VI malware scams",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "70849d89a9ff4b2c",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-14T17:27:25+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Cursor confirms security breach led to malicious Claude Code extension",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
+    },
+    {
+     "added": "2026-11-14",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "544004bb39e60187",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-14T09:09:31+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
+     "type": null,
+     "url": "https://cybersecuritynews.com/cursor-data-breach/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "cursor-security-breach",
+   "label": "Cursor security breach",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "544004bb39e60187"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-14T09:09:31+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/cursor-data-breach/) reported that Cursor traced its October security breach to an access key exposed by Fireworks AI which the attacker used to steal historical coding agent records."
+    },
+    {
+     "articles": [
+      "70849d89a9ff4b2c"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-14T17:27:25+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) reported that Cursor confirmed the security breach enabled hackers to distribute a malicious Claude Code extension via its marketplace following credential theft."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cursor security breach",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-14T16:17:22+00:00"
+ "updated": "2026-11-14T19:24:36+00:00"
 }

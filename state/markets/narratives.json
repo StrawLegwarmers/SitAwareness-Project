@@ -4,25 +4,25 @@
   {
    "articles": 835,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 22,
-   "continuing": 5,
+   "calls": 7,
+   "candidates": 24,
+   "continuing": 6,
    "corroborated": 1,
    "date": "2026-11-14",
    "dropped": 4,
    "failed_calls": 0,
    "groups": 724,
-   "in_stories": 32,
-   "kept": 25,
+   "in_stories": 38,
+   "kept": 28,
    "merged": 2,
-   "new": 10,
+   "new": 11,
    "rejected": 1,
    "reported_by_2": 9,
-   "runs": 6,
-   "sent": 22,
+   "runs": 7,
+   "sent": 24,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 6,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -51,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T16:20:06+00:00"
+  "all": "2026-11-14T19:26:40+00:00"
  },
  "narratives": [
   {
@@ -1984,8 +1984,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 13,
+   "article_count": 14,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "b6f73dd6a4f35c9d",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-14T16:45:01+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video"
+    },
     {
      "added": "2026-11-14",
      "id": "153a82f51ccde1c3",
@@ -2156,7 +2169,7 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 8,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
@@ -2254,13 +2267,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+   "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
    "title_from": {
     "backing": 3,
     "date": "2026-11-14",
     "of": 3,
-    "outlet": "The Guardian",
-    "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video"
    },
    "topic": "infrastructure"
   },
@@ -3095,9 +3108,137 @@
    "status": "new",
    "title": "Bank of England interest rates",
    "topic": "economy"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "5d240ec889e72917",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-14T18:31:24+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/14/cruise-ship-tanker-crash-new-orleans.html"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "9771a9947c562298",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-14T00:29:03+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "f1609cf660627c07",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T22:33:48+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "b4bda08b7b68c50b",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-13T21:50:23+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Rescues underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/13/tanker-hits-cruise-boat-in-new-orleans-rescues-underway.html"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "9c30a8d463da7808",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-13T21:40:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
+     "type": "international",
+     "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "new-orleans-tanker-collision",
+   "label": "New Orleans tanker collision",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "9c30a8d463da7808"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-13T21:40:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f) reported that a tanker hit a cruise ship with over 100 people on board in New Orleans, and rescue efforts were under way on Friday afternoon."
+    },
+    {
+     "articles": [
+      "b4bda08b7b68c50b"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-13T21:50:23+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/13/tanker-hits-cruise-boat-in-new-orleans-rescues-underway.html) reported that a tanker struck a river cruise boat with 129 passengers on board on the Mississippi River, partially submerging the boat."
+    },
+    {
+     "articles": [
+      "f1609cf660627c07"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-13T22:33:48+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video) reported that a tanker collided with a docked river cruise ship on the Mississippi River, leaving the smaller vessel partly submerged."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-14",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f"
+   },
+   "topic": "infrastructure"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T16:20:23+00:00"
+ "updated": "2026-11-14T19:26:56+00:00"
 }
