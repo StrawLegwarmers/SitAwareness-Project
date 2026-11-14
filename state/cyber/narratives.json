@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 291,
+   "articles": 302,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 2,
-   "continuing": 1,
+   "calls": 2,
+   "candidates": 3,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-14",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 236,
-   "in_stories": 3,
-   "kept": 2,
+   "groups": 245,
+   "in_stories": 4,
+   "kept": 3,
    "merged": 0,
    "new": 1,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 1,
-   "sent": 2,
+   "runs": 2,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -74,7 +74,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T01:45:36+00:00"
+  "all": "2026-11-14T04:30:42+00:00"
  },
  "narratives": [
   {
@@ -2597,8 +2597,24 @@
    }
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "dates": [
+      "2026-11-13"
+     ],
+     "id": "22bb4f70b49205bf",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-14T03:47:33+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
+     "type": null,
+     "url": "https://cybersecuritynews.com/check-point-0-day-vulnerability/"
+    },
     {
      "added": "2026-11-13",
      "id": "95d45f505fa7bd6e",
@@ -2697,19 +2713,31 @@
      "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "check-point-firewall-exploitation",
    "label": "Check Point firewall exploitation",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 1,
    "previous_titles": [
     "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
     "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell"
    ],
    "reports": [
+    {
+     "articles": [
+      "22bb4f70b49205bf"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-14T03:47:33+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/check-point-0-day-vulnerability/) reported that CISA warned of a Check Point zero-day vulnerability being exploited to gain root access on affected appliances."
+    },
     {
      "articles": [
       "95d45f505fa7bd6e"
@@ -2795,9 +2823,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html) reported that an unknown threat actor targeted unpatched Check Point Security Gateways to obtain initial access via PHP2Shell vulnerabilities and deploy the TSGA backdoor and wipe ESXi files."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
    "title_from": {
     "backing": 5,
@@ -3994,5 +4022,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-14T01:45:52+00:00"
+ "updated": "2026-11-14T04:30:58+00:00"
 }

@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 795,
+   "articles": 800,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 5,
-   "continuing": 2,
+   "calls": 2,
+   "candidates": 7,
+   "continuing": 3,
    "corroborated": 1,
    "date": "2026-11-14",
    "dropped": 3,
    "failed_calls": 0,
-   "groups": 701,
-   "in_stories": 4,
-   "kept": 1,
+   "groups": 704,
+   "in_stories": 7,
+   "kept": 5,
    "merged": 0,
-   "new": 0,
+   "new": 1,
    "rejected": 1,
    "reported_by_2": 5,
-   "runs": 1,
-   "sent": 5,
+   "runs": 2,
+   "sent": 7,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -51,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T01:46:57+00:00"
+  "all": "2026-11-14T04:31:58+00:00"
  },
  "narratives": [
   {
@@ -1894,8 +1894,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 10,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "4119b59f59270b72",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-14T02:01:16+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "FAA lifts rare nationwide ground stop; flights may take days to recover",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=878bb17c-a0d8-48f5-b7d2-a35c5cc03ac6&mod=mw_rss_bulletins"
+    },
     {
      "added": "2026-11-14",
      "id": "cd905cf8df90633e",
@@ -2027,7 +2040,7 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
@@ -2036,9 +2049,22 @@
    "last_updated": "2026-11-14",
    "outlets_today": 3,
    "previous_titles": [
-    "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’"
+    "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
+    "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US"
    ],
    "reports": [
+    {
+     "articles": [
+      "4119b59f59270b72"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-14T02:01:16+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/bulletins/redirect/go?g=878bb17c-a0d8-48f5-b7d2-a35c5cc03ac6&mod=mw_rss_bulletins) reported that the FAA lifted the rare nationwide ground stop and that flights may take days to recover."
+    },
     {
      "articles": [
       "cd905cf8df90633e"
@@ -2099,13 +2125,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+   "title": "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop",
    "title_from": {
     "backing": 2,
     "date": "2026-11-14",
     "of": 2,
-    "outlet": "The Guardian",
-    "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
+    "outlet": "MarketWatch",
+    "url": "https://www.marketwatch.com/bulletins/redirect/go?g=296b1b9b-8b6a-4744-8d1e-4c8fb35c65ad&mod=mw_rss_bulletins"
    },
    "topic": "infrastructure"
   },
@@ -2226,9 +2252,93 @@
    "status": "unchanged",
    "title": "US Jones Act waiver extension",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "a41e5dc5f1ac40e7",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-14T01:34:11+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "d8d2686b95fc6a40",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-14T01:28:36+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
+     "type": "international",
+     "url": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "trump-and-xi-summit",
+   "label": "Trump and Xi summit",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d8d2686b95fc6a40"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-14T01:28:36+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1) reported that the U.S. president will hold a trilateral meeting with the Chinese leader and Russia’s Vladimir Putin next week."
+    },
+    {
+     "articles": [
+      "a41e5dc5f1ac40e7",
+      "d8d2686b95fc6a40"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "CNBC"
+     ],
+     "published": "2026-11-14T01:28:36+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1), [CNBC](https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html) reported that officials said the U.S. president will not raise the Nvidia spy issue with Xi at the summit."
+    },
+    {
+     "articles": [
+      "a41e5dc5f1ac40e7"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-14T01:34:11+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html) reported that Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump and Xi summit",
+   "topic": "diplomacy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T01:47:13+00:00"
+ "updated": "2026-11-14T04:32:15+00:00"
 }
