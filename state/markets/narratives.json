@@ -2,6 +2,30 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 795,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 5,
+   "continuing": 2,
+   "corroborated": 1,
+   "date": "2026-11-14",
+   "dropped": 3,
+   "failed_calls": 0,
+   "groups": 701,
+   "in_stories": 4,
+   "kept": 1,
+   "merged": 0,
+   "new": 0,
+   "rejected": 1,
+   "reported_by_2": 5,
+   "runs": 1,
+   "sent": 5,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
+  {
    "articles": 784,
    "attached_by_code": 0,
    "calls": 8,
@@ -27,7 +51,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T22:26:53+00:00"
+  "all": "2026-11-14T01:46:57+00:00"
  },
  "narratives": [
   {
@@ -125,14 +149,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/global-oil-market-swings-to-surplus-on-gulf-exports-iea-says"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "global-oil-market-surplus",
    "label": "Global oil market surplus",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 7,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -163,7 +187,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Global Oil Market Set to Return to Surplus as Gulf Exports Recover, IEA Says",
    "title_from": {
     "backing": 2,
@@ -230,14 +254,14 @@
      "url": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "nvidia-and-jensen-huang-sued-in",
    "label": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -278,7 +302,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nvidia and Jensen Huang sued in US over affair with alleged Chinese spy",
    "topic": "business-strategic"
   },
@@ -325,14 +349,14 @@
      "url": "https://www.scmp.com/business/companies/article/3373974/alibaba-chip-unit-t-head-files-hong-kong-ipo-plan-amid-chinas-ai-self-sufficiency-drive"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "alibaba-t-head-hong-kong-ipo",
    "label": "Alibaba T-Head Hong Kong IPO",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -373,7 +397,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Alibaba T-Head Hong Kong IPO",
    "topic": "business"
   },
@@ -446,14 +470,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Briefly-Hits-94-After-Trump-Says-US-Has-No-Need-for-Iran-Deal.html"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "oil-prices-and-iran-diplomacy",
    "label": "Oil prices and Iran diplomacy",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -470,7 +494,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Oil prices and Iran diplomacy",
    "topic": "energy"
   },
@@ -504,14 +528,14 @@
      "url": "https://www.cnbc.com/2026/11/10/oil-prices-trump-iran.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "brent-crude-briefly-dips-below-90",
    "label": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -528,7 +552,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Brent crude briefly dips below $90 for first time since August on Iran hopes",
    "topic": "energy"
   },
@@ -562,14 +586,14 @@
      "url": "https://www.wsj.com/business/autos/nissan-posts-quarterly-loss-cuts-sales-view-on-china-slump-d5cbb640?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "nissan-sales-forecast-reduction",
    "label": "Nissan sales forecast reduction",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -598,7 +622,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nissan sales forecast reduction",
    "topic": "business"
   },
@@ -645,14 +669,14 @@
      "url": "https://www.wsj.com/business/retail/kraft-heinz-has-a-comeback-plan-cheesy-ramen-and-high-protein-jell-o-6fbfc2f8?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "kraft-heinz-has-a-comeback-plan",
    "label": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -681,7 +705,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Kraft Heinz Has a Comeback Plan: Cheesy Ramen and High-Protein Jell-O",
    "topic": "business"
   },
@@ -715,14 +739,14 @@
      "url": "https://www.wsj.com/economy/housing/home-sales-in-october-plummet-to-16-year-low-16adebc0?mod=rss_socialeconomyfeed"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "home-sales-declined-in-october-to",
    "label": "Home sales declined in October to their lowest level since 2010, a new trough for a housing market t",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -751,7 +775,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Home sales declined in October to their lowest level since 2010, a new trough for a housing market t",
    "topic": "economy"
   },
@@ -785,14 +809,14 @@
      "url": "https://www.cnbc.com/2026/11/12/donald-trump-jr-exits-kalshi-advisory-role.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "kalshi-and-donald-trump-jr",
    "label": "Kalshi and Donald Trump Jr",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -821,7 +845,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Kalshi and Donald Trump Jr",
    "topic": "business"
   },
@@ -855,17 +879,17 @@
      "url": "https://www.wsj.com/business/earnings/cerebras-lifts-outlook-as-cloud-revenue-surges-in-third-quarter-87d7cba2?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "cerebras-lifts-outlook-as-cloud-revenue",
    "label": "Cerebras Lifts Outlook as Cloud Revenue Surges in Third Quarter",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cerebras Lifts Outlook as Cloud Revenue Surges in Third Quarter",
    "topic": "business"
   },
@@ -899,14 +923,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -923,7 +947,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Federal Reserve monetary policy stance",
    "topic": "economy"
   },
@@ -957,14 +981,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -981,7 +1005,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
   },
@@ -1015,14 +1039,14 @@
      "url": "https://www.ft.com/content/ac91b140-2614-48aa-8438-554e2c343373?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "city-of-london-lord-mayor-pension",
    "label": "City of London Lord Mayor pension investment push",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1039,7 +1063,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "City of London Lord Mayor pension investment push",
    "topic": "economy"
   },
@@ -1099,7 +1123,7 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-service-outage",
@@ -1109,7 +1133,7 @@
    "merged": [
     "microsoft-global-outage"
    ],
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1162,7 +1186,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Microsoft service outage",
    "topic": "infrastructure"
   },
@@ -1209,14 +1233,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1245,7 +1269,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -1286,14 +1310,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/private-credit-stablecoins-pose-risks-beyond-size-bailey-warns"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "bank-of-england-private-credit-warnings",
    "label": "Bank of England private credit warnings",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1312,7 +1336,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Bank of England private credit warnings",
    "topic": "economy"
   },
@@ -1359,14 +1383,14 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
    "label": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1407,7 +1431,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -1448,14 +1472,14 @@
      "url": "https://www.wsj.com/economy/central-banking/dovish-boj-member-urges-caution-in-raising-rates-further-a40524b3?mod=rss_socialeconomyfeed"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "dovish-boj-member-urges-caution-in",
    "label": "Dovish BOJ Member Urges Caution in Raising Rates Further",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1472,7 +1496,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Dovish BOJ Member Urges Caution in Raising Rates Further",
    "topic": "economy"
   },
@@ -1506,14 +1530,14 @@
      "url": "https://www.investing.com/news/stock-market-news/analysishow-us-tech-pain-is-european-stock-markets-gain-5025195"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "european-stock-markets-performance",
    "label": "European stock markets performance",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1530,7 +1554,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "European stock markets performance",
    "topic": "markets"
   },
@@ -1590,14 +1614,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/bessent-says-treasury-favored-megaspeed-on-trade-blacklist"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "bessent-blames-commerce-department-over-megaspeed",
    "label": "Bessent blames Commerce Department over Megaspeed export controls",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1626,7 +1650,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Bessent blames Lutnick’s commerce department for failure to blacklist Megaspeed",
    "title_from": {
     "backing": 3,
@@ -1667,14 +1691,14 @@
      "url": "https://www.investing.com/news/economy-news/bofa-now-sees-fed-hiking-in-january-lifts-terminal-rate-forecast-5024869"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "bofa-federal-reserve-interest-rate-forecast",
    "label": "BofA Federal Reserve interest rate forecast",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1691,7 +1715,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "BofA Federal Reserve interest rate forecast",
    "topic": "economy"
   },
@@ -1764,14 +1788,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1805,7 +1829,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Federal Reserve interest rates",
    "topic": "economy"
   },
@@ -1839,14 +1863,14 @@
      "url": "https://www.investing.com/news/stock-market-news/us-supreme-court-to-consider-lawsuit-over-robinhoods-2021-ipo-5026347"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "supreme-court-robinhood-lawsuit",
    "label": "Supreme Court Robinhood lawsuit",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1865,13 +1889,65 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Supreme Court Robinhood lawsuit",
    "topic": "justice"
   },
   {
-   "article_count": 6,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "cd905cf8df90633e",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-14T01:01:12+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
+     "type": "international",
+     "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "0223251b167f767e",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-14T00:08:57+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "US Flights Grounded Over Air Traffic Communication Issue",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-14/us-flights-grounded-over-air-traffic-communication-issue-video"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "84e6efda56311c0d",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-13T22:49:59+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=296b1b9b-8b6a-4744-8d1e-4c8fb35c65ad&mod=mw_rss_bulletins"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "3c21a19ba3d0f314",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-13T22:33:32+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Flights Grounded Across US Over Air Traffic Control Problems",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-13/flights-grounded-across-us-video"
+    },
     {
      "added": "2026-11-13",
      "id": "6a48f206083cdfbd",
@@ -1951,15 +2027,30 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 4,
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 3,
+   "previous_titles": [
+    "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’"
+   ],
    "reports": [
+    {
+     "articles": [
+      "cd905cf8df90633e"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-14T01:01:12+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights) reported that the transportation secretary stated the stoppage is due to a communication issue, and homeland security said there is no indication of a nefarious attack, while nearly 11,000 flights were delayed or canceled at airports across the US."
+    },
     {
      "articles": [
       "77136561e2989a30"
@@ -1973,6 +2064,14 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-13/faa-grounds-all-flights-nationwide-video) reported that the Federal Aviation Administration grounded all flights nationwide, citing extraordinary circumstances and reasons of safety."
     },
     {
+     "also": [
+      {
+       "date": "2026-11-14",
+       "outlet": "Bloomberg",
+       "published": "2026-11-13T22:33:32+00:00",
+       "url": "https://www.bloomberg.com/news/videos/2026-11-13/flights-grounded-across-us-video"
+      }
+     ],
      "articles": [
       "6a48f206083cdfbd"
      ],
@@ -1999,14 +2098,14 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
-   "title": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
+   "status": "updated",
+   "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
    "title_from": {
-    "backing": 3,
-    "date": "2026-11-13",
-    "of": 3,
-    "outlet": "MarketWatch",
-    "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories"
+    "backing": 2,
+    "date": "2026-11-14",
+    "of": 2,
+    "outlet": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
    },
    "topic": "infrastructure"
   },
@@ -2040,14 +2139,14 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2064,7 +2163,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -2098,14 +2197,14 @@
      "url": "https://www.investing.com/news/commodities-news/us-extends-shipping-law-waiver-90-days-to-allow-freer-movement-of-oil-commodities-5026364"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-jones-act-waiver-extension",
    "label": "US Jones Act waiver extension",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2124,12 +2223,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US Jones Act waiver extension",
    "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-13T22:27:11+00:00"
+ "updated": "2026-11-14T01:47:13+00:00"
 }

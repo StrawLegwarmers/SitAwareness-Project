@@ -2,6 +2,30 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 291,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 2,
+   "continuing": 1,
+   "corroborated": 0,
+   "date": "2026-11-14",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 236,
+   "in_stories": 3,
+   "kept": 2,
+   "merged": 0,
+   "new": 1,
+   "rejected": 0,
+   "reported_by_2": 2,
+   "runs": 1,
+   "sent": 2,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
+  {
    "articles": 275,
    "attached_by_code": 0,
    "calls": 7,
@@ -50,7 +74,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-13T22:24:38+00:00"
+  "all": "2026-11-14T01:45:36+00:00"
  },
  "narratives": [
   {
@@ -159,14 +183,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -192,9 +216,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -2119,14 +2143,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2177,7 +2201,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
   },
   {
@@ -2233,14 +2257,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "antifox-ai-penetration-testing-platform-attacks",
    "label": "AntiFox AI penetration testing platform attacks",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2288,9 +2312,9 @@
      "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/) reported that attackers are using Alibaba Cloud to host self-managed instances of AntiFox to target web services and AWS."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "AntiFox AI penetration testing platform attacks"
   },
   {
@@ -2423,14 +2447,14 @@
      "url": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "lego-bricklink-marketplace-offline",
    "label": "Lego BrickLink marketplace offline",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2461,7 +2485,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
    "title_from": {
     "backing": 2,
@@ -2514,14 +2538,14 @@
      "url": "https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-cryptocurrency-and-infrastructure-seizure",
    "label": "US cryptocurrency and infrastructure seizure",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2562,7 +2586,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
    "title_from": {
     "backing": 2,
@@ -2673,14 +2697,14 @@
      "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "check-point-firewall-exploitation",
    "label": "Check Point firewall exploitation",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 6,
+   "outlets_today": 0,
    "previous_titles": [
     "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
     "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell"
@@ -2773,7 +2797,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
    "title_from": {
     "backing": 5,
@@ -2800,14 +2824,14 @@
      "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "autonomous-ai-attacks-on-semiconductor-and",
    "label": "Autonomous AI attacks on semiconductor and defense",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2822,9 +2846,9 @@
      "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/) reported that attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense, and civic targets."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Autonomous AI attacks on semiconductor and defense"
   },
   {
@@ -2844,14 +2868,14 @@
      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "post-training-supply-chain-attacks-on",
    "label": "Post-training supply chain attacks on coding agents",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2866,9 +2890,9 @@
      "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/) reported that Microsoft Defender Research and the AI Red Team discussed how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Post-training supply chain attacks on coding agents"
   },
   {
@@ -2888,14 +2912,14 @@
      "url": "https://opensourcemalware.com/blog/online-casino-serves-malware"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "online-casino-malicious-python-sdk",
    "label": "Online Casino Malicious Python SDK",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2910,9 +2934,9 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/online-casino-serves-malware) reported that an online casino serves a malicious Python SDK named aurum-pay that fetches and runs a remote command to install a persistent Linux RAT."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Online Casino Malicious Python SDK",
    "topic": "cyber"
   },
@@ -2933,14 +2957,14 @@
      "url": "https://securelist.com/esxi-ransomware/121959/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "ransomware-at-the-hypervisor-layer",
    "label": "Ransomware at the hypervisor layer",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2955,9 +2979,9 @@
      "text": "[Kaspersky](https://securelist.com/esxi-ransomware/121959/) reported that Kaspersky experts analyzed a recent ransomware incident involving attackers using ESXi and vCenter features."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Ransomware at the hypervisor layer",
    "topic": "cyber"
   },
@@ -3024,14 +3048,14 @@
      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-365-cloud-service-outage",
    "label": "Microsoft 365 cloud service outage",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3084,7 +3108,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
    "title_from": {
     "backing": 2,
@@ -3154,7 +3178,7 @@
      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "n-able-n-central-zero-day",
@@ -3164,7 +3188,7 @@
    "merged": [
     "n-able-n-central-zero-day-2"
    ],
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3217,7 +3241,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
    "title_from": {
     "backing": 3,
@@ -3271,14 +3295,14 @@
      "url": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "silentair-and-liminal-panda-telecom-attacks",
    "label": "SilentAir and Liminal Panda telecom attacks",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3307,7 +3331,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
    "title_from": {
     "backing": 2,
@@ -3348,14 +3372,14 @@
      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "maersk-cyber-security-incident",
    "label": "Maersk cyber security incident",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3384,7 +3408,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Maersk cyber security incident",
    "topic": "security"
   },
@@ -3447,14 +3471,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "operation-endgame-malware-infrastructure-takedown",
    "label": "Operation Endgame malware infrastructure takedown",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3507,7 +3531,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
    "title_from": {
     "backing": 3,
@@ -3551,14 +3575,14 @@
      "url": "https://cybersecuritynews.com/tsmc-data-breach/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "tsmc-data-breach",
    "label": "TSMC data breach",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3587,7 +3611,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "TSMC data breach",
    "topic": "cyber"
   },
@@ -3637,14 +3661,14 @@
      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "citrix-netscaler-security-vulnerabilities-and-patc",
    "label": "Citrix NetScaler security vulnerabilities and patches",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3685,7 +3709,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
    "title_from": {
     "backing": 2,
@@ -3729,14 +3753,14 @@
      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "trezor-confirms-hidden-implants-in-cryptobilis",
    "label": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3765,13 +3789,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "0614709b30a60ce0",
+     "lang": "en",
+     "outlet": "Ticker News",
+     "published": "2026-11-13T22:05:01+00:00",
+     "publisher": "Ticker News",
+     "region": null,
+     "section": "aviation",
+     "title": "Why has the FAA grounded all U.S. flights and what’s causing the nationwide shutdown?",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRUE0aEh0cFR6VF81ZGV6eW51MU1ScWJfZUo0STluc1RnVnRGN2JfZ2Z3aFpEdHpaeXFwbS1LdmtWdmxtTWRaTTh0SmowWXBqNnlMeE9XZVVEdXZfY1dPbFVWMGNjamhpUGtZNkJSS1Fyd3dkQ1p4a2dYaDktVG5NLXBNZml2VlFNTnhGNXVKRjZjSVNiei1hLW14YkVBZnpJNEdzNjNfakQ?oc=5"
+    },
     {
      "added": "2026-11-13",
      "id": "ffc0a35ef75ed986",
@@ -3799,14 +3836,14 @@
      "url": "https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "faa-nationwide-flight-ground-stop",
    "label": "FAA nationwide flight ground stop",
    "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 2,
+   "last_updated": "2026-11-14",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -3833,9 +3870,9 @@
      "text": "[AeroTime](https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026) reported that the US Federal Aviation Administration ordered a nationwide ground stop shortly before 4 p.m. Eastern time and warned airborne flights to expect holding nationwide."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "covered",
    "title": "FAA nationwide flight ground stop",
    "topic": "infrastructure"
   },
@@ -3856,14 +3893,14 @@
      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "sckit-abuses-screenconnect",
    "label": "SCKit abuses ScreenConnect",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-13",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3878,14 +3915,84 @@
      "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/) reported that SCKit abuses ScreenConnect to deploy unauthorized remote access and target technician sessions."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "SCKit abuses ScreenConnect",
    "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-14",
+     "id": "b9812b94e3afa8fd",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-13T08:50:36+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
+     "type": null,
+     "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/"
+    },
+    {
+     "added": "2026-11-14",
+     "id": "6b1200356ff1a438",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-12T17:50:27+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "signdrop-windows-zero-day-exploit",
+   "label": "SignDrop Windows zero-day exploit",
+   "last_reported": "2026-11-14",
+   "last_updated": "2026-11-14",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6b1200356ff1a438"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-12T17:50:27+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html) reported that public exploit code claims a local Windows user can gain SYSTEM privileges through the Common Log File System driver."
+    },
+    {
+     "articles": [
+      "b9812b94e3afa8fd"
+     ],
+     "date": "2026-11-14",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-13T08:50:36+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/) reported that Nightmare Eclipse dropped a Windows zero-day exploit abusing CLFS and Windows Defender to trigger arbitrary file creation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "SignDrop Windows zero-day exploit",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-13T22:24:56+00:00"
+ "updated": "2026-11-14T01:45:52+00:00"
 }

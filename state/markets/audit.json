@@ -30,5 +30,37 @@
   "story": "Microsoft service outage",
   "text": "Microsoft global outage",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "rejected",
+  "group": "all",
+  "story": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
+  "text": "[7] reported that nearly 10,000 flights were delayed after the Federal Aviation Administration ordered a nationwide airport ground stop.",
+  "reason": "names not in cited articles: Administration, Aviation"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "Global Equity Funds Draw Record Inflows, BofA Strategists Say",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-14",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "SpaceX aborts attempt to catch Starship booster rocket",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  }
 ]
