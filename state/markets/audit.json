@@ -35,8 +35,16 @@
   "date": "2026-11-15",
   "kind": "rejected",
   "group": "all",
-  "story": "Washington public golf course redevelopment",
-  "text": "[1][2] reported that a judge temporarily blocked Donald Trump from moving ahead with the Washington public golf course redevelopment.",
-  "reason": "names not in cited articles: Donald"
+  "story": "New World rights issue",
+  "text": "[1] reported that New World Development priced its 3.2 billion dollar share offer at an 82 percent discount.",
+  "reason": "names not in cited articles: Development"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "all",
+  "story": "Federal Reserve monetary policy stance",
+  "text": "Federal Reserve inflation stance",
+  "reason": "duplicate story merged into an existing one"
  }
 ]

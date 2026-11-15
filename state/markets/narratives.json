@@ -4,25 +4,25 @@
   {
    "articles": 186,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 2,
+   "calls": 3,
+   "candidates": 4,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 158,
-   "in_stories": 4,
-   "kept": 1,
-   "merged": 0,
-   "new": 2,
-   "rejected": 1,
+   "in_stories": 8,
+   "kept": 3,
+   "merged": 1,
+   "new": 3,
+   "rejected": 2,
    "reported_by_2": 2,
-   "runs": 6,
-   "sent": 2,
+   "runs": 7,
+   "sent": 4,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -75,7 +75,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T16:21:46+00:00"
+  "all": "2026-11-15T19:29:02+00:00"
  },
  "narratives": [
   {
@@ -918,8 +918,34 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "33a2e99f01b0ed6f",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-15T19:04:06+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Fed 'has some work to do on inflation,' Kansas City Fed chief says",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/15/fed-has-some-work-to-do-on-inflation-kansas-city-fed-chief-says.html"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "49ef92a6cef19c77",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-15T18:58:14+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Kansas City Fed’s Schmid says central bank has work to do on inflation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/kansas-city-feds-schmid-says-central-bank-has-work-to-do-on-inflation-5028049"
+    },
     {
      "added": "2026-11-13",
      "id": "6fd4b566fda28c7e",
@@ -947,15 +973,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "33a2e99f01b0ed6f"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-15T19:04:06+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/15/fed-has-some-work-to-do-on-inflation-kansas-city-fed-chief-says.html) reported that Kansas City Fed chief Schmid stated that inflation is uncomfortably above the 2 percent price stability target and moving in the wrong direction."
+    },
     {
      "articles": [
       "2ad4baaa5c165c8b"
@@ -971,7 +1009,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Federal Reserve monetary policy stance",
    "topic": "economy"
   },
@@ -3364,9 +3402,67 @@
    "status": "new",
    "title": "Washington public golf course redevelopment",
    "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "20b96dfaeb05b422",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-15T15:24:52+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Hong Kong developer New World unveils $3.2bn rights issue",
+     "type": "international",
+     "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "8dc9005e69e24076",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-15T13:57:04+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Indebted Hong Kong developer New World offers shares at 81% discount in US$3.2b cash call",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/companies/article/3374507/indebted-hong-kong-developer-new-world-offers-shares-81-discount-us32b-cash-call"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "new-world-rights-issue",
+   "label": "New World rights issue",
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8dc9005e69e24076"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-15T13:57:04+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/companies/article/3374507/indebted-hong-kong-developer-new-world-offers-shares-81-discount-us32b-cash-call) reported that New World Development will issue 11 new shares for every existing share."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "New World rights issue",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-15T16:22:02+00:00"
+ "updated": "2026-11-15T19:29:19+00:00"
 }

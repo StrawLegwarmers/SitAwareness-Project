@@ -4,22 +4,22 @@
   {
    "articles": 86,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 3,
-   "continuing": 2,
+   "calls": 4,
+   "candidates": 4,
+   "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 77,
-   "in_stories": 4,
-   "kept": 4,
+   "in_stories": 5,
+   "kept": 5,
    "merged": 0,
    "new": 1,
    "rejected": 0,
    "reported_by_2": 1,
-   "runs": 6,
-   "sent": 3,
+   "runs": 7,
+   "sent": 4,
    "skipped": 0,
    "split_calls": 0,
    "updated": 2,
@@ -98,7 +98,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T16:18:52+00:00"
+  "all": "2026-11-15T19:25:51+00:00"
  },
  "narratives": [
   {
@@ -4355,8 +4355,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "d681fa4a32225e07",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-15T18:11:56+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
+     "type": null,
+     "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html"
+    },
     {
      "added": "2026-11-15",
      "dates": [
@@ -4387,15 +4400,27 @@
      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "meta-fine-in-italy",
    "label": "Meta fine in Italy",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "d681fa4a32225e07"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-15T18:11:56+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html) reported that Italy fined Meta €805 million over Facebook's access to Android users' photo galleries without specific consent, affecting around 20 million people."
+    },
     {
      "articles": [
       "b6c0bf0fcb749c6b"
@@ -4424,11 +4449,18 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Meta fine in Italy",
+   "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-15",
+    "of": 2,
+    "outlet": "Security Affairs",
+    "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html"
+   },
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-15T16:19:08+00:00"
+ "updated": "2026-11-15T19:26:08+00:00"
 }
