@@ -4,22 +4,22 @@
   {
    "articles": 186,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
+   "calls": 2,
+   "candidates": 2,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 158,
-   "in_stories": 2,
+   "in_stories": 4,
    "kept": 1,
    "merged": 0,
-   "new": 1,
-   "rejected": 0,
+   "new": 2,
+   "rejected": 1,
    "reported_by_2": 2,
-   "runs": 5,
-   "sent": 1,
+   "runs": 6,
+   "sent": 2,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -75,7 +75,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T13:40:27+00:00"
+  "all": "2026-11-15T16:21:46+00:00"
  },
  "narratives": [
   {
@@ -3320,9 +3320,53 @@
    "status": "new",
    "title": "European Central Bank fiscal policy",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "438644ad3e90917d",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-15T13:58:06+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/15/judge-temporarily-blocks-trumps-dc-public-golf-course-redevelopment.html"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "140ba1d19d287ad7",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-15T02:42:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US judge again blocks Trump’s makeover plan for DC golf course",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/us-judge-again-blocks-trumps-makeover-plan-for-dc-golf-course-5027633"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "washington-public-golf-course-redevelopment",
+   "label": "Washington public golf course redevelopment",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Washington public golf course redevelopment",
+   "topic": "justice"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-15T13:40:27+00:00"
+ "updated": "2026-11-15T16:22:02+00:00"
 }
