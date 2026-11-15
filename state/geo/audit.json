@@ -992,5 +992,189 @@
   "story": "Microsoft Outlook, Teams, Copilot recovering after global outage lasting over 24 hours",
   "text": "Microsoft global technical outage",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "SpaceX Starship orbital flight and catch",
+  "text": "",
+  "reason": "off-topic for this site (topic: technology): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "mena",
+  "story": "Hamas says senior armed commander killed in Israeli strike",
+  "text": "Gaza strip airstrike",
+  "reason": "title replaced by a headline: wording not from cited articles: strip, airstrike"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Ocho personas siguen hospitalizadas, dos graves, tras choque de crucero en Nueva"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Nueva Orleans demanda tras choque de buque y crucero en el rio Misisipi; busca q"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "New Orleans port sues to get control of tanker that crashed into cruise ship on Mississippi River",
+  "text": "[61] reported that local authorities stated 34 of the 197 people aboard were transported to hospitals.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Miguel Ángel Asturias remains repatriation",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "US military interception of Iranian drones",
+  "text": "[46] reported that the Islamic Revolutionary Guard Corps claimed their forces targeted an early warning radar system in Bahrain.",
+  "reason": "countries not in cited articles: bahrain"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "France fifth consecutive Saturday of protests",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Miles de personas encabezan protestas en Francia contra la violencia policial y "
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "France fifth consecutive Saturday of protests",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Franceses voltam às ruas em protestos contra alta do custo de vida e a violência"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "France fifth consecutive Saturday of protests",
+  "text": "[57] reported that the Interior Ministry stated at least 219 people had been arrested across the country.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "France fifth consecutive Saturday of protests",
+  "text": "[58] reported that thousands of people returned to the streets to protest against the high cost of life and a police protection bill.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "global",
+  "story": "Woman who alleges Russell Brand raped her when she was 16 waives anonymity",
+  "text": "Russell Brand sexual assault allegations",
+  "reason": "title replaced by a headline: wording not from cited articles: sexual, assault, allegations"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "dropped",
+  "group": "namerica",
+  "story": "",
+  "text": "How a 2013 Halifax Mooseheads game fuels one of the team's current players",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "Filipino singer Carmelle storms to victory in Eurovision Asia debut in Bangkok",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Garbage en el Zócalo: SSC despliega mil 175 policías y da alternativas viales",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Garbage en el Zócalo: fans reviven los noventa con el concierto en CDMX",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Netanyahu urges Eisenkot to hold unity talks without preconditions, citing Iran nuclear threat",
+  "text": "[1] reported that Gadi Eisenkot, who is in charge of forming a government, dismissed Benjamin Netanyahu's appeal for a unity government as tricks.",
+  "reason": "names not in cited articles: Benjamin, Gadi"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Finland rejects reported Russian demand to leave NATO as part of peace talks",
+  "text": "[5], a Russian state-media outlet, reported that Maria Zakharova stated the European Alliance of News Agencies showed it is unable to uphold press freedom by expelling TASS.",
+  "reason": "names not in cited articles: Agencies, Alliance, European, News"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "europe",
+  "story": "‘I Know the Russians Don’t Want Me’: Kallas Warns Europe Against Putin’s Trap in Ukraine Peace Talks",
+  "text": "Ukraine launches nearly 1,200 drones at Russia as US-led talks to consider wider European security",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Italy fines Meta $887 million over Android users' data access",
+  "text": "Italy Meta antitrust fine",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Poland Suspends Contributions to NATO Programme for US Weapons for Ukraine, Tusk Says",
+  "text": "Poland weapons funding for Ukraine",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "asia",
+  "story": "PM Wong to visit Manila for ASEAN Summit, related meetings from Nov 15",
+  "text": "ASEAN summit in the Philippines",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Former Nvidia CEO Jensen Huang misled top lawyer on affair with Alice Huang: report",
+  "text": "US-China tech tension over Nvidia scandal",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

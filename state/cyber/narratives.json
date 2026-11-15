@@ -2,6 +2,30 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 86,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-15",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 77,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 0,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 312,
    "attached_by_code": 0,
    "calls": 5,
@@ -74,7 +98,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T22:14:44+00:00"
+  "all": "2026-11-15T01:47:58+00:00"
  },
  "narratives": [
   {
@@ -196,14 +220,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -241,9 +265,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -2738,14 +2762,14 @@
      "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "check-point-firewall-exploitation",
    "label": "Check Point firewall exploitation",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "previous_titles": [
     "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
     "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell"
@@ -2848,9 +2872,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html) reported that an unknown threat actor targeted unpatched Check Point Security Gateways to obtain initial access via PHP2Shell vulnerabilities and deploy the TSGA backdoor and wipe ESXi files."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
    "title_from": {
     "backing": 5,
@@ -3889,14 +3913,14 @@
      "url": "https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "faa-nationwide-flight-ground-stop",
    "label": "FAA nationwide flight ground stop",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-14",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3923,9 +3947,9 @@
      "text": "[AeroTime](https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026) reported that the US Federal Aviation Administration ordered a nationwide ground stop shortly before 4 p.m. Eastern time and warned airborne flights to expect holding nationwide."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "FAA nationwide flight ground stop",
    "topic": "infrastructure"
   },
@@ -4004,14 +4028,14 @@
      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "signdrop-windows-zero-day-exploit",
    "label": "SignDrop Windows zero-day exploit",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4040,7 +4064,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "SignDrop Windows zero-day exploit",
    "topic": "cyber"
   },
@@ -4074,14 +4098,14 @@
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "us-airport-ground-stop",
    "label": "US airport ground stop",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4100,7 +4124,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US airport ground stop",
    "topic": "infrastructure"
   },
@@ -4134,14 +4158,14 @@
      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON1ZQTEpNeVJDQ0dZamI3dVQ4bjQxMmc4Y0NnZ1lqQVBkejl0LXJ6NEZJNlVHWHNFaWdCTEF5cjdDb0FZSDhIOTNnbnlhR3hsdkZ3NFpwc25QdURsaFlOTFZxV0JINmhBQmV5azhTbEhGVWlzOHBsR3Vvc3FtYkI0T2hQN0IydW16c0s0UWw5UGNKeW1oX2FFOUZIZE4wZXJYQ2RURjhPQzM4d1l2YW5iQUZMem5NNUxMcWF0eXJUVGd4MmdTNnFiS3BNYTNnQnFYLW5r0gHYAUFVX3lxTE1rUUIyYkFzQXpjWVdZdXVOZk8yMUVXRDdxaS1ES2lmaVNHYU5qeE5sZ0M4TmhpQ3NELVJvN1IwQmVmYXRfaFk1YUo2ZXAzOWlIZlZYdEw3anA1SUV5bDNVM1hCVnVONGtCWDFGSGpXMTZnUnE2RUJsMFhzOHBxZkQ2SUdMcGh4WDRySzk2NHgxdGpxaHd1ckdFa3Itd1oySXRaZ0d2TlRkTkx0cC1DQ2V6WmkzaHdpdWtNRzU1WDVjV1o4R1Bpd1EzcTk0WmhhdVNQLUEtSmlvZQ?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "faa-flight-groundings",
    "label": "FAA flight groundings",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4172,7 +4196,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "FAA flight groundings",
    "topic": "infrastructure"
   },
@@ -4193,17 +4217,17 @@
      "url": "https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "gta-vi-malware-scams",
    "label": "GTA VI malware scams",
    "last_updated": "2026-11-14",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GTA VI malware scams",
    "topic": "cyber"
   },
@@ -4240,14 +4264,14 @@
      "url": "https://cybersecuritynews.com/cursor-data-breach/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "cursor-security-breach",
    "label": "Cursor security breach",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4276,12 +4300,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cursor security breach",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-14T22:14:44+00:00"
+ "updated": "2026-11-15T01:47:58+00:00"
 }

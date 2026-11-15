@@ -2,6 +2,30 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 186,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-15",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 158,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 835,
    "attached_by_code": 0,
    "calls": 7,
@@ -51,7 +75,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-14T22:18:28+00:00"
+  "all": "2026-11-15T01:49:20+00:00"
  },
  "narratives": [
   {
@@ -1149,7 +1173,7 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-service-outage",
@@ -1159,7 +1183,7 @@
    "merged": [
     "microsoft-global-outage"
    ],
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1236,7 +1260,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Microsoft service outage",
    "topic": "infrastructure"
   },
@@ -1864,14 +1888,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1919,7 +1943,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Federal Reserve interest rates",
    "topic": "economy"
   },
@@ -2169,14 +2193,14 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 8,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
@@ -2266,7 +2290,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
    "title_from": {
     "backing": 3,
@@ -2425,14 +2449,14 @@
      "url": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "trump-and-xi-summit",
    "label": "Trump and Xi summit",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2475,7 +2499,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Trump and Xi summit",
    "topic": "diplomacy"
   },
@@ -2509,14 +2533,14 @@
      "url": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "russian-diesel-exports-and-refinery-attacks",
    "label": "Russian diesel exports and refinery attacks",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2545,7 +2569,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Russian diesel exports and refinery attacks",
    "topic": "energy"
   },
@@ -2579,14 +2603,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "nvidia-eyes-worst-week-since-trump",
    "label": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2615,7 +2639,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
    "topic": "markets"
   },
@@ -2662,14 +2686,14 @@
      "url": "https://www.investing.com/news/economy-news/china-us-discuss-tariffs-farm-trade-at-first-trade-council-meeting-5027183"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "us-and-china-trade-council-meeting",
    "label": "US and China trade council meeting",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2698,7 +2722,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
    "title_from": {
     "backing": 2,
@@ -2739,14 +2763,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/japan-s-katayama-warns-of-fx-steps-after-one-sided-rapid-moves"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "japan-currency-intervention-warnings",
    "label": "Japan currency intervention warnings",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2775,7 +2799,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Japan currency intervention warnings",
    "topic": "markets"
   },
@@ -2809,14 +2833,14 @@
      "url": "https://www.investing.com/news/stock-market-news/exclusivebrookfield-cppib-advance-to-next-round-in-uniper-sales-process-sources-say-5026330"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "uniper-sale-process",
    "label": "Uniper sale process",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2845,7 +2869,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Uniper sale process",
    "topic": "business-strategic"
   },
@@ -2879,14 +2903,14 @@
      "url": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "tesla-cybercab-sales",
    "label": "Tesla Cybercab sales",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2915,7 +2939,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Tesla Cybercab sales",
    "topic": "business"
   },
@@ -2949,14 +2973,14 @@
      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-sees-sp-500-rising-to-8700-next-year-despite-slower-earnings-growth/articleshow/135821647.cms"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "goldman-sachs-sees-19-return-on",
    "label": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2985,7 +3009,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
    "topic": "markets"
   },
@@ -3019,14 +3043,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-14/yes-bank-seeks-india-top-court-review-of-893-million-bond-order"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "yes-bank-supreme-court-bond-review",
    "label": "Yes Bank Supreme Court bond review",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3045,7 +3069,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Yes Bank Supreme Court bond review",
    "topic": "markets"
   },
@@ -3079,14 +3103,14 @@
      "url": "https://www.ft.com/content/806b0158-41c5-4db2-ac33-93621f72297b?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "bank-of-england-interest-rates",
    "label": "Bank of England interest rates",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3105,7 +3129,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Bank of England interest rates",
    "topic": "economy"
   },
@@ -3178,14 +3202,14 @@
      "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "new-orleans-tanker-collision",
    "label": "New Orleans tanker collision",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-14",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3226,7 +3250,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
    "title_from": {
     "backing": 2,
@@ -3240,5 +3264,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-14T22:18:29+00:00"
+ "updated": "2026-11-15T01:49:20+00:00"
 }
