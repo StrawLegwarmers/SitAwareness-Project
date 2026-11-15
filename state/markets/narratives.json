@@ -4,22 +4,22 @@
   {
    "articles": 186,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 4,
+   "calls": 4,
+   "candidates": 6,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 158,
-   "in_stories": 8,
-   "kept": 3,
+   "in_stories": 12,
+   "kept": 5,
    "merged": 1,
-   "new": 3,
+   "new": 5,
    "rejected": 2,
    "reported_by_2": 2,
-   "runs": 7,
-   "sent": 4,
+   "runs": 8,
+   "sent": 6,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -75,7 +75,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T19:29:02+00:00"
+  "all": "2026-11-15T22:18:00+00:00"
  },
  "narratives": [
   {
@@ -3460,9 +3460,125 @@
    "status": "new",
    "title": "New World rights issue",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "7daa674ab8bd63a5",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-15T19:30:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/jensen-huang-discusses-comeback-as-nvidia-ceo-with-allies-ft-reports-5028065"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "62cee5f252abdb32",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-15T19:03:41+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+     "type": "international",
+     "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "jensen-huang-discusses-comeback-as-nvidia",
+   "label": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "62cee5f252abdb32"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-15T19:03:41+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1) reported that tech supporters are lobbying Nvidia's board to reinstate former CEO Jensen Huang after he resigned following an affair with an alleged Chinese spy."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "090b149870a93367",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-15T21:49:10+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Diamondback in Talks to Buy Double Eagle for About $5 Billion",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "96d79b60ea2a3aa4",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-15T19:42:18+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Diamondback nears $5 billion deal to buy drilling portfolio from Double Eagle, FT says",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "diamondback-energy-acquisition-of-double-eagle",
+   "label": "Diamondback Energy acquisition of Double Eagle",
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "090b149870a93367"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-15T21:49:10+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion) reported that Diamondback Energy Inc. is in talks to acquire oil driller Double Eagle V for about $5 billion."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Diamondback Energy acquisition of Double Eagle",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-15T19:29:19+00:00"
+ "updated": "2026-11-15T22:18:17+00:00"
 }
