@@ -997,63 +997,7 @@
   "date": "2026-11-15",
   "kind": "skipped",
   "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): EEUU prevé 5.000 vuelos cancelados este sábado antes de volver a la normalidad e"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): FAA: Vuelos en EEUU estarán restablecidos por completo para el domingo tras canc"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): US flight chaos caused by repair of old copper wiring: Trump admin"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Repair of old copper wiring caused US flight disruption: Trump admin"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Crisis de aeropuertos en Estados Unidos: aerolíneas trabajan contrarreloj para r"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "[2] reported that the FAA-ordered ground stop disrupted NBA, NHL, and college football travel for the weekend.",
-  "reason": "names not in cited articles: FAA-ordered"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
-  "text": "[3] reported that stranded British Columbia flyers faced thousands of dollars in costs due to flight cancellations.",
-  "reason": "names not in cited articles: British, Columbia"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "SpaceX Starship flight recovery",
+  "story": "SpaceX Starship orbital flight and mechanical arm recovery",
   "text": "",
   "reason": "off-topic for this site (topic: technology): not created"
  },
@@ -1061,104 +1005,240 @@
   "date": "2026-11-15",
   "kind": "skipped",
   "group": "namerica",
-  "story": "Washington DC golf course redevelopment dispute",
+  "story": "US legal challenge against Washington D.C. golf course redevelopment",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "mena",
+  "story": "Iran says it targeted US radar site in Bahrain with six drones",
+  "text": "IRGC claims drone strike on US radar site in Bahrain",
+  "reason": "title replaced by a headline: wording not from cited articles: claims, drone, strike"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran says it targeted US radar site in Bahrain with six drones",
+  "text": "[35], an Iranian state-media outlet, reported that the IRGC's Aerospace Force stated six drones struck a US air defense radar system at the Riffa helicopter base.",
+  "reason": "names not in cited articles: Riffa"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Garbage concert in Mexico City",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "mena",
+  "story": "Trump claims US hasn't 'lost a soldier in five months' despite multiple reported deaths in Iran war",
+  "text": "Assessments of Iranian missile arsenal and US casualties",
+  "reason": "title replaced by a headline: names not in cited articles: Assessments"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Turkey and 17 Other Countries Condemn Israeli Attack on Nasser Medical Complex in Gaza",
+  "text": "European Union calls on Israel regarding Gaza aid and operations",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "africa",
+  "story": "\"We are political animal\": League of Imams make declaration amid Makinde's donation",
+  "text": "League of Imams statement on Nigerian politics",
+  "reason": "title replaced by a headline: names not in cited articles: Nigerian"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Bulgarian court acquits actor Hristo Shopov",
   "text": "",
   "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
-  "group": "africa",
-  "story": "World Diabetes Day early diagnosis campaigns",
+  "group": "namerica",
+  "story": "US Resumes Flight Operations After Nationwide Ground Stop",
   "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
+  "reason": "continuation not supported by the headlines: Why a problem on the ground can affect flights thousands of miles away among oth"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "global",
+  "story": "Why a problem on the ground can affect flights thousands of miles away among other issues",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Portugal alters spelling of No. 7 to honor Cristiano Ronaldo",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "North Korean official visits Russia",
+  "text": "[97] reported that a close aide to North Korean leader Kim Jong-un visited Russia amid deepening bilateral ties.",
+  "reason": "names not in cited articles: Jong-un, Kim"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Japan and Philippines defense and energy cooperation",
+  "text": "Philippines and Australia sign defense cooperation agreement",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Beginning of the Nativity Fast in Orthodox Christianity",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "title",
+  "group": "namerica",
+  "story": "Trump blames Democrats for $3 trillion US stock market loss after 2026 midterms",
+  "text": "US stock market movement and economic impacts of Iran war",
+  "reason": "title replaced by a headline: wording not from cited articles: movement, economic, impacts"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Trump blames Democrats for $3 trillion US stock market loss after 2026 midterms",
+  "text": "[105] reported that Donald Trump claimed the US stock market lost nearly $3 trillion after Democratic midterm victories.",
+  "reason": "names not in cited articles: Democratic"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "merged",
+  "group": "africa",
+  "story": "US warns Madagascar over growing military ties with Russia",
+  "text": "Updated Russian military casualties in Ukraine war",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Air travel issues to persist well into Sunday, officials say, with thousands of flights affected",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Victoria Harbour Swim cancellation",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Turkey AK Party academic controversy",
+  "text": "[11] reported that AK Party Spokesperson Ömer Çelik condemned hate speech targeting party deputy Ceyda Bölünmez Çankırı.",
+  "reason": "names not in cited articles: Bölünmez, Ceyda, Party"
  },
  {
   "date": "2026-11-15",
   "kind": "title",
   "group": "africa",
-  "story": "Nigeria Police promote 37 senior officers in Lagos, Ogun commands",
-  "text": "Nigeria police promotions and compensation",
-  "reason": "title replaced by a headline: wording not from cited articles: promotions, compensation"
+  "story": "2027: Bauchi gov most receptive to my campaign – Atiku",
+  "text": "Nigeria presidential campaign events",
+  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "US Embassy in Riyadh warns Americans in Middle East after latest Houthi attack on Saudi Arabia",
+  "text": "[32] reported that Pakistan urged the UN Security Council to end Gulf military provocations.",
+  "reason": "wording not from cited articles: urged, security, council"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "UN resolution on Palestinian natural resources",
+  "text": "[47] reported that India voted against a UN General Assembly resolution calling for a global moratorium on the death penalty due to a surge in reports.",
+  "reason": "names not in cited articles: Assembly"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
   "group": "africa",
-  "story": "Nigeria Police promote 37 senior officers in Lagos, Ogun commands",
-  "text": "[58] reported that Ogun State Commissioner of Police Bode Ojajuni presented cheques totaling ₦10.65 million to families of fallen officers on behalf of the IGP.",
-  "reason": "number not in cited articles: 10650000"
+  "story": "Zamfara stands still as Gov Lawal hosts First Lady, Remi Tinubu for mega rally",
+  "text": "[48] reported that former President Goodluck Jonathan stated Nigeria's development is doomed until primitive leadership selection is ended during the Herbert Macaulay colloquium.",
+  "reason": "wording not from cited articles: former, president, goodluck, development, ended, colloquium"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey arrests suspect in Malazgirt killing",
-  "text": "[61] reported that Turkish security forces captured one of the perpetrators involved in the 2015 armed attack that killed district gendarmerie commander Major Arslan Kulaksız in Malazgirt.",
-  "reason": "number not in cited articles: 2015"
- },
- {
-  "date": "2026-11-15",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Portugal housing crisis protests",
-  "text": "Portugal housing protests",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Pakistan and Turkmenistan Joint Inter-Ministerial Commission",
-  "text": "[75] reported that Deputy Prime Minister and Foreign Minister Ishaq Dar chaired an inter-ministerial meeting to review preparations for the upcoming Pakistan-Turkmenistan Joint Inter-Ministerial Commission session.",
-  "reason": "names not in cited articles: Joint, Pakistan-Turkmenistan"
- },
- {
-  "date": "2026-11-15",
-  "kind": "dropped",
   "group": "africa",
-  "story": "",
-  "text": "Ghana discloses Dangote's proposal to process cocoa worth millions",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "story": "NYSC camp congestion in Nigeria",
+  "text": "[49] reported that the NYSC Director-General stated the agency is working with security agencies to protect corps members.",
+  "reason": "names not in cited articles: Director-General"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
-  "group": "asia",
-  "story": "Australian PM Anthony Albanese caught on hot-mic making crude joke with minister at COP31",
-  "text": "[26] reported that Anthony Albanese responded after the incident stating that no one was hurt.",
-  "reason": "names not in cited articles: Anthony"
- },
- {
-  "date": "2026-11-15",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Guinea Illegal Gold Mining Trial",
-  "text": "Bauchi suspends emir over illegal levies, mining interference",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-15",
-  "kind": "merged",
   "group": "namerica",
-  "story": "Microsoft Outlook, Teams, Copilot recovering after global outage lasting over 24 hours",
-  "text": "Microsoft global outage",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "story": "Biden recounts failed pleas to Netanyahu to spare Gaza civilians in new memoir",
+  "text": "[54] reported that in his memoir 'Promise Me, America', former U.S. president Joe Biden wrote about a letter from Donald Trump containing words of appreciation after the 2024 election.",
+  "reason": "names not in cited articles: Donald, Joe"
  },
  {
   "date": "2026-11-15",
-  "kind": "merged",
+  "kind": "rejected",
   "group": "europe",
-  "story": "COP31 climate summit protests in Antalya",
-  "text": "COP31 climate conference in Turkey",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "story": "Croatia memorial gatherings for Kristian Peris",
+  "text": "[10] reported that Croatian Health Minister Irena Hrstic stated that health inspections conducted last week in the hospital preliminarily determined significant failures regarding the case.",
+  "reason": "analysis word not used by the source: 'significant'"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iraq overland oil transport route",
+  "text": "[12] reported that U.S. Central Command stated that more than 1.7 billion barrels of crude oil have been shipped through the Strait of Hormuz by Gulf partners under U.S. protection.",
+  "reason": "number not in cited articles: 1700000000"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+  "text": "[16] reported that coalition talks are at a crossroads as Gadi Eisenkot and Benjamin Netanyahu battle for haredi parties.",
+  "reason": "names not in cited articles: Benjamin, Gadi"
  },
  {
   "date": "2026-11-15",
   "kind": "merged",
-  "group": "asia",
-  "story": "PM Wong to visit Manila for ASEAN Summit, related meetings from Nov 15",
-  "text": "ASEAN Summit in Manila",
+  "group": "africa",
+  "story": "Tinubu, Makinde or Obi: Drama major governorship candidate declares his presidential choice",
+  "text": "2027: Bauchi gov most receptive to my campaign – Atiku",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]
