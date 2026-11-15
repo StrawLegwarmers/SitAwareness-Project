@@ -4,22 +4,22 @@
   {
    "articles": 86,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
+   "calls": 2,
+   "candidates": 2,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 77,
-   "in_stories": 1,
-   "kept": 1,
+   "in_stories": 3,
+   "kept": 3,
    "merged": 0,
-   "new": 0,
+   "new": 1,
    "rejected": 0,
-   "reported_by_2": 0,
-   "runs": 4,
-   "sent": 1,
+   "reported_by_2": 1,
+   "runs": 5,
+   "sent": 2,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -98,7 +98,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T10:24:41+00:00"
+  "all": "2026-11-15T13:34:06+00:00"
  },
  "narratives": [
   {
@@ -4328,9 +4328,82 @@
    "status": "updated",
    "title": "Cursor security breach",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-15",
+     "dates": [
+      "2026-11-14"
+     ],
+     "id": "63e9cf8834bb2815",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-15T11:27:31+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "b6c0bf0fcb749c6b",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-14T19:00:00+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+     "type": null,
+     "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "meta-fine-in-italy",
+   "label": "Meta fine in Italy",
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b6c0bf0fcb749c6b"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-14T19:00:00+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/) reported that Meta was fined $887 Million in Italy over Android gallery photos and videos on Facebook."
+    },
+    {
+     "articles": [
+      "63e9cf8834bb2815"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-15T11:27:31+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html) reported that Meta was fined €805 Million in Italy over Facebook's Android gallery access without explicit consent."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Meta fine in Italy",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-15T10:24:57+00:00"
+ "updated": "2026-11-15T13:34:23+00:00"
 }

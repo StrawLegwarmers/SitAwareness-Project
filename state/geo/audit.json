@@ -997,7 +997,7 @@
   "date": "2026-11-15",
   "kind": "skipped",
   "group": "namerica",
-  "story": "SpaceX Starship orbital flight and catch",
+  "story": "SpaceX Starship orbital flight test",
   "text": "",
   "reason": "off-topic for this site (topic: technology): not created"
  },
@@ -1005,320 +1005,224 @@
   "date": "2026-11-15",
   "kind": "skipped",
   "group": "namerica",
-  "story": "US judge blocks Washington golf course redevelopment",
+  "story": "Washington DC golf course redevelopment dispute",
   "text": "",
   "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Lagos billboard permit fee dispute",
+  "text": "[32] reported that Gbenga Omotoso described the claim as false and misleading, alleging it was circulated by mischievous politicians.",
+  "reason": "names not in cited articles: Gbenga"
+ },
+ {
+  "date": "2026-11-15",
   "kind": "merged",
-  "group": "asia",
-  "story": "Russians strike Zaporizhzhia eight times, injuring five people, including an elderly woman",
-  "text": "Russian strikes on Chornomorsk and Zhytomyr",
+  "group": "mena",
+  "story": "Iran strike on Bahrain base",
+  "text": "Iran strikes on Bahrain",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Italian art installation in Naples",
-  "text": "",
-  "reason": "off-topic for this site (topic: culture): not created"
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran strike on Bahrain base",
+  "text": "[36] reported that the attacks follow a two-month lull and come as US-Iran peace talks appear to have stalled.",
+  "reason": "names not in cited articles: US-Iran"
  },
  {
   "date": "2026-11-15",
-  "kind": "title",
-  "group": "africa",
-  "story": "2027: Diri charges Bayelsa APC members to deny opposition 25% votes",
-  "text": "Bayelsa State political mobilization",
-  "reason": "title replaced by a headline: wording not from cited articles: political, mobilization"
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran strike on Bahrain base",
+  "text": "[38][39] reported that the latest incident marks the second Iranian drone attack in three days.",
+  "reason": "wording not from cited articles: latest, incident, marks"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
-  "group": "global",
-  "story": "GTA VI release and viral song",
+  "group": "asia",
+  "story": "Eurovision Song Contest Asia",
   "text": "",
   "reason": "off-topic for this site (topic: entertainment): not created"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
-  "group": "europe",
-  "story": "Ukraine peace terms and NATO membership proposals",
+  "group": "asia",
+  "story": "Taliban ban on cricket broadcasts in Kandahar",
   "text": "",
   "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
-  "group": "africa",
-  "story": "Tinubu, Makinde or Obi: Drama major governorship candidate declares his presidential choice",
-  "text": "[120] reported that Atiku Abubakar vowed to restore the fuel subsidy, tackle insecurity, and continue Kolmani oil exploration if elected.",
-  "reason": "names not in cited articles: Abubakar"
+  "group": "europe",
+  "story": "Black Sea commercial ship drone strikes",
+  "text": "[52] reported that the incidents occurred on November 13 and 14.",
+  "reason": "wording not from cited articles: occurred, november"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
-  "group": "africa",
-  "story": "Congo, Rwanda Clash Over Francophonie Vote",
-  "text": "[122][123] reported that French President Emmanuel Macron called for unity and consensus at the Francophonie summit amid tensions between DR Congo and Rwanda.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-15",
-  "kind": "title",
-  "group": "africa",
-  "story": "5 دول أوروبية تتفق على ترحيل طالبي اللجوء إلى رواندا بعد رفض طلباتهم",
-  "text": "EU states plan asylum seeker deportations to Rwanda",
-  "reason": "title replaced by a headline: countries not in cited articles: rwanda"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "5 دول أوروبية تتفق على ترحيل طالبي اللجوء إلى رواندا بعد رفض طلباتهم",
-  "text": "[136][137] reported that five European Union states are moving toward an agreement to send rejected asylum seekers to a deportation center in Rwanda.",
-  "reason": "countries not in cited articles: rwanda"
+  "group": "europe",
+  "story": "Black Sea commercial ship drone strikes",
+  "text": "[111][112] reported that a fourth commercial vessel under the flag of Palau was hit in Romanian territorial waters.",
+  "reason": "countries not in cited articles: romania"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
-  "group": "europe",
-  "story": "‘I Know the Russians Don’t Want Me’: Kallas Warns Europe Against Putin’s Trap in Ukraine Peace Talks",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): В переговорах по Украине появились «новые идеи». Несмотря на публичные требовани"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "‘I Know the Russians Don’t Want Me’: Kallas Warns Europe Against Putin’s Trap in Ukraine Peace Talks",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Европейцы не понимают своей роли в переговорах по Украине, заявил Лавров"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "‘I Know the Russians Don’t Want Me’: Kallas Warns Europe Against Putin’s Trap in Ukraine Peace Talks",
-  "text": "[1] reported that US presidential son-in-law and negotiator Jared Kushner stated on X that the US is discussing new ideas with Russia, Ukraine, and European partners to end the war.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "‘I Know the Russians Don’t Want Me’: Kallas Warns Europe Against Putin’s Trap in Ukraine Peace Talks",
-  "text": "[2], a Russian state outlet, reported that Foreign Minister Sergei Lavrov stated that Europeans do not understand their role in negotiations concerning Ukraine.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey home care assistance program",
-  "text": "[11], a state-run outlet, reported that Minister of Family and Social Services Mahinur Özdemir Göktaş announced that a total of 7.8 billion liras in home care assistance payments have begun to be deposited into accounts.",
-  "reason": "names not in cited articles: Family, Services, Social"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ukraine frontline combat engagements",
-  "text": "[14] reported that the General Staff stated that total Russian troop losses in Ukraine have reached 1,622,860 since February 24, 2022.",
-  "reason": "wording not from cited articles: total, losses, reached, february"
- },
- {
-  "date": "2026-11-15",
-  "kind": "title",
   "group": "africa",
-  "story": "Oyo gov candidate Oriyomi Hamzat bags master’s degree from UI",
-  "text": "Oyo State gubernatorial candidacy",
-  "reason": "title replaced by a headline: wording not from cited articles: gubernatorial, candidacy"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US birth date distribution study",
+  "story": "Miss South Africa 2026 and Future Awards",
   "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey counter-terrorism strategy",
-  "text": "[25], a state-run outlet, reported that MHP Chairman Devlet Bahçeli described the realization of the 'Terror-Free Turkey' goal as an essential political step.",
-  "reason": "names not in cited articles: Chairman, Devlet, Terror-Free, Turkey'"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey counter-terrorism strategy",
-  "text": "[26] reported that MHP leader Devlet Bahçeli announced a 50-point roadmap aimed at shaping Turkey's future under the 'Terror-Free Turkey' objective.",
-  "reason": "analysis word not used by the source: 'aimed at'"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Francophonie summit in Cambodia",
-  "text": "[31] reported that leaders of French-speaking nations gathered in Phnom Penh for the Francophonie summit as discussions took place regarding leadership rows and Congo's threat to quit.",
-  "reason": "wording not from cited articles: discussions, took, place, regarding, leadership, rows"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Metalworkers union demands in Federation of Bosnia and Herzegovina",
-  "text": "[39][40] reported that the Metalworkers Union of the Federation of Bosnia and Herzegovina marked Metallurgists' Day by demanding a new collective agreement and highlighting the difficult working conditions and wages of metal sector workers.",
-  "reason": "analysis word not used by the source: 'highlighting'"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "UEFA Nations League match results",
-  "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
- },
- {
-  "date": "2026-11-15",
-  "kind": "title",
-  "group": "africa",
-  "story": "Tinubu’s reforms now yielding prosperity — Betta Edu",
-  "text": "Nigeria reform outcomes assessment",
-  "reason": "title replaced by a headline: wording not from cited articles: outcomes, assessment"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Dobrich road traffic collision",
-  "text": "[47][48] reported that three youths died in a traffic collision on the Dobrich-Balchik road between the villages of Popgrigorovo and Bezvoditsa amidst thick fog.",
-  "reason": "number not in cited articles: 3"
- },
- {
-  "date": "2026-11-15",
-  "kind": "title",
-  "group": "africa",
-  "story": "2027: SERAP asks INEC to prosecute electoral violence suspects",
-  "text": "SERAP electoral violence prosecution demand",
-  "reason": "title replaced by a headline: wording not from cited articles: prosecution, demand"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "2027: SERAP asks INEC to prosecute electoral violence suspects",
-  "text": "[49][50] reported that SERAP issued a seven-day ultimatum to the Independent National Electoral Commission to obtain police files and prosecute suspects of electoral and political violence related to the 2027 election campaigns.",
-  "reason": "names not in cited articles: Independent"
- },
- {
-  "date": "2026-11-15",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Russian attacks on Kyiv and Zaporizhzhia",
-  "text": "Kropyvnytskyi drone strike",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-15",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "EU reiterates ‘grave concern’ over Gaza humanitarian crisis as winter approaches",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): الاتحاد الأوروبي يدعو إسرائيل لفتح معابر غزة ويحذر من تفاقم الأزمة الإنسانية"
+  "reason": "off-topic for this site (topic: entertainment): not created"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
   "group": "mena",
-  "story": "EU reiterates ‘grave concern’ over Gaza humanitarian crisis as winter approaches",
-  "text": "[2] reported that Kaja Kallas urged Israel to adhere to international law and allow unhindered access to the Gaza Strip for the United Nations and humanitarian organizations.",
-  "reason": "cites an article that doesn't belong to this story"
+  "story": "Yemeni forces withdraw from Bab el-Mandeb Strait, leaving Iran-backed Houthis in control",
+  "text": "[65] reported that Saudi-backed Yemeni forces declared their withdrawal from the area.",
+  "reason": "names not in cited articles: Saudi-backed"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
-  "group": "asia",
-  "story": "Russians strike Zaporizhzhia eight times, injuring five people, including an elderly woman",
-  "text": "[3] reported that Russian forces attacked an industrial infrastructure facility in Kirovohrad Oblast, sparking fires at two locations.",
-  "reason": "analysis word not used by the source: 'sparking'"
+  "group": "mena",
+  "story": "Israel kills Hamas commander in strike on Gaza camp, officials say",
+  "text": "[71] reported that the strike took place at a displacement camp in southern Gaza.",
+  "reason": "wording not from cited articles: strike, took, place"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
   "group": "africa",
-  "story": "Congo, Rwanda Clash Over Francophonie Vote",
+  "story": "NDLEA drug arrests in Lagos",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): A Phnom Penh, au Royaume du Cambodge: La Tunisie au Sommet de la Francophonie au"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Congo, Rwanda Clash Over Francophonie Vote",
-  "text": "[28] reported that Tunisian permanent representative to the OIF Dhia Khaled led the Tunisian delegation to the summit in Phnom Penh.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-15",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "German drug ring police raids",
-  "text": "[25] reported that a major police operation in Germany resulted in 15 arrests, including citizens of Bosnia and Herzegovina.",
-  "reason": "analysis word not used by the source: 'major'"
+  "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
   "group": "asia",
-  "story": "Malaysia ASEAN strategic unity",
+  "story": "China electric passenger plane test flight",
+  "text": "",
+  "reason": "off-topic for this site (topic: technology): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "global",
+  "story": "NASA Voyager 1 interstellar distance milestone",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "China unmanned cargo aircraft maiden flight",
   "text": "",
   "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-15",
   "kind": "skipped",
-  "group": "europe",
-  "story": "French political debate on Ukraine",
+  "group": "global",
+  "story": "Alpine Skiing World Cup slalom in Levi",
   "text": "",
-  "reason": "new story with fewer than 2 articles"
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "US envoy Kushner says he aims to broker Europe-Russia talks on Ukraine",
+  "text": "[4] reported that US envoy Jared Kushner stated new ideas for resolving the Ukrainian conflict have emerged and are now being explored.",
+  "reason": "names not in cited articles: Jared"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Congo, Rwanda Clash Over Francophonie Vote",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Francophone summit opens in Cambodia, overshadowed by tensions in Africa"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Congo, Rwanda Clash Over Francophonie Vote",
+  "text": "[6][40] reported that the 20th Francophonie summit opened in Phnom Penh, Cambodia, amidst diplomatic tensions and a leadership dispute.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "U.S. air travel should recover from ground stop by end of November 15, FAA says",
+  "text": "[2] reported that flights have resumed after a nearly five-hour nationwide ground stop in the United States, though passenger delays and logistical issues persist.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Wike’s 700-Man Campaign Council Targets 4m Votes for Tinubu, Says APC Chieftain",
+  "text": "[8] reported that an All Progressives Congress chieftain disclosed new developments regarding President Bola Tinubu and Rauf Aregbesola amid their political rift.",
+  "reason": "names not in cited articles: All, Congress, Progressives"
  },
  {
   "date": "2026-11-15",
   "kind": "rejected",
   "group": "mena",
-  "story": "Israeli drone strike kills Palestinian, wounds 2 in southern Gaza",
-  "text": "[10] reported that European Union foreign policy chief Kaja Kallas urged Israel to comply with international law and allow the United Nations and humanitarian organizations access.",
-  "reason": "countries not in cited articles: israel"
+  "story": "Three tankers caught fire in Strait of Hormuz after hitting naval mines: Iran's navy",
+  "text": "[9], an Iranian state-media outlet, reported that the United Kingdom Maritime Trade Operations stated an oil tanker was attacked near the Strait of Hormuz.",
+  "reason": "names not in cited articles: Kingdom, United"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Tesla Argentina showroom launch",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-15",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Guinea illegal gold mining expulsions",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-15",
   "kind": "merged",
-  "group": "asia",
-  "story": "ASEAN leaders kick off Manila summits as friction persists on Myanmar, haze",
-  "text": "Southeast Asian leaders will call for peaceful resolutions of conflicts. Trump will join final talks",
+  "group": "latam",
+  "story": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
+  "text": "Pope’s visit to hub of Afro-Peruvian community casts spotlight on African slave trade to Peru",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-15",
   "kind": "merged",
-  "group": "asia",
-  "story": "Australian PM Anthony Albanese caught on hot-mic making crude joke with minister at COP31",
-  "text": "Australian Prime Minister remarks apology",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "group": "europe",
+  "story": "Chatham House: Protesters Who Confronted Amupitan Were Paid, UK-based Lawyer Alleges",
+  "text": "2027: SERAP asks INEC to prosecute electoral violence suspects",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-15",
   "kind": "merged",
-  "group": "namerica",
-  "story": "Pentagon consideration of US troop withdrawal from Europe",
-  "text": "US military force posture in Europe",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "group": "europe",
+  "story": "Zenica psychiatric clinic patient abuse arrests",
+  "text": "Uhapšen otac Emila Semira Tahirovića: Pomagao sinu nakon ubistva Mehmeda Smječanina",
+  "reason": "duplicate story merged into an existing one"
  }
 ]
