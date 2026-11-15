@@ -4,25 +4,25 @@
   {
    "articles": 86,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
-   "continuing": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 77,
-   "in_stories": 0,
-   "kept": 0,
+   "in_stories": 1,
+   "kept": 1,
    "merged": 0,
    "new": 0,
    "rejected": 0,
    "reported_by_2": 0,
-   "runs": 3,
-   "sent": 0,
+   "runs": 4,
+   "sent": 1,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -98,7 +98,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T07:45:24+00:00"
+  "all": "2026-11-15T10:24:41+00:00"
  },
  "narratives": [
   {
@@ -4232,8 +4232,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "1fcac78075728010",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-15T08:22:04+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+    },
     {
      "added": "2026-11-14",
      "id": "70849d89a9ff4b2c",
@@ -4264,15 +4277,27 @@
      "url": "https://cybersecuritynews.com/cursor-data-breach/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "cursor-security-breach",
    "label": "Cursor security breach",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "1fcac78075728010"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-15T08:22:04+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html) reported that the compromise of the Claude Code extension on Cursor's marketplace resulted from the theft of an access key exposed in Fireworks AI."
+    },
     {
      "articles": [
       "544004bb39e60187"
@@ -4298,14 +4323,14 @@
      "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) reported that Cursor confirmed the security breach enabled hackers to distribute a malicious Claude Code extension via its marketplace following credential theft."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Cursor security breach",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-15T07:45:25+00:00"
+ "updated": "2026-11-15T10:24:57+00:00"
 }

@@ -4,22 +4,22 @@
   {
    "articles": 186,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
+   "calls": 1,
+   "candidates": 1,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-15",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 158,
-   "in_stories": 0,
-   "kept": 0,
+   "in_stories": 2,
+   "kept": 1,
    "merged": 0,
-   "new": 0,
+   "new": 1,
    "rejected": 0,
-   "reported_by_2": 1,
-   "runs": 3,
-   "sent": 0,
+   "reported_by_2": 2,
+   "runs": 4,
+   "sent": 1,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -75,7 +75,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T07:46:52+00:00"
+  "all": "2026-11-15T10:26:53+00:00"
  },
  "narratives": [
   {
@@ -3260,9 +3260,69 @@
     "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f"
    },
    "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-15",
+     "id": "76ebb75fb398f4e8",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-15T08:56:54+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "ECB cannot replace sound fiscal policy, presidential contender Knot warns",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/ecb-cannot-replace-sound-fiscal-policy-presidential-contender-knot-warns-5027752"
+    },
+    {
+     "added": "2026-11-15",
+     "id": "59a272b4ac96aefc",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-15T07:58:02+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "ECB Can’t Substitute Sound Fiscal Policy, Knot Tells Corriere",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "european-central-bank-fiscal-policy",
+   "label": "European Central Bank fiscal policy",
+   "last_reported": "2026-11-15",
+   "last_updated": "2026-11-15",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "59a272b4ac96aefc",
+      "76ebb75fb398f4e8"
+     ],
+     "date": "2026-11-15",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-15T07:58:02+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere), [Investing.com](https://www.investing.com/news/stock-market-news/ecb-cannot-replace-sound-fiscal-policy-presidential-contender-knot-warns-5027752) reported that Klaas Knot stated that the European Central Bank cannot replace sound fiscal policy."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "European Central Bank fiscal policy",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-15T07:46:52+00:00"
+ "updated": "2026-11-15T10:27:09+00:00"
 }
