@@ -41,26 +41,34 @@
  },
  {
   "date": "2026-11-16",
-  "kind": "title",
+  "kind": "merged",
   "group": "all",
-  "story": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
-  "text": "Morgan Stanley equity strategy",
-  "reason": "title replaced by a headline: wording not from cited articles: equity, strategy"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "all",
-  "story": "Strait of Hormuz tanker incidents",
-  "text": "",
-  "reason": "off-topic for this site (topic: security): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "all",
-  "story": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
+  "story": "Jensen Huang discusses comeback as Nvidia CEO with allies",
   "text": "Nvidia leadership changes",
-  "reason": "title replaced by a headline: wording not from cited articles: leadership, changes"
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+  "text": "[3] reported that allies of Jensen Huang are making the case in open letters, phone calls, and group chats that his ouster as Nvidia CEO was hasty amid increasing legal scrutiny.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "Robert Pattinson cast as next James Bond",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "all",
+  "story": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+  "text": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

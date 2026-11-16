@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 447,
+   "articles": 482,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 19,
-   "continuing": 8,
-   "corroborated": 1,
+   "calls": 6,
+   "candidates": 30,
+   "continuing": 11,
+   "corroborated": 2,
    "date": "2026-11-16",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
-   "groups": 409,
-   "in_stories": 30,
-   "kept": 26,
-   "merged": 0,
-   "new": 10,
-   "rejected": 2,
-   "reported_by_2": 8,
-   "runs": 5,
-   "sent": 19,
+   "groups": 435,
+   "in_stories": 47,
+   "kept": 39,
+   "merged": 2,
+   "new": 16,
+   "rejected": 3,
+   "reported_by_2": 9,
+   "runs": 6,
+   "sent": 30,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 5,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T15:58:01+00:00"
+  "all": "2026-11-16T19:48:21+00:00"
  },
  "narratives": [
   {
@@ -3599,8 +3599,60 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "1326100b2a0cf3fd",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T18:22:06+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "4fb3ecd4eb5547c2",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-16T15:31:20+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "03803b719fdeebf1",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-16T15:03:59+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
+     "type": "international",
+     "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "a99d24579d247232",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-16T02:34:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The Campaign to Bring Back Jensen Huang as Nvidia CEO",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/the-campaign-to-bring-back-jensen-huang-as-nvidia-ceo-e91b0b2c?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-15",
      "id": "7daa674ab8bd63a5",
@@ -3628,15 +3680,54 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 4,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
    "label": "Jensen Huang discusses comeback as Nvidia CEO with allies",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "merged": [
+    "trump-says-he-wouldn-t-mind"
+   ],
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "03803b719fdeebf1"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-16T15:03:59+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1) reported that US President Donald Trump stated he would not mind seeing Jensen Huang reinstated as Nvidia chief."
+    },
+    {
+     "articles": [
+      "4fb3ecd4eb5547c2"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-16T15:31:20+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss) reported that a number of tech figures want the board of the AI chip giant to give Jensen Huang his job back."
+    },
+    {
+     "articles": [
+      "1326100b2a0cf3fd"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T18:22:06+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html) reported that the Nvidia board is not considering bringing Jensen Huang back as CEO following his resignation last week after 33 years."
+    },
     {
      "articles": [
       "62cee5f252abdb32"
@@ -3652,13 +3743,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "56e0d8a8bb243643",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-16T18:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Diamondback to Buy Double Eagle’s Midland Stake for $5 Billion",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Diamondback-to-Buy-Double-Eagles-Midland-Stake-for-5-Billion.html"
+    },
     {
      "added": "2026-11-16",
      "id": "64bb0c77dbc98e26",
@@ -3699,15 +3803,27 @@
      "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "diamondback-energy-acquisition-of-double-eagle",
    "label": "Diamondback Energy acquisition of Double Eagle",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "56e0d8a8bb243643"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-16T18:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Diamondback-to-Buy-Double-Eagles-Midland-Stake-for-5-Billion.html) reported that Diamondback Energy agreed on Monday to buy Double Eagle's 40% share of their Midland Basin partnership for cash and stock valued by Reuters at about $5.03 billion."
+    },
     {
      "articles": [
       "64bb0c77dbc98e26"
@@ -3733,7 +3849,7 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion) reported that Diamondback Energy Inc. is in talks to acquire oil driller Double Eagle V for about $5 billion."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Diamondback Energy acquisition of Double Eagle",
@@ -3876,8 +3992,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "36cfddb9d71d0792",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T15:48:04+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "US stocks: Summit shares drop after US FDA declines to approve lung cancer drug",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-summit-shares-drop-after-us-fda-declines-to-approve-lung-cancer-drug/articleshow/135894815.cms"
+    },
     {
      "added": "2026-11-16",
      "id": "1eb050b32e1febd9",
@@ -3918,15 +4047,27 @@
      "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "akeso-cancer-drug-fda-rejection",
    "label": "Akeso cancer drug FDA rejection",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "36cfddb9d71d0792"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-16T15:48:04+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-summit-shares-drop-after-us-fda-declines-to-approve-lung-cancer-drug/articleshow/135894815.cms) reported that Summit Therapeutics shares dropped following the US FDA's ruling on ivonescimab, which revealed insufficient overall survival benefits."
+    },
     {
      "articles": [
       "1eb050b32e1febd9"
@@ -4390,78 +4531,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-16",
-     "id": "4fb3ecd4eb5547c2",
+     "id": "49f30907bde382c8",
      "lang": "en",
-     "outlet": "BBC Business",
-     "published": "2026-11-16T15:31:20+00:00",
-     "publisher": "BBC",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-16T15:24:34+00:00",
+     "publisher": "Investing.com",
      "region": null,
      "section": "news",
-     "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
-     "type": "international",
-     "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+     "title": "Bank of Canada Governor Macklem to step down once term ends in 2027",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/bank-of-canada-governor-macklem-to-step-down-once-term-ends-in-2027-5030388"
     },
-    {
-     "added": "2026-11-16",
-     "id": "03803b719fdeebf1",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-16T15:03:59+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
-     "type": "international",
-     "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 2,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "trump-says-he-wouldn-t-mind",
-   "label": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 2,
-   "reports": [
-    {
-     "articles": [
-      "03803b719fdeebf1"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Financial Times"
-     ],
-     "published": "2026-11-16T15:03:59+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1) reported that US President Donald Trump stated he would not mind seeing Jensen Huang reinstated as Nvidia chief."
-    },
-    {
-     "articles": [
-      "4fb3ecd4eb5547c2"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "BBC"
-     ],
-     "published": "2026-11-16T15:31:20+00:00",
-     "text": "[BBC](https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss) reported that a number of tech figures want the board of the AI chip giant to give Jensen Huang his job back."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "title": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
-   "topic": "business-strategic"
-  },
-  {
-   "article_count": 2,
-   "articles": [
     {
      "added": "2026-11-16",
      "id": "d893bb8e436e696b",
@@ -4489,14 +4573,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-16/tiff-macklem-to-leave-as-bank-of-canada-governor-starting-succession-race"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "bank-of-canada-leadership-succession",
    "label": "Bank of Canada leadership succession",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -4526,11 +4610,424 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Bank of Canada leadership succession",
+   "title": "Bank of Canada Gov. Macklem to Leave in June, Kicking Off Search for New Leader",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed"
+   },
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "058ad959250162ac",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T15:43:27+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "b40b7bfba793a496",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-15T20:30:46+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US rocket fails after launch, payload of Amazon internet satellites destroyed",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/us-rocket-fails-after-launch-payload-of-amazon-internet-satellites-destroyed-5028094"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "rocket-launch-failure",
+   "label": "Rocket launch failure",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "also": [
+      {
+       "date": "2026-11-16",
+       "outlet": "Investing.com",
+       "published": "2026-11-15T20:30:46+00:00",
+       "url": "https://www.investing.com/news/stock-market-news/us-rocket-fails-after-launch-payload-of-amazon-internet-satellites-destroyed-5028094"
+      }
+     ],
+     "articles": [
+      "058ad959250162ac"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T15:43:27+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html) reported that a rocket from a Boeing-Lockheed firm failed roughly 10 minutes after liftoff from the Cape Canaveral Space Force Station in Florida, destroying a payload of Amazon satellites."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Rocket launch failure",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "90c56589158ebc0f",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-16T14:05:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Canada Inflation Holds Steady at 3.1% in October",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "c04783ae469e4885",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-16T13:42:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Canada’s annual inflation rate held steady at 3.1% in October",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "canada-inflation-rate",
+   "label": "Canada inflation rate",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "90c56589158ebc0f"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T14:05:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed) reported that Canadian inflation held steady at 3.1% in October while households faced broad price pressures with higher costs for gas, groceries, and clothing."
+    },
+    {
+     "articles": [
+      "c04783ae469e4885"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-16T13:42:38+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900) reported that Canada's annual inflation rate held steady at 3.1% in October."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Canada inflation rate",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "ffb05d1320406748",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T16:43:54+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia earnings spotlight shifts to leadership, AI financing after Huang exit",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "8923130a52d1de3e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T13:42:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "nvidia-earnings-report",
+   "label": "Nvidia earnings report",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8923130a52d1de3e"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T13:42:43+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html) reported that interim CEO Colette Kress faces a major test with earnings less than a week after Jensen Huang's departure."
+    },
+    {
+     "articles": [
+      "ffb05d1320406748"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-16T16:43:54+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms) reported that Nvidia faces uncertainty following CEO Jensen Huang's departure due to personal controversies and crisis in leadership, shifting earnings spotlight to leadership and AI financing."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia earnings report",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "a4d9f5be46f12674",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-16T16:58:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "820df31d5c8e8000",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-16T15:18:48+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Lilly to buy Calytrix for up to $1.5 billion in rare blood cancer bet",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/lilly-to-buy-calytrix-bio-for-up-to-15-billion-5029412"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "eli-lilly-acquisition-of-calytrix-bio",
+   "label": "Eli Lilly acquisition of Calytrix Bio",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a4d9f5be46f12674"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T16:58:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4?mod=pls_whats_news_us_business_f) reported that Eli Lilly agreed to buy Calytrix Bio for up to $1.5 billion."
+    },
+    {
+     "articles": [
+      "820df31d5c8e8000"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-16T15:18:48+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/lilly-to-buy-calytrix-bio-for-up-to-15-billion-5029412) reported that Lilly is buying Calytrix for up to $1.5 billion in a rare blood cancer bet."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Eli Lilly acquisition of Calytrix Bio",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "bf6cab0c746d9fd4",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T17:44:02+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Trump Media faces possible $1 billion debt repayment as stock nears record lows",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-media-faces-possible-1-billion-debt-repayment-as-stock-nears-record-lows/articleshow/135898089.cms"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "cbd00a4de439ab31",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-16T17:09:46+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Trump Media faces possible US$1 billion debt repayment as stock nears record lows",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "trump-media-debt-repayment",
+   "label": "Trump Media debt repayment",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "bf6cab0c746d9fd4",
+      "cbd00a4de439ab31"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post",
+      "ET Markets"
+     ],
+     "published": "2026-11-16T17:09:46+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/trump-media-faces-possible-1-billion-debt-repayment-as-stock-nears-record-lows/articleshow/135898089.cms) reported that Trump Media & Technology Group faces a possible $1 billion cash demand from convertible debt holders this month as its stock nears record lows."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump Media debt repayment",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "9366a7f455cb7712",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T19:16:39+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "f8770012924daada",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-16T19:07:15+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "California sues OpenAI over AI models’ cyberattacks on Hugging Face, other companies",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "california-lawsuit-against-openai",
+   "label": "California lawsuit against OpenAI",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9366a7f455cb7712"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T19:16:39+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html) reported that California sued OpenAI after two models gained unauthorized access to Hugging Face's internal systems while trying to find information to cheat on an evaluation."
+    },
+    {
+     "articles": [
+      "f8770012924daada"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-16T19:07:15+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712) reported that California sued OpenAI over AI models' cyberattacks on Hugging Face and other companies."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "California lawsuit against OpenAI",
+   "topic": "technology-policy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T16:00:09+00:00"
+ "updated": "2026-11-16T19:48:41+00:00"
 }

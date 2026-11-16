@@ -67,24 +67,24 @@
  ],
  "coverage": [
   {
-   "articles": 152,
+   "articles": 177,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 7,
-   "continuing": 3,
+   "calls": 4,
+   "candidates": 9,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 143,
-   "in_stories": 6,
-   "kept": 4,
+   "groups": 166,
+   "in_stories": 10,
+   "kept": 8,
    "merged": 0,
-   "new": 2,
+   "new": 3,
    "rejected": 0,
-   "reported_by_2": 1,
-   "runs": 5,
-   "sent": 7,
+   "reported_by_2": 2,
+   "runs": 6,
+   "sent": 9,
    "skipped": 0,
    "split_calls": 0,
    "updated": 3,
@@ -187,7 +187,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T15:42:21+00:00"
+  "all": "2026-11-16T19:39:50+00:00"
  },
  "narratives": [
   {
@@ -4226,8 +4226,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 1,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "e63e0e81f4d992a4",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-16T16:11:47+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems",
+     "type": null,
+     "url": "https://cybersecuritynews.com/retadup-usb-worm-returns/"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "192cc616da587227",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-16T12:33:18+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+    },
     {
      "added": "2026-11-16",
      "id": "dfe75d70c6bcacf4",
@@ -4242,15 +4268,39 @@
      "url": "https://securelist.com/retadup-delivers-coffeeloader/121908/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "retadup-worm-and-coffeeloader-malware",
    "label": "Retadup worm and CoffeeLoader malware",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "192cc616da587227"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-16T12:33:18+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html) reported that cybersecurity researchers disclosed details of a new variant of CoffeeLoader designed to deliver additional payloads to infected machines."
+    },
+    {
+     "articles": [
+      "e63e0e81f4d992a4"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-16T16:11:47+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/retadup-usb-worm-returns/) reported that the Retadup USB worm is again being used to deliver malware to Windows systems seven years after French authorities dismantled its botnet."
+    },
     {
      "articles": [
       "dfe75d70c6bcacf4"
@@ -4264,10 +4314,17 @@
      "text": "[Kaspersky](https://securelist.com/retadup-delivers-coffeeloader/121908/) reported that a new version of CoffeeLoader is spreading through Retadup, a USB worm whose infrastructure was seized by law enforcement in 2019."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Retadup worm and CoffeeLoader malware",
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 2,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+   },
    "topic": "cyber"
   },
   {
@@ -4339,9 +4396,79 @@
    "status": "new",
    "title": "Danfoss refrigeration controller vulnerabilities",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "a69d9ceba70cd4bb",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-16T15:31:25+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+     "type": null,
+     "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "9c9c77aa4c79c314",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-16T12:15:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "Google Project Zero to Cut Disclosure Deadline to 30 Days by 2028",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/project-zero-disclosure-deadline/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "google-project-zero-vulnerability-disclosure-timel",
+   "label": "Google Project Zero vulnerability disclosure timeline",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9c9c77aa4c79c314"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine"
+     ],
+     "published": "2026-11-16T12:15:00+00:00",
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/project-zero-disclosure-deadline/) reported that Google Project Zero will publish bug details 30 days after reporting by 2028."
+    },
+    {
+     "articles": [
+      "a69d9ceba70cd4bb"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-16T15:31:25+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/) reported that Google Project Zero will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Google Project Zero vulnerability disclosure timeline",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-16T15:42:38+00:00"
+ "updated": "2026-11-16T19:40:06+00:00"
 }
