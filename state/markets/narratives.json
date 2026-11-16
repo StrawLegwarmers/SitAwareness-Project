@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 235,
+   "articles": 328,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 3,
-   "continuing": 2,
+   "calls": 3,
+   "candidates": 8,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 221,
-   "in_stories": 4,
-   "kept": 2,
+   "groups": 307,
+   "in_stories": 12,
+   "kept": 10,
    "merged": 0,
-   "new": 1,
-   "rejected": 1,
-   "reported_by_2": 1,
-   "runs": 2,
-   "sent": 3,
+   "new": 4,
+   "rejected": 2,
+   "reported_by_2": 3,
+   "runs": 3,
+   "sent": 8,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T05:05:35+00:00"
+  "all": "2026-11-16T09:35:13+00:00"
  },
  "narratives": [
   {
@@ -1038,8 +1038,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "56b51166aaecb094",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-16T08:57:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rise as Fresh Attacks Renew Middle East Supply Concerns",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-13",
      "id": "67ab0cbbb14eddf6",
@@ -1067,15 +1080,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "56b51166aaecb094"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T08:57:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=rss_markets_main) reported that oil prices rose Monday as traders weighed renewed attacks across the Middle East and threats to oil shipments through the Strait of Hormuz against expectations."
+    },
     {
      "articles": [
       "82346f4bdfef9905"
@@ -1089,9 +1114,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
   },
@@ -2070,8 +2095,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "6290f603141935b2",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-15T12:51:28+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
+    },
     {
      "added": "2026-11-14",
      "id": "b6f73dd6a4f35c9d",
@@ -2255,20 +2293,32 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
     "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop"
    ],
    "reports": [
+    {
+     "articles": [
+      "6290f603141935b2"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-15T12:51:28+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html) reported that flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours."
+    },
     {
      "articles": [
       "f2ef34e8a74ec8d7"
@@ -2350,9 +2400,9 @@
      "text": "[MarketWatch](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories) reported that nearly 8,000 flights were delayed."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
    "title_from": {
     "backing": 3,
@@ -3703,9 +3753,223 @@
     "url": "https://www.bloomberg.com/news/articles/2026-11-16/hkex-launches-first-dim-sum-bond-index-to-boost-yuan-debt-market"
    },
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "43d06304f1f762ce",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-16T05:00:10+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Akeso shares plummet as Chinese firm’s cancer drug ivonescimab faces FDA setback",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/china-business/article/3374543/akeso-shares-plummet-chinese-firms-cancer-drug-ivonescimab-faces-fda-setback"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "e6d0e6559119f35e",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-15T17:07:06+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "FDA rejects cancer drug invented in China in blow to Beijing’s biotech sector",
+     "type": "international",
+     "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "akeso-cancer-drug-fda-rejection",
+   "label": "Akeso cancer drug FDA rejection",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "43d06304f1f762ce"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-16T05:00:10+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/china-business/article/3374543/akeso-shares-plummet-chinese-firms-cancer-drug-ivonescimab-faces-fda-setback) reported that shares in Hong Kong-listed Akeso plunged as much as 31.8 per cent on Monday morning after the decision."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Akeso cancer drug FDA rejection",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "f635dd2cd906504e",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-16T04:59:28+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Japan’s economy contracts for the first time in a year",
+     "type": "international",
+     "url": "https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "fbe3280b4d5e6cf6",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-16T00:51:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Japan Economy Contracts for First Time in Four Quarters",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "japan-economy-contraction",
+   "label": "Japan economy contraction",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f635dd2cd906504e",
+      "fbe3280b4d5e6cf6"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Financial Times"
+     ],
+     "published": "2026-11-16T00:51:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed), [Financial Times](https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1) reported that Japan’s economy contracted for the first time in four quarters in the July-September period."
+    },
+    {
+     "articles": [
+      "fbe3280b4d5e6cf6"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T00:51:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed) reported that energy-driven inflation weighed on consumer sentiment."
+    },
+    {
+     "articles": [
+      "f635dd2cd906504e"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-16T04:59:28+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1) reported that weak consumer spending and record-breaking rains damped GDP growth and complicate interest rate plans."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Japan economy contraction",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "7f770324f139f235",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T03:53:59+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "bd63dc0c3088c6c1",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-16T02:12:39+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "China’s factory output, retail sales growth slow in October",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "china-economic-output-and-sales",
+   "label": "China economic output and sales",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7f770324f139f235",
+      "bd63dc0c3088c6c1"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T02:12:39+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html), [Investing.com](https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313) reported that China’s factory output and retail sales growth slowed in October."
+    },
+    {
+     "articles": [
+      "7f770324f139f235"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T03:53:59+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html) reported that retail sales and investment missed estimates and that a deepening reliance on external demand leaves China more exposed to shocks abroad."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "China economic output and sales",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T05:05:51+00:00"
+ "updated": "2026-11-16T09:35:47+00:00"
 }

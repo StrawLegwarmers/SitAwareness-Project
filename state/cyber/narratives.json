@@ -67,24 +67,24 @@
  ],
  "coverage": [
   {
-   "articles": 69,
+   "articles": 87,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
+   "calls": 1,
+   "candidates": 1,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 63,
-   "in_stories": 0,
-   "kept": 0,
+   "groups": 81,
+   "in_stories": 1,
+   "kept": 1,
    "merged": 0,
-   "new": 0,
+   "new": 1,
    "rejected": 0,
    "reported_by_2": 0,
-   "runs": 2,
-   "sent": 0,
+   "runs": 3,
+   "sent": 1,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -187,7 +187,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T05:04:00+00:00"
+  "all": "2026-11-16T09:25:13+00:00"
  },
  "narratives": [
   {
@@ -4170,9 +4170,54 @@
     "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html"
    },
    "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "dfe75d70c6bcacf4",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-16T07:00:37+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "A USB worm’s second life: Retadup spreading CoffeeLoader",
+     "type": null,
+     "url": "https://securelist.com/retadup-delivers-coffeeloader/121908/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "retadup-worm-and-coffeeloader-malware",
+   "label": "Retadup worm and CoffeeLoader malware",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "dfe75d70c6bcacf4"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Kaspersky"
+     ],
+     "published": "2026-11-16T07:00:37+00:00",
+     "text": "[Kaspersky](https://securelist.com/retadup-delivers-coffeeloader/121908/) reported that a new version of CoffeeLoader is spreading through Retadup, a USB worm whose infrastructure was seized by law enforcement in 2019."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Retadup worm and CoffeeLoader malware",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-16T05:04:00+00:00"
+ "updated": "2026-11-16T09:25:29+00:00"
 }
