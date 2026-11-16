@@ -2,6 +2,30 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 188,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-16",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 174,
+   "in_stories": 2,
+   "kept": 2,
+   "merged": 0,
+   "new": 1,
+   "rejected": 0,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 1,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 186,
    "attached_by_code": 0,
    "calls": 4,
@@ -75,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T22:18:00+00:00"
+  "all": "2026-11-16T02:05:19+00:00"
  },
  "narratives": [
   {
@@ -973,14 +997,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1009,7 +1033,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Federal Reserve monetary policy stance",
    "topic": "economy"
   },
@@ -3329,14 +3353,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "european-central-bank-fiscal-policy",
    "label": "European Central Bank fiscal policy",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3355,7 +3379,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "European Central Bank fiscal policy",
    "topic": "economy"
   },
@@ -3389,17 +3413,17 @@
      "url": "https://www.investing.com/news/economy-news/us-judge-again-blocks-trumps-makeover-plan-for-dc-golf-course-5027633"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "washington-public-golf-course-redevelopment",
    "label": "Washington public golf course redevelopment",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Washington public golf course redevelopment",
    "topic": "justice"
   },
@@ -3433,14 +3457,14 @@
      "url": "https://www.scmp.com/business/companies/article/3374507/indebted-hong-kong-developer-new-world-offers-shares-81-discount-us32b-cash-call"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "new-world-rights-issue",
    "label": "New World rights issue",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3457,7 +3481,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "New World rights issue",
    "topic": "markets"
   },
@@ -3491,14 +3515,14 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
    "label": "Jensen Huang discusses comeback as Nvidia CEO with allies",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3515,7 +3539,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
    "topic": "business"
   },
@@ -3549,14 +3573,14 @@
      "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "diamondback-energy-acquisition-of-double-eagle",
    "label": "Diamondback Energy acquisition of Double Eagle",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3573,12 +3597,82 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Diamondback Energy acquisition of Double Eagle",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "da388ad91d268bf5",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-16T01:13:02+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "HKEX Launches First Dim Sum Bond Index to Boost Yuan Debt Market",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/hkex-launches-first-dim-sum-bond-index-to-boost-yuan-debt-market"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "fdfa4009b526d9ff",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-15T23:00:13+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "HKEX launches first dim sum bond index in push to expand global use of yuan",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "hkex-dim-sum-bond-index",
+   "label": "HKEX dim sum bond index",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "da388ad91d268bf5"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-16T01:13:02+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/hkex-launches-first-dim-sum-bond-index-to-boost-yuan-debt-market) reported that the Hong Kong stock exchange launched its first-ever bond index to boost liquidity and trading in the offshore yuan market."
+    },
+    {
+     "articles": [
+      "fdfa4009b526d9ff"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-15T23:00:13+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan) reported that Hong Kong Exchanges and Clearing launched its first bond index to track the performance of offshore yuan-denominated bonds."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "HKEX dim sum bond index",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-15T22:18:17+00:00"
+ "updated": "2026-11-16T02:05:35+00:00"
 }

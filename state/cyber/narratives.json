@@ -1,6 +1,95 @@
 {
- "archived": [],
+ "archived": [
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "iris-plaza-cloud-breach-exposes-customer",
+   "last_updated": "2026-11-09",
+   "title": "Iris Plaza cloud breach exposes customer data"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "pro-russian-hackers-leak-european-officials",
+   "last_updated": "2026-11-09",
+   "title": "Pro-Russian hackers leak European officials' personal data"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "fake-security-tools-on-github-spread",
+   "last_updated": "2026-11-09",
+   "title": "Fake Security Tools on GitHub Spread Malware to Developers"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "ai-hacking-framework-artex-linked-to",
+   "last_updated": "2026-11-09",
+   "title": "AI Hacking Framework ARTEX Linked to Financial Sector Breaches"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "openai-unveils-gpt-6-cyber-model",
+   "last_updated": "2026-11-09",
+   "title": "OpenAI Unveils GPT-6 Cyber Model"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "digicert-reports-multi-month-data-breach",
+   "last_updated": "2026-11-09",
+   "title": "DigiCert Reports Multi-Month Data Breach of Customer Data"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "cr-dit-mutuel-ark-a-targeted",
+   "last_updated": "2026-11-09",
+   "title": "Crédit Mutuel Arkéa Targeted in $133 Million Heist"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-09",
+   "group": "all",
+   "id": "global-cyberattacks-target-industrial-refrigeratio",
+   "last_updated": "2026-11-09",
+   "title": "Global Cyberattacks Target Industrial Refrigeration Systems"
+  }
+ ],
  "coverage": [
+  {
+   "articles": 63,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-16",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 58,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 0,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
   {
    "articles": 86,
    "attached_by_code": 0,
@@ -98,62 +187,9 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-15T22:15:53+00:00"
+  "all": "2026-11-16T02:03:44+00:00"
  },
  "narratives": [
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "id": "7a49aa8cbcb18229",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-09T06:15:10+00:00",
-     "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
-    },
-    {
-     "id": "7b6b6dd86b755cd4",
-     "lang": "en",
-     "outlet": "Unit 42 (Palo Alto)",
-     "published": "2026-11-06T21:15:09+00:00",
-     "title": "Turning Up the Heat: Inside the Attacks on Europe’s Refrigeration System",
-     "type": null,
-     "url": "https://unit42.paloaltonetworks.com/europes-refrigeration-systems-attacks/"
-    },
-    {
-     "id": "ebb2f817286047a9",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-06T13:02:26+00:00",
-     "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
-     "type": null,
-     "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/"
-    },
-    {
-     "id": "db9da2f231300b46",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-06T11:50:00+00:00",
-     "title": "CISA, FBI Urge Action to Protect Industrial Refrigeration Networks",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/cisa-protect-refrigeration-networks/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "global-cyberattacks-target-industrial-refrigeratio",
-   "label": "Global Cyberattacks Target Industrial Refrigeration Systems",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Global Cyberattacks Target Industrial Refrigeration Systems"
-  },
   {
    "article_count": 6,
    "articles": [
@@ -269,330 +305,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "id": "76d14689b5dacbdd",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-09T10:30:00+00:00",
-     "title": "Crédit Mutuel Arkéa Targeted in Reported $133m Heist",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/crdit-mutuel-arka-targeted/"
-    },
-    {
-     "id": "982789889b0dc00a",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-08T10:25:47+00:00",
-     "title": "Attackers Exploit Third-Party Provider to Raid French Bank Crédit Mutuel Arkéa",
-     "type": null,
-     "url": "https://securityaffairs.com/202628/cyber-crime/attackers-exploit-third-party-provider-to-raid-french-bank-credit-mutuel-arkea.html"
-    },
-    {
-     "id": "9db07168658b7a1d",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-07T15:25:35+00:00",
-     "title": "Hackers pull off $133 million French bank heist via service provider",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "cr-dit-mutuel-ark-a-targeted",
-   "label": "Crédit Mutuel Arkéa Targeted in $133 Million Heist",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Crédit Mutuel Arkéa Targeted in $133 Million Heist"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "id": "51abfb1954435e60",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-06T18:56:00+00:00",
-     "title": "Certificate authority DigiCert reports data breach involving business customer info",
-     "type": null,
-     "url": "https://therecord.media/digicert-certificate-authority-reports-data-breach"
-    },
-    {
-     "id": "f0f5b1b0241bd153",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-06T14:00:07+00:00",
-     "title": "DigiCert Data Breach Impacts Business Customer Information",
-     "type": null,
-     "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/"
-    },
-    {
-     "id": "e22a387f69b9b09b",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-06T13:15:00+00:00",
-     "title": "DigiCert admits 16-month security lapse exposed customer information",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "digicert-reports-multi-month-data-breach",
-   "label": "DigiCert Reports Multi-Month Data Breach of Customer Data",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "DigiCert Reports Multi-Month Data Breach of Customer Data"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "id": "ba6ea693cf6ed66d",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-06T20:24:19+00:00",
-     "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/"
-    },
-    {
-     "id": "dd1319bddc80ef65",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-06T14:58:32+00:00",
-     "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
-    },
-    {
-     "id": "2627bf365606ba84",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-06T13:19:52+00:00",
-     "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-     "type": null,
-     "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "openai-unveils-gpt-6-cyber-model",
-   "label": "OpenAI Unveils GPT-6 Cyber Model",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "OpenAI Unveils GPT-6 Cyber Model"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "id": "b4db3e48ec55ce94",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-07T19:56:18+00:00",
-     "title": "Inside ARTEX: AI Hacking Tools, Exposed Servers and South Korean Bank Breaches",
-     "type": null,
-     "url": "https://securityaffairs.com/202607/ai/inside-artex-ai-hacking-tools-exposed-servers-and-south-korean-bank-breaches.html"
-    },
-    {
-     "id": "f4ef4cea894db00c",
-     "lang": "en",
-     "outlet": "Microsoft Threat Intelligence",
-     "published": "2026-11-07T02:44:34+00:00",
-     "title": "ARTEX abuse expands as cybercriminals target financial sector",
-     "type": null,
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/"
-    },
-    {
-     "id": "09bddd88eca508d6",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-06T13:00:00+00:00",
-     "title": "ARTEX Offensive AI Tool Activity Far Exceeds Reported Campaigns, Censys Finds",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/artex-activity-exceeds-reported/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "ai-hacking-framework-artex-linked-to",
-   "label": "AI Hacking Framework ARTEX Linked to Financial Sector Breaches",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "AI Hacking Framework ARTEX Linked to Financial Sector Breaches"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "id": "69fab6c4d21796a6",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-09T08:07:39+00:00",
-     "title": "Fake GitHub Security Tools Infect Over 2,000 PCs With Malware",
-     "type": null,
-     "url": "https://securityaffairs.com/202717/malware/fake-github-security-tools-infect-over-2000-pcs-with-malware.html"
-    },
-    {
-     "id": "f5f59fcd129debfc",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-06T18:46:52+00:00",
-     "title": "Fake security tools on GitHub push backdoors and infostealers",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "fake-security-tools-on-github-spread",
-   "label": "Fake Security Tools on GitHub Spread Malware to Developers",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Fake Security Tools on GitHub Spread Malware to Developers"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-09",
-     "id": "0ed8641fa6efd8d8",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-09T13:15:00+00:00",
-     "section": "news",
-     "title": "Pro-Russian hackers target European officials, offer rewards for personal information",
-     "type": null,
-     "url": "https://therecord.media/hackers-russia-italy-noname"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "1479c2c346064d0e",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-09T12:22:12+00:00",
-     "section": "news",
-     "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
-     "type": null,
-     "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "pro-russian-hackers-leak-european-officials",
-   "label": "Pro-Russian hackers leak European officials' personal data",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "0ed8641fa6efd8d8"
-     ],
-     "date": "2026-11-09",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "text": "According to [The Record](https://therecord.media/hackers-russia-italy-noname), pro-Russian hackers published the personal information of Italian Foreign Minister Antonio Tajani and other senior European officials on the dark web and offered rewards for personal information."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Pro-Russian hackers leak European officials' personal data"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-09",
-     "id": "2b8bce78437207a3",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-09T12:47:00+00:00",
-     "section": "news",
-     "title": "Japanese homeware giant pulls online store after cloud breach puts 7.7M records at risk",
-     "type": null,
-     "url": "https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377"
-    },
-    {
-     "added": "2026-11-09",
-     "id": "59e4e17bfa11197c",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-09T12:41:27+00:00",
-     "section": "news",
-     "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
-     "type": null,
-     "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-09",
-   "group": "all",
-   "id": "iris-plaza-cloud-breach-exposes-customer",
-   "label": "Iris Plaza cloud breach exposes customer data",
-   "last_updated": "2026-11-09",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "2b8bce78437207a3"
-     ],
-     "date": "2026-11-09",
-     "group": "all",
-     "outlets": [
-      "The Register Security"
-     ],
-     "text": "[The Register Security](https://www.theregister.com/cyber-crime/2026/11/09/japanese-homeware-giant-pulls-online-store-after-cloud-breach-puts-77m-records-at-risk/5308377) reported that a Japanese homeware giant pulled its online store after a cloud breach put 7.7 million records at risk."
-    },
-    {
-     "articles": [
-      "59e4e17bfa11197c"
-     ],
-     "date": "2026-11-09",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "text": "According to [SecurityWeek](https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/), hackers compromised an external cloud service used by the shopping platform Iris Plaza and may have stolen personal information from it, potentially exposing data of 7.7 million customers."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Iris Plaza cloud breach exposes customer data"
   },
   {
    "article_count": 7,
@@ -3665,14 +3377,14 @@
      "url": "https://cybersecuritynews.com/tsmc-data-breach/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "tsmc-data-breach",
    "label": "TSMC data breach",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3711,9 +3423,9 @@
      "text": "[The Record](https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider) reported that an investigation found no TSMC systems were compromised in the incident."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "TSMC data breach",
    "topic": "cyber"
   },
@@ -4302,14 +4014,14 @@
      "url": "https://cybersecuritynews.com/cursor-data-breach/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "cursor-security-breach",
    "label": "Cursor security breach",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4348,9 +4060,9 @@
      "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) reported that Cursor confirmed the security breach enabled hackers to distribute a malicious Claude Code extension via its marketplace following credential theft."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Cursor security breach",
    "topic": "cyber"
   },
@@ -4400,14 +4112,14 @@
      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "meta-fine-in-italy",
    "label": "Meta fine in Italy",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-15",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4448,7 +4160,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
    "title_from": {
     "backing": 2,
@@ -4462,5 +4174,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-15T22:15:54+00:00"
+ "updated": "2026-11-16T02:03:45+00:00"
 }
