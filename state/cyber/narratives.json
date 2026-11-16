@@ -67,24 +67,24 @@
  ],
  "coverage": [
   {
-   "articles": 177,
+   "articles": 201,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 9,
-   "continuing": 4,
+   "calls": 5,
+   "candidates": 12,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-16",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
-   "groups": 166,
-   "in_stories": 10,
-   "kept": 8,
+   "groups": 184,
+   "in_stories": 13,
+   "kept": 10,
    "merged": 0,
-   "new": 3,
+   "new": 4,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 6,
-   "sent": 9,
+   "runs": 7,
+   "sent": 12,
    "skipped": 0,
    "split_calls": 0,
    "updated": 3,
@@ -187,7 +187,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T19:39:50+00:00"
+  "all": "2026-11-16T22:27:33+00:00"
  },
  "narratives": [
   {
@@ -4226,7 +4226,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-16",
@@ -4256,6 +4256,19 @@
     },
     {
      "added": "2026-11-16",
+     "id": "959de580e2cbe86e",
+     "lang": "en",
+     "outlet": "Kaspersky Blog",
+     "published": "2026-11-16T07:00:53+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "The Retadup worm revives from old USB drives to download CoffeeLoader | Kaspersky official blog",
+     "type": null,
+     "url": "https://www.kaspersky.com/blog/retadup-worm-resurrected-brings-coffeeloader-infections/56677/"
+    },
+    {
+     "added": "2026-11-16",
      "id": "dfe75d70c6bcacf4",
      "lang": "en",
      "outlet": "Kaspersky Securelist",
@@ -4268,7 +4281,7 @@
      "url": "https://securelist.com/retadup-delivers-coffeeloader/121908/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "retadup-worm-and-coffeeloader-malware",
@@ -4466,9 +4479,79 @@
    "status": "new",
    "title": "Google Project Zero vulnerability disclosure timeline",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "0c822cee4c51de99",
+     "lang": "en",
+     "outlet": "CyberScoop",
+     "published": "2026-11-16T22:07:43+00:00",
+     "publisher": "CyberScoop",
+     "region": null,
+     "section": "news",
+     "title": "California sues OpenAI over AI agents’ summer hacking spree",
+     "type": null,
+     "url": "https://cyberscoop.com/california-ag-rob-bonta-sues-openai/"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "9a0ba3bf2b8f8459",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-16T20:59:44+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "california-lawsuit-against-openai",
+   "label": "California lawsuit against OpenAI",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9a0ba3bf2b8f8459"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-16T20:59:44+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/) reported that California Attorney General Rob Bonta sued OpenAI, alleging the company knowingly continued testing advanced artificial intelligence models despite safety risks."
+    },
+    {
+     "articles": [
+      "0c822cee4c51de99"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CyberScoop"
+     ],
+     "published": "2026-11-16T22:07:43+00:00",
+     "text": "[CyberScoop](https://cyberscoop.com/california-ag-rob-bonta-sues-openai/) reported that the lawsuit accuses the company of stonewalling state investigations and endangering state and private IT systems."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "California lawsuit against OpenAI",
+   "topic": "technology-policy"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-16T19:40:06+00:00"
+ "updated": "2026-11-16T22:27:51+00:00"
 }

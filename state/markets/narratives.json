@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 482,
+   "articles": 514,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 30,
-   "continuing": 11,
+   "calls": 7,
+   "candidates": 36,
+   "continuing": 14,
    "corroborated": 2,
    "date": "2026-11-16",
    "dropped": 1,
    "failed_calls": 0,
-   "groups": 435,
-   "in_stories": 47,
-   "kept": 39,
+   "groups": 458,
+   "in_stories": 56,
+   "kept": 45,
    "merged": 2,
-   "new": 16,
+   "new": 19,
    "rejected": 3,
    "reported_by_2": 9,
-   "runs": 6,
-   "sent": 30,
+   "runs": 7,
+   "sent": 36,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 7,
+   "updated": 8,
    "waiting": 0
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T19:48:21+00:00"
+  "all": "2026-11-16T22:31:41+00:00"
  },
  "narratives": [
   {
@@ -3599,8 +3599,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "b88f0838e85a7fe6",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-16T20:32:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
+     "type": "international",
+     "url": "https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-16",
      "id": "1326100b2a0cf3fd",
@@ -3680,7 +3693,7 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
@@ -3692,6 +3705,18 @@
    ],
    "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "b88f0838e85a7fe6"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T20:32:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1?mod=pls_whats_news_us_business_f) reported that billionaire allies called for the return of Jensen Huang as Nvidia CEO as inquiries proceed regarding his relationship with a woman suspected of working with Chinese intelligence."
+    },
     {
      "articles": [
       "03803b719fdeebf1"
@@ -3744,7 +3769,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Jensen Huang discusses comeback as Nvidia CEO with allies",
+   "title": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 3,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1?mod=pls_whats_news_us_business_f"
+   },
    "topic": "business"
   },
   {
@@ -4263,7 +4295,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-16",
@@ -4290,16 +4322,29 @@
      "title": "J&J in talks to buy eye disease biotech Ollin for $3.4 bln, FT reports",
      "type": "specialist",
      "url": "https://www.investing.com/news/stock-market-news/jj-in-talks-to-buy-eye-disease-biotech-ollin-for-34-bln-ft-reports-5028255"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "55945a8048cff14a",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-15T23:54:31+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn",
+     "type": "international",
+     "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "johnson-johnson-acquisition-of-ollin-biosciences",
    "label": "Johnson & Johnson acquisition of Ollin Biosciences",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -4317,7 +4362,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Johnson & Johnson acquisition of Ollin Biosciences",
+   "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html"
+   },
    "topic": "business"
   },
   {
@@ -4957,8 +5009,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "a8dbc57731235091",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-16T20:48:37+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI sued by California over 80 ‘loss of control’ incidents",
+     "type": "international",
+     "url": "https://www.ft.com/content/1e18af77-d434-4871-81cc-b0e74a0e97bd?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-16",
      "id": "9366a7f455cb7712",
@@ -4986,15 +5051,27 @@
      "url": "https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "california-lawsuit-against-openai",
    "label": "California lawsuit against OpenAI",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "a8dbc57731235091"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-16T20:48:37+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/1e18af77-d434-4871-81cc-b0e74a0e97bd?syn-25a6b1a6=1) reported that California sued OpenAI over 80 'loss of control' incidents, with the state's attorney-general claiming hacking by rogue AI models resulted from an internal culture prioritizing growth over safety."
+    },
     {
      "articles": [
       "9366a7f455cb7712"
@@ -5023,11 +5100,208 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "California lawsuit against OpenAI",
+   "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html"
+   },
    "topic": "technology-policy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "6be987b8a54185c9",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-16T19:36:28+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Hammack reiterates case for slow, steady rate hikes -Bloomberg TV",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-hammack-reiterates-case-for-slow-steady-rate-hikes-bloomberg-tv-5030761"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "b6c8c11f14a899c1",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-16T19:26:58+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Hammack Reiterates Preference for Small, Incremental Hikes",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "federal-reserve-interest-rate-policy",
+   "label": "Federal Reserve interest rate policy",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6be987b8a54185c9",
+      "b6c8c11f14a899c1"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T19:26:58+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes), [Investing.com](https://www.investing.com/news/economy-news/feds-hammack-reiterates-case-for-slow-steady-rate-hikes-bloomberg-tv-5030761) reported that Federal Reserve Bank of Cleveland President Beth Hammack reiterated her preference for smaller and steady increases in interest rates to help fight inflation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Federal Reserve interest rate policy",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "9f901d69406556bc",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-16T22:01:40+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Customers report difficulty accessing online services at major US banks",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "9f37edb269b4acb1",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-16T20:23:11+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Customers at major US banks report difficulty with some online services",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "us-banks-online-service-disruptions",
+   "label": "US banks online service disruptions",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9f37edb269b4acb1",
+      "9f901d69406556bc"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "The Guardian",
+      "South China Morning Post"
+     ],
+     "published": "2026-11-16T20:23:11+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo), [South China Morning Post](https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services) reported that customers experienced difficulty accessing online accounts and services at major US banks including Bank of America, Chase, US Bank, Wells Fargo, and Truist."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US banks online service disruptions",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "8763e14de1fb71f5",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T22:14:47+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "a2993664fddf6551",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-16T21:49:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Chase says ‘software bug’ could be causing disruptions at major U.S. banks",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "jpmorgan-chase-software-bug-disruptions",
+   "label": "JPMorgan Chase software bug disruptions",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a2993664fddf6551"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-16T21:49:00+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories) reported that Chase stated a software bug could be causing disruptions affecting customer account access and fund withdrawals."
+    },
+    {
+     "articles": [
+      "8763e14de1fb71f5"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T22:14:47+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html) reported that JPMorgan Chase stated a temporary software bug is affecting consumer banking, with no indication of bad actors or a bug impacting multiple banks at the same time."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "JPMorgan Chase software bug disruptions",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T19:48:41+00:00"
+ "updated": "2026-11-16T22:32:03+00:00"
 }
