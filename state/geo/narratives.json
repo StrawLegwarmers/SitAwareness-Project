@@ -82,27 +82,29 @@
   {
    "articles": 4027,
    "attached_by_code": 1,
-   "calls": 17,
-   "candidates": 644,
-   "continuing": 415,
+   "calls": 24,
+   "candidates": 893,
+   "continuing": 564,
    "corroborated": 15,
    "date": "2026-11-16",
    "dropped": 9,
    "errors": [
-    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 2: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "call 3: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 3,
-   "groups": 3138,
+   "failed_calls": 10,
+   "groups": 3156,
    "in_stories": 891,
    "kept": 505,
-   "merged": 23,
+   "merged": 24,
    "new": 131,
    "rejected": 59,
    "reported_by_2": 155,
-   "runs": 4,
-   "sent": 644,
+   "runs": 5,
+   "sent": 893,
    "skipped": 26,
    "split_calls": 0,
    "updated": 278,
@@ -64874,7 +64876,8 @@
     "Cape Verde votes in an election that could see its first woman president since independence in 1975",
     "Cape Verde votes as first female presidential candidate challenges incumbent",
     "Cape Verde election: Jose Maria Neves set to win second term",
-    "Neves wins second term as Cape Verde's president: provisional results"
+    "Neves wins second term as Cape Verde's president: provisional results",
+    "José Maria Neves re-elected President of Cape Verde for second five-year term"
    ],
    "reports": [
     {
@@ -65080,13 +65083,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "cabo-verde",
-   "title": "José Maria Neves re-elected President of Cape Verde for second five-year term",
+   "title": "Cape Verde President Neves wins second term, challenger Rosa concedes defeat",
    "title_from": {
     "backing": 10,
     "date": "2026-11-16",
     "of": 12,
-    "outlet": "Hindustan Times",
-    "url": "https://www.hindustantimes.com/world-news/jos-maria-neves-re-elected-president-of-cape-verde-for-second-five-year-term-101794809266807.html"
+    "outlet": "Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcWxnVEpfWXdSVkNERnExVXJGbFJzUW5MTFR3MEtGWHBYMFZWZkZHRldTal9oLS00VnJQdnM1MmNJVkhkRFlkVjJEYjVMLWo4Tk5xUzV1OG9Xa1BxYUdmZ3FSaVp5Q0htZGYwcFpZSFZCYnFrR0szX1FRRk1yNHcteXRWWkpvZkFvck5scnFydzRnME55WktPVngxTklNSWxwVUl5Z3B3TWJHZVQwNDY0NG5CbGNuNmphV0o4?oc=5"
    },
    "topic": "elections"
   },
@@ -101669,7 +101672,7 @@
    "topic": "security"
   },
   {
-   "article_count": 23,
+   "article_count": 25,
    "articles": [
     {
      "added": "2026-11-16",
@@ -101699,6 +101702,19 @@
      "title": "(LEAD) Police secure miniature camera in tax accountant exam cheating probe",
      "type": "local",
      "url": "https://en.yna.co.kr/view/AEN20261116005951315"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "4051c78af6fdf18e",
+     "lang": "en",
+     "outlet": "CNA",
+     "published": "2026-11-16T06:55:00+00:00",
+     "publisher": "CNA",
+     "region": "asia",
+     "section": null,
+     "title": "South Korea to inspect glasses worn by exam candidates after AI cheating scandal",
+     "type": "regional",
+     "url": "https://www.channelnewsasia.com/east-asia/south-korea-national-exam-ai-cheating-scandal-6554101"
     },
     {
      "added": "2026-11-16",
@@ -101773,6 +101789,19 @@
      "title": "Tax exam runner-up draws support after top scorer admits to cheating",
      "type": "local",
      "url": "https://www.koreaherald.com/article/10938661"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "00968c8fa32724b1",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-16T04:51:59+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Glasses worn by exam candidates come under scanner in South Korea after AI cheating scandal",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/glasses-worn-by-exam-candidates-come-under-scanner-in-south-korea-after-ai-cheating-scandal-101794803535654.html"
     },
     {
      "added": "2026-11-16",
@@ -101995,20 +102024,37 @@
      "url": "https://www.koreaherald.com/article/10937374"
     }
    ],
-   "articles_today": 9,
+   "articles_today": 11,
    "first_seen": "2026-11-15",
    "group": "asia",
    "id": "south-korea-tax-accountant-exam-cheating",
    "label": "South Korea tax accountant exam cheating",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 5,
+   "merged": [
+    "south-korea-college-entrance-exam-inspections"
+   ],
+   "outlets_today": 7,
    "previous_titles": [
     "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
     "(LEAD) Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
     "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating"
    ],
    "reports": [
+    {
+     "articles": [
+      "00968c8fa32724b1",
+      "4051c78af6fdf18e"
+     ],
+     "date": "2026-11-16",
+     "group": "asia",
+     "outlets": [
+      "Hindustan Times",
+      "CNA"
+     ],
+     "published": "2026-11-16T04:51:59+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/glasses-worn-by-exam-candidates-come-under-scanner-in-south-korea-after-ai-cheating-scandal-101794803535654.html), [CNA](https://www.channelnewsasia.com/east-asia/south-korea-national-exam-ai-cheating-scandal-6554101) reported that South Korea's Education Minister announced the ministry will inspect all glasses worn by candidates in the college entrance exam following an AI cheating scandal."
+    },
     {
      "articles": [
       "53b4dc5c27af81a3"
@@ -119590,6 +119636,9 @@
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
    "outlets_today": 4,
+   "previous_titles": [
+    "Ukraine disables over 55% of Russia’s oil refining capacity – Zelensky"
+   ],
    "reports": [
     {
      "articles": [
@@ -119634,13 +119683,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "russia",
-   "title": "Ukraine disables over 55% of Russia’s oil refining capacity – Zelensky",
+   "title": "Ukraine has halted over 55% of Russia's oil refining capacity – Zelenskyy",
    "title_from": {
     "backing": 2,
     "date": "2026-11-16",
     "of": 3,
-    "outlet": "Ukrinform",
-    "url": "https://www.ukrinform.net/rubric-ato/4184999-ukraine-disables-over-55-of-russias-oil-refining-capacity-zelensky.html"
+    "outlet": "Ukrainska Pravda",
+    "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062991/"
    },
    "topic": "conflict"
   },
@@ -121373,6 +121422,9 @@
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
    "outlets_today": 4,
+   "previous_titles": [
+    "US and Russia set to oppose UN talks on binding rules for autonomous weapons"
+   ],
    "reports": [
     {
      "articles": [
@@ -121414,13 +121466,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "US and Russia set to oppose UN talks on binding rules for autonomous weapons",
+   "title": "US and Russia to oppose talks on limiting autonomous weapons",
    "title_from": {
     "backing": 2,
     "date": "2026-11-16",
-    "of": 2,
-    "outlet": "Daily Times (Pakistan)",
-    "url": "https://dailytimes.com.pk/1581944/us-and-russia-set-to-oppose-un-talks-on-binding-rules-for-autonomous-weapons/"
+    "of": 3,
+    "outlet": "Al-Monitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/us-and-russia-oppose-talks-limiting-autonomous-weapons"
    },
    "topic": "diplomacy"
   },
@@ -123712,6 +123764,9 @@
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
    "outlets_today": 19,
+   "previous_titles": [
+    "Ukraine reportedly strikes Crimean Bridge, forcing temporary traffic halt"
+   ],
    "reports": [
     {
      "articles": [
@@ -123756,13 +123811,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "russia",
-   "title": "Ukraine reportedly strikes Crimean Bridge, forcing temporary traffic halt",
+   "title": "Crimean Bridge Shut After Ukrainian Strike as Russia Claims 1,336 Drones Downed Overnight",
    "title_from": {
-    "backing": 11,
+    "backing": 15,
     "date": "2026-11-16",
     "of": 18,
-    "outlet": "Kyiv Independent",
-    "url": "https://kyivindependent.com/ukraine-reportedly-strikes-crimean-bridge-forcing-temporary-traffic-halt/"
+    "outlet": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/90199"
    },
    "topic": "conflict"
   },
@@ -126766,67 +126821,6 @@
    "articles": [
     {
      "added": "2026-11-16",
-     "id": "4051c78af6fdf18e",
-     "lang": "en",
-     "outlet": "CNA",
-     "published": "2026-11-16T06:55:00+00:00",
-     "publisher": "CNA",
-     "region": "asia",
-     "section": null,
-     "title": "South Korea to inspect glasses worn by exam candidates after AI cheating scandal",
-     "type": "regional",
-     "url": "https://www.channelnewsasia.com/east-asia/south-korea-national-exam-ai-cheating-scandal-6554101"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "00968c8fa32724b1",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-16T04:51:59+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Glasses worn by exam candidates come under scanner in South Korea after AI cheating scandal",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/glasses-worn-by-exam-candidates-come-under-scanner-in-south-korea-after-ai-cheating-scandal-101794803535654.html"
-    }
-   ],
-   "articles_today": 2,
-   "first_seen": "2026-11-16",
-   "group": "asia",
-   "id": "south-korea-college-entrance-exam-inspections",
-   "label": "South Korea college entrance exam inspections",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 2,
-   "reports": [
-    {
-     "articles": [
-      "00968c8fa32724b1",
-      "4051c78af6fdf18e"
-     ],
-     "date": "2026-11-16",
-     "group": "asia",
-     "outlets": [
-      "Hindustan Times",
-      "CNA"
-     ],
-     "published": "2026-11-16T04:51:59+00:00",
-     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/glasses-worn-by-exam-candidates-come-under-scanner-in-south-korea-after-ai-cheating-scandal-101794803535654.html), [CNA](https://www.channelnewsasia.com/east-asia/south-korea-national-exam-ai-cheating-scandal-6554101) reported that South Korea's Education Minister announced the ministry will inspect all glasses worn by candidates in the college entrance exam following an AI cheating scandal."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "south-korea",
-   "title": "South Korea college entrance exam inspections",
-   "topic": "politics"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
      "id": "2e1fd39da35c932f",
      "lang": "en",
      "outlet": "Africanews",
@@ -128550,5 +128544,5 @@
  ],
  "retry": [],
  "site": "geo",
- "updated": "2026-11-16T11:05:22+00:00"
+ "updated": "2026-11-16T15:58:01+00:00"
 }

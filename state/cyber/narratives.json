@@ -67,27 +67,27 @@
  ],
  "coverage": [
   {
-   "articles": 106,
+   "articles": 152,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 3,
-   "continuing": 2,
+   "calls": 3,
+   "candidates": 7,
+   "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 97,
-   "in_stories": 3,
-   "kept": 2,
+   "groups": 143,
+   "in_stories": 6,
+   "kept": 4,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 0,
-   "reported_by_2": 0,
-   "runs": 4,
-   "sent": 3,
+   "reported_by_2": 1,
+   "runs": 5,
+   "sent": 7,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -187,7 +187,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T11:01:25+00:00"
+  "all": "2026-11-16T15:42:21+00:00"
  },
  "narratives": [
   {
@@ -3042,8 +3042,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "7429cf0d22e23d34",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-16T08:11:01+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "SilentAir and LIMINAL PANDA Target Telecom Networks to Spy on Subscribers",
+     "type": null,
+     "url": "https://securityaffairs.com/203099/apt/silentair-and-liminal-panda-target-telecom-networks-to-spy-on-subscribers.html"
+    },
     {
      "added": "2026-11-13",
      "id": "1e29813560889ec8",
@@ -3084,14 +3097,14 @@
      "url": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "silentair-and-liminal-panda-telecom-attacks",
    "label": "SilentAir and Liminal Panda telecom attacks",
    "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -3118,9 +3131,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html) reported that a newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
    "title_from": {
     "backing": 2,
@@ -4256,9 +4269,79 @@
    "status": "new",
    "title": "Retadup worm and CoffeeLoader malware",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "053b00b47a4cb051",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-16T12:34:21+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "d867b43cb9304de0",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-15T15:23:22+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems",
+     "type": null,
+     "url": "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "danfoss-refrigeration-controller-vulnerabilities",
+   "label": "Danfoss refrigeration controller vulnerabilities",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d867b43cb9304de0"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-15T15:23:22+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/) reported that six pre-authentication remote code execution flaws were found in the Danfoss AK-SM800A supermarket fridge controller."
+    },
+    {
+     "articles": [
+      "053b00b47a4cb051"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-16T12:34:21+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html) reported that Dutch security consultancy Midni identified six unpatched flaws in Danfoss AK-SM800A refrigeration controllers."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Danfoss refrigeration controller vulnerabilities",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-16T11:01:41+00:00"
+ "updated": "2026-11-16T15:42:38+00:00"
 }

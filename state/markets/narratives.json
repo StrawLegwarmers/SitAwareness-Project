@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 362,
+   "articles": 447,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 9,
-   "continuing": 5,
-   "corroborated": 0,
+   "calls": 5,
+   "candidates": 19,
+   "continuing": 8,
+   "corroborated": 1,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 337,
-   "in_stories": 14,
-   "kept": 12,
+   "groups": 409,
+   "in_stories": 30,
+   "kept": 26,
    "merged": 0,
-   "new": 4,
+   "new": 10,
    "rejected": 2,
-   "reported_by_2": 3,
-   "runs": 4,
-   "sent": 9,
-   "skipped": 0,
+   "reported_by_2": 8,
+   "runs": 5,
+   "sent": 19,
+   "skipped": 1,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 5,
    "waiting": 0
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T11:05:22+00:00"
+  "all": "2026-11-16T15:58:01+00:00"
  },
  "narratives": [
   {
@@ -3657,8 +3657,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "64bb0c77dbc98e26",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-16T11:57:49+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Diamondback Agrees to Buy Double Eagle Assets for $5 Billion",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/diamondback-agrees-to-buy-parts-of-shale-producer-double-eagle"
+    },
     {
      "added": "2026-11-15",
      "id": "090b149870a93367",
@@ -3686,15 +3699,27 @@
      "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "diamondback-energy-acquisition-of-double-eagle",
    "label": "Diamondback Energy acquisition of Double Eagle",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "64bb0c77dbc98e26"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-16T11:57:49+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/diamondback-agrees-to-buy-parts-of-shale-producer-double-eagle) reported that Diamondback Energy Inc. agreed to buy assets in the Permian Basin from Double Eagle for about $5 billion in cash and stock."
+    },
     {
      "articles": [
       "090b149870a93367"
@@ -3708,15 +3733,41 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion) reported that Diamondback Energy Inc. is in talks to acquire oil driller Double Eagle V for about $5 billion."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Diamondback Energy acquisition of Double Eagle",
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "38cdd77769a79b35",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T12:02:10+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Hong Kong debuts offshore yuan bond index to promote RMB assets",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/hong-kong-debuts-offshore-yuan-bond-index-to-promote-rmb-assets/articleshow/135888402.cms"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "25d31f43f365d302",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-16T11:00:09+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Yuan overtakes US dollar in Hong Kong bond listings as Beijing pushes currency’s global role",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/banking-finance/article/3374585/yuan-overtakes-us-dollar-hong-kong-bond-listings-beijing-pushes-currencys-global-role"
+    },
     {
      "added": "2026-11-16",
      "id": "95da03db83bdb8a5",
@@ -3757,16 +3808,36 @@
      "url": "https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "hkex-dim-sum-bond-index",
    "label": "HKEX dim sum bond index",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
     {
+     "articles": [
+      "25d31f43f365d302"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-16T11:00:09+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/banking-finance/article/3374585/yuan-overtakes-us-dollar-hong-kong-bond-listings-beijing-pushes-currencys-global-role) reported that Hong Kong listed bond issuance in offshore yuan surpassed US dollar-denominated sales."
+    },
+    {
+     "also": [
+      {
+       "date": "2026-11-16",
+       "outlet": "ET Markets",
+       "published": "2026-11-16T12:02:10+00:00",
+       "url": "https://economictimes.indiatimes.com/markets/bonds/hong-kong-debuts-offshore-yuan-bond-index-to-promote-rmb-assets/articleshow/135888402.cms"
+      }
+     ],
      "articles": [
       "da388ad91d268bf5"
      ],
@@ -3805,8 +3876,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "1eb050b32e1febd9",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-16T15:06:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories"
+    },
     {
      "added": "2026-11-16",
      "id": "43d06304f1f762ce",
@@ -3834,15 +3918,27 @@
      "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "akeso-cancer-drug-fda-rejection",
    "label": "Akeso cancer drug FDA rejection",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "1eb050b32e1febd9"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-16T15:06:00+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories) reported that the FDA declined to approve a lung-cancer drug for Summit Therapeutics."
+    },
     {
      "articles": [
       "43d06304f1f762ce"
@@ -3859,7 +3955,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Akeso cancer drug FDA rejection",
+   "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 2,
+    "outlet": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories"
+   },
    "topic": "business"
   },
   {
@@ -4017,9 +4120,417 @@
    "status": "new",
    "title": "China economic output and sales",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "89c9b2b6b6b79cbb",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T13:51:34+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "411ec8ffd4f39f31",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-16T00:53:54+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "J&J in talks to buy eye disease biotech Ollin for $3.4 bln, FT reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/jj-in-talks-to-buy-eye-disease-biotech-ollin-for-34-bln-ft-reports-5028255"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "johnson-johnson-acquisition-of-ollin-biosciences",
+   "label": "Johnson & Johnson acquisition of Ollin Biosciences",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "89c9b2b6b6b79cbb"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T13:51:34+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html) reported that Johnson & Johnson agreed to acquire Ollin Biosciences for $2.2 billion upfront with milestone payments of up to about $1.13 billion."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Johnson & Johnson acquisition of Ollin Biosciences",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "7c303ee9a04ad7db",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T11:57:08+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Morgan Stanley raises global equities to 'maximum overweight' on cheap valuations, earnings strength",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/morgan-stanley-raises-global-equities-to-maximum-overweight-on-cheap-valuations-earnings-strength/articleshow/135888237.cms"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "f700267c9e07c971",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-16T09:05:50+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "morgan-stanley-upgrades-japan-equities-to",
+   "label": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f700267c9e07c971"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-16T09:05:50+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635) reported that Morgan Stanley upgraded Japan equities to overweight and projected a 22 percent TOPIX upside."
+    },
+    {
+     "articles": [
+      "7c303ee9a04ad7db"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-16T11:57:08+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/morgan-stanley-raises-global-equities-to-maximum-overweight-on-cheap-valuations-earnings-strength/articleshow/135888237.cms) reported that Morgan Stanley raised global equities to maximum overweight for 2027."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "f2355f4d0f1031c9",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T13:04:02+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Blackstone REIT to buy majority stake in $5 billion Amazon data center portfolio",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/blackstone-reit-to-buy-majority-stake-in-5-billion-amazon-data-center-portfolio/articleshow/135890381.cms"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "dca658b6d557006b",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-16T12:40:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Blackstone Digital Infrastructure Trust to Acquire Data Center Portfolio from Amazon for $5 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "blackstone-acquisition-of-amazon-data-centers",
+   "label": "Blackstone acquisition of Amazon data centers",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "dca658b6d557006b"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T12:40:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519?mod=pls_whats_news_us_business_f) reported that Blackstone Digital Infrastructure Trust agreed to acquire a majority stake in an Amazon data center portfolio for about $5 billion."
+    },
+    {
+     "articles": [
+      "f2355f4d0f1031c9"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-16T13:04:02+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/blackstone-reit-to-buy-majority-stake-in-5-billion-amazon-data-center-portfolio/articleshow/135890381.cms) reported that Blackstone Digital Infrastructure Trust announced its commitment to acquire a 75.1 percent stake in joint ventures with Amazon Web Services."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Blackstone acquisition of Amazon data centers",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "9606d549c10f544c",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T14:56:21+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "2a2570086dc498d6",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T12:55:53+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Warren Buffett donates $5.47 billion in Berkshire Hathaway shares to charities, confidence in successors remains 'strong as ever'",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-donates-more-berkshire-shares-confidence-in-successors-as-strong-as-ever/articleshow/135890059.cms"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "warren-buffett-charitable-donations",
+   "label": "Warren Buffett charitable donations",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9606d549c10f544c"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T14:56:21+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html) reported that Warren Buffett donated $5.5 billion and retains ownership of 182,140 Class A shares."
+    },
+    {
+     "articles": [
+      "2a2570086dc498d6"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-16T12:55:53+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-donates-more-berkshire-shares-confidence-in-successors-as-strong-as-ever/articleshow/135890059.cms) reported that Warren Buffett donated approximately $5.47 billion in Berkshire Hathaway shares to charities."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Warren Buffett charitable donations",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "4fb3ecd4eb5547c2",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-16T15:31:20+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump says he wouldn't mind seeing Huang return to Nvidia",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "03803b719fdeebf1",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-16T15:03:59+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
+     "type": "international",
+     "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "trump-says-he-wouldn-t-mind",
+   "label": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "03803b719fdeebf1"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-16T15:03:59+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1) reported that US President Donald Trump stated he would not mind seeing Jensen Huang reinstated as Nvidia chief."
+    },
+    {
+     "articles": [
+      "4fb3ecd4eb5547c2"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-16T15:31:20+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss) reported that a number of tech figures want the board of the AI chip giant to give Jensen Huang his job back."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "d893bb8e436e696b",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-16T15:22:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Bank of Canada Gov. Macklem to Leave in June, Kicking Off Search for New Leader",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "5c933c4d9a93f050",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-16T15:05:11+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Tiff Macklem to Leave as Bank of Canada Governor, Starting Succession Race",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/tiff-macklem-to-leave-as-bank-of-canada-governor-starting-succession-race"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "bank-of-canada-leadership-succession",
+   "label": "Bank of Canada leadership succession",
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5c933c4d9a93f050"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-16T15:05:11+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/tiff-macklem-to-leave-as-bank-of-canada-governor-starting-succession-race) reported that Bank of Canada Governor Tiff Macklem will leave the central bank at the end of his seven-year term."
+    },
+    {
+     "articles": [
+      "d893bb8e436e696b"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T15:22:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed) reported that Bank of Canada Governor Macklem will leave in June, initiating the search for a new leader."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bank of Canada leadership succession",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T11:05:39+00:00"
+ "updated": "2026-11-16T16:00:09+00:00"
 }
