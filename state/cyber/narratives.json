@@ -67,27 +67,27 @@
  ],
  "coverage": [
   {
-   "articles": 87,
+   "articles": 106,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
-   "continuing": 0,
+   "calls": 2,
+   "candidates": 3,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 81,
-   "in_stories": 1,
-   "kept": 1,
+   "groups": 97,
+   "in_stories": 3,
+   "kept": 2,
    "merged": 0,
    "new": 1,
    "rejected": 0,
    "reported_by_2": 0,
-   "runs": 3,
-   "sent": 1,
+   "runs": 4,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -187,7 +187,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T09:25:13+00:00"
+  "all": "2026-11-16T11:01:25+00:00"
  },
  "narratives": [
   {
@@ -3806,7 +3806,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-14",
@@ -3822,6 +3822,19 @@
      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZESEhXTWRPNDJEOGZqM0ZUOUdHeHJlVndERnFVejFBYmNfbnV3OUVIdTRFUEI2eHdqTkhPOWJ0OHY5RTd1WWh2VzV0YS1sVk41QVZfSXpmcmdvMXM2dDVNX3dnQ1l5VmRfOXNrSGUzVzQ5VkJnNDl1OUdXN1ByUDltakdoTVp1b2t0ZE5R0gGTAUFVX3lxTE80VGZ5dW9Tb3hkTDNXTHFnNmxnWXhER1RQbGpWMjB2cEZBX0E5a0xNRXVjNVR2czRCbmVUTkJxRHlNUmFlRXBMWlVEOVNnRHZVY0JNeUx6aDdqalZnbUFpYVZ5WXE5Ukl1RFhvbU5lUGpuRXZ1WFp0M0tBWXU2a3VFenBFTVVPbE9lNGZfUi1Oa3ZkZw?oc=5"
     },
     {
+     "added": "2026-11-16",
+     "id": "1a378b3abcfce523",
+     "lang": "en",
+     "outlet": "NPR",
+     "published": "2026-11-13T21:55:13+00:00",
+     "publisher": "NPR",
+     "region": null,
+     "section": "aviation",
+     "title": "Old tech blamed for the ground stop that caused flight chaos: 'It got overloaded'",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2kyRDhXUVQtNGF4QmxZMkY5Z0dhNFdqVE5DM2FCdGtsNVVZaVJYLVRJcVVBSlZsRmQ5TzlOekhxaEQ2dm85aTNjdWFTc0puQ2xDTjVQdld1NVRpcEtDeHVYODZ1MC1nbGhhbXR6OWwyV2E0Q3g0cWNEajVhV0F2d09IQy1Ydw?oc=5"
+    },
+    {
      "added": "2026-11-14",
      "id": "31a786adf6a2a070",
      "lang": "en",
@@ -3835,15 +3848,27 @@
      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "us-airport-ground-stop",
    "label": "US airport ground stop",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
+   "last_reported": "2026-11-16",
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "1a378b3abcfce523"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "NPR"
+     ],
+     "published": "2026-11-13T21:55:13+00:00",
+     "text": "[NPR](https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2kyRDhXUVQtNGF4QmxZMkY5Z0dhNFdqVE5DM2FCdGtsNVVZaVJYLVRJcVVBSlZsRmQ5TzlOekhxaEQ2dm85aTNjdWFTc0puQ2xDTjVQdld1NVRpcEtDeHVYODZ1MC1nbGhhbXR6OWwyV2E0Q3g0cWNEajVhV0F2d09IQy1Ydw?oc=5) reported that old technology was blamed for the ground stop that caused flight chaos because it got overloaded."
+    },
     {
      "articles": [
       "10b047f775c37b86",
@@ -3859,9 +3884,9 @@
      "text": "[Menafn](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5), [ABC News - Breaking News, Latest News and Videos](https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZESEhXTWRPNDJEOGZqM0ZUOUdHeHJlVndERnFVejFBYmNfbnV3OUVIdTRFUEI2eHdqTkhPOWJ0OHY5RTd1WWh2VzV0YS1sVk41QVZfSXpmcmdvMXM2dDVNX3dnQ1l5VmRfOXNrSGUzVzQ5VkJnNDl1OUdXN1ByUDltakdoTVp1b2t0ZE5R0gGTAUFVX3lxTE80VGZ5dW9Tb3hkTDNXTHFnNmxnWXhER1RQbGpWMjB2cEZBX0E5a0xNRXVjNVR2czRCbmVUTkJxRHlNUmFlRXBMWlVEOVNnRHZVY0JNeUx6aDdqalZnbUFpYVZ5WXE5Ukl1RFhvbU5lUGpuRXZ1WFp0M0tBWXU2a3VFenBFTVVPbE9lNGZfUi1Oa3ZkZw?oc=5) reported that the nationwide airport ground stop was lifted after more than four hours."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "US airport ground stop",
    "topic": "infrastructure"
   },
@@ -4067,8 +4092,24 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "dates": [
+      "2026-11-14"
+     ],
+     "id": "4c40463e712bbf9c",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-16T10:38:30+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Meta Hit With €805 Million Fine Over Facebook’s Unauthorized Access to Android Photo Galleries",
+     "type": null,
+     "url": "https://cybersecuritynews.com/meta-hit-with-e805-million-fine/"
+    },
     {
      "added": "2026-11-15",
      "id": "d681fa4a32225e07",
@@ -4112,14 +4153,14 @@
      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "meta-fine-in-italy",
    "label": "Meta fine in Italy",
    "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -4158,9 +4199,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html) reported that Meta was fined €805 Million in Italy over Facebook's Android gallery access without explicit consent."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
    "title_from": {
     "backing": 2,
@@ -4219,5 +4260,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-16T09:25:29+00:00"
+ "updated": "2026-11-16T11:01:41+00:00"
 }

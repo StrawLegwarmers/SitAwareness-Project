@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 328,
+   "articles": 362,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 8,
-   "continuing": 4,
+   "calls": 4,
+   "candidates": 9,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 307,
-   "in_stories": 12,
-   "kept": 10,
+   "groups": 337,
+   "in_stories": 14,
+   "kept": 12,
    "merged": 0,
    "new": 4,
    "rejected": 2,
    "reported_by_2": 3,
-   "runs": 3,
-   "sent": 8,
+   "runs": 4,
+   "sent": 9,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 3,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T09:35:13+00:00"
+  "all": "2026-11-16T11:05:22+00:00"
  },
  "narratives": [
   {
@@ -2095,8 +2095,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 15,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "9e312902a7616d79",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-15T16:56:40+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html"
+    },
     {
      "added": "2026-11-16",
      "id": "6290f603141935b2",
@@ -2109,6 +2122,19 @@
      "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
      "type": "international",
      "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "5c72e4359aed7601",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-14T22:54:47+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html"
     },
     {
      "added": "2026-11-14",
@@ -2293,7 +2319,7 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
@@ -2307,6 +2333,30 @@
     "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop"
    ],
    "reports": [
+    {
+     "articles": [
+      "5c72e4359aed7601"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-14T22:54:47+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html) reported that officials said routers and networking equipment may be involved in the problems that led to the ground stop, but a definitive cause has not been established."
+    },
+    {
+     "articles": [
+      "9e312902a7616d79"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-15T16:56:40+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html) reported that Trump blamed the Biden administration for the FAA's aging system and urged Congress to approve more funding."
+    },
     {
      "articles": [
       "6290f603141935b2"
@@ -3971,5 +4021,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T09:35:47+00:00"
+ "updated": "2026-11-16T11:05:39+00:00"
 }

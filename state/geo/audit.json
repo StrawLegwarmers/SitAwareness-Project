@@ -1243,122 +1243,426 @@
  },
  {
   "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Bangladesh former PM return",
-  "text": "[2] reported that Sheikh Hasina stated she is ready to face death as the price for returning home after being sentenced to death in absentia last year over a crackdown on protesters.",
-  "reason": "names not in cited articles: Sheikh"
+  "kind": "merged",
+  "group": "africa",
+  "story": "APC campaign council political violence condemnation",
+  "text": "Nigeria opposition campaign convoy attack",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "africa",
-  "story": "South Africa mass shootings",
-  "text": "[4] reported that South African police stated the motive has not been established and no arrests have been made following the weekend shootings.",
-  "reason": "names not in cited articles: African"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "global",
-  "story": "Johnny Depp Scrooge film release",
-  "text": "[6] reported that Ebenezer gave Johnny Depp first place in the US with his first major film in eight years.",
-  "reason": "number not in cited articles: 8"
+  "story": "Neves wins second term as Cape Verde's president: provisional results",
+  "text": "[84] reported that José Maria Neves was re-elected with 64% of the votes.",
+  "reason": "names not in cited articles: José, Maria, Neves"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "mena",
-  "story": "هآرتس: \"إسرائيل\" لم تلتزم بإدخال المساعدات المتفق عليها إلى غزة",
-  "text": "[12] reported that a statement added that vital supplies and 150,000 tents are awaiting permission to enter Gaza before winter.",
-  "reason": "number not in cited articles: 150000"
+  "story": "Israel election interference allegations",
+  "text": "[130] reported that an investigation by Channel 12 raised suspicions that Netanyahu's office helped coordinate the arrests of three Ra'am activists.",
+  "reason": "names not in cited articles: Ra'am"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Oil depot catches fire in Russia's Azov following drone attack – photos, videos",
+  "reason": "the AI returned no story for this group of 4 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Eighteen people, including four children, injured in Russian attacks on Kharkiv and Donetsk oblasts",
+  "text": "Russian drone strikes on Kharkiv",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "skipped",
+  "group": "global",
+  "story": "NASA Voyager 1 interstellar milestone",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "africa",
+  "story": "'My dress, my choice': Ruto tells critics to leave his suits alone",
+  "text": "Kenya presidential attire criticism response",
+  "reason": "title replaced by a headline: names not in cited articles: Kenya"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "'My dress, my choice': Ruto tells critics to leave his suits alone",
+  "text": "[25][26] reported that Kenyan President William Ruto told critics to leave his suits and dress code alone.",
+  "reason": "names not in cited articles: Kenyan, William"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "europe",
-  "story": "Gerard Depardieu sexual assault conviction",
-  "text": "[22] reported that Gerard Depardieu withdrew from his appeal trial for sexual assault, rendering his eighteen-month suspended prison sentence final.",
-  "reason": "number not in cited articles: 18"
+  "story": "Zelenskyy review of Ukraine support coalitions",
+  "text": "[39][40] reported that Ukrainian President Volodymyr Zelenskyy announced a review of international coalitions supporting Ukraine, stating some remain empty or fail to deliver amid funding shortages and delays.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "africa",
+  "story": "Abiodun, Yayi, Salisu, others to grace Ogun Int’l Students Day celebration",
+  "text": "Ogun State political mobilization in Nigeria",
+  "reason": "title replaced by a headline: wording not from cited articles: political, mobilization"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Abiodun, Yayi, Salisu, others to grace Ogun Int’l Students Day celebration",
+  "text": "[41][42] reported that consultants and officials in Ogun State have begun grassroots mobilization for President Tinubu's re-election and other All Progressives Congress candidates ahead of 2027.",
+  "reason": "names not in cited articles: All, Congress, Progressives"
  },
  {
   "date": "2026-11-16",
   "kind": "skipped",
   "group": "europe",
-  "story": "Blidinje lying competition",
+  "story": "UEFA Nations League matches",
   "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
+  "reason": "off-topic for this site (topic: sport): not created"
  },
  {
   "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Australia, UK, Canada and Italy urge Israel to allow critical aid to Gaza ahead of winter",
-  "text": "[29] reported that the UK, Australia, Canada, and Italy stated Israeli authorities are holding back vital supplies at borders, including 150,000 tents.",
-  "reason": "number not in cited articles: 150000"
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Lagos healthcare providers tariff and claims demands",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "europe",
-  "story": "Gagauzia regional leadership elections",
-  "text": "[35] reported that preliminary results show independent candidate Alexandr Stoianoglo leads the race for Governor of Gagauzia with 37 percent.",
-  "reason": "number not in cited articles: 37"
+  "story": "Hundreds of thousands in Prague protest Czech government's public media funding plans",
+  "text": "[57][58] reported that hundreds of thousands of people rallied in Prague against government plans to shift public media funding to the state, marking a major anti-government protest.",
+  "reason": "analysis word not used by the source: 'major'"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "global",
+  "story": "Xi to hold China-Russia-US Summit with Putin and Trump in Shenzhen",
+  "text": "Proposed China-Russia-US summit in Shenzhen",
+  "reason": "title replaced by a headline: names not in cited articles: Proposed"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
-  "group": "asia",
-  "story": "160 questions, only one wrong: top scorer in South Korea tax exam admits AI cheating",
-  "text": "[44] reported that South Korean police secured a miniature camera allegedly used in the tax accountant exam cheating probe.",
-  "reason": "names not in cited articles: Korean"
+  "group": "global",
+  "story": "Xi to hold China-Russia-US Summit with Putin and Trump in Shenzhen",
+  "text": "[63][64] reported that Chinese President Xi Jinping is set to hold a summit with Russian President Vladimir Putin and US President Donald Trump in Shenzhen.",
+  "reason": "names not in cited articles: Donald, Jinping, Vladimir"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "africa",
-  "story": "South African municipal officials trial",
-  "text": "[49] reported that over 77,000 Gauteng pupils await school placements and parents must respond within placement offers.",
-  "reason": "number not in cited articles: 77000"
+  "story": "UK energy imports from Nigeria",
+  "text": "[71][72] reported that the United Kingdom imported crude oil, refined petroleum products, and natural gas worth approximately £1.73 billion from Nigeria over a 12-month period.",
+  "reason": "names not in cited articles: Kingdom, United"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "SunTrust Bank salary increases and promotions in Nigeria",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "africa",
+  "story": "China’s Zero-tariff Window Puts Nigeria’s Export Capacity to Test as Trade Hits $17.4bn",
+  "text": "China-Nigeria bilateral trade and zero-tariff window",
+  "reason": "title replaced by a headline: names not in cited articles: China-Nigeria"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "China’s Zero-tariff Window Puts Nigeria’s Export Capacity to Test as Trade Hits $17.4bn",
+  "text": "[75][76] reported that Nigeria's exports to China jumped 81 percent to $2.25 billion following China's zero-tariff window, while total trade reached $17.4 billion.",
+  "reason": "wording not from cited articles: percent, billion, following, total, reached, billion"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Tinubu prepares five-year plan to end Boko Haram insurgency, tackle insecurity",
+  "text": "[81][82] reported that the federal government of Nigeria disclosed that its five-year security plan aims to end the Boko Haram insurgency, alongside military operations that eliminated 15,000 terrorists and the recruitment of 28,000 soldiers and 50,000 policemen.",
+  "reason": "names not in cited articles: Boko, Haram"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Netanyahu election fraud allegations and coalition talks",
+  "text": "[1] reported that Israeli police are examining whether aides to Prime Minister Benjamin Netanyahu planted false vote-buying allegations to undermine the October election.",
+  "reason": "names not in cited articles: Benjamin"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Netanyahu election fraud allegations and coalition talks",
+  "text": "[2] reported that Gadi Eisenkot's bloc demanded a criminal investigation into fabricated election fraud claims linked to Netanyahu's office.",
+  "reason": "names not in cited articles: Gadi"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "europe",
-  "story": "Serbia National Assembly consultations",
-  "text": "[12] reported that the Students' List proposed a ten-year agricultural development strategy including support for young people and livestock restoration.",
-  "reason": "number not in cited articles: 10"
+  "story": "Russia drone interceptions and strikes",
+  "text": "[3] reported that over 100 drones targeting Moscow were intercepted following Ukrainian strikes on a major Russian petrochemical plant, an oil refinery, and a production site.",
+  "reason": "analysis word not used by the source: 'major'"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Russia drone interceptions and strikes",
+  "text": "[4] reported that over 1,300 Ukrainian drones were intercepted and destroyed in Russia, Crimea, and above the Sea of Azov and the Black Sea, while the bridge connecting Russia to Crimea was attacked.",
+  "reason": "number not in cited articles: 1300"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "asia",
+  "story": "Breaking: Three Melbourne Cups won by Makybe Diva stolen from Flemington",
+  "text": "Theft of Melbourne Cups",
+  "reason": "title replaced by a headline: names not in cited articles: Theft"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "latam",
+  "story": "Brazil supreme court labor rules dispute",
+  "text": "Han Duck-soo insurrection case ruling",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "global",
+  "story": "World oil market is returning to surplus as Gulf exports recover, IEA says",
+  "text": "[29][30] reported that global crude oil prices fell as the market returned to oversupply and production surged.",
+  "reason": "analysis word not used by the source: 'surged'"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
   "group": "namerica",
-  "story": "‘Alice Huang left in August 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-  "text": "[11] reported that former Nvidia CEO Jensen Huang discussed the possibility of returning to lead the company with close associates.",
-  "reason": "countries not in cited articles: us"
+  "story": "Biden says in memoir he had limited trust in Israel's Netanyahu",
+  "text": "[45] reported that former US President Joe Biden's memoir describes Vladimir Putin as acting like a teenager and Volodymyr Zelenskyy as less grateful than expected.",
+  "reason": "names not in cited articles: Vladimir, Volodymyr"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Kakao Bank Apple Pay launch",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ireland climate change sea level rise impact",
+  "text": "",
+  "reason": "off-topic for this site (topic: weather): not created"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "namerica",
+  "story": "Spy scandal and midterm defeat heat up Trump's Asia visit",
+  "text": "Donald Trump Asia visit and diplomacy",
+  "reason": "title replaced by a headline: names not in cited articles: Donald"
  },
  {
   "date": "2026-11-16",
   "kind": "rejected",
-  "group": "asia",
-  "story": "Malaysia: Najib Razak House Arrest and Ministerial Resignation",
-  "text": "[36] reported that Malaysian Prime Minister Anwar Ibrahim faces growing pressure following an emphatic election defeat.",
-  "reason": "names not in cited articles: Ibrahim"
+  "group": "namerica",
+  "story": "Spy scandal and midterm defeat heat up Trump's Asia visit",
+  "text": "[53][54] reported that Donald Trump faces high-stakes face-to-face discussions with Xi Jinping and Vladimir Putin amid a spy scandal and midterm defeat.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "namerica",
+  "story": "Fewer students are traveling from abroad to study at US universities, report shows",
+  "text": "US universities international student enrollment decline",
+  "reason": "title replaced by a headline: wording not from cited articles: enrollment, decline"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "title",
+  "group": "mena",
+  "story": "Ahmed Tibi appointed as deputy speaker of Israel’s Knesset",
+  "text": "Israeli Knesset leadership appointments",
+  "reason": "title replaced by a headline: wording not from cited articles: leadership, appointments"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "18 Monate Haft auf Bewährung – Depardieu nimmt Berufung zurück",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "No hace falta esperar a Black Friday: diez productos de uso diario que ya están rebajados",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Uhapšen muškarac iz Zvornika, lupao inventar u kladionici i prijetio radnicima",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Hapšenje u Prijedoru: Lažno se predstavili kao policajci, pa pretukli maloljetnika",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Ispred NS RS osvanuo bilbord: \"Snježana Gvozden papak No2\"",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Governor's Awards and Oscar honors",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Africa CDC says Ebola outbreak in DR Congo ‘still not under control’",
+  "text": "[53] reported that more than 11,000 cases and 5,400 deaths have been reported since the start of the outbreak, with children accounting for over a quarter of confirmed cases.",
+  "reason": "number not in cited articles: 11000"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Netanyahu says only a unity government can guarantee Israel’s security",
+  "text": "[1] reported that Likud and Gadi Eisenkot traded barbs over Benjamin Netanyahu's unity government offer.",
+  "reason": "names not in cited articles: Benjamin, Gadi"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "La Poste subsidiary Maileva cyberattack",
+  "text": "[2] reported that a French anti-cybercrime unit was investigating a massive cyberattack on La Poste subsidiary Maileva.",
+  "reason": "names not in cited articles: Maileva"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Pedro Sanchez called a snap election. Now he’s struggling to rally Spain’s disillusioned left",
+  "text": "[8] reported that Brazilian President Luiz Inacio Lula da Silva is visiting Spain to support Prime Minister Pedro Sanchez ahead of the election.",
+  "reason": "names not in cited articles: Inacio, Luiz, Silva"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Trump breaks silence on FAA's nationwide ground stop, demands more money for air traffic control",
+  "text": "[13] reported that questions were raised regarding the FAA's new SMART AI system following the nationwide ground stop.",
+  "reason": "wording not from cited articles: raised, regarding, following, nationwide"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Gauteng public schools learner placement crisis",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "rejected",
+  "group": "global",
+  "story": "UN denuclearization talks US China Russia",
+  "text": "[28] reported that UN Secretary-General Antonio Guterres stated the UN is ready to support any denuclearisation efforts.",
+  "reason": "names not in cited articles: Antonio, Secretary-General"
  },
  {
   "date": "2026-11-16",
   "kind": "merged",
-  "group": "europe",
-  "story": "Zelensky warns Starshield restrictions threaten Ukraine’s winter energy defences",
-  "text": "Democrats urge Musk to preserve records on Starlink operations in Ukraine – media",
+  "group": "mena",
+  "story": "France Blames Iran for Supermarket Refrigerator Cyberattack",
+  "text": "الحرس الثوري يعلن إصابة ناقلة غاز بانفجار واشتعال النيران فيها بمضيق هرمز",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-16",
   "kind": "merged",
-  "group": "asia",
-  "story": "Bangladesh: Sheikh Hasina Extradition and Return Pledge",
-  "text": "Bangladesh former PM return",
+  "group": "africa",
+  "story": "NNPC proposed Edo refinery land title",
+  "text": "Nigeria AKK gas pipeline progress",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Israel election interference allegations",
+  "text": "Eisenkot says Netanyahu ‘cannot remain’ after alleged election interference by aide",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+  "text": "Israel election interference allegations",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "global",
+  "story": "Xi to hold China-Russia-US Summit with Putin and Trump in Shenzhen",
+  "text": "Spy scandal and midterm defeat heat up Trump's Asia visit",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  },
  {
@@ -1366,7 +1670,15 @@
   "kind": "merged",
   "group": "mena",
   "story": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
-  "text": "Israeli and Mexican political investigations",
+  "text": "Netanyahu election fraud allegations and coalition talks",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "merged",
+  "group": "global",
+  "story": "Trump, Putin and Xi to hold their first three-way meeting in China on Thursday",
+  "text": "Xi to hold China-Russia-US Summit with Putin and Trump in Shenzhen",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]
