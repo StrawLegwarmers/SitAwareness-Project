@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 188,
+   "articles": 235,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
-   "continuing": 0,
+   "calls": 2,
+   "candidates": 3,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-16",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 174,
-   "in_stories": 2,
+   "groups": 221,
+   "in_stories": 4,
    "kept": 2,
    "merged": 0,
    "new": 1,
-   "rejected": 0,
+   "rejected": 1,
    "reported_by_2": 1,
-   "runs": 1,
-   "sent": 1,
+   "runs": 2,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -99,7 +99,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T02:05:19+00:00"
+  "all": "2026-11-16T05:05:35+00:00"
  },
  "narratives": [
   {
@@ -2364,8 +2364,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "8953457076d5eeeb",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-16T01:43:43+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold falls below $3,900 as December Fed hike bets build, Warsh in focus",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-falls-below-3900-as-december-fed-hike-bets-build-warsh-in-focus-5028296"
+    },
     {
      "added": "2026-11-13",
      "id": "275e2abfa59a459a",
@@ -2393,14 +2406,14 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_updated": "2026-11-16",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -2415,9 +2428,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -3602,8 +3615,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-16",
+     "id": "95da03db83bdb8a5",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-16T04:10:30+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Hong Kong exchange launches first offshore yuan bond index",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/hong-kong-exchange-launches-first-offshore-yuan-bond-index-93CH-5028347"
+    },
     {
      "added": "2026-11-16",
      "id": "da388ad91d268bf5",
@@ -3631,14 +3657,14 @@
      "url": "https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "hkex-dim-sum-bond-index",
    "label": "HKEX dim sum bond index",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -3668,11 +3694,18 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "HKEX dim sum bond index",
+   "title": "HKEX Launches First Dim Sum Bond Index to Boost Yuan Debt Market",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-16",
+    "of": 2,
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-16/hkex-launches-first-dim-sum-bond-index-to-boost-yuan-debt-market"
+   },
    "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T02:05:35+00:00"
+ "updated": "2026-11-16T05:05:51+00:00"
 }
