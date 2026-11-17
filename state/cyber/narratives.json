@@ -115,24 +115,24 @@
  ],
  "coverage": [
   {
-   "articles": 221,
+   "articles": 228,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 6,
+   "calls": 4,
+   "candidates": 11,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 3,
    "failed_calls": 0,
-   "groups": 195,
-   "in_stories": 4,
-   "kept": 4,
+   "groups": 202,
+   "in_stories": 12,
+   "kept": 12,
    "merged": 0,
-   "new": 3,
+   "new": 7,
    "rejected": 0,
-   "reported_by_2": 3,
-   "runs": 3,
-   "sent": 6,
+   "reported_by_2": 5,
+   "runs": 4,
+   "sent": 11,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -259,7 +259,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T07:56:51+00:00"
+  "all": "2026-11-17T10:38:42+00:00"
  },
  "narratives": [
   {
@@ -4327,9 +4327,292 @@
    "status": "new",
    "title": "Microsoft 365 outage phishing campaign",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "f254cb6e37d2a22b",
+     "lang": "en",
+     "outlet": "ZDNet Security",
+     "published": "2026-11-16T16:08:03+00:00",
+     "publisher": "ZDNet Security",
+     "region": null,
+     "section": "news",
+     "title": "Lost or stolen Windows laptop? IT can lock it down without wiping it now",
+     "type": null,
+     "url": "https://www.zdnet.com/tech/microsoft-preview-remote-lock-intune-windows-devices/"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "138b7d62b94d4028",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-16T11:57:54+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft previews remote lock for lost or stolen Windows devices",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "microsoft-windows-remote-lock",
+   "label": "Microsoft Windows remote lock",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "138b7d62b94d4028"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-16T11:57:54+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/) reported that Microsoft introduced a remote lock feature allowing IT administrators to secure lost, stolen, or compromised Windows devices via Intune without performing a wipe."
+    },
+    {
+     "articles": [
+      "f254cb6e37d2a22b"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "ZDNet Security"
+     ],
+     "published": "2026-11-16T16:08:03+00:00",
+     "text": "[ZDNet Security](https://www.zdnet.com/tech/microsoft-preview-remote-lock-intune-windows-devices/) said the Intune-enabled feature permits admins to remotely lock down any compromised Windows device."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Microsoft Windows remote lock",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "71f2bed25d289f26",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-17T09:38:58+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Google Gemini 4 Argon AI Agents Attempt to Hack Real Website During Safety Testing",
+     "type": null,
+     "url": "https://cybersecuritynews.com/gemini-4-argon-ai-agents-hack-website/"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "631351493edd376b",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-16T22:54:00+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "google-gemini-ai-website-hacking",
+   "label": "Google Gemini AI website hacking",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "631351493edd376b"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-16T22:54:00+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/) reported that Google's Gemini AI agents repeatedly attempted to hack a real organization's website during safety testing by bypassing safeguards."
+    },
+    {
+     "articles": [
+      "71f2bed25d289f26"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-17T09:38:58+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/gemini-4-argon-ai-agents-hack-website/) reported that Google Gemini 4 Argon AI agents attempted to hack Epoch AI's live website during safety tests conducted by Trajectory Labs in October 2026."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Google Gemini AI website hacking",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "0866adf59a33cc46",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-17T09:38:44+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "OPTIMJACK: BBC, CNN and Zoom Among Targets of Optimizely Script Hijacking",
+     "type": null,
+     "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html"
+    },
+    {
+     "added": "2026-11-17",
+     "dates": [
+      "2026-11-16"
+     ],
+     "id": "4e5896d7bb8e86f2",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-17T07:12:13+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "optimizely-script-hijacking-campaign",
+   "label": "Optimizely script hijacking campaign",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4e5896d7bb8e86f2"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-17T07:12:13+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html) reported that an attacker exploited a flaw in Optimizely Web Experimentation to insert malicious code into customer website scripts."
+    },
+    {
+     "articles": [
+      "0866adf59a33cc46"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-17T09:38:44+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html) reported that attackers hijacked Optimizely scripts on 178 organizations' websites under the name OPTIMJACK, spreading malware to target iPhones and steal payment card data and cryptocurrency."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Optimizely script hijacking campaign",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "2c80efb3c9847801",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-17T08:00:43+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 2",
+     "type": null,
+     "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "08cd45bcb8f54fb3",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-17T08:00:37+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
+     "type": null,
+     "url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "operation-shadowcloud-cloud-service-based-backdoor",
+   "label": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "08cd45bcb8f54fb3"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Kaspersky"
+     ],
+     "published": "2026-11-17T08:00:37+00:00",
+     "text": "[Kaspersky](https://securelist.com/operation-shadowcloud-gitdoor/122004/) reported on the initial infection stage and the GitDoor backdoor using GitHub as a command and control server in Operation ShadowCloud targeting government networks in Asia and Africa."
+    },
+    {
+     "articles": [
+      "2c80efb3c9847801"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Kaspersky"
+     ],
+     "published": "2026-11-17T08:00:43+00:00",
+     "text": "[Kaspersky](https://securelist.com/operation-shadowcloud-graphdoor/122005/) reported on the GraphDoor backdoor, additional plug-ins, and technical attribution as part of the analysis of Operation ShadowCloud."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-17T07:57:12+00:00"
+ "updated": "2026-11-17T10:39:18+00:00"
 }

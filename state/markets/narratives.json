@@ -2,25 +2,25 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 566,
+   "articles": 570,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 21,
-   "continuing": 11,
+   "calls": 4,
+   "candidates": 28,
+   "continuing": 12,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 491,
-   "in_stories": 33,
-   "kept": 21,
+   "in_stories": 45,
+   "kept": 30,
    "merged": 0,
-   "new": 10,
+   "new": 14,
    "rejected": 2,
    "reported_by_2": 9,
-   "runs": 3,
-   "sent": 21,
-   "skipped": 0,
+   "runs": 4,
+   "sent": 28,
+   "skipped": 1,
    "split_calls": 0,
    "updated": 7,
    "waiting": 0
@@ -123,7 +123,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T08:00:23+00:00"
+  "all": "2026-11-17T10:43:17+00:00"
  },
  "narratives": [
   {
@@ -5634,8 +5634,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "80c0ba5cb5a7fdbc",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-17T08:09:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-continue-to-fall-as-global-supply-surplus-weighs-7b54e93b?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-17",
      "id": "c078da3374683e7f",
@@ -5689,7 +5702,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
@@ -5698,6 +5711,18 @@
    "last_updated": "2026-11-17",
    "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "80c0ba5cb5a7fdbc"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T08:09:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-prices-continue-to-fall-as-global-supply-surplus-weighs-7b54e93b?mod=rss_markets_main) reported that recovering Middle Eastern exports and expectations of a global supply surplus outweighed regional security concerns, causing oil prices to continue to fall."
+    },
     {
      "articles": [
       "84f92d9516112d87"
@@ -6234,9 +6259,337 @@
    "status": "new",
    "title": "UK Employment and Wage Growth",
    "topic": "economy"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "c791f1862749476d",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T09:50:30+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Deutsche Bank Leak Shows Payments Linked to Epstein",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/deutsche-bank-processed-payments-linked-to-epstein-ft-video"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "fb314545261ca981",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T09:23:40+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "d5e78a455cf7f3d4",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-17T09:22:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Deutsche Bank Shares Drop After Wide-Ranging Whistleblower Leaks",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "e071d5042963c0c6",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T08:44:45+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Deutsche Bank Processed Large Sums Linked to Epstein: FT",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/deutsche-bank-processed-large-sums-linked-to-epstein-ft-video"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "fbf8f067cbb71372",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-17T06:00:06+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "German lender processed $582mn of suspicious payments linked to Epstein",
+     "type": "international",
+     "url": "https://www.ft.com/content/72ac6fee-55f3-4db5-a1e3-873ef39c0b96?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "deutsche-bank-whistleblower-leaks-and-investigatio",
+   "label": "Deutsche Bank whistleblower leaks and investigations",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "e071d5042963c0c6",
+      "fbf8f067cbb71372"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T06:00:06+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/72ac6fee-55f3-4db5-a1e3-873ef39c0b96?syn-25a6b1a6=1), [Bloomberg](https://www.bloomberg.com/news/videos/2026-11-17/deutsche-bank-processed-large-sums-linked-to-epstein-ft-video) reported that internal documents showed Deutsche Bank processed $582 million of suspicious payments linked to Jeffrey Epstein."
+    },
+    {
+     "articles": [
+      "d5e78a455cf7f3d4"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T09:22:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/deutsche-bank-shares-drop-after-wide-ranging-whistleblower-leaks-bc550948?mod=rss_markets_main) reported that Deutsche Bank shares fell after leaked documents alleged the bank courted Russian oligarchs and sought to expand operations there."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Deutsche Bank shares sink as whistleblowers reveal Epstein payments, Trump tax leak, Russia bets",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-17",
+    "of": 3,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/17/deutsche-bank-leak-epstein-trump.html"
+   },
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "d948a6498e4e7349",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-17T08:45:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Japan Proposes an 'Asian IEA' to Protect Oil Supplies",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Japan-Proposes-an-Asian-IEA-to-Protect-Oil-Supplies.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "da055b00ce7f2909",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-17T07:01:23+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Japan proposes ‘Asian IEA’ to manage oil stockpiles",
+     "type": "international",
+     "url": "https://www.ft.com/content/208b3dff-5d7a-4250-989a-821fb70fb896?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "japan-proposes-asian-iea-to-manage",
+   "label": "Japan proposes ‘Asian IEA’ to manage oil stockpiles",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "da055b00ce7f2909"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-17T07:01:23+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/208b3dff-5d7a-4250-989a-821fb70fb896?syn-25a6b1a6=1) reported that Japan proposed an Asian IEA to manage oil stockpiles and insulate the import-dependent region against energy shocks."
+    },
+    {
+     "articles": [
+      "d948a6498e4e7349"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-17T08:45:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Japan-Proposes-an-Asian-IEA-to-Protect-Oil-Supplies.html) reported that Japan proposed a joint Asian task force to handle crude oil stockpiling and a Power Gulf Initiative."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Japan proposes ‘Asian IEA’ to manage oil stockpiles",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "82e0bf3120c395f8",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T09:10:35+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Germany to Propose Markus Brunnermeier as ECB Chief Economist",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/germany-to-propose-markus-brunnermeier-as-ecb-chief-economist"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "17edba0a23ae1cac",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T08:36:54+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Germany to propose economist Brunnermeier for ECB board, ministry says",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/germany-to-propose-economist-brunnermeier-for-ecb-board-ministry-says-5032013"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "germany-ecb-board-nomination",
+   "label": "Germany ECB board nomination",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "82e0bf3120c395f8"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T09:10:35+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/germany-to-propose-markus-brunnermeier-as-ecb-chief-economist) reported that Germany will propose Markus Brunnermeier as chief economist of the European Central Bank."
+    },
+    {
+     "articles": [
+      "17edba0a23ae1cac"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-17T08:36:54+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/germany-to-propose-economist-brunnermeier-for-ecb-board-ministry-says-5032013) reported that the German ministry stated Germany will propose economist Brunnermeier for the ECB board."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Germany ECB board nomination",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "9661018a960cd06f",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-17T10:29:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "German Investor Confidence Rises to Highest Level Since Start of Iran War",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "88b34501b2f7bc3e",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T10:08:43+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "German Investor Outlook Jumps to Highest Since Iran War Began",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/german-investor-outlook-jumps-to-highest-since-iran-war-began"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "germany-investor-sentiment",
+   "label": "Germany investor sentiment",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "88b34501b2f7bc3e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T10:08:43+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/german-investor-outlook-jumps-to-highest-since-iran-war-began) reported that Germany's investor outlook jumped to its highest level since February."
+    },
+    {
+     "articles": [
+      "9661018a960cd06f"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T10:29:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/german-investor-confidence-rises-to-highest-level-since-start-of-iran-war-957cb844?mod=rss_socialeconomyfeed) reported that German investor confidence rose in November despite higher energy prices weighing on the economic outlook."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Germany investor sentiment",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T08:01:04+00:00"
+ "updated": "2026-11-17T10:45:25+00:00"
 }
