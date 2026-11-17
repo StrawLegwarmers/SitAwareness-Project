@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 562,
+   "articles": 566,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 16,
-   "continuing": 8,
+   "calls": 3,
+   "candidates": 21,
+   "continuing": 11,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 489,
-   "in_stories": 26,
-   "kept": 15,
+   "groups": 491,
+   "in_stories": 33,
+   "kept": 21,
    "merged": 0,
-   "new": 8,
+   "new": 10,
    "rejected": 2,
    "reported_by_2": 9,
-   "runs": 2,
-   "sent": 16,
+   "runs": 3,
+   "sent": 21,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 5,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -123,7 +123,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T04:42:10+00:00"
+  "all": "2026-11-17T08:00:23+00:00"
  },
  "narratives": [
   {
@@ -1376,8 +1376,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "5b237ee7141c7d0d",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-16T10:11:55+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "European gas slips as U.S. shipping waivers override Middle East turmoil",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807"
+    },
     {
      "added": "2026-11-13",
      "id": "459405c3575ce534",
@@ -1418,15 +1431,27 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "5b237ee7141c7d0d"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-16T10:11:55+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/european-gas-slips-as-us-shipping-waivers-override-middle-east-turmoil-5028807) reported that European gas slipped as U.S. shipping waivers overrode Middle East turmoil."
+    },
     {
      "articles": [
       "3eec7854d387b602"
@@ -1452,9 +1477,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -1526,8 +1551,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "0e4f5903f7f440f3",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-17T05:00:14+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia’s interim CEO Colette Kress to make her debut at first earnings",
+     "type": "international",
+     "url": "https://www.ft.com/content/424e5ab0-517e-4f8e-a286-df7c67fa05a6?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-13",
      "id": "a558bfb1ffc23786",
@@ -1568,15 +1606,27 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
    "label": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "0e4f5903f7f440f3"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-17T05:00:14+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/424e5ab0-517e-4f8e-a286-df7c67fa05a6?syn-25a6b1a6=1) reported that interim CEO Colette Kress will make her debut at her first earnings as successor to founder Jensen Huang to ease investors' anxiety about the AI chipmaker's future."
+    },
     {
      "articles": [
       "d1b98307538fed81"
@@ -1614,9 +1664,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -5584,8 +5634,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "c078da3374683e7f",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-17T06:10:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Slide as Global Glut Fears Eclipse Hormuz Attacks",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Global-Glut-Fears-Eclipse-Hormuz-Attacks.html"
+    },
     {
      "added": "2026-11-17",
      "id": "92d00dffe68f6a05",
@@ -5626,7 +5689,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
@@ -6031,9 +6094,149 @@
    "status": "new",
    "title": "Berkshire Hathaway portfolio changes",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "68e78e1f074ea147",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-17T04:59:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "New Zealand Dollar Slumps to a Six-Year Low",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/new-zealand-dollar-slumps-to-a-six-year-low-e13ed4c2?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "032fac8918e4f49f",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T02:46:47+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "New Zealand Dollar Hits Six-Year Low on Growth, Yield Gap Worry",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "new-zealand-dollar-exchange-rate",
+   "label": "New Zealand Dollar Exchange Rate",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "032fac8918e4f49f"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T02:46:47+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback) reported that the New Zealand dollar fell to its lowest level since 2020 against the greenback, pressured by cooling domestic inflation expectations and a widening interest rate gap."
+    },
+    {
+     "articles": [
+      "68e78e1f074ea147"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T04:59:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/new-zealand-dollar-slumps-to-a-six-year-low-e13ed4c2?mod=rss_socialeconomyfeed) reported that investors continued to sell after the Reserve Bank of New Zealand failed to raise interest rates last month while uncertainty remains high over the formation of a government."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "New Zealand Dollar Exchange Rate",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "d43ba56da97c59c1",
+     "lang": "en",
+     "outlet": "The Guardian Economics",
+     "published": "2026-11-17T07:46:10+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "UK jobs market is a ‘mixed picture’ as wage growth slows and unemployment falls – business live",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/live/2026/nov/17/uk-jobs-market-wage-growth-payrolls-unemployment-milburn-china-us-chips-latest-news-updates"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "5ba12bacf5d6beb6",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T07:42:37+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "UK’s Latest Jobs Report Is a Mixed Bag With Wage Growth Slowing, Payrolls Cut",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-17/uk-s-latest-jobs-report-is-a-mixed-bag-with-wage-growth-slowing-payrolls-cut"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "uk-employment-and-wage-growth",
+   "label": "UK Employment and Wage Growth",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5ba12bacf5d6beb6"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T07:42:37+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/newsletters/2026-11-17/uk-s-latest-jobs-report-is-a-mixed-bag-with-wage-growth-slowing-payrolls-cut) reported that the UK jobs report is a mixed bag with wage growth slowing and payrolls cut, while the FTSE 100 is about to get tested by tech."
+    },
+    {
+     "articles": [
+      "d43ba56da97c59c1"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-17T07:46:10+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/business/live/2026/nov/17/uk-jobs-market-wage-growth-payrolls-unemployment-milburn-china-us-chips-latest-news-updates) reported that tobacco firm Imperial Brands plans to cut up to 2,500 more jobs by the end of the decade."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "UK Employment and Wage Growth",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T04:42:27+00:00"
+ "updated": "2026-11-17T08:01:04+00:00"
 }

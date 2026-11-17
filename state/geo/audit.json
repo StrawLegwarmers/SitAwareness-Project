@@ -1281,8 +1281,16 @@
  {
   "date": "2026-11-17",
   "kind": "skipped",
-  "group": "global",
-  "story": "Freeman Johnson death",
+  "group": "europe",
+  "story": "Robert Pattinson cast as James Bond",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Melbourne Cup racehorse found dead",
   "text": "",
   "reason": "off-topic for this site (topic: other): not created"
  },
@@ -1290,144 +1298,408 @@
   "date": "2026-11-17",
   "kind": "skipped",
   "group": "global",
-  "story": "Third US Aircraft Carrier Arrives in the Middle East as Trump Keeps Options Open in the Iran War",
+  "story": "Cincinnati Zoo hippopotamus veterinary care",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): فانس: ترمب يدرس تصعيد الضغط على إيران ولن يسمح بـ\"حرب أبدية\""
+  "reason": "off-topic for this site (topic: other): not created"
  },
  {
   "date": "2026-11-17",
   "kind": "skipped",
-  "group": "global",
-  "story": "Third US Aircraft Carrier Arrives in the Middle East as Trump Keeps Options Open in the Iran War",
+  "group": "europe",
+  "story": "Russian Missiles Hit Two Major Kyiv Bridges After Zelensky Warns of New Attacks",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): لن نسمح بحروب أبدية.. نائب ترامب يعلن عن توقعه بشأن موعد انتهاء حرب إيران"
+  "reason": "continuation not supported by the headlines: Rusija gađala dva ključna mosta u Kijevu, Ukrajinci udarili na Krimski most"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "title",
+  "group": "europe",
+  "story": "Rusija gađala dva ključna mosta u Kijevu, Ukrajinci udarili na Krimski most",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
   "group": "mena",
-  "story": "Iran Claims Two More Oil Tankers Hit Mines in Strait of Hormuz",
-  "text": "[27] reported that the United Kingdom Maritime Trade Operations stated a tanker was attacked in the Strait of Hormuz off Oman.",
-  "reason": "names not in cited articles: Kingdom, Maritime, Operations, United"
+  "story": "Bahrain Says It Intercepted Iranian Attacks As Tehran Claims Strike On US Base",
+  "text": "[54][55] reported that the Islamic Revolutionary Guard Corps stated combat drones targeted a US radar system at the Sheikh Isa air base in Bahrain in response to US drone violations of Iranian airspace.",
+  "reason": "names not in cited articles: Corps, Islamic, Revolutionary"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "title",
+  "group": "europe",
+  "story": "Ukraine aims 1,300 drones at Russia in one of war's largest attacks",
+  "text": "Massive Ukrainian drone attacks on Russia",
+  "reason": "title replaced by a headline: names not in cited articles: Massive"
  },
  {
   "date": "2026-11-17",
   "kind": "merged",
-  "group": "global",
-  "story": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
-  "text": "Trump Asia visit and APEC summit",
+  "group": "africa",
+  "story": "Bauchi Suspends Lame Emir over Alleged Land Interference, Illegal Levies, Mining Disputes",
+  "text": "Guinea illegal gold mining crackdown",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Pakistan fuel price reductions",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Nigeria petrol price reductions",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Iran Claims Two More Oil Tankers Hit Mines in Strait of Hormuz",
+  "text": "",
+  "reason": "continuation not supported by the headlines: FM Araghchi arrives in Muscat for talks"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "merged",
+  "group": "asia",
+  "story": "With focus on regional cooperation, Pakistan hosts ECO ministerial meeting today",
+  "text": "",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-17",
   "kind": "title",
-  "group": "africa",
-  "story": "EAC sugar producers seek regional cooperation to close 1.2m-tonne supply gap",
-  "text": "East Africa and Nigeria sugar and fish supply gaps",
-  "reason": "title replaced by a headline: names not in cited articles: Africa"
+  "group": "namerica",
+  "story": "U.S. data centres now emit more carbon than an entire country",
+  "text": "United States data center carbon emissions study",
+  "reason": "title replaced by a headline: wording not from cited articles: states, center, emissions"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
+  "group": "latam",
+  "story": "Mexico APEC economic growth plan presentation",
+  "text": "[115][116] reported that Mexican President Claudia Sheinbaum presented the Plan México at the APEC CEO Summit in Shenzhen, China, highlighting minimum wage increases and economic sovereignty.",
+  "reason": "analysis word not used by the source: 'highlighting'"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "El-Sayed: Trump je idiot, ali Vance je gori od njega jer je zapravo pametan",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "iPhone, Samsung y más tecnología reacondicionada: las ofertas de Back Market antes de Black Friday",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "'Flash floods in Nepal swept away my family's home'",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Jovanki Broz rekli da muškarci vole promjene: Zakucala ih odgovorom",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "dropped",
   "group": "africa",
-  "story": "EAC sugar producers seek regional cooperation to close 1.2m-tonne supply gap",
-  "text": "[32] reported that East African Community sugar producers produced a combined 1.6 million tonnes of sugar in 2025 against an estimated demand of 2.8 million tonnes.",
-  "reason": "number not in cited articles: 2800000"
+  "story": "",
+  "text": "Vanguard loses Online Editor, Femi Ajasa",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US Emergency Alert System test rumors",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
+  "kind": "title",
+  "group": "asia",
+  "story": "Unmarried women aged 45 or above included in BISP",
+  "text": "Pakistan BISP program policy expansion",
+  "reason": "title replaced by a headline: names not in cited articles: Pakistan"
  },
  {
   "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Cincinnati Zoo Fiona the hippo veterinary care",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Dolores Huerta California memorial",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
+  "kind": "title",
+  "group": "africa",
+  "story": "Nigeria has killed, arrested four of eight top terrorist leaders —Tinubu",
+  "text": "Nigeria security forces counterterrorism operations",
+  "reason": "title replaced by a headline: wording not from cited articles: counterterrorism, operations"
  },
  {
   "date": "2026-11-17",
   "kind": "skipped",
   "group": "latam",
-  "story": "Argentina severe storms and hail",
+  "story": "Argentina severe storms and weather alerts",
   "text": "",
   "reason": "off-topic for this site (topic: weather): not created"
  },
  {
   "date": "2026-11-17",
   "kind": "skipped",
-  "group": "asia",
-  "story": "LS Electric Vietnam factory expansion",
+  "group": "mena",
+  "story": "Grand Ayatollah Hossein Vahid Khorasani passing",
   "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
+  "reason": "off-topic for this site (topic: other): not created"
  },
  {
   "date": "2026-11-17",
-  "kind": "merged",
-  "group": "global",
-  "story": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
-  "text": "North Korea Kim Jong Un Samjiyon inspection",
-  "reason": "duplicate story merged into an existing one"
+  "kind": "title",
+  "group": "asia",
+  "story": "Bodies of woman and toddler found in Melbourne lake",
+  "text": "Melbourne lake drowning deaths investigation",
+  "reason": "title replaced by a headline: wording not from cited articles: deaths, investigation"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "title",
+  "group": "asia",
+  "story": "Mongolian President Khurelsukh to resign amid corruption allegations",
+  "text": "Mongolian President resignation announcement",
+  "reason": "title replaced by a headline: wording not from cited articles: resignation, announcement"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Iron Age bog body discovery in County Derry",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Winter heating and hidden cash discoveries",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
  },
  {
   "date": "2026-11-17",
   "kind": "skipped",
   "group": "global",
-  "story": "Bunnings job cuts and offshoring",
+  "story": "Inquest into free births and home birth baby deaths",
   "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US intelligence on Iran dirty bomb plans",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Iran planira napad „prljavom bombom“ ili hemijskim oružjem u Washingtonu?"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "title",
+  "group": "mena",
+  "story": "Iran planira napad „prljavom bombom“ ili hemijskim oružjem u Washingtonu?",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
-  "group": "global",
-  "story": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
-  "text": "[1] reported that Donald Trump stated he planned to talk about the Ukraine war during a meeting with Vladimir Putin and Xi Jinping amid concerns that Kyiv would be sidelined.",
-  "reason": "names not in cited articles: Donald, Jinping, Vladimir"
+  "group": "mena",
+  "story": "Iran planira napad „prljavom bombom“ ili hemijskim oružjem u Washingtonu?",
+  "text": "[77][78] reported that CNN revealed US intelligence information indicating Iran is planning a dirty bomb or chemical weapons attack in Washington against Trump administration officials.",
+  "reason": "analysis word not used by the source: 'indicating'"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "ICE anuncia récord de arrestos y deportaciones en Estados Unidos, pero Trump sigue lejos de la meta del millón al año: ¿qué revelan las cifras?",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
   "group": "asia",
-  "story": "(URGENT) Seoul stocks dip over 3 pct on tech losses amid lingering Nvidia jitters",
-  "text": "[25] reported that Asian shares slid on tech weakness ahead of Nvidia earnings.",
-  "reason": "names not in cited articles: Asian"
+  "story": "Why China is betting on ‘home-court diplomacy’ at the Shenzhen Apec gathering",
+  "text": "[1] reported that Indian Prime Minister Narendra Modi will attend the ASEAN and Quad meetings in Manila.",
+  "reason": "wording not from cited articles: prime, minister, narendra, meetings"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
+  "text": "[5][6] reported that Chinese President Xi Jinping and Canadian Prime Minister Mark Carney called for deeper ties and a recalibration of relations.",
+  "reason": "wording not from cited articles: president, jinping, prime, minister, relations"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US flight disruptions: Trump admin says air travel chaos may last another day",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Frustrated flyers drive thousands of miles during FAA ground stop"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US flight disruptions: Trump admin says air travel chaos may last another day",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump clipped Biden's payouts for stranded travelers. It may not have helped dur"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US flight disruptions: Trump admin says air travel chaos may last another day",
+  "text": "[29] reported that frustrated air passengers drove thousands of miles to get around the FAA ground stop.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US flight disruptions: Trump admin says air travel chaos may last another day",
+  "text": "[30] reported on Trump clipping Biden's payouts for stranded travelers during the ground stop.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "global",
+  "story": "World oil market is returning to surplus as Gulf exports recover, IEA says",
+  "text": "[31] reported that Brent crude futures dropped 78 cents, or 0.8%, to $91.66 a barrel as recovering Middle East exports blunted Gulf tensions.",
+  "reason": "names not in cited articles: Middle"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Shettima orders immediate release of 3m fertiliser bags for dry-season farming",
+  "text": "[46] reported that Vice President Kashim Shettima announced a presidential directive on immediate fertiliser supply for dry season farming and tasked the Office of the National Security Adviser with stock verification.",
+  "reason": "names not in cited articles: Adviser, Kashim"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "North Korea tourism development site inspection",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Getafe truck collision",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Peanut allergy mail attack arrest",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "ILO Director-General re-election",
+  "text": "[13] reported that the UN labour agency's Governing Body re-elected Gilbert Houngbo to a second five-year term and that he described artificial intelligence at work as a key challenge.",
+  "reason": "wording not from cited articles: second, five-year, term, described, artificial, intelligence"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
   "group": "mena",
-  "story": "Iraq oil production and exports",
-  "text": "[41] reported that tankers were hit in the Strait of Hormuz as a drone raised alarm at an Iraq gas field amid rising tensions.",
-  "reason": "analysis word not used by the source: 'amid'"
+  "story": "NAZA director claims IDF uses Amazon facial recognition technology to surveil Palestinians in Gaza",
+  "text": "[17] reported that an Israeli military department named Rolling Stone transferred 3.5 million photographs to Amazon's cloud platform in early 202.",
+  "reason": "number not in cited articles: 202"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ukraine war briefing: Crimea bridge attacked again after Russia strikes major Kyiv bridges",
+  "text": "[19] reported that Ukraine caused critical damage to Russia's Kerch bridge to occupied Crimea, with photos suggesting a massive steel arch fell into the water.",
+  "reason": "analysis word not used by the source: 'suggesting'"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Spain pension revaluation decree",
+  "text": "[22] reported that the People's Party presented new measures for the Basque Country and rural areas, while Ada Colau's coalition proposed a 100 percent tax on inheritances exceeding ten.",
+  "reason": "number not in cited articles: 10"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
   "group": "mena",
-  "story": "Cairo court cases and Egyptian sports records",
-  "text": "[3] reported that media figure Mohamed Faris expressed confidence in Mohamed Salah surpassing the 70-goal mark for Egypt's national team.",
-  "reason": "number not in cited articles: 70"
+  "story": "Egypt Gold Prices and Dollar Decline",
+  "text": "[23] reported that gold prices in Egypt continued to see significant daily fluctuations.",
+  "reason": "analysis word not used by the source: 'significant'"
  },
  {
   "date": "2026-11-17",
   "kind": "merged",
-  "group": "global",
-  "story": "Trump floats Kim meeting in China, says he’ll discuss Ukraine with Xi and Putin",
-  "text": "Trump Asia nuclear and economic talks",
+  "group": "europe",
+  "story": "Spain pension revaluation decree",
+  "text": "Spain economic electoral debate",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Bahrain Says It Intercepted Iranian Attacks As Tehran Claims Strike On US Base",
+  "text": "Bahrain court sentences Sheikh Isa Qassim to life imprisonment",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "merged",
+  "group": "africa",
+  "story": "2027: Diri charges Bayelsa APC members to deny opposition 25% votes",
+  "text": "FCT Minister Wike directive on opposition parties",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Seoul deploys fighter jets after Russian aircraft enters air defence zone",
+  "text": "Tokyo lodges protest after aircraft believed to be Russian violate Japan airspace",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Le Pen says France will keep giving Ukraine aid if she is elected",
+  "text": "Marine Le Pen stance on financial aid to Ukraine",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]
