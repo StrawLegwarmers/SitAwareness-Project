@@ -4,25 +4,25 @@
   {
    "articles": 562,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 11,
-   "continuing": 4,
+   "calls": 2,
+   "candidates": 16,
+   "continuing": 8,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 489,
-   "in_stories": 19,
-   "kept": 11,
+   "in_stories": 26,
+   "kept": 15,
    "merged": 0,
-   "new": 7,
-   "rejected": 1,
+   "new": 8,
+   "rejected": 2,
    "reported_by_2": 9,
-   "runs": 1,
-   "sent": 11,
+   "runs": 2,
+   "sent": 16,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 5,
    "waiting": 0
   },
   {
@@ -123,7 +123,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T01:58:10+00:00"
+  "all": "2026-11-17T04:42:10+00:00"
  },
  "narratives": [
   {
@@ -3648,7 +3648,7 @@
    "topic": "markets"
   },
   {
-   "article_count": 8,
+   "article_count": 10,
    "articles": [
     {
      "added": "2026-11-16",
@@ -3662,6 +3662,19 @@
      "title": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
      "type": "international",
      "url": "https://www.wsj.com/business/nvidias-board-not-considering-reinstating-jensen-huang-as-ceo-a2b913b1?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "0963806d0264d9fb",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-16T18:30:57+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Trump backs calls for reinstatement of Jensen Huang as Nvidia CEO",
+     "type": "international",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo"
     },
     {
      "added": "2026-11-16",
@@ -3701,6 +3714,19 @@
      "title": "Trump says he ‘wouldn’t mind’ seeing Jensen Huang reinstated as Nvidia chief",
      "type": "international",
      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "39f0137cc7bbe82f",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-16T11:30:35+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Elon Musk joins 165,000 others calling for Nvidia to bring back Jensen Huang in open letter",
+     "type": "international",
+     "url": "https://www.theguardian.com/technology/2026/nov/16/elon-musk-tech-execs-open-letter-jensen-huang-return-nvidia-ceo"
     },
     {
      "added": "2026-11-17",
@@ -3755,7 +3781,7 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
@@ -3767,6 +3793,18 @@
    ],
    "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "0963806d0264d9fb"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-16T18:30:57+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/technology/2026/nov/16/trump-backs-calls-for-reinstatement-of-jensen-huang-as-nvidia-ceo) reported that US president said he thinks Huang learned a big lesson."
+    },
     {
      "articles": [
       "233f970bc1809066"
@@ -5546,7 +5584,7 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-17",
@@ -5563,6 +5601,19 @@
     },
     {
      "added": "2026-11-17",
+     "id": "84f92d9516112d87",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-16T12:56:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Reverse Initial Gains as Supply Concerns Weigh",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
      "id": "6662d6124f1aefd2",
      "lang": "en",
      "outlet": "Oilprice.com",
@@ -5575,15 +5626,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "84f92d9516112d87"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T12:56:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=pls_whats_news_us_business_f) reported that oil prices fell Monday, reversing initial gains as traders weighed signs of global supply surplus against renewed threats to Middle Eastern oil shipments."
+    },
     {
      "articles": [
       "6662d6124f1aefd2",
@@ -5602,7 +5665,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Global oil market oversupply",
+   "title": "Oil prices fall further on supply glut concerns; strong dollar weighs",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-17",
+    "of": 2,
+    "outlet": "Investing.com",
+    "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393"
+   },
    "topic": "energy"
   },
   {
@@ -5678,7 +5748,7 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-17",
@@ -5695,6 +5765,19 @@
     },
     {
      "added": "2026-11-17",
+     "id": "3bf7e3577a5843f9",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-16T23:13:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "United Airlines Says It Resolved Tech Problem That Delayed Departures",
+     "type": "international",
+     "url": "https://www.wsj.com/business/airlines/united-airlines-says-tech-troubles-are-impacting-flights-95b229d8?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
      "id": "bc1ac07b86c1fc4d",
      "lang": "en",
      "outlet": "CNBC Top News",
@@ -5707,14 +5790,14 @@
      "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "united-airlines-system-outage",
    "label": "United Airlines system outage",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -5734,7 +5817,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "United Airlines system outage",
+   "title": "United Airlines Says It Resolved Tech Problem That Delayed Departures",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-17",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/airlines/united-airlines-says-tech-troubles-are-impacting-flights-95b229d8?mod=pls_whats_news_us_business_f"
+   },
    "topic": "infrastructure"
   },
   {
@@ -5798,8 +5888,21 @@
    "topic": "business-strategic"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "4431a8f555303430",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-17T01:49:25+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms"
+    },
     {
      "added": "2026-11-17",
      "id": "1f5f0db47b32dced",
@@ -5827,14 +5930,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "gold-steadies-near-14-month-low",
    "label": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -5856,9 +5959,81 @@
    "status": "new",
    "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "6fa2910a5ca0ecaa",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-17T02:06:13+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Berkshire lowers Bank of America, Capital One stakes, adds to Delta",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/berkshire-lowers-bank-of-america-capital-one-stakes-adds-to-delta/articleshow/135907368.cms"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "54bc07d917dd7a1c",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-16T21:54:35+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Berkshire lowers Bank of America, Capital One stakes",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/berkshire-lowers-bank-of-america-capital-one-stakes-5031074"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "berkshire-hathaway-portfolio-changes",
+   "label": "Berkshire Hathaway portfolio changes",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "54bc07d917dd7a1c",
+      "6fa2910a5ca0ecaa"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "ET Markets"
+     ],
+     "published": "2026-11-16T21:54:35+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/berkshire-lowers-bank-of-america-capital-one-stakes-5031074), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/berkshire-lowers-bank-of-america-capital-one-stakes-adds-to-delta/articleshow/135907368.cms) reported that Berkshire lowered its Bank of America and Capital One stakes."
+    },
+    {
+     "articles": [
+      "6fa2910a5ca0ecaa"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-17T02:06:13+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/berkshire-lowers-bank-of-america-capital-one-stakes-adds-to-delta/articleshow/135907368.cms) reported that Berkshire added to Delta."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Berkshire Hathaway portfolio changes",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T01:58:29+00:00"
+ "updated": "2026-11-17T04:42:27+00:00"
 }
