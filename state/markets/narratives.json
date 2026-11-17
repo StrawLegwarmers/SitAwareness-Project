@@ -2,27 +2,27 @@
  "archived": [],
  "coverage": [
   {
-   "articles": 570,
+   "articles": 616,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 28,
-   "continuing": 12,
+   "calls": 5,
+   "candidates": 39,
+   "continuing": 17,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 491,
-   "in_stories": 45,
-   "kept": 30,
+   "groups": 524,
+   "in_stories": 66,
+   "kept": 45,
    "merged": 0,
-   "new": 14,
+   "new": 20,
    "rejected": 2,
    "reported_by_2": 9,
-   "runs": 4,
-   "sent": 28,
+   "runs": 5,
+   "sent": 39,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 7,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -123,7 +123,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T10:43:17+00:00"
+  "all": "2026-11-17T14:01:05+00:00"
  },
  "narratives": [
   {
@@ -1376,8 +1376,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "fe80e5fb1d0ad9aa",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T13:17:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rebound as Middle East Shipping Risks Persist",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-continue-to-fall-as-global-supply-surplus-weighs-7b54e93b?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-17",
      "id": "5b237ee7141c7d0d",
@@ -1431,15 +1444,27 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "fe80e5fb1d0ad9aa"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T13:17:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-prices-continue-to-fall-as-global-supply-surplus-weighs-7b54e93b?mod=pls_whats_news_us_business_f) reported that oil prices recovered as traders weighed threats to Middle Eastern oil shipments against expectations of a global supply surplus."
+    },
     {
      "articles": [
       "5b237ee7141c7d0d"
@@ -1477,7 +1502,7 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
@@ -3942,8 +3967,21 @@
    "topic": "business"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "c11e45a5980533bc",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-17T12:32:49+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Diamondback to Acquire Double Eagle Assets in Midland Basin",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/diamondback_to_acquire_double_eagle_assets_in_midland_basin-17-nov-2026-185101-article/?rss=true"
+    },
     {
      "added": "2026-11-16",
      "id": "56e0d8a8bb243643",
@@ -3997,15 +4035,27 @@
      "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "diamondback-energy-acquisition-of-double-eagle",
    "label": "Diamondback Energy acquisition of Double Eagle",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "c11e45a5980533bc"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-17T12:32:49+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/diamondback_to_acquire_double_eagle_assets_in_midland_basin-17-nov-2026-185101-article/?rss=true) reported that Diamondback agreed to purchase Double Eagle assets to raise its production in the Midland Basin next year by 92,000 barrels of oil equivalent a day."
+    },
     {
      "articles": [
       "56e0d8a8bb243643"
@@ -4043,9 +4093,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion) reported that Diamondback Energy Inc. is in talks to acquire oil driller Double Eagle V for about $5 billion."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Diamondback Energy acquisition of Double Eagle",
    "topic": "business"
   },
@@ -4535,8 +4585,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "b027b2ee971a36a7",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T14:25:21+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Morgan Stanley is out with its 2027 outlook for equities. Here’s what the bank expects",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/morgan-stanley-sp-500-target-2027.html"
+    },
     {
      "added": "2026-11-16",
      "id": "7c303ee9a04ad7db",
@@ -4564,15 +4627,27 @@
      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "morgan-stanley-upgrades-japan-equities-to",
    "label": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "b027b2ee971a36a7"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T14:25:21+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/morgan-stanley-sp-500-target-2027.html) reported that Morgan Stanley released its 2027 equity outlook and Mike Wilson expects the bull market to continue for a fifth year."
+    },
     {
      "articles": [
       "f700267c9e07c971"
@@ -4598,9 +4673,9 @@
      "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/morgan-stanley-raises-global-equities-to-maximum-overweight-on-cheap-valuations-earnings-strength/articleshow/135888237.cms) reported that Morgan Stanley raised global equities to maximum overweight for 2027."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
    "topic": "markets"
   },
@@ -5836,8 +5911,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "b021c09ba61a9297",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-17T02:57:06+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "United Airlines says ‘widespread’ system outage resolved",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage"
+    },
     {
      "added": "2026-11-17",
      "id": "e0cb869ab198ba31",
@@ -5878,14 +5966,14 @@
      "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "united-airlines-system-outage",
    "label": "United Airlines system outage",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
     {
      "articles": [
@@ -6449,8 +6537,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "6892d851ebf37790",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T09:22:02+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "De Cos Set for Top ECB Job as Germany Picks Chief Economist",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/de-cos-on-path-to-ecb-as-berlin-backs-brunnermeier-for-lane-job"
+    },
     {
      "added": "2026-11-17",
      "id": "82e0bf3120c395f8",
@@ -6478,7 +6579,7 @@
      "url": "https://www.investing.com/news/economy-news/germany-to-propose-economist-brunnermeier-for-ecb-board-ministry-says-5032013"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "germany-ecb-board-nomination",
@@ -6487,6 +6588,18 @@
    "last_updated": "2026-11-17",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "6892d851ebf37790"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T09:22:02+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/de-cos-on-path-to-ecb-as-berlin-backs-brunnermeier-for-lane-job) reported that Pablo Hernandez de Cos is on track to win the European Central Bank presidency following a political deal in Berlin."
+    },
     {
      "articles": [
       "82e0bf3120c395f8"
@@ -6587,9 +6700,499 @@
    "status": "new",
    "title": "Germany investor sentiment",
    "topic": "economy"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "b8ffbafa02d9675e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T13:40:54+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "5e45d320d047bd1f",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T13:20:19+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem Says Economy to Likely Require ‘Several’ Hikes by Spring",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-musalem-several-hikes-likely-needed-by-spring-video"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "7e3d049946065748",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-17T13:14:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem Says Several Rate Hikes Likely Needed Before Spring 2027",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "47d20e2eec55532f",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T12:36:21+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem: US likely needs several rate hikes by spring to control inflation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "fa1894f8ff87497d",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T12:30:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem Says ‘Several’ Rate Hikes Likely Needed by Spring",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "fed-rate-hikes",
+   "label": "Fed rate hikes",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "47d20e2eec55532f",
+      "5e45d320d047bd1f",
+      "7e3d049946065748",
+      "fa1894f8ff87497d"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T12:30:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring), [Wall Street Journal](https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730) reported that St. Louis Fed President Alberto Musalem stated the economy will likely need several interest rate increases by next spring to control inflation."
+    },
+    {
+     "articles": [
+      "b8ffbafa02d9675e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-17T13:40:54+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html) reported that St. Louis Fed's Musalem said four more rate hikes may be needed in the coming months."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-17",
+    "of": 3,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+   },
+   "topic": "economy"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "bd1be0b97a8979ff",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T13:43:00+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Home Depot names insider McPhail CEO, bets on sustained sales recovery",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/home-depot-names-finance-chief-mcphail-as-ceo-5032246"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "53db0a5c7620c1fe",
+     "lang": "en",
+     "outlet": "CNBC Earnings",
+     "published": "2026-11-17T11:33:44+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "b26d692d5bc172d8",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T10:53:29+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Home Depot Names McPhail CEO With Decker Back as Chairman",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/home-depot-names-mcphail-ceo-as-decker-returns-as-chairman"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "home-depot-executive-changes",
+   "label": "Home Depot executive changes",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "53db0a5c7620c1fe",
+      "b26d692d5bc172d8",
+      "bd1be0b97a8979ff"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "CNBC",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T10:53:29+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/home-depot-names-mcphail-ceo-as-decker-returns-as-chairman), [CNBC](https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html), [Investing.com](https://www.investing.com/news/stock-market-news/home-depot-names-finance-chief-mcphail-as-ceo-5032246) reported that Home Depot named Richard McPhail as its new chief executive officer, replacing Ted Decker, who returns as chairman."
+    },
+    {
+     "articles": [
+      "53db0a5c7620c1fe"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-17T11:33:44+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html) reported that Home Depot beat earnings expectations."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Home Depot names Richard McPhail as new CEO, beats earnings expectations",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-17",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/17/home-depot-hd-q3-earnings-2026.html"
+   },
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "80953e10687feb31",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-17T13:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Malaysia Signs First Critical Minerals Pact With France",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Malaysia-Signs-First-Critical-Minerals-Pact-With-France.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "69953e7fe403ede5",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T05:38:30+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Malaysia Inks Deal With France to Develop Critical Minerals",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/malaysia-deal-france-to-develop-critical-minerals-europe-mining"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "malaysia-and-france-critical-minerals-pact",
+   "label": "Malaysia and France critical minerals pact",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "69953e7fe403ede5",
+      "80953e10687feb31"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-17T05:38:30+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/malaysia-deal-france-to-develop-critical-minerals-europe-mining), [Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Malaysia-Signs-First-Critical-Minerals-Pact-With-France.html) reported that Malaysia signed an agreement with France to develop its critical minerals industry."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Malaysia and France critical minerals pact",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "289a1b06654b01ba",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-17T10:57:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Dodgers Owner Mark Walter’s Insurer Misses Target to Reduce Affiliated Assets",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/dodgers-owner-mark-walters-insurer-misses-target-to-reduce-affiliated-assets-249e32c5?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "61f3ecd29e623f6c",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T06:08:41+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Mark Walter’s Insurer Seeks Nod to Swap $1.2 Billion More Assets",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/mark-walter-s-insurer-seeks-nod-to-swap-1-2-billion-more-assets"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "mark-walter-insurer-asset-swap",
+   "label": "Mark Walter insurer asset swap",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "61f3ecd29e623f6c"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T06:08:41+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/mark-walter-s-insurer-seeks-nod-to-swap-1-2-billion-more-assets) reported that Mark Walter's life insurer is seeking regulatory approval to swap $1.2 billion more assets."
+    },
+    {
+     "articles": [
+      "289a1b06654b01ba"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T10:57:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/dodgers-owner-mark-walters-insurer-misses-target-to-reduce-affiliated-assets-249e32c5?mod=rss_markets_main) reported that Delaware Life Insurance stated the share of its holdings tied to Walter fell to 35% in the third quarter."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Mark Walter insurer asset swap",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "dates": [
+      "2026-11-17"
+     ],
+     "id": "2e1ed9c10930a3c1",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T13:19:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia earnings live updates: Wall Street braces for first report since Huang's ouster",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "7a58f555e10eed4f",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T12:15:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia’s Finance Chief Kress to Lead First Earnings Call Following Huang’s Ouster",
+     "type": "international",
+     "url": "https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "nvidia-leadership-and-earnings",
+   "label": "Nvidia leadership and earnings",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7a58f555e10eed4f"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T12:15:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f) reported that Nvidia finance chief Kress will lead the first earnings call following Huang's ouster, and Warsh said the Fed is gaming out how AI could reshape the economy."
+    },
+    {
+     "articles": [
+      "2e1ed9c10930a3c1"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-17T13:19:43+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html) reported that Nvidia is scheduled to release fiscal third-quarter 2027 results on Tuesday."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia leadership and earnings",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "f9d1e32c13b22ea9",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T13:49:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "JPMorgan Chase Names Bregje de Best to Succeed Jeremy Barnum as CFO",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "4e2d0f4376c818d8",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T13:30:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "JPMorgan says insider Bregje de Best will succeed Barnum as CFO",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/jpmorgan-says-insider-bregje-de-best-will-succeed-barnum-as-cfo-5032910"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "jpmorgan-chase-names-bregje-de-best",
+   "label": "JPMorgan Chase Names Bregje de Best to Succeed Jeremy Barnum as CFO",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4e2d0f4376c818d8",
+      "f9d1e32c13b22ea9"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T13:30:38+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=pls_whats_news_us_business_f), [Investing.com](https://www.investing.com/news/stock-market-news/jpmorgan-says-insider-bregje-de-best-will-succeed-barnum-as-cfo-5032910) reported that JPMorgan Chase named Bregje de Best to succeed Jeremy Barnum as chief financial officer."
+    },
+    {
+     "articles": [
+      "f9d1e32c13b22ea9"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T13:49:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/banking/jpmorgan-chase-names-bregje-de-best-to-succeed-jeremy-barnum-as-cfo-ea77f240?mod=pls_whats_news_us_business_f) reported that Barnum will stay on until early 2028 to help senior leaders on firmwide initiatives."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "JPMorgan Chase Names Bregje de Best to Succeed Jeremy Barnum as CFO",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T10:45:25+00:00"
+ "updated": "2026-11-17T14:01:42+00:00"
 }
