@@ -117,25 +117,25 @@
   {
    "articles": 251,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 23,
-   "continuing": 4,
+   "calls": 8,
+   "candidates": 26,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 4,
    "failed_calls": 0,
    "groups": 225,
-   "in_stories": 26,
-   "kept": 22,
+   "in_stories": 29,
+   "kept": 24,
    "merged": 0,
-   "new": 13,
+   "new": 15,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 7,
-   "sent": 23,
+   "runs": 8,
+   "sent": 26,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 3,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -259,12 +259,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T19:42:41+00:00"
+  "all": "2026-11-17T22:32:18+00:00"
  },
  "narratives": [
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "2e376ac307fc9bdf",
+     "lang": "en",
+     "outlet": "CISA Alerts",
+     "published": "2026-11-17T12:00:00+00:00",
+     "publisher": "CISA",
+     "region": null,
+     "section": "intel",
+     "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+     "type": null,
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog"
+    },
     {
      "added": "2026-11-14",
      "id": "a28f1fd895d9a3ca",
@@ -328,14 +341,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -373,9 +386,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -5049,9 +5062,99 @@
    "status": "new",
    "title": "Malicious npm packages",
    "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "c199e4294827cb56",
+     "lang": "en",
+     "outlet": "Unit 42 (Palo Alto)",
+     "published": "2026-11-17T20:43:14+00:00",
+     "publisher": "Unit 42 (Palo Alto)",
+     "region": null,
+     "section": "intel",
+     "title": "Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us",
+     "type": null,
+     "url": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "optimjack-supply-chain-attack",
+   "label": "OPTIMJACK supply chain attack",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "c199e4294827cb56"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Unit 42 (Palo Alto)"
+     ],
+     "published": "2026-11-17T20:43:14+00:00",
+     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/) reported that the OPTIMJACK supply chain attack demonstrates how a compromised vendor script can expose websites."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "OPTIMJACK supply chain attack",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "d167e048362c928b",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-17T22:29:56+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "Official Microsoft agent-framework PyPI package compromised",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "microsoft-agent-framework-pypi-package-compromise",
+   "label": "Microsoft agent-framework PyPI package compromise",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "d167e048362c928b"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-17T22:29:56+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/agent-framework-pypi-compromised) reported that versions 1.26.1 and 1.26.2 of the official Microsoft agent-framework Python package contain malware."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Microsoft agent-framework PyPI package compromise",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-17T19:43:03+00:00"
+ "updated": "2026-11-17T22:32:42+00:00"
 }

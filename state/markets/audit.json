@@ -43,33 +43,33 @@
   "date": "2026-11-17",
   "kind": "skipped",
   "group": "all",
-  "story": "Iran Threat to Trump Officials",
+  "story": "Trump on Iran dirty bomb plan",
   "text": "",
   "reason": "off-topic for this site (topic: security): not created"
  },
  {
   "date": "2026-11-17",
+  "kind": "title",
+  "group": "all",
+  "story": "Dems Plan Probes of Trump's $100B Venezuela Oil Deal",
+  "text": "Democratic probes of Venezuela oil deal",
+  "reason": "title replaced by a headline: names not in cited articles: Democratic"
+ },
+ {
+  "date": "2026-11-17",
   "kind": "rejected",
   "group": "all",
-  "story": "US and Thailand Trade Negotiations",
-  "text": "[8][9] reported that the United States and Thailand reached a substantial conclusion on a bilateral trade deal.",
+  "story": "Federal Reserve interest rates",
+  "text": "[11] reported that Federal Reserve Bank of New York President John Williams dismissed the suggestion of dramatic action.",
+  "reason": "analysis word not used by the source: 'dramatic'"
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+  "text": "[15] reported that the United States is probing why a router installation sparked a mass flight grounding.",
   "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "all",
-  "story": "Fresh tanker attack in Hormuz highlights ongoing threats facing Gulf shipping",
-  "text": "Middle East Shipping and Oil Market Pressures",
-  "reason": "title replaced by a headline: names not in cited articles: Middle, Pressures"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "all",
-  "story": "US Homebuilder Sentiment Sags to Fresh 14-Year Low on Rates",
-  "text": "US Homebuilder Sentiment Decline",
-  "reason": "title replaced by a headline: names not in cited articles: Decline"
  },
  {
   "date": "2026-11-17",
@@ -77,30 +77,22 @@
   "group": "all",
   "story": "Nvidia leadership and earnings",
   "text": "",
-  "reason": "continuation not supported by the headlines: Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO"
+  "reason": "not added to this story (headline doesn't match it): Nvidia doubles revenue in first earnings since Jensen Huang’s resignation"
  },
  {
   "date": "2026-11-17",
-  "kind": "title",
+  "kind": "skipped",
   "group": "all",
-  "story": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+  "story": "Nvidia leadership and earnings",
   "text": "",
-  "reason": "title replaced by a headline: empty title"
+  "reason": "not added to this story (headline doesn't match it): What to watch for in Nvidia’s first earnings report since Jensen Huang resigned"
  },
  {
   "date": "2026-11-17",
   "kind": "rejected",
   "group": "all",
-  "story": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
-  "text": "[20][21] reported that the Federal Aviation Administration paused the installation of new routers following a nationwide ground stop.",
-  "reason": "names not in cited articles: Administration, Aviation"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "all",
-  "story": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
-  "text": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "story": "Nvidia leadership and earnings",
+  "text": "[3] reported that Nvidia doubled revenue in its first earnings report since Jensen Huang's resignation.",
+  "reason": "cites an article that doesn't belong to this story"
  }
 ]

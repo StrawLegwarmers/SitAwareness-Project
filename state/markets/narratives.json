@@ -4,9 +4,9 @@
   {
    "articles": 616,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 65,
-   "continuing": 25,
+   "calls": 8,
+   "candidates": 75,
+   "continuing": 30,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
@@ -15,17 +15,17 @@
    ],
    "failed_calls": 1,
    "groups": 524,
-   "in_stories": 90,
-   "kept": 54,
+   "in_stories": 103,
+   "kept": 65,
    "merged": 1,
-   "new": 28,
-   "rejected": 4,
+   "new": 31,
+   "rejected": 7,
    "reported_by_2": 11,
-   "runs": 7,
-   "sent": 65,
-   "skipped": 3,
+   "runs": 8,
+   "sent": 75,
+   "skipped": 6,
    "split_calls": 0,
-   "updated": 11,
+   "updated": 15,
    "waiting": 0
   },
   {
@@ -126,7 +126,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T19:57:07+00:00"
+  "all": "2026-11-17T22:37:41+00:00"
  },
  "narratives": [
   {
@@ -969,8 +969,34 @@
    "topic": "business"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "8c29e5d37fbf4a39",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T20:18:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Williams still favors tighter monetary policy, but says now is not the time for ’dramatic action’",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-williams-still-favors-tighter-monetary-policy-but-says-now-is-not-the-time-for-dramatic-action-5033893"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "a60f5b1e5da78255",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T19:51:47+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed's Williams Doesn't See Need for 'Dramatic Action' on Rates",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video"
+    },
     {
      "added": "2026-11-15",
      "id": "33a2e99f01b0ed6f",
@@ -1024,15 +1050,53 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "8c29e5d37fbf4a39",
+      "a60f5b1e5da78255"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T19:51:47+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video), [Investing.com](https://www.investing.com/news/economy-news/feds-williams-still-favors-tighter-monetary-policy-but-says-now-is-not-the-time-for-dramatic-action-5033893) reported that Federal Reserve Bank of New York President John Williams stated that now is not the time for dramatic action on rates."
+    },
+    {
+     "articles": [
+      "a60f5b1e5da78255"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T19:51:47+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-17/fed-s-williams-no-need-for-dramatic-action-on-rates-video) reported that Williams sees drivers pushing up inflation, including AI."
+    },
+    {
+     "articles": [
+      "8c29e5d37fbf4a39"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-17T20:18:23+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-williams-still-favors-tighter-monetary-policy-but-says-now-is-not-the-time-for-dramatic-action-5033893) reported that Williams still favors tighter monetary policy."
+    },
     {
      "articles": [
       "33a2e99f01b0ed6f"
@@ -1060,7 +1124,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Federal Reserve monetary policy stance",
    "topic": "economy"
   },
@@ -1983,8 +2047,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 7,
+   "article_count": 9,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "0f1eef97eb98613a",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T20:06:05+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "e9a4ff6a1296bb9f",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T19:53:34+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Williams says more rate hikes likely needed amid inflation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876"
+    },
     {
      "added": "2026-11-14",
      "id": "78fc27705b19b2f8",
@@ -2077,15 +2167,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "e9a4ff6a1296bb9f"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-17T19:53:34+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876) reported that Williams stated more rate hikes are likely needed amid inflation."
+    },
     {
      "articles": [
       "2112fae2aef7bd41",
@@ -2132,7 +2234,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Federal Reserve interest rates",
    "topic": "economy"
   },
@@ -2197,7 +2299,7 @@
    "topic": "justice"
   },
   {
-   "article_count": 20,
+   "article_count": 21,
    "articles": [
     {
      "added": "2026-11-17",
@@ -2224,6 +2326,19 @@
      "title": "FAA Pauses Router Installations After Nationwide Ground Stop",
      "type": "international",
      "url": "https://www.wsj.com/business/airlines/faa-pauses-router-installations-after-nationwide-ground-stop-9cd6c424?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "02b06b15604ab22f",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T10:00:30+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US probes why a router installation sparked mass flight grounding",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/us-probes-why-a-router-installation-sparked-mass-flight-grounding-5030697"
     },
     {
      "added": "2026-11-17",
@@ -2460,18 +2575,19 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
-    "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop"
+    "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop",
+    "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight"
    ],
    "reports": [
     {
@@ -2606,13 +2722,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+   "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
    "title_from": {
-    "backing": 3,
-    "date": "2026-11-14",
-    "of": 3,
-    "outlet": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video"
+    "backing": 2,
+    "date": "2026-11-17",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f"
    },
    "topic": "infrastructure"
   },
@@ -3752,8 +3868,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "b2f7a2633611e651",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-17T22:16:11+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia chairman says board doesn't plan to bring back Jensen Huang as CEO — live",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=d05b79ea-ed3d-4187-b17a-61d5c2677766&mod=mw_rss_bulletins"
+    },
     {
      "added": "2026-11-17",
      "id": "97641acd709e1a97",
@@ -3937,7 +4066,7 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 8,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
@@ -3948,7 +4077,7 @@
     "trump-says-he-wouldn-t-mind",
     "jensen-huang-breaks-silence-signals-willingness"
    ],
-   "outlets_today": 5,
+   "outlets_today": 6,
    "reports": [
     {
      "articles": [
@@ -7188,8 +7317,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "f8bdbc31706408a1",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T22:19:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia Beats Estimates in First Earnings Report After Jensen Huang’s Ouster",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-17",
      "dates": [
@@ -7220,7 +7362,7 @@
      "url": "https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "nvidia-leadership-and-earnings",
@@ -7229,6 +7371,18 @@
    "last_updated": "2026-11-17",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "f8bdbc31706408a1"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T22:19:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f) reported that interim CEO Colette Kress is expected to face pressing questions over the chip maker's future."
+    },
     {
      "articles": [
       "7a58f555e10eed4f"
@@ -7783,9 +7937,223 @@
    "status": "new",
    "title": "US Homebuilder Sentiment Sags to Fresh 14-Year Low on Rates",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "d1e782ff67c4c942",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-17T20:00:00+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Ukrainian Drones Target 2 Oil Refineries Deep Inside Russia",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/ukrainian_drones_target_2_oil_refineries_deep_inside_russia-17-nov-2026-185104-article/?rss=true"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "92583b1cd7c082c8",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T13:47:28+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Russia's Oil Exports Hit Their Highest Since July as Drones Hit Refineries",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/russia-s-oil-exports-hit-their-highest-since-july-as-drones-hit-refineries"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "ukrainian-drone-attacks-on-russian-refineries",
+   "label": "Ukrainian drone attacks on Russian refineries",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "92583b1cd7c082c8"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T13:47:28+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/russia-s-oil-exports-hit-their-highest-since-july-as-drones-hit-refineries) reported that Russia's oil exports hit their highest since July as a surge in Ukrainian attacks on oil-processing plants forced producers to divert crude to exports."
+    },
+    {
+     "articles": [
+      "d1e782ff67c4c942"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-17T20:00:00+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/ukrainian_drones_target_2_oil_refineries_deep_inside_russia-17-nov-2026-185104-article/?rss=true) reported that Ukraine targeted two oil refineries deep inside Russia with drone strikes."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Ukrainian drone attacks on Russian refineries",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "bf22199e1d90803e",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-17T17:00:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Democrats Target Trump’s $100 Billion Venezuela Oil Deal",
+     "type": "specialist",
+     "url": "https://oilprice.com/Energy/Energy-General/Democrats-Target-Trumps-100-Billion-Venezuela-Oil-Deal.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "07b8053722dc4f73",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-17T14:36:56+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Dems Plan Probes of Trump's $100B Venezuela Oil Deal",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/dems_plan_probes_of_trumps_100b_venezuela_oil_deal-17-nov-2026-185103-article/?rss=true"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "dems-plan-probes-of-trump-s",
+   "label": "Dems Plan Probes of Trump's $100B Venezuela Oil Deal",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "07b8053722dc4f73",
+      "bf22199e1d90803e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Rigzone",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-17T14:36:56+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/dems_plan_probes_of_trumps_100b_venezuela_oil_deal-17-nov-2026-185103-article/?rss=true), [Oilprice.com](https://oilprice.com/Energy/Energy-General/Democrats-Target-Trumps-100-Billion-Venezuela-Oil-Deal.html) reported that congressional Democrats are preparing multiple investigations into President Donald Trump's $100 billion Venezuela oil agreement."
+    },
+    {
+     "articles": [
+      "07b8053722dc4f73"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-17T14:36:56+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/dems_plan_probes_of_trumps_100b_venezuela_oil_deal-17-nov-2026-185103-article/?rss=true) reported that California Representative Robert Garcia stated they want to find out exactly what happened."
+    },
+    {
+     "articles": [
+      "bf22199e1d90803e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-17T17:00:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Energy/Energy-General/Democrats-Target-Trumps-100-Billion-Venezuela-Oil-Deal.html) reported that Democrats plan to subpoena administration officials."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Dems Plan Probes of Trump's $100B Venezuela Oil Deal",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "80511c9f201d4dbd",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T21:25:24+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "SEC Is Probing Nvidia Amid Jensen Huang’s Exit, WSJ Reports",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "23d19f7b96ea43a7",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-17T20:56:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+     "type": "international",
+     "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "sec-investigation-into-nvidia",
+   "label": "SEC investigation into Nvidia",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "23d19f7b96ea43a7",
+      "80511c9f201d4dbd"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T20:56:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports) reported that the Securities and Exchange Commission is investigating Nvidia Corp. in a civil probe looking at whether the company violated investor-disclosure laws."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "SEC investigation into Nvidia",
+   "topic": "business-strategic"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T19:57:45+00:00"
+ "updated": "2026-11-17T22:38:07+00:00"
 }
