@@ -2,6 +2,30 @@
  "archived": [],
  "coverage": [
   {
+   "articles": 562,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 11,
+   "continuing": 4,
+   "corroborated": 0,
+   "date": "2026-11-17",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 489,
+   "in_stories": 19,
+   "kept": 11,
+   "merged": 0,
+   "new": 7,
+   "rejected": 1,
+   "reported_by_2": 9,
+   "runs": 1,
+   "sent": 11,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 4,
+   "waiting": 0
+  },
+  {
    "articles": 514,
    "attached_by_code": 0,
    "calls": 7,
@@ -99,7 +123,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-16T22:31:41+00:00"
+  "all": "2026-11-17T01:58:10+00:00"
  },
  "narratives": [
   {
@@ -1080,14 +1104,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1114,9 +1138,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
   },
@@ -2095,8 +2119,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 17,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "5e2cf937fcdf9a8b",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T01:00:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
+     "type": "international",
+     "url": "https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-16",
      "id": "9e312902a7616d79",
@@ -2319,13 +2356,13 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
    "outlets_today": 1,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
@@ -2333,6 +2370,18 @@
     "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop"
    ],
    "reports": [
+    {
+     "articles": [
+      "5e2cf937fcdf9a8b"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T01:00:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f) reported that airline operations are nearly back to normal following a nationwide ground stop while carriers tally financial blows from thousands of canceled flights."
+    },
     {
      "articles": [
       "5c72e4359aed7601"
@@ -2506,14 +2555,14 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-13",
    "last_updated": "2026-11-16",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2528,9 +2577,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -3599,7 +3648,7 @@
    "topic": "markets"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
     {
      "added": "2026-11-16",
@@ -3654,6 +3703,19 @@
      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a?syn-25a6b1a6=1"
     },
     {
+     "added": "2026-11-17",
+     "id": "233f970bc1809066",
+     "lang": "en",
+     "outlet": "The Guardian Economics",
+     "published": "2026-11-16T09:13:55+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "AI sell-off resumes as Jensen Huang ‘discusses comeback as Nvidia CEO’ – business live",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates"
+    },
+    {
      "added": "2026-11-16",
      "id": "a99d24579d247232",
      "lang": "en",
@@ -3693,18 +3755,30 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
    "label": "Jensen Huang discusses comeback as Nvidia CEO with allies",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
    "merged": [
     "trump-says-he-wouldn-t-mind"
    ],
-   "outlets_today": 4,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "233f970bc1809066"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-16T09:13:55+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/business/live/2026/nov/16/ai-sell-off-resumes-jensen-huang-discusses-comeback-nvidia-ceo-dollar-stock-markets-latest-news-updates) reported that Elon Musk joined 165,000 others calling for Nvidia to bring back Jensen Huang in an open letter."
+    },
     {
      "articles": [
       "b88f0838e85a7fe6"
@@ -3766,7 +3840,7 @@
      "text": "[Financial Times](https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1) reported that tech supporters are lobbying Nvidia's board to reinstate former CEO Jensen Huang after he resigned following an affair with an alleged Chinese spy."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
@@ -3835,14 +3909,14 @@
      "url": "https://www.investing.com/news/stock-market-news/diamondback-nears-5-billion-deal-to-buy-drilling-portfolio-from-double-eagle-ft-says-5028067"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "diamondback-energy-acquisition-of-double-eagle",
    "label": "Diamondback Energy acquisition of Double Eagle",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3883,7 +3957,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Diamondback Energy acquisition of Double Eagle",
    "topic": "business"
   },
@@ -3956,14 +4030,14 @@
      "url": "https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "hkex-dim-sum-bond-index",
    "label": "HKEX dim sum bond index",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4012,7 +4086,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "HKEX Launches First Dim Sum Bond Index to Boost Yuan Debt Market",
    "title_from": {
     "backing": 2,
@@ -4079,14 +4153,14 @@
      "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "akeso-cancer-drug-fda-rejection",
    "label": "Akeso cancer drug FDA rejection",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4127,7 +4201,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
    "title_from": {
     "backing": 2,
@@ -4168,14 +4242,14 @@
      "url": "https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "japan-economy-contraction",
    "label": "Japan economy contraction",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4218,7 +4292,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Japan economy contraction",
    "topic": "economy"
   },
@@ -4252,14 +4326,14 @@
      "url": "https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "china-economic-output-and-sales",
    "label": "China economic output and sales",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4290,7 +4364,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "China economic output and sales",
    "topic": "economy"
   },
@@ -4337,14 +4411,14 @@
      "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "johnson-johnson-acquisition-of-ollin-biosciences",
    "label": "Johnson & Johnson acquisition of Ollin Biosciences",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4361,7 +4435,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion",
    "title_from": {
     "backing": 2,
@@ -4402,14 +4476,14 @@
      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-japan-equities-to-overweight-sees-22-topix-upside-5028635"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "morgan-stanley-upgrades-japan-equities-to",
    "label": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4438,7 +4512,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
    "topic": "markets"
   },
@@ -4472,14 +4546,14 @@
      "url": "https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "blackstone-acquisition-of-amazon-data-centers",
    "label": "Blackstone acquisition of Amazon data centers",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4508,7 +4582,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Blackstone acquisition of Amazon data centers",
    "topic": "business"
   },
@@ -4542,14 +4616,14 @@
      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-donates-more-berkshire-shares-confidence-in-successors-as-strong-as-ever/articleshow/135890059.cms"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "warren-buffett-charitable-donations",
    "label": "Warren Buffett charitable donations",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4578,7 +4652,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Warren Buffett charitable donations",
    "topic": "business"
   },
@@ -4625,14 +4699,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-16/tiff-macklem-to-leave-as-bank-of-canada-governor-starting-succession-race"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "bank-of-canada-leadership-succession",
    "label": "Bank of Canada leadership succession",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4661,7 +4735,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Bank of Canada Gov. Macklem to Leave in June, Kicking Off Search for New Leader",
    "title_from": {
     "backing": 2,
@@ -4702,14 +4776,14 @@
      "url": "https://www.investing.com/news/stock-market-news/us-rocket-fails-after-launch-payload-of-amazon-internet-satellites-destroyed-5028094"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "rocket-launch-failure",
    "label": "Rocket launch failure",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "also": [
@@ -4734,7 +4808,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Rocket launch failure",
    "topic": "business"
   },
@@ -4768,14 +4842,14 @@
      "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "canada-inflation-rate",
    "label": "Canada inflation rate",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4804,7 +4878,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Canada inflation rate",
    "topic": "economy"
   },
@@ -4838,14 +4912,14 @@
      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "nvidia-earnings-report",
    "label": "Nvidia earnings report",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4874,7 +4948,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nvidia earnings report",
    "topic": "business"
   },
@@ -4908,14 +4982,14 @@
      "url": "https://www.investing.com/news/stock-market-news/lilly-to-buy-calytrix-bio-for-up-to-15-billion-5029412"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "eli-lilly-acquisition-of-calytrix-bio",
    "label": "Eli Lilly acquisition of Calytrix Bio",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4944,7 +5018,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Eli Lilly acquisition of Calytrix Bio",
    "topic": "business"
   },
@@ -4978,14 +5052,14 @@
      "url": "https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "trump-media-debt-repayment",
    "label": "Trump Media debt repayment",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5004,13 +5078,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Trump Media debt repayment",
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "f10d64b3230647e5",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-16T23:12:24+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "California sues OpenAI over Hugging Face attack",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss"
+    },
     {
      "added": "2026-11-16",
      "id": "a8dbc57731235091",
@@ -5051,15 +5138,27 @@
      "url": "https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "california-lawsuit-against-openai",
    "label": "California lawsuit against OpenAI",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 3,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "f10d64b3230647e5"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-16T23:12:24+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss) reported that California Attorney General Rob Bonta alleged OpenAI misled and endangered the public in a lawsuit regarding a Hugging Face attack."
+    },
     {
      "articles": [
       "a8dbc57731235091"
@@ -5097,9 +5196,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/california-suesopenai-over-ai-models-cyberattacks-on-hugging-face-other-companies-5030712) reported that California sued OpenAI over AI models' cyberattacks on Hugging Face and other companies."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "updated",
    "title": "California sues OpenAI over Hugging Face, other AI model loss of control",
    "title_from": {
     "backing": 2,
@@ -5111,8 +5210,21 @@
    "topic": "technology-policy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "2b59b16e8aecc5bb",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-16T20:12:32+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Hammack backs gradual rate hikes, flags risk of bigger moves - Bloomberg TV",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-hammack-backs-gradual-rate-hikes-flags-risk-of-bigger-moves--bloomberg-tv-5030794"
+    },
     {
      "added": "2026-11-16",
      "id": "6be987b8a54185c9",
@@ -5140,14 +5252,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "federal-reserve-interest-rate-policy",
    "label": "Federal Reserve interest rate policy",
    "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -5164,9 +5276,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/fed-s-hammack-reiterates-preference-for-small-incremental-hikes), [Investing.com](https://www.investing.com/news/economy-news/feds-hammack-reiterates-case-for-slow-steady-rate-hikes-bloomberg-tv-5030761) reported that Federal Reserve Bank of Cleveland President Beth Hammack reiterated her preference for smaller and steady increases in interest rates to help fight inflation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "covered",
    "title": "Federal Reserve interest rate policy",
    "topic": "economy"
   },
@@ -5200,14 +5312,14 @@
      "url": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "us-banks-online-service-disruptions",
    "label": "US banks online service disruptions",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5226,7 +5338,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US banks online service disruptions",
    "topic": "infrastructure"
   },
@@ -5260,14 +5372,14 @@
      "url": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "jpmorgan-chase-software-bug-disruptions",
    "label": "JPMorgan Chase software bug disruptions",
    "last_reported": "2026-11-16",
    "last_updated": "2026-11-16",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5296,12 +5408,457 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "JPMorgan Chase software bug disruptions",
    "topic": "business"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "07a6314ff604509f",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T00:57:59+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "RBA minutes reveal hawkish bias as inflation risks remain tilted to upside",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/rba-minutes-reveal-hawkish-bias-as-inflation-risks-remain-tilted-to-upside-5031379"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "dc3c73b9c5491860",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T00:30:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "RBA Raised Rates as Price Risks Remained to Upside, Minutes Show",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/rba-raised-rates-as-price-risks-remained-to-upside-minutes-show"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "2fca0cdf6a79cc87",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-16T23:15:17+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "RBA’s Bullock Says Inflation Risks Remain Skewed to Upside",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/rba-s-bullock-says-inflation-risks-still-skewed-to-the-upside"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "australia-interest-rates-and-inflation",
+   "label": "Australia interest rates and inflation",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "07a6314ff604509f",
+      "dc3c73b9c5491860"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T00:30:00+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/rba-minutes-reveal-hawkish-bias-as-inflation-risks-remain-tilted-to-upside-5031379), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/rba-raised-rates-as-price-risks-remained-to-upside-minutes-show) reported that minutes from the Australian central bank revealed a hawkish bias and showed a majority of the nine-member board voted to raise interest rates two weeks ago on concerns that inflation risks remain tilted to the upside."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Australia interest rates and inflation",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "8792264bb4369d2a",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-16T12:33:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia Earnings, Anthropic IPO Ahead in New Test for AI Economy",
+     "type": "international",
+     "url": "https://www.wsj.com/cfo-journal/nvidia-earnings-anthropic-ipo-ahead-in-new-test-for-ai-economy-7dced222?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "746698e9bedfdcbc",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-16T01:36:29+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-5028293"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "tech-rally-and-impending-nvidia-earnings",
+   "label": "Tech rally and impending Nvidia earnings",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "746698e9bedfdcbc",
+      "8792264bb4369d2a"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T01:36:29+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/cfo-journal/nvidia-earnings-anthropic-ipo-ahead-in-new-test-for-ai-economy-7dced222?mod=rss_markets_main), [Investing.com](https://www.investing.com/news/economy-news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-5028293) reported that Asian shares fell ahead of upcoming Nvidia earnings and an Anthropic IPO test for the tech rally."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Tech rally and impending Nvidia earnings",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "92d00dffe68f6a05",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-17T01:04:10+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil prices fall further on supply glut concerns; strong dollar weighs",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "6662d6124f1aefd2",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-16T05:25:32+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Fall as Fears of a Global Supply Glut Return",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "global-oil-market-oversupply",
+   "label": "Global oil market oversupply",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6662d6124f1aefd2",
+      "92d00dffe68f6a05"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T05:25:32+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Global oil market oversupply",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "793aa7c283d79f9c",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-16T22:33:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Berkshire upped its bet on a beleaguered U.S. housing market, while souring on these bank stocks",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "5bb633a58f33dc44",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-16T21:36:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Berkshire Boosts Stake in Lennar, Doubling Down on Its U.S. Housing Bet",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "berkshire-hathaway-investment-stakes",
+   "label": "Berkshire Hathaway investment stakes",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5bb633a58f33dc44",
+      "793aa7c283d79f9c"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "MarketWatch"
+     ],
+     "published": "2026-11-16T21:36:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main), [MarketWatch](https://www.marketwatch.com/story/berkshire-upped-its-bet-on-a-beleaguered-u-s-housing-market-while-souring-on-these-bank-stocks-2e8de402?mod=mw_rss_topstories) reported that Berkshire Hathaway stepped up investments in the U.S. housing market by nearly doubling its stake in home builder Lennar during the September quarter."
+    },
+    {
+     "articles": [
+      "5bb633a58f33dc44"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-16T21:36:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main) reported that the conglomerate also trimmed stakes in Capital One and Nucor."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Berkshire Hathaway investment stakes",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "e0cb869ab198ba31",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-16T23:42:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "United Airlines resolves system outage that delayed flights Monday",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "bc1ac07b86c1fc4d",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T22:25:37+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "United Airlines reports system outage affecting departing flights",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "united-airlines-system-outage",
+   "label": "United Airlines system outage",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "bc1ac07b86c1fc4d",
+      "e0cb869ab198ba31"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC",
+      "MarketWatch"
+     ],
+     "published": "2026-11-16T22:25:37+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/united-airlines-outage-faa.html), [MarketWatch](https://www.marketwatch.com/story/united-airlines-suffers-system-outage-amid-lingering-faa-ground-stop-delays-5e33f94c?mod=mw_rss_topstories) reported that United Airlines experienced a system outage affecting departing flights, which was subsequently resolved."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "United Airlines system outage",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "ae6c946d72ebef1e",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T00:17:00+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "CVC plans to back out of $3.3 bln Irca deal with Advent International- FT",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/cvc-plans-to-back-out-of-33-bln-irca-deal-with-advent-international-ft-93CH-5031334"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "6438ad368e1e6d88",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-16T23:08:52+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "CVC plans to back out of Italian deal with Advent, triggering potential legal clash",
+     "type": "international",
+     "url": "https://www.ft.com/content/bd65d6e0-3ecb-498c-b684-c7e4c782a0ae?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "cvc-dispute-with-advent-over-irca",
+   "label": "CVC dispute with Advent over Irca deal",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6438ad368e1e6d88",
+      "ae6c946d72ebef1e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T23:08:52+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/bd65d6e0-3ecb-498c-b684-c7e4c782a0ae?syn-25a6b1a6=1), [Investing.com](https://www.investing.com/news/stock-market-news/cvc-plans-to-back-out-of-33-bln-irca-deal-with-advent-international-ft-93CH-5031334) reported that CVC plans to back out of a deal to buy food group Irca from Advent International, potentially triggering a legal clash and dispute between the two buyout firms."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "CVC dispute with Advent over Irca deal",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "1f5f0db47b32dced",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-17T01:39:06+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "b8e21e29783afd56",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-16T23:26:48+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "gold-steadies-near-14-month-low",
+   "label": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1f5f0db47b32dced",
+      "b8e21e29783afd56"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T23:26:48+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists), [Investing.com](https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431) reported that gold steadied near a 14-month low under pressure from stubborn US inflation, Fed rate hike bets, and a tech selloff."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-16T22:32:03+00:00"
+ "updated": "2026-11-17T01:58:29+00:00"
 }
