@@ -4,13 +4,16 @@
   {
    "articles": 616,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 39,
-   "continuing": 17,
+   "calls": 6,
+   "candidates": 50,
+   "continuing": 20,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
-   "failed_calls": 0,
+   "errors": [
+    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+   ],
+   "failed_calls": 1,
    "groups": 524,
    "in_stories": 66,
    "kept": 45,
@@ -18,8 +21,8 @@
    "new": 20,
    "rejected": 2,
    "reported_by_2": 9,
-   "runs": 5,
-   "sent": 39,
+   "runs": 6,
+   "sent": 50,
    "skipped": 1,
    "split_calls": 0,
    "updated": 10,
@@ -5785,6 +5788,9 @@
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
    "outlets_today": 3,
+   "previous_titles": [
+    "Oil prices fall further on supply glut concerns; strong dollar weighs"
+   ],
    "reports": [
     {
      "articles": [
@@ -5828,13 +5834,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Oil prices fall further on supply glut concerns; strong dollar weighs",
+   "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
     "date": "2026-11-17",
     "of": 2,
-    "outlet": "Investing.com",
-    "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393"
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-continue-to-fall-as-global-supply-surplus-weighs-7b54e93b?mod=rss_markets_main"
    },
    "topic": "energy"
   },
@@ -7194,5 +7200,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T14:01:42+00:00"
+ "updated": "2026-11-17T17:01:32+00:00"
 }

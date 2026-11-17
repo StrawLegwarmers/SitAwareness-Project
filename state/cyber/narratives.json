@@ -117,22 +117,22 @@
   {
    "articles": 251,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 13,
+   "calls": 6,
+   "candidates": 17,
    "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 3,
    "failed_calls": 0,
    "groups": 225,
-   "in_stories": 15,
-   "kept": 13,
+   "in_stories": 20,
+   "kept": 16,
    "merged": 0,
-   "new": 7,
+   "new": 10,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 5,
-   "sent": 13,
+   "runs": 6,
+   "sent": 17,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -259,7 +259,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T13:53:24+00:00"
+  "all": "2026-11-17T16:40:07+00:00"
  },
  "narratives": [
   {
@@ -4668,9 +4668,174 @@
    "status": "new",
    "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "ddc5b1c91a77bdcf",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-17T15:30:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic Cuts Disclosure Deadline to 30 Days For Serious Bugs",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "25e8eabd2504db43",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-17T06:46:16+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "anthropic-vulnerability-disclosure-policy",
+   "label": "Anthropic vulnerability disclosure policy",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "25e8eabd2504db43",
+      "ddc5b1c91a77bdcf"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Help Net Security",
+      "Infosecurity Magazine"
+     ],
+     "published": "2026-11-17T06:46:16+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/), [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/) reported that Anthropic reduced its vulnerability disclosure deadline to 30 days for high- and critical-severity bugs."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Anthropic vulnerability disclosure policy",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "90123b4747993386",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-17T14:41:36+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Fridge Controller Attacks: Researchers Find Six Zero-Days in an Hour",
+     "type": null,
+     "url": "https://securityaffairs.com/203324/security/fridge-controller-attacks-researchers-find-six-zero-days-in-an-hour.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "fbeee14f9bf6a064",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-17T13:32:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "'Not rocket surgery' claims researcher who found six Danfoss fridge controller zero-days in under an hour",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "danfoss-fridge-controller-vulnerabilities",
+   "label": "Danfoss fridge controller vulnerabilities",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "90123b4747993386",
+      "fbeee14f9bf6a064"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "The Register",
+      "Security Affairs"
+     ],
+     "published": "2026-11-17T13:32:00+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197), [Security Affairs](https://securityaffairs.com/203324/security/fridge-controller-attacks-researchers-find-six-zero-days-in-an-hour.html) reported that researchers discovered six zero-day vulnerabilities in Danfoss fridge controllers."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Danfoss fridge controller vulnerabilities",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "cb3c4130a10ba7a4",
+     "lang": "en",
+     "outlet": "Google Threat Intelligence",
+     "published": "2026-11-17T14:00:00+00:00",
+     "publisher": "Google",
+     "region": null,
+     "section": "intel",
+     "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+     "type": null,
+     "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "cold-relic-a-case-study-in",
+   "label": "COLD RELIC: A Case Study in Impersonation and Compromise",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "cb3c4130a10ba7a4"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Google"
+     ],
+     "published": "2026-11-17T14:00:00+00:00",
+     "text": "[Google](https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/) published a case study by Mandiant on impersonation and compromise titled COLD RELIC."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-17T13:54:10+00:00"
+ "updated": "2026-11-17T16:41:18+00:00"
 }

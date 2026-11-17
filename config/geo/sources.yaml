@@ -80,7 +80,7 @@ sources:
   - {name: Rzeczpospolita,    feed: "https://www.rp.pl/rss_main",                               region: europe, type: local, lang: pl}
 
   # ── Middle East & North Africa ────────────────────────────────────────────
-  - {name: Al Arabiya English, feed: "https://english.alarabiya.net/feed/rss2/en.xml",          region: mena, type: regional, lang: en}
+  - {name: "Al Arabiya English", feed: "https://english.alarabiya.net/feed/rss2/en.xml", region: "mena", type: "regional", lang: "en", enabled: false, note: "Auto-disabled 2026-11-17: failing since 2026-11-10 (50 runs, HTTP 403). Re-enable when it works again."}
   - {name: BBC Middle East,   feed: "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",  region: mena, type: international, lang: en}
   - {name: NYT Middle East,   feed: "https://rss.nytimes.com/services/xml/rss/nyt/MiddleEast.xml", region: mena, type: international, lang: en}
   - {name: The Guardian Middle East, feed: "https://www.theguardian.com/world/middleeast/rss",  region: mena, type: international, lang: en}
@@ -89,7 +89,7 @@ sources:
   - {name: Atlantic Council Middle East, feed: "https://www.atlanticcouncil.org/region/middle-east/feed/", region: mena, type: think-tank, lang: en}
   # Israel-Gaza
   - {name: BBC Israel-Gaza,   feed: "https://feeds.bbci.co.uk/news/topics/c2vdnvdg6xxt/rss.xml", region: mena, topics: [israel-gaza], type: international, lang: en}
-  - {name: The Times of Israel, feed: "https://www.timesofisrael.com/feed/",                    region: mena, topics: [israel-gaza], type: local, lang: en}
+  - {name: "The Times of Israel", feed: "https://www.timesofisrael.com/feed/", region: "mena", topics: ["israel-gaza"], type: "local", lang: "en", enabled: false, note: "Auto-disabled 2026-11-17: failing since 2026-11-10 (50 runs, HTTP 403). Re-enable when it works again."}
   - {name: Haaretz,           feed: "https://www.haaretz.com/srv/haaretz-latest-headlines",     region: mena, topics: [israel-gaza], type: local, lang: en}
   - {name: The Jerusalem Post, feed: "https://www.jpost.com/rss/rssfeedsfrontpage.aspx",        region: mena, topics: [israel-gaza], type: local, lang: en}
   - {name: The New Arab,      feed: "https://www.newarab.com/rss",                              region: mena, topics: [israel-gaza], type: regional, lang: en}
@@ -104,7 +104,7 @@ sources:
   - {name: Sada El Balad,     feed: "https://www.elbalad.news/rss.aspx",                        region: mena, type: local, lang: ar}
   - {name: Naharnet,          feed: "https://www.naharnet.com/tags/lebanon/en/feed.atom",       region: mena, type: local, lang: en}
   - {name: Felesteen,         feed: "https://felesteen.news/rss/category/all",                  region: mena, topics: [israel-gaza], type: local, lang: ar}
-  - {name: Khaleej Times,     feed: "https://www.khaleejtimes.com/api/v1/collections/top-section.rss", region: mena, type: local, lang: en}
+  - {name: "Khaleej Times", feed: "https://www.khaleejtimes.com/api/v1/collections/top-section.rss", region: "mena", type: "local", lang: "en", enabled: false, note: "Auto-disabled 2026-11-17: failing since 2026-11-10 (50 runs, HTTP 403). Re-enable when it works again."}
   - {name: The National,      feed: "https://www.thenationalnews.com/arc/outboundfeeds/rss/?outputType=xml", region: mena, type: local, lang: en}
   - {name: Egypt Independent, feed: "https://www.egyptindependent.com/feed/",                   region: mena, type: local, lang: en}
   - {name: La Presse (Tunisia), feed: "https://www.lapresse.tn/feed/",                          region: mena, type: local, lang: fr}
@@ -131,7 +131,7 @@ sources:
   - {name: ANP (Niger),       feed: "https://anp.ne/feed/",                                     region: africa, type: state-media, lang: fr}
   - {name: BBC Pidgin,        feed: "https://www.bbc.com/pidgin/feed/",                         region: africa, type: international, lang: pcm}
   - {name: Legit (Nigeria),   feed: "https://www.legit.ng/rss/all.rss",                         region: africa, type: local, lang: en}
-  - {name: Naija News,        feed: "https://www.naijanews.com/feed/",                          region: africa, type: local, lang: en}
+  - {name: "Naija News", feed: "https://www.naijanews.com/feed/", region: "africa", type: "local", lang: "en", enabled: false, note: "Auto-disabled 2026-11-17: failing since 2026-11-10 (50 runs, HTTP 410). Re-enable when it works again."}
   - {name: Premium Times,     feed: "https://www.premiumtimesng.com/feed",                      region: africa, type: local, lang: en}
   - {name: Punch,             feed: "https://punchng.com/feed/",                                region: africa, type: local, lang: en}
   - {name: The Authority (Nigeria), feed: "https://authorityngr.com/feed/",                     region: africa, type: local, lang: en}
@@ -217,7 +217,7 @@ sources:
   - {name: CNAS, feed: "https://news.google.com/rss/search?q=site:cnas.org&hl=en-US&gl=US&ceid=US:en", region: global, type: think-tank, lang: en, note: "via Google News"}
   - {name: RUSI, feed: "https://www.rusi.org/rss/latest-publications.xml", region: global, type: think-tank, lang: en}
   - {name: Hudson Institute, feed: "https://www.hudson.org/rss.xml", region: global, type: think-tank, lang: en}
-  - {name: Heritage Foundation, feed: "https://www.heritage.org/rss/", region: global, type: think-tank, lang: en}
+  - {name: "Heritage Foundation", feed: "https://www.heritage.org/rss/", region: "global", type: "think-tank", lang: "en", enabled: false, note: "Auto-disabled 2026-11-17: failing since 2026-11-10 (49 runs, HTTP 403). Re-enable when it works again."}
   - {name: DFRLab, feed: "https://dfrlab.org/feed/", region: global, type: think-tank, lang: en}
   - {name: ICIJ, feed: "https://www.icij.org/feed/", region: global, type: specialist, lang: en}
   - {name: Defense News, feed: "https://www.defensenews.com/feed/", region: global, type: specialist, lang: en}
