@@ -4,9 +4,9 @@
   {
    "articles": 616,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 50,
-   "continuing": 20,
+   "calls": 7,
+   "candidates": 65,
+   "continuing": 25,
    "corroborated": 0,
    "date": "2026-11-17",
    "dropped": 0,
@@ -15,17 +15,17 @@
    ],
    "failed_calls": 1,
    "groups": 524,
-   "in_stories": 66,
-   "kept": 45,
-   "merged": 0,
-   "new": 20,
-   "rejected": 2,
-   "reported_by_2": 9,
-   "runs": 6,
-   "sent": 50,
-   "skipped": 1,
+   "in_stories": 90,
+   "kept": 54,
+   "merged": 1,
+   "new": 28,
+   "rejected": 4,
+   "reported_by_2": 11,
+   "runs": 7,
+   "sent": 65,
+   "skipped": 3,
    "split_calls": 0,
-   "updated": 10,
+   "updated": 11,
    "waiting": 0
   },
   {
@@ -126,7 +126,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T14:01:05+00:00"
+  "all": "2026-11-17T19:57:07+00:00"
  },
  "narratives": [
   {
@@ -2197,8 +2197,34 @@
    "topic": "justice"
   },
   {
-   "article_count": 18,
+   "article_count": 20,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "4fcab407bbf33d05",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T18:48:33+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "FAA pauses installation of new routers after ground stop",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "5ec3c3dbf53f9d8b",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T16:20:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "FAA Pauses Router Installations After Nationwide Ground Stop",
+     "type": "international",
+     "url": "https://www.wsj.com/business/airlines/faa-pauses-router-installations-after-nationwide-ground-stop-9cd6c424?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-17",
      "id": "5e2cf937fcdf9a8b",
@@ -2434,14 +2460,14 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
@@ -2577,7 +2603,7 @@
      "text": "[MarketWatch](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories) reported that nearly 8,000 flights were delayed."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
@@ -3726,8 +3752,60 @@
    "topic": "markets"
   },
   {
-   "article_count": 10,
+   "article_count": 14,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "97641acd709e1a97",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T16:30:19+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "84c2f2ead6392a54",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-17T16:27:41+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Huang says he's willing to return as Nvidia boss in first remarks since resignation",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "6a6277cbe92af394",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T16:24:47+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia’s Huang signals willingness to return as CEO; board creates national security panel",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-board-forms-committee-for-national-security-and-export-control-oversight-5032154"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "e1fa163e3b76fd6e",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T16:11:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/jensen-huang-statement-nvidia-ceo-9dedca36?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-16",
      "id": "b88f0838e85a7fe6",
@@ -3859,7 +3937,7 @@
      "url": "https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 7,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "jensen-huang-discusses-comeback-as-nvidia",
@@ -3867,10 +3945,41 @@
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
    "merged": [
-    "trump-says-he-wouldn-t-mind"
+    "trump-says-he-wouldn-t-mind",
+    "jensen-huang-breaks-silence-signals-willingness"
    ],
-   "outlets_today": 1,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "6a6277cbe92af394",
+      "84c2f2ead6392a54",
+      "97641acd709e1a97",
+      "e1fa163e3b76fd6e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com",
+      "BBC",
+      "CNBC"
+     ],
+     "published": "2026-11-17T16:11:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/jensen-huang-statement-nvidia-ceo-9dedca36?mod=pls_whats_news_us_business_f), [Investing.com](https://www.investing.com/news/stock-market-news/nvidia-board-forms-committee-for-national-security-and-export-control-oversight-5032154), [BBC](https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss), [CNBC](https://www.cnbc.com/2026/11/17/nvidia-jensen-huang-statement.html) reported that former Nvidia CEO Jensen Huang signaled a willingness to return as CEO in his first public remarks since resigning."
+    },
+    {
+     "articles": [
+      "6a6277cbe92af394"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-17T16:24:47+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/nvidia-board-forms-committee-for-national-security-and-export-control-oversight-5032154) reported that the Nvidia board created a national security panel."
+    },
     {
      "articles": [
       "0963806d0264d9fb"
@@ -3956,7 +4065,7 @@
      "text": "[Financial Times](https://www.ft.com/content/45383d86-33c4-4d99-86e5-5e058d3567c1?syn-25a6b1a6=1) reported that tech supporters are lobbying Nvidia's board to reinstate former CEO Jensen Huang after he resigned following an affair with an alleged Chinese spy."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Nvidia’s Board Not Considering Reinstating Jensen Huang as CEO",
@@ -5712,7 +5821,7 @@
    "topic": "markets"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
     {
      "added": "2026-11-17",
@@ -5755,6 +5864,19 @@
     },
     {
      "added": "2026-11-17",
+     "id": "8893a0d2a9f0e2f9",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-16T20:41:50+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Oil Retreats as Traders Weigh Supply Glut",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/oil_retreats_as_traders_weigh_supply_glut-16-nov-2026-185096-article/?rss=true"
+    },
+    {
+     "added": "2026-11-17",
      "id": "84f92d9516112d87",
      "lang": "en",
      "outlet": "WSJ US Business",
@@ -5780,14 +5902,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
@@ -6708,8 +6830,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "c5bd485a3f182aed",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T14:36:14+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem signals multiple rate hikes likely needed before spring 2027",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-musalem-signals-multiple-rate-hikes-likely-needed-before-spring-2027-5033318"
+    },
     {
      "added": "2026-11-17",
      "id": "b8ffbafa02d9675e",
@@ -6776,7 +6911,7 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "fed-rate-hikes",
@@ -7126,8 +7261,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "741d3f095dc8c0a3",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-17T14:46:49+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "JPMorgan Chase elevates Bregje de Best to finance chief",
+     "type": "international",
+     "url": "https://www.ft.com/content/cc080db6-46c1-49fb-a3d5-2680b3360b6d?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-17",
      "id": "f9d1e32c13b22ea9",
@@ -7155,15 +7303,27 @@
      "url": "https://www.investing.com/news/stock-market-news/jpmorgan-says-insider-bregje-de-best-will-succeed-barnum-as-cfo-5032910"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "jpmorgan-chase-names-bregje-de-best",
    "label": "JPMorgan Chase Names Bregje de Best to Succeed Jeremy Barnum as CFO",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "741d3f095dc8c0a3"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-17T14:46:49+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/cc080db6-46c1-49fb-a3d5-2680b3360b6d?syn-25a6b1a6=1) reported that the appointment of Bregje de Best as finance chief comes after the exit earlier this year of a leading female contender to succeed Jamie Dimon."
+    },
     {
      "articles": [
       "4e2d0f4376c818d8",
@@ -7196,9 +7356,436 @@
    "status": "new",
    "title": "JPMorgan Chase Names Bregje de Best to Succeed Jeremy Barnum as CFO",
    "topic": "business"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "f6975e85a7675ead",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T16:18:53+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Lawyer for Fed’s Cook threatens to not take part in ’unfair’ White House hearing",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/lawyer-for-feds-cook-threatens-to-not-take-part-in-unfair-white-house-hearing-5033562"
+    },
+    {
+     "added": "2026-11-17",
+     "dates": [
+      "2026-11-03"
+     ],
+     "id": "1788cca766246c4d",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T16:03:38+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "84f9a0fa35dfcb15",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-17T14:40:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "A lawyer for Fed governor Lisa Cook said she won’t participate in a White House hearing on whether to fire her unless the Trump administration removes a senior economic adviser from the panel",
+     "type": "international",
+     "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "federal-reserve-governor-lisa-cook-hearing",
+   "label": "Federal Reserve Governor Lisa Cook Hearing",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "84f9a0fa35dfcb15",
+      "f6975e85a7675ead"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T14:40:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/lawyer-for-feds-cook-threatens-to-not-take-part-in-unfair-white-house-hearing-5033562) reported that a lawyer for Federal Reserve Governor Lisa Cook said she will not participate in a White House hearing on whether to fire her unless the Trump administration removes a senior economic adviser from the panel."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-17",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/17/lisa-cook-trump-fed-committee-hearing.html"
+   },
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "218a3d522b529da7",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T14:13:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Finnish Satellite Startup Iceye Launches $2.3 Billion Bid for Rocket Maker Avio",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/finnish-satellite-startup-iceye-launches-2-3-billion-bid-for-rocket-maker-avio-9546b85c?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "74b1f7b8eef57b28",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-17T09:27:11+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Satellite group Iceye launches €2bn bid for Italian rocket maker Avio",
+     "type": "international",
+     "url": "https://www.ft.com/content/9fed851a-d75f-4f7e-8afa-700f3786391d?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "iceye-bid-for-avio",
+   "label": "Iceye Bid for Avio",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "218a3d522b529da7",
+      "74b1f7b8eef57b28"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T09:27:11+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/9fed851a-d75f-4f7e-8afa-700f3786391d?syn-25a6b1a6=1), [Wall Street Journal](https://www.wsj.com/business/deals/finnish-satellite-startup-iceye-launches-2-3-billion-bid-for-rocket-maker-avio-9546b85c?mod=pls_whats_news_us_business_f) reported that satellite group Iceye launched a bid valued at €2bn or $2.3 billion for Italian rocket maker Avio."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Iceye Bid for Avio",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "714cc6893416eced",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T14:55:46+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "U.S. and Thailand reach ’substantial conclusion’ on bilateral trade deal",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/us-and-thailand-reach-substantial-conclusion-on-bilateral-trade-deal-5033398"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "0e33095498622762",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T13:10:25+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "US, Thailand Reach ‘Substantial Conclusion’ of Trade Deal",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-thailand-reach-substantial-conclusion-of-trade-deal"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "us-and-thailand-trade-negotiations",
+   "label": "US and Thailand Trade Negotiations",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US and Thailand Trade Negotiations",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "61aef9920d9d0245",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T16:52:10+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Sellas Life Sciences Stock Triples After Cancer Vaccine Data",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/sellas-life-sciences-stock-triples-after-cancer-vaccine-data"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "4ccf560a10de3752",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T13:42:21+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "SELLAS Life Sciences stock soars 240% on positive cancer trial",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "sellas-life-sciences-cancer-vaccine-trial",
+   "label": "Sellas Life Sciences Cancer Vaccine Trial",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4ccf560a10de3752",
+      "61aef9920d9d0245"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T13:42:21+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sellas-life-sciences-stock-triples-after-cancer-vaccine-data), [Investing.com](https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050) reported that Sellas Life Sciences Group stock surged after the drug developer reported positive late-stage trial results for an experimental cancer vaccine."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Sellas Life Sciences Cancer Vaccine Trial",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "2b680fafa857eeef",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T15:25:12+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Waller backs responsible payment innovation as tokenization scales",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-waller-backs-responsible-payment-innovation-as-tokenization-scales-5033462"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "60ff3667bb8ee15e",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T14:10:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Waller Says Fed Open to ‘Responsible Innovation’ in Payments",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/waller-says-fed-open-to-responsible-innovation-in-payments"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "federal-reserve-payment-innovation-policy",
+   "label": "Federal Reserve Payment Innovation Policy",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2b680fafa857eeef",
+      "60ff3667bb8ee15e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T14:10:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/waller-says-fed-open-to-responsible-innovation-in-payments), [Investing.com](https://www.investing.com/news/economy-news/feds-waller-backs-responsible-payment-innovation-as-tokenization-scales-5033462) reported that Federal Reserve Governor Christopher Waller stated the central bank supports responsible innovation in the payments system."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Federal Reserve Payment Innovation Policy",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "c6c432e9e33a2f69",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-17T16:00:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Brent Stuck Near $93 as Hormuz Tanker Attacks Offset Gulf Export Surge",
+     "type": "specialist",
+     "url": "https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "8d7146656e8470c8",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T14:36:05+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fresh tanker attack in Hormuz highlights ongoing threats facing Gulf shipping",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/fresh-tanker-attack-in-hormuz-highlights-ongoing-threats-facing-gulf-shipping-5033317"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "fresh-tanker-attack-in-hormuz-highlights",
+   "label": "Fresh tanker attack in Hormuz highlights ongoing threats facing Gulf shipping",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8d7146656e8470c8",
+      "c6c432e9e33a2f69"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-17T14:36:05+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/fresh-tanker-attack-in-hormuz-highlights-ongoing-threats-facing-gulf-shipping-5033317), [Oilprice.com](https://oilprice.com/Energy/Energy-General/Brent-Stuck-Near-93-as-Hormuz-Tanker-Attacks-Offset-Gulf-Export-Surge.html) reported that a fresh tanker attack in Hormuz highlighted ongoing threats facing Gulf shipping while Brent stayed near $93."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Fresh tanker attack in Hormuz highlights ongoing threats facing Gulf shipping",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "6ec4544c34d4bd57",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T15:36:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Homebuilder sentiment plunges to 14-year low, leading more builders to drop prices",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/homebuilder-sentiment-plunges-to-14-year-low-leading-more-builders-to-drop-prices.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "74f6cab77bcf2517",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T15:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "US Homebuilder Sentiment Sags to Fresh 14-Year Low on Rates",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/us-homebuilder-sentiment-sags-to-fresh-14-year-low-on-high-rates"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "us-homebuilder-sentiment-sags-to-fresh",
+   "label": "US Homebuilder Sentiment Sags to Fresh 14-Year Low on Rates",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6ec4544c34d4bd57",
+      "74f6cab77bcf2517"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "CNBC"
+     ],
+     "published": "2026-11-17T15:00:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/us-homebuilder-sentiment-sags-to-fresh-14-year-low-on-high-rates), [CNBC](https://www.cnbc.com/2026/11/17/homebuilder-sentiment-plunges-to-14-year-low-leading-more-builders-to-drop-prices.html) reported that US homebuilder sentiment fell to a 14-year low as high mortgage rates deterred buyers and led more builders to drop prices."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US Homebuilder Sentiment Sags to Fresh 14-Year Low on Rates",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-17T17:01:32+00:00"
+ "updated": "2026-11-17T19:57:45+00:00"
 }

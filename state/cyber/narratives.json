@@ -117,25 +117,25 @@
   {
    "articles": 251,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 17,
-   "continuing": 2,
+   "calls": 7,
+   "candidates": 23,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-17",
-   "dropped": 3,
+   "dropped": 4,
    "failed_calls": 0,
    "groups": 225,
-   "in_stories": 20,
-   "kept": 16,
+   "in_stories": 26,
+   "kept": 22,
    "merged": 0,
-   "new": 10,
+   "new": 13,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 6,
-   "sent": 17,
+   "runs": 7,
+   "sent": 23,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -259,7 +259,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T16:40:07+00:00"
+  "all": "2026-11-17T19:42:41+00:00"
  },
  "narratives": [
   {
@@ -2527,8 +2527,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "5aaada64324fdffc",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-17T12:28:45+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
+     "type": null,
+     "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/"
+    },
     {
      "added": "2026-11-13",
      "id": "f7861f3167f6c872",
@@ -2585,18 +2598,30 @@
      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "n-able-n-central-zero-day",
    "label": "N-able N-central zero-day vulnerabilities",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
    "merged": [
     "n-able-n-central-zero-day-2"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "5aaada64324fdffc"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-17T12:28:45+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/) reported that N-able killed legacy APIs and patched 17 N-central zero-day vulnerabilities targeting recently disclosed issues and flaws exploited in the wild."
+    },
     {
      "articles": [
       "86abe3ba35c845c4"
@@ -2646,9 +2671,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/) reported that new exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
    "title_from": {
     "backing": 3,
@@ -3625,8 +3650,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "9ac43dc57aed2a3d",
+     "lang": "en",
+     "outlet": "Dark Reading",
+     "published": "2026-11-17T18:38:37+00:00",
+     "publisher": "Dark Reading",
+     "region": null,
+     "section": "news",
+     "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+     "type": null,
+     "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach"
+    },
     {
      "added": "2026-11-15",
      "id": "1fcac78075728010",
@@ -3670,15 +3708,27 @@
      "url": "https://cybersecuritynews.com/cursor-data-breach/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "cursor-security-breach",
    "label": "Cursor security breach",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "9ac43dc57aed2a3d"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Dark Reading"
+     ],
+     "published": "2026-11-17T18:38:37+00:00",
+     "text": "[Dark Reading](https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach) reported that Cursor traced a malicious Claude Code extension to a third-party breach involving a compromised key issued to AI infrastructure provider Fireworks."
+    },
     {
      "articles": [
       "1fcac78075728010"
@@ -3716,9 +3766,9 @@
      "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) reported that Cursor confirmed the security breach enabled hackers to distribute a malicious Claude Code extension via its marketplace following credential theft."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Cursor security breach",
    "topic": "cyber"
   },
@@ -4833,9 +4883,175 @@
    "status": "new",
    "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "652b889ee4161fe3",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-17T16:11:10+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes",
+     "type": null,
+     "url": "https://cybersecuritynews.com/java-17-rce-vulnerability/"
+    },
+    {
+     "added": "2026-11-17",
+     "dates": [
+      "2026-11-17"
+     ],
+     "id": "947201136c990385",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-17T15:17:36+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "oracle-java-vulnerabilities",
+   "label": "Oracle Java vulnerabilities",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "947201136c990385"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-17T15:17:36+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html) reported that Oracle is preparing to release security patches for 11 vulnerabilities in Java SE, including a critical OpenJDK remote code execution vulnerability."
+    },
+    {
+     "articles": [
+      "652b889ee4161fe3"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-17T16:11:10+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/java-17-rce-vulnerability/) reported that a remote code execution vulnerability in Java 17 has prompted warnings for server admins as Oracle released 11 new Java SE security updates."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Oracle Java vulnerabilities",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "dates": [
+      "2026-11-16"
+     ],
+     "id": "d60c77a96bc1ceeb",
+     "lang": "en",
+     "outlet": "Sophos X-Ops",
+     "published": "2026-11-17T00:00:00+00:00",
+     "publisher": "Sophos X-Ops",
+     "region": null,
+     "section": "intel",
+     "title": "Hijacked Optimizely snippets served malicious code on major websites",
+     "type": null,
+     "url": "https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "hijacked-optimizely-snippets-served-malicious-code",
+   "label": "Hijacked Optimizely snippets served malicious code on major websites",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "d60c77a96bc1ceeb"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Sophos X-Ops"
+     ],
+     "published": "2026-11-17T00:00:00+00:00",
+     "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code) reported that hijacked Optimizely snippets served malicious code on major websites."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Hijacked Optimizely snippets served malicious code on major websites",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-17",
+     "id": "082f818b7b553fa5",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-17T19:40:18+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "Versioned Gmail Addresses Link Four Malicious npm Packages",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/versioned-gmail-addresses-link-four-malicious-npm-packages"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "malicious-npm-packages",
+   "label": "Malicious npm packages",
+   "last_reported": "2026-11-17",
+   "last_updated": "2026-11-17",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "082f818b7b553fa5"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-17T19:40:18+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/versioned-gmail-addresses-link-four-malicious-npm-packages) reported that versioned Gmail addresses link four malicious npm packages published by Acevatex, including a Litecoin key stealer and three PureRAT loaders."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Malicious npm packages",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-17T16:41:18+00:00"
+ "updated": "2026-11-17T19:43:03+00:00"
 }
