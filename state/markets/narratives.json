@@ -147,24 +147,24 @@
  ],
  "coverage": [
   {
-   "articles": 558,
+   "articles": 582,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 2,
+   "calls": 2,
+   "candidates": 4,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 475,
-   "in_stories": 3,
-   "kept": 3,
+   "groups": 496,
+   "in_stories": 7,
+   "kept": 4,
    "merged": 0,
-   "new": 1,
-   "rejected": 0,
-   "reported_by_2": 3,
-   "runs": 1,
-   "sent": 2,
+   "new": 3,
+   "rejected": 1,
+   "reported_by_2": 4,
+   "runs": 2,
+   "sent": 4,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -295,7 +295,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T01:59:37+00:00"
+  "all": "2026-11-18T04:41:47+00:00"
  },
  "narratives": [
   {
@@ -7061,9 +7061,113 @@
    "status": "new",
    "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "7a69abba6ce9c1a6",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-18T04:13:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Waymo Restricts Freeway Operations After California Ban",
+     "type": "international",
+     "url": "https://www.wsj.com/business/autos/waymo-restricts-freeway-operations-after-california-ban-3da802ad?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "9b8068190bc9096f",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-18T00:24:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Waymo pauses robotaxi rides on US freeways after California ban",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/waymo-pauses-robotaxi-rides-on-us-freeways-after-california-ban-5034415"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "waymo-freeway-operations-restriction",
+   "label": "Waymo freeway operations restriction",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Waymo freeway operations restriction",
+   "topic": "technology"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "84668042caab85e8",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-18T04:02:27+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Trump withdraws Heidi Overton’s FDA nomination- Axios",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/trump-withdraws-heidi-overtons-fda-nomination-axios-93CH-5034661"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "7761329f4f860b54",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T03:09:36+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump withdraws Heidi Overton as nominee to lead Food and Drug Administration, sources say",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/trump-withdraws-heidi-overton-as-nominee-to-lead-fda-sources-say.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "heidi-overton-fda-nomination-withdrawal",
+   "label": "Heidi Overton FDA nomination withdrawal",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7761329f4f860b54",
+      "84668042caab85e8"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC",
+      "Investing.com"
+     ],
+     "published": "2026-11-18T03:09:36+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/trump-withdraws-heidi-overton-as-nominee-to-lead-fda-sources-say.html), [Investing.com](https://www.investing.com/news/stock-market-news/trump-withdraws-heidi-overtons-fda-nomination-axios-93CH-5034661) reported that U.S. President Donald Trump has withdrawn the nomination of Heidi Overton to lead the Food and Drug Administration due to insufficient support in Congress."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Heidi Overton FDA nomination withdrawal",
+   "topic": "politics"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T01:59:54+00:00"
+ "updated": "2026-11-18T04:42:03+00:00"
 }

@@ -155,24 +155,24 @@
  ],
  "coverage": [
   {
-   "articles": 225,
+   "articles": 226,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 3,
+   "calls": 2,
+   "candidates": 5,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-18",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
    "groups": 201,
-   "in_stories": 3,
-   "kept": 2,
+   "in_stories": 5,
+   "kept": 4,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 0,
-   "reported_by_2": 1,
-   "runs": 1,
-   "sent": 3,
+   "reported_by_2": 3,
+   "runs": 2,
+   "sent": 5,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -323,7 +323,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T01:57:03+00:00"
+  "all": "2026-11-18T04:39:09+00:00"
  },
  "narratives": [
   {
@@ -4671,9 +4671,79 @@
    "status": "new",
    "title": "Java4Shell vulnerability disclosure",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "30ec10a4832eab1f",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-18T02:15:07+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+     "type": null,
+     "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "ef78130a876363db",
+     "lang": "en",
+     "outlet": "The Guardian Data and computer security",
+     "published": "2026-11-17T20:35:23+00:00",
+     "publisher": "The Guardian Data and computer security",
+     "region": null,
+     "section": "news",
+     "title": "National Security Agency network for internal communications goes down",
+     "type": null,
+     "url": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "national-security-agency-network-outage",
+   "label": "National Security Agency network outage",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ef78130a876363db"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Guardian Data and computer security"
+     ],
+     "published": "2026-11-17T20:35:23+00:00",
+     "text": "[The Guardian Data and computer security](https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down) reported that the National Security Agency network for internal communications went down and the agency issued a code yellow for NSANet."
+    },
+    {
+     "articles": [
+      "30ec10a4832eab1f"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-18T02:15:07+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/) reported that a defense official said the classified communications network at the National Security Agency went down and disrupted the operations of NSANet."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "National Security Agency network outage",
+   "topic": "infrastructure"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T01:57:20+00:00"
+ "updated": "2026-11-18T04:39:27+00:00"
 }
