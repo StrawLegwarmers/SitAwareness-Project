@@ -157,25 +157,25 @@
   {
    "articles": 249,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 24,
-   "continuing": 8,
+   "calls": 7,
+   "candidates": 27,
+   "continuing": 9,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 2,
    "failed_calls": 0,
    "groups": 215,
-   "in_stories": 25,
-   "kept": 23,
-   "merged": 3,
-   "new": 9,
+   "in_stories": 29,
+   "kept": 26,
+   "merged": 4,
+   "new": 10,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 6,
-   "sent": 24,
+   "runs": 7,
+   "sent": 27,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 9,
+   "updated": 11,
    "waiting": 0
   },
   {
@@ -323,7 +323,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T16:41:09+00:00"
+  "all": "2026-11-18T19:39:20+00:00"
  },
  "narratives": [
   {
@@ -956,7 +956,7 @@
    "title": "GitHub and ScreenConnect cyberattacks"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
     {
      "added": "2026-11-18",
@@ -973,6 +973,19 @@
      "title": "Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks",
      "type": null,
      "url": "https://cybersecuritynews.com/apache-http-server-rce-exploitation/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "b15c2192fcf8afce",
+     "lang": "en",
+     "outlet": "Sophos X-Ops",
+     "published": "2026-11-18T00:00:00+00:00",
+     "publisher": "Sophos X-Ops",
+     "region": null,
+     "section": "intel",
+     "title": "Patches released for critical ‘NGINX2Root’ vulnerabilities",
+     "type": null,
+     "url": "https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities"
     },
     {
      "added": "2026-11-13",
@@ -1037,15 +1050,27 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "b15c2192fcf8afce"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Sophos X-Ops"
+     ],
+     "published": "2026-11-18T00:00:00+00:00",
+     "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/patches-released-for-critical-nginx2root-vulnerabilities) reported that patches have been released for critical NGINX2Root vulnerabilities."
+    },
     {
      "articles": [
       "5a41c800109f2c35"
@@ -1105,7 +1130,7 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
@@ -4752,8 +4777,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "a8ad372ddb898f7b",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-18T16:58:42+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
+    },
     {
      "added": "2026-11-18",
      "dates": [
@@ -4800,14 +4838,14 @@
      "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "microsoft-agent-framework-pypi-package-compromise",
    "label": "Microsoft agent-framework PyPI package compromise",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -4849,7 +4887,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Microsoft agent-framework PyPI package compromise",
+   "title": "Microsoft’s Agent Framework PyPI Package Hacked to Steal Azure and GitHub Credentials",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-18",
+    "of": 2,
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/microsofts-agent-framework-pypi-package/"
+   },
    "topic": "cyber"
   },
   {
@@ -5384,9 +5429,79 @@
    "status": "new",
    "title": "Windows Hello and BitLocker PIN vulnerabilities",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "d120e671065d8567",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T13:52:43+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Steal Exposed AWS Credentials From Docker Hub Images in Just 8 Seconds",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hackers-steal-exposed-aws-credentials/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "2207e09692755ad9",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-17T21:27:17+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "cloud-keys-leaked-in-docker-hub",
+   "label": "Cloud keys leaked in Docker Hub images",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2207e09692755ad9"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-17T21:27:17+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/) reported that credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication."
+    },
+    {
+     "articles": [
+      "d120e671065d8567"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T13:52:43+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-steal-exposed-aws-credentials/) reported that automated bots used a decoy Amazon Web Services access key 7.86 seconds after researchers published the Docker Hub image containing it."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cloud keys leaked in Docker Hub images",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T16:41:33+00:00"
+ "updated": "2026-11-18T19:39:37+00:00"
 }

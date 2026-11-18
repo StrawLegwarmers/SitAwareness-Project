@@ -149,25 +149,25 @@
   {
    "articles": 582,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 21,
-   "continuing": 7,
+   "calls": 7,
+   "candidates": 28,
+   "continuing": 11,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 515,
-   "in_stories": 35,
-   "kept": 23,
+   "in_stories": 47,
+   "kept": 32,
    "merged": 1,
-   "new": 11,
-   "rejected": 1,
+   "new": 13,
+   "rejected": 2,
    "reported_by_2": 6,
-   "runs": 6,
-   "sent": 21,
+   "runs": 7,
+   "sent": 28,
    "skipped": 2,
    "split_calls": 0,
-   "updated": 6,
+   "updated": 9,
    "waiting": 0
   },
   {
@@ -295,7 +295,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T16:57:22+00:00"
+  "all": "2026-11-18T19:52:35+00:00"
  },
  "narratives": [
   {
@@ -1118,8 +1118,73 @@
    "topic": "business"
   },
   {
-   "article_count": 9,
+   "article_count": 14,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "0828fffde936c3ac",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T19:26:32+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "6ceeffe67438929e",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-18T19:20:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The minutes showed almost all expected further moves, and a few who backed the hold saw it as a “close call”",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "1035efb6e581505d",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-18T19:00:01+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "f0a1e239fdb024da",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-18T18:35:36+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Daly urges cautious additional rate hikes",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-daly-urges-cautious-additional-rate-hikes-5036825"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "98e51c69f3ddb9c6",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-18T18:16:35+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-daly-urges-rate-hikes-with-a-thoughtful-measured-approach"
+    },
     {
      "added": "2026-11-17",
      "id": "0f1eef97eb98613a",
@@ -1238,15 +1303,41 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "98e51c69f3ddb9c6"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-18T18:16:35+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/fed-s-daly-urges-rate-hikes-with-a-thoughtful-measured-approach) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest rate increases are needed but the U.S. central bank should take a measured approach."
+    },
+    {
+     "articles": [
+      "1035efb6e581505d",
+      "6ceeffe67438929e"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T19:00:01+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes), [Wall Street Journal](https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7?mod=rss_socialeconomyfeed) reported that almost all Federal Reserve officials agreed at their October meeting that they would likely have to raise interest rates in the months ahead."
+    },
     {
      "articles": [
       "e9a4ff6a1296bb9f"
@@ -1305,13 +1396,33 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Federal Reserve interest rates",
+   "status": "updated",
+   "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-18",
+    "of": 3,
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
+   },
    "topic": "economy"
   },
   {
-   "article_count": 21,
+   "article_count": 22,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "4fce9f38645bdd86",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T18:13:25+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Investigators make progress in hunt for cause of FAA ground stop",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html"
+    },
     {
      "added": "2026-11-17",
      "id": "4fcab407bbf33d05",
@@ -1586,14 +1697,14 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
@@ -1601,6 +1712,18 @@
     "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight"
    ],
    "reports": [
+    {
+     "articles": [
+      "4fce9f38645bdd86"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T18:13:25+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html) reported that engineers and analysts are still searching for the root cause of the issue that led to a four-hour ground stop on Friday."
+    },
     {
      "articles": [
       "5e2cf937fcdf9a8b"
@@ -1730,9 +1853,9 @@
      "text": "[MarketWatch](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories) reported that nearly 8,000 flights were delayed."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
    "title_from": {
     "backing": 2,
@@ -4238,8 +4361,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "424ef9a64541babe",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T19:21:59+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+    },
     {
      "added": "2026-11-16",
      "id": "ffb05d1320406748",
@@ -4267,15 +4403,27 @@
      "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "nvidia-earnings-report",
    "label": "Nvidia earnings report",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "424ef9a64541babe"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T19:21:59+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html) reported that Nvidia interim CEO Colette Kress urged staff forward and offered pay raises after Jensen Huang's exit at her first all-hands meeting."
+    },
     {
      "articles": [
       "8923130a52d1de3e"
@@ -4301,9 +4449,9 @@
      "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms) reported that Nvidia faces uncertainty following CEO Jensen Huang's departure due to personal controversies and crisis in leadership, shifting earnings spotlight to leadership and AI financing."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Nvidia earnings report",
    "topic": "business"
   },
@@ -7401,8 +7549,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "f677fc56d86d4ca9",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-18T16:48:29+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Democrats demand answers from Howard Lutnick about Nvidia and his family’s business",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/18/howard-lutnick-nvidia-cantor-fitzgerald"
+    },
     {
      "added": "2026-11-18",
      "id": "8cc29ecbd5d4d4ff",
@@ -7443,15 +7604,27 @@
      "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "howard-lutnick-cantor-fitzgerald-probe",
    "label": "Howard Lutnick Cantor Fitzgerald probe",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "f677fc56d86d4ca9"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-18T16:48:29+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/us-news/2026/nov/18/howard-lutnick-nvidia-cantor-fitzgerald) reported that Democratic lawmakers asked if Commerce Secretary Howard Lutnick favored Nvidia to enrich his adult children and Cantor Fitzgerald."
+    },
     {
      "articles": [
       "26d31e2f3ad4992e"
@@ -7951,9 +8124,149 @@
    "status": "new",
    "title": "US pending home sales data",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "f53eaea17cbd05e6",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-18T17:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Mozambique Approves Exxon’s Redesigned $30 Billion Rovuma LNG Plan",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "75e3af7d4ffbd532",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-18T09:07:33+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Mozambique Approves Amended Plan for Rovuma LNG",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/?rss=true"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "mozambique-rovuma-lng-project",
+   "label": "Mozambique Rovuma LNG project",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "75e3af7d4ffbd532"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-18T09:07:33+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/?rss=true) reported that Mozambique's Cabinet approved an amended plan for Rovuma LNG involving modular, electrified production units."
+    },
+    {
+     "articles": [
+      "f53eaea17cbd05e6"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-18T17:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html) reported that Mozambique's Council of Ministers approved ExxonMobil's redesigned $30 billion Rovuma LNG development plan."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Mozambique Rovuma LNG project",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "1323eb9512ed0173",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-18T17:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Thiel Doubles Down on Vaca Muerta as Trump Calls Venezuela an “Acquisition”",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Thiel-Doubles-Down-on-Vaca-Muerta-as-Trump-Calls-Venezuela-an-Acquisition.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "44ec19a02403b205",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-18T14:02:52+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Trump Calls Venezuela an 'Acquisition'",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/trump_calls_venezuela_an_acquisition-18-nov-2026-185114-article/?rss=true"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "venezuela-energy-and-vaca-muerta-shale",
+   "label": "Venezuela energy and Vaca Muerta shale",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "44ec19a02403b205"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-18T14:02:52+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/trump_calls_venezuela_an_acquisition-18-nov-2026-185114-article/?rss=true) reported that President Donald Trump referred to Venezuela as an acquisition while touting an increasing supply of U.S. energy."
+    },
+    {
+     "articles": [
+      "1323eb9512ed0173"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-18T17:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Thiel-Doubles-Down-on-Vaca-Muerta-as-Trump-Calls-Venezuela-an-Acquisition.html) reported that billionaire investor Peter Thiel raised his stake in Vista Energy, the Vaca Muerta shale producer."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Venezuela energy and Vaca Muerta shale",
+   "topic": "energy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T16:57:46+00:00"
+ "updated": "2026-11-18T19:53:43+00:00"
 }
