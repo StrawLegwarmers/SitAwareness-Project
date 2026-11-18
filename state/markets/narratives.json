@@ -149,25 +149,25 @@
   {
    "articles": 582,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 15,
-   "continuing": 5,
+   "calls": 6,
+   "candidates": 21,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 515,
-   "in_stories": 24,
-   "kept": 14,
+   "in_stories": 35,
+   "kept": 23,
    "merged": 1,
-   "new": 7,
+   "new": 11,
    "rejected": 1,
-   "reported_by_2": 5,
-   "runs": 5,
-   "sent": 15,
+   "reported_by_2": 6,
+   "runs": 6,
+   "sent": 21,
    "skipped": 2,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -295,12 +295,38 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T14:04:58+00:00"
+  "all": "2026-11-18T16:57:22+00:00"
  },
  "narratives": [
   {
-   "article_count": 8,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "c36b8438b71cee19",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-18T15:00:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Waller says interest-rate hikes may be needed to ‘shock’ inflation out of the system",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/how-high-must-interest-rates-go-to-cool-inflation-possibly-100-basis-points-or-more-feds-waller-says-e7b41cf6?mod=mw_rss_topstories"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "f99d09e148d9ee31",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-18T14:48:21+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Waller suggests interest-rate spike to ‘shock’ inflation",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=d2c16347-0cea-4fdd-b6fe-b09f990e40c9&mod=mw_rss_bulletins"
+    },
     {
      "added": "2026-11-18",
      "id": "b44b903ad68cbfc9",
@@ -406,15 +432,28 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "c36b8438b71cee19",
+      "f99d09e148d9ee31"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-18T14:48:21+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/bulletins/redirect/go?g=d2c16347-0cea-4fdd-b6fe-b09f990e40c9&mod=mw_rss_bulletins) reported that Federal Reserve governor Christopher Waller suggested the central bank might need to hike interest rates to shock inflation out of the system."
+    },
     {
      "articles": [
       "9cd75b66a4b59c0e",
@@ -495,7 +534,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Federal Reserve monetary policy stance",
+   "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-18",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+   },
    "topic": "economy"
   },
   {
@@ -6629,8 +6675,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "1a66456c72efb4aa",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-17T21:47:40+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Sellas Life Sciences stock falls on $150M stock offering",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-falls-on-150m-stock-offering-5034146"
+    },
     {
      "added": "2026-11-17",
      "id": "61aef9920d9d0245",
@@ -6658,15 +6717,27 @@
      "url": "https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sellas-life-sciences-cancer-vaccine-trial",
    "label": "Sellas Life Sciences Cancer Vaccine Trial",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "1a66456c72efb4aa"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-17T21:47:40+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-falls-on-150m-stock-offering-5034146) reported that Sellas Life Sciences stock fell on a $150 million stock offering."
+    },
     {
      "articles": [
       "4ccf560a10de3752",
@@ -6682,9 +6753,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sellas-life-sciences-stock-triples-after-cancer-vaccine-data), [Investing.com](https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050) reported that Sellas Life Sciences Group stock surged after the drug developer reported positive late-stage trial results for an experimental cancer vaccine."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Sellas Life Sciences Cancer Vaccine Trial",
    "topic": "business"
   },
@@ -7610,9 +7681,279 @@
    "status": "new",
    "title": "Textron industrial segment sale",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "c40ad99580191ebf",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-18T14:59:39+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Nasdaq gains in choppy trade as Nvidia outlook lifts AI mood; Anthropic pricing awaited",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-500-nasdaq-open-higher-as-nvidia-forecast-eases-ai-jitters/articleshow/135966195.cms"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "e2a31154fe7e195a",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-18T10:30:41+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Nasdaq futures jump as Nvidia forecast lifts AI trade ahead of Anthropic pricing",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "nvidia-and-anthropic-market-movements",
+   "label": "Nvidia and Anthropic market movements",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c40ad99580191ebf",
+      "e2a31154fe7e195a"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "ET Markets"
+     ],
+     "published": "2026-11-18T10:30:41+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-500-nasdaq-open-higher-as-nvidia-forecast-eases-ai-jitters/articleshow/135966195.cms) reported that Nasdaq gains were driven by Nvidia's revenue guidance and AI mood ahead of Anthropic pricing."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia and Anthropic market movements",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "c2e610bfbc6b8562",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-18T15:25:58+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Target reports strongest quarterly sales gain in five years heading into the holiday shopping season",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/target-reports-strongest-quarterly-sales-gain-in-five-years-heading-into-the-holiday-shopping-season/articleshow/135966816.cms"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "02ccf67ebf766462",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-18T11:41:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Target Posts Strongest Sales Growth in Years as Focus on New Products, Value Pays Off",
+     "type": "international",
+     "url": "https://www.wsj.com/business/retail/target-posts-strongest-sales-growth-in-years-as-focus-on-new-products-value-pays-off-4f82006d?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "target-quarterly-sales-growth",
+   "label": "Target quarterly sales growth",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "02ccf67ebf766462"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T11:41:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/target-posts-strongest-sales-growth-in-years-as-focus-on-new-products-value-pays-off-4f82006d?mod=pls_whats_news_us_business_f) reported that Target posted its strongest quarterly sales growth in about five years following the introduction of new products and lowered prices."
+    },
+    {
+     "articles": [
+      "c2e610bfbc6b8562"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-18T15:25:58+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/target-reports-strongest-quarterly-sales-gain-in-five-years-heading-into-the-holiday-shopping-season/articleshow/135966816.cms) reported that Target recorded a 7.1% increase in net sales for the third quarter, reaching $27.07 billion."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Target quarterly sales growth",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "43180710571dff95",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T15:05:04+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Cal-Maine to cull 1.8 million birds, halt production at Florida facility after bird flu detected",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/cal-maine-to-cull-1point8-million-birds-halt-production-at-florida-facility-after-bird-flu-detected-.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "b5ec6304a611678b",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-18T14:39:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Cal-Maine Foods to Cull 1.76 Million Birds After Florida Facility Tests Positive for Bird Flu",
+     "type": "international",
+     "url": "https://www.wsj.com/business/retail/cal-maine-foods-to-cull-1-76-million-birds-after-florida-facility-tests-positive-for-bird-flu-96982877?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "cal-maine-foods-florida-bird-flu",
+   "label": "Cal-Maine Foods Florida bird flu outbreak",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b5ec6304a611678b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T14:39:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/cal-maine-foods-to-cull-1-76-million-birds-after-florida-facility-tests-positive-for-bird-flu-96982877?mod=pls_whats_news_us_business_f) reported that Cal-Maine Foods will cull 1.76 million birds, including about 1.4 million laying hens and 360,000 pullets, after a Florida facility tested positive for bird flu."
+    },
+    {
+     "articles": [
+      "43180710571dff95"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T15:05:04+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/cal-maine-to-cull-1point8-million-birds-halt-production-at-florida-facility-after-bird-flu-detected-.html) reported that Cal-Maine will halt production at the Florida facility following the detection of avian influenza."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cal-Maine Foods Florida bird flu outbreak",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "4f008b73dfadd5f9",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T15:09:45+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Two new housing reports point to bleak winter ahead, with record low sales",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "4525e4e54a4552f0",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-18T15:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "US Pending Home Sales Fall to New Record Low on High Rates",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-pending-home-sales-fall-to-new-record-low-on-high-rates"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "us-pending-home-sales-data",
+   "label": "US pending home sales data",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4525e4e54a4552f0"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-18T15:00:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/us-pending-home-sales-fall-to-new-record-low-on-high-rates) reported that pending sales of existing US homes fell to a new record low in October due to high mortgage rates."
+    },
+    {
+     "articles": [
+      "4f008b73dfadd5f9"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T15:09:45+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html) reported that two new housing reports indicate a bleak winter ahead for the housing market with record low sales driven by high mortgage rates and inflation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US pending home sales data",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T14:05:25+00:00"
+ "updated": "2026-11-18T16:57:46+00:00"
 }

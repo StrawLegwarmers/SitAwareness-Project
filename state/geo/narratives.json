@@ -146,26 +146,29 @@
   {
    "articles": 4011,
    "attached_by_code": 15,
-   "calls": 25,
-   "candidates": 883,
-   "continuing": 629,
+   "calls": 31,
+   "candidates": 1106,
+   "continuing": 801,
    "corroborated": 21,
    "date": "2026-11-18",
    "dropped": 15,
    "errors": [
+    "call 2: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 3: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 2,
-   "groups": 3138,
+   "failed_calls": 8,
+   "groups": 3148,
    "in_stories": 1288,
    "kept": 681,
    "merged": 43,
    "new": 162,
    "rejected": 87,
    "reported_by_2": 113,
-   "runs": 5,
-   "sent": 883,
+   "runs": 6,
+   "sent": 1106,
    "skipped": 51,
    "split_calls": 0,
    "updated": 464,
@@ -20919,7 +20922,6 @@
    ],
    "outlets_today": 5,
    "previous_titles": [
-    "Four killed in Ukrainian drone strike on industrial zone in Russia's Volgograd, official says",
     "Ukrainian Drone Attack Kills 4 Workers, Sparks Fire at Volgograd Oil Refinery",
     "Three killed, 62 injured in Russian attacks on Zaporizhzhia region over past day",
     "Russian Strikes on Zaporizhzhia Injure 22, Kill 1 in Kushuhum",
@@ -20928,7 +20930,8 @@
     "Drones Strike Tatarstan Petrochemical Plant, Rostov Grid, Logistics Bridge in Russia",
     "Ukrainian forces strike Ilsky Oil Refinery, two oil depots in Russia’s Rostov region",
     "Russia, Ukraine Trade Strikes On Key Bridges In Kyiv And Crimea",
-    "Russian Drone Strikes on Dnipro Injure Six, Including 15-Year-Old Boy"
+    "Russian Drone Strikes on Dnipro Injure Six, Including 15-Year-Old Boy",
+    "Eleven injured, including child, in Russian strike on market in Kharkiv Oblast"
    ],
    "reports": [
     {
@@ -21431,13 +21434,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "ukraine",
-   "title": "Eleven injured, including child, in Russian strike on market in Kharkiv Oblast",
+   "title": "Ukraine Charges Russian Vice Admiral Over Kyiv Strike That Killed 13",
    "title_from": {
-    "backing": 2,
+    "backing": 4,
     "date": "2026-11-18",
-    "of": 3,
-    "outlet": "Ukrainska Pravda",
-    "url": "https://www.pravda.com.ua/eng/news/2026/11/18/8063392/"
+    "of": 4,
+    "outlet": "Kyiv Post",
+    "url": "https://www.kyivpost.com/post/90418"
    }
   },
   {
@@ -165306,7 +165309,8 @@
    "outlets_today": 6,
    "previous_titles": [
     "Eyes turn to APEC summit with likely Trump-Kim meeting on cards",
-    "Xi Jinping calls for global cooperation on AI and free trade at APEC summit"
+    "Xi Jinping calls for global cooperation on AI and free trade at APEC summit",
+    "China's Xi calls for free and open trade at APEC summit"
    ],
    "reports": [
     {
@@ -165439,13 +165443,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "russia",
-   "title": "China's Xi calls for free and open trade at APEC summit",
+   "title": "Xi Jinping calls for global cooperation on AI and free trade at APEC summit",
    "title_from": {
     "backing": 3,
     "date": "2026-11-18",
     "of": 5,
-    "outlet": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb21UOHp4X2E2V05LRUhhUjhnSzI5b1NmNDRVQWhCb2RTV3gwQng0N3lKQ2lnV3JrbjB2cTBpSkNObTdwbXowR2d0UEt5NFp5blJtallNRjdFSjNoVDdxNkNXWFI4bmpETEV5TUs2OE16WW1lLTR0NkZCbEdXZF9OVDVycUFYV2p2aklNS3dR?oc=5"
+    "outlet": "France 24",
+    "url": "https://www.france24.com/en/asia-pacific/20261118-xi-jinping-calls-for-global-cooperation-on-ai-and-free-trade-at-apec-summit"
    },
    "topic": "diplomacy"
   },
@@ -206956,5 +206960,5 @@
   "88f13cf08e9ad390"
  ],
  "site": "geo",
- "updated": "2026-11-18T14:04:58+00:00"
+ "updated": "2026-11-18T16:57:22+00:00"
 }

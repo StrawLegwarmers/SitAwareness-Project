@@ -25,18 +25,10 @@
  },
  {
   "date": "2026-11-18",
-  "kind": "title",
+  "kind": "merged",
   "group": "all",
-  "story": "The challenge of defending against bulletproof dead drops on public blockchains",
-  "text": "Cisco Talos blockchain dead drops research",
-  "reason": "title replaced by a headline: names not in cited articles: Cisco, Talos"
- },
- {
-  "date": "2026-11-18",
-  "kind": "title",
-  "group": "all",
-  "story": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
-  "text": "UAT-12643 blockchain infostealer campaign",
-  "reason": "title replaced by a headline: wording not from cited articles: infostealer, campaign"
+  "story": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
+  "text": "Check Point Research ransomware report",
+  "reason": "duplicate story merged into an existing one"
  }
 ]

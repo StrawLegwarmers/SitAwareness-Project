@@ -157,25 +157,25 @@
   {
    "articles": 249,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 20,
-   "continuing": 7,
+   "calls": 6,
+   "candidates": 24,
+   "continuing": 8,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 2,
    "failed_calls": 0,
    "groups": 215,
-   "in_stories": 22,
-   "kept": 20,
-   "merged": 2,
-   "new": 8,
+   "in_stories": 25,
+   "kept": 23,
+   "merged": 3,
+   "new": 9,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 5,
-   "sent": 20,
+   "runs": 6,
+   "sent": 24,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 8,
+   "updated": 9,
    "waiting": 0
   },
   {
@@ -323,11 +323,11 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T13:55:11+00:00"
+  "all": "2026-11-18T16:41:09+00:00"
  },
  "narratives": [
   {
-   "article_count": 8,
+   "article_count": 9,
    "articles": [
     {
      "added": "2026-11-18",
@@ -341,6 +341,19 @@
      "title": "U.S. CISA adds Perforce Puppet Enterprise flaw to its Known Exploited Vulnerabilities catalog",
      "type": null,
      "url": "https://securityaffairs.com/203377/hacking/u-s-cisa-adds-perforce-puppet-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "f076078af65b41f8",
+     "lang": "en",
+     "outlet": "Check Point Research",
+     "published": "2026-11-17T22:01:28+00:00",
+     "publisher": "Check Point Research",
+     "region": null,
+     "section": "intel",
+     "title": "The State of Ransomware Q3 2026",
+     "type": null,
+     "url": "https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/"
     },
     {
      "added": "2026-11-17",
@@ -418,15 +431,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "f076078af65b41f8"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Check Point Research"
+     ],
+     "published": "2026-11-17T22:01:28+00:00",
+     "text": "[Check Point Research](https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/) reported that ransomware reached record levels in Q3 2026."
+    },
     {
      "articles": [
       "b727576c883eefa8"
@@ -475,7 +500,7 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
@@ -5289,9 +5314,79 @@
    "status": "new",
    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "35c27b557a5ece2a",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T14:16:45+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "New Hello Again Attack Bypasses Windows Hello and BitLocker PIN Lockout Protection",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hello-attack-bypasses-windows-hello-and-bitlocker/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "f81ea9f9198535fd",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-18T12:28:30+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "windows-hello-and-bitlocker-pin-vulnerabilities",
+   "label": "Windows Hello and BitLocker PIN vulnerabilities",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f81ea9f9198535fd"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-18T12:28:30+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html) reported that researchers found the TPM lockout for Windows Hello and BitLocker PINs on AMD-based PCs and some Intel PCs can be reset by someone who opens the PC case."
+    },
+    {
+     "articles": [
+      "35c27b557a5ece2a"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T14:16:45+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/hello-attack-bypasses-windows-hello-and-bitlocker/) reported that researchers demonstrated someone with a laptop and a few cheap parts can guess a Windows Hello PIN in about 40 hours."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Windows Hello and BitLocker PIN vulnerabilities",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T13:55:36+00:00"
+ "updated": "2026-11-18T16:41:33+00:00"
 }
