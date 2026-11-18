@@ -25,10 +25,34 @@
  },
  {
   "date": "2026-11-18",
+  "kind": "merged",
+  "group": "all",
+  "story": "Microsoft agent-framework PyPI package compromise",
+  "text": "Microsoft agent-framework PyPI package compromise",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "all",
+  "story": "COLD RELIC: A Case Study in Impersonation and Compromise",
+  "text": "Cold Relic cyber espionage campaigns",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "all",
+  "story": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
+  "text": "React2STEAL malware campaign",
+  "reason": "title replaced by a headline: wording not from cited articles: malware, campaign"
+ },
+ {
+  "date": "2026-11-18",
   "kind": "dropped",
   "group": "all",
   "story": "",
-  "text": "RTX’s Collins Aerospace begins work on new propeller MRO facility in India",
+  "text": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  }
 ]

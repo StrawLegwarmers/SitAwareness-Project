@@ -155,27 +155,27 @@
  ],
  "coverage": [
   {
-   "articles": 226,
+   "articles": 249,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 5,
-   "continuing": 1,
+   "calls": 3,
+   "candidates": 11,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-18",
-   "dropped": 1,
+   "dropped": 2,
    "failed_calls": 0,
-   "groups": 201,
-   "in_stories": 5,
-   "kept": 4,
-   "merged": 0,
-   "new": 2,
+   "groups": 215,
+   "in_stories": 12,
+   "kept": 11,
+   "merged": 2,
+   "new": 4,
    "rejected": 0,
-   "reported_by_2": 3,
-   "runs": 2,
-   "sent": 5,
+   "reported_by_2": 5,
+   "runs": 3,
+   "sent": 11,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -323,7 +323,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T04:39:09+00:00"
+  "all": "2026-11-18T07:54:44+00:00"
  },
  "narratives": [
   {
@@ -906,8 +906,24 @@
    "title": "GitHub and ScreenConnect cyberattacks"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "dates": [
+      "2026-11-11"
+     ],
+     "id": "5a41c800109f2c35",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T05:06:49+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical Apache HTTP Server RCE Vulnerability Actively Exploited in Attacks",
+     "type": null,
+     "url": "https://cybersecuritynews.com/apache-http-server-rce-exploitation/"
+    },
     {
      "added": "2026-11-13",
      "id": "aed8b98e3d5b6c63",
@@ -971,15 +987,27 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "5a41c800109f2c35"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T05:06:49+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-http-server-rce-exploitation/) reported that Apache’s HTTP/2 module has a critical flaw tracked as CVE-2026-119618 that allows unauthenticated remote code execution."
+    },
     {
      "articles": [
       "7f607d864fcb5a50"
@@ -1027,9 +1055,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
   },
   {
@@ -4302,8 +4330,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 1,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "3dd8154d8a399a8b",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T06:18:38+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Google Reveals How Russian Hackers Used One Cloud Breach to Compromise Another US Organization",
+     "type": null,
+     "url": "https://cybersecuritynews.com/russian-hackers-3/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "b0818a23c548229a",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-18T05:58:04+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
+    },
     {
      "added": "2026-11-17",
      "id": "cb3c4130a10ba7a4",
@@ -4318,15 +4372,39 @@
      "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "cold-relic-a-case-study-in",
    "label": "COLD RELIC: A Case Study in Impersonation and Compromise",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "b0818a23c548229a"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-18T05:58:04+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html) reported that the Russia-linked cyber espionage group known as Cold Relic weaponized a single cloud compromise to breach a second U.S. organization."
+    },
+    {
+     "articles": [
+      "3dd8154d8a399a8b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T06:18:38+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/russian-hackers-3/) reported that Russian state-sponsored hackers broke into a U.S. organization’s Google Workspace environment in late 2025, stole its staff directory and cloud files, and used them in a subsequent breach."
+    },
     {
      "articles": [
       "cb3c4130a10ba7a4"
@@ -4342,7 +4420,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "topic": "cyber"
   },
@@ -4558,8 +4636,40 @@
    "topic": "cyber"
   },
   {
-   "article_count": 1,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "dates": [
+      "2026-11-17"
+     ],
+     "id": "c741de26a0a034ac",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-18T06:45:26+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    },
+    {
+     "added": "2026-11-18",
+     "dates": [
+      "2026-11-17"
+     ],
+     "id": "d7354e5762cd72ad",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T03:30:19+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft’s Agent Framework PyPI Package Hacked to Steal Azure and GitHub Credentials",
+     "type": null,
+     "url": "https://cybersecuritynews.com/microsofts-agent-framework-pypi-package/"
+    },
     {
      "added": "2026-11-17",
      "id": "d167e048362c928b",
@@ -4574,15 +4684,39 @@
      "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "microsoft-agent-framework-pypi-package-compromise",
    "label": "Microsoft agent-framework PyPI package compromise",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "d7354e5762cd72ad"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T03:30:19+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/microsofts-agent-framework-pypi-package/) reported that hackers published two malicious versions of Microsoft’s agent-framework package on the Python Package Index on November 17, 2026."
+    },
+    {
+     "articles": [
+      "c741de26a0a034ac"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-18T06:45:26+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html) reported that threat actors compromised Microsoft's agent-framework package to push a credential stealer."
+    },
     {
      "articles": [
       "d167e048362c928b"
@@ -4598,7 +4732,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Microsoft agent-framework PyPI package compromise",
    "topic": "cyber"
   },
@@ -4741,9 +4875,99 @@
    "status": "new",
    "title": "National Security Agency network outage",
    "topic": "infrastructure"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "1b0d7eb45d6b8dd3",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-18T06:30:00+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/react2steal-github-actions"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "react2steal-uses-github-actions-to-exploit",
+   "label": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "1b0d7eb45d6b8dd3"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-18T06:30:00+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/react2steal-github-actions) reported that the React2STEAL campaign uses GitHub Actions to exploit React2Shell, exposing stolen AWS credentials, AI keys, and.env files from over 1,200 hosts in public repositories."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "55a9a9da0c66cfe9",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-18T07:00:07+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting",
+     "type": null,
+     "url": "https://securelist.com/auditteam-opsagent-forced-audit/122031/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "auditteam-opsagent-ransomware-framework",
+   "label": "AuditTeam OpsAgent ransomware framework",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "55a9a9da0c66cfe9"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Kaspersky"
+     ],
+     "published": "2026-11-18T07:00:07+00:00",
+     "text": "[Kaspersky](https://securelist.com/auditteam-opsagent-forced-audit/122031/) reported that the AuditTeam ransomware gang uses an OpsAgent implant with a Rust rewrite and an extortion model demanding a consulting fee, which masks ransomware as consulting."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "AuditTeam OpsAgent ransomware framework",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T04:39:27+00:00"
+ "updated": "2026-11-18T07:55:02+00:00"
 }

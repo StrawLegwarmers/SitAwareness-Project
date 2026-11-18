@@ -149,23 +149,23 @@
   {
    "articles": 582,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 4,
+   "calls": 3,
+   "candidates": 7,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 496,
-   "in_stories": 7,
-   "kept": 4,
+   "groups": 501,
+   "in_stories": 9,
+   "kept": 5,
    "merged": 0,
-   "new": 3,
+   "new": 4,
    "rejected": 1,
    "reported_by_2": 4,
-   "runs": 2,
-   "sent": 4,
-   "skipped": 0,
+   "runs": 3,
+   "sent": 7,
+   "skipped": 2,
    "split_calls": 0,
    "updated": 1,
    "waiting": 0
@@ -295,7 +295,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T04:41:47+00:00"
+  "all": "2026-11-18T08:01:01+00:00"
  },
  "narratives": [
   {
@@ -7165,9 +7165,69 @@
    "status": "new",
    "title": "Heidi Overton FDA nomination withdrawal",
    "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "14930d4d470df02b",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-18T07:24:58+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Govt weighs tax tweaks to boost stock trading, curb derivatives",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/news/govt-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives/articleshow/135953824.cms"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "657f08871520851c",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-18T07:02:08+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "India Weighs Tax Tweaks to Boost Stock Trading, Curb Derivatives",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "india-stock-trading-and-derivatives-taxes",
+   "label": "India stock trading and derivatives taxes",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "14930d4d470df02b",
+      "657f08871520851c"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "ET Markets"
+     ],
+     "published": "2026-11-18T07:02:08+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives), [ET Markets](https://economictimes.indiatimes.com/markets/stocks/news/govt-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives/articleshow/135953824.cms) reported that Indian officials are reviewing proposals to raise taxes on stock derivatives while lowering levies on share trading."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "India stock trading and derivatives taxes",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T04:42:03+00:00"
+ "updated": "2026-11-18T08:01:18+00:00"
 }
