@@ -1,6 +1,46 @@
 {
  "archived": [
   {
+   "article_count": 4,
+   "first_seen": "2026-11-11",
+   "group": "all",
+   "id": "asian-airline-and-bank-supplier-data",
+   "last_updated": "2026-11-11",
+   "title": "Asian airline and bank supplier data breaches"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-11",
+   "group": "all",
+   "id": "railway-ai-customer-keys-breach",
+   "last_updated": "2026-11-11",
+   "title": "Railway AI customer keys breach"
+  },
+  {
+   "article_count": 10,
+   "first_seen": "2026-11-10",
+   "group": "all",
+   "id": "france-blames-iran-for-refrigeration-sabotage",
+   "last_updated": "2026-11-11",
+   "title": "France blames Iran for refrigeration sabotage attacks"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-10",
+   "group": "all",
+   "id": "qubole-supply-chain-attack-compromises-customer",
+   "last_updated": "2026-11-11",
+   "title": "Qubole supply chain attack compromises customer data"
+  },
+  {
+   "article_count": 7,
+   "first_seen": "2026-11-10",
+   "group": "all",
+   "id": "russian-turla-group-targets-government-exchange",
+   "last_updated": "2026-11-11",
+   "title": "Russian Turla group targets government Exchange servers"
+  },
+  {
    "article_count": 2,
    "first_seen": "2026-11-10",
    "group": "all",
@@ -114,6 +154,30 @@
   }
  ],
  "coverage": [
+  {
+   "articles": 225,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 3,
+   "continuing": 1,
+   "corroborated": 0,
+   "date": "2026-11-18",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 201,
+   "in_stories": 3,
+   "kept": 2,
+   "merged": 0,
+   "new": 1,
+   "rejected": 0,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 3,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
   {
    "articles": 251,
    "attached_by_code": 0,
@@ -259,7 +323,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-17T22:32:18+00:00"
+  "all": "2026-11-18T01:57:03+00:00"
  },
  "narratives": [
   {
@@ -341,14 +405,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-14",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -386,258 +450,10 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
-  },
-  {
-   "article_count": 7,
-   "articles": [
-    {
-     "added": "2026-11-10",
-     "id": "2083a7492a9f7ef2",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-10T14:30:00+00:00",
-     "section": "news",
-     "title": "Russia-Linked Turla Hijacks Exchange Servers to Spy on NATO and EU Emails",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/turla-cereal-exchange-email/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "83620b4a75241c9d",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-10T13:00:00+00:00",
-     "section": "news",
-     "title": "Russian hackers compromised government email servers to steal NATO, EU correspondence",
-     "type": null,
-     "url": "https://therecord.media/russia-hackers-espionage-romania-kazakhstan"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "00e8ee188537c23c",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-10T10:07:29+00:00",
-     "section": "news",
-     "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "3d958b28a4f41c19",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-10T10:04:32+00:00",
-     "section": "news",
-     "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "df92293b936b8ba7",
-     "lang": "en",
-     "outlet": "Help Net Security",
-     "published": "2026-11-10T10:00:39+00:00",
-     "publisher": "Help Net Security",
-     "section": "news",
-     "title": "Turla’s Cereal malware turns victims’ Exchange servers into spy hubs",
-     "type": null,
-     "url": "https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "080c550158dd51c6",
-     "lang": "en",
-     "outlet": "CyberScoop",
-     "published": "2026-11-10T10:00:00+00:00",
-     "section": "news",
-     "title": "Russian Turla group used new toolset to silently pilfer emails from Kazakhstan, Romanian governments",
-     "type": null,
-     "url": "https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "562a530fa9fc19b6",
-     "lang": "en",
-     "outlet": "ESET WeLiveSecurity",
-     "published": "2026-11-10T09:57:00+00:00",
-     "publisher": "ESET WeLiveSecurity",
-     "section": "intel",
-     "title": "Exchange for breakfast: Turla’s Cereal tricks are not for kids",
-     "type": null,
-     "url": "https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-10",
-   "group": "all",
-   "id": "russian-turla-group-targets-government-exchange",
-   "label": "Russian Turla group targets government Exchange servers",
-   "last_updated": "2026-11-11",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "562a530fa9fc19b6"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "ESET WeLiveSecurity"
-     ],
-     "text": "[ESET WeLiveSecurity](https://www.welivesecurity.com/en/eset-research/exchange-for-breakfast-turlas-cereal-tricks-are-not-for-kids/) reported on the Turla group's Cereal toolset, which features an Exchange email collection module, a command and control mechanism, and.NET execution techniques."
-    },
-    {
-     "articles": [
-      "df92293b936b8ba7"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "Help Net Security"
-     ],
-     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/10/eset-turla-exchange-malware/) reported that the Russia-aligned group Turla planted a modular.NET toolset on Microsoft Exchange servers at two government organizations, one in Kazakhstan and one in Romania."
-    },
-    {
-     "articles": [
-      "2083a7492a9f7ef2"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/turla-cereal-exchange-email/) reported that Turla used compromised Exchange servers to collect NATO and EU-linked emails."
-    },
-    {
-     "articles": [
-      "83620b4a75241c9d"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "text": "[The Record](https://therecord.media/russia-hackers-espionage-romania-kazakhstan) reported that Russian state-linked hackers compromised government email servers in Romania and Kazakhstan to secretly intercept messages exchanged with NATO and European officials."
-    },
-    {
-     "articles": [
-      "00e8ee188537c23c"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html) reported that the Russia-aligned state-sponsored threat actor known as Turla is wielding a previously undocumented cyber espionage toolset called Cereal to steal emails from government Exchange servers."
-    },
-    {
-     "articles": [
-      "080c550158dd51c6"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "CyberScoop"
-     ],
-     "text": "[CyberScoop](https://cyberscoop.com/russian-turla-group-used-new-toolset-to-silently-pilfer-emails-from-kazakhstan-romanian-governments/) reported that ESET published research on Turla's Cereal tools targeting Microsoft Exchange servers in the Kazakhstan and Romanian governments without obvious indicators of compromise."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Russian Turla group targets government Exchange servers"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-11",
-     "id": "967b3b0bb04941b7",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-10T19:31:11+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "94033ee2463110ef",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-10T13:27:44+00:00",
-     "section": "news",
-     "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
-     "type": null,
-     "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "ec5608cafe95ee23",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-09T17:51:21+00:00",
-     "section": "news",
-     "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-10",
-   "group": "all",
-   "id": "qubole-supply-chain-attack-compromises-customer",
-   "label": "Qubole supply chain attack compromises customer data",
-   "last_updated": "2026-11-11",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "967b3b0bb04941b7"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/) reported that a threat actor used compromised IAM credentials for a Qubole big data platform AWS account to access and exfiltrate data from multiple cloud environments."
-    },
-    {
-     "articles": [
-      "94033ee2463110ef"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "text": "[SecurityWeek](https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/) reported that hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials across over a dozen organizations."
-    },
-    {
-     "articles": [
-      "ec5608cafe95ee23"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html) reported that an attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Qubole supply chain attack compromises customer data"
   },
   {
    "article_count": 6,
@@ -790,212 +606,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "Vanderbilt University ransomware attack"
-  },
-  {
-   "article_count": 10,
-   "articles": [
-    {
-     "added": "2026-11-11",
-     "id": "07c87e609406ce1b",
-     "lang": "en",
-     "outlet": "Graham Cluley",
-     "published": "2026-11-10T16:05:50+00:00",
-     "publisher": "Graham Cluley",
-     "section": "news",
-     "title": "Iranian hackers turned up the heat on French supermarket freezers, says France",
-     "type": null,
-     "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/iranian-hackers-supermarket-freezers-france"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "78020ac5052cf366",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-10T10:35:00+00:00",
-     "section": "news",
-     "title": "France Blames Iran for Supermarket Fridge Hack, Requests International Arrest Warrants",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/france-blames-iran-supermarket/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "a18255e3ee23872f",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-10T09:08:20+00:00",
-     "section": "news",
-     "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "b67c9989ec79a868",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-10T07:35:05+00:00",
-     "section": "news",
-     "title": "France Blames Iran for a Cyberattack That Heated Supermarket Refrigerators",
-     "type": null,
-     "url": "https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "4dd50868af8b5bf0",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-09T22:45:21+00:00",
-     "section": "news",
-     "title": "France blames Iran for supermarket hack meltdowns",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "d33cf5c99d813119",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-09T19:12:43+00:00",
-     "section": "news",
-     "title": "France Blames Iran for the Supermarket Fridge Attacks",
-     "type": null,
-     "url": "https://securityaffairs.com/202742/hacking/france-blames-iran-for-the-supermarket-fridge-attacks.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "460cec4c9cd64f80",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-09T18:45:00+00:00",
-     "section": "news",
-     "title": "France blames Iran for fridge cyberattacks, says some caused fires",
-     "type": null,
-     "url": "https://therecord.media/france-blames-iran-for-fridge-cyberattacks"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "a287cc19dc74f55d",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-09T18:32:42+00:00",
-     "section": "news",
-     "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "26568bec34a4909b",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-09T11:57:12+00:00",
-     "section": "news",
-     "title": "CISA and the FBI Warn Of Attacks against Industrial Refrigeration Controllers",
-     "type": null,
-     "url": "https://securityaffairs.com/202730/hacking/cisa-and-the-fbi-warn-of-attacks-against-industrial-refrigeration-controllers.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "7a49aa8cbcb18229",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-09T06:15:10+00:00",
-     "section": "news",
-     "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-10",
-   "group": "all",
-   "id": "france-blames-iran-for-refrigeration-sabotage",
-   "label": "France blames Iran for refrigeration sabotage attacks",
-   "last_updated": "2026-11-11",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "07c87e609406ce1b"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "Graham Cluley"
-     ],
-     "text": "[Graham Cluley](https://www.bitdefender.com/en-us/blog/hotforsecurity/iranian-hackers-supermarket-freezers-france) reported that France officially accused Iran of responsibility for cyberattacks last month that meddled with supermarket freezers and caused some to catch fire."
-    },
-    {
-     "articles": [
-      "78020ac5052cf366"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/france-blames-iran-supermarket/) reported that French authorities tied the cyberattack targeting supermarket fridges to Iran’s Islamic Revolutionary Guard Corps and requested international arrest warrants."
-    },
-    {
-     "articles": [
-      "a18255e3ee23872f"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html) reported that an October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps."
-    },
-    {
-     "articles": [
-      "b67c9989ec79a868"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "text": "[SecurityWeek](https://www.securityweek.com/france-blames-iran-for-a-cyberattack-that-heated-supermarket-refrigerators/) reported that France summoned the Iranian ambassador and said it would seek European sanctions over the supermarket refrigerator cyberattack."
-    },
-    {
-     "articles": [
-      "4dd50868af8b5bf0"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Register Security"
-     ],
-     "text": "[The Register Security](https://www.theregister.com/security/2026/11/09/france-blames-iran-for-supermarket-hack-meltdowns/5308591) reported that France blamed Iran for supermarket hack meltdowns describing it as the first cyber offensive campaign carried out purely for the purpose of sabotage on national territory."
-    },
-    {
-     "articles": [
-      "460cec4c9cd64f80"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "text": "[The Record](https://therecord.media/france-blames-iran-for-fridge-cyberattacks) reported that French authorities identified the perpetrators as part of Shahid Kaveh, an IRGC cyber unit, and stated that some attacks caused fires."
-    },
-    {
-     "articles": [
-      "7a49aa8cbcb18229"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html) reported that U.S. government agencies warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "France blames Iran for refrigeration sabotage attacks"
   },
   {
    "article_count": 7,
@@ -1172,180 +782,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "N-able takes N-central offline following zero-day disclosures"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-11",
-     "id": "fb60285a0c0f32a9",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-11T07:49:04+00:00",
-     "publisher": "The Hacker News",
-     "section": "news",
-     "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "a7f9911f494ba310",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-10T22:20:19+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-11",
-   "group": "all",
-   "id": "railway-ai-customer-keys-breach",
-   "label": "Railway AI customer keys breach",
-   "last_updated": "2026-11-11",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "fb60285a0c0f32a9"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html) reported that AI provider keys stored by customers on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending."
-    },
-    {
-     "articles": [
-      "a7f9911f494ba310"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/) reported that cloud hosting provider Railway stated hackers exploited infrastructure vulnerabilities to steal customer authentication secrets and generate fraudulent charges."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Railway AI customer keys breach"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-11",
-     "id": "198160c249871a01",
-     "lang": "en",
-     "outlet": "teiss",
-     "published": "2026-11-11T10:51:54+00:00",
-     "publisher": "teiss",
-     "section": "aviation",
-     "title": "Finnair becomes seventh airline hit by Amadeus data breach, with more than 100,000 bookings exposed",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjJfM25VRTBxOUh3OF9oNVZ0SjdJSGl6SkNvWGRLZGkybDBEbTd0ZVNCa3FXQWtOamdsV1NzTWpsa2d2SXR2MF9HeV8ydnpKLTc5YkxKaHJnWmotOGh2a0lrU2Y0X0VxZ1BVck5jZHdFVWppclBzcVVUX0xBZEJKWExZc1JfUzFEX2RtRm9vdFBFcS1iM1d6dXEyQm43VUthYjREb3pPOW82VnZmUVdWQlI2VXFMRGFGSUMtUkw3cml1OW80THduQmZwakE?oc=5"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "e4770f42a0c21dc8",
-     "lang": "en",
-     "outlet": "Nation Thailand",
-     "published": "2026-11-11T05:04:00+00:00",
-     "publisher": "Nation Thailand",
-     "section": "aviation",
-     "title": "Asian airline and bank breaches highlight supplier security risks",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93bTlHSVdWZEZWTUtUNE12TkVMejFaQVIwREVGOXUxUlVYY1NiQ0ZUS3JPQnlHWldDT3BtX0JQOHpwY1p6MGJPUWswemU2WHB6WDVBcDljS3ZJU3NVRWNmS19ZWQ?oc=5"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "c7f3af17cd8bfb4a",
-     "lang": "en",
-     "outlet": "The Star",
-     "published": "2026-11-11T04:46:00+00:00",
-     "publisher": "The Star",
-     "section": "aviation",
-     "title": "Thailand orders tighter aviation cyber security after data breaches across Asia",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPX3Y3UEJJTXJlVlBldU9ySi1jdnloTDBGMnN6dzJ0VWg1azIxQ19FMHVYcG9aN2NNUzJsYU9aaEFkZDZsVFBCZG8yLUlYbjdpaGZNRUo3aEN6UEl6WUJfVzdHRGF5VDJ0WnVzdElKV3JyRVZ0QmFJR3U2WEo3Z3FCTlJiV0liaFhTYUZSaGdoVEVnSV9WU3Y2NFpNNGNEYjdPVmJEUzhxWThkOXpQb1dtdmc4Q2UxU0ZSSEFfNG5LS3c3MGxSYkxMQlhFM0hfZVZHOTNBQUVVSUhvQQ?oc=5"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "130fd654c7b0a4e5",
-     "lang": "en",
-     "outlet": "FTN news",
-     "published": "2026-11-10T22:48:55+00:00",
-     "publisher": "FTN news",
-     "section": "aviation",
-     "title": "Thai Airways Data Breach Exposes 60,529 Flight Bookings",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVgza0ZJaU9aY0tKT0VncHNXbVVPbTVZMnpGWXhIRFVVWkhVNXdXQmcxbDJGcVdMLUtIYjhQb2Z1YldGZ3c5LWNNSlB3S2xKQ0pVa0hVLWJ1WUhkUi1iTXczcGUtUVJ3SzBLNUhfX2huX1RzUWFFQ1lwOVZDUWZuMTRkR0ZpUUsx?oc=5"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-11",
-   "group": "all",
-   "id": "asian-airline-and-bank-supplier-data",
-   "label": "Asian airline and bank supplier data breaches",
-   "last_updated": "2026-11-11",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "198160c249871a01"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "teiss"
-     ],
-     "text": "According to [teiss](https://news.google.com/rss/articles/CBMizAFBVV95cUxNWjJfM25VRTBxOUh3OF9oNVZ0SjdJSGl6SkNvWGRLZGkybDBEbTd0ZVNCa3FXQWtOamdsV1NzTWpsa2d2SXR2MF9HeV8ydnpKLTc5YkxKaHJnWmotOGh2a0lrU2Y0X0VxZ1BVck5jZHdFVWppclBzcVVUX0xBZEJKWExZc1JfUzFEX2RtRm9vdFBFcS1iM1d6dXEyQm43VUthYjREb3pPOW82VnZmUVdWQlI2VXFMRGFGSUMtUkw3cml1OW80THduQmZwakE?oc=5), Finnair is the seventh airline hit by an Amadeus data breach that exposed more than 100,000 bookings."
-    },
-    {
-     "articles": [
-      "130fd654c7b0a4e5"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "FTN news"
-     ],
-     "text": "[FTN news](https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOVgza0ZJaU9aY0tKT0VncHNXbVVPbTVZMnpGWXhIRFVVWkhVNXdXQmcxbDJGcVdMLUtIYjhQb2Z1YldGZ3c5LWNNSlB3S2xKQ0pVa0hVLWJ1WUhkUi1iTXczcGUtUVJ3SzBLNUhfX2huX1RzUWFFQ1lwOVZDUWZuMTRkR0ZpUUsx?oc=5) reported that a Thai Airways data breach exposed 60,529 flight bookings."
-    },
-    {
-     "articles": [
-      "e4770f42a0c21dc8"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "Nation Thailand"
-     ],
-     "text": "[Nation Thailand](https://news.google.com/rss/articles/CBMiY0FVX3lxTE93bTlHSVdWZEZWTUtUNE12TkVMejFaQVIwREVGOXUxUlVYY1NiQ0ZUS3JPQnlHWldDT3BtX0JQOHpwY1p6MGJPUWswemU2WHB6WDVBcDljS3ZJU3NVRWNmS19ZWQ?oc=5) reported that recent breaches at Asian airlines and banks highlight supplier security risks."
-    },
-    {
-     "articles": [
-      "c7f3af17cd8bfb4a"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "The Star"
-     ],
-     "text": "[The Star](https://news.google.com/rss/articles/CBMi2gFBVV95cUxPX3Y3UEJJTXJlVlBldU9ySi1jdnloTDBGMnN6dzJ0VWg1azIxQ19FMHVYcG9aN2NNUzJsYU9aaEFkZDZsVFBCZG8yLUlYbjdpaGZNRUo3aEN6UEl6WUJfVzdHRGF5VDJ0WnVzdElKV3JyRVZ0QmFJR3U2WEo3Z3FCTlJiV0liaFhTYUZSaGdoVEVnSV9WU3Y2NFpNNGNEYjdPVmJEUzhxWThkOXpQb1dtdmc4Q2UxU0ZSSEFfNG5LS3c3MGxSYkxMQlhFM0hfZVZHOTNBQUVVSUhvQQ?oc=5) reported that Thailand ordered tighter aviation cyber security following data breaches across Asia."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Asian airline and bank supplier data breaches"
   },
   {
    "article_count": 5,
@@ -2611,7 +2047,7 @@
      "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "n-able-n-central-zero-day",
@@ -2621,7 +2057,7 @@
    "merged": [
     "n-able-n-central-zero-day-2"
    ],
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2684,9 +2120,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/) reported that new exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
    "title_from": {
     "backing": 3,
@@ -3721,14 +3157,14 @@
      "url": "https://cybersecuritynews.com/cursor-data-breach/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-14",
    "group": "all",
    "id": "cursor-security-breach",
    "label": "Cursor security breach",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3779,15 +3215,28 @@
      "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) reported that Cursor confirmed the security breach enabled hackers to distribute a malicious Claude Code extension via its marketplace following credential theft."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Cursor security breach",
    "topic": "cyber"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "061f4b2a5ea32544",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-17T11:34:09+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "Facebook may have access to your entire photo gallery",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/mobile/2026/11/facebook-may-have-access-to-your-entire-photo-gallery"
+    },
     {
      "added": "2026-11-16",
      "dates": [
@@ -3847,14 +3296,14 @@
      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "meta-fine-in-italy",
    "label": "Meta fine in Italy",
    "last_reported": "2026-11-15",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -3893,9 +3342,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html) reported that Meta was fined €805 Million in Italy over Facebook's Android gallery access without explicit consent."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
    "title_from": {
     "backing": 2,
@@ -4217,14 +3666,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "california-lawsuit-against-openai",
    "label": "California lawsuit against OpenAI",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4265,7 +3714,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "California lawsuit against OpenAI",
    "topic": "technology-policy"
   },
@@ -4299,14 +3748,14 @@
      "url": "https://securityaffairs.com/203260/hacking/google-gtig-warns-ai-agents-automate-exploits-steal-credentials-and-scale-cybercrime.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "ai-agents-in-cybercrime",
    "label": "AI agents in cybercrime",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4335,7 +3784,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "AI agents in cybercrime",
    "topic": "cyber"
   },
@@ -4356,14 +3805,14 @@
      "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "southeast-asian-cyberespionage-campaign",
    "label": "Southeast Asian cyberespionage campaign",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4378,9 +3827,9 @@
      "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/) reported that a novel HTTP/3-powered RAT campaign targets Southeast Asian governments with PerfectPioneer and KUKURAT RATs."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Southeast Asian cyberespionage campaign",
    "topic": "cyber"
   },
@@ -4401,14 +3850,14 @@
      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "microsoft-365-outage-phishing-campaign",
    "label": "Microsoft 365 outage phishing campaign",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4423,9 +3872,9 @@
      "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/) reported that a high-volume phishing campaign used Microsoft 365 outage lures to target organizations across multiple sectors."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Microsoft 365 outage phishing campaign",
    "topic": "cyber"
   },
@@ -4472,14 +3921,14 @@
      "url": "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "microsoft-windows-remote-lock",
    "label": "Microsoft Windows remote lock",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4508,7 +3957,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
    "title_from": {
     "backing": 2,
@@ -4549,14 +3998,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "google-gemini-ai-website-hacking",
    "label": "Google Gemini AI website hacking",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4585,7 +4034,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Google Gemini AI website hacking",
    "topic": "cyber"
   },
@@ -4622,14 +4071,14 @@
      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "optimizely-script-hijacking-campaign",
    "label": "Optimizely script hijacking campaign",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4658,7 +4107,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Optimizely script hijacking campaign",
    "topic": "cyber"
   },
@@ -4692,14 +4141,14 @@
      "url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "operation-shadowcloud-cloud-service-based-backdoor",
    "label": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4726,9 +4175,9 @@
      "text": "[Kaspersky](https://securelist.com/operation-shadowcloud-graphdoor/122005/) reported on the GraphDoor backdoor, additional plug-ins, and technical attribution as part of the analysis of Operation ShadowCloud."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
    "topic": "cyber"
   },
@@ -4762,14 +4211,14 @@
      "url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "anthropic-vulnerability-disclosure-policy",
    "label": "Anthropic vulnerability disclosure policy",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4788,7 +4237,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Anthropic vulnerability disclosure policy",
    "topic": "cyber"
   },
@@ -4822,14 +4271,14 @@
      "url": "https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "danfoss-fridge-controller-vulnerabilities",
    "label": "Danfoss fridge controller vulnerabilities",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4848,7 +4297,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Danfoss fridge controller vulnerabilities",
    "topic": "cyber"
   },
@@ -4869,14 +4318,14 @@
      "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "cold-relic-a-case-study-in",
    "label": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4891,9 +4340,9 @@
      "text": "[Google](https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/) published a case study by Mandiant on impersonation and compromise titled COLD RELIC."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "topic": "cyber"
   },
@@ -4930,14 +4379,14 @@
      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "oracle-java-vulnerabilities",
    "label": "Oracle Java vulnerabilities",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4966,7 +4415,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Oracle Java vulnerabilities",
    "topic": "cyber"
   },
@@ -4990,14 +4439,14 @@
      "url": "https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "hijacked-optimizely-snippets-served-malicious-code",
    "label": "Hijacked Optimizely snippets served malicious code on major websites",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5012,9 +4461,9 @@
      "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code) reported that hijacked Optimizely snippets served malicious code on major websites."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Hijacked Optimizely snippets served malicious code on major websites",
    "topic": "cyber"
   },
@@ -5035,14 +4484,14 @@
      "url": "https://opensourcemalware.com/blog/versioned-gmail-addresses-link-four-malicious-npm-packages"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "malicious-npm-packages",
    "label": "Malicious npm packages",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5057,9 +4506,9 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/versioned-gmail-addresses-link-four-malicious-npm-packages) reported that versioned Gmail addresses link four malicious npm packages published by Acevatex, including a Litecoin key stealer and three PureRAT loaders."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Malicious npm packages",
    "topic": "cyber"
   },
@@ -5080,14 +4529,14 @@
      "url": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "optimjack-supply-chain-attack",
    "label": "OPTIMJACK supply chain attack",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5102,9 +4551,9 @@
      "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/) reported that the OPTIMJACK supply chain attack demonstrates how a compromised vendor script can expose websites."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "OPTIMJACK supply chain attack",
    "topic": "cyber"
   },
@@ -5125,14 +4574,14 @@
      "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "microsoft-agent-framework-pypi-package-compromise",
    "label": "Microsoft agent-framework PyPI package compromise",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-17",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5147,14 +4596,84 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/agent-framework-pypi-compromised) reported that versions 1.26.1 and 1.26.2 of the official Microsoft agent-framework Python package contain malware."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "unchanged",
+   "title": "Microsoft agent-framework PyPI package compromise",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "1f10a2bd318c1ecc",
+     "lang": "en",
+     "outlet": "Cisco Talos",
+     "published": "2026-11-18T01:53:03+00:00",
+     "publisher": "Cisco",
+     "region": null,
+     "section": "intel",
+     "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
+     "type": null,
+     "url": "https://blog.talosintelligence.com/java4shell/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "394b6aac48d5602b",
+     "lang": "en",
+     "outlet": "Sophos X-Ops",
+     "published": "2026-11-17T00:00:00+00:00",
+     "publisher": "Sophos X-Ops",
+     "region": null,
+     "section": "intel",
+     "title": "'Java4Shell' vulnerability (CVE-2026-114938) could allow remote code execution",
+     "type": null,
+     "url": "https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "java4shell-vulnerability-disclosure",
+   "label": "Java4Shell vulnerability disclosure",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "394b6aac48d5602b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Sophos X-Ops"
+     ],
+     "published": "2026-11-17T00:00:00+00:00",
+     "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution) reported that the 'Java4Shell' vulnerability (CVE-2026-114938) could allow remote code execution."
+    },
+    {
+     "articles": [
+      "1f10a2bd318c1ecc"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cisco"
+     ],
+     "published": "2026-11-18T01:53:03+00:00",
+     "text": "[Cisco](https://blog.talosintelligence.com/java4shell/) reported that Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java dubbed 'Java4Shell' with a CVSS 4.0 score of 9.2."
+    }
+   ],
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Microsoft agent-framework PyPI package compromise",
+   "title": "Java4Shell vulnerability disclosure",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-17T22:32:42+00:00"
+ "updated": "2026-11-18T01:57:20+00:00"
 }
