@@ -149,25 +149,25 @@
   {
    "articles": 582,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 7,
-   "continuing": 1,
+   "calls": 4,
+   "candidates": 10,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 501,
-   "in_stories": 9,
-   "kept": 5,
+   "groups": 512,
+   "in_stories": 17,
+   "kept": 11,
    "merged": 0,
-   "new": 4,
+   "new": 6,
    "rejected": 1,
-   "reported_by_2": 4,
-   "runs": 3,
-   "sent": 7,
+   "reported_by_2": 5,
+   "runs": 4,
+   "sent": 10,
    "skipped": 2,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -295,7 +295,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T08:01:01+00:00"
+  "all": "2026-11-18T10:43:35+00:00"
  },
  "narratives": [
   {
@@ -459,8 +459,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "d0869e41bfaa3534",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-18T09:07:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Pressured by Surplus Expectations, Bearish U.S. Inventory Data Report",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-cc9879f2?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "4006a05d4580eb67",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-18T08:55:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Fall Amid Supply Surplus Expectations, Middle East Tensions",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-16",
      "id": "56b51166aaecb094",
@@ -501,15 +527,39 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "4006a05d4580eb67"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T08:55:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-fall-amid-supply-surplus-expectations-middle-east-tensions-99aeabd5?mod=rss_markets_main) reported that oil prices fell Wednesday as traders assessed a global supply surplus alongside Middle East tensions and threats to regional shipments."
+    },
+    {
+     "articles": [
+      "d0869e41bfaa3534"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T09:07:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-cc9879f2?mod=rss_markets_main) reported that oil prices declined as expectations of an oversupplied market and bearish U.S. inventory data outweighed continued tanker attacks in the Middle East."
+    },
     {
      "articles": [
       "56b51166aaecb094"
@@ -535,9 +585,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
   },
@@ -7225,9 +7275,186 @@
    "status": "new",
    "title": "India stock trading and derivatives taxes",
    "topic": "markets"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "8cc29ecbd5d4d4ff",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-18T10:06:19+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Democrats probe whether Howard Lutnick helped Cantor avoid Nvidia losses, FT reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "7e06045e2e8e9d67",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-18T09:45:07+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Democrats probe whether Howard Lutnick helped Cantor avoid Nvidia losses",
+     "type": "international",
+     "url": "https://www.ft.com/content/71e39ecd-03ef-4078-a34e-34ea6b45f674?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "26d31e2f3ad4992e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T09:45:01+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "howard-lutnick-cantor-fitzgerald-probe",
+   "label": "Howard Lutnick Cantor Fitzgerald probe",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "26d31e2f3ad4992e"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T09:45:01+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html) reported that congressional Democrats launched a probe targeting Cantor Fitzgerald's Nvidia business interests following the midterm elections."
+    },
+    {
+     "articles": [
+      "7e06045e2e8e9d67",
+      "8cc29ecbd5d4d4ff"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "Investing.com"
+     ],
+     "published": "2026-11-18T09:45:07+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/71e39ecd-03ef-4078-a34e-34ea6b45f674?syn-25a6b1a6=1), [Investing.com](https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313) reported that lawmakers are investigating whether U.S. Commerce Secretary Howard Lutnick helped Cantor avoid Nvidia losses and if his decisions were influenced by the investment firm."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-18",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
+   },
+   "topic": "politics"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "dfd30476d6b5e0fc",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-18T10:00:26+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Indonesia resumes rate hikes to defend rupiah, more tightening seen",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/indonesia-central-bank-hikes-rates-to-support-rupiah-5034987"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "05fca6330ce2205c",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-18T07:59:37+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Indonesia unexpectedly hikes rates to 6% as rupiah hits record low",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/indonesia-unexpectedly-hikes-rates-to-6-as-rupiah-hits-record-low-5034993"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "d59ce032392cd06f",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-18T07:37:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Indonesia Resumes Rate Increases as Rupiah Hits Record Low",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "indonesia-interest-rate-increase",
+   "label": "Indonesia interest rate increase",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d59ce032392cd06f",
+      "dfd30476d6b5e0fc"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-18T07:37:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/indonesia-central-bank-hikes-rates-to-support-rupiah-5034987) reported that Indonesia's central bank resumed interest rate increases to support the rupiah after the currency hit a record low against the dollar."
+    },
+    {
+     "articles": [
+      "05fca6330ce2205c"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-18T07:59:37+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/indonesia-unexpectedly-hikes-rates-to-6-as-rupiah-hits-record-low-5034993) reported that Indonesia unexpectedly hiked rates to 6% as the rupiah reached a record low."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Indonesia interest rate increase",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T08:01:18+00:00"
+ "updated": "2026-11-18T10:43:52+00:00"
 }

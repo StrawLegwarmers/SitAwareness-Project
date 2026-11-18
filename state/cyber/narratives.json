@@ -157,25 +157,25 @@
   {
    "articles": 249,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 11,
-   "continuing": 2,
+   "calls": 4,
+   "candidates": 15,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 2,
    "failed_calls": 0,
    "groups": 215,
-   "in_stories": 12,
-   "kept": 11,
+   "in_stories": 15,
+   "kept": 13,
    "merged": 2,
    "new": 4,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 3,
-   "sent": 11,
-   "skipped": 0,
+   "runs": 4,
+   "sent": 15,
+   "skipped": 1,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -323,12 +323,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T07:54:44+00:00"
+  "all": "2026-11-18T10:36:59+00:00"
  },
  "narratives": [
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "b727576c883eefa8",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-18T08:41:13+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds Perforce Puppet Enterprise flaw to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/203377/hacking/u-s-cisa-adds-perforce-puppet-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
     {
      "added": "2026-11-17",
      "id": "2e376ac307fc9bdf",
@@ -405,15 +418,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "b727576c883eefa8"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-18T08:41:13+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203377/hacking/u-s-cisa-adds-perforce-puppet-enterprise-flaw-to-its-known-exploited-vulnerabilities-catalog.html) reported that U.S. CISA added the Perforce Puppet Enterprise vulnerability CVE-2026-115731 to its Known Exploited Vulnerabilities catalog."
+    },
     {
      "articles": [
       "a28f1fd895d9a3ca"
@@ -450,9 +475,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -4067,8 +4092,24 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "dates": [
+      "2026-11-16"
+     ],
+     "id": "2f254f685c6747ef",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-17T12:51:03+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "CNN, BBC, Zoom, and other sites served malicious code in supply-chain attack",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
+    },
     {
      "added": "2026-11-17",
      "id": "0866adf59a33cc46",
@@ -4099,15 +4140,27 @@
      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "optimizely-script-hijacking-campaign",
    "label": "Optimizely script hijacking campaign",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "2f254f685c6747ef"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Malwarebytes Labs"
+     ],
+     "published": "2026-11-17T12:51:03+00:00",
+     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack) reported that CNN, BBC, Zoom, and other sites served malicious code in a supply-chain attack."
+    },
     {
      "articles": [
       "4e5896d7bb8e86f2"
@@ -4133,9 +4186,9 @@
      "text": "[Security Affairs](https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html) reported that attackers hijacked Optimizely scripts on 178 organizations' websites under the name OPTIMJACK, spreading malware to target iPhones and steal payment card data and cryptocurrency."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Optimizely script hijacking campaign",
    "topic": "cyber"
   },
@@ -4210,8 +4263,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "47776f300bda0a0e",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T09:48:45+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic Reduces Vulnerability Disclosure Deadline from 90 to 30 Days as AI Quickly Identifies Flaws",
+     "type": null,
+     "url": "https://cybersecuritynews.com/anthropic-cuts-critical-vulnerability-disclosure-deadline/"
+    },
     {
      "added": "2026-11-17",
      "id": "ddc5b1c91a77bdcf",
@@ -4239,14 +4305,14 @@
      "url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "anthropic-vulnerability-disclosure-policy",
    "label": "Anthropic vulnerability disclosure policy",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -4263,9 +4329,9 @@
      "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/), [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/) reported that Anthropic reduced its vulnerability disclosure deadline to 30 days for high- and critical-severity bugs."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Anthropic vulnerability disclosure policy",
    "topic": "cyber"
   },
@@ -4969,5 +5035,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T07:55:02+00:00"
+ "updated": "2026-11-18T10:37:16+00:00"
 }
