@@ -149,25 +149,25 @@
   {
    "articles": 582,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 10,
-   "continuing": 2,
+   "calls": 5,
+   "candidates": 15,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 512,
-   "in_stories": 17,
-   "kept": 11,
-   "merged": 0,
-   "new": 6,
+   "groups": 515,
+   "in_stories": 24,
+   "kept": 14,
+   "merged": 1,
+   "new": 7,
    "rejected": 1,
    "reported_by_2": 5,
-   "runs": 4,
-   "sent": 10,
+   "runs": 5,
+   "sent": 15,
    "skipped": 2,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -295,12 +295,38 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T10:43:35+00:00"
+  "all": "2026-11-18T14:04:58+00:00"
  },
  "narratives": [
   {
-   "article_count": 6,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "b44b903ad68cbfc9",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T13:32:33+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "9cd75b66a4b59c0e",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-18T12:53:31+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Waller Says Fed Should Consider Half-Point Rate Hike",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-waller-says-fed-should-consider-half-point-rate-hike"
+    },
     {
      "added": "2026-11-17",
      "id": "8c29e5d37fbf4a39",
@@ -380,15 +406,29 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "9cd75b66a4b59c0e",
+      "b44b903ad68cbfc9"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "CNBC"
+     ],
+     "published": "2026-11-18T12:53:31+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/fed-s-waller-says-fed-should-consider-half-point-rate-hike), [CNBC](https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html) reported that Federal Reserve governor Christopher Waller said inflation remains headed in the wrong direction and urged the central bank to consider a half-percentage-point rate hike."
+    },
     {
      "articles": [
       "8c29e5d37fbf4a39",
@@ -454,7 +494,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Federal Reserve monetary policy stance",
    "topic": "economy"
   },
@@ -6983,8 +7023,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "3c5030c27a416e22",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-18T12:56:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The Morning Risk Report: SEC Is Probing Nvidia Amid Departure of CEO Jensen Huang",
+     "type": "international",
+     "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-3d719200?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-17",
      "id": "80511c9f201d4dbd",
@@ -7012,14 +7065,14 @@
      "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sec-investigation-into-nvidia",
    "label": "SEC investigation into Nvidia",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -7036,9 +7089,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports) reported that the Securities and Exchange Commission is investigating Nvidia Corp. in a civil probe looking at whether the company violated investor-disclosure laws."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "SEC investigation into Nvidia",
    "topic": "business-strategic"
   },
@@ -7369,7 +7422,7 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
     {
      "added": "2026-11-18",
@@ -7409,17 +7462,55 @@
      "title": "Indonesia Resumes Rate Increases as Rupiah Hits Record Low",
      "type": "international",
      "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "aec2da0db2221686",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-18T07:19:38+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Indonesia Hikes Key Rate After Rupiah Slide, Surprising Most Economists",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-hikes-key-rate-after-rupiah-slide-surprising-most-economists"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "c32825b9a256af98",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-18T00:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Indonesia Rate Decision Seen as Close Call on Weak Rupiah, Growth Concerns",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-rate-decision-seen-as-close-call-on-weak-rupiah-growth-concerns"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "indonesia-interest-rate-increase",
    "label": "Indonesia interest rate increase",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "aec2da0db2221686"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-18T07:19:38+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/indonesia-hikes-key-rate-after-rupiah-slide-surprising-most-economists) reported that Indonesia's central bank unexpectedly resumed raising its key interest rate to support the rupiah and announced more incentives for investors."
+    },
     {
      "articles": [
       "d59ce032392cd06f",
@@ -7450,11 +7541,78 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Indonesia interest rate increase",
+   "title": "Indonesia Rate Decision Seen as Close Call on Weak Rupiah, Growth Concerns",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-18",
+    "of": 2,
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-rate-decision-seen-as-close-call-on-weak-rupiah-growth-concerns"
+   },
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "b57b382db75c274b",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-18T13:24:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Cessna jet maker Textron to sell industrial business for $1.2 billion",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "201604b09e556687",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-18T13:11:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Textron Selling Industrial Segment to Kingswood Capital for $1.2 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969?mod=rss_markets_main"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "textron-industrial-segment-sale",
+   "label": "Textron industrial segment sale",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "201604b09e556687",
+      "b57b382db75c274b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-18T13:11:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969?mod=rss_markets_main), [Investing.com](https://www.investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071) reported that Textron is selling its industrial segment to Kingswood Capital Management for $1.2 billion."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Textron industrial segment sale",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T10:43:52+00:00"
+ "updated": "2026-11-18T14:05:25+00:00"
 }

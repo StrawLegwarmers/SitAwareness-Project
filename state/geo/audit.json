@@ -1805,19 +1805,27 @@
  },
  {
   "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "APEC summit in Shenzhen",
-  "text": "[7] reported that Xi Jinping and Vladimir Putin took a stance against trade curbs ahead of the meeting with Trump.",
-  "reason": "names not in cited articles: Jinping, Vladimir"
+  "kind": "merged",
+  "group": "europe",
+  "story": "EU disburses 1.7 billion euros for Ukraine's military needs",
+  "text": "EU Ukraine loan proposal",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-18",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Robert Pattinson cast as James Bond",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
+  "kind": "merged",
+  "group": "asia",
+  "story": "Proposed trilateral summit in China",
+  "text": "APEC summit in Shenzhen",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Proposed trilateral summit in China",
+  "text": "[17] reported that Russian President Vladimir Putin approached US President Donald Trump and that the two leaders exchanged greetings before posing for a group photograph at the annual APEC summit.",
+  "reason": "names not in cited articles: Donald, Vladimir"
  },
  {
   "date": "2026-11-18",
@@ -1829,27 +1837,19 @@
  },
  {
   "date": "2026-11-18",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Woman Pulled Alive From Rubble After Russian Strike on Zaporizhzhia",
-  "text": "Russian drone attack on Odesa",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-18",
-  "kind": "title",
-  "group": "asia",
-  "story": "'Are your hands clean?': Khawaja Asif hits back at Bilawal over govt criticism",
-  "text": "Pakistan political disputes",
-  "reason": "title replaced by a headline: wording not from cited articles: political, disputes"
+  "kind": "skipped",
+  "group": "global",
+  "story": "Voyager 1 interstellar distance milestone",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
  },
  {
   "date": "2026-11-18",
   "kind": "skipped",
-  "group": "africa",
-  "story": "OPay National Innovation Challenge",
+  "group": "mena",
+  "story": "James Bond casting",
   "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
+  "reason": "off-topic for this site (topic: entertainment): not created"
  },
  {
   "date": "2026-11-18",
@@ -1861,386 +1861,410 @@
  },
  {
   "date": "2026-11-18",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Multiple tech outages have Americans asking: Can somebody fix this?",
-  "text": "US technological outages",
-  "reason": "title replaced by a headline: wording not from cited articles: technological"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Multiple tech outages have Americans asking: Can somebody fix this?",
-  "text": "[98][99] reported that Americans faced a blitz of multiple tech outages affecting various sectors.",
-  "reason": "wording not from cited articles: faced, affecting, various, sectors"
- },
- {
-  "date": "2026-11-18",
-  "kind": "title",
-  "group": "namerica",
-  "story": "After Days of Digital Outages, Americans Wonder if the Country Is Breaking",
-  "text": "US digital and technical outages impact",
-  "reason": "title replaced by a headline: wording not from cited articles: technical, impact"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "After Days of Digital Outages, Americans Wonder if the Country Is Breaking",
-  "text": "[108][109] reported that digital outages caused flight disruptions, banking issues, cloud service outages, and court portal shutdowns across the United States.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-18",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Trump’s China data center curb advances despite Amazon, Google, Meta lobbying",
-  "text": "US restrictions on Chinese AI data center equipment",
-  "reason": "title replaced by a headline: wording not from cited articles: restrictions, equipment"
- },
- {
-  "date": "2026-11-18",
   "kind": "skipped",
-  "group": "asia",
-  "story": "Hong Kong hospital medical error",
-  "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
- },
- {
-  "date": "2026-11-18",
-  "kind": "title",
   "group": "namerica",
-  "story": "Nvidia says ‘no’ to rehiring Huang and WSJ reports SEC is probing the chipmaker",
-  "text": "Nvidia management statements and SEC probe",
-  "reason": "title replaced by a headline: wording not from cited articles: management, statements, probe"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Nvidia says ‘no’ to rehiring Huang and WSJ reports SEC is probing the chipmaker",
-  "text": "[120] reported that the Wall Street Journal stated the SEC is probing Nvidia amid policy discussions in Washington regarding China.",
-  "reason": "names not in cited articles: Journal, Street, Wall"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Nigeria telecommunications market regulations",
-  "text": "[1] reported that MTN Nigeria controls 52.3 per cent of active mobile subscriptions with 105 million subscribers.",
-  "reason": "number not in cited articles: 105000000"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Nigeria telecommunications market regulations",
-  "text": "[2] reported that the Nigerian Communications Commission gave telecom operators until December 31, 2026, to prove spectrum use or risk losing unused spectrum.",
-  "reason": "names not in cited articles: Communications"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Nigerian universities CNG stations",
-  "text": "[3] reported that Minister of State for Petroleum Resources (Gas) Ekperikpe Ekpo commissioned Compressed Natural Gas stations in four universities on behalf of President Bola Tinubu.",
-  "reason": "number not in cited articles: 4"
- },
- {
-  "date": "2026-11-18",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Indonesia central bank interest rates",
+  "story": "Markwayne Mullin travel controversy",
   "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-18",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Proposed trilateral summit in China",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Путин очаква да види Тръмп и Си по отделно преди тройната среща"
- },
- {
-  "date": "2026-11-18",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Proposed trilateral summit in China",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Тръмп пристигна в Шънджън за форума на АТИС, очаква се тристранна среща с Путин "
- },
- {
-  "date": "2026-11-18",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Proposed trilateral summit in China",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Tramp stigao u Kinu: Si Đinping ga lično dočekao na aerodromu (VIDEO)"
- },
- {
-  "date": "2026-11-18",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Proposed trilateral summit in China",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Tramp stigao u Šendžen na sastanak APEK-a, Si Đinping odstupio od protokola: Sut"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Proposed trilateral summit in China",
-  "text": "[9] reported that Russian President Vladimir Putin arrived in Shenzhen for a separate meeting with Chinese leader Xi Jinping ahead of a trilateral meeting.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Proposed trilateral summit in China",
-  "text": "[10] reported that U.S. President Donald Trump arrived in Shenzhen for the APEC forum and an expected trilateral meeting with Putin and Xi.",
-  "reason": "cites an article that doesn't belong to this story"
+  "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-18",
   "kind": "skipped",
   "group": "europe",
-  "story": "Alzheimer's drug research",
+  "story": "Ukraine destroys central road section of Crimean bridge ahead of high-stakes summit",
   "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
+  "reason": "not added to this story (headline doesn't match it): Un ataque de Ucrania destruyó parte de un puente que conecta a la zona estratégi"
  },
  {
   "date": "2026-11-18",
-  "kind": "title",
-  "group": "africa",
-  "story": "2027: ADC files 17-ground appeal over Atiku’s candidacy",
-  "text": "Nigeria political party appeals and disputes",
-  "reason": "title replaced by a headline: wording not from cited articles: political, party"
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine destroys central road section of Crimean bridge ahead of high-stakes summit",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Cómo fue el sofisticado ataque con el que Ucrania destruyó parte del preciado pu"
  },
  {
   "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "U.S. President visit to the Philippines",
-  "text": "[19][20] reported that Philippine President Ferdinand Marcos Jr. ordered late-night Jollibee fried chicken for U.S. President Donald Trump and his team.",
-  "reason": "names not in cited articles: Donald, Ferdinand"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
-  "text": "[21] reported that Canadian Prime Minister Mark Carney stated Canada is adjusting its ties with China while aiming to secure the right trade deal with the United States.",
-  "reason": "names not in cited articles: Mark, States, United"
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine destroys central road section of Crimean bridge ahead of high-stakes summit",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Ataque al puente de Crimea: Ucrania revela que coordinó la operación con un sist"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
-  "group": "namerica",
-  "story": "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
-  "text": "[22] reported that Mark Carney stated Canada's growing trade ties with China are not a top concern for U.S. President Donald Trump.",
-  "reason": "names not in cited articles: Donald, Mark"
+  "group": "europe",
+  "story": "Ukraine destroys central road section of Crimean bridge ahead of high-stakes summit",
+  "text": "[106] reported that the attack on the Crimean Bridge was carried out in three stages, with the first blocking defenses and the second providing the signal for missiles.",
+  "reason": "cites an article that doesn't belong to this story"
  },
  {
   "date": "2026-11-18",
   "kind": "skipped",
   "group": "africa",
-  "story": "South Africa tuberculosis mortality rates",
+  "story": "Air Peace flight expansion",
   "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
+  "reason": "off-topic for this site (topic: business): not created"
  },
  {
   "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "DSS and Atiku Abubakar Sokoto protest dispute",
-  "text": "[65] reported that the Department of State Services made a fresh demand from the 2027 ADC presidential candidate to retract his earlier claim.",
-  "reason": "names not in cited articles: Services"
+  "kind": "title",
+  "group": "asia",
+  "story": "Pakistan Customs seizes 115kg of opium worth Rs585.2 million in Quetta",
+  "text": "Pakistan and Indonesia customs seizures",
+  "reason": "title replaced by a headline: names not in cited articles: Indonesia"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
   "group": "asia",
-  "story": "Philippines police to charge Thomas Markle over child sex abuse material",
-  "text": "[75][76] reported that Philippine police filed criminal complaints against Thomas Markle following his arrest in the United States on federal charges of possessing child sexual abuse material.",
+  "story": "Pakistan Customs seizes 115kg of opium worth Rs585.2 million in Quetta",
+  "text": "[122] reported that Pakistan Customs seized 115 kilograms of opium worth Rs 585.2 million in Quetta.",
+  "reason": "number not in cited articles: 585200000"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "India and EU tariff disputes",
+  "text": "[131] reported that the European Union imposed a 9.5% anti-dumping duty on cold-rolled steel shipments from India and several other nations.",
+  "reason": "names not in cited articles: European, Union"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Lauren Boebert Loses Re-election Bid in Colorado House Race to Eileen Laubacher",
+  "text": "[138] reported that Lauren Boebert shared a 12-year-old Trump tweet asking hackers to go after Obama amid recent US tech outages.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "latam",
+  "story": "Argentina calls Princess Anne’s visit to the Falklands a “provocation”",
+  "text": "Falkland Islands royal visit dispute",
+  "reason": "title replaced by a headline: names not in cited articles: Islands"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Pakistan leaders discuss AJK development projects",
+  "text": "[144] reported that Prime Minister Shehbaz Sharif and Nawaz Sharif met Azad Jammu and Kashmir leadership to discuss development projects and the federal role in the region.",
+  "reason": "names not in cited articles: Azad, Jammu, Kashmir, Sharif"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "CITEX Exhibition in Tehran",
+  "text": "",
+  "reason": "off-topic for this site (topic: technology): not created"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Binance Asia expansion plans",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "europe",
+  "story": "UK inflation rises to one-year high but markets trim rate hike bets",
+  "text": "United Kingdom inflation rate",
+  "reason": "title replaced by a headline: names not in cited articles: Kingdom, United"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "namerica",
+  "story": "2027: US firm clarifies alleged endorsement of Peter Obi by Congress",
+  "text": "United States lobbyist clarifies Peter Obi viral video",
+  "reason": "title replaced by a headline: names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "APEC summit and global leaders meeting in China",
+  "text": "[79] reported that the leaders of China, Russia, and the United States will meet in Shenzhen to discuss future relations, denuclearization, and Iran.",
   "reason": "names not in cited articles: States, United"
  },
  {
   "date": "2026-11-18",
-  "kind": "dropped",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Daithi O'Corrain: Man accused of destroying $60 million US military aircraft in Ireland",
+  "text": "Irish national charged over US military aircraft damage",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Daithi O'Corrain: Man accused of destroying $60 million US military aircraft in Ireland",
+  "text": "[39][40] reported that US prosecutors charged 48-year-old Irish citizen Daithi O Cuirin with destroying a $60 million US C-130 Hercules military transport aircraft at Shannon Airport in protest of US roles in the Iran and Gaza wars.",
+  "reason": "number not in cited articles: 60000000"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Glastonbury Festival 2027 headliners",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "europe",
+  "story": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+  "text": "Western intelligence assessment on Russia-Ukraine war",
+  "reason": "title replaced by a headline: names not in cited articles: Russia-Ukraine"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "skipped",
   "group": "africa",
-  "story": "",
-  "text": "Barau, Atiku, others mourn late Vanguard Online Editor, Femi Ajasa",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "story": "Covenant University interdisciplinary science ranking",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "mena",
+  "story": "Katz pushes back on BoP pressure, says Israel will Gaza, Lebanon, Syria security zones indefinitely",
+  "text": "Israel security zones and territorial threats",
+  "reason": "title replaced by a headline: wording not from cited articles: territorial, threats"
  },
  {
   "date": "2026-11-18",
   "kind": "dropped",
   "group": "latam",
   "story": "",
-  "text": "Gilberto Gil e Diogo Nogueira comandam festas gratuitas em Niterói",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-18",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Sarajevo: Kod Tužilaštva KS počeli radovi na izgradnji parkinga, rasteretit će prostor u Radićevoj ulici",
+  "text": "Por qué la histórica cumbre entre Trump, Putin y Xi preocupa a Europa (y qué puede significar para el resto del mundo)",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
+  "group": "namerica",
+  "story": "US and China Board of Trade meeting",
+  "text": "[5][6] reported that Canadian Prime Minister Mark Carney and U.S. President Donald Trump held an unscheduled bilateral meeting at the Asia summit.",
+  "reason": "names not in cited articles: Donald, Mark"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "skipped",
   "group": "asia",
-  "story": "Sara Duterte trial witness subpoenas",
-  "text": "[7] reported that Vice President Sara Duterte's camp stated two former staff members who sought help are now safe.",
-  "reason": "wording not from cited articles: camp, former, members, sought, help, now"
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "",
+  "reason": "continuation not supported by the headlines: In a Rare Move, Xi Greets Trump as He Lands in China"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "asia",
+  "story": "APEC summit in Shenzhen",
+  "text": "",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Xi, Trump, Putin to discuss ‘issues concerning global peace,’ China says"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Ukraine Talks Run Up Against Deep Enmity Between Russia and Europe",
+  "text": "",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "United Airlines says technology outage that delayed departures has been resolved",
+  "text": "[59][61] reported that ICE detained three 19-year-old Colombian triplets in Louisiana despite pending status applications, awaiting deportation.",
+  "reason": "number not in cited articles: 3"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Actress Regina Re’s daughter to be charged with murder",
+  "text": "[71] reported that a Kenyan court freed Regina Re and her brother on bail while her daughter was charged with murder and ordered to undergo a mental assessment.",
+  "reason": "names not in cited articles: Kenyan"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
   "group": "mena",
-  "story": "Israeli Parliament elects new Knesset Speaker backed by Netanyahu's opponents",
-  "text": "[13] reported that Gadi Eisenkot's bloc handed a setback to Benjamin Netanyahu by securing the parliamentary presidency with the backing of Arab parties for Matan Kahana.",
-  "reason": "analysis word not used by the source: 'setback'"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Netanyahu says only a unity government can guarantee Israel’s security",
-  "text": "[28] reported that a Likud source stated Benjamin Netanyahu's position is that he should be prime minister, but the possibility of him serving second in a rotation cannot be ruled out.",
+  "story": "Eisenkot calls for probe into alleged Netanyahu election interference",
+  "text": "[77] reported that claims by Benjamin Netanyahu's party of a stolen Israeli election unraveled.",
   "reason": "names not in cited articles: Benjamin"
  },
  {
   "date": "2026-11-18",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "New Zealand gets first dibs as the much-awaited GTA 6 global rollout begins",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-18",
   "kind": "rejected",
-  "group": "africa",
-  "story": "Senate orders probe of attacks on Tinubu, Obi, Atiku",
-  "text": "[31] reported that the Nigerian Senate expressed concern over rising incidents of political violence and sought safeguards for the 2027 elections.",
-  "reason": "names not in cited articles: Nigerian"
+  "group": "global",
+  "story": "Vance claims Iran won’t be a ‘forever war’ even as Trump sends third aircraft carrier to Middle East",
+  "text": "[7] reported that the war in Iran has affected the Middle East sports model with events being canceled or postponed, while Formula 1 bucked the trend.",
+  "reason": "number not in cited articles: 1"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
   "group": "europe",
-  "story": "Xi Jinping calls for global cooperation on AI and free trade at APEC summit",
-  "text": "[39] reported that Chinese President Xi Jinping called for the expansion of free trade at the APEC summit.",
-  "reason": "names not in cited articles: Jinping"
+  "story": "Nvidia board rules that co-founder Jensen Huang will not return as CEO",
+  "text": "[22] reported that interim CEO Colette Kress stated Nvidia would not allow Jensen Huang to return as head amid an aggressive campaign and announced a doubling of sales and changes for China.",
+  "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Bosnia and Herzegovina weather warning",
-  "text": "[1] reported that a deep cyclone is bringing unstable weather with stormy winds that could cause damage across Bosnia and Herzegovina.",
-  "reason": "analysis word not used by the source: 'could'"
+  "group": "latam",
+  "story": "Bope and Federal Police raid in Complexo da Maré",
+  "text": "[27] reported that an arms security expert stated the discovery of a clandestine rifle factory inside Complexo da Maré represents a new level in the arms escalation of crime.",
+  "reason": "analysis word not used by the source: 'escalation'"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
   "group": "asia",
-  "story": "Top UN court ruling on Myanmar genocide to be watched for clues on Gaza",
-  "text": "[2] reported that concerns are increasing regarding potential United States sanctions on International Court of Justice judges ahead of the Myanmar genocide ruling.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-18",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Can Green Card Holders Join the Military? 2026 Rules",
-  "text": "[12] reported that the United States proposed stricter rules for employment-based green cards, including longer advertising periods and increased scrutiny of employers.",
-  "reason": "names not in cited articles: States, United"
+  "story": "Jeffrey Epstein did not commit suicide, was likely killed: Top forensic expert",
+  "text": "[30] reported that an expert stated an analysis of autopsy records and photos suggests Jeffrey Epstein was murdered in 2019.",
+  "reason": "names not in cited articles: Jeffrey"
  },
  {
   "date": "2026-11-18",
   "kind": "rejected",
   "group": "europe",
-  "story": "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race",
-  "text": "[21] reported that Jean-Luc Mélenchon advanced in a presidential poll indicating a potential second-round duel between the National Rally and La France Insoumise.",
-  "reason": "analysis word not used by the source: 'indicating'"
+  "story": "UK leader Andy Burnham says Brexit hasn't worked ahead of reset summit with EU",
+  "text": "[4] reported that a leaked draft of the EU-UK summit conclusions indicates plans to deepen ties on trade, defence, and energy.",
+  "reason": "analysis word not used by the source: 'indicates'"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Putin proposes joint humanitarian operation with Ukraine in Kostiantynivka, modeled on earlier evacuation mission in Oleshky",
+  "text": "[13] reported that President Volodymyr Zelenskyy proposed 10 more humanitarian evacuations and stated the plan would be raised with US mediators.",
+  "reason": "names not in cited articles: Volodymyr"
  },
  {
   "date": "2026-11-18",
   "kind": "merged",
   "group": "europe",
-  "story": "Nvidia beats Wall Street estimates in first earnings report after Jensen Huang's exit",
-  "text": "Why it might be too risky to invite Jensen Huang back into the Nvidia fold",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-18",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-  "text": "Bushra Bibi medical care in jail",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-18",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Tinubu pardons 78 convoy attack suspects, police arrest 8 over Kwankwaso assault",
-  "text": "Kano gov Yusuf invites marriage applicants after divorce from Kwankwaso’s daughter",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-18",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
-  "text": "Iran Attacks US Air Base in Kuwait",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-18",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Sherif Patkovic war crimes conviction",
-  "text": "Pakistanac osuđen na više od 27 godina zatvora zbog planiranja atentata na Trampa",
+  "story": "Nvidia board rules that co-founder Jensen Huang will not return as CEO",
+  "text": "Peltola defeats Sullivan in Alaska Senate race, expanding Democratic majority",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-18",
   "kind": "merged",
   "group": "africa",
-  "story": "UN report on drone strike civilian casualties in Sudan",
-  "text": "Drones account for nearly three-quarters of Sudan war deaths this year, UN says",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-18",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Australia working holiday visa policy change",
-  "text": "Australia eases backpacker visa cuts after backlash from regional employers",
+  "story": "APC Accuses ADC, NDC of Instigating Protests Against Tinubu",
+  "text": "Nigeria political violence concerns",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-18",
   "kind": "merged",
   "group": "namerica",
-  "story": "‘Alice Huang left in August 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
-  "text": "Nvidia says ‘no’ to rehiring Huang and WSJ reports SEC is probing the chipmaker",
+  "story": "Iran Attacks US Air Base in Kuwait",
+  "text": "Gulf countries intercept Iranian and Houthi missiles",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Proposed trilateral summit in China",
+  "text": "APEC summit meetings in China",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Three killed and seven injured in Russian strike on residential building in central Odesa – videos",
+  "text": "Ukrainian Drones Target Krasnodar Region Refineries",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Khawaja Asif on new provinces consensus",
+  "text": "'Are your hands clean?': Khawaja Asif hits back at Bilawal over govt criticism",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Deutsche Bank chair backs CEO after reports expose past lapses; Trump calls tax leak ‘illegal’",
+  "text": "Deutsche Bank shares fall as leak reveals Trump tax document error",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "asia",
+  "story": "APEC summit in Shenzhen",
+  "text": "APEC summit and global leaders meeting in China",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  },
  {
   "date": "2026-11-18",
   "kind": "merged",
   "group": "asia",
-  "story": "US and Philippines meetings in Manila",
-  "text": "U.S. President visit to the Philippines",
+  "story": "Proposed trilateral summit in China",
+  "text": "APEC summit in Shenzhen",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "APEC CEO Summit trade discussions",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "APEC CEO Summit in Shenzhen",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  },
  {
   "date": "2026-11-18",
   "kind": "merged",
   "group": "europe",
-  "story": "Nvidia beats Wall Street estimates in first earnings report after Jensen Huang's exit",
-  "text": "‘Alice Huang left in August 2025’: Megaspeed’s first reaction on Chinese businesswoman amid Nvidia spy row",
+  "story": "Russia demands on Ukraine peace negotiations",
+  "text": "Russia demands NATO borders roll back",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

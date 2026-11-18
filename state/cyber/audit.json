@@ -25,10 +25,18 @@
  },
  {
   "date": "2026-11-18",
-  "kind": "skipped",
+  "kind": "title",
   "group": "all",
-  "story": "Java4Shell vulnerability",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
+  "story": "The challenge of defending against bulletproof dead drops on public blockchains",
+  "text": "Cisco Talos blockchain dead drops research",
+  "reason": "title replaced by a headline: names not in cited articles: Cisco, Talos"
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "title",
+  "group": "all",
+  "story": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
+  "text": "UAT-12643 blockchain infostealer campaign",
+  "reason": "title replaced by a headline: wording not from cited articles: infostealer, campaign"
  }
 ]

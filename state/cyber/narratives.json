@@ -157,25 +157,25 @@
   {
    "articles": 249,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 15,
-   "continuing": 6,
+   "calls": 5,
+   "candidates": 20,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 2,
    "failed_calls": 0,
    "groups": 215,
-   "in_stories": 15,
-   "kept": 13,
+   "in_stories": 22,
+   "kept": 20,
    "merged": 2,
-   "new": 4,
+   "new": 8,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 4,
-   "sent": 15,
+   "runs": 5,
+   "sent": 20,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 7,
+   "updated": 8,
    "waiting": 0
   },
   {
@@ -323,7 +323,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T10:36:59+00:00"
+  "all": "2026-11-18T13:55:11+00:00"
  },
  "narratives": [
   {
@@ -1895,8 +1895,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "9337ed2452fe2be4",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T12:23:15+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Impersonate Microsoft Exchange Online Alerts to Trick Users During Microsoft 365 Outage",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hackers-impersonate-microsoft-exchange/"
+    },
     {
      "added": "2026-11-13",
      "id": "a385676b7edbec5b",
@@ -1957,15 +1970,27 @@
      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-365-cloud-service-outage",
    "label": "Microsoft 365 cloud service outage",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "9337ed2452fe2be4"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T12:23:15+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-impersonate-microsoft-exchange/) reported that hackers used a Microsoft 365 outage to send fake Exchange Online alerts claiming emails would be deleted unless recipients responded."
+    },
     {
      "articles": [
       "b56941a6bc981265"
@@ -2015,9 +2040,9 @@
      "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more) reported that a worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
    "title_from": {
     "backing": 2,
@@ -5031,9 +5056,242 @@
    "status": "new",
    "title": "AuditTeam OpsAgent ransomware framework",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "5fd126d460cd8923",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-18T13:19:32+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+     "type": null,
+     "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "1e9e35fa74660368",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-18T08:24:18+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "British Scattered Spider hacker sentenced to 6 years in prison",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "scattered-spider-sentencing",
+   "label": "Scattered Spider sentencing",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1e9e35fa74660368"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-18T08:24:18+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/) reported that a British leader of the Scattered Spider cybercrime collective was sentenced to six years in prison in the United States for stealing millions in cryptocurrency."
+    },
+    {
+     "articles": [
+      "5fd126d460cd8923"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-18T13:19:32+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/) reported that British national Tyler Robert Buchanan is the last of five defendants sentenced in the United States hacking case, according to the DOJ."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Scattered Spider sentencing",
+   "topic": "crime"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "f0af64b71f5aa03b",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-18T13:30:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
+     "type": null,
+     "url": "https://therecord.media/norway-equinor-cyberattack-energy"
+    },
+    {
+     "added": "2026-11-18",
+     "dates": [
+      "2026-11-17"
+     ],
+     "id": "e76869cec312978b",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-18T11:36:00+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Norwegian Gas Giant Equinor Says It’s Under Cyberattack. Production Keeps Running",
+     "type": null,
+     "url": "https://securityaffairs.com/203394/hacking/norwegian-gas-giant-equinor-says-its-under-cyberattack-production-keeps-running.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "equinor-cyberattack",
+   "label": "Equinor cyberattack",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e76869cec312978b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-18T11:36:00+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203394/hacking/norwegian-gas-giant-equinor-says-its-under-cyberattack-production-keeps-running.html) reported that Norwegian gas giant Equinor confirmed a cyberattack on its IT systems with no impact on production or confirmed data theft."
+    },
+    {
+     "articles": [
+      "f0af64b71f5aa03b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Record"
+     ],
+     "published": "2026-11-18T13:30:00+00:00",
+     "text": "[The Record](https://therecord.media/norway-equinor-cyberattack-energy) reported that Equinor is working to contain a cyberattack on its IT systems that the company stated has not impacted oil and gas production."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Equinor cyberattack",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "606c412217645ecd",
+     "lang": "en",
+     "outlet": "Cisco Talos",
+     "published": "2026-11-18T11:00:00+00:00",
+     "publisher": "Cisco",
+     "region": null,
+     "section": "intel",
+     "title": "The challenge of defending against bulletproof dead drops on public blockchains",
+     "type": null,
+     "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "the-challenge-of-defending-against-bulletproof",
+   "label": "The challenge of defending against bulletproof dead drops on public blockchains",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "606c412217645ecd"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cisco"
+     ],
+     "published": "2026-11-18T11:00:00+00:00",
+     "text": "[Cisco](https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/) reported on the evolution of malware command-and-control infrastructure shifting toward decentralized bulletproof dead drops on public blockchains."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "The challenge of defending against bulletproof dead drops on public blockchains",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "8a8767d197aed23e",
+     "lang": "en",
+     "outlet": "Cisco Talos",
+     "published": "2026-11-18T11:00:00+00:00",
+     "publisher": "Cisco",
+     "region": null,
+     "section": "intel",
+     "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
+     "type": null,
+     "url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "uat-12643-suspected-north-korea-aligned",
+   "label": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "8a8767d197aed23e"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Cisco"
+     ],
+     "published": "2026-11-18T11:00:00+00:00",
+     "text": "[Cisco](https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/) reported that Cisco Talos discovered malicious infrastructure associated with a financially motivated and suspected North Korea-aligned threat group tracked as UAT-12643."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T10:37:16+00:00"
+ "updated": "2026-11-18T13:55:36+00:00"
 }
