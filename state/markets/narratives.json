@@ -149,25 +149,25 @@
   {
    "articles": 582,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 28,
-   "continuing": 11,
+   "calls": 8,
+   "candidates": 31,
+   "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 515,
-   "in_stories": 47,
-   "kept": 32,
+   "in_stories": 51,
+   "kept": 35,
    "merged": 1,
-   "new": 13,
+   "new": 14,
    "rejected": 2,
    "reported_by_2": 6,
-   "runs": 7,
-   "sent": 28,
+   "runs": 8,
+   "sent": 31,
    "skipped": 2,
    "split_calls": 0,
-   "updated": 9,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -295,7 +295,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T19:52:35+00:00"
+  "all": "2026-11-18T22:34:08+00:00"
  },
  "narratives": [
   {
@@ -545,8 +545,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 5,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "836f6c5f00db718c",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-18T21:42:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Futures Extend Decline on Supply Surplus Expectations",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-lower-as-supply-surplus-prospects-offset-mideast-tensions-cc9879f2?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "a17cdf53e4a77563",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-18T21:14:37+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Oil Falls 3% Despite Middle East Attacks",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/oil_falls_3_despite_middle_east_attacks-18-nov-2026-185118-article/?rss=true"
+    },
     {
      "added": "2026-11-18",
      "id": "d0869e41bfaa3534",
@@ -613,15 +639,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "a17cdf53e4a77563"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-18T21:14:37+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/oil_falls_3_despite_middle_east_attacks-18-nov-2026-185118-article/?rss=true) reported that oil fell 3% as traders focused on growing supplies, a stronger dollar, and weakening demand for risk."
+    },
     {
      "articles": [
       "4006a05d4580eb67"
@@ -671,7 +709,7 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Crude oil weekly price movement",
@@ -8264,9 +8302,79 @@
    "status": "new",
    "title": "Venezuela energy and Vaca Muerta shale",
    "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "b191fc9f75d2069b",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T22:25:32+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto inks $4.5 billion deal for AI startup Applied Compute, shares pop 7% on earnings",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "397c5a05ab071f61",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-18T21:00:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto Networks to Buy AI-Startup Applied Compute for $4.5 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "palo-alto-networks-acquisition-of-applied",
+   "label": "Palo Alto Networks Acquisition of Applied Compute",
+   "last_reported": "2026-11-18",
+   "last_updated": "2026-11-18",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "397c5a05ab071f61"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T21:00:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f) reported that Palo Alto Networks agreed to buy AI startup Applied Compute for $4.5 billion."
+    },
+    {
+     "articles": [
+      "b191fc9f75d2069b"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T22:25:32+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html) reported that Palo Alto Networks shares rose 7% on earnings."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Palo Alto Networks Acquisition of Applied Compute",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T19:53:43+00:00"
+ "updated": "2026-11-18T22:34:25+00:00"
 }

@@ -157,25 +157,25 @@
   {
    "articles": 249,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 27,
-   "continuing": 9,
+   "calls": 8,
+   "candidates": 30,
+   "continuing": 11,
    "corroborated": 0,
    "date": "2026-11-18",
    "dropped": 2,
    "failed_calls": 0,
    "groups": 215,
-   "in_stories": 29,
-   "kept": 26,
-   "merged": 4,
+   "in_stories": 33,
+   "kept": 29,
+   "merged": 5,
    "new": 10,
    "rejected": 0,
    "reported_by_2": 5,
-   "runs": 7,
-   "sent": 27,
+   "runs": 8,
+   "sent": 30,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 11,
+   "updated": 14,
    "waiting": 0
   },
   {
@@ -323,12 +323,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T19:39:20+00:00"
+  "all": "2026-11-18T22:28:59+00:00"
  },
  "narratives": [
   {
-   "article_count": 9,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "5264bbe7f80f85b4",
+     "lang": "en",
+     "outlet": "CISA Alerts",
+     "published": "2026-11-18T12:00:00+00:00",
+     "publisher": "CISA",
+     "region": null,
+     "section": "intel",
+     "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+     "type": null,
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+    },
     {
      "added": "2026-11-18",
      "id": "b727576c883eefa8",
@@ -431,14 +444,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -956,8 +969,34 @@
    "title": "GitHub and ScreenConnect cyberattacks"
   },
   {
-   "article_count": 7,
+   "article_count": 9,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "cc4bcedbe32d3d80",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-18T20:11:35+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Apache Roller RCE Flaw CVE-2026-129448 Under Active Attack",
+     "type": null,
+     "url": "https://securityaffairs.com/203419/security/apache-roller-rce-flaw-cve-2026-129448-under-active-attack.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "26d7898f79860e27",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-18T17:10:45+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+    },
     {
      "added": "2026-11-18",
      "dates": [
@@ -1050,15 +1089,39 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "26d7898f79860e27"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-18T17:10:45+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html) reported that a critical security flaw in Apache Roller is under active exploitation in the wild."
+    },
+    {
+     "articles": [
+      "cc4bcedbe32d3d80"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-18T20:11:35+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203419/security/apache-roller-rce-flaw-cve-2026-129448-under-active-attack.html) reported that attackers are exploiting an Apache Roller flaw that allows unauthenticated remote code execution."
+    },
     {
      "articles": [
       "b15c2192fcf8afce"
@@ -1133,7 +1196,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Apache HTTP/2 and Palo Alto vulnerabilities"
+   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-18",
+    "of": 3,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+   }
   },
   {
    "article_count": 4,
@@ -4471,8 +4541,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "bc2b95709c149819",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-18T15:15:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
+     "type": null,
+     "url": "https://therecord.media/russia-cyber-espionage-google"
+    },
     {
      "added": "2026-11-18",
      "id": "3dd8154d8a399a8b",
@@ -4513,15 +4596,27 @@
      "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "cold-relic-a-case-study-in",
    "label": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "bc2b95709c149819"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "The Record"
+     ],
+     "published": "2026-11-18T15:15:00+00:00",
+     "text": "[The Record](https://therecord.media/russia-cyber-espionage-google) reported that Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks."
+    },
     {
      "articles": [
       "b0818a23c548229a"
@@ -5503,5 +5598,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T19:39:37+00:00"
+ "updated": "2026-11-18T22:29:16+00:00"
 }
