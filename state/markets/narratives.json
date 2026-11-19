@@ -245,25 +245,25 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 8,
-   "continuing": 5,
+   "calls": 2,
+   "candidates": 12,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 517,
-   "in_stories": 10,
-   "kept": 9,
+   "in_stories": 17,
+   "kept": 13,
    "merged": 0,
-   "new": 2,
-   "rejected": 0,
+   "new": 5,
+   "rejected": 1,
    "reported_by_2": 4,
-   "runs": 1,
-   "sent": 8,
+   "runs": 2,
+   "sent": 12,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 5,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T01:57:36+00:00"
+  "all": "2026-11-19T04:42:08+00:00"
  },
  "narratives": [
   {
@@ -6747,8 +6747,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "197f694b5d470b5b",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T02:30:35+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "India Studies Tax Proposals to Encourage Stock Trading, Curb Speculative Bets",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-11-19/india-studies-tax-proposals-to-encourage-stock-trading-curb-speculative-bets"
+    },
     {
      "added": "2026-11-18",
      "id": "14930d4d470df02b",
@@ -6776,14 +6789,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "india-stock-trading-and-derivatives-taxes",
    "label": "India stock trading and derivatives taxes",
    "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6800,9 +6813,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives), [ET Markets](https://economictimes.indiatimes.com/markets/stocks/news/govt-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives/articleshow/135953824.cms) reported that Indian officials are reviewing proposals to raise taxes on stock derivatives while lowering levies on share trading."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "India stock trading and derivatives taxes",
    "topic": "markets"
   },
@@ -7757,9 +7770,197 @@
    "status": "new",
    "title": "Nvidia Wall Street analyst reactions",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "aefbe00f15211363",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-19T02:25:30+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Lagarde: Might consider role at WEF after ECB exit",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/lagarde-might-consider-role-at-wef-after-ecb-exit/articleshow/135975538.cms"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "f4adf97ad6934505",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-18T15:03:51+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Lagarde Says Role at WEF Is an Option After Leaving the ECB",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/lagarde-says-role-at-wef-is-an-option-after-leaving-the-ecb"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "christine-lagarde-world-economic-forum-role",
+   "label": "Christine Lagarde World Economic Forum role",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "aefbe00f15211363",
+      "f4adf97ad6934505"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "ET Markets"
+     ],
+     "published": "2026-11-18T15:03:51+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/lagarde-says-role-at-wef-is-an-option-after-leaving-the-ecb), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/lagarde-might-consider-role-at-wef-after-ecb-exit/articleshow/135975538.cms) reported that Christine Lagarde said she might consider a leadership role at the World Economic Forum after her tenure as European Central Bank president ends."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Christine Lagarde World Economic Forum role",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "d159e0f38e8c6e9b",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-19T02:59:06+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "5f959c627106d978",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-19T01:00:37+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Musk says he felt ’pretty foolish’ about scale of midterm spending after Republican rout",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/musk-says-he-felt-pretty-foolish-about-scale-of-midterm-spending-after-republican-rout-5037471"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "elon-musk-midterm-election-spending",
+   "label": "Elon Musk midterm election spending",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5f959c627106d978"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-19T01:00:37+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/musk-says-he-felt-pretty-foolish-about-scale-of-midterm-spending-after-republican-rout-5037471) reported that Musk felt pretty foolish about the scale of midterm spending after a Republican rout."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Elon Musk midterm election spending",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "1718b6c85151fcd3",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-19T03:45:22+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/boj-s-ueda-unfazed-by-consumption-drop-stays-open-to-rate-hike"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "4792d3c58f87cde5",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-19T01:36:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "BOJ Governor Ueda says financial conditions loose despite rate hikes",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "boj-s-ueda-unfazed-by-consumption",
+   "label": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1718b6c85151fcd3"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T03:45:22+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/boj-s-ueda-unfazed-by-consumption-drop-stays-open-to-rate-hike) reported that Bank of Japan Governor Kazuo Ueda stated he expects consumer spending to return to a rising trend."
+    },
+    {
+     "articles": [
+      "4792d3c58f87cde5"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-19T01:36:22+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517) reported that Ueda said financial conditions remain loose despite rate hikes."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T01:57:55+00:00"
+ "updated": "2026-11-19T04:42:25+00:00"
 }

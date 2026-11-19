@@ -97,10 +97,18 @@
  },
  {
   "date": "2026-11-19",
-  "kind": "skipped",
+  "kind": "rejected",
   "group": "all",
-  "story": "Alaska Senate election results",
-  "text": "",
-  "reason": "off-topic for this site (topic: elections): not created"
+  "story": "Elon Musk midterm election spending",
+  "text": "[3] reported that Elon Musk described his record spending on United States midterms as pretty foolish and stated he was not Maga.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "all",
+  "story": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
+  "text": "Bank of Japan monetary policy",
+  "reason": "title replaced by a headline: wording not from cited articles: monetary, policy"
  }
 ]

@@ -189,22 +189,22 @@
   {
    "articles": 239,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
+   "calls": 2,
+   "candidates": 3,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 207,
-   "in_stories": 2,
+   "in_stories": 8,
    "kept": 2,
    "merged": 0,
-   "new": 1,
-   "rejected": 0,
-   "reported_by_2": 1,
-   "runs": 1,
-   "sent": 1,
+   "new": 2,
+   "rejected": 1,
+   "reported_by_2": 2,
+   "runs": 2,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -379,7 +379,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T01:55:02+00:00"
+  "all": "2026-11-19T04:39:53+00:00"
  },
  "narratives": [
   {
@@ -5183,9 +5183,112 @@
    "status": "new",
    "title": "Shannon Airport C-130H sabotage",
    "topic": "security"
+  },
+  {
+   "article_count": 6,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "2d2064edc1c01992",
+     "lang": "en",
+     "outlet": "Telegraph India",
+     "published": "2026-11-19T04:25:34+00:00",
+     "publisher": "Telegraph India",
+     "region": null,
+     "section": "aviation",
+     "title": "Man forces entry into Delhi airport Terminal 3, CISF apprehends him within seconds",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM3o2bl9fSTFCNXRpY0pNTURPdExMMkZmUjltQUJGcHd3MUdTTWxsbnlWaWJUczA3Ymx4aVR3MEtZQURnUFN5U0VBQ0h4VW5OMnZSMTVGYWtpa3hSVDZxbjlpWHNfOGQ5dkhKR29ia2RJd21YMDJ6XzIzRjgyX2FtekZIU2laRTgzdFlEdGF4aF96RWlEc1FWUllfY1VLM2FDVmwtV1B4aU90TjlReElGak9CckFLTklERHdRN0FMTlN2ZlpWdEdOczNR0gHPAUFVX3lxTE5lQXRaYkxLNkdCUzNIOTM0QVBfdm1DakNGektlMjVwNnZSbWhlaDgxemdZYVR3d3BjY2c5RVpvN3ViMGRXTDR2MEV1ak05UjVZa1VtYmZrNnNYMDNGMGI4cFlLQTh0VlJmWGY5TW1lOHFadmgtMkttY0phYllTcWktWWdoMFQ1YjFoQXV2a0hYc1BoWGZpeG9PRWlWX2JBVmR6SDdpYXlzeFU1UWEtSXRLNHZGLTA0OUN0X1lYSWhCSVFoUDlsbWhDVEZMVjF5bw?oc=5"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "766f3593d109c6c7",
+     "lang": "en",
+     "outlet": "Mid-Day",
+     "published": "2026-11-19T03:56:00+00:00",
+     "publisher": "Mid-Day",
+     "region": null,
+     "section": "aviation",
+     "title": "CISF averts potential security breach at Delhi airport with swift action at Terminal 3",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVVNaeFUtMzU3MGZaR1FXUEh0NU0tYjlGSGhOaUlPMjl0V0VPQlExVlJ4LXc2R0hKNkVHSTNDaUtvQThRNVdMZzAtQk5xV2ZkQWpJeTVSYUpMcW01RDdfa0I1eU4yLVJDNlZObndxX0wxZkxXaG1RQ3V4b243dE1JQVZmLWhRYkhUNUVJUzRhZ1V4aEhXbHNJNHRqbHB1aWlhTTZrUWxXb0FwX25FS04zaWo3elJtbDd5QW5NZUdlcXBGeHFmV29acDdNbkFnU1NXbHVYLXdYQ0UwYXRyMXc?oc=5"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "3ef60b8b7fb0a143",
+     "lang": "en",
+     "outlet": "Asianet Newsable",
+     "published": "2026-11-19T03:52:38+00:00",
+     "publisher": "Asianet Newsable",
+     "region": null,
+     "section": "aviation",
+     "title": "Delhi IGI Airport Security Breach: Man Tries To Force Entry Into T3, CISF Acts - WATCH",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdk1GaGNaa3lrdkVhaUczbUNFckhDN2dMRWJpaGwwcU5XdTVFeDFkQkxIcGQzZUZTcTliOWg2Y0JVd0hXOE14LXVtNGRMZERpaEl1RlFxV0dGaFNkeV9SMGhNOXRKdmRyTUFjRkpjQ2RJSVBQbk83YzlQc3dIY3h1dWhTbExEQXVTZUpwTmZDQW1qdTQ3dXVaSERSX1gyUnQ0aUxUV0hseTlPWEZyeGY2U3p5ZGR5cnpscG5keVg3NmIyZ1RKT3ktbDFSRnN3TVVTZlk4YkFyWm3SAd4BQVVfeXFMUGJ2bEdzZlBfeWJ2ellEYXdybERSUk0xVHNkY1hGdTlEanJuY1V4MkszY1RLRFVuV2JHa3hVNWoxa2FFNkd4Qkk5dVFxYWxyTDl1b21GaGprVmk0Ni1KNjVQU3E5cjRERmdNX3Q5STlCSTMydnhDSktuWUZmbXd2TmNvNEdfLVhlel9zSkIwVV9KczhpaGlSRlFveXBQQTlOUWJhb3JrTVlUaWt5WlJjQU9mRHJYNDVOT3RsaTUyOHNnc0xOMm5OQnBQMHJsM1BQQkJteDRSUUplWE9xM3RB?oc=5"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "f0f3de1eabb6c0f4",
+     "lang": "en",
+     "outlet": "Free Press Journal",
+     "published": "2026-11-19T03:40:22+00:00",
+     "publisher": "Free Press Journal",
+     "region": null,
+     "section": "aviation",
+     "title": "Delhi Airport On High Alert As CISF Foils Major Security Breach After Haryana Man Forcefully Storms Terminal 3",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNaGxXZ1ZoR0VlYUE1cWZJaDRIZlJUeWlZS1kwNTlibVlwUjIwcmNnVWd4TnFmejhHRGl1bmh5UzZwVEJzZ0pWc0F3TUlycEtzbjdJN19OM0JLUlRfbmdZcjhhczB4RTRxQThoQUxoRnc2Y2djdTU3NkF1R0I5dk5qY3VRRlp5OVhBbUZRVVF2ako5amRpUVRZdnRfN3dvcExyVW1Tb1lWQUE2eWlxR3M3TEdmWGxIdmpFeXk2eG95TVZHdTR0aXJtaUNLNUZlVzVHMkx4YlY3RVptRGZFdnZfMVJ1MWQ0VHJfSFdUZDJtb3pzMGRramZibVZreDhndWptLTc5LXh4TXBsQW_SAZACQVVfeXFMUDFCRWFkZ2M4SDNNOTBFQ3prSGRNbVMtZzZacDVvRFVLeTdMQUE1ZFFRdGgxQ2Z5bVJybldPS1ctNWZaeUpOZHdoOVh4V0NFRzdpaEQzRTZ4Zkp4UW9wbURnU0VsZDZ3RXR4VXpVQXQyMGU4T2k1WUU3bi03RWtyV256Q3BnX3ZOTlNtT0JrbWp6ZHhrdnhsWExNU1prYkMwdE9zejNRMkpiWHJkUjdEYTFmY2dUOHMzc1RUWmswUF9IY3R0MTlQUUpRNVJCRWRUVVFHek96VTRmN2xta0I3MnBKcGZRY0hvX2k5RW52Q25rUXlrU2o5cFJHWG1Dd0JkazF0OXJ5dXlZZUVxZ2RUdXY?oc=5"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "85959ccae6fefeb3",
+     "lang": "en",
+     "outlet": "Bhaskar English",
+     "published": "2026-11-19T02:26:57+00:00",
+     "publisher": "Bhaskar English",
+     "region": null,
+     "section": "aviation",
+     "title": "Man forcibly enters Delhi airport terminal: CISF personnel swiftly apprehend intruder, preventing a potenti...",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeGtzSUY4QWJ1eDZkeU9QMTlLdk51UEZYQ3ZUTGZrY0c0eWItRk9HRTlmS2NGdm9lUTliUFhxNmxGX0JxaS1IN2RZZV9qbFBpVXhpMUxlWVZKNUJxZW1mVUN4a2xvb0owYjNWakw0RU51akZCa3pTQ2dCYWp1SXROdWJBdlFRelJVQS1IaUlYX3V4WFgtMDQ1SFF4VHRUYU1PQ2k1b1ZSOHVSLWtzZE8zN3dLbjV2Tm0tS1JuMWxHT3J3VnN5UXQw0gHMAUFVX3lxTFA5NEVQRXFZcl9zT0ZzQXRraUNSaGRRbGItb2FLbEpHUVBsbUV4Nkh2YlBRUE1XN3NJNHpDUTdrWWtpa09nUHFhY195UDdQRlJwa1RNc19OeUwtR2dOQXZJU0pxaHdhVzZOMDNUbW50eW5SRUVfS1c4VnV1elVubmx4WEFlSHU1V0k0REJWWnRETXoxdUhGTEFWT1JHai05UDhUaF9PaDhYT0lPTVQ3dkM0UXFUSExHSlF5ay1keC0xaGRlcW45UjV1SkkwVw?oc=5"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "83b13a827a51b2c5",
+     "lang": "en",
+     "outlet": "ABP Live English",
+     "published": "2026-11-19T01:48:57+00:00",
+     "publisher": "ABP Live English",
+     "region": null,
+     "section": "aviation",
+     "title": "Delhi Airport Security Breach Attempt Foiled CISF Nabs Man Trying To Force Way Into T3 | VIDEO",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWXJmV0E4ZGxDNFlPZ3BWSlNiOWh5ejZSZmlXUnU0c056bHctSHFpMXE5VVAtbG5mZllxOTlLdV9VVnZZVXVzT2tJOWZ5WjJFcFJ1eUZOaVA4ZnVMUUFxVkxFdHFTWmlsZnVucWR2U25TY3lkTnVKeEx0MWpuVGtNSW1JNXFxanNBQkt0bnNlcGlpZGdMVzVvOVlMS051NmxMVk9GOFV0VDZtRllDbl95YjlDcmtkSVFKc3BFb3NDNHjSAcYBQVVfeXFMTmRSZ1VMWkFzTFU5dHpRdVRiWnVhOFhJZ3loZm83cnB4bXJNMTBLYUZtbkFZQzFJVmtpb0RSSURKaFAtMEJQWlF3ZE9iT1BkX0ZYTjFqLXd2bWFxSmZrNm8ybGxPeU5fU2FIVmo3Y3pSVnNTNjl2MnFISzRMaFdvZEc2Sno0NUpTLXFwaHZ0UzJYdkNWRm43bjRld0s2RlA1aVFXaXp2UHhrSVhGdDJHUkdqVmhFaFlDa2N2dFBjTnkwWTFtY3d3?oc=5"
+    }
+   ],
+   "articles_today": 6,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "delhi-airport-security-breach",
+   "label": "Delhi Airport security breach",
+   "last_updated": "2026-11-19",
+   "outlets_today": 6,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Man forces entry into Delhi airport Terminal 3, CISF apprehends him within seconds",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-19",
+    "of": 5,
+    "outlet": "Telegraph India",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM3o2bl9fSTFCNXRpY0pNTURPdExMMkZmUjltQUJGcHd3MUdTTWxsbnlWaWJUczA3Ymx4aVR3MEtZQURnUFN5U0VBQ0h4VW5OMnZSMTVGYWtpa3hSVDZxbjlpWHNfOGQ5dkhKR29ia2RJd21YMDJ6XzIzRjgyX2FtekZIU2laRTgzdFlEdGF4aF96RWlEc1FWUllfY1VLM2FDVmwtV1B4aU90TjlReElGak9CckFLTklERHdRN0FMTlN2ZlpWdEdOczNR0gHPAUFVX3lxTE5lQXRaYkxLNkdCUzNIOTM0QVBfdm1DakNGektlMjVwNnZSbWhlaDgxemdZYVR3d3BjY2c5RVpvN3ViMGRXTDR2MEV1ak05UjVZa1VtYmZrNnNYMDNGMGI4cFlLQTh0VlJmWGY5TW1lOHFadmgtMkttY0phYllTcWktWWdoMFQ1YjFoQXV2a0hYc1BoWGZpeG9PRWlWX2JBVmR6SDdpYXlzeFU1UWEtSXRLNHZGLTA0OUN0X1lYSWhCSVFoUDlsbWhDVEZMVjF5bw?oc=5"
+   },
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T01:55:20+00:00"
+ "updated": "2026-11-19T04:40:09+00:00"
 }
