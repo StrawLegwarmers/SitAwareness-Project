@@ -245,25 +245,25 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 12,
-   "continuing": 6,
+   "calls": 3,
+   "candidates": 13,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 517,
-   "in_stories": 17,
-   "kept": 13,
-   "merged": 0,
+   "in_stories": 18,
+   "kept": 14,
+   "merged": 1,
    "new": 5,
    "rejected": 1,
    "reported_by_2": 4,
-   "runs": 2,
-   "sent": 12,
+   "runs": 3,
+   "sent": 13,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 6,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T04:42:08+00:00"
+  "all": "2026-11-19T08:02:02+00:00"
  },
  "narratives": [
   {
@@ -976,8 +976,34 @@
    "topic": "energy"
   },
   {
-   "article_count": 4,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-18",
+     "id": "424ef9a64541babe",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T19:21:59+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "2bdf3c1b4e9f72ae",
+     "lang": "en",
+     "outlet": "CNBC Earnings",
+     "published": "2026-11-18T03:15:00+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html"
+    },
     {
      "added": "2026-11-17",
      "id": "0e4f5903f7f440f3",
@@ -990,6 +1016,32 @@
      "title": "Nvidia’s interim CEO Colette Kress to make her debut at first earnings",
      "type": "international",
      "url": "https://www.ft.com/content/424e5ab0-517e-4f8e-a286-df7c67fa05a6?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "ffb05d1320406748",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-16T16:43:54+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia earnings spotlight shifts to leadership, AI financing after Huang exit",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms"
+    },
+    {
+     "added": "2026-11-16",
+     "id": "8923130a52d1de3e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-16T13:42:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
     },
     {
      "added": "2026-11-13",
@@ -1031,15 +1083,42 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
    "label": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "merged": [
+    "nvidia-earnings-report"
+   ],
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "2bdf3c1b4e9f72ae"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T03:15:00+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html) reported that in her first earnings report as interim CEO, Nvidia's Colette Kress calmed investors' nerves."
+    },
+    {
+     "articles": [
+      "424ef9a64541babe"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T19:21:59+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html) reported that Nvidia interim CEO Colette Kress urged staff forward and offered pay raises after Jensen Huang's exit at her first all-hands meeting."
+    },
     {
      "articles": [
       "0e4f5903f7f440f3"
@@ -1051,6 +1130,30 @@
      ],
      "published": "2026-11-17T05:00:14+00:00",
      "text": "[Financial Times](https://www.ft.com/content/424e5ab0-517e-4f8e-a286-df7c67fa05a6?syn-25a6b1a6=1) reported that interim CEO Colette Kress will make her debut at her first earnings as successor to founder Jensen Huang to ease investors' anxiety about the AI chipmaker's future."
+    },
+    {
+     "articles": [
+      "8923130a52d1de3e"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-16T13:42:43+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html) reported that interim CEO Colette Kress faces a major test with earnings less than a week after Jensen Huang's departure."
+    },
+    {
+     "articles": [
+      "ffb05d1320406748"
+     ],
+     "date": "2026-11-16",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-16T16:43:54+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms) reported that Nvidia faces uncertainty following CEO Jensen Huang's departure due to personal controversies and crisis in leadership, shifting earnings spotlight to leadership and AI financing."
     },
     {
      "articles": [
@@ -1089,9 +1192,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -3529,126 +3632,6 @@
    "topic": "economy"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "424ef9a64541babe",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T19:21:59+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "2bdf3c1b4e9f72ae",
-     "lang": "en",
-     "outlet": "CNBC Earnings",
-     "published": "2026-11-18T03:15:00+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "ffb05d1320406748",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-16T16:43:54+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia earnings spotlight shifts to leadership, AI financing after Huang exit",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "8923130a52d1de3e",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-16T13:42:43+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia's Colette Kress confronts key questions in first earnings report since Jensen Huang’s exit",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html"
-    }
-   ],
-   "articles_today": 1,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "nvidia-earnings-report",
-   "label": "Nvidia earnings report",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 1,
-   "reports": [
-    {
-     "articles": [
-      "2bdf3c1b4e9f72ae"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-18T03:15:00+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html) reported that in her first earnings report as interim CEO, Nvidia's Colette Kress calmed investors' nerves."
-    },
-    {
-     "articles": [
-      "424ef9a64541babe"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-18T19:21:59+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html) reported that Nvidia interim CEO Colette Kress urged staff forward and offered pay raises after Jensen Huang's exit at her first all-hands meeting."
-    },
-    {
-     "articles": [
-      "8923130a52d1de3e"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-16T13:42:43+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/nvidia-earnings-jensen-huang-resignation.html) reported that interim CEO Colette Kress faces a major test with earnings less than a week after Jensen Huang's departure."
-    },
-    {
-     "articles": [
-      "ffb05d1320406748"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-16T16:43:54+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-nvidia-set-to-deliver-first-life-after-huang-briefing/articleshow/135896160.cms) reported that Nvidia faces uncertainty following CEO Jensen Huang's departure due to personal controversies and crisis in leadership, shifting earnings spotlight to leadership and AI financing."
-    }
-   ],
-   "single_source_today": true,
-   "state_media_only_today": false,
-   "status": "updated",
-   "title": "Nvidia earnings report",
-   "topic": "business"
-  },
-  {
    "article_count": 2,
    "articles": [
     {
@@ -4242,8 +4225,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "52bba9afe8f6335b",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-19T06:00:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Steady as Hormuz Tanker Threats Offset Supply Glut Fears",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Steady-as-Hormuz-Tanker-Threats-Offset-Supply-Glut-Fears.html"
+    },
     {
      "added": "2026-11-17",
      "id": "80c0ba5cb5a7fdbc",
@@ -4323,18 +4319,30 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "52bba9afe8f6335b"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-19T06:00:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Steady-as-Hormuz-Tanker-Threats-Offset-Supply-Glut-Fears.html) reported that crude oil prices steadied after a decline earlier this week, as the perception of a return to oversupply and continued attacks on tankers in the Strait of Hormuz affected the market."
+    },
     {
      "articles": [
       "80c0ba5cb5a7fdbc"
@@ -4374,9 +4382,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -7962,5 +7970,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T04:42:25+00:00"
+ "updated": "2026-11-19T08:02:40+00:00"
 }

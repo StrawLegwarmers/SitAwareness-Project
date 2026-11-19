@@ -97,18 +97,10 @@
  },
  {
   "date": "2026-11-19",
-  "kind": "rejected",
+  "kind": "merged",
   "group": "all",
-  "story": "Elon Musk midterm election spending",
-  "text": "[3] reported that Elon Musk described his record spending on United States midterms as pretty foolish and stated he was not Maga.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-19",
-  "kind": "title",
-  "group": "all",
-  "story": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
-  "text": "Bank of Japan monetary policy",
-  "reason": "title replaced by a headline: wording not from cited articles: monetary, policy"
+  "story": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
+  "text": "Nvidia earnings report",
+  "reason": "duplicate story merged into an existing one"
  }
 ]
