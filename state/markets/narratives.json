@@ -245,25 +245,25 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 20,
-   "continuing": 9,
+   "calls": 5,
+   "candidates": 24,
+   "continuing": 12,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 517,
-   "in_stories": 28,
-   "kept": 23,
-   "merged": 1,
-   "new": 9,
+   "in_stories": 34,
+   "kept": 28,
+   "merged": 2,
+   "new": 10,
    "rejected": 3,
    "reported_by_2": 5,
-   "runs": 4,
-   "sent": 20,
+   "runs": 5,
+   "sent": 24,
    "skipped": 3,
    "split_calls": 0,
-   "updated": 9,
+   "updated": 11,
    "waiting": 0
   },
   {
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T10:39:45+00:00"
+  "all": "2026-11-19T14:07:40+00:00"
  },
  "narratives": [
   {
@@ -989,8 +989,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 9,
+   "article_count": 13,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "47572eb01ba0d364",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-18T22:01:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia Says It’s ‘Business as Usual’ After Huang’s Ouster. Wall Street Doesn’t Buy It.",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-18",
      "id": "424ef9a64541babe",
@@ -1029,6 +1042,48 @@
      "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
      "type": "international",
      "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "f8bdbc31706408a1",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T22:19:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia Beats Estimates in First Earnings Report After Jensen Huang’s Ouster",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-17",
+     "dates": [
+      "2026-11-17"
+     ],
+     "id": "2e1ed9c10930a3c1",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T13:19:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia earnings live updates: Wall Street braces for first report since Huang's ouster",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "7a58f555e10eed4f",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-17T12:15:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia’s Finance Chief Kress to Lead First Earnings Call Following Huang’s Ouster",
+     "type": "international",
+     "url": "https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f"
     },
     {
      "added": "2026-11-17",
@@ -1109,7 +1164,7 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
@@ -1117,10 +1172,23 @@
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
    "merged": [
-    "nvidia-earnings-report"
+    "nvidia-earnings-report",
+    "nvidia-leadership-and-earnings"
    ],
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "47572eb01ba0d364"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T22:01:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main) reported that the AI chip-making giant's shares fell for a fifth-straight session after its much-awaited earnings call."
+    },
     {
      "articles": [
       "247dcc8f1dd74723"
@@ -1156,6 +1224,42 @@
      ],
      "published": "2026-11-18T19:21:59+00:00",
      "text": "[CNBC](https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html) reported that Nvidia interim CEO Colette Kress urged staff forward and offered pay raises after Jensen Huang's exit at her first all-hands meeting."
+    },
+    {
+     "articles": [
+      "f8bdbc31706408a1"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T22:19:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f) reported that interim CEO Colette Kress is expected to face pressing questions over the chip maker's future."
+    },
+    {
+     "articles": [
+      "7a58f555e10eed4f"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-17T12:15:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f) reported that Nvidia finance chief Kress will lead the first earnings call following Huang's ouster, and Warsh said the Fed is gaming out how AI could reshape the economy."
+    },
+    {
+     "articles": [
+      "2e1ed9c10930a3c1"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-17T13:19:43+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html) reported that Nvidia is scheduled to release fiscal third-quarter 2027 results on Tuesday."
     },
     {
      "articles": [
@@ -4263,8 +4367,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "b9f062086c85b9b7",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T13:28:59+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Iran Intensifies Hormuz Tanker Attacks Just as Oil Prices Slide",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/iran-intensifies-hormuz-tanker-attacks-just-as-oil-prices-slide"
+    },
     {
      "added": "2026-11-19",
      "id": "52bba9afe8f6335b",
@@ -4357,18 +4474,30 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "b9f062086c85b9b7"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T13:28:59+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/iran-intensifies-hormuz-tanker-attacks-just-as-oil-prices-slide) reported that Iran intensified its attacks on oil tankers crossing the Strait of Hormuz as oil prices tumbled due to a flood of supply from the Middle East."
+    },
     {
      "articles": [
       "52bba9afe8f6335b"
@@ -4420,7 +4549,7 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
@@ -5720,129 +5849,6 @@
    "topic": "business"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "47572eb01ba0d364",
-     "lang": "en",
-     "outlet": "WSJ Markets",
-     "published": "2026-11-18T22:01:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia Says It’s ‘Business as Usual’ After Huang’s Ouster. Wall Street Doesn’t Buy It.",
-     "type": "international",
-     "url": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "f8bdbc31706408a1",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-17T22:19:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia Beats Estimates in First Earnings Report After Jensen Huang’s Ouster",
-     "type": "international",
-     "url": "https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "2e1ed9c10930a3c1",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-17T13:19:43+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia earnings live updates: Wall Street braces for first report since Huang's ouster",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "7a58f555e10eed4f",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-17T12:15:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia’s Finance Chief Kress to Lead First Earnings Call Following Huang’s Ouster",
-     "type": "international",
-     "url": "https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 1,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "nvidia-leadership-and-earnings",
-   "label": "Nvidia leadership and earnings",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 1,
-   "reports": [
-    {
-     "articles": [
-      "47572eb01ba0d364"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-18T22:01:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main) reported that the AI chip-making giant's shares fell for a fifth-straight session after its much-awaited earnings call."
-    },
-    {
-     "articles": [
-      "f8bdbc31706408a1"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-17T22:19:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/tech/ai/nvidia-nvda-3q-2027-earnings-report-stock-6e642303?mod=pls_whats_news_us_business_f) reported that interim CEO Colette Kress is expected to face pressing questions over the chip maker's future."
-    },
-    {
-     "articles": [
-      "7a58f555e10eed4f"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-17T12:15:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f) reported that Nvidia finance chief Kress will lead the first earnings call following Huang's ouster, and Warsh said the Fed is gaming out how AI could reshape the economy."
-    },
-    {
-     "articles": [
-      "2e1ed9c10930a3c1"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-17T13:19:43+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html) reported that Nvidia is scheduled to release fiscal third-quarter 2027 results on Tuesday."
-    }
-   ],
-   "single_source_today": true,
-   "state_media_only_today": false,
-   "status": "updated",
-   "title": "Nvidia leadership and earnings",
-   "topic": "business"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -6546,8 +6552,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "4b6dcdb1adf3d28d",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-19T12:22:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The Morning Risk Report: The Jensen Huang Saga Has Reinvigorated Washington’s China Hawks",
+     "type": "international",
+     "url": "https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-the-jensen-huang-saga-has-reinvigorated-washingtons-china-hawks-00536beb?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "1e70392dc52484a2",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-19T02:00:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The Jensen Huang Saga Has Reinvigorated Washington’s China Hawks",
+     "type": "international",
+     "url": "https://www.wsj.com/politics/national-security/the-jensen-huang-saga-has-reinvigorated-washingtons-china-hawks-0bc1bd4a?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-18",
      "id": "3c5030c27a416e22",
@@ -6588,15 +6620,40 @@
      "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sec-investigation-into-nvidia",
    "label": "SEC investigation into Nvidia",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "1e70392dc52484a2",
+      "4b6dcdb1adf3d28d"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-19T02:00:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/politics/national-security/the-jensen-huang-saga-has-reinvigorated-washingtons-china-hawks-0bc1bd4a?mod=pls_whats_news_us_business_f) reported that the Jensen Huang saga has reinvigorated Washington's China hawks."
+    },
+    {
+     "articles": [
+      "4b6dcdb1adf3d28d"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-19T12:22:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/risk-compliance-journal/the-morning-risk-report-the-jensen-huang-saga-has-reinvigorated-washingtons-china-hawks-00536beb?mod=pls_whats_news_us_business_f) reported that the Microsoft-Bytedance cloud deal is under fire from lawmakers and that EU anti-money-laundering and public prosecution bodies teamed up."
+    },
     {
      "articles": [
       "23d19f7b96ea43a7",
@@ -6612,9 +6669,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports) reported that the Securities and Exchange Commission is investigating Nvidia Corp. in a civil probe looking at whether the company violated investor-disclosure laws."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "SEC investigation into Nvidia",
    "topic": "business-strategic"
   },
@@ -8146,7 +8203,7 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-19",
@@ -8163,6 +8220,19 @@
     },
     {
      "added": "2026-11-19",
+     "id": "776eb17f9c7465af",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-19T07:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "EU Delays Methane Rules by Two Years Amid Energy Supply Fears",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-by-Two-Years-Amid-Energy-Supply-Fears.html"
+    },
+    {
+     "added": "2026-11-19",
      "id": "ca3d4544fd2b9ea4",
      "lang": "en",
      "outlet": "FT Markets",
@@ -8175,15 +8245,27 @@
      "url": "https://www.ft.com/content/e871493f-920c-4ece-94d4-9d14317047fe?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "eu-delays-methane-emission-rules",
    "label": "EU delays methane emission rules",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "776eb17f9c7465af"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-19T07:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/EU-Delays-Methane-Rules-by-Two-Years-Amid-Energy-Supply-Fears.html) reported that the European Parliament and EU member states agreed to delay the methane regulation by two years under pressure from top oil and gas suppliers."
+    },
     {
      "articles": [
       "ca3d4544fd2b9ea4"
@@ -8212,7 +8294,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "EU delays methane emission rules",
+   "title": "EU delays methane emission rules on fossil fuel imports",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-19",
+    "of": 2,
+    "outlet": "Financial Times",
+    "url": "https://www.ft.com/content/e871493f-920c-4ece-94d4-9d14317047fe?syn-25a6b1a6=1"
+   },
    "topic": "economy"
   },
   {
@@ -8284,9 +8373,69 @@
    "status": "new",
    "title": "Razorpay prepares for India IPO",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "ed63c1f5d080849d",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-19T12:54:18+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Copper’s partial rebound: physical tightness vs. bearish sentiment",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/coppers-partial-rebound-physical-tightness-vs-bearish-sentiment-93CH-5038824"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "0dcc09d83a8db2d6",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T01:14:36+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Copper Rebounds After Rout as Physical Tightness Persists",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/copper-rebounds-after-rout-as-physical-tightness-persists"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "copper-market-rebound",
+   "label": "Copper market rebound",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0dcc09d83a8db2d6",
+      "ed63c1f5d080849d"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-19T01:14:36+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/copper-rebounds-after-rout-as-physical-tightness-persists), [Investing.com](https://www.investing.com/news/commodities-news/coppers-partial-rebound-physical-tightness-vs-bearish-sentiment-93CH-5038824) reported that copper rebounded following a drop as traders weighed physical tightness against bearish sentiment."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Copper market rebound",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T10:40:21+00:00"
+ "updated": "2026-11-19T14:08:20+00:00"
 }

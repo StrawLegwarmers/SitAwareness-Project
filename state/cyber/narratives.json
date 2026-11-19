@@ -189,22 +189,22 @@
   {
    "articles": 239,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 12,
+   "calls": 5,
+   "candidates": 17,
    "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 207,
-   "in_stories": 20,
-   "kept": 8,
+   "in_stories": 27,
+   "kept": 15,
    "merged": 0,
-   "new": 5,
+   "new": 9,
    "rejected": 1,
-   "reported_by_2": 3,
-   "runs": 4,
-   "sent": 12,
+   "reported_by_2": 4,
+   "runs": 5,
+   "sent": 17,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -379,7 +379,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T10:34:01+00:00"
+  "all": "2026-11-19T13:55:50+00:00"
  },
  "narratives": [
   {
@@ -5589,9 +5589,264 @@
    "status": "new",
    "title": "International ransomware gang arrests",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "e49ef0645aa4660f",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-19T12:53:44+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Credential stealer slipped into Microsoft’s official Python agent framework",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "be3de67462392ba3",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-18T17:23:37+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft's official Python agent framework hijacked to distribute malware",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "microsoft-python-agent-framework-malware",
+   "label": "Microsoft Python agent framework malware",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "be3de67462392ba3"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-18T17:23:37+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858) reported that someone compromised GitHub organization admin credentials to hijack Microsoft's official Python agent framework and distribute malware."
+    },
+    {
+     "articles": [
+      "e49ef0645aa4660f"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-19T12:53:44+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/) reported that two releases of Microsoft's official agent-framework package on the Python Package Index carried code that steals cloud and CI/CD credentials from developers."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Microsoft Python agent framework malware",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "1c32870d37292eb9",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-19T11:45:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Cyberattack on service provider exposes payee data at 40 Irish credit unions",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "e1419363192b687c",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-18T19:39:33+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "wellington-it-cyberattack",
+   "label": "Wellington IT cyberattack",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e1419363192b687c"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-18T19:39:33+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/) reported that a cyberattack on Wellington IT exposed sensitive information belonging to members of credit unions, with 40 located in Ireland."
+    },
+    {
+     "articles": [
+      "1c32870d37292eb9"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-19T11:45:00+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979) reported that a minister called the notification delay not acceptable after an October attack on Irish banking player Wellington IT came to light in November."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Wellington IT cyberattack",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "899b744ee0f7dbb8",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-19T10:44:04+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "N-able Confirms Server Breach, Disables Mail Assure and SpamExperts Management Access",
+     "type": null,
+     "url": "https://cybersecuritynews.com/n-able-confirms-server-breach/"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "c22f84a656114122",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-19T09:31:26+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "n-able-cloud-server-breach",
+   "label": "N-able cloud server breach",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c22f84a656114122"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-19T09:31:26+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html) reported that unknown threat actors gained unauthorized access to a server in the Mail Assure and Spam Experts Hosted Cloud, causing disruption across three regions."
+    },
+    {
+     "articles": [
+      "899b744ee0f7dbb8"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-19T10:44:04+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-confirms-server-breach/) reported that N-able disabled management access across the Americas, Europe, and Australia following unauthorized access to a server in its Mail Assure and SpamExperts Hosted Cloud environment."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "N-able cloud server breach",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "86d72ddd374f6041",
+     "lang": "en",
+     "outlet": "Check Point Research",
+     "published": "2026-11-19T13:19:10+00:00",
+     "publisher": "Check Point Research",
+     "region": null,
+     "section": "intel",
+     "title": "30 Years of Gatekeeper Asymmetry Doom: The Paradox that Makes Powerful LLMs More Vulnerable",
+     "type": null,
+     "url": "https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "check-point-llm-security-research",
+   "label": "Check Point LLM security research",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "86d72ddd374f6041"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Check Point Research"
+     ],
+     "published": "2026-11-19T13:19:10+00:00",
+     "text": "[Check Point Research](https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/) reported an exposition for a principle of gatekeeper asymmetry doom in information security regarding vulnerabilities in powerful LLMs."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Check Point LLM security research",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T10:34:18+00:00"
+ "updated": "2026-11-19T13:56:12+00:00"
 }
