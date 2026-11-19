@@ -245,25 +245,25 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 24,
-   "continuing": 12,
+   "calls": 6,
+   "candidates": 25,
+   "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 517,
-   "in_stories": 34,
-   "kept": 28,
+   "in_stories": 35,
+   "kept": 29,
    "merged": 2,
    "new": 10,
    "rejected": 3,
    "reported_by_2": 5,
-   "runs": 5,
-   "sent": 24,
+   "runs": 6,
+   "sent": 25,
    "skipped": 3,
    "split_calls": 0,
-   "updated": 11,
+   "updated": 12,
    "waiting": 0
   },
   {
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T14:07:40+00:00"
+  "all": "2026-11-19T17:04:22+00:00"
  },
  "narratives": [
   {
@@ -665,8 +665,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "4c86b06adf4f815a",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-19T09:00:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "The Middle East War Has Wiped 2.8 Billion Barrels Off Global Oil Supply",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/The-Middle-East-War-Has-Wiped-28-Billion-Barrels-Off-Global-Oil-Supply.html"
+    },
     {
      "added": "2026-11-18",
      "id": "836f6c5f00db718c",
@@ -759,15 +772,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "4c86b06adf4f815a"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-19T09:00:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/The-Middle-East-War-Has-Wiped-28-Billion-Barrels-Off-Global-Oil-Supply.html) reported that the International said the war in the Middle East has caused global oil supply losses totaling 2.8 billion barrels and 60 billion cubic meters of natural gas."
+    },
     {
      "articles": [
       "a17cdf53e4a77563"
@@ -829,9 +854,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
   },
@@ -8437,5 +8462,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T14:08:20+00:00"
+ "updated": "2026-11-19T17:05:32+00:00"
 }

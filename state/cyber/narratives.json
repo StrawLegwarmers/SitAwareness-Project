@@ -189,25 +189,25 @@
   {
    "articles": 239,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 17,
-   "continuing": 5,
+   "calls": 6,
+   "candidates": 23,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 207,
-   "in_stories": 27,
-   "kept": 15,
-   "merged": 0,
-   "new": 9,
+   "in_stories": 34,
+   "kept": 22,
+   "merged": 1,
+   "new": 11,
    "rejected": 1,
    "reported_by_2": 4,
-   "runs": 5,
-   "sent": 17,
+   "runs": 6,
+   "sent": 23,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -379,7 +379,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T13:55:50+00:00"
+  "all": "2026-11-19T16:42:20+00:00"
  },
  "narratives": [
   {
@@ -575,8 +575,37 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 11,
+   "article_count": 13,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "5360fe019339a1cf",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-19T16:30:55+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical VMware vCenter Flaws Let Hackers Bypass Authentication and Access Servers",
+     "type": null,
+     "url": "https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "bc951438aa1a5507",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-19T15:11:06+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
+    },
     {
      "added": "2026-11-19",
      "dates": [
@@ -724,15 +753,39 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "bc951438aa1a5507"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-19T15:11:06+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html) reported that a critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access."
+    },
+    {
+     "articles": [
+      "5360fe019339a1cf"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-19T16:30:55+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/vmware-vcenter-authentication-bypass/) reported that Broadcom released fixes for five VMware flaws, including one that lets anyone with network access skip login."
+    },
     {
      "articles": [
       "f5b1c39d2a9163d0"
@@ -5226,8 +5279,21 @@
    "topic": "security"
   },
   {
-   "article_count": 9,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "7c8adc81d1710d1a",
+     "lang": "en",
+     "outlet": "Rediff",
+     "published": "2026-11-19T10:57:37+00:00",
+     "publisher": "Rediff",
+     "region": null,
+     "section": "aviation",
+     "title": "Man without travel documents forces entry into Delhi airport",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVFuLUQ1UzVJMERldl9jVkFHQWFWeUVpcmdaWDRGSHRXSS15NTZTOXAzSXgzT3RKUExRajk2WTV6blN3N3pkU2dOMWxIVnFtVVVzRUFWN2d3eEh1bmthLXk0a2tiVHBHc3FYN0FlVlFpX3B0WkJieElpX21aUG96N1FpdUg0alRqU2JUb0x1ZjAyckVQT1hBeVZoNWV0Y1piaEdiSUJRckd1RThv?oc=5"
+    },
     {
      "added": "2026-11-19",
      "id": "ff7f03c1ec4a6386",
@@ -5346,14 +5412,28 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWXJmV0E4ZGxDNFlPZ3BWSlNiOWh5ejZSZmlXUnU0c056bHctSHFpMXE5VVAtbG5mZllxOTlLdV9VVnZZVXVzT2tJOWZ5WjJFcFJ1eUZOaVA4ZnVMUUFxVkxFdHFTWmlsZnVucWR2U25TY3lkTnVKeEx0MWpuVGtNSW1JNXFxanNBQkt0bnNlcGlpZGdMVzVvOVlMS051NmxMVk9GOFV0VDZtRllDbl95YjlDcmtkSVFKc3BFb3NDNHjSAcYBQVVfeXFMTmRSZ1VMWkFzTFU5dHpRdVRiWnVhOFhJZ3loZm83cnB4bXJNMTBLYUZtbkFZQzFJVmtpb0RSSURKaFAtMEJQWlF3ZE9iT1BkX0ZYTjFqLXd2bWFxSmZrNm8ybGxPeU5fU2FIVmo3Y3pSVnNTNjl2MnFISzRMaFdvZEc2Sno0NUpTLXFwaHZ0UzJYdkNWRm43bjRld0s2RlA1aVFXaXp2UHhrSVhGdDJHUkdqVmhFaFlDa2N2dFBjTnkwWTFtY3d3?oc=5"
     }
    ],
-   "articles_today": 9,
+   "articles_today": 10,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "delhi-airport-security-breach",
    "label": "Delhi Airport security breach",
+   "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
    "outlets_today": 8,
-   "reports": [],
+   "reports": [
+    {
+     "articles": [
+      "7c8adc81d1710d1a"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Rediff"
+     ],
+     "published": "2026-11-19T10:57:37+00:00",
+     "text": "[Rediff](https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVFuLUQ1UzVJMERldl9jVkFHQWFWeUVpcmdaWDRGSHRXSS15NTZTOXAzSXgzT3RKUExRajk2WTV6blN3N3pkU2dOMWxIVnFtVVVzRUFWN2d3eEh1bmthLXk0a2tiVHBHc3FYN0FlVlFpX3B0WkJieElpX21aUG96N1FpdUg0alRqU2JUb0x1ZjAyckVQT1hBeVZoNWV0Y1piaEdiSUJRckd1RThv?oc=5) reported that a man without travel documents forced entry into Delhi airport."
+    }
+   ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
@@ -5844,9 +5924,155 @@
    "status": "new",
    "title": "Check Point LLM security research",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "b98371a27893c32b",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-19T14:42:41+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Urges Users to Update",
+     "type": null,
+     "url": "https://cybersecuritynews.com/php-8-released/"
+    },
+    {
+     "added": "2026-11-19",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "0c5ae972e54fa219",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-19T04:33:46+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "php-security-vulnerabilities",
+   "label": "PHP security vulnerabilities",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0c5ae972e54fa219"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-19T04:33:46+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html) reported that PHP maintainers issued an advisory announcing an upcoming security release addressing critical flaws."
+    },
+    {
+     "articles": [
+      "b98371a27893c32b"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-19T14:42:41+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/php-8-released/) reported that the PHP security team warned of vulnerabilities across all branches covered by its security update."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "PHP security vulnerabilities",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "7d54a46725fb4a2e",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-19T15:15:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "European Commission confirms cyberattack, says hackers used AI tool",
+     "type": null,
+     "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "819d875be7bc659c",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-19T09:53:35+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Target European Commission with ARTEX AI Tool in Major Cyberattack",
+     "type": null,
+     "url": "https://cybersecuritynews.com/european-commission-cyberattack/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "european-commission-cyberattack",
+   "label": "European Commission cyberattack",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "819d875be7bc659c"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-19T09:53:35+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/european-commission-cyberattack/) reported that a cyberattack on the European Commission disrupted staff services for more than 10 days."
+    },
+    {
+     "articles": [
+      "7d54a46725fb4a2e"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Record"
+     ],
+     "published": "2026-11-19T15:15:00+00:00",
+     "text": "[The Record](https://therecord.media/european-commission-confirms-cyberattack-using-ai) reported that the European Commission confirmed the cyberattack and stated hackers used an AI tool."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "European Commission cyberattack",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T13:56:12+00:00"
+ "updated": "2026-11-19T16:42:58+00:00"
 }

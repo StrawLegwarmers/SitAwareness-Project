@@ -368,30 +368,34 @@
  ],
  "coverage": [
   {
-   "articles": 4000,
+   "articles": 4012,
    "attached_by_code": 23,
-   "calls": 23,
-   "candidates": 810,
-   "continuing": 582,
+   "calls": 29,
+   "candidates": 1033,
+   "continuing": 751,
    "corroborated": 31,
    "date": "2026-11-19",
    "dropped": 10,
    "errors": [
+    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 2: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 3: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 1,
-   "groups": 3085,
-   "in_stories": 1150,
-   "kept": 618,
-   "merged": 40,
+   "failed_calls": 6,
+   "groups": 3111,
+   "in_stories": 1173,
+   "kept": 635,
+   "merged": 42,
    "new": 123,
-   "rejected": 79,
+   "rejected": 83,
    "reported_by_2": 116,
-   "runs": 5,
-   "sent": 810,
+   "runs": 6,
+   "sent": 1033,
    "skipped": 104,
    "split_calls": 0,
-   "updated": 442,
+   "updated": 463,
    "waiting": 0
   },
   {
@@ -587,7 +591,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T13:56:12+00:00"
+  "all": "2026-11-19T16:42:58+00:00"
  },
  "narratives": [
   {
@@ -2472,8 +2476,34 @@
    "title": "Viktor Orbán's Brother Arrested in Hungary Amid Human Trafficking Probe"
   },
   {
-   "article_count": 77,
+   "article_count": 79,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "601de9ac14491b9d",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-19T16:31:05+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "Présidentielle 2027 : Clémentine Autain, qui avait quitté LFI après les «purges» de 2024, appelle à soutenir Jean-Luc Mélenchon",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-clementine-autain-qui-avait-quitte-lfi-apres-les-purges-de-2024-appelle-a-soutenir-jean-luc-melenchon-20261119"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "14ded029f68ab1c9",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-19T16:21:46+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "« C’est la fin des Écologistes » : Marine Tondelier tend la main à Jean-Luc Mélenchon",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/politique/c-est-la-fin-des-ecologistes-marine-tondelier-tend-la-main-a-jean-luc-melenchon-20261119"
+    },
     {
      "added": "2026-11-19",
      "id": "8abf5bcda43febb1",
@@ -2967,35 +2997,9 @@
      "title": "EN DIRECT, présidentielle 2027 : « En France, seul le smic est indexé sur l’inflation. C’est donc le seul salaire qui garantit le pouvoir d’achat » : l’économiste Mathieu Plane a répondu à vos questions sur la vie chère",
      "type": "local",
      "url": "https://www.lemonde.fr/election-presidentielle-2027/live/2026/11/16/en-direct-presidentielle-2027-pouvoir-d-achat-posez-vos-questions-a-l-economiste-mathieu-plane_6811633_6205049.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "3d1c6cd221667db7",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-16T09:58:20+00:00",
-     "publisher": "Le Figaro",
-     "region": "europe",
-     "section": null,
-     "title": "Approuvez-vous le refus d'Édouard Philippe de participer à une primaire de la droite et du centre ?",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/politique/approuvez-vous-le-refus-d-edouard-philippe-de-participer-a-une-primaire-de-la-droite-et-du-centre-20261116"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "4aecf0d0361115b3",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-16T09:12:02+00:00",
-     "publisher": "Le Figaro",
-     "region": "europe",
-     "section": null,
-     "title": "EN DIRECT - Présidentielle 2027 : «Jean-Luc Mélenchon met des cibles dans le dos des journalistes», affirme le porte-parole du gouvernement",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-marine-le-pen-edouard-philippe-emmanuel-macron-ukraine-teddy-riner-20261116"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 7,
    "first_seen": "2026-11-09",
    "group": "europe",
    "id": "teddy-riner-announces-2027-french-presidential",
@@ -3007,6 +3011,30 @@
    ],
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "14ded029f68ab1c9"
+     ],
+     "date": "2026-11-19",
+     "group": "europe",
+     "outlets": [
+      "Le Figaro"
+     ],
+     "published": "2026-11-19T16:21:46+00:00",
+     "text": "[Le Figaro](https://www.lefigaro.fr/politique/c-est-la-fin-des-ecologistes-marine-tondelier-tend-la-main-a-jean-luc-melenchon-20261119) reported that Ecologists leader Marine Tondelier stated she is ready to build a coalition around Jean-Luc Mélenchon."
+    },
+    {
+     "articles": [
+      "601de9ac14491b9d"
+     ],
+     "date": "2026-11-19",
+     "group": "europe",
+     "outlets": [
+      "Le Figaro"
+     ],
+     "published": "2026-11-19T16:31:05+00:00",
+     "text": "[Le Figaro](https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-clementine-autain-qui-avait-quitte-lfi-apres-les-purges-de-2024-appelle-a-soutenir-jean-luc-melenchon-20261119) reported that Clémentine Autain called for support for Jean-Luc Mélenchon following Marine Tondelier opening the door to supporting the candidate."
+    },
     {
      "articles": [
       "61a070b4edda74b5"
@@ -3467,31 +3495,6 @@
      ],
      "published": "2026-11-14T07:30:00+00:00",
      "text": "[Le Figaro](https://www.lefigaro.fr/elections/presidentielles/la-gloire-ne-fait-pas-l-election-coluche-bigard-hulot-avant-teddy-riner-le-difficile-passage-de-la-celebrite-a-la-course-a-l-elysee-20261114) reported that judo champion Teddy Riner's presidential ambitions draw comparisons to previous celebrity political entries in France."
-    },
-    {
-     "articles": [
-      "1b6de9d4d778307d"
-     ],
-     "date": "2026-11-14",
-     "group": "europe",
-     "outlets": [
-      "Le Figaro"
-     ],
-     "published": "2026-11-14T10:44:31+00:00",
-     "text": "[Le Figaro](https://www.lefigaro.fr/politique/a-peine-arrive-l-ex-ministre-de-la-sante-francois-braun-quitte-la-campagne-de-teddy-riner-20261114) reported that former health minister François Braun left the presidential campaign team of Teddy Riner six days after its launch."
-    },
-    {
-     "articles": [
-      "02f28ed390766824",
-      "2c6ef98d56e336f9"
-     ],
-     "date": "2026-11-13",
-     "group": "europe",
-     "outlets": [
-      "Le Figaro"
-     ],
-     "published": "2026-11-13T08:10:49+00:00",
-     "text": "[Le Figaro](https://www.lefigaro.fr/elections/presidentielles/candidats/presidentielle-2027-david-lisnard-donne-a-au-moins-10-juste-derriere-edouard-philippe-et-raphael-glucksmann-selon-un-sondage-20261113) reported that a poll showed Cannes mayor David Lisnard receiving between 10% and 12% of voting intentions for the 2027 presidential election."
     }
    ],
    "single_source_today": false,
@@ -6735,8 +6738,21 @@
    }
   },
   {
-   "article_count": 82,
+   "article_count": 83,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "fc5815ee8eea026a",
+     "lang": "en",
+     "outlet": "The New Arab",
+     "published": "2026-11-19T16:24:29+00:00",
+     "publisher": "The New Arab",
+     "region": "mena",
+     "section": null,
+     "title": "Riyadh tower damaged in Houthi missile attack",
+     "type": "regional",
+     "url": "https://www.newarab.com/news/riyadh-tower-damaged-houthi-missile-attack"
+    },
     {
      "added": "2026-11-19",
      "id": "0c0c74e406dc244b",
@@ -7252,38 +7268,38 @@
      "title": "Yemen's government-aligned forces repel Houthi attack as fighting has displaced over 340,000 people",
      "type": "local",
      "url": "https://tribune.com.pk/story/2640286/yemens-government-aligned-forces-repel-houthi-attack-as-fighting-has-displaced-over-340000-people"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "f90b973a05179df7",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-13T16:11:39+00:00",
-     "publisher": "The Hindu (World)",
-     "region": "asia",
-     "section": null,
-     "title": "Pakistan calls for 'immediate' end to Houthi attacks on Saudi Arabia at UN",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/pakistan-calls-for-immediate-end-to-houthi-attacks-on-saudi-arabia-at-un/article71699212.ece"
     }
    ],
-   "articles_today": 18,
+   "articles_today": 19,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "yemen-conflict-saudi-airstrikes-and-houthi",
    "label": "Yemen Conflict: Houthi Drone Attack Damages Riyadh Aramco Tower",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 16,
+   "outlets_today": 17,
    "previous_titles": [
     "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group",
     "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
     "US Embassy in Riyadh warns Americans in Middle East after latest Houthi attack on Saudi Arabia",
     "Saudi-Led Coalition Announces Destruction of 60 Houthi Military Targets in Yemen",
     "Saudi-led coalition says it intercepted Houthi cruise missile targeting Riyadh",
-    "Houthi missile threat towards Riyadh causes damage, Saudi-led coalition says"
+    "Houthi missile threat towards Riyadh causes damage, Saudi-led coalition says",
+    "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh"
    ],
    "reports": [
+    {
+     "articles": [
+      "fc5815ee8eea026a"
+     ],
+     "date": "2026-11-19",
+     "group": "mena",
+     "outlets": [
+      "The New Arab"
+     ],
+     "published": "2026-11-19T16:24:29+00:00",
+     "text": "[The New Arab](https://www.newarab.com/news/riyadh-tower-damaged-houthi-missile-attack) reported that Saudi authorities released an image appearing to show damage at the Public Investment Fund tower following a Houthi missile strike."
+    },
     {
      "articles": [
       "7ae1f524d99d7c87"
@@ -7683,13 +7699,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "saudi-arabia",
-   "title": "Saudi Sovereign Wealth Fund Tower Damaged as Houthis Attack Riyadh",
+   "title": "Skyscraper in Riyadh damaged as Saudi Arabia reports surge in new Houthi attacks",
    "title_from": {
     "backing": 8,
     "date": "2026-11-19",
-    "of": 15,
-    "outlet": "New York Times",
-    "url": "https://www.nytimes.com/2026/11/19/world/middleeast/saudi-pif-riyadh-tower-houthis-attack.html"
+    "of": 16,
+    "outlet": "France 24",
+    "url": "https://www.france24.com/en/middle-east/20261119-skyscraper-in-riyadh-damaged-as-saudi-arabia-reports-surge-in-new-houthi-attacks"
    }
   },
   {
@@ -21272,8 +21288,21 @@
    }
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "66990385053648ca",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-19T16:19:42+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "Las temperaturas seguirán bajando mañana, con avisos naranja por olas en y lluvias fuertes en Galicia",
+     "type": "local",
+     "url": "https://www.larazon.es/sociedad/temperaturas-seguiran-bajando-manana-avisos-naranja-olas-lluvias-fuertes-galicia_202611196aff219ef6b335433bb5e087.html"
+    },
     {
      "added": "2026-11-18",
      "id": "0d467f456e5ef696",
@@ -21445,15 +21474,27 @@
      "url": "https://www.france24.com/en/portugal-shuts-schools-tech-conference-as-it-braces-for-storm"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-11",
    "group": "global",
    "id": "portugal-storm-charles-disruption",
    "label": "Portugal Storm Charles Disruption",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "66990385053648ca"
+     ],
+     "date": "2026-11-19",
+     "group": "global",
+     "outlets": [
+      "La Razón"
+     ],
+     "published": "2026-11-19T16:19:42+00:00",
+     "text": "[La Razón](https://www.larazon.es/sociedad/temperaturas-seguiran-bajando-manana-avisos-naranja-olas-lluvias-fuertes-galicia_202611196aff219ef6b335433bb5e087.html) reported that temperatures will continue to drop with orange wave warnings and heavy rainfall in Galicia, with Asturias, Cantabria, and the Basque Country taking the worst part."
+    },
     {
      "articles": [
       "0d467f456e5ef696"
@@ -21556,9 +21597,9 @@
      "text": "[France 24](https://www.france24.com/en/tv-shows/business/20261111-second-day-of-web-summit-cancelled-as-storm-charles-puts-portugal-on-high-alert) reported that the second day of the Web Summit was cancelled as Storm Charles put Portugal on high alert."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "portugal",
    "title": "Portugal Storm Charles Disruption"
   },
@@ -27237,8 +27278,21 @@
    }
   },
   {
-   "article_count": 11,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "2150143eda994123",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-19T16:30:00+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "ورود ملونة وأناقة كلاسيكية.. مريم أوزرلي تخطف الأنظار بإطلالة محتشمة",
+     "type": "local",
+     "url": "https://www.elbalad.news/7186796"
+    },
     {
      "added": "2026-11-17",
      "id": "ca026023eae594a1",
@@ -27383,14 +27437,14 @@
      "url": "https://www.almasryalyoum.com/news/details/4407859"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-12",
    "group": "mena",
    "id": "cairo-international-film-festival-opening",
    "label": "Cairo International Film Festival opening",
    "last_reported": "2026-11-13",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -27465,9 +27519,9 @@
      "text": "[Al-Masry Al-Youm](https://www.almasryalyoum.com/news/details/4407870) reported that Asser Yassin and his wife drew attention with their elegant looks on the red carpet."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "egypt",
    "title": "Cairo International Film Festival opening"
   },
@@ -48868,8 +48922,21 @@
    "title": "Washington DC shooting incident"
   },
   {
-   "article_count": 46,
+   "article_count": 47,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "2b3ac038cc783144",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-19T16:39:47+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "2027: Radda warns Katsina voters against ‘irresponsible’ politicians",
+     "type": "local",
+     "url": "https://punchng.com/2027-radda-warns-katsina-voters-against-irresponsible-politicians/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-19",
      "id": "d3baa75a035dbbf5",
@@ -49376,29 +49443,16 @@
      "title": "2027: Tompolo, Zamfara gov rally support for Tinubu’s re-election",
      "type": "local",
      "url": "https://punchng.com/2027-tompolo-zamfara-gov-rally-support-for-tinubus-re-election/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "b2aa8a13c4874996",
-     "lang": "en",
-     "outlet": "This Day",
-     "published": "2026-11-13T16:02:00+00:00",
-     "publisher": "This Day",
-     "region": "africa",
-     "section": null,
-     "title": "Lagos East Mega Rally: Sanwo-Olu, Others, Seek Voters’ Support for Tinubu, Hamzat",
-     "type": "local",
-     "url": "https://www.thisdaylive.com/2026/11/13/lagos-east-mega-rally-sanwo-olu-others-seek-voters-support-for-tinubu-hamzat/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "nigeria-grassroots-mobilisation",
    "label": "Nigeria grassroots mobilisation",
-   "last_reported": "2026-11-18",
+   "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "Nigeria: Tompolo Leads Grassroots Mobilisation for Tinubu in Jigawa, Zamfara",
     "2027: Ondo APC to sustain grassroots mobilisation after Tinubu’s rally – Campaign DG, Olabimtan",
@@ -49408,6 +49462,18 @@
     "Breaking: Panic as APC chairman, campaign DG's vehicle crashes on way to rally"
    ],
    "reports": [
+    {
+     "articles": [
+      "2b3ac038cc783144"
+     ],
+     "date": "2026-11-19",
+     "group": "africa",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-19T16:39:47+00:00",
+     "text": "[Punch](https://punchng.com/2027-radda-warns-katsina-voters-against-irresponsible-politicians/?utm_source=rss.punchng.com&utm_medium=web) reported that Katsina Governor Dikko Radda urged Kankia voters to back the APC, Tinubu, and party candidates in 2027."
+    },
     {
      "articles": [
       "8344b91f2b8c0883"
@@ -49747,9 +49813,9 @@
      "text": "[Premium Times](https://www.premiumtimesng.com/news/top-news/924776-2027-tompolo-leads-grassroots-mobilisation-for-tinubu-in-jigawa-zamfara-unveils-56-vehicles.html), [AllAfrica](https://allafrica.com/stories/202611130111.html) reported that Tompolo led grassroots mobilisation for President Bola Ahmed Tinubu in Jigawa and Zamfara by unveiling 56 vehicles."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "updated",
    "subject": "nigeria",
    "title": "At APC Presidential Rally In Birnin Kebbi, Tinubu Approves Inland Dry Port For Kebbi",
    "title_from": {
@@ -59165,8 +59231,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "016b369f854697da",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-19T16:39:47+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Police arrest nine over armed robbery, rescues kidnapped victims in Nasarawa",
+     "type": "local",
+     "url": "https://punchng.com/police-arrest-nine-over-armed-robbery-rescues-kidnapped-victims-in-nasarawa/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-19",
      "id": "cc8aa7e793425123",
@@ -59350,7 +59429,7 @@
      "url": "https://thesun.ng/rivers-police-arrest-two-suspected-cultists-for-murder-recover-victims-remains/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "rivers-state-police-arrest-murder-suspects",
@@ -59359,6 +59438,18 @@
    "last_updated": "2026-11-19",
    "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "016b369f854697da"
+     ],
+     "date": "2026-11-19",
+     "group": "africa",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-19T16:39:47+00:00",
+     "text": "[Punch](https://punchng.com/police-arrest-nine-over-armed-robbery-rescues-kidnapped-victims-in-nasarawa/?utm_source=rss.punchng.com&utm_medium=web) reported that Nasarawa police arrested nine armed robbery suspects in Keffi and rescued three kidnapped victims unhurt in Awe LGA."
+    },
     {
      "articles": [
       "4e7e671b2bc427a2",
@@ -60264,8 +60355,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "ce6ba815b92e4cf7",
+     "lang": "en",
+     "outlet": "Legit (Nigeria)",
+     "published": "2026-11-19T16:28:29+00:00",
+     "publisher": "Legit (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "Tinubu, Atiku, Obi: Middle Belt youth leader declares preferred candidate for 2027 election, read full details",
+     "type": "local",
+     "url": "https://www.legit.ng/politics/1742286-peter-obi-atiku-tinubu-middle-belt-youth-leader-declares-preferred-2027-presidential-candidate/"
+    },
     {
      "added": "2026-11-18",
      "id": "5e019bf31b9498c1",
@@ -60462,18 +60566,30 @@
      "url": "https://tribuneonlineng.com/i-never-owed-salary-since-i-became-oyo-governor-makinde/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "oyo-state-governor-performance-rating-and",
    "label": "Oyo State Governor performance rating and political statements",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "previous_titles": [
     "Oriire: Tinubu never spoke to me over abducted pupils, teachers — Makinde"
    ],
    "reports": [
+    {
+     "articles": [
+      "ce6ba815b92e4cf7"
+     ],
+     "date": "2026-11-19",
+     "group": "africa",
+     "outlets": [
+      "Legit (Nigeria)"
+     ],
+     "published": "2026-11-19T16:28:29+00:00",
+     "text": "[Legit (Nigeria)](https://www.legit.ng/politics/1742286-peter-obi-atiku-tinubu-middle-belt-youth-leader-declares-preferred-2027-presidential-candidate/) reported that a Middle Belt youth leader revealed the presidential candidate he and his associates plan to support in the 2027 elections."
+    },
     {
      "articles": [
       "5e019bf31b9498c1"
@@ -60575,9 +60691,9 @@
      "text": "[Punch](https://punchng.com/makinde-accuses-tinubu-of-breaching-2023-political-agreement/?utm_source=rss.punchng.com&utm_medium=web) reported that Governor Makinde accused President Bola Tinubu of breaching a written agreement to form a government of national unity after the 2023 elections."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "UPDATED: 2027 opposition parties move to sign pact for democratic renewal",
    "title_from": {
@@ -61802,8 +61918,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 20,
+   "article_count": 22,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "e3772b6fd4da4151",
+     "lang": "en",
+     "outlet": "New York Times World",
+     "published": "2026-11-19T16:31:30+00:00",
+     "publisher": "New York Times",
+     "region": "global",
+     "section": null,
+     "title": "Major Powers Vow to Increase Oil Supply Amid Global Energy Transition",
+     "type": "international",
+     "url": "https://www.nytimes.com/2026/11/19/world/asia/russia-china-united-states-oil-joint-statement.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "b690074c3ed8835e",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-19T16:25:24+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "‘Code Orange’: Facility monitoring cybersecurity in Middle East is latest impacted by ongoing NSA outage",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/americas/us-politics/nsa-outage-georgia-middle-east-b3088077.html"
+    },
     {
      "added": "2026-11-19",
      "id": "0eb0582f99033d21",
@@ -62068,7 +62210,7 @@
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "global",
    "id": "international-energy-agency-global-oil-supply",
@@ -62078,12 +62220,37 @@
    "merged": [
     "global-oil-market-surplus-reports"
    ],
-   "outlets_today": 2,
+   "outlets_today": 4,
    "previous_titles": [
     "European diesel prices stay high as global oil supply overtakes demand, IEA says",
-    "World oil market is returning to surplus as Gulf exports recover, IEA says"
+    "World oil market is returning to surplus as Gulf exports recover, IEA says",
+    "Oil prices fall 2% as US crude inventories rise 5.28 million barrels, US-Iran conflict limits losses"
    ],
    "reports": [
+    {
+     "articles": [
+      "b690074c3ed8835e"
+     ],
+     "date": "2026-11-19",
+     "group": "global",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-19T16:25:24+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/us-politics/nsa-outage-georgia-middle-east-b3088077.html) reported that a facility monitoring cybersecurity in the Middle East is the latest impacted by an ongoing NSA outage."
+    },
+    {
+     "articles": [
+      "e3772b6fd4da4151"
+     ],
+     "date": "2026-11-19",
+     "group": "global",
+     "outlets": [
+      "New York Times"
+     ],
+     "published": "2026-11-19T16:31:30+00:00",
+     "text": "[New York Times](https://www.nytimes.com/2026/11/19/world/asia/russia-china-united-states-oil-joint-statement.html) reported that the United States, China, and Russia agreed to boost the supply of refined petroleum products as oil prices spike due to the Iran war."
+    },
     {
      "articles": [
       "0eb0582f99033d21"
@@ -62237,13 +62404,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "us",
-   "title": "Oil prices fall 2% as US crude inventories rise 5.28 million barrels, US-Iran conflict limits losses",
+   "title": "‘Code Orange’: Facility monitoring cybersecurity in Middle East is latest impacted by ongoing NSA outage",
    "title_from": {
     "backing": 2,
-    "date": "2026-11-18",
-    "of": 2,
-    "outlet": "Hindustan Times",
-    "url": "https://www.hindustantimes.com/world-news/us-news/oil-prices-fall-2-as-us-crude-inventories-rise-5-28-million-barrels-us-iran-conflict-limits-losses-101795001932514.html"
+    "date": "2026-11-19",
+    "of": 3,
+    "outlet": "The Independent World",
+    "url": "https://www.independent.co.uk/news/world/americas/us-politics/nsa-outage-georgia-middle-east-b3088077.html"
    },
    "topic": "economy"
   },
@@ -72134,8 +72301,47 @@
    "topic": "justice"
   },
   {
-   "article_count": 76,
+   "article_count": 82,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "88326bd194c269af",
+     "lang": "sr",
+     "outlet": "Blic",
+     "published": "2026-11-19T13:46:27+00:00",
+     "publisher": "Blic",
+     "region": "europe",
+     "section": null,
+     "title": "Aleksandar Čupić novi predsednik Skupštine Srbije! Izabran većinom glasova u parlamentu posle tri burna dana (Foto, Video)",
+     "type": "local",
+     "url": "https://www.blic.rs/vesti/politika/uzivo-aleksandar-cupic-novi-predsednik-skupstine-srbije-izabran-vecinom-u-parlamentu/mk50bq4"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "69324f4ba7fee8f9",
+     "lang": "sr",
+     "outlet": "Blic",
+     "published": "2026-11-19T13:38:37+00:00",
+     "publisher": "Blic",
+     "region": "europe",
+     "section": null,
+     "title": "Oglasili se studenti nakon što je Aleksandar Čupić izabran za predsednika Skupštine Srbije",
+     "type": "local",
+     "url": "https://www.blic.rs/vesti/politika/oglasili-se-studenti-nakon-sto-je-aleksandar-cupic-izabran-za-predsednika-skupstine/6bwtl68"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "b64781462b0870bb",
+     "lang": "sr",
+     "outlet": "Blic",
+     "published": "2026-11-19T13:33:30+00:00",
+     "publisher": "Blic",
+     "region": "europe",
+     "section": null,
+     "title": "Aleksandar Čupić postaje v.d. predsednika Srbije: Ovo su njegova ovlašćenja",
+     "type": "local",
+     "url": "https://www.blic.rs/vesti/politika/aleksandar-cupic-postaje-vd-predsednika-srbije-ovo-su-njegova-ovlascenja/kg13ybr"
+    },
     {
      "added": "2026-11-19",
      "id": "06924072e69e7d48",
@@ -72148,6 +72354,19 @@
      "title": "Novi predsjednik Skupštine Srbije održao prvi govor: Izvinio se Pastoru i Lidiji Vukićević",
      "type": "local",
      "url": "https://avaz.ba/vijesti/region/1089225/novi-predsjednik-skupstine-srbije-odrzao-prvi-govor-izvinio-se-pastoru-i-lidiji-vukicevic"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "b4ad227f3b19d023",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-19T12:56:43+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Ko je Aleksandar Čupić, novi predsjednik Skupštine Srbije?",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/ex-yu/Ko-je-Aleksandar-Cupic-novi-predsjednik-Skupstine-Srbije/993256"
     },
     {
      "added": "2026-11-19",
@@ -72164,6 +72383,19 @@
     },
     {
      "added": "2026-11-19",
+     "id": "b70fc0e2a6b27094",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-19T12:33:02+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Aleksandar Čupić izabran za novog predsjednika Skupštine Srbije",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/region/aleksandar-cupic-izabran-za-novog-predsjednika-skupstine-srbije/"
+    },
+    {
+     "added": "2026-11-19",
      "id": "31106606edd44661",
      "lang": "bs",
      "outlet": "Klix",
@@ -72174,6 +72406,19 @@
      "title": "Studentska lista izabrala Aleksandra Čupića za predsjednika Skupštine Srbije nakon tri dana Vučićevih opstrukcija",
      "type": "local",
      "url": "https://www.klix.ba/vijesti/regija/studentska-lista-izabrala-aleksandra-cupica-za-predsjednika-skupstine-srbije-nakon-tri-dana-vucicevih-opstrukcija/261119124"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "2e6691dda5ea3f66",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-19T12:27:00+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Aleksandar Čupić novi predsjednik Narodne skupštine Republike Srbije",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/ex-yu/Aleksandar-Cupic-novi-predsjednik-Narodne-skupstine-Republike-Srbije/993241"
     },
     {
      "added": "2026-11-19",
@@ -72577,87 +72822,9 @@
      "title": "Kćerka legendarnog fudbalera Dragana Džajića položila zakletvu u Skupštini Srbije ispred SNS-a",
      "type": "local",
      "url": "https://www.klix.ba/vijesti/regija/kcerka-legendarnog-fudbalera-dragana-dzajica-polozila-zakletvu-u-skupstini-srbije-ispred-sns-a/261117197"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "bf229cb4ce853378",
-     "lang": "bs",
-     "outlet": "Oslobođenje",
-     "published": "2026-11-17T14:12:14+00:00",
-     "publisher": "Oslobođenje",
-     "region": "europe",
-     "section": null,
-     "title": "Od profesora do predsjednika Skupštine Srbije, ko je Aleksandar Čupić?",
-     "type": "local",
-     "url": "https://www.oslobodjenje.ba/vijesti/region/od-profesora-do-kandidata-za-celo-parlamenta-ko-je-aleksandar-cupic/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "812ba9e81a01880c",
-     "lang": "sr",
-     "outlet": "Blic",
-     "published": "2026-11-17T13:49:02+00:00",
-     "publisher": "Blic",
-     "region": "europe",
-     "section": null,
-     "title": "Ko je Jovo Bakić, šef poslaničke grupe Studentske liste",
-     "type": "local",
-     "url": "https://www.blic.rs/vesti/politika/ko-je-jovo-bakic-sef-poslanicke-grupe-studentske-liste/sevh50f"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "9961bbb48fdc776c",
-     "lang": "sr",
-     "outlet": "Nezavisne Novine",
-     "published": "2026-11-17T13:34:00+00:00",
-     "publisher": "Nezavisne Novine",
-     "region": "europe",
-     "section": null,
-     "title": "Skupština Srbije bira predsjednika: U trci dva kandidata",
-     "type": "local",
-     "url": "https://www.nezavisne.com/novosti/ex-yu/Skupstina-Srbije-bira-predsjednika-U-trci-dva-kandidata/992845"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "250de06b803cc25c",
-     "lang": "bs",
-     "outlet": "Dnevni Avaz",
-     "published": "2026-11-17T13:26:51+00:00",
-     "publisher": "Dnevni Avaz",
-     "region": "europe",
-     "section": null,
-     "title": "Stojan Radenović je kandidat SNS-a za predsjednika Skupštine Srbije",
-     "type": "local",
-     "url": "https://avaz.ba/vijesti/region/1088667/stojan-radenovic-je-kandidat-sns-a-za-predsjednika-skupstine-srbije"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "d24d3c522bc35ab5",
-     "lang": "sr",
-     "outlet": "Blic",
-     "published": "2026-11-17T13:12:49+00:00",
-     "publisher": "Blic",
-     "region": "europe",
-     "section": null,
-     "title": "Bakić i Vučić šefovi poslaničkih grupa, Čupić i Radenović kandidati za predsednika Skupštine Srbije! U toku sednica parlamenta, počela obraćanja (FOTO, VIDEO)",
-     "type": "local",
-     "url": "https://www.blic.rs/vesti/politika/narodna-skupstina-srbije-uzivo-prenos-jovo-bakic-i-vucic-sefovi-poslanickih-grupa/jzw7gwg"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "8d63c6d12462fa21",
-     "lang": "sr",
-     "outlet": "Blic",
-     "published": "2026-11-17T13:08:24+00:00",
-     "publisher": "Blic",
-     "region": "europe",
-     "section": null,
-     "title": "\"Sačekali su me i nasrnuli na auto!\" Vučić se prvi put obraća u Skupštini, govori o dešavanjima u izbornoj noći: Jovo Bakić negoduje (VIDEO)",
-     "type": "local",
-     "url": "https://www.blic.rs/vesti/politika/vucic-se-obraca-u-skupstini-srbije-jovo-bakic-negoduje/j4mp6l7"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 11,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "serbia-national-assembly-consultations",
@@ -72667,10 +72834,23 @@
    "merged": [
     "vucic-elected-parliamentary-group-leader-in",
     "studentska-lista-program-statements",
-    "aleksandar-vucic-parliamentary-assembly-incident"
+    "aleksandar-vucic-parliamentary-assembly-incident",
+    "serbia-parliamentary-leadership-election"
    ],
-   "outlets_today": 3,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "2e6691dda5ea3f66"
+     ],
+     "date": "2026-11-19",
+     "group": "europe",
+     "outlets": [
+      "Nezavisne Novine"
+     ],
+     "published": "2026-11-19T12:27:00+00:00",
+     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/ex-yu/Aleksandar-Cupic-novi-predsjednik-Narodne-skupstine-Republike-Srbije/993241) reported that Aleksandar Čupić was elected as the new president of the National Assembly of the Republic of Serbia."
+    },
     {
      "articles": [
       "06924072e69e7d48",
@@ -73152,18 +73332,6 @@
      ],
      "published": "2026-11-16T10:16:06+00:00",
      "text": "[Blic](https://www.blic.rs/vesti/politika/sutra-konstitutivna-sednica-skupstine-srbije-ovo-je-dnevni-red/5ls62nq) reported that the constitutive session of the new convocation of the National Assembly of Serbia will be held tomorrow to confirm mandates and elect parliamentary leadership."
-    },
-    {
-     "articles": [
-      "104532ddf8844eb8"
-     ],
-     "date": "2026-11-16",
-     "group": "europe",
-     "outlets": [
-      "Blic"
-     ],
-     "published": "2026-11-16T08:10:54+00:00",
-     "text": "[Blic](https://www.blic.rs/vesti/politika/oliver-toskovic-sa-studentske-liste-otkrio-da-imaju-ime-predsednika-skupstine/keqptp7) reported that Oliver Tošković stated personnel solutions exist and the assembly expects to receive a speaker."
     }
    ],
    "single_source_today": false,
@@ -79236,8 +79404,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "60bed788b4f9f948",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-19T16:31:46+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "باحث في الشأن الإقليمي: أهمية الدور المصري تتعاظم في ظل الأوضاع الإنسانية المأساوية بقطاع غزة",
+     "type": "local",
+     "url": "https://www.elbalad.news/7187002"
+    },
     {
      "added": "2026-11-17",
      "id": "b35dafd2b9f8e6fc",
@@ -79304,14 +79485,14 @@
      "url": "https://asharq.com/reports/202950/%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%B6-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "gaza-respiratory-illness-and-flooding-crisis",
    "label": "Gaza respiratory illness and flooding crisis",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -79364,9 +79545,9 @@
      "text": "[Asharq News](https://asharq.com/reports/202950/%D9%85%D9%86%D8%B8%D9%85%D8%A9-%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%AA%D9%81%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%B6-%D8%A7%D9%84%D8%AA%D9%86%D9%81%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9/), [Felesteen](https://felesteen.news/post/190139/%D8%A7%D9%84%D8%B5%D8%AD%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%AA%D8%AF%D9%87%D9%88%D8%B1-%D8%A7%D9%84%D8%A3%D9%88%D8%B6%D8%A7%D8%B9-%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9) reported that the World Health Organization warned of an increase in respiratory illnesses among displaced people in Gaza living in flood-prone tent areas."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "palestine",
    "title": "Gaza respiratory illness and flooding crisis",
    "topic": "humanitarian"
@@ -95504,8 +95685,21 @@
    "topic": "security"
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "107b52b1aa330979",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-19T16:32:41+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "نزل 45 جنيها.. سعر الذهب في الصاغة الآن",
+     "type": "local",
+     "url": "https://www.elbalad.news/7187001"
+    },
     {
      "added": "2026-11-19",
      "id": "3beb809bcf2b75e4",
@@ -95715,15 +95909,27 @@
      "url": "https://www.almasryalyoum.com/news/details/4409554"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-14",
    "group": "mena",
    "id": "egypt-gold-prices-and-dollar-decline",
    "label": "Egypt Gold Prices and Dollar Decline",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "107b52b1aa330979"
+     ],
+     "date": "2026-11-19",
+     "group": "mena",
+     "outlets": [
+      "Sada El Balad"
+     ],
+     "published": "2026-11-19T16:32:41+00:00",
+     "text": "[Sada El Balad](https://www.elbalad.news/7187001) reported that local gold prices dropped by 45 pounds across Egyptian goldsmith shops."
+    },
     {
      "articles": [
       "426528f8eb39ea99"
@@ -95858,7 +96064,7 @@
      "text": "[Sada El Balad](https://www.elbalad.news/7179366) reported that gold prices stabilized across Egyptian goldsmith shops at the start of Saturday's trading."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "pakistan",
@@ -104327,8 +104533,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 17,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "e4a2459392f015e1",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-19T16:36:11+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "مدرب ألبانيا يكشف دور محمد صلاح في تطور إرنيست موتشي مع طرابزون سبور",
+     "type": "local",
+     "url": "https://www.elbalad.news/7187009"
+    },
     {
      "added": "2026-11-19",
      "id": "add8c307c63021d7",
@@ -104551,7 +104770,7 @@
      "url": "https://www.almasryalyoum.com/news/details/4409553"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-14",
    "group": "mena",
    "id": "cairo-court-cases-and-egyptian-sports",
@@ -111624,6 +111843,9 @@
     "us-china-and-russia-leaders-apec"
    ],
    "outlets_today": 43,
+   "previous_titles": [
+    "Trump Sits Down With ‘Friend’ Putin Ahead of Xi Trilateral"
+   ],
    "reports": [
     {
      "articles": [
@@ -112124,13 +112346,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "china",
-   "title": "Trump Sits Down With ‘Friend’ Putin Ahead of Xi Trilateral",
+   "title": "Global Power Shift As Trump, Xi, Putin Hold Historic Summit Amid Ukraine War, Nuclear Tensions",
    "title_from": {
-    "backing": 13,
+    "backing": 14,
     "date": "2026-11-19",
-    "of": 28,
-    "outlet": "Kyiv Post",
-    "url": "https://www.kyivpost.com/post/90557"
+    "of": 33,
+    "outlet": "The Will (Nigeria)",
+    "url": "https://thewillnews.com/global-power-shift-as-trump-xi-putin-hold-historic-summit-amid-ukraine-war-nuclear-tensions/"
    },
    "topic": "diplomacy"
   },
@@ -122889,8 +123111,21 @@
    "topic": "security"
   },
   {
-   "article_count": 61,
+   "article_count": 62,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "7e0d9fa53c494a8e",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-19T16:39:47+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Man accused of AI cheating in South Korean exam found dead",
+     "type": "local",
+     "url": "https://punchng.com/man-accused-of-ai-cheating-in-south-korean-exam-found-dead/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-19",
      "id": "769b8c486d98214d",
@@ -123451,25 +123686,9 @@
      "title": "South Korea to inspect glasses worn by exam candidates after AI cheating scandal",
      "type": "regional",
      "url": "https://www.channelnewsasia.com/east-asia/south-korea-national-exam-ai-cheating-scandal-6554101"
-    },
-    {
-     "added": "2026-11-16",
-     "dates": [
-      "2026-11-16"
-     ],
-     "id": "f4c3386a9f80b4cb",
-     "lang": "en",
-     "outlet": "Yonhap",
-     "published": "2026-11-16T06:20:40+00:00",
-     "publisher": "Yonhap",
-     "region": "asia",
-     "section": null,
-     "title": "(LEAD) (News Focus) S. Korea scrambles to crack down on AI-assisted cheating ahead of nat'l college entrance exam",
-     "type": "local",
-     "url": "https://en.yna.co.kr/view/AEN20261116005551315"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 15,
    "first_seen": "2026-11-15",
    "group": "asia",
    "id": "south-korea-tax-accountant-exam-cheating",
@@ -123479,7 +123698,7 @@
    "merged": [
     "south-korea-college-entrance-exam-inspections"
    ],
-   "outlets_today": 6,
+   "outlets_today": 7,
    "previous_titles": [
     "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
     "(LEAD) Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
@@ -123490,6 +123709,18 @@
     "(LEAD) Half million students take annual college entrance exam amid AI cheating concerns"
    ],
    "reports": [
+    {
+     "articles": [
+      "7e0d9fa53c494a8e"
+     ],
+     "date": "2026-11-19",
+     "group": "asia",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-19T16:39:47+00:00",
+     "text": "[Punch](https://punchng.com/man-accused-of-ai-cheating-in-south-korean-exam-found-dead/?utm_source=rss.punchng.com&utm_medium=web) reported that Lee Jin-woo, a 32-year-old accused of using AI to cheat in South Korea's LEET law school exam, was found dead in a Seoul motel."
+    },
     {
      "also": [
       {
@@ -126403,8 +126634,21 @@
    "topic": "humanitarian"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "ea397b7a00a24d75",
+     "lang": "en",
+     "outlet": "Anadolu Agency",
+     "published": "2026-11-19T16:24:32+00:00",
+     "publisher": "Anadolu Agency",
+     "region": "mena",
+     "section": null,
+     "title": "AK Parti Sözcüsü Çelik'ten KIZILELMA'nın envantere girmesine ilişkin paylaşım",
+     "type": "state-media",
+     "url": "https://www.aa.com.tr/tr/gundem/ak-parti-sozcusu-celikten-kizilelmanin-envantere-girmesine-iliskin-paylasim/4131273"
+    },
     {
      "added": "2026-11-15",
      "id": "59fcee7fa459ec30",
@@ -126432,14 +126676,14 @@
      "url": "https://www.sabah.com.tr/gundem/2026/11/15/ak-partili-ceyda-bolunmez-cankiriyi-hedef-alan-profesore-omer-celikten-sert-tepki-bu-zihniyet-hastalikli-zihniyet"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "europe",
    "id": "turkey-ak-party-academic-controversy",
    "label": "Turkey AK Party academic controversy",
    "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -126454,9 +126698,9 @@
      "text": "[Sabah](https://www.sabah.com.tr/gundem/2026/11/15/ak-partili-ceyda-bolunmez-cankiriyi-hedef-alan-profesore-omer-celikten-sert-tepki-bu-zihniyet-hastalikli-zihniyet) reported that Çelik described the remarks made by Ege University faculty member Prof. Dr. Adnan Yüksel Gürüz as a sick mindset."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "covered",
    "subject": "turkey",
    "title": "Turkey AK Party academic controversy",
    "topic": "politics"
@@ -128604,8 +128848,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "a252d202621f2270",
+     "lang": "en",
+     "outlet": "Anadolu Agency",
+     "published": "2026-11-19T16:17:21+00:00",
+     "publisher": "Anadolu Agency",
+     "region": "mena",
+     "section": null,
+     "title": "MHP Genel Başkanı Bahçeli'den APEC Zirvesi'ne ilişkin açıklama",
+     "type": "state-media",
+     "url": "https://www.aa.com.tr/tr/gundem/mhp-genel-baskani-bahceliden-apec-zirvesine-iliskin-aciklama/4131269"
+    },
     {
      "added": "2026-11-17",
      "id": "d03c2f6c701ab03c",
@@ -128646,14 +128903,14 @@
      "url": "https://www.sabah.com.tr/gundem/2026/11/15/son-dakika-mhp-lideri-devlet-bahceliden-50-maddede-terorsuz-turkiye"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "europe",
    "id": "turkey-counter-terrorism-strategy",
    "label": "Turkey counter-terrorism strategy",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -128668,9 +128925,9 @@
      "text": "[Sabah](https://www.sabah.com.tr/gundem/2026/11/17/mhp-lideri-bahceliden-onemli-mesajlar) reported that MHP leader Devlet Bahçeli made statements during his party's group meeting."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "covered",
    "subject": "turkey",
    "title": "Turkey counter-terrorism strategy",
    "topic": "security"
@@ -141104,8 +141361,21 @@
    "topic": "markets-strategic"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "4744bed3ddcaa40c",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-19T16:33:14+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "La Libertad Avanza presiona para suspender las PASO en la Capital y tensiona el vínculo con Jorge Macri",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/politica/la-libertad-avanza-presiona-para-suspender-las-paso-en-la-capital-y-tensiona-el-vinculo-con-jorge-nid19112026/"
+    },
     {
      "added": "2026-11-17",
      "id": "50d90903258e1ab6",
@@ -141146,15 +141416,27 @@
      "url": "https://www.clarin.com/politica/jefe-pro-senado-puso-duda-gobierno-votos-suspender-paso-veo-certero_0_gIEDIWARto.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-15",
    "group": "latam",
    "id": "argentina-electoral-reform-debate",
    "label": "Argentina electoral reform debate",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "4744bed3ddcaa40c"
+     ],
+     "date": "2026-11-19",
+     "group": "latam",
+     "outlets": [
+      "La Nación (Argentina)"
+     ],
+     "published": "2026-11-19T16:33:14+00:00",
+     "text": "[La Nación (Argentina)](https://www.lanacion.com.ar/politica/la-libertad-avanza-presiona-para-suspender-las-paso-en-la-capital-y-tensiona-el-vinculo-con-jorge-nid19112026/) reported that La Libertad Avanza is pushing to suspend the PASO primaries in the Capital, creating tension with Jorge Macri's government."
+    },
     {
      "articles": [
       "50d90903258e1ab6"
@@ -141192,9 +141474,9 @@
      "text": "[La Nación (Argentina)](https://www.lanacion.com.ar/politica/el-kirchnerismo-y-el-pro-cuestionan-la-suspension-de-las-paso-que-propone-el-gobierno-y-no-ven-que-nid15112026/) reported that Union por la Patria deputies bloc head German Martinez and PRO Senate bloc head Martin Goerling criticized the initiative to suspend the PASO."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Argentina electoral reform debate",
    "topic": "politics"
   },
@@ -182534,8 +182816,21 @@
    "topic": "security"
   },
   {
-   "article_count": 36,
+   "article_count": 37,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "8dd613452ac2813f",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-19T16:37:34+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Fountain of Life Church postpones thanksgiving service",
+     "type": "local",
+     "url": "https://punchng.com/fountain-of-life-church-postpones-thanksgiving-service/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-19",
      "id": "db9a5fda9876197a",
@@ -183008,7 +183303,7 @@
      "url": "https://thesun.ng/jimmy-odukoya-removed-as-senior-pastor-of-fountain-of-life-church/"
     }
    ],
-   "articles_today": 8,
+   "articles_today": 9,
    "first_seen": "2026-11-17",
    "group": "africa",
    "id": "fountain-of-life-church-leadership-dispute",
@@ -183022,6 +183317,18 @@
     "My late father appeared in dream, warned me not to succumb – Jimmy Odukoya"
    ],
    "reports": [
+    {
+     "articles": [
+      "8dd613452ac2813f"
+     ],
+     "date": "2026-11-19",
+     "group": "africa",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-19T16:37:34+00:00",
+     "text": "[Punch](https://punchng.com/fountain-of-life-church-postpones-thanksgiving-service/?utm_source=rss.punchng.com&utm_medium=web) reported that the Fountain of Life Church postponed its 2026 Thanksgiving service amid a leadership dispute without providing a new date."
+    },
     {
      "articles": [
       "26a4c88b2a0451dd",
@@ -184737,8 +185044,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "4bf39c30e7efd560",
+     "lang": "en",
+     "outlet": "Nikkei Asia",
+     "published": "2026-11-19T16:39:47+00:00",
+     "publisher": "Nikkei Asia",
+     "region": "asia",
+     "section": null,
+     "title": "Alibaba trains next-gen AI model on own chips amid tighter US curbs",
+     "type": "regional",
+     "url": "https://asia.nikkei.com/business/technology/alibaba-trains-next-gen-ai-model-on-own-chips-amid-tighter-us-curbs"
+    },
     {
      "added": "2026-11-17",
      "id": "b9e297d8e42f7613",
@@ -184766,15 +185086,27 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z1FzanV3YlQwT2k5ZXk3Wnc3RzI2cVFsNDdjaHk5TTJJU0FiNnVPYllVYnRVcjZkTEMwYVZ6bU01SE54THNuRl9NdUVrekhxdXlwaVBubmhJTEt6Z1V4R2kwTGpjdmVkdkxxVl9vVkZXYWFuR1lEdjRWUnVPVG4tQVRLdVp4bXJvaVhSM1pXN25keDRrNXA4S0dvWWZoX3FfSE93?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "asia",
    "id": "exclusive-china-taps-us-ai-models",
    "label": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "4bf39c30e7efd560"
+     ],
+     "date": "2026-11-19",
+     "group": "asia",
+     "outlets": [
+      "Nikkei Asia"
+     ],
+     "published": "2026-11-19T16:39:47+00:00",
+     "text": "[Nikkei Asia](https://asia.nikkei.com/business/technology/alibaba-trains-next-gen-ai-model-on-own-chips-amid-tighter-us-curbs) reported that Alibaba trained its next-generation AI model on its own chips amid tighter US restrictions."
+    },
     {
      "articles": [
       "b9e297d8e42f7613",
@@ -184790,9 +185122,9 @@
      "text": "[Reuters](https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z1FzanV3YlQwT2k5ZXk3Wnc3RzI2cVFsNDdjaHk5TTJJU0FiNnVPYllVYnRVcjZkTEMwYVZ6bU01SE54THNuRl9NdUVrekhxdXlwaVBubmhJTEt6Z1V4R2kwTGpjdmVkdkxxVl9vVkZXYWFuR1lEdjRWUnVPVG4tQVRLdVp4bXJvaVhSM1pXN25keDRrNXA4S0dvWWZoX3FfSE93?oc=5), [Rappler (Philippines)](https://www.rappler.com/technology/china-taps-us-ai-models-train-homegrown-rivals/) reported that China is utilizing US AI models through distillation to train homegrown rivals and bypass advanced chip restrictions."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "china",
    "title": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite",
    "topic": "technology-policy"
@@ -195379,8 +195711,73 @@
    "topic": "security"
   },
   {
-   "article_count": 5,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "817e971500e9c0b3",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-19T16:22:25+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Anthropic IPO to generate $550 million in fees for Wall Street banks, Goldman Sachs, Morgan Stanley lead",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/anthropic-ipo-to-generate-550-million-in-fees-for-wall-street-banks-goldman-sachs-morgan-stanley-lead-101795104702392.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "28b7f550010e7d39",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-18T22:25:20+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "Anthropic fija en 83 dólares el precio de su histórica salida a Bolsa: recaudará más que SpaceX y alcanzará una valoración de 1,5 billones",
+     "type": "local",
+     "url": "https://www.larazon.es/economia/anthropic-fija-83-dolares-precio-historica-salida-bolsa-recaudara-mas-que-spacex-alcanzara-valoracion-15-billones_202611186afe2574a6f8072789ee30f0.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "98eee8e0a6c39312",
+     "lang": "es",
+     "outlet": "Clarín",
+     "published": "2026-11-18T22:20:12+00:00",
+     "publisher": "Clarín",
+     "region": "latam",
+     "section": null,
+     "title": "Wall Street cierra dispar antes del debut de Anthropic",
+     "type": "local",
+     "url": "https://www.clarin.com/estados-unidos/wall-street-cierra-dispar-antes-del-debut-de-anthropic_0_1kiz4Lf1B6.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "338c993287e595e5",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-18T21:41:11+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Anthropic desbanca a SpaceX como la mayor salida a Bolsa de la historia y fija su valoración en 1,5 billones de dólares",
+     "type": "local",
+     "url": "https://elpais.com/economia/2026-11-18/anthropic-desbanca-a-spacex-y-protagoniza-la-mayor-salida-a-bolsa-de-la-historia.html"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "5dc9bb5ba918e8ce",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-18T19:20:00+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "Anthropic valorisé 1 400 milliards de dollars à Wall Street : qui va toucher le jackpot ?",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/secteur/high-tech/anthropic-valorise-1-400-milliards-de-dollars-a-wall-street-qui-va-toucher-le-jackpot-20261118"
+    },
     {
      "added": "2026-11-18",
      "id": "b061d01e307ece54",
@@ -195447,15 +195844,42 @@
      "url": "https://www.lanacion.com.ar/economia/IA/nvidia-pone-en-marcha-una-medida-de-seguridad-tras-el-escandalo-de-espionaje-nid17112026/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "namerica",
    "id": "nvidia-oversight-committee-formation",
    "label": "Nvidia oversight committee formation",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "merged": [
+    "anthropic-wall-street-valuation"
+   ],
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "817e971500e9c0b3"
+     ],
+     "date": "2026-11-19",
+     "group": "europe",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-19T16:22:25+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/anthropic-ipo-to-generate-550-million-in-fees-for-wall-street-banks-goldman-sachs-morgan-stanley-lead-101795104702392.html) reported that Anthropic's IPO is set to generate $550 million in fees for Wall Street banks, with Goldman Sachs and Morgan Stanley leading."
+    },
+    {
+     "articles": [
+      "98eee8e0a6c39312"
+     ],
+     "date": "2026-11-18",
+     "group": "europe",
+     "outlets": [
+      "Clarín"
+     ],
+     "published": "2026-11-18T22:20:12+00:00",
+     "text": "[Clarín](https://www.clarin.com/estados-unidos/wall-street-cierra-dispar-antes-del-debut-de-anthropic_0_1kiz4Lf1B6.html) reported that Wall Street closed mixed prior to the artificial intelligence company's market debut while Nvidia shares fell despite solid results."
+    },
     {
      "articles": [
       "d52ab538634f9ef1"
@@ -195483,9 +195907,9 @@
      "text": "[La Nación (Argentina)](https://www.lanacion.com.ar/economia/IA/nvidia-pone-en-marcha-una-medida-de-seguridad-tras-el-escandalo-de-espionaje-nid17112026/), [El Universal (Mexico)](https://www.eluniversal.com.mx/mundo/nvidia-presenta-primeros-resultados-tras-escandalo-de-supuesto-espionaje-inversores-esperan-que-auge-de-la-ia-pueda-resistir-la-crisis/) reported that Nvidia created a supervision committee that will report to interim CEO Colette Kress following an alleged espionage scandal."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
    "title": "Nvidia oversight committee formation",
    "topic": "business-strategic"
@@ -208925,8 +209349,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 42,
+   "article_count": 43,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "60e936bdaf20af34",
+     "lang": "es",
+     "outlet": "Clarín",
+     "published": "2026-11-19T16:30:08+00:00",
+     "publisher": "Clarín",
+     "region": "latam",
+     "section": null,
+     "title": "El secretario de Defensa de EEUU visita Ecuador y Honduras",
+     "type": "local",
+     "url": "https://www.clarin.com/estados-unidos/el-secretario-de-defensa-de-eeuu-visita-ecuador-y-honduras_0_Hu5jIajuuo.html"
+    },
     {
      "added": "2026-11-19",
      "id": "be9013cb6d2394cd",
@@ -209439,22 +209876,9 @@
      "title": "Venezuela y Estados Unidos reanudan la cooperación militar",
      "type": "local",
      "url": "https://oem.com.mx/elsoldemexico/mundo/venezuela-y-estados-unidos-reanudan-la-cooperacion-militar-33194700"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "eb17c91668c330f2",
-     "lang": "es",
-     "outlet": "El Colombiano",
-     "published": "2026-11-18T13:22:14+00:00",
-     "publisher": "El Colombiano",
-     "region": "latam",
-     "section": null,
-     "title": "Pete Hegseth, Secretario de Guerra de Estados Unidos, llegará a Colombia este miércoles con avión C-130 para la Fuerza Pública",
-     "type": "local",
-     "url": "https://www.elcolombiano.com/colombia/pete-hegseth-visita-colombia-avion-c-130-fuerza-publica-NB43718498"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 15,
    "first_seen": "2026-11-18",
    "group": "latam",
    "id": "us-secretary-of-war-visit-to",
@@ -209464,11 +209888,23 @@
    "merged": [
     "us-and-venezuela-military-agreement"
    ],
-   "outlets_today": 14,
+   "outlets_today": 15,
    "previous_titles": [
     "Hegseth in Colombia to deepen anti-drug ties after surprise Venezuela stopover"
    ],
    "reports": [
+    {
+     "articles": [
+      "60e936bdaf20af34"
+     ],
+     "date": "2026-11-19",
+     "group": "latam",
+     "outlets": [
+      "Clarín"
+     ],
+     "published": "2026-11-19T16:30:08+00:00",
+     "text": "[Clarín](https://www.clarin.com/estados-unidos/el-secretario-de-defensa-de-eeuu-visita-ecuador-y-honduras_0_Hu5jIajuuo.html) reported that US Defense Secretary Pete Hegseth is visiting Ecuador and Honduras after meetings in Colombia and Venezuela to discuss combating drug trafficking."
+    },
     {
      "articles": [
       "9bbe791e4733549f"
@@ -216112,8 +216548,21 @@
    "topic": "conflict"
   },
   {
-   "article_count": 36,
+   "article_count": 37,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "34791a1fc323e053",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-19T16:39:47+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "IDF targets illegal Palestinian construction, land seizures in West Bank operation",
+     "type": "local",
+     "url": "https://www.jpost.com/israel-news/article-915501"
+    },
     {
      "added": "2026-11-19",
      "id": "a5dbd51495a2c25b",
@@ -216589,19 +217038,31 @@
      "url": "https://felesteen.news/post/190471/%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%A8%D8%AF%D8%A3-%D8%B9%D9%85%D9%84%D9%8A%D8%A9-%D8%B9%D8%B3%D9%83%D8%B1%D9%8A%D8%A9-%D9%88%D8%B3%D8%B7-%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9"
     }
    ],
-   "articles_today": 10,
+   "articles_today": 11,
    "first_seen": "2026-11-18",
    "group": "mena",
    "id": "israeli-military-operation-in-central-gaza",
    "label": "Israeli military operation in central Gaza",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 9,
+   "outlets_today": 10,
    "previous_titles": [
     "Israeli army launches military offensive in central Gaza despite ceasefire",
     "Israeli Tanks Advance Across Gaza Cease-Fire Line in Rare Incursion"
    ],
    "reports": [
+    {
+     "articles": [
+      "34791a1fc323e053"
+     ],
+     "date": "2026-11-19",
+     "group": "mena",
+     "outlets": [
+      "The Jerusalem Post"
+     ],
+     "published": "2026-11-19T16:39:47+00:00",
+     "text": "[The Jerusalem Post](https://www.jpost.com/israel-news/article-915501) reported that the IDF targeted illegal Palestinian construction and land seizures in Area C during a West Bank operation."
+    },
     {
      "articles": [
       "a5dbd51495a2c25b"
@@ -219286,8 +219747,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "f1528bb35270f5f6",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-19T16:26:06+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "'We spy on China, they spy on us': Trump dismisses need to confront Xi over espionage amid Nvidia row",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/we-spy-on-china-they-spy-on-us-trump-dismisses-need-to-confront-xi-over-espionage-amid-nvidia-row-jensen-huang-apec-101795099527481.html"
+    },
     {
      "added": "2026-11-18",
      "id": "1423c813ec0f801f",
@@ -219315,14 +219789,14 @@
      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "asia",
    "id": "as-trump-and-xi-meet-china",
    "label": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
    "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -219349,9 +219823,9 @@
      "text": "[New York Times](https://www.nytimes.com/2026/11/18/us/politics/trump-xi-shenzhen-spy-scandal.html) reported that President Xi Jinping offered a hug and red-carpet welcome as President Trump avoided discussing the espionage case involving Jensen Huang."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "china",
    "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
    "topic": "technology-policy"
@@ -225431,91 +225905,6 @@
    "topic": "security"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "28b7f550010e7d39",
-     "lang": "es",
-     "outlet": "La Razón",
-     "published": "2026-11-18T22:25:20+00:00",
-     "publisher": "La Razón",
-     "region": "europe",
-     "section": null,
-     "title": "Anthropic fija en 83 dólares el precio de su histórica salida a Bolsa: recaudará más que SpaceX y alcanzará una valoración de 1,5 billones",
-     "type": "local",
-     "url": "https://www.larazon.es/economia/anthropic-fija-83-dolares-precio-historica-salida-bolsa-recaudara-mas-que-spacex-alcanzara-valoracion-15-billones_202611186afe2574a6f8072789ee30f0.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "98eee8e0a6c39312",
-     "lang": "es",
-     "outlet": "Clarín",
-     "published": "2026-11-18T22:20:12+00:00",
-     "publisher": "Clarín",
-     "region": "latam",
-     "section": null,
-     "title": "Wall Street cierra dispar antes del debut de Anthropic",
-     "type": "local",
-     "url": "https://www.clarin.com/estados-unidos/wall-street-cierra-dispar-antes-del-debut-de-anthropic_0_1kiz4Lf1B6.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "338c993287e595e5",
-     "lang": "es",
-     "outlet": "El País (Spanish)",
-     "published": "2026-11-18T21:41:11+00:00",
-     "publisher": "El País",
-     "region": "europe",
-     "section": null,
-     "title": "Anthropic desbanca a SpaceX como la mayor salida a Bolsa de la historia y fija su valoración en 1,5 billones de dólares",
-     "type": "local",
-     "url": "https://elpais.com/economia/2026-11-18/anthropic-desbanca-a-spacex-y-protagoniza-la-mayor-salida-a-bolsa-de-la-historia.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "5dc9bb5ba918e8ce",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-18T19:20:00+00:00",
-     "publisher": "Le Figaro",
-     "region": "europe",
-     "section": null,
-     "title": "Anthropic valorisé 1 400 milliards de dollars à Wall Street : qui va toucher le jackpot ?",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/secteur/high-tech/anthropic-valorise-1-400-milliards-de-dollars-a-wall-street-qui-va-toucher-le-jackpot-20261118"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "europe",
-   "id": "anthropic-wall-street-valuation",
-   "label": "Anthropic Wall Street valuation",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "98eee8e0a6c39312"
-     ],
-     "date": "2026-11-18",
-     "group": "europe",
-     "outlets": [
-      "Clarín"
-     ],
-     "published": "2026-11-18T22:20:12+00:00",
-     "text": "[Clarín](https://www.clarin.com/estados-unidos/wall-street-cierra-dispar-antes-del-debut-de-anthropic_0_1kiz4Lf1B6.html) reported that Wall Street closed mixed prior to the artificial intelligence company's market debut while Nvidia shares fell despite solid results."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "subject": "us",
-   "title": "Anthropic Wall Street valuation",
-   "topic": "markets-strategic"
-  },
-  {
    "article_count": 2,
    "articles": [
     {
@@ -226758,7 +227147,8 @@
    "last_updated": "2026-11-19",
    "outlets_today": 10,
    "previous_titles": [
-    "Florida pastor convicted of U.S. charges in 2021 killing of Haitian president"
+    "Florida pastor convicted of U.S. charges in 2021 killing of Haitian president",
+    "Florida pastor convicted of US charges related to assassination of Haitian President Jovenel Moïse"
    ],
    "reports": [
     {
@@ -226840,13 +227230,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "us",
-   "title": "Florida pastor convicted of US charges related to assassination of Haitian President Jovenel Moïse",
+   "title": "Florida pastor convicted of U.S. charges in 2021 killing of Haitian president",
    "title_from": {
-    "backing": 7,
+    "backing": 8,
     "date": "2026-11-19",
-    "of": 7,
-    "outlet": "Associated Press",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPenVGckxZaVBEZ3NVQnpZRkczWEZyeUtaaDRkd0FoT0pfYkdsY21MeVExVmZJR3NTSUJoNnp1TzlSY0pUSWNTQmkySUxKSnJ5UzIzX18yMFl4SGhVQU1Oa0VjR1oxWjJscTVHdnJpMjZEb1lmeDNvSHd0aEZTaFJ3SWktbkVTR3dfdTJVUUFuU0sySnZLNUx5dGNYRVBZcl80b2gydUdR?oc=5"
+    "of": 9,
+    "outlet": "CBC",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRF9QSno4cVdYTG5sR0plUUlqMkJQbWxPdFlDY3JzUEw2bk1INFd4Z2Z4YzlwMllfTVgxOU1DRWg5cjZmdWZFQnJlWTJrVXFoaGFjWGpmWkpJbWhWRzBuc3ZCdS1TNHVWTDd6MVBFNmtxWFhZLVhOVTFZMDVpUmNLUEkxQzBhbWsyUGttcQ?oc=5"
    },
    "topic": "justice"
   },
@@ -232868,117 +233258,6 @@
    "topic": "politics"
   },
   {
-   "article_count": 6,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "88326bd194c269af",
-     "lang": "sr",
-     "outlet": "Blic",
-     "published": "2026-11-19T13:46:27+00:00",
-     "publisher": "Blic",
-     "region": "europe",
-     "section": null,
-     "title": "Aleksandar Čupić novi predsednik Skupštine Srbije! Izabran većinom glasova u parlamentu posle tri burna dana (Foto, Video)",
-     "type": "local",
-     "url": "https://www.blic.rs/vesti/politika/uzivo-aleksandar-cupic-novi-predsednik-skupstine-srbije-izabran-vecinom-u-parlamentu/mk50bq4"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "69324f4ba7fee8f9",
-     "lang": "sr",
-     "outlet": "Blic",
-     "published": "2026-11-19T13:38:37+00:00",
-     "publisher": "Blic",
-     "region": "europe",
-     "section": null,
-     "title": "Oglasili se studenti nakon što je Aleksandar Čupić izabran za predsednika Skupštine Srbije",
-     "type": "local",
-     "url": "https://www.blic.rs/vesti/politika/oglasili-se-studenti-nakon-sto-je-aleksandar-cupic-izabran-za-predsednika-skupstine/6bwtl68"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "b64781462b0870bb",
-     "lang": "sr",
-     "outlet": "Blic",
-     "published": "2026-11-19T13:33:30+00:00",
-     "publisher": "Blic",
-     "region": "europe",
-     "section": null,
-     "title": "Aleksandar Čupić postaje v.d. predsednika Srbije: Ovo su njegova ovlašćenja",
-     "type": "local",
-     "url": "https://www.blic.rs/vesti/politika/aleksandar-cupic-postaje-vd-predsednika-srbije-ovo-su-njegova-ovlascenja/kg13ybr"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "b4ad227f3b19d023",
-     "lang": "sr",
-     "outlet": "Nezavisne Novine",
-     "published": "2026-11-19T12:56:43+00:00",
-     "publisher": "Nezavisne Novine",
-     "region": "europe",
-     "section": null,
-     "title": "Ko je Aleksandar Čupić, novi predsjednik Skupštine Srbije?",
-     "type": "local",
-     "url": "https://www.nezavisne.com/novosti/ex-yu/Ko-je-Aleksandar-Cupic-novi-predsjednik-Skupstine-Srbije/993256"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "b70fc0e2a6b27094",
-     "lang": "bs",
-     "outlet": "Oslobođenje",
-     "published": "2026-11-19T12:33:02+00:00",
-     "publisher": "Oslobođenje",
-     "region": "europe",
-     "section": null,
-     "title": "Aleksandar Čupić izabran za novog predsjednika Skupštine Srbije",
-     "type": "local",
-     "url": "https://www.oslobodjenje.ba/vijesti/region/aleksandar-cupic-izabran-za-novog-predsjednika-skupstine-srbije/"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "2e6691dda5ea3f66",
-     "lang": "sr",
-     "outlet": "Nezavisne Novine",
-     "published": "2026-11-19T12:27:00+00:00",
-     "publisher": "Nezavisne Novine",
-     "region": "europe",
-     "section": null,
-     "title": "Aleksandar Čupić novi predsjednik Narodne skupštine Republike Srbije",
-     "type": "local",
-     "url": "https://www.nezavisne.com/novosti/ex-yu/Aleksandar-Cupic-novi-predsjednik-Narodne-skupstine-Republike-Srbije/993241"
-    }
-   ],
-   "articles_today": 6,
-   "first_seen": "2026-11-19",
-   "group": "europe",
-   "id": "serbia-parliamentary-leadership-election",
-   "label": "Serbia parliamentary leadership election",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 3,
-   "reports": [
-    {
-     "articles": [
-      "2e6691dda5ea3f66"
-     ],
-     "date": "2026-11-19",
-     "group": "europe",
-     "outlets": [
-      "Nezavisne Novine"
-     ],
-     "published": "2026-11-19T12:27:00+00:00",
-     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/ex-yu/Aleksandar-Cupic-novi-predsjednik-Narodne-skupstine-Republike-Srbije/993241) reported that Aleksandar Čupić was elected as the new president of the National Assembly of the Republic of Serbia."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "serbia",
-   "title": "Serbia parliamentary leadership election",
-   "topic": "politics"
-  },
-  {
    "article_count": 4,
    "articles": [
     {
@@ -235671,47 +235950,379 @@
   }
  ],
  "retry": [
+  "3b1e21fb8edcdcb7",
+  "a5c68830ca381d9a",
+  "130ef6eaa372380e",
+  "c06c258b1b799ba1",
+  "d881894890be8fcf",
+  "b1dfb6872456a4c5",
+  "1a7230c544b2357e",
+  "e4d4fed920c3504f",
+  "b85662755612ac4c",
+  "147fa54eb8621ad6",
+  "50c585d525113605",
+  "319f5cdfd8f0b184",
+  "9def9ff26f7aa216",
+  "686376efc2ef9341",
+  "35209755899b3855",
+  "4c51d8939e8a49b2",
+  "f3191d8927ab9537",
+  "4d723f3b537e1daa",
+  "3116c2128e04df6f",
+  "29e8243c58fa7b1a",
+  "3c630fa6b366aa44",
+  "91267f6ce2e65f98",
+  "9a4c95b5992c427a",
+  "181a6c526c3f7b6c",
+  "838e4b02e75c1802",
+  "b18531a3196fd3c8",
+  "649939c19c8df16d",
+  "1c21b1a6e192263e",
+  "1d8da4bbf8454828",
+  "36a564dee89573f7",
+  "0c16b431b326763f",
+  "1138000edcd16237",
+  "fe67263cf4969736",
+  "fc7787f43266aa88",
+  "a88a688b03240968",
+  "f7fb4d37f42cc47a",
+  "0e2c2cb825ecbcf8",
+  "acef543ce3f4bb6f",
+  "b32cbe7bd987f940",
+  "2acf70c07b2c8313",
+  "b2737917662211ae",
+  "118557f1d57e87ee",
+  "b0a63ff1e4fc15fd",
+  "a2fd5000cdb28ba0",
+  "7491474c7d5f6e24",
+  "95a5d36aa23c1f4f",
+  "00678a7996c5b77d",
+  "f7e17424a66b6dbb",
+  "46c591a6b635d87a",
+  "50915d6850db9fec",
+  "b094dd4463df47c1",
+  "b14a1c5b068a014c",
+  "0d405c54fd0bc7c1",
+  "0d39128f4cffe313",
+  "6ccf6bbaede958c3",
+  "c5435825c5abd412",
+  "f9dfef7379d82a02",
+  "706a52486451462a",
+  "ea717a6533f09f6c",
+  "28bf93eb7761ea62",
+  "16f54ea62f2ef22a",
+  "aeb53a29879a58fd",
+  "eb414383f46333a9",
+  "70b87866ffb346fb",
+  "6a56b8335e81832b",
+  "1ece686cd8431f43",
+  "58afb16b4e05c6b5",
+  "254f53f4b2a2815e",
+  "75c98837235fa5eb",
+  "a06d02d551017dad",
+  "d715ce3487269959",
+  "c6a62f6f73f9ed67",
+  "fd798144d4ecb295",
+  "963c4ed0830cf87c",
+  "b7d276633de6d9b4",
+  "d49390031e1a3784",
+  "95949e6c2d4128b0",
+  "d855468594d2484e",
+  "4f5efcb064a1a50d",
+  "6c05ac30f038feea",
+  "83fc1e7c16f015ce",
+  "dcb57057443efec7",
+  "fdaff6dfa913b7b6",
+  "baf33f3941ba8498",
+  "e45637371e1f5e3e",
+  "e2259b6bb1a4c128",
+  "58ba90c5c9184e8d",
+  "243b04fa6ae22f71",
+  "b5dfc8857c89bb2b",
+  "855ca64817871a9c",
+  "e04bc7a73a7a0807",
+  "81a02ec79a736bf3",
+  "47727c790d85661d",
+  "503cdb31bd9d6712",
+  "0eb7186f5ccf104a",
+  "aa2c5091a9a7e63a",
+  "5b6cb9042f3c435d",
+  "23ac1d2c5e5e1c74",
+  "0d9fc6c45bd9ee2b",
+  "279ed15f53c1d7b5",
+  "23855d188474731b",
+  "befcef5708ea46a2",
+  "533e4365f69608c7",
+  "cf9f77de01386ab9",
+  "70f8584ae237a116",
+  "9ede5b6b9dedbdfc",
+  "c69bc5f6e53aea82",
+  "3545d7a74ade76f9",
+  "0c56d922430c01f0",
+  "19d842e2df9cbefe",
+  "095ebea05c8f5fa7",
+  "8c51227dc8feb0d7",
+  "f60b787e36f637a0",
+  "855234658df34097",
+  "d18bde0ff1b03be1",
+  "44276d9fc1dbe36d",
+  "030c95f005bf4fb0",
+  "c0d6370518ed5118",
+  "67a358e4c3eef81b",
+  "6cf4adfe68d23a34",
+  "3df7253392ed4065",
+  "0584a8bb298e599d",
+  "7e281045c1f1d4e2",
+  "c4600a441f918360",
+  "4494fd8702866dc4",
+  "7963ee2c799fa4eb",
+  "1d93fe4ef6a7ca93",
+  "b815319f4f3aa8fb",
+  "19a6c9a37e3ad54a",
+  "a9494652595c3519",
+  "dbee0be893c6de8a",
+  "0a42b54e150bb313",
+  "999606051a763b59",
+  "9cc9eda060ac8540",
+  "cae44292f46ee846",
+  "7fde904c2543c4a9",
+  "b632ec7df45b71ff",
+  "087452755cb285f5",
+  "b16cb16f75a3395f",
+  "2768fd3ddba069bd",
+  "0153acfdd2044054",
+  "6be1a14da4d4f567",
+  "9c4427d9d38c750d",
+  "4a724844ee89d2ec",
+  "afe039be0898e90a",
+  "15038dc3ca86ea35",
+  "e841f60c1a586146",
+  "8c7746764241a4dd",
+  "0bac70e99b4faae2",
+  "d86eeb741aee8517",
+  "825bf932def1278a",
+  "859481e554ac3c0b",
+  "3fc5417285bed80e",
+  "02eb8f4a92cfc1a3",
+  "a41d76d171353ae1",
+  "7e5f53e40f93672e",
+  "c898e073c1149dd9",
+  "8f7280cd5db4f1e4",
+  "3647f3f8521eb4b0",
+  "62b26dc6777936af",
+  "9f187508e4800722",
+  "ecfd0c5d84d0f93e",
+  "91eb1e66968b5299",
+  "fa72e3c0ee0be065",
+  "5806c5d0c75f6369",
+  "60839a9400808bb9",
+  "1ac545da5e0d16fa",
+  "d01e6eb3b85d28d8",
+  "6814b3ad73845fd3",
+  "4a4a60a13cef614f",
+  "25c722815d0df6f1",
+  "9e32a950539b1d76",
+  "ae82d9bc4f0d163b",
+  "c0ab1ebe6c5a5f24",
+  "86eba49d959927e7",
+  "1d03bd5c72c128be",
+  "d9f81aecb1462f49",
+  "f72adae4b096a108",
+  "3e9e638542f9c912",
+  "5d78eea2ec4b1d36",
+  "7e81b8cb2f9da8b4",
+  "2969df489629e0b8",
+  "6506a8992d7e1869",
+  "a99e1b5b2b0ddff9",
+  "f8e4e9e29bb06f06",
+  "7f41886fee2c598b",
+  "25388cc01490d1e8",
+  "c68cd20092c2549b",
+  "d7f8d7cc8152dd49",
+  "5899dd71fcc37376",
+  "5b910bf4e1a32711",
+  "3d7c88322dec84d2",
+  "1304a96a2eb8fe62",
+  "db775e044b0f58b5",
+  "4a6b43078305bc6a",
+  "055940641a93ec9e",
+  "9112b8aeef46a674",
+  "d2d4e04b8985b05a",
+  "0699ede646ed05dc",
+  "4cc5695b97fa4c9e",
+  "9415cb58549b70c3",
+  "eacb73a6032549bc",
+  "cba5026dffe2a100",
+  "a1e2cc245f282d06",
+  "f0ac9255ff3f82ce",
+  "06b6229979da54a7",
+  "06b289503a0262f1",
+  "492e79cc7b0cddf9",
+  "5ae23bd1af83d5f4",
+  "eab0d736f1a753bd",
+  "0b8e13ae9a8aedb5",
+  "d6bfd6e8ed218cfd",
+  "3e269bf9cbda86af",
+  "2450a2f4b6c21d63",
+  "e3ef05b70efd8d0c",
+  "d17afb6419921594",
+  "22428b64f2e74dcf",
+  "9d65a8ab4046fd21",
+  "5d0ac772e19ade68",
+  "08ce1919bfced592",
+  "4532663d655aef11",
+  "6cd9a736f4356c23",
+  "928d220ada3ddfe4",
+  "58b7450bc5fb47c6",
+  "6d1754bbe4ac78fb",
+  "b05108d444d9db81",
+  "dc23f0db458d492c",
+  "136da148c6349d92",
+  "9ee050eb02b931b7",
+  "a4c2be1a3d934a7a",
+  "1dce8a9438674892",
+  "104a145137bcc98b",
+  "06202ae2a94a78a2",
+  "f54a167177af78f3",
+  "4ce5ea7663bbbbbf",
+  "a9b3d110ab3d1f38",
+  "38e403f8240df26c",
+  "9f170d244cd14dde",
+  "e216c3311ac45278",
+  "9901acedafe6a428",
+  "59dd31b5e4922926",
+  "2c7c20dfb7570e14",
+  "3883e9c72e5844ed",
+  "be06babe8635c624",
+  "58c182e2d3bdcc43",
+  "19bbe95b0f212f0d",
+  "ce686fa703478d8a",
+  "58438ae9859e7a1d",
+  "0b6925c9d292f6c5",
+  "2fa7d5c19fff93f7",
+  "00606a75f0ce7e47",
+  "eb5a8756445ff3d2",
+  "47c0db00ffdbe26e",
+  "89925b1818d670ab",
+  "a98061dc8f96c5da",
+  "045d1fea2e23d199",
+  "d11e74eee6599ff3",
+  "c86316b49ec601ce",
+  "21dc884e8155d2bc",
+  "31889067e985f907",
+  "64a058f3b3d10f1c",
+  "f1e0837faea85432",
+  "f033f90f67fe04de",
+  "1814ace32bf4921e",
+  "cd8d3fe08efd3932",
+  "486e3cc5ddfa101b",
+  "4ba63c669491ef99",
+  "a42deb66a2f7c76c",
+  "cb9edccb8f3509fa",
   "a5438143dc926499",
   "4fab823d48c6c285",
   "2b98ab1540ffb129",
   "6c5c4257fecbad34",
   "229aae58f209c77e",
   "6b1fbc453c493ddd",
-  "c4e3f4b565de4b3c",
-  "4494fd8702866dc4",
   "b2afaad703374d2c",
-  "b815319f4f3aa8fb",
+  "f907101ca69527b2",
   "58aad4915bf42347",
   "95480ad9ac0dc0d6",
-  "fdaff6dfa913b7b6",
   "2e3f1040ad2c57f0",
+  "1be3a765a6e2b1ff",
   "e496b6a06dd7f185",
+  "911c7d0d458d2b71",
   "be8b5bdd0c3d3f73",
   "01598818c7ef3aa7",
+  "1cf3ebe28617ba07",
   "4caec49be7452ecb",
   "581bcd4c619fe047",
   "b7f20c1f790ac966",
   "229d4ac1cfc094f8",
   "27e569c0d7a04bd6",
-  "055940641a93ec9e",
   "2bd825dafc984689",
-  "baf33f3941ba8498",
+  "60169701015aacbc",
   "7a951491f3b43ebd",
+  "ac415acf1fd59da7",
+  "c8c088a4987c812f",
   "94acb9b84c94144b",
   "93e2aef164b9be4e",
   "1b140ec02e49301d",
   "af936ebb5a24f357",
-  "eacb73a6032549bc",
   "33453418f33a4681",
-  "c86316b49ec601ce",
-  "73835c8ac765d903",
   "e4809dd3aef3f252",
   "15cb55400ca18a88",
+  "6b9c5b819c636bd6",
   "9f04fae2c7025470",
   "f8a77c59895749d4",
   "a1ae75abc2b0a3d3",
-  "00079e3f41875ce7"
+  "00079e3f41875ce7",
+  "e4881e3816ec4635",
+  "3b7ed178bc125392",
+  "4f7f9291d07ff245",
+  "4edd827f67d0c91f",
+  "ab84c88c56bbb0b0",
+  "5da98bd4ff991ed3",
+  "956f7d5b3dc097aa",
+  "a7094ab0d4e3cb85",
+  "0c9689fe6818c78c",
+  "efc38753377bc3c4",
+  "7735a81043555efe",
+  "679ebf5cd5b23fb4",
+  "19457610b10fd0d3",
+  "3119af654b8f4ca3",
+  "a7f2a2f20540e161",
+  "e8f9e1cac4e0fa63",
+  "0bc2fddf2cffa080",
+  "7f2535829a773be3",
+  "4bf213969dcbf889",
+  "a784146989c5daa1",
+  "b020b205619c7020",
+  "178cab23be9e63ea",
+  "686285010bb63eb2",
+  "1adb437c5e5c8c70",
+  "72f4809b3203a12b",
+  "9fef935be6781cdc",
+  "e2d8c6a05f6a534c",
+  "85bfeba67a655077",
+  "dae19608a30785c8",
+  "cafef453f5cb0514",
+  "68b25d30e43944a0",
+  "75e80f7d96b7394e",
+  "3e0633440bd0b345",
+  "5f1d04eb5d76b036",
+  "932556ef503b65d8",
+  "497933aa1951295b",
+  "7e538edfeeb6c047",
+  "bd9de3ea31812668",
+  "48d5219265ca969f",
+  "9c690609e20b28d5",
+  "ec8792a7618b15b1",
+  "6378349c5dc9e573",
+  "efa9a7f42cf95e53",
+  "437255c6d7c07666",
+  "30f8abf78b9f61e4",
+  "ea7301ab44a6c13c",
+  "ed1d07caaf2b9296",
+  "a01551b175bb2ca1",
+  "3a1a34cca735777e",
+  "5f3648d193324060",
+  "7efd06927f3a2ce0",
+  "ccc37a2cbd7b6f4b",
+  "6c603ec6717c3eec",
+  "36479ee656d2c164",
+  "de8f6dbb89f301da",
+  "06e5aca715a10fde",
+  "df709aac4bfce8e5",
+  "db8b6669e3513a19",
+  "ed12d94e730c0974",
+  "5f3995b78e37b630",
+  "a35fc78e68ebe8d7",
+  "9134d59e8884a0f2",
+  "633a9849ef4b8495",
+  "5f2bd0246d48c8d5"
  ],
  "site": "geo",
- "updated": "2026-11-19T14:07:39+00:00"
+ "updated": "2026-11-19T17:04:21+00:00"
 }
