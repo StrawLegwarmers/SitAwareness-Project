@@ -110,7 +110,7 @@ sources:
   - {name: La Presse (Tunisia), feed: "https://www.lapresse.tn/feed/",                          region: mena, type: local, lang: fr}
   - {name: Echorouk,          feed: "https://www.echoroukonline.com/feed/",                     region: mena, type: local, lang: ar}
   - {name: Liberté (Algeria), feed: "https://www.liberte-algerie.com/feed/",                    region: mena, type: local, lang: fr}
-  - {name: Assabah (Morocco), feed: "https://assabah.ma/feed",                                  region: mena, type: local, lang: ar}
+  - {name: "Assabah (Morocco)", feed: "https://assabah.ma/feed", region: "mena", type: "local", lang: "ar", enabled: false, note: "Auto-disabled 2026-11-19: failing since 2026-11-12 (55 runs, HTTP 403). Re-enable when it works again."}
 
   # ── Africa ────────────────────────────────────────────────────────────────
   - {name: BBC Africa,        feed: "https://www.bbc.com/news/world/africa/rss.xml",            region: africa, type: international, lang: en}

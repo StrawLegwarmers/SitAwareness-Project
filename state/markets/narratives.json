@@ -245,25 +245,25 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 13,
-   "continuing": 7,
+   "calls": 4,
+   "candidates": 20,
+   "continuing": 9,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 517,
-   "in_stories": 18,
-   "kept": 14,
+   "in_stories": 28,
+   "kept": 23,
    "merged": 1,
-   "new": 5,
-   "rejected": 1,
-   "reported_by_2": 4,
-   "runs": 3,
-   "sent": 13,
-   "skipped": 1,
+   "new": 9,
+   "rejected": 3,
+   "reported_by_2": 5,
+   "runs": 4,
+   "sent": 20,
+   "skipped": 3,
    "split_calls": 0,
-   "updated": 7,
+   "updated": 9,
    "waiting": 0
   },
   {
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T08:02:02+00:00"
+  "all": "2026-11-19T10:39:45+00:00"
  },
  "narratives": [
   {
@@ -836,8 +836,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "72a0ede6ec9adedf",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-19T10:21:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Edge Higher as Traders Weigh Middle East Shipping Risks",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-supply-outlook-middle-east-shipping-risks-224e2724?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-17",
      "id": "fe80e5fb1d0ad9aa",
@@ -904,14 +917,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -962,9 +975,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -976,7 +989,7 @@
    "topic": "energy"
   },
   {
-   "article_count": 8,
+   "article_count": 9,
    "articles": [
     {
      "added": "2026-11-18",
@@ -990,6 +1003,19 @@
      "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
      "type": "international",
      "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "247dcc8f1dd74723",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-18T19:10:27+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia reportedly approaches Arm CEO Rene Haas for top job after Jensen Huang exit",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-reportedly-approaches-arm-ceo-rene-haas-for-top-job-after-jensen-huang-exit-5036869"
     },
     {
      "added": "2026-11-19",
@@ -1083,7 +1109,7 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
@@ -1093,8 +1119,20 @@
    "merged": [
     "nvidia-earnings-report"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "247dcc8f1dd74723"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-18T19:10:27+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/nvidia-reportedly-approaches-arm-ceo-rene-haas-for-top-job-after-jensen-huang-exit-5036869) reported that Nvidia reportedly approached Arm CEO Rene Haas for the top job after the exit of Jensen Huang."
+    },
     {
      "articles": [
       "2bdf3c1b4e9f72ae"
@@ -1192,7 +1230,7 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
@@ -7966,9 +8004,289 @@
    "status": "new",
    "title": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "3124ae9d4fad9acb",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-19T00:05:31+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Crew unaware of risks before Mike Lynch's yacht Bayesian sank, say investigators",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "3ac283a4b740a785",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-19T00:01:05+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Crew of Mike Lynch’s Bayesian superyacht were unaware of risks, probe finds",
+     "type": "international",
+     "url": "https://www.ft.com/content/bccbf72c-c7ea-4774-ab92-96b7138a79bd?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "bayesian-superyacht-sinking-probe",
+   "label": "Bayesian superyacht sinking probe",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3ac283a4b740a785"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-19T00:01:05+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/bccbf72c-c7ea-4774-ab92-96b7138a79bd?syn-25a6b1a6=1) reported that a probe by the UK Marine Accident Investigation Branch found the crew of Mike Lynch's Bayesian superyacht were unaware of risks, and that the vessel's unusually tall mast and vulnerability to flooding contributed to its sudden sinking."
+    },
+    {
+     "articles": [
+      "3124ae9d4fad9acb"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-19T00:05:31+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o?at_medium=RSS&at_campaign=rss) reported that the vessel sank off the coast of northern Sicily, killing seven people including British tech tycoon Mike Lynch."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bayesian superyacht sinking probe",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "7d4c9e69262095f1",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-19T10:04:44+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Trump begins historic trilateral talks with Xi, Putin in China",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/trump-begins-historic-trilateral-talks-with-xi-putin-in-china-5038233"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "eec212e0833a5b65",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-19T06:29:34+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump holds talks separately with Putin and Xi ahead of their historic trilateral meeting",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "trump-holds-talks-with-putin-and",
+   "label": "Trump holds talks with Putin and Xi",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "eec212e0833a5b65"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-19T06:29:34+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html) reported that U.S. President Donald Trump held separate talks with Russian President Vladimir Putin and Chinese President Xi Jinping ahead of their historic trilateral meeting."
+    },
+    {
+     "articles": [
+      "7d4c9e69262095f1"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-19T10:04:44+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/trump-begins-historic-trilateral-talks-with-xi-putin-in-china-5038233) reported that Trump began historic trilateral talks with Xi and Putin in China."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump holds talks with Putin and Xi",
+   "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "b6a659e07eab3e55",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-19T08:39:04+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "EU Agrees Further Delay on Methane Rules for Energy Imports",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/eu_agrees_further_delay_on_methane_rules_for_energy_imports-19-nov-2026-185119-article/?rss=true"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "ca3d4544fd2b9ea4",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-19T06:41:33+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "EU delays methane emission rules on fossil fuel imports",
+     "type": "international",
+     "url": "https://www.ft.com/content/e871493f-920c-4ece-94d4-9d14317047fe?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "eu-delays-methane-emission-rules",
+   "label": "EU delays methane emission rules",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ca3d4544fd2b9ea4"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-19T06:41:33+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/e871493f-920c-4ece-94d4-9d14317047fe?syn-25a6b1a6=1) reported that the EU delayed methane emission rules on fossil fuel imports for at least two years following lobbying by the US, Qatar, and the oil and gas sector."
+    },
+    {
+     "articles": [
+      "b6a659e07eab3e55"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-19T08:39:04+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/eu_agrees_further_delay_on_methane_rules_for_energy_imports-19-nov-2026-185119-article/?rss=true) reported that without the change, requirements to document methane emissions associated with imported oil and gas would have started at the beginning of next year."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "EU delays methane emission rules",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "1b2c2e1542aacfe2",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-19T08:45:45+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Tiger-backed Razorpay set to file for India IPO as early as next week",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/tiger-backed-razorpay-set-to-file-for-india-ipo-as-early-as-next-week/articleshow/135983381.cms"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "25b080f96d7582ad",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T07:00:47+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Tiger-Backed Razorpay Said to Near Public Filing for India IPO",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/tiger-backed-razorpay-said-to-near-public-filing-for-india-ipo"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "razorpay-prepares-for-india-ipo",
+   "label": "Razorpay prepares for India IPO",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "25b080f96d7582ad"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T07:00:47+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/tiger-backed-razorpay-said-to-near-public-filing-for-india-ipo) reported that the Tiger Global-backed fintech firm Razorpay Software Ltd. is preparing to publicly file documents for an initial public offering in India."
+    },
+    {
+     "articles": [
+      "1b2c2e1542aacfe2"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-19T08:45:45+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/ipos/fpos/tiger-backed-razorpay-set-to-file-for-india-ipo-as-early-as-next-week/articleshow/135983381.cms) reported that Razorpay is set to file its IPO papers as early as next week, with investor roadshows expected to follow immediately."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Razorpay prepares for India IPO",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T08:02:40+00:00"
+ "updated": "2026-11-19T10:40:21+00:00"
 }

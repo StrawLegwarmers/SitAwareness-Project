@@ -97,10 +97,34 @@
  },
  {
   "date": "2026-11-19",
-  "kind": "merged",
+  "kind": "skipped",
   "group": "all",
   "story": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
-  "text": "Nvidia earnings report",
-  "reason": "duplicate story merged into an existing one"
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Wall Street set to open higher after Nvidia results reassure investors"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "all",
+  "story": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Nasdaq opens higher as Nvidia results, Anthropic IPO inspire tech investors"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
+  "text": "[1] reported that Wall Street was set to open higher after Nvidia's results reassured investors, with the chip group raising its forecast and the new chief stating it was business as usual.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
+  "text": "[2] reported that the Nasdaq opened higher as Nvidia's results and an Anthropic IPO inspired tech investors.",
+  "reason": "cites an article that doesn't belong to this story"
  }
 ]

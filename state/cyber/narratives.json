@@ -189,22 +189,22 @@
   {
    "articles": 239,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 8,
-   "continuing": 4,
+   "calls": 4,
+   "candidates": 12,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-19",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
    "groups": 207,
-   "in_stories": 15,
-   "kept": 4,
+   "in_stories": 20,
+   "kept": 8,
    "merged": 0,
-   "new": 3,
+   "new": 5,
    "rejected": 1,
-   "reported_by_2": 2,
-   "runs": 3,
-   "sent": 8,
+   "reported_by_2": 3,
+   "runs": 4,
+   "sent": 12,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -379,7 +379,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T07:57:22+00:00"
+  "all": "2026-11-19T10:34:01+00:00"
  },
  "narratives": [
   {
@@ -5368,8 +5368,21 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "77a1f09cd63dc35d",
+     "lang": "en",
+     "outlet": "Moneycontrol.com",
+     "published": "2026-11-19T07:55:14+00:00",
+     "publisher": "Moneycontrol.com",
+     "region": null,
+     "section": "aviation",
+     "title": "After Delhi airport breach, Jaipur airport security scare as youth scales boundary wall, enters premises",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbTQzQlcyOVlWWmt6RzB0eVJuTGUxak9abDNuQVZsZFpXVTZQdW9xM0tjRjZrWWFmRU9kdVloS1JxTlZqWWRuWXVydWRyMi1ZREU0emZoT3JZOExaN0RnN3RRUzBNSXpHUm83M3p6X0U0blh4bE1YWGgtakVxM0JiNE5sYkxweGI5czV4ZGxMVmMxQnd0bDdTSjBQbFlxbmE4YnM1aFRJY0YtT1ozUnYxWm5FNDl4VVF0WVZ5dEpVR1ZaWVFGb0pzUk5aQ1lRNHZFZVVhTmdTMjNVRm5fd2tyYmZnbWNTUkkxbmxTZm5xNNIB9AFBVV95cUxQaWQwMmV1Z1lxUFZYNGM0QU1JZHR1QjNzS3ZidVltcnM1RUpSMWRsaG0xNnJZN3h2NzhndUJCUUFWZXRVUDFfVE1aYUlFM21Ga1NiQUhaMnZpME5XNERVSUtjSE1talZOQUR6STdKQW5oeFFrMjlpXzNYOC03WWN4UGptZmFqaFI5UkpkMHNxYmVxNFFwd216UFVwZl9oeXVPdmlGdWlpa3BCY1JXMGNma056Y0pVdU01eWl6NkZocjA4R1R1eHRMZXoxY2VqVDdQNDFFeTZNNXpRRF9QM1RoUVN2SmhjTEdDdW1RNG1PQ3U2eEln?oc=5"
+    },
     {
      "added": "2026-11-19",
      "id": "0d8174307ce78822",
@@ -5397,14 +5410,14 @@
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRE8tOHNrckVqY21xMTFMLTFuTXhIQXNpWTBSa0NNMXE3dlJyWTloQmxjM3hjbzJ4R3ZrUFhqV1ZXQy0zVlhscDVxWGw1SFR2RGQxRlNtV1RmenQyalZLdGJ1UGVvdFd5ZEFZd2owa1U2YU9BTEJZaEJ4UHhkckpXWk5TUFYzR1N5VEN4aWxwY1dCQzZTbWE5MWhJSVdoS3ZBUkJ0WS1qYUtCZFVEU2p2T2EwR1VRdF9QYzdaS3E0VHlFd3E4OUtSUVRzZEZQTE9jT05xRG9EVXprMVNRb2hB0gHkAUFVX3lxTE95b3F0MV9EaE9hWjhKamk0RTl0cW5SZjAyUHEzWUxiRGc4bDB5Xy03VEN3Nkt0bXNNMUdvLUo1SERCX2pvbFJPSnNDOXJCcV9JOEhvVVV0Uk15QUtGanQzVjBkZlRHaFpTNHJDc2F2enNJb25hOWxOSVZkVElETzVHWVVaWTJOd0xiZWNhRWIwMzA2SVptaWc2MDV5RXRJSExYRlJRUnlUTV9Cd3A0VWdIOEhnd0hkdXlSem03b2RPWkNGd0tXeHdkSjZkZEtQcFJ5dDQ0MzFBYjdHZnRVSUVKWkNSQw?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jaipur-airport-security-breach",
    "label": "Jaipur airport security breach",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -5424,11 +5437,161 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Jaipur airport security breach",
+   "title": "After Delhi, Jaipur Airport Faces Security Breach: Youth Scales Boundary Wall, Caught By CISF",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-19",
+    "of": 2,
+    "outlet": "News18",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRE8tOHNrckVqY21xMTFMLTFuTXhIQXNpWTBSa0NNMXE3dlJyWTloQmxjM3hjbzJ4R3ZrUFhqV1ZXQy0zVlhscDVxWGw1SFR2RGQxRlNtV1RmenQyalZLdGJ1UGVvdFd5ZEFZd2owa1U2YU9BTEJZaEJ4UHhkckpXWk5TUFYzR1N5VEN4aWxwY1dCQzZTbWE5MWhJSVdoS3ZBUkJ0WS1qYUtCZFVEU2p2T2EwR1VRdF9QYzdaS3E0VHlFd3E4OUtSUVRzZEZQTE9jT05xRG9EVXprMVNRb2hB0gHkAUFVX3lxTE95b3F0MV9EaE9hWjhKamk0RTl0cW5SZjAyUHEzWUxiRGc4bDB5Xy03VEN3Nkt0bXNNMUdvLUo1SERCX2pvbFJPSnNDOXJCcV9JOEhvVVV0Uk15QUtGanQzVjBkZlRHaFpTNHJDc2F2enNJb25hOWxOSVZkVElETzVHWVVaWTJOd0xiZWNhRWIwMzA2SVptaWc2MDV5RXRJSExYRlJRUnlUTV9Cd3A0VWdIOEhnd0hkdXlSem03b2RPWkNGd0tXeHdkSjZkZEtQcFJ5dDQ0MzFBYjdHZnRVSUVKWkNSQw?oc=5"
+   },
    "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "1939fa9941e1b641",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-19T09:23:21+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+    },
+    {
+     "added": "2026-11-19",
+     "dates": [
+      "2026-11-18"
+     ],
+     "id": "5cfcab9f2b31c744",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-18T13:37:43+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "The Gentlemen Ransomware Gang Allegedly Claims to Have Breached NVIDIA",
+     "type": null,
+     "url": "https://cybersecuritynews.com/nvidia-data-breach-claim/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "gentlemen-ransomware-nvidia-data-leak-claims",
+   "label": "Gentlemen ransomware NVIDIA data leak claims",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5cfcab9f2b31c744"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-18T13:37:43+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/nvidia-data-breach-claim/) reported that the Gentlemen ransomware gang listed NVIDIA on its dark web leak site on November 18, 2026, though the post does not prove a breach occurred."
+    },
+    {
+     "articles": [
+      "1939fa9941e1b641"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-19T09:23:21+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/) reported that NVIDIA is investigating claims of a security breach."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gentlemen ransomware NVIDIA data leak claims",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "26c45144ad24447c",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-19T10:07:30+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Ukraine arrests key members of ransomware gang that extorted $40.5 million posing as IT support",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "1287910668bc1a58",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-18T23:08:33+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "international-ransomware-gang-arrests",
+   "label": "International ransomware gang arrests",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1287910668bc1a58"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-18T23:08:33+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/) reported that Ukrainian authorities, working with the FBI, arrested four suspected members of an international ransomware organization tied to more than $40.5 million in ransoms."
+    },
+    {
+     "articles": [
+      "26c45144ad24447c"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-19T10:07:30+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/) reported that the suspects posed as IT support and extorted at least 28 companies."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "International ransomware gang arrests",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T07:57:40+00:00"
+ "updated": "2026-11-19T10:34:18+00:00"
 }
