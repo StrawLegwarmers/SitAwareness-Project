@@ -245,22 +245,22 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 25,
+   "calls": 7,
+   "candidates": 27,
    "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 517,
-   "in_stories": 35,
-   "kept": 29,
+   "groups": 523,
+   "in_stories": 39,
+   "kept": 33,
    "merged": 2,
-   "new": 10,
+   "new": 12,
    "rejected": 3,
    "reported_by_2": 5,
-   "runs": 6,
-   "sent": 25,
+   "runs": 7,
+   "sent": 27,
    "skipped": 3,
    "split_calls": 0,
    "updated": 12,
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T17:04:22+00:00"
+  "all": "2026-11-19T19:55:02+00:00"
  },
  "narratives": [
   {
@@ -8458,9 +8458,149 @@
    "status": "new",
    "title": "Copper market rebound",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "1118c93b506f59c4",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-19T19:25:18+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Brazil’s central bank steps in to stem real’s slide since Lula’s re-election",
+     "type": "international",
+     "url": "https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "176035855f29f736",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-19T15:51:36+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Brazil Central Bank Steps Into Markets as Fiscal Woes Hit Real",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/brazil-central-bank-steps-into-markets-as-fiscal-woes-hit-real"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "brazil-central-bank-market-intervention",
+   "label": "Brazil central bank market intervention",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "176035855f29f736"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T15:51:36+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/brazil-central-bank-steps-into-markets-as-fiscal-woes-hit-real) reported that Brazil's central bank stepped into currency markets as the real extended its plunge after President Luiz Inacio Lula da Silva stated he was in no rush to announce fiscal measures."
+    },
+    {
+     "articles": [
+      "1118c93b506f59c4"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-19T19:25:18+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675?syn-25a6b1a6=1) reported that the currency slipped from R$5 to R$5.90 to the dollar following the leftwinger's victory last month."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Brazil central bank market intervention",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "e65978b9b4123f8d",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-19T18:40:23+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "AMD shares fall after short seller report on China links",
+     "type": "international",
+     "url": "https://www.ft.com/content/69fd7870-a2cf-4e75-88bc-a1c4036efded?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "dc032ac3297bfedd",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-19T18:13:12+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "AMD shares slide 8% as report says China links could invite US scrutiny",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amd-shares-slide-8-as-report-says-china-links-could-invite-us-scrutiny/articleshow/136002141.cms"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "amd-shares-fall-after-short-seller",
+   "label": "AMD shares fall after short seller report on China links",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e65978b9b4123f8d"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-19T18:40:23+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/69fd7870-a2cf-4e75-88bc-a1c4036efded?syn-25a6b1a6=1) reported that AMD shares fell by as much as 11% following warnings by Hunterbrook about China links in the aftermath of an Nvidia scandal."
+    },
+    {
+     "articles": [
+      "dc032ac3297bfedd"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-19T18:13:12+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/amd-shares-slide-8-as-report-says-china-links-could-invite-us-scrutiny/articleshow/136002141.cms) reported that AMD shares plunged by 8% after a report surfaced linking the company to certain Chinese firms, including those on the US government's blacklist."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "AMD shares fall after short seller report on China links",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T17:05:32+00:00"
+ "updated": "2026-11-19T19:55:36+00:00"
 }

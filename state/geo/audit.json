@@ -2233,50 +2233,738 @@
  },
  {
   "date": "2026-11-19",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey counter-terrorism strategy",
-  "text": "[1], a Turkish state outlet, reported that MHP leader Devlet Bahçeli made statements regarding the APEC Summit.",
-  "reason": "names not in cited articles: Devlet, Summit"
- },
- {
-  "date": "2026-11-19",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey AK Party academic controversy",
-  "text": "[6], a Turkish state outlet, reported that AK Party spokesperson Çelik shared a message regarding Turkey's first unmanned combat aerial vehicle, KIZILELMA, entering the inventory.",
-  "reason": "wording not from cited articles: party, spokesperson, shared, message, regarding, first"
- },
- {
-  "date": "2026-11-19",
-  "kind": "rejected",
+  "kind": "skipped",
   "group": "asia",
-  "story": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-  "text": "[8] reported that Donald Trump dismissed the need to confront Xi Jinping over espionage when asked if he would tell Xi to stop spying on Americans.",
-  "reason": "names not in cited articles: Donald, Jinping"
+  "story": "Myanmar guilty of genocide against Rohingya UN court rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): La ONU declara culpable de genocidio contra los rohingyas a Myanmar, el primer E"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar guilty of genocide against Rohingya UN court rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): El máximo tribunal de la ONU concluye que Myanmar cometió genocidio contra los r"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar guilty of genocide against Rohingya UN court rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): CIJ declara a Birmania responsable de genocidio rohinyá; ONU celebra sentencia y"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar guilty of genocide against Rohingya UN court rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): El máximo tribunal internacional de justicia dictaminó por primera vez que un Es"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar guilty of genocide against Rohingya UN court rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Claves del histórico fallo de la CIJ sobre genocidio rohinyá; el máximo tribunal"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "COP31 fossil fuel phaseout draft",
+  "text": "[65][66] reported that climate campaigners expressed outrage and concern over the omission of fossil fuel phase-out language and financial help for developing countries.",
+  "reason": "wording not from cited articles: expressed, outrage, concern, phase-out, language"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "NASA Voyager 1 interstellar milestone",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Pew Research global religion projections",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "FIFA presidential election candidates",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Dozens flee as Israel launches rare ground operation in central Gaza",
+  "text": "Gaza ground incursion and displacement",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "africa",
+  "story": "Remi Tinubu seeks N70bn to complete National Library",
+  "text": "National Library funding requirement",
+  "reason": "title replaced by a headline: wording not from cited articles: funding, requirement"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "namerica",
+  "story": "",
+  "text": "Grand Theft Auto VI means Surrey landscaping company employees get the day off",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Black Friday discounts",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Global Power Shift As Trump, Xi, Putin Hold Historic Summit Amid Ukraine War, Nuclear Tensions",
+  "text": "Trilateral meeting between US, China and Russia",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Mexico IMSS workers protest",
+  "text": "",
+  "reason": "continuation not supported by the headlines: El programa ‘Sí al desarme, sí a la paz’ recaba más de 14 mil armas en el actual"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "latam",
+  "story": "El programa ‘Sí al desarme, sí a la paz’ recaba más de 14 mil armas en el actual sexenio",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Marathon runner pregnancy achievements",
+  "text": "",
+  "reason": "off-topic for this site (topic: lifestyle): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Mexico IMSS workers protest",
+  "text": "[21] reported that Segob stated bus companies could be behind migrant caravans.",
+  "reason": "analysis word not used by the source: 'could'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Nvidia oversight committee formation",
+  "text": "[25] reported that Anthropic raised $81.3 billion in a public offering.",
+  "reason": "number not in cited articles: 81300000000"
  },
  {
   "date": "2026-11-19",
   "kind": "rejected",
   "group": "mena",
-  "story": "Gaza respiratory illness and flooding crisis",
-  "text": "[14] reported that regional affairs researcher Mohamed Fawzy emphasized the growing importance of Egypt's role amid tragic humanitarian conditions and climatic developments in the Gaza Strip.",
+  "story": "Iran nuclear inspections stance",
+  "text": "[27] reported that Iran's delegate to the IAEA in Vienna stated his country will not accept unlimited nuclear inspections amid continued military threats.",
   "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "APC group mobilises non-indigenes in Kano for Tinubu, Governor Yusuf's re-election",
+  "text": "[35] reported that APC chieftain Obafemi George stated Atiku cannot win 25 million northern votes in 2027 when his son Abba backs Tinubu.",
+  "reason": "number not in cited articles: 25000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "UN Secretary-General candidacy debates",
+  "text": "[37] reported that accusations regarding the UAE's role in fueling regional conflicts are targeting Lana Nusseibeh's ambition for the UN Secretary-General post.",
+  "reason": "analysis word not used by the source: 'fueling'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "mena",
+  "story": "Save the Children: Gaza’s children face ‘unmatched dangers’",
+  "text": "Gaza children safety warnings",
+  "reason": "title replaced by a headline: wording not from cited articles: safety, warnings"
  },
  {
   "date": "2026-11-19",
   "kind": "merged",
   "group": "namerica",
+  "story": "US judge ruling on foreign visa rules",
+  "text": "Trump presidential aircraft journalist phone restrictions",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "Denmark’s oldest-ever citizen a former ‘prominent’ Nazi leader – media",
+  "text": "Denmark WWII Nazi past revelations of oldest citizen",
+  "reason": "title replaced by a headline: wording not from cited articles: past, revelations, oldest"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+  "text": "[65] reported that court documents state unidentified co-conspirators recruited D'iu on Telegram and helped him illegally cross the Texas-Mexico border in July.",
+  "reason": "names not in cited articles: D'iu"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Putin says he has invited EU representatives to Moscow to discuss Ukraine",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Путин изключи примирие в Черно море, но покани европейците в Москва"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "Путин изключи примирие в Черно море, но покани европейците в Москва",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Israeli reports on potential strike against Iran",
+  "text": "[71] reported that Israeli Prime Minister Benjamin Netanyahu stated during a meeting with senior security officials that a military attack on Iran is inevitable.",
+  "reason": "wording not from cited articles: prime, minister, benjamin, meeting, senior, security"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Réveillon 2027: Simone Mendes, Pedro Sampaio e Xande de Pilares são anunciados em Copacabana; veja programação",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Serbia National Assembly consultations",
+  "text": "[17] reported that the constitutive session of the National Assembly of Serbia continued following a two-hour pause declared by the newly elected parliament president.",
+  "reason": "number not in cited articles: 2"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Strait of Hormuz crisis 'largest threat' to energy security ever: IEA",
+  "text": "[21] reported that the International Energy Agency warned that disruption to oil supplies through the Strait of Hormuz poses the biggest threat to global energy security in history.",
+  "reason": "names not in cited articles: International"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Karoline Leavitt begs the White House to speak out on all the tech outages",
+  "text": "[27][28] reported that White House Chief of Staff Stephen Miller put Homeland Security Secretary Markwayne Mullin in a primetime timeout following his television interview blaming super intelligence for tech disruptions.",
+  "reason": "wording not from cited articles: chief, staff, put, homeland, security, timeout"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "US and China have mutual interest in getting oil through Strait of Hormuz: Trump",
+  "text": "[44] reported that the Iran Revolutionary Guard Corps Navy stated tankers carrying a combined cargo of more than 4 million barrels of crude oil were hit by Hormuz mines.",
+  "reason": "names not in cited articles: Corps, Revolutionary"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "'Grief doesn't fade': Couple settle home birth death case",
+  "text": "Medical malpractice case settlement",
+  "reason": "title replaced by a headline: names not in cited articles: Medical"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Novak Djokovic film cameo",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "mena",
+  "story": "Velika istraga u Libanu, spominje se i Ministarstvo vanjskih poslova BiH: Narednik posredovao u viza",
+  "text": "Lebanon visa fraud investigation",
+  "reason": "title replaced by a headline: countries not in cited articles: lebanon"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "South African Reserve Bank interest rate decision",
+  "text": "[67][68] reported that the South African Reserve Bank held its repo rate steady at 7.25% following a split Monetary Policy Committee vote amid rising inflation risks.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "US warns Americans in Middle East of potential attacks, flight disruptions amid rising Iran-Houthi tensions",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "White House pool have phones taken away on return from China as speculation mounts over unscheduled stop",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Argentina football corruption investigation",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Aké Festival in Lagos",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ruslan Tsalikov corruption conviction",
+  "text": "[5] The Moscow Times reported that former Deputy Defense Minister Ruslan Tsalikov was sentenced to 10 years in prison for embezzlement and money laundering.",
+  "reason": "names not in cited articles: Moscow, Times"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ruslan Tsalikov corruption conviction",
+  "text": "[6] Meduza reported that Moscow's Zamoskvoretsky District Court sentenced Tsalikov to a high-security penal colony on 12 counts of embezzlement totaling 6.58 billion rubles.",
+  "reason": "number not in cited articles: 12, 6580000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Somalia UAE diplomatic dispute",
+  "text": "Somalia and UAE diplomatic crisis",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Somalia UAE diplomatic dispute",
+  "text": "[11] Africanews reported that Somalia expelled the United Arab Emirates ambassador amid escalating diplomatic tensions.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Somalia UAE diplomatic dispute",
+  "text": "[12] The New Arab reported that the Somali government accused Abu Dhabi of interfering in its internal affairs.",
+  "reason": "names not in cited articles: Abu, Dhabi"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "AI lab Anthropic sets stock market record with $81 billion IPO",
+  "text": "[15] Al Jazeera reported that Anthropic launched its initial public offering in the United States, reaching $81 billion and surpassing SpaceX.",
+  "reason": "names not in cited articles: Jazeera, States, United"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "AI lab Anthropic sets stock market record with $81 billion IPO",
+  "text": "[16] Sydney Morning Herald reported that Anthropic debuted on the stock market as a $2.25 trillion company.",
+  "reason": "names not in cited articles: Herald, Morning"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Pew Research global Jewish population projections",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "AI lab Anthropic sets stock market record with $81 billion IPO",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Historijski debi na Wall Streetu: Anthropic srušio rekord SpaceX-a i prikupio 81"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "Historijski debi na Wall Streetu: Anthropic srušio rekord SpaceX-a i prikupio 81,3 milijarde dolara",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Nigerian federal health budget allocations",
+  "text": "[25] Nigerian Tribune reported that the Federal Government demanded state governments ensure that 3.3 trillion naira allocated to health in 2026 budgets yields measurable results.",
+  "reason": "number not in cited articles: 3300000000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Nigerian federal health budget allocations",
+  "text": "[26] Premium Times reported that Health Minister Coordinating Minister Prof. Muhammad Ali Pate praised the increase in states' health budgets to 3.3 trillion naira.",
+  "reason": "number not in cited articles: 3300000000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "French media regulations for YouTubers",
+  "text": "[29] France 24 reported that France's media regulator announced it will monitor top YouTubers for political bias ahead of upcoming presidential elections.",
+  "reason": "number not in cited articles: 24"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "German Chancellor conditions for Ukraine peace deal",
+  "text": "[31] Ukrinform reported that German Chancellor candidate Friedrich Merz stated any future peace agreement on Ukraine must preserve its sovereignty and use the line of contact as a starting point.",
+  "reason": "names not in cited articles: Chancellor, Friedrich"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "German Chancellor conditions for Ukraine peace deal",
+  "text": "[32] TASS, a Russian state outlet, reported that Friedrich Merz floated the idea of lifting sanctions on Russia piecemeal as progress is made on a Ukraine deal.",
+  "reason": "wording not from cited articles: tass, state, outlet, friedrich, progress, made"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Sherif Patkovic war crimes conviction",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Britanci protjerali vojnog atašea Mijanmara nakon haške presude o genocidu"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "Britanci protjerali vojnog atašea Mijanmara nakon haške presude o genocidu",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Trilateral summit discussions on Ukraine and Iran",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Trump envoy: US convinces Russia of need for Article 5-style security guarantees"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "Trump envoy: US convinces Russia of need for Article 5-style security guarantees for Ukraine",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Wike, APC group rally traders, northern voters for Tinubu, dismiss opposition threat",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Obi can’t match Buhari’s popularity – Shettima"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "africa",
+  "story": "Obi can’t match Buhari’s popularity – Shettima",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
   "story": "Nvidia oversight committee formation",
-  "text": "Anthropic Wall Street valuation",
+  "text": "[39] Sydney Morning Herald reported that Anthropic's Wall Street debut was insufficient to prevent broader stock market losses.",
+  "reason": "names not in cited articles: Herald, Morning"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Nvidia oversight committee formation",
+  "text": "[40] The Hindu reported that Anthropic's initial public offering valued the Claude chatbot maker at about $1.5 trillion.",
+  "reason": "names not in cited articles: Hindu"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "AI lab Anthropic sets stock market record with $81 billion IPO",
+  "text": "[45] Reuters reported that Anthropic surpassed a $2 trillion valuation in its Nasdaq debut.",
+  "reason": "wording not from cited articles: reuters, surpassed, valuation"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "AI lab Anthropic sets stock market record with $81 billion IPO",
+  "text": "[46] ABC Australia World reported that CEO Dario Amodei and six co-founders held stakes valued at around $225 billion based on the IPO price.",
+  "reason": "names not in cited articles: Australia, World"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "New law ‘may be needed’ after Google rejects call to remove Russell Brand’s YouTube prison message",
+  "text": "[53] Sydney Morning Herald reported that Google refused to remove a YouTube video featuring Russell Brand protesting his innocence after being jailed for sexual assault.",
+  "reason": "names not in cited articles: Herald, Morning"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Cairo International Film Festival opening",
+  "text": "[58] Sada El Balad reported that the 47th Cairo International Film Festival concluded the eighth edition of Cairo Industry Days.",
+  "reason": "number not in cited articles: 47"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Cairo International Film Festival opening",
+  "text": "[60] Sada El Balad reported that the festival announced the winning projects of the 12th Cairo Film Connection.",
+  "reason": "number not in cited articles: 12"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Logan fatal drive-by shooting arrests",
+  "text": "[61] Sydney Morning Herald reported that a police officer stated he feared for his life when fatally shooting a 16-year-old boy armed with a knife.",
+  "reason": "names not in cited articles: Herald, Morning"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Logan fatal drive-by shooting arrests",
+  "text": "[62] Sydney Morning Herald reported that Queensland Police charged five teenage boys over a deadly shooting outside a Logan pub.",
+  "reason": "names not in cited articles: Herald, Morning"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Sofia municipal funding and energy payments",
+  "text": "[65] 24 Chasa reported that Sofia Municipality will allocate 9.6 million euros to host three skateboarding competitions, including two Olympic qualifiers and a World Cup event.",
+  "reason": "number not in cited articles: 24"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Sofia municipal funding and energy payments",
+  "text": "[66] 24 Chasa reported that Sofia Mayor Vasil Terziev stated the economic impact of hosting the skateboarding events will generate tens of millions of euros for the city.",
+  "reason": "number not in cited articles: 24"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Pakistan and Qatar security cooperation agreement",
+  "text": "[69] The Express Tribune reported that Pakistan and Turkey are scheduled to sign a memorandum of understanding on November 23 to formalize judicial cooperation.",
+  "reason": "names not in cited articles: Express, Tribune"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Pakistan defamation notice row in Punjab",
+  "text": "[70] The Express Tribune reported that the Pakistan Markazi Muslim League served a 5 billion rupee defamation notice on Punjab Information Minister Azma Bokhari over terrorist organization remarks.",
+  "reason": "number not in cited articles: 5000000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Islamabad police arrest warrants for Mufti Abrar",
+  "text": "[72] Daily Times reported that Islamabad police registered legal cases against Jamiat Ulema-e-Islam (F) leaders and workers over November 7 protest gatherings.",
+  "reason": "names not in cited articles: Jamiat, Times, Ulema-e-Islam"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "global",
+  "story": "N. Korea's Kim inspects tourism development site near China ahead of Trump's Asia trip",
+  "text": "[16] reported that US President Donald Trump concluded his Asia trip without meeting North Korean leader Kim Jong Un.",
+  "reason": "names not in cited articles: Jong, Kim"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ankara drug money laundering investigation",
+  "text": "[28], a Turkish state outlet, reported that seven suspects were remanded in custody as part of an Ankara-centered drug money laundering investigation targeting the Çobanlar Group.",
+  "reason": "names not in cited articles: Ankara-centered, Group"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "At Last, Senate Sends State Police Bill to President, Demands Operational Guidelines",
+  "text": "[37] reported that Nigerian President Bola Tinubu asked parliament to decriminalize attempted suicide.",
+  "reason": "names not in cited articles: Bola"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Colombia corruption and intelligence allegations",
+  "text": "[5] reported that President Abelardo De la Espriella filed a complaint with the Prosecutor General's Office concerning alleged irregularities involving over 119,000 million pesos in Barrancabermeja.",
+  "reason": "number not in cited articles: 119000000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Find out more as NBS lists 3 states with lowest rates as inflation drops in October",
+  "text": "[11] reported that Delta led September 2026 FAAC allocations with 92.40 billion naira as state payments increased by 5.5 percent.",
+  "reason": "wording not from cited articles: billion, naira, increased, percent"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ukraine drone interception with Swedish RBS-70",
+  "text": "[15] reported that security rushed the European Union ambassador to Ukraine and a colleague inside a hotel after an aerial target was destroyed nearby.",
+  "reason": "names not in cited articles: European, Union"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "European Commission unveils Ukraine funding plan for 2027: new €45bn loan",
+  "text": "[23] reported that more than 25 leaders, European Union and NATO chiefs, and U.S. envoys attended talks in Berlin.",
+  "reason": "names not in cited articles: European, Union"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "New Petrol Price in Pakistan drops to Rs322 per litre after Rs56 Cut in November",
+  "text": "[24] reported that the Pakistani government raised petrol prices by 1 rupee per litre to a new rate of 323 rupees per litre.",
+  "reason": "number not in cited articles: 1, 323"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Strait of Hormuz crisis 'largest threat' to energy security ever: IEA",
+  "text": "[27] reported that work is underway on the 1,768-kilometer Gulf Railway Project aimed at linking six nations and reducing reliance on the Strait of Hormuz due to security risks.",
+  "reason": "analysis word not used by the source: 'aimed at'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "AI lab Anthropic sets stock market record with $81 billion IPO",
+  "text": "[36] reported that Anthropic CEO Dario Amodei stated the company would not compromise on artificial intelligence safety or bend to business or political pressure following its public offering.",
+  "reason": "wording not from cited articles: company, artificial, intelligence, pressure, following, public"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Atiku to Tinubu: Tell Nigerians If Recorded Interview Was Part of $4.5m Lobbying Deal",
+  "text": "Tinubu interview: Diana London breaks silence on alleged $4.5m payment",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-19",
   "kind": "merged",
+  "group": "asia",
+  "story": "Myanmar guilty of genocide against Rohingya UN court rules",
+  "text": "ICJ ruling on Myanmar genocide against Rohingya",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
+  "text": "Israeli reports on potential strike against Iran",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "global",
+  "story": "European Commission cyberattack",
+  "text": "EU Commission hit by large-scale cyberattack with data leakage unknown",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
   "group": "europe",
-  "story": "Serbia National Assembly consultations",
-  "text": "Serbia parliamentary leadership election",
+  "story": "Ukraine's allies gather in Berlin for 'Coalition of the Willing' summit",
+  "text": "Berlin Coalition of the Willing summit on Ukraine",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

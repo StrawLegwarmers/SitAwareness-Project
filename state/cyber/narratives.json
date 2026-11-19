@@ -189,25 +189,25 @@
   {
    "articles": 239,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 23,
-   "continuing": 6,
+   "calls": 7,
+   "candidates": 28,
+   "continuing": 8,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 207,
-   "in_stories": 34,
-   "kept": 22,
+   "in_stories": 40,
+   "kept": 26,
    "merged": 1,
-   "new": 11,
+   "new": 13,
    "rejected": 1,
    "reported_by_2": 4,
-   "runs": 6,
-   "sent": 23,
+   "runs": 7,
+   "sent": 28,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -379,12 +379,41 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T16:42:20+00:00"
+  "all": "2026-11-19T19:42:26+00:00"
  },
  "narratives": [
   {
-   "article_count": 10,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "e27b39c4c422cd41",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-19T17:14:39+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds Apache Axis, Vanderbilt REDCap,BerriAI LiteLLM, and Synology DSM flaws to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/203504/hacking/u-s-cisa-adds-apache-axis-vanderbilt-redcapberriai-litellm-and-synology-dsm-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    {
+     "added": "2026-11-19",
+     "dates": [
+      "2026-11-18"
+     ],
+     "id": "c6a3844c11322527",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-19T13:06:39+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "CISA Warns Hackers Are Actively Exploiting Four Flaws in Synology, LiteLLM, Apache Axis and REDCap",
+     "type": null,
+     "url": "https://cybersecuritynews.com/flaws-in-synology-litellm-apache-axis-and-redcap/"
+    },
     {
      "added": "2026-11-18",
      "id": "5264bbe7f80f85b4",
@@ -500,15 +529,29 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "c6a3844c11322527",
+      "e27b39c4c422cd41"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News",
+      "Security Affairs"
+     ],
+     "published": "2026-11-19T13:06:39+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/flaws-in-synology-litellm-apache-axis-and-redcap/), [Security Affairs](https://securityaffairs.com/203504/hacking/u-s-cisa-adds-apache-axis-vanderbilt-redcapberriai-litellm-and-synology-dsm-flaws-to-its-known-exploited-vulnerabilities-catalog.html) reported that the U.S. Cybersecurity and Infrastructure Security Agency added four flaws in Synology, LiteLLM, Apache Axis, and REDCap to its Known Exploited Vulnerabilities catalog."
+    },
     {
      "articles": [
       "f076078af65b41f8"
@@ -571,7 +614,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -6002,7 +6045,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-19",
@@ -6019,6 +6062,19 @@
     },
     {
      "added": "2026-11-19",
+     "id": "0e41b497221c3bd5",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-19T15:06:40+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption",
+     "type": null,
+     "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html"
+    },
+    {
+     "added": "2026-11-19",
      "id": "819d875be7bc659c",
      "lang": "en",
      "outlet": "Cybersecurity News",
@@ -6031,15 +6087,27 @@
      "url": "https://cybersecuritynews.com/european-commission-cyberattack/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "european-commission-cyberattack",
    "label": "European Commission cyberattack",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "0e41b497221c3bd5"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-19T15:06:40+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html) reported that investigators are assessing whether staff data was stolen in the cyberattack."
+    },
     {
      "articles": [
       "819d875be7bc659c"
@@ -6068,11 +6136,121 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "European Commission cyberattack",
+   "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-19",
+    "of": 2,
+    "outlet": "Security Affairs",
+    "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html"
+   },
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "9823e1d647981c29",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-19T17:26:39+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "Deepfake Elon Musk nearly costs viewers $4.7 million in crypto",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "a6b12cc372b51730",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-18T20:49:32+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "coinbase-elon-musk-deepfake-scam",
+   "label": "Coinbase Elon Musk deepfake scam",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a6b12cc372b51730"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-18T20:49:32+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/) reported that Coinbase blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Coinbase Elon Musk deepfake scam",
+   "topic": "crime"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "3322786abffb0ffc",
+     "lang": "en",
+     "outlet": "CrowdStrike Blog",
+     "published": "2026-11-19T19:40:18+00:00",
+     "publisher": "CrowdStrike Blog",
+     "region": null,
+     "section": "intel",
+     "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
+     "type": null,
+     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "crowdstrike-java4shell-cve-2026-114938-discovery",
+   "label": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "3322786abffb0ffc"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "CrowdStrike Blog"
+     ],
+     "published": "2026-11-19T19:40:18+00:00",
+     "text": "[CrowdStrike Blog](https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/) reported that CrowdStrike detected exposure and post-exploitation activity related to Java4Shell vulnerability CVE-2026-114938."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T16:42:58+00:00"
+ "updated": "2026-11-19T19:42:44+00:00"
 }
