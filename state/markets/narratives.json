@@ -245,23 +245,23 @@
   {
    "articles": 573,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 27,
+   "calls": 8,
+   "candidates": 31,
    "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 523,
-   "in_stories": 39,
-   "kept": 33,
+   "groups": 526,
+   "in_stories": 45,
+   "kept": 36,
    "merged": 2,
-   "new": 12,
+   "new": 15,
    "rejected": 3,
    "reported_by_2": 5,
-   "runs": 7,
-   "sent": 27,
-   "skipped": 3,
+   "runs": 8,
+   "sent": 31,
+   "skipped": 5,
    "split_calls": 0,
    "updated": 12,
    "waiting": 0
@@ -415,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T19:55:02+00:00"
+  "all": "2026-11-19T22:34:37+00:00"
  },
  "narratives": [
   {
@@ -8598,9 +8598,189 @@
    "status": "new",
    "title": "AMD shares fall after short seller report on China links",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "db0914bf63df2526",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-19T19:42:39+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US Fed tells regional staff to expect lower pay increases in 2027, Bloomberg News reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/us-fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027-bloomberg-news-reports-5039812"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "48377ccf6ce8ac7d",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T19:14:11+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed Tells Regional Staff to Expect Lower Pay Hikes in 2027",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "federal-reserve-regional-staff-pay-increases",
+   "label": "Federal Reserve regional staff pay increases",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "48377ccf6ce8ac7d",
+      "db0914bf63df2526"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-19T19:14:11+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027), [Investing.com](https://www.investing.com/news/economy-news/us-fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027-bloomberg-news-reports-5039812) reported that the Federal Reserve warned employees at its regional outposts to expect lower pay increases next year."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Federal Reserve regional staff pay increases",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "37581a53822845b5",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-19T21:48:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Trump’s $15 billion defamation case against New York Times may proceed, judge rules",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/trumps-defamation-case-against-new-york-times-may-proceed-judge-rules-5039668"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "d12c823c5270680d",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-19T19:27:51+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "US ⁠judge allows Trump’s $15bn lawsuit against New York Times to proceed",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-lawsuit-new-york-times"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "trump-defamation-lawsuit-against-new-york",
+   "label": "Trump defamation lawsuit against New York Times",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "37581a53822845b5",
+      "d12c823c5270680d"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Guardian",
+      "Investing.com"
+     ],
+     "published": "2026-11-19T19:27:51+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/us-news/2026/nov/19/trump-lawsuit-new-york-times), [Investing.com](https://www.investing.com/news/stock-market-news/trumps-defamation-case-against-new-york-times-may-proceed-judge-rules-5039668) reported that a US judge in Florida allowed Donald Trump's 15 billion dollar lawsuit against the New York Times to proceed."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump defamation lawsuit against New York Times",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "d0b8074b3e33fe0d",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-19T21:40:31+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "dd5468b8bbcf6ab0",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-19T21:35:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Intuit to Sell Mailchimp for $3.68 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/business/earnings/intuit-to-sell-mailchimp-for-3-68-billion-33f03f9c?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "intuit-sells-mailchimp",
+   "label": "Intuit sells Mailchimp",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d0b8074b3e33fe0d",
+      "dd5468b8bbcf6ab0"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "CNBC"
+     ],
+     "published": "2026-11-19T21:35:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/earnings/intuit-to-sell-mailchimp-for-3-68-billion-33f03f9c?mod=pls_whats_news_us_business_f), [CNBC](https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html) reported that Intuit agreed to sell Mailchimp to Bending Spoons for 3.68 billion dollars."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Intuit sells Mailchimp",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T19:55:36+00:00"
+ "updated": "2026-11-19T22:34:56+00:00"
 }

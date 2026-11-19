@@ -189,22 +189,22 @@
   {
    "articles": 239,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 28,
+   "calls": 8,
+   "candidates": 29,
    "continuing": 8,
    "corroborated": 0,
    "date": "2026-11-19",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 207,
-   "in_stories": 40,
-   "kept": 26,
+   "in_stories": 42,
+   "kept": 28,
    "merged": 1,
-   "new": 13,
+   "new": 14,
    "rejected": 1,
    "reported_by_2": 4,
-   "runs": 7,
-   "sent": 28,
+   "runs": 8,
+   "sent": 29,
    "skipped": 0,
    "split_calls": 0,
    "updated": 3,
@@ -379,7 +379,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T19:42:26+00:00"
+  "all": "2026-11-19T22:28:22+00:00"
  },
  "narratives": [
   {
@@ -6248,9 +6248,82 @@
    "status": "new",
    "title": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
    "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "79221125fd828262",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-19T21:12:33+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175"
+    },
+    {
+     "added": "2026-11-19",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "8c40b74349e6eb6a",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-19T16:14:31+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "JPMorgan Chase Confirms Third-Party Cyberattack That May Have Exposed Customer Names and Emails",
+     "type": null,
+     "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "jpmorgan-chase-data-breach",
+   "label": "JPMorgan Chase data breach",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8c40b74349e6eb6a"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-19T16:14:31+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/jpmorgan-third-party-data-breach/) reported that JPMorgan Chase confirmed a cyberattack targeting outside companies that provide services to the bank."
+    },
+    {
+     "articles": [
+      "79221125fd828262"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-19T21:12:33+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175) reported that Chase, Visa, and Mastercard confirmed third-party cyberattacks that may have exposed customers' information."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "JPMorgan Chase data breach",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T19:42:44+00:00"
+ "updated": "2026-11-19T22:28:39+00:00"
 }
