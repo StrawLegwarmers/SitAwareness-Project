@@ -1,6 +1,38 @@
 {
  "archived": [
   {
+   "article_count": 3,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "maersk-and-baker-tilly-data-breaches",
+   "last_updated": "2026-11-12",
+   "title": "Maersk and Baker Tilly data breaches"
+  },
+  {
+   "article_count": 5,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "github-and-screenconnect-cyberattacks",
+   "last_updated": "2026-11-12",
+   "title": "GitHub and ScreenConnect cyberattacks"
+  },
+  {
+   "article_count": 7,
+   "first_seen": "2026-11-10",
+   "group": "all",
+   "id": "n-able-takes-n-central-offline",
+   "last_updated": "2026-11-12",
+   "title": "N-able takes N-central offline following zero-day disclosures"
+  },
+  {
+   "article_count": 6,
+   "first_seen": "2026-11-10",
+   "group": "all",
+   "id": "vanderbilt-university-ransomware-attack",
+   "last_updated": "2026-11-12",
+   "title": "Vanderbilt University ransomware attack"
+  },
+  {
    "article_count": 4,
    "first_seen": "2026-11-11",
    "group": "all",
@@ -154,6 +186,30 @@
   }
  ],
  "coverage": [
+  {
+   "articles": 239,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-19",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 207,
+   "in_stories": 2,
+   "kept": 2,
+   "merged": 0,
+   "new": 1,
+   "rejected": 0,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 1,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
   {
    "articles": 249,
    "attached_by_code": 0,
@@ -323,7 +379,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T22:28:59+00:00"
+  "all": "2026-11-19T01:55:02+00:00"
  },
  "narratives": [
   {
@@ -444,14 +500,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -515,458 +571,8 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
-  },
-  {
-   "article_count": 6,
-   "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "be665c487b5b9283",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-11T18:29:01+00:00",
-     "publisher": "Malwarebytes Labs",
-     "section": "intel",
-     "title": "Vanderbilt restores systems after cyberattack as hackers claim data theft",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "ea3d1f1c47de8c09",
-     "lang": "en",
-     "outlet": "CyberScoop",
-     "published": "2026-11-10T17:46:29+00:00",
-     "publisher": "CyberScoop",
-     "section": "news",
-     "title": "Vanderbilt University reels following ransomware attack claimed by BYOD group",
-     "type": null,
-     "url": "https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "88bd7970281f75df",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-10T13:00:00+00:00",
-     "section": "news",
-     "title": "Ransomware threat blares from Vanderbilt University computers during cyberattack",
-     "type": null,
-     "url": "https://www.theregister.com/cyber-crime/2026/11/10/ransomware-threat-blares-from-vanderbilt-university-computers-during-cyberattack/5308687"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "79ad9e85ceceb206",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-10T11:15:00+00:00",
-     "section": "news",
-     "title": "Vanderbilt University Takes Systems Offline After Cyber Incident",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/vanderbilt-university-cyber/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "565e1f21fdfa66de",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-09T23:52:12+00:00",
-     "section": "news",
-     "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "c54641de3eb09d88",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-09T18:30:00+00:00",
-     "section": "news",
-     "title": "Vanderbilt cybersecurity incident impacting campus devices and systems",
-     "type": null,
-     "url": "https://therecord.media/vanderbilt-cyberattack-ransomware-alert"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-10",
-   "group": "all",
-   "id": "vanderbilt-university-ransomware-attack",
-   "label": "Vanderbilt University ransomware attack",
-   "last_updated": "2026-11-12",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "be665c487b5b9283"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "Malwarebytes Labs"
-     ],
-     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/vanderbilt-restores-systems-after-cyberattack-as-hackers-claim-data-theft) reported that Vanderbilt University is restoring campus technology but has not confirmed attackers' claims of stolen student and employee data."
-    },
-    {
-     "articles": [
-      "ea3d1f1c47de8c09"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "CyberScoop"
-     ],
-     "text": "[CyberScoop](https://cyberscoop.com/vanderbilt-university-ransomware-attack-byod/) reported that services began returning online following a ransomware incident detected across Vanderbilt systems and applications."
-    },
-    {
-     "articles": [
-      "88bd7970281f75df"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Register Security"
-     ],
-     "text": "[The Register Security](https://www.theregister.com/cyber-crime/2026/11/10/ransomware-threat-blares-from-vanderbilt-university-computers-during-cyberattack/5308687) reported that the BYOD ransomware group claimed extensive data theft as campus Wi-Fi returned at Vanderbilt University."
-    },
-    {
-     "articles": [
-      "79ad9e85ceceb206"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/vanderbilt-university-cyber/) reported that Vanderbilt University took its systems offline after the BYOD ransomware group claimed to have locked databases and stolen sensitive data."
-    },
-    {
-     "articles": [
-      "565e1f21fdfa66de"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/) reported that Vanderbilt University warned it is responding to a cyberattack claimed by the BYOD ransomware gang."
-    },
-    {
-     "articles": [
-      "c54641de3eb09d88"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "text": "[The Record](https://therecord.media/vanderbilt-cyberattack-ransomware-alert) reported that Vanderbilt University announced a cyberattack warning that campus devices and systems may be impacted."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Vanderbilt University ransomware attack"
-  },
-  {
-   "article_count": 7,
-   "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "b8504b9aeab4d3ee",
-     "lang": "en",
-     "outlet": "Dark Reading",
-     "published": "2026-11-11T20:05:18+00:00",
-     "publisher": "Dark Reading",
-     "section": "news",
-     "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
-     "type": null,
-     "url": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "cc5a91b10bacd5b1",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-11T17:15:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "section": "news",
-     "title": "N-able Rushes Out N-central Fixes After 33 Zero-Days Go Public",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/n-able-n-central-able2shell-0day/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "fcecc764ab738cfc",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-11T12:57:12+00:00",
-     "publisher": "Cybersecurity News",
-     "section": "news",
-     "title": "N-able Releases Emergency N-central Hotfix After 33 Vulnerabilities Trigger Worldwide Shutdown",
-     "type": null,
-     "url": "https://cybersecuritynews.com/n-able-n-central-security-vulnerabilities/"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "c4b0c3bc2d075f5c",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-11T12:32:27+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "8d3afdda288feea3",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-10T09:56:28+00:00",
-     "section": "news",
-     "title": "N-able Takes N-central Offline as Researcher Drops Over 30 Zero-Days",
-     "type": null,
-     "url": "https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "2f309d43d0948348",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-10T06:44:36+00:00",
-     "section": "news",
-     "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "6208b0b37682b112",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-09T21:26:25+00:00",
-     "section": "news",
-     "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-10",
-   "group": "all",
-   "id": "n-able-takes-n-central-offline",
-   "label": "N-able takes N-central offline following zero-day disclosures",
-   "last_updated": "2026-11-12",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "b8504b9aeab4d3ee"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "Dark Reading"
-     ],
-     "text": "[Dark Reading](https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws) reported that N-able took its N-central platform offline after the discovery of 33 flaws and released a hotfix."
-    },
-    {
-     "articles": [
-      "cc5a91b10bacd5b1"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/n-able-n-central-able2shell-0day/) reported that N-able fixed seven N-central CVEs after 33 alleged zero-days were published."
-    },
-    {
-     "articles": [
-      "fcecc764ab738cfc"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-n-central-security-vulnerabilities/) reported that N-able released an emergency hotfix for N-central following the public disclosure of 33 vulnerabilities."
-    },
-    {
-     "articles": [
-      "c4b0c3bc2d075f5c"
-     ],
-     "date": "2026-11-11",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/) reported that N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management platform."
-    },
-    {
-     "articles": [
-      "8d3afdda288feea3"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "text": "[SecurityWeek](https://www.securityweek.com/n-able-takes-n-central-offline-as-researcher-drops-over-30-zero-days/) reported that N-able took N-central offline as a researcher dropped over 30 zero-days enabling remote code execution and credential theft."
-    },
-    {
-     "articles": [
-      "2f309d43d0948348"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html) reported that N-able took N-central Hosted Environments offline and urged on-premises customers to shut down servers after a researcher disclosed 33 zero-days with PoC exploits."
-    },
-    {
-     "articles": [
-      "6208b0b37682b112"
-     ],
-     "date": "2026-11-10",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/) reported that N-able took its cloud platform offline and urged on-premises customers to shut down servers following the public disclosure."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "N-able takes N-central offline following zero-day disclosures"
-  },
-  {
-   "article_count": 5,
-   "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "a49e09a3369b6bab",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-12T08:15:03+00:00",
-     "publisher": "Cybersecurity News",
-     "section": "news",
-     "title": "Hackers Hijack 4,837 GitHub Accounts to Target 61,764 Repositories With CI Secret-Stealing Malware",
-     "type": null,
-     "url": "https://cybersecuritynews.com/github-accounts/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "14cd9621e81aa9c8",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-12T06:42:47+00:00",
-     "publisher": "The Hacker News",
-     "section": "news",
-     "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "3d9f8ed685e9f389",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-12T04:39:48+00:00",
-     "publisher": "The Hacker News",
-     "section": "news",
-     "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "d62efe820204c801",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-11T22:56:21+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "0ea4a4c2863461bd",
-     "lang": "en",
-     "outlet": "Sophos X-Ops",
-     "published": "2026-11-11T00:00:00+00:00",
-     "publisher": "Sophos X-Ops",
-     "section": "intel",
-     "title": "Malicious ScreenConnect deployments observed",
-     "type": null,
-     "url": "https://www.sophos.com/en-us/blog/malicious-screenconnect-deployments-observed"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-12",
-   "group": "all",
-   "id": "github-and-screenconnect-cyberattacks",
-   "label": "GitHub and ScreenConnect cyberattacks",
-   "last_updated": "2026-11-12",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a49e09a3369b6bab"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/github-accounts/) reported that a threat actor used stolen GitHub credentials to push a secret-stealing payload into tens of thousands of code repositories."
-    },
-    {
-     "articles": [
-      "14cd9621e81aa9c8"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html) reported that an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to."
-    },
-    {
-     "articles": [
-      "3d9f8ed685e9f389"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html) reported that ConnectWise disabled five third-party extensions in partner environments following reports of unauthorized access and ScreenConnect attacks targeting at least 288 endpoints across 48 organizations."
-    },
-    {
-     "articles": [
-      "d62efe820204c801"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/) reported that ConnectWise is investigating an active malware campaign targeting managed service providers that uses compromised ScreenConnect environments to deploy rogue clients."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "GitHub and ScreenConnect cyberattacks"
   },
   {
    "article_count": 9,
@@ -1089,14 +695,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1195,7 +801,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
    "title_from": {
     "backing": 2,
@@ -1317,93 +923,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "AntiFox AI penetration testing platform attacks"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-12",
-     "id": "3c16f9264d207302",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-11T23:01:31+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "Baker Tilly notifies clients of data breach at third-party provider",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "246b484cb5d56b70",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-11T20:47:36+00:00",
-     "publisher": "Security Affairs",
-     "section": "news",
-     "title": "WhiteArmor Demands $5 Million from Maersk, Claims Theft of 100GB of Data",
-     "type": null,
-     "url": "https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "ec52fb6e5e862189",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-11T16:24:18+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-12",
-   "group": "all",
-   "id": "maersk-and-baker-tilly-data-breaches",
-   "label": "Maersk and Baker Tilly data breaches",
-   "last_updated": "2026-11-12",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "3c16f9264d207302"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/) reported that the Baker Tilly Advisory Group is notifying clients of a data breach compromising personal information."
-    },
-    {
-     "articles": [
-      "246b484cb5d56b70"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "text": "[Security Affairs](https://securityaffairs.com/202869/data-breach/whitearmor-demands-5-million-from-maersk-claims-theft-of-100gb-of-data.html) reported that Maersk confirmed a data breach involving a legacy system, while WhiteArmor claimed 100GB of stolen data and demanded a $5 million ransom."
-    },
-    {
-     "articles": [
-      "ec52fb6e5e862189"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/) reported that Maersk announced unauthorized access to a local legacy system inherited through an earlier acquisition."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Maersk and Baker Tilly data breaches"
   },
   {
    "article_count": 3,
@@ -2090,14 +1609,14 @@
      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "microsoft-365-cloud-service-outage",
    "label": "Microsoft 365 cloud service outage",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2160,9 +1679,9 @@
      "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more) reported that a worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
    "title_from": {
     "backing": 2,
@@ -3494,14 +3013,14 @@
      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "meta-fine-in-italy",
    "label": "Meta fine in Italy",
    "last_reported": "2026-11-15",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3540,9 +3059,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html) reported that Meta was fined €805 Million in Italy over Facebook's Android gallery access without explicit consent."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
    "title_from": {
     "backing": 2,
@@ -4285,14 +3804,14 @@
      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "optimizely-script-hijacking-campaign",
    "label": "Optimizely script hijacking campaign",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4331,9 +3850,9 @@
      "text": "[Security Affairs](https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html) reported that attackers hijacked Optimizely scripts on 178 organizations' websites under the name OPTIMJACK, spreading malware to target iPhones and steal payment card data and cryptocurrency."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Optimizely script hijacking campaign",
    "topic": "cyber"
   },
@@ -4450,14 +3969,14 @@
      "url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "anthropic-vulnerability-disclosure-policy",
    "label": "Anthropic vulnerability disclosure policy",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4474,9 +3993,9 @@
      "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/), [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/) reported that Anthropic reduced its vulnerability disclosure deadline to 30 days for high- and critical-severity bugs."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Anthropic vulnerability disclosure policy",
    "topic": "cyber"
   },
@@ -4596,14 +4115,14 @@
      "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "cold-relic-a-case-study-in",
    "label": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4656,7 +4175,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
    "topic": "cyber"
   },
@@ -4933,14 +4452,14 @@
      "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "microsoft-agent-framework-pypi-package-compromise",
    "label": "Microsoft agent-framework PyPI package compromise",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4981,7 +4500,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Microsoft’s Agent Framework PyPI Package Hacked to Steal Azure and GitHub Credentials",
    "title_from": {
     "backing": 2,
@@ -5022,14 +4541,14 @@
      "url": "https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "java4shell-vulnerability-disclosure",
    "label": "Java4Shell vulnerability disclosure",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5058,7 +4577,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Java4Shell vulnerability disclosure",
    "topic": "cyber"
   },
@@ -5092,14 +4611,14 @@
      "url": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "national-security-agency-network-outage",
    "label": "National Security Agency network outage",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5128,7 +4647,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "National Security Agency network outage",
    "topic": "infrastructure"
   },
@@ -5149,14 +4668,14 @@
      "url": "https://opensourcemalware.com/blog/react2steal-github-actions"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "react2steal-uses-github-actions-to-exploit",
    "label": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5171,9 +4690,9 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/react2steal-github-actions) reported that the React2STEAL campaign uses GitHub Actions to exploit React2Shell, exposing stolen AWS credentials, AI keys, and.env files from over 1,200 hosts in public repositories."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
    "topic": "cyber"
   },
@@ -5194,14 +4713,14 @@
      "url": "https://securelist.com/auditteam-opsagent-forced-audit/122031/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "auditteam-opsagent-ransomware-framework",
    "label": "AuditTeam OpsAgent ransomware framework",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5216,9 +4735,9 @@
      "text": "[Kaspersky](https://securelist.com/auditteam-opsagent-forced-audit/122031/) reported that the AuditTeam ransomware gang uses an OpsAgent implant with a Rust rewrite and an extortion model demanding a consulting fee, which masks ransomware as consulting."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "AuditTeam OpsAgent ransomware framework",
    "topic": "cyber"
   },
@@ -5252,14 +4771,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "scattered-spider-sentencing",
    "label": "Scattered Spider sentencing",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5288,7 +4807,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Scattered Spider sentencing",
    "topic": "crime"
   },
@@ -5325,14 +4844,14 @@
      "url": "https://securityaffairs.com/203394/hacking/norwegian-gas-giant-equinor-says-its-under-cyberattack-production-keeps-running.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "equinor-cyberattack",
    "label": "Equinor cyberattack",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5361,7 +4880,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Equinor cyberattack",
    "topic": "cyber"
   },
@@ -5382,14 +4901,14 @@
      "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "the-challenge-of-defending-against-bulletproof",
    "label": "The challenge of defending against bulletproof dead drops on public blockchains",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5404,9 +4923,9 @@
      "text": "[Cisco](https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/) reported on the evolution of malware command-and-control infrastructure shifting toward decentralized bulletproof dead drops on public blockchains."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "The challenge of defending against bulletproof dead drops on public blockchains",
    "topic": "cyber"
   },
@@ -5427,14 +4946,14 @@
      "url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "uat-12643-suspected-north-korea-aligned",
    "label": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5449,9 +4968,9 @@
      "text": "[Cisco](https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/) reported that Cisco Talos discovered malicious infrastructure associated with a financially motivated and suspected North Korea-aligned threat group tracked as UAT-12643."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
    "topic": "cyber"
   },
@@ -5485,14 +5004,14 @@
      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "windows-hello-and-bitlocker-pin-vulnerabilities",
    "label": "Windows Hello and BitLocker PIN vulnerabilities",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5521,7 +5040,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Windows Hello and BitLocker PIN vulnerabilities",
    "topic": "cyber"
   },
@@ -5555,14 +5074,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "cloud-keys-leaked-in-docker-hub",
    "label": "Cloud keys leaked in Docker Hub images",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5591,12 +5110,82 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cloud keys leaked in Docker Hub images",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "0880e23c69176d25",
+     "lang": "en",
+     "outlet": "FlightGlobal",
+     "published": "2026-11-18T17:44:34+00:00",
+     "publisher": "FlightGlobal",
+     "region": null,
+     "section": "aviation",
+     "title": "Corrosive gallium, axe used to sabotage C-130H at Shannon airport: US authorities",
+     "type": null,
+     "url": "https://www.flightglobal.com/defence/2026/11/corrosive-gallium-and-an-axe-used-in-sabotage-of-us-c-130h-at-shannon-airport-us-authorities-allege/"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "8188af5b2c4b90d8",
+     "lang": "en",
+     "outlet": "AeroTime",
+     "published": "2026-11-18T09:35:51+00:00",
+     "publisher": "AeroTime",
+     "region": null,
+     "section": "aviation",
+     "title": "US indicts Irish man over destruction of C-130H at Shannon Airport",
+     "type": null,
+     "url": "https://www.aerotime.aero/articles/irish-man-indicted-c130h-destruction-shannon-airport"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "shannon-airport-c-130h-sabotage",
+   "label": "Shannon Airport C-130H sabotage",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8188af5b2c4b90d8"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "AeroTime"
+     ],
+     "published": "2026-11-18T09:35:51+00:00",
+     "text": "[AeroTime](https://www.aerotime.aero/articles/irish-man-indicted-c130h-destruction-shannon-airport) reported that US federal prosecutors have indicted an Irish man over the destruction of a US Air National Guard C-130H at Shannon Airport."
+    },
+    {
+     "articles": [
+      "0880e23c69176d25"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "FlightGlobal"
+     ],
+     "published": "2026-11-18T17:44:34+00:00",
+     "text": "[FlightGlobal](https://www.flightglobal.com/defence/2026/11/corrosive-gallium-and-an-axe-used-in-sabotage-of-us-c-130h-at-shannon-airport-us-authorities-allege/) reported that US authorities stated corrosive gallium and an axe were used to sabotage the aircraft, leaving it inoperable."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Shannon Airport C-130H sabotage",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-18T22:29:16+00:00"
+ "updated": "2026-11-19T01:55:20+00:00"
 }

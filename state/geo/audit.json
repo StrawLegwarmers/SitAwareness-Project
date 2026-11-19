@@ -1,33 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "[66] reported that Ukrainian Defense Minister Rustem Umerov confirmed a large-scale prisoner exchange was agreed upon as the second day of Abu Dhabi talks concluded.",
-  "reason": "names not in cited articles: Defense, Rustem, Ukrainian"
- },
- {
-  "date": "2026-11-11",
-  "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "[234] reported that Russian delegation head Vladimir Medinsky stated that the Abu Dhabi negotiations were among the most difficult, with Russia coming in with rigorous demands.",
-  "reason": "wording not from cited articles: delegation, head, among, difficult, coming, rigorous"
- },
- {
-  "date": "2026-11-11",
-  "group": "europe",
-  "story": "Portugal Storm Charles Disruption",
-  "text": "[114] reported that Storm Charles hit Portugal, causing over 200 flight cancellations and more than 500 incidents, while threatening Spain where over 3,000 people were evacuated.",
-  "reason": "number not in cited articles: 3000"
- },
- {
-  "date": "2026-11-11",
-  "group": "latam",
-  "story": "Paraguay political and banking crisis",
-  "text": "",
-  "reason": "manual correction: removed 1 items about Spain"
- },
- {
   "date": "2026-11-12",
   "kind": "title",
   "group": "africa",
@@ -2257,6 +2229,350 @@
   "group": "africa",
   "story": "2027: Katsina gov promises more development, seeks APC victory",
   "text": "2027: Yayi realised his looming defeat the day Adebutu returned to the ballot – PDP Nat’l Sec",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Путин, Трамп и Си Цзиньпин пожали руки на приеме АТЭС в Шэньчжэне"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Путин прибыл на площадку саммита АТЭС в Шэньчжэне"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "[10] reported that Donald Trump plans to hold separate talks with Vladimir Putin in China ahead of a three-way meeting with Xi Jinping.",
+  "reason": "names not in cited articles: Donald, Vladimir"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Russia’s Vladimir Putin says sanctions ‘a thing of the past’ at Apec summit",
+  "text": "[12], a state-media outlet, reported that Vladimir Putin, Donald Trump, and Xi Jinping gathered for a family photo at the APEC summit.",
+  "reason": "names not in cited articles: Donald, Jinping, Vladimir"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Grand Theft Auto VI release",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "NASA Voyager 1 space milestone",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Proposed trilateral summit in China",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Crimean Bridge attacked again, Russian official says"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "europe",
+  "story": "Crimean Bridge attacked again, Russian official says",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "James Bond casting announcement",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Pew Research global religion projections",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Anthropic initial public offering",
+  "text": "[64] reported that the IPO valuation reached $1.5 trillion.",
+  "reason": "wording not from cited articles: valuation, reached"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "namerica",
+  "story": "Elon Musk dumps MAGA after midterm blowout, feels ‘foolish’ bank rolling failed GOP candidates",
+  "text": "Elon Musk political spending reflections",
+  "reason": "title replaced by a headline: wording not from cited articles: political, reflections"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "africa",
+  "story": "Nigeria: Army Chief Tasks Armoured Corps On Modernisation, Combat Readiness",
+  "text": "Nigerian Army armored corps modernization",
+  "reason": "title replaced by a headline: wording not from cited articles: armored, modernization"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Nuevo León plane crash",
+  "text": "[102] reported that a small aircraft crashed and caught fire on a highway in Nuevo León, Mexico, resulting in six injuries during takeoff.",
+  "reason": "analysis word not used by the source: 'crashed'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Mango corporate leadership dispute",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "German FA FIFA presidency endorsement",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Ukraine Facility: Council approves largest-ever payment of €8 billion to Kyiv",
+  "text": "Council of Europe Action Plan for Ukraine",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Tribute event for Gloria Steinem",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "What is APEC and why are the world’s leaders gathering in Shenzhen?",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Trump seeks diplomatic gains on Asia tour as Putin arrives in China",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "global",
+  "story": "Tech breakdowns, broken down: Air traffic control, banks and security systems outages explained | CB",
+  "text": "Global technology infrastructure outages",
+  "reason": "title replaced by a headline: names not in cited articles: Global"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "title",
+  "group": "africa",
+  "story": "Tinubu expands 2027 campaign tour to 19 states",
+  "text": "Nigeria 2027 presidential campaign tour expansion",
+  "reason": "title replaced by a headline: wording not from cited articles: presidential, expansion"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Russia personalized cancer vaccine clinical use",
+  "text": "",
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "New York Van Gogh painting auction record",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Faster fossil fuels phase-out, $120bn aid in COP31 draft",
+  "text": "COP31 climate summit negotiations in Antalya",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Anthropic IPO valuation",
+  "text": "[49][50] reported that Anthropic is valued at 1,500 billion dollars ahead of its initial public offering and aims to raise approximately 79.4 billion dollars.",
+  "reason": "number not in cited articles: 1500000000000"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Bilawal Bhutto-Zardari political statements",
+  "text": "[65] reported that Pakistan Peoples Party Chairman Bilawal Bhutto-Zardari advised the government to calm down and respond to criticism from Defence Minister Khawaja Asif.",
+  "reason": "names not in cited articles: Bhutto-Zardari, Chairman, Pakistan, Party, Peoples"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Cornyn blocks top Justice Department official nominated for judicial vacancy in Texas",
+  "text": "[69] reported that Senator Bill Cassidy blocked Trump nominee Jim O'Neill from heading a science agency amid bipartisan concerns.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Nema više brisanja storyja zbog greške u kucanju: Instagram uveo opciju koja se godinama čekala",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Manje od sat do GTA VI: Vlasnici PS5 prvo moraju ažurirati konzolu",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "برج الدلو.. حظك اليوم الخميس 19 نوفمبر 2026: احتمال السفر للعمل",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Levi’s, Calvin Klein y Adidas: 25 ofertas de moda que merece la pena comprar este Black Friday",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iraq security operations in Jurf Al-Sakhr",
+  "text": "[2] reported that Prime Minister Ali Al-Zaidi faces challenges in disarming pro-Iran militias amid accusations of oil smuggling.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Chilean commercial ship to Falklands",
+  "text": "[19] reported that the chancellor stated the vessel may make the route if it requests Argentine authorization and respects the Chilean commitment not to support exploitation.",
+  "reason": "analysis word not used by the source: 'may'"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Irish Man Sabotaged U.S. Military Plane With Ax and Chemicals, Prosecutors Say",
+  "text": "[3], a Russian state outlet, reported that the United States charged an Irish national with destroying a military plane with an axe.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US home sales statistics",
+  "text": "[12] reported that the unemployment rate in Australia surged to 4.9 percent in October.",
+  "reason": "names not in cited articles: Australia"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "US leadership meetings in China",
+  "text": "[13] reported that Donald Trump met with Xi Jinping and Vladimir Putin in China.",
+  "reason": "names not in cited articles: Donald, Jinping, Vladimir"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "ADC accuses INEC of bias",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "africa",
+  "story": "APC Accuses ADC, NDC of Instigating Protests Against Tinubu",
+  "text": "Court Dismisses Suit Seeking to Disqualify Aondoakaa from Benue Governorship Race",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Ukraine Sidesteps Starlink Throttling With Crimea Bridge Strike",
+  "text": "Crimean Bridge attacked again, Russian official says",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "asia",
+  "story": "US leadership meetings in China",
+  "text": "Putin Will Continue Ukraine War Despite Plans to Meet Trump, Intelligence Says",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "africa",
+  "story": "CBN, NNPCL Sign MOU To Strengthen Macroeconomic Stability, Energy Financing",
+  "text": "Nigeria renewable energy financing agreement",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-19",
+  "kind": "merged",
+  "group": "global",
+  "story": "Anthropic initial public offering",
+  "text": "Anthropic IPO valuation",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

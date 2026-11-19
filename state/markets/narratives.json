@@ -1,6 +1,102 @@
 {
  "archived": [
   {
+   "article_count": 5,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "new-orleans-tanker-collision",
+   "last_updated": "2026-11-14",
+   "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "bank-of-england-interest-rates",
+   "last_updated": "2026-11-14",
+   "title": "Bank of England interest rates"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "yes-bank-supreme-court-bond-review",
+   "last_updated": "2026-11-14",
+   "title": "Yes Bank Supreme Court bond review"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "goldman-sachs-sees-19-return-on",
+   "last_updated": "2026-11-14",
+   "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "tesla-cybercab-sales",
+   "last_updated": "2026-11-14",
+   "title": "Tesla Cybercab sales"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "uniper-sale-process",
+   "last_updated": "2026-11-14",
+   "title": "Uniper sale process"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "japan-currency-intervention-warnings",
+   "last_updated": "2026-11-14",
+   "title": "Japan currency intervention warnings"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "us-and-china-trade-council-meeting",
+   "last_updated": "2026-11-14",
+   "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "nvidia-eyes-worst-week-since-trump",
+   "last_updated": "2026-11-14",
+   "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "russian-diesel-exports-and-refinery-attacks",
+   "last_updated": "2026-11-14",
+   "title": "Russian diesel exports and refinery attacks"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "trump-and-xi-summit",
+   "last_updated": "2026-11-14",
+   "title": "Trump and Xi summit"
+  },
+  {
+   "article_count": 6,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "microsoft-service-outage",
+   "last_updated": "2026-11-14",
+   "title": "Microsoft service outage"
+  },
+  {
    "article_count": 2,
    "first_seen": "2026-11-13",
    "group": "all",
@@ -146,6 +242,30 @@
   }
  ],
  "coverage": [
+  {
+   "articles": 573,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 8,
+   "continuing": 5,
+   "corroborated": 0,
+   "date": "2026-11-19",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 517,
+   "in_stories": 10,
+   "kept": 9,
+   "merged": 0,
+   "new": 2,
+   "rejected": 0,
+   "reported_by_2": 4,
+   "runs": 1,
+   "sent": 8,
+   "skipped": 1,
+   "split_calls": 0,
+   "updated": 5,
+   "waiting": 0
+  },
   {
    "articles": 582,
    "attached_by_code": 0,
@@ -295,7 +415,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-18T22:34:08+00:00"
+  "all": "2026-11-19T01:57:36+00:00"
  },
  "narratives": [
   {
@@ -432,14 +552,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -533,7 +653,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
    "title_from": {
     "backing": 2,
@@ -639,14 +759,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -711,182 +831,9 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
-  },
-  {
-   "article_count": 6,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "11af7fd9bd0f7954",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-14T09:56:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft Service Restored After Widespread Outage, Company Says",
-     "type": "international",
-     "url": "https://www.wsj.com/tech/microsoft-service-restored-after-outage-dddae34b?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "ffa1ff89a380db8b",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-14T07:30:16+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft restores service to Outlook and Teams after global outage",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/microsoft-outlook-teams-outage-eases-after-over-a-day-recovery-timeline-uncertain-5026486"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "9c85bcaf5c725dd1",
-     "lang": "en",
-     "outlet": "BBC Business",
-     "published": "2026-11-13T21:14:22+00:00",
-     "publisher": "BBC",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-     "type": "international",
-     "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "a94182ebd07e70e7",
-     "lang": "en",
-     "outlet": "The Guardian Business",
-     "published": "2026-11-13T16:02:57+00:00",
-     "publisher": "The Guardian",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft outage live: millions still affected as disruption stretches beyond 18 hours",
-     "type": "international",
-     "url": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "a744b89cb32f44b4",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-13T11:23:26+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Widespread Microsoft outage continues, taking down Outlook and other 365 services",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "8ebce37462c43464",
-     "lang": "en",
-     "outlet": "MarketWatch Bulletins",
-     "published": "2026-11-13T09:32:51+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft stock is dropping amid continued outage of key services: live updates",
-     "type": "international",
-     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "microsoft-service-outage",
-   "label": "Microsoft service outage",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "merged": [
-    "microsoft-global-outage"
-   ],
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "11af7fd9bd0f7954"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-14T09:56:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/tech/microsoft-service-restored-after-outage-dddae34b?mod=pls_whats_news_us_business_f) reported that Microsoft stated it restored service after widespread disruption to Microsoft 365 and processed a backlog of emails."
-    },
-    {
-     "articles": [
-      "ffa1ff89a380db8b"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-14T07:30:16+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/microsoft-outlook-teams-outage-eases-after-over-a-day-recovery-timeline-uncertain-5026486) reported that Microsoft restored service to Outlook and Teams following a global outage."
-    },
-    {
-     "articles": [
-      "a94182ebd07e70e7"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Guardian"
-     ],
-     "published": "2026-11-13T16:02:57+00:00",
-     "text": "[The Guardian](https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news) reported that Microsoft stated it is continuing to see improvements in service availability after a disruption stretched beyond 18 hours."
-    },
-    {
-     "articles": [
-      "9c85bcaf5c725dd1"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BBC"
-     ],
-     "published": "2026-11-13T21:14:22+00:00",
-     "text": "[BBC](https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss) reported that Microsoft is deeply sorry for the global outage after almost 24 hours of disruption."
-    },
-    {
-     "articles": [
-      "8ebce37462c43464"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "MarketWatch"
-     ],
-     "published": "2026-11-13T09:32:51+00:00",
-     "text": "[MarketWatch](https://www.marketwatch.com/bulletins/redirect/go?g=dd9bb60f-b504-4f37-a83a-80d0ddad3c82&mod=mw_rss_bulletins) reported that Microsoft stock is dropping amid a continued outage of key services."
-    },
-    {
-     "articles": [
-      "a744b89cb32f44b4"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-13T11:23:26+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html) reported that a widespread Microsoft outage on Thursday affected users of services like Outlook, Teams, and 365."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Microsoft service outage",
-   "topic": "infrastructure"
   },
   {
    "article_count": 5,
@@ -1341,14 +1288,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1434,7 +1381,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -1735,14 +1682,14 @@
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-federal-aviation-administration-flight-ground",
    "label": "US Federal Aviation Administration flight ground stop",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "previous_titles": [
     "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
     "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
@@ -1891,9 +1838,9 @@
      "text": "[MarketWatch](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories) reported that nearly 8,000 flights were delayed."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
    "title_from": {
     "backing": 2,
@@ -1974,848 +1921,6 @@
    "status": "unchanged",
    "title": "US dollar and gold markets",
    "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "a41e5dc5f1ac40e7",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-14T01:34:11+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "d8d2686b95fc6a40",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-14T01:28:36+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Trump will not raise Nvidia spy issue with Xi at summit, officials say",
-     "type": "international",
-     "url": "https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "trump-and-xi-summit",
-   "label": "Trump and Xi summit",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "d8d2686b95fc6a40"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Financial Times"
-     ],
-     "published": "2026-11-14T01:28:36+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1) reported that the U.S. president will hold a trilateral meeting with the Chinese leader and Russia’s Vladimir Putin next week."
-    },
-    {
-     "articles": [
-      "a41e5dc5f1ac40e7",
-      "d8d2686b95fc6a40"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Financial Times",
-      "CNBC"
-     ],
-     "published": "2026-11-14T01:28:36+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/6034dd16-8c7d-4b3e-bc4e-942a6c8529dd?syn-25a6b1a6=1), [CNBC](https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html) reported that officials said the U.S. president will not raise the Nvidia spy issue with Xi at the summit."
-    },
-    {
-     "articles": [
-      "a41e5dc5f1ac40e7"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-14T01:34:11+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html) reported that Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Trump and Xi summit",
-   "topic": "diplomacy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "9b059f9812ecc36b",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T14:59:35+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Russian Diesel Exports Drop as Ukraine Renews Refinery Attacks",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-13/russian-diesel-exports-drop-as-ukraine-renews-refinery-attacks"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "4d48ffc86685556c",
-     "lang": "en",
-     "outlet": "FT Markets",
-     "published": "2026-11-12T05:00:21+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Russian diesel exports double after Trump lifts sanctions, but US gets none",
-     "type": "international",
-     "url": "https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "russian-diesel-exports-and-refinery-attacks",
-   "label": "Russian diesel exports and refinery attacks",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "4d48ffc86685556c"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Financial Times"
-     ],
-     "published": "2026-11-12T05:00:21+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/525b53ee-4817-4eb6-8292-b6ee0ac45b47?syn-25a6b1a6=1) reported that Russian diesel exports doubled after sanctions were lifted, but shipments are expected to be shortlived after Ukraine resumes attacks on refineries."
-    },
-    {
-     "articles": [
-      "9b059f9812ecc36b"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-13T14:59:35+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/russian-diesel-exports-drop-as-ukraine-renews-refinery-attacks) reported that Russian diesel exports slumped at the start of November as renewed Ukrainian attacks on refineries threatened to curb fuel output."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Russian diesel exports and refinery attacks",
-   "topic": "energy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "9a378c329f61d338",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-14T04:28:50+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia has worst week since Trump tariff selloff as Huang exits",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "077fbcd202af59b7",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T18:24:41+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "nvidia-eyes-worst-week-since-trump",
-   "label": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "077fbcd202af59b7"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-13T18:24:41+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/nvidia-eyes-worst-week-since-trump-tariff-selloff-as-huang-exits) reported that Nvidia Corp. stock is on track to notch its worst week in more than 18 months as its share price continues to reel after Jensen Huang's ouster from the top chip post."
-    },
-    {
-     "articles": [
-      "9a378c329f61d338"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-14T04:28:50+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/nvidia-has-worst-week-since-trump-tariff-selloff-as-huang-exits/articleshow/135822623.cms) reported that Nvidia Corp. witnessed a drastic stock plunge with a 13% decrease in stock value within a week following the ousting of CEO Jensen Huang amid scandals."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Nvidia Eyes Worst Week Since Trump Tariff Selloff as Huang Exits",
-   "topic": "markets"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "e2955952b7ef0657",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-14T08:16:44+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "a1ae63f8d372af0b",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-14T07:46:24+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "China, US Discuss Tariffs in First Meeting of Trade Council",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "bde4cba7f4fb38a3",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-14T07:18:19+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "China, US discuss tariffs, farm trade at first trade council meeting",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/china-us-discuss-tariffs-farm-trade-at-first-trade-council-meeting-5027183"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "us-and-china-trade-council-meeting",
-   "label": "US and China trade council meeting",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a1ae63f8d372af0b"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-14T07:46:24+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/china-the-us-discuss-tariffs-in-first-meeting-of-trade-council) reported that China and the US held the first meeting of a new council by video on Friday under their economic and trade consultation mechanism."
-    },
-    {
-     "articles": [
-      "e2955952b7ef0657"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-14T08:16:44+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html) reported that Beijing urged Washington to implement a $60 billion tariff-reduction deal as a prerequisite for increasing purchases of US farm goods."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "China, US discuss tariffs, farm trade ahead of Xi-Trump meeting",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-14",
-    "of": 2,
-    "outlet": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/14/china-us-tariffs-xi-trump-meeting.html"
-   },
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "5f98a75759370dd1",
-     "lang": "en",
-     "outlet": "WSJ Markets",
-     "published": "2026-11-13T06:21:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Japan Fires Off Verbal Warning on Yen as Weakness Stokes Intervention Alert",
-     "type": "international",
-     "url": "https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67?mod=rss_markets_main"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "3cd4c7f48d70bc27",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-13T00:53:45+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Japan’s Katayama Warns of FX Steps as Yen Stays Near 160",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-13/japan-s-katayama-warns-of-fx-steps-after-one-sided-rapid-moves"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "japan-currency-intervention-warnings",
-   "label": "Japan currency intervention warnings",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "3cd4c7f48d70bc27"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-13T00:53:45+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/japan-s-katayama-warns-of-fx-steps-after-one-sided-rapid-moves) reported that Japanese Finance Minister Satsuki Katayama stated that ministry officials will continue to work closely with counterparts in Washington to take appropriate action regarding currency steps."
-    },
-    {
-     "articles": [
-      "5f98a75759370dd1"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-13T06:21:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/finance/currencies/japans-finance-minister-warns-against-rapid-yen-moves-cb65cc67?mod=rss_markets_main) reported that Finance Minister Satsuki Katayama called recent yen movements one-sided and rapid."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Japan currency intervention warnings",
-   "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "6e4c2d88b46e5603",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T19:53:07+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Centrica, Equinor in Next Round of Germany’s Uniper Sale",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-13/brookfield-consortium-progresses-to-next-round-of-uniper-sale"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "e85579cc1430dd07",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-13T19:07:10+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Exclusive-Brookfield, CPPIB consortium enters next round in Uniper sales process, sources say",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/exclusivebrookfield-cppib-advance-to-next-round-in-uniper-sales-process-sources-say-5026330"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "uniper-sale-process",
-   "label": "Uniper sale process",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "6e4c2d88b46e5603"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-13T19:53:07+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/brookfield-consortium-progresses-to-next-round-of-uniper-sale) reported that Centrica Plc and Equinor ASA advanced to the second round of the sale process for Germany's Uniper SE."
-    },
-    {
-     "articles": [
-      "e85579cc1430dd07"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-13T19:07:10+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/exclusivebrookfield-cppib-advance-to-next-round-in-uniper-sales-process-sources-say-5026330) reported that a consortium including Brookfield and CPPIB entered the next round in the Uniper sales process."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Uniper sale process",
-   "topic": "business-strategic"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "fc06ecba84a87fb1",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-14T08:06:18+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Tesla invites select customers to buy Cybercab for personal use",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/tesla-invites-select-customers-to-buy-cybercab-for-personal-use-5027212"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "ce44e0a4b23f7d3f",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-14T03:15:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Tesla Opens Sales Of Autonomous Cybercab For ‘Select’ Customers",
-     "type": "international",
-     "url": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "tesla-cybercab-sales",
-   "label": "Tesla Cybercab sales",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "ce44e0a4b23f7d3f"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-14T03:15:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=pls_whats_news_us_business_f) reported that Tesla opened sales of its autonomous Cybercab for select customers amidst a federal probe."
-    },
-    {
-     "articles": [
-      "fc06ecba84a87fb1"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-14T08:06:18+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/tesla-invites-select-customers-to-buy-cybercab-for-personal-use-5027212) reported that Tesla invited select customers to buy the Cybercab for personal use."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Tesla Cybercab sales",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "130c3e4adc5ff42c",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-14T10:16:50+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "da9fa0842b471ca8",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-14T03:41:07+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Goldman Sachs sees S&P 500 rising to 8,700 next year despite slower earnings growth",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-sees-sp-500-rising-to-8700-next-year-despite-slower-earnings-growth/articleshow/135821647.cms"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "goldman-sachs-sees-19-return-on",
-   "label": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "130c3e4adc5ff42c"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-14T10:16:50+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027) reported that Goldman Sachs expects earnings growth to drive a 19% return for the MSCI Asia ex-Japan Index in dollar terms next year."
-    },
-    {
-     "articles": [
-      "da9fa0842b471ca8"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-14T03:41:07+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-sees-sp-500-rising-to-8700-next-year-despite-slower-earnings-growth/articleshow/135821647.cms) reported that Goldman Sachs stated the S&P 500 index may reach 8,700 points within the next year."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
-   "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "00917425f3bead72",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-14T11:10:38+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Yes Bank moves SC seeking review of order on writing off of Rs 8,415 cr AT-1 bonds",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/bonds/yes-bank-moves-sc-seeking-review-of-order-on-writing-off-of-rs-8415-cr-at-1-bonds/articleshow/135830873.cms"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "0606e0af1db618f0",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-14T03:48:55+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Yes Bank Seeks India Top Court Review of $893 Million Bond Order",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-14/yes-bank-seeks-india-top-court-review-of-893-million-bond-order"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "yes-bank-supreme-court-bond-review",
-   "label": "Yes Bank Supreme Court bond review",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "00917425f3bead72",
-      "0606e0af1db618f0"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "ET Markets"
-     ],
-     "published": "2026-11-14T03:48:55+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/yes-bank-seeks-india-top-court-review-of-893-million-bond-order), [ET Markets](https://economictimes.indiatimes.com/markets/bonds/yes-bank-moves-sc-seeking-review-of-order-on-writing-off-of-rs-8415-cr-at-1-bonds/articleshow/135830873.cms) reported that Yes Bank has asked India’s top court to review a ruling regarding bonds written off during its 2020 rescue."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Yes Bank Supreme Court bond review",
-   "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "686d94fb055c6dac",
-     "lang": "en",
-     "outlet": "The Guardian Economics",
-     "published": "2026-11-14T12:33:58+00:00",
-     "publisher": "The Guardian",
-     "region": null,
-     "section": "news",
-     "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-     "type": "international",
-     "url": "https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "eb6ae8c3986887d7",
-     "lang": "en",
-     "outlet": "FT Global Economy",
-     "published": "2026-11-14T05:00:46+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "BoE chief economist says further rate rises needed to combat inflation",
-     "type": "international",
-     "url": "https://www.ft.com/content/806b0158-41c5-4db2-ac33-93621f72297b?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "bank-of-england-interest-rates",
-   "label": "Bank of England interest rates",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "686d94fb055c6dac",
-      "eb6ae8c3986887d7"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Financial Times",
-      "The Guardian"
-     ],
-     "published": "2026-11-14T05:00:46+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/806b0158-41c5-4db2-ac33-93621f72297b?syn-25a6b1a6=1), [The Guardian](https://www.theguardian.com/business/2026/nov/14/interest-rate-rises-inflation-bank-of-england-chief-economist) reported that Bank of England chief economist Huw Pill stated that further interest rate rises are needed to combat inflation."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Bank of England interest rates",
-   "topic": "economy"
-  },
-  {
-   "article_count": 5,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "5d240ec889e72917",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-14T18:31:24+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "All passengers and crew on New Orleans cruise ship survive crash with tanker on Mississippi River",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/14/cruise-ship-tanker-crash-new-orleans.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "9771a9947c562298",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-14T00:29:03+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Cruise Ship Capsizes After Tanker Collision in New Orleans",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-14/cruise-ship-capsizes-after-tanker-crash-in-new-orleans-video"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "f1609cf660627c07",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T22:33:48+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Tanker Hits Cruise Ship in New Orleans, Triggering Rescue",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "b4bda08b7b68c50b",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-13T21:50:23+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Rescues underway in New Orleans after a tanker hits a river cruise boat on the Mississippi River",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/13/tanker-hits-cruise-boat-in-new-orleans-rescues-underway.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "9c30a8d463da7808",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-13T21:40:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
-     "type": "international",
-     "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "new-orleans-tanker-collision",
-   "label": "New Orleans tanker collision",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9c30a8d463da7808"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-13T21:40:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f) reported that a tanker hit a cruise ship with over 100 people on board in New Orleans, and rescue efforts were under way on Friday afternoon."
-    },
-    {
-     "articles": [
-      "b4bda08b7b68c50b"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-13T21:50:23+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/13/tanker-hits-cruise-boat-in-new-orleans-rescues-underway.html) reported that a tanker struck a river cruise boat with 129 passengers on board on the Mississippi River, partially submerging the boat."
-    },
-    {
-     "articles": [
-      "f1609cf660627c07"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-13T22:33:48+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-13/tanker-hits-cruise-ship-in-new-orleans-prompting-rescue-video) reported that a tanker collided with a docked river cruise ship on the Mississippi River, leaving the smaller vessel partly submerged."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-14",
-    "of": 2,
-    "outlet": "Wall Street Journal",
-    "url": "https://www.wsj.com/us-news/tanker-hits-cruise-ship-with-over-100-people-on-board-near-port-of-new-orleans-480a901a?mod=pls_whats_news_us_business_f"
-   },
-   "topic": "infrastructure"
   },
   {
    "article_count": 2,
@@ -3453,8 +2558,21 @@
    "topic": "business"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "f341d9cbbd9d6cbd",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T00:57:50+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "China Markets Up to $2 Billion of Dollar Bonds in Hong Kong",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/china-markets-up-to-2-billion-of-dollar-bonds-in-hong-kong"
+    },
     {
      "added": "2026-11-16",
      "id": "38cdd77769a79b35",
@@ -3521,15 +2639,27 @@
      "url": "https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "hkex-dim-sum-bond-index",
    "label": "HKEX dim sum bond index",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "f341d9cbbd9d6cbd"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T00:57:50+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/china-markets-up-to-2-billion-of-dollar-bonds-in-hong-kong) reported that China began marketing dollar-denominated sovereign bonds in Hong Kong as it looks to raise as much as $2 billion in its second offshore note offering this month."
+    },
     {
      "articles": [
       "25d31f43f365d302"
@@ -3575,9 +2705,9 @@
      "text": "[South China Morning Post](https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan) reported that Hong Kong Exchanges and Clearing launched its first bond index to track the performance of offshore yuan-denominated bonds."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "HKEX Launches First Dim Sum Bond Index to Boost Yuan Debt Market",
    "title_from": {
     "backing": 2,
@@ -4399,7 +3529,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-18",
@@ -4413,6 +3543,19 @@
      "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
      "type": "international",
      "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "2bdf3c1b4e9f72ae",
+     "lang": "en",
+     "outlet": "CNBC Earnings",
+     "published": "2026-11-18T03:15:00+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "With Jensen Huang gone, Colette Kress shows Nvidia is still at the center of AI",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html"
     },
     {
      "added": "2026-11-16",
@@ -4446,10 +3589,22 @@
    "group": "all",
    "id": "nvidia-earnings-report",
    "label": "Nvidia earnings report",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
    "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "2bdf3c1b4e9f72ae"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T03:15:00+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/jensen-huang-may-be-gone-nvidia-shows-its-still-at-the-center-of-ai-.html) reported that in her first earnings report as interim CEO, Nvidia's Colette Kress calmed investors' nerves."
+    },
     {
      "articles": [
       "424ef9a64541babe"
@@ -5458,8 +4613,34 @@
    "topic": "business-strategic"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "5c6209108f64bc26",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-19T01:30:48+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "f02bd7bca299d156",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-18T23:24:06+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes"
+    },
     {
      "added": "2026-11-18",
      "id": "2804cbbcaf85aef4",
@@ -5513,15 +4694,29 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "gold-steadies-near-14-month-low",
    "label": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "5c6209108f64bc26",
+      "f02bd7bca299d156"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-18T23:24:06+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes), [Investing.com](https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506) reported that gold climbed from a 14-month low as dip buyers and bargain hunters helped cushion expectations that the Federal Reserve will hike interest rates."
+    },
     {
      "articles": [
       "2804cbbcaf85aef4"
@@ -5549,7 +4744,7 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists), [Investing.com](https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431) reported that gold steadied near a 14-month low under pressure from stubborn US inflation, Fed rate hike bets, and a tech selloff."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
@@ -6479,8 +5674,21 @@
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "47572eb01ba0d364",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-18T22:01:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Nvidia Says It’s ‘Business as Usual’ After Huang’s Ouster. Wall Street Doesn’t Buy It.",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-17",
      "id": "f8bdbc31706408a1",
@@ -6524,15 +5732,27 @@
      "url": "https://www.wsj.com/cfo-journal/nvidias-finance-chief-kress-to-lead-first-earnings-call-following-huangs-ouster-1d801102?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "nvidia-leadership-and-earnings",
    "label": "Nvidia leadership and earnings",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "47572eb01ba0d364"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-18T22:01:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main) reported that the AI chip-making giant's shares fell for a fifth-straight session after its much-awaited earnings call."
+    },
     {
      "articles": [
       "f8bdbc31706408a1"
@@ -6570,9 +5790,9 @@
      "text": "[CNBC](https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html) reported that Nvidia is scheduled to release fiscal third-quarter 2027 results on Tuesday."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Nvidia leadership and earnings",
    "topic": "business"
   },
@@ -6903,14 +6123,14 @@
      "url": "https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sellas-life-sciences-cancer-vaccine-trial",
    "label": "Sellas Life Sciences Cancer Vaccine Trial",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6939,9 +6159,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sellas-life-sciences-stock-triples-after-cancer-vaccine-data), [Investing.com](https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050) reported that Sellas Life Sciences Group stock surged after the drug developer reported positive late-stage trial results for an experimental cancer vaccine."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Sellas Life Sciences Cancer Vaccine Trial",
    "topic": "business"
   },
@@ -7322,14 +6542,14 @@
      "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sec-investigation-into-nvidia",
    "label": "SEC investigation into Nvidia",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-18",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7346,9 +6566,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports) reported that the Securities and Exchange Commission is investigating Nvidia Corp. in a civil probe looking at whether the company violated investor-disclosure laws."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "SEC investigation into Nvidia",
    "topic": "business-strategic"
   },
@@ -7382,14 +6602,14 @@
      "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "anthropic-likely-to-price-ipo-above",
    "label": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7418,7 +6638,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
    "topic": "business"
   },
@@ -7452,17 +6672,17 @@
      "url": "https://www.investing.com/news/stock-market-news/waymo-pauses-robotaxi-rides-on-us-freeways-after-california-ban-5034415"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "waymo-freeway-operations-restriction",
    "label": "Waymo freeway operations restriction",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Waymo freeway operations restriction",
    "topic": "technology"
   },
@@ -7496,14 +6716,14 @@
      "url": "https://www.cnbc.com/2026/11/18/trump-withdraws-heidi-overton-as-nominee-to-lead-fda-sources-say.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "heidi-overton-fda-nomination-withdrawal",
    "label": "Heidi Overton FDA nomination withdrawal",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7522,7 +6742,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Heidi Overton FDA nomination withdrawal",
    "topic": "politics"
   },
@@ -7556,14 +6776,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "india-stock-trading-and-derivatives-taxes",
    "label": "India stock trading and derivatives taxes",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7582,7 +6802,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "India stock trading and derivatives taxes",
    "topic": "markets"
   },
@@ -7642,14 +6862,14 @@
      "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "howard-lutnick-cantor-fitzgerald-probe",
    "label": "Howard Lutnick Cantor Fitzgerald probe",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7692,7 +6912,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
    "title_from": {
     "backing": 2,
@@ -7772,14 +6992,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-rate-decision-seen-as-close-call-on-weak-rupiah-growth-concerns"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "indonesia-interest-rate-increase",
    "label": "Indonesia interest rate increase",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7822,7 +7042,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Indonesia Rate Decision Seen as Close Call on Weak Rupiah, Growth Concerns",
    "title_from": {
     "backing": 2,
@@ -7863,14 +7083,14 @@
      "url": "https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969?mod=rss_markets_main"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "textron-industrial-segment-sale",
    "label": "Textron industrial segment sale",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7889,7 +7109,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Textron industrial segment sale",
    "topic": "business"
   },
@@ -7923,14 +7143,14 @@
      "url": "https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "nvidia-and-anthropic-market-movements",
    "label": "Nvidia and Anthropic market movements",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7949,7 +7169,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nvidia and Anthropic market movements",
    "topic": "markets"
   },
@@ -7983,14 +7203,14 @@
      "url": "https://www.wsj.com/business/retail/target-posts-strongest-sales-growth-in-years-as-focus-on-new-products-value-pays-off-4f82006d?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "target-quarterly-sales-growth",
    "label": "Target quarterly sales growth",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8019,7 +7239,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Target quarterly sales growth",
    "topic": "business"
   },
@@ -8053,14 +7273,14 @@
      "url": "https://www.wsj.com/business/retail/cal-maine-foods-to-cull-1-76-million-birds-after-florida-facility-tests-positive-for-bird-flu-96982877?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "cal-maine-foods-florida-bird-flu",
    "label": "Cal-Maine Foods Florida bird flu outbreak",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8089,7 +7309,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cal-Maine Foods Florida bird flu outbreak",
    "topic": "business"
   },
@@ -8123,14 +7343,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-pending-home-sales-fall-to-new-record-low-on-high-rates"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "us-pending-home-sales-data",
    "label": "US pending home sales data",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8159,7 +7379,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US pending home sales data",
    "topic": "economy"
   },
@@ -8193,14 +7413,14 @@
      "url": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/?rss=true"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "mozambique-rovuma-lng-project",
    "label": "Mozambique Rovuma LNG project",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8229,7 +7449,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Mozambique Rovuma LNG project",
    "topic": "energy"
   },
@@ -8263,14 +7483,14 @@
      "url": "https://www.rigzone.com/news/wire/trump_calls_venezuela_an_acquisition-18-nov-2026-185114-article/?rss=true"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "venezuela-energy-and-vaca-muerta-shale",
    "label": "Venezuela energy and Vaca Muerta shale",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8299,13 +7519,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Venezuela energy and Vaca Muerta shale",
    "topic": "energy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "bf8c33b605258204",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-19T00:48:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto raises annual forecast, signs $4.5 billion deal for Applied Compute",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/palo-alto-raises-annual-forecast-signs-45-billion-deal-for-applied-compute-5037460"
+    },
     {
      "added": "2026-11-18",
      "id": "b191fc9f75d2069b",
@@ -8333,15 +7566,27 @@
      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "palo-alto-networks-acquisition-of-applied",
    "label": "Palo Alto Networks Acquisition of Applied Compute",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 2,
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "bf8c33b605258204"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-19T00:48:22+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/palo-alto-raises-annual-forecast-signs-45-billion-deal-for-applied-compute-5037460) reported that Palo Alto raised its annual forecast."
+    },
     {
      "articles": [
       "397c5a05ab071f61"
@@ -8367,14 +7612,154 @@
      "text": "[CNBC](https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html) reported that Palo Alto Networks shares rose 7% on earnings."
     }
    ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "updated",
+   "title": "Palo Alto Networks Acquisition of Applied Compute",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "df0a17b4b2b91086",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T01:44:42+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Trump Hails ‘Great’ Ties With Xi, Downplays Nvidia Spy Scandal",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "f7b2e29329ea82f5",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-17T23:02:12+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "us-china-trump-xi-meeting",
+   "label": "US China Trump Xi meeting",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f7b2e29329ea82f5"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-17T23:02:12+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss) reported that China worries the Nvidia spy scandal could ramp up pressure on the US to further restrict the sale of advanced chips as Trump and Xi meet."
+    },
+    {
+     "articles": [
+      "df0a17b4b2b91086"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T01:44:42+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal) reported that US President Donald Trump hailed his great friendship with Chinese counterpart Xi Jinping and downplayed a spying scandal involving Nvidia Corp."
+    }
+   ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Palo Alto Networks Acquisition of Applied Compute",
-   "topic": "business"
+   "title": "US China Trump Xi meeting",
+   "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-19",
+     "id": "8a99e6267f170abf",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-18T12:10:25+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Here's what every major Wall Street analyst is saying about Nvidia after its earnings report",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/18/analysts-react-to-nvidias-first-earnings-without-ceo-jensen-huang.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "c1bd1fcff2d2e519",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-18T09:41:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "What Wall Street analysts are now saying after Nvidia’s beat-and-raise quarter",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "nvidia-wall-street-analyst-reactions",
+   "label": "Nvidia Wall Street analyst reactions",
+   "last_reported": "2026-11-19",
+   "last_updated": "2026-11-19",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c1bd1fcff2d2e519"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-18T09:41:00+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories) reported that the chip company's stock rose over 3% in premarket trading on Wednesday and a team at JPMorgan said there is likely more volatility to come in the near-term."
+    },
+    {
+     "articles": [
+      "8a99e6267f170abf"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-18T12:10:25+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/18/analysts-react-to-nvidias-first-earnings-without-ceo-jensen-huang.html) reported that Nvidia posted another big beat in its first earnings report following the resignation of its long-time CEO Jensen Huang."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia Wall Street analyst reactions",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-18T22:34:25+00:00"
+ "updated": "2026-11-19T01:57:55+00:00"
 }
