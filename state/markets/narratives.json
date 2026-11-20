@@ -269,25 +269,25 @@
   {
    "articles": 569,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 32,
-   "continuing": 17,
-   "corroborated": 0,
+   "calls": 7,
+   "candidates": 37,
+   "continuing": 19,
+   "corroborated": 1,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 49,
-   "kept": 32,
-   "merged": 1,
-   "new": 15,
-   "rejected": 5,
+   "in_stories": 60,
+   "kept": 38,
+   "merged": 2,
+   "new": 18,
+   "rejected": 8,
    "reported_by_2": 5,
-   "runs": 6,
-   "sent": 32,
+   "runs": 7,
+   "sent": 37,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 13,
+   "updated": 15,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T16:51:17+00:00"
+  "all": "2026-11-20T19:48:53+00:00"
  },
  "narratives": [
   {
@@ -5922,8 +5922,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "068bbc3aee1cda81",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-20T01:45:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "This Ex-Sheriff Was on the Beat When Mark Walter Loaded Insurers With Insider Deals",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/regulation/this-ex-sheriff-was-on-the-beat-when-mark-walter-loaded-insurers-with-insider-deals-dbfd45d1?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-17",
      "id": "289a1b06654b01ba",
@@ -5951,14 +5964,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-17/mark-walter-s-insurer-seeks-nod-to-swap-1-2-billion-more-assets"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "mark-walter-insurer-asset-swap",
    "label": "Mark Walter insurer asset swap",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -5985,9 +5998,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/finance/dodgers-owner-mark-walters-insurer-misses-target-to-reduce-affiliated-assets-249e32c5?mod=rss_markets_main) reported that Delaware Life Insurance stated the share of its holdings tied to Walter fell to 35% in the third quarter."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Mark Walter insurer asset swap",
    "topic": "business"
   },
@@ -6089,8 +6102,47 @@
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "448e92e8fa3742e5",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-20T18:25:23+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "6780c9d83f1d415d",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T18:25:07+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Cook Sees Growing Urgency to Tackle Inflation",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-20/fed-s-cook-sees-growing-urgency-to-tackle-inflation-video"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "6a925c909e1c9dc2",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-20T18:23:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Fed governor Lisa Cook said the central bank’s decision to skip raising interest rates in October threatened to put the Fed behind the curve in its struggle to tame inflation",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/lisa-cook-federal-reserve-comments-inflation-44eb3f41?mod=rss_socialeconomyfeed"
+    },
     {
      "added": "2026-11-17",
      "id": "f6975e85a7675ead",
@@ -6134,15 +6186,51 @@
      "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "federal-reserve-governor-lisa-cook-hearing",
    "label": "Federal Reserve Governor Lisa Cook Hearing",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "6a925c909e1c9dc2"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T18:23:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/lisa-cook-federal-reserve-comments-inflation-44eb3f41?mod=rss_socialeconomyfeed) reported that Federal Reserve Governor Lisa Cook said the central bank's decision to skip raising interest rates in October threatened to put the Fed behind the curve in its struggle to tame inflation."
+    },
+    {
+     "articles": [
+      "6780c9d83f1d415d"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-20T18:25:07+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-20/fed-s-cook-sees-growing-urgency-to-tackle-inflation-video) reported that Federal Reserve Governor Lisa Cook sees an urgent need for the US central bank to raise interest rates to bring down inflation."
+    },
+    {
+     "articles": [
+      "448e92e8fa3742e5"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-20T18:25:23+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation) reported that Federal Reserve Bank of Philadelphia President Anna Paulson said she would be open to considering back-to-back interest-rate hikes at the central bank's upcoming policy meeting."
+    },
     {
      "articles": [
       "84f9a0fa35dfcb15",
@@ -6160,7 +6248,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
    "title_from": {
     "backing": 2,
@@ -8974,64 +9062,6 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "cd2fbcde5c17e20e",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-20T00:48:29+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic's historic debut to put AI's promise and peril on Wall Street trial",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "5b43a90b53e929a3",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-19T11:19:26+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic’s historic debut to put AI’s promise and peril to Wall St test",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/anthropics-historic-debut-to-put-ais-promise-and-peril-to-wall-st-test-5038437"
-    }
-   ],
-   "articles_today": 2,
-   "first_seen": "2026-11-20",
-   "group": "all",
-   "id": "anthropic-market-debut",
-   "label": "Anthropic market debut",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 2,
-   "reports": [
-    {
-     "articles": [
-      "cd2fbcde5c17e20e"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-20T00:48:29+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms) reported that strong demand for Anthropic shares amid a broader tech selloff offers hope to a sector where euphoria has somewhat cooled in recent weeks."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "title": "Anthropic market debut",
-   "topic": "markets"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -9997,9 +10027,243 @@
    "status": "new",
    "title": "European Central Bank interest rates",
    "topic": "economy"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "1853fb3fafc1e7c4",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-20T10:59:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic Lives Up to Wall Street Hype, but AI Doubts Linger",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/investing/anthropic-lives-up-to-wall-street-hype-but-ai-doubts-linger-d6a4519b?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "d88bdaa7fdfd59ff",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-20T01:11:53+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Wall Street futures fall as Anthropic debut fails to revive AI trade",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "cd2fbcde5c17e20e",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T00:48:29+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic's historic debut to put AI's promise and peril on Wall Street trial",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "9b659250896a4769",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-20T00:00:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic’s Mega IPO Lives Up to Wall Street Hype but Fails to Revive AI Trade",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "5b43a90b53e929a3",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-19T11:19:26+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic’s historic debut to put AI’s promise and peril to Wall St test",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/anthropics-historic-debut-to-put-ais-promise-and-peril-to-wall-st-test-5038437"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "anthropic-ipo-and-wall-street-markets",
+   "label": "Anthropic IPO and Wall Street markets",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "merged": [
+    "anthropic-market-debut"
+   ],
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "cd2fbcde5c17e20e"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-20T00:48:29+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms) reported that strong demand for Anthropic shares amid a broader tech selloff offers hope to a sector where euphoria has somewhat cooled in recent weeks."
+    },
+    {
+     "articles": [
+      "9b659250896a4769"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T00:00:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/anthropic-ipo-ai-markets-89e2476f?mod=rss_markets_main) reported that investors remained wary of tech and AI stocks as the Nasdaq composite dropped 2.3% on Thursday following Anthropic's initial public offering."
+    },
+    {
+     "articles": [
+      "d88bdaa7fdfd59ff"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T01:11:53+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450) reported that Wall Street futures fell as the Anthropic debut failed to revive the artificial intelligence trade."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Anthropic IPO and Wall Street markets",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "5990344f8e49c725",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-20T19:15:01+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "9ebb902a4c7a3062",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-20T18:57:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/trump-is-trying-to-stop-big-techs-push-to-build-data-centers-outside-the-u-s-86f32f7f?mod=mw_rss_topstories"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "trump-is-trying-to-stop-big",
+   "label": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+   "topic": "technology-policy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "637cbdf3e83e6341",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-20T19:27:38+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "ac26a3e19abaf60f",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-20T19:25:05+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Former Nvidia CEO Huang agreed to testify at public US Senate hearing, senator’s aide says",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/former-nvidia-ceo-huang-agreed-to-testify-at-public-us-senate-hearing-senators-aide-says-5042429"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "jensen-huang-senate-testimony",
+   "label": "Jensen Huang Senate testimony",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "also": [
+      {
+       "date": "2026-11-20",
+       "outlet": "Investing.com",
+       "published": "2026-11-20T19:25:05+00:00",
+       "url": "https://www.investing.com/news/stock-market-news/former-nvidia-ceo-huang-agreed-to-testify-at-public-us-senate-hearing-senators-aide-says-5042429"
+      }
+     ],
+     "articles": [
+      "637cbdf3e83e6341"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-20T19:27:38+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html) reported that former Nvidia CEO Jensen Huang is set to testify publicly before the Senate banking panel."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Jensen Huang Senate testimony",
+   "topic": "justice"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T16:51:51+00:00"
+ "updated": "2026-11-20T19:49:12+00:00"
 }

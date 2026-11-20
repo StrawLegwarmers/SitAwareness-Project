@@ -110,5 +110,45 @@
   "story": "India bonds end choppy session",
   "text": "",
   "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Anthropic IPO and Wall Street markets",
+  "text": "[3] reported that Anthropic lived up to Wall Street hype, but doubts regarding artificial intelligence lingered.",
+  "reason": "wording not from cited articles: lived, regarding, artificial, intelligence"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "title",
+  "group": "all",
+  "story": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+  "text": "Trump foreign data center restrictions",
+  "reason": "title replaced by a headline: wording not from cited articles: foreign, restrictions"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+  "text": "[7] reported that Donald Trump is trying to stop big technology companies from building data centers outside the United States.",
+  "reason": "names not in cited articles: Donald, States, United"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+  "text": "[8] reported that Donald Trump vowed to stop U.S. companies from building data centers abroad and threatened a tremendous tax.",
+  "reason": "names not in cited articles: Donald"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "merged",
+  "group": "all",
+  "story": "Anthropic IPO and Wall Street markets",
+  "text": "Anthropic market debut",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

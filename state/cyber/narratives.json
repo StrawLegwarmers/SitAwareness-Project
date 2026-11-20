@@ -285,25 +285,25 @@
   {
    "articles": 220,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 14,
-   "continuing": 8,
+   "calls": 7,
+   "candidates": 15,
+   "continuing": 9,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 180,
-   "in_stories": 19,
+   "in_stories": 20,
    "kept": 14,
    "merged": 1,
    "new": 3,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 6,
-   "sent": 14,
+   "runs": 7,
+   "sent": 15,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 8,
+   "updated": 9,
    "waiting": 0
   },
   {
@@ -499,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T16:35:21+00:00"
+  "all": "2026-11-20T19:40:33+00:00"
  },
  "narratives": [
   {
@@ -5593,8 +5593,21 @@
    "topic": "security"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "755204181a1e5578",
+     "lang": "en",
+     "outlet": "Graham Cluley",
+     "published": "2026-11-20T18:57:38+00:00",
+     "publisher": "Graham Cluley",
+     "region": null,
+     "section": "news",
+     "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers",
+     "type": null,
+     "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/n0n-extortion-leaks-data-jpmorgan-chase-visa-mastercard"
+    },
     {
      "added": "2026-11-20",
      "id": "0a1d3ff0d541f022",
@@ -5693,16 +5706,17 @@
      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jpmorgan-chase-data-breach",
    "label": "JPMorgan Chase data breach",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 5,
+   "outlets_today": 6,
    "previous_titles": [
-    "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak"
+    "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+    "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims"
    ],
    "reports": [
     {
@@ -5781,13 +5795,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims",
+   "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers",
    "title_from": {
-    "backing": 4,
+    "backing": 5,
     "date": "2026-11-20",
-    "of": 4,
-    "outlet": "Security Affairs",
-    "url": "https://securityaffairs.com/203614/data-breach/jpmorgan-visa-and-mastercard-report-third-party-data-breaches-after-n0n-claims.html"
+    "of": 5,
+    "outlet": "Graham Cluley",
+    "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/n0n-extortion-leaks-data-jpmorgan-chase-visa-mastercard"
    },
    "topic": "cyber"
   },
@@ -6046,5 +6060,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T16:35:39+00:00"
+ "updated": "2026-11-20T19:40:50+00:00"
 }
