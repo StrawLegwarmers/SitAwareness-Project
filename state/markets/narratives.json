@@ -269,25 +269,25 @@
   {
    "articles": 569,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 24,
-   "continuing": 13,
+   "calls": 5,
+   "candidates": 29,
+   "continuing": 15,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 37,
-   "kept": 25,
-   "merged": 0,
-   "new": 11,
+   "in_stories": 45,
+   "kept": 28,
+   "merged": 1,
+   "new": 14,
    "rejected": 5,
    "reported_by_2": 5,
-   "runs": 4,
-   "sent": 24,
+   "runs": 5,
+   "sent": 29,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 10,
+   "updated": 11,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T10:41:09+00:00"
+  "all": "2026-11-20T14:00:01+00:00"
  },
  "narratives": [
   {
@@ -2330,7 +2330,7 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 6,
+   "article_count": 12,
    "articles": [
     {
      "added": "2026-11-20",
@@ -2370,6 +2370,84 @@
      "title": "Gold prices fall marginally, silver rises up to 0.5% on MCX: Gold Silver Rates Live Updates",
      "type": "regional",
      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-19th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/135979606.cms"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "5c6209108f64bc26",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-19T01:30:48+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "f02bd7bca299d156",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-18T23:24:06+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "2804cbbcaf85aef4",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T23:33:52+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Gold Declines to 14-Month Low as Fed Officials Signal Rate Hikes",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "4431a8f555303430",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-17T01:49:25+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "1f5f0db47b32dced",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-17T01:39:06+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "b8e21e29783afd56",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-16T23:26:48+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
     },
     {
      "added": "2026-11-16",
@@ -2418,6 +2496,9 @@
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
+   "merged": [
+    "gold-steadies-near-14-month-low"
+   ],
    "outlets_today": 2,
    "reports": [
     {
@@ -2431,6 +2512,46 @@
      ],
      "published": "2026-11-19T05:58:41+00:00",
      "text": "[ET Markets](https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-19th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/135979606.cms) reported that gold prices fell marginally while silver rose up to 0.5% on MCX."
+    },
+    {
+     "articles": [
+      "5c6209108f64bc26",
+      "f02bd7bca299d156"
+     ],
+     "date": "2026-11-19",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-18T23:24:06+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes), [Investing.com](https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506) reported that gold climbed from a 14-month low as dip buyers and bargain hunters helped cushion expectations that the Federal Reserve will hike interest rates."
+    },
+    {
+     "articles": [
+      "2804cbbcaf85aef4"
+     ],
+     "date": "2026-11-18",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-17T23:33:52+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts) reported that gold declined to the lowest since September 2025 after Federal Reserve officials made the case for more interest-rate hikes to tackle stubborn inflation."
+    },
+    {
+     "articles": [
+      "1f5f0db47b32dced",
+      "b8e21e29783afd56"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-16T23:26:48+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists), [Investing.com](https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431) reported that gold steadied near a 14-month low under pressure from stubborn US inflation, Fed rate hike bets, and a tech selloff."
     },
     {
      "articles": [
@@ -4489,8 +4610,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 8,
+   "article_count": 9,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "30b77c21eb9ac980",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-20T12:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Iran Steps Up Hormuz Tanker Attacks as Oil Prices Slide",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Steps-Up-Hormuz-Tanker-Attacks-as-Oil-Prices-Slide.html"
+    },
     {
      "added": "2026-11-19",
      "id": "b9f062086c85b9b7",
@@ -4596,14 +4730,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
@@ -4671,9 +4805,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -4908,144 +5042,6 @@
    "status": "unchanged",
    "title": "CVC dispute with Advent over Irca deal",
    "topic": "business-strategic"
-  },
-  {
-   "article_count": 6,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "5c6209108f64bc26",
-     "lang": "en",
-     "outlet": "Investing.com Commodities",
-     "published": "2026-11-19T01:30:48+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Gold rebounds from 14-month low as bargain hunters emerge despite Fed hike risks",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "f02bd7bca299d156",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-18T23:24:06+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Gold Rises From 14-Month Low as Dip Buying Offsets Hawkish Fed",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "2804cbbcaf85aef4",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-17T23:33:52+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Gold Declines to 14-Month Low as Fed Officials Signal Rate Hikes",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "4431a8f555303430",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-17T01:49:25+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "1f5f0db47b32dced",
-     "lang": "en",
-     "outlet": "Investing.com Commodities",
-     "published": "2026-11-17T01:39:06+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Gold hovers near 14-month low as Fed hike bets and tech selloff weigh",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "b8e21e29783afd56",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-16T23:26:48+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "gold-steadies-near-14-month-low",
-   "label": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "5c6209108f64bc26",
-      "f02bd7bca299d156"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-18T23:24:06+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/gold-steadies-near-14-month-low-as-fed-signals-more-rate-hikes), [Investing.com](https://www.investing.com/news/commodities-news/gold-rebounds-from-14month-low-as-bargain-hunters-emerge-despite-fed-hike-risks-5037506) reported that gold climbed from a 14-month low as dip buyers and bargain hunters helped cushion expectations that the Federal Reserve will hike interest rates."
-    },
-    {
-     "articles": [
-      "2804cbbcaf85aef4"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-17T23:33:52+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/gold-steadies-near-14-month-low-as-rate-hike-pressure-mounts) reported that gold declined to the lowest since September 2025 after Federal Reserve officials made the case for more interest-rate hikes to tackle stubborn inflation."
-    },
-    {
-     "articles": [
-      "1f5f0db47b32dced",
-      "b8e21e29783afd56"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-16T23:26:48+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists), [Investing.com](https://www.investing.com/news/commodities-news/gold-hovers-near-14month-low-as-fed-hike-bets-and-tech-selloff-weigh-5031431) reported that gold steadied near a 14-month low under pressure from stubborn US inflation, Fed rate hike bets, and a tech selloff."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
-   "topic": "markets"
   },
   {
    "article_count": 2,
@@ -9569,8 +9565,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "cf2f318be45055e5",
+     "lang": "en",
+     "outlet": "The Guardian Economics",
+     "published": "2026-11-20T08:36:13+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Household rush to stockpile emergency supplies sends British retail sales soaring",
+     "type": "international",
+     "url": "https://www.theguardian.com/world/2026/nov/20/rush-stockpile-emergency-supplies-sends-british-retail-sales-soaring"
+    },
     {
      "added": "2026-11-20",
      "id": "9ae9520491cf1766",
@@ -9598,14 +9607,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "uk-retail-sales",
    "label": "UK retail sales",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -9625,7 +9634,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "UK retail sales",
+   "title": "UK Retail Sales Jump as Brits Stock Up on Emergency Supplies",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-20",
+    "of": 2,
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies"
+   },
    "topic": "economy"
   },
   {
@@ -9687,9 +9703,183 @@
    "status": "new",
    "title": "Lufthansa job cuts",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "1ccabb56bd20b6c6",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-20T10:59:24+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "White House replaces cyber director Sean Cairncross amid widespread tech outages",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "838121a6b464a228",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-20T00:20:50+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Trump cyber director Sean Cairncross to leave post- Axios",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/trump-cyber-director-sean-cairncross-to-leave-post-axios-93CH-5040401"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "sean-cairncross-departure",
+   "label": "Sean Cairncross departure",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1ccabb56bd20b6c6"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-20T10:59:24+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/20/sean-cairncross-white-house-cyber-director.html) reported that the White House replaces cyber director Sean Cairncross with Pentagon chief information officer Kirsten Davies amid widespread tech outages."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Sean Cairncross departure",
+   "topic": "technology-policy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "d9d7dac2709c98a7",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-20T13:11:25+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Cathie Wood's ARK Invest was a big buyer of Anthropic, tells CNBC she's 'quite optimistic'",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "23d1a4c556455994",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T04:22:07+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "ARK Invest's Cathie Wood on Anthropic, Nvidia",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-20/ark-invest-s-cathie-wood-on-anthropic-nvidia-video"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "cathie-wood-investments",
+   "label": "Cathie Wood investments",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d9d7dac2709c98a7"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-20T13:11:25+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/20/cathie-woods-ark-invest-was-a-big-buyer-of-anthropic-during-debut.html) reported that Cathie Wood's ARK Invest bought $90.8 million worth of Anthropic in six funds."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cathie Wood investments",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "d48d32ead2aa9a18",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-20T13:33:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "PayPal taps Xero’s Claire Bramley as CFO amid broad executive reorganization",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/paypal-taps-xeros-claire-bramley-as-cfo-amid-broad-executive-reorganization-5041721"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "b188afa3d14f0f34",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T13:19:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "PayPal Appoints Xero Finance Chief Claire Bramley as Next CFO",
+     "type": "international",
+     "url": "https://www.wsj.com/business/c-suite/paypal-appoints-xero-finance-chief-claire-bramley-as-next-cfo-cba4a93f?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "paypal-executive-reorganization",
+   "label": "PayPal executive reorganization",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b188afa3d14f0f34"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T13:19:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/c-suite/paypal-appoints-xero-finance-chief-claire-bramley-as-next-cfo-cba4a93f?mod=pls_whats_news_us_business_f) reported that PayPal Holdings has appointed Claire Bramley as its chief financial officer effective February 1, 2027."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "PayPal executive reorganization",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T10:41:42+00:00"
+ "updated": "2026-11-20T14:03:05+00:00"
 }

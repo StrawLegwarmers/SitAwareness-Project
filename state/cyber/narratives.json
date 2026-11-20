@@ -285,25 +285,25 @@
   {
    "articles": 220,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 7,
-   "continuing": 4,
+   "calls": 5,
+   "candidates": 12,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 180,
-   "in_stories": 11,
-   "kept": 8,
+   "in_stories": 17,
+   "kept": 12,
    "merged": 1,
-   "new": 1,
+   "new": 3,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 4,
-   "sent": 7,
+   "runs": 5,
+   "sent": 12,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 5,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -499,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T10:36:23+00:00"
+  "all": "2026-11-20T13:54:23+00:00"
  },
  "narratives": [
   {
@@ -738,8 +738,21 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 17,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "8ea909939d0df50c",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-20T12:30:19+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "VMware vCenter zero-day exploited for months before patch (CVE-2026-123890)",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/20/vmware-vcenter-zero-day-cve-2026-123890-exploited/"
+    },
     {
      "added": "2026-11-20",
      "id": "3a932385e38ba41e",
@@ -968,14 +981,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 4,
+   "outlets_today": 5,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -5580,8 +5593,21 @@
    "topic": "security"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "6061bbd78a87d645",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-20T12:51:36+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers"
+    },
     {
      "added": "2026-11-20",
      "id": "bd2f6c5823767399",
@@ -5641,14 +5667,14 @@
      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jpmorgan-chase-data-breach",
    "label": "JPMorgan Chase data breach",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -5702,7 +5728,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "JPMorgan Chase data breach",
+   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-20",
+    "of": 2,
+    "outlet": "SecurityWeek",
+    "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/"
+   },
    "topic": "cyber"
   },
   {
@@ -5807,11 +5840,158 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Transport for London data breach",
+   "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-20",
+    "of": 3,
+    "outlet": "Help Net Security",
+    "url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/"
+   },
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "0cf9ac0080e0da0e",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-20T11:36:51+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
+     "type": null,
+     "url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "eb92bfb0bc0f5362",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-19T22:25:42+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "sbc-medical-group-data-breaches",
+   "label": "SBC Medical Group data breaches",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "eb92bfb0bc0f5362"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-19T22:25:42+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/) reported that SBC Medical Group warned in an SEC filing that two cybersecurity incidents exposed sensitive customer data."
+    },
+    {
+     "articles": [
+      "0cf9ac0080e0da0e"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-20T11:36:51+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/) reported that threat actors accessed databases containing customer information associated with clinics in Japan."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "SBC Medical Group data breaches",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "20ba9e0605db6d81",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-20T12:52:40+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Cisco Expressway Flaw CVE-2026-76466 to Breach Russian Organization",
+     "type": null,
+     "url": "https://securityaffairs.com/203598/hacking/hackers-exploit-cisco-expressway-flaw-cve-2026-76466-to-breach-russian-organization.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "38cd871ebcae0236",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-20T10:32:50+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "cisco-expressway-security-flaw-exploitation",
+   "label": "Cisco Expressway security flaw exploitation",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "38cd871ebcae0236"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-20T10:32:50+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html) reported that threat actors have been observed exploiting a critical security flaw in Cisco Expressway to breach a Russian organization."
+    },
+    {
+     "articles": [
+      "20ba9e0605db6d81"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-20T12:52:40+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203598/hacking/hackers-exploit-cisco-expressway-flaw-cve-2026-76466-to-breach-russian-organization.html) reported that the Cisco Expressway flaw CVE-2026-76466 is being exploited to gain root access and move from exposed devices into internal networks."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T10:36:44+00:00"
+ "updated": "2026-11-20T13:54:40+00:00"
 }
