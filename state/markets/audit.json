@@ -110,5 +110,37 @@
   "story": "India bonds end choppy session",
   "text": "",
   "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "title",
+  "group": "all",
+  "story": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
+  "text": "Amazon New York City delivery bill",
+  "reason": "title replaced by a headline: names not in cited articles: York"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
+  "text": "[4] reported that Amazon warns the New York City delivery bill could add up to five dollars per order.",
+  "reason": "names not in cited articles: City, York"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "title",
+  "group": "all",
+  "story": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+  "text": "US artificial intelligence chip sales to China",
+  "reason": "title replaced by a headline: wording not from cited articles: artificial, intelligence"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+  "text": "[5] reported that Representative Mast said the Commerce Department approved sales of more than 879,000 artificial intelligence chips to Chinese companies.",
+  "reason": "wording not from cited articles: representative, department, artificial, intelligence"
  }
 ]

@@ -1,53 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "kind": "title",
-  "group": "africa",
-  "story": "Thugs attack NDC supporters in Lagos",
-  "text": "Lagos political town hall disruption",
-  "reason": "title replaced by a headline: wording not from cited articles: political, disruption"
- },
- {
-  "date": "2026-11-12",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "[17][18][19] reported that U.S. special envoys Steve Witkoff and Jared Kushner arrived at the Kremlin to meet with Vladimir Putin following trilateral negotiations in Abu Dhabi.",
-  "reason": "names not in cited articles: Jared, Steve, Vladimir"
- },
- {
-  "date": "2026-11-12",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Russia Hits Ukrainian Infrastructure Ahead of Abu Dhabi Talks",
-  "text": "[75], a state-media outlet, reported that the European Union welcomed the Abu Dhabi talks while preparing its 22nd package of sanctions against Russia.",
-  "reason": "names not in cited articles: European, Union"
- },
- {
-  "date": "2026-11-12",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Bulgaria flu vaccine distribution",
-  "text": "[60][61] reported that wholesale distributors are delivering the final 300,000 doses of flu vaccines to general practitioners' offices for free immunizations.",
-  "reason": "number not in cited articles: 300000"
- },
- {
-  "date": "2026-11-12",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Ukraine drone strikes on Russia and energy attacks",
-  "text": "[74] reported that milbloggers and mainstream media indicated Russia may have shot down its own helicopters while repelling Ukrainian drone attacks on Ust-Luga.",
-  "reason": "analysis word not used by the source: 'may'"
- },
- {
-  "date": "2026-11-12",
-  "kind": "merged",
-  "group": "europe",
-  "story": "French presidential guard collapse",
-  "text": "French Republican Guards collapse at Elysee",
-  "reason": "duplicate story merged into an existing one"
- },
- {
   "date": "2026-11-13",
   "kind": "skipped",
   "group": "europe",
@@ -2654,5 +2606,317 @@
   "story": "Ukraine post-war security guarantees discussions",
   "text": "US envoy statements on NATO-style security guarantee for Ukraine",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Myanmar, el primer país en ser condenado por la ONU por cometer genocidio contra"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Quiénes son los rohinyás, la \"minoría más perseguida del mundo\" por la que Myanm"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Live Updates: Trump Holds First Summit With Xi and Putin, Whom He Calls ‘Friend’"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): European leaders reject 'Yalta 2.0' for Ukraine after Trump meets Putin and Xi"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump says he hopes 'friend' Putin wants to end war in Ukraine as he meets Russi"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump hopes Zelensky wants to reach agreement on Ukraine"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): US, China want to help end Ukraine war — Trump"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Behind Trump Meeting, Xi and Putin Share a Vision of Usurping U.S. Power"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump puts nuclear weapons in spotlight at unprecedented summit with Xi and Puti"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Xi Jinping calls for total elimination of nuclear weapons at meeting with Trump "
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Global Power Shift As Trump, Xi, Putin Hold Historic Summit Amid Ukraine War, Nu"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump says after talks with Xi, Putin, a deal limiting nuclear weapons will be h"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "[31] reported that German Chancellor Friedrich Merz rejected a Yalta 2.0 format for Ukraine at a Coalition of the Willing meeting in Berlin.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "[33] reported that the US president stated his Russian counterpart is ready for a deal on Ukraine.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Trilateral meeting between Xi, Trump and Putin",
+  "text": "[47] reported that Chinese President Xi Jinping called for nuclear weapons to be banned and destroyed entirely during the meeting.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Fidelity Bank management appointment",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Philippines police to charge Thomas Markle over child sex abuse material",
+  "text": "[64] reported that a judge declared Thomas Markle fit to face charges related to child sexual abuse images.",
+  "reason": "names not in cited articles: Thomas"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Anthropic initial public offering protests",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Kenya sovereign bond disclosure contempt ruling",
+  "text": "[81] reported that a Kenyan court found Treasury Cabinet Secretary Mbadi and Attorney General Oduor guilty of contempt for failing to disclose sovereign bond agreements.",
+  "reason": "names not in cited articles: Attorney, Cabinet, Kenyan"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
+  "text": "",
+  "reason": "continuation not supported by the headlines: A village was burned, its people killed or exiled. Was it part of a genocide?"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "title",
+  "group": "global",
+  "story": "A village was burned, its people killed or exiled. Was it part of a genocide?",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "title",
+  "group": "africa",
+  "story": "Drama as Sifuna, Gachagua, Kalonzo, Maraga, others walk out of key IEBC meeting",
+  "text": "Kenya electoral commission consultative forum walkout",
+  "reason": "title replaced by a headline: names not in cited articles: Kenya"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Saudi Arabia’s Tallest Skyscraper PIF Tower damaged in Houthi Missile Attack",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Prédio do fundo soberano da Arábia Saudita é bombardeado por houthis"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Saudi Arabia’s Tallest Skyscraper PIF Tower damaged in Houthi Missile Attack",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Un ataque con misiles hutíes dañó un rascacielos del fondo soberano de Arabia Sa"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "India and Japan military firing range agreement",
+  "text": "[121] reported that India will let Japan use firing ranges for surface-to-ship missile tests following an agreement between top diplomats and defense chiefs.",
+  "reason": "wording not from cited articles: following, agreement, top, diplomats, defense, chiefs"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "global",
+  "story": "BepiColombo spacecraft Mercury mission",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Fiona the hippo death at Cincinnati Zoo",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Germany mosque attack plot",
+  "text": "[23][24] reported that an 18-year-old student from Eslohe in North Rhine-Westphalia, Germany, is suspected of planning a far-right attack on a mosque using 3D-printed weapons.",
+  "reason": "number not in cited articles: 18"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "merged",
+  "group": "asia",
+  "story": "New US chip restrictions could cool Southeast Asia’s booming M&A market, bankers warn",
+  "text": "California Nvidia investigation",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Six Die as Building Collapses Near Nairobi",
+  "text": "Georgia apartment building explosion",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran using deadlier missiles to target ships in Strait of Hormuz, US source tells Post",
+  "text": "[51] reported that J.P. Morgan expects Federal Reserve rate hikes at the next three meetings as inflation persists.",
+  "reason": "names not in cited articles: Reserve"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "إحالة حكام مباراة الأهلي والزمالك في نهائي السوبر المصري لكرة اليد للتحقيق.. خاص",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Bruno Mars anuncia morte do pai e presta homenagem: 'Me ensinou tudo que eu sei'",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "United Airlines says technology outage that delayed departures has been resolved",
+  "text": "[13] reported that Sean Cairncross will leave his cybersecurity role before Democrats take control of the Senate amid growing concerns over system vulnerability.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "India voter roll revisions and Muslim exclusions",
+  "text": "[6] reported that the United States Commission on International Religious Freedom stated India is targeting minorities in voter roll revisions.",
+  "reason": "names not in cited articles: International, States, United"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Live: Beau Lamarre-Condon faces defence re-examination",
+  "text": "[7] reported that the Crown delivered its closing address to the jury in the double murder trial of the former New South Wales police officer.",
+  "reason": "names not in cited articles: Wales"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "merged",
+  "group": "africa",
+  "story": "NAFDAC Lagos trade fair complex raid",
+  "text": "NAFDAC Kano airport interceptions",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Nigerian Army combat training",
+  "text": "Nigeria: Army Chief Tasks Armoured Corps On Modernisation, Combat Readiness",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "merged",
+  "group": "latam",
+  "story": "Pacto Histórico congressional degree scandal",
+  "text": "Colombian congressional diploma controversy",
+  "reason": "duplicate story merged into an existing one"
  }
 ]

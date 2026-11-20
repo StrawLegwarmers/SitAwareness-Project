@@ -1,6 +1,30 @@
 {
  "archived": [
   {
+   "article_count": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "new-world-rights-issue",
+   "last_updated": "2026-11-15",
+   "title": "New World rights issue"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "washington-public-golf-course-redevelopment",
+   "last_updated": "2026-11-15",
+   "title": "Washington public golf course redevelopment"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "european-central-bank-fiscal-policy",
+   "last_updated": "2026-11-15",
+   "title": "European Central Bank fiscal policy"
+  },
+  {
    "article_count": 5,
    "first_seen": "2026-11-14",
    "group": "all",
@@ -243,6 +267,30 @@
  ],
  "coverage": [
   {
+   "articles": 568,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 6,
+   "continuing": 2,
+   "corroborated": 0,
+   "date": "2026-11-20",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 525,
+   "in_stories": 10,
+   "kept": 7,
+   "merged": 0,
+   "new": 4,
+   "rejected": 2,
+   "reported_by_2": 5,
+   "runs": 1,
+   "sent": 6,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 2,
+   "waiting": 0
+  },
+  {
    "articles": 573,
    "attached_by_code": 0,
    "calls": 8,
@@ -415,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T22:34:37+00:00"
+  "all": "2026-11-20T01:55:08+00:00"
  },
  "narratives": [
   {
@@ -665,8 +713,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 8,
+   "article_count": 9,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "383f2ce6a27e3eb7",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-20T00:42:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Rises Amid Middle East Tensions",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-middle-east-tensions-cdf9de83?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-19",
      "id": "4c86b06adf4f815a",
@@ -777,10 +838,22 @@
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
    "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "383f2ce6a27e3eb7"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T00:42:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-rises-amid-middle-east-tensions-cdf9de83?mod=rss_markets_main) reported that a projectile launched by Yemen's Iranian-backed Houthi rebels struck the tallest tower in Saudi Arabia's capital on Thursday."
+    },
     {
      "articles": [
       "4c86b06adf4f815a"
@@ -942,14 +1015,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1000,9 +1073,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -1189,7 +1262,7 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
@@ -1200,7 +1273,7 @@
     "nvidia-earnings-report",
     "nvidia-leadership-and-earnings"
    ],
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1361,7 +1434,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -2193,168 +2266,6 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-15",
-     "id": "76ebb75fb398f4e8",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-15T08:56:54+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "ECB cannot replace sound fiscal policy, presidential contender Knot warns",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/ecb-cannot-replace-sound-fiscal-policy-presidential-contender-knot-warns-5027752"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "59a272b4ac96aefc",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-15T07:58:02+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "ECB Can’t Substitute Sound Fiscal Policy, Knot Tells Corriere",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "european-central-bank-fiscal-policy",
-   "label": "European Central Bank fiscal policy",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "59a272b4ac96aefc",
-      "76ebb75fb398f4e8"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-15T07:58:02+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-15/ecb-can-t-substitute-sound-fiscal-policy-knot-tells-corriere), [Investing.com](https://www.investing.com/news/stock-market-news/ecb-cannot-replace-sound-fiscal-policy-presidential-contender-knot-warns-5027752) reported that Klaas Knot stated that the European Central Bank cannot replace sound fiscal policy."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "European Central Bank fiscal policy",
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-15",
-     "id": "438644ad3e90917d",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-15T13:58:06+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/15/judge-temporarily-blocks-trumps-dc-public-golf-course-redevelopment.html"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "140ba1d19d287ad7",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-15T02:42:22+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "US judge again blocks Trump’s makeover plan for DC golf course",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/us-judge-again-blocks-trumps-makeover-plan-for-dc-golf-course-5027633"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "washington-public-golf-course-redevelopment",
-   "label": "Washington public golf course redevelopment",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Washington public golf course redevelopment",
-   "topic": "justice"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-15",
-     "id": "20b96dfaeb05b422",
-     "lang": "en",
-     "outlet": "FT Markets",
-     "published": "2026-11-15T15:24:52+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Hong Kong developer New World unveils $3.2bn rights issue",
-     "type": "international",
-     "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "8dc9005e69e24076",
-     "lang": "en",
-     "outlet": "SCMP Business",
-     "published": "2026-11-15T13:57:04+00:00",
-     "publisher": "South China Morning Post",
-     "region": null,
-     "section": "news",
-     "title": "Indebted Hong Kong developer New World offers shares at 81% discount in US$3.2b cash call",
-     "type": "regional",
-     "url": "https://www.scmp.com/business/companies/article/3374507/indebted-hong-kong-developer-new-world-offers-shares-81-discount-us32b-cash-call"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "new-world-rights-issue",
-   "label": "New World rights issue",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "8dc9005e69e24076"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "South China Morning Post"
-     ],
-     "published": "2026-11-15T13:57:04+00:00",
-     "text": "[South China Morning Post](https://www.scmp.com/business/companies/article/3374507/indebted-hong-kong-developer-new-world-offers-shares-81-discount-us32b-cash-call) reported that New World Development will issue 11 new shares for every existing share."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "New World rights issue",
-   "topic": "markets"
-  },
-  {
    "article_count": 15,
    "articles": [
     {
@@ -2909,14 +2820,14 @@
      "url": "https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-16",
    "group": "all",
    "id": "hkex-dim-sum-bond-index",
    "label": "HKEX dim sum bond index",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2975,9 +2886,9 @@
      "text": "[South China Morning Post](https://www.scmp.com/business/banking-finance/article/3374420/hkex-launches-first-dim-sum-bond-index-push-expand-global-use-yuan) reported that Hong Kong Exchanges and Clearing launched its first bond index to track the performance of offshore yuan-denominated bonds."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "HKEX Launches First Dim Sum Bond Index to Boost Yuan Debt Market",
    "title_from": {
     "backing": 2,
@@ -4499,14 +4410,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
@@ -4576,7 +4487,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -4894,14 +4805,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-16/gold-steadies-near-14-month-low-as-inflation-pressure-persists"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "gold-steadies-near-14-month-low",
    "label": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4946,7 +4857,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Gold Steadies Near 14-Month Low as Inflation Pressure Persists",
    "topic": "markets"
   },
@@ -6645,14 +6556,14 @@
      "url": "https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sec-investigation-into-nvidia",
    "label": "SEC investigation into Nvidia",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6694,9 +6605,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/sec-is-probing-nvidia-amid-departure-of-ceo-jensen-huang-ee7643f8?mod=rss_markets_main), [Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sec-is-probing-nvidia-amid-jensen-huang-s-exit-wsj-reports) reported that the Securities and Exchange Commission is investigating Nvidia Corp. in a civil probe looking at whether the company violated investor-disclosure laws."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SEC investigation into Nvidia",
    "topic": "business-strategic"
   },
@@ -6917,14 +6828,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "india-stock-trading-and-derivatives-taxes",
    "label": "India stock trading and derivatives taxes",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6941,9 +6852,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/india-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives), [ET Markets](https://economictimes.indiatimes.com/markets/stocks/news/govt-weighs-tax-tweaks-to-boost-stock-trading-curb-derivatives/articleshow/135953824.cms) reported that Indian officials are reviewing proposals to raise taxes on stock derivatives while lowering levies on share trading."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "India stock trading and derivatives taxes",
    "topic": "markets"
   },
@@ -7707,14 +7618,14 @@
      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "palo-alto-networks-acquisition-of-applied",
    "label": "Palo Alto Networks Acquisition of Applied Compute",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7753,15 +7664,28 @@
      "text": "[CNBC](https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html) reported that Palo Alto Networks shares rose 7% on earnings."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Palo Alto Networks Acquisition of Applied Compute",
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "e70e02da535e930a",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-19T23:36:24+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Alibaba defrauded shareholders by concealing ties to suspected spy in Nvidia scandal, lawsuit says",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/alibaba-defrauded-shareholders-by-concealing-ties-to-suspected-spy-in-nvidia-scandal-lawsuit-says-5040304"
+    },
     {
      "added": "2026-11-19",
      "id": "df0a17b4b2b91086",
@@ -7789,15 +7713,27 @@
      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 1,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "us-china-trump-xi-meeting",
    "label": "US China Trump Xi meeting",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "e70e02da535e930a"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-19T23:36:24+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/alibaba-defrauded-shareholders-by-concealing-ties-to-suspected-spy-in-nvidia-scandal-lawsuit-says-5040304) reported that a lawsuit states Alibaba defrauded shareholders by concealing ties to a suspected spy in the Nvidia scandal."
+    },
     {
      "articles": [
       "f7b2e29329ea82f5"
@@ -7823,9 +7759,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal) reported that US President Donald Trump hailed his great friendship with Chinese counterpart Xi Jinping and downplayed a spying scandal involving Nvidia Corp."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "updated",
    "title": "US China Trump Xi meeting",
    "topic": "diplomacy"
   },
@@ -7859,14 +7795,14 @@
      "url": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "nvidia-wall-street-analyst-reactions",
    "label": "Nvidia Wall Street analyst reactions",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7895,7 +7831,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nvidia Wall Street analyst reactions",
    "topic": "markets"
   },
@@ -7929,14 +7865,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-18/lagarde-says-role-at-wef-is-an-option-after-leaving-the-ecb"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "christine-lagarde-world-economic-forum-role",
    "label": "Christine Lagarde World Economic Forum role",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -7955,7 +7891,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Christine Lagarde World Economic Forum role",
    "topic": "business"
   },
@@ -7989,14 +7925,14 @@
      "url": "https://www.investing.com/news/stock-market-news/musk-says-he-felt-pretty-foolish-about-scale-of-midterm-spending-after-republican-rout-5037471"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "elon-musk-midterm-election-spending",
    "label": "Elon Musk midterm election spending",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8013,7 +7949,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Elon Musk midterm election spending",
    "topic": "politics"
   },
@@ -8047,14 +7983,14 @@
      "url": "https://www.investing.com/news/economy-news/boj-governor-ueda-says-financial-conditions-loose-despite-rate-hikes-5037517"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "boj-s-ueda-unfazed-by-consumption",
    "label": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8083,7 +8019,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "BOJ’s Ueda Unfazed by Consumption Drop, Stays Open to Rate Hike",
    "topic": "economy"
   },
@@ -8117,14 +8053,14 @@
      "url": "https://www.ft.com/content/bccbf72c-c7ea-4774-ab92-96b7138a79bd?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "bayesian-superyacht-sinking-probe",
    "label": "Bayesian superyacht sinking probe",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8153,7 +8089,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Bayesian superyacht sinking probe",
    "topic": "business"
   },
@@ -8187,14 +8123,14 @@
      "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "trump-holds-talks-with-putin-and",
    "label": "Trump holds talks with Putin and Xi",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8223,7 +8159,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Trump holds talks with Putin and Xi",
    "topic": "diplomacy"
   },
@@ -8270,14 +8206,14 @@
      "url": "https://www.ft.com/content/e871493f-920c-4ece-94d4-9d14317047fe?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "eu-delays-methane-emission-rules",
    "label": "EU delays methane emission rules",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8318,7 +8254,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "EU delays methane emission rules on fossil fuel imports",
    "title_from": {
     "backing": 2,
@@ -8359,14 +8295,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/tiger-backed-razorpay-said-to-near-public-filing-for-india-ipo"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "razorpay-prepares-for-india-ipo",
    "label": "Razorpay prepares for India IPO",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8395,7 +8331,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Razorpay prepares for India IPO",
    "topic": "markets"
   },
@@ -8429,14 +8365,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/copper-rebounds-after-rout-as-physical-tightness-persists"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "copper-market-rebound",
    "label": "Copper market rebound",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8455,7 +8391,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Copper market rebound",
    "topic": "markets"
   },
@@ -8489,14 +8425,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/brazil-central-bank-steps-into-markets-as-fiscal-woes-hit-real"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "brazil-central-bank-market-intervention",
    "label": "Brazil central bank market intervention",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8525,7 +8461,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Brazil central bank market intervention",
    "topic": "economy"
   },
@@ -8559,14 +8495,14 @@
      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/amd-shares-slide-8-as-report-says-china-links-could-invite-us-scrutiny/articleshow/136002141.cms"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "amd-shares-fall-after-short-seller",
    "label": "AMD shares fall after short seller report on China links",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8595,7 +8531,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "AMD shares fall after short seller report on China links",
    "topic": "markets"
   },
@@ -8629,14 +8565,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "federal-reserve-regional-staff-pay-increases",
    "label": "Federal Reserve regional staff pay increases",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8655,7 +8591,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Federal Reserve regional staff pay increases",
    "topic": "economy"
   },
@@ -8689,14 +8625,14 @@
      "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-lawsuit-new-york-times"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "trump-defamation-lawsuit-against-new-york",
    "label": "Trump defamation lawsuit against New York Times",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8715,7 +8651,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Trump defamation lawsuit against New York Times",
    "topic": "business"
   },
@@ -8749,14 +8685,14 @@
      "url": "https://www.wsj.com/business/earnings/intuit-to-sell-mailchimp-for-3-68-billion-33f03f9c?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "intuit-sells-mailchimp",
    "label": "Intuit sells Mailchimp",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8775,12 +8711,256 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Intuit sells Mailchimp",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "cd2fbcde5c17e20e",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T00:48:29+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic's historic debut to put AI's promise and peril on Wall Street trial",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "5b43a90b53e929a3",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-19T11:19:26+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic’s historic debut to put AI’s promise and peril to Wall St test",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/anthropics-historic-debut-to-put-ais-promise-and-peril-to-wall-st-test-5038437"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "anthropic-market-debut",
+   "label": "Anthropic market debut",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "cd2fbcde5c17e20e"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-20T00:48:29+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/anthropics-historic-debut-to-put-ais-promise-and-peril-on-wall-street-trial/articleshow/136009180.cms) reported that strong demand for Anthropic shares amid a broader tech selloff offers hope to a sector where euphoria has somewhat cooled in recent weeks."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Anthropic market debut",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "8744ba3f63e2e40d",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-19T23:51:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
+     "type": "international",
+     "url": "https://www.wsj.com/business/logistics/amazon-urges-nyc-customers-to-oppose-mamdani-backed-delivery-bill-0461ea54?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "eb8746715e61a896",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-19T13:24:41+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Amazon warns NYC delivery bill could add up to $5 per order",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/amazon-warns-nyc-delivery-bill-could-add-up-to-5-per-order-5038999"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "amazon-urges-nyc-customers-to-oppose",
+   "label": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8744ba3f63e2e40d"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-19T23:51:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/logistics/amazon-urges-nyc-customers-to-oppose-mamdani-backed-delivery-bill-0461ea54?mod=pls_whats_news_us_business_f) reported that online shoppers received a pop-up warning of a five dollar fee per order if the legislation passes."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "08fe81a2cb06ccca",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-20T00:42:44+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "US approved sale of Nvidia and AMD chips to Chinese companies",
+     "type": "international",
+     "url": "https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "1d6bd64c2db209ff",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-19T21:43:30+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "commerce-approved-sales-of-more-than",
+   "label": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "08fe81a2cb06ccca"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-20T00:42:44+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/76342072-2781-4b16-ba3b-816a25214483?syn-25a6b1a6=1) reported that the Pentagon believes some of the groups were associated with the People's Liberation Army."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+   "topic": "technology-policy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "c39256dd002e1603",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-19T23:21:23+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "c1f4e96ae4d57d2a",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-19T23:04:30+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "California targets Nvidia in China AI chip probe",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "california-investigation-into-nvidia",
+   "label": "California investigation into Nvidia",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c1f4e96ae4d57d2a"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-19T23:04:30+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss) reported that California is targeting Nvidia in an artificial intelligence chip probe following former chief executive officer Jensen Huang's departure."
+    },
+    {
+     "articles": [
+      "c39256dd002e1603"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-19T23:21:23+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html) reported that California Attorney General Rob Bonta issued a subpoena in the probe of China chip diversion on the heels of the resignation of Nvidia chief executive officer Jensen Huang."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "California investigation into Nvidia",
+   "topic": "business-strategic"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-19T22:34:56+00:00"
+ "updated": "2026-11-20T01:55:27+00:00"
 }

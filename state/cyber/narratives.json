@@ -1,6 +1,102 @@
 {
  "archived": [
   {
+   "article_count": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "sckit-abuses-screenconnect",
+   "last_updated": "2026-11-13",
+   "title": "SCKit abuses ScreenConnect"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "trezor-confirms-hidden-implants-in-cryptobilis",
+   "last_updated": "2026-11-13",
+   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "citrix-netscaler-security-vulnerabilities-and-patc",
+   "last_updated": "2026-11-13",
+   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "operation-endgame-malware-infrastructure-takedown",
+   "last_updated": "2026-11-13",
+   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "maersk-cyber-security-incident",
+   "last_updated": "2026-11-13",
+   "title": "Maersk cyber security incident"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "ransomware-at-the-hypervisor-layer",
+   "last_updated": "2026-11-13",
+   "title": "Ransomware at the hypervisor layer"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "online-casino-malicious-python-sdk",
+   "last_updated": "2026-11-13",
+   "title": "Online Casino Malicious Python SDK"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "post-training-supply-chain-attacks-on",
+   "last_updated": "2026-11-13",
+   "title": "Post-training supply chain attacks on coding agents"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "autonomous-ai-attacks-on-semiconductor-and",
+   "last_updated": "2026-11-13",
+   "title": "Autonomous AI attacks on semiconductor and defense"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "us-cryptocurrency-and-infrastructure-seizure",
+   "last_updated": "2026-11-13",
+   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "lego-bricklink-marketplace-offline",
+   "last_updated": "2026-11-13",
+   "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-12",
+   "group": "all",
+   "id": "antifox-ai-penetration-testing-platform-attacks",
+   "last_updated": "2026-11-13",
+   "title": "AntiFox AI penetration testing platform attacks"
+  },
+  {
    "article_count": 3,
    "first_seen": "2026-11-12",
    "group": "all",
@@ -186,6 +282,30 @@
   }
  ],
  "coverage": [
+  {
+   "articles": 220,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-20",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 180,
+   "in_stories": 2,
+   "kept": 2,
+   "merged": 1,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 2,
+   "runs": 1,
+   "sent": 1,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
   {
    "articles": 239,
    "attached_by_code": 0,
@@ -379,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-19T22:28:22+00:00"
+  "all": "2026-11-20T01:52:26+00:00"
  },
  "narratives": [
   {
@@ -529,14 +649,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -614,12 +734,38 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 13,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "f480eb9da2956140",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-20T00:26:25+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "VMware patches vCenter zero-day exploited in attacks since September",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "868ba9cea8d4c4bb",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-19T19:21:06+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+     "type": null,
+     "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
+    },
     {
      "added": "2026-11-19",
      "dates": [
@@ -796,15 +942,39 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 3,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "868ba9cea8d4c4bb"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-19T19:21:06+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/) reported that Google stated a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch."
+    },
+    {
+     "articles": [
+      "f480eb9da2956140"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-20T00:26:25+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/) reported that Broadcom released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability exploited by Chinese-linked hackers since September."
+    },
     {
      "articles": [
       "bc951438aa1a5507"
@@ -946,311 +1116,6 @@
     "of": 3,
     "outlet": "The Hacker News",
     "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
-   }
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "149de458d42dc554",
-     "lang": "en",
-     "outlet": "Cisco Talos",
-     "published": "2026-11-13T20:57:13+00:00",
-     "publisher": "Cisco",
-     "region": null,
-     "section": "intel",
-     "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
-     "type": null,
-     "url": "https://blog.talosintelligence.com/artex-and-beyond/"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "4d4aa4e776efc62b",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-11T21:31:32+00:00",
-     "publisher": "Security Affairs",
-     "section": "news",
-     "title": "AI Pentest Tool AntiFox Abused To Steal AWS Credentials",
-     "type": null,
-     "url": "https://securityaffairs.com/202880/hacking/ai-pentest-tool-antifox-abused-to-steal-aws-credentials.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "607fb499e7898fef",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-11T15:34:27+00:00",
-     "publisher": "The Hacker News",
-     "section": "news",
-     "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
-    },
-    {
-     "added": "2026-11-12",
-     "id": "2ea6eaf0516ecde7",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-11T15:12:59+00:00",
-     "publisher": "BleepingComputer",
-     "section": "news",
-     "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-12",
-   "group": "all",
-   "id": "antifox-ai-penetration-testing-platform-attacks",
-   "label": "AntiFox AI penetration testing platform attacks",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "149de458d42dc554"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cisco"
-     ],
-     "published": "2026-11-13T20:57:13+00:00",
-     "text": "[Cisco](https://blog.talosintelligence.com/artex-and-beyond/) reported that AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions."
-    },
-    {
-     "articles": [
-      "4d4aa4e776efc62b"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "text": "[Security Affairs](https://securityaffairs.com/202880/hacking/ai-pentest-tool-antifox-abused-to-steal-aws-credentials.html) reported that Arctic Wolf saw attackers use the AntiFox pentest platform to hit IIS servers and AWS accounts."
-    },
-    {
-     "articles": [
-      "607fb499e7898fef"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html) reported that researchers disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal AWS production secrets."
-    },
-    {
-     "articles": [
-      "2ea6eaf0516ecde7"
-     ],
-     "date": "2026-11-12",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/) reported that attackers are using Alibaba Cloud to host self-managed instances of AntiFox to target web services and AWS."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "AntiFox AI penetration testing platform attacks"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "8eb39dc762c35ac0",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-12T20:08:08+00:00",
-     "publisher": "The Register",
-     "region": null,
-     "section": "news",
-     "title": "Lego marketplace BrickLink in pieces after 'unusual activity' takes it offline for almost a week",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "b4a246818d987d43",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-12T14:25:49+00:00",
-     "publisher": "Malwarebytes Labs",
-     "region": null,
-     "section": "intel",
-     "title": "LEGO’s BrickLink taken offline: What users should know",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "478709e0be379d8c",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-12T14:00:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "lego-bricklink-marketplace-offline",
-   "label": "Lego BrickLink marketplace offline",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "478709e0be379d8c",
-      "b4a246818d987d43"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine",
-      "Malwarebytes Labs"
-     ],
-     "published": "2026-11-12T14:00:00+00:00",
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/), [Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/legos-bricklink-taken-offline-after-unusual-activity-what-users-should-know) reported that Lego took its BrickLink Marketplace offline after detecting unusual activity."
-    },
-    {
-     "articles": [
-      "8eb39dc762c35ac0"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Register"
-     ],
-     "published": "2026-11-12T20:08:08+00:00",
-     "text": "[The Register](https://www.theregister.com/security/2026/11/12/lego-marketplace-bricklink-in-pieces-after-unusual-activity-takes-it-offline-for-almost-a-week/5309425) reported that the Lego marketplace outage approached a week with no confirmed cause."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Lego Takes BrickLink Marketplace Offline After Detecting Unusual Activity",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-13",
-    "of": 2,
-    "outlet": "Infosecurity Magazine",
-    "url": "https://www.infosecurity-magazine.com/news/lego-takes-bricklink-marketplace/"
-   }
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "16fb12875099eeaf",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-13T10:56:15+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "US Freezes $2.7 Billion Stolen by North Korean Hackers in Massive $6 Billion Binance Crypto Heist",
-     "type": null,
-     "url": "https://cybersecuritynews.com/us-freezes-2-7-billion/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "c0d30efb63d021ff",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T02:28:21+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
-     "type": null,
-     "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "2496e4e87388c256",
-     "lang": "en",
-     "outlet": "CyberScoop",
-     "published": "2026-11-13T00:32:19+00:00",
-     "publisher": "CyberScoop",
-     "region": null,
-     "section": "news",
-     "title": "US seizes North Korean hacking infrastructure, $1.2 billion in cryptocurrency stolen from Binance",
-     "type": null,
-     "url": "https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "us-cryptocurrency-and-infrastructure-seizure",
-   "label": "US cryptocurrency and infrastructure seizure",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "16fb12875099eeaf"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-13T10:56:15+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/us-freezes-2-7-billion/) reported that the US government froze more than $2.7 billion of crypto stolen from Binance on or about October 29, 2026, and the FBI stated North Korea took over $6 billion."
-    },
-    {
-     "articles": [
-      "2496e4e87388c256"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "CyberScoop"
-     ],
-     "published": "2026-11-13T00:32:19+00:00",
-     "text": "[CyberScoop](https://cyberscoop.com/us-seizes-north-korea-hacking-infrastructure-binance/) reported that the US seized North Korean hacking infrastructure belonging to APT38 containing footage used to fool victims over video calls, alongside cryptocurrency stolen from Binance."
-    },
-    {
-     "articles": [
-      "c0d30efb63d021ff"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-13T02:28:21+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/) reported that the FBI stated the US seized 1.2 billion dollars worth of cryptocurrency stolen from Binance and blamed North Korea for a separate social engineering scheme."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "FBI Says US Seized $1.2 Billion Worth of Cryptocurrency Stolen From Binance",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-13",
-    "of": 2,
-    "outlet": "SecurityWeek",
-    "url": "https://www.securityweek.com/fbi-says-us-seized-1-2-billion-worth-of-cryptocurrency-stolen-from-binance/"
    }
   },
   {
@@ -1491,184 +1356,6 @@
     "outlet": "BleepingComputer",
     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
    }
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "b5d0feb8c034475a",
-     "lang": "en",
-     "outlet": "Unit 42 (Palo Alto)",
-     "published": "2026-11-12T15:00:31+00:00",
-     "publisher": "Unit 42 (Palo Alto)",
-     "region": null,
-     "section": "intel",
-     "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
-     "type": null,
-     "url": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "autonomous-ai-attacks-on-semiconductor-and",
-   "label": "Autonomous AI attacks on semiconductor and defense",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "b5d0feb8c034475a"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Unit 42 (Palo Alto)"
-     ],
-     "published": "2026-11-12T15:00:31+00:00",
-     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/) reported that attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense, and civic targets."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Autonomous AI attacks on semiconductor and defense"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "4a1e7cd6829af059",
-     "lang": "en",
-     "outlet": "Microsoft Threat Intelligence",
-     "published": "2026-11-12T17:00:00+00:00",
-     "publisher": "Microsoft",
-     "region": null,
-     "section": "intel",
-     "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
-     "type": null,
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "post-training-supply-chain-attacks-on",
-   "label": "Post-training supply chain attacks on coding agents",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "4a1e7cd6829af059"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Microsoft"
-     ],
-     "published": "2026-11-12T17:00:00+00:00",
-     "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/) reported that Microsoft Defender Research and the AI Red Team discussed how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Post-training supply chain attacks on coding agents"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "a55b9a9999ce931f",
-     "lang": "en",
-     "outlet": "OpenSourceMalware",
-     "published": "2026-11-11T12:27:47+00:00",
-     "publisher": "OpenSourceMalware",
-     "region": null,
-     "section": "intel",
-     "title": "Online Casino Serves Malicious Python SDK",
-     "type": null,
-     "url": "https://opensourcemalware.com/blog/online-casino-serves-malware"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "online-casino-malicious-python-sdk",
-   "label": "Online Casino Malicious Python SDK",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a55b9a9999ce931f"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "OpenSourceMalware"
-     ],
-     "published": "2026-11-11T12:27:47+00:00",
-     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/online-casino-serves-malware) reported that an online casino serves a malicious Python SDK named aurum-pay that fetches and runs a remote command to install a persistent Linux RAT."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Online Casino Malicious Python SDK",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "739a8dfc5750ee71",
-     "lang": "en",
-     "outlet": "Kaspersky Securelist",
-     "published": "2026-11-13T09:00:43+00:00",
-     "publisher": "Kaspersky",
-     "region": null,
-     "section": "intel",
-     "title": "Ransomware at the hypervisor layer: how attackers use ESXi and vCenter features for malicious purposes",
-     "type": null,
-     "url": "https://securelist.com/esxi-ransomware/121959/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "ransomware-at-the-hypervisor-layer",
-   "label": "Ransomware at the hypervisor layer",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "739a8dfc5750ee71"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Kaspersky"
-     ],
-     "published": "2026-11-13T09:00:43+00:00",
-     "text": "[Kaspersky](https://securelist.com/esxi-ransomware/121959/) reported that Kaspersky experts analyzed a recent ransomware incident involving attackers using ESXi and vCenter features."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Ransomware at the hypervisor layer",
-   "topic": "cyber"
   },
   {
    "article_count": 5,
@@ -2091,206 +1778,6 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "60b691f2e846fe7f",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-12T18:28:00+00:00",
-     "publisher": "The Record",
-     "region": null,
-     "section": "news",
-     "title": "Shipping giant Maersk says recent cyber incident affected legacy system",
-     "type": null,
-     "url": "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "39cf44c5627f55ff",
-     "lang": "en",
-     "outlet": "Graham Cluley",
-     "published": "2026-11-12T15:12:29+00:00",
-     "publisher": "Graham Cluley",
-     "region": null,
-     "section": "news",
-     "title": "WhiteArmor gang claims responsibility for latest cyber attack on shipping giant Maersk",
-     "type": null,
-     "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "maersk-cyber-security-incident",
-   "label": "Maersk cyber security incident",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "39cf44c5627f55ff"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Graham Cluley"
-     ],
-     "published": "2026-11-12T15:12:29+00:00",
-     "text": "[Graham Cluley](https://www.bitdefender.com/en-us/blog/hotforsecurity/whitearmor-gang-cyberattack-maersk) reported that shipping giant Maersk has confirmed that one of its systems was broken into by hackers who have stolen data, and the WhiteArmor gang has claimed responsibility."
-    },
-    {
-     "articles": [
-      "60b691f2e846fe7f"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "published": "2026-11-12T18:28:00+00:00",
-     "text": "[The Record](https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system) reported that shipping giant Maersk stated a recent cyber incident affected a legacy system."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Maersk cyber security incident",
-   "topic": "security"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "3ff49165ff156b68",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-13T10:55:03+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "a5377dd5f0159913",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T10:48:40+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-     "type": null,
-     "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "b6ad14b16a1f12c8",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-12T16:58:22+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Europol Takes Down 235 Servers and 257 Domains Linked to Gootloader, CastleRAT, and StealC Malware",
-     "type": null,
-     "url": "https://cybersecuritynews.com/malware-infrastructure-disrupted/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "9b9e6808744bc759",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-12T15:07:20+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "operation-endgame-malware-infrastructure-takedown",
-   "label": "Operation Endgame malware infrastructure takedown",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9b9e6808744bc759"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-12T15:07:20+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/) reported that Europol and law enforcement partners from nine countries seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations."
-    },
-    {
-     "articles": [
-      "a5377dd5f0159913"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-13T10:48:40+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/) reported that investigators seized 235 servers, 257 domains, and 6.4 million victim credentials as part of Operation Endgame."
-    },
-    {
-     "articles": [
-      "b6ad14b16a1f12c8"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-12T16:58:22+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/malware-infrastructure-disrupted/) reported that Europol and international partners disrupted infrastructure linked to Gootloader, CastleRAT, and StealC."
-    },
-    {
-     "articles": [
-      "3ff49165ff156b68"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-13T10:55:03+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html) reported that an international police operation took down servers behind Gootloader, CastleRAT, and StealC, seizing 6.4 million stolen logins."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Law Enforcement Disrupts Gootloader, CastleRAT, and StealC Infrastructure",
-   "title_from": {
-    "backing": 3,
-    "date": "2026-11-13",
-    "of": 3,
-    "outlet": "SecurityWeek",
-    "url": "https://www.securityweek.com/law-enforcement-disrupts-gootloader-castlerat-and-stealc-infrastructure/"
-   },
-   "topic": "security"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -2392,184 +1879,6 @@
    "article_count": 3,
    "articles": [
     {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "caba0bb13685e37c",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-13T14:18:29+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations",
-     "type": null,
-     "url": "https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ece6a155340ab2dc",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T09:36:56+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Citrix Patches 10 Critical NetScaler Vulnerabilities",
-     "type": null,
-     "url": "https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "fa6bb5218f5dbd79",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-12T15:38:49+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "citrix-netscaler-security-vulnerabilities-and-patc",
-   "label": "Citrix NetScaler security vulnerabilities and patches",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "ece6a155340ab2dc"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-13T09:36:56+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/citrix-patches-10-critical-netscaler-vulnerabilities/) reported that Citrix patched 10 critical NetScaler vulnerabilities where successful exploitation could lead to unexpected behavior or denial-of-service conditions."
-    },
-    {
-     "articles": [
-      "fa6bb5218f5dbd79"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-12T15:38:49+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html) reported that Citrix released patches for 12 NetScaler and Secure Access Client flaws, including authentication bypass."
-    },
-    {
-     "articles": [
-      "caba0bb13685e37c"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-13T14:18:29+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/) reported that Citrix released fixes for 28 security flaws in NetScaler, including a critical flaw in default installations designated CVE-2026-120868."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-13",
-    "of": 2,
-    "outlet": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html"
-   },
-   "topic": "security"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "e41cd42986d0b8b3",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-13T19:38:36+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "7aed0139b5e16c73",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-13T13:54:20+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "trezor-confirms-hidden-implants-in-cryptobilis",
-   "label": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "7aed0139b5e16c73"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-13T13:54:20+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html) reported that Trezor confirmed three Safe 5 wallets bought from the reseller CryptoBilis contain an extra circuit board implant that can copy recovery phrases."
-    },
-    {
-     "articles": [
-      "e41cd42986d0b8b3"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-13T19:38:36+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/) reported that cryptocurrency hardware wallet maker Trezor released a fix after confirming that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-   "topic": "security"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
      "added": "2026-11-14",
      "id": "0614709b30a60ce0",
      "lang": "en",
@@ -2648,51 +1957,6 @@
    "status": "unchanged",
    "title": "FAA nationwide flight ground stop",
    "topic": "infrastructure"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-13",
-     "id": "f56e2429f678379d",
-     "lang": "en",
-     "outlet": "Microsoft Threat Intelligence",
-     "published": "2026-11-13T21:31:44+00:00",
-     "publisher": "Microsoft",
-     "region": null,
-     "section": "intel",
-     "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
-     "type": null,
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "sckit-abuses-screenconnect",
-   "label": "SCKit abuses ScreenConnect",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-13",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "f56e2429f678379d"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Microsoft"
-     ],
-     "published": "2026-11-13T21:31:44+00:00",
-     "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/) reported that SCKit abuses ScreenConnect to deploy unauthorized remote access and target technician sessions."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "SCKit abuses ScreenConnect",
-   "topic": "security"
   },
   {
    "article_count": 2,
@@ -5281,14 +4545,14 @@
      "url": "https://www.aerotime.aero/articles/irish-man-indicted-c130h-destruction-shannon-airport"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "shannon-airport-c-130h-sabotage",
    "label": "Shannon Airport C-130H sabotage",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5317,7 +4581,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Shannon Airport C-130H sabotage",
    "topic": "security"
   },
@@ -5455,14 +4719,14 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWXJmV0E4ZGxDNFlPZ3BWSlNiOWh5ejZSZmlXUnU0c056bHctSHFpMXE5VVAtbG5mZllxOTlLdV9VVnZZVXVzT2tJOWZ5WjJFcFJ1eUZOaVA4ZnVMUUFxVkxFdHFTWmlsZnVucWR2U25TY3lkTnVKeEx0MWpuVGtNSW1JNXFxanNBQkt0bnNlcGlpZGdMVzVvOVlMS051NmxMVk9GOFV0VDZtRllDbl95YjlDcmtkSVFKc3BFb3NDNHjSAcYBQVVfeXFMTmRSZ1VMWkFzTFU5dHpRdVRiWnVhOFhJZ3loZm83cnB4bXJNMTBLYUZtbkFZQzFJVmtpb0RSSURKaFAtMEJQWlF3ZE9iT1BkX0ZYTjFqLXd2bWFxSmZrNm8ybGxPeU5fU2FIVmo3Y3pSVnNTNjl2MnFISzRMaFdvZEc2Sno0NUpTLXFwaHZ0UzJYdkNWRm43bjRld0s2RlA1aVFXaXp2UHhrSVhGdDJHUkdqVmhFaFlDa2N2dFBjTnkwWTFtY3d3?oc=5"
     }
    ],
-   "articles_today": 10,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "delhi-airport-security-breach",
    "label": "Delhi Airport security breach",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 8,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5479,7 +4743,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Man forces entry into Delhi airport Terminal 3, CISF apprehends him within seconds",
    "title_from": {
     "backing": 2,
@@ -5533,14 +4797,14 @@
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRE8tOHNrckVqY21xMTFMLTFuTXhIQXNpWTBSa0NNMXE3dlJyWTloQmxjM3hjbzJ4R3ZrUFhqV1ZXQy0zVlhscDVxWGw1SFR2RGQxRlNtV1RmenQyalZLdGJ1UGVvdFd5ZEFZd2owa1U2YU9BTEJZaEJ4UHhkckpXWk5TUFYzR1N5VEN4aWxwY1dCQzZTbWE5MWhJSVdoS3ZBUkJ0WS1qYUtCZFVEU2p2T2EwR1VRdF9QYzdaS3E0VHlFd3E4OUtSUVRzZEZQTE9jT05xRG9EVXprMVNRb2hB0gHkAUFVX3lxTE95b3F0MV9EaE9hWjhKamk0RTl0cW5SZjAyUHEzWUxiRGc4bDB5Xy03VEN3Nkt0bXNNMUdvLUo1SERCX2pvbFJPSnNDOXJCcV9JOEhvVVV0Uk15QUtGanQzVjBkZlRHaFpTNHJDc2F2enNJb25hOWxOSVZkVElETzVHWVVaWTJOd0xiZWNhRWIwMzA2SVptaWc2MDV5RXRJSExYRlJRUnlUTV9Cd3A0VWdIOEhnd0hkdXlSem03b2RPWkNGd0tXeHdkSjZkZEtQcFJ5dDQ0MzFBYjdHZnRVSUVKWkNSQw?oc=5"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jaipur-airport-security-breach",
    "label": "Jaipur airport security breach",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5559,7 +4823,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "After Delhi, Jaipur Airport Faces Security Breach: Youth Scales Boundary Wall, Caught By CISF",
    "title_from": {
     "backing": 2,
@@ -5603,14 +4867,14 @@
      "url": "https://cybersecuritynews.com/nvidia-data-breach-claim/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "gentlemen-ransomware-nvidia-data-leak-claims",
    "label": "Gentlemen ransomware NVIDIA data leak claims",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5639,7 +4903,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Gentlemen ransomware NVIDIA data leak claims",
    "topic": "cyber"
   },
@@ -5673,14 +4937,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "international-ransomware-gang-arrests",
    "label": "International ransomware gang arrests",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5709,7 +4973,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "International ransomware gang arrests",
    "topic": "cyber"
   },
@@ -5743,14 +5007,14 @@
      "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "microsoft-python-agent-framework-malware",
    "label": "Microsoft Python agent framework malware",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5779,7 +5043,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Microsoft Python agent framework malware",
    "topic": "cyber"
   },
@@ -5813,14 +5077,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "wellington-it-cyberattack",
    "label": "Wellington IT cyberattack",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5849,7 +5113,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Wellington IT cyberattack",
    "topic": "cyber"
   },
@@ -5883,14 +5147,14 @@
      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "n-able-cloud-server-breach",
    "label": "N-able cloud server breach",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5919,7 +5183,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "N-able cloud server breach",
    "topic": "cyber"
   },
@@ -5940,14 +5204,14 @@
      "url": "https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "check-point-llm-security-research",
    "label": "Check Point LLM security research",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5962,9 +5226,9 @@
      "text": "[Check Point Research](https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/) reported an exposition for a principle of gatekeeper asymmetry doom in information security regarding vulnerabilities in powerful LLMs."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Check Point LLM security research",
    "topic": "cyber"
   },
@@ -6004,14 +5268,14 @@
      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "php-security-vulnerabilities",
    "label": "PHP security vulnerabilities",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6040,7 +5304,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "PHP security vulnerabilities",
    "topic": "cyber"
   },
@@ -6087,14 +5351,14 @@
      "url": "https://cybersecuritynews.com/european-commission-cyberattack/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "european-commission-cyberattack",
    "label": "European Commission cyberattack",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6135,7 +5399,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption",
    "title_from": {
     "backing": 2,
@@ -6176,14 +5440,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "coinbase-elon-musk-deepfake-scam",
    "label": "Coinbase Elon Musk deepfake scam",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6200,7 +5464,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Coinbase Elon Musk deepfake scam",
    "topic": "crime"
   },
@@ -6221,14 +5485,14 @@
      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "crowdstrike-java4shell-cve-2026-114938-discovery",
    "label": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6243,9 +5507,9 @@
      "text": "[CrowdStrike Blog](https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/) reported that CrowdStrike detected exposure and post-exploitation activity related to Java4Shell vulnerability CVE-2026-114938."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
    "topic": "security"
   },
@@ -6282,14 +5546,14 @@
      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jpmorgan-chase-data-breach",
    "label": "JPMorgan Chase data breach",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-19",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6318,12 +5582,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "JPMorgan Chase data breach",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-19T22:28:39+00:00"
+ "updated": "2026-11-20T01:52:43+00:00"
 }
