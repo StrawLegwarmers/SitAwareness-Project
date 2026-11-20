@@ -269,25 +269,25 @@
   {
    "articles": 569,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 29,
-   "continuing": 15,
+   "calls": 6,
+   "candidates": 32,
+   "continuing": 17,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 45,
-   "kept": 28,
+   "in_stories": 49,
+   "kept": 32,
    "merged": 1,
-   "new": 14,
+   "new": 15,
    "rejected": 5,
    "reported_by_2": 5,
-   "runs": 5,
-   "sent": 29,
+   "runs": 6,
+   "sent": 32,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 11,
+   "updated": 13,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T14:00:01+00:00"
+  "all": "2026-11-20T16:51:17+00:00"
  },
  "narratives": [
   {
@@ -713,8 +713,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "ef473c6e9c2f3ed4",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T15:00:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Futures Extend Decline on Improving Supply",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-middle-east-tensions-cdf9de83?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-20",
      "id": "74149cff4f23e882",
@@ -898,7 +911,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 7,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
@@ -907,6 +920,18 @@
    "last_updated": "2026-11-20",
    "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "ef473c6e9c2f3ed4"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T15:00:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-rises-amid-middle-east-tensions-cdf9de83?mod=pls_whats_news_us_business_f) reported that crude futures headed for a third consecutive weekly loss with increasing supply out of the Middle East outweighing concerns about conflict in the region."
+    },
     {
      "articles": [
       "b6b5dd7594bf4786"
@@ -8744,8 +8769,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "94f302b06c1a1458",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-20T00:26:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The Federal Reserve is limiting pay raises at its 12 regional banks to 1% next year as it seeks to rein in costs and streamline operations",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed"
+    },
     {
      "added": "2026-11-19",
      "id": "db0914bf63df2526",
@@ -8773,15 +8811,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "federal-reserve-regional-staff-pay-increases",
    "label": "Federal Reserve regional staff pay increases",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "94f302b06c1a1458"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T00:26:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/fed-cuts-pay-raises-for-regional-bank-staff-e3184f2d?mod=rss_socialeconomyfeed) reported that employees at the 12 regional banks were told to expect 1% annual raises, down from 3% this year."
+    },
     {
      "articles": [
       "48377ccf6ce8ac7d",
@@ -8797,9 +8847,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027), [Investing.com](https://www.investing.com/news/economy-news/us-fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027-bloomberg-news-reports-5039812) reported that the Federal Reserve warned employees at its regional outposts to expect lower pay increases next year."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Federal Reserve regional staff pay increases",
    "topic": "economy"
   },
@@ -9877,9 +9927,79 @@
    "status": "new",
    "title": "PayPal executive reorganization",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "bf38950b587ffe78",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T16:06:18+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "ECB’s Nagel: Will likely need to act in December but price expectations remain anchored",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/ecbs-nagel-will-likely-need-to-act-in-december-but-price-expectations-remain-anchored-5042238"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "62950f87f268564b",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-20T13:56:09+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "ECB Needs December Rate Hike Into Restrictive Zone, Nagel Says",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "european-central-bank-interest-rates",
+   "label": "European Central Bank interest rates",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "62950f87f268564b"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-20T13:56:09+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says) reported that European Central Bank Governing Council member Jo said the central bank should lift interest rates next month into a range that begins to constrain the economy."
+    },
+    {
+     "articles": [
+      "bf38950b587ffe78"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T16:06:18+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/ecbs-nagel-will-likely-need-to-act-in-december-but-price-expectations-remain-anchored-5042238) reported that ECB's Nagel stated the bank will likely need to act in December while price expectations remain anchored."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "European Central Bank interest rates",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T14:03:05+00:00"
+ "updated": "2026-11-20T16:51:51+00:00"
 }

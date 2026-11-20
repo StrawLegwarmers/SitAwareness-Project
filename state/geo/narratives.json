@@ -805,25 +805,31 @@
   {
    "articles": 4000,
    "attached_by_code": 12,
-   "calls": 23,
-   "candidates": 828,
-   "continuing": 624,
+   "calls": 28,
+   "candidates": 1025,
+   "continuing": 754,
    "corroborated": 18,
    "date": "2026-11-20",
-   "dropped": 14,
-   "failed_calls": 0,
+   "dropped": 15,
+   "errors": [
+    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 2: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+   ],
+   "failed_calls": 4,
    "groups": 3126,
-   "in_stories": 1217,
-   "kept": 704,
-   "merged": 39,
-   "new": 137,
-   "rejected": 76,
-   "reported_by_2": 100,
-   "runs": 5,
-   "sent": 828,
-   "skipped": 77,
+   "in_stories": 1273,
+   "kept": 746,
+   "merged": 42,
+   "new": 146,
+   "rejected": 83,
+   "reported_by_2": 109,
+   "runs": 6,
+   "sent": 1025,
+   "skipped": 80,
    "split_calls": 0,
-   "updated": 541,
+   "updated": 558,
    "waiting": 0
   },
   {
@@ -1050,12 +1056,38 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T13:54:40+00:00"
+  "all": "2026-11-20T16:35:39+00:00"
  },
  "narratives": [
   {
-   "article_count": 500,
+   "article_count": 502,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "453fb64a08cff24b",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-20T15:27:11+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "Estonia’s border shuttering and Russia’s peace mind: Foreign Ministry's statements",
+     "type": "state-media",
+     "url": "https://tass.com/politics/2222601"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "9457fb62a84ce71e",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-20T15:06:34+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Estonia to close road borders with Russia in response to 'sustained aggression' against Europe",
+     "type": "local",
+     "url": "https://kyivindependent.com/estonia-to-close-road-borders-with-russia-in-response-to-sustained-aggression-against-europe/"
+    },
     {
      "added": "2026-11-20",
      "id": "75f4922d09e235ec",
@@ -1555,35 +1587,9 @@
      "title": "Kushner: US Working on Direct Moscow-Europe Contacts Ahead of Next Talks",
      "type": "local",
      "url": "https://www.kyivpost.com/post/90150"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "77cb13fcc0366409",
-     "lang": "en",
-     "outlet": "Aravot",
-     "published": "2026-11-15T06:00:15+00:00",
-     "publisher": "Aravot",
-     "region": "europe",
-     "section": null,
-     "title": "“This is a recipe for the next war”: Macron opposes restrictions on funding for Ukraine",
-     "type": "local",
-     "url": "https://en.aravot.am/2026/11/15/382477/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "1b32680bc7042ebe",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-15T00:40:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "\"This is a recipe for the next war\": Macron explains how an unjust peace in Ukraine threatens Europe",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/15/8062909/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-09",
    "group": "europe",
    "id": "trilateral-peace-talks-and-energy-infrastructure",
@@ -1594,7 +1600,7 @@
     "russian-missile-strikes-across-ukraine",
     "kremlin-stance-on-europe-in-peace"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "Trump's envoy says Putin is ready to allow Europe to join next round of Ukraine peace talks",
     "US, Ukraine say Europe to join peace talks as Putin sticks to hardline stance",
@@ -1608,6 +1614,30 @@
     "US envoy Kushner says progress made in Ukraine talks"
    ],
    "reports": [
+    {
+     "articles": [
+      "9457fb62a84ce71e"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-20T15:06:34+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/estonia-to-close-road-borders-with-russia-in-response-to-sustained-aggression-against-europe/) reported that Estonia plans to close road borders with Russia in response to sustained aggression against Europe."
+    },
+    {
+     "articles": [
+      "453fb64a08cff24b"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-20T15:27:11+00:00",
+     "text": "[TASS](https://tass.com/politics/2222601) reported that Maria Zakharova emphasized that Russia would take all necessary political and diplomatic response measures to secure its national interests."
+    },
     {
      "articles": [
       "75f4922d09e235ec"
@@ -2086,36 +2116,10 @@
      ],
      "published": "2026-11-13T23:23:38+00:00",
      "text": "[Meduza](https://meduza.io/en/news/2026/11/14/europe-taps-national-security-advisers-to-represent-the-continent-in-russia-ukraine-peace-talks) reported that national security advisers from the European Union, Germany, France, the United Kingdom, Italy, and Poland will represent Europe in upcoming talks on ending the war."
-    },
-    {
-     "articles": [
-      "72362562dc6add72"
-     ],
-     "date": "2026-11-14",
-     "group": "europe",
-     "outlets": [
-      "Kyiv Post"
-     ],
-     "published": "2026-11-14T09:14:00+00:00",
-     "text": "[Kyiv Post](https://www.kyivpost.com/post/90104) reported that Poland was among the E5 countries selected to represent Europe at upcoming Ukraine peace negotiations."
-    },
-    {
-     "articles": [
-      "3a0c22406cad1334",
-      "9148acb0759dc5e1"
-     ],
-     "date": "2026-11-14",
-     "group": "europe",
-     "outlets": [
-      "Pakistan Today",
-      "teleSUR English"
-     ],
-     "published": "2026-11-13T20:41:26+00:00",
-     "text": "[Pakistan Today](https://news.google.com/rss/articles/CBMizgFBVV95cUxOZTRoMkNpSGIzbDhlUVh4c2FJWmU3eFNDbm56NndMNjl0MjN5WjQxbklnZ001cTVSdnR5LW40YXZCNHV1NV91SEF1am9KTnplZVNscHJ2MVUyQ3RJQ1ZGd21hWUVaUHBuNkVUZGhRNlB1VFhUeW5KR091TTRLeFhEcFBkVjNSNTNURXZMd2t5UHVxMXRFdXJHZHZKMHdxNThfZmZFUEhqLUdyejFKdy1MWXVOTDU4WkdDNTlIUUJDVTVLblptdmZ2eTVCNGFNUQ?oc=5), [teleSUR English](https://www.telesurenglish.net/russia-may-open-door-to-european-role-in-ukraine-peace-talks/) reported that EU leaders rejected a Russian push to include European security in Ukraine peace talks, while Russia signaled openness to European participation if Kyiv agrees to Kremlin demands."
     }
    ],
-   "single_source_today": true,
-   "state_media_only_today": true,
+   "single_source_today": false,
+   "state_media_only_today": false,
    "status": "updated",
    "subject": "russia",
    "title": "Ukraine Talks Run Up Against Deep Enmity Between Russia and Europe",
@@ -7169,8 +7173,21 @@
    }
   },
   {
-   "article_count": 99,
+   "article_count": 105,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "48f2c61b88e996a9",
+     "lang": "en",
+     "outlet": "Egypt Independent",
+     "published": "2026-11-20T13:10:53+00:00",
+     "publisher": "Egypt Independent",
+     "region": "mena",
+     "section": null,
+     "title": "Video: Riyadh’s tallest skyscraper targeted in Houthi strike",
+     "type": "local",
+     "url": "https://www.egyptindependent.com/video-riyadhs-tallest-skyscraper-targeted-in-houthi-strike/"
+    },
     {
      "added": "2026-11-20",
      "id": "3ca766a9bae9b61f",
@@ -7225,6 +7242,19 @@
     },
     {
      "added": "2026-11-20",
+     "id": "b7e5d7fd6b037f0b",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-20T01:29:52+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "‘We’ve got time’: Trump puts fresh Iran strikes on hold until after New Year",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/donald-trump-puts-fresh-iran-strikes-on-hold-until-after-new-year-says-we-ve-got-time-101795133696056.html"
+    },
+    {
+     "added": "2026-11-20",
      "id": "a633b5cb4c400c77",
      "lang": "en",
      "outlet": "The Express Tribune",
@@ -7264,6 +7294,19 @@
     },
     {
      "added": "2026-11-20",
+     "id": "7f7c39d7531210e5",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-19T23:49:34+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "Trump says no rush to decide on new Iran strikes, looks to next year",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375136/trump-says-no-rush-decide-new-iran-strikes-looks-next-year"
+    },
+    {
+     "added": "2026-11-20",
      "id": "79bc1b1196bbd750",
      "lang": "en",
      "outlet": "Haaretz",
@@ -7289,6 +7332,19 @@
      "url": "https://www.newarab.com/news/houthis-escalate-war-missile-hits-riyadhs-tallest-building"
     },
     {
+     "added": "2026-11-19",
+     "id": "461445c626fb5d58",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-19T22:26:34+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "Trump pushes decision on new Iran strikes into next year: ‘We’ve got time’",
+     "type": "local",
+     "url": "https://www.jpost.com/american-politics/article-915546"
+    },
+    {
      "added": "2026-11-20",
      "id": "96f749c6bf48b185",
      "lang": "en",
@@ -7300,6 +7356,32 @@
      "title": "Saudi's tallest skyscraper damaged in Houthi attack",
      "type": "international",
      "url": "https://news.sky.com/story/saudis-tallest-skyscraper-damaged-in-houthi-attack-13614147"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "8d2a100e351bc5ef",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-19T21:36:16+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "Trump says no rush on Iran decision, looks to next year",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkkzQVk3M3pnOXRWVlFCMmVzUEN0alhCS0gzQUhYNkhCMDhCOUM0N0tmMFpZNVNKcnVNbktaYXV5MV9ERm13WHoxTEVtUGRMUkZwT3dJZmlRZ2pyRE1WMGoyZW1VcXVWdTVRTmxZV1RISHNXWE9YY1BUUC1EWlJWRWRsYzlGTXo0WmhjaUxiUnAyMDl2OU9mWmliYndLd0htWGVLYWFUUldMOUIzLV9TSnBB?oc=5"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "ab128bebe0d713c7",
+     "lang": "en",
+     "outlet": "RTÉ",
+     "published": "2026-11-19T21:04:42+00:00",
+     "publisher": "RTÉ",
+     "region": "europe",
+     "section": null,
+     "title": "Trump to decide on renewed strikes on Iran in early 2027",
+     "type": "local",
+     "url": "https://www.rte.ie/news/middle-east/2026/1119/1599925-us-iran/"
     },
     {
      "added": "2026-11-19",
@@ -7618,97 +7700,19 @@
      "title": "Yemen's Houthis claim strikes on Riyadh airport, financial center",
      "type": "state-media",
      "url": "https://news.cgtn.com/news/2026-11-19/Yemen-s-Houthis-claim-strikes-on-Riyadh-airport-financial-center-1SbQCv7AJYk/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "c22b5d9499885674",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-19T00:01:02+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
-     "type": "international",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "100988a324834b44",
-     "lang": "en",
-     "outlet": "TASS",
-     "published": "2026-11-18T21:10:37+00:00",
-     "publisher": "TASS",
-     "region": "europe",
-     "section": null,
-     "title": "Houthis claim cruise missile strike on airport and financial center in Riyadh",
-     "type": "state-media",
-     "url": "https://tass.com/world/2220811"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "f24f5ae12387808b",
-     "lang": "en",
-     "outlet": "TASS",
-     "published": "2026-11-18T09:47:42+00:00",
-     "publisher": "TASS",
-     "region": "europe",
-     "section": null,
-     "title": "Senior Russian diplomat hopes Egypt’s efforts to settle conflict between Riyadh, Houthis",
-     "type": "state-media",
-     "url": "https://tass.com/politics/2220295"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "fcfba2cf514e4f79",
-     "lang": "en",
-     "outlet": "TASS",
-     "published": "2026-11-18T09:41:17+00:00",
-     "publisher": "TASS",
-     "region": "europe",
-     "section": null,
-     "title": "Russia to continue efforts to resolve conflicts in Middle East — senior diplomat",
-     "type": "state-media",
-     "url": "https://tass.com/politics/2220281"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "656060d9b0c8a795",
-     "lang": "en",
-     "outlet": "Yeni Şafak (English)",
-     "published": "2026-11-18T06:16:59+00:00",
-     "publisher": "Yeni Şafak (English)",
-     "region": "mena",
-     "section": null,
-     "title": "Saudi-led coalition intercepts Houthi cruise missile aimed at Riyadh",
-     "type": "local",
-     "url": "http://en.yenisafak.com/world/saudi-led-coalition-intercepts-houthi-cruise-missile-aimed-at-riyadh-3725710"
-    },
-    {
-     "added": "2026-11-18",
-     "dates": [
-      "2026-11-18"
-     ],
-     "id": "912b682545dd0228",
-     "lang": "en",
-     "outlet": "Hasht-e Subh",
-     "published": "2026-11-18T03:56:46+00:00",
-     "publisher": "Hasht-e Subh",
-     "region": "asia",
-     "section": null,
-     "title": "Saudi-Led Coalition Announces Destruction of 60 Houthi Military Targets in Yemen",
-     "type": "local",
-     "url": "https://8am.media/eng/saudi-coalition-destroys-60-houthi-military-targets/"
     }
    ],
-   "articles_today": 11,
+   "articles_today": 15,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "yemen-conflict-saudi-airstrikes-and-houthi",
    "label": "Yemen Conflict: Houthi Drone Attack Damages Riyadh Aramco Tower",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 8,
+   "merged": [
+    "trump-says-no-rush-on-iran"
+   ],
+   "outlets_today": 12,
    "previous_titles": [
     "Saudi Arabia puts pressure on EU to label Yemen's Houthis a terrorist group",
     "Yemen's Houthis say they attacked pumping station on Saudi Arabia's East-West oil pipeline",
@@ -7721,6 +7725,18 @@
     "Saudi Arabia’s Tallest Skyscraper PIF Tower damaged in Houthi Missile Attack"
    ],
    "reports": [
+    {
+     "articles": [
+      "48f2c61b88e996a9"
+     ],
+     "date": "2026-11-20",
+     "group": "mena",
+     "outlets": [
+      "Egypt Independent"
+     ],
+     "published": "2026-11-20T13:10:53+00:00",
+     "text": "[Egypt Independent](https://www.egyptindependent.com/video-riyadhs-tallest-skyscraper-targeted-in-houthi-strike/) reported that Saudi Arabia announced it thwarted a fresh aerial attack launched by Yemen's Houthi movement targeting the Kingdom's territory."
+    },
     {
      "articles": [
       "3ca766a9bae9b61f"
@@ -8208,17 +8224,6 @@
       "Mehr News"
      ],
      "text": "[Mehr News](https://en.mehrnews.com/news/249306/Yemen-targets-East-West-oil-pipeline-in-Riyadh-military-spox) reported that the spokesman for the Yemeni armed forces announced four operations against Saudi Arabia, including targeting an East-West oil pipeline in Riyadh."
-    },
-    {
-     "articles": [
-      "459e5a4434c575c9"
-     ],
-     "date": "2026-11-10",
-     "group": "mena",
-     "outlets": [
-      "Asharq News"
-     ],
-     "text": "[Asharq News](https://asharq.com/politics/202566/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%8A%D9%85%D9%86%D9%8A-%D9%86%D9%81%D8%B0%D9%86%D8%A7-874-%D9%87%D8%AC%D9%88%D9%85%D8%A7-%D8%B6%D8%AF-%D8%A7%D9%84%D8%AD%D9%88%D8%AB%D9%8A%D9%8A%D9%86-%D8%AE%D9%84%D8%A7%D9%84-%D8%B3%D8%A7%D8%B9%D8%A7%D8%AA/) reported that the Yemeni army announced executing 874 air and artillery attacks targeting Houthi positions under the 'Dawn of Yemen' operation."
     }
    ],
    "single_source_today": false,
@@ -8535,7 +8540,7 @@
    "title": "Nigeria: Flood Victims in Nasarawa Face Severe Hunger and Disease"
   },
   {
-   "article_count": 811,
+   "article_count": 813,
    "articles": [
     {
      "added": "2026-11-20",
@@ -8708,6 +8713,19 @@
     },
     {
      "added": "2026-11-19",
+     "id": "09c99cabc7f3ccd7",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-19T16:54:00+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "FACT-CHECKED: Elon Musk’s Latest Claims on Starlink, Ukraine and Russia",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/90628"
+    },
+    {
+     "added": "2026-11-19",
      "id": "30ca7321fcdc221e",
      "lang": "en",
      "outlet": "The Jerusalem Post",
@@ -8744,6 +8762,19 @@
      "title": "Musk admite sentirse \"bastante tonto\" por gastar más de 400 millones en las 'midterms': \"No creo que yo sea MAGA\"",
      "type": "local",
      "url": "https://www.larazon.es/internacional/musk-admite-sentirse-bastante-tonto-gastar-mas-400-millones-midterms-creo-que-sea-maga_202611196aff1f00a6f8072789eee7ff.html"
+    },
+    {
+     "added": "2026-11-19",
+     "id": "0dfcbcec3a5b0195",
+     "lang": "en",
+     "outlet": "Times of India",
+     "published": "2026-11-19T16:06:53+00:00",
+     "publisher": "Times of India",
+     "region": "asia",
+     "section": null,
+     "title": "'There is no private individual who has helped Ukraine more than I have': Elon Musk says Russia would have won the war if Ukraine did not have Starlink",
+     "type": "local",
+     "url": "https://timesofindia.indiatimes.com/world/us/there-is-no-private-individual-who-has-helped-ukraine-more-than-i-have-elon-musk-says-russia-would-have-won-the-war-if-ukraine-did-not-have-starlink/articleshow/135998158.cms"
     },
     {
      "added": "2026-11-19",
@@ -9033,32 +9064,6 @@
      "title": "Republican Nick Begich wins reelection to Alaska's US House seat, a rare bright spot for the GOP",
      "type": "wire",
      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPblZoaXpNRkF4Zi00dUM1YTFZYTlULUV5V0JJVXJCVmU1N3VuUHI0V0JTX0RtajMzR0h0LXdUVnZXY1JIUkltRTlIUkZoQVo2OFNfTlZ6eGtiVW84NElwZ2hzOFhVM2kwVmR6eGo3Q2pjZmdHbkNDVXZEX2FVN19ua0p2elo5ZjNYU2pDN1J5VjdITUxTWU52eFBTX0E?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "418d295812f410be",
-     "lang": "en",
-     "outlet": "Times of India",
-     "published": "2026-11-19T02:08:15+00:00",
-     "publisher": "Times of India",
-     "region": "asia",
-     "section": null,
-     "title": "Mary Peltola wins in Alaska, securing 56-44 US Senate majority for Democrats",
-     "type": "local",
-     "url": "https://timesofindia.indiatimes.com/world/us/mary-peltola-wins-in-alaska-securing-56-44-us-senate-majority-for-democrats/articleshow/135975353.cms"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "45563bb4eff2b38f",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-19T01:22:07+00:00",
-     "publisher": "Le Figaro",
-     "region": "europe",
-     "section": null,
-     "title": "Midterms : Elon Musk dit se sentir «un peu idiot» d'avoir dépensé autant d'argent",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/international/midterms-elon-musk-dit-se-sentir-un-peu-idiot-d-avoir-depense-autant-d-argent-20261119"
     }
    ],
    "articles_today": 8,
@@ -9085,7 +9090,8 @@
     "south-africa-anc-records-worst-ever",
     "ai-industry-impact-from-nvidia-exit",
     "us-midterm-elections-deliver-historic-democratic",
-    "elon-musk-dumps-maga-after-midterm"
+    "elon-musk-dumps-maga-after-midterm",
+    "elon-musk-remarks-on-ukraine-and"
    ],
    "outlets_today": 7,
    "previous_titles": [
@@ -9172,6 +9178,30 @@
      ],
      "published": "2026-11-19T23:45:20+00:00",
      "text": "[New York Times](https://www.nytimes.com/2026/11/19/us/politics/elon-musk-maga-trump.html) reported that Elon Musk is backing away from MAGA and the Trump presidency."
+    },
+    {
+     "articles": [
+      "0dfcbcec3a5b0195"
+     ],
+     "date": "2026-11-19",
+     "group": "namerica",
+     "outlets": [
+      "Times of India"
+     ],
+     "published": "2026-11-19T16:06:53+00:00",
+     "text": "[Times of India](https://timesofindia.indiatimes.com/world/us/there-is-no-private-individual-who-has-helped-ukraine-more-than-i-have-elon-musk-says-russia-would-have-won-the-war-if-ukraine-did-not-have-starlink/articleshow/135998158.cms) reported that Elon Musk stated at the DealBook Summit that Russia would have won the war if Ukraine did not have Starlink."
+    },
+    {
+     "articles": [
+      "09c99cabc7f3ccd7"
+     ],
+     "date": "2026-11-19",
+     "group": "namerica",
+     "outlets": [
+      "Kyiv Post"
+     ],
+     "published": "2026-11-19T16:54:00+00:00",
+     "text": "[Kyiv Post](https://www.kyivpost.com/post/90628) reported that a Kyiv Post fact-check of Elon Musk's interview found echoed claims on Ukraine's 2014 revolution and Starlink."
     },
     {
      "articles": [
@@ -9604,40 +9634,6 @@
      ],
      "published": "2026-11-18T04:33:14+00:00",
      "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/democrats-flip-9-republican-controlled-senate-seats-the-highest-in-70-years-after-mary-peltolas-alaska-victory-101794976020241.html) reported that Democrats flipped 9 Republican-controlled Senate seats, marking the largest advantage in 16 years."
-    },
-    {
-     "also": [
-      {
-       "date": "2026-11-18",
-       "outlet": "Euronews",
-       "published": "2026-11-18T06:18:02+00:00",
-       "url": "https://www.euronews.com/2026/11/18/democrat-mary-peltola-unseats-republican-and-flips-us-senate-seat-in-tight-race-in-alaska"
-      }
-     ],
-     "articles": [
-      "405dc3a8dd81a0e0",
-      "441c125cd669ac5a"
-     ],
-     "date": "2026-11-18",
-     "group": "namerica",
-     "outlets": [
-      "Politico",
-      "South China Morning Post"
-     ],
-     "published": "2026-11-18T03:24:10+00:00",
-     "text": "[Politico](https://www.politico.com/news/2026/11/17/mary-peltola-wins-alaska-senate-01172129), [South China Morning Post](https://www.scmp.com/news/world/united-states-canada/article/3374832/peltola-flips-alaska-seat-seal-56-44-us-senate-majority-democrats) reported that Mary Peltola defeated Senator Dan Sullivan, giving Democrats a 56-seat Senate majority."
-    },
-    {
-     "articles": [
-      "edede7f638b0dbdf"
-     ],
-     "date": "2026-11-18",
-     "group": "namerica",
-     "outlets": [
-      "Hindustan Times"
-     ],
-     "published": "2026-11-18T04:03:33+00:00",
-     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/democrats-flip-alaska-as-mary-peltola-wins-securing-majority-in-us-senate-101794973686986.html) reported that Peltola won 50% of first-place votes compared to Sullivan's 46%."
     }
    ],
    "single_source_today": false,
@@ -22546,8 +22542,34 @@
    }
   },
   {
-   "article_count": 53,
+   "article_count": 55,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "27e4d83148ea2c36",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-20T14:32:37+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "Nayib Bukele inscribe su candidatura para un tercer mandato presidencial en El Salvador con un masivo respaldo y en plena ofensiva en Haití",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/latinoamerica/nayib-bukele-inscribe-su-candidatura-para-un-tercer-mandato-presidencial-en-el-salvador-con-un-masivo-respaldo-y-en-plena-ofensiva-en-haiti-3602689"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "f44ba32e0a66d91a",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-20T13:37:32+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "Nayib Bukele va por un tercer mandato en El Salvador; así fue el camino de reformas que permitió su nueva candidatura: 'Necesitamos seis años más'",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/latinoamerica/nayib-bukele-va-por-un-tercer-mandato-en-el-salvador-asi-fue-el-camino-de-reformas-que-permitio-su-nueva-candidatura-necesitamos-seis-anos-mas-3602666"
+    },
     {
      "added": "2026-11-20",
      "id": "530e1477a2b212cc",
@@ -23047,42 +23069,16 @@
      "title": "¿Una operación incómoda para Trump?: El papel de Estados Unidos en la intervención militar de Nayib Bukele en Haití",
      "type": "local",
      "url": "https://www.eltiempo.com/mundo/latinoamerica/una-operacion-incomoda-para-trump-el-papel-de-estados-unidos-en-la-intervencion-militar-de-nayib-bukele-en-haiti-3600839"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "2c9d3f8f0343a7d1",
-     "lang": "en",
-     "outlet": "Jamaica Observer",
-     "published": "2026-11-13T20:33:13+00:00",
-     "publisher": "Jamaica Observer",
-     "region": "latam",
-     "section": null,
-     "title": "El Salvador uses armed robot dogs in Haiti gang offensive",
-     "type": "local",
-     "url": "https://www.jamaicaobserver.com/2026/11/13/el-salvador-uses-armed-robot-dogs-haiti-gang-offensive/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "182742a44ca3a50d",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-13T15:37:00+00:00",
-     "publisher": "DW",
-     "region": "global",
-     "section": null,
-     "title": "Why does El Salvador's Bukele have troops in Haiti?",
-     "type": "international",
-     "url": "https://www.dw.com/en/why-does-el-salvador-s-bukele-have-troops-in-haiti/a-79940771?maca=en-rss-en-all-1573-rdf"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 9,
    "first_seen": "2026-11-12",
    "group": "latam",
    "id": "haiti-security-operations-by-salvadoran-troops",
    "label": "Haiti security operations by Salvadoran troops",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 6,
+   "outlets_today": 7,
    "previous_titles": [
     "Haiti, Salvadoran forces retake Sylvio Cator Stadium from gangs, Bukele says | Breaking News",
     "Bukele Security Model Haiti: 2,000 Troops Test Regional Blueprint",
@@ -23092,6 +23088,18 @@
     "El Salvador’s Bukele says his troops destroyed gang leader’s mansion in Haiti"
    ],
    "reports": [
+    {
+     "articles": [
+      "f44ba32e0a66d91a"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "El Tiempo"
+     ],
+     "published": "2026-11-20T13:37:32+00:00",
+     "text": "[El Tiempo](https://www.eltiempo.com/mundo/latinoamerica/nayib-bukele-va-por-un-tercer-mandato-en-el-salvador-asi-fue-el-camino-de-reformas-que-permitio-su-nueva-candidatura-necesitamos-seis-anos-mas-3602666) reported that Salvadoran President Nayib Bukele registered his candidacy for the February 2027 elections to seek a third presidential term."
+    },
     {
      "articles": [
       "c795d35fa6b36182"
@@ -26480,7 +26488,7 @@
    }
   },
   {
-   "article_count": 196,
+   "article_count": 197,
    "articles": [
     {
      "added": "2026-11-20",
@@ -26588,6 +26596,22 @@
      "title": "Three Kyiv bridges hit during major Russian missile attack",
      "type": "international",
      "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-07"
+     ],
+     "id": "8c9b0503c9e12b4e",
+     "lang": "en",
+     "outlet": "The Cipher Brief",
+     "published": "2026-11-20T10:00:05+00:00",
+     "publisher": "The Cipher Brief",
+     "region": "global",
+     "section": null,
+     "title": "Washington Should Allow Ukraine to Hit Russia's Ballistic Missile Launchers",
+     "type": "specialist",
+     "url": "https://www.thecipherbrief.com/washington-should-allow-ukraine-to-hit-russia-s-ballistic-missile-launchers"
     },
     {
      "added": "2026-11-20",
@@ -26997,19 +27021,6 @@
      "title": "'We will not negotiate' — Putin addresses Ukraine's strikes on Crimean Bridge",
      "type": "local",
      "url": "https://kyivindependent.com/we-will-not-negotiate-putin-addresses-ukraines-strikes-on-crimean-bridge/"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "6613404b2b666494",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-19T16:45:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Trump says Putin upset with Zelenskyy over Kerch Bridge attack",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/19/8063675/"
     }
    ],
    "articles_today": 35,
@@ -27027,7 +27038,7 @@
     "russia-drone-attacks-and-crimean-bridge",
     "putin-says-he-has-invited-eu"
    ],
-   "outlets_today": 28,
+   "outlets_today": 29,
    "previous_titles": [
     "Ukraine war latest: Starshield speed restrictions return, Zelensky says",
     "Ukraine war briefing: Zelenskyy says Starshield restrictions continue on ‘entire front line’",
@@ -27041,6 +27052,18 @@
     "After Bridge Attack, Putin Says He Will ‘Not Be Negotiating’ Ukraine Cease-Fires"
    ],
    "reports": [
+    {
+     "articles": [
+      "8c9b0503c9e12b4e"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "The Cipher Brief"
+     ],
+     "published": "2026-11-20T10:00:05+00:00",
+     "text": "[The Cipher Brief](https://www.thecipherbrief.com/washington-should-allow-ukraine-to-hit-russia-s-ballistic-missile-launchers) reported that a traveler to Ukraine visited soldiers and leaders in Kyiv, Dnipro, Pavlohrad, and Kharkiv, arguing that Washington should allow Ukraine to hit Russia's ballistic missile launchers."
+    },
     {
      "articles": [
       "5563fdd61e33404f"
@@ -27584,18 +27607,6 @@
      ],
      "published": "2026-11-19T02:34:22+00:00",
      "text": "[Kyiv Post](https://www.kyivpost.com/post/90543) reported that Russian commentator Mark Feigin and Ukrainian journalist Vitaly Portnikov discussed the symbolic humiliation of the Crimean Bridge strikes."
-    },
-    {
-     "articles": [
-      "aaaf6b790abcbdec"
-     ],
-     "date": "2026-11-19",
-     "group": "europe",
-     "outlets": [
-      "Daily Times (Pakistan)"
-     ],
-     "published": "2026-11-19T06:59:48+00:00",
-     "text": "[Daily Times (Pakistan)](https://dailytimes.com.pk/1583768/critics-mock-putins-weakened-position-at-shenzhen-summit-following-crimean-bridge-strikes/) reported that Russian President Vladimir Putin arrived in Shenzhen for a trilateral summit following recent Crimean Bridge strikes."
     }
    ],
    "single_source_today": false,
@@ -40695,8 +40706,21 @@
    }
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "da8932ee23b7fff6",
+     "lang": "en",
+     "outlet": "UN News",
+     "published": "2026-11-20T12:00:00+00:00",
+     "publisher": "UN News",
+     "region": "global",
+     "section": null,
+     "title": "WFP plans to assist 91 million in 2027 as hunger crisis deepens",
+     "type": "government",
+     "url": "https://news.un.org/feed/view/en/story/2026/11/1168846"
+    },
     {
      "added": "2026-11-19",
      "id": "305b47821ed56172",
@@ -40763,15 +40787,27 @@
      "url": "https://news.un.org/feed/view/en/story/2026/11/1168793"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "sudan-hunger-crisis-and-wfp-funding",
    "label": "Sudan hunger crisis and WFP funding cuts",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "da8932ee23b7fff6"
+     ],
+     "date": "2026-11-20",
+     "group": "africa",
+     "outlets": [
+      "UN News"
+     ],
+     "published": "2026-11-20T12:00:00+00:00",
+     "text": "[UN News](https://news.un.org/feed/view/en/story/2026/11/1168846) reported that the World Food Programme will require $12.1 billion to assist 91 million people next year and warned that millions more will go hungry due to funding shortfalls."
+    },
     {
      "articles": [
       "305b47821ed56172"
@@ -40823,9 +40859,9 @@
      "text": "[Africanews](http://www.africanews.com/2026/11/13/un-food-agency-chief-calls-for-end-to-sudan-war-as-famine-crisis-deepens/) reported that around 34 million people, nearly two-thirds of Sudan's population, need humanitarian assistance."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "sudan",
    "title": "UN food agency chief calls for end to Sudan war as famine crisis deepens",
    "title_from": {
@@ -46933,8 +46969,34 @@
    }
   },
   {
-   "article_count": 62,
+   "article_count": 64,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "1b40a73e0fbad3c6",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-20T14:40:57+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "La contención de Sánchez en el cara a cara divide al PSOE por su “pasividad” ante Feijóo",
+     "type": "local",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/la-contencion-de-sanchez-en-el-cara-a-cara-divide-al-psoe-por-su-pasividad-ante-feijoo.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "813bee43046248b8",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-20T13:49:03+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Feijóo ganó el cara a cara contra Sánchez por 10 puntos, según el sondeo de 40dB. para EL PAÍS y la SER",
+     "type": "local",
+     "url": "https://elpais.com/espana/elecciones-generales/2026-11-20/feijoo-gano-el-cara-a-cara-contra-sanchez-por-10-puntos-segun-el-sondeo-de-40db-para-el-pais-y-la-ser.html"
+    },
     {
      "added": "2026-11-20",
      "id": "8e1f3049e9a61264",
@@ -47428,35 +47490,9 @@
      "title": "La crisis de la vivienda en España marca el debate electoral entre Pedro Sánchez y Alberto Feijóo",
      "type": "local",
      "url": "https://oem.com.mx/elsoldemexico/mundo/la-crisis-de-la-vivienda-en-espana-marca-el-debate-electoral-entre-pedro-sanchez-y-alberto-feijoo-33217772"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "bc92add77debe2a4",
-     "lang": "es",
-     "outlet": "La Razón",
-     "published": "2026-11-19T07:50:15+00:00",
-     "publisher": "La Razón",
-     "region": "europe",
-     "section": null,
-     "title": "Elecciones generales 29N, en directo: Sánchez y Feijóo se enfrentan hoy en el primer cara a cara de la campaña",
-     "type": "local",
-     "url": "https://www.larazon.es/espana/elecciones-generales-29n-directo-sanchez-feijoo-enfrentan-hoy-primer-cara-cara-campana_202611196afe838ba6f8072789ee772d.html"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "ba94a60bf6aaa7ac",
-     "lang": "es",
-     "outlet": "El País (Spanish)",
-     "published": "2026-11-19T04:30:01+00:00",
-     "publisher": "El País",
-     "region": "europe",
-     "section": null,
-     "title": "90 minutos cara a cara: Sánchez busca remontar los dos puntos que le separan del PP y Feijóo repetir el éxito de 2023",
-     "type": "local",
-     "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/90-minutos-cara-a-cara-sanchez-busca-remontar-los-dos-puntos-que-le-separan-del-pp-y-feijoo-repetir-el-exito-de-2023.html"
     }
    ],
-   "articles_today": 29,
+   "articles_today": 31,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "lula-visit-to-spain",
@@ -47475,6 +47511,18 @@
     "Lula and Milei's rivalry spills into Spain as Pedro Sánchez faces crucial election battle against right"
    ],
    "reports": [
+    {
+     "articles": [
+      "813bee43046248b8"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-20T13:49:03+00:00",
+     "text": "[El País](https://elpais.com/espana/elecciones-generales/2026-11-20/feijoo-gano-el-cara-a-cara-contra-sanchez-por-10-puntos-segun-el-sondeo-de-40db-para-el-pais-y-la-ser.html) reported that according to a 40dB poll for EL PAÍS and SER, 43% of respondents favored Feijóo as the winner of the head-to-head debate against Sánchez compared to 33.3% for the socialist candidate."
+    },
     {
      "articles": [
       "0c4f37a29f4ea696"
@@ -69319,8 +69367,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "c1199b7d1de12779",
+     "lang": "en",
+     "outlet": "Middle East Monitor",
+     "published": "2026-11-20T15:20:28+00:00",
+     "publisher": "Middle East Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "Israeli airstrikes hit southern Lebanon as drones fly over Beirut, Sidon",
+     "type": "regional",
+     "url": "https://www.middleeastmonitor.com/20261120-israeli-airstrikes-hit-southern-lebanon-as-drones-fly-over-beirut-sidon/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "6f3600e391b75031",
+     "lang": "en",
+     "outlet": "Middle East Monitor",
+     "published": "2026-11-19T20:20:03+00:00",
+     "publisher": "Middle East Monitor",
+     "region": "mena",
+     "section": null,
+     "title": "Israeli airstrikes hit eastern Lebanon, target homes, buildings in south",
+     "type": "regional",
+     "url": "https://www.middleeastmonitor.com/20261119-israeli-airstrikes-hit-eastern-lebanon-target-homes-buildings-in-south/"
+    },
     {
      "added": "2026-11-15",
      "id": "72e0ab0a183ce99d",
@@ -69361,15 +69435,39 @@
      "url": "http://en.yenisafak.com/world/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut-3725535"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "israel-and-lebanon-border-shelling",
    "label": "Israel and Lebanon border shelling",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "6f3600e391b75031"
+     ],
+     "date": "2026-11-20",
+     "group": "mena",
+     "outlets": [
+      "Middle East Monitor"
+     ],
+     "published": "2026-11-19T20:20:03+00:00",
+     "text": "[Middle East Monitor](https://www.middleeastmonitor.com/20261119-israeli-airstrikes-hit-eastern-lebanon-target-homes-buildings-in-south/) reported that Israeli warplanes carried out five airstrikes on a mountainous area in eastern Lebanon while additional airstrikes, drone attacks, and artillery shelling hit the south."
+    },
+    {
+     "articles": [
+      "c1199b7d1de12779"
+     ],
+     "date": "2026-11-20",
+     "group": "mena",
+     "outlets": [
+      "Middle East Monitor"
+     ],
+     "published": "2026-11-20T15:20:28+00:00",
+     "text": "[Middle East Monitor](https://www.middleeastmonitor.com/20261120-israeli-airstrikes-hit-southern-lebanon-as-drones-fly-over-beirut-sidon/) reported that Israeli warplanes carried out two airstrikes on a town in southern Lebanon and an Israeli military drone flew at medium altitude over Beirut and Sidon."
+    },
     {
      "articles": [
       "72e0ab0a183ce99d"
@@ -69397,9 +69495,9 @@
      "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut-3725535), [Naharnet](https://www.naharnet.com/stories/en/323762-low-flying-drones-buzz-beirut-as-israeli-shelling-targets-southern-towns) reported that Israeli forces shelled five southern Lebanon towns and low-flying drones buzzed Beirut."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "lebanon",
    "title": "Israel and Lebanon border shelling",
    "topic": "conflict"
@@ -108667,7 +108765,8 @@
     "Brexit diminished us, Burnham says as he tees up closer EU ties",
     "Burnham says Brexit has dramatically diminished Britain’s global standing",
     "UK leader Andy Burnham says Brexit hasn't worked ahead of reset summit with EU",
-    "How Burnham tapped the brakes on his big Brexit reset"
+    "How Burnham tapped the brakes on his big Brexit reset",
+    "EU and UK agree 'landmark' deal at Burnham's Brussels summit"
    ],
    "reports": [
     {
@@ -109037,13 +109136,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "uk",
-   "title": "EU and UK agree 'landmark' deal at Burnham's Brussels summit",
+   "title": "What the Brussels summit could mean for the UK-EU Brexit deal",
    "title_from": {
-    "backing": 6,
+    "backing": 7,
     "date": "2026-11-20",
     "of": 15,
-    "outlet": "RFI",
-    "url": "https://www.rfi.fr/en/international/20261120-eu-and-uk-agree-landmark-deal-at-burnham-s-brussels-summit"
+    "outlet": "BBC",
+    "url": "https://www.bbc.co.uk/news/videos/c6lymr5x4ye5o?at_medium=RSS&at_campaign=rss"
    },
    "topic": "politics"
   },
@@ -109731,8 +109830,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 10,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "3b5edfa604a4f4e6",
+     "lang": "en",
+     "outlet": "Vanguard",
+     "published": "2026-11-20T14:05:48+00:00",
+     "publisher": "Vanguard",
+     "region": "africa",
+     "section": null,
+     "title": "Lagos APC faults Pearse over comments on Tinubu’s academic records",
+     "type": "local",
+     "url": "https://www.vanguardngr.com/2026/11/lagos-apc-faults-pearse-over-comments-on-tinubus-academic-records/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "e08ddc2d3a47f19c",
+     "lang": "en",
+     "outlet": "Vanguard",
+     "published": "2026-11-20T11:24:26+00:00",
+     "publisher": "Vanguard",
+     "region": "africa",
+     "section": null,
+     "title": "Stop recycling falsehoods against Tinubu, Lagos APC tells Pearse",
+     "type": "local",
+     "url": "https://www.vanguardngr.com/2026/11/stop-recycling-falsehoods-against-tinubu-lagos-apc-tells-pearse/"
+    },
     {
      "added": "2026-11-17",
      "id": "a37dbae086893fdd",
@@ -109864,15 +109989,39 @@
      "url": "https://punchng.com/old-national-anthem-keyamo-gives-dickson-48-hours-to-clarify-ndcs-position/?utm_source=rss.punchng.com&utm_medium=web"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-14",
    "group": "africa",
    "id": "festus-keyamo-challenges-seriake-dickson-over",
    "label": "Festus Keyamo challenges Seriake Dickson over anthem",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "e08ddc2d3a47f19c"
+     ],
+     "date": "2026-11-20",
+     "group": "africa",
+     "outlets": [
+      "Vanguard"
+     ],
+     "published": "2026-11-20T11:24:26+00:00",
+     "text": "[Vanguard](https://www.vanguardngr.com/2026/11/stop-recycling-falsehoods-against-tinubu-lagos-apc-tells-pearse/) reported that the Lagos State chapter of the All Progressives Congress slammed Dr. Adetokunbo Pearse over media interviews."
+    },
+    {
+     "articles": [
+      "3b5edfa604a4f4e6"
+     ],
+     "date": "2026-11-20",
+     "group": "africa",
+     "outlets": [
+      "Vanguard"
+     ],
+     "published": "2026-11-20T14:05:48+00:00",
+     "text": "[Vanguard](https://www.vanguardngr.com/2026/11/lagos-apc-faults-pearse-over-comments-on-tinubus-academic-records/) reported that the Lagos State chapter of the All Progressives Congress faulted Dr. Adetokunbo Pearse over his comments on Bola Tinubu's academic records."
+    },
     {
      "articles": [
       "a37dbae086893fdd"
@@ -109962,9 +110111,9 @@
      "text": "[Punch](https://punchng.com/old-national-anthem-keyamo-gives-dickson-48-hours-to-clarify-ndcs-position/?utm_source=rss.punchng.com&utm_medium=web), [Vanguard](https://www.vanguardngr.com/2026/11/keyamo-gives-dickson-48-hours-to-clarify-ndcs-anthem-position/) reported that Aviation Minister Festus Keyamo gave Seriake Dickson 48 hours to clarify the NDC's position on the old national anthem."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "NDC, Keyamo in War of Words over Singing of Old National Anthem at Lagos Meeting",
    "title_from": {
@@ -127202,7 +127351,7 @@
    "topic": "crime"
   },
   {
-   "article_count": 15,
+   "article_count": 17,
    "articles": [
     {
      "added": "2026-11-20",
@@ -127232,6 +127381,19 @@
     },
     {
      "added": "2026-11-20",
+     "id": "9865ff3939d6404d",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-20T08:24:10+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Tarar says public opinion should determine creation of new provinces",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2641386/tarar-says-public-opinion-should-determine-creation-of-new-provinces"
+    },
+    {
+     "added": "2026-11-20",
      "id": "347b2b67abcc8928",
      "lang": "en",
      "outlet": "The Express Tribune",
@@ -127255,6 +127417,19 @@
      "title": "Bilawal reiterates focus on economy amid political row with ministers over new provinces",
      "type": "local",
      "url": "https://tribune.com.pk/story/2641375/bilawal-urges-parties-to-set-aside-differences-focus-on-economic-crisis"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "0286600aa3aaac5e",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-20T05:23:07+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "PTI backs referendum to determine public opinion on creation of new provinces",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2641368/pti-backs-referendum-to-determine-public-opinion-on-creation-of-new-provinces"
     },
     {
      "added": "2026-11-19",
@@ -127400,7 +127575,7 @@
      "url": "https://www.dawn.com/news/2044577/creating-new-smaller-provinces-a-national-necessity-kamal"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 6,
    "first_seen": "2026-11-15",
    "group": "asia",
    "id": "mqm-p-call-for-smaller-provinces",
@@ -127412,6 +127587,18 @@
    ],
    "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "0286600aa3aaac5e"
+     ],
+     "date": "2026-11-20",
+     "group": "asia",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-20T05:23:07+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2641368/pti-backs-referendum-to-determine-public-opinion-on-creation-of-new-provinces) reported that PTI Chief Whip Aamir Dogar stated that decisions on new provinces must reflect the public will and follow constitutional procedures."
+    },
     {
      "articles": [
       "347b2b67abcc8928"
@@ -130654,7 +130841,6 @@
    ],
    "outlets_today": 30,
    "previous_titles": [
-    "Top UN court ruling on Myanmar genocide to be watched for clues on Gaza",
     "Fears grow over US sanctions on ICJ judges ahead of Myanmar genocide ruling",
     "ICJ to rule on Rohingya genocide case: What to expect",
     "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
@@ -130663,7 +130849,8 @@
     "Myanmar committed genocide against Rohingya minority, world’s top court rules",
     "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
     "Rohingya crisis remains unresolved as ICJ rules on Myanmar",
-    "Myanmar calls international court ruling on Rohingya genocide 'unfair'"
+    "Myanmar calls international court ruling on Rohingya genocide 'unfair'",
+    "Myanmar rejects ICJ Rohingya genocide ruling as 'unfair'"
    ],
    "reports": [
     {
@@ -131149,13 +131336,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "myanmar",
-   "title": "Myanmar rejects ICJ Rohingya genocide ruling as 'unfair'",
+   "title": "Myanmar calls international court ruling on Rohingya genocide 'unfair'",
    "title_from": {
     "backing": 22,
     "date": "2026-11-20",
     "of": 26,
-    "outlet": "Africanews",
-    "url": "http://www.africanews.com/2026/11/20/myanmar-rejects-icj-rohingya-genocide-ruling-as-unfair/"
+    "outlet": "ABC Australia",
+    "url": "https://www.abc.net.au/news/2026-11-20/myanmar-calls-icj-ruling-on-genocide-unfair/107411450"
    },
    "topic": "justice"
   },
@@ -136433,8 +136620,21 @@
    "topic": "health-emergency"
   },
   {
-   "article_count": 40,
+   "article_count": 41,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "c6213ecc02ec7817",
+     "lang": "en",
+     "outlet": "The New Arab",
+     "published": "2026-11-20T13:45:20+00:00",
+     "publisher": "The New Arab",
+     "region": "mena",
+     "section": null,
+     "title": "Iraq enters Kataib Hezbollah's Jurf al-Sakhar stronghold",
+     "type": "regional",
+     "url": "https://www.newarab.com/news/iraq-enters-kataib-hezbollahs-jurf-al-sakhar-stronghold"
+    },
     {
      "added": "2026-11-20",
      "id": "6f3198cd9711df16",
@@ -136947,22 +137147,9 @@
      "title": "Iraqi armed group denies accusation of oil smuggling",
      "type": "regional",
      "url": "https://www.newarab.com/news/iraqi-armed-group-denies-accusation-oil-smuggling-1"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "eee4582e985ed8bc",
-     "lang": "en",
-     "outlet": "The National",
-     "published": "2026-11-15T05:36:22+00:00",
-     "publisher": "The National",
-     "region": "mena",
-     "section": null,
-     "title": "Iraqi PM sacks provincial security chiefs and refers suspects to court in oil smuggling crackdown",
-     "type": "local",
-     "url": "https://www.thenationalnews.com/news/mena/2026/11/15/iraqi-pm-escalates-jurf-al-sakhar-smuggling-crackdown-sacks-security-chiefs-and-refers-suspects-to-court/"
     }
    ],
-   "articles_today": 9,
+   "articles_today": 10,
    "first_seen": "2026-11-15",
    "group": "mena",
    "id": "iraqi-pm-oil-smuggling-crackdown",
@@ -136972,7 +137159,7 @@
    "merged": [
     "iraq-troop-deployment-in-kataib-hezbollah"
    ],
-   "outlets_today": 4,
+   "outlets_today": 5,
    "previous_titles": [
     "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
     "Top IRGC commander in Iraq for talks amid Kataib Hezbollah tensions"
@@ -170771,8 +170958,56 @@
    "topic": "politics"
   },
   {
-   "article_count": 14,
+   "article_count": 20,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-20"
+     ],
+     "id": "950698f544863495",
+     "lang": "es",
+     "outlet": "El Estímulo",
+     "published": "2026-11-20T14:41:03+00:00",
+     "publisher": "El Estímulo",
+     "region": "latam",
+     "section": null,
+     "title": "Precio del pasaporte en Venezuela (dólares y bolívares): esto cuesta el 20 de noviembre",
+     "type": "local",
+     "url": "https://elestimulo.com/elinteres/tu-bolsillo/2026-11-20/precio-pasaporte/"
+    },
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-20"
+     ],
+     "id": "9949856172b644e9",
+     "lang": "es",
+     "outlet": "El Estímulo",
+     "published": "2026-11-20T14:40:05+00:00",
+     "publisher": "El Estímulo",
+     "region": "latam",
+     "section": null,
+     "title": "Precio del dólar BCV hoy 20 de noviembre: la cotización supera los 918 bolívares",
+     "type": "local",
+     "url": "https://elestimulo.com/elinteres/tu-bolsillo/2026-11-20/precio-dolar-bcv/"
+    },
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-20"
+     ],
+     "id": "9ff76e1bb77cf760",
+     "lang": "es",
+     "outlet": "Clarín",
+     "published": "2026-11-20T10:30:02+00:00",
+     "publisher": "Clarín",
+     "region": "latam",
+     "section": null,
+     "title": "Ethereum hoy: cotización y precio del ETH este viernes 20 de noviembre de 2026",
+     "type": "local",
+     "url": "https://www.clarin.com/economia/ethereum-hoy-cotizacion-y-precio-del-eth-este-viernes-20-de-noviembre-de-2026_0_zCevyY36w8.html"
+    },
     {
      "added": "2026-11-20",
      "dates": [
@@ -170810,6 +171045,22 @@
      "dates": [
       "2026-11-20"
      ],
+     "id": "f1a09c4743857453",
+     "lang": "es",
+     "outlet": "Clarín",
+     "published": "2026-11-20T10:22:02+00:00",
+     "publisher": "Clarín",
+     "region": "latam",
+     "section": null,
+     "title": "Bitcoin hoy: cotización y precio del BTC este viernes 20 de noviembre de 2026",
+     "type": "local",
+     "url": "https://www.clarin.com/economia/bitcoin-hoy-cotizacion-y-precio-del-btc-este-viernes-20-de-noviembre-de-2026_0_mGzPaiHMak.html"
+    },
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-20"
+     ],
      "id": "9d1d796a7380e03c",
      "lang": "es",
      "outlet": "Clarín",
@@ -170820,6 +171071,38 @@
      "title": "Dólar blue hoy: a cuánto cotiza este viernes 20 de noviembre",
      "type": "local",
      "url": "https://www.clarin.com/economia/dolar-blue-hoy-cotiza-viernes-20-noviembre_0_Ye4y3A2xiL.html"
+    },
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "bc53c921e807a244",
+     "lang": "es",
+     "outlet": "El Estímulo",
+     "published": "2026-11-19T14:12:01+00:00",
+     "publisher": "El Estímulo",
+     "region": "latam",
+     "section": null,
+     "title": "Precio del pasaporte en Venezuela (dólares y bolívares): esto cuesta el 19 de noviembre",
+     "type": "local",
+     "url": "https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-pasaporte/"
+    },
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "d053068eed0625bf",
+     "lang": "es",
+     "outlet": "El Estímulo",
+     "published": "2026-11-19T14:10:49+00:00",
+     "publisher": "El Estímulo",
+     "region": "latam",
+     "section": null,
+     "title": "Precio del dólar BCV hoy 19 de noviembre: la cotización supera los 917 bolívares",
+     "type": "local",
+     "url": "https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-dolar-bcv/"
     },
     {
      "added": "2026-11-19",
@@ -170998,15 +171281,67 @@
      "url": "https://www.clarin.com/economia/euro-hoy-en-guatemala-precio-y-cotizacion-de-la-divisa-este-lunes-16-de-noviembre-de-2026_0_xqO7NZoqZs.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 9,
    "first_seen": "2026-11-16",
    "group": "latam",
    "id": "daily-currency-exchange-rates",
    "label": "Daily currency exchange rates",
-   "last_reported": "2026-11-18",
+   "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "merged": [
+    "venezuela-exchange-rates-and-cryptocurrency"
+   ],
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "d053068eed0625bf"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "El Estímulo"
+     ],
+     "published": "2026-11-19T14:10:49+00:00",
+     "text": "[El Estímulo](https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-dolar-bcv/) reported that the Central Bank of Venezuela dollar price was 917.77 bolivars and the euro was 1,007.39 bolivars."
+    },
+    {
+     "articles": [
+      "9ff76e1bb77cf760",
+      "f1a09c4743857453"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "Clarín"
+     ],
+     "published": "2026-11-20T10:22:02+00:00",
+     "text": "[Clarín](https://www.clarin.com/economia/bitcoin-hoy-cotizacion-y-precio-del-btc-este-viernes-20-de-noviembre-de-2026_0_mGzPaiHMak.html) reported the updated market prices for Bitcoin and Ethereum on November 20, 2026."
+    },
+    {
+     "articles": [
+      "bc53c921e807a244"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "El Estímulo"
+     ],
+     "published": "2026-11-19T14:12:01+00:00",
+     "text": "[El Estímulo](https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-pasaporte/) reported the prices for habilited and ordinary passports in Venezuela."
+    },
+    {
+     "articles": [
+      "950698f544863495"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "El Estímulo"
+     ],
+     "published": "2026-11-20T14:41:03+00:00",
+     "text": "[El Estímulo](https://elestimulo.com/elinteres/tu-bolsillo/2026-11-20/precio-pasaporte/) reported on the pricing of two types of passports in Venezuela which are valid for 10 years."
+    },
     {
      "articles": [
       "42d868b3d9cd44ad",
@@ -171046,9 +171381,10 @@
      "text": "[El Estímulo](https://elestimulo.com/elinteres/tu-bolsillo/2026-11-16/precio-dolar-bcv/) reported that the Central Bank of Venezuela stated the dollar price was set at over 914 bolívares and the euro at 1,010.56 bolívares."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "updated",
+   "subject": "venezuela",
    "title": "Daily currency exchange rates",
    "topic": "economy"
   },
@@ -174792,8 +175128,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "b66a7c58b67c7d81",
+     "lang": "en",
+     "outlet": "Times of India",
+     "published": "2026-11-20T12:41:02+00:00",
+     "publisher": "Times of India",
+     "region": "asia",
+     "section": null,
+     "title": "Indiana man faces $26,813 condo debt after paying $9,489, appeals court upholds ruling",
+     "type": "local",
+     "url": "https://timesofindia.indiatimes.com/world/us/an-indiana-man-bought-a-condominium-in-2020-then-faced-foreclosure-over-5229-in-unpaid-fees-after-paying-9489-he-was-billed-26813-and-a-november-19-appeals-court-upheld-judgment-against-him/articleshow/136025324.cms"
+    },
     {
      "added": "2026-11-17",
      "id": "7bab71887451ead9",
@@ -174821,15 +175170,27 @@
      "url": "https://authorityngr.com/2026/11/16/dss-asks-appeal-court-to-uphold-n100m-fine-against-serap-for-defaming-operatives/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "africa",
    "id": "dss-and-serap-defamation-fine-appeal",
    "label": "DSS and SERAP defamation fine appeal",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "b66a7c58b67c7d81"
+     ],
+     "date": "2026-11-20",
+     "group": "africa",
+     "outlets": [
+      "Times of India"
+     ],
+     "published": "2026-11-20T12:41:02+00:00",
+     "text": "[Times of India](https://timesofindia.indiatimes.com/world/us/an-indiana-man-bought-a-condominium-in-2020-then-faced-foreclosure-over-5229-in-unpaid-fees-after-paying-9489-he-was-billed-26813-and-a-november-19-appeals-court-upheld-judgment-against-him/articleshow/136025324.cms) reported that an Indiana appeals court upheld a ruling concerning a condo debt case involving Onnie James Florence Jr."
+    },
     {
      "articles": [
       "16a290a27bea4271"
@@ -174855,9 +175216,9 @@
      "text": "[Nigerian Tribune](https://tribuneonlineng.com/appeal-court-reserves-judgment-in-seraps-n100m-defamation-matter/) reported that the Appeal Court reserved judgment in SERAP's defamation matter after parties adopted briefs of argument."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "DSS and SERAP defamation fine appeal",
    "topic": "justice"
@@ -175644,7 +176005,7 @@
    "topic": "crime"
   },
   {
-   "article_count": 50,
+   "article_count": 51,
    "articles": [
     {
      "added": "2026-11-20",
@@ -175658,6 +176019,19 @@
      "title": "Iran rejects US weapons claims, cites debunked Iraq WMD allegations",
      "type": "local",
      "url": "http://en.yenisafak.com/world/iran-rejects-us-weapons-claims-cites-debunked-iraq-wmd-allegations-3725802"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "bc4f39464faa07b3",
+     "lang": "en",
+     "outlet": "El País (English)",
+     "published": "2026-11-20T11:00:52+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "MAGA turns on Homeland Security Secretary Markwayne Mullin after US systems outages",
+     "type": "local",
+     "url": "https://english.elpais.com/usa/2026-11-20/maga-turns-on-homeland-security-secretary-markwayne-mullin-after-us-systems-outages.html"
     },
     {
      "added": "2026-11-20",
@@ -176161,29 +176535,16 @@
      "title": "Rubio says no imminent threat to Washington after report of possible Iranian dirty bomb plot",
      "type": "wire",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQVVnUzJMMDJJUTh1NTl4Vy1VU2U0bjEzVkRGWFBtamliVkRZQkZud2VuZ25YSDc0VzM5aXhQWWN2YTBFSTRaV1BSNUE3aWp5bmpsV0ZSMDMyT2YxcW5LekhIVEt6Tm9Od1ItNUs1U0ZOd2tfeTJSdkJhVVEtbUFzV2d0Z1NGa0doNGljVlhVOUJNS1UwYXFjVVRxMEY2OTRGY1lHQzcxRTlXR2VnVkh3QjRENEd0VTFPMjRJdmk3bVpXUEVWS3RV?oc=5"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "01af880998ee8997",
-     "lang": "en",
-     "outlet": "Vanguard",
-     "published": "2026-11-17T11:38:41+00:00",
-     "publisher": "Vanguard",
-     "region": "africa",
-     "section": null,
-     "title": "Trump says takes ‘very seriously’ possible Iran threat to Washington",
-     "type": "local",
-     "url": "https://www.vanguardngr.com/2026/11/trump-says-takes-very-seriously-possible-iran-threat-to-washington/"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 7,
    "first_seen": "2026-11-17",
    "group": "namerica",
    "id": "us-intelligence-on-iran-dirty-bomb",
    "label": "US intelligence on Iran dirty bomb plans",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 6,
+   "outlets_today": 7,
    "previous_titles": [
     "Iran allegedly plotting to target Trump officials in Washington with dirty bomb",
     "Iran developing plans for possible dirty bomb attack in Washington, says US intelligence",
@@ -176195,6 +176556,18 @@
     "Iran accuses US of following 2003 Iraq war’s ‘fraudulent script’ with chemical weapons claims"
    ],
    "reports": [
+    {
+     "articles": [
+      "bc4f39464faa07b3"
+     ],
+     "date": "2026-11-20",
+     "group": "namerica",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-20T11:00:52+00:00",
+     "text": "[El País](https://english.elpais.com/usa/2026-11-20/maga-turns-on-homeland-security-secretary-markwayne-mullin-after-us-systems-outages.html) reported that right-wing influencers intensified attacks against Homeland Security Secretary Markwayne Mullin and called for his dismissal following U.S. systems outages."
+    },
     {
      "articles": [
       "55447a80eb66d1fa"
@@ -176518,13 +176891,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "us",
-   "title": "Iran rejects Trump's bioweapons claims, warns against repeat of disproved allegations that Iraq had WMD",
+   "title": "Iran rejects US weapons claims, cites debunked Iraq WMD allegations",
    "title_from": {
     "backing": 3,
     "date": "2026-11-20",
-    "of": 5,
-    "outlet": "The Express Tribune",
-    "url": "https://tribune.com.pk/story/2641331/iran-rejects-trumps-bioweapons-claims-warns-against-repeat-of-disproved-allegations"
+    "of": 6,
+    "outlet": "Yeni Şafak (English)",
+    "url": "http://en.yenisafak.com/world/iran-rejects-us-weapons-claims-cites-debunked-iraq-wmd-allegations-3725802"
    },
    "topic": "security"
   },
@@ -185033,8 +185406,34 @@
    "topic": "humanitarian"
   },
   {
-   "article_count": 11,
+   "article_count": 13,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "ac4fa4434230d0a8",
+     "lang": "en",
+     "outlet": "Politico Europe",
+     "published": "2026-11-20T16:03:22+00:00",
+     "publisher": "Politico",
+     "region": "europe",
+     "section": null,
+     "title": "EU warns against COP31 becoming a ‘fossil fuel summit’",
+     "type": "international",
+     "url": "https://www.politico.eu/article/eu-warns-against-cop31-becoming-a-fossil-fuel-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "310c903c15405049",
+     "lang": "so",
+     "outlet": "Jowhar",
+     "published": "2026-11-20T15:25:38+00:00",
+     "publisher": "Jowhar",
+     "region": "africa",
+     "section": null,
+     "title": "Robinson urges EU to reject COP31 draft allowing fossil fuel expansion",
+     "type": "local",
+     "url": "https://jowhar.com/robinson-urges-eu-to-reject-cop31-draft-allowing-fossil-fuel-expansion/"
+    },
     {
      "added": "2026-11-20",
      "id": "0efcd2bc1ac81ff8",
@@ -185185,15 +185584,39 @@
      "url": "https://www.elnuevosiglo.com.co/bienestar/cop31-borrador-pide-acelerar-salida-de-combustibles-fosiles"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "latam",
    "id": "cop31-fossil-fuel-phaseout-draft",
    "label": "COP31 fossil fuel phaseout draft",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "ac4fa4434230d0a8"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "Politico"
+     ],
+     "published": "2026-11-20T16:03:22+00:00",
+     "text": "[Politico](https://www.politico.eu/article/eu-warns-against-cop31-becoming-a-fossil-fuel-summit/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) reported that European Union leaders said the current draft decision text discussed in Antalya would represent a substantive step backwards on climate action and warned against COP31 becoming a fossil fuel summit."
+    },
+    {
+     "articles": [
+      "310c903c15405049"
+     ],
+     "date": "2026-11-20",
+     "group": "latam",
+     "outlets": [
+      "Jowhar"
+     ],
+     "published": "2026-11-20T15:25:38+00:00",
+     "text": "[Jowhar](https://jowhar.com/robinson-urges-eu-to-reject-cop31-draft-allowing-fossil-fuel-expansion/) reported that Ireland has thrown its weight behind a push to restore language committing countries to move away from fossil fuels."
+    },
     {
      "articles": [
       "0efcd2bc1ac81ff8"
@@ -185233,7 +185656,7 @@
      "text": "[El Nuevo Siglo](https://www.elnuevosiglo.com.co/bienestar/cop31-borrador-pide-acelerar-salida-de-combustibles-fosiles), [La Jornada](https://www.jornada.com.mx/2026/11/17/mundo/022n3mun?partner=rss) reported that the draft political decision published at the COP31 summit in Antalya calls for accelerated action to phase out coal, oil, and gas."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "turkey",
@@ -223839,8 +224262,34 @@
    "topic": "health-emergency"
   },
   {
-   "article_count": 14,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "ca35413324a57494",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-20T15:51:00+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "Israel, US weigh renewed Iran strikes as Democrats seek to block war funding - report",
+     "type": "local",
+     "url": "https://www.jpost.com/middle-east/iran-news/article-915595"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "2bf0a9b3068afab1",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-20T15:04:19+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "US, Israel still weighing strikes on Iran — media",
+     "type": "state-media",
+     "url": "https://tass.com/world/2222599"
+    },
     {
      "added": "2026-11-20",
      "id": "fb854c0f3ca55fc1",
@@ -224027,7 +224476,7 @@
      "url": "https://www.haaretz.com/israel-news/israel-security/2026-11-18/ty-article/.premium/u-s-israeli-military-chiefs-meet-as-israel-pushes-for-new-iran-strikes/000001a1-ee98-ddcb-a9b3-febfbe610000"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-18",
    "group": "mena",
    "id": "us-and-israel-military-coordination",
@@ -224037,11 +224486,35 @@
    "merged": [
     "israeli-reports-on-potential-strike-against"
    ],
-   "outlets_today": 3,
+   "outlets_today": 5,
    "previous_titles": [
     "CENTCOM chief meets IDF leaders as Israel seeks U.S. backing for renewed Iran strikes"
    ],
    "reports": [
+    {
+     "articles": [
+      "2bf0a9b3068afab1"
+     ],
+     "date": "2026-11-20",
+     "group": "mena",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-20T15:04:19+00:00",
+     "text": "[TASS](https://tass.com/world/2222599) reported that Israeli officials are concerned about how quickly Iran is rebuilding production capacity for its ballistic missile program."
+    },
+    {
+     "articles": [
+      "ca35413324a57494"
+     ],
+     "date": "2026-11-20",
+     "group": "mena",
+     "outlets": [
+      "The Jerusalem Post"
+     ],
+     "published": "2026-11-20T15:51:00+00:00",
+     "text": "[The Jerusalem Post](https://www.jpost.com/middle-east/iran-news/article-915595) reported that Democrats are seeking to restrict war funding ahead of taking control of Congress."
+    },
     {
      "articles": [
       "c0cb28fe47034b18"
@@ -237882,8 +238355,24 @@
    "topic": "security"
   },
   {
-   "article_count": 29,
+   "article_count": 31,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "112424f4b2db58e8",
+     "lang": "en",
+     "outlet": "IPS Latin America",
+     "published": "2026-11-20T11:11:33+00:00",
+     "publisher": "IPS Latin America",
+     "region": "latam",
+     "section": null,
+     "title": "Shenzhen Is Not Yalta: What a Historic China–US–Russia Summit Can—and Cannot—Achieve",
+     "type": "international",
+     "url": "https://www.ipsnews.net/2026/11/shenzhen-is-not-yalta-what-a-historic-china-us-russia-summit-can-and-cannot-achieve/"
+    },
     {
      "added": "2026-11-20",
      "id": "0ed939646f990622",
@@ -238093,6 +238582,19 @@
      "url": "https://www.thenationalnews.com/news/mena/2026/11/19/nuclear-war-cannot-be-won-full-text-of-china-russia-and-us-peace-declaration/"
     },
     {
+     "added": "2026-11-20",
+     "id": "e6bcd1b66c6dacf8",
+     "lang": "en",
+     "outlet": "CGTN China",
+     "published": "2026-11-19T11:18:16+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "Full text: China-Russia-US Heads of State Declaration toward Peace",
+     "type": "state-media",
+     "url": "https://news.cgtn.com/news/2026-11-19/Full-text-China-Russia-US-Heads-of-State-Declaration-toward-Peace-1SczM9jzJII/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China"
+    },
+    {
      "added": "2026-11-19",
      "dates": [
       "2026-11-19"
@@ -238271,15 +238773,39 @@
      "url": "https://www.rfi.fr/fr/europe/20261118-%C3%A0-shenzhen-le-pr%C3%A9sident-russe-vladimir-poutine-s-affiche-au-centre-du-jeu-mondial"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-19",
    "group": "asia",
    "id": "us-china-and-russia-apec-summit",
    "label": "US, China, and Russia APEC summit meetings",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "e6bcd1b66c6dacf8"
+     ],
+     "date": "2026-11-20",
+     "group": "asia",
+     "outlets": [
+      "CGTN"
+     ],
+     "published": "2026-11-19T11:18:16+00:00",
+     "text": "[CGTN](https://news.cgtn.com/news/2026-11-19/Full-text-China-Russia-US-Heads-of-State-Declaration-toward-Peace-1SczM9jzJII/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China) reported the full text of the joint declaration toward peace issued by Chinese President Xi Jinping, Russian President Vladimir Putin, and US President Donald Trump following their summit."
+    },
+    {
+     "articles": [
+      "112424f4b2db58e8"
+     ],
+     "date": "2026-11-20",
+     "group": "asia",
+     "outlets": [
+      "IPS Latin America"
+     ],
+     "published": "2026-11-20T11:11:33+00:00",
+     "text": "[IPS Latin America](https://www.ipsnews.net/2026/11/shenzhen-is-not-yalta-what-a-historic-china-us-russia-summit-can-and-cannot-achieve/) reported that the leaders of China, the United States, and Russia gathered in Shenzhen for their first-ever face-to-face trilateral summit."
+    },
     {
      "articles": [
       "0ed939646f990622"
@@ -238355,7 +238881,7 @@
      "text": "[Le Figaro](https://www.lefigaro.fr/international/a-shenzhen-xi-jinping-s-affiche-en-pilier-d-un-nouvel-ordre-mondial-en-tutoyant-trump-et-en-menageant-poutine-20261119) reported that at the end of their meeting, the Chinese, American, and Russian presidents expressed commitment to peace and stability."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "china",
@@ -244989,76 +245515,6 @@
    "topic": "justice"
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "09c99cabc7f3ccd7",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-19T16:54:00+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "FACT-CHECKED: Elon Musk’s Latest Claims on Starlink, Ukraine and Russia",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/90628"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "0dfcbcec3a5b0195",
-     "lang": "en",
-     "outlet": "Times of India",
-     "published": "2026-11-19T16:06:53+00:00",
-     "publisher": "Times of India",
-     "region": "asia",
-     "section": null,
-     "title": "'There is no private individual who has helped Ukraine more than I have': Elon Musk says Russia would have won the war if Ukraine did not have Starlink",
-     "type": "local",
-     "url": "https://timesofindia.indiatimes.com/world/us/there-is-no-private-individual-who-has-helped-ukraine-more-than-i-have-elon-musk-says-russia-would-have-won-the-war-if-ukraine-did-not-have-starlink/articleshow/135998158.cms"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "namerica",
-   "id": "elon-musk-remarks-on-ukraine-and",
-   "label": "Elon Musk remarks on Ukraine and Starlink",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "0dfcbcec3a5b0195"
-     ],
-     "date": "2026-11-19",
-     "group": "namerica",
-     "outlets": [
-      "Times of India"
-     ],
-     "published": "2026-11-19T16:06:53+00:00",
-     "text": "[Times of India](https://timesofindia.indiatimes.com/world/us/there-is-no-private-individual-who-has-helped-ukraine-more-than-i-have-elon-musk-says-russia-would-have-won-the-war-if-ukraine-did-not-have-starlink/articleshow/135998158.cms) reported that Elon Musk stated at the DealBook Summit that Russia would have won the war if Ukraine did not have Starlink."
-    },
-    {
-     "articles": [
-      "09c99cabc7f3ccd7"
-     ],
-     "date": "2026-11-19",
-     "group": "namerica",
-     "outlets": [
-      "Kyiv Post"
-     ],
-     "published": "2026-11-19T16:54:00+00:00",
-     "text": "[Kyiv Post](https://www.kyivpost.com/post/90628) reported that a Kyiv Post fact-check of Elon Musk's interview found echoed claims on Ukraine's 2014 revolution and Starlink."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Elon Musk remarks on Ukraine and Starlink",
-   "topic": "security"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -249442,7 +249898,7 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-19",
@@ -249472,17 +249928,42 @@
      "title": "Xi Jinping: Trilateral Meeting Between China, Russia and US Will Yield Significant Results in the Future",
      "type": "local",
      "url": "https://8am.media/eng/xi-jinping-trilateral-meeting-between-china-russia-and-us-will-yield-significant-results-in-the-future/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "6ff9d413767021c2",
+     "lang": "en",
+     "outlet": "Hasht-e Subh",
+     "published": "2026-11-19T18:24:19+00:00",
+     "publisher": "Hasht-e Subh",
+     "region": "asia",
+     "section": null,
+     "title": "Putin: Trilateral Meeting Between Russia, China and US Was Successful",
+     "type": "local",
+     "url": "https://8am.media/eng/putin-trilateral-meeting-between-russia-china-and-us-was-successful/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-19",
    "group": "global",
    "id": "trilateral-meeting-between-china-russia-and",
    "label": "Trilateral meeting between China, Russia, and US",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "6ff9d413767021c2"
+     ],
+     "date": "2026-11-20",
+     "group": "global",
+     "outlets": [
+      "Hasht-e Subh"
+     ],
+     "published": "2026-11-19T18:24:19+00:00",
+     "text": "[Hasht-e Subh](https://8am.media/eng/putin-trilateral-meeting-between-russia-china-and-us-was-successful/) reported that Russian President Vladimir Putin described the trilateral meeting between Russia, China, and the United States as successful."
+    },
     {
      "articles": [
       "ee2d68496f964ce9"
@@ -249508,9 +249989,9 @@
      "text": "[Hasht-e Subh](https://8am.media/eng/xi-jinping-trilateral-meeting-between-china-russia-and-us-will-yield-significant-results-in-the-future/) reported that Chinese President Xi Jinping said the trilateral meeting between the leaders of China, Russia, and the United States in Shenzhen will yield significant results."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Trilateral meeting between China, Russia, and US",
    "topic": "diplomacy"
   },
@@ -250500,90 +250981,6 @@
    "topic": "technology-policy"
   },
   {
-   "article_count": 5,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "b7e5d7fd6b037f0b",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-20T01:29:52+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "‘We’ve got time’: Trump puts fresh Iran strikes on hold until after New Year",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/donald-trump-puts-fresh-iran-strikes-on-hold-until-after-new-year-says-we-ve-got-time-101795133696056.html"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "7f7c39d7531210e5",
-     "lang": "en",
-     "outlet": "South China Morning Post",
-     "published": "2026-11-19T23:49:34+00:00",
-     "publisher": "South China Morning Post",
-     "region": "asia",
-     "section": null,
-     "title": "Trump says no rush to decide on new Iran strikes, looks to next year",
-     "type": "regional",
-     "url": "https://www.scmp.com/news/world/middle-east/article/3375136/trump-says-no-rush-decide-new-iran-strikes-looks-next-year"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "461445c626fb5d58",
-     "lang": "en",
-     "outlet": "The Jerusalem Post",
-     "published": "2026-11-19T22:26:34+00:00",
-     "publisher": "The Jerusalem Post",
-     "region": "mena",
-     "section": null,
-     "title": "Trump pushes decision on new Iran strikes into next year: ‘We’ve got time’",
-     "type": "local",
-     "url": "https://www.jpost.com/american-politics/article-915546"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "8d2a100e351bc5ef",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-19T21:36:16+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "Trump says no rush on Iran decision, looks to next year",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQkkzQVk3M3pnOXRWVlFCMmVzUEN0alhCS0gzQUhYNkhCMDhCOUM0N0tmMFpZNVNKcnVNbktaYXV5MV9ERm13WHoxTEVtUGRMUkZwT3dJZmlRZ2pyRE1WMGoyZW1VcXVWdTVRTmxZV1RISHNXWE9YY1BUUC1EWlJWRWRsYzlGTXo0WmhjaUxiUnAyMDl2OU9mWmliYndLd0htWGVLYWFUUldMOUIzLV9TSnBB?oc=5"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "ab128bebe0d713c7",
-     "lang": "en",
-     "outlet": "RTÉ",
-     "published": "2026-11-19T21:04:42+00:00",
-     "publisher": "RTÉ",
-     "region": "europe",
-     "section": null,
-     "title": "Trump to decide on renewed strikes on Iran in early 2027",
-     "type": "local",
-     "url": "https://www.rte.ie/news/middle-east/2026/1119/1599925-us-iran/"
-    }
-   ],
-   "articles_today": 3,
-   "first_seen": "2026-11-19",
-   "group": "namerica",
-   "id": "trump-says-no-rush-on-iran",
-   "label": "Trump says no rush on Iran decision, looks to next year",
-   "last_updated": "2026-11-20",
-   "outlets_today": 3,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "covered",
-   "subject": "us",
-   "title": "Trump says no rush on Iran decision, looks to next year",
-   "topic": "security"
-  },
-  {
    "article_count": 2,
    "articles": [
     {
@@ -250732,7 +251129,7 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-20",
@@ -250762,6 +251159,19 @@
     },
     {
      "added": "2026-11-20",
+     "id": "f25ce05fb1841bfb",
+     "lang": "en",
+     "outlet": "The Guardian US",
+     "published": "2026-11-19T15:00:51+00:00",
+     "publisher": "The Guardian",
+     "region": "namerica",
+     "section": null,
+     "title": "The ‘blue wave’ could foil the Trump administration’s Big Bend wall plans",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/19/big-bend-texas-trump"
+    },
+    {
+     "added": "2026-11-20",
      "id": "0d7863be37cd5444",
      "lang": "en",
      "outlet": "NYT US",
@@ -250774,15 +251184,27 @@
      "url": "https://www.nytimes.com/2026/11/19/us/politics/kirkland-ellis-law-firm-trump.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-20",
    "group": "namerica",
    "id": "kirkland-and-ellis-legal-work-agreement",
    "label": "Kirkland and Ellis legal work agreement",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "f25ce05fb1841bfb"
+     ],
+     "date": "2026-11-20",
+     "group": "namerica",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-19T15:00:51+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/us-news/2026/nov/19/big-bend-texas-trump) reported that the Supreme Court greenlit the federal government's plan regarding Big Bend wall plans, though potential hurdles remain after Texas flipped."
+    },
     {
      "articles": [
       "0d7863be37cd5444"
@@ -255914,128 +256336,6 @@
    "topic": "security"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "dates": [
-      "2026-11-20"
-     ],
-     "id": "9ff76e1bb77cf760",
-     "lang": "es",
-     "outlet": "Clarín",
-     "published": "2026-11-20T10:30:02+00:00",
-     "publisher": "Clarín",
-     "region": "latam",
-     "section": null,
-     "title": "Ethereum hoy: cotización y precio del ETH este viernes 20 de noviembre de 2026",
-     "type": "local",
-     "url": "https://www.clarin.com/economia/ethereum-hoy-cotizacion-y-precio-del-eth-este-viernes-20-de-noviembre-de-2026_0_zCevyY36w8.html"
-    },
-    {
-     "added": "2026-11-20",
-     "dates": [
-      "2026-11-20"
-     ],
-     "id": "f1a09c4743857453",
-     "lang": "es",
-     "outlet": "Clarín",
-     "published": "2026-11-20T10:22:02+00:00",
-     "publisher": "Clarín",
-     "region": "latam",
-     "section": null,
-     "title": "Bitcoin hoy: cotización y precio del BTC este viernes 20 de noviembre de 2026",
-     "type": "local",
-     "url": "https://www.clarin.com/economia/bitcoin-hoy-cotizacion-y-precio-del-btc-este-viernes-20-de-noviembre-de-2026_0_mGzPaiHMak.html"
-    },
-    {
-     "added": "2026-11-20",
-     "dates": [
-      "2026-11-19"
-     ],
-     "id": "bc53c921e807a244",
-     "lang": "es",
-     "outlet": "El Estímulo",
-     "published": "2026-11-19T14:12:01+00:00",
-     "publisher": "El Estímulo",
-     "region": "latam",
-     "section": null,
-     "title": "Precio del pasaporte en Venezuela (dólares y bolívares): esto cuesta el 19 de noviembre",
-     "type": "local",
-     "url": "https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-pasaporte/"
-    },
-    {
-     "added": "2026-11-20",
-     "dates": [
-      "2026-11-19"
-     ],
-     "id": "d053068eed0625bf",
-     "lang": "es",
-     "outlet": "El Estímulo",
-     "published": "2026-11-19T14:10:49+00:00",
-     "publisher": "El Estímulo",
-     "region": "latam",
-     "section": null,
-     "title": "Precio del dólar BCV hoy 19 de noviembre: la cotización supera los 917 bolívares",
-     "type": "local",
-     "url": "https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-dolar-bcv/"
-    }
-   ],
-   "articles_today": 4,
-   "first_seen": "2026-11-20",
-   "group": "latam",
-   "id": "venezuela-exchange-rates-and-cryptocurrency",
-   "label": "Venezuela exchange rates and cryptocurrency",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 2,
-   "reports": [
-    {
-     "articles": [
-      "d053068eed0625bf"
-     ],
-     "date": "2026-11-20",
-     "group": "latam",
-     "outlets": [
-      "El Estímulo"
-     ],
-     "published": "2026-11-19T14:10:49+00:00",
-     "text": "[El Estímulo](https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-dolar-bcv/) reported that the Central Bank of Venezuela dollar price was 917.77 bolivars and the euro was 1,007.39 bolivars."
-    },
-    {
-     "articles": [
-      "9ff76e1bb77cf760",
-      "f1a09c4743857453"
-     ],
-     "date": "2026-11-20",
-     "group": "latam",
-     "outlets": [
-      "Clarín"
-     ],
-     "published": "2026-11-20T10:22:02+00:00",
-     "text": "[Clarín](https://www.clarin.com/economia/bitcoin-hoy-cotizacion-y-precio-del-btc-este-viernes-20-de-noviembre-de-2026_0_mGzPaiHMak.html) reported the updated market prices for Bitcoin and Ethereum on November 20, 2026."
-    },
-    {
-     "articles": [
-      "bc53c921e807a244"
-     ],
-     "date": "2026-11-20",
-     "group": "latam",
-     "outlets": [
-      "El Estímulo"
-     ],
-     "published": "2026-11-19T14:12:01+00:00",
-     "text": "[El Estímulo](https://elestimulo.com/elinteres/tu-bolsillo/2026-11-19/precio-pasaporte/) reported the prices for habilited and ordinary passports in Venezuela."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "venezuela",
-   "title": "Venezuela exchange rates and cryptocurrency",
-   "topic": "economy"
-  },
-  {
    "article_count": 2,
    "articles": [
     {
@@ -257596,8 +257896,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 5,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "ab46c497b0741daa",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-20T15:26:00+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Zohran Mamdani reveals plan to close NYC's notorious Rikers Island jail by 2032",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/zohran-mamdani-reveals-plan-to-close-nycs-notorious-rikers-island-jail-by-2032-101795188161365.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "a1dc1e04a1b20f2f",
+     "lang": "en",
+     "outlet": "Euronews",
+     "published": "2026-11-20T15:03:20+00:00",
+     "publisher": "Euronews",
+     "region": "europe",
+     "section": null,
+     "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
+     "type": "international",
+     "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032"
+    },
     {
      "added": "2026-11-20",
      "id": "ecc2f487cb3eadf4",
@@ -257664,14 +257990,17 @@
      "url": "https://www.theguardian.com/us-news/2026/nov/20/rikers-island-closure-plan-mamdani"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 7,
    "first_seen": "2026-11-20",
    "group": "namerica",
    "id": "new-york-rikers-island-closure-plan",
    "label": "New York Rikers Island closure plan",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 5,
+   "outlets_today": 7,
+   "previous_titles": [
+    "Zohran Mamdani unveils plan to close Rikers Island jail complex"
+   ],
    "reports": [
     {
      "articles": [
@@ -257692,13 +258021,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "us",
-   "title": "Zohran Mamdani unveils plan to close Rikers Island jail complex",
+   "title": "NYC mayor unveils plan to close notorious Rikers Island jail by 2032",
    "title_from": {
-    "backing": 4,
+    "backing": 6,
     "date": "2026-11-20",
-    "of": 4,
-    "outlet": "The Guardian",
-    "url": "https://www.theguardian.com/us-news/2026/nov/20/rikers-island-closure-plan-mamdani"
+    "of": 6,
+    "outlet": "Euronews",
+    "url": "https://www.euronews.com/2026/11/20/nyc-mayor-unveils-plan-to-close-notorious-rikers-island-jail-by-2032"
    },
    "topic": "politics"
   },
@@ -258987,8 +259316,34 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "72d964dbfb2c21e9",
+     "lang": "bg",
+     "outlet": "Dnevnik (Bulgaria)",
+     "published": "2026-11-20T16:28:00+00:00",
+     "publisher": "Dnevnik (Bulgaria)",
+     "region": "europe",
+     "section": null,
+     "title": "След избора за ВСС, \"Прогресивна България\", ДБ и ПП заговориха за конституцията",
+     "type": "local",
+     "url": "https://www.dnevnik.bg/politika/2026/11/20/4982261_sled_izbora_za_vss_progresivna_bulgariia_db_i_pp/?ref=rss"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "543e448f3f235001",
+     "lang": "bg",
+     "outlet": "Dnevnik (Bulgaria)",
+     "published": "2026-11-20T14:31:00+00:00",
+     "publisher": "Dnevnik (Bulgaria)",
+     "region": "europe",
+     "section": null,
+     "title": "\"Възраждане\" се закани на \"Прогресивна България\" след избора на членове за ВСС",
+     "type": "local",
+     "url": "https://www.dnevnik.bg/politika/2026/11/20/4982600_vuzrajdane_se_zakani_na_progresivna_bulgariia_sled/?ref=rss"
+    },
     {
      "added": "2026-11-20",
      "id": "f3ab81009d1d97ac",
@@ -259016,7 +259371,7 @@
      "url": "https://www.dnevnik.bg/politika/2026/11/20/4982402_progresivna_bulgariia_dlujni_sme_da_dadem_na_bulgarite/?ref=rss"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-20",
    "group": "europe",
    "id": "bulgaria-judicial-reform-and-supreme-judicial",
@@ -259025,6 +259380,30 @@
    "last_updated": "2026-11-20",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "543e448f3f235001"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Dnevnik (Bulgaria)"
+     ],
+     "published": "2026-11-20T14:31:00+00:00",
+     "text": "[Dnevnik (Bulgaria)](https://www.dnevnik.bg/politika/2026/11/20/4982600_vuzrajdane_se_zakani_na_progresivna_bulgariia_sled/?ref=rss) reported that Kostadin Kostadinov from Vazrazhdane directed threats at Progressive Bulgaria following an agreement between the ruling formation, Democratic Bulgaria, and Continue the Change regarding the election of members to the Supreme Judicial Council."
+    },
+    {
+     "articles": [
+      "72d964dbfb2c21e9"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Dnevnik (Bulgaria)"
+     ],
+     "published": "2026-11-20T16:28:00+00:00",
+     "text": "[Dnevnik (Bulgaria)](https://www.dnevnik.bg/politika/2026/11/20/4982261_sled_izbora_za_vss_progresivna_bulgariia_db_i_pp/?ref=rss) reported that Progressive Bulgaria, Democratic Bulgaria, and Continue the Change spoke about constitutional changes following the joint decision on the Supreme Judicial Council."
+    },
     {
      "articles": [
       "f04c9a4fe9c220c5",
@@ -259720,8 +260099,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "8a16ef740dd7bc3e",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-20T13:16:06+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Četiri elektora iz reda ostalih naroda izabrana u Narodnoj skupštini RS",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/bih/1089532/cetiri-elektora-iz-reda-ostalih-naroda-izabrana-u-narodnoj-skupstini-rs"
+    },
     {
      "added": "2026-11-20",
      "id": "8833789017aff5c6",
@@ -259749,15 +260141,27 @@
      "url": "https://www.nezavisne.com/novosti/bih/Izabrani-ad-hok-elektori-za-izbor-delegata-u-Vijece-naroda/993429"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "europe",
    "id": "republika-srpska-delegates-election",
    "label": "Republika Srpska delegates election",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "8a16ef740dd7bc3e"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Dnevni Avaz"
+     ],
+     "published": "2026-11-20T13:16:06+00:00",
+     "text": "[Dnevni Avaz](https://avaz.ba/vijesti/bih/1089532/cetiri-elektora-iz-reda-ostalih-naroda-izabrana-u-narodnoj-skupstini-rs) reported that four electors from the ranks of other peoples were elected in the National Assembly of the Republika Srpska following voting by municipal and city assembly councilors."
+    },
     {
      "articles": [
       "8833789017aff5c6",
@@ -259962,8 +260366,60 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "4be6c234805c9096",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-20T16:24:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Dodik: Da dođe 100 ustavnih sudova, neće postaviti nijednu zastavu Armije RBiH u RS, neka probaju",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/dodik-da-dode-100-ustavnih-sudova-nece-postaviti-nijednu-zastavu-armije-rbih-u-rs-neka-probaju/261120242"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "4e7559a73bd60366",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-20T15:27:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Cvijanović bijesna nakon što je Ustavni sud BiH srušio njen veto: Tvrdi da je izvršen udar na ustavni poredak",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/cvijanovic-bijesna-nakon-sto-je-ustavni-sud-bih-srusio-njen-veto-tvrdi-da-je-izvrsen-udar-na-ustavni-poredak/261120253"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "2513c31a0aec4b63",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-20T15:17:55+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Žestoka reakcija iz RS - \"Nikada ovdje neće postaviti zastavu Armije RBiH\"",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/bih/zestoka-reakcija-iz-rs-nikada-ovdje-nece-postaviti-zastavu-armije-r-bi-h/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "562cc8b0befc1d0d",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-20T13:51:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Ustavni sud srušio veto Cvijanović: Komisija za zaštitu nacionalnih spomenika imenovana u skladu sa zakonom",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/ustavni-sud-srusio-veto-cvijanovic-komisija-za-zastitu-nacionalnih-spomenika-imenovana-u-skladu-sa-zakonom/261120219"
+    },
     {
      "added": "2026-11-20",
      "id": "5a0489c19a0f77e6",
@@ -259991,15 +260447,51 @@
      "url": "https://www.klix.ba/vijesti/bih/odluka-ustavnog-suda-bih-zabrana-simbola-armije-rbih-je-neustavna/261120215"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 6,
    "first_seen": "2026-11-20",
    "group": "europe",
    "id": "bosnia-constitutional-court-insignia-ruling",
    "label": "Bosnia Constitutional Court insignia ruling",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "562cc8b0befc1d0d"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-20T13:51:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/bih/ustavni-sud-srusio-veto-cvijanovic-komisija-za-zastitu-nacionalnih-spomenika-imenovana-u-skladu-sa-zakonom/261120219) reported that the Constitutional Court of BiH set aside Željka Cvijanović's statement on the vital interest of Republika Srpska and the National Assembly decision confirming it."
+    },
+    {
+     "articles": [
+      "2513c31a0aec4b63"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Oslobođenje"
+     ],
+     "published": "2026-11-20T15:17:55+00:00",
+     "text": "[Oslobođenje](https://www.oslobodjenje.ba/vijesti/bih/zestoka-reakcija-iz-rs-nikada-ovdje-nece-postaviti-zastavu-armije-r-bi-h/) reported a fierce reaction from Republika Srpska regarding the Constitutional Court decision."
+    },
+    {
+     "articles": [
+      "4be6c234805c9096"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-20T16:24:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/bih/dodik-da-dode-100-ustavnih-sudova-nece-postaviti-nijednu-zastavu-armije-rbih-u-rs-neka-probaju/261120242) reported that SNSD President Milorad Dodik reacted to the Constitutional Court of BiH ruling by stating that no flag of the Army of the Republic of Bosnia and Herzegovina would be placed in Republika Srpska."
+    },
     {
      "articles": [
       "2123c931fe933887",
@@ -260021,9 +260513,880 @@
    "subject": "bosnia",
    "title": "Bosnia Constitutional Court insignia ruling",
    "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "6d9ba73b088ba5a6",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-20T16:30:04+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "Watch live: Trump holds press conference after meeting with Xi, Putin",
+     "type": "international",
+     "url": "https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "d885064645470ddb",
+     "lang": "en",
+     "outlet": "NPR World",
+     "published": "2026-11-20T15:00:00+00:00",
+     "publisher": "NPR World",
+     "region": "namerica",
+     "section": null,
+     "title": "Trump to hold press conference after meeting with Xi and Putin",
+     "type": "international",
+     "url": "https://www.npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "namerica",
+   "id": "trump-press-conference-after-asia-trip",
+   "label": "Trump press conference after Asia trip",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6d9ba73b088ba5a6"
+     ],
+     "date": "2026-11-20",
+     "group": "namerica",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-20T16:30:04+00:00",
+     "text": "[France 24](https://www.france24.com/en/americas/20261120-watch-live-trump-holds-press-conference-meeting-xi-putin) reported that U.S. President Donald Trump is set to hold a White House press conference following his return from a four-day trip to Asia."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Trump press conference after Asia trip",
+   "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "ab2b0eec85bf26d4",
+     "lang": "pl",
+     "outlet": "Gazeta Wyborcza",
+     "published": "2026-11-20T16:09:00+00:00",
+     "publisher": "Gazeta Wyborcza",
+     "region": "europe",
+     "section": null,
+     "title": "Dwie rosyjskie rakiety i dron spadły w Polsce. Czy to też był przypadek, Mr Trump?",
+     "type": "local",
+     "url": "https://wyborcza.pl/7,75968,33143681,dwie-rosyjskie-rakiety-i-dron-spadly-w-polsce-czy-to-tez-byl.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "919230f6a4d3b76c",
+     "lang": "pl",
+     "outlet": "Rzeczpospolita",
+     "published": "2026-11-20T15:00:00+00:00",
+     "publisher": "Rzeczpospolita",
+     "region": "europe",
+     "section": null,
+     "title": "Rosyjskie rakiety w Polsce. Władysław Kosiniak-Kamysz: Ten atak nie był przypadkowy",
+     "type": "local",
+     "url": "https://www.rp.pl/wojsko/art45521081-rosyjskie-rakiety-w-polsce-wladyslaw-kosiniak-kamysz-ten-atak-nie-byl-przypadkowy"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "europe",
+   "id": "russian-missile-and-drone-incidents-in",
+   "label": "Russian missile and drone incidents in Poland",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "919230f6a4d3b76c"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Rzeczpospolita"
+     ],
+     "published": "2026-11-20T15:00:00+00:00",
+     "text": "[Rzeczpospolita](https://www.rp.pl/wojsko/art45521081-rosyjskie-rakiety-w-polsce-wladyslaw-kosiniak-kamysz-ten-atak-nie-byl-przypadkowy) reported that Władysław Kosiniak-Kamysz stated that the attack involving Russian rockets in Poland was not accidental and called for stronger NATO involvement and air defense support."
+    },
+    {
+     "articles": [
+      "ab2b0eec85bf26d4"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Gazeta Wyborcza"
+     ],
+     "published": "2026-11-20T16:09:00+00:00",
+     "text": "[Gazeta Wyborcza](https://wyborcza.pl/7,75968,33143681,dwie-rosyjskie-rakiety-i-dron-spadly-w-polsce-czy-to-tez-byl.html) reported that two Russian rockets and a drone fell in Poland."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "poland",
+   "title": "Russian missile and drone incidents in Poland",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "c1692198fa4260a6",
+     "lang": "bg",
+     "outlet": "Dnevnik (Bulgaria)",
+     "published": "2026-11-20T15:52:00+00:00",
+     "publisher": "Dnevnik (Bulgaria)",
+     "region": "europe",
+     "section": null,
+     "title": "Бившият екоминистър Нено Димов е оправдан за водната криза в Перник на първа инстанция",
+     "type": "local",
+     "url": "https://www.dnevnik.bg/politika/2026/11/20/4982747_bivshiiat_ekoministur_neno_dimov_e_opravdan_za_vodnata/?ref=rss"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "95aaf54b486a524e",
+     "lang": "bg",
+     "outlet": "24 Chasa",
+     "published": "2026-11-20T15:01:00+00:00",
+     "publisher": "24 Chasa",
+     "region": "europe",
+     "section": null,
+     "title": "Съдът оправда бившия екоминистър Нено Димов по делото за водната криза в Перник",
+     "type": "local",
+     "url": "https://www.24chasa.bg/bulgaria/article/23966645"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "europe",
+   "id": "bulgarian-court-acquits-neno-dimov",
+   "label": "Bulgarian court acquits Neno Dimov",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "95aaf54b486a524e"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "24 Chasa"
+     ],
+     "published": "2026-11-20T15:01:00+00:00",
+     "text": "[24 Chasa](https://www.24chasa.bg/bulgaria/article/23966645) reported that the Sofia City Court acquitted former Minister of Environment and Water Neno Dimov in the case regarding the 2019 water crisis in Pernik."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bulgarian court acquits Neno Dimov",
+   "topic": "justice"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "c35005044c305992",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-20T15:55:24+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "La Unión Europea y el Reino Unido dan un 'nuevo impulso' a sus relaciones y firman acuerdos de comercio, movilidad y protección del medioambiente",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/europa/la-union-europea-y-reino-unido-dan-un-nuevo-impulso-a-sus-relaciones-y-firman-acuerdos-de-comercio-movilidad-y-proteccion-del-medio-ambiente-3602726"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "b41581d24bf51042",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-20T15:43:23+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "El Reino Unido y la UE firman su mayor acuerdo de acercamiento desde el Brexit",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/el-mundo/el-reino-unido-y-la-ue-firman-su-mayor-acuerdo-de-acercamiento-desde-el-brexit-nid20112026/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "a3a100f0d4cefa63",
+     "lang": "pt",
+     "outlet": "Folha de S.Paulo",
+     "published": "2026-11-20T15:28:00+00:00",
+     "publisher": "Folha de S.Paulo",
+     "region": "latam",
+     "section": null,
+     "title": "Reino Unido e União Europeia iniciam reaproximação após brexit com acordos sobre alimentos e mobilidade",
+     "type": "local",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/reino-unido-e-uniao-europeia-iniciam-reaproximacao-apos-brexit-com-acordos-sobre-alimentos-e-mobilidade.shtml"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-20",
+   "group": "europe",
+   "id": "uk-and-eu-relations-and-agreements",
+   "label": "UK and EU relations and agreements",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "c35005044c305992"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "El Tiempo"
+     ],
+     "published": "2026-11-20T15:55:24+00:00",
+     "text": "[El Tiempo](https://www.eltiempo.com/mundo/europa/la-union-europea-y-reino-unido-dan-un-nuevo-impulso-a-sus-relaciones-y-firman-acuerdos-de-comercio-movilidad-y-proteccion-del-medio-ambiente-3602726) reported that the European Union and the United Kingdom gave a new impulse to their relations by signing trade, mobility, and environmental protection agreements while leaving university fee reductions pending."
+    },
+    {
+     "articles": [
+      "a3a100f0d4cefa63"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Folha de S.Paulo"
+     ],
+     "published": "2026-11-20T15:28:00+00:00",
+     "text": "[Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/reino-unido-e-uniao-europeia-iniciam-reaproximacao-apos-brexit-com-acordos-sobre-alimentos-e-mobilidade.shtml) reported that the United Kingdom and the European Union closed agreements to facilitate food trade and expand youth mobility at a summit."
+    },
+    {
+     "articles": [
+      "b41581d24bf51042"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "La Nación (Argentina)"
+     ],
+     "published": "2026-11-20T15:43:23+00:00",
+     "text": "[La Nación (Argentina)](https://www.lanacion.com.ar/el-mundo/el-reino-unido-y-la-ue-firman-su-mayor-acuerdo-de-acercamiento-desde-el-brexit-nid20112026/) reported that the pact will allow 100,000 young people per year to live and work on the other side of the English Channel."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "UK and EU relations and agreements",
+   "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "8edeb7b4f4778e13",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-20T16:03:56+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "\"Pišonja i Žuga\" iz Italije: Maloljetnici ukrali minibus, pa završili u kanalu",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/svijet/pisonja-i-zuga-iz-italije-maloljetnici-ukrali-minibus-pa-zavrsili-u-kanalu/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "9e01eb3325afd56c",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-20T15:55:46+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Maloljetnici oštetili vozila pa ukrali autobus: Nakon osam kilometara završili u kanalu, sumnja se da su imitirali GTA 6",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/globus/1089594/maloljetnici-ostetili-vozila-pa-ukrali-autobus-nakon-osam-kilometara-zavrsili-u-kanalu-sumnja-se-da-su-imitirali-gta-6"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "europe",
+   "id": "minors-steal-minibus-and-crash-in",
+   "label": "Minors steal minibus and crash in canal",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9e01eb3325afd56c"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Dnevni Avaz"
+     ],
+     "published": "2026-11-20T15:55:46+00:00",
+     "text": "[Dnevni Avaz](https://avaz.ba/vijesti/globus/1089594/maloljetnici-ostetili-vozila-pa-ukrali-autobus-nakon-osam-kilometara-zavrsili-u-kanalu-sumnja-se-da-su-imitirali-gta-6) reported that minors damaged vehicles and stole a bus before ending up in a canal after eight kilometers, with suspicions they were imitating GTA 6."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "italy",
+   "title": "Minors steal minibus and crash in canal",
+   "topic": "crime"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "19faff7abcf0e611",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-20T16:16:16+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Vučić se požalio da u sjedištu SNS-a prokišnjava krov, u prvom planu kadica",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/region/vucic-se-pozalio-da-u-sjedistu-sns-a-prokisnjava-krov-u-prvom-planu-kadica/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "f3bc9630f2738e98",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-20T16:00:51+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Prokišnjava sjedište SNS-a: Vučić pokazao kadicu",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/ex-yu/Prokisnjava-sjediste-SNS-a-Vucic-pokazao-kadicu/993471"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "europe",
+   "id": "leaking-roof-at-sns-headquarters-in",
+   "label": "Leaking roof at SNS headquarters in Belgrade",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f3bc9630f2738e98"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Nezavisne Novine"
+     ],
+     "published": "2026-11-20T16:00:51+00:00",
+     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/ex-yu/Prokisnjava-sjediste-SNS-a-Vucic-pokazao-kadicu/993471) reported that Aleksandar Vučić addressed the public via a video message from the leaking headquarters of the Serbian Progressive Party showing a small bucket."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "serbia",
+   "title": "Leaking roof at SNS headquarters in Belgrade",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "708c2db7e89d459b",
+     "lang": "en",
+     "outlet": "The Irish Times",
+     "published": "2026-11-20T16:24:50+00:00",
+     "publisher": "The Irish Times",
+     "region": "europe",
+     "section": null,
+     "title": "Far-right activist Daniel Thomas jailed in UK for slashing migrant dinghy",
+     "type": "local",
+     "url": "https://www.irishtimes.com/world/uk/2026/11/20/far-right-activist-daniel-thomas-jailed-in-uk-for-slashing-migrant-dinghy/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "7c7bc843dc7c7046",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-20T16:08:42+00:00",
+     "publisher": "The Guardian",
+     "region": "global",
+     "section": null,
+     "title": "Far-right activist Daniel Thomas jailed for slashing dinghy in Channel",
+     "type": "international",
+     "url": "https://www.theguardian.com/uk-news/2026/nov/20/far-right-activist-daniel-thomas-jailed-for-slashing-dinghy-in-channel"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "global",
+   "id": "daniel-thomas-jailed-for-slashing-migrant",
+   "label": "Daniel Thomas jailed for slashing migrant dinghy",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7c7bc843dc7c7046"
+     ],
+     "date": "2026-11-20",
+     "group": "global",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-20T16:08:42+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/uk-news/2026/nov/20/far-right-activist-daniel-thomas-jailed-for-slashing-dinghy-in-channel) reported that far-right activist Daniel Thomas was sentenced to 15 months in prison after admitting to criminal damage for slashing a dinghy carrying asylum seekers in the Channel."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "uk",
+   "title": "Daniel Thomas jailed for slashing migrant dinghy",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "f008ce9df9e5c39c",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-20T16:28:14+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "SDP stao uz Nikšića nakon podizanja optužnice: Od VSTV-a traže istragu o vezama tužilaca s medijima i obavještajnim strukturama",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/bih/1089604/sdp-stao-uz-niksica-nakon-podizanja-optuznice-od-vstv-a-traze-istragu-o-vezama-tuzilaca-s-medijima-i-obavjestajnim-strukturama"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "164bf1da703bd35b",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-20T16:15:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "SDP dao podršku Nikšiću nakon pokretanja optužnice, od VSTV-a traže da istraži veze tužilaca s medijima",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/sdp-dao-podrsku-niksicu-nakon-pokretanja-optuznice-od-vstv-a-traze-da-istrazi-veze-tuzilaca-s-medijima/261120280"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "europe",
+   "id": "sdp-supports-nermin-niksic-after-indictment",
+   "label": "SDP supports Nermin Nikšić after indictment",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "164bf1da703bd35b"
+     ],
+     "date": "2026-11-20",
+     "group": "europe",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-20T16:15:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/bih/sdp-dao-podrsku-niksicu-nakon-pokretanja-optuznice-od-vstv-a-traze-da-istrazi-veze-tuzilaca-s-medijima/261120280) reported that the Social Democratic Party of BiH gave full support to party president Nermin Nikšić after POSKOK raised an indictment against him and asked the High Judicial and Prosecutorial Council to investigate prosecutors' links with the media."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "bosnia",
+   "title": "SDP supports Nermin Nikšić after indictment",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "2529412164b626d0",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-20T16:33:32+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Customs suspend training for 3,852 recruits over Federal Character Commission concerns",
+     "type": "local",
+     "url": "https://punchng.com/customs-suspend-training-for-3852-recruits-over-federal-character-commission-concerns/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "90500968e7a35c00",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-20T16:20:21+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "JUST IN: Customs suspends activities at training colleges",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/just-in-customs-suspends-activities-at-training-colleges/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "africa",
+   "id": "nigeria-customs-service-suspends-training-college",
+   "label": "Nigeria Customs Service suspends training college activities",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "90500968e7a35c00"
+     ],
+     "date": "2026-11-20",
+     "group": "africa",
+     "outlets": [
+      "Nigerian Tribune"
+     ],
+     "published": "2026-11-20T16:20:21+00:00",
+     "text": "[Nigerian Tribune](https://tribuneonlineng.com/just-in-customs-suspends-activities-at-training-colleges/) reported that the Nigeria Customs Service suspended ongoing training activities at its two training colleges for consultations with the Federal Character Commission."
+    },
+    {
+     "articles": [
+      "2529412164b626d0"
+     ],
+     "date": "2026-11-20",
+     "group": "africa",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-20T16:33:32+00:00",
+     "text": "[Punch](https://punchng.com/customs-suspend-training-for-3852-recruits-over-federal-character-commission-concerns/?utm_source=rss.punchng.com&utm_medium=web) reported that the Nigeria Customs Service suspended training for 3,852 new recruits after the Federal Character Commission raised concerns over alleged irregularities."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "nigeria",
+   "title": "Nigeria Customs Service suspends training college activities",
+   "topic": "politics"
   }
  ],
- "retry": [],
+ "retry": [
+  "bc97848734f90369",
+  "80c8b2c70bf3bde4",
+  "48bf15e5fca569bd",
+  "3c150c0e70eeced5",
+  "e7a8fbe2e4fd15b4",
+  "fed67b576983aa63",
+  "24064ddad82dd67e",
+  "05b93bdce31d3b9c",
+  "40507690971998a0",
+  "f60e9c76240523c7",
+  "85c2626221d93870",
+  "1ed5abc2c40e2e00",
+  "73f982d85ead0017",
+  "98502b8c2d36f742",
+  "2ba137a0f31d4eed",
+  "bae330fad9f50945",
+  "d8ab5f896d846892",
+  "1a4ff534ecb163ab",
+  "1138000edcd16237",
+  "fe67263cf4969736",
+  "c986c8b4e41c93ca",
+  "01a220c40c9ab4e6",
+  "282f2c46fe8b24ba",
+  "9707d471ab6c6ded",
+  "0a42b54e150bb313",
+  "d6bfd6e8ed218cfd",
+  "999606051a763b59",
+  "2bad16748c83a68c",
+  "a02be44f992d76bb",
+  "4b7f57697e28eb1c",
+  "fcadd9dcf24171ca",
+  "a88a688b03240968",
+  "b32cbe7bd987f940",
+  "2acf70c07b2c8313",
+  "bc4f14fbd9f55f7e",
+  "0f33c7ae5f67e2ab",
+  "2732d143b838312e",
+  "d81eb3aeb4bd5104",
+  "d4a5cf00c83e9e62",
+  "4594d8d62cae5ec3",
+  "9aede676f37f674d",
+  "f0ec36da188c223e",
+  "7a38348bdbfbfff5",
+  "0e1d8dafad5c797e",
+  "d4776fc0efe3b679",
+  "3257397cbb071899",
+  "546c76f4f8004864",
+  "1882c6532ce98ebc",
+  "7b74b54875ddc9c0",
+  "c8f1300e6f965c25",
+  "21aa9d785211c725",
+  "358aceda627033d6",
+  "d20e9036a0be85b8",
+  "bb803d90a5ce2bfe",
+  "603942c581d6f362",
+  "4121ba15da56974f",
+  "7f68625be60a6816",
+  "66468bafd3e3f83f",
+  "7d5022168f53d483",
+  "785ff06178651105",
+  "0caf49e075159c03",
+  "83aa6cc2febd088e",
+  "78e61b6dc93bc017",
+  "42fec1ab5a7feee7",
+  "dca71a6de4d3ec83",
+  "c243087b93ba06a7",
+  "13cd8e82d9424242",
+  "30fd90c9f4d2f486",
+  "b2f739158c1c802d",
+  "fef981f3d85f1745",
+  "b6125d1ebf259dc5",
+  "209f4018624afeba",
+  "e615108db329a45b",
+  "1d278381c8ee6481",
+  "b99cde79b348e494",
+  "0562eafeb083d776",
+  "50d103269ff2bfe1",
+  "55d63fed13812343",
+  "7fcfab082ad769a0",
+  "bc585ce2c29952cf",
+  "cae44292f46ee846",
+  "ad1ec2217f9c2094",
+  "334d1d530d7012ec",
+  "210325d61141ecec",
+  "f18f300da75244ea",
+  "6b15df85f334cec6",
+  "b3b7bc4e5573e091",
+  "bcd4315eef56cf2a",
+  "ed67b110277eb006",
+  "93b60c637ded1639",
+  "565c7d942efb70bc",
+  "be07053032e7a7ef",
+  "a18685d0b545381e",
+  "d2a8ab0ac8abad04",
+  "43a1bb4a3afdebec",
+  "ccc03e889329e999",
+  "d841cae800caf315",
+  "1ed433e23245735c",
+  "bbe900a93da4ba20",
+  "0c98a0d5cf367a51",
+  "61ab6cf716e2c168",
+  "3630359d93ec9321",
+  "2f7b32751eef12ce",
+  "83b6516367367e45",
+  "52fcff7af8cf2e1b",
+  "8e9ca5003e1eba08",
+  "31b343a2ab410fc0",
+  "b401dc2ce31aeb67",
+  "81b74e4f1f6fea06",
+  "6b2d0ab646d07614",
+  "bd0f91b5fcf3a15c",
+  "0a30f83c75cd7629",
+  "6950f8328977f318",
+  "899f720bee13066a",
+  "114c779dda29ddca",
+  "ba46a6946e882acc",
+  "7aa54e7e9c1d828e",
+  "3264333b3e7624da",
+  "35cb8d9bb3b0a5e4",
+  "93b13c3ef2297665",
+  "b04f56f99e67b662",
+  "ee7f8d3360c69eb3",
+  "93f24f33bd521c65",
+  "05a43ceca483f092",
+  "fefb02dd56b65f99",
+  "4b8fe8095e0a5b5f",
+  "c6987acba0961012",
+  "0bfc5ca0b5472672",
+  "8ec8b3e2a2f221d4",
+  "fd5e162fee8b42ed",
+  "5f12c4d85497fbb4",
+  "9dd7927d04014b5e",
+  "1897f2ba3f5872aa",
+  "11b93cfc93462b81",
+  "f6585f520b82ce1a",
+  "6acae6a849bae06c",
+  "24305b79cf77c799",
+  "d7a595d1d245828e",
+  "975969592e63943d",
+  "0285a42da7c68d64",
+  "d8cb91c5a9ceec3f",
+  "4d00ee945543590b",
+  "12b6d1fb53e7d381",
+  "ceb003e431d427c6",
+  "34f2acf277c07b6e",
+  "ef5859b49aab3c55",
+  "d56650e313a2c771",
+  "67d165504d270b65",
+  "b1daf8f36f9c8e18",
+  "a6ea8adf89ee427b",
+  "7c8b281a3c5dcc8f",
+  "17beb70ec0af5663",
+  "5856ecdd8eb44c06",
+  "309286aed10ff286",
+  "55be31fe866b327a",
+  "d0b6494300273970",
+  "ef8dd999726755b4",
+  "7a4a2695c604c459",
+  "ab619b88b6172b2c",
+  "157f21bc9800970f",
+  "fdf4aa455b46e5de",
+  "949e19863656079e",
+  "c19bb9a910b00592",
+  "1037a30a5e6b2678",
+  "d898f1c036961a81",
+  "04a605488b6288e5",
+  "02f7a9eb58b3bfe6",
+  "441e189ca0980d60",
+  "c6d9c44094d9bb98",
+  "3e321313ae61c9d9",
+  "975743e7e32fc59c",
+  "1667c03694387d1b",
+  "279f3c6966b6dfec",
+  "29f7adc979a97010",
+  "94a7bbc1f5cd3a2f",
+  "6e253cd9a7af94f3",
+  "3a027b1eabcbbf70",
+  "ccc091b3bf1c1efb",
+  "0e4cdecfbf090d57",
+  "239794576653ca0f",
+  "01ff65c399e5adff",
+  "5bf06f26d4583acd",
+  "712ce386de97cf54",
+  "d1e5c375bbb196cf",
+  "fa135a5ecce4b552",
+  "9cbfcfaa2624230c",
+  "5d5b12a5180ff396",
+  "0fa5eca3954d8631",
+  "70fbbddb2a0f6674",
+  "8bd78659e528af05",
+  "ff62fce1d76869e4",
+  "c68aec7c03fda670",
+  "a2f10c776b5b7cba",
+  "fa980fb3f43633dd",
+  "481ecde8e3540e2b",
+  "1a30ddeacada2902",
+  "d35368175df427ea",
+  "b8ce0ddb2e6fcb05",
+  "24988d14c3f55980",
+  "c5e195223bbc48e3",
+  "c8dffe5d644c6871",
+  "bc7d9437c9511fa5",
+  "6f87531a113b6f48",
+  "c45a3fbfb40ad3c1",
+  "aec376126c37140c",
+  "a2e9119cf8743d00",
+  "d6964121b449b75f",
+  "458dd68956fd9be0",
+  "e3a93787b77aa02e",
+  "5e0596f2ad0a0a14",
+  "1a7856e6cf992b60",
+  "f4c8f5ee98bd2170",
+  "bc642e281b2127b7",
+  "3ca91cfcb910660d",
+  "c849c72e18241ea0",
+  "b4a7c083176ebc99",
+  "a30546691f8b0059",
+  "1c8b65019cc02c16",
+  "b27bbcb76a7b5bce",
+  "9be7c450cd6572fc",
+  "a9ac6e2db9dc2c1d",
+  "9334c00725480360",
+  "56da22d4153f0101",
+  "0a42cd7bff85694b",
+  "3aef38dde6b82eae",
+  "79cdf210732433f5",
+  "4f82ade40989ec21",
+  "f5d50144bf2e35d8",
+  "011b8ce7dd3b2126",
+  "8017fd3797d96f1b",
+  "18c7f80e79e450ee",
+  "afaa36bd831967e3",
+  "ddc84d8a1e57dd57",
+  "e7e62f34c5240dae",
+  "71a257b6af636b71",
+  "45a97cbafa2c0c30",
+  "4e1a2e0528f6783f",
+  "10a10d9465de8487",
+  "97432a4a7e589bad",
+  "da157d49d9617b72",
+  "449f681a5a91cbbc",
+  "e82e8c5f0cba4a8f",
+  "3393c9a5aa015301",
+  "e8e0ad5541d12554",
+  "ba70dedb16ae9d39",
+  "8bc7fbb5e5e056b0",
+  "8bfd5b484c7355d5",
+  "98b686d050ce91e8",
+  "850cf2f075f35bfe",
+  "68abee1b6b013c8a",
+  "d54b594224ceda06",
+  "be9cd486b1f0bf4f",
+  "9c072c0017a0dcea",
+  "836b784b9d9877e4",
+  "2b762bcb549d93eb",
+  "3ee79c6d82761ccc",
+  "62aa19abe34f04c5",
+  "9edd44e13423fd3b",
+  "6131631df324c7bd",
+  "a97b20289ee0f990",
+  "4d2ceb57805fd0dd",
+  "55453944083e4bab",
+  "df714c2911fcb346",
+  "2162d09628eeebac",
+  "8ac20d3b9e4a360e",
+  "ae9b3636f8918d0d",
+  "600d850a713e47a5",
+  "ba14672cac5b2f72",
+  "c1b421de3678b6bf",
+  "867f699f67903faa",
+  "9020a605d69b4483",
+  "62a98d38a3a2e275",
+  "76ec8796a1e6e536",
+  "724e12e2682a8a50",
+  "4186070dfafa7758",
+  "5a221c4a215469ce",
+  "d560d9892a08cf59",
+  "82561e79b67fbdd0",
+  "8415d352bc5be0a4",
+  "94930154c2e0425a",
+  "9e6eca4149056c73"
+ ],
  "site": "geo",
- "updated": "2026-11-20T14:00:00+00:00"
+ "updated": "2026-11-20T16:51:17+00:00"
 }

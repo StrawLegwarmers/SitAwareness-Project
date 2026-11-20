@@ -285,25 +285,25 @@
   {
    "articles": 220,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 12,
-   "continuing": 6,
+   "calls": 6,
+   "candidates": 14,
+   "continuing": 8,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 180,
-   "in_stories": 17,
-   "kept": 12,
+   "in_stories": 19,
+   "kept": 14,
    "merged": 1,
    "new": 3,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 5,
-   "sent": 12,
+   "runs": 6,
+   "sent": 14,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 7,
+   "updated": 8,
    "waiting": 0
   },
   {
@@ -499,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T13:54:23+00:00"
+  "all": "2026-11-20T16:35:21+00:00"
  },
  "narratives": [
   {
@@ -5593,8 +5593,34 @@
    "topic": "security"
   },
   {
-   "article_count": 5,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "0a1d3ff0d541f022",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-20T15:58:06+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "7c3b318f19ce106b",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-20T14:56:32+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims",
+     "type": null,
+     "url": "https://securityaffairs.com/203614/data-breach/jpmorgan-visa-and-mastercard-report-third-party-data-breaches-after-n0n-claims.html"
+    },
     {
      "added": "2026-11-20",
      "id": "6061bbd78a87d645",
@@ -5667,15 +5693,42 @@
      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jpmorgan-chase-data-breach",
    "label": "JPMorgan Chase data breach",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 5,
+   "previous_titles": [
+    "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak"
+   ],
    "reports": [
+    {
+     "articles": [
+      "7c3b318f19ce106b"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-20T14:56:32+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203614/data-breach/jpmorgan-visa-and-mastercard-report-third-party-data-breaches-after-n0n-claims.html) reported that JPMorgan, Visa and Mastercard disclosed third-party data breaches after the N0n extortion group claimed to have stolen customer information."
+    },
+    {
+     "articles": [
+      "0a1d3ff0d541f022"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-20T15:58:06+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/) reported that J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data."
+    },
     {
      "articles": [
       "e5c6db05412a81df"
@@ -5728,13 +5781,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+   "title": "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims",
    "title_from": {
-    "backing": 2,
+    "backing": 4,
     "date": "2026-11-20",
-    "of": 2,
-    "outlet": "SecurityWeek",
-    "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/"
+    "of": 4,
+    "outlet": "Security Affairs",
+    "url": "https://securityaffairs.com/203614/data-breach/jpmorgan-visa-and-mastercard-report-third-party-data-breaches-after-n0n-claims.html"
    },
    "topic": "cyber"
   },
@@ -5993,5 +6046,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T13:54:40+00:00"
+ "updated": "2026-11-20T16:35:39+00:00"
 }
