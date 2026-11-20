@@ -269,25 +269,25 @@
   {
    "articles": 569,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 19,
-   "continuing": 11,
+   "calls": 4,
+   "candidates": 24,
+   "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 29,
-   "kept": 20,
+   "in_stories": 37,
+   "kept": 25,
    "merged": 0,
-   "new": 8,
+   "new": 11,
    "rejected": 5,
    "reported_by_2": 5,
-   "runs": 3,
-   "sent": 19,
+   "runs": 4,
+   "sent": 24,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 9,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T07:59:27+00:00"
+  "all": "2026-11-20T10:41:09+00:00"
  },
  "narratives": [
   {
@@ -713,8 +713,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 12,
+   "article_count": 14,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "74149cff4f23e882",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T09:17:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Retreat as Traders Assess Supply Outlook, Middle East Risks",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-higher-as-traders-assess-middle-east-shipping-risks-supply-outlook-faf8f60a?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "b6b5dd7594bf4786",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-20T08:52:01+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "European gas gains on fresh Middle East attacks, but Eyes weekly drop",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/european-gas-gains-on-fresh-middle-east-attacks-but-eyes-weekly-drop-5040776"
+    },
     {
      "added": "2026-11-20",
      "id": "02293cce53edbf3e",
@@ -872,7 +898,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 6,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
@@ -881,6 +907,30 @@
    "last_updated": "2026-11-20",
    "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "b6b5dd7594bf4786"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T08:52:01+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/european-gas-gains-on-fresh-middle-east-attacks-but-eyes-weekly-drop-5040776) reported that European gas gained on fresh Middle East attacks."
+    },
+    {
+     "articles": [
+      "74149cff4f23e882"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T09:17:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-edge-higher-as-traders-assess-middle-east-shipping-risks-supply-outlook-faf8f60a?mod=pls_whats_news_us_business_f) reported that oil prices retreated Friday as traders assessed global supply conditions and Middle East risks."
+    },
     {
      "articles": [
       "02293cce53edbf3e"
@@ -9457,9 +9507,189 @@
    "status": "new",
    "title": "US energy permitting reform bill",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "6b7495e591b5f6cf",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-20T10:15:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "China’s Solar Exports Surge 21% as U.S. Tariff Deadline Looms",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-Solar-Exports-Surge-21-as-US-Tariff-Deadline-Looms.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "060787cfb9215ac4",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-20T03:40:28+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "China Solar Cell Exports Rise for Second Month on Tariff Rush",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "china-solar-cell-exports",
+   "label": "China solar cell exports",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "060787cfb9215ac4",
+      "6b7495e591b5f6cf"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-20T03:40:28+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush), [Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Chinas-Solar-Exports-Surge-21-as-US-Tariff-Deadline-Looms.html) reported that China's solar cell exports increased for a second consecutive month in October as buyers stocked up ahead of upcoming US tariffs on polysilicon."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "China solar cell exports",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "9ae9520491cf1766",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-20T07:55:18+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "UK retail sales jump as consumers stock up on emergency supplies",
+     "type": "international",
+     "url": "https://www.ft.com/content/1e7855e5-fe9c-4e9c-ba8d-68c70159a1f1?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "198e567a57d0de78",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-20T07:06:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "UK Retail Sales Jump as Brits Stock Up on Emergency Supplies",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "uk-retail-sales",
+   "label": "UK retail sales",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "198e567a57d0de78",
+      "9ae9520491cf1766"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Financial Times"
+     ],
+     "published": "2026-11-20T07:06:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies), [Financial Times](https://www.ft.com/content/1e7855e5-fe9c-4e9c-ba8d-68c70159a1f1?syn-25a6b1a6=1) reported that UK retail sales unexpectedly jumped last month as consumers stocked up on emergency supplies following government warnings."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "UK retail sales",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "46f8d8c2509ca3bd",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T10:21:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Lufthansa to Cut 1,000 Jobs at Flagship Airline as Challenges Mount",
+     "type": "international",
+     "url": "https://www.wsj.com/business/airlines/lufthansa-to-cut-1-000-jobs-at-flagship-airline-as-challenges-mount-a710ff68?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "0ece64224c165970",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T08:09:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Lufthansa to Cut 1,000 Jobs at Struggling Flagship Airline",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/lufthansa-to-eliminate-1-000-jobs-at-struggling-flagship-airline"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "lufthansa-job-cuts",
+   "label": "Lufthansa job cuts",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0ece64224c165970",
+      "46f8d8c2509ca3bd"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T08:09:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/lufthansa-to-eliminate-1-000-jobs-at-struggling-flagship-airline), [Wall Street Journal](https://www.wsj.com/business/airlines/lufthansa-to-cut-1-000-jobs-at-flagship-airline-as-challenges-mount-a710ff68?mod=pls_whats_news_us_business_f) reported that Deutsche Lufthansa AG will cut 1,000 jobs at its flagship airline due to financial pressures from high fuel costs and strike expenses."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Lufthansa job cuts",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T07:59:51+00:00"
+ "updated": "2026-11-20T10:41:42+00:00"
 }
