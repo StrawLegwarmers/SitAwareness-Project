@@ -285,25 +285,25 @@
   {
    "articles": 220,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 15,
-   "continuing": 9,
+   "calls": 8,
+   "candidates": 19,
+   "continuing": 10,
    "corroborated": 0,
    "date": "2026-11-20",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
    "groups": 180,
-   "in_stories": 20,
-   "kept": 14,
+   "in_stories": 23,
+   "kept": 17,
    "merged": 1,
-   "new": 3,
+   "new": 5,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 7,
-   "sent": 15,
+   "runs": 8,
+   "sent": 19,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 9,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -499,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T19:40:33+00:00"
+  "all": "2026-11-20T22:26:14+00:00"
  },
  "narratives": [
   {
@@ -738,8 +738,21 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "7f75d6ea22e01190",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-20T14:29:21+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical Apache Tomcat Flaw Lets Remote Attackers Join Trusted Server Clusters Without Authentication",
+     "type": null,
+     "url": "https://cybersecuritynews.com/critical-apache-tomcat-flaw/"
+    },
     {
      "added": "2026-11-20",
      "id": "8ea909939d0df50c",
@@ -981,7 +994,7 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
@@ -993,6 +1006,18 @@
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
    "reports": [
+    {
+     "articles": [
+      "7f75d6ea22e01190"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-20T14:29:21+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/critical-apache-tomcat-flaw/) reported that the Apache Software Foundation disclosed a critical flaw in Apache Tomcat allowing remote attackers to join a trusted server cluster without authentication."
+    },
     {
      "articles": [
       "3a932385e38ba41e"
@@ -6056,9 +6081,99 @@
    "status": "new",
    "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "365380a11c39515a",
+     "lang": "en",
+     "outlet": "Recorded Future Research",
+     "published": "2026-11-20T00:00:00+00:00",
+     "publisher": "Recorded Future Research",
+     "region": null,
+     "section": "intel",
+     "title": "AI Joins the Industrial Attack Workflow",
+     "type": null,
+     "url": "https://www.recordedfuture.com/blog/ai-industrial-attack-workflow"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "greenjuliett-and-ai-attack-workflows",
+   "label": "GreenJuliett and AI attack workflows",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "365380a11c39515a"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Recorded Future Research"
+     ],
+     "published": "2026-11-20T00:00:00+00:00",
+     "text": "[Recorded Future Research](https://www.recordedfuture.com/blog/ai-industrial-attack-workflow) reported that Insikt Group analyzed how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "GreenJuliett and AI attack workflows",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "e29b70986e7bcf16",
+     "lang": "en",
+     "outlet": "Unit 42 (Palo Alto)",
+     "published": "2026-11-20T22:00:25+00:00",
+     "publisher": "Unit 42 (Palo Alto)",
+     "region": null,
+     "section": "intel",
+     "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
+     "type": null,
+     "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "com-affiliate-vishing-and-data-theft",
+   "label": "Com affiliate vishing and data theft campaigns",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "e29b70986e7bcf16"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Unit 42 (Palo Alto)"
+     ],
+     "published": "2026-11-20T22:00:25+00:00",
+     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/) reported that an analysis of Com affiliate vishing attacks, cloud data theft, and extortion campaigns targeted healthcare and finance."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Com affiliate vishing and data theft campaigns",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T19:40:50+00:00"
+ "updated": "2026-11-20T22:26:31+00:00"
 }

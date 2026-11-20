@@ -269,25 +269,25 @@
   {
    "articles": 569,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 37,
-   "continuing": 19,
+   "calls": 8,
+   "candidates": 43,
+   "continuing": 21,
    "corroborated": 1,
    "date": "2026-11-20",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 60,
-   "kept": 38,
+   "in_stories": 69,
+   "kept": 44,
    "merged": 2,
-   "new": 18,
-   "rejected": 8,
+   "new": 21,
+   "rejected": 9,
    "reported_by_2": 5,
-   "runs": 7,
-   "sent": 37,
+   "runs": 8,
+   "sent": 43,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 15,
+   "updated": 16,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T19:48:53+00:00"
+  "all": "2026-11-20T22:31:01+00:00"
  },
  "narratives": [
   {
@@ -1606,8 +1606,21 @@
    "topic": "business"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "e613828dc9f093b3",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T18:56:10+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Paulson open to back-to-back rate hikes at steady pace",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425"
+    },
     {
      "added": "2026-11-18",
      "id": "0828fffde936c3ac",
@@ -1791,15 +1804,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "e613828dc9f093b3"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T18:56:10+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425) reported that Fed's Paulson is open to back-to-back rate hikes at a steady pace."
+    },
     {
      "articles": [
       "98e51c69f3ddb9c6"
@@ -1882,9 +1907,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation), [Investing.com](https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest-rate increases will be needed to bring down inflation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -10153,8 +10178,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "1949c4100832a8b8",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-20T20:17:29+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Donald Trump threatens ‘tremendous’ tax on data centres built outside US",
+     "type": "international",
+     "url": "https://www.ft.com/content/ae564e09-eb0d-42c6-b61f-50a4e61d0240?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-20",
      "id": "5990344f8e49c725",
@@ -10182,14 +10220,28 @@
      "url": "https://www.marketwatch.com/story/trump-is-trying-to-stop-big-techs-push-to-build-data-centers-outside-the-u-s-86f32f7f?mod=mw_rss_topstories"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "trump-is-trying-to-stop-big",
    "label": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
+   "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
-   "reports": [],
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "1949c4100832a8b8"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-20T20:17:29+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/ae564e09-eb0d-42c6-b61f-50a4e61d0240?syn-25a6b1a6=1) reported that President Donald Trump threatened a tremendous tax on data centres built outside the US, stating the fight is about preventing Beijing from taking the lead in developing AI technology."
+    }
+   ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
@@ -10261,9 +10313,211 @@
    "status": "new",
    "title": "Jensen Huang Senate testimony",
    "topic": "justice"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "8683e40392ec20fc",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T21:53:30+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "CrowdStrike Said in Talks to Buy Cybersecurity Firm Zscaler",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-20/crowdstrike-said-in-talks-to-buy-zscaler-video"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "ef1233c1f2794b45",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-20T21:35:24+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "3df02ecad32ac246",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T21:05:11+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "CrowdStrike Is in Talks to Buy Cybersecurity Firm Zscaler",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "crowdstrike-and-zscaler-acquisition-talks",
+   "label": "CrowdStrike and Zscaler acquisition talks",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3df02ecad32ac246",
+      "8683e40392ec20fc"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-20T21:05:11+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler) reported that CrowdStrike Holdings Inc. is in talks to acquire Zscaler Inc., according to people familiar with the matter."
+    },
+    {
+     "articles": [
+      "ef1233c1f2794b45"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-20T21:35:24+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html) reported that Zscaler stock jumped 18% on the report."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "CrowdStrike and Zscaler acquisition talks",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "42f712f06953ea77",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T16:39:43+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Bank Stocks Post Worst Week Since April 2025 as Rout Deepens",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/bank-stocks-set-for-worst-week-since-april-2025-as-rout-deepens"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "8087991e370b9d4d",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T03:24:35+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Asian shares head for worst week since 2020 as AI rout deepens",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "bank-stocks-post-worst-week-since",
+   "label": "Bank Stocks Post Worst Week Since April 2025 as Rout Deepens",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8087991e370b9d4d"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T03:24:35+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496) reported that Asian shares headed for their worst week since 2020 as the artificial intelligence rout deepened."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bank Stocks Post Worst Week Since April 2025 as Rout Deepens",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "9d1e3e14a8047b35",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-20T21:36:47+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Missouri judge approves Bayer’s $7.25 billion Roundup settlement",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "995b72ebba2d1ad4",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T20:48:14+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Bayer’s $7.25 Billion Roundup Settlement Approved by Judge",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "bayer-roundup-settlement-approval",
+   "label": "Bayer Roundup settlement approval",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "995b72ebba2d1ad4",
+      "9d1e3e14a8047b35"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-20T20:48:14+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge), [Investing.com](https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643) reported that a Missouri judge approved Bayer AG's proposal to pay as much as $7.25 billion to resolve tens of thousands of US lawsuits over Roundup."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Bayer Roundup settlement approval",
+   "topic": "justice"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T19:49:12+00:00"
+ "updated": "2026-11-20T22:31:20+00:00"
 }
