@@ -285,25 +285,25 @@
   {
    "articles": 220,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
-   "continuing": 0,
+   "calls": 2,
+   "candidates": 2,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 180,
-   "in_stories": 2,
+   "in_stories": 3,
    "kept": 2,
    "merged": 1,
    "new": 0,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 1,
-   "sent": 1,
+   "runs": 2,
+   "sent": 2,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -499,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T01:52:26+00:00"
+  "all": "2026-11-20T04:37:58+00:00"
  },
  "narratives": [
   {
@@ -738,8 +738,21 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "d9cd64dc22a6e470",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-20T01:47:52+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit VMware vCenter 0-Day Since September to Hijack Admin Accounts and Steal VM Data",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hackers-exploit-vmware-vcenter-0-day/"
+    },
     {
      "added": "2026-11-20",
      "id": "f480eb9da2956140",
@@ -942,14 +955,17 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
+   "previous_titles": [
+    "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
+   ],
    "reports": [
     {
      "articles": [
@@ -1109,13 +1125,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
-    "date": "2026-11-18",
-    "of": 3,
-    "outlet": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+    "date": "2026-11-20",
+    "of": 2,
+    "outlet": "SecurityWeek",
+    "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
    }
   },
   {
@@ -5589,5 +5605,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T01:52:43+00:00"
+ "updated": "2026-11-20T04:38:15+00:00"
 }

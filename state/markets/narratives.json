@@ -267,27 +267,27 @@
  ],
  "coverage": [
   {
-   "articles": 568,
+   "articles": 569,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 6,
-   "continuing": 2,
+   "calls": 2,
+   "candidates": 14,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 10,
-   "kept": 7,
+   "in_stories": 23,
+   "kept": 17,
    "merged": 0,
-   "new": 4,
-   "rejected": 2,
+   "new": 7,
+   "rejected": 4,
    "reported_by_2": 5,
-   "runs": 1,
-   "sent": 6,
+   "runs": 2,
+   "sent": 14,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 5,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T01:55:08+00:00"
+  "all": "2026-11-20T04:40:57+00:00"
  },
  "narratives": [
   {
@@ -713,8 +713,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 9,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "990d0c7166b72d90",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-20T04:12:34+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "204d4fe08b31e7d8",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T02:19:44+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns/articleshow/136010331.cms"
+    },
     {
      "added": "2026-11-20",
      "id": "383f2ce6a27e3eb7",
@@ -833,15 +859,29 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "204d4fe08b31e7d8",
+      "990d0c7166b72d90"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "ET Markets",
+      "Investing.com"
+     ],
+     "published": "2026-11-20T02:19:44+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/commodities/news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns/articleshow/136010331.cms), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-houthi-attacks-on-riyadh-raise-supply-concerns-5040518) reported that oil prices saw a slight uptick due to worries over supply disruptions triggered by recent Houthi strikes on Riyadh."
+    },
     {
      "articles": [
       "383f2ce6a27e3eb7"
@@ -927,15 +967,28 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Crude oil weekly price movement",
    "topic": "energy"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "2ec81938c9e64aa2",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-20T01:55:49+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil prices rise as M.East tensions persist; set for third week in red",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-rise-as-meast-tensions-persist-set-for-third-week-in-red-5040503"
+    },
     {
      "added": "2026-11-19",
      "id": "72a0ede6ec9adedf",
@@ -1015,14 +1068,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -1073,9 +1126,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -2195,8 +2248,34 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "3fc29715cb73e0d6",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T03:27:40+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold Rate Today Live: Gold slides 4%, silver tumbles 5% on MCX as dollar strengthens, Fed rate hike bets rise",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-20th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136011549.cms"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "bb5a3c8c619a3b6f",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-19T05:58:41+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold prices fall marginally, silver rises up to 0.5% on MCX: Gold Silver Rates Live Updates",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-19th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/135979606.cms"
+    },
     {
      "added": "2026-11-16",
      "id": "8953457076d5eeeb",
@@ -2237,15 +2316,27 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "bb5a3c8c619a3b6f"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-19T05:58:41+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-19th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/135979606.cms) reported that gold prices fell marginally while silver rose up to 0.5% on MCX."
+    },
     {
      "articles": [
       "275e2abfa59a459a"
@@ -2259,9 +2350,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -8774,7 +8865,7 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-20",
@@ -8791,6 +8882,19 @@
     },
     {
      "added": "2026-11-20",
+     "id": "22d447fead855f60",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-19T16:15:40+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Amazon launches in-app push against Mamdani-backed delivery bill in New York City",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html"
+    },
+    {
+     "added": "2026-11-20",
      "id": "eb8746715e61a896",
      "lang": "en",
      "outlet": "Investing.com Stock Markets",
@@ -8803,15 +8907,27 @@
      "url": "https://www.investing.com/news/stock-market-news/amazon-warns-nyc-delivery-bill-could-add-up-to-5-per-order-5038999"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "amazon-urges-nyc-customers-to-oppose",
    "label": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "22d447fead855f60"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-19T16:15:40+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/19/amazon-nyc-delivery-protection-act.html) reported that Amazon has lobbied heavily against the proposed legislation, while New York City Mayor Zohran Mamdani backed the bill earlier this year."
+    },
     {
      "articles": [
       "8744ba3f63e2e40d"
@@ -8890,8 +9006,21 @@
    "topic": "technology-policy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "793139296dda1568",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-20T00:01:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "California Attorney General Issues Investigative Subpoena to Nvidia",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-20",
      "id": "c39256dd002e1603",
@@ -8919,15 +9048,27 @@
      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "california-investigation-into-nvidia",
    "label": "California investigation into Nvidia",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "793139296dda1568"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T00:01:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/california-attorney-general-issues-investigative-subpoena-to-nvidia-097cea9e?mod=rss_markets_main) reported that Rob Bonta opened a probe into the embattled chip maker to determine whether the company misled investors."
+    },
     {
      "articles": [
       "c1f4e96ae4d57d2a"
@@ -8956,11 +9097,228 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "California investigation into Nvidia",
+   "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-20",
+    "of": 2,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/19/nvidia-california-bonta-subpoena-china-chips.html"
+   },
    "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "009f7077ad88bb46",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T01:45:04+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold set for worst week since March as rate-hike expectations grow",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-worst-week-since-march-as-rate-hike-expectations-grow/articleshow/136009768.cms"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "f7d9d3655d16f49f",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-19T23:56:03+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "gold-set-for-worst-week-since",
+   "label": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f7d9d3655d16f49f"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-19T23:56:03+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff) reported that gold fell and was heading for the biggest weekly decline since March, as a hawkish Federal Reserve signaled more interest-rate hikes and a rout in AI stocks pushed investors away."
+    },
+    {
+     "articles": [
+      "009f7077ad88bb46"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-20T01:45:04+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-worst-week-since-march-as-rate-hike-expectations-grow/articleshow/136009768.cms) reported that gold prices plummeted on Friday, recording their most significant weekly dip since March, driven by a strengthening US dollar."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "a9dd882c584927d0",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T02:47:28+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "D-Street’s stellar rally faces valuation test as bond allure grows",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/indias-stock-rally-faces-valuation-test-as-bond-allure-grows/articleshow/136010605.cms"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "5641db34ba64bfd7",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-20T00:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "India’s Stock Rally Faces Valuation Test as Bond Allure Grows",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "india-stock-market-valuation-and-bond",
+   "label": "India stock market valuation and bond yields",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5641db34ba64bfd7"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-20T00:00:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows) reported that India's stock rebound is approaching a crucial valuation test as rising bond yields make sovereign debt an increasingly viable alternative to equities."
+    },
+    {
+     "articles": [
+      "a9dd882c584927d0"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-20T02:47:28+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/bonds/indias-stock-rally-faces-valuation-test-as-bond-allure-grows/articleshow/136010605.cms) reported that India's stock market is experiencing valuation challenges due to increasing bond yields that diminish equity attractiveness."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "India stock market valuation and bond yields",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "73e77559d943bfbd",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-20T04:18:25+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US Senate passes bipartisan bill to speed energy, infrastructure projects",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/us-senate-passes-bipartisan-bill-to-speed-energy-infrastructure-projects-5040581"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "e54a4e54d072ffa1",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T04:12:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Senate Passes Measure Designed to Speed Up Energy Projects, Lower Consumer Costs",
+     "type": "international",
+     "url": "https://www.wsj.com/politics/policy/senate-passes-measure-designed-to-speed-up-energy-projects-lower-consumer-costs-dcacc9c6?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "us-senate-energy-permitting-legislation",
+   "label": "US Senate energy permitting legislation",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e54a4e54d072ffa1"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T04:12:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/politics/policy/senate-passes-measure-designed-to-speed-up-energy-projects-lower-consumer-costs-dcacc9c6?mod=pls_whats_news_us_business_f) reported that the bipartisan effort to streamline federal permitting split Democrats over environmental concerns."
+    },
+    {
+     "articles": [
+      "73e77559d943bfbd"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T04:18:25+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/us-senate-passes-bipartisan-bill-to-speed-energy-infrastructure-projects-5040581) reported that the US Senate passed a bipartisan bill to speed energy and infrastructure projects."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US Senate energy permitting legislation",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T01:55:27+00:00"
+ "updated": "2026-11-20T04:41:17+00:00"
 }
