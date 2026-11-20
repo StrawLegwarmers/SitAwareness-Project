@@ -269,25 +269,25 @@
   {
    "articles": 569,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 14,
-   "continuing": 7,
+   "calls": 3,
+   "candidates": 19,
+   "continuing": 11,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 525,
-   "in_stories": 23,
-   "kept": 17,
+   "in_stories": 29,
+   "kept": 20,
    "merged": 0,
-   "new": 7,
-   "rejected": 4,
+   "new": 8,
+   "rejected": 5,
    "reported_by_2": 5,
-   "runs": 2,
-   "sent": 14,
+   "runs": 3,
+   "sent": 19,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 5,
+   "updated": 9,
    "waiting": 0
   },
   {
@@ -463,7 +463,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T04:40:57+00:00"
+  "all": "2026-11-20T07:59:27+00:00"
  },
  "narratives": [
   {
@@ -713,8 +713,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 11,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "02293cce53edbf3e",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-20T05:51:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html"
+    },
     {
      "added": "2026-11-20",
      "id": "990d0c7166b72d90",
@@ -859,15 +872,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "02293cce53edbf3e"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-20T05:51:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html) reported that crude oil prices rebounded and gained on reports of fresh Houthi attacks on Saudi targets and continued tank..."
+    },
     {
      "articles": [
       "204d4fe08b31e7d8",
@@ -970,7 +995,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Crude oil weekly price movement",
+   "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-20",
+    "of": 3,
+    "outlet": "Oilprice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html"
+   },
    "topic": "energy"
   },
   {
@@ -2248,8 +2280,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "3f18013817fdbe89",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-20T06:33:42+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold slides to 14-mth low, set for weekly drop amid Fed hike bets",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-slides-to-14mth-low-set-for-weekly-drop-amid-fed-hike-bets-5040648"
+    },
     {
      "added": "2026-11-20",
      "id": "3fc29715cb73e0d6",
@@ -2316,14 +2361,14 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -2350,7 +2395,7 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "US dollar and gold markets",
@@ -6160,8 +6205,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "e1133ab4bdab9902",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-20T04:47:39+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "SELLAS Life Sciences shares plunge 19%: What triggered the sharp sell-off?",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/sellas-life-sciences-shares-plunge-19-what-triggered-the-sharp-sell-off/slideshow/136013890.cms"
+    },
     {
      "added": "2026-11-18",
      "id": "1a66456c72efb4aa",
@@ -6202,14 +6260,14 @@
      "url": "https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sellas-life-sciences-cancer-vaccine-trial",
    "label": "Sellas Life Sciences Cancer Vaccine Trial",
    "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6238,9 +6296,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sellas-life-sciences-stock-triples-after-cancer-vaccine-data), [Investing.com](https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050) reported that Sellas Life Sciences Group stock surged after the drug developer reported positive late-stage trial results for an experimental cancer vaccine."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Sellas Life Sciences Cancer Vaccine Trial",
    "topic": "business"
   },
@@ -7667,8 +7725,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "10cf484216f99297",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-19T15:50:59+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto's raised sales forecast powers rally in cybersecurity stocks",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/palo-altos-raised-sales-forecast-powers-rally-in-cybersecurity-stocks/articleshow/135997775.cms"
+    },
     {
      "added": "2026-11-19",
      "id": "bf8c33b605258204",
@@ -7709,14 +7780,14 @@
      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "palo-alto-networks-acquisition-of-applied",
    "label": "Palo Alto Networks Acquisition of Applied Compute",
    "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_updated": "2026-11-20",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -7755,9 +7826,9 @@
      "text": "[CNBC](https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html) reported that Palo Alto Networks shares rose 7% on earnings."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Palo Alto Networks Acquisition of Applied Compute",
    "topic": "business"
   },
@@ -9316,9 +9387,79 @@
    "status": "new",
    "title": "US Senate energy permitting legislation",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "14d3f0ef5a43db3b",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-20T07:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Senate Passes Sweeping Energy Permitting Reform Bill in 62-33 Vote",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html"
+    },
+    {
+     "added": "2026-11-20",
+     "id": "7d0f8ef57b33b43c",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-20T03:56:17+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Senate passes BAAJA permitting reform bill backed by AI, energy sectors",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "us-energy-permitting-reform-bill",
+   "label": "US energy permitting reform bill",
+   "last_reported": "2026-11-20",
+   "last_updated": "2026-11-20",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7d0f8ef57b33b43c"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-20T03:56:17+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html) reported that the Senate passed the BAAJA permitting reform bill backed by the AI and energy sectors."
+    },
+    {
+     "articles": [
+      "14d3f0ef5a43db3b"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-20T07:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html) reported that the Senate passed the Bipartisan American Affordability and Jobs Bill in a 62-33 vote to speed up approval for large-scale energy projects."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US energy permitting reform bill",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T04:41:17+00:00"
+ "updated": "2026-11-20T07:59:51+00:00"
 }

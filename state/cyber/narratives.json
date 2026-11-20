@@ -285,25 +285,25 @@
   {
    "articles": 220,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 2,
-   "continuing": 1,
+   "calls": 3,
+   "candidates": 3,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-20",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 180,
-   "in_stories": 3,
-   "kept": 2,
+   "in_stories": 4,
+   "kept": 3,
    "merged": 1,
    "new": 0,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 2,
-   "sent": 2,
+   "runs": 3,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -499,7 +499,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T04:37:58+00:00"
+  "all": "2026-11-20T07:54:56+00:00"
  },
  "narratives": [
   {
@@ -738,8 +738,21 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-20",
+     "id": "3a932385e38ba41e",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-20T06:33:31+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+    },
     {
      "added": "2026-11-20",
      "id": "d9cd64dc22a6e470",
@@ -955,18 +968,30 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
    "reports": [
+    {
+     "articles": [
+      "3a932385e38ba41e"
+     ],
+     "date": "2026-11-20",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-20T06:33:31+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html) reported that a China-nexus cyber espionage group known as Armory Castle has been attributed to the zero-day exploitation of a critical VMware vCenter security flaw."
+    },
     {
      "articles": [
       "868ba9cea8d4c4bb"
@@ -5605,5 +5630,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T04:38:15+00:00"
+ "updated": "2026-11-20T07:55:13+00:00"
 }
