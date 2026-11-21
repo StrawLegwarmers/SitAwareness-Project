@@ -373,25 +373,25 @@
   {
    "articles": 508,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 4,
-   "continuing": 2,
+   "calls": 2,
+   "candidates": 6,
+   "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-21",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
    "groups": 455,
-   "in_stories": 6,
-   "kept": 4,
+   "in_stories": 8,
+   "kept": 5,
    "merged": 0,
    "new": 2,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 1,
-   "sent": 4,
+   "runs": 2,
+   "sent": 6,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -591,7 +591,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T01:57:03+00:00"
+  "all": "2026-11-21T04:36:59+00:00"
  },
  "narratives": [
   {
@@ -4837,8 +4837,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 6,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "e2088fe53d2c0f01",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T17:50:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Cook says September rate hike likely insufficient to curb price pressures",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "c1a97d28fb17d721",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T17:24:58+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Cook says rate hikes needed to lower high inflation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321"
+    },
     {
      "added": "2026-11-17",
      "id": "c5bd485a3f182aed",
@@ -4918,15 +4944,28 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "fed-rate-hikes",
    "label": "Fed rate hikes",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "c1a97d28fb17d721",
+      "e2088fe53d2c0f01"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T17:24:58+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321) reported that Fed governor Cook stated rate hikes are needed to lower high inflation and that the September rate hike is likely insufficient to curb price pressures."
+    },
     {
      "articles": [
       "47d20e2eec55532f",
@@ -4957,9 +4996,9 @@
      "text": "[CNBC](https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html) reported that St. Louis Fed's Musalem said four more rate hikes may be needed in the coming months."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
    "title_from": {
     "backing": 3,
@@ -9838,5 +9877,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-21T01:57:20+00:00"
+ "updated": "2026-11-21T04:37:15+00:00"
 }

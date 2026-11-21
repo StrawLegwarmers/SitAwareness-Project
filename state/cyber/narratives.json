@@ -323,7 +323,7 @@
  ],
  "coverage": [
   {
-   "articles": 173,
+   "articles": 177,
    "attached_by_code": 0,
    "calls": 0,
    "candidates": 0,
@@ -332,14 +332,14 @@
    "date": "2026-11-21",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 154,
+   "groups": 158,
    "in_stories": 0,
    "kept": 0,
    "merged": 0,
    "new": 0,
    "rejected": 0,
    "reported_by_2": 1,
-   "runs": 1,
+   "runs": 2,
    "sent": 0,
    "skipped": 0,
    "split_calls": 0,
@@ -563,7 +563,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T01:53:51+00:00"
+  "all": "2026-11-21T04:34:45+00:00"
  },
  "narratives": [
   {
@@ -5744,5 +5744,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-21T01:53:51+00:00"
+ "updated": "2026-11-21T04:34:46+00:00"
 }
