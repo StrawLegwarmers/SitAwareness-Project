@@ -2,6 +2,46 @@
  "archived": [
   {
    "article_count": 1,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "gta-vi-malware-scams",
+   "last_updated": "2026-11-14",
+   "title": "GTA VI malware scams"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "faa-flight-groundings",
+   "last_updated": "2026-11-14",
+   "title": "FAA flight groundings"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "signdrop-windows-zero-day-exploit",
+   "last_updated": "2026-11-14",
+   "title": "SignDrop Windows zero-day exploit"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "faa-nationwide-flight-ground-stop",
+   "last_updated": "2026-11-14",
+   "title": "FAA nationwide flight ground stop"
+  },
+  {
+   "article_count": 8,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "check-point-firewall-exploitation",
+   "last_updated": "2026-11-14",
+   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper"
+  },
+  {
+   "article_count": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "sckit-abuses-screenconnect",
@@ -283,6 +323,30 @@
  ],
  "coverage": [
   {
+   "articles": 173,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-21",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 154,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 220,
    "attached_by_code": 0,
    "calls": 8,
@@ -499,7 +563,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T22:26:14+00:00"
+  "all": "2026-11-21T01:53:51+00:00"
  },
  "narratives": [
   {
@@ -994,14 +1058,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 5,
+   "outlets_today": 0,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -1187,7 +1251,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -1195,245 +1259,6 @@
     "of": 2,
     "outlet": "SecurityWeek",
     "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
-   }
-  },
-  {
-   "article_count": 8,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "22bb4f70b49205bf",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-14T03:47:33+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
-     "type": null,
-     "url": "https://cybersecuritynews.com/check-point-0-day-vulnerability/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "95d45f505fa7bd6e",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-13T16:21:43+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-10-30"
-     ],
-     "id": "c673f076cf38f13e",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-13T11:35:05+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell",
-     "type": null,
-     "url": "https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "84d6fd156fd87ba0",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-13T10:44:22+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Check Point warns of zero-day flaw exploited for root access",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "c4f65913ad22e4e9",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-13T08:05:49+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "9cad47c67ab5666e",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T07:39:04+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "PHP2Shell Exploited in Destructive Check Point Gateway Attacks",
-     "type": null,
-     "url": "https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-10-30"
-     ],
-     "id": "e2ebbb57ec3d3c84",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-13T06:38:59+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Exploit Check Point Firewall Flaws to Gain Root Access and Deploy Wiper Malware on VMware ESXi",
-     "type": null,
-     "url": "https://cybersecuritynews.com/hackers-exploit-check-point-firewall-flaws/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "54d72cd1204ce282",
-     "lang": "en",
-     "outlet": "Check Point Research",
-     "published": "2026-11-12T13:56:37+00:00",
-     "publisher": "Check Point Research",
-     "region": null,
-     "section": "intel",
-     "title": "PHP2Shell Exploitation on Check Point Gateway",
-     "type": null,
-     "url": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "check-point-firewall-exploitation",
-   "label": "Check Point firewall exploitation",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "previous_titles": [
-    "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-    "Unpatched Check Point Gateways Are Being Wiped exploiting PHP2Shell"
-   ],
-   "reports": [
-    {
-     "articles": [
-      "22bb4f70b49205bf"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-14T03:47:33+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/check-point-0-day-vulnerability/) reported that CISA warned of a Check Point zero-day vulnerability being exploited to gain root access on affected appliances."
-    },
-    {
-     "articles": [
-      "95d45f505fa7bd6e"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-13T16:21:43+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/) reported that vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts."
-    },
-    {
-     "articles": [
-      "84d6fd156fd87ba0"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-13T10:44:22+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/) reported that Check Point Software released emergency hotfixes for a high-severity zero-day flaw exploited for root access and persistence."
-    },
-    {
-     "articles": [
-      "9cad47c67ab5666e"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-13T07:39:04+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/php2shell-exploited-in-destructive-check-point-gateway-attacks/) reported that PHP2Shell enabled initial compromise while CVE-2026-123039 allowed attackers to elevate privileges to root on Check Point Gateway."
-    },
-    {
-     "articles": [
-      "c673f076cf38f13e"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-13T11:35:05+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/202982/hacking/unpatched-check-point-gateways-are-being-wiped-exploiting-php2shell.html) reported that unpatched Check Point gateways were hacked worldwide, leading to root access, backdoors, network intrusion, and destructive wiper attacks starting on 30 October."
-    },
-    {
-     "articles": [
-      "54d72cd1204ce282"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Check Point Research"
-     ],
-     "published": "2026-11-12T13:56:37+00:00",
-     "text": "[Check Point Research](https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/) reported that activity originating from PHP2Shell exploitation on Check Point Gateway was confirmed in late October 2026, approximately one week after a security fix became available."
-    },
-    {
-     "articles": [
-      "e2ebbb57ec3d3c84"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-13T06:38:59+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-exploit-check-point-firewall-flaws/) reported that hackers chained Check Point firewall vulnerabilities to gain root access, plant backdoors, and deploy destructive malware on a VMware ESXi host."
-    },
-    {
-     "articles": [
-      "c4f65913ad22e4e9"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-13T08:05:49+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html) reported that an unknown threat actor targeted unpatched Check Point Security Gateways to obtain initial access via PHP2Shell vulnerabilities and deploy the TSGA backdoor and wipe ESXi files."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-   "title_from": {
-    "backing": 5,
-    "date": "2026-11-13",
-    "of": 5,
-    "outlet": "BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/"
    }
   },
   {
@@ -1959,159 +1784,6 @@
    "articles": [
     {
      "added": "2026-11-14",
-     "id": "0614709b30a60ce0",
-     "lang": "en",
-     "outlet": "Ticker News",
-     "published": "2026-11-13T22:05:01+00:00",
-     "publisher": "Ticker News",
-     "region": null,
-     "section": "aviation",
-     "title": "Why has the FAA grounded all U.S. flights and what’s causing the nationwide shutdown?",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRUE0aEh0cFR6VF81ZGV6eW51MU1ScWJfZUo0STluc1RnVnRGN2JfZ2Z3aFpEdHpaeXFwbS1LdmtWdmxtTWRaTTh0SmowWXBqNnlMeE9XZVVEdXZfY1dPbFVWMGNjamhpUGtZNkJSS1Fyd3dkQ1p4a2dYaDktVG5NLXBNZml2VlFNTnhGNXVKRjZjSVNiei1hLW14YkVBZnpJNEdzNjNfakQ?oc=5"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ffc0a35ef75ed986",
-     "lang": "en",
-     "outlet": "AeroTime",
-     "published": "2026-11-13T21:53:31+00:00",
-     "publisher": "AeroTime",
-     "region": null,
-     "section": "aviation",
-     "title": "FAA halts all US departures, warns airborne flights to expect holding nationwide",
-     "type": null,
-     "url": "https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "5249a08445b00c29",
-     "lang": "en",
-     "outlet": "Simple Flying",
-     "published": "2026-11-13T21:41:18+00:00",
-     "publisher": "Simple Flying",
-     "region": null,
-     "section": "aviation",
-     "title": "Breaking: FAA Issues Nationwide Ground Stop For All US Flights",
-     "type": null,
-     "url": "https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "faa-nationwide-flight-ground-stop",
-   "label": "FAA nationwide flight ground stop",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "5249a08445b00c29"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Simple Flying"
-     ],
-     "published": "2026-11-13T21:41:18+00:00",
-     "text": "[Simple Flying](https://simpleflying.com/breaking-faa-issues-nationwide-ground-stop/) reported that the FAA issued a nationwide ground stop for all US flights and cited communication problems."
-    },
-    {
-     "articles": [
-      "ffc0a35ef75ed986"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "AeroTime"
-     ],
-     "published": "2026-11-13T21:53:31+00:00",
-     "text": "[AeroTime](https://www.aerotime.aero/articles/faa-nationwide-ground-stop-atc-communications-november-2026) reported that the US Federal Aviation Administration ordered a nationwide ground stop shortly before 4 p.m. Eastern time and warned airborne flights to expect holding nationwide."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "FAA nationwide flight ground stop",
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "b9812b94e3afa8fd",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T08:50:36+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘SignDrop’",
-     "type": null,
-     "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "6b1200356ff1a438",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-12T17:50:27+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "signdrop-windows-zero-day-exploit",
-   "label": "SignDrop Windows zero-day exploit",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "6b1200356ff1a438"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-12T17:50:27+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html) reported that public exploit code claims a local Windows user can gain SYSTEM privileges through the Common Log File System driver."
-    },
-    {
-     "articles": [
-      "b9812b94e3afa8fd"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-13T08:50:36+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-signdrop/) reported that Nightmare Eclipse dropped a Windows zero-day exploit abusing CLFS and Windows Defender to trigger arbitrary file creation."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "SignDrop Windows zero-day exploit",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-14",
      "id": "10b047f775c37b86",
      "lang": "en",
      "outlet": "ABC News - Breaking News, Latest News and Videos",
@@ -2191,109 +1863,6 @@
    "status": "unchanged",
    "title": "US airport ground stop",
    "topic": "infrastructure"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "2f079f694e4627f0",
-     "lang": "en",
-     "outlet": "Sada Elbalad English",
-     "published": "2026-11-14T00:04:47+00:00",
-     "publisher": "Sada Elbalad English",
-     "region": null,
-     "section": "aviation",
-     "title": "Breaking News: US Aviation Paralysis: Telecom Outage Grounds Flights at JFK; Officials Rule Out Cyberattack",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUFptYjA4dHF0M2tsZlhFcktTWEwtNV8xQjZualFqNmdDQ3dkQkdyNXlaeEhwX0xvUkU2TC1LM3FKU3pTR1dPdUJuaUVXa2s2T0FIN3lzYnJ3Y2lzSWhSQmp3RFFSWnNSLTVfTVFuU1dkVzNMTXZoZm5ueWd1OEZMTGpsR1ZzbVRwcGNTR0F4d3R5b2ZCS25xRG1tVjVoOHJVdlJmeXhQV3FkaEdjaWhNSkZqcUZud2hZWWlsQ3VR?oc=5"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "9eda75bddaffa170",
-     "lang": "en",
-     "outlet": "Times Now",
-     "published": "2026-11-13T21:52:32+00:00",
-     "publisher": "Times Now",
-     "region": null,
-     "section": "aviation",
-     "title": "Why Did FAA Ground All Flights? Trump Rules Out Cyberattack, AI; DHS Points To Telecom Outage",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxON1ZQTEpNeVJDQ0dZamI3dVQ4bjQxMmc4Y0NnZ1lqQVBkejl0LXJ6NEZJNlVHWHNFaWdCTEF5cjdDb0FZSDhIOTNnbnlhR3hsdkZ3NFpwc25QdURsaFlOTFZxV0JINmhBQmV5azhTbEhGVWlzOHBsR3Vvc3FtYkI0T2hQN0IydW16c0s0UWw5UGNKeW1oX2FFOUZIZE4wZXJYQ2RURjhPQzM4d1l2YW5iQUZMem5NNUxMcWF0eXJUVGd4MmdTNnFiS3BNYTNnQnFYLW5r0gHYAUFVX3lxTE1rUUIyYkFzQXpjWVdZdXVOZk8yMUVXRDdxaS1ES2lmaVNHYU5qeE5sZ0M4TmhpQ3NELVJvN1IwQmVmYXRfaFk1YUo2ZXAzOWlIZlZYdEw3anA1SUV5bDNVM1hCVnVONGtCWDFGSGpXMTZnUnE2RUJsMFhzOHBxZkQ2SUdMcGh4WDRySzk2NHgxdGpxaHd1ckdFa3Itd1oySXRaZ0d2TlRkTkx0cC1DQ2V6WmkzaHdpdWtNRzU1WDVjV1o4R1Bpd1EzcTk0WmhhdVNQLUEtSmlvZQ?oc=5"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "faa-flight-groundings",
-   "label": "FAA flight groundings",
-   "last_reported": "2026-11-14",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "2f079f694e4627f0",
-      "9eda75bddaffa170"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Times Now",
-      "Sada Elbalad English"
-     ],
-     "published": "2026-11-13T21:52:32+00:00",
-     "text": "[Times Now](https://news.google.com/rss/articles/CBMi0wFBVV95cUxON1ZQTEpNeVJDQ0dZamI3dVQ4bjQxMmc4Y0NnZ1lqQVBkejl0LXJ6NEZJNlVHWHNFaWdCTEF5cjdDb0FZSDhIOTNnbnlhR3hsdkZ3NFpwc25QdURsaFlOTFZxV0JINmhBQmV5azhTbEhGVWlzOHBsR3Vvc3FtYkI0T2hQN0IydW16c0s0UWw5UGNKeW1oX2FFOUZIZE4wZXJYQ2RURjhPQzM4d1l2YW5iQUZMem5NNUxMcWF0eXJUVGd4MmdTNnFiS3BNYTNnQnFYLW5r0gHYAUFVX3lxTE1rUUIyYkFzQXpjWVdZdXVOZk8yMUVXRDdxaS1ES2lmaVNHYU5qeE5sZ0M4TmhpQ3NELVJvN1IwQmVmYXRfaFk1YUo2ZXAzOWlIZlZYdEw3anA1SUV5bDNVM1hCVnVONGtCWDFGSGpXMTZnUnE2RUJsMFhzOHBxZkQ2SUdMcGh4WDRySzk2NHgxdGpxaHd1ckdFa3Itd1oySXRaZ0d2TlRkTkx0cC1DQ2V6WmkzaHdpdWtNRzU1WDVjV1o4R1Bpd1EzcTk0WmhhdVNQLUEtSmlvZQ?oc=5), [Sada Elbalad English](https://news.google.com/rss/articles/CBMivgFBVV95cUxOUFptYjA4dHF0M2tsZlhFcktTWEwtNV8xQjZualFqNmdDQ3dkQkdyNXlaeEhwX0xvUkU2TC1LM3FKU3pTR1dPdUJuaUVXa2s2T0FIN3lzYnJ3Y2lzSWhSQmp3RFFSWnNSLTVfTVFuU1dkVzNMTXZoZm5ueWd1OEZMTGpsR1ZzbVRwcGNTR0F4d3R5b2ZCS25xRG1tVjVoOHJVdlJmeXhQV3FkaEdjaWhNSkZqcUZud2hZWWlsQ3VR?oc=5) reported that officials ruled out a cyberattack regarding the FAA grounding of all flights."
-    },
-    {
-     "articles": [
-      "2f079f694e4627f0"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Sada Elbalad English"
-     ],
-     "published": "2026-11-14T00:04:47+00:00",
-     "text": "[Sada Elbalad English](https://news.google.com/rss/articles/CBMivgFBVV95cUxOUFptYjA4dHF0M2tsZlhFcktTWEwtNV8xQjZualFqNmdDQ3dkQkdyNXlaeEhwX0xvUkU2TC1LM3FKU3pTR1dPdUJuaUVXa2s2T0FIN3lzYnJ3Y2lzSWhSQmp3RFFSWnNSLTVfTVFuU1dkVzNMTXZoZm5ueWd1OEZMTGpsR1ZzbVRwcGNTR0F4d3R5b2ZCS25xRG1tVjVoOHJVdlJmeXhQV3FkaEdjaWhNSkZqcUZud2hZWWlsQ3VR?oc=5) reported that a telecom outage grounded flights at JFK."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "FAA flight groundings",
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "8f94bd803f3f7815",
-     "lang": "en",
-     "outlet": "ESET WeLiveSecurity",
-     "published": "2026-11-13T10:00:00+00:00",
-     "publisher": "ESET WeLiveSecurity",
-     "region": null,
-     "section": "intel",
-     "title": "GTA VI isn’t out yet – and the scams are already in full swing",
-     "type": null,
-     "url": "https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "gta-vi-malware-scams",
-   "label": "GTA VI malware scams",
-   "last_updated": "2026-11-14",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "GTA VI malware scams",
-   "topic": "cyber"
   },
   {
    "article_count": 4,
@@ -4439,14 +4008,14 @@
      "url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "uat-12643-suspected-north-korea-aligned",
    "label": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4473,9 +4042,9 @@
      "text": "[Cisco](https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/) reported that Cisco Talos discovered malicious infrastructure associated with a financially motivated and suspected North Korea-aligned threat group tracked as UAT-12643."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
    "topic": "cyber"
   },
@@ -5731,14 +5300,14 @@
      "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "jpmorgan-chase-data-breach",
    "label": "JPMorgan Chase data breach",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 6,
+   "outlets_today": 0,
    "previous_titles": [
     "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
     "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims"
@@ -5819,7 +5388,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers",
    "title_from": {
     "backing": 5,
@@ -5889,14 +5458,14 @@
      "url": "https://www.infosecurity-magazine.com/news/tfl-customers-personal-data-exposed/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "transport-for-london-data-breach",
    "label": "Transport for London data breach",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5931,7 +5500,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach",
    "title_from": {
     "backing": 3,
@@ -5972,14 +5541,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "sbc-medical-group-data-breaches",
    "label": "SBC Medical Group data breaches",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6008,7 +5577,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "SBC Medical Group data breaches",
    "topic": "cyber"
   },
@@ -6042,14 +5611,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "cisco-expressway-security-flaw-exploitation",
    "label": "Cisco Expressway security flaw exploitation",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6078,7 +5647,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
   },
@@ -6099,14 +5668,14 @@
      "url": "https://www.recordedfuture.com/blog/ai-industrial-attack-workflow"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "greenjuliett-and-ai-attack-workflows",
    "label": "GreenJuliett and AI attack workflows",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6121,9 +5690,9 @@
      "text": "[Recorded Future Research](https://www.recordedfuture.com/blog/ai-industrial-attack-workflow) reported that Insikt Group analyzed how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GreenJuliett and AI attack workflows",
    "topic": "cyber"
   },
@@ -6144,14 +5713,14 @@
      "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "com-affiliate-vishing-and-data-theft",
    "label": "Com affiliate vishing and data theft campaigns",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6166,14 +5735,14 @@
      "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/) reported that an analysis of Com affiliate vishing attacks, cloud data theft, and extortion campaigns targeted healthcare and finance."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Com affiliate vishing and data theft campaigns",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-20T22:26:31+00:00"
+ "updated": "2026-11-21T01:53:51+00:00"
 }

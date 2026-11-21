@@ -2,6 +2,110 @@
  "archived": [
   {
    "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "jpmorgan-chase-software-bug-disruptions",
+   "last_updated": "2026-11-16",
+   "title": "JPMorgan Chase software bug disruptions"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "us-banks-online-service-disruptions",
+   "last_updated": "2026-11-16",
+   "title": "US banks online service disruptions"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "trump-media-debt-repayment",
+   "last_updated": "2026-11-16",
+   "title": "Trump Media debt repayment"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "eli-lilly-acquisition-of-calytrix-bio",
+   "last_updated": "2026-11-16",
+   "title": "Eli Lilly acquisition of Calytrix Bio"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "canada-inflation-rate",
+   "last_updated": "2026-11-16",
+   "title": "Canada inflation rate"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "rocket-launch-failure",
+   "last_updated": "2026-11-16",
+   "title": "Rocket launch failure"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "bank-of-canada-leadership-succession",
+   "last_updated": "2026-11-16",
+   "title": "Bank of Canada Gov. Macklem to Leave in June, Kicking Off Search for New Leader"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "warren-buffett-charitable-donations",
+   "last_updated": "2026-11-16",
+   "title": "Warren Buffett charitable donations"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "blackstone-acquisition-of-amazon-data-centers",
+   "last_updated": "2026-11-16",
+   "title": "Blackstone acquisition of Amazon data centers"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "johnson-johnson-acquisition-of-ollin-biosciences",
+   "last_updated": "2026-11-16",
+   "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "china-economic-output-and-sales",
+   "last_updated": "2026-11-16",
+   "title": "China economic output and sales"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "japan-economy-contraction",
+   "last_updated": "2026-11-16",
+   "title": "Japan economy contraction"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "akeso-cancer-drug-fda-rejection",
+   "last_updated": "2026-11-16",
+   "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs"
+  },
+  {
+   "article_count": 2,
    "first_seen": "2026-11-15",
    "group": "all",
    "id": "new-world-rights-issue",
@@ -267,6 +371,30 @@
  ],
  "coverage": [
   {
+   "articles": 508,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 4,
+   "continuing": 2,
+   "corroborated": 0,
+   "date": "2026-11-21",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 455,
+   "in_stories": 6,
+   "kept": 4,
+   "merged": 0,
+   "new": 2,
+   "rejected": 0,
+   "reported_by_2": 3,
+   "runs": 1,
+   "sent": 4,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 2,
+   "waiting": 0
+  },
+  {
    "articles": 569,
    "attached_by_code": 0,
    "calls": 8,
@@ -463,12 +591,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-20T22:31:01+00:00"
+  "all": "2026-11-21T01:57:03+00:00"
  },
  "narratives": [
   {
-   "article_count": 10,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "59f79b2cad3db1d7",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T15:48:24+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Bessent advocates lower Fed rate hike, cites energy shock",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/bessent-advocates-lower-fed-rate-hike-cites-energy-shock-5042202"
+    },
     {
      "added": "2026-11-18",
      "id": "c36b8438b71cee19",
@@ -600,15 +741,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-monetary-policy-stance",
    "label": "Federal Reserve monetary policy stance",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "59f79b2cad3db1d7"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T15:48:24+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/bessent-advocates-lower-fed-rate-hike-cites-energy-shock-5042202) reported that Bessent advocated a lower Fed rate hike and cited an energy shock."
+    },
     {
      "articles": [
       "c36b8438b71cee19",
@@ -699,9 +852,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/fed-s-williams-says-inflation-far-too-high-still-work-to-do) reported that Federal Reserve Bank of New York President John Williams said that United States inflation remains far too high and policymakers have further work to do to contain price pressures."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
    "title_from": {
     "backing": 2,
@@ -911,14 +1064,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1069,7 +1222,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
    "title_from": {
     "backing": 3,
@@ -1175,14 +1328,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1233,9 +1386,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -1804,14 +1957,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1907,9 +2060,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation), [Investing.com](https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest-rate increases will be needed to bring down inflation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -2539,7 +2692,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -2549,7 +2702,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2618,7 +2771,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -3257,355 +3410,6 @@
    "topic": "markets"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "36cfddb9d71d0792",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-16T15:48:04+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "US stocks: Summit shares drop after US FDA declines to approve lung cancer drug",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-summit-shares-drop-after-us-fda-declines-to-approve-lung-cancer-drug/articleshow/135894815.cms"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "1eb050b32e1febd9",
-     "lang": "en",
-     "outlet": "MarketWatch Top Stories",
-     "published": "2026-11-16T15:06:00+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
-     "type": "international",
-     "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "43d06304f1f762ce",
-     "lang": "en",
-     "outlet": "SCMP Business",
-     "published": "2026-11-16T05:00:10+00:00",
-     "publisher": "South China Morning Post",
-     "region": null,
-     "section": "news",
-     "title": "Akeso shares plummet as Chinese firm’s cancer drug ivonescimab faces FDA setback",
-     "type": "regional",
-     "url": "https://www.scmp.com/business/china-business/article/3374543/akeso-shares-plummet-chinese-firms-cancer-drug-ivonescimab-faces-fda-setback"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "e6d0e6559119f35e",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-15T17:07:06+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "FDA rejects cancer drug invented in China in blow to Beijing’s biotech sector",
-     "type": "international",
-     "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "akeso-cancer-drug-fda-rejection",
-   "label": "Akeso cancer drug FDA rejection",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "36cfddb9d71d0792"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-16T15:48:04+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-summit-shares-drop-after-us-fda-declines-to-approve-lung-cancer-drug/articleshow/135894815.cms) reported that Summit Therapeutics shares dropped following the US FDA's ruling on ivonescimab, which revealed insufficient overall survival benefits."
-    },
-    {
-     "articles": [
-      "1eb050b32e1febd9"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "MarketWatch"
-     ],
-     "published": "2026-11-16T15:06:00+00:00",
-     "text": "[MarketWatch](https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories) reported that the FDA declined to approve a lung-cancer drug for Summit Therapeutics."
-    },
-    {
-     "articles": [
-      "43d06304f1f762ce"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "South China Morning Post"
-     ],
-     "published": "2026-11-16T05:00:10+00:00",
-     "text": "[South China Morning Post](https://www.scmp.com/business/china-business/article/3374543/akeso-shares-plummet-chinese-firms-cancer-drug-ivonescimab-faces-fda-setback) reported that shares in Hong Kong-listed Akeso plunged as much as 31.8 per cent on Monday morning after the decision."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-16",
-    "of": 2,
-    "outlet": "MarketWatch",
-    "url": "https://www.marketwatch.com/story/the-fda-declined-to-approve-one-of-biotechs-most-closely-watched-cancer-drugs-d7c6a0a3?mod=mw_rss_topstories"
-   },
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "f635dd2cd906504e",
-     "lang": "en",
-     "outlet": "FT Global Economy",
-     "published": "2026-11-16T04:59:28+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Japan’s economy contracts for the first time in a year",
-     "type": "international",
-     "url": "https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "fbe3280b4d5e6cf6",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-16T00:51:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Japan Economy Contracts for First Time in Four Quarters",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "japan-economy-contraction",
-   "label": "Japan economy contraction",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "f635dd2cd906504e",
-      "fbe3280b4d5e6cf6"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal",
-      "Financial Times"
-     ],
-     "published": "2026-11-16T00:51:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed), [Financial Times](https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1) reported that Japan’s economy contracted for the first time in four quarters in the July-September period."
-    },
-    {
-     "articles": [
-      "fbe3280b4d5e6cf6"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-16T00:51:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/economy/japan-economy-contracts-for-first-time-in-four-quarters-468f74f5?mod=rss_socialeconomyfeed) reported that energy-driven inflation weighed on consumer sentiment."
-    },
-    {
-     "articles": [
-      "f635dd2cd906504e"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Financial Times"
-     ],
-     "published": "2026-11-16T04:59:28+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/4eb7ff18-1ba3-4944-ad48-bdc9e5ddc84e?syn-25a6b1a6=1) reported that weak consumer spending and record-breaking rains damped GDP growth and complicate interest rate plans."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Japan economy contraction",
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "7f770324f139f235",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-16T03:53:59+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "China’s slowdown deepens in October as industrial output, retail sales, investment miss estimates",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "bd63dc0c3088c6c1",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-16T02:12:39+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "China’s factory output, retail sales growth slow in October",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "china-economic-output-and-sales",
-   "label": "China economic output and sales",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "7f770324f139f235",
-      "bd63dc0c3088c6c1"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC",
-      "Investing.com"
-     ],
-     "published": "2026-11-16T02:12:39+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html), [Investing.com](https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313) reported that China’s factory output and retail sales growth slowed in October."
-    },
-    {
-     "articles": [
-      "7f770324f139f235"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-16T03:53:59+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html) reported that retail sales and investment missed estimates and that a deepening reliance on external demand leaves China more exposed to shocks abroad."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "China economic output and sales",
-   "topic": "economy"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "89c9b2b6b6b79cbb",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-16T13:51:34+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "411ec8ffd4f39f31",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-16T00:53:54+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "J&J in talks to buy eye disease biotech Ollin for $3.4 bln, FT reports",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/jj-in-talks-to-buy-eye-disease-biotech-ollin-for-34-bln-ft-reports-5028255"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "55945a8048cff14a",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-15T23:54:31+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Johnson & Johnson looking to buy eye disease biotech for up to $3.4bn",
-     "type": "international",
-     "url": "https://www.ft.com/content/450100ba-074c-46a6-b962-89dbef146135?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "johnson-johnson-acquisition-of-ollin-biosciences",
-   "label": "Johnson & Johnson acquisition of Ollin Biosciences",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "89c9b2b6b6b79cbb"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-16T13:51:34+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html) reported that Johnson & Johnson agreed to acquire Ollin Biosciences for $2.2 billion upfront with milestone payments of up to about $1.13 billion."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-16",
-    "of": 2,
-    "outlet": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/16/jj-strikes-deal-for-eye-disease-biotech-ollin-biosciences.html"
-   },
-   "topic": "business"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -3699,502 +3503,6 @@
    "status": "unchanged",
    "title": "Morgan Stanley upgrades Japan equities to overweight, sees 22% TOPIX upside",
    "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "f2355f4d0f1031c9",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-16T13:04:02+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Blackstone REIT to buy majority stake in $5 billion Amazon data center portfolio",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/blackstone-reit-to-buy-majority-stake-in-5-billion-amazon-data-center-portfolio/articleshow/135890381.cms"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "dca658b6d557006b",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-16T12:40:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Blackstone Digital Infrastructure Trust to Acquire Data Center Portfolio from Amazon for $5 Billion",
-     "type": "international",
-     "url": "https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "blackstone-acquisition-of-amazon-data-centers",
-   "label": "Blackstone acquisition of Amazon data centers",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "dca658b6d557006b"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-16T12:40:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/blackstone-digital-infrastructure-trust-to-acquire-data-center-portfolio-from-amazon-for-5-billion-87e53519?mod=pls_whats_news_us_business_f) reported that Blackstone Digital Infrastructure Trust agreed to acquire a majority stake in an Amazon data center portfolio for about $5 billion."
-    },
-    {
-     "articles": [
-      "f2355f4d0f1031c9"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-16T13:04:02+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/blackstone-reit-to-buy-majority-stake-in-5-billion-amazon-data-center-portfolio/articleshow/135890381.cms) reported that Blackstone Digital Infrastructure Trust announced its commitment to acquire a 75.1 percent stake in joint ventures with Amazon Web Services."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Blackstone acquisition of Amazon data centers",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "9606d549c10f544c",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-16T14:56:21+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Warren Buffett donates $5.5 billion, says kindness 'compounds' in Thanksgiving letter",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "2a2570086dc498d6",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-16T12:55:53+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Warren Buffett donates $5.47 billion in Berkshire Hathaway shares to charities, confidence in successors remains 'strong as ever'",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-donates-more-berkshire-shares-confidence-in-successors-as-strong-as-ever/articleshow/135890059.cms"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "warren-buffett-charitable-donations",
-   "label": "Warren Buffett charitable donations",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9606d549c10f544c"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-16T14:56:21+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/warren-buffett-donates-5point5-billion-thanksgiving.html) reported that Warren Buffett donated $5.5 billion and retains ownership of 182,140 Class A shares."
-    },
-    {
-     "articles": [
-      "2a2570086dc498d6"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-16T12:55:53+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/warren-buffett-donates-more-berkshire-shares-confidence-in-successors-as-strong-as-ever/articleshow/135890059.cms) reported that Warren Buffett donated approximately $5.47 billion in Berkshire Hathaway shares to charities."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Warren Buffett charitable donations",
-   "topic": "business"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "49f30907bde382c8",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-16T15:24:34+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Bank of Canada Governor Macklem to step down once term ends in 2027",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/bank-of-canada-governor-macklem-to-step-down-once-term-ends-in-2027-5030388"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "d893bb8e436e696b",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-16T15:22:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Bank of Canada Gov. Macklem to Leave in June, Kicking Off Search for New Leader",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "5c933c4d9a93f050",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-16T15:05:11+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Tiff Macklem to Leave as Bank of Canada Governor, Starting Succession Race",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-16/tiff-macklem-to-leave-as-bank-of-canada-governor-starting-succession-race"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "bank-of-canada-leadership-succession",
-   "label": "Bank of Canada leadership succession",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "5c933c4d9a93f050"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-16T15:05:11+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-16/tiff-macklem-to-leave-as-bank-of-canada-governor-starting-succession-race) reported that Bank of Canada Governor Tiff Macklem will leave the central bank at the end of his seven-year term."
-    },
-    {
-     "articles": [
-      "d893bb8e436e696b"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-16T15:22:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed) reported that Bank of Canada Governor Macklem will leave in June, initiating the search for a new leader."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Bank of Canada Gov. Macklem to Leave in June, Kicking Off Search for New Leader",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-16",
-    "of": 2,
-    "outlet": "Wall Street Journal",
-    "url": "https://www.wsj.com/economy/central-banking/bank-of-canada-gov-macklem-to-leave-in-june-kicking-off-search-for-new-leader-cbce9e69?mod=rss_socialeconomyfeed"
-   },
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "058ad959250162ac",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-16T15:43:27+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Rocket from Boeing-Lockheed firm fails mid-flight, destroys payload of Amazon satellites",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "b40b7bfba793a496",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-15T20:30:46+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "US rocket fails after launch, payload of Amazon internet satellites destroyed",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/us-rocket-fails-after-launch-payload-of-amazon-internet-satellites-destroyed-5028094"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "rocket-launch-failure",
-   "label": "Rocket launch failure",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "also": [
-      {
-       "date": "2026-11-16",
-       "outlet": "Investing.com",
-       "published": "2026-11-15T20:30:46+00:00",
-       "url": "https://www.investing.com/news/stock-market-news/us-rocket-fails-after-launch-payload-of-amazon-internet-satellites-destroyed-5028094"
-      }
-     ],
-     "articles": [
-      "058ad959250162ac"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-16T15:43:27+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/boeing-lockheed-rocket-amazon-satellites.html) reported that a rocket from a Boeing-Lockheed firm failed roughly 10 minutes after liftoff from the Cape Canaveral Space Force Station in Florida, destroying a payload of Amazon satellites."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Rocket launch failure",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "90c56589158ebc0f",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-16T14:05:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Canada Inflation Holds Steady at 3.1% in October",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "c04783ae469e4885",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-16T13:42:38+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Canada’s annual inflation rate held steady at 3.1% in October",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "canada-inflation-rate",
-   "label": "Canada inflation rate",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "90c56589158ebc0f"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-16T14:05:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/canada-inflation-holds-steady-at-3-1-in-october-d47350f2?mod=rss_socialeconomyfeed) reported that Canadian inflation held steady at 3.1% in October while households faced broad price pressures with higher costs for gas, groceries, and clothing."
-    },
-    {
-     "articles": [
-      "c04783ae469e4885"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-16T13:42:38+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/canadas-annual-inflation-rate-held-steady-at-31-in-october-5029900) reported that Canada's annual inflation rate held steady at 3.1% in October."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Canada inflation rate",
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "a4d9f5be46f12674",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-16T16:58:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Eli Lilly to Buy Calytrix Bio for Up to $1.5 Billion",
-     "type": "international",
-     "url": "https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "820df31d5c8e8000",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-16T15:18:48+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Lilly to buy Calytrix for up to $1.5 billion in rare blood cancer bet",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/lilly-to-buy-calytrix-bio-for-up-to-15-billion-5029412"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "eli-lilly-acquisition-of-calytrix-bio",
-   "label": "Eli Lilly acquisition of Calytrix Bio",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a4d9f5be46f12674"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-16T16:58:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/eli-lilly-to-buy-calytrix-bio-for-up-to-1-5-billion-591745e4?mod=pls_whats_news_us_business_f) reported that Eli Lilly agreed to buy Calytrix Bio for up to $1.5 billion."
-    },
-    {
-     "articles": [
-      "820df31d5c8e8000"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-16T15:18:48+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/lilly-to-buy-calytrix-bio-for-up-to-15-billion-5029412) reported that Lilly is buying Calytrix for up to $1.5 billion in a rare blood cancer bet."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Eli Lilly acquisition of Calytrix Bio",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "bf6cab0c746d9fd4",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-16T17:44:02+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Trump Media faces possible $1 billion debt repayment as stock nears record lows",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/trump-media-faces-possible-1-billion-debt-repayment-as-stock-nears-record-lows/articleshow/135898089.cms"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "cbd00a4de439ab31",
-     "lang": "en",
-     "outlet": "SCMP Business",
-     "published": "2026-11-16T17:09:46+00:00",
-     "publisher": "South China Morning Post",
-     "region": null,
-     "section": "news",
-     "title": "Trump Media faces possible US$1 billion debt repayment as stock nears record lows",
-     "type": "regional",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "trump-media-debt-repayment",
-   "label": "Trump Media debt repayment",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "bf6cab0c746d9fd4",
-      "cbd00a4de439ab31"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "South China Morning Post",
-      "ET Markets"
-     ],
-     "published": "2026-11-16T17:09:46+00:00",
-     "text": "[South China Morning Post](https://www.scmp.com/news/world/united-states-canada/article/3374645/trump-media-faces-possible-us1-billion-debt-repayment-stock-nears-record-lows), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/trump-media-faces-possible-1-billion-debt-repayment-as-stock-nears-record-lows/articleshow/135898089.cms) reported that Trump Media & Technology Group faces a possible $1 billion cash demand from convertible debt holders this month as its stock nears record lows."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Trump Media debt repayment",
-   "topic": "business"
   },
   {
    "article_count": 4,
@@ -4395,136 +3703,6 @@
    "status": "unchanged",
    "title": "Federal Reserve interest rate policy",
    "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "9f901d69406556bc",
-     "lang": "en",
-     "outlet": "The Guardian Business",
-     "published": "2026-11-16T22:01:40+00:00",
-     "publisher": "The Guardian",
-     "region": null,
-     "section": "news",
-     "title": "Customers report difficulty accessing online services at major US banks",
-     "type": "international",
-     "url": "https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "9f37edb269b4acb1",
-     "lang": "en",
-     "outlet": "SCMP Business",
-     "published": "2026-11-16T20:23:11+00:00",
-     "publisher": "South China Morning Post",
-     "region": null,
-     "section": "news",
-     "title": "Customers at major US banks report difficulty with some online services",
-     "type": "regional",
-     "url": "https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "us-banks-online-service-disruptions",
-   "label": "US banks online service disruptions",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9f37edb269b4acb1",
-      "9f901d69406556bc"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "The Guardian",
-      "South China Morning Post"
-     ],
-     "published": "2026-11-16T20:23:11+00:00",
-     "text": "[The Guardian](https://www.theguardian.com/business/2026/nov/16/us-bank-outage-chase-wells-fargo), [South China Morning Post](https://www.scmp.com/business/banking-finance/article/3374651/customers-major-us-banks-report-difficulty-some-online-services) reported that customers experienced difficulty accessing online accounts and services at major US banks including Bank of America, Chase, US Bank, Wells Fargo, and Truist."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "US banks online service disruptions",
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "8763e14de1fb71f5",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-16T22:14:47+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "a2993664fddf6551",
-     "lang": "en",
-     "outlet": "MarketWatch Top Stories",
-     "published": "2026-11-16T21:49:00+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "Chase says ‘software bug’ could be causing disruptions at major U.S. banks",
-     "type": "international",
-     "url": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "jpmorgan-chase-software-bug-disruptions",
-   "label": "JPMorgan Chase software bug disruptions",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a2993664fddf6551"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "MarketWatch"
-     ],
-     "published": "2026-11-16T21:49:00+00:00",
-     "text": "[MarketWatch](https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories) reported that Chase stated a software bug could be causing disruptions affecting customer account access and fund withdrawals."
-    },
-    {
-     "articles": [
-      "8763e14de1fb71f5"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-16T22:14:47+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html) reported that JPMorgan Chase stated a temporary software bug is affecting consumer banking, with no indication of bad actors or a bug impacting multiple banks at the same time."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "JPMorgan Chase software bug disruptions",
-   "topic": "business"
   },
   {
    "article_count": 3,
@@ -4780,14 +3958,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
@@ -4855,9 +4033,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -5989,14 +5167,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-17/mark-walter-s-insurer-seeks-nod-to-swap-1-2-billion-more-assets"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "mark-walter-insurer-asset-swap",
    "label": "Mark Walter insurer asset swap",
    "last_reported": "2026-11-17",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6023,9 +5201,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/finance/dodgers-owner-mark-walters-insurer-misses-target-to-reduce-affiliated-assets-249e32c5?mod=rss_markets_main) reported that Delaware Life Insurance stated the share of its holdings tied to Walter fell to 35% in the third quarter."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Mark Walter insurer asset swap",
    "topic": "business"
   },
@@ -6211,14 +5389,14 @@
      "url": "https://www.wsj.com/politics/policy/feds-lisa-cook-rebuffs-white-house-hearing-citing-biased-panel-e6eac42b?mod=rss_socialeconomyfeed"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "federal-reserve-governor-lisa-cook-hearing",
    "label": "Federal Reserve Governor Lisa Cook Hearing",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6273,7 +5451,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Lisa Cook lawyer signals Fed governor won't attend Trump committee's hearing",
    "title_from": {
     "backing": 2,
@@ -6444,14 +5622,14 @@
      "url": "https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "sellas-life-sciences-cancer-vaccine-trial",
    "label": "Sellas Life Sciences Cancer Vaccine Trial",
    "last_reported": "2026-11-18",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6480,9 +5658,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/sellas-life-sciences-stock-triples-after-cancer-vaccine-data), [Investing.com](https://www.investing.com/news/stock-market-news/sellas-life-sciences-stock-soars-240-on-positive-cancer-trial-5033050) reported that Sellas Life Sciences Group stock surged after the drug developer reported positive late-stage trial results for an experimental cancer vaccine."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Sellas Life Sciences Cancer Vaccine Trial",
    "topic": "business"
   },
@@ -7964,14 +7142,14 @@
      "url": "https://www.wsj.com/tech/ai/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion-39193611?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-18",
    "group": "all",
    "id": "palo-alto-networks-acquisition-of-applied",
    "label": "Palo Alto Networks Acquisition of Applied Compute",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8010,9 +7188,9 @@
      "text": "[CNBC](https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html) reported that Palo Alto Networks shares rose 7% on earnings."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Palo Alto Networks Acquisition of Applied Compute",
    "topic": "business"
   },
@@ -8059,14 +7237,14 @@
      "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "us-china-trump-xi-meeting",
    "label": "US China Trump Xi meeting",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8105,9 +7283,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/trump-hails-great-ties-with-xi-downplays-nvidia-spy-scandal) reported that US President Donald Trump hailed his great friendship with Chinese counterpart Xi Jinping and downplayed a spying scandal involving Nvidia Corp."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "US China Trump Xi meeting",
    "topic": "diplomacy"
   },
@@ -8924,14 +8102,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "federal-reserve-regional-staff-pay-increases",
    "label": "Federal Reserve regional staff pay increases",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8960,9 +8138,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-19/fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027), [Investing.com](https://www.investing.com/news/economy-news/us-fed-tells-regional-staff-to-expect-lower-pay-increases-in-2027-bloomberg-news-reports-5039812) reported that the Federal Reserve warned employees at its regional outposts to expect lower pay increases next year."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Federal Reserve regional staff pay increases",
    "topic": "economy"
   },
@@ -9129,14 +8307,14 @@
      "url": "https://www.investing.com/news/stock-market-news/amazon-warns-nyc-delivery-bill-could-add-up-to-5-per-order-5038999"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "amazon-urges-nyc-customers-to-oppose",
    "label": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9165,7 +8343,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Amazon Urges NYC Customers to Oppose Mamdani-Backed Delivery Bill",
    "topic": "business"
   },
@@ -9199,14 +8377,14 @@
      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "commerce-approved-sales-of-more-than",
    "label": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9223,7 +8401,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
    "topic": "technology-policy"
   },
@@ -9270,14 +8448,14 @@
      "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "california-investigation-into-nvidia",
    "label": "California investigation into Nvidia",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9318,7 +8496,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "California attorney general issues Nvidia subpoena in probe of China chip diversion",
    "title_from": {
     "backing": 2,
@@ -9359,14 +8537,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "gold-set-for-worst-week-since",
    "label": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9395,7 +8573,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Gold Set for Worst Week Since March on Hawkish Fed, AI Selloff",
    "topic": "markets"
   },
@@ -9429,14 +8607,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "india-stock-market-valuation-and-bond",
    "label": "India stock market valuation and bond yields",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9465,7 +8643,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "India stock market valuation and bond yields",
    "topic": "markets"
   },
@@ -9499,14 +8677,14 @@
      "url": "https://www.wsj.com/politics/policy/senate-passes-measure-designed-to-speed-up-energy-projects-lower-consumer-costs-dcacc9c6?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "us-senate-energy-permitting-legislation",
    "label": "US Senate energy permitting legislation",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9535,7 +8713,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US Senate energy permitting legislation",
    "topic": "economy"
   },
@@ -9569,14 +8747,14 @@
      "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "us-energy-permitting-reform-bill",
    "label": "US energy permitting reform bill",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9605,7 +8783,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US energy permitting reform bill",
    "topic": "economy"
   },
@@ -9639,14 +8817,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/china-solar-cell-exports-rise-for-second-month-on-tariff-rush"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "china-solar-cell-exports",
    "label": "China solar cell exports",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9665,7 +8843,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "China solar cell exports",
    "topic": "economy"
   },
@@ -9712,14 +8890,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/uk-retail-sales-rebound-as-brits-stock-up-on-emergency-supplies"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "uk-retail-sales",
    "label": "UK retail sales",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9738,7 +8916,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "UK Retail Sales Jump as Brits Stock Up on Emergency Supplies",
    "title_from": {
     "backing": 2,
@@ -9779,14 +8957,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/lufthansa-to-eliminate-1-000-jobs-at-struggling-flagship-airline"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "lufthansa-job-cuts",
    "label": "Lufthansa job cuts",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9805,7 +8983,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Lufthansa job cuts",
    "topic": "business"
   },
@@ -9839,14 +9017,14 @@
      "url": "https://www.investing.com/news/stock-market-news/trump-cyber-director-sean-cairncross-to-leave-post-axios-93CH-5040401"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "sean-cairncross-departure",
    "label": "Sean Cairncross departure",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9863,7 +9041,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Sean Cairncross departure",
    "topic": "technology-policy"
   },
@@ -9897,14 +9075,14 @@
      "url": "https://www.bloomberg.com/news/videos/2026-11-20/ark-invest-s-cathie-wood-on-anthropic-nvidia-video"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "cathie-wood-investments",
    "label": "Cathie Wood investments",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9921,7 +9099,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cathie Wood investments",
    "topic": "markets"
   },
@@ -9955,14 +9133,14 @@
      "url": "https://www.wsj.com/business/c-suite/paypal-appoints-xero-finance-chief-claire-bramley-as-next-cfo-cba4a93f?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "paypal-executive-reorganization",
    "label": "PayPal executive reorganization",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9979,7 +9157,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "PayPal executive reorganization",
    "topic": "business"
   },
@@ -10013,14 +9191,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "european-central-bank-interest-rates",
    "label": "European Central Bank interest rates",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10049,7 +9227,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "European Central Bank interest rates",
    "topic": "economy"
   },
@@ -10122,7 +9300,7 @@
      "url": "https://www.investing.com/news/economy-news/anthropics-historic-debut-to-put-ais-promise-and-peril-to-wall-st-test-5038437"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "anthropic-ipo-and-wall-street-markets",
@@ -10132,7 +9310,7 @@
    "merged": [
     "anthropic-market-debut"
    ],
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10173,7 +9351,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Anthropic IPO and Wall Street markets",
    "topic": "markets"
   },
@@ -10220,14 +9398,14 @@
      "url": "https://www.marketwatch.com/story/trump-is-trying-to-stop-big-techs-push-to-build-data-centers-outside-the-u-s-86f32f7f?mod=mw_rss_topstories"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "trump-is-trying-to-stop-big",
    "label": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10244,7 +9422,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Trump is trying to stop Big Tech’s push to build data centers outside the U.S.",
    "topic": "technology-policy"
   },
@@ -10278,14 +9456,14 @@
      "url": "https://www.investing.com/news/stock-market-news/former-nvidia-ceo-huang-agreed-to-testify-at-public-us-senate-hearing-senators-aide-says-5042429"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "jensen-huang-senate-testimony",
    "label": "Jensen Huang Senate testimony",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "also": [
@@ -10310,7 +9488,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Jensen Huang Senate testimony",
    "topic": "justice"
   },
@@ -10357,14 +9535,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "crowdstrike-and-zscaler-acquisition-talks",
    "label": "CrowdStrike and Zscaler acquisition talks",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10394,7 +9572,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "CrowdStrike and Zscaler acquisition talks",
    "topic": "business"
   },
@@ -10428,14 +9606,14 @@
      "url": "https://www.investing.com/news/economy-news/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate-5040496"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "bank-stocks-post-worst-week-since",
    "label": "Bank Stocks Post Worst Week Since April 2025 as Rout Deepens",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10452,13 +9630,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Bank Stocks Post Worst Week Since April 2025 as Rout Deepens",
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "803df6ac6cd16455",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-20T23:16:28+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Bayer’s $7.25bn settlement over cancer cases approved by US judge",
+     "type": "international",
+     "url": "https://www.ft.com/content/e7d36416-9eb7-4479-a217-d593545499df?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-20",
      "id": "9d1e3e14a8047b35",
@@ -10486,14 +9677,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "bayer-roundup-settlement-approval",
    "label": "Bayer Roundup settlement approval",
    "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 2,
+   "last_updated": "2026-11-21",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -10510,14 +9701,142 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge), [Investing.com](https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643) reported that a Missouri judge approved Bayer AG's proposal to pay as much as $7.25 billion to resolve tens of thousands of US lawsuits over Roundup."
     }
    ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "covered",
+   "title": "Bayer Roundup settlement approval",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "4623086f4a384aef",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-20T17:49:48+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "0ee3ad92c0245932",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-20T07:49:41+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Andy Burnham to agree Brexit ‘reset’ deal in push for closer EU ties",
+     "type": "international",
+     "url": "https://www.ft.com/content/8515b514-2067-43eb-a7f5-b5aa20ec4cc3"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-21",
+   "group": "all",
+   "id": "uk-and-eu-brexit-ties",
+   "label": "UK and EU Brexit ties",
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0ee3ad92c0245932"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-20T07:49:41+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/8515b514-2067-43eb-a7f5-b5aa20ec4cc3) reported that Andy Burnham will agree to a Brexit reset deal that would lead to closer EU ties, while Brussels insists implementation rests on the UK agreeing to cut tuition fees for EU students."
+    },
+    {
+     "articles": [
+      "4623086f4a384aef"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-20T17:49:48+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss) reported that the UK-EU deal agreed on Friday covers British food exports, emissions trading, and a youth experience scheme."
+    }
+   ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Bayer Roundup settlement approval",
-   "topic": "justice"
+   "title": "UK and EU Brexit ties",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "151e290cfa2165bf",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-21T00:00:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Wonder explores sale of Grubhub, Wall Street Journal reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/wonder-explores-sale-of-grubhub-wall-street-journal-reports-5042912"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "14d48e44962789fe",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T22:46:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Wonder Explores Sale of Food-Delivery Business Grubhub",
+     "type": "international",
+     "url": "https://www.wsj.com/business/retail/wonder-explores-sale-of-food-delivery-business-grubhub-3c80c830?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-21",
+   "group": "all",
+   "id": "wonder-grubhub-sale-exploration",
+   "label": "Wonder Grubhub sale exploration",
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "14d48e44962789fe"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T22:46:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/wonder-explores-sale-of-food-delivery-business-grubhub-3c80c830?mod=pls_whats_news_us_business_f) reported that Wonder is exploring the sale of its food-delivery business Grubhub and that bankers have been in contact with Walmart, Target, Kroger, and other retailers about a potential purchase."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Wonder Grubhub sale exploration",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-20T22:31:20+00:00"
+ "updated": "2026-11-21T01:57:20+00:00"
 }
