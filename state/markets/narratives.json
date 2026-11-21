@@ -373,25 +373,25 @@
   {
    "articles": 508,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 6,
-   "continuing": 3,
+   "calls": 3,
+   "candidates": 8,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-21",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 455,
-   "in_stories": 8,
-   "kept": 5,
-   "merged": 0,
-   "new": 2,
+   "in_stories": 12,
+   "kept": 9,
+   "merged": 1,
+   "new": 3,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 4,
-   "sent": 6,
+   "runs": 5,
+   "sent": 8,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 3,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -591,7 +591,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T10:31:43+00:00"
+  "all": "2026-11-21T13:44:20+00:00"
  },
  "narratives": [
   {
@@ -1759,7 +1759,7 @@
    "topic": "business"
   },
   {
-   "article_count": 15,
+   "article_count": 23,
    "articles": [
     {
      "added": "2026-11-20",
@@ -1773,6 +1773,32 @@
      "title": "Fed’s Paulson open to back-to-back rate hikes at steady pace",
      "type": "specialist",
      "url": "https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "e2088fe53d2c0f01",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T17:50:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Cook says September rate hike likely insufficient to curb price pressures",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "c1a97d28fb17d721",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-20T17:24:58+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Cook says rate hikes needed to lower high inflation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321"
     },
     {
      "added": "2026-11-18",
@@ -1866,6 +1892,84 @@
      "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876"
     },
     {
+     "added": "2026-11-17",
+     "id": "c5bd485a3f182aed",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T14:36:14+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem signals multiple rate hikes likely needed before spring 2027",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-musalem-signals-multiple-rate-hikes-likely-needed-before-spring-2027-5033318"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "b8ffbafa02d9675e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-17T13:40:54+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "5e45d320d047bd1f",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-17T13:20:19+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem Says Economy to Likely Require ‘Several’ Hikes by Spring",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-musalem-several-hikes-likely-needed-by-spring-video"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "7e3d049946065748",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-17T13:14:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem Says Several Rate Hikes Likely Needed Before Spring 2027",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "47d20e2eec55532f",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-17T12:36:21+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem: US likely needs several rate hikes by spring to control inflation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730"
+    },
+    {
+     "added": "2026-11-17",
+     "id": "fa1894f8ff87497d",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-17T12:30:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed’s Musalem Says ‘Several’ Rate Hikes Likely Needed by Spring",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring"
+    },
+    {
      "added": "2026-11-14",
      "id": "78fc27705b19b2f8",
      "lang": "en",
@@ -1957,15 +2061,31 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "merged": [
+    "fed-rate-hikes"
+   ],
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "c1a97d28fb17d721",
+      "e2088fe53d2c0f01"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-20T17:24:58+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321) reported that Fed governor Cook stated rate hikes are needed to lower high inflation and that the September rate hike is likely insufficient to curb price pressures."
+    },
     {
      "articles": [
       "e613828dc9f093b3"
@@ -2003,6 +2123,35 @@
      ],
      "published": "2026-11-18T19:00:01+00:00",
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes), [Wall Street Journal](https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7?mod=rss_socialeconomyfeed) reported that almost all Federal Reserve officials agreed at their October meeting that they would likely have to raise interest rates in the months ahead."
+    },
+    {
+     "articles": [
+      "47d20e2eec55532f",
+      "5e45d320d047bd1f",
+      "7e3d049946065748",
+      "fa1894f8ff87497d"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-17T12:30:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring), [Wall Street Journal](https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730) reported that St. Louis Fed President Alberto Musalem stated the economy will likely need several interest rate increases by next spring to control inflation."
+    },
+    {
+     "articles": [
+      "b8ffbafa02d9675e"
+     ],
+     "date": "2026-11-17",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-17T13:40:54+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html) reported that St. Louis Fed's Musalem said four more rate hikes may be needed in the coming months."
     },
     {
      "articles": [
@@ -2060,9 +2209,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation), [Investing.com](https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest-rate increases will be needed to bring down inflation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -3838,8 +3987,34 @@
    "topic": "markets"
   },
   {
-   "article_count": 9,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "d5782750507262f8",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-21T12:23:44+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "UK maritime agency reports two tanker attacks near Oman; Iran says vessel hit mine east of Hormuz",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "452bd6eb24b90728",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-21T08:13:08+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Iran war sees tanker hit near Hormuz as Saudi Arabia intercepts Houthi missiles",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/iran-war-sees-tanker-hit-near-hormuz-as-saudi-arabia-intercepts-houthi-missiles-5043277"
+    },
     {
      "added": "2026-11-20",
      "id": "30b77c21eb9ac980",
@@ -3958,18 +4133,42 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 2,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "d5782750507262f8"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-21T12:23:44+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/21/two-tanker-attacks-reported-near-omans-khasab-ukmto-says.html) reported that the UK maritime agency stated two tanker attacks occurred near Oman, and Iran said a vessel hit a mine east of Hormuz."
+    },
+    {
+     "articles": [
+      "452bd6eb24b90728"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-21T08:13:08+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/iran-war-sees-tanker-hit-near-hormuz-as-saudi-arabia-intercepts-houthi-missiles-5043277) reported that a tanker was hit near Hormuz and Saudi Arabia intercepted Houthi missiles."
+    },
     {
      "articles": [
       "b9f062086c85b9b7"
@@ -4035,7 +4234,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -4834,179 +5033,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "Germany investor sentiment",
-   "topic": "economy"
-  },
-  {
-   "article_count": 8,
-   "articles": [
-    {
-     "added": "2026-11-21",
-     "id": "e2088fe53d2c0f01",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-20T17:50:38+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Cook says September rate hike likely insufficient to curb price pressures",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "c1a97d28fb17d721",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-20T17:24:58+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Cook says rate hikes needed to lower high inflation",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "c5bd485a3f182aed",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-17T14:36:14+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem signals multiple rate hikes likely needed before spring 2027",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-musalem-signals-multiple-rate-hikes-likely-needed-before-spring-2027-5033318"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "b8ffbafa02d9675e",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-17T13:40:54+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "5e45d320d047bd1f",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-17T13:20:19+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem Says Economy to Likely Require ‘Several’ Hikes by Spring",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-musalem-several-hikes-likely-needed-by-spring-video"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "7e3d049946065748",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-17T13:14:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem Says Several Rate Hikes Likely Needed Before Spring 2027",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "47d20e2eec55532f",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-17T12:36:21+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem: US likely needs several rate hikes by spring to control inflation",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "fa1894f8ff87497d",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-17T12:30:00+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem Says ‘Several’ Rate Hikes Likely Needed by Spring",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring"
-    }
-   ],
-   "articles_today": 2,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "fed-rate-hikes",
-   "label": "Fed rate hikes",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 1,
-   "reports": [
-    {
-     "articles": [
-      "c1a97d28fb17d721",
-      "e2088fe53d2c0f01"
-     ],
-     "date": "2026-11-21",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-20T17:24:58+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321) reported that Fed governor Cook stated rate hikes are needed to lower high inflation and that the September rate hike is likely insufficient to curb price pressures."
-    },
-    {
-     "articles": [
-      "47d20e2eec55532f",
-      "5e45d320d047bd1f",
-      "7e3d049946065748",
-      "fa1894f8ff87497d"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Wall Street Journal",
-      "Investing.com"
-     ],
-     "published": "2026-11-17T12:30:00+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring), [Wall Street Journal](https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730) reported that St. Louis Fed President Alberto Musalem stated the economy will likely need several interest rate increases by next spring to control inflation."
-    },
-    {
-     "articles": [
-      "b8ffbafa02d9675e"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-17T13:40:54+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html) reported that St. Louis Fed's Musalem said four more rate hikes may be needed in the coming months."
-    }
-   ],
-   "single_source_today": true,
-   "state_media_only_today": false,
-   "status": "updated",
-   "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-   "title_from": {
-    "backing": 3,
-    "date": "2026-11-17",
-    "of": 3,
-    "outlet": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
-   },
    "topic": "economy"
   },
   {
@@ -9873,9 +9899,79 @@
    "status": "new",
    "title": "Wonder Grubhub sale exploration",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "7c275d3f0feb14ac",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-21T12:00:00+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Saudis Make Deal with Japan to Replenish Oil Stocks",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/saudis_make_deal_with_japan_to_replenish_oil_stocks-21-nov-2026-185137-article/?rss=true"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "b17be8f9208dc57c",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-20T18:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Saudi Arabia Expands Oil Storage in Japan as Tokyo Restocks",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Expands-Oil-Storage-in-Japan-as-Tokyo-Restocks.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-21",
+   "group": "all",
+   "id": "saudi-arabia-and-japan-oil-storage",
+   "label": "Saudi Arabia and Japan oil storage agreement",
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b17be8f9208dc57c"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-20T18:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Expands-Oil-Storage-in-Japan-as-Tokyo-Restocks.html) reported that Japan plans to buy up to 8 million barrels of Saudi crude for its national petroleum reserve under a deal between the two countries."
+    },
+    {
+     "articles": [
+      "7c275d3f0feb14ac"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-21T12:00:00+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/wire/saudis_make_deal_with_japan_to_replenish_oil_stocks-21-nov-2026-185137-article/?rss=true) reported that Saudi Arabia reached an agreement to help replenish Japan's depleted crude stockpiles and expand the kingdom's own storage capacity in the Asian country."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Saudi Arabia and Japan oil storage agreement",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-21T10:31:43+00:00"
+ "updated": "2026-11-21T13:44:37+00:00"
 }
