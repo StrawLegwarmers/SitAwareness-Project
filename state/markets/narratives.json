@@ -373,23 +373,23 @@
   {
    "articles": 508,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 10,
+   "calls": 5,
+   "candidates": 12,
    "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-21",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 455,
-   "in_stories": 15,
-   "kept": 11,
+   "in_stories": 17,
+   "kept": 12,
    "merged": 1,
-   "new": 4,
-   "rejected": 0,
+   "new": 5,
+   "rejected": 1,
    "reported_by_2": 3,
-   "runs": 6,
-   "sent": 10,
-   "skipped": 0,
+   "runs": 7,
+   "sent": 12,
+   "skipped": 1,
    "split_calls": 0,
    "updated": 5,
    "waiting": 0
@@ -591,7 +591,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T16:30:22+00:00"
+  "all": "2026-11-21T19:33:57+00:00"
  },
  "narratives": [
   {
@@ -10052,9 +10052,67 @@
    "status": "new",
    "title": "COP31 climate summit negotiations",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "ed06945bf556324d",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-20T23:42:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Databricks in early talks to raise funds at $225 billion valuation, WSJ reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-wsj-reports-5042898"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "4b6f8edf87482590",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-20T22:50:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+     "type": "international",
+     "url": "https://www.wsj.com/tech/ai/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-e593b1de?mod=pls_whats_news_us_business_f"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-21",
+   "group": "all",
+   "id": "databricks-in-early-talks-to-raise",
+   "label": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4b6f8edf87482590"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-20T22:50:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/tech/ai/databricks-in-early-talks-to-raise-funds-at-225-billion-valuation-e593b1de?mod=pls_whats_news_us_business_f) reported that Databricks is in early talks to raise funds at a 225 billion dollar valuation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-21T16:30:39+00:00"
+ "updated": "2026-11-21T19:34:14+00:00"
 }

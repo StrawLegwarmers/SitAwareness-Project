@@ -325,25 +325,25 @@
   {
    "articles": 177,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
-   "continuing": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-21",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 158,
-   "in_stories": 0,
+   "in_stories": 1,
    "kept": 0,
    "merged": 0,
    "new": 0,
    "rejected": 0,
    "reported_by_2": 1,
-   "runs": 6,
-   "sent": 0,
+   "runs": 7,
+   "sent": 1,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -563,12 +563,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T16:24:44+00:00"
+  "all": "2026-11-21T19:29:23+00:00"
  },
  "narratives": [
   {
-   "article_count": 12,
+   "article_count": 13,
    "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "60ecd129b9fbbe2e",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-21T16:09:38+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds Cisco Expressway, SAP NetWeaver, Broadcom VMware vCenter, and Apache Roller flaws to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/203639/security/u-s-cisa-adds-cisco-expressway-sap-netweaver-broadcom-vmware-vcenter-and-apache-roller-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
     {
      "added": "2026-11-19",
      "id": "e27b39c4c422cd41",
@@ -713,14 +726,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_updated": "2026-11-21",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -796,9 +809,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -5744,5 +5757,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-21T16:24:44+00:00"
+ "updated": "2026-11-21T19:29:39+00:00"
 }

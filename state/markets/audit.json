@@ -102,5 +102,29 @@
   "story": "",
   "text": "Take-Two’s ‘Grand Theft Auto VI’ Hits Nearly $4 Billion in Sales on Launch Day",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "title",
+  "group": "all",
+  "story": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+  "text": "Databricks fundraising",
+  "reason": "title replaced by a headline: wording not from cited articles: fundraising"
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Databricks In Early Talks To Raise Funds At $225 Billion Valuation",
+  "text": "[2] reported that Databricks is in early talks to raise funds at a 225 billion dollar valuation, citing the Wall Street Journal.",
+  "reason": "names not in cited articles: Journal, Street, Wall"
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "skipped",
+  "group": "all",
+  "story": "Cargo ship drone attack in Gulf of Finland",
+  "text": "",
+  "reason": "off-topic for this site (topic: conflict): not created"
  }
 ]
