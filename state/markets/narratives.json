@@ -373,25 +373,25 @@
   {
    "articles": 508,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 8,
-   "continuing": 4,
+   "calls": 4,
+   "candidates": 10,
+   "continuing": 5,
    "corroborated": 0,
    "date": "2026-11-21",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 455,
-   "in_stories": 12,
-   "kept": 9,
+   "in_stories": 15,
+   "kept": 11,
    "merged": 1,
-   "new": 3,
+   "new": 4,
    "rejected": 0,
    "reported_by_2": 3,
-   "runs": 5,
-   "sent": 8,
+   "runs": 6,
+   "sent": 10,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 5,
    "waiting": 0
   },
   {
@@ -591,7 +591,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T13:44:20+00:00"
+  "all": "2026-11-21T16:30:22+00:00"
  },
  "narratives": [
   {
@@ -9700,8 +9700,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "4527c21d9187138a",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-20T23:42:43+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+    },
     {
      "added": "2026-11-21",
      "id": "803df6ac6cd16455",
@@ -9742,14 +9755,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "bayer-roundup-settlement-approval",
    "label": "Bayer Roundup settlement approval",
    "last_reported": "2026-11-20",
    "last_updated": "2026-11-21",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -9766,7 +9779,7 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge), [Investing.com](https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643) reported that a Missouri judge approved Bayer AG's proposal to pay as much as $7.25 billion to resolve tens of thousands of US lawsuits over Roundup."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "covered",
    "title": "Bayer Roundup settlement approval",
@@ -9969,9 +9982,79 @@
    "status": "new",
    "title": "Saudi Arabia and Japan oil storage agreement",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-21",
+     "id": "cf026d9a0c345b84",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-21T14:42:26+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "COP31 climate summit risks failure as talks go deep into overtime",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/cop31-climate-summit-risks-failure-as-talks-go-deep-into-overtime-5043482"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "b413490f8acede4a",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-20T17:59:41+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Fossil fuel fightback drives COP31 climate talks into overtime",
+     "type": "international",
+     "url": "https://www.ft.com/content/fb459525-6978-40f3-a079-4e59047858bd?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-21",
+   "group": "all",
+   "id": "cop31-climate-summit-negotiations",
+   "label": "COP31 climate summit negotiations",
+   "last_reported": "2026-11-21",
+   "last_updated": "2026-11-21",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b413490f8acede4a"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-20T17:59:41+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/fb459525-6978-40f3-a079-4e59047858bd?syn-25a6b1a6=1) reported that negotiations at the COP31 climate talks continued into the night as groups of countries remained far apart on key issues."
+    },
+    {
+     "articles": [
+      "cf026d9a0c345b84"
+     ],
+     "date": "2026-11-21",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-21T14:42:26+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/cop31-climate-summit-risks-failure-as-talks-go-deep-into-overtime-5043482) reported that the COP31 climate summit risks failure as talks go deep into overtime."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "COP31 climate summit negotiations",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-21T13:44:37+00:00"
+ "updated": "2026-11-21T16:30:39+00:00"
 }
