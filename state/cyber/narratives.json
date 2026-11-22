@@ -333,25 +333,25 @@
   {
    "articles": 62,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
+   "calls": 1,
+   "candidates": 1,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-22",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 61,
-   "in_stories": 0,
-   "kept": 0,
-   "merged": 0,
+   "in_stories": 2,
+   "kept": 2,
+   "merged": 1,
    "new": 0,
    "rejected": 0,
-   "reported_by_2": 0,
-   "runs": 1,
-   "sent": 0,
+   "reported_by_2": 1,
+   "runs": 2,
+   "sent": 1,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -595,7 +595,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-22T01:51:22+00:00"
+  "all": "2026-11-22T04:37:14+00:00"
  },
  "narratives": [
   {
@@ -847,8 +847,34 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 19,
+   "article_count": 21,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "42aeccf7cfae26a6",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-22T02:03:18+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+     "type": null,
+     "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "034036578ef4e210",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-21T18:01:58+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+    },
     {
      "added": "2026-11-20",
      "id": "7f75d6ea22e01190",
@@ -1103,18 +1129,42 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
    "reports": [
+    {
+     "articles": [
+      "034036578ef4e210"
+     ],
+     "date": "2026-11-22",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-21T18:01:58+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/) reported that Microsoft warned organizations of a data breach after attackers exploited a vulnerability in Microsoft Entra Connect Health to gain unauthorized access."
+    },
+    {
+     "articles": [
+      "42aeccf7cfae26a6"
+     ],
+     "date": "2026-11-22",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-22T02:03:18+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/) reported that attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, alongside organization configuration data."
+    },
     {
      "articles": [
       "7f75d6ea22e01190"
@@ -1296,7 +1346,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -5691,5 +5741,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-22T01:51:22+00:00"
+ "updated": "2026-11-22T04:37:31+00:00"
 }

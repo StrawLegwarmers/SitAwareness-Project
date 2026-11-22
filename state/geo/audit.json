@@ -2642,121 +2642,57 @@
  {
   "date": "2026-11-22",
   "kind": "skipped",
-  "group": "latam",
-  "story": "Mexico detains top cartel boss El Chapo Isidro, setting off burst of violence in Sinaloa",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): U Meksiku najmanje 11 mrtvih nakon hapšenja \"El Chapa Isidra\""
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Mexico detains top cartel boss El Chapo Isidro, setting off burst of violence in Sinaloa",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Krvavi obračun nakon hapšenja vođe kartela: Najmanje 11 mrtvih, helikopteri i dr"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
   "group": "europe",
-  "story": "COP31 Talks Enter Overtime Amid Deadlock Over Fossil Fuels And Climate Finance",
+  "story": "Paolo Bulgari death",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): COP31 se arrasta sem consenso sobre combustíveis fósseis, e sociedade civil aler"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "COP31 Talks Enter Overtime Amid Deadlock Over Fossil Fuels And Climate Finance",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): COP31 tem nova noite de negociações, com impasse sobre combustíveis fósseis"
+  "reason": "off-topic for this site (topic: other): not created"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "europe",
-  "story": "COP31 Talks Enter Overtime Amid Deadlock Over Fossil Fuels And Climate Finance",
-  "text": "[65] reported that civil society warned that the summit is one of the most disappointing in history.",
-  "reason": "cites an article that doesn't belong to this story"
+  "group": "namerica",
+  "story": "US FBI cyberattack investigation",
+  "text": "[20][21][23] reported that US President Donald Trump confirmed a cyberattack on the FBI and stated he believes it could uncover deceptions against him.",
+  "reason": "analysis word not used by the source: 'could'"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "mena",
-  "story": "Bahrain alleges Iranian attack behind fire at civilian industrial facility; no injuries",
-  "text": "[77] reported that Bahrain stated an Iranian attack hit a civilian industrial facility, causing a fire but no injuries.",
-  "reason": "wording not from cited articles: hit, civilian, causing, fire, injuries"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Paolo Bulgari, Italian jewellery tycoon, dies aged 89",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Trump confirma ciberataque al FBI y cree que podría destapar \"engaños\" contra él",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Veteran former NSW MP Fred Nile dead at 92",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Campaigners back call for scrutiny of consent laws by Joanne Young",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Chocan en el Congreso adeptos de Rojo de la Vega y Sánchez Barrios",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Gorillaz cierra el primer día del Corona Capital con clásicos, invitados y un mensaje sobre México y Sheinbaum",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Half of Germans want aid to Ukraine reduced or stopped",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "mena",
-  "story": "",
-  "text": "Egypt condemns attacks on Saudi Arabia",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
   "group": "asia",
+  "story": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
+  "text": "[24][27] reported that South Korean Education Minister Choi Kyo-jin offered to resign over college exam chaos amid AI cheating fears.",
+  "reason": "names not in cited articles: Korean"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Indonesia factory fire",
+  "text": "[36] reported that rescuers stated 39 are missing following the incident.",
+  "reason": "wording not from cited articles: following, incident"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "ترامب وبوتين وشي على طاولة واحدة.. هل يتوصلون إلى تفاهم تاريخي؟",
+  "text": "[86] reported that the summit between Trump, Xi, and Putin raised questions regarding its real impact on international issues amid a lack of substantial understandings.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "mena",
   "story": "",
-  "text": "Interior minister meets JI chief in Lahore, discusses country's 'overall situation'",
+  "text": "Eleven killed in burst of violence during Mexican cartel leader’s capture",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "How to defrost a turkey and other Thanksgiving meal advice from a food safety expert",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
@@ -2764,47 +2700,7 @@
   "kind": "dropped",
   "group": "africa",
   "story": "",
-  "text": "Oyo rally: Tinubu assures Nigerians of improved electricity supply",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "namerica",
-  "story": "",
-  "text": "Canada to Join the NATO Innovation Fund",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "mena",
-  "story": "",
-  "text": "هل اقترب حسام حسن من تدريب منتخب الجزائر؟",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Morre Joe Wallach, executivo que ajudou a estruturar a TV Globo e criou a Telemundo, aos 103 anos",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "PSG forward Désiré Doué suffers a serious right knee injury in Ligue 1 game against Nice",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Ukraine, UK agree to jointly produce Ukrainian middle- and deep-strike drones in Britain",
+  "text": "Jonathan: Nigeria needs honest leaders to restore global respect",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
@@ -2812,55 +2708,47 @@
   "kind": "dropped",
   "group": "global",
   "story": "",
-  "text": "Tasmania Police investigate man's death and shooting of officer",
+  "text": "Lock of former US President George Washington's hair sells for $4,000",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Sobe para 4 o número de mortos em Tupanciretã, no Sul",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "asia",
-  "story": "At SCO moot in India, Musadik Malik declares climate change ‘enemy’ of civilisations",
-  "text": "[15] reported that Pakistan's Climate Change Minister invoked historical figures at the SCO Civilisational Forum in New Delhi.",
-  "reason": "names not in cited articles: Change, Climate, Delhi"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Moldova, Finland report Russian airspace violations day after suspected Russian "
+  "story": "Two men to stand trial in UK next year over RAF Fairford incident allegedly linked to Iran",
+  "text": "[27] reported that US Treasury Secretary Scott Bessent stated he remains on a military base over Iran threats.",
+  "reason": "names not in cited articles: Bessent, Scott"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
-  "text": "[28] reported that Finland and Moldova both reported separate airspace violations by Russia.",
-  "reason": "cites an article that doesn't belong to this story"
+  "group": "latam",
+  "story": "Rocha Moya pension account unfreezing",
+  "text": "[5] reported that Samuel García presented his fifth government report, highlighting that intentional homicides decreased by 90% in September 2026 compared to 2024.",
+  "reason": "analysis word not used by the source: 'highlighting'"
  },
  {
   "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "San Francisco King Tides",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
+  "kind": "merged",
+  "group": "global",
+  "story": "Oil Prices Extend Weekly Losses Despite Middle East Tensions",
+  "text": "Iran's Guards claim they destroyed 2 US Patriot radars in Bahrain",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Thousands protest overs prices, education, military spending in France and Europe",
-  "text": "[35] reported that French protesters rallied for a sixth weekend over living costs and public services.",
-  "reason": "analysis word not used by the source: 'rallied'"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US Rhode Island Homelessness Policy Ruling",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
+  "kind": "merged",
+  "group": "latam",
+  "story": "Trump reacts to report of hackers breaching FBI database",
+  "text": "US FBI cyberattack investigation",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

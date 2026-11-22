@@ -804,26 +804,26 @@
  "coverage": [
   {
    "articles": 4000,
-   "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 98,
-   "continuing": 80,
-   "corroborated": 13,
+   "attached_by_code": 4,
+   "calls": 5,
+   "candidates": 166,
+   "continuing": 137,
+   "corroborated": 18,
    "date": "2026-11-22",
-   "dropped": 16,
+   "dropped": 21,
    "failed_calls": 0,
-   "groups": 2969,
-   "in_stories": 96,
-   "kept": 40,
-   "merged": 0,
-   "new": 0,
-   "rejected": 5,
-   "reported_by_2": 57,
-   "runs": 1,
-   "sent": 98,
-   "skipped": 7,
+   "groups": 3010,
+   "in_stories": 192,
+   "kept": 90,
+   "merged": 2,
+   "new": 5,
+   "rejected": 11,
+   "reported_by_2": 61,
+   "runs": 2,
+   "sent": 166,
+   "skipped": 8,
    "split_calls": 0,
-   "updated": 52,
+   "updated": 101,
    "waiting": 0
   },
   {
@@ -1104,7 +1104,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-22T01:51:22+00:00"
+  "all": "2026-11-22T04:37:31+00:00"
  },
  "narratives": [
   {
@@ -4026,8 +4026,21 @@
    }
   },
   {
-   "article_count": 165,
+   "article_count": 167,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "2e8b87aa240ae95c",
+     "lang": "pt",
+     "outlet": "Folha de S.Paulo",
+     "published": "2026-11-22T02:00:00+00:00",
+     "publisher": "Folha de S.Paulo",
+     "region": "latam",
+     "section": null,
+     "title": "Eisenkot convida partido de Netanyahu para negociar coalizão em Israel",
+     "type": "local",
+     "url": "https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/eisenkot-convida-partido-de-netanyahu-para-negociar-coalizao-em-israel.shtml"
+    },
     {
      "added": "2026-11-21",
      "id": "f50344ca7c984d3b",
@@ -4157,6 +4170,19 @@
      "title": "Eisenkot seeks 'marathon of talks' with Likud as Bennett rules out Netanyahu",
      "type": "local",
      "url": "https://www.haaretz.com/israel-news/israel-politics/2026-11-21/ty-article/.premium/eisenkot-seeks-marathon-of-talks-with-likud-as-bennett-rules-out-netanyahu/000001a1-ff3d-d381-ade5-fffd68400000"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "b54492be7f7a8463",
+     "lang": "es",
+     "outlet": "El Sol de México",
+     "published": "2026-11-21T15:17:04+00:00",
+     "publisher": "El Sol de México",
+     "region": "latam",
+     "section": null,
+     "title": "Eisenkot invita al partido de Netanyahu a negociaciones de coalición",
+     "type": "local",
+     "url": "https://oem.com.mx/elsoldemexico/mundo/eisenkot-invita-al-partido-de-netanyahu-a-negociaciones-de-coalicion-33248939"
     },
     {
      "added": "2026-11-21",
@@ -4524,42 +4550,16 @@
      "title": "Netanyahu seeks unity government as Eisenkot rejects offer",
      "type": "local",
      "url": "https://dailytimes.com.pk/1581841/netanyahu-seeks-unity-government-as-eisenkot-rejects-offer/"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "cdb99aea0bff576d",
-     "lang": "en",
-     "outlet": "Yeni Şafak (English)",
-     "published": "2026-11-15T07:13:13+00:00",
-     "publisher": "Yeni Şafak (English)",
-     "region": "mena",
-     "section": null,
-     "title": "Eisenkot rejects Netanyahu’s unity government call as ‘media stunt’",
-     "type": "local",
-     "url": "http://en.yenisafak.com/world/eisenkot-rejects-netanyahus-unity-government-call-as-media-stunt-3725584"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "19a6478483f2b29c",
-     "lang": "en",
-     "outlet": "Times of India",
-     "published": "2026-11-15T05:16:33+00:00",
-     "publisher": "Times of India",
-     "region": "asia",
-     "section": null,
-     "title": "‘These tricks don’t work on me’: Eisenkot rejects Netanyahu’s 'unity govt' appeal",
-     "type": "local",
-     "url": "https://timesofindia.indiatimes.com/world/middle-east/these-tricks-dont-work-on-me-eisenkot-rejects-netanyahus-unity-government-appeal/articleshow/135847553.cms"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "israel-gadi-eisenkot-tasked-with-forming",
    "label": "Israel: Coalition Formation Talks and Political Transitions",
    "last_reported": "2026-11-21",
    "last_updated": "2026-11-22",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "previous_titles": [
     "Netanyahu urges Eisenkot to hold unity talks without preconditions, citing Iran nuclear threat",
     "Netanyahu says only a unity government can guarantee Israel’s security",
@@ -5084,7 +5084,7 @@
      "text": "[Felesteen](https://felesteen.news/post/189964/%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D8%A2%D9%8A%D8%B2%D9%86%D9%83%D9%88%D8%AA-%D9%8A%D8%B7%D8%B1%D8%AD-%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86-%D9%84%D9%84%D8%AA%D8%AD%D9%82%D9%8A%D9%82-%D9%81%D9%8A-%D8%A5%D8%AE%D9%81%D8%A7%D9%82%D8%A7%D8%AA-7-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1) reported that Gadi Eisenkot's 'Yashar' party submitted bills to the Knesset, led by establishing an official commission of inquiry into October 7 failures."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "covered",
    "subject": "israel",
@@ -6175,8 +6175,47 @@
    }
   },
   {
-   "article_count": 376,
+   "article_count": 379,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "32e004ca4596b557",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T02:59:40+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Lewis Pugh: Endurance swimmer who braved Strait of Hormuz has also swum North Pole, Red Sea, Everest",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/lewis-pugh-the-man-who-swam-in-war-hit-strait-of-hormuz-also-conquered-antarctica-everest-101795312510680.html"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "c389eea32144f135",
+     "lang": "en",
+     "outlet": "ABC Australia World",
+     "published": "2026-11-22T02:47:18+00:00",
+     "publisher": "ABC Australia",
+     "region": "global",
+     "section": null,
+     "title": "Endurance athlete swims Strait of Hormuz despite Iran war",
+     "type": "international",
+     "url": "https://www.abc.net.au/news/2026-11-22/strait-of-hormuz-swimmer-highlights-iran-war-impact-on-wildlife/107414066"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "6a547059b548b001",
+     "lang": "en",
+     "outlet": "Sydney Morning Herald",
+     "published": "2026-11-22T02:30:00+00:00",
+     "publisher": "Sydney Morning Herald",
+     "region": "asia",
+     "section": null,
+     "title": "An endurance athlete swam the Strait of Hormuz to highlight Iran war’s impact on wildlife",
+     "type": "local",
+     "url": "https://www.smh.com.au/world/middle-east/an-endurance-athlete-swam-the-strait-of-hormuz-to-highlight-iran-war-s-impact-on-wildlife-20261122-p61g7k.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+    },
     {
      "added": "2026-11-22",
      "id": "bc2e596c25efc73d",
@@ -6669,48 +6708,9 @@
      "title": "Iran’s IRGC says tankers with 4M barrels of oil hit Hormuz mines: What to know",
      "type": "regional",
      "url": "https://www.al-monitor.com/originals/2026/11/irans-irgc-says-tankers-4m-barrels-oil-hit-hormuz-mines-what-know"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "44040a03a80207cd",
-     "lang": "en",
-     "outlet": "TASS",
-     "published": "2026-11-19T15:30:46+00:00",
-     "publisher": "TASS",
-     "region": "europe",
-     "section": null,
-     "title": "Iran knows size, deployment locations of adversary forces in region, says IRGC spokesman",
-     "type": "state-media",
-     "url": "https://tass.com/world/2221997"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "a41d76d171353ae1",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-19T14:29:12+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Gold prices edge higher after 14-month low as bargain buying offsets Fed rate hike fears",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/gold-prices-edge-higher-after-14-month-low-as-bargain-buying-offsets-fed-rate-hike-fears-101795097430295.html"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "995bf96393d7412b",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-19T13:41:47+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWkZwc3MzeGxPMldOWGxwZnk4UFBSWGtfVC1pTnBnQXVRZzBrNTBzdGxCc05WSU5KNjVoTk1XSm82Q2UxSms1WnhkT05tTG5xU3JULWRtUTVOSlpmeXgyNTFWRVVOX1BTS3ZNaDZEendqbkJJNXlMSndLb0JiQjJ0dEhnMWs3bm5RX0hDNTZ4SVlaamJTU2ZDZVJ1VG8ycVpNdXR3NFdKMHhDVjdlUWMyWmhwVQ?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 5,
    "first_seen": "2026-11-09",
    "group": "mena",
    "id": "us-iran-tensions-strait-of-hormuz",
@@ -6722,7 +6722,7 @@
     "iraq-oil-production-and-exports",
     "crew-of-tanker-unaccounted-for-after"
    ],
-   "outlets_today": 2,
+   "outlets_today": 4,
    "previous_titles": [
     "Dramatic moment oil tanker erupts into huge inferno in Strait of Hormuz",
     "Oil Prices Steady as Hormuz Tanker Threats Offset Supply Glut Fears",
@@ -7253,13 +7253,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "saudi-arabia",
-   "title": "British endurance swimmer Lewis Pugh swims in Strait of Hormuz to highlight Iran war’s impact on wildlife",
+   "title": "Endurance athlete swims Strait of Hormuz despite Iran war",
    "title_from": {
-    "backing": 15,
-    "date": "2026-11-21",
-    "of": 17,
-    "outlet": "The Independent World",
-    "url": "https://www.independent.co.uk/news/world/middle-east/uk-endurance-swimmer-lewis-pugh-strait-of-hormuz-b3089066.html"
+    "backing": 3,
+    "date": "2026-11-22",
+    "of": 3,
+    "outlet": "ABC Australia",
+    "url": "https://www.abc.net.au/news/2026-11-22/strait-of-hormuz-swimmer-highlights-iran-war-impact-on-wildlife/107414066"
    }
   },
   {
@@ -8344,8 +8344,21 @@
    }
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "037e896149464295",
+     "lang": "en",
+     "outlet": "CGTN",
+     "published": "2026-11-21T14:40:18+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "AU, Somalia plan phased security handover to Somali forces",
+     "type": "state-media",
+     "url": "https://newsaf.cgtn.com/news/2026-11-21/AU-Somalia-plan-phased-security-handover-to-Somali-forces-1SfTJB5yWtO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+    },
     {
      "added": "2026-11-21",
      "id": "0a16b9e6ee9b1bf3",
@@ -8508,15 +8521,27 @@
      "url": "https://radiomuqdisho.so/guddoomiyaha-maxkamadda-sare-ee-dalka-oo-lagu-hor-dhaariyay-madaxweynaha-jfs/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "africa",
    "id": "somalia-political-turmoil-deepens-over-court",
    "label": "Somalia: Political turmoil deepens over court and security disputes",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "037e896149464295"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "CGTN"
+     ],
+     "published": "2026-11-21T14:40:18+00:00",
+     "text": "[CGTN](https://newsaf.cgtn.com/news/2026-11-21/AU-Somalia-plan-phased-security-handover-to-Somali-forces-1SfTJB5yWtO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World), a state-media outlet, reported that the African Union and Somalia agreed to develop an integrated security transition plan."
+    },
     {
      "articles": [
       "0a16b9e6ee9b1bf3"
@@ -8600,15 +8625,28 @@
      "text": "[AllAfrica](https://allafrica.com/stories/202611110489.html) reported that Somali federal government officials and members of the opposition Future Council reached an understanding on key security and election principles in Mogadishu talks."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "updated",
    "subject": "somalia",
    "title": "Somalia: Political turmoil deepens over court and security disputes"
   },
   {
-   "article_count": 872,
+   "article_count": 873,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "19a2142a53991674",
+     "lang": "en",
+     "outlet": "New York Times World",
+     "published": "2026-11-22T04:28:43+00:00",
+     "publisher": "New York Times",
+     "region": "global",
+     "section": null,
+     "title": "China’s Spies Set Sights on A.I. Chips Years Before Nvidia Scandal",
+     "type": "international",
+     "url": "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html"
+    },
     {
      "added": "2026-11-21",
      "id": "a22a5cf8ab75f224",
@@ -9115,28 +9153,15 @@
      "title": "Elon Musk Backs Away From MAGA and the Trump Presidency He Shaped",
      "type": "international",
      "url": "https://www.nytimes.com/2026/11/19/us/politics/elon-musk-maga-trump.html"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "3a6a502753802303",
-     "lang": "es",
-     "outlet": "El País (Spanish)",
-     "published": "2026-11-19T23:36:56+00:00",
-     "publisher": "El País",
-     "region": "europe",
-     "section": null,
-     "title": "California investiga a Nvidia por posibles transferencias de chips avanzados a China",
-     "type": "local",
-     "url": "https://elpais.com/us/2026-11-19/california-investiga-a-nvidia-por-posibles-transferencias-de-chips-avanzados-a-china.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "europe",
    "id": "nvidia-ceo-jensen-huang-extramarital-affair",
    "label": "Nvidia CEO Jensen Huang Extramarital Affair and Espionage Claims",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "nvidia-ceo-jensen-huang-affair-and",
     "trump-says-ex-apple-ceo-cook",
@@ -9159,7 +9184,7 @@
     "china-smic-ai-computing-crunch-and",
     "trump-statements-on-jensen-huang"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Nvidia beats Wall Street estimates in first earnings report after Jensen Huang's exit",
     "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
@@ -9173,6 +9198,18 @@
     "Jensen Huang receives support from allies after Nvidia exit: Here's what they have told him"
    ],
    "reports": [
+    {
+     "articles": [
+      "19a2142a53991674"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "New York Times"
+     ],
+     "published": "2026-11-22T04:28:43+00:00",
+     "text": "[New York Times](https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html) reported that China's espionage agency ran a campaign to help companies acquire advanced AI chips and gather intelligence on the sector years before recent scandals."
+    },
     {
      "articles": [
       "a22a5cf8ab75f224"
@@ -9656,23 +9693,11 @@
      ],
      "published": "2026-11-19T16:08:32+00:00",
      "text": "[La Razón](https://www.larazon.es/internacional/musk-admite-sentirse-bastante-tonto-gastar-mas-400-millones-midterms-creo-que-sea-maga_202611196aff1f00a6f8072789eee7ff.html) reported that Musk's financial contributions positioned him as the largest individual donor of an electoral cycle in the United States."
-    },
-    {
-     "articles": [
-      "e349cb9c19c5fd97"
-     ],
-     "date": "2026-11-19",
-     "group": "namerica",
-     "outlets": [
-      "Gazeta Wyborcza"
-     ],
-     "published": "2026-11-19T09:40:00+00:00",
-     "text": "[Gazeta Wyborcza](https://wyborcza.pl/7,75399,33140224,elon-musk-po-wydaniu-prawie-pol-mld-dol-na-kampanie-nie-jestem.html) reported that Elon Musk stated he is not MAGA and feels quite foolish after spending nearly half a billion dollars on campaigns, and accused Volodymyr Zelenskyy of lying about restrictions."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
    "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
    "title_from": {
@@ -9879,8 +9904,34 @@
    "title": "IMF Loan Review and Financial Discussions for Ukraine"
   },
   {
-   "article_count": 46,
+   "article_count": 48,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "cc835674b4bb4d86",
+     "lang": "en",
+     "outlet": "New York Times World",
+     "published": "2026-11-22T03:44:19+00:00",
+     "publisher": "New York Times",
+     "region": "global",
+     "section": null,
+     "title": "Deadly Protests Erupt in Bangladesh Over Exiled Former Leader. What to Know.",
+     "type": "international",
+     "url": "https://www.nytimes.com/2026/11/21/world/asia/bangladesh-protests-sheikh-hasina-what-to-know.html"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "ed0e93df31b855e6",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T02:50:39+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Nearly 30 houses of Sheikh Hasina's party leaders set ablaze in Bangladesh amid tensions over her likely return",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/awami-league-leaders-houses-set-on-fire-clashes-with-bnp-sheikh-hasina-likely-return-bangladesh-dhaka-violence-tensions-101795313367961.html"
+    },
     {
      "added": "2026-11-21",
      "id": "00376476fed1b808",
@@ -10374,43 +10425,20 @@
      "title": "Sheikh Hasina's return to Bangladesh: India wants Dhaka to fulfil two conditions",
      "type": "local",
      "url": "https://timesofindia.indiatimes.com/world/south-asia/sheikh-hasinas-return-to-bangladesh-india-wants-dhaka-to-fulfil-two-conditions-says-report/articleshow/135824475.cms"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "b1853c215afd662b",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-11T08:52:21+00:00",
-     "publisher": "Hindustan Times",
-     "section": null,
-     "title": "UK parliamentarians appeal to Foreign Secretary for Sheikh Hasina death penalty safeguards",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/uk-parliamentarians-appeal-to-foreign-secretary-for-sheikh-hasina-death-penalty-safeguards-101794387141548.html"
-    },
-    {
-     "added": "2026-11-10",
-     "id": "418816011802e582",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-10T13:37:44+00:00",
-     "section": null,
-     "title": "Bangladesh prosecutor says ex-PM Hasina will be executed if she returns",
-     "type": "local",
-     "url": "https://www.thehindu.com/news/international/bangladesh-prosecutor-says-ex-pm-hasina-will-be-executed-if-she-returns/article71686077.ece"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-09",
    "group": "asia",
    "id": "bangladesh-sheikh-hasina-extradition-and-return",
    "label": "Bangladesh: Sheikh Hasina Extradition and Return Pledge",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "bangladesh-former-pm-return",
     "bangladesh-garment-workers-wage-protests"
    ],
-   "outlets_today": 0,
+   "outlets_today": 2,
    "previous_titles": [
     "Sheikh Hasina firm on Bangladesh return in December even ‘if death is the price’",
     "Bangladesh police clash with garment workers amid protests over wages",
@@ -10418,6 +10446,30 @@
     "Violent protests and killings in Bangladesh ahead of exiled Sheikh Hasina’s planned return"
    ],
    "reports": [
+    {
+     "articles": [
+      "ed0e93df31b855e6"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-22T02:50:39+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/awami-league-leaders-houses-set-on-fire-clashes-with-bnp-sheikh-hasina-likely-return-bangladesh-dhaka-violence-tensions-101795313367961.html) reported that nearly 30 houses of Awami League party leaders were set ablaze in Bangladesh amid tensions over the likely return of Sheikh Hasina."
+    },
+    {
+     "articles": [
+      "cc835674b4bb4d86"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "New York Times"
+     ],
+     "published": "2026-11-22T03:44:19+00:00",
+     "text": "[New York Times](https://www.nytimes.com/2026/11/21/world/asia/bangladesh-protests-sheikh-hasina-what-to-know.html) reported that supporters of deposed prime minister Sheikh Hasina, who was sentenced to death in absentia, have waged a small-scale insurgency."
+    },
     {
      "articles": [
       "f6dece34c3bfcbc1"
@@ -10762,7 +10814,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "bangladesh",
    "title": "Violence rises in Bangladesh as Hasina supporters escalate protests, fuelling instability",
    "title_from": {
@@ -13698,8 +13750,34 @@
    "title": "Malaysia: Najib Razak House Arrest and Ministerial Resignation"
   },
   {
-   "article_count": 62,
+   "article_count": 64,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "6cc840adb001c476",
+     "lang": "en",
+     "outlet": "Pajhwok Afghan News",
+     "published": "2026-11-22T04:29:09+00:00",
+     "publisher": "Pajhwok Afghan News",
+     "region": "asia",
+     "section": null,
+     "title": "US Treasury Secretary says he remains on military base over Iran threats",
+     "type": "local",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMmc0TXhubV9wRW5CbEpUNkhROG9ISkk2cjVkVFlpcmh1aUtwMHFSeEc5ck10ckVSWnc5aldwSzFJVGwxcUtSZ1FQQ3Y2Z3AzMXNleHpVVUJOSHBMNHZyczUwWl9kN05zVlJPNThHV1BJYmVLc1IwSTRvWjllaER4NFJqZ0tVbFhDUGZsTnlzdDY2d05UckxaeFh4REpEUFB2Q0xtWF9LVQ?oc=5"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "47130a5536fba134",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-22T02:05:50+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Bessent confirms he’s living on US military base over Iran fears",
+     "type": "international",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/bessent-confirms-hes-living-on-us-military-base-over-iran-fears?traffic_source=rss"
+    },
     {
      "added": "2026-11-21",
      "id": "20c07b746ea62e13",
@@ -14185,49 +14263,37 @@
      "title": "US charges 3 alleged Iranian operatives over plots targeting Jewish communities and a UK airbase",
      "type": "international",
      "url": "https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "a1287576bcc8c156",
-     "lang": "en",
-     "outlet": "CBC",
-     "published": "2026-11-10T23:10:56+00:00",
-     "publisher": "CBC",
-     "section": null,
-     "title": "U.S. soldier arrested in England on suspicion of espionage related to Russia, counterterror police say",
-     "type": "international",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcnM2ZmY3ZXBGMkQwN09vMkxoZTNNd3MxSjRnZnFnN3RrUDVNeTk3LUYxVHNWQ2RnMkQ4OVF5RDNlSUlLbzcxUFJvaGFCU3pscExIbVZ1VldROUl3X1pvSktwVDJGcTlYMzNmY3FwRFhJeVJmZHpHd1F4UnpmeHlNOFUxb0ZnRlFiY2oyZA?oc=5"
-    },
-    {
-     "added": "2026-11-11",
-     "id": "3ae8f5ac0478fe30",
-     "lang": "en",
-     "outlet": "CBC",
-     "published": "2026-11-10T23:03:11+00:00",
-     "publisher": "CBC",
-     "section": null,
-     "title": "3 charged in U.S. with planning terror attacks, including alleged planned assault on British airbase",
-     "type": "international",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTWFjbHBKUTJzdVgtMEpEdktjTk16NWFQVkJncFJTV3UxcFJET2Ixc0d2M2lwdjZyYk0xY1RSd0pDbzF4ZFdJeXRORS1TQlItU21NdmRDRVBoRUZhUTQwYnNCWmZ2VE9lenMtdDJ1MXotZ1pxNkNQN09OMlhuWWJvX3QxZWZsWnJMbTJreDQ5YzRnQ0ZwTVB3?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-10",
    "group": "asia",
    "id": "us-military-aircraft-withdrawn-from-uk",
    "label": "US Military Aircraft Withdrawn from UK Airbase",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "us-soldier-arrested-in-uk-over",
     "uk-trial-over-raf-fairford-security"
    ],
-   "outlets_today": 0,
+   "outlets_today": 2,
    "previous_titles": [
     "Treasury Secretary Scott Bessent Remains at US Base Over Alleged Iranian Death Threats",
     "UK Hands US Army Officer Suspected of Spying for Russia Over to American Custody"
    ],
    "reports": [
+    {
+     "articles": [
+      "47130a5536fba134"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "Al Jazeera"
+     ],
+     "published": "2026-11-22T02:05:50+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/video/newsfeed/2026/11/22/bessent-confirms-hes-living-on-us-military-base-over-iran-fears?traffic_source=rss) reported that US Treasury Secretary Scott Bessent stated he is still living at a US military base two weeks after an Israeli warning."
+    },
     {
      "articles": [
       "20c07b746ea62e13"
@@ -14626,7 +14692,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "uk",
    "title": "Two men to stand trial in UK next year over RAF Fairford incident allegedly linked to Iran",
    "title_from": {
@@ -23282,8 +23348,21 @@
    }
   },
   {
-   "article_count": 61,
+   "article_count": 62,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "e802e0fc84336698",
+     "lang": "pt",
+     "outlet": "O Globo",
+     "published": "2026-11-22T03:00:00+00:00",
+     "publisher": "O Globo",
+     "region": "latam",
+     "section": null,
+     "title": "Operação militar de El Salvador no Haiti ignora mandato da ONU e exporta 'modelo Bukele' sob temor de excessos",
+     "type": "local",
+     "url": "https://oglobo.globo.com/mundo/noticia/2026/11/22/operacao-militar-de-el-salvador-no-haiti-ignora-mandato-da-onu-e-exporta-modelo-bukele-sob-temor-de-excessos.ghtml"
+    },
     {
      "added": "2026-11-22",
      "id": "464e42c96d7084a0",
@@ -23793,29 +23872,16 @@
      "title": "Haiti praises Salvadoran troop deployment ahead of Bukele talks",
      "type": "local",
      "url": "https://www.hindustantimes.com/world-news/haiti-praises-salvadoran-troop-deployment-ahead-of-bukele-talks-101794861044668.html"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "7766a2190a41c28b",
-     "lang": "en",
-     "outlet": "The Rio Times",
-     "published": "2026-11-15T21:25:20+00:00",
-     "publisher": "The Rio Times",
-     "region": "latam",
-     "section": null,
-     "title": "Haiti Weighs Future of Salvadoran Troops",
-     "type": "regional",
-     "url": "https://www.riotimesonline.com/haiti-weighs-future-of-salvadoran-troops/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "latam",
    "id": "haiti-security-operations-by-salvadoran-troops",
    "label": "Haiti security operations by Salvadoran troops",
-   "last_reported": "2026-11-21",
+   "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "Haiti, Salvadoran forces retake Sylvio Cator Stadium from gangs, Bukele says | Breaking News",
     "Bukele Security Model Haiti: 2,000 Troops Test Regional Blueprint",
@@ -23826,6 +23892,18 @@
     "El Salvador’s Bukele expected to formalise bid for third presidential term"
    ],
    "reports": [
+    {
+     "articles": [
+      "e802e0fc84336698"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "O Globo"
+     ],
+     "published": "2026-11-22T03:00:00+00:00",
+     "text": "[O Globo](https://oglobo.globo.com/mundo/noticia/2026/11/22/operacao-militar-de-el-salvador-no-haiti-ignora-mandato-da-onu-e-exporta-modelo-bukele-sob-temor-de-excessos.ghtml) reported that thousands of Haitians marched in Port-au-Prince while El Salvador's military operation in Haiti ignores a UN mandate."
+    },
     {
      "articles": [
       "5def721f539ab6fa"
@@ -24319,9 +24397,9 @@
      "text": "[The Haitian Times](https://haitiantimes.com/2026/11/11/bukele-defends-haiti-gang-operations-amid-pressure/) reported that Nayib Bukele defended Haiti gang operations and criticized a US diplomat over coordination concerns."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "updated",
    "subject": "haiti",
    "title": "El Salvador President Nayib Bukele seeks third term at home while fighting gangs in Haiti",
    "title_from": {
@@ -29769,8 +29847,21 @@
    }
   },
   {
-   "article_count": 198,
+   "article_count": 199,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "c10048e7d06fc4b3",
+     "lang": "en",
+     "outlet": "GMA News",
+     "published": "2026-11-22T03:06:44+00:00",
+     "publisher": "GMA News",
+     "region": "asia",
+     "section": null,
+     "title": "Pope Leo XIV names Oblates priest as new Jolo apostolic vicar",
+     "type": "local",
+     "url": "https://www.gmanetwork.com/news/topstories/regions/1010379/pope-leo-xiv-names-oblates-priest-as-new-jolo-apostolic-vicar/story/"
+    },
     {
      "added": "2026-11-21",
      "id": "ed11399429d34b9b",
@@ -30286,34 +30377,21 @@
      "title": "El papa León XIV cerró su histórica gira latinoamericana con un baño de multitudes y un mensaje contundente",
      "type": "local",
      "url": "https://www.lanacion.com.ar/el-mundo/el-papa-leon-xiv-cerro-su-historica-gira-latinoamericana-con-un-bano-de-multitudes-y-un-mensaje-nid16112026/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "516f1ad2c6709f58",
-     "lang": "es",
-     "outlet": "El Tiempo",
-     "published": "2026-11-16T17:28:13+00:00",
-     "publisher": "El Tiempo",
-     "region": "latam",
-     "section": null,
-     "title": "León XIV se despide de Perú y Suramérica, pide no olvidar a los pobres y condena el machismo en una misa multitudinaria",
-     "type": "local",
-     "url": "https://www.eltiempo.com/mundo/latinoamerica/leon-xiv-se-despide-de-peru-y-suramerica-pide-no-olvidar-a-los-pobres-y-condena-el-machismo-en-una-misa-multitudinaria-3601430"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-12",
    "group": "latam",
    "id": "pope-leo-xiv-visit-to-peru",
    "label": "Pope Leo XIV visit to Peru",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "pope-leo-xiv-visit-to-peru-2",
     "pope-s-visit-to-hub-of",
     "pope-leo-xiv-south-america-tour"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Pope Leo XIV meets abuse victims in Peru, says Church must make 'amends'",
     "Peru: Pope Leo XIV leads youth prayer vigil at Lima's National Stadium",
@@ -30326,6 +30404,18 @@
     "Pope Leo XIV’s visit to Zaña highlights Peru’s African heritage"
    ],
    "reports": [
+    {
+     "articles": [
+      "c10048e7d06fc4b3"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "GMA News"
+     ],
+     "published": "2026-11-22T03:06:44+00:00",
+     "text": "[GMA News](https://www.gmanetwork.com/news/topstories/regions/1010379/pope-leo-xiv-names-oblates-priest-as-new-jolo-apostolic-vicar/story/) reported that Pope Leo XIV appointed Father Gerry Gamaliel Sebastian Delos Reyes as the new apostolic vicar of Jolo."
+    },
     {
      "articles": [
       "ed11399429d34b9b"
@@ -30815,23 +30905,11 @@
      ],
      "published": "2026-11-15T21:42:54+00:00",
      "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/pope-leo-south-america-tour-amazon-rainforest-b3085327.html) reported that Pope Leo XIV demanded justice for environmental defenders killed while protecting the Amazon."
-    },
-    {
-     "articles": [
-      "8f6109fac8864d89"
-     ],
-     "date": "2026-11-15",
-     "group": "latam",
-     "outlets": [
-      "Rzeczpospolita"
-     ],
-     "published": "2026-11-15T20:01:20+00:00",
-     "text": "[Rzeczpospolita](https://www.rp.pl/kosciol/art45491531-leon-xiv-w-andach-papiez-zwrocil-sie-do-chorych-i-mieszkancow-peru) reported that Pope Leo XIV visited Cusco, met with thousands of faithful, and prayed in front of the cathedral."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "peru",
    "title": "Pope Leo credits ‘god-given stamina’ for getting him through gruelling tour weeks after cancer operation",
    "title_from": {
@@ -39805,8 +39883,34 @@
    }
   },
   {
-   "article_count": 43,
+   "article_count": 47,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "2f77d9f8ff82e8c9",
+     "lang": "en",
+     "outlet": "The Korea Herald",
+     "published": "2026-11-22T04:23:00+00:00",
+     "publisher": "The Korea Herald",
+     "region": "asia",
+     "section": null,
+     "title": "Russian cargo ship catches fire in Baltic",
+     "type": "local",
+     "url": "https://www.koreaherald.com/article/10945066"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "23308c22186bb461",
+     "lang": "en",
+     "outlet": "The Guardian Europe",
+     "published": "2026-11-22T02:19:48+00:00",
+     "publisher": "The Guardian",
+     "region": "europe",
+     "section": null,
+     "title": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
+     "type": "international",
+     "url": "https://www.theguardian.com/world/2026/nov/22/ukraine-war-briefing-russian-cargo-ship-hit-by-drone-in-baltic-sea-as-finland-pm-says-conflict-spilling-over"
+    },
     {
      "added": "2026-11-22",
      "id": "7a188569adbb4935",
@@ -40110,6 +40214,19 @@
      "url": "https://www.pravda.com.ua/eng/news/2026/11/21/8063961/"
     },
     {
+     "added": "2026-11-22",
+     "id": "4b299ddc4b1bb857",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-21T13:43:20+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "Finnish border guards head towards drone-hit cargo ship",
+     "type": "state-media",
+     "url": "https://tass.com/world/2222887"
+    },
+    {
      "added": "2026-11-21",
      "id": "588b882f2325e300",
      "lang": "fr",
@@ -40204,6 +40321,19 @@
      "url": "https://www.themoscowtimes.com/2026/11/21/russia-says-cargo-vessel-struck-by-drones-in-gulf-of-finland-a94342"
     },
     {
+     "added": "2026-11-22",
+     "id": "9c7f531fc71a4dfa",
+     "lang": "en",
+     "outlet": "CGTN",
+     "published": "2026-11-21T11:17:54+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "Russian cargo ship on fire in Gulf of Finland, border guard says",
+     "type": "state-media",
+     "url": "https://news.cgtn.com/news/2026-11-21/news-1SfVsM5rxQI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+    },
+    {
      "added": "2026-11-21",
      "id": "d634694884122ba6",
      "lang": "en",
@@ -40280,76 +40410,34 @@
      "title": "Ukraine Braces for Pivotal Week of Defense Talks Amid Fresh Russian Attacks",
      "type": "specialist",
      "url": "https://oilprice.com/Geopolitics/Europe/Ukraine-Braces-for-Pivotal-Week-of-Defense-Talks-Amid-Fresh-Russian-Attacks.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "ef1eae8433eab90d",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-14T08:03:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "Estonia outlines details of Ukrainian attack on Russian missile ship in Baltic Sea",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/14/8062839/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-11"
-     ],
-     "id": "6726062c8d37c7a7",
-     "lang": "en",
-     "outlet": "Baltic News Network",
-     "published": "2026-11-13T12:35:13+00:00",
-     "publisher": "Baltic News Network",
-     "region": "europe",
-     "section": null,
-     "title": "Ukrainian drone strikes Russian warship in the Gulf of Finland",
-     "type": "local",
-     "url": "https://bnn-news.com/world/ukrainian-drone-strikes-russian-warship-in-the-gulf-of-finland-7pb9k3z"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "f0dde89b57ecfec2",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-13T12:06:56+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?",
-     "type": "international",
-     "url": "https://www.aljazeera.com/news/2026/11/13/why-is-ukraine-attacking-russian-warships-in-the-baltic-sea-amid-talks?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "062e5018de418d7b",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-13T02:35:21+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
-     "type": "international",
-     "url": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "russian-warship-hit-by-ukrainian-drone",
    "label": "Russian warship hit by Ukrainian drone in Gulf of Finland",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 1,
+   "outlets_today": 5,
    "previous_titles": [
     "Finland Says It Detected Strike on Russian Warship in Baltic Sea",
-    "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say"
+    "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
+    "Finland Detects Drone Attack on Russian Cargo Ship in Baltic"
    ],
    "reports": [
+    {
+     "articles": [
+      "4b299ddc4b1bb857"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-21T13:43:20+00:00",
+     "text": "[TASS](https://tass.com/world/2222887) reported that Finnish border guard assets are en route to the drone-hit cargo ship."
+    },
     {
      "articles": [
       "7a188569adbb4935"
@@ -40602,17 +40690,17 @@
      "text": "[BBC](https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss), [The Moscow Times](https://www.themoscowtimes.com/2026/11/12/finland-says-it-detected-strike-on-russian-warship-in-baltic-sea-a94245), [Defense News](https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/) reported that Finland's military stated it detected a strike on a Russian warship in the Baltic Sea."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "finland",
-   "title": "Finland Detects Drone Attack on Russian Cargo Ship in Baltic",
+   "title": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
    "title_from": {
-    "backing": 11,
-    "date": "2026-11-21",
-    "of": 13,
-    "outlet": "Kyiv Post",
-    "url": "https://www.kyivpost.com/post/90814"
+    "backing": 3,
+    "date": "2026-11-22",
+    "of": 4,
+    "outlet": "The Guardian",
+    "url": "https://www.theguardian.com/world/2026/nov/22/ukraine-war-briefing-russian-cargo-ship-hit-by-drone-in-baltic-sea-as-finland-pm-says-conflict-spilling-over"
    }
   },
   {
@@ -42066,8 +42154,21 @@
    }
   },
   {
-   "article_count": 51,
+   "article_count": 52,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "35a14529e1efbe92",
+     "lang": "es",
+     "outlet": "El País (Spanish)",
+     "published": "2026-11-21T23:48:39+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "Trump obstaculiza la supervisión de contratos por un Congreso controlado por los demócratas",
+     "type": "local",
+     "url": "https://elpais.com/us/2026-11-21/trump-obstaculiza-la-supervision-de-contratos-por-un-congreso-controlado-por-los-democratas.html"
+    },
     {
      "added": "2026-11-19",
      "id": "7d7088a6a7d62c4b",
@@ -42574,32 +42675,19 @@
      "title": "Hakeem Jeffries faces first test in bid to become first Black US House speaker",
      "type": "local",
      "url": "https://timesofindia.indiatimes.com/world/us/hakeem-jeffries-faces-first-test-in-bid-to-become-first-black-us-house-speaker/articleshow/135951047.cms"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "43cb1f76a18df30c",
-     "lang": "en",
-     "outlet": "AP News",
-     "published": "2026-11-18T05:01:00+00:00",
-     "publisher": "Associated Press",
-     "region": "global",
-     "section": null,
-     "title": "Democrat Hakeem Jeffries faces a first test to becoming House speaker during leadership elections",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMkFKcjYyblpFekN4MnNrTUo1Z0ZIVGkyRTJHSENPZ2N6bEE3QmNPVWVnX1VkRG5xbk1IRzBsM1hkaHgwaWo1NkdQSW9PUzZoS1h5TUFteGhGakcxdVUyaml1SDNCXzNkYkhiSkpQVWFkRjh3d3JOeVlkRGt4X01sazQteW42UGIwMjJCZklydHBVbWYwLThsVUEyRnZ3ckZTZkhrcFdfcENjVG9Rc3dJ?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "namerica",
    "id": "hakeem-jeffries-middle-east-remarks",
    "label": "Hakeem Jeffries Middle East remarks",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "ex-labour-mp-accused-of-sexual"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "US House Democratic Leader Jeffries wants 'dramatic change' in Middle East",
     "Democrat Hakeem Jeffries faces a first test to becoming House speaker during leadership elections",
@@ -42607,6 +42695,18 @@
     "Obama Tells Incoming House Democrats to Keep Up Outreach in Red Areas"
    ],
    "reports": [
+    {
+     "articles": [
+      "35a14529e1efbe92"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-21T23:48:39+00:00",
+     "text": "[El País](https://elpais.com/us/2026-11-21/trump-obstaculiza-la-supervision-de-contratos-por-un-congreso-controlado-por-los-democratas.html) reported that US President Donald Trump is preparing to face investigations by a Democrat-controlled Congress into alleged abuses and corruption."
+    },
     {
      "articles": [
       "7d7088a6a7d62c4b"
@@ -42818,9 +42918,9 @@
      "text": "[The Jerusalem Post](https://www.jpost.com/american-politics/article-914766) reported that Jeffries sharply criticized US President Donald Trump's war against Iran, describing it as a reckless and costly war of choice."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
    "title": "Democrat Hakeem Jeffries on track to become first Black US House speaker",
    "title_from": {
@@ -43992,8 +44092,21 @@
    "title": "Mexico City General Development Plan debate"
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "29ea43dff751961c",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-22T03:31:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Zelensky names settlements where Ukraine proposes to conduct humanitarian missions",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-society/4187214-zelensky-names-settlements-where-ukraine-proposes-to-conduct-humanitarian-missions.html"
+    },
     {
      "added": "2026-11-21",
      "id": "7a73b95b31d2aae8",
@@ -44203,18 +44316,30 @@
      "url": "https://meduza.io/en/news/2026/11/12/putin-proposes-joint-humanitarian-operation-with-ukraine-in-kostiantynivka-modeled-on-earlier-evacuation-mission-in-oleshky"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "putin-humanitarian-operation-proposal",
    "label": "Putin humanitarian operation proposal",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "previous_titles": [
     "Humanitarian mission like one in Oleshky urgently needed in occupied Hola Prystan community"
    ],
    "reports": [
+    {
+     "articles": [
+      "29ea43dff751961c"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "Ukrinform"
+     ],
+     "published": "2026-11-22T03:31:00+00:00",
+     "text": "[Ukrinform](https://www.ukrinform.net/rubric-society/4187214-zelensky-names-settlements-where-ukraine-proposes-to-conduct-humanitarian-missions.html) reported that President Volodymyr Zelensky named settlements in the Kherson and Zaporizhzhia regions where Ukraine proposes conducting humanitarian missions."
+    },
     {
      "articles": [
       "7a73b95b31d2aae8"
@@ -44350,9 +44475,9 @@
      "text": "[Ukrinform](https://www.ukrinform.net/rubric-society/4184013-humanitarian-mission-needed-in-occupied-hola-prystan-community-similar-to-oleshky-operation-local-official.html) reported that local officials stated a similar humanitarian mission is urgently needed in the occupied Hola Prystan community."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "ukraine",
    "title": "Putin proposes joint humanitarian operation with Ukraine in Kostiantynivka, modeled on earlier evacuation mission in Oleshky",
    "title_from": {
@@ -56899,8 +57024,21 @@
    "topic": "conflict"
   },
   {
-   "article_count": 55,
+   "article_count": 56,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "e3d565c900162f44",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T04:17:22+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "2027: Wike-led PDP Rejects Opposition Coalition, Snubs November 30 Summit",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/2027-wike-led-pdp-rejects-opposition-coalition-snubs-november-30-summit/"
+    },
     {
      "added": "2026-11-21",
      "id": "0d948ab066922750",
@@ -57407,34 +57545,21 @@
      "title": "Court Orders INEC to Reinstate Adebutu as Ogun PDP Guber Candidate Within 24 Hours",
      "type": "local",
      "url": "https://thewillnews.com/court-orders-inec-to-reinstate-adebutu-as-ogun-pdp-guber-candidate-within-24-hours/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "86f172091999f5f4",
-     "lang": "en",
-     "outlet": "This Day",
-     "published": "2026-11-13T11:51:16+00:00",
-     "publisher": "This Day",
-     "region": "africa",
-     "section": null,
-     "title": "Money Can’t Buy People’s Conscience, Says Sowunmi-Kolapo",
-     "type": "local",
-     "url": "https://www.thisdaylive.com/2026/11/13/money-cant-buy-peoples-conscience-says-sowunmi-kolapo/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "ogun-state-pdp-governorship-candidate-court",
    "label": "Ogun State PDP governorship candidate court ruling",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "inec-court-decision-stance-on-atiku",
     "2027-yayi-realised-his-looming-defeat",
     "2027-i-m-voting-pdp-at"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Just in: Court orders INEC to publish Adebutu’s name as Ogun PDP gov candidate",
     "Adebutu knows fate today as court gives judgment on his exclusion from INEC list",
@@ -57444,6 +57569,18 @@
     "2027: Yayi realised his looming defeat the day Adebutu returned to the ballot – PDP Nat’l Sec"
    ],
    "reports": [
+    {
+     "articles": [
+      "e3d565c900162f44"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "This Day"
+     ],
+     "published": "2026-11-22T04:17:22+00:00",
+     "text": "[This Day](https://www.thisdaylive.com/2026/11/22/2027-wike-led-pdp-rejects-opposition-coalition-snubs-november-30-summit/) reported that the Peoples Democratic Party rejected claims that it joined the opposition Coalition for Democracy."
+    },
     {
      "articles": [
       "2bb66d490d6c0905"
@@ -57939,9 +58076,9 @@
      "text": "[Vanguard](https://www.vanguardngr.com/2026/11/just-in-court-orders-inec-to-publish-adebutus-name-as-ogun-pdp-gov-candidate/), [Punch](https://punchng.com/breaking-court-orders-inec-to-reinstate-adebutu-as-ogun-pdp-gov-candidate/?utm_source=rss.punchng.com&utm_medium=web) reported that a Federal High Court in Abuja ordered INEC to reinstate Ladi Adebutu as the PDP governorship candidate for Ogun State within 24 hours."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "2027: We’re not part of opposition coalition against Tinubu – Wike-backed PDP",
    "title_from": {
@@ -59313,8 +59450,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 41,
+   "article_count": 42,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "55a4b7ba8a161bba",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T04:20:00+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "Babachir Lawal: Peter Obi Will Win 2027 Election, What Happened in 2023 Won’t Repeat Itself",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/babachir-lawal-peter-obi-will-win-2027-election-what-happened-in-2023-wont-repeat-itself/"
+    },
     {
      "added": "2026-11-21",
      "id": "d7c7b27d42326a20",
@@ -59821,33 +59971,20 @@
      "title": "Makinde accuses Tinubu of breaching 2023 political agreement",
      "type": "local",
      "url": "https://punchng.com/makinde-accuses-tinubu-of-breaching-2023-political-agreement/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "5153b3198347f762",
-     "lang": "en",
-     "outlet": "Vanguard",
-     "published": "2026-11-13T09:37:43+00:00",
-     "publisher": "Vanguard",
-     "region": "africa",
-     "section": null,
-     "title": "Makinde scores Tinubu administration 34 per cent",
-     "type": "local",
-     "url": "https://www.vanguardngr.com/2026/11/makinde-scores-tinubu-administration-34-per-cent/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "oyo-state-governor-performance-rating-and",
    "label": "Oyo State Governor performance rating and political statements",
    "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_updated": "2026-11-22",
    "merged": [
     "obi-can-t-match-buhari-s",
     "2027-ndc-will-defeat-tinubu-s"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Oriire: Tinubu never spoke to me over abducted pupils, teachers — Makinde",
     "UPDATED: 2027 opposition parties move to sign pact for democratic renewal",
@@ -59857,6 +59994,14 @@
    ],
    "reports": [
     {
+     "also": [
+      {
+       "date": "2026-11-22",
+       "outlet": "This Day",
+       "published": "2026-11-22T04:20:00+00:00",
+       "url": "https://www.thisdaylive.com/2026/11/22/babachir-lawal-peter-obi-will-win-2027-election-what-happened-in-2023-wont-repeat-itself/"
+      }
+     ],
      "articles": [
       "d7c7b27d42326a20"
      ],
@@ -60225,9 +60370,9 @@
      "text": "[Punch](https://punchng.com/makinde-accuses-tinubu-of-breaching-2023-political-agreement/?utm_source=rss.punchng.com&utm_medium=web) reported that Governor Makinde accused President Bola Tinubu of breaching a written agreement to form a government of national unity after the 2023 elections."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "nigeria",
    "title": "Babachir Lawal Predicts Peter Obi Victory In 2027, Dismisses Repeat Of 2023 Outcome",
    "title_from": {
@@ -61438,8 +61583,193 @@
    "topic": "economy"
   },
   {
-   "article_count": 30,
+   "article_count": 44,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "d75a2f512868cc84",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T03:38:12+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Iran says targeted 2 US Patriot radar systems in Bahrain, Manana clarifies ‘civilian facility’ hit as West Asia tensions intensify",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/iran-says-targeted-2-us-patriot-radar-systems-in-bahrain-manama-slams-heinous-iranian-aggression-101795313624815.html"
+    },
+    {
+     "added": "2026-11-22",
+     "dates": [
+      "2026-11-22"
+     ],
+     "id": "25aa2db214fde6b8",
+     "lang": "en",
+     "outlet": "Mehr News",
+     "published": "2026-11-22T03:32:00+00:00",
+     "publisher": "Mehr News",
+     "region": "mena",
+     "section": null,
+     "title": "Iran attacks US Patriot radars at Bahrain bases",
+     "type": "state-media",
+     "url": "https://en.mehrnews.com/news/249589/Iran-attacks-U-S-Patriot-radars-at-Bahrain-bases"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "45fa0f09233ca3ea",
+     "lang": "en",
+     "outlet": "The National",
+     "published": "2026-11-22T03:23:49+00:00",
+     "publisher": "The National",
+     "region": "mena",
+     "section": null,
+     "title": "Middle East latest: Bahrain says civilian industrial facility damaged in Iran attack",
+     "type": "local",
+     "url": "https://www.thenationalnews.com/news/mena/2026/11/22/live-bahrain-attack-iran-war/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "423846b72c3cb164",
+     "lang": "en",
+     "outlet": "GMA News",
+     "published": "2026-11-21T23:00:39+00:00",
+     "publisher": "GMA News",
+     "region": "asia",
+     "section": null,
+     "title": "Bahrain says Iranian attack hits industrial facility as air defenses intercept attacks",
+     "type": "local",
+     "url": "https://www.gmanetwork.com/news/topstories/world/1010356/bahrain-says-iranian-attack-hits-industrial-facility-as-air-defenses-intercept-attacks/story/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "c2896538f30d9bf4",
+     "lang": "en",
+     "outlet": "Yeni Şafak (English)",
+     "published": "2026-11-21T22:24:10+00:00",
+     "publisher": "Yeni Şafak (English)",
+     "region": "mena",
+     "section": null,
+     "title": "Iran's Guards claim they destroyed 2 US Patriot radars in Bahrain",
+     "type": "local",
+     "url": "http://en.yenisafak.com/world/irans-guards-claim-they-destroyed-2-us-patriot-radars-in-bahrain-3725831"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "5d01dae83062628f",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-21T22:02:03+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Bahrain says Iranian attack hits industrial facility",
+     "type": "international",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "5fd0a250cc41587a",
+     "lang": "en",
+     "outlet": "RT",
+     "published": "2026-11-21T21:44:26+00:00",
+     "publisher": "RT",
+     "region": "europe",
+     "section": null,
+     "title": "Iran claims attack on US Patriot systems in Bahrain",
+     "type": "state-media",
+     "url": "https://rt-english.com/news/649196-iran-bahrain-us-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "b8797098b98c99e0",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-21T21:31:03+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Bahrain says Iranian attack causes fire at industrial facility",
+     "type": "international",
+     "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "36e9861b8f4cdd46",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-21T21:24:10+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzltZHhpNzJyRTg4dE5kYUJSOUJ4azFWY2txckEtQUlGQVVfTEtIUUpWN3dHZWlocXlZWGFidVRIMjN3ZDM4d2xQWVZ0UFAxRm81TGFfbFNZRzMxTXJOemdzOHRNeWJOLXhEWF83a3N0a1hiR0FjbUE1eGZVX002eVpMNHJyX2JoVXp5bFdjcDJBYkhOWFE4a1AzN0hSRE1wTDFmNGxvaFR6TkR6bkd4a3FSSUU1anZp?oc=5"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "431787478ac8e11d",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-21T21:12:18+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "IRGC attacked two US Patriot radars in Bahrain",
+     "type": "state-media",
+     "url": "https://tass.com/world/2222947"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "49f48e1d91da596c",
+     "lang": "en",
+     "outlet": "TRT World",
+     "published": "2026-11-21T21:00:17+00:00",
+     "publisher": "TRT World",
+     "region": "mena",
+     "section": null,
+     "title": "Iran says struck US Patriot radars in Bahrain; Manama says attack hit civilian industrial site",
+     "type": "state-media",
+     "url": "https://www.trtworld.com/article/1b7ac3dfdb5e"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "6571b0ddd123ccd0",
+     "lang": "en",
+     "outlet": "Haaretz",
+     "published": "2026-11-21T20:50:30+00:00",
+     "publisher": "Haaretz",
+     "region": "mena",
+     "section": null,
+     "title": "Bahrain says Iranian attack hits industrial facility, causes fire",
+     "type": "local",
+     "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-21/ty-article/bahrain-says-iranian-attack-hits-industrial-facility-causes-fire/000001a1-ffcb-d9ff-a7b5-ffeffe980000"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "aafee67e8d023c36",
+     "lang": "en",
+     "outlet": "Arab News",
+     "published": "2026-11-21T20:38:44+00:00",
+     "publisher": "Arab News",
+     "region": "mena",
+     "section": null,
+     "title": "Bahrain says Iran struck civilian industrial facility, sparking fire",
+     "type": "regional",
+     "url": "https://www.arabnews.com/middle-east/bahrain-says-iran-struck-civilian-industrial-facility-sparking-fire-3013417"
+    },
+    {
+     "added": "2026-11-21",
+     "id": "541f98dea04a832c",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-21T19:51:28+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Bahrain alleges Iranian attack behind fire at civilian industrial facility; no injuries",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/bahrain-alleges-iranian-attack-behind-fire-at-civilian-industrial-facility-no-injuries-101795290348274.html"
+    },
     {
      "added": "2026-11-21",
      "id": "15c5c8990424e4eb",
@@ -61780,79 +62110,107 @@
      "title": "IEA downgrades outlook on global oil demand growth, projects decline by 2.7 mbd in 2026",
      "type": "state-media",
      "url": "https://tass.com/economy/2217863"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "1c1a61b187652945",
-     "lang": "en",
-     "outlet": "Punch",
-     "published": "2026-11-13T11:33:59+00:00",
-     "publisher": "Punch",
-     "region": "africa",
-     "section": null,
-     "title": "Global oil supply to exceed demand in Q4 – IEA",
-     "type": "local",
-     "url": "https://punchng.com/global-oil-supply-to-exceed-demand-in-q4-iea/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "acbe03287f33fd43",
-     "lang": "en",
-     "outlet": "Euronews",
-     "published": "2026-11-13T11:17:07+00:00",
-     "publisher": "Euronews",
-     "region": "europe",
-     "section": null,
-     "title": "European diesel prices stay high as global oil supply overtakes demand, IEA says",
-     "type": "international",
-     "url": "https://www.euronews.com/2026/11/13/european-diesel-prices-stay-high-as-global-oil-supply-overtakes-demand-iea-says"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "858f256b3e20e6e4",
-     "lang": "ar",
-     "outlet": "Asharq News",
-     "published": "2026-11-13T10:31:11+00:00",
-     "publisher": "Asharq News",
-     "region": "mena",
-     "section": null,
-     "title": "وكالة الطاقة الدولية تعلن خططاً لسحب 71 مليون برميل إضافي من مخزونات النفط الاستراتيجية",
-     "type": "regional",
-     "url": "https://asharq.com/reports/202941/%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D8%B9%D8%AA%D8%B2%D9%85-%D8%B3%D8%AD%D8%A8-71-%D9%85%D9%84%D9%8A%D9%88%D9%86-%D8%A8%D8%B1%D9%85%D9%8A%D9%84-%D9%85%D9%86-%D9%85%D8%AE%D8%B2%D9%88%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B7/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "c0fc6f0d862515e0",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-13T10:12:11+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "World oil market is returning to surplus as Gulf exports recover, IEA says",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcWtzQXhRVUlUbWQ0VVloOTVjekFCcC1XQlNXNWNRcERHNDFEbnBNTTFhZjV3Qjk5bGxCaDhoRFE1Yi1mdGNoR3JCVXY5MmQ0ODVnUWRabHowUDhYSUNKOXV5X0lLQzRBbWNabUFMTzVlMzBNOUUyWTgyeUg1cW5sRjJtUHo3TldPOEY4S19xOGwwYjlkemFibktTVTltVF94WUg5ekdJczcyUlBHOHZ0V3EtdWdjU0JOVkY4?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 8,
    "first_seen": "2026-11-13",
    "group": "global",
    "id": "international-energy-agency-global-oil-supply",
    "label": "International Energy Agency global oil supply and diesel prices report",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
-    "global-oil-market-surplus-reports"
+    "global-oil-market-surplus-reports",
+    "bahrain-industrial-facility-strike"
    ],
-   "outlets_today": 0,
+   "outlets_today": 8,
    "previous_titles": [
     "European diesel prices stay high as global oil supply overtakes demand, IEA says",
     "World oil market is returning to surplus as Gulf exports recover, IEA says",
     "Oil prices fall 2% as US crude inventories rise 5.28 million barrels, US-Iran conflict limits losses",
     "‘Code Orange’: Facility monitoring cybersecurity in Middle East is latest impacted by ongoing NSA outage",
-    "Oil prices on track to post third weekly decline despite Middle East tension"
+    "Oil prices on track to post third weekly decline despite Middle East tension",
+    "Oil Prices Extend Weekly Losses Despite Middle East Tensions"
    ],
    "reports": [
+    {
+     "articles": [
+      "25aa2db214fde6b8"
+     ],
+     "date": "2026-11-22",
+     "group": "mena",
+     "outlets": [
+      "Mehr News"
+     ],
+     "published": "2026-11-22T03:32:00+00:00",
+     "text": "[Mehr News](https://en.mehrnews.com/news/249589/Iran-attacks-U-S-Patriot-radars-at-Bahrain-bases) reported that the IRGC Aerospace Force stated it attacked two U.S. Patriot air defense radars at the Al-Riffa and Awali bases in Bahrain."
+    },
+    {
+     "articles": [
+      "d75a2f512868cc84"
+     ],
+     "date": "2026-11-22",
+     "group": "mena",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-22T03:38:12+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/iran-says-targeted-2-us-patriot-radar-systems-in-bahrain-manama-slams-heinous-iranian-aggression-101795313624815.html) reported that Bahrain stated it intercepted several Iranian aerial attacks and that falling shrapnel caused damage with no casualties reported."
+    },
+    {
+     "articles": [
+      "431787478ac8e11d"
+     ],
+     "date": "2026-11-22",
+     "group": "mena",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-21T21:12:18+00:00",
+     "text": "[TASS](https://tass.com/world/2222947) reported that the IRGC aerospace forces struck two US Patriot radars in Bahrain in response to airspace violations by US drones."
+    },
+    {
+     "articles": [
+      "c2896538f30d9bf4"
+     ],
+     "date": "2026-11-22",
+     "group": "mena",
+     "outlets": [
+      "Yeni Şafak (English)"
+     ],
+     "published": "2026-11-21T22:24:10+00:00",
+     "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/irans-guards-claim-they-destroyed-2-us-patriot-radars-in-bahrain-3725831) reported that Iran's Revolutionary Guards claim they destroyed two US Patriot air defense radars at Riffa and Awali."
+    },
+    {
+     "articles": [
+      "45fa0f09233ca3ea"
+     ],
+     "date": "2026-11-22",
+     "group": "global",
+     "outlets": [
+      "The National"
+     ],
+     "published": "2026-11-22T03:23:49+00:00",
+     "text": "[The National](https://www.thenationalnews.com/news/mena/2026/11/22/live-bahrain-attack-iran-war/) reported that Bahrain stated a civilian industrial facility was damaged in an Iran attack."
+    },
+    {
+     "articles": [
+      "49f48e1d91da596c",
+      "541f98dea04a832c",
+      "aafee67e8d023c36",
+      "b8797098b98c99e0"
+     ],
+     "date": "2026-11-21",
+     "group": "mena",
+     "outlets": [
+      "Al Jazeera",
+      "Hindustan Times",
+      "Arab News",
+      "TRT World"
+     ],
+     "published": "2026-11-21T19:51:28+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss), [Hindustan Times](https://www.hindustantimes.com/world-news/bahrain-alleges-iranian-attack-behind-fire-at-civilian-industrial-facility-no-injuries-101795290348274.html), [Arab News](https://www.arabnews.com/middle-east/bahrain-says-iran-struck-civilian-industrial-facility-sparking-fire-3013417), [TRT World](https://www.trtworld.com/article/1b7ac3dfdb5e) reported that Bahrain stated an Iranian attack caused a fire at a civilian industrial facility with no injuries, while Iran's IRGC said it targeted US military positions in al-Riffa and Awali."
+    },
     {
      "articles": [
       "15c5c8990424e4eb"
@@ -62114,15 +62472,15 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
-   "title": "Oil Prices Extend Weekly Losses Despite Middle East Tensions",
+   "title": "Iran says targeted 2 US Patriot radar systems in Bahrain, Manana clarifies ‘civilian facility’ hit as West Asia tensions intensify",
    "title_from": {
-    "backing": 3,
-    "date": "2026-11-20",
-    "of": 3,
-    "outlet": "Pakistan Observer",
-    "url": "https://pakobserver.net/oil-prices-extend-weekly-losses-despite-middle-east-tensions/"
+    "backing": 5,
+    "date": "2026-11-22",
+    "of": 7,
+    "outlet": "Hindustan Times",
+    "url": "https://www.hindustantimes.com/world-news/iran-says-targeted-2-us-patriot-radar-systems-in-bahrain-manama-slams-heinous-iranian-aggression-101795313624815.html"
    },
    "topic": "economy"
   },
@@ -65876,8 +66234,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "361010d2df5dda4a",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-21T19:03:10+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "Brazil ex-President Jair Bolsonaro taken to ICU",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFRjc0toOVM1UmJiaXJrMTA4MU43ZmY2Yjc1QTlwcTQwUVA3TGZ5MVZuSzNRSmRwR2J3TkVHWWE0OWNlX3lkeU5pQnNQcWk5Q19Ua2k3ME5BalMyMEp1RzUyZ3FQdTFxdDZ1TWJLaVNmcWljSl9qMkVZaHdXbFhsUEk0OVJ5OVI5eUVVMm5haW5qanpUdW8yZDN5cw?oc=5"
+    },
     {
      "added": "2026-11-21",
      "id": "c631852428a5cd5d",
@@ -65931,15 +66302,27 @@
      "url": "https://timesofindia.indiatimes.com/world/rest-of-world/flvio-bolsonaro-says-he-will-run-again-denies-fleeing-brazil-after-defeat/articleshow/135799066.cms"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "latam",
    "id": "flavio-bolsonaro-says-he-will-run",
    "label": "Flávio Bolsonaro says he will run again, denies fleeing Brazil after defeat",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "361010d2df5dda4a"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "Reuters"
+     ],
+     "published": "2026-11-21T19:03:10+00:00",
+     "text": "[Reuters](https://news.google.com/rss/articles/CBMimwFBVV95cUxQVFRjc0toOVM1UmJiaXJrMTA4MU43ZmY2Yjc1QTlwcTQwUVA3TGZ5MVZuSzNRSmRwR2J3TkVHWWE0OWNlX3lkeU5pQnNQcWk5Q19Ua2k3ME5BalMyMEp1RzUyZ3FQdTFxdDZ1TWJLaVNmcWljSl9qMkVZaHdXbFhsUEk0OVJ5OVI5eUVVMm5haW5qanpUdW8yZDN5cw?oc=5) reported that Brazil's former president Jair Bolsonaro was taken to the ICU."
+    },
     {
      "articles": [
       "c631852428a5cd5d"
@@ -65967,9 +66350,9 @@
      "text": "[Times of India](https://timesofindia.indiatimes.com/world/rest-of-world/flvio-bolsonaro-says-he-will-run-again-denies-fleeing-brazil-after-defeat/articleshow/135799066.cms), [The Rio Times](https://www.riotimesonline.com/brazil-flavio-bolsonaro-ready-to-run-again-new-election-2026/) reported that Flávio Bolsonaro stated he will run again and denied fleeing Brazil after his defeat."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "brazil",
    "title": "Flávio Bolsonaro says he will run again, denies fleeing Brazil after defeat",
    "topic": "politics"
@@ -68652,8 +69035,21 @@
    "topic": "disaster"
   },
   {
-   "article_count": 13,
+   "article_count": 14,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "dfbb13fd4d1c8654",
+     "lang": "es",
+     "outlet": "La Razón",
+     "published": "2026-11-22T02:15:30+00:00",
+     "publisher": "La Razón",
+     "region": "europe",
+     "section": null,
+     "title": "El programa de vivienda del PSOE ante la prueba de la gestión",
+     "type": "local",
+     "url": "https://www.larazon.es/economia/programa-vivienda-psoe-prueba-gestion_202611226b0250425cb1082f89b1d581.html"
+    },
     {
      "added": "2026-11-20",
      "id": "cdb6813e7cee4047",
@@ -68824,17 +69220,17 @@
      "url": "https://elpais.com/espana/elecciones-generales/2026-11-13/tellado-anuncia-una-denuncia-contra-el-psoe-gallego-por-difundir-sin-verificar-una-imagen-suya-con-koldo-garcia.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "spain-political-defamation-dispute",
    "label": "Spain political defamation dispute",
    "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
+   "last_updated": "2026-11-22",
    "merged": [
     "spain-political-media-appearances"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -68971,9 +69367,9 @@
      "text": "[La Razón](https://www.larazon.es/espana/sanchez-olvida-koldo-garcia-cloacas-psoe-jordi-wild-sabia-quien-era_202611136af70b0c4196933d7edbfb55.html) La Razón reported that Pedro Sánchez denied meetings with Leire Díez and did not rule out a lawsuit."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "spain",
    "title": "Spain political defamation dispute",
    "topic": "politics"
@@ -69549,8 +69945,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 10,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "b3b85c469086dcee",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-22T03:01:00+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "La poderosa red de corrupción chavista que sobrevivió a Nicolás Maduro en Venezuela: millones de dólares están bajo investigación",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/venezuela/la-poderosa-red-de-corrupcion-chavista-que-sobrevivio-a-nicolas-maduro-en-venezuela-millones-de-dolares-estan-bajo-investigacion-3602503"
+    },
     {
      "added": "2026-11-21",
      "id": "4e701210d2c43601",
@@ -69682,15 +70091,27 @@
      "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/gustavo-petro-fue-complice-en-el-fraude-electoral-de-nicolas-maduro-en-venezuela-paz-total-y-agenda-energetica-entre-las-claves-3600661"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "latam",
    "id": "colombia-and-venezuela-political-relations",
    "label": "Colombia and Venezuela political relations",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "b3b85c469086dcee"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "El Tiempo"
+     ],
+     "published": "2026-11-22T03:01:00+00:00",
+     "text": "[El Tiempo](https://www.eltiempo.com/mundo/venezuela/la-poderosa-red-de-corrupcion-chavista-que-sobrevivio-a-nicolas-maduro-en-venezuela-millones-de-dolares-estan-bajo-investigacion-3602503) reported that an analysis delivered to the New York prosecutor's office reveals how the capture of Nicolás Maduro leaves a Chavista corruption network under investigation."
+    },
     {
      "articles": [
       "4e701210d2c43601"
@@ -69790,9 +70211,9 @@
      "text": "[El Tiempo](https://www.eltiempo.com/mundo/eeuu-y-canada/gustavo-petro-fue-complice-en-el-fraude-electoral-de-nicolas-maduro-en-venezuela-paz-total-y-agenda-energetica-entre-las-claves-3600661), [El Colombiano](https://www.elcolombiano.com/colombia/petro-ayudo-a-maduro-a-sostenerse-tras-fraude-electoral-segun-informe-FG43542601) reported that a report from the Miranda Center for Democracy stated that Gustavo Petro was complicit in Nicolás Maduro's electoral fraud in Venezuela."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "colombia",
    "title": "Colombia and Venezuela political relations",
    "topic": "politics"
@@ -71189,8 +71610,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 85,
+   "article_count": 86,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "8b5fc27b49ebc4ea",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-21T15:21:28+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "Court declares Aiguobarueghian as NDC candidate for Ovia Federal Constituency",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/court-declares-aiguobarueghian-as-ndc-candidate-for-ovia-federal-constituency/"
+    },
     {
      "added": "2026-11-21",
      "id": "88751cc5d8528755",
@@ -71697,28 +72131,15 @@
      "title": "PHOTOS: Tinubu grants interview to American political strategist Diana London",
      "type": "local",
      "url": "https://punchng.com/photos-tinubu-grants-interview-to-american-political-strategist-diana-london/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "0ad03c2ccffbddcc",
-     "lang": "en",
-     "outlet": "Vanguard",
-     "published": "2026-11-18T06:18:04+00:00",
-     "publisher": "Vanguard",
-     "region": "africa",
-     "section": null,
-     "title": "Nigeria is US’s greatest ally in Africa — American strategist says, as Tinubu grants interview to London",
-     "type": "local",
-     "url": "https://www.vanguardngr.com/2026/11/nigeria-is-uss-greatest-ally-in-africa-american-strategist-says-as-tinubu-grants-interview-to-london/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "nigerian-opposition-political-alliance-talks",
    "label": "Nigerian opposition political alliance talks",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "2027-bauchi-gov-most-receptive-to",
     "nigerian-senate-probe-into-political-attacks",
@@ -71727,7 +72148,7 @@
     "adc-court-action-against-inec",
     "tinubu-interview-with-diana-london"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Makinde breaks silence on joining forces with Atiku, Peter Obi",
     "2027: Makinde Confirms Alliance Talks With Atiku, Obi as Opposition Weighs Chances of Unseating Tinubu",
@@ -71739,6 +72160,18 @@
     "Diana London Denies $4.5m Payment For Tinubu Interview As Atiku Demands Full Disclosure"
    ],
    "reports": [
+    {
+     "articles": [
+      "8b5fc27b49ebc4ea"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "Nigerian Tribune"
+     ],
+     "published": "2026-11-21T15:21:28+00:00",
+     "text": "[Nigerian Tribune](https://tribuneonlineng.com/court-declares-aiguobarueghian-as-ndc-candidate-for-ovia-federal-constituency/) reported that the Federal High Court in Benin City declared Charity Iguodala Aiguobarueghian as the Nigeria Democratic Congress House of Representatives candidate for Ovia Federal Constituency."
+    },
     {
      "articles": [
       "88751cc5d8528755"
@@ -72250,25 +72683,11 @@
      ],
      "published": "2026-11-16T15:43:39+00:00",
      "text": "[The Will (Nigeria)](https://thewillnews.com/2027-amaechi-alleges-efcc-plot-to-arrest-him-accuses-agency-of-targeting-adc/) reported that former Rivers State governor Amaechi alleged an EFCC plot to arrest him and accused the agency of targeting the ADC."
-    },
-    {
-     "articles": [
-      "91189804bd987c61",
-      "b7274368ce97cadf"
-     ],
-     "date": "2026-11-16",
-     "group": "africa",
-     "outlets": [
-      "Legit (Nigeria)",
-      "Vanguard"
-     ],
-     "published": "2026-11-16T14:58:09+00:00",
-     "text": "[Legit (Nigeria)](https://www.legit.ng/politics/1741653-2027-election-atiku-accuses-tinubu-presidency-using-ai-fabricate-rally-crowds/), [Vanguard](https://www.vanguardngr.com/2026/11/atiku-mocks-presidency-over-alleged-ai-generated-rally-crowds/) reported that former Vice President Atiku Abubakar accused President Bola Tinubu's presidency of using artificial intelligence to fabricate rally crowds."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "Breaking: Tension as court sacks Atiku's loyalist as ADC governorship candidate",
    "title_from": {
@@ -75337,8 +75756,21 @@
    "topic": "elections"
   },
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "6f7fb39b47a2e756",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-22T02:27:07+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Samuel García presenta su Quinto Informe de Gobierno; destaca inversión, seguridad y obra pública",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/estados/samuel-garcia-presenta-su-quinto-informe-de-gobierno-destaca-inversion-seguridad-y-obra-publica/"
+    },
     {
      "added": "2026-11-20",
      "id": "6553a2ec268ec248",
@@ -75577,14 +76009,14 @@
      "url": "https://oem.com.mx/elsoldemexico/mexico/uif-descongela-cuentas-de-rocha-moya-para-acceder-a-sus-pensiones-de-imss-e-issste-33115610"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "latam",
    "id": "rocha-moya-pension-account-unfreezing",
    "label": "Rocha Moya pension account unfreezing",
    "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -75733,16 +76165,29 @@
      "text": "[El Sol de México](https://oem.com.mx/elsoldemexico/mexico/uif-descongela-cuentas-de-rocha-moya-para-acceder-a-sus-pensiones-de-imss-e-issste-33115610), [El Universal (Mexico)](https://www.eluniversal.com.mx/nacion/uif-permite-a-rocha-moya-acceso-parcial-a-sus-cuentas-por-orden-de-tribunal-podra-acceder-a-recursos-de-jubilacion/) reported that Mexico's Financial Intelligence Unit allowed former Sinaloa governor Rocha Moya partial access to his accounts for retirement and old-age pensions."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "mexico",
    "title": "Rocha Moya pension account unfreezing",
    "topic": "justice"
   },
   {
-   "article_count": 12,
+   "article_count": 13,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "6d75289f3d4c501d",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T02:29:02+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Elon Musk warns AI boom may face ‘hundreds of billions’ in cash crunch as chip demand soars",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/elon-musk-warns-ai-boom-may-face-hundreds-of-billions-in-cash-crunch-as-chip-demand-soars-101795312429566.html"
+    },
     {
      "added": "2026-11-21",
      "id": "6429068d9d822202",
@@ -75900,15 +76345,27 @@
      "url": "https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-tesla-florida-texas-b3084462.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "namerica",
    "id": "florida-republican-tells-musk-to-move",
    "label": "Florida Republican tells Musk to move Tesla HQ after Democrats win big in Texas",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "6d75289f3d4c501d"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-22T02:29:02+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/elon-musk-warns-ai-boom-may-face-hundreds-of-billions-in-cash-crunch-as-chip-demand-soars-101795312429566.html) reported that Tesla CEO Elon Musk stated the artificial intelligence infrastructure race faces major challenges in powering, cooling, and operating massive computing systems."
+    },
     {
      "articles": [
       "6429068d9d822202"
@@ -76032,9 +76489,9 @@
      "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-tesla-florida-texas-b3084462.html), [Hindustan Times](https://www.hindustantimes.com/world-news/us-news/rep-carlos-gimenez-invites-elon-musk-to-relocate-tesla-headquarters-from-texas-to-florida-101794577280272.html) reported that Republican Congressman Carlos Gimenez invited Elon Musk to relocate Tesla's headquarters from Texas to Florida."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
    "title": "Florida Republican tells Musk to move Tesla HQ after Democrats win big in Texas",
    "topic": "business-strategic"
@@ -82789,7 +83246,7 @@
    "topic": "justice"
   },
   {
-   "article_count": 88,
+   "article_count": 89,
    "articles": [
     {
      "added": "2026-11-22",
@@ -82816,6 +83273,19 @@
      "title": "Summit president says COP31 negotiations nearing a final agreement",
      "type": "local",
      "url": "https://jowhar.com/summit-president-says-cop31-negotiations-nearing-a-final-agreement/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "7f7a50566ab0b3aa",
+     "lang": "en",
+     "outlet": "The Japan Times",
+     "published": "2026-11-22T00:51:00+00:00",
+     "publisher": "The Japan Times",
+     "region": "asia",
+     "section": null,
+     "title": "COP31 climate talks close to final deal, summit president says",
+     "type": "local",
+     "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/"
     },
     {
      "added": "2026-11-22",
@@ -83303,22 +83773,9 @@
      "title": "COP31: UN Climate summit enters final phase with no deal in sight",
      "type": "international",
      "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "90101626fed74750",
-     "lang": "en",
-     "outlet": "RTÉ",
-     "published": "2026-11-20T09:12:10+00:00",
-     "publisher": "RTÉ",
-     "region": "europe",
-     "section": null,
-     "title": "EU should not accept COP31 fossil fuel draft - Robinson",
-     "type": "local",
-     "url": "https://www.rte.ie/news/world/2026/1120/1599970-cop31-turkey/"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 7,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "cop31-climate-talks-in-turkey",
@@ -83330,7 +83787,7 @@
     "cop31-climate-science-report-timing-dispute",
     "cop31-final-declaration-negotiations"
    ],
-   "outlets_today": 6,
+   "outlets_today": 7,
    "previous_titles": [
     "EU vows to defend climate science as Cop31 talks expose global divisions",
     "Erdoğan pushes climate pledges into action as COP31 talks advance",
@@ -83343,6 +83800,18 @@
     "COP31 Talks Enter Overtime Amid Deadlock Over Fossil Fuels And Climate Finance"
    ],
    "reports": [
+    {
+     "articles": [
+      "7f7a50566ab0b3aa"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "The Japan Times"
+     ],
+     "published": "2026-11-22T00:51:00+00:00",
+     "text": "[The Japan Times](https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/) reported that COP31 President Murat Kurum stated the climate talks are close to a final deal after putting forward a text all parties can agree upon."
+    },
     {
      "articles": [
       "065d581be8913beb"
@@ -83840,28 +84309,6 @@
      ],
      "published": "2026-11-16T14:17:00+00:00",
      "text": "[This Day](https://www.thisdaylive.com/2026/11/16/cop31-first-week-records-26bn-green-investment-deals-10bn-climate-finance-pledges/) reported that the first week of COP31 ended with commitments exceeding $26 billion in green investment deals and $10 billion in climate finance pledges."
-    },
-    {
-     "also": [
-      {
-       "date": "2026-11-17",
-       "outlet": "AllAfrica",
-       "published": "2026-11-17T12:56:58+00:00",
-       "url": "https://allafrica.com/stories/202611170469.html"
-      }
-     ],
-     "articles": [
-      "b2111d1fa1bd9173",
-      "c4681dc4c8771b8e"
-     ],
-     "date": "2026-11-16",
-     "group": "europe",
-     "outlets": [
-      "Yeni Şafak (English)",
-      "Punch"
-     ],
-     "published": "2026-11-16T14:18:54+00:00",
-     "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/cop31-draft-urges-tripling-adaptation-finance-to-120b-by-2035-3725650), [Punch](https://punchng.com/cop31-draft-targets-120bn-annual-adaptation-finance-by-2035/?utm_source=rss.punchng.com&utm_medium=web) reported that the COP31 draft text proposed raising annual climate adaptation finance for developing countries to at least $120 billion by 2035 and urged an immediate transition away from fossil fuels."
     }
    ],
    "single_source_today": false,
@@ -90478,8 +90925,21 @@
    "topic": "crime"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "dddf7099c2fd1b3f",
+     "lang": "en",
+     "outlet": "TASS",
+     "published": "2026-11-22T02:13:00+00:00",
+     "publisher": "TASS",
+     "region": "europe",
+     "section": null,
+     "title": "Lithuania denies involvement in incident in Russia’s Kaliningrad Region",
+     "type": "state-media",
+     "url": "https://tass.com/world/2222981"
+    },
     {
      "added": "2026-11-20",
      "id": "a5ffb219cebf4ed3",
@@ -90663,18 +91123,30 @@
      "url": "https://www.rferl.org/a/russia-us-ukraine-draconian-demands-war/33898149.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-14",
    "group": "europe",
    "id": "russia-demands-on-ukraine-peace-negotiations",
    "label": "Russia demands on Ukraine peace negotiations",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "russia-demands-nato-borders-roll-back"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "dddf7099c2fd1b3f"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "TASS"
+     ],
+     "published": "2026-11-22T02:13:00+00:00",
+     "text": "[TASS](https://tass.com/world/2222981), a Russian state-media outlet, reported that Lithuania denied involvement in an incident in Russia's Kaliningrad Region after an unmanned aerial threat alert system was triggered."
+    },
     {
      "articles": [
       "d9640fbe0f81a715"
@@ -90822,9 +91294,9 @@
      "text": "[RFE/RL](https://www.rferl.org/a/russia-us-ukraine-draconian-demands-war/33898149.html), [New York Times](https://www.nytimes.com/2026/11/13/us/politics/russia-demand-nato-ukraine.html) reported that Russia maintained uncompromising demands regarding territorial control and a NATO retrenchment in closed-door negotiations concerning an end to the war in Ukraine."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "updated",
    "subject": "russia",
    "title": "Russia demands on Ukraine peace negotiations",
    "topic": "diplomacy"
@@ -97179,8 +97651,21 @@
    "topic": "conflict"
   },
   {
-   "article_count": 32,
+   "article_count": 33,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "8d54067728e27620",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-21T17:39:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Taiwan warns Canada faces the China risks Carney has cautioned against",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkYU1DWGQ1Qk5ZVnlBN2JFYWYtbzNPOU1GSkgzTmJCRXVzcllCZERfVkpWQnpIMWdXbjI5LWNaal8wTzBwdWtWSDZITm5RZVZhejZ4WldzNVpEVm90ODJ5UTY0REJUWTUtQk5PUk5CUXNSekIzSTYyRlEwOE5QZzkxZ2dic3dwTWNKZF8yRm9pSEVWbkw1cnc?oc=5"
+    },
     {
      "added": "2026-11-20",
      "id": "0d50ce3175e0b09c",
@@ -97601,24 +98086,36 @@
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc01lX1pFekl6SmdEY1p3SHlENVI0MkZCT2RCLV95bWt5UThVblZpRFNGTVBHZDk4d3JoM0txYzUxRGtQS3dxRTc4MlZzaklnMGJXWFRCVHN4SS11RUdELUZnVXlsMmZQV0szQlNxS3M3Mi1lVHRUVzRJSVB1LWlfa3VvRHkzV1EzTjVUUm1iRVM?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-14",
    "group": "namerica",
    "id": "canada-and-philippines-trade-deal",
    "label": "Canada and Philippines trade deal",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "canada-and-philippines-free-trade-talks",
     "us-and-china-board-of-trade"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Canada and the Philippines conclude talks on free trade deal, Mark Carney says",
     "Carney says Canada could turn to Chinese automakers if Trump trade talks fail",
     "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen"
    ],
    "reports": [
+    {
+     "articles": [
+      "8d54067728e27620"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "Associated Press"
+     ],
+     "published": "2026-11-21T17:39:00+00:00",
+     "text": "[Associated Press](https://news.google.com/rss/articles/CBMiogFBVV95cUxOMk94aHBLLVI3V1JkYU1DWGQ1Qk5ZVnlBN2JFYWYtbzNPOU1GSkgzTmJCRXVzcllCZERfVkpWQnpIMWdXbjI5LWNaal8wTzBwdWtWSDZITm5RZVZhejZ4WldzNVpEVm90ODJ5UTY0REJUWTUtQk5PUk5CUXNSekIzSTYyRlEwOE5QZzkxZ2dic3dwTWNKZF8yRm9pSEVWbkw1cnc?oc=5) reported that Taiwan warned Canada faces China risks that Mark Carney has cautioned against."
+    },
     {
      "articles": [
       "0d50ce3175e0b09c"
@@ -97820,9 +98317,9 @@
      "text": "[Times of India](https://timesofindia.indiatimes.com/world/rest-of-world/canada-us-make-progress-on-trade-deal-as-mark-carney-pursues-new-asian-markets/articleshow/135829086.cms) reported that Canada and the US made progress on a trade deal."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "canada",
    "title": "Carney says Canada’s growing trade ties with China are not a top concern for Trump",
    "title_from": {
@@ -109153,8 +109650,34 @@
    "topic": "security"
   },
   {
-   "article_count": 13,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "92a4b3cef5b56e56",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T04:17:01+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "Sani Warns Northerners Against Attacks on Southerner Leaders, Says Consensus Candidate a Waste of Time",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/sani-warns-northerners-against-attacks-on-southerner-leaders-says-consensus-candidate-a-waste-of-time/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "dfc64b5dac5b18b1",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T03:55:07+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "Sani Warns Northerners Against Attacks on Southern Leaders, Says Consensus Candidate a Waste of Time",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/sani-warns-northerners-against-attacks-on-southern-leaders-says-consensus-candidate-a-waste-of-time/"
+    },
     {
      "added": "2026-11-21",
      "id": "7780b65f875c455d",
@@ -109325,19 +109848,27 @@
      "url": "https://www.dailysabah.com/world/africa/over-50-killed-in-clashes-between-bandits-vigilantes-in-nigeria"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-14",
    "group": "global",
    "id": "zamfara-gang-and-vigilante-clashes",
    "label": "Zamfara gang and vigilante clashes",
    "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "previous_titles": [
     "Clashes between gangs, vigilantes kill over 50 in northern Nigeria: residents"
    ],
    "reports": [
     {
+     "also": [
+      {
+       "date": "2026-11-22",
+       "outlet": "This Day",
+       "published": "2026-11-22T03:55:07+00:00",
+       "url": "https://www.thisdaylive.com/2026/11/22/sani-warns-northerners-against-attacks-on-southern-leaders-says-consensus-candidate-a-waste-of-time/"
+      }
+     ],
      "articles": [
       "6dea231638c4b66e"
      ],
@@ -109472,9 +110003,9 @@
      "text": "[Vanguard](https://www.vanguardngr.com/2026/11/clashes-between-gangs-vigilantes-kill-over-50-in-zamfara-report/), [Arab News](https://www.arabnews.com/world/clashes-between-gangs-vigilantes-kill-over-50-in-northern-nigeria-residents-3011866) reported that clashes between criminal gangs and local vigilantes left more than 50 people dead in northwestern Nigeria's Zamfara state."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "nigeria",
    "title": "Bandits attack Zamfara mosque, kill APC e-registration supervisor, abduct worshippers",
    "title_from": {
@@ -112082,8 +112613,66 @@
    "topic": "security"
   },
   {
-   "article_count": 73,
+   "article_count": 77,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "1583eb5415f3edbc",
+     "lang": "en",
+     "outlet": "CNA",
+     "published": "2026-11-22T04:25:00+00:00",
+     "publisher": "CNA",
+     "region": "asia",
+     "section": null,
+     "title": "South Korea education chief resigns amid AI cheating scandal",
+     "type": "regional",
+     "url": "https://www.channelnewsasia.com/east-asia/south-korea-education-chief-resigns-ai-cheating-scandal-suneung-6572626"
+    },
+    {
+     "added": "2026-11-22",
+     "dates": [
+      "2026-11-15"
+     ],
+     "id": "ac3bbed9de95bee3",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-22T04:22:45+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "South Korea Education Minister resigns amid AI cheating scandal",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/south-korea-education-minister-resigns-amid-ai-cheating-scandal/article71730601.ece"
+    },
+    {
+     "added": "2026-11-22",
+     "dates": [
+      "2026-11-22"
+     ],
+     "id": "7efbd605c59e6dc7",
+     "lang": "en",
+     "outlet": "Yonhap",
+     "published": "2026-11-22T03:12:59+00:00",
+     "publisher": "Yonhap",
+     "region": "asia",
+     "section": null,
+     "title": "Education minister offers to resign over college exam chaos amid AI cheating fears",
+     "type": "local",
+     "url": "https://en.yna.co.kr/view/AEN20261122001000315"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "ff13236dcb5e1a1d",
+     "lang": "en",
+     "outlet": "Yonhap",
+     "published": "2026-11-22T02:47:10+00:00",
+     "publisher": "Yonhap",
+     "region": "asia",
+     "section": null,
+     "title": "(URGENT) Education minister offers to resign over college exam chaos amid AI cheating fears",
+     "type": "local",
+     "url": "https://en.yna.co.kr/view/AEN20261122000800315"
+    },
     {
      "added": "2026-11-20",
      "id": "c484ea89a72c8193",
@@ -112593,80 +113182,19 @@
      "title": "South Korea tightens university exam checks to screen for hidden cameras",
      "type": "wire",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNGE1NWg5RXYzeVZBS3VzUGptS2I4ODBKd1FaUjF1R0hpVHpXeEpkcFF2U1lpWU42QmZGYzZYZ2NZV05QRVVfXy04T1dpeGpKM0lXNmVnMHhOc05abFZ6NEZUYjIxTTFybk5zcFRUVWdmeHM4TGp5QV83OVZVVjE0cmtjY1RYbHJERVJLeDV2ZXdhTWR2SkRGYVVHQjFxLXkwalJMNGk0YnVwd1RIcnI3VDJwSDg1Q1VQRmM0RA?oc=5"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "4204045ccfbb3b8a",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-17T08:15:32+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "South Korea cheating scandal: Are AI smart glasses a threat to exams?",
-     "type": "international",
-     "url": "https://www.aljazeera.com/news/2026/11/17/south-korea-cheating-scandal-are-ai-smart-glasses-a-threat-to-exams?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "30129a9a571d0492",
-     "lang": "en",
-     "outlet": "Yonhap",
-     "published": "2026-11-17T08:15:03+00:00",
-     "publisher": "Yonhap",
-     "region": "asia",
-     "section": null,
-     "title": "(3rd LD) PM announces package of measures to prevent cheating on college entrance exam",
-     "type": "local",
-     "url": "https://en.yna.co.kr/view/AEN20261117003253315"
-    },
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "11f1d2bd545e6fc3",
-     "lang": "en",
-     "outlet": "Yonhap",
-     "published": "2026-11-17T07:38:14+00:00",
-     "publisher": "Yonhap",
-     "region": "asia",
-     "section": null,
-     "title": "(2nd LD) PM announces package of measures to prevent cheating on college entrance exam",
-     "type": "local",
-     "url": "https://en.yna.co.kr/view/AEN20261117003252315"
-    },
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "326d6278824484d9",
-     "lang": "en",
-     "outlet": "Yonhap",
-     "published": "2026-11-17T07:23:48+00:00",
-     "publisher": "Yonhap",
-     "region": "asia",
-     "section": null,
-     "title": "(LEAD) Gov't rules out postponing college entrance exam amid cheating fears",
-     "type": "local",
-     "url": "https://en.yna.co.kr/view/AEN20261117006251315"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 4,
    "first_seen": "2026-11-15",
    "group": "asia",
    "id": "south-korea-tax-accountant-exam-cheating",
    "label": "South Korea tax accountant exam cheating",
    "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
+   "last_updated": "2026-11-22",
    "merged": [
     "south-korea-college-entrance-exam-inspections"
    ],
-   "outlets_today": 0,
+   "outlets_today": 3,
    "previous_titles": [
     "Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
     "(LEAD) Top scorer in tax accountant exam turns himself in over AI-assisted cheating",
@@ -112674,7 +113202,8 @@
     "AI cheating fears spook South Korea ahead of high-stakes college entrance exam",
     "South Korea checks glasses and collars for hidden AI in university exam",
     "South Korea tightens exam security after AI cheating scandal",
-    "(LEAD) Half million students take annual college entrance exam amid AI cheating concerns"
+    "(LEAD) Half million students take annual college entrance exam amid AI cheating concerns",
+    "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam"
    ],
    "reports": [
     {
@@ -113108,15 +113637,15 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "south-korea",
-   "title": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
+   "title": "Education minister offers to resign over college exam chaos amid AI cheating fears",
    "title_from": {
     "backing": 2,
-    "date": "2026-11-19",
-    "of": 3,
-    "outlet": "New York Times",
-    "url": "https://www.nytimes.com/2026/11/18/world/asia/south-korea-cheating-college-exam-suneung.html"
+    "date": "2026-11-22",
+    "of": 2,
+    "outlet": "Yonhap",
+    "url": "https://en.yna.co.kr/view/AEN20261122001000315"
    },
    "topic": "crime"
   },
@@ -121522,8 +122051,34 @@
    "topic": "conflict"
   },
   {
-   "article_count": 13,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "93cfebf05d51ba03",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T04:19:22+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "Tinubu Mourns Victims of Bayelsa Boat Accident, Orders Low-key Oyo APC Rally",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/tinubu-mourns-victims-of-bayelsa-boat-accident-orders-low-key-oyo-apc-rally/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "fd78ad2b2cc509b6",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T03:53:14+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "NEMA Deploys Technical Team As Bayelsa Boat Accident Death Toll Hits 24",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/nema-deploys-technical-team-as-bayelsa-boat-accident-death-toll-hits-24/"
+    },
     {
      "added": "2026-11-20",
      "id": "ec322cf80e2ac66f",
@@ -121694,15 +122249,39 @@
      "url": "https://tribuneonlineng.com/zamfara-police-rescue-19-kidnap-victims/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-15",
    "group": "africa",
    "id": "zamfara-police-rescue-operation",
    "label": "Zamfara police rescue operation",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "fd78ad2b2cc509b6"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "This Day"
+     ],
+     "published": "2026-11-22T03:53:14+00:00",
+     "text": "[This Day](https://www.thisdaylive.com/2026/11/22/nema-deploys-technical-team-as-bayelsa-boat-accident-death-toll-hits-24/) reported that NEMA deployed a technical team to Bayelsa State to strengthen search and rescue operations following a boat accident."
+    },
+    {
+     "articles": [
+      "93cfebf05d51ba03"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "This Day"
+     ],
+     "published": "2026-11-22T04:19:22+00:00",
+     "text": "[This Day](https://www.thisdaylive.com/2026/11/22/tinubu-mourns-victims-of-bayelsa-boat-accident-orders-low-key-oyo-apc-rally/) reported that President Bola Tinubu expressed deep sadness over the tragic incident in Ukubie and ordered a low-key Oyo APC rally."
+    },
     {
      "articles": [
       "d83296ececf5a33b",
@@ -121820,9 +122399,9 @@
      "text": "[Premium Times](https://www.premiumtimesng.com/news/top-news/925313-police-rescue-three-year-old-girl-19-other-abducted-persons-in-zamfara.html) reported that a three-year-old girl was freed in a separate operation in Zamfara."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "Security operatives rescue 15 kidnap victims after gun battle in Kogi",
    "title_from": {
@@ -127107,8 +127686,60 @@
    "topic": "security"
   },
   {
-   "article_count": 129,
+   "article_count": 148,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "39d5e6b20ffcc214",
+     "lang": "en",
+     "outlet": "The Korea Herald",
+     "published": "2026-11-22T03:59:10+00:00",
+     "publisher": "The Korea Herald",
+     "region": "asia",
+     "section": null,
+     "title": "Cartel leader captured in northern Mexico in a bloody firefight that left 11 dead",
+     "type": "local",
+     "url": "https://www.koreaherald.com/article/10945061"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "0b3303777c5739de",
+     "lang": "pt",
+     "outlet": "O Globo",
+     "published": "2026-11-22T03:00:01+00:00",
+     "publisher": "O Globo",
+     "region": "latam",
+     "section": null,
+     "title": "Tiroteio, bloqueio em estradas e incêndios: captura de 'El Chapo Isidro' pelo Exército mexicano causa caos no estado de Sinaloa",
+     "type": "local",
+     "url": "https://oglobo.globo.com/mundo/noticia/2026/11/22/tiroteio-bloqueio-em-estradas-e-incendios-captura-de-el-chapo-isidro-pelo-exercito-mexicano-causa-caos-no-estado-de-sinaloa.ghtml"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "998cffa8e4f19eb6",
+     "lang": "en",
+     "outlet": "Sydney Morning Herald",
+     "published": "2026-11-22T02:51:16+00:00",
+     "publisher": "Sydney Morning Herald",
+     "region": "asia",
+     "section": null,
+     "title": "Top drug kingpin captured by Mexican Army as gunfire erupts",
+     "type": "local",
+     "url": "https://www.smh.com.au/world/north-america/top-drug-kingpin-captured-by-mexican-army-as-gunfire-erupts-20261122-p61g94.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "14db261d29d6b86f",
+     "lang": "en",
+     "outlet": "Sydney Morning Herald",
+     "published": "2026-11-22T02:36:14+00:00",
+     "publisher": "Sydney Morning Herald",
+     "region": "asia",
+     "section": null,
+     "title": "Top drug kingpin captured by Mexican Army",
+     "type": "local",
+     "url": "https://www.smh.com.au/world/north-america/top-drug-kingpin-captured-by-mexican-army-20261122-p61g9u.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+    },
     {
      "added": "2026-11-22",
      "id": "1be90f1cc9575d4e",
@@ -127121,6 +127752,19 @@
      "title": "Mexico nabs notorious drug cartel leader",
      "type": "local",
      "url": "https://punchng.com/mexico-nabs-notorious-drug-cartel-leader/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "47fe50b95243fdf4",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-22T01:20:51+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Murciélagos y Lobos cazaron al \"Chapo Isidro\"; así son los cuerpos de Fuerzas Especiales",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/nacion/murcielagos-y-lobos-cazaron-al-chapo-isidro-asi-son-los-cuerpos-de-fuerzas-especiales/"
     },
     {
      "added": "2026-11-22",
@@ -127563,74 +128207,9 @@
      "title": "Who Is the Mexican Drug Kingpin Known as El Chapo Isidro?",
      "type": "international",
      "url": "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-drug-kingpin.html"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "0c57106db9ca44d5",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-21T16:03:16+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
-     "type": "international",
-     "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "184c8b58442e468f",
-     "lang": "es",
-     "outlet": "El Universal (Mexico)",
-     "published": "2026-11-21T15:59:23+00:00",
-     "publisher": "El Universal (Mexico)",
-     "region": "latam",
-     "section": null,
-     "title": "Zar antidrogas de Trump destaca captura de \"El Chapo Isidro\"; \"es una victoria para Estados Unidos y México\"",
-     "type": "local",
-     "url": "https://www.eluniversal.com.mx/mundo/zar-antidrogas-de-trump-destaca-captura-de-el-chapo-isidro-es-una-victoria-para-estados-unidos-y-mexico/"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "67964153de5beb73",
-     "lang": "es",
-     "outlet": "La Nación (Argentina)",
-     "published": "2026-11-21T15:56:53+00:00",
-     "publisher": "La Nación (Argentina)",
-     "region": "latam",
-     "section": null,
-     "title": "Quién es el “Chapo Isidro”, el narco capturado por México y que era buscado por el FBI",
-     "type": "local",
-     "url": "https://www.lanacion.com.ar/el-mundo/quien-es-el-chapo-isidro-el-narco-capturado-por-mexico-y-que-era-buscado-por-el-fbi-nid21112026/"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "1cb0efb5eef467be",
-     "lang": "es",
-     "outlet": "El Tiempo",
-     "published": "2026-11-21T15:54:19+00:00",
-     "publisher": "El Tiempo",
-     "region": "latam",
-     "section": null,
-     "title": "¿Quién es 'El Chapo Isidro', el cabecilla del 'Cartel de Guasave' que está entre los 10 más buscados del FBI y que fue capturado en México?",
-     "type": "local",
-     "url": "https://www.eltiempo.com/mundo/mexico/quien-es-el-chapo-isidro-el-cabecilla-del-cartel-de-guasave-que-esta-entre-los-10-mas-buscados-del-fbi-y-que-fue-capturado-en-mexico-3603001"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "6c5fb02465638a46",
-     "lang": "en",
-     "outlet": "RTÉ",
-     "published": "2026-11-21T15:40:56+00:00",
-     "publisher": "RTÉ",
-     "region": "europe",
-     "section": null,
-     "title": "Mexico captures top drug lord 'El Chapo Isidro'",
-     "type": "local",
-     "url": "https://www.rte.ie/news/world/2026/1121/1600134-mexico-drugs-fbi/"
     }
    ],
-   "articles_today": 13,
+   "articles_today": 18,
    "first_seen": "2026-11-15",
    "group": "latam",
    "id": "miguel-angel-felix-gallardo-death",
@@ -127640,7 +128219,7 @@
    "merged": [
     "sinaloa-cartel-leader-arrest-operation"
    ],
-   "outlets_today": 10,
+   "outlets_today": 15,
    "previous_titles": [
     "Notorious Mexican drug lord Miguel Angel Felix Gallardo dies",
     "Mexican drug lord Miguel Angel Felix Gallardo, founder of the Guadalajara Cartel, dies at 80",
@@ -127649,6 +128228,20 @@
     "Mexico detains top cartel boss El Chapo Isidro, setting off burst of violence in Sinaloa"
    ],
    "reports": [
+    {
+     "articles": [
+      "0b246fec3f59aacb",
+      "9da3163ada65d7b2"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "Euronews",
+      "TRT World"
+     ],
+     "published": "2026-11-21T13:41:23+00:00",
+     "text": "[Euronews](https://www.euronews.com/2026/11/21/mexico-captures-fbis-most-wanted-cartel-boss-el-chapo-isidro-triggering-violence), [TRT World](https://www.trtworld.com/article/0fb4e485c575) reported that the arrest of Fausto Isidro Meza Flores followed intelligence cooperation with the US."
+    },
     {
      "articles": [
       "de9807c6d549df2d"
@@ -127674,6 +128267,14 @@
      "text": "[BBC](https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss) reported that Fausto Isidro Chapo Idisro Meza Flores is detained after a gunfight with authorities."
     },
     {
+     "also": [
+      {
+       "date": "2026-11-22",
+       "outlet": "South China Morning Post",
+       "published": "2026-11-21T14:00:45+00:00",
+       "url": "https://www.scmp.com/news/world/americas/article/3375342/mexico-captures-drug-kingpin-fbis-most-wanted-list"
+      }
+     ],
      "articles": [
       "8b69b1a05b414371"
      ],
@@ -131296,8 +131897,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 28,
+   "article_count": 30,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "30834606c3b515bf",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-22T03:18:23+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian drones reportedly strike Russian National Guard facility in Krasnodar",
+     "type": "local",
+     "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-national-guard-facility-in-krasnodar/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "85bf0a312e801dc1",
+     "lang": "en",
+     "outlet": "RT",
+     "published": "2026-11-21T14:23:33+00:00",
+     "publisher": "RT",
+     "region": "europe",
+     "section": null,
+     "title": "Ukrainian strike kills six civilians in frontline Russian region – officials",
+     "type": "state-media",
+     "url": "https://rt-english.com/russia/649190-lugansk-strike-civilians-dead/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+    },
     {
      "added": "2026-11-20",
      "id": "5b133b0d32d1c7e5",
@@ -131678,14 +132305,14 @@
      "url": "https://rt-english.com/russia/648864-six-injured-ukrainian-drone-attack-russia-tatarstan/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-16",
    "group": "europe",
    "id": "ukrainian-drone-attacks-in-russia",
    "label": "Ukrainian drone attacks in Russia",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
    "previous_titles": [
     "Ukraine disables over 55% of Russia’s oil refining capacity – Zelensky",
     "Ukraine has halted over 55% of Russia's oil refining capacity – Zelenskyy",
@@ -131694,6 +132321,30 @@
     "Russia repels Ukrainian drones attack on oil facility in Tatarstan region, local authorities say"
    ],
    "reports": [
+    {
+     "articles": [
+      "85bf0a312e801dc1"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "RT"
+     ],
+     "published": "2026-11-21T14:23:33+00:00",
+     "text": "[RT](https://rt-english.com/russia/649190-lugansk-strike-civilians-dead/?utm_source=rss&utm_medium=rss&utm_campaign=RSS) reported that local authorities stated a Ukrainian strike killed six civilians on the outskirts of Lugansk."
+    },
+    {
+     "articles": [
+      "30834606c3b515bf"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-22T03:18:23+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-national-guard-facility-in-krasnodar/) reported that Ukrainian drones reportedly struck a Russian National Guard facility in Krasnodar."
+    },
     {
      "articles": [
       "5b133b0d32d1c7e5"
@@ -131915,7 +132566,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "russia",
    "title": "Ukrainian Drones Target Smolensk Region Fertilizer Plant",
    "title_from": {
@@ -138245,8 +138896,21 @@
    "topic": "justice"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "aeee85d07138e260",
+     "lang": "pt",
+     "outlet": "O Globo",
+     "published": "2026-11-22T02:20:18+00:00",
+     "publisher": "O Globo",
+     "region": "latam",
+     "section": null,
+     "title": "Incêndio em fábrica na Indonésia deixa quatro feridos e 39 desaparecidos até o momento; equipes fazem buscas",
+     "type": "local",
+     "url": "https://oglobo.globo.com/mundo/noticia/2026/11/21/incendio-em-fabrica-na-indonesia-deixa-quatro-feridos-e-39-desaparecidos-ate-o-momento-equipes-fazem-buscas.ghtml"
+    },
     {
      "added": "2026-11-16",
      "id": "fc147842a1717ea3",
@@ -138287,15 +138951,27 @@
      "url": "https://www.eltiempo.com/mundo/asia/tragedia-en-tailandia-incendio-en-edificio-residencial-de-phuket-deja-11-muertos-y-cerca-de-20-personas-rescatadas-con-vida-3601372"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "asia",
    "id": "thailand-commercial-building-fire",
    "label": "Thailand commercial building fire",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "aeee85d07138e260"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "O Globo"
+     ],
+     "published": "2026-11-22T02:20:18+00:00",
+     "text": "[O Globo](https://oglobo.globo.com/mundo/noticia/2026/11/21/incendio-em-fabrica-na-indonesia-deixa-quatro-feridos-e-39-desaparecidos-ate-o-momento-equipes-fazem-buscas.ghtml) reported that rescue teams in Indonesia are searching for 39 missing people following a fire at a candy factory that left four injured."
+    },
     {
      "articles": [
       "9b0bfd26634e1d8c"
@@ -138321,9 +138997,9 @@
      "text": "[O Globo](https://oglobo.globo.com/mundo/epoca/noticia/2026/11/16/incendio-em-edificio-comercial-deixa-11-mortos-e-16-feridos-em-ilha-turistica-na-tailandia.ghtml) reported that the fire occurred early Monday morning."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Thailand commercial building fire",
    "topic": "disaster"
   },
@@ -160100,7 +160776,7 @@
    "topic": "technology-policy"
   },
   {
-   "article_count": 31,
+   "article_count": 32,
    "articles": [
     {
      "added": "2026-11-21",
@@ -160114,6 +160790,19 @@
      "title": "How China showcased the ‘Shenzhen miracle’ in Apec cooperation push",
      "type": "regional",
      "url": "https://www.scmp.com/news/china/diplomacy/article/3375335/how-china-showcased-shenzhen-miracle-apec-cooperation-push"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "8d7991f08ca7c13c",
+     "lang": "en",
+     "outlet": "CGTN China",
+     "published": "2026-11-21T09:03:20+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "Vietnam's top leader calls for closer cooperation with SW China",
+     "type": "state-media",
+     "url": "https://news.cgtn.com/news/2026-11-21/Vietnam-s-top-leader-calls-for-closer-cooperation-with-SW-China-1SfEgfipNjG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China"
     },
     {
      "added": "2026-11-21",
@@ -160521,20 +161210,32 @@
      "url": "https://tass.com/economy/2219097"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-16",
    "group": "europe",
    "id": "putin-apec-summit-participation",
    "label": "Putin APEC summit participation",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "previous_titles": [
     "Eyes turn to APEC summit with likely Trump-Kim meeting on cards",
     "Xi Jinping calls for global cooperation on AI and free trade at APEC summit",
     "China's Xi calls for free and open trade at APEC summit"
    ],
    "reports": [
+    {
+     "articles": [
+      "8d7991f08ca7c13c"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "CGTN"
+     ],
+     "published": "2026-11-21T09:03:20+00:00",
+     "text": "[CGTN](https://news.cgtn.com/news/2026-11-21/Vietnam-s-top-leader-calls-for-closer-cooperation-with-SW-China-1SfEgfipNjG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China), a state-media outlet, reported that Vietnam's top leader called for closer cooperation with southwest China."
+    },
     {
      "articles": [
       "e56b7320ac577d15"
@@ -160735,9 +161436,9 @@
      "text": "[TASS](https://tass.com/politics/2219107) reported that a high-ranking delegation including seven ministers and corporate executives will accompany Putin."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "updated",
    "subject": "russia",
    "title": "APEC leaders call for stronger connectivity, fewer trade barriers at China summit",
    "title_from": {
@@ -174759,8 +175460,47 @@
    "topic": "humanitarian"
   },
   {
-   "article_count": 16,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "576aacb8418a6ce9",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T04:31:32+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "COP31 draft deal makes no mention of fossil fuels, omits call to phase out coal, oil and gas",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/cop31-draft-deal-makes-no-mention-of-fossil-fuels-omits-call-to-phase-out-coal-oil-and-gas-101795320791429.html"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "d50371ea787b36ef",
+     "lang": "en",
+     "outlet": "The Korea Herald",
+     "published": "2026-11-22T03:56:13+00:00",
+     "publisher": "The Korea Herald",
+     "region": "asia",
+     "section": null,
+     "title": "Fossil fuel dispute threatens to scupper climate deal",
+     "type": "local",
+     "url": "https://www.koreaherald.com/article/10945059"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "95df4ee0c367fe62",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-22T03:16:19+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "COP31 : nouveau projet de décision finale, toujours sans mention des énergies fossiles",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/international/cop31-nouveau-projet-de-decision-finale-toujours-sans-mention-des-energies-fossiles-20261122"
+    },
     {
      "added": "2026-11-21",
      "id": "de2f2d3d782ffb22",
@@ -174976,15 +175716,51 @@
      "url": "https://www.elnuevosiglo.com.co/bienestar/cop31-borrador-pide-acelerar-salida-de-combustibles-fosiles"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "latam",
    "id": "cop31-fossil-fuel-phaseout-draft",
    "label": "COP31 fossil fuel phaseout draft",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "95df4ee0c367fe62"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "Le Figaro"
+     ],
+     "published": "2026-11-22T03:16:19+00:00",
+     "text": "[Le Figaro](https://www.lefigaro.fr/international/cop31-nouveau-projet-de-decision-finale-toujours-sans-mention-des-energies-fossiles-20261122) reported that a new COP31 final decision draft does not contain an explicit call to phase out coal, oil, or fossil gas."
+    },
+    {
+     "articles": [
+      "d50371ea787b36ef"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "The Korea Herald"
+     ],
+     "published": "2026-11-22T03:56:13+00:00",
+     "text": "[The Korea Herald](https://www.koreaherald.com/article/10945059) reported that global climate talks dragged into overtime due to a standoff over fossil fuels."
+    },
+    {
+     "articles": [
+      "576aacb8418a6ce9"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-22T04:31:32+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/cop31-draft-deal-makes-no-mention-of-fossil-fuels-omits-call-to-phase-out-coal-oil-and-gas-101795320791429.html) reported that the proposed COP31 final agreement recalls the UAE Consensus in its entirety but omits the words fossil, oil, coal, or phase out."
+    },
     {
      "articles": [
       "bea53b6c461d08ad"
@@ -175074,7 +175850,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "turkey",
    "title": "COP31: Civil Society groups fault omitting fossil fuel phase-out from draft text",
    "title_from": {
@@ -185967,8 +186743,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 60,
+   "article_count": 61,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "4e9dc515722dec6b",
+     "lang": "en",
+     "outlet": "The Japan Times",
+     "published": "2026-11-21T23:55:00+00:00",
+     "publisher": "The Japan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Ukraine strains Russian logistics with Crimean bridge strikes",
+     "type": "local",
+     "url": "https://www.japantimes.co.jp/news/2026/11/22/world/ukraine-russia-logistics-crimean-bridge-strikes/"
+    },
     {
      "added": "2026-11-21",
      "id": "a6e2c9e5b7c669a7",
@@ -186499,38 +187288,37 @@
      "title": "Russian diplomat demands Hague explain Dutch drone use in Crimean Bridge attack",
      "type": "state-media",
      "url": "https://tass.com/politics/2222485"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "b1daf8f36f9c8e18",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-20T12:12:48+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "France seeks UN Security Council meeting after strikes in Kyiv",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWWJIUFcybUZJREdUQkhJTlJkUWdyTFpxVWdBbzE0U0VOSGZjaldNYmk1YXU1MnhrLXBBeEhWYUVBcTlZc2NLRHRfQ2NaSms3RW5WMXV0MXdRbV9nQ0VJVU5qR3hlQmY3VXZyTDcyTWw5VHpmUm8yMEgzQkdYcE56OXo4cHd2ZnVLLWE2bXVpdlVvSHJUQXJWc0JoX1UwdE5rX1Nn?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "europe",
    "id": "kyiv-bridge-missile-strikes",
    "label": "Kyiv bridge missile strikes",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "ukraine-strikes-russian-bridge-in-occupied",
     "crimean-bridge-attack-drone-origins"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "previous_titles": [
     "Putin vows to rebuild the Crimean Bridge and threatens Ukraine with a \"far more painful\" response",
     "Trump’s Ukraine Energy Truce Unravels as Russian Missiles Hit Kyiv"
    ],
    "reports": [
+    {
+     "articles": [
+      "4e9dc515722dec6b"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "The Japan Times"
+     ],
+     "published": "2026-11-21T23:55:00+00:00",
+     "text": "[The Japan Times](https://www.japantimes.co.jp/news/2026/11/22/world/ukraine-russia-logistics-crimean-bridge-strikes/) reported that Ukraine's strikes on the Crimean bridge piled pressure on an already strained Russian logistics network."
+    },
     {
      "articles": [
       "a7e8a4a788b00aa4"
@@ -186999,23 +187787,11 @@
      ],
      "published": "2026-11-18T15:20:23+00:00",
      "text": "[Kyiv Independent](https://kyivindependent.com/ukraine-strikes-russian-bridge-in-occupied-luhansk-oblast-damages-3-military-aircraft-general-staff-says/) reported that the General Staff stated Ukrainian forces struck a Russian bridge in occupied Luhansk Oblast, damaging three military aircraft."
-    },
-    {
-     "articles": [
-      "e7f5e99e1fbb9e79"
-     ],
-     "date": "2026-11-19",
-     "group": "europe",
-     "outlets": [
-      "Ukrainska Pravda"
-     ],
-     "published": "2026-11-19T08:37:00+00:00",
-     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/19/8063580/) reported that emergency power cuts were introduced in Kharkiv, Sumy, and Poltava oblasts following Russian strikes."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "ukraine",
    "title": "Russia may need a year to clear collapsed Crimean Bridge section, Ukraine says",
    "title_from": {
@@ -192620,8 +193396,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "f1415962d7542ee7",
+     "lang": "en",
+     "outlet": "CGTN China",
+     "published": "2026-11-21T11:09:42+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "APEC China Year delivers historic outcomes",
+     "type": "state-media",
+     "url": "https://news.cgtn.com/news/2026-11-21/APEC-China-Year-delivers-historic-outcomes--1SfNqanHWiA/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China"
+    },
     {
      "added": "2026-11-17",
      "id": "b984f6ff647f75d7",
@@ -192649,15 +193438,27 @@
      "url": "https://news.cgtn.com/news/2026-11-16/2026-China-APEC-members-reach-nearly-50-economic-trade-outcomes-1S7yulma60U/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "asia",
    "id": "china-apec-economic-outcomes",
    "label": "China APEC economic outcomes",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "f1415962d7542ee7"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "CGTN"
+     ],
+     "published": "2026-11-21T11:09:42+00:00",
+     "text": "[CGTN](https://news.cgtn.com/news/2026-11-21/APEC-China-Year-delivers-historic-outcomes--1SfNqanHWiA/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China), a state-media outlet, reported that the APEC China Year delivered historic outcomes."
+    },
     {
      "articles": [
       "dcb9c41c5b0dd4df"
@@ -192683,9 +193484,9 @@
      "text": "[The Sun (Nigeria)](https://thesun.ng/apec-china-looks-forward-to-further-building-consensus-delivering-more-practical-outcomes-foreign-ministry/) reported that the Chinese Foreign Ministry stated China looks forward to working with all sides to build consensus and deliver more practical outcomes."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "updated",
    "subject": "china",
    "title": "China APEC economic outcomes",
    "topic": "economy"
@@ -197970,8 +198771,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 42,
+   "article_count": 46,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "8007e8fad84ed3d7",
+     "lang": "es",
+     "outlet": "El Tiempo",
+     "published": "2026-11-22T02:25:17+00:00",
+     "publisher": "El Tiempo",
+     "region": "latam",
+     "section": null,
+     "title": "Donald Trump confirma que hackers vulneraron una base de datos del FBI en septiembre y teme que el ataque destape 'engaños' contra él: 'No es bueno'",
+     "type": "local",
+     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/donald-trump-confirma-que-hackers-vulneraron-una-base-de-datos-del-fbi-en-septiembre-y-teme-que-el-ataque-destape-enganos-contra-el-no-es-bueno-3603098"
+    },
     {
      "added": "2026-11-22",
      "id": "b61cd3389a0f52c5",
@@ -197984,6 +198798,32 @@
      "title": "U.S. Agriculture Department and FBI breached by hackers, reports say",
      "type": "local",
      "url": "https://www.japantimes.co.jp/news/2026/11/22/world/crime-legal/us-fbi-usda-cyberattacks/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "0091ec962d4189b8",
+     "lang": "es",
+     "outlet": "El Deber",
+     "published": "2026-11-22T00:33:58+00:00",
+     "publisher": "El Deber",
+     "region": "latam",
+     "section": null,
+     "title": "Trump confirma el ciberataque al FBI y cree que podría destapar \"engaños\" contra él",
+     "type": "local",
+     "url": "https://eldeber.com.bo/mundo/trump-confirma-ciberataque-fbi-cree-podria-destapar-enganos_1795307638"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "e2cfef4c4e7b6521",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-22T00:03:35+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Trump confirma ciberataque al FBI; cree que podría destapar \"engaños\" contra él",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/mundo/trump-confirma-ciberataque-al-fbi-cree-que-podria-destapar-enganos-contra-el/"
     },
     {
      "added": "2026-11-21",
@@ -198023,6 +198863,19 @@
      "title": "FBI investigating apparent hack of its criminal database",
      "type": "international",
      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1aDV3MzdvN1dpcHRqd2ktQzNVMGZNNFpmU1RjdmVmbUFUM2E3bmtZSTBVek1nLWM0R3RQdlJVa2M1ai1KUW5GUmRxR2pTUDFEZ2NGeDdLZWVwQQ?oc=5"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "71d64f05979fd92f",
+     "lang": "es",
+     "outlet": "El Sol de México",
+     "published": "2026-11-21T19:11:41+00:00",
+     "publisher": "El Sol de México",
+     "region": "latam",
+     "section": null,
+     "title": "Trump confirma ciberataque al FBI y cree que podría destapar \"engaños\" contra él",
+     "type": "local",
+     "url": "https://oem.com.mx/elsoldemexico/mundo/trump-confirma-ciberataque-al-fbi-y-cree-que-podria-destapar-enganos-contra-el-33252637"
     },
     {
      "added": "2026-11-21",
@@ -198439,61 +199292,9 @@
      "title": "FBI investiga nuevo ciberataque contra base de datos nacional, según CNN; en septiembre indagó otro caso",
      "type": "local",
      "url": "https://www.eluniversal.com.mx/mundo/fbi-investiga-nuevo-ciberataque-contra-base-de-datos-nacional-segun-cnn-en-septiembre-indago-otro-caso/"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "226dd48ebdddc4ea",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-21T03:15:00+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "FBI's criminal information database hacked, CNN reports",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRE83U2NSQ2FlbllBaUxQUzl5UWdfWktnME85LVk1ZkJFczYwOUJEbXpoV0tzUXltYWhtTl8zT05jeW9yX29sREJwZkxCNWdxZWwxcGlUa2N1YzM4YjRZcVF6dWpNbGhfak5zWjNsdnpQcFAzVGdoSmZGLTN5R21KZlcxV2dUZU15czdSQU5fYXJLV1MzWTVuYkdTRi1weFU?oc=5"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "8602890e9716eb28",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-21T02:48:06+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "FBI database hacked for second time in months, breach targets US crime records",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/us-news/fbi-database-hacked-for-second-time-in-months-breach-targets-us-crime-records-101795228753873.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "9a22cc471ac00096",
-     "lang": "es",
-     "outlet": "El Deber",
-     "published": "2026-11-18T01:14:46+00:00",
-     "publisher": "El Deber",
-     "region": "latam",
-     "section": null,
-     "title": "¿Quién es Giovanni Ortuño?, la propuesta de Bolivia para ocupar la embajada en Estados Unidos",
-     "type": "local",
-     "url": "https://eldeber.com.bo/pais/quien-giovanni-ortuno-propuesta-bolivia-ocupar-embajada-estados-unidos_1794964486"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "50fb43e2443987d8",
-     "lang": "es",
-     "outlet": "El Tiempo",
-     "published": "2026-11-18T00:50:04+00:00",
-     "publisher": "El Tiempo",
-     "region": "latam",
-     "section": null,
-     "title": "Embajada de Estados Unidos en Colombia emite alerta de seguridad en el país por convocatoria de marcha y protesta nacional este jueves 19 de noviembre",
-     "type": "local",
-     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/embajada-de-estados-unidos-en-colombia-emite-alerta-de-seguridad-en-el-pais-por-convocatoria-de-marcha-y-protesta-nacional-este-jueves-19-de-noviembre-3601822"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 6,
    "first_seen": "2026-11-18",
    "group": "latam",
    "id": "colombia-security-alert-for-protests",
@@ -198502,9 +199303,10 @@
    "last_updated": "2026-11-22",
    "merged": [
     "fbi-database-cyberattack-investigation",
-    "fbi-database-cyber-security-breach"
+    "fbi-database-cyber-security-breach",
+    "us-fbi-cyberattack-investigation"
    ],
-   "outlets_today": 2,
+   "outlets_today": 6,
    "previous_titles": [
     "FBI database hacked for second time in months, breach targets US crime records"
    ],
@@ -215447,8 +216249,21 @@
    "topic": "security"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "38d46560077fbaca",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-21T18:41:38+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Tribal clash over land leaves seven dead",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2641617/tribal-clash-over-land-leaves-seven-dead"
+    },
     {
      "added": "2026-11-18",
      "id": "bd31cc8e3924aaef",
@@ -215502,15 +216317,27 @@
      "url": "https://www.premiumtimesng.com/regional/nwest/926259-three-killed-in-jigawa-farmers-herders-clash.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "africa",
    "id": "jigawa-farmers-herders-clash",
    "label": "Jigawa farmers-herders clash",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "38d46560077fbaca"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-21T18:41:38+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2641617/tribal-clash-over-land-leaves-seven-dead) reported that a tribal clash over land left four members of the Gilal tribe and three from the Kohistani community dead."
+    },
     {
      "articles": [
       "bd31cc8e3924aaef"
@@ -215540,9 +216367,9 @@
      "text": "[Premium Times](https://www.premiumtimesng.com/regional/nwest/926259-three-killed-in-jigawa-farmers-herders-clash.html), [Vanguard](https://www.vanguardngr.com/2026/11/jigawa-farmers-herders-clash-leaves-three-dead-two-injured/), [AllAfrica](https://allafrica.com/stories/202611180674.html) reported that at least three people were killed and two others injured in a violent clash involving suspected herders and farmers in Garki Local Government Area."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "Nigeria: Jigawa Farmers-Herders Clash Leaves Three Dead, Two Injured",
    "title_from": {
@@ -217431,8 +218258,21 @@
    "topic": "security"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "436f01250608b643",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-21T10:16:44+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "Was Vladimir Putin 'snubbed' by Xi Jinping? Viral handshake video is AI fake",
+     "type": "international",
+     "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261121-was-vladimir-putin-snubbed-by-xi-jinping-viral-handshake-video-is-ai-fake"
+    },
     {
      "added": "2026-11-21",
      "id": "391cb17815fa2059",
@@ -217512,15 +218352,27 @@
      "url": "https://www.eltiempo.com/mundo/europa/ataque-al-puente-de-crimea-ucrania-revela-que-coordino-la-operacion-con-un-sistema-propio-sin-depender-de-starlink-3601937"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "europe",
    "id": "ataque-al-puente-de-crimea-ucrania",
    "label": "Ataque al puente de Crimea: Ucrania revela que coordinó la operación con un sistema propio sin depen",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "436f01250608b643"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-21T10:16:44+00:00",
+     "text": "[France 24](https://www.france24.com/en/tv-shows/truth-or-fake/20261121-was-vladimir-putin-snubbed-by-xi-jinping-viral-handshake-video-is-ai-fake) reported that a viral video showing China's Xi Jinping allegedly snubbing Vladimir Putin at the APEC summit is an AI fake."
+    },
     {
      "articles": [
       "391cb17815fa2059"
@@ -217594,9 +218446,9 @@
      "text": "[El País](https://elpais.com/internacional/2026-11-18/verificacion-el-ataque-de-ucrania-destruyo-mas-de-200-metros-del-sector-central-y-mas-iconico-del-puente-de-crimea.html) reported that new images show the Ukrainian strike destroyed more than 200 meters of the central sector and roadway of the Crimean Bridge."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "ukraine",
    "title": "Ataque al puente de Crimea: Ucrania revela que coordinó la operación con un sistema propio sin depen",
    "topic": "conflict"
@@ -229449,8 +230301,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "9932a3a486726fb7",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T03:53:29+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "FG’s Education Reforms Boost Nigerian Varsities’ Global Rankings, Says Tinubu",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/fgs-education-reforms-boost-nigerian-varsities-global-rankings-says-tinubu/"
+    },
     {
      "added": "2026-11-21",
      "id": "ecf168f4ddb372ec",
@@ -229543,15 +230408,27 @@
      "url": "https://www.thisdaylive.com/2026/11/19/global-ranking-covenant-university-leads-africa-as-nigeria-records-highest-number-of-varsities-in-the-rankings/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-19",
    "group": "africa",
    "id": "times-higher-education-rankings-and-instant",
    "label": "Times Higher Education rankings and instant payment reports",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "9932a3a486726fb7"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "This Day"
+     ],
+     "published": "2026-11-22T03:53:29+00:00",
+     "text": "[This Day](https://www.thisdaylive.com/2026/11/22/fgs-education-reforms-boost-nigerian-varsities-global-rankings-says-tinubu/) reported that President Bola Tinubu praised the management of Nnamdi Azikiwe University for aligning with federal government education reforms."
+    },
     {
      "articles": [
       "cbc9a939c1dbe538"
@@ -229625,9 +230502,9 @@
      "text": "[The Sun (Nigeria)](https://thesun.ng/africas-instant-payment-transactions-hit-1-8trn-in-2025-as-nigeria-leads-report/) reported that Africa's instant payment transactions hit $1.8 trillion in 2025 with Nigeria leading."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "Africa’s instant payment transactions hit $1.8trn in 2025 as Nigeria leads – Report",
    "title_from": {
@@ -237920,8 +238797,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 25,
+   "article_count": 27,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "2c4b2fa27dbcac54",
+     "lang": "es",
+     "outlet": "El Colombiano",
+     "published": "2026-11-22T02:49:31+00:00",
+     "publisher": "El Colombiano",
+     "region": "latam",
+     "section": null,
+     "title": "¿Otra congresista del Pacto en líos por títulos? Andrea Vargas reconoce que no se graduó, pero se presentaba como abogada",
+     "type": "local",
+     "url": "https://www.elcolombiano.com/colombia/congresista-pacto-lios-titulos-andrea-vargas-reconoce-graduo-presentaba-abogada-BG43891770"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "bd2f068519c2d9e3",
+     "lang": "es",
+     "outlet": "El Nuevo Siglo",
+     "published": "2026-11-22T00:25:38+00:00",
+     "publisher": "El Nuevo Siglo",
+     "region": "latam",
+     "section": null,
+     "title": "Pacto Histórico: Andrea Vargas admite que no se ha graduado de abogada",
+     "type": "local",
+     "url": "https://www.elnuevosiglo.com.co/nacion/pacto-historico-andrea-vargas-admite-que-no-se-ha-graduado-de-abogada"
+    },
     {
      "added": "2026-11-22",
      "id": "b3166d32ff8a3292",
@@ -238248,7 +239151,7 @@
      "url": "https://www.elcolombiano.com/colombia/veronica-estrada-pacto-historico-titulo-falso-canciller-GH43773324"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-19",
    "group": "latam",
    "id": "pacto-historico-congressional-degree-scandal",
@@ -238258,8 +239161,22 @@
    "merged": [
     "colombian-congressional-diploma-controversy"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "2c4b2fa27dbcac54",
+      "bd2f068519c2d9e3"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "El Nuevo Siglo",
+      "El Colombiano"
+     ],
+     "published": "2026-11-22T00:25:38+00:00",
+     "text": "[El Nuevo Siglo](https://www.elnuevosiglo.com.co/nacion/pacto-historico-andrea-vargas-admite-que-no-se-ha-graduado-de-abogada), [El Colombiano](https://www.elcolombiano.com/colombia/congresista-pacto-lios-titulos-andrea-vargas-reconoce-graduo-presentaba-abogada-BG43891770) reported that Pacto Histórico congresswoman Andrea Vargas admitted she has not graduated as a lawyer, stating she is an ungraduated alumnus of the University of the Atlantic."
+    },
     {
      "articles": [
       "b3166d32ff8a3292"
@@ -238441,7 +239358,7 @@
      "text": "[El Colombiano](https://www.elcolombiano.com/colombia/luz-veronica-estrada-titulo-falso-pacto-historico-investigara-caso-comite-etica-DI43785204) reported that the Pacto Histórico party asked its Ethics Committee to investigate the false university degree of Representative Verónica Estrada."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Pacto Histórico congressional degree scandal",
@@ -240253,8 +241170,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 10,
+   "article_count": 11,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "3efb5073da56e721",
+     "lang": "en",
+     "outlet": "Times of India",
+     "published": "2026-11-22T03:32:07+00:00",
+     "publisher": "Times of India",
+     "region": "asia",
+     "section": null,
+     "title": "Trump moves to limit congressional scrutiny before Democrats take power of Congress",
+     "type": "local",
+     "url": "https://timesofindia.indiatimes.com/world/us/trump-moves-to-limit-congressional-scrutiny-before-democrats-take-power-of-congress/articleshow/136065847.cms"
+    },
     {
      "added": "2026-11-21",
      "id": "81649f9f2673e352",
@@ -240389,18 +241319,30 @@
      "url": "https://www.ukrinform.net/rubric-polytics/4186528-merz-outlines-key-conditions-for-peace-deal-with-russia-floats-partial-sanctions-relief.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-19",
    "group": "europe",
    "id": "german-chancellor-conditions-for-ukraine-peace",
    "label": "German Chancellor conditions for Ukraine peace deal",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
    "merged": [
     "us-push-for-january-2027-ukraine"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "3efb5073da56e721"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "Times of India"
+     ],
+     "published": "2026-11-22T03:32:07+00:00",
+     "text": "[Times of India](https://timesofindia.indiatimes.com/world/us/trump-moves-to-limit-congressional-scrutiny-before-democrats-take-power-of-congress/articleshow/136065847.cms) reported that Donald Trump moved to limit congressional scrutiny before Democrats take power of Congress."
+    },
     {
      "articles": [
       "81649f9f2673e352"
@@ -240480,9 +241422,9 @@
      "text": "[TASS](https://tass.com/world/2222079), a Russian state outlet, reported that Friedrich Merz proposed the UAE as the venue for a Ukraine peace talks meeting on neutral ground."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "germany",
    "title": "German Chancellor conditions for Ukraine peace deal",
    "topic": "diplomacy"
@@ -242795,8 +243737,34 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "cccc8990d31fb971",
+     "lang": "ar",
+     "outlet": "Sada El Balad",
+     "published": "2026-11-22T03:51:30+00:00",
+     "publisher": "Sada El Balad",
+     "region": "mena",
+     "section": null,
+     "title": "«ترامب» ينشر صورًا مع بوتين وشي جين بينغ ويصفهما بـ«أصدقائي» و«القوى العظمى»",
+     "type": "local",
+     "url": "https://www.elbalad.news/7189613"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "706d0a988c5b8d08",
+     "lang": "ar",
+     "outlet": "Asharq News",
+     "published": "2026-11-22T01:56:07+00:00",
+     "publisher": "Asharq News",
+     "region": "mena",
+     "section": null,
+     "title": "3 قوى تملك \"الفيتو\".. هل ترسم قمة ترمب وشي وبوتين ملامح نظام دولي جديد؟",
+     "type": "regional",
+     "url": "https://asharq.com/politics/203958/3-%D9%81%D9%8A%D8%AA%D9%88-%D9%87%D9%84-%D8%AA%D8%B1%D8%B3%D9%85-%D9%82%D9%85%D8%A9-%D8%AA%D8%B1%D9%85%D8%A8-%D9%88%D8%B4%D9%8A-%D9%88%D8%A8%D9%88%D8%AA%D9%8A%D9%86-%D9%85%D9%84%D8%A7%D9%85%D8%AD-%D9%86%D8%B8%D8%A7%D9%85-%D8%AF%D9%88%D9%84%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF/"
+    },
     {
      "added": "2026-11-20",
      "id": "45ab6c4ae76abac1",
@@ -242850,15 +243818,27 @@
      "url": "https://www.echoroukonline.com/%d8%aa%d8%b1%d8%a7%d9%85%d8%a8-%d9%88%d8%a8%d9%88%d8%aa%d9%8a%d9%86-%d9%88%d8%b4%d9%8a-%d8%b9%d9%84%d9%89-%d8%b7%d8%a7%d9%88%d9%84%d8%a9-%d9%88%d8%a7%d8%ad%d8%af%d8%a9-%d9%87%d9%84-%d9%8a%d8%aa"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-19",
    "group": "mena",
    "id": "story-5",
    "label": "ترامب وبوتين وشي على طاولة واحدة.. هل يتوصلون إلى تفاهم تاريخي؟",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "cccc8990d31fb971"
+     ],
+     "date": "2026-11-22",
+     "group": "mena",
+     "outlets": [
+      "Sada El Balad"
+     ],
+     "published": "2026-11-22T03:51:30+00:00",
+     "text": "[Sada El Balad](https://www.elbalad.news/7189613) reported that US President Donald Trump published photos with Russian and Chinese leaders and described them as friends and great powers."
+    },
     {
      "articles": [
       "45ab6c4ae76abac1"
@@ -242910,7 +243890,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "ترامب وبوتين وشي على طاولة واحدة.. هل يتوصلون إلى تفاهم تاريخي؟",
    "topic": "diplomacy"
   },
@@ -262140,8 +263120,21 @@
    "topic": "security"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "d389239721d87bef",
+     "lang": "en",
+     "outlet": "CGTN China",
+     "published": "2026-11-21T03:05:24+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "APEC blueprint advances regional digital connectivity",
+     "type": "state-media",
+     "url": "https://news.cgtn.com/news/2026-11-21/APEC-blueprint-advances-regional-digital-connectivity-1Sfhx6BYZaM/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China"
+    },
     {
      "added": "2026-11-20",
      "dates": [
@@ -262185,15 +263178,27 @@
      "url": "https://news.cgtn.com/news/2026-11-19/Full-text-2026-APEC-Leaders-Shenzhen-Outlook-1ScNEirhiKI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "asia",
    "id": "apec-leaders-shenzhen-outlook",
    "label": "APEC Leaders Shenzhen Outlook",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "d389239721d87bef"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "CGTN"
+     ],
+     "published": "2026-11-21T03:05:24+00:00",
+     "text": "[CGTN](https://news.cgtn.com/news/2026-11-21/APEC-blueprint-advances-regional-digital-connectivity-1Sfhx6BYZaM/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China), a state-media outlet, reported that the APEC blueprint advances regional digital connectivity."
+    },
     {
      "articles": [
       "42138eb2170b5da3",
@@ -262221,9 +263226,9 @@
      "text": "[CGTN](https://news.cgtn.com/news/2026-11-19/APEC-releases-a-connectivity-blueprint-1ScRrQaSt8I/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China) reported that the meeting also adopted the APEC Connectivity Blueprint."
     }
    ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
+   "single_source_today": true,
+   "state_media_only_today": true,
+   "status": "updated",
    "subject": "china",
    "title": "APEC Leaders Shenzhen Outlook",
    "topic": "economy"
@@ -262540,8 +263545,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "0625e4076334a2fd",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-22T03:02:40+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Concluye reunión Interparlamentaria México-Cuba; Higinio Martínez reitera rechazo al bloqueo económico",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/nacion/concluye-reunion-interparlamentaria-mexico-cuba-higinio-martinez-reitera-rechazo-al-bloqueo-economico/"
+    },
     {
      "added": "2026-11-20",
      "id": "5e1b7f1f2893b2d8",
@@ -262569,15 +263587,27 @@
      "url": "https://www.jornada.com.mx/2026/11/20/politica/006n1pol?partner=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "latam",
    "id": "mexico-cuba-interparliamentary-meeting",
    "label": "Mexico-Cuba interparliamentary meeting",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "0625e4076334a2fd"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "El Universal (Mexico)"
+     ],
+     "published": "2026-11-22T03:02:40+00:00",
+     "text": "[El Universal (Mexico)](https://www.eluniversal.com.mx/nacion/concluye-reunion-interparlamentaria-mexico-cuba-higinio-martinez-reitera-rechazo-al-bloqueo-economico/) reported that the Mexico-Cuba Interparliamentary meeting concluded after parliamentarians analyzed Cuba's current situation and topics in health, education, and culture."
+    },
     {
      "articles": [
       "4d4f04dfb62ece04",
@@ -262593,9 +263623,9 @@
      "text": "[La Jornada](https://www.jornada.com.mx/2026/11/20/politica/006n1pol?partner=rss), [El Universal (Mexico)](https://www.eluniversal.com.mx/nacion/higinio-martinez-inaugura-reunion-interparlamentaria-mexico-cuba-oposicion-se-ausenta/) reported that the Mexico-Cuba interparliamentary meeting began in the Senate of the Republic after a three-year hiatus."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "mexico",
    "title": "Mexico-Cuba interparliamentary meeting",
    "topic": "diplomacy"
@@ -263526,8 +264556,47 @@
    "topic": "economy"
   },
   {
-   "article_count": 4,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "e38bdb06d48e1de7",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-22T04:30:15+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "Immigration officers make arrest at Seattle airport in ‘distressing’ scene, delaying flight",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/immigration-officers-make-arrest-at-seattle-airport-in-distressing-scene-delaying-flight/article71730599.ece"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "c92702f4074c66b2",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T02:56:30+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "ICE arrests two Mexican nationals at Seattle airport, says passenger assaulted federal officers",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/ice-arrests-two-mexican-nationals-at-seattle-airport-says-passenger-assaulted-federal-officers-101795315645092.html"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "7807b04837f3c4e7",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-22T02:14:54+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "‘Horrific’ ICE arrests at Seattle airport jet bridge rattle passengers, fuel outrage",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375353/horrific-ice-arrests-seattle-airport-jet-bridge-rattles-passengers-fuels-outrage"
+    },
     {
      "added": "2026-11-21",
      "id": "631f09f9dab8a562",
@@ -263581,15 +264650,27 @@
      "url": "https://www.theguardian.com/us-news/2026/nov/20/princeton-doctoral-student-reportedly-detained-ice"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "namerica",
    "id": "us-immigration-and-customs-enforcement-detention",
    "label": "US Immigration and Customs Enforcement detention of Eva Yi Xie",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "c92702f4074c66b2"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-22T02:56:30+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/ice-arrests-two-mexican-nationals-at-seattle-airport-says-passenger-assaulted-federal-officers-101795315645092.html) reported that ICE arrested Ricardo Larrondo Mendoza during an operation at Seattle-Tacoma International Airport."
+    },
     {
      "articles": [
       "631f09f9dab8a562"
@@ -263631,9 +264712,16 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
-   "title": "US Immigration and Customs Enforcement detention of Eva Yi Xie",
+   "title": "‘Horrific’ ICE arrests at Seattle airport jet bridge rattle passengers, fuel outrage",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-22",
+    "of": 2,
+    "outlet": "South China Morning Post",
+    "url": "https://www.scmp.com/news/world/united-states-canada/article/3375353/horrific-ice-arrests-seattle-airport-jet-bridge-rattles-passengers-fuels-outrage"
+   },
    "topic": "security"
   },
   {
@@ -266905,8 +267993,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 8,
+   "article_count": 9,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "bb99bb902d3ed27c",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-22T02:45:36+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Overturned boat carrying mourners to funeral kills at least 24 in Nigeria",
+     "type": "international",
+     "url": "https://www.aljazeera.com/news/2026/11/22/overturned-boat-carrying-mourners-to-funeral-kills-at-least-four-in-nigeria?traffic_source=rss"
+    },
     {
      "added": "2026-11-22",
      "id": "61b82973a7ca35c2",
@@ -267012,18 +268113,30 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU3hySDBHaTNmM2U2ZG9mUjNtRVRlaHZiZW5RdmUwaVBGUUlxNUhJX0w3alVrQ1hNUEFLVndrSXJyTTQxMTM3WjNvZGlLaVJaTVR6Q3g1MHdVRGM5dXVXMGJqeGNrMlU5NG9MTWNqRDd4UWZTRVljdDBoeGRkZXVCOVBrY2hjN3BsZ2QwdjdFSVBTVEQ3eGx1ZjlnMjhRRkZ2RXdVSk9NUnZ6X0prdHhVaEw0aDk4V01UY19ad2VpM0g?oc=5"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-21",
    "group": "africa",
    "id": "funeral-boat-capsizing-in-nigeria",
    "label": "Funeral boat capsizing in Nigeria",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "previous_titles": [
     "24 dead after boat carrying mourners to funeral capsizes in Nigeria"
    ],
    "reports": [
+    {
+     "articles": [
+      "bb99bb902d3ed27c"
+     ],
+     "date": "2026-11-22",
+     "group": "africa",
+     "outlets": [
+      "Al Jazeera"
+     ],
+     "published": "2026-11-22T02:45:36+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/22/overturned-boat-carrying-mourners-to-funeral-kills-at-least-four-in-nigeria?traffic_source=rss) reported that police stated the boat driver fled and the vessel's manager was taken into custody following the boat capsizing."
+    },
     {
      "articles": [
       "61b82973a7ca35c2"
@@ -267346,8 +268459,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "3f881b97ebbf8f97",
+     "lang": "es",
+     "outlet": "La Jornada",
+     "published": "2026-11-21T07:58:09+00:00",
+     "publisher": "La Jornada",
+     "region": "latam",
+     "section": null,
+     "title": "Inminente, propuesta de acuerdo de culpabilidad para Caro en NY",
+     "type": "local",
+     "url": "https://www.jornada.com.mx/2026/11/21/politica/009n3pol?partner=rss"
+    },
     {
      "added": "2026-11-21",
      "id": "6e9450aecdbfd225",
@@ -267375,15 +268501,27 @@
      "url": "https://oem.com.mx/elsoldemexico/mundo/juez-reclama-informacion-sobre-posible-acuerdo-de-caro-quintero-antes-del-30-de-noviembre-33237842"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-21",
    "group": "latam",
    "id": "caro-quintero-plea-agreement-negotiations",
    "label": "Caro Quintero plea agreement negotiations",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "3f881b97ebbf8f97"
+     ],
+     "date": "2026-11-22",
+     "group": "latam",
+     "outlets": [
+      "La Jornada"
+     ],
+     "published": "2026-11-21T07:58:09+00:00",
+     "text": "[La Jornada](https://www.jornada.com.mx/2026/11/21/politica/009n3pol?partner=rss) reported that Rafael Caro Quintero appeared in a procedural hearing toward his eventual trial in the Brooklyn federal court."
+    },
     {
      "articles": [
       "1ad4cf048b7e41b5",
@@ -267399,9 +268537,10 @@
      "text": "[El Sol de México](https://oem.com.mx/elsoldemexico/mundo/juez-reclama-informacion-sobre-posible-acuerdo-de-caro-quintero-antes-del-30-de-noviembre-33237842), [El Universal (Mexico)](https://www.eluniversal.com.mx/mundo/caro-quintero-cerca-de-llegar-a-un-acuerdo-con-fiscalia-de-ny-buscan-que-se-declare-culpable/) reported that a US federal judge gave parties a deadline of November 30 to report on conversations regarding a potential plea agreement for Caro Quintero."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
+   "subject": "us",
    "title": "Caro Quintero plea agreement negotiations",
    "topic": "justice"
   },
@@ -269542,8 +270681,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "50058715859a877c",
+     "lang": "en",
+     "outlet": "Sydney Morning Herald",
+     "published": "2026-11-22T04:17:03+00:00",
+     "publisher": "Sydney Morning Herald",
+     "region": "asia",
+     "section": null,
+     "title": "‘Lucky to be alive’: Teens denied bail after Sydney shopping centre stabbing",
+     "type": "local",
+     "url": "https://www.smh.com.au/national/nsw/lucky-to-be-alive-teens-denied-bail-after-sydney-shopping-centre-stabbing-20261122-p61g9l.html?ref=rss&utm_medium=rss&utm_source=rss_feed"
+    },
     {
      "added": "2026-11-21",
      "id": "60a73aeeb2a5a13a",
@@ -269584,15 +270736,27 @@
      "url": "https://www.abc.net.au/news/2026-11-21/teenager-charged-after-sydney-shopping-centre-stabbings/107412324"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-21",
    "group": "asia",
    "id": "sydney-shopping-centre-stabbing-incident",
    "label": "Sydney shopping centre stabbing incident",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "50058715859a877c"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "Sydney Morning Herald"
+     ],
+     "published": "2026-11-22T04:17:03+00:00",
+     "text": "[Sydney Morning Herald](https://www.smh.com.au/national/nsw/lucky-to-be-alive-teens-denied-bail-after-sydney-shopping-centre-stabbing-20261122-p61g9l.html?ref=rss&utm_medium=rss&utm_source=rss_feed) reported that two teenagers were denied release by a court after a stabbing attack at a shopping centre in Sydney's northwest."
+    },
     {
      "articles": [
       "60a73aeeb2a5a13a"
@@ -269630,9 +270794,9 @@
      "text": "[Sydney Morning Herald](https://www.smh.com.au/national/teen-charged-as-boy-fights-for-life-after-sydney-shopping-centre-stabbing-20261121-p61g5t.html?ref=rss&utm_medium=rss&utm_source=rss_feed) reported that the stabbing involved a large kitchen knife and left one teen fighting for life."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "australia",
    "title": "Sydney shopping centre stabbing incident",
    "topic": "crime"
@@ -275531,8 +276695,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "51f5668928b38234",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-22T04:21:26+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "FG Increases Admission of Medical Students from 5,000 to 12,000, Targets 20,000 Annually",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/22/fg-increases-admission-of-medical-students-from-5000-to-12000-targets-20000-annually/"
+    },
     {
      "added": "2026-11-21",
      "id": "fe95bb440f7adb03",
@@ -275560,16 +276737,24 @@
      "url": "https://www.vanguardngr.com/2026/11/fg-increases-medical-student-admission-to-12000-targets-20000-annually-alausa/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-21",
    "group": "africa",
    "id": "fg-increases-medical-student-admission-to",
    "label": "FG increases medical student admission to 12,000, targets 20,000 annually — Alausa",
    "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
     {
+     "also": [
+      {
+       "date": "2026-11-22",
+       "outlet": "This Day",
+       "published": "2026-11-22T04:21:26+00:00",
+       "url": "https://www.thisdaylive.com/2026/11/22/fg-increases-admission-of-medical-students-from-5000-to-12000-targets-20000-annually/"
+      }
+     ],
      "articles": [
       "deb2185a7e8c5049"
      ],
@@ -275582,9 +276767,9 @@
      "text": "[Vanguard](https://www.vanguardngr.com/2026/11/fg-increases-medical-student-admission-to-12000-targets-20000-annually-alausa/) reported that the Federal Government increased annual admission into medical schools from 5,000 to 12,000 students, according to Minister of Education Dr. Tunji Alausa."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "FG increases medical student admission to 12,000, targets 20,000 annually — Alausa",
    "topic": "politics"
   },
@@ -276634,8 +277819,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "9384793d17900491",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-22T01:54:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Melania Trump hopes for new ceasefire between Ukraine and Russia by Christmas",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-society/4187211-melania-trump-hopes-for-new-ceasefire-between-ukraine-and-russia-by-christmas.html"
+    },
     {
      "added": "2026-11-21",
      "id": "0855fd255cb80e12",
@@ -276666,16 +277864,24 @@
      "url": "https://www.kyivpost.com/post/90788"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-21",
    "group": "namerica",
    "id": "melania-trump-ukraine-ceasefire-statements",
    "label": "Melania Trump Ukraine ceasefire statements",
    "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_updated": "2026-11-22",
+   "outlets_today": 1,
    "reports": [
     {
+     "also": [
+      {
+       "date": "2026-11-22",
+       "outlet": "Ukrinform",
+       "published": "2026-11-22T01:54:00+00:00",
+       "url": "https://www.ukrinform.net/rubric-society/4187211-melania-trump-hopes-for-new-ceasefire-between-ukraine-and-russia-by-christmas.html"
+      }
+     ],
      "articles": [
       "5427079c1a5a2226"
      ],
@@ -276688,9 +277894,9 @@
      "text": "[Kyiv Post](https://www.kyivpost.com/post/90788) reported that US First Lady Melania Trump expressed hope during a Fox News interview that Ukraine and Russia can reach a new ceasefire by Christmas."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "subject": "us",
    "title": "Melania Trump Ukraine ceasefire statements",
    "topic": "diplomacy"
@@ -277444,222 +278650,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "Užas u Gazi: Izraelski dron pogodio vozilo koje je prevozilo hranu, ubijena tri Palestinca",
-   "topic": "conflict"
-  },
-  {
-   "article_count": 11,
-   "articles": [
-    {
-     "added": "2026-11-22",
-     "id": "423846b72c3cb164",
-     "lang": "en",
-     "outlet": "GMA News",
-     "published": "2026-11-21T23:00:39+00:00",
-     "publisher": "GMA News",
-     "region": "asia",
-     "section": null,
-     "title": "Bahrain says Iranian attack hits industrial facility as air defenses intercept attacks",
-     "type": "local",
-     "url": "https://www.gmanetwork.com/news/topstories/world/1010356/bahrain-says-iranian-attack-hits-industrial-facility-as-air-defenses-intercept-attacks/story/"
-    },
-    {
-     "added": "2026-11-22",
-     "id": "c2896538f30d9bf4",
-     "lang": "en",
-     "outlet": "Yeni Şafak (English)",
-     "published": "2026-11-21T22:24:10+00:00",
-     "publisher": "Yeni Şafak (English)",
-     "region": "mena",
-     "section": null,
-     "title": "Iran's Guards claim they destroyed 2 US Patriot radars in Bahrain",
-     "type": "local",
-     "url": "http://en.yenisafak.com/world/irans-guards-claim-they-destroyed-2-us-patriot-radars-in-bahrain-3725831"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "5d01dae83062628f",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-21T22:02:03+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Bahrain says Iranian attack hits industrial facility",
-     "type": "international",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-22",
-     "id": "5fd0a250cc41587a",
-     "lang": "en",
-     "outlet": "RT",
-     "published": "2026-11-21T21:44:26+00:00",
-     "publisher": "RT",
-     "region": "europe",
-     "section": null,
-     "title": "Iran claims attack on US Patriot systems in Bahrain",
-     "type": "state-media",
-     "url": "https://rt-english.com/news/649196-iran-bahrain-us-bases/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "b8797098b98c99e0",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-21T21:31:03+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Bahrain says Iranian attack causes fire at industrial facility",
-     "type": "international",
-     "url": "https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-22",
-     "id": "36e9861b8f4cdd46",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-21T21:24:10+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "Bahrain says Iranian attack hits industrial facility as air defences intercept attacks",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzltZHhpNzJyRTg4dE5kYUJSOUJ4azFWY2txckEtQUlGQVVfTEtIUUpWN3dHZWlocXlZWGFidVRIMjN3ZDM4d2xQWVZ0UFAxRm81TGFfbFNZRzMxTXJOemdzOHRNeWJOLXhEWF83a3N0a1hiR0FjbUE1eGZVX002eVpMNHJyX2JoVXp5bFdjcDJBYkhOWFE4a1AzN0hSRE1wTDFmNGxvaFR6TkR6bkd4a3FSSUU1anZp?oc=5"
-    },
-    {
-     "added": "2026-11-22",
-     "id": "431787478ac8e11d",
-     "lang": "en",
-     "outlet": "TASS",
-     "published": "2026-11-21T21:12:18+00:00",
-     "publisher": "TASS",
-     "region": "europe",
-     "section": null,
-     "title": "IRGC attacked two US Patriot radars in Bahrain",
-     "type": "state-media",
-     "url": "https://tass.com/world/2222947"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "49f48e1d91da596c",
-     "lang": "en",
-     "outlet": "TRT World",
-     "published": "2026-11-21T21:00:17+00:00",
-     "publisher": "TRT World",
-     "region": "mena",
-     "section": null,
-     "title": "Iran says struck US Patriot radars in Bahrain; Manama says attack hit civilian industrial site",
-     "type": "state-media",
-     "url": "https://www.trtworld.com/article/1b7ac3dfdb5e"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "6571b0ddd123ccd0",
-     "lang": "en",
-     "outlet": "Haaretz",
-     "published": "2026-11-21T20:50:30+00:00",
-     "publisher": "Haaretz",
-     "region": "mena",
-     "section": null,
-     "title": "Bahrain says Iranian attack hits industrial facility, causes fire",
-     "type": "local",
-     "url": "https://www.haaretz.com/middle-east-news/iran/2026-11-21/ty-article/bahrain-says-iranian-attack-hits-industrial-facility-causes-fire/000001a1-ffcb-d9ff-a7b5-ffeffe980000"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "aafee67e8d023c36",
-     "lang": "en",
-     "outlet": "Arab News",
-     "published": "2026-11-21T20:38:44+00:00",
-     "publisher": "Arab News",
-     "region": "mena",
-     "section": null,
-     "title": "Bahrain says Iran struck civilian industrial facility, sparking fire",
-     "type": "regional",
-     "url": "https://www.arabnews.com/middle-east/bahrain-says-iran-struck-civilian-industrial-facility-sparking-fire-3013417"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "541f98dea04a832c",
-     "lang": "en",
-     "outlet": "Hindustan Times",
-     "published": "2026-11-21T19:51:28+00:00",
-     "publisher": "Hindustan Times",
-     "region": "asia",
-     "section": null,
-     "title": "Bahrain alleges Iranian attack behind fire at civilian industrial facility; no injuries",
-     "type": "local",
-     "url": "https://www.hindustantimes.com/world-news/bahrain-alleges-iranian-attack-behind-fire-at-civilian-industrial-facility-no-injuries-101795290348274.html"
-    }
-   ],
-   "articles_today": 5,
-   "first_seen": "2026-11-21",
-   "group": "mena",
-   "id": "bahrain-industrial-facility-strike",
-   "label": "Bahrain industrial facility strike",
-   "last_reported": "2026-11-22",
-   "last_updated": "2026-11-22",
-   "outlets_today": 5,
-   "previous_titles": [
-    "Bahrain alleges Iranian attack behind fire at civilian industrial facility; no injuries"
-   ],
-   "reports": [
-    {
-     "articles": [
-      "431787478ac8e11d"
-     ],
-     "date": "2026-11-22",
-     "group": "mena",
-     "outlets": [
-      "TASS"
-     ],
-     "published": "2026-11-21T21:12:18+00:00",
-     "text": "[TASS](https://tass.com/world/2222947) reported that the IRGC aerospace forces struck two US Patriot radars in Bahrain in response to airspace violations by US drones."
-    },
-    {
-     "articles": [
-      "c2896538f30d9bf4"
-     ],
-     "date": "2026-11-22",
-     "group": "mena",
-     "outlets": [
-      "Yeni Şafak (English)"
-     ],
-     "published": "2026-11-21T22:24:10+00:00",
-     "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/irans-guards-claim-they-destroyed-2-us-patriot-radars-in-bahrain-3725831) reported that Iran's Revolutionary Guards claim they destroyed two US Patriot air defense radars at Riffa and Awali."
-    },
-    {
-     "articles": [
-      "49f48e1d91da596c",
-      "541f98dea04a832c",
-      "aafee67e8d023c36",
-      "b8797098b98c99e0"
-     ],
-     "date": "2026-11-21",
-     "group": "mena",
-     "outlets": [
-      "Al Jazeera",
-      "Hindustan Times",
-      "Arab News",
-      "TRT World"
-     ],
-     "published": "2026-11-21T19:51:28+00:00",
-     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/21/bahrain-says-iranian-attack-causes-fire-at-industrial-facility?traffic_source=rss), [Hindustan Times](https://www.hindustantimes.com/world-news/bahrain-alleges-iranian-attack-behind-fire-at-civilian-industrial-facility-no-injuries-101795290348274.html), [Arab News](https://www.arabnews.com/middle-east/bahrain-says-iran-struck-civilian-industrial-facility-sparking-fire-3013417), [TRT World](https://www.trtworld.com/article/1b7ac3dfdb5e) reported that Bahrain stated an Iranian attack caused a fire at a civilian industrial facility with no injuries, while Iran's IRGC said it targeted US military positions in al-Riffa and Awali."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "updated",
-   "subject": "bahrain",
-   "title": "Iran's Guards claim they destroyed 2 US Patriot radars in Bahrain",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-22",
-    "of": 4,
-    "outlet": "Yeni Şafak (English)",
-    "url": "http://en.yenisafak.com/world/irans-guards-claim-they-destroyed-2-us-patriot-radars-in-bahrain-3725831"
-   },
    "topic": "conflict"
   },
   {
@@ -278883,9 +279873,281 @@
    "subject": "us",
    "title": "US-Russia leaders social media post",
    "topic": "diplomacy"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "62b353150c739df7",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-22T03:34:49+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "Rescuers say 39 missing after Indonesia factory fire",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "75157e65a475fc32",
+     "lang": "en",
+     "outlet": "TRT World",
+     "published": "2026-11-22T03:00:30+00:00",
+     "publisher": "TRT World",
+     "region": "mena",
+     "section": null,
+     "title": "Dozens missing in Indonesia factory fire",
+     "type": "state-media",
+     "url": "https://www.trtworld.com/article/07bdf357b4f1"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "cb26b758c552de2e",
+     "lang": "en",
+     "outlet": "CNA",
+     "published": "2026-11-22T02:58:00+00:00",
+     "publisher": "CNA",
+     "region": "asia",
+     "section": null,
+     "title": "Three dead, 36 missing after Indonesia factory fire",
+     "type": "regional",
+     "url": "https://www.channelnewsasia.com/asia/indonesia-factory-fire-39-missing-6572421"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-22",
+   "group": "asia",
+   "id": "indonesia-factory-fire",
+   "label": "Indonesia factory fire",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "75157e65a475fc32",
+      "cb26b758c552de2e"
+     ],
+     "date": "2026-11-22",
+     "group": "asia",
+     "outlets": [
+      "CNA",
+      "TRT World"
+     ],
+     "published": "2026-11-22T02:58:00+00:00",
+     "text": "[CNA](https://www.channelnewsasia.com/asia/indonesia-factory-fire-39-missing-6572421), [TRT World](https://www.trtworld.com/article/07bdf357b4f1) reported that a factory fire in the Serang district left three dead and 36 missing."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "indonesia",
+   "title": "Rescuers say 39 missing after Indonesia factory fire",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-22",
+    "of": 2,
+    "outlet": "The Hindu (World)",
+    "url": "https://www.thehindu.com/news/international/rescuers-say-many-missing-after-indonesia-factory-fire/article71730558.ece"
+   },
+   "topic": "disaster"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "469e15189f40d856",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-21T14:52:30+00:00",
+     "publisher": "The Guardian",
+     "region": "global",
+     "section": null,
+     "title": "Federal judge denies request to release man shot by immigration agents in New York",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/21/new-york-judge-ice-shooting-immigration"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "c505cd2dae69ae95",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-21T02:04:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Federal judge denies a request to release man shot by immigration agents in New York",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOam9iRDhsRUxzOXpLTHM2UzJkeUlUT1lid2dwVnhoNG1JeExkVHlIN1B5bWpZWjREUEc3NFNrRnloRU1MN2IzRU1ZaVI0N1RPRS1zOG1LUzV3d0hvV1VxMlFxdFNzblRJRWg2akNGd1BROTRtc1Ryd0NxM2FyUXV6RklKUktRYjNWVExjZWtMVVdKWndYZzUwY0F2VHkwQXFwNUFCZk8tejFsQW1Nb2FMOFNn?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-22",
+   "group": "namerica",
+   "id": "new-york-immigration-shooting-court-case",
+   "label": "New York immigration shooting court case",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "469e15189f40d856",
+      "c505cd2dae69ae95"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "Associated Press",
+      "The Guardian"
+     ],
+     "published": "2026-11-21T02:04:00+00:00",
+     "text": "[Associated Press](https://news.google.com/rss/articles/CBMisgFBVV95cUxOam9iRDhsRUxzOXpLTHM2UzJkeUlUT1lid2dwVnhoNG1JeExkVHlIN1B5bWpZWjREUEc3NFNrRnloRU1MN2IzRU1ZaVI0N1RPRS1zOG1LUzV3d0hvV1VxMlFxdFNzblRJRWg2akNGd1BROTRtc1Ryd0NxM2FyUXV6RklKUktRYjNWVExjZWtMVVdKWndYZzUwY0F2VHkwQXFwNUFCZk8tejFsQW1Nb2FMOFNn?oc=5), [The Guardian](https://www.theguardian.com/us-news/2026/nov/21/new-york-judge-ice-shooting-immigration) reported that a federal judge denied a request to release Oscar Belgal, a Dominican national who was shot by ICE agents as he drove his five-year-old son home from school."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "us",
+   "title": "New York immigration shooting court case",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "ac5a7fa703cd1c22",
+     "lang": "en",
+     "outlet": "Ukrainska Pravda",
+     "published": "2026-11-21T14:58:00+00:00",
+     "publisher": "Ukrainska Pravda",
+     "region": "europe",
+     "section": null,
+     "title": "UK defence secretary visits Kyiv and discusses strengthening Ukraine's air defence with Zelenskyy",
+     "type": "local",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/21/8063975/"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "d77232c1e6054287",
+     "lang": "en",
+     "outlet": "CGTN",
+     "published": "2026-11-21T12:25:18+00:00",
+     "publisher": "CGTN",
+     "region": "asia",
+     "section": null,
+     "title": "Zelenskyy meets UK defense secretary in Kyiv",
+     "type": "state-media",
+     "url": "https://news.cgtn.com/news/2026-11-21/news-1Sg0hmfjSdG/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=World"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-22",
+   "group": "europe",
+   "id": "uk-defence-secretary-visit-to-ukraine",
+   "label": "UK defence secretary visit to Ukraine",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ac5a7fa703cd1c22"
+     ],
+     "date": "2026-11-22",
+     "group": "europe",
+     "outlets": [
+      "Ukrainska Pravda"
+     ],
+     "published": "2026-11-21T14:58:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/21/8063975/) reported that UK Defence Secretary Wes Streeting visited Kyiv and discussed air defense, anti-ballistic missiles, joint production, and British aid with President Volodymyr Zelenskyy."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "ukraine",
+   "title": "UK defence secretary visit to Ukraine",
+   "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "c3b925d1559b969f",
+     "lang": "en",
+     "outlet": "Times of India",
+     "published": "2026-11-22T01:35:37+00:00",
+     "publisher": "Times of India",
+     "region": "asia",
+     "section": null,
+     "title": "Ohio shooting: 3 killed, 1 injured at event venue; two suspects in custody",
+     "type": "local",
+     "url": "https://timesofindia.indiatimes.com/world/us/ohio-shooting-3-killed-1-injured-at-event-venue-two-suspects-in-custody/articleshow/136065741.cms"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "ccf87221da1bb6ab",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-22T00:23:51+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Parma, Ohio shooting: Multiple injured at Ridge Road; large police response underway",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/parma-ohio-shooting-multiple-injured-ar-ridge-road-large-police-response-underway-101795306738980.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-22",
+   "group": "namerica",
+   "id": "ohio-shooting-incident",
+   "label": "Ohio shooting incident",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ccf87221da1bb6ab"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-22T00:23:51+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/parma-ohio-shooting-multiple-injured-ar-ridge-road-large-police-response-underway-101795306738980.html) reported that several people were hurt in a shooting on Ridge Road in Parma, Ohio, and police identified two possible suspects."
+    },
+    {
+     "articles": [
+      "c3b925d1559b969f"
+     ],
+     "date": "2026-11-22",
+     "group": "namerica",
+     "outlets": [
+      "Times of India"
+     ],
+     "published": "2026-11-22T01:35:37+00:00",
+     "text": "[Times of India](https://timesofindia.indiatimes.com/world/us/ohio-shooting-3-killed-1-injured-at-event-venue-two-suspects-in-custody/articleshow/136065741.cms) reported that three people were killed and one injured in the shooting at an event venue, with two suspects in custody."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "us",
+   "title": "Ohio shooting incident",
+   "topic": "crime"
   }
  ],
  "retry": [],
  "site": "geo",
- "updated": "2026-11-22T01:52:52+00:00"
+ "updated": "2026-11-22T04:38:54+00:00"
 }
