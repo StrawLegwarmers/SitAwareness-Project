@@ -589,22 +589,22 @@
   {
    "articles": 156,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 2,
+   "calls": 3,
+   "candidates": 3,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-22",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 147,
-   "in_stories": 4,
-   "kept": 4,
+   "in_stories": 6,
+   "kept": 6,
    "merged": 0,
-   "new": 2,
+   "new": 3,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 6,
-   "sent": 2,
+   "runs": 7,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -831,7 +831,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-22T16:29:27+00:00"
+  "all": "2026-11-22T19:35:40+00:00"
  },
  "narratives": [
   {
@@ -8110,9 +8110,79 @@
    "status": "new",
    "title": "South Korea stock market stabilization fund",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "b090fe4552a363ac",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-22T18:28:00+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "FTSE 100 catering giant Compass plans to move main listing to New York",
+     "type": "international",
+     "url": "https://www.ft.com/content/7b48ea5e-6372-4bb7-ae5c-8b7ddd020883?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "5ea60ef77feed317",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-22T17:08:04+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Compass Plans to Move Main Listing to New York, FT Says",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-22",
+   "group": "all",
+   "id": "compass-group-listing-move",
+   "label": "Compass Group listing move",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5ea60ef77feed317"
+     ],
+     "date": "2026-11-22",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-22T17:08:04+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says) reported that the UK's Compass Group Plc plans to move its primary listing from London to New York."
+    },
+    {
+     "articles": [
+      "b090fe4552a363ac"
+     ],
+     "date": "2026-11-22",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-22T18:28:00+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/7b48ea5e-6372-4bb7-ae5c-8b7ddd020883?syn-25a6b1a6=1) reported that the FTSE 100 catering giant is set to announce its intention to move as soon as Tuesday."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Compass Group listing move",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-22T16:29:27+00:00"
+ "updated": "2026-11-22T19:36:00+00:00"
 }
