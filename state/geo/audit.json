@@ -2650,50 +2650,90 @@
  {
   "date": "2026-11-22",
   "kind": "skipped",
-  "group": "namerica",
-  "story": "George Washington hair auction",
+  "group": "europe",
+  "story": "Princess Catherine documentary release",
   "text": "",
-  "reason": "off-topic for this site (topic: culture): not created"
+  "reason": "off-topic for this site (topic: celebrity): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Husain Naqi death",
+  "text": "",
+  "reason": "off-topic for this site (topic: celebrity): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "North Korea international marathon",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Australia sanctions individuals, organizations tied to West Bank settlements, settler violence",
-  "text": "[89] reported that impunity is fueling a surge in settler violence across the occupied West Bank.",
-  "reason": "analysis word not used by the source: 'fueling'"
+  "story": "Gas explosions in Russia",
+  "text": "[103] reported that a five-year-old girl died in a gas explosion in a private house in Chechnya.",
+  "reason": "number not in cited articles: 5"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "namerica",
-  "story": "Trump photo tribute to Putin",
-  "text": "[91][92] reported that US President Donald Trump posted photos from meetings on social media, referring to Russian leader Vladimir Putin as his friend.",
-  "reason": "names not in cited articles: Donald, Vladimir"
+  "group": "europe",
+  "story": "Turkey violence against women campaign",
+  "text": "[105] reported that the Ministry of Family and Social Services will organize the International Day for the Elimination of Violence against Women Program on November 25.",
+  "reason": "names not in cited articles: Day, Elimination, Family, International, Services, Social, Violence, Women"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Turkey violence against women campaign",
+  "text": "[107] reported that the Women and Democracy Foundation introduced its campaign with the slogan Beauty Imposition is Violence.",
+  "reason": "names not in cited articles: Beauty, Democracy, Foundation, Imposition, Violence, Women"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran electricity rationing",
+  "text": "[116] reported that Iran will begin rationing electricity on November 22 amid uncertainty over US moves.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Protests over living costs in Portugal and Iraq",
+  "text": "[123] reported that contracted employees under 10,000 job allocations protested in Basra over a five-month delay in salary payments.",
+  "reason": "number not in cited articles: 10000"
  },
  {
   "date": "2026-11-22",
   "kind": "title",
   "group": "africa",
-  "story": "2027: Voter register row sparks electoral manipulation fears",
-  "text": "Nigeria voter register AI controversy",
+  "story": "2027: Opposition Coalition Unveils Strategy to Checkmate APC at the Polls",
+  "text": "Nigeria 2027 political opposition and campaigns",
   "reason": "title replaced by a headline: names not in cited articles: Nigeria"
  },
  {
   "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Winning Formula book release on 2023 Nigerian election",
-  "text": "[117][118] reported that new books detailed how President Bola Tinubu wooed Nyesom Wike and how Atiku Abubakar's choice of running mate triggered a feud prior to the 2023 election.",
-  "reason": "names not in cited articles: Abubakar, Nyesom"
+  "kind": "title",
+  "group": "europe",
+  "story": "German car and shipyard workers set to strike as IG Metall union extends walkout",
+  "text": "German metal worker strikes",
+  "reason": "title replaced by a headline: wording not from cited articles: metal, strikes"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Two veto-wielding powers reject Costa Rica's Grynspan as UN chief in poll, sources say",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "kind": "rejected",
+  "group": "europe",
+  "story": "German car and shipyard workers set to strike as IG Metall union extends walkout",
+  "text": "[132] reported that Germany's IG Metall union extended walkouts, setting car and shipyard workers to strike amid a pay row.",
+  "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-22",
@@ -2701,126 +2741,150 @@
   "group": "latam",
   "story": "",
   "text": "MAGA rep says he believes adults are ‘bad parents’ if they let their kids play the new Grand Theft Auto",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Francuska policija privela 144 osobe tokom protesta zbog visokih troškova života",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
   "kind": "dropped",
   "group": "latam",
   "story": "",
-  "text": "Kate Middleton habla abiertamente sobre cómo el cáncer cambió su vida en un documental de la BBC",
+  "text": "PSG forward Désiré Doué suffers a serious right knee injury in Ligue 1 game against Nice",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Bulgarian Metropolitan Gavril death",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
+  "text": "Baltic Sea cargo ship drone fire",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
+  "text": "[47][48] reported that a Russian cargo ship was hit by drones and caught fire in the Baltic Sea.",
+  "reason": "countries not in cited articles: russia"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
+  "text": "[48] reported that the vessel later drifted into Finnish territorial waters.",
+  "reason": "countries not in cited articles: finland"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Endonezya'da şekerleme fabrikasında çıkan yangında 3 kişi öldü, 36 kişiden haber"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
+  "text": "[68] reported that three people died and 36 workers are unaccounted for following a fire at a candy factory in Banten, Indonesia.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Restored Okinawa castle to reopen with extensive fire safety measures",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "United Bank for Africa asset growth",
-  "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Tränen und „Flowers“ bei der Trauung - Miley Cyrus hat geheiratet",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
-  "kind": "title",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Max Verstappen wins the Las Vegas Grand Prix for the third time in 4 years",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
   "group": "mena",
-  "story": "Iran’s exports to Afghanistan through Dogharoun rise 32pc",
-  "text": "Iran and Afghanistan trade via Dogharoun",
-  "reason": "title replaced by a headline: wording not from cited articles: trade, via"
+  "story": "",
+  "text": "تصرف مثير للجدل من ميسي في مباراة ناديه أمام كولومبوس كرو (فيديو)",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Child drowning in Podgorica",
-  "text": "[19][20] reported that divers found the body of a six-year-old child who fell into the Ribnica river in Podgorica.",
-  "reason": "number not in cited articles: 6"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "Endurance athlete swims Strait of Hormuz despite Iran war",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Bahrein acusa Irã de atacar instalação civil de indústria, enquanto Teerã diz te"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Endurance athlete swims Strait of Hormuz despite Iran war",
-  "text": "[22][36] reported that Bahrain accused Iran of attacking a civilian industrial facility, causing a fire and damage but no casualties.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Gaza respiratory illness and flooding crisis",
-  "text": "[16] reported that the Palestinian Ministry of Health warned of an unprecedented crisis due to the complete depletion of medical fabrics and clothing in ministry warehouses and hospitals resulting from Israeli restrictions.",
-  "reason": "analysis word not used by the source: 'unprecedented'"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Russian strikes on Ukrainian energy and industrial facilities",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Russian strike on enterprise in Chernihiv region sparks fire"
+  "story": "Turkiye hands over first unmanned fighter jets Kizilelma to armed forces",
+  "text": "[36] reported that Turkish Transport and Infrastructure Minister Abdulkadir Uraloğlu announced that a commemorative stamp and first-day cover on Turkey's first unmanned fighter jet Kızılelma will be put into circulation on November 29.",
+  "reason": "wording not from cited articles: transport, infrastructure, minister, commemorative, stamp, first-day"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Russian strikes on Ukrainian energy and industrial facilities",
-  "text": "[28] reported that a Russian attack sparked a fire at an enterprise in the Novhorod-Siverskyi district of the Chernihiv region.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkish parliamentary meetings on children and terror",
-  "text": "[34], a state-media outlet, reported that Turkish Parliament Speaker Numan Kurtulmuş will travel to Australia to attend the 12th MIKTA Parliamentary Speakers Meeting.",
-  "reason": "names not in cited articles: Australia, Meeting, Parliamentary, Speakers"
+  "story": "Финландия потвърди, че е засякла атака с дрон срещу руски товарен кораб във Финския залив",
+  "text": "[12] reported that the fire aboard the Russian cargo ship struck by drones in the Baltic Sea continued overnight despite firefighting efforts.",
+  "reason": "countries not in cited articles: russia"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "africa",
-  "story": "Jimmy Odukoya sues sister, pastors, asks court to declare removal illegal",
-  "text": "[37] reported that an old birthday tribute by Jimmy Odukoya to his sister Tolu Odukoya resurfaced amid reactions to the Fountain of Life Church leadership dispute.",
-  "reason": "analysis word not used by the source: 'amid'"
+  "story": "Tinubu’s education reforms reach 3m tertiary students, Alausa tells opposition",
+  "text": "[31] reported that President Bola Tinubu pledged 50,000 hostel beds in federal tertiary institutions by 2027 under a N400bn programme.",
+  "reason": "names not in cited articles: Bola"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "mena",
-  "story": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
-  "text": "Saudi defences destroy missile launched by Houthis",
+  "group": "africa",
+  "story": "Atiku: INEC Must Open Its AI System to Independent Audit Before Touching Results",
+  "text": "2027: Voter register row sparks electoral manipulation fears",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "europe",
-  "story": "COP31: UN Climate summit runs into second day of overtime",
-  "text": "COP31: Civil Society groups fault omitting fossil fuel phase-out from draft text",
+  "group": "africa",
+  "story": "NDC, Keyamo in War of Words over Singing of Old National Anthem at Lagos Meeting",
+  "text": "Nigerians can’t endure another Tinubu term, Obi is our hope – NDC chairman",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "global",
-  "story": "Bandits attack Zamfara mosque, kill APC e-registration supervisor, abduct worshippers",
-  "text": "Niger village attack and beheading",
+  "group": "namerica",
+  "story": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
+  "text": "States agree to UN talks aiming to regulate 'killer robots' by 2028",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "merged",
+  "group": "asia",
+  "story": "US Asked Trump-Putin-Xi Summit to Drop Ukraine Clause From ‘Peace Declaration,’ Stubb Says",
+  "text": "Trump photo tribute to Putin",
   "reason": "duplicate story merged into an existing one"
  }
 ]
