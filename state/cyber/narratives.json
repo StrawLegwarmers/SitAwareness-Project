@@ -1,6 +1,14 @@
 {
  "archived": [
   {
+   "article_count": 3,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "tsmc-data-breach",
+   "last_updated": "2026-11-15",
+   "title": "TSMC data breach"
+  },
+  {
    "article_count": 1,
    "first_seen": "2026-11-14",
    "group": "all",
@@ -323,6 +331,30 @@
  ],
  "coverage": [
   {
+   "articles": 62,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-22",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 61,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 0,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 177,
    "attached_by_code": 0,
    "calls": 1,
@@ -563,7 +595,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-21T22:18:36+00:00"
+  "all": "2026-11-22T01:51:22+00:00"
  },
  "narratives": [
   {
@@ -726,14 +758,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-19",
    "last_updated": "2026-11-21",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -809,9 +841,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -1693,104 +1725,6 @@
     "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
    },
    "topic": "security"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-15",
-     "id": "252d9249e407d0fe",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-15T15:23:48+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "TSMC employee data breach linked to cloud provider",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "b637cdc1359338ee",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-13T15:06:00+00:00",
-     "publisher": "The Record",
-     "region": null,
-     "section": "news",
-     "title": "TSMC confirms employee data breach tied to cloud service provider",
-     "type": null,
-     "url": "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "516f87d52069e390",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-13T05:25:43+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "TSMC Data Breach – Employee Data Exposed via Third-Party Cloud Provider",
-     "type": null,
-     "url": "https://cybersecuritynews.com/tsmc-data-breach/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "tsmc-data-breach",
-   "label": "TSMC data breach",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-15",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "252d9249e407d0fe"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-15T15:23:48+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/) reported that Taiwan Semiconductor Manufacturing Company confirmed personal employee data has been leaked online after a threat actor put 6.9GB of information out."
-    },
-    {
-     "articles": [
-      "516f87d52069e390"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-13T05:25:43+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/tsmc-data-breach/) reported that Taiwan Semiconductor Manufacturing Company confirmed personal data belonging to some current and former employees appeared online after exposure via a third-party cloud provider."
-    },
-    {
-     "articles": [
-      "b637cdc1359338ee"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "published": "2026-11-13T15:06:00+00:00",
-     "text": "[The Record](https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider) reported that an investigation found no TSMC systems were compromised in the incident."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "TSMC data breach",
-   "topic": "cyber"
   },
   {
    "article_count": 3,
@@ -5757,5 +5691,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-21T22:18:36+00:00"
+ "updated": "2026-11-22T01:51:22+00:00"
 }
