@@ -2642,98 +2642,210 @@
  {
   "date": "2026-11-22",
   "kind": "skipped",
-  "group": "europe",
-  "story": "Paolo Bulgari death",
+  "group": "latam",
+  "story": "‘El Chapo Isidro’ captured on camera after deadly Mexico raid as US-backed operation targets cartel kingpin",
   "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
+  "reason": "not added to this story (headline doesn't match it): COP31 fails to agree climate deal in chaotic finale"
  },
  {
   "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Princess Catherine documentary release",
-  "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
+  "kind": "rejected",
+  "group": "latam",
+  "story": "‘El Chapo Isidro’ captured on camera after deadly Mexico raid as US-backed operation targets cartel kingpin",
+  "text": "[2] reported that authorities in the U.S. and Mexico celebrated the arrest as Donald Trump has pressured Mexico's government to go after criminal groups.",
+  "reason": "names not in cited articles: Donald"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "‘El Chapo Isidro’ captured on camera after deadly Mexico raid as US-backed operation targets cartel kingpin",
+  "text": "[9], a state-owned outlet, reported that the Defence Ministry stated the arrest followed intelligence cooperation with the United States.",
+  "reason": "names not in cited articles: States, United"
  },
  {
   "date": "2026-11-22",
   "kind": "skipped",
   "group": "asia",
-  "story": "Husain Naqi death",
+  "story": "Factory Fire: Seven bodies recovered; about 50 workers remain unaccounted for",
   "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
+  "reason": "not added to this story (headline doesn't match it): Incendio en fábrica de confitería en Indonesia deja tres muertos y 36 desapareci"
  },
  {
   "date": "2026-11-22",
   "kind": "skipped",
   "group": "asia",
-  "story": "North Korea international marathon",
+  "story": "Factory Fire: Seven bodies recovered; about 50 workers remain unaccounted for",
   "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
+  "reason": "not added to this story (headline doesn't match it): Una fábrica de caramelos en Indonesia se convierte en pesadilla: al menos, tres "
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Factory Fire: Seven bodies recovered; about 50 workers remain unaccounted for",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Incêndio em fábrica deixa três mortos e 36 desaparecidos na Indonésia"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
+  "group": "asia",
+  "story": "Factory Fire: Seven bodies recovered; about 50 workers remain unaccounted for",
+  "text": "[54] reported that the emergency occurred at a plant in the Banten province near Jakarta during the afternoon of Saturday, November 21.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Factory Fire: Seven bodies recovered; about 50 workers remain unaccounted for",
+  "text": "[56] reported that four other people were injured in the incident.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
   "group": "europe",
-  "story": "Gas explosions in Russia",
-  "text": "[103] reported that a five-year-old girl died in a gas explosion in a private house in Chechnya.",
-  "reason": "number not in cited articles: 5"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey violence against women campaign",
-  "text": "[105] reported that the Ministry of Family and Social Services will organize the International Day for the Elimination of Violence against Women Program on November 25.",
-  "reason": "names not in cited articles: Day, Elimination, Family, International, Services, Social, Violence, Women"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Turkey violence against women campaign",
-  "text": "[107] reported that the Women and Democracy Foundation introduced its campaign with the slogan Beauty Imposition is Violence.",
-  "reason": "names not in cited articles: Beauty, Democracy, Foundation, Imposition, Violence, Women"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Iran electricity rationing",
-  "text": "[116] reported that Iran will begin rationing electricity on November 22 amid uncertainty over US moves.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Protests over living costs in Portugal and Iraq",
-  "text": "[123] reported that contracted employees under 10,000 job allocations protested in Basra over a five-month delay in salary payments.",
-  "reason": "number not in cited articles: 10000"
+  "story": "UK documentary on Princess Kate",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
  },
  {
   "date": "2026-11-22",
   "kind": "title",
   "group": "africa",
-  "story": "2027: Opposition Coalition Unveils Strategy to Checkmate APC at the Polls",
-  "text": "Nigeria 2027 political opposition and campaigns",
-  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
+  "story": "2027: Atiku’s camp faults Tinubu’s prosperity message in Ibadan",
+  "text": "Nigerian opposition criticizes government",
+  "reason": "title replaced by a headline: wording not from cited articles: opposition, criticizes, government"
  },
  {
   "date": "2026-11-22",
-  "kind": "title",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Rail union postpones threatened labor action following train derailment"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Rail workers to postpone work-to-rule action after freight train derailment"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): (LEAD) Rail union postpones threatened labor action following train derailment"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Scandale de triche à l’IA en Corée du Sud : sous pression, le ministre de l’éduc"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Corée du Sud : le ministre de l’Éducation propose sa démission après des irrégul"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "South Korea education minister resigns after AI cheating scandal engulfs university exams",
+  "text": "[77] reported that the Korean Railway Workers' Union stated it would postpone a work-to-rule action planned for Monday to Thursday to focus on recovery efforts after a freight train derailment.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Paolo Bulgari death",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Cryptocurrency market drop",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "merged",
   "group": "europe",
-  "story": "German car and shipyard workers set to strike as IG Metall union extends walkout",
-  "text": "German metal worker strikes",
-  "reason": "title replaced by a headline: wording not from cited articles: metal, strikes"
+  "story": "Serbia European Court of Human Rights case",
+  "text": "Hazara activists submit displacement dossier",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "German car and shipyard workers set to strike as IG Metall union extends walkout",
-  "text": "[132] reported that Germany's IG Metall union extended walkouts, setting car and shipyard workers to strike amid a pay row.",
-  "reason": "analysis word not used by the source: 'amid'"
+  "story": "Former Italian police chief De Gennaro takes own life amid mafia probe",
+  "text": "[94] reported that Italian Prime Minister Giorgia Meloni expressed shock as the former national police chief was found dead while facing an inquiry over a 1992 bombing.",
+  "reason": "names not in cited articles: Giorgia"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "namerica",
+  "story": "Trump reposts El-Sayed's universal health care pitch dubbed 'TrumpCare'",
+  "text": "US healthcare policy debate",
+  "reason": "title replaced by a headline: wording not from cited articles: policy, debate"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Niteroi city anniversary and events",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "asia",
+  "story": "PML-N, PPP tug-of-war intensifies as Sherry warns Asif over fresh jibe at Bilawal",
+  "text": "Pakistan political parties coalition tension",
+  "reason": "title replaced by a headline: names not in cited articles: Pakistan"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "PML-N, PPP tug-of-war intensifies as Sherry warns Asif over fresh jibe at Bilawal",
+  "text": "[116] reported that Pakistan Peoples Party leader Sherry Rehman stated Defence Minister Khawaja Asif crossed a red line after questioning Bilawal Bhutto Zardari's politics and the PPP's record in Sindh.",
+  "reason": "names not in cited articles: Bhutto, Khawaja, Pakistan, Party, Peoples, Rehman, Zardari"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "Reps Committee Members Celebrate Betara at 60, Commend His Leadership and Legislative Contributions",
+  "text": "Nigerian House committee chairman birthday",
+  "reason": "title replaced by a headline: names not in cited articles: Nigerian"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Weather forecast and temperature drop in Iraq",
+  "text": "",
+  "reason": "off-topic for this site (topic: weather): not created"
  },
  {
   "date": "2026-11-22",
@@ -2741,150 +2853,174 @@
   "group": "latam",
   "story": "",
   "text": "MAGA rep says he believes adults are ‘bad parents’ if they let their kids play the new Grand Theft Auto",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+  "reason": "the AI returned no story for this group of 4 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "PSG forward Désiré Doué suffers a serious right knee injury in Ligue 1 game against Nice",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
+  "kind": "title",
   "group": "europe",
-  "story": "Bulgarian Metropolitan Gavril death",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-22",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
-  "text": "Baltic Sea cargo ship drone fire",
-  "reason": "duplicate story merged into an existing one"
+  "story": "هل حذّر وزير الخارجية التركي من هجوم إسرائيلي على سوريا؟",
+  "text": "Turkey foreign minister regional warnings",
+  "reason": "title replaced by a headline: countries not in cited articles: turkey"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
-  "text": "[47][48] reported that a Russian cargo ship was hit by drones and caught fire in the Baltic Sea.",
-  "reason": "countries not in cited articles: russia"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
-  "text": "[48] reported that the vessel later drifted into Finnish territorial waters.",
-  "reason": "countries not in cited articles: finland"
+  "story": "هل حذّر وزير الخارجية التركي من هجوم إسرائيلي على سوريا؟",
+  "text": "[3][4] reported that Turkish Foreign Minister Hakan Fidan warned that an Israeli military operation against Syria could trigger a new regional war.",
+  "reason": "analysis word not used by the source: 'could'"
  },
  {
   "date": "2026-11-22",
   "kind": "skipped",
   "group": "asia",
-  "story": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
+  "story": "Trump Posts ‘My Friend’ Photo With Putin, Compares Shenzhen Summit to Yalta",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): Endonezya'da şekerleme fabrikasında çıkan yangında 3 kişi öldü, 36 kişiden haber"
+  "reason": "not added to this story (headline doesn't match it): „Mój przyjaciel”. Donald Trump opublikował grafikę z Władimirem Putinem"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Trump Posts ‘My Friend’ Photo With Putin, Compares Shenzhen Summit to Yalta",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump opublikował zdjęcie z Putinem. \"Mój przyjaciel\""
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "asia",
-  "story": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
-  "text": "[68] reported that three people died and 36 workers are unaccounted for following a fire at a candy factory in Banten, Indonesia.",
+  "story": "Trump Posts ‘My Friend’ Photo With Putin, Compares Shenzhen Summit to Yalta",
+  "text": "[5][6] reported that Donald Trump posted a photograph with Vladimir Putin on Truth Social captioned 'My friend'.",
   "reason": "cites an article that doesn't belong to this story"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
+  "kind": "title",
+  "group": "europe",
+  "story": "Russian forces shell nine settlements in Kharkiv region over past day",
+  "text": "Kharkiv region military developments",
+  "reason": "title replaced by a headline: wording not from cited articles: military, developments"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Titanic survivor ring auction",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Georgi Gospodinov Jean Monnet Prize",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Zelensky: Ukraine’s NATO membership being discussed",
+  "text": "[64] reported that Ukrainian President Volodymyr Zelenskyy stated Ukraine's NATO membership is being discussed with France and the United States.",
+  "reason": "names not in cited articles: States, United, Volodymyr"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
   "group": "asia",
-  "story": "",
-  "text": "Restored Okinawa castle to reopen with extensive fire safety measures",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "story": "China opposes US ban barring Chinese telecom firms from direct access to US phone numbers",
+  "text": "[66] reported that China opposed the US Federal Communications Commission ban restricting Chinese telecoms' direct access to US phone numbers.",
+  "reason": "names not in cited articles: Communications"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
+  "kind": "rejected",
   "group": "europe",
-  "story": "",
-  "text": "Tränen und „Flowers“ bei der Trauung - Miley Cyrus hat geheiratet",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "story": "Two arrested after teenager killed in Cork street stabbing attack",
+  "text": "[71] reported that a man was arrested in connection with the hijacking of a car in County Cork.",
+  "reason": "names not in cited articles: County"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Max Verstappen wins the Las Vegas Grand Prix for the third time in 4 years",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US military posture and Iran remarks",
+  "text": "[8] reported that U.S. President Donald Trump is deferring decisions regarding Iran until January amid blockade and strike discussions.",
+  "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Fountain of Life Church crisis: Lawyer explains legal position on Jimmy Odukoya",
+  "text": "[9] reported that police presence heightened tension at the Fountain of Life Church in Ilupeju, Lagos, amid a deepening leadership crisis.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "South Korea fishing boat recovery",
+  "text": "[30] reported that the South Korean Coast Guard stated it will focus its search on seven missing crew members after finding the hull of the missing fishing boat.",
+  "reason": "names not in cited articles: Korean"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
+  "text": "[40] reported that countries under the Convention on Certain Conventional Weapons agreed to elaborate on a potential accord regulating autonomous weapons over a two-year period, prompting criticism.",
+  "reason": "names not in cited articles: Certain, Convention, Conventional"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
+  "text": "[5] reported that Gadi Eisenkot stated he will pursue talks with ultra-Orthodox parties and Likud while seeking a broader coalition.",
+  "reason": "names not in cited articles: Gadi"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
+  "text": "",
+  "reason": "continuation not supported by the headlines: آينزكوت يبدأ إلغاء تشريعات نتنياهو وسط تعثر مفاوضات تشكيل الحكومة"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
   "group": "mena",
   "story": "",
-  "text": "تصرف مثير للجدل من ميسي في مباراة ناديه أمام كولومبوس كرو (فيديو)",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Turkiye hands over first unmanned fighter jets Kizilelma to armed forces",
-  "text": "[36] reported that Turkish Transport and Infrastructure Minister Abdulkadir Uraloğlu announced that a commemorative stamp and first-day cover on Turkey's first unmanned fighter jet Kızılelma will be put into circulation on November 29.",
-  "reason": "wording not from cited articles: transport, infrastructure, minister, commemorative, stamp, first-day"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Финландия потвърди, че е засякла атака с дрон срещу руски товарен кораб във Финския залив",
-  "text": "[12] reported that the fire aboard the Russian cargo ship struck by drones in the Baltic Sea continued overnight despite firefighting efforts.",
-  "reason": "countries not in cited articles: russia"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Tinubu’s education reforms reach 3m tertiary students, Alausa tells opposition",
-  "text": "[31] reported that President Bola Tinubu pledged 50,000 hostel beds in federal tertiary institutions by 2027 under a N400bn programme.",
-  "reason": "names not in cited articles: Bola"
- },
- {
-  "date": "2026-11-22",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Atiku: INEC Must Open Its AI System to Independent Audit Before Touching Results",
-  "text": "2027: Voter register row sparks electoral manipulation fears",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-22",
-  "kind": "merged",
-  "group": "africa",
-  "story": "NDC, Keyamo in War of Words over Singing of Old National Anthem at Lagos Meeting",
-  "text": "Nigerians can’t endure another Tinubu term, Obi is our hope – NDC chairman",
-  "reason": "duplicate story merged into an existing one"
+  "group": "mena",
+  "story": "Gaza’s displaced children celebrate World Children’s Day",
+  "text": "[33] reported that children in the Gaza Strip are struggling to obtain life-saving insulin for diabetes.",
+  "reason": "names not in cited articles: Strip"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
   "group": "namerica",
-  "story": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
-  "text": "States agree to UN talks aiming to regulate 'killer robots' by 2028",
+  "story": "Democrat Hakeem Jeffries on track to become first Black US House speaker",
+  "text": "Australia sanctions individuals, organizations tied to West Bank settlements, settler violence",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "asia",
-  "story": "US Asked Trump-Putin-Xi Summit to Drop Ukraine Clause From ‘Peace Declaration,’ Stubb Says",
-  "text": "Trump photo tribute to Putin",
-  "reason": "duplicate story merged into an existing one"
+  "group": "europe",
+  "story": "Republika Srpska government formation",
+  "text": "Republika Srpska government formation",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

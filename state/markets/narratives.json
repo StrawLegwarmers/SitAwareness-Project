@@ -589,22 +589,22 @@
   {
    "articles": 156,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
+   "calls": 2,
+   "candidates": 2,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-22",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 147,
-   "in_stories": 2,
-   "kept": 2,
+   "in_stories": 4,
+   "kept": 4,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 4,
-   "sent": 1,
+   "runs": 5,
+   "sent": 2,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -831,7 +831,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-22T10:30:29+00:00"
+  "all": "2026-11-22T13:42:55+00:00"
  },
  "narratives": [
   {
@@ -8040,9 +8040,79 @@
    "status": "new",
    "title": "Los Angeles Port labor contract",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-22",
+     "id": "c0627accf64da0d5",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-22T11:45:31+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms"
+    },
+    {
+     "added": "2026-11-22",
+     "id": "9a50532a8659b8f7",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-22T10:54:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2%",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-22",
+   "group": "all",
+   "id": "south-korea-stock-market-stabilization-fund",
+   "label": "South Korea stock market stabilization fund",
+   "last_reported": "2026-11-22",
+   "last_updated": "2026-11-22",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9a50532a8659b8f7"
+     ],
+     "date": "2026-11-22",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-22T10:54:22+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890) reported that South Korea prepares a stock market stabilization fund after the Kospi plunges 5.2 percent."
+    },
+    {
+     "articles": [
+      "c0627accf64da0d5"
+     ],
+     "date": "2026-11-22",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-22T11:45:31+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms) reported that South Korea's finance ministry is poised to activate market stabilisation funds in response to falling stock indices after the KOSPI hits a 10-month low."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "South Korea stock market stabilization fund",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-22T10:30:29+00:00"
+ "updated": "2026-11-22T13:43:33+00:00"
 }
