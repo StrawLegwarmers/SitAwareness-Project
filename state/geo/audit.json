@@ -2641,67 +2641,43 @@
  },
  {
   "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "‘El Chapo Isidro’ captured on camera after deadly Mexico raid as US-backed operation targets cartel kingpin",
-  "text": "[21] reported that authorities in the U.S. and Mexico celebrated the arrest of Fausto Isidro Meza Flores.",
-  "reason": "names not in cited articles: Fausto, Flores, Meza"
- },
- {
-  "date": "2026-11-22",
   "kind": "skipped",
-  "group": "europe",
-  "story": "Liverpool and Manchester United Premier League match",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-22",
-  "kind": "title",
-  "group": "asia",
-  "story": "Major COP meetings that ended in failure, disappointment",
-  "text": "Historical review of COP summits",
-  "reason": "title replaced by a headline: names not in cited articles: Historical"
- },
- {
-  "date": "2026-11-22",
-  "kind": "title",
   "group": "namerica",
-  "story": "FAA Says All Delta Flights Delayed as Automated System Falters",
-  "text": "Delta Air Lines flight automation disruption",
-  "reason": "title replaced by a headline: names not in cited articles: Lines"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Trump Claims Putin Wants Peace as Moscow Rejects NATO-Style Guarantees for Ukraine",
-  "text": "[79] reported that US intelligence chief stated Donald Trump's description of Putin as a friend is entirely appropriate.",
-  "reason": "names not in cited articles: Donald"
+  "story": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Los demócratas se aseguran la mayor victoria en la Cámara de Representantes desd"
  },
  {
   "date": "2026-11-22",
   "kind": "skipped",
-  "group": "europe",
-  "story": "Dušan Šešok wealth ranking",
+  "group": "namerica",
+  "story": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
   "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
+  "reason": "not added to this story (headline doesn't match it): Los demócratas obtienen 258 escaños en la Cámara de Representantes, un récord en"
  },
  {
   "date": "2026-11-22",
-  "kind": "title",
-  "group": "global",
-  "story": "PODCAST: Wall Street plunges, climate talks run over, and Republicans position for 2028",
-  "text": "Global stock market and climate talks review",
-  "reason": "title replaced by a headline: names not in cited articles: Global"
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Los demócratas obtienen 258 escaños en la Cámara de Representantes de EE UU, un "
  },
  {
   "date": "2026-11-22",
-  "kind": "title",
-  "group": "global",
-  "story": "Unreal deals: the scam websites targeting Black Friday bargain hunters",
-  "text": "Black Friday AI scam website warnings",
-  "reason": "title replaced by a headline: wording not from cited articles: website, warnings"
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Democrats clinch a historic House majority of at least 258 seats, the largest since 1992",
+  "text": "[41] reported that the Democratic majority in the House stands at 258 seats, while the party also controls the Senate with 56-44 seats.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Bayelsa tragedy: Ibadan rally will be low-key, devoid of much fanfare – Tinubu",
+  "text": "[23] reported that President Bola Tinubu directed the NDDC to procure boats and ordered stricter waterway safety measures.",
+  "reason": "names not in cited articles: Bola, NDDC"
  },
  {
   "date": "2026-11-22",
@@ -2709,214 +2685,382 @@
   "group": "europe",
   "story": "Russian Cargo Ship Still on Fire off Finland After Attack",
   "text": "",
-  "reason": "continuation not supported by the headlines: Atacan drones presuntamente ucranios barco ruso en Finlandia"
+  "reason": "not added to this story (headline doesn't match it): Una explosión hunde un barco de guerra ruso en la costa oriental de Libia"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Russian Cargo Ship Still on Fire off Finland After Attack",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Una explosión hunde un buque de guerra ruso en Benghazi, Libia"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Russian Cargo Ship Still on Fire off Finland After Attack",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Explosión hunde un buque de guerra ruso en Benghazi, Libia"
  },
  {
   "date": "2026-11-22",
   "kind": "title",
+  "group": "namerica",
+  "story": "Republican congressman’s ex-staffer indicted for allegedly faking an anti-Trump attack",
+  "text": "US congressional staffer faked attack indictment",
+  "reason": "title replaced by a headline: wording not from cited articles: congressional, staffer, indictment"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "mena",
+  "story": "Dar, Saudi FM discuss possible R4 meeting on regional developments",
+  "text": "Pakistan and Saudi Arabia regional talks",
+  "reason": "title replaced by a headline: names not in cited articles: Arabia, Pakistan"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "UBA’s Total Assets Rise to N35tn as Nine-Month Profit Declines",
+  "text": "United Bank for Africa financial results",
+  "reason": "title replaced by a headline: wording not from cited articles: financial, results"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "mena",
+  "story": "Army chief praises Basij contributions to Iran’s security, public service",
+  "text": "Iran military leadership statements",
+  "reason": "title replaced by a headline: wording not from cited articles: military, leadership, statements"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "Ruto, Tshisekedi seek way out of diplomatic standoff",
+  "text": "Kenya and Democratic Republic of Congo diplomatic meeting",
+  "reason": "title replaced by a headline: names not in cited articles: Democratic, Republic"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
   "group": "europe",
-  "story": "Atacan drones presuntamente ucranios barco ruso en Finlandia",
+  "story": "Kyiv restaurant sector winter preparations",
   "text": "",
-  "reason": "title replaced by a headline: empty title"
+  "reason": "off-topic for this site (topic: business): not created"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "asia",
-  "story": "Naqvi warns minister over criticism",
-  "text": "[121] reported that Mohsin Naqvi warned a fellow minister against repeated criticism and defended businessmen as high taxpayers.",
-  "reason": "names not in cited articles: Mohsin"
+  "story": "China artificial intelligence chip espionage",
+  "text": "[101], a state-media outlet, reported that New York Times stated officials from China's Ministry of State Security targeted AI chips years before the Nvidia scandal.",
+  "reason": "names not in cited articles: Times, York"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "Liverpool vs Man Utd: Predicted lineups and team news",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Miley Cyrus weds Maxx Morando in California, People magazine reports",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "Alcaraz digs deep to beat Shelton, will face world number one Zverev in final",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Užas u Beogradu: Muškarac u podzemnoj garaži tržnog centra nožem izbo bivšu partnerku",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Finland confirms Russia is towing drone-hit cargo ship after Baltic Sea attack",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "PSG forward Désiré Doué suffers a serious right knee injury in Ligue 1 game against Nice",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "Closing ceremony of 20th Iran Intl. Resistance Theater Fest.",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Las freidoras de aire más rebajadas de Black Friday: Cosori, Ninja, Cecotec y más",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Iz crkve na Bistriku ukradena kasa s prilozima, sve snimile nadzorne kamere",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Nakon Dine Merlina, Splićani pokrenuli peticiju za otkazivanje nastupa Jakova Jozinovića",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "El chavismo y la oposición prevén concluir este lunes la cuarta ronda de diálogo",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-22",
   "kind": "skipped",
   "group": "latam",
-  "story": "Chitãozinho and Xororó retirement",
+  "story": "Rio de Janeiro LGBTI+ Pride Parade",
   "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
+  "reason": "off-topic for this site (topic: culture): not created"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Финландия потвърди, че е засякла атака с дрон срещу руски товарен кораб във Финския залив",
-  "text": "[9] reported that the Russian warship Merkury caught fire after an explosion in Benghazi, Libya, and is likely completely destroyed.",
-  "reason": "analysis word not used by the source: 'likely'"
+  "story": "COP31 Cover Deal Collapses as EU and Others Reject Draft Over Fossil Fuel Omission",
+  "text": "[5] reported that UN Secretary-General Guterres expressed disappointment with the outcome of the COP31 conference after it concluded without consensus.",
+  "reason": "names not in cited articles: Secretary-General"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "2027: Any plot against Tinubu will fail – Akpabio",
+  "text": "Nigeria 2027 political campaigns",
+  "reason": "title replaced by a headline: wording not from cited articles: political, campaigns"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "2027: Lagos is a big deal to me – Tinubu",
+  "text": "Nigeria voter mobilization campaign",
+  "reason": "title replaced by a headline: wording not from cited articles: mobilization, campaign"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Финландия потвърди, че е засякла атака с дрон срещу руски товарен кораб във Финския залив",
-  "text": "[10] reported that authorities in eastern Libya confirmed a Russian warship in Benghazi was hit in a drone attack.",
-  "reason": "countries not in cited articles: libya, russia"
- },
- {
-  "date": "2026-11-22",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Miley Cyrus and Maxx Morando wedding",
-  "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
+  "group": "africa",
+  "story": "SERAP drags NDPC, INEC to Court over alleged AI manipulation of voters’ register",
+  "text": "[17] reported that Deputy Minority Leader Abdussamad Dasuki stated INEC has not provided assurance that the final register for next year's election would be credible.",
+  "reason": "names not in cited articles: Abdussamad, Leader, Minority"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "namerica",
-  "story": "North Carolina midterm elections",
-  "text": "[18] reported that Republicans suffered sweeping losses across the United States in the midterm elections.",
+  "story": "US technology infrastructure upgrades",
+  "text": "[20] reported that US intelligence chief Jay Clayton stated Americans should expect more technology outages as companies and government agencies replace aging systems.",
+  "reason": "names not in cited articles: Clayton, Jay"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "‎APC crisis: Tinubu orders Gov Radda, Masari to settle rift",
+  "text": "Nigeria All Progressives Congress internal crisis",
+  "reason": "title replaced by a headline: names not in cited articles: Congress, Progressives"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Alice Huang and her husband’s close associate Li Ming routed Nvidia chips to China: Report",
+  "text": "[33] reported that the United States is seeking answers from Nvidia on its chip sales to China and will investigate who was in charge of compliance.",
   "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "europe",
+  "story": "Turkey: Thousands protest closure of critical media outlets",
+  "text": "Protests over critical media closures in Turkey",
+  "reason": "title replaced by a headline: names not in cited articles: Protests"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "mena",
-  "story": "Iran statements on economic development",
-  "text": "[19], a state-media outlet, reported that Iranian President Masoud Pezeshkian stated development is impossible in any country under conditions of war.",
-  "reason": "names not in cited articles: Masoud"
- },
- {
-  "date": "2026-11-22",
-  "kind": "title",
-  "group": "africa",
-  "story": "Nigeria not working, Makinde insists",
-  "text": "Nigeria political reset statements",
-  "reason": "title replaced by a headline: wording not from cited articles: political, statements"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Russia drone interceptions and strikes",
-  "text": "[34] reported that the government based in Benghazi announced that a Russian cargo ship was likely targeted by a drone attack.",
-  "reason": "analysis word not used by the source: 'likely'"
+  "story": "Greece and Israel military agreements",
+  "text": "[54] reported that the military deal plan includes electronic warfare systems and 400-kilometer range rockets for Athens.",
+  "reason": "countries not in cited articles: greece"
  },
  {
   "date": "2026-11-22",
   "kind": "skipped",
-  "group": "latam",
-  "story": "Sérgio Malheiros and Sophia Abrahão relationship",
+  "group": "europe",
+  "story": "Zelensky: Ukraine’s NATO membership being discussed",
   "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
- },
- {
-  "date": "2026-11-22",
-  "kind": "title",
-  "group": "africa",
-  "story": "Photos: Gunmen set Plateau secondary school ablaze in Bokkos",
-  "text": "Plateau State school arson attack",
-  "reason": "title replaced by a headline: wording not from cited articles: arson, attack"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "SERAP sues NDPC, INEC over alleged AI manipulation of voters’ register",
-  "text": "[49] reported that SERAP filed a lawsuit against the National Data Protection Commission and INEC over alleged artificial intelligence manipulation of the voters' register.",
-  "reason": "wording not from cited articles: filed, lawsuit, national, commission, artificial, intelligence"
+  "reason": "not added to this story (headline doesn't match it): РФ готова обсуждать гарантии Украине, аналогичные статье 5 НАТО, но их «нельзя с"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Turkey humanitarian aid delivery to Gaza",
-  "text": "[59][60], a state-media outlet, reported that Turkish Interior Minister Mustafa Çiftçi announced that Turkey has delivered 111,904 tons of humanitarian aid to Gaza since October 7, 2023.",
-  "reason": "number not in cited articles: 111904"
- },
- {
-  "date": "2026-11-22",
-  "kind": "title",
-  "group": "africa",
-  "story": "Sudan: Drones hit UN building, residential area in Khartoum",
-  "text": "Khartoum UN building drone strike",
-  "reason": "title replaced by a headline: wording not from cited articles: drone, strike"
+  "story": "Zelensky: Ukraine’s NATO membership being discussed",
+  "text": "[1] reported that Russian President Vladimir Putin reportedly accepted the possibility in closed talks that the US and European countries could grant security guarantees to Ukraine after the war under certain conditions.",
+  "reason": "analysis word not used by the source: 'could'"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "europe",
-  "story": "Russian missile and drone incidents in Poland",
-  "text": "[17] reported that the District Prosecutor's Office in Lublin confirmed the remains of three Russian Kh-101 cruise missiles were found in three localities in the Lublin and Subcarpathian regions.",
-  "reason": "countries not in cited articles: russia"
+  "story": "Zelensky: Ukraine’s NATO membership being discussed",
+  "text": "[30] reported that Donald Trump is ready to consider security guarantees for Ukraine similar to NATO Article 5 and Moscow is ready to discuss it.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Tinubu agricultural financing commitment",
+  "text": "[6] reported that the Nigerian administration committed ₦450 billion to boost food security and support 500,000 farmers.",
+  "reason": "number not in cited articles: 450000000000"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Parma, Ohio shooting: Multiple injured at Ridge Road; large police response underway",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): ABD'de bir bebek partisinde silahlı saldırıya uğrayan 3 kişi hayatını kaybetti"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Parma, Ohio shooting: Multiple injured at Ridge Road; large police response underway",
+  "text": "[12], a state-media outlet, reported that three people were killed and one person was injured in a shooting at a baby shower in Ohio.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Portuguese foreign minister arrives in Pakistan for official visit: FO",
+  "text": "[21] reported that Portuguese Foreign Minister Paulo Rangel arrived with a 20-company delegation.",
+  "reason": "wording not from cited articles: foreign, minister, delegation"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Live: Beau Lamarre-Condon faces defence re-examination",
+  "text": "[23] reported that a video of former New South Wales police officer Beau Lamarre-Condon entering the surf with a police rescue board was played to the jury in his criminal trial.",
+  "reason": "names not in cited articles: Wales"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Wike explains why rejecting Tinubu in 2027 could jeopardise Nigeria’s economic reforms",
+  "text": "[24] reported that Nyesom Wike stated President Bola Tinubu's reforms will be difficult to stabilise if he is not re-elected.",
+  "reason": "names not in cited articles: Bola, Nyesom"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Tinubu congratulates Jonathan at 69, hails contributions to Nigeria’s democracy",
+  "text": "[1] reported that Goodluck Jonathan criticized religious and traditional institutions for prioritizing wealth over character by granting titles and leadership roles to individuals without character.",
+  "reason": "names not in cited articles: Goodluck"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "latam",
-  "story": "Rocha Moya pension account unfreezing",
-  "text": "[31] reported that a federal court extended the suspension of an order that could restore migration protection for Venezuelan immigrants in the US.",
+  "story": "‘El Chapo Isidro’ captured on camera after deadly Mexico raid as US-backed operation targets cartel kingpin",
+  "text": "[5] reported that the joint operation to capture Fausto Isidro Meza Flores in Guasave included the use of United States drones and gunships.",
+  "reason": "countries not in cited articles: us"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Zagreb psychiatric clinic director resignation",
+  "text": "[7] reported that the family of the late Kristijan Josip Periś requested that the Sveti Ivan Psychiatric Clinic be renamed in his honor, a proposal that could soon come before the City of Zagreb.",
   "reason": "analysis word not used by the source: 'could'"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "asia",
-  "story": "Nepal PM Balendra Shah to visit India, meet Modi",
-  "text": "[32] reported that India and the EU are likely to sign a free trade agreement during Prime Minister Narendra Modi's Brussels visit in December.",
-  "reason": "wording not from cited articles: free, trade, agreement, prime, minister, narendra"
+  "story": "Australia immigration policy debate",
+  "text": "[19] reported that Tony Burke criticized Pauline Hanson's plan to cut the humanitarian refugee intake.",
+  "reason": "names not in cited articles: Pauline, Tony"
  },
  {
   "date": "2026-11-22",
-  "kind": "rejected",
+  "kind": "merged",
   "group": "global",
-  "story": "Iran wants diplomacy to end war, says Araghchi as U.S. rejects terms",
-  "text": "[20], a state-media outlet, reported that Foreign Minister Abbas Araghchi stated the path of diplomacy continues amid mediation efforts to end the US-Israeli war against Iran.",
-  "reason": "analysis word not used by the source: 'amid'"
+  "story": "Iran’s IRGC Claims Attack on US Radars in Bahrain",
+  "text": "Iran's Guard claims it downed US MQ-1 drone east of Hormuz",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
-  "kind": "rejected",
+  "kind": "merged",
   "group": "asia",
-  "story": "Delhi overtakes Lahore as world's most polluted city as air quality drops",
-  "text": "[26] reported that Lahore's Air Quality Index topped 500 as smog gripped Punjab and the Met Office issued a notice.",
-  "reason": "names not in cited articles: Index, Quality"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Alta banka insured deposits payout in Serbia",
-  "text": "[36] reported that the National Bank of Serbia sold 865 million euros over a month to defend the dinar exchange rate amid an autumn wave of increased demand in exchange offices.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-22",
-  "kind": "merged",
-  "group": "africa",
-  "story": "UPDATED: Court upholds Yahaya Bello’s emergence as APC senatorial candidate",
-  "text": "Benue APC reconciliation meeting",
+  "story": "'Are your hands clean?': Khawaja Asif hits back at Bilawal over govt criticism",
+  "text": "PML-N, PPP tug-of-war intensifies as Sherry warns Asif over fresh jibe at Bilawal",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "africa",
-  "story": "Army Cracks Bandits’ Ammunition Network, Arrests 47-Year-Old Courier With 300 Bullets",
-  "text": "Nigerian military raid in Kogi State",
+  "group": "latam",
+  "story": "Mexico and China relations",
+  "text": "Mexico APEC economic growth plan presentation",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "namerica",
-  "story": "US flight suspension technical issues",
-  "text": "FAA Says All Delta Flights Delayed as Automated System Falters",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-22",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Photos: Gunmen set Plateau secondary school ablaze in Bokkos",
-  "text": "Plateau State school fire incident",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-22",
-  "kind": "merged",
   "group": "europe",
-  "story": "Zelensky: Ukraine’s NATO membership being discussed",
-  "text": "Putin security guarantees for Ukraine",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "story": "Reported Russian false flag operation near Poland",
+  "text": "Denmark EU travel restrictions on Russians",
+  "reason": "duplicate story merged into an existing one"
  }
 ]
