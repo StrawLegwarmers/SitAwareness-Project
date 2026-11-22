@@ -2645,110 +2645,182 @@
   "group": "europe",
   "story": "Paolo Bulgari death",
   "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
+  "reason": "off-topic for this site (topic: celebrity): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "George Washington hair auction",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Australia sanctions individuals, organizations tied to West Bank settlements, settler violence",
+  "text": "[89] reported that impunity is fueling a surge in settler violence across the occupied West Bank.",
+  "reason": "analysis word not used by the source: 'fueling'"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "namerica",
-  "story": "US FBI cyberattack investigation",
-  "text": "[20][21][23] reported that US President Donald Trump confirmed a cyberattack on the FBI and stated he believes it could uncover deceptions against him.",
-  "reason": "analysis word not used by the source: 'could'"
+  "story": "Trump photo tribute to Putin",
+  "text": "[91][92] reported that US President Donald Trump posted photos from meetings on social media, referring to Russian leader Vladimir Putin as his friend.",
+  "reason": "names not in cited articles: Donald, Vladimir"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "africa",
+  "story": "2027: Voter register row sparks electoral manipulation fears",
+  "text": "Nigeria voter register AI controversy",
+  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "asia",
-  "story": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
-  "text": "[24][27] reported that South Korean Education Minister Choi Kyo-jin offered to resign over college exam chaos amid AI cheating fears.",
-  "reason": "names not in cited articles: Korean"
+  "group": "africa",
+  "story": "Winning Formula book release on 2023 Nigerian election",
+  "text": "[117][118] reported that new books detailed how President Bola Tinubu wooed Nyesom Wike and how Atiku Abubakar's choice of running mate triggered a feud prior to the 2023 election.",
+  "reason": "names not in cited articles: Abubakar, Nyesom"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "Two veto-wielding powers reject Costa Rica's Grynspan as UN chief in poll, sources say",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "MAGA rep says he believes adults are ‘bad parents’ if they let their kids play the new Grand Theft Auto",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Francuska policija privela 144 osobe tokom protesta zbog visokih troškova života",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Kate Middleton habla abiertamente sobre cómo el cáncer cambió su vida en un documental de la BBC",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "United Bank for Africa asset growth",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "title",
+  "group": "mena",
+  "story": "Iran’s exports to Afghanistan through Dogharoun rise 32pc",
+  "text": "Iran and Afghanistan trade via Dogharoun",
+  "reason": "title replaced by a headline: wording not from cited articles: trade, via"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
-  "group": "asia",
-  "story": "Indonesia factory fire",
-  "text": "[36] reported that rescuers stated 39 are missing following the incident.",
-  "reason": "wording not from cited articles: following, incident"
+  "group": "europe",
+  "story": "Child drowning in Podgorica",
+  "text": "[19][20] reported that divers found the body of a six-year-old child who fell into the Ribnica river in Podgorica.",
+  "reason": "number not in cited articles: 6"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Endurance athlete swims Strait of Hormuz despite Iran war",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Bahrein acusa Irã de atacar instalação civil de indústria, enquanto Teerã diz te"
  },
  {
   "date": "2026-11-22",
   "kind": "rejected",
   "group": "mena",
-  "story": "ترامب وبوتين وشي على طاولة واحدة.. هل يتوصلون إلى تفاهم تاريخي؟",
-  "text": "[86] reported that the summit between Trump, Xi, and Putin raised questions regarding its real impact on international issues amid a lack of substantial understandings.",
+  "story": "Endurance athlete swims Strait of Hormuz despite Iran war",
+  "text": "[22][36] reported that Bahrain accused Iran of attacking a civilian industrial facility, causing a fire and damage but no casualties.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Gaza respiratory illness and flooding crisis",
+  "text": "[16] reported that the Palestinian Ministry of Health warned of an unprecedented crisis due to the complete depletion of medical fabrics and clothing in ministry warehouses and hospitals resulting from Israeli restrictions.",
+  "reason": "analysis word not used by the source: 'unprecedented'"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Russian strikes on Ukrainian energy and industrial facilities",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Russian strike on enterprise in Chernihiv region sparks fire"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Russian strikes on Ukrainian energy and industrial facilities",
+  "text": "[28] reported that a Russian attack sparked a fire at an enterprise in the Novhorod-Siverskyi district of the Chernihiv region.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Turkish parliamentary meetings on children and terror",
+  "text": "[34], a state-media outlet, reported that Turkish Parliament Speaker Numan Kurtulmuş will travel to Australia to attend the 12th MIKTA Parliamentary Speakers Meeting.",
+  "reason": "names not in cited articles: Australia, Meeting, Parliamentary, Speakers"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Jimmy Odukoya sues sister, pastors, asks court to declare removal illegal",
+  "text": "[37] reported that an old birthday tribute by Jimmy Odukoya to his sister Tolu Odukoya resurfaced amid reactions to the Fountain of Life Church leadership dispute.",
   "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "mena",
-  "story": "",
-  "text": "Eleven killed in burst of violence during Mexican cartel leader’s capture",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "How to defrost a turkey and other Thanksgiving meal advice from a food safety expert",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "africa",
-  "story": "",
-  "text": "Jonathan: Nigeria needs honest leaders to restore global respect",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Lock of former US President George Washington's hair sells for $4,000",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Sobe para 4 o número de mortos em Tupanciretã, no Sul",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Two men to stand trial in UK next year over RAF Fairford incident allegedly linked to Iran",
-  "text": "[27] reported that US Treasury Secretary Scott Bessent stated he remains on a military base over Iran threats.",
-  "reason": "names not in cited articles: Bessent, Scott"
- },
- {
-  "date": "2026-11-22",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Rocha Moya pension account unfreezing",
-  "text": "[5] reported that Samuel García presented his fifth government report, highlighting that intentional homicides decreased by 90% in September 2026 compared to 2024.",
-  "reason": "analysis word not used by the source: 'highlighting'"
- },
- {
-  "date": "2026-11-22",
   "kind": "merged",
-  "group": "global",
-  "story": "Oil Prices Extend Weekly Losses Despite Middle East Tensions",
-  "text": "Iran's Guards claim they destroyed 2 US Patriot radars in Bahrain",
+  "group": "mena",
+  "story": "Saudi-led coalition intercepts three Houthi missiles headed for Riyadh",
+  "text": "Saudi defences destroy missile launched by Houthis",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-22",
   "kind": "merged",
-  "group": "latam",
-  "story": "Trump reacts to report of hackers breaching FBI database",
-  "text": "US FBI cyberattack investigation",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+  "group": "europe",
+  "story": "COP31: UN Climate summit runs into second day of overtime",
+  "text": "COP31: Civil Society groups fault omitting fossil fuel phase-out from draft text",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "merged",
+  "group": "global",
+  "story": "Bandits attack Zamfara mosque, kill APC e-registration supervisor, abduct worshippers",
+  "text": "Niger village attack and beheading",
+  "reason": "duplicate story merged into an existing one"
  }
 ]
