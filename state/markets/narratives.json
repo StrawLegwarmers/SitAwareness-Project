@@ -691,24 +691,27 @@
  ],
  "coverage": [
   {
-   "articles": 440,
+   "articles": 489,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 24,
-   "continuing": 13,
+   "calls": 6,
+   "candidates": 30,
+   "continuing": 15,
    "corroborated": 1,
    "date": "2026-11-23",
    "dropped": 0,
-   "failed_calls": 0,
-   "groups": 402,
+   "errors": [
+    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+   ],
+   "failed_calls": 1,
+   "groups": 450,
    "in_stories": 37,
    "kept": 28,
    "merged": 1,
    "new": 10,
    "rejected": 3,
    "reported_by_2": 6,
-   "runs": 6,
-   "sent": 24,
+   "runs": 7,
+   "sent": 30,
    "skipped": 0,
    "split_calls": 0,
    "updated": 10,
@@ -7998,5 +8001,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-23T16:54:45+00:00"
+ "updated": "2026-11-23T20:08:39+00:00"
 }

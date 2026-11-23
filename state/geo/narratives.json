@@ -803,11 +803,11 @@
  ],
  "coverage": [
   {
-   "articles": 4033,
+   "articles": 4089,
    "attached_by_code": 43,
-   "calls": 30,
-   "candidates": 1078,
-   "continuing": 780,
+   "calls": 38,
+   "candidates": 1502,
+   "continuing": 1048,
    "corroborated": 20,
    "date": "2026-11-23",
    "dropped": 25,
@@ -818,20 +818,20 @@
     "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 8: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 12,
-   "groups": 3136,
+   "failed_calls": 20,
+   "groups": 3241,
    "in_stories": 941,
    "kept": 487,
    "merged": 25,
    "new": 76,
    "rejected": 44,
-   "reported_by_2": 176,
-   "runs": 6,
-   "sent": 1078,
+   "reported_by_2": 255,
+   "runs": 7,
+   "sent": 1398,
    "skipped": 57,
    "split_calls": 0,
    "updated": 417,
-   "waiting": 0
+   "waiting": 104
   },
   {
    "articles": 4000,
@@ -9367,7 +9367,6 @@
    ],
    "outlets_today": 21,
    "previous_titles": [
-    "Republican Nick Begich wins reelection to Alaska's US House seat, a rare bright spot for the GOP",
     "How Jensen Huang's exit could reshape the AI power game from the Gulf to China",
     "Bloomberg reporter barred from Trump-Xi-Putin meeting after question on former Nvidia CEO Jensen Huang",
     "How Jensen Huang’s exit from Nvidia alters AI roadmap",
@@ -9376,7 +9375,8 @@
     "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
     "Jensen Huang receives support from allies after Nvidia exit: Here's what they have told him",
     "Alice Huang and her husband’s close associate Li Ming routed Nvidia chips to China: Report",
-    "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT"
+    "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT",
+    "Alice Huang had contact with Chinese spy agency during Nvidia CEO affair: Report"
    ],
    "reports": [
     {
@@ -9880,13 +9880,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "us",
-   "title": "Alice Huang had contact with Chinese spy agency during Nvidia CEO affair: Report",
+   "title": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
    "title_from": {
-    "backing": 19,
+    "backing": 14,
     "date": "2026-11-23",
     "of": 20,
-    "outlet": "Daily Sabah",
-    "url": "https://www.dailysabah.com/business/economy/alice-huang-had-contact-with-chinese-spy-agency-during-nvidia-ceo-affair-report"
+    "outlet": "New York Times",
+    "url": "https://www.nytimes.com/2026/11/22/us/politics/alice-huang-china-spy-agency-nvidia.html"
    }
   },
   {
@@ -35912,7 +35912,6 @@
    ],
    "outlets_today": 6,
    "previous_titles": [
-    "2027: Bayelsa East Unites For Tinubu As APC Stakeholders Strengthen Mobilisation",
     "Tinubu prepares five-year plan to end Boko Haram insurgency, tackle insecurity",
     "Nigerian newspapers review: Tinubu’s 5-year defence plan to end insecurity ready — APC-PCC",
     "Tinubu’s Hardship Fuelling Public Anger, Not ADC Plot – Opposition Tells APC",
@@ -35921,7 +35920,8 @@
     "Wike, APC group rally traders, northern voters for Tinubu, dismiss opposition threat",
     "Tinubu orders low-key Ibadan rally after Bayelsa boat accident",
     "Bayelsa tragedy: Ibadan rally will be low-key, devoid of much fanfare – Tinubu",
-    "Bayelsa Boat Mishap: Death toll rises, Tinubu approves N250mn for victims’ families"
+    "Bayelsa Boat Mishap: Death toll rises, Tinubu approves N250mn for victims’ families",
+    "President Orders Stiffer Safety Actions, Full Probe as 29 Perish in Bayelsa Boat Mishap"
    ],
    "reports": [
     {
@@ -36443,13 +36443,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "nigeria",
-   "title": "President Orders Stiffer Safety Actions, Full Probe as 29 Perish in Bayelsa Boat Mishap",
+   "title": "Tinubu Mourns Bayelsa Boat Tragedy Victims, Scales Down Ibadan Rally",
    "title_from": {
-    "backing": 4,
+    "backing": 5,
     "date": "2026-11-23",
-    "of": 4,
-    "outlet": "This Day",
-    "url": "https://www.thisdaylive.com/2026/11/23/president-orders-stiffer-safety-actions-full-probe-as-29-perish-in-bayelsa-boat-mishap/"
+    "of": 5,
+    "outlet": "The Tide (Nigeria)",
+    "url": "https://www.thetidenewsonline.com/2026/11/tinubu-mourns-bayelsa-boat-tragedy-victims-scales-down-ibadan-rally/"
    }
   },
   {
@@ -86569,7 +86569,6 @@
    ],
    "outlets_today": 25,
    "previous_titles": [
-    "COP31: UN Climate summit runs into second day of overtime",
     "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
     "New draft deal aims to avert collapse of talks at COP31 climate summit",
     "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
@@ -86578,7 +86577,8 @@
     "COP31 climate talks in Turkey collapse",
     "Climate talks collapse in chaotic end to COP31",
     "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
-    "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate"
+    "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate",
+    "COP31 Ends in Deadlock as Guterres Blasts Fossil Fuel Interests, Demands Urgent Climate Action"
    ],
    "reports": [
     {
@@ -87136,13 +87136,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "turkey",
-   "title": "COP31 Ends in Deadlock as Guterres Blasts Fossil Fuel Interests, Demands Urgent Climate Action",
+   "title": "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate",
    "title_from": {
-    "backing": 20,
+    "backing": 15,
     "date": "2026-11-23",
     "of": 21,
-    "outlet": "This Day",
-    "url": "https://www.thisdaylive.com/2026/11/23/cop31-ends-in-deadlock-as-guterres-blasts-fossil-fuel-interests-demands-urgent-climate-action-2/"
+    "outlet": "The Guardian",
+    "url": "https://www.theguardian.com/us-news/2026/nov/23/first-thing-cop31-talks-collapse-no-deal-future-global-climate"
    },
    "topic": "diplomacy"
   },
@@ -302696,5 +302696,5 @@
   "2091b4dd0778fa5f"
  ],
  "site": "geo",
- "updated": "2026-11-23T16:54:45+00:00"
+ "updated": "2026-11-23T20:06:48+00:00"
 }
