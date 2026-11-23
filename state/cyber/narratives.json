@@ -1,6 +1,46 @@
 {
  "archived": [
   {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "google-project-zero-vulnerability-disclosure-timel",
+   "last_updated": "2026-11-16",
+   "title": "Google Project Zero vulnerability disclosure timeline"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "danfoss-refrigeration-controller-vulnerabilities",
+   "last_updated": "2026-11-16",
+   "title": "Danfoss refrigeration controller vulnerabilities"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "retadup-worm-and-coffeeloader-malware",
+   "last_updated": "2026-11-16",
+   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "us-airport-ground-stop",
+   "last_updated": "2026-11-16",
+   "title": "US airport ground stop"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "silentair-and-liminal-panda-telecom-attacks",
+   "last_updated": "2026-11-16",
+   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users"
+  },
+  {
    "article_count": 3,
    "first_seen": "2026-11-13",
    "group": "all",
@@ -331,6 +371,30 @@
  ],
  "coverage": [
   {
+   "articles": 56,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-23",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 55,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 0,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 62,
    "attached_by_code": 0,
    "calls": 1,
@@ -595,7 +659,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-22T22:24:22+00:00"
+  "all": "2026-11-23T01:58:14+00:00"
  },
  "narratives": [
   {
@@ -1129,14 +1193,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -1346,7 +1410,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -1677,194 +1741,6 @@
    "article_count": 4,
    "articles": [
     {
-     "added": "2026-11-16",
-     "id": "7429cf0d22e23d34",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-16T08:11:01+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "SilentAir and LIMINAL PANDA Target Telecom Networks to Spy on Subscribers",
-     "type": null,
-     "url": "https://securityaffairs.com/203099/apt/silentair-and-liminal-panda-target-telecom-networks-to-spy-on-subscribers.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "1e29813560889ec8",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T12:20:28+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
-     "type": null,
-     "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "8d99b75ac4f75780",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-13T11:10:40+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "db9769af4b8fb508",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-12T14:30:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "Hacked Asian Telcos Used to Intercept Taiwanese Calls and Texts",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "silentair-and-liminal-panda-telecom-attacks",
-   "label": "SilentAir and Liminal Panda telecom attacks",
-   "last_reported": "2026-11-13",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "db9769af4b8fb508"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "published": "2026-11-12T14:30:00+00:00",
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/silentair-liminal-panda-telco/) reported that Enea linked SilentAir and Liminal Panda to attacks on Asian mobile operators."
-    },
-    {
-     "articles": [
-      "8d99b75ac4f75780"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-13T11:10:40+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html) reported that a newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-13",
-    "of": 2,
-    "outlet": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-   },
-   "topic": "security"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-14",
-     "id": "10b047f775c37b86",
-     "lang": "en",
-     "outlet": "ABC News - Breaking News, Latest News and Videos",
-     "published": "2026-11-13T23:25:08+00:00",
-     "publisher": "ABC News - Breaking News, Latest News and Videos",
-     "region": null,
-     "section": "aviation",
-     "title": "Nationwide ground stop lifted after more than 4 hours as Trump administration blames old, overloaded tech",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZESEhXTWRPNDJEOGZqM0ZUOUdHeHJlVndERnFVejFBYmNfbnV3OUVIdTRFUEI2eHdqTkhPOWJ0OHY5RTd1WWh2VzV0YS1sVk41QVZfSXpmcmdvMXM2dDVNX3dnQ1l5VmRfOXNrSGUzVzQ5VkJnNDl1OUdXN1ByUDltakdoTVp1b2t0ZE5R0gGTAUFVX3lxTE80VGZ5dW9Tb3hkTDNXTHFnNmxnWXhER1RQbGpWMjB2cEZBX0E5a0xNRXVjNVR2czRCbmVUTkJxRHlNUmFlRXBMWlVEOVNnRHZVY0JNeUx6aDdqalZnbUFpYVZ5WXE5Ukl1RFhvbU5lUGpuRXZ1WFp0M0tBWXU2a3VFenBFTVVPbE9lNGZfUi1Oa3ZkZw?oc=5"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "1a378b3abcfce523",
-     "lang": "en",
-     "outlet": "NPR",
-     "published": "2026-11-13T21:55:13+00:00",
-     "publisher": "NPR",
-     "region": null,
-     "section": "aviation",
-     "title": "Old tech blamed for the ground stop that caused flight chaos: 'It got overloaded'",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2kyRDhXUVQtNGF4QmxZMkY5Z0dhNFdqVE5DM2FCdGtsNVVZaVJYLVRJcVVBSlZsRmQ5TzlOekhxaEQ2dm85aTNjdWFTc0puQ2xDTjVQdld1NVRpcEtDeHVYODZ1MC1nbGhhbXR6OWwyV2E0Q3g0cWNEajVhV0F2d09IQy1Ydw?oc=5"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "31a786adf6a2a070",
-     "lang": "en",
-     "outlet": "Menafn",
-     "published": "2026-11-13T16:23:41+00:00",
-     "publisher": "Menafn",
-     "region": null,
-     "section": "aviation",
-     "title": "US Lifts Nationwide Airport Ground Stop, Cites Old Equipment, Not Cyberattack",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "us-airport-ground-stop",
-   "label": "US airport ground stop",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "1a378b3abcfce523"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "NPR"
-     ],
-     "published": "2026-11-13T21:55:13+00:00",
-     "text": "[NPR](https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2kyRDhXUVQtNGF4QmxZMkY5Z0dhNFdqVE5DM2FCdGtsNVVZaVJYLVRJcVVBSlZsRmQ5TzlOekhxaEQ2dm85aTNjdWFTc0puQ2xDTjVQdld1NVRpcEtDeHVYODZ1MC1nbGhhbXR6OWwyV2E0Q3g0cWNEajVhV0F2d09IQy1Ydw?oc=5) reported that old technology was blamed for the ground stop that caused flight chaos because it got overloaded."
-    },
-    {
-     "articles": [
-      "10b047f775c37b86",
-      "31a786adf6a2a070"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Menafn",
-      "ABC News - Breaking News, Latest News and Videos"
-     ],
-     "published": "2026-11-13T16:23:41+00:00",
-     "text": "[Menafn](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeGlCN18wZXRqNE9MVHJqZjh0aDVrSjlKdXJCRjk5WjE5UXV6cl9NWnNZZGZmbXhJbTY1N2dDcUpXUHV3NXU1ZTRUQW01Y0hBd2JoTTBrZWZWUXBxWXBtR0xhYkxVWUduR2lTUS1xSThiVXNCQUJaQnVtTVZXNEtkVlhwSVZZeU9lbTU3QkVDRGZZZDFRNWV0dFBRejNLN1gxclBubll2NUk?oc=5), [ABC News - Breaking News, Latest News and Videos](https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjZESEhXTWRPNDJEOGZqM0ZUOUdHeHJlVndERnFVejFBYmNfbnV3OUVIdTRFUEI2eHdqTkhPOWJ0OHY5RTd1WWh2VzV0YS1sVk41QVZfSXpmcmdvMXM2dDVNX3dnQ1l5VmRfOXNrSGUzVzQ5VkJnNDl1OUdXN1ByUDltakdoTVp1b2t0ZE5R0gGTAUFVX3lxTE80VGZ5dW9Tb3hkTDNXTHFnNmxnWXhER1RQbGpWMjB2cEZBX0E5a0xNRXVjNVR2czRCbmVUTkJxRHlNUmFlRXBMWlVEOVNnRHZVY0JNeUx6aDdqalZnbUFpYVZ5WXE5Ukl1RFhvbU5lUGpuRXZ1WFp0M0tBWXU2a3VFenBFTVVPbE9lNGZfUi1Oa3ZkZw?oc=5) reported that the nationwide airport ground stop was lifted after more than four hours."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "US airport ground stop",
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
      "added": "2026-11-17",
      "id": "9ac43dc57aed2a3d",
      "lang": "en",
@@ -2116,261 +1992,6 @@
     "outlet": "Security Affairs",
     "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html"
    },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "e63e0e81f4d992a4",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-16T16:11:47+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems",
-     "type": null,
-     "url": "https://cybersecuritynews.com/retadup-usb-worm-returns/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "192cc616da587227",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-16T12:33:18+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "959de580e2cbe86e",
-     "lang": "en",
-     "outlet": "Kaspersky Blog",
-     "published": "2026-11-16T07:00:53+00:00",
-     "publisher": "Kaspersky",
-     "region": null,
-     "section": "intel",
-     "title": "The Retadup worm revives from old USB drives to download CoffeeLoader | Kaspersky official blog",
-     "type": null,
-     "url": "https://www.kaspersky.com/blog/retadup-worm-resurrected-brings-coffeeloader-infections/56677/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "dfe75d70c6bcacf4",
-     "lang": "en",
-     "outlet": "Kaspersky Securelist",
-     "published": "2026-11-16T07:00:37+00:00",
-     "publisher": "Kaspersky",
-     "region": null,
-     "section": "intel",
-     "title": "A USB worm’s second life: Retadup spreading CoffeeLoader",
-     "type": null,
-     "url": "https://securelist.com/retadup-delivers-coffeeloader/121908/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "retadup-worm-and-coffeeloader-malware",
-   "label": "Retadup worm and CoffeeLoader malware",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "192cc616da587227"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-16T12:33:18+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html) reported that cybersecurity researchers disclosed details of a new variant of CoffeeLoader designed to deliver additional payloads to infected machines."
-    },
-    {
-     "articles": [
-      "e63e0e81f4d992a4"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-16T16:11:47+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/retadup-usb-worm-returns/) reported that the Retadup USB worm is again being used to deliver malware to Windows systems seven years after French authorities dismantled its botnet."
-    },
-    {
-     "articles": [
-      "dfe75d70c6bcacf4"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Kaspersky"
-     ],
-     "published": "2026-11-16T07:00:37+00:00",
-     "text": "[Kaspersky](https://securelist.com/retadup-delivers-coffeeloader/121908/) reported that a new version of CoffeeLoader is spreading through Retadup, a USB worm whose infrastructure was seized by law enforcement in 2019."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-16",
-    "of": 2,
-    "outlet": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "053b00b47a4cb051",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-16T12:34:21+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "d867b43cb9304de0",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-15T15:23:22+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Researchers Find Six 0-Days Allowing Unauthorized Takeover of Supermarket Refrigeration Systems",
-     "type": null,
-     "url": "https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "danfoss-refrigeration-controller-vulnerabilities",
-   "label": "Danfoss refrigeration controller vulnerabilities",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "d867b43cb9304de0"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-15T15:23:22+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/supermarket-refrigeration-systems-0-day/) reported that six pre-authentication remote code execution flaws were found in the Danfoss AK-SM800A supermarket fridge controller."
-    },
-    {
-     "articles": [
-      "053b00b47a4cb051"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-16T12:34:21+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html) reported that Dutch security consultancy Midni identified six unpatched flaws in Danfoss AK-SM800A refrigeration controllers."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Danfoss refrigeration controller vulnerabilities",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-16",
-     "id": "a69d9ceba70cd4bb",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-16T15:31:25+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
-     "type": null,
-     "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "9c9c77aa4c79c314",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-16T12:15:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "Google Project Zero to Cut Disclosure Deadline to 30 Days by 2028",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/project-zero-disclosure-deadline/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "google-project-zero-vulnerability-disclosure-timel",
-   "label": "Google Project Zero vulnerability disclosure timeline",
-   "last_reported": "2026-11-16",
-   "last_updated": "2026-11-16",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9c9c77aa4c79c314"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "published": "2026-11-16T12:15:00+00:00",
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/project-zero-disclosure-deadline/) reported that Google Project Zero will publish bug details 30 days after reporting by 2028."
-    },
-    {
-     "articles": [
-      "a69d9ceba70cd4bb"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-16T15:31:25+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/) reported that Google Project Zero will move to a 60-day vulnerability disclosure window in February 2027 and to a 30-day window in January 2028."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Google Project Zero vulnerability disclosure timeline",
    "topic": "cyber"
   },
   {
@@ -5741,5 +5362,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-22T22:24:22+00:00"
+ "updated": "2026-11-23T01:58:14+00:00"
 }

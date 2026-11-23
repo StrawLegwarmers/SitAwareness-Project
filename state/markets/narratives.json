@@ -2,6 +2,110 @@
  "archived": [
   {
    "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "venezuela-energy-and-vaca-muerta-shale",
+   "last_updated": "2026-11-18",
+   "title": "Venezuela energy and Vaca Muerta shale"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "mozambique-rovuma-lng-project",
+   "last_updated": "2026-11-18",
+   "title": "Mozambique Rovuma LNG project"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "us-pending-home-sales-data",
+   "last_updated": "2026-11-18",
+   "title": "US pending home sales data"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "cal-maine-foods-florida-bird-flu",
+   "last_updated": "2026-11-18",
+   "title": "Cal-Maine Foods Florida bird flu outbreak"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "target-quarterly-sales-growth",
+   "last_updated": "2026-11-18",
+   "title": "Target quarterly sales growth"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "nvidia-and-anthropic-market-movements",
+   "last_updated": "2026-11-18",
+   "title": "Nvidia and Anthropic market movements"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "textron-industrial-segment-sale",
+   "last_updated": "2026-11-18",
+   "title": "Textron industrial segment sale"
+  },
+  {
+   "article_count": 5,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "indonesia-interest-rate-increase",
+   "last_updated": "2026-11-18",
+   "title": "Indonesia Rate Decision Seen as Close Call on Weak Rupiah, Growth Concerns"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "howard-lutnick-cantor-fitzgerald-probe",
+   "last_updated": "2026-11-18",
+   "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "heidi-overton-fda-nomination-withdrawal",
+   "last_updated": "2026-11-18",
+   "title": "Heidi Overton FDA nomination withdrawal"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "waymo-freeway-operations-restriction",
+   "last_updated": "2026-11-18",
+   "title": "Waymo freeway operations restriction"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "anthropic-likely-to-price-ipo-above",
+   "last_updated": "2026-11-18",
+   "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC"
+  },
+  {
+   "article_count": 22,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "us-federal-aviation-administration-flight-ground",
+   "last_updated": "2026-11-18",
+   "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting"
+  },
+  {
+   "article_count": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "dems-plan-probes-of-trump-s",
@@ -587,6 +691,30 @@
  ],
  "coverage": [
   {
+   "articles": 161,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 1,
+   "corroborated": 0,
+   "date": "2026-11-23",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 155,
+   "in_stories": 1,
+   "kept": 1,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 0,
+   "runs": 1,
+   "sent": 1,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
+  {
    "articles": 156,
    "attached_by_code": 0,
    "calls": 3,
@@ -831,7 +959,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-22T22:28:45+00:00"
+  "all": "2026-11-23T01:59:59+00:00"
  },
  "narratives": [
   {
@@ -2463,467 +2591,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 22,
+   "article_count": 13,
    "articles": [
     {
-     "added": "2026-11-18",
-     "id": "4fce9f38645bdd86",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T18:13:25+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Investigators make progress in hunt for cause of FAA ground stop",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "4fcab407bbf33d05",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-17T18:48:33+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "FAA pauses installation of new routers after ground stop",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "5ec3c3dbf53f9d8b",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-17T16:20:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "FAA Pauses Router Installations After Nationwide Ground Stop",
-     "type": "international",
-     "url": "https://www.wsj.com/business/airlines/faa-pauses-router-installations-after-nationwide-ground-stop-9cd6c424?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "02b06b15604ab22f",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-17T10:00:30+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "US probes why a router installation sparked mass flight grounding",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/us-probes-why-a-router-installation-sparked-mass-flight-grounding-5030697"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "5e2cf937fcdf9a8b",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-17T01:00:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
-     "type": "international",
-     "url": "https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "9e312902a7616d79",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-15T16:56:40+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "6290f603141935b2",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-15T12:51:28+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "'We slept here.' Flight delays linger as airlines scramble to recover from ground stop",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "5c72e4359aed7601",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-14T22:54:47+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "'Root cause’ of nationwide ground stop is unknown, FAA says",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "b6f73dd6a4f35c9d",
+     "added": "2026-11-23",
+     "id": "1c821350902687e8",
      "lang": "en",
      "outlet": "Bloomberg Markets",
-     "published": "2026-11-14T16:45:01+00:00",
+     "published": "2026-11-23T00:28:03+00:00",
      "publisher": "Bloomberg",
      "region": null,
      "section": "news",
-     "title": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
+     "title": "Gold Rebounds as Traders Pare Bets on Near-Term Fed Rate Hikes",
      "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-14/bloomberg-this-weekend-11-14-2026-video"
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes"
     },
-    {
-     "added": "2026-11-14",
-     "id": "153a82f51ccde1c3",
-     "lang": "en",
-     "outlet": "MarketWatch Bulletins",
-     "published": "2026-11-14T14:19:07+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "U.S. air travel could take days to recover after lifting of FAA ground stop",
-     "type": "international",
-     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=33d31d5c-5642-4214-be85-59ecb023f93c&mod=mw_rss_bulletins"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "f2ef34e8a74ec8d7",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-14T10:04:43+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "U.S. flights resume after FAA ground stop, but travel disruption continues",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "4119b59f59270b72",
-     "lang": "en",
-     "outlet": "MarketWatch Bulletins",
-     "published": "2026-11-14T02:01:16+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "FAA lifts rare nationwide ground stop; flights may take days to recover",
-     "type": "international",
-     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=878bb17c-a0d8-48f5-b7d2-a35c5cc03ac6&mod=mw_rss_bulletins"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "cd905cf8df90633e",
-     "lang": "en",
-     "outlet": "The Guardian Business",
-     "published": "2026-11-14T01:01:12+00:00",
-     "publisher": "The Guardian",
-     "region": null,
-     "section": "news",
-     "title": "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
-     "type": "international",
-     "url": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "0223251b167f767e",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-14T00:08:57+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "US Flights Grounded Over Air Traffic Communication Issue",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-14/us-flights-grounded-over-air-traffic-communication-issue-video"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "84e6efda56311c0d",
-     "lang": "en",
-     "outlet": "MarketWatch Bulletins",
-     "published": "2026-11-13T22:49:59+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop",
-     "type": "international",
-     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=296b1b9b-8b6a-4744-8d1e-4c8fb35c65ad&mod=mw_rss_bulletins"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "3c21a19ba3d0f314",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T22:33:32+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Flights Grounded Across US Over Air Traffic Control Problems",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-13/flights-grounded-across-us-video"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "6a48f206083cdfbd",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-13T22:18:56+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "FAA issues nationwide ground stop citing communication issues affecting ‘multiple’ air traffic control facilities",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "c6c55a4a581b0260",
-     "lang": "en",
-     "outlet": "MarketWatch Top Stories",
-     "published": "2026-11-13T22:10:00+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
-     "type": "international",
-     "url": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "bb09cbec3fbc1db8",
-     "lang": "en",
-     "outlet": "MarketWatch Bulletins",
-     "published": "2026-11-13T22:06:31+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "FAA declares rare, nationwide ground stop on flights",
-     "type": "international",
-     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=ec7dabbe-33f8-48ee-842d-812973ca3947&mod=mw_rss_bulletins"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "77136561e2989a30",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T22:04:51+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "FAA Grounds All Flights Nationwide",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-13/faa-grounds-all-flights-nationwide-video"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "f1849a96ffd786ac",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-13T21:43:51+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "FAA orders nationwide U.S. flight ground stop over air traffic control issues",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/faa-orders-nationwide-ground-stop-citing-extraordinary-safety-concerns-5026489"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "8e179d31993c243d",
-     "lang": "en",
-     "outlet": "MarketWatch Bulletins",
-     "published": "2026-11-13T21:43:41+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "FAA issues ground stop for flights at all U.S. airports — live",
-     "type": "international",
-     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=84bb450b-e4ff-4ebf-a5b4-388e2cc1483b&mod=mw_rss_bulletins"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "us-federal-aviation-administration-flight-ground",
-   "label": "US Federal Aviation Administration flight ground stop",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "previous_titles": [
-    "FAA declares rare, nationwide ground stop on flights, citing ‘extraordinary circumstances’",
-    "Nationwide FAA ground stop: nearly 11,000 flights delayed or canceled at airports across the US",
-    "Nearly 10,000 flights delayed after FAA orders nationwide airport ground stop",
-    "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight"
-   ],
-   "reports": [
-    {
-     "articles": [
-      "4fce9f38645bdd86"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-18T18:13:25+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html) reported that engineers and analysts are still searching for the root cause of the issue that led to a four-hour ground stop on Friday."
-    },
-    {
-     "articles": [
-      "5e2cf937fcdf9a8b"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-17T01:00:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f) reported that airline operations are nearly back to normal following a nationwide ground stop while carriers tally financial blows from thousands of canceled flights."
-    },
-    {
-     "articles": [
-      "5c72e4359aed7601"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-14T22:54:47+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/14/root-cause-of-nationwide-ground-stop-is-unknown-faa-says.html) reported that officials said routers and networking equipment may be involved in the problems that led to the ground stop, but a definitive cause has not been established."
-    },
-    {
-     "articles": [
-      "9e312902a7616d79"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-15T16:56:40+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html) reported that Trump blamed the Biden administration for the FAA's aging system and urged Congress to approve more funding."
-    },
-    {
-     "articles": [
-      "6290f603141935b2"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-15T12:51:28+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/15/flight-delays-ground-faa-stop.html) reported that flight disruptions lingered two days after the Federal Aviation Administration grounded departures nationwide for more than four hours."
-    },
-    {
-     "articles": [
-      "f2ef34e8a74ec8d7"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-14T10:04:43+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html) reported that US flights are resuming following the FAA ground stop while delays and cancellations continue to accumulate."
-    },
-    {
-     "articles": [
-      "4119b59f59270b72"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "MarketWatch"
-     ],
-     "published": "2026-11-14T02:01:16+00:00",
-     "text": "[MarketWatch](https://www.marketwatch.com/bulletins/redirect/go?g=878bb17c-a0d8-48f5-b7d2-a35c5cc03ac6&mod=mw_rss_bulletins) reported that the FAA lifted the rare nationwide ground stop and that flights may take days to recover."
-    },
-    {
-     "articles": [
-      "cd905cf8df90633e"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "The Guardian"
-     ],
-     "published": "2026-11-14T01:01:12+00:00",
-     "text": "[The Guardian](https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights) reported that the transportation secretary stated the stoppage is due to a communication issue, and homeland security said there is no indication of a nefarious attack, while nearly 11,000 flights were delayed or canceled at airports across the US."
-    },
-    {
-     "articles": [
-      "77136561e2989a30"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-13T22:04:51+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-13/faa-grounds-all-flights-nationwide-video) reported that the Federal Aviation Administration grounded all flights nationwide, citing extraordinary circumstances and reasons of safety."
-    },
-    {
-     "also": [
-      {
-       "date": "2026-11-14",
-       "outlet": "Bloomberg",
-       "published": "2026-11-13T22:33:32+00:00",
-       "url": "https://www.bloomberg.com/news/videos/2026-11-13/flights-grounded-across-us-video"
-      }
-     ],
-     "articles": [
-      "6a48f206083cdfbd"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-13T22:18:56+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/13/faa-ground-stop.html) reported that the Federal Aviation Administration issued a nationwide ground stop due to communication issues affecting multiple air traffic control facilities."
-    },
-    {
-     "articles": [
-      "c6c55a4a581b0260"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "MarketWatch"
-     ],
-     "published": "2026-11-13T22:10:00+00:00",
-     "text": "[MarketWatch](https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393?mod=mw_rss_topstories) reported that nearly 8,000 flights were delayed."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "The Mounting Toll of the Nationwide Ground Stop: 20,000 Flights and Counting",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-17",
-    "of": 2,
-    "outlet": "Wall Street Journal",
-    "url": "https://www.wsj.com/business/airlines/faa-groundstop-cost-7a7e22c3?mod=pls_whats_news_us_business_f"
-   },
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 12,
-   "articles": [
     {
      "added": "2026-11-20",
      "id": "3f18013817fdbe89",
@@ -3081,18 +2763,30 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "1c821350902687e8"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-23T00:28:03+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/gold-rebounds-as-traders-pare-bets-on-near-term-fed-rate-hikes) reported that gold rebounded from its biggest weekly decline in eight months as traders scaled back bets on the Federal Reserve raising interest rates in the near term."
+    },
     {
      "articles": [
       "bb5a3c8c619a3b6f"
@@ -3158,9 +2852,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -4048,180 +3742,6 @@
    "topic": "business-strategic"
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "441a604f68f9d0d1",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-18T01:39:29+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic said to guide IPO price to top of range or above",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-said-to-guide-ipo-price-to-top-of-range-or-above/articleshow/135945095.cms"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "dd7004c04a1d751b",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-17T14:34:48+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "anthropic-likely-to-price-ipo-above",
-   "label": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "dd7004c04a1d751b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-17T14:34:48+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html) reported that sources told CNBC that Anthropic is likely to price its IPO above the current range of $70 to $78, with the company slated to list on the Nasdaq under the ticker symbol \"ANT\" and start trading on Nov. 19."
-    },
-    {
-     "articles": [
-      "441a604f68f9d0d1"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-18T01:39:29+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-said-to-guide-ipo-price-to-top-of-range-or-above/articleshow/135945095.cms) reported that Anthropic is aiming to set share prices between $70 and $78 with the potential to amass around $90.4 billion."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "7a69abba6ce9c1a6",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-18T04:13:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Waymo Restricts Freeway Operations After California Ban",
-     "type": "international",
-     "url": "https://www.wsj.com/business/autos/waymo-restricts-freeway-operations-after-california-ban-3da802ad?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "9b8068190bc9096f",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-18T00:24:23+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Waymo pauses robotaxi rides on US freeways after California ban",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/waymo-pauses-robotaxi-rides-on-us-freeways-after-california-ban-5034415"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "waymo-freeway-operations-restriction",
-   "label": "Waymo freeway operations restriction",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Waymo freeway operations restriction",
-   "topic": "technology"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "84668042caab85e8",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-18T04:02:27+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Trump withdraws Heidi Overton’s FDA nomination- Axios",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/trump-withdraws-heidi-overtons-fda-nomination-axios-93CH-5034661"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "7761329f4f860b54",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T03:09:36+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Trump withdraws Heidi Overton as nominee to lead Food and Drug Administration, sources say",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/trump-withdraws-heidi-overton-as-nominee-to-lead-fda-sources-say.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "heidi-overton-fda-nomination-withdrawal",
-   "label": "Heidi Overton FDA nomination withdrawal",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "7761329f4f860b54",
-      "84668042caab85e8"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC",
-      "Investing.com"
-     ],
-     "published": "2026-11-18T03:09:36+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/18/trump-withdraws-heidi-overton-as-nominee-to-lead-fda-sources-say.html), [Investing.com](https://www.investing.com/news/stock-market-news/trump-withdraws-heidi-overtons-fda-nomination-axios-93CH-5034661) reported that U.S. President Donald Trump has withdrawn the nomination of Heidi Overton to lead the Food and Drug Administration due to insufficient support in Congress."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Heidi Overton FDA nomination withdrawal",
-   "topic": "politics"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -4293,723 +3813,6 @@
    "status": "unchanged",
    "title": "India stock trading and derivatives taxes",
    "topic": "markets"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "f677fc56d86d4ca9",
-     "lang": "en",
-     "outlet": "The Guardian Business",
-     "published": "2026-11-18T16:48:29+00:00",
-     "publisher": "The Guardian",
-     "region": null,
-     "section": "news",
-     "title": "Democrats demand answers from Howard Lutnick about Nvidia and his family’s business",
-     "type": "international",
-     "url": "https://www.theguardian.com/us-news/2026/nov/18/howard-lutnick-nvidia-cantor-fitzgerald"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "8cc29ecbd5d4d4ff",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-18T10:06:19+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Democrats probe whether Howard Lutnick helped Cantor avoid Nvidia losses, FT reports",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "7e06045e2e8e9d67",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-18T09:45:07+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Democrats probe whether Howard Lutnick helped Cantor avoid Nvidia losses",
-     "type": "international",
-     "url": "https://www.ft.com/content/71e39ecd-03ef-4078-a34e-34ea6b45f674?syn-25a6b1a6=1"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "26d31e2f3ad4992e",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T09:45:01+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "howard-lutnick-cantor-fitzgerald-probe",
-   "label": "Howard Lutnick Cantor Fitzgerald probe",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "f677fc56d86d4ca9"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Guardian"
-     ],
-     "published": "2026-11-18T16:48:29+00:00",
-     "text": "[The Guardian](https://www.theguardian.com/us-news/2026/nov/18/howard-lutnick-nvidia-cantor-fitzgerald) reported that Democratic lawmakers asked if Commerce Secretary Howard Lutnick favored Nvidia to enrich his adult children and Cantor Fitzgerald."
-    },
-    {
-     "articles": [
-      "26d31e2f3ad4992e"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-18T09:45:01+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html) reported that congressional Democrats launched a probe targeting Cantor Fitzgerald's Nvidia business interests following the midterm elections."
-    },
-    {
-     "articles": [
-      "7e06045e2e8e9d67",
-      "8cc29ecbd5d4d4ff"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Financial Times",
-      "Investing.com"
-     ],
-     "published": "2026-11-18T09:45:07+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/71e39ecd-03ef-4078-a34e-34ea6b45f674?syn-25a6b1a6=1), [Investing.com](https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313) reported that lawmakers are investigating whether U.S. Commerce Secretary Howard Lutnick helped Cantor avoid Nvidia losses and if his decisions were influenced by the investment firm."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-18",
-    "of": 2,
-    "outlet": "CNBC",
-    "url": "https://www.cnbc.com/2026/11/18/nvidia-lutnick-china-ai-megaspeed-cantor-fitzgerald.html"
-   },
-   "topic": "politics"
-  },
-  {
-   "article_count": 5,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "dfd30476d6b5e0fc",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-18T10:00:26+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Indonesia resumes rate hikes to defend rupiah, more tightening seen",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/indonesia-central-bank-hikes-rates-to-support-rupiah-5034987"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "05fca6330ce2205c",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-18T07:59:37+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Indonesia unexpectedly hikes rates to 6% as rupiah hits record low",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/indonesia-unexpectedly-hikes-rates-to-6-as-rupiah-hits-record-low-5034993"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "d59ce032392cd06f",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-18T07:37:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Indonesia Resumes Rate Increases as Rupiah Hits Record Low",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "aec2da0db2221686",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-18T07:19:38+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Indonesia Hikes Key Rate After Rupiah Slide, Surprising Most Economists",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-hikes-key-rate-after-rupiah-slide-surprising-most-economists"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "c32825b9a256af98",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-18T00:00:00+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Indonesia Rate Decision Seen as Close Call on Weak Rupiah, Growth Concerns",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-rate-decision-seen-as-close-call-on-weak-rupiah-growth-concerns"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "indonesia-interest-rate-increase",
-   "label": "Indonesia interest rate increase",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "aec2da0db2221686"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-18T07:19:38+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/indonesia-hikes-key-rate-after-rupiah-slide-surprising-most-economists) reported that Indonesia's central bank unexpectedly resumed raising its key interest rate to support the rupiah and announced more incentives for investors."
-    },
-    {
-     "articles": [
-      "d59ce032392cd06f",
-      "dfd30476d6b5e0fc"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal",
-      "Investing.com"
-     ],
-     "published": "2026-11-18T07:37:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/indonesia-resumes-rate-increases-as-rupiah-hits-record-low-d6ef3d12?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/indonesia-central-bank-hikes-rates-to-support-rupiah-5034987) reported that Indonesia's central bank resumed interest rate increases to support the rupiah after the currency hit a record low against the dollar."
-    },
-    {
-     "articles": [
-      "05fca6330ce2205c"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-18T07:59:37+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/indonesia-unexpectedly-hikes-rates-to-6-as-rupiah-hits-record-low-5034993) reported that Indonesia unexpectedly hiked rates to 6% as the rupiah reached a record low."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Indonesia Rate Decision Seen as Close Call on Weak Rupiah, Growth Concerns",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-18",
-    "of": 2,
-    "outlet": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-rate-decision-seen-as-close-call-on-weak-rupiah-growth-concerns"
-   },
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "b57b382db75c274b",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-18T13:24:23+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Cessna jet maker Textron to sell industrial business for $1.2 billion",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "201604b09e556687",
-     "lang": "en",
-     "outlet": "WSJ Markets",
-     "published": "2026-11-18T13:11:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Textron Selling Industrial Segment to Kingswood Capital for $1.2 Billion",
-     "type": "international",
-     "url": "https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969?mod=rss_markets_main"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "textron-industrial-segment-sale",
-   "label": "Textron industrial segment sale",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "201604b09e556687",
-      "b57b382db75c274b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal",
-      "Investing.com"
-     ],
-     "published": "2026-11-18T13:11:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/textron-selling-industrial-segment-to-kingswood-capital-for-1-2-billion-5caba969?mod=rss_markets_main), [Investing.com](https://www.investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071) reported that Textron is selling its industrial segment to Kingswood Capital Management for $1.2 billion."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Textron industrial segment sale",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "c40ad99580191ebf",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-18T14:59:39+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Nasdaq gains in choppy trade as Nvidia outlook lifts AI mood; Anthropic pricing awaited",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-500-nasdaq-open-higher-as-nvidia-forecast-eases-ai-jitters/articleshow/135966195.cms"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "e2a31154fe7e195a",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-18T10:30:41+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Nasdaq futures jump as Nvidia forecast lifts AI trade ahead of Anthropic pricing",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "nvidia-and-anthropic-market-movements",
-   "label": "Nvidia and Anthropic market movements",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "c40ad99580191ebf",
-      "e2a31154fe7e195a"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Investing.com",
-      "ET Markets"
-     ],
-     "published": "2026-11-18T10:30:41+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/nasdaq-futures-jump-as-nvidia-forecast-lifts-ai-trade-ahead-of-anthropic-pricing-5035347), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/sp-500-nasdaq-open-higher-as-nvidia-forecast-eases-ai-jitters/articleshow/135966195.cms) reported that Nasdaq gains were driven by Nvidia's revenue guidance and AI mood ahead of Anthropic pricing."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Nvidia and Anthropic market movements",
-   "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "c2e610bfbc6b8562",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-18T15:25:58+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "Target reports strongest quarterly sales gain in five years heading into the holiday shopping season",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/target-reports-strongest-quarterly-sales-gain-in-five-years-heading-into-the-holiday-shopping-season/articleshow/135966816.cms"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "02ccf67ebf766462",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-18T11:41:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Target Posts Strongest Sales Growth in Years as Focus on New Products, Value Pays Off",
-     "type": "international",
-     "url": "https://www.wsj.com/business/retail/target-posts-strongest-sales-growth-in-years-as-focus-on-new-products-value-pays-off-4f82006d?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "target-quarterly-sales-growth",
-   "label": "Target quarterly sales growth",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "02ccf67ebf766462"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-18T11:41:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/target-posts-strongest-sales-growth-in-years-as-focus-on-new-products-value-pays-off-4f82006d?mod=pls_whats_news_us_business_f) reported that Target posted its strongest quarterly sales growth in about five years following the introduction of new products and lowered prices."
-    },
-    {
-     "articles": [
-      "c2e610bfbc6b8562"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-18T15:25:58+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/target-reports-strongest-quarterly-sales-gain-in-five-years-heading-into-the-holiday-shopping-season/articleshow/135966816.cms) reported that Target recorded a 7.1% increase in net sales for the third quarter, reaching $27.07 billion."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Target quarterly sales growth",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "43180710571dff95",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T15:05:04+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Cal-Maine to cull 1.8 million birds, halt production at Florida facility after bird flu detected",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/cal-maine-to-cull-1point8-million-birds-halt-production-at-florida-facility-after-bird-flu-detected-.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "b5ec6304a611678b",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-18T14:39:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Cal-Maine Foods to Cull 1.76 Million Birds After Florida Facility Tests Positive for Bird Flu",
-     "type": "international",
-     "url": "https://www.wsj.com/business/retail/cal-maine-foods-to-cull-1-76-million-birds-after-florida-facility-tests-positive-for-bird-flu-96982877?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "cal-maine-foods-florida-bird-flu",
-   "label": "Cal-Maine Foods Florida bird flu outbreak",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "b5ec6304a611678b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-18T14:39:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/cal-maine-foods-to-cull-1-76-million-birds-after-florida-facility-tests-positive-for-bird-flu-96982877?mod=pls_whats_news_us_business_f) reported that Cal-Maine Foods will cull 1.76 million birds, including about 1.4 million laying hens and 360,000 pullets, after a Florida facility tested positive for bird flu."
-    },
-    {
-     "articles": [
-      "43180710571dff95"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-18T15:05:04+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/18/cal-maine-to-cull-1point8-million-birds-halt-production-at-florida-facility-after-bird-flu-detected-.html) reported that Cal-Maine will halt production at the Florida facility following the detection of avian influenza."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Cal-Maine Foods Florida bird flu outbreak",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "4f008b73dfadd5f9",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T15:09:45+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Two new housing reports point to bleak winter ahead, with record low sales",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "4525e4e54a4552f0",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-18T15:00:00+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "US Pending Home Sales Fall to New Record Low on High Rates",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/us-pending-home-sales-fall-to-new-record-low-on-high-rates"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "us-pending-home-sales-data",
-   "label": "US pending home sales data",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "4525e4e54a4552f0"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-18T15:00:00+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/us-pending-home-sales-fall-to-new-record-low-on-high-rates) reported that pending sales of existing US homes fell to a new record low in October due to high mortgage rates."
-    },
-    {
-     "articles": [
-      "4f008b73dfadd5f9"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-18T15:09:45+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/18/two-new-housing-reports-point-to-bleak-winter-ahead.html) reported that two new housing reports indicate a bleak winter ahead for the housing market with record low sales driven by high mortgage rates and inflation."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "US pending home sales data",
-   "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "f53eaea17cbd05e6",
-     "lang": "en",
-     "outlet": "Oilprice.com",
-     "published": "2026-11-18T17:30:00+00:00",
-     "publisher": "Oilprice.com",
-     "region": null,
-     "section": "news",
-     "title": "Mozambique Approves Exxon’s Redesigned $30 Billion Rovuma LNG Plan",
-     "type": "specialist",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "75e3af7d4ffbd532",
-     "lang": "en",
-     "outlet": "Rigzone",
-     "published": "2026-11-18T09:07:33+00:00",
-     "publisher": "Rigzone",
-     "region": null,
-     "section": "news",
-     "title": "Mozambique Approves Amended Plan for Rovuma LNG",
-     "type": "specialist",
-     "url": "https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/?rss=true"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "mozambique-rovuma-lng-project",
-   "label": "Mozambique Rovuma LNG project",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "75e3af7d4ffbd532"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Rigzone"
-     ],
-     "published": "2026-11-18T09:07:33+00:00",
-     "text": "[Rigzone](https://www.rigzone.com/news/wire/mozambique_approves_amended_plan_for_rovuma_lng-18-nov-2026-185108-article/?rss=true) reported that Mozambique's Cabinet approved an amended plan for Rovuma LNG involving modular, electrified production units."
-    },
-    {
-     "articles": [
-      "f53eaea17cbd05e6"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Oilprice.com"
-     ],
-     "published": "2026-11-18T17:30:00+00:00",
-     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Mozambique-Approves-Exxons-Redesigned-30-Billion-Rovuma-LNG-Plan.html) reported that Mozambique's Council of Ministers approved ExxonMobil's redesigned $30 billion Rovuma LNG development plan."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Mozambique Rovuma LNG project",
-   "topic": "energy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "1323eb9512ed0173",
-     "lang": "en",
-     "outlet": "Oilprice.com",
-     "published": "2026-11-18T17:30:00+00:00",
-     "publisher": "Oilprice.com",
-     "region": null,
-     "section": "news",
-     "title": "Thiel Doubles Down on Vaca Muerta as Trump Calls Venezuela an “Acquisition”",
-     "type": "specialist",
-     "url": "https://oilprice.com/Latest-Energy-News/World-News/Thiel-Doubles-Down-on-Vaca-Muerta-as-Trump-Calls-Venezuela-an-Acquisition.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "44ec19a02403b205",
-     "lang": "en",
-     "outlet": "Rigzone",
-     "published": "2026-11-18T14:02:52+00:00",
-     "publisher": "Rigzone",
-     "region": null,
-     "section": "news",
-     "title": "Trump Calls Venezuela an 'Acquisition'",
-     "type": "specialist",
-     "url": "https://www.rigzone.com/news/wire/trump_calls_venezuela_an_acquisition-18-nov-2026-185114-article/?rss=true"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "venezuela-energy-and-vaca-muerta-shale",
-   "label": "Venezuela energy and Vaca Muerta shale",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "44ec19a02403b205"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Rigzone"
-     ],
-     "published": "2026-11-18T14:02:52+00:00",
-     "text": "[Rigzone](https://www.rigzone.com/news/wire/trump_calls_venezuela_an_acquisition-18-nov-2026-185114-article/?rss=true) reported that President Donald Trump referred to Venezuela as an acquisition while touting an increasing supply of U.S. energy."
-    },
-    {
-     "articles": [
-      "1323eb9512ed0173"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Oilprice.com"
-     ],
-     "published": "2026-11-18T17:30:00+00:00",
-     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Thiel-Doubles-Down-on-Vaca-Muerta-as-Trump-Calls-Venezuela-an-Acquisition.html) reported that billionaire investor Peter Thiel raised his stake in Vista Energy, the Vaca Muerta shale producer."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Venezuela energy and Vaca Muerta shale",
-   "topic": "energy"
   },
   {
    "article_count": 4,
@@ -8001,14 +6804,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-21/los-angeles-port-strike-threat-resolved-with-tentative-agreement"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "los-angeles-port-labor-contract",
    "label": "Los Angeles Port labor contract",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8037,7 +6840,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Los Angeles Port labor contract",
    "topic": "economy"
   },
@@ -8071,14 +6874,14 @@
      "url": "https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "south-korea-stock-market-stabilization-fund",
    "label": "South Korea stock market stabilization fund",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8107,7 +6910,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "South Korea stock market stabilization fund",
    "topic": "markets"
   },
@@ -8141,14 +6944,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "compass-group-listing-move",
    "label": "Compass Group listing move",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-22",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8177,12 +6980,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Compass Group listing move",
    "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-22T22:28:45+00:00"
+ "updated": "2026-11-23T02:00:15+00:00"
 }
