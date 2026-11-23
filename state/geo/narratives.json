@@ -803,30 +803,31 @@
  ],
  "coverage": [
   {
-   "articles": 4000,
+   "articles": 4033,
    "attached_by_code": 43,
-   "calls": 22,
-   "candidates": 782,
-   "continuing": 586,
+   "calls": 30,
+   "candidates": 1078,
+   "continuing": 780,
    "corroborated": 20,
    "date": "2026-11-23",
    "dropped": 25,
    "errors": [
-    "call 2: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 3: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 8: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 4,
-   "groups": 3084,
+   "failed_calls": 12,
+   "groups": 3136,
    "in_stories": 941,
    "kept": 487,
-   "merged": 23,
+   "merged": 25,
    "new": 76,
    "rejected": 44,
-   "reported_by_2": 118,
-   "runs": 5,
-   "sent": 782,
+   "reported_by_2": 176,
+   "runs": 6,
+   "sent": 1078,
    "skipped": 57,
    "split_calls": 0,
    "updated": 417,
@@ -41174,7 +41175,7 @@
    }
   },
   {
-   "article_count": 192,
+   "article_count": 216,
    "articles": [
     {
      "added": "2026-11-23",
@@ -41288,6 +41289,19 @@
     },
     {
      "added": "2026-11-23",
+     "id": "a93f708c8566460f",
+     "lang": "en",
+     "outlet": "Pajhwok Afghan News",
+     "published": "2026-11-23T11:14:59+00:00",
+     "publisher": "Pajhwok Afghan News",
+     "region": "asia",
+     "section": null,
+     "title": "Zelenskyy claims Ukraine sank Russian warship in Libya’s Benghazi port",
+     "type": "local",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSXVjUDczamtreUo0eDFpMndIQmUtNHNGUHJnUWxqSDNHZkRJMW8wdjFDYU5xZHBhcEN2R1lDMVdIUUp5dU1HWGFlemNXd0ZIbThZRkFWTFVCTHltWGp1Z0tDam13VnBQMExSaVBqeUZvVm10bzF6MGRpeTVUQVN0VlYyejFrSjVBTVJvS012ejc3ekdOYVFWdlBHQndiNDlIbXFj?oc=5"
+    },
+    {
+     "added": "2026-11-23",
      "id": "b58103ecc7a35303",
      "lang": "en",
      "outlet": "Al Jazeera",
@@ -41314,6 +41328,19 @@
      "title": "Ukrainian sea drones sink Russian warship in Libya, killing Russians and Libyans",
      "type": "local",
      "url": "https://meduza.io/en/feature/2026/11/23/ukrainian-sea-drones-sink-russian-warship-in-libya-killing-russians-and-libyans"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "8bb0c7a9013325f5",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-23T10:57:15+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Ukraine Sinks Russian Corvette, Hits Cargo Ship off Libya, SBU Says",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/90913"
     },
     {
      "added": "2026-11-23",
@@ -41609,6 +41636,19 @@
     },
     {
      "added": "2026-11-23",
+     "id": "41696cd3700719bc",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-23T08:36:50+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Russian Cargo Ship Hit by Ukrainian Drone Towed to Home Waters",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/90886"
+    },
+    {
+     "added": "2026-11-23",
      "id": "d337b6fa591a2c2b",
      "lang": "en",
      "outlet": "The Japan Times",
@@ -41671,45 +41711,6 @@
      "title": "Zelensky confirms Ukraine sank Russian warship, destroyed helicopter off Libya using naval drones",
      "type": "local",
      "url": "https://www.hindustantimes.com/world-news/zelenskyy-confirms-ukraine-sank-russian-warship-destroyed-helicopter-off-libya-using-naval-drones-101795421316347.html"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "90b25694e54fd1df",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-23T08:01:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Zelensky confirms strikes on Russian corvette Merkury and cargo ship in Libya, calls operation exemplary",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4187541-zelensky-confirms-strikes-on-russian-corvette-merkury-and-cargo-ship-in-libya-calls-operation-exemplary.html"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "836e0ad17c3bc035",
-     "lang": "en",
-     "outlet": "Daily Sabah",
-     "published": "2026-11-23T07:49:00+00:00",
-     "publisher": "Daily Sabah",
-     "region": "mena",
-     "section": null,
-     "title": "Ukraine claims it sank Russian warship off Libya as UN urges probe",
-     "type": "local",
-     "url": "https://www.dailysabah.com/world/europe/ukraine-claims-it-sank-russian-warship-off-libya-as-un-urges-probe"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "d45ebe226134345e",
-     "lang": "en",
-     "outlet": "Meduza",
-     "published": "2026-11-23T07:46:28+00:00",
-     "publisher": "Meduza",
-     "region": "europe",
-     "section": null,
-     "title": "‘An exemplary Ukrainian operation’: Zelensky confirms strike on Russian warship in Libya",
-     "type": "local",
-     "url": "https://meduza.io/en/news/2026/11/23/zelensky-confirms-ukrainian-strike-on-russian-warship-in-libya"
     }
    ],
    "articles_today": 40,
@@ -41719,7 +41720,11 @@
    "label": "Russian warship hit by Ukrainian drone in Gulf of Finland",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 34,
+   "merged": [
+    "explosion-on-russian-ship-in-libya",
+    "russian-corvette-reportedly-destroyed-in-blast"
+   ],
+   "outlets_today": 36,
    "previous_titles": [
     "Finland Says It Detected Strike on Russian Warship in Baltic Sea",
     "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
@@ -41731,6 +41736,58 @@
     "Ukraine Claims Strikes on Russian Ships Near Libya"
    ],
    "reports": [
+    {
+     "articles": [
+      "3e71f9c1b1d2896f",
+      "88c963e3c744b0f2",
+      "9ff06ee6cc6d60b4"
+     ],
+     "date": "2026-11-23",
+     "group": "mena",
+     "outlets": [
+      "Defence Blog",
+      "Kyiv Post",
+      "Ukrinform"
+     ],
+     "published": "2026-11-22T12:45:08+00:00",
+     "text": "[Defence Blog](https://defence-blog.com/russian-corvette-reportedly-destroyed-in-blast-at-libyan-port/), [Kyiv Post](https://www.kyivpost.com/post/90861), [Ukrinform](https://www.ukrinform.net/rubric-ato/4187511-russian-warship-destroyed-in-blast-at-libyan-port-media.html) reported that a Russian Navy guided-missile corvette, identified as the Merkury, caught fire and was destroyed following an explosion at the Libyan port of Benghazi."
+    },
+    {
+     "articles": [
+      "2eedddcff4bebb7b"
+     ],
+     "date": "2026-11-23",
+     "group": "mena",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-22T16:05:25+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss) reported that Libya's eastern rival government stated it is working with Russia to investigate a suspected drone attack explosion on a Russian ship at a Libya port."
+    },
+    {
+     "articles": [
+      "ae9b905146243268"
+     ],
+     "date": "2026-11-23",
+     "group": "mena",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-22T19:41:23+00:00",
+     "text": "[France 24](https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base) reported that a Russian navy corvette docked at the Benghazi naval base in eastern Libya was hit by a suspected Ukrainian sea drone."
+    },
+    {
+     "articles": [
+      "42d9276181d869ab"
+     ],
+     "date": "2026-11-23",
+     "group": "mena",
+     "outlets": [
+      "The New Arab"
+     ],
+     "published": "2026-11-22T17:12:47+00:00",
+     "text": "[The New Arab](https://www.newarab.com/news/libya-reports-second-attack-ships-including-russian-vessel) reported that authorities in east Libya said a second ship was hit in a drone attack off Benghazi, hours after a Russian vessel was targeted at the city's port."
+    },
     {
      "articles": [
       "e7a3993aaa360bca"
@@ -42222,54 +42279,6 @@
      ],
      "published": "2026-11-21T16:56:29+00:00",
      "text": "[Reuters](https://news.google.com/rss/articles/CBMiugFBVV95cUxPaUFLdlZmeWprX3A2YllLMmlQSXZrYTRIazVMOEExREZuTXFCYThyVUlnR3U0TDg3dGpUeHE5SHJyanJWQUZTRHdwUG5YYTFxVXMtUU5rY1pOVzZkRUxhQ29oUEVUS0NJTWFxcUJmLW9lRE52cGs3N2FLbXZzNmVFNFpXTmZNZnI4S1pWNDB5RWV0UFhUUGlCTVUwNjlWZDMxcXhxS0FvZUdNNWN4UU9jMEw4bWVaOVB0TlE?oc=5), [Arab News](https://www.arabnews.com/world/russian-cargo-ship-catches-fire-after-ukrainian-strike-in-baltic-3013392), [RTÉ](https://www.rte.ie/news/ukraine/2026/1121/1600153-finland-russia-ukraine/), [Jowhar](https://jowhar.com/russian-vessel-ablaze-in-baltic-sea-after-ukrainian-strike/) reported that a Russian cargo ship caught fire in the Baltic Sea after a Ukrainian drone strike, forcing the crew to evacuate."
-    },
-    {
-     "articles": [
-      "c64ca418be9b155e"
-     ],
-     "date": "2026-11-21",
-     "group": "europe",
-     "outlets": [
-      "The Hindu (World)"
-     ],
-     "published": "2026-11-21T16:51:03+00:00",
-     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/cargo-ship-bound-for-russias-kaliningrad-hit-by-drones-finland-tightens-security/article71729285.ece) reported that Finland's Defence Ministry said the military reintroduced temporary aviation and maritime restrictions in the eastern Gulf of Finland after a cargo ship bound for Kaliningrad was hit by drones."
-    },
-    {
-     "articles": [
-      "bfcff8e8e7e88b83"
-     ],
-     "date": "2026-11-21",
-     "group": "europe",
-     "outlets": [
-      "Hindustan Times"
-     ],
-     "published": "2026-11-21T18:21:06+00:00",
-     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/finland-says-russian-helicopter-possibly-breached-its-airspace-hours-after-drone-hit-on-cargo-ship-101795283257708.html) reported that Finland stated a Russian helicopter possibly breached its airspace hours after a drone hit a cargo ship."
-    },
-    {
-     "articles": [
-      "9ebee1d0aabfe805"
-     ],
-     "date": "2026-11-21",
-     "group": "europe",
-     "outlets": [
-      "Kyiv Independent"
-     ],
-     "published": "2026-11-21T19:01:53+00:00",
-     "text": "[Kyiv Independent](https://kyivindependent.com/explosions-reported-near-russian-baltic-fleet-base-in-kaliningrad-oblast-amid-drone-alerts/) reported that Ukrainian monitoring channel WarTranslated cited Russian accounts claiming drones were attacking the Baltic Fleet base in Baltiysk."
-    },
-    {
-     "articles": [
-      "a915965ec832fc10"
-     ],
-     "date": "2026-11-21",
-     "group": "europe",
-     "outlets": [
-      "El Universal (Mexico)"
-     ],
-     "published": "2026-11-21T14:19:46+00:00",
-     "text": "[El Universal (Mexico)](https://www.eluniversal.com.mx/mundo/se-incendia-un-carguero-ruso-en-el-golfo-de-finlandia-fue-atacado-por-drones-ucranianos/) reported that a Russian cargo ship was attacked by Ukrainian drones in the Gulf of Finland, leading to suspicions of a violation of Finnish airspace."
     }
    ],
    "single_source_today": false,
@@ -86560,7 +86569,6 @@
    ],
    "outlets_today": 25,
    "previous_titles": [
-    "COP31 Talks Enter Overtime Amid Deadlock Over Fossil Fuels And Climate Finance",
     "COP31: UN Climate summit runs into second day of overtime",
     "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
     "New draft deal aims to avert collapse of talks at COP31 climate summit",
@@ -86569,7 +86577,8 @@
     "COP31: Climate deal 'not adopted,' summit president says",
     "COP31 climate talks in Turkey collapse",
     "Climate talks collapse in chaotic end to COP31",
-    "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out"
+    "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
+    "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate"
    ],
    "reports": [
     {
@@ -87127,13 +87136,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "turkey",
-   "title": "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate",
+   "title": "COP31 Ends in Deadlock as Guterres Blasts Fossil Fuel Interests, Demands Urgent Climate Action",
    "title_from": {
-    "backing": 15,
+    "backing": 20,
     "date": "2026-11-23",
     "of": 21,
-    "outlet": "The Guardian",
-    "url": "https://www.theguardian.com/us-news/2026/nov/23/first-thing-cop31-talks-collapse-no-deal-future-global-climate"
+    "outlet": "This Day",
+    "url": "https://www.thisdaylive.com/2026/11/23/cop31-ends-in-deadlock-as-guterres-blasts-fossil-fuel-interests-demands-urgent-climate-action-2/"
    },
    "topic": "diplomacy"
   },
@@ -298117,6 +298126,9 @@
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
    "outlets_today": 5,
+   "previous_titles": [
+    "North Korea's leader highlights 'sovereignty' after rebuffing Trump offer for talks"
+   ],
    "reports": [
     {
      "articles": [
@@ -298151,94 +298163,15 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "north-korea",
-   "title": "North Korea's leader highlights 'sovereignty' after rebuffing Trump offer for talks",
+   "title": "North Korea leader highlights 'sovereignty' in ties after Trump no-show",
    "title_from": {
-    "backing": 3,
+    "backing": 4,
     "date": "2026-11-23",
-    "of": 3,
-    "outlet": "Euronews",
-    "url": "https://www.euronews.com/2026/11/23/north-koreas-leader-highlights-sovereignty-after-rebuffing-trump-offer-for-talks"
+    "of": 4,
+    "outlet": "CNA",
+    "url": "https://www.channelnewsasia.com/east-asia/north-korea-kim-jong-un-sovereignty-foreign-relations-6573851"
    },
    "topic": "diplomacy"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "88c963e3c744b0f2",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-23T05:53:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russian warship destroyed in blast at Libyan port – media",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4187511-russian-warship-destroyed-in-blast-at-libyan-port-media.html"
-    },
-    {
-     "added": "2026-11-23",
-     "dates": [
-      "2026-11-22"
-     ],
-     "id": "3e71f9c1b1d2896f",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-22T14:31:00+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Russian Missile Corvette Catches Fire After Explosion in Libyan Port",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/90861"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "9ff06ee6cc6d60b4",
-     "lang": "en",
-     "outlet": "Defence Blog",
-     "published": "2026-11-22T12:45:08+00:00",
-     "publisher": "Defence Blog",
-     "region": "global",
-     "section": null,
-     "title": "Russian corvette reportedly destroyed in blast at Libyan port",
-     "type": "specialist",
-     "url": "https://defence-blog.com/russian-corvette-reportedly-destroyed-in-blast-at-libyan-port/"
-    }
-   ],
-   "articles_today": 3,
-   "first_seen": "2026-11-23",
-   "group": "mena",
-   "id": "russian-corvette-reportedly-destroyed-in-blast",
-   "label": "Russian corvette reportedly destroyed in blast at Libyan port",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 3,
-   "reports": [
-    {
-     "articles": [
-      "3e71f9c1b1d2896f",
-      "88c963e3c744b0f2",
-      "9ff06ee6cc6d60b4"
-     ],
-     "date": "2026-11-23",
-     "group": "mena",
-     "outlets": [
-      "Defence Blog",
-      "Kyiv Post",
-      "Ukrinform"
-     ],
-     "published": "2026-11-22T12:45:08+00:00",
-     "text": "[Defence Blog](https://defence-blog.com/russian-corvette-reportedly-destroyed-in-blast-at-libyan-port/), [Kyiv Post](https://www.kyivpost.com/post/90861), [Ukrinform](https://www.ukrinform.net/rubric-ato/4187511-russian-warship-destroyed-in-blast-at-libyan-port-media.html) reported that a Russian Navy guided-missile corvette, identified as the Merkury, caught fire and was destroyed following an explosion at the Libyan port of Benghazi."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "libya",
-   "title": "Russian corvette reportedly destroyed in blast at Libyan port",
-   "topic": "conflict"
   },
   {
    "article_count": 8,
@@ -301819,346 +301752,6 @@
    "topic": "disaster"
   },
   {
-   "article_count": 21,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "a93f708c8566460f",
-     "lang": "en",
-     "outlet": "Pajhwok Afghan News",
-     "published": "2026-11-23T11:14:59+00:00",
-     "publisher": "Pajhwok Afghan News",
-     "region": "asia",
-     "section": null,
-     "title": "Zelenskyy claims Ukraine sank Russian warship in Libya’s Benghazi port",
-     "type": "local",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSXVjUDczamtreUo0eDFpMndIQmUtNHNGUHJnUWxqSDNHZkRJMW8wdjFDYU5xZHBhcEN2R1lDMVdIUUp5dU1HWGFlemNXd0ZIbThZRkFWTFVCTHltWGp1Z0tDam13VnBQMExSaVBqeUZvVm10bzF6MGRpeTVUQVN0VlYyejFrSjVBTVJvS012ejc3ekdOYVFWdlBHQndiNDlIbXFj?oc=5"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "8bb0c7a9013325f5",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-23T10:57:15+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Ukraine Sinks Russian Corvette, Hits Cargo Ship off Libya, SBU Says",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/90913"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "41696cd3700719bc",
-     "lang": "en",
-     "outlet": "Kyiv Post",
-     "published": "2026-11-23T08:36:50+00:00",
-     "publisher": "Kyiv Post",
-     "region": "europe",
-     "section": null,
-     "title": "Russian Cargo Ship Hit by Ukrainian Drone Towed to Home Waters",
-     "type": "local",
-     "url": "https://www.kyivpost.com/post/90886"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "93ff7c966f159f31",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-23T01:51:32+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "Libya’s military says ‘fully prepared’ after Benghazi attacks",
-     "type": "international",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/23/libyas-military-says-fully-prepared-after-benghazi-attacks?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "8b9504847453c546",
-     "lang": "en",
-     "outlet": "TRT World",
-     "published": "2026-11-23T01:14:59+00:00",
-     "publisher": "TRT World",
-     "region": "mena",
-     "section": null,
-     "title": "Libya rejects becoming battleground for foreign conflicts after Benghazi drone attacks",
-     "type": "state-media",
-     "url": "https://www.trtworld.com/article/e0a9ce5fbcce"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "3970afbf2574d7f9",
-     "lang": "so",
-     "outlet": "Jowhar",
-     "published": "2026-11-23T00:30:16+00:00",
-     "publisher": "Jowhar",
-     "region": "africa",
-     "section": null,
-     "title": "Drone Strike Damages Russian Vessel in Benghazi, Libya",
-     "type": "local",
-     "url": "https://jowhar.com/drone-strike-damages-russian-vessel-in-benghazi-libya/"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "ddc061ddcb50fb30",
-     "lang": "en",
-     "outlet": "RTÉ",
-     "published": "2026-11-23T00:16:41+00:00",
-     "publisher": "RTÉ",
-     "region": "europe",
-     "section": null,
-     "title": "Libya reports drone attack on Russian ship in Benghazi",
-     "type": "local",
-     "url": "https://www.rte.ie/news/2026/1123/1600240-libya-drone/"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "e31a671087a1fe2c",
-     "lang": "en",
-     "outlet": "RFE/RL",
-     "published": "2026-11-22T23:01:07+00:00",
-     "publisher": "RFE/RL",
-     "region": "europe",
-     "section": null,
-     "title": "Libya Says Suspected Drone Boat Hit Russian Ship Near Benghazi Amid Ukraine Speculation",
-     "type": "international",
-     "url": "https://www.rferl.org/a/benghazi-libya-russian-ship-sunk-drone-ukraine/33903623.html"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "7b3114c3af181ada",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-22T22:37:45+00:00",
-     "publisher": "France 24",
-     "region": "global",
-     "section": null,
-     "title": "Russian ship attacked near Benghazi in suspected drone attack",
-     "type": "international",
-     "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "11ef94eb194b92e5",
-     "lang": "en",
-     "outlet": "TRT World",
-     "published": "2026-11-22T21:08:11+00:00",
-     "publisher": "TRT World",
-     "region": "mena",
-     "section": null,
-     "title": "Libya says situation 'under control' after drone strikes on Russian ship",
-     "type": "state-media",
-     "url": "https://www.trtworld.com/article/dd8564c9a7bd"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "b79298f810f5513e",
-     "lang": "en",
-     "outlet": "Middle East Monitor",
-     "published": "2026-11-22T19:50:14+00:00",
-     "publisher": "Middle East Monitor",
-     "region": "mena",
-     "section": null,
-     "title": "10 port workers injured in attack on Russian ship in Libya’s Benghazi",
-     "type": "regional",
-     "url": "https://www.middleeastmonitor.com/20261122-10-port-workers-injured-in-attack-on-russian-ship-in-libyas-benghazi/"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "ae9b905146243268",
-     "lang": "en",
-     "outlet": "France 24",
-     "published": "2026-11-22T19:41:23+00:00",
-     "publisher": "France 24",
-     "region": "global",
-     "section": null,
-     "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Libyan officials say",
-     "type": "international",
-     "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "4d6eb3eaf5dcd751",
-     "lang": "en",
-     "outlet": "AP News",
-     "published": "2026-11-22T18:22:00+00:00",
-     "publisher": "Associated Press",
-     "region": "global",
-     "section": null,
-     "title": "Suspected Ukrainian sea drones hit Russian warship at Benghazi naval base, Libyan officials say",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "9045bb018db7d01b",
-     "lang": "en",
-     "outlet": "Kyiv Independent",
-     "published": "2026-11-22T18:02:49+00:00",
-     "publisher": "Kyiv Independent",
-     "region": "europe",
-     "section": null,
-     "title": "Russian warship docked in Benghazi hit by suspected drone attack, Libyan officials say",
-     "type": "local",
-     "url": "https://kyivindependent.com/russian-warship-docked-in-benghazi-hit-by-suspected-drone-attack-libyan-officials-say/"
-    },
-    {
-     "added": "2026-11-23",
-     "dates": [
-      "2026-11-22"
-     ],
-     "id": "4663a2ca4607e600",
-     "lang": "en",
-     "outlet": "Al-Monitor",
-     "published": "2026-11-22T17:46:28+00:00",
-     "publisher": "Al-Monitor",
-     "region": "mena",
-     "section": null,
-     "title": "Libya's eastern government suspects drone attack caused explosion on Russian ship in Benghazi",
-     "type": "regional",
-     "url": "https://www.al-monitor.com/originals/2026/11/libyas-eastern-government-suspects-drone-attack-caused-explosion-russian-ship"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "f822e56dfa284479",
-     "lang": "en",
-     "outlet": "The New Arab",
-     "published": "2026-11-22T17:12:47+00:00",
-     "publisher": "The New Arab",
-     "region": "mena",
-     "section": null,
-     "title": "Libya suspects drone strike on Russian ship caused blast in Benghazi",
-     "type": "regional",
-     "url": "https://www.newarab.com/news/libya-suspects-drone-strike-russian-ship-caused-blast-benghazi"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "42d9276181d869ab",
-     "lang": "en",
-     "outlet": "The New Arab",
-     "published": "2026-11-22T17:12:47+00:00",
-     "publisher": "The New Arab",
-     "region": "mena",
-     "section": null,
-     "title": "Libya reports second attack on ships including Russian vessel",
-     "type": "regional",
-     "url": "https://www.newarab.com/news/libya-reports-second-attack-ships-including-russian-vessel"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "dbbecc8c633ec55d",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-22T16:50:00+00:00",
-     "publisher": "DW",
-     "region": "global",
-     "section": null,
-     "title": "Libya: Suspected drone attack hits Russian ship in Benghazi",
-     "type": "international",
-     "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "6f3f373b81313aa0",
-     "lang": "en",
-     "outlet": "TRT World",
-     "published": "2026-11-22T16:11:45+00:00",
-     "publisher": "TRT World",
-     "region": "mena",
-     "section": null,
-     "title": "Russian ship likely hit in drone attack at Benghazi port",
-     "type": "state-media",
-     "url": "https://www.trtworld.com/article/92efdb1fa230"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "2eedddcff4bebb7b",
-     "lang": "en",
-     "outlet": "BBC World",
-     "published": "2026-11-22T16:05:25+00:00",
-     "publisher": "BBC",
-     "region": "global",
-     "section": null,
-     "title": "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-     "type": "international",
-     "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "1307c5b6db76c285",
-     "lang": "en",
-     "outlet": "The Moscow Times",
-     "published": "2026-11-22T15:23:00+00:00",
-     "publisher": "The Moscow Times",
-     "region": "europe",
-     "section": null,
-     "title": "Libya’s Eastern Government Suspects Drone Attack Caused Explosion on Russian Ship",
-     "type": "local",
-     "url": "https://www.themoscowtimes.com/2026/11/22/libyas-eastern-government-suspects-drone-attack-caused-explosion-on-russian-ship-at-benghazi-port-a94344"
-    }
-   ],
-   "articles_today": 21,
-   "first_seen": "2026-11-23",
-   "group": "mena",
-   "id": "explosion-on-russian-ship-in-libya",
-   "label": "Explosion on Russian ship in Libya",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 16,
-   "reports": [
-    {
-     "articles": [
-      "2eedddcff4bebb7b"
-     ],
-     "date": "2026-11-23",
-     "group": "mena",
-     "outlets": [
-      "BBC"
-     ],
-     "published": "2026-11-22T16:05:25+00:00",
-     "text": "[BBC](https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss) reported that Libya's eastern rival government stated it is working with Russia to investigate a suspected drone attack explosion on a Russian ship at a Libya port."
-    },
-    {
-     "articles": [
-      "ae9b905146243268"
-     ],
-     "date": "2026-11-23",
-     "group": "mena",
-     "outlets": [
-      "France 24"
-     ],
-     "published": "2026-11-22T19:41:23+00:00",
-     "text": "[France 24](https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base) reported that a Russian navy corvette docked at the Benghazi naval base in eastern Libya was hit by a suspected Ukrainian sea drone."
-    },
-    {
-     "articles": [
-      "42d9276181d869ab"
-     ],
-     "date": "2026-11-23",
-     "group": "mena",
-     "outlets": [
-      "The New Arab"
-     ],
-     "published": "2026-11-22T17:12:47+00:00",
-     "text": "[The New Arab](https://www.newarab.com/news/libya-reports-second-attack-ships-including-russian-vessel) reported that authorities in east Libya said a second ship was hit in a drone attack off Benghazi, hours after a Russian vessel was targeted at the city's port."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "libya",
-   "title": "Libya Says Suspected Drone Boat Hit Russian Ship Near Benghazi Amid Ukraine Speculation",
-   "title_from": {
-    "backing": 13,
-    "date": "2026-11-23",
-    "of": 15,
-    "outlet": "RFE/RL",
-    "url": "https://www.rferl.org/a/benghazi-libya-russian-ship-sunk-drone-ukraine/33903623.html"
-   },
-   "topic": "security"
-  },
-  {
    "article_count": 8,
    "articles": [
     {
@@ -302274,6 +301867,9 @@
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
    "outlets_today": 8,
+   "previous_titles": [
+    "Bomb threats emailed to German schools present no 'concrete danger,' police say"
+   ],
    "reports": [
     {
      "articles": [
@@ -302304,13 +301900,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "germany",
-   "title": "Bomb threats emailed to German schools present no 'concrete danger,' police say",
+   "title": "Over 450 German schools receive bomb threats",
    "title_from": {
-    "backing": 3,
+    "backing": 7,
     "date": "2026-11-23",
     "of": 7,
-    "outlet": "Euronews",
-    "url": "https://www.euronews.com/2026/11/23/bomb-threats-emailed-to-german-schools-present-no-concrete-danger-police-say"
+    "outlet": "Punch",
+    "url": "https://punchng.com/over-450-german-schools-receive-bomb-threats/?utm_source=rss.punchng.com&utm_medium=web"
    },
    "topic": "security"
   },
@@ -303100,5 +302696,5 @@
   "2091b4dd0778fa5f"
  ],
  "site": "geo",
- "updated": "2026-11-23T14:18:41+00:00"
+ "updated": "2026-11-23T16:54:45+00:00"
 }
