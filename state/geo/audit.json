@@ -2817,107 +2817,67 @@
  },
  {
   "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "global",
-  "story": "ATP Finals Tennis Championship",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Jair Bolsonaro hospitalised with abdominal pain while under house arrest",
+  "text": "[89] reported that former Brazilian president Jair Bolsonaro was diagnosed with acute intestinal obstruction and remains in the intensive care unit.",
+  "reason": "names not in cited articles: Jair"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "merged",
+  "group": "asia",
+  "story": "With focus on regional cooperation, Pakistan hosts ECO ministerial meeting today",
+  "text": "Nuclear security meeting in Islamabad",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "namerica",
-  "story": "Trump Meme Coin Investor Dinner",
-  "text": "[52][53] reported that Donald Trump is hosting a private dinner for top owners of the meme coin $Trump.",
-  "reason": "names not in cited articles: Donald"
+  "group": "asia",
+  "story": "With focus on regional cooperation, Pakistan hosts ECO ministerial meeting today",
+  "text": "[55] reported that Islamabad will host the International Network for Nuclear Security Training and Support Centres meeting with representatives of the IAEA and 49 member states attending.",
+  "reason": "names not in cited articles: Centres, International, Network, Support, Training"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "title",
+  "group": "africa",
+  "story": "FCMB Group’s pretax profit rises 103% to N272.8bn in nine months",
+  "text": "FCMB Group financial results",
+  "reason": "title replaced by a headline: wording not from cited articles: financial, results"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "namerica",
-  "story": "Trump Meme Coin Investor Dinner",
-  "text": "[54][75] reported that the token's value has fallen significantly while raising conflict of interest concerns.",
-  "reason": "analysis word not used by the source: 'significantly'"
+  "group": "mena",
+  "story": "Strait of Hormuz shipping attacks",
+  "text": "[72] reported that South Korean Defense Minister Kang Shin-chul announced a proposal to extend the mission of the Cheonghae anti-piracy naval unit in the Gulf of Aden.",
+  "reason": "countries not in cited articles: south-korea, yemen"
  },
  {
   "date": "2026-11-23",
   "kind": "skipped",
   "group": "asia",
-  "story": "South Korea Stock Market Decline",
+  "story": "South Korea stock market decline",
   "text": "",
   "reason": "off-topic for this site (topic: markets): not created"
  },
  {
   "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "MTN Nigeria network infrastructure expansion",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-23",
   "kind": "title",
-  "group": "mena",
-  "story": "Ben-Gvir moves to divert millions from police for firefighting helicopter",
-  "text": "Israel Police Budget Reallocation",
-  "reason": "title replaced by a headline: names not in cited articles: Budget, Reallocation"
- },
- {
-  "date": "2026-11-23",
-  "kind": "title",
-  "group": "namerica",
-  "story": "'Bottom of the sea': Trump threatens Iranian navy, weighs new attacks by New Year if talks fail",
-  "text": "Trump Warnings to Iran",
-  "reason": "title replaced by a headline: names not in cited articles: Warnings"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "global",
-  "story": "IShowSpeed and Usain Bolt Race",
-  "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Manchester United vs Liverpool Premier League Match",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Central California Concert Shooting",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Sasha Meneghel Baby Gender Reveal",
-  "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Gilberto Gil Niterói Concert Postponed",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
   "group": "asia",
-  "story": "Singer Mark Windmill Album Release",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Rosinha and Anthony Garotinho Separation",
-  "text": "",
-  "reason": "off-topic for this site (topic: celebrity): not created"
+  "story": "Govt moves to overhaul ‘weak’ audit system",
+  "text": "Pakistan audit system overhaul",
+  "reason": "title replaced by a headline: names not in cited articles: Pakistan"
  },
  {
   "date": "2026-11-23",
@@ -2925,38 +2885,150 @@
   "group": "latam",
   "story": "",
   "text": "Miley Cyrus weds Maxx Morando in California, People magazine reports",
-  "reason": "the AI returned no story for this group of 5 outlets (judged off-topic or not news)"
+  "reason": "the AI returned no story for this group of 7 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "Nightmare start for Pochettino as 10-man Manchester United loses 4-0 to Liverpool in Premier League",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "global",
+  "story": "",
+  "text": "Travel and security impacts of conflict in the Middle East",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Hong Kong Bulls and Jiangxi Daqian pull off CBA Club Cup upsets",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "africa",
+  "story": "",
+  "text": "2027: Tinubu wants genuine reconciliation with aggrieved APC members",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Fallece el periodista Humberto Padgett tras más de un año de lucha contra el cáncer",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "africa",
+  "story": "",
+  "text": "ProvidusUnity Bank Named Best Place to Work for Women",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Sydney MP retracts state funeral suggestion for ex-colleague after backlash",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "N. Korea leader highlights 'sovereignty' in ties after Trump no-show",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "mena",
-  "story": "Tanker incident “involving military forces” reported in Strait of Hormuz",
-  "text": "[26] reported that Iran's navy claimed tankers contravening its rules were set ablaze while the Islamic Revolutionary Guard Corps stated enemies sought to stoke unrest.",
-  "reason": "names not in cited articles: Corps, Islamic, Revolutionary"
+  "group": "asia",
+  "story": "Beijing vows to defend interests as US bars Chinese telecoms from accessing phone numbers",
+  "text": "[7], a Chinese state-media outlet, reported that China urged the United States to revoke Federal Communications Commission measures targeting telecom firms.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Rivers State business rights",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Alice Huang and her husband’s close associate Li Ming routed Nvidia chips to China: Report",
-  "text": "[28] reported that U.S. intelligence indicates Alice Huang was in contact with China's Ministry of State Security during the period of the AI chip scandal.",
-  "reason": "analysis word not used by the source: 'indicates'"
+  "group": "africa",
+  "story": "Tinubu commits N450bn to boost food security, support 500,000 farmers",
+  "text": "[19] reported that Nigeria committed ₦450 billion and launched a ₦1.5 trillion Bank of Agriculture recapitalisation targeting 500,000 farmers.",
+  "reason": "names not in cited articles: Bank"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "global",
+  "story": "North Korea seeks power for security, not supremacy, Kim says",
+  "text": "[23] reported that North Korean leader Kim Jong Un stated that Pyongyang does not seek regional dominance and defends its arms buildup as self-defense.",
+  "reason": "names not in cited articles: Jong, Korean"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US cyber defense appointments",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "global",
+  "story": "UN climate summit negotiations failure",
+  "text": "[18] reported that Prime Minister Anthony Albanese defended Climate Change Minister Chris Bowen following the Cop31 deal failure amid calls from the coalition for his resignation.",
+  "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-23",
   "kind": "merged",
   "group": "africa",
-  "story": "Bayelsa Boat Mishap: Death toll rises, Tinubu approves N250mn for victims’ families",
-  "text": "Tinubu Mourns Victims of Bayelsa Boat Accident, Orders Low-key Oyo APC Rally",
+  "story": "NDLEA arrests eight over cocaine trafficking route from Lagos to Europe",
+  "text": "NDLEA arrests South African professional golfer, Kenyan over illicit drug shipment",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-23",
   "kind": "merged",
-  "group": "namerica",
-  "story": "From MAGA stardom to a U-Haul: Lauren Boebert considers her own and GOP’s losses",
-  "text": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+  "group": "mena",
+  "story": "Elon Musk hires lobbyists as Democrats plan investigation into Starshield restrictions in Ukraine – Fox News",
+  "text": "Netanyahu covert operations against Iran",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Tinubu commits N450bn to boost food security, support 500,000 farmers",
+  "text": "Bank of Agriculture recapitalisation",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Drone strikes hit homes, UN building in Sudan's capital",
+  "text": "Sudan: Drones hit UN building, residential area in Khartoum",
   "reason": "duplicate story merged into an existing one"
  }
 ]

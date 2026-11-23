@@ -94,5 +94,21 @@
   "story": "",
   "text": "Take-Two’s ‘Grand Theft Auto VI’ Hits Nearly $4 Billion in Sales on Launch Day",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "title",
+  "group": "all",
+  "story": "Delta Delays Hundreds of Flights Over System Outage",
+  "text": "Delta Air Lines flight delays",
+  "reason": "title replaced by a headline: names not in cited articles: Lines"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Delta Delays Hundreds of Flights Over System Outage",
+  "text": "[2] reported that the Federal Aviation Administration said technical problems at the airline's Atlanta hub are not related to a countrywide outage earlier in the month.",
+  "reason": "names not in cited articles: Administration, Aviation"
  }
 ]
