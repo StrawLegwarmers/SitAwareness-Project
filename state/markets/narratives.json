@@ -691,27 +691,27 @@
  ],
  "coverage": [
   {
-   "articles": 257,
+   "articles": 311,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 9,
-   "continuing": 6,
+   "calls": 4,
+   "candidates": 14,
+   "continuing": 9,
    "corroborated": 0,
    "date": "2026-11-23",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 244,
-   "in_stories": 13,
-   "kept": 7,
-   "merged": 0,
-   "new": 3,
+   "groups": 289,
+   "in_stories": 21,
+   "kept": 14,
+   "merged": 1,
+   "new": 4,
    "rejected": 3,
    "reported_by_2": 2,
-   "runs": 3,
-   "sent": 9,
+   "runs": 4,
+   "sent": 14,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -959,7 +959,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-23T08:11:59+00:00"
+  "all": "2026-11-23T10:46:17+00:00"
  },
  "narratives": [
   {
@@ -1234,8 +1234,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "f97fa4a6db87cc36",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-23T09:09:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Edge Lower as Traders Weigh Supply Surplus, Gulf Attacks",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-as-traders-weigh-supply-surplus-gulf-attacks-6861119f?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-20",
      "id": "ef473c6e9c2f3ed4",
@@ -1432,15 +1445,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "f97fa4a6db87cc36"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-23T09:09:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-as-traders-weigh-supply-surplus-gulf-attacks-6861119f?mod=pls_whats_news_us_business_f) reported that oil prices edged lower as traders weighed supply surplus and Gulf attacks."
+    },
     {
      "articles": [
       "ef473c6e9c2f3ed4"
@@ -1588,9 +1613,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
    "title_from": {
     "backing": 3,
@@ -5954,8 +5979,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "a12c64660bf9c73d",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-23T09:06:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "December rate hike may not be enough but not in a rush to move again: ECB’s Simkus",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/december-rate-hike-may-not-be-enough-but-not-in-a-rush-to-move-again-ecbs-simkus-5044712"
+    },
     {
      "added": "2026-11-20",
      "id": "bf38950b587ffe78",
@@ -5983,15 +6021,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "european-central-bank-interest-rates",
    "label": "European Central Bank interest rates",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "a12c64660bf9c73d"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-23T09:06:22+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/december-rate-hike-may-not-be-enough-but-not-in-a-rush-to-move-again-ecbs-simkus-5044712) reported that ECB's Simkus stated a December rate hike may not be enough but the bank is not in a rush to move again."
+    },
     {
      "articles": [
       "62950f87f268564b"
@@ -6017,9 +6067,9 @@
      "text": "[Investing.com](https://www.investing.com/news/economy-news/ecbs-nagel-will-likely-need-to-act-in-december-but-price-expectations-remain-anchored-5042238) reported that ECB's Nagel stated the bank will likely need to act in December while price expectations remain anchored."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "European Central Bank interest rates",
    "topic": "economy"
   },
@@ -6749,8 +6799,34 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "efe9a2e053de934e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-23T10:13:30+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "‘Worst COP ever’: Climate talks collapse after draft deal fails to include fossil fuels",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "78b4270ce24f4220",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-22T13:50:41+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Climate talks fail after stand-off over fossil fuels",
+     "type": "international",
+     "url": "https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-21",
      "id": "cf026d9a0c345b84",
@@ -6778,15 +6854,39 @@
      "url": "https://www.ft.com/content/fb459525-6978-40f3-a079-4e59047858bd?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-21",
    "group": "all",
    "id": "cop31-climate-summit-negotiations",
    "label": "COP31 climate summit negotiations",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "78b4270ce24f4220"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-22T13:50:41+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1) reported that climate talks failed after a stand-off between the Arab group and an EU-led coalition over fossil fuels."
+    },
+    {
+     "articles": [
+      "efe9a2e053de934e"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-23T10:13:30+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html) reported that governments and campaigners rejected the draft cover decision at the U.N.'s COP31 climate summit on Sunday."
+    },
     {
      "articles": [
       "b413490f8acede4a"
@@ -6814,7 +6914,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "COP31 climate summit negotiations",
    "topic": "economy"
   },
@@ -7218,8 +7318,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "02e8c75ba7c9d22e",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-23T08:49:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "BYD’s Shares Fall After Dutch Court Bars Sales of Ti7 SUV Model in EU",
+     "type": "international",
+     "url": "https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-23",
      "id": "58b026332fa10240",
@@ -7247,15 +7360,27 @@
      "url": "https://www.ft.com/content/aeb7d4c9-393f-4ea3-9465-0bbeb754c614?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "byd-hit-after-court-bars-suv",
    "label": "BYD hit after court bars SUV from EU over Land Rover design copy",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "02e8c75ba7c9d22e"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-23T08:49:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808?mod=pls_whats_news_us_business_f) reported that shares of BYD fell after a Dutch court provisionally barred sales of its large SUV model in the EU for infringing on the design of Jaguar Land Rover."
+    },
     {
      "articles": [
       "58b026332fa10240"
@@ -7272,11 +7397,102 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "BYD hit after court bars SUV from EU over Land Rover design copy",
+   "title": "BYD’s Shares Fall After Dutch Court Bars Sales of Ti7 SUV Model in EU",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-23",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808?mod=pls_whats_news_us_business_f"
+   },
    "topic": "business"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "ec07b482ad50b6da",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-23T09:37:10+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Europe's Cold Snap Threatens Natural Gas Inventories",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-23/europe-s-cold-snap-threatens-natural-gas-inventories-video"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "3805009b9f5d6246",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-23T08:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "European Natural Gas Prices Surge 8.6% as Cold Snap Looms",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-86-as-Cold-Snap-Looms.html"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "4ca9f633c863d639",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-23T02:46:27+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "European Gas Surges as Cold Snap Threatens Tight Inventories",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/european-gas-surges-as-cold-snap-threatens-tight-inventories"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "european-natural-gas-prices",
+   "label": "European natural gas prices",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4ca9f633c863d639",
+      "ec07b482ad50b6da"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-23T02:46:27+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/european-gas-surges-as-cold-snap-threatens-tight-inventories) reported that European natural gas prices jumped after temperature forecasts shifted sharply lower, adding pressure on inventories."
+    },
+    {
+     "articles": [
+      "3805009b9f5d6246"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-23T08:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-86-as-Cold-Snap-Looms.html) reported that natural gas prices in Europe gained 8.6% to 96.075 euros per MWh as weather forecasts indicated colder weather."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "European natural gas prices",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-23T08:12:16+00:00"
+ "updated": "2026-11-23T10:46:34+00:00"
 }

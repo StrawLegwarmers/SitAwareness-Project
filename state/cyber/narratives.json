@@ -371,27 +371,27 @@
  ],
  "coverage": [
   {
-   "articles": 66,
+   "articles": 79,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
-   "continuing": 0,
+   "calls": 2,
+   "candidates": 6,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-23",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 63,
-   "in_stories": 2,
-   "kept": 2,
+   "groups": 74,
+   "in_stories": 8,
+   "kept": 6,
    "merged": 0,
-   "new": 1,
-   "rejected": 0,
-   "reported_by_2": 1,
-   "runs": 3,
-   "sent": 1,
-   "skipped": 0,
+   "new": 4,
+   "rejected": 1,
+   "reported_by_2": 2,
+   "runs": 4,
+   "sent": 6,
+   "skipped": 1,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -659,7 +659,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-23T08:09:15+00:00"
+  "all": "2026-11-23T10:42:36+00:00"
  },
  "narratives": [
   {
@@ -911,8 +911,21 @@
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 21,
+   "article_count": 22,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "fec75dbd357e134f",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-23T10:34:01+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Attackers exploited Microsoft Entra Connect Health flaw to access tenant data",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/23/microsoft-entra-connect-health-vulnerability-tenant-data/"
+    },
     {
      "added": "2026-11-22",
      "id": "42aeccf7cfae26a6",
@@ -1193,14 +1206,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-22",
-   "last_updated": "2026-11-22",
-   "outlets_today": 0,
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -1408,9 +1421,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -5428,9 +5441,183 @@
    "status": "new",
    "title": "Cleverbridge data breach",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "1ca4fb386dd26014",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-23T09:04:08+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "aec558d1e254ca50",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-22T18:45:37+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "gl-inet-cloud-remote-management-service",
+   "label": "GL.iNet cloud remote management service vulnerabilities",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "aec558d1e254ca50"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-22T18:45:37+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/) reported that hackers exploited a vulnerability in GL.iNet cloud remote management services to install custom malware on customers' routers and KVM devices."
+    },
+    {
+     "articles": [
+      "1ca4fb386dd26014"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-23T09:04:08+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html) reported that GL.iNet confirmed hackers exploited a vulnerability in its GoodCloud remote management service to install malware on some customer routers and KVM devices."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "GL.iNet cloud remote management service vulnerabilities",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "dates": [
+      "2026-11-18"
+     ],
+     "id": "c44d888e1685209f",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-23T10:25:17+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical ASP.NET AntiCsrf Flaw Under Attack, Allowing Hackers to Execute Code Without Login",
+     "type": null,
+     "url": "https://cybersecuritynews.com/asp-net-anticsrf-flaw-under-attack/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "4ec4e391633d1362",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-23T09:11:56+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "idunno-anticsrf-library-vulnerability",
+   "label": "Idunno.AntiCsrf library vulnerability",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4ec4e391633d1362"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-23T09:11:56+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html) reported that cybersecurity researchers urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf following the discovery of a flaw allowing unauthenticated remote code execution."
+    },
+    {
+     "articles": [
+      "c44d888e1685209f"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-23T10:25:17+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/asp-net-anticsrf-flaw-under-attack/) reported that attackers are exploiting a critical flaw in Idunno.AntiCsrf, a third-party library used by older ASP.NET WebForms applications, and Mandiant confirmed active exploitation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Idunno.AntiCsrf library vulnerability",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "44daa20b757b4042",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-23T10:00:43+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "Black Friday, red flags: too-good-to-be-true deals hiding real threats",
+     "type": null,
+     "url": "https://securelist.com/black-friday-threat-report-2026/122061/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "black-friday-cyber-threats",
+   "label": "Black Friday cyber threats",
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
+   "reports": [],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Black Friday cyber threats",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-23T08:09:15+00:00"
+ "updated": "2026-11-23T10:42:53+00:00"
 }

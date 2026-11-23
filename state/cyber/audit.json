@@ -22,5 +22,21 @@
   "story": "",
   "text": "Iraqi Airways Is Selling Saddam Hussein’s 2 Boeing 747s After 35 Years In The Desert",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "all",
+  "story": "Samsung Securities data breach",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Black Friday cyber threats",
+  "text": "[6] reported that cybercriminals prepare for Black Friday with phishing, scams, and malware targeting online shoppers and gamers, including Grand Theft Auto VI and wellness-related schemes.",
+  "reason": "names not in cited articles: Auto, Grand, Theft"
  }
 ]
