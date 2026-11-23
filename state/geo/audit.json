@@ -2817,218 +2817,402 @@
  },
  {
   "date": "2026-11-23",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Jair Bolsonaro hospitalised with abdominal pain while under house arrest",
-  "text": "[89] reported that former Brazilian president Jair Bolsonaro was diagnosed with acute intestinal obstruction and remains in the intensive care unit.",
-  "reason": "names not in cited articles: Jair"
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Russian forces destroy 18 trolleybuses, damage heating pipeline in Dnipro"
  },
  {
   "date": "2026-11-23",
-  "kind": "merged",
-  "group": "asia",
-  "story": "With focus on regional cooperation, Pakistan hosts ECO ministerial meeting today",
-  "text": "Nuclear security meeting in Islamabad",
-  "reason": "duplicate story merged into an existing one"
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Russian attack damages 18 trolleybuses in Dnipro, halts metro services and disru"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "asia",
-  "story": "With focus on regional cooperation, Pakistan hosts ECO ministerial meeting today",
-  "text": "[55] reported that Islamabad will host the International Network for Nuclear Security Training and Support Centres meeting with representatives of the IAEA and 49 member states attending.",
-  "reason": "names not in cited articles: Centres, International, Network, Support, Training"
+  "group": "europe",
+  "story": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+  "text": "[98][99] reported that a Russian attack on a transport depot in Dnipro destroyed 18 trolleybuses, damaged a heating pipeline, and disrupted water supply and metro services.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Climate talks collapse in chaotic end to COP31",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): COP flop triggers backlash in Australia as Pacific nations express despair"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Climate talks collapse in chaotic end to COP31",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): COP flop triggers backlash in Australia; Pacific nations express despair"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Climate talks collapse in chaotic end to COP31",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Pacific nations express dismay as no COP31 deal reached"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "California concert shooting",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Libya Says Suspected Drone Boat Hit Russian Ship Near Benghazi Amid Ukraine Speculation",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Russian corvette reportedly destroyed in blast at Libyan port"
  },
  {
   "date": "2026-11-23",
   "kind": "title",
-  "group": "africa",
-  "story": "FCMB Group’s pretax profit rises 103% to N272.8bn in nine months",
-  "text": "FCMB Group financial results",
-  "reason": "title replaced by a headline: wording not from cited articles: financial, results"
+  "group": "mena",
+  "story": "Russian corvette reportedly destroyed in blast at Libyan port",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "mena",
-  "story": "Strait of Hormuz shipping attacks",
-  "text": "[72] reported that South Korean Defense Minister Kang Shin-chul announced a proposal to extend the mission of the Cheonghae anti-piracy naval unit in the Gulf of Aden.",
-  "reason": "countries not in cited articles: south-korea, yemen"
+  "group": "namerica",
+  "story": "Hakeem Jeffries willing to cross political aisle to work on Democrats’ agenda",
+  "text": "[41][43] reported that Physicians for Human Rights Israel stated that attacks by soldiers and settlers on Palestinian healthcare workers in the occupied West Bank surged by 350 percent between 2022 and 2024.",
+  "reason": "analysis word not used by the source: 'surged'"
  },
  {
   "date": "2026-11-23",
   "kind": "skipped",
   "group": "asia",
-  "story": "South Korea stock market decline",
+  "story": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): South Korea’s stock market tumbles as AI bubble fears mount"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): South Korea vows to stabilise stock market after KOSPI drops 5%"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Oil Prices Slide as AI Bubble Fears Rattle Global Markets"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+  "text": "[47][60] reported that South Korea's Kospi index tumbled more than 3 percent amid AI bubble fears.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+  "text": "[48] reported that Finance Minister Lee Hyoung-il stated South Korea vows to stabilize the stock market.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+  "text": "[49] reported that a stock selloff driven by artificial intelligence doubts dragged crude oil prices down.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Rodante Marcoleta plunder case",
+  "text": "[70][71][72] reported that the Sandiganbayan Third Division denied the bail petition of Senator Rodante Marcoleta and three others in a 75 million peso plunder case.",
+  "reason": "number not in cited articles: 75000000"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "South Africa cocaine plane crash investigation",
+  "text": "[102][103] reported that South African links to global sky traffickers were exposed after an Australian pilot was killed in a 2025 plane crash in Brazil.",
+  "reason": "names not in cited articles: African"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Egypt Olympic football team squad",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Nigeria supports Gianni Infantino FIFA bid",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Carnival Calabar digital voting",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Manchester arena concert evacuation",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Asian stock markets sell-off",
   "text": "",
   "reason": "off-topic for this site (topic: markets): not created"
  },
  {
   "date": "2026-11-23",
   "kind": "skipped",
-  "group": "africa",
-  "story": "MTN Nigeria network infrastructure expansion",
+  "group": "asia",
+  "story": "Kuala Lumpur river otter sightings",
   "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
+  "reason": "off-topic for this site (topic: other): not created"
  },
  {
   "date": "2026-11-23",
   "kind": "title",
   "group": "asia",
-  "story": "Govt moves to overhaul ‘weak’ audit system",
-  "text": "Pakistan audit system overhaul",
-  "reason": "title replaced by a headline: names not in cited articles: Pakistan"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Miley Cyrus weds Maxx Morando in California, People magazine reports",
-  "reason": "the AI returned no story for this group of 7 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Nightmare start for Pochettino as 10-man Manchester United loses 4-0 to Liverpool in Premier League",
-  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "global",
-  "story": "",
-  "text": "Travel and security impacts of conflict in the Middle East",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "Hong Kong Bulls and Jiangxi Daqian pull off CBA Club Cup upsets",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "africa",
-  "story": "",
-  "text": "2027: Tinubu wants genuine reconciliation with aggrieved APC members",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "Fallece el periodista Humberto Padgett tras más de un año de lucha contra el cáncer",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "africa",
-  "story": "",
-  "text": "ProvidusUnity Bank Named Best Place to Work for Women",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "Sydney MP retracts state funeral suggestion for ex-colleague after backlash",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-23",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "N. Korea leader highlights 'sovereignty' in ties after Trump no-show",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "story": "Lacson flags double funding for flood control projects in 2027 budget",
+  "text": "Philippines 2027 national budget flood control funding",
+  "reason": "title replaced by a headline: names not in cited articles: Philippines"
  },
  {
   "date": "2026-11-23",
   "kind": "rejected",
-  "group": "asia",
-  "story": "Beijing vows to defend interests as US bars Chinese telecoms from accessing phone numbers",
-  "text": "[7], a Chinese state-media outlet, reported that China urged the United States to revoke Federal Communications Commission measures targeting telecom firms.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "Rivers State business rights",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-23",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Tinubu commits N450bn to boost food security, support 500,000 farmers",
-  "text": "[19] reported that Nigeria committed ₦450 billion and launched a ₦1.5 trillion Bank of Agriculture recapitalisation targeting 500,000 farmers.",
-  "reason": "names not in cited articles: Bank"
- },
- {
-  "date": "2026-11-23",
-  "kind": "rejected",
-  "group": "global",
-  "story": "North Korea seeks power for security, not supremacy, Kim says",
-  "text": "[23] reported that North Korean leader Kim Jong Un stated that Pyongyang does not seek regional dominance and defends its arms buildup as self-defense.",
-  "reason": "names not in cited articles: Jong, Korean"
- },
- {
-  "date": "2026-11-23",
-  "kind": "skipped",
   "group": "namerica",
-  "story": "US cyber defense appointments",
+  "story": "'Bottom of the sea': Trump threatens Iranian navy, weighs new attacks by New Year if talks fail",
+  "text": "[29] reported that Donald Trump claimed new attacks have failed as Iran imposes power cuts.",
+  "reason": "names not in cited articles: Donald"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US technology infrastructure upgrades",
+  "text": "[31] reported that U.S. intelligence chief Jay Clayton warned of more tech outages as Delta suffered a fresh Atlanta failure amid failures affecting air travel, Microsoft email services, major banks, and the NSA network.",
+  "reason": "names not in cited articles: Clayton, Jay"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Bosnia and Herzegovina road conditions",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Turkey Trade Ministry inspections and penalties",
+  "text": "[37][38] reported that the Turkish Trade Ministry inspected over 401,500 firms and 47.7 million products in the first ten months of the year, issuing 3 billion liras in fines for exorbitant pricing, automotive, jewelry, real estate, and consumer rights violations.",
+  "reason": "number not in cited articles: 401500"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "title",
+  "group": "europe",
+  "story": "Ban on schools requiring branded clothing proposed under review of school uniforms policy",
+  "text": "Ireland school uniform policy review",
+  "reason": "title replaced by a headline: names not in cited articles: Ireland"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT",
+  "text": "[47] reported that a Wall Street Journal investigation identified Li Ming as a key figure in an alleged Nvidia chip-smuggling network involving companies linked to Alice Huang and her husband, using a Chinese associate on bail in Singapore as a lynchpin.",
+  "reason": "names not in cited articles: Journal, Street, Wall"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Istanbul escaped lion search",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Ukrainian drones reportedly strike Russian National Guard facility in Krasnodar",
+  "text": "Russian drone strikes in Zhytomyr Oblast",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Champs-Élysées and European Christmas markets launch",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Carney enlists fake Trump for laughs at Canada’s annual press gallery dinner",
+  "text": "[67][68] reported that Mark Carney and opposition leaders traded comedic jabs and roasted Donald Trump at Canada's annual parliamentary press gallery dinner.",
+  "reason": "names not in cited articles: Donald, Mark"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Final Salute: Flags at half-mast as SA mourns former deputy president Phumzile Mlambo-Ngcuka",
+  "text": "[73] reported that South Africa's first female deputy president and UN official Phumzile Mlambo-Ngcuka died.",
+  "reason": "names not in cited articles: Mlambo-Ngcuka, Phumzile"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Russian attacks kill at least 2, injure 83 across Ukraine, as strikes devastate Kryvyi Rih",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Russia attacks Ukraine with over 150 drones: 134 downed by air defence, strikes "
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Russian attacks kill at least 2, injure 83 across Ukraine, as strikes devastate Kryvyi Rih",
+  "text": "[38] reported that Russia launched Shahed, Gerbera, and decoy drones against Ukraine, with strikes recorded at 11 locations while 134 drones were downed by air defense.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "[Breaking] Perfect LEET scorer Lee Jin-woo found in cardiac arrest at Seoul motel",
+  "text": "[32] reported that a family member of the late top scorer of this year's Legal Education Eligibility Test appeared before police in a cheating probe.",
+  "reason": "names not in cited articles: Eligibility, Legal, Test"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "2027: Revolt In APC As Northern Youths Threaten To Withdraw Support For Tinubu",
+  "text": "[3] reported that former nPDP National Publicity Secretary Eze stated that Governor Fubara's electoral promise of 3 million votes was unrealistic.",
+  "reason": "number not in cited articles: 3000000"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Putin a 'killer,' Zelenskyy says after Trump calls Russian leader his 'friend'",
+  "text": "[3] reported that the US intelligence chief stated that Vladimir Putin is no friend to Americans.",
+  "reason": "names not in cited articles: Vladimir"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Hunter bus crash safety failings",
   "text": "",
   "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-23",
-  "kind": "rejected",
-  "group": "global",
-  "story": "UN climate summit negotiations failure",
-  "text": "[18] reported that Prime Minister Anthony Albanese defended Climate Change Minister Chris Bowen following the Cop31 deal failure amid calls from the coalition for his resignation.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-23",
-  "kind": "merged",
-  "group": "africa",
-  "story": "NDLEA arrests eight over cocaine trafficking route from Lagos to Europe",
-  "text": "NDLEA arrests South African professional golfer, Kenyan over illicit drug shipment",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-23",
-  "kind": "merged",
+  "kind": "skipped",
   "group": "mena",
-  "story": "Elon Musk hires lobbyists as Democrats plan investigation into Starshield restrictions in Ukraine – Fox News",
-  "text": "Netanyahu covert operations against Iran",
-  "reason": "duplicate story merged into an existing one"
+  "story": "Tanker incident “involving military forces” reported in Strait of Hormuz",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Netanyahu urges Trump to strike Iran without delay, Israeli Media Reports"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Tanker incident “involving military forces” reported in Strait of Hormuz",
+  "text": "[21] reported that Israeli Prime Minister Benjamin Netanyahu urged US President Donald Trump to launch military action against Iran without delay.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Michel Zecler police assault trial",
+  "text": "[18] reported that music producer Michel Zecler stated more dissuasive sentences for police officers could have been more effective following the Paris criminal court sentencing three officers to prison.",
+  "reason": "analysis word not used by the source: 'could'"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "[Breaking] Perfect LEET scorer Lee Jin-woo found in cardiac arrest at Seoul motel",
+  "text": "[20] reported that resale prices for copies of the self-help book 'Brain Axel' written by deceased LEET scorer Lee Jin-woo soared after his death.",
+  "reason": "analysis word not used by the source: 'soared'"
  },
  {
   "date": "2026-11-23",
   "kind": "merged",
   "group": "africa",
-  "story": "Tinubu commits N450bn to boost food security, support 500,000 farmers",
-  "text": "Bank of Agriculture recapitalisation",
+  "story": "At Last, Senate Sends State Police Bill to President, Demands Operational Guidelines",
+  "text": "Sexual Assault Allegation Rocks Daura Emirate as Tourist Accuses Emir of Groping",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-23",
   "kind": "merged",
-  "group": "africa",
-  "story": "Drone strikes hit homes, UN building in Sudan's capital",
-  "text": "Sudan: Drones hit UN building, residential area in Khartoum",
+  "group": "namerica",
+  "story": "Trump reposts ‘TrumpCare’ proposal from democrat he previously called a ‘jihadist’",
+  "text": "Abdul El-Sayed TrumpCare Proposal",
   "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Pakistan diplomatic outreach on Iran conflict",
+  "text": "Pakistan Prime Minister Russia visit",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Pakistan diplomatic outreach on Iran conflict",
+  "text": "Pakistani Prime Minister visits to Russia and Iran",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

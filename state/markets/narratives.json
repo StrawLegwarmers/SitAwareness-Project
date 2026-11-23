@@ -691,27 +691,27 @@
  ],
  "coverage": [
   {
-   "articles": 206,
+   "articles": 257,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 4,
-   "continuing": 2,
+   "calls": 3,
+   "candidates": 9,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-23",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 196,
-   "in_stories": 7,
-   "kept": 4,
+   "groups": 244,
+   "in_stories": 13,
+   "kept": 7,
    "merged": 0,
-   "new": 2,
-   "rejected": 1,
+   "new": 3,
+   "rejected": 3,
    "reported_by_2": 2,
-   "runs": 2,
-   "sent": 4,
+   "runs": 3,
+   "sent": 9,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -959,7 +959,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-23T04:51:17+00:00"
+  "all": "2026-11-23T08:11:59+00:00"
  },
  "narratives": [
   {
@@ -3059,8 +3059,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 11,
+   "article_count": 12,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "52326fe1170f2f9c",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-23T05:50:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Slide as AI Bubble Fears Rattle Global Markets",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-AI-Bubble-Fears-Rattle-Global-Markets.html"
+    },
     {
      "added": "2026-11-21",
      "id": "d5782750507262f8",
@@ -3205,18 +3218,30 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "52326fe1170f2f9c"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-23T05:50:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-AI-Bubble-Fears-Rattle-Global-Markets.html) reported that crude oil prices slid as a stock selloff driven by doubts about the economic growth potential of artificial intelligence affected commodities."
+    },
     {
      "articles": [
       "d5782750507262f8"
@@ -3304,9 +3329,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -6402,8 +6427,34 @@
    "topic": "markets"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "4820122829067e44",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-23T07:32:43+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Bayer wins approval for $7.25 billion Roundup settlement",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/bayer-wins-approval-for-725-billion-roundup-settlement-5044553"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "bc256aed3f9b1042",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-23T06:54:20+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Bayer shares seen up 7% after Missouri judge approves Roundup settlement",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/bayer-shares-seen-up-7-after-missouri-judge-approves-roundup-settlement-5044470"
+    },
     {
      "added": "2026-11-21",
      "id": "4527c21d9187138a",
@@ -6457,15 +6508,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "bayer-roundup-settlement-approval",
    "label": "Bayer Roundup settlement approval",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "bc256aed3f9b1042"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-23T06:54:20+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/bayer-shares-seen-up-7-after-missouri-judge-approves-roundup-settlement-5044470) reported that Bayer shares rose 7% after a Missouri judge approved the Roundup settlement."
+    },
     {
      "articles": [
       "995b72ebba2d1ad4",
@@ -6481,9 +6544,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge), [Investing.com](https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643) reported that a Missouri judge approved Bayer AG's proposal to pay as much as $7.25 billion to resolve tens of thousands of US lawsuits over Roundup."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Bayer Roundup settlement approval",
    "topic": "justice"
   },
@@ -7024,7 +7087,7 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-23",
@@ -7041,6 +7104,19 @@
     },
     {
      "added": "2026-11-23",
+     "id": "2f07497a9e0eefbc",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-22T19:18:20+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Delta flights faced brief delays at Atlanta airport over automated system issue",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102"
+    },
+    {
+     "added": "2026-11-23",
      "id": "a470d326c9fa79dd",
      "lang": "en",
      "outlet": "WSJ US Business",
@@ -7053,14 +7129,14 @@
      "url": "https://www.wsj.com/business/airlines/delta-delays-hundreds-of-flights-over-system-outage-6bbba92c?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "delta-delays-hundreds-of-flights-over",
    "label": "Delta Delays Hundreds of Flights Over System Outage",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -7140,9 +7216,67 @@
    "status": "new",
    "title": "Tata Steel stake acquisition in APL Apollo Tubes",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "58b026332fa10240",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-23T06:00:14+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "BYD pledges to fight EU sales ban in infringement battle with Jaguar Land Rover",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/china-business/article/3375437/byd-pledges-fight-eu-sales-ban-infringement-battle-jaguar-land-rover"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "eaa8520e0408d2f3",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-23T02:48:12+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "BYD hit after court bars SUV from EU over Land Rover design copy",
+     "type": "international",
+     "url": "https://www.ft.com/content/aeb7d4c9-393f-4ea3-9465-0bbeb754c614?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "byd-hit-after-court-bars-suv",
+   "label": "BYD hit after court bars SUV from EU over Land Rover design copy",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "58b026332fa10240"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-23T06:00:14+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/china-business/article/3375437/byd-pledges-fight-eu-sales-ban-infringement-battle-jaguar-land-rover) reported that BYD will appeal the sales ban on its premium sport utility vehicle after a Dutch court found an infringement on the design of Jaguar Land Rover."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "BYD hit after court bars SUV from EU over Land Rover design copy",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-23T04:51:34+00:00"
+ "updated": "2026-11-23T08:12:16+00:00"
 }
