@@ -691,30 +691,30 @@
  ],
  "coverage": [
   {
-   "articles": 489,
+   "articles": 524,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 30,
-   "continuing": 15,
+   "calls": 7,
+   "candidates": 37,
+   "continuing": 18,
    "corroborated": 1,
    "date": "2026-11-23",
-   "dropped": 0,
+   "dropped": 1,
    "errors": [
     "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
    "failed_calls": 1,
-   "groups": 450,
-   "in_stories": 37,
-   "kept": 28,
+   "groups": 483,
+   "in_stories": 44,
+   "kept": 31,
    "merged": 1,
-   "new": 10,
-   "rejected": 3,
+   "new": 12,
+   "rejected": 5,
    "reported_by_2": 6,
-   "runs": 7,
-   "sent": 30,
-   "skipped": 0,
+   "runs": 8,
+   "sent": 37,
+   "skipped": 1,
    "split_calls": 0,
-   "updated": 10,
+   "updated": 12,
    "waiting": 0
   },
   {
@@ -962,7 +962,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-23T16:54:45+00:00"
+  "all": "2026-11-23T22:43:56+00:00"
  },
  "narratives": [
   {
@@ -1237,8 +1237,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "32636cc1c7b6dec5",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-23T21:08:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-as-traders-weigh-supply-surplus-gulf-attacks-6861119f?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-23",
      "id": "f97fa4a6db87cc36",
@@ -1448,7 +1461,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
@@ -2205,8 +2218,21 @@
    "topic": "business"
   },
   {
-   "article_count": 23,
+   "article_count": 24,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "ec1ffcc909d44a74",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-23T21:02:17+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+    },
     {
      "added": "2026-11-20",
      "id": "e613828dc9f093b3",
@@ -2507,17 +2533,17 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "federal-reserve-interest-rates",
    "label": "Federal Reserve interest rates",
    "last_reported": "2026-11-21",
-   "last_updated": "2026-11-21",
+   "last_updated": "2026-11-23",
    "merged": [
     "fed-rate-hikes"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -2655,9 +2681,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation), [Investing.com](https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest-rate increases will be needed to bring down inflation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -7665,8 +7691,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "ae7c1f070152f7e2",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-23T19:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "ConocoPhillips to Exit Norway in $4.43 Billion Deal with Vaar Energi",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/ConocoPhillips-to-Exit-Norway-in-443-Billion-Deal-with-Vaar-Energi.html"
+    },
     {
      "added": "2026-11-23",
      "id": "016d936d0047216e",
@@ -7694,7 +7733,7 @@
      "url": "https://www.wsj.com/business/energy-oil/conocophillips-to-sell-norwegian-business-to-var-energi-in-3-9-billion-deal-49db3ea2?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "conocophillips-sale-to-var-energi",
@@ -7997,9 +8036,137 @@
    "status": "new",
    "title": "Trump administration push for Jensen Huang return",
    "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "93d86674ff0ca62a",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-23T18:42:36+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Morgan Stanley says this is a big buying opportunity: ‘We’re not going to miss it’",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/23/morgan-stanley-says-this-is-a-big-buying-opportunity-were-not-going-to-miss-it.html"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "64b5fd0003719933",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-23T10:02:24+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Morgan Stanley’s Wilson Says Buying Opportunity Too Good to Miss",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/morgan-stanley-s-wilson-says-buying-opportunity-too-good-to-miss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "morgan-stanley-market-buying-opportunity",
+   "label": "Morgan Stanley market buying opportunity",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "64b5fd0003719933"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-23T10:02:24+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/morgan-stanley-s-wilson-says-buying-opportunity-too-good-to-miss) reported that Morgan Stanley's Wilson stated that the recent correction in the S&P 500 and Dow Jones Industrial Average has created a buying opportunity."
+    },
+    {
+     "articles": [
+      "93d86674ff0ca62a"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-23T18:42:36+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/23/morgan-stanley-says-this-is-a-big-buying-opportunity-were-not-going-to-miss-it.html) reported that Morgan Stanley stated that last week's sell-off provided a capitulation signal for sentiment and portfolio positioning, creating a buying opportunity."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Morgan Stanley market buying opportunity",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "a2a809cd447028fa",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-23T16:13:19+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "DR Congo reimposes cobalt export ban to shore up prices",
+     "type": "international",
+     "url": "https://www.ft.com/content/7421ec30-dde5-409a-971c-64359c21ea3d?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "4e0a90080246ac20",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-23T12:00:31+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Top Cobalt Miner Congo to Ban Exports Again as Prices Fall",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "democratic-republic-of-congo-cobalt-export",
+   "label": "Democratic Republic of Congo cobalt export ban",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4e0a90080246ac20"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-23T12:00:31+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide) reported that the Democratic Republic of Congo will reintroduce a ban on cobalt exports from the end of the month to reverse a price slump."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Democratic Republic of Congo cobalt export ban",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-23T20:08:39+00:00"
+ "updated": "2026-11-23T22:44:57+00:00"
 }

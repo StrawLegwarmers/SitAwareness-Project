@@ -371,32 +371,32 @@
  ],
  "coverage": [
   {
-   "articles": 156,
+   "articles": 166,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 32,
-   "continuing": 15,
+   "calls": 6,
+   "candidates": 47,
+   "continuing": 21,
    "corroborated": 0,
    "date": "2026-11-23",
-   "dropped": 0,
+   "dropped": 2,
    "errors": [
     "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
    "failed_calls": 3,
-   "groups": 142,
-   "in_stories": 8,
-   "kept": 6,
+   "groups": 150,
+   "in_stories": 24,
+   "kept": 16,
    "merged": 0,
-   "new": 4,
+   "new": 8,
    "rejected": 1,
-   "reported_by_2": 6,
-   "runs": 7,
-   "sent": 32,
+   "reported_by_2": 7,
+   "runs": 8,
+   "sent": 47,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -664,12 +664,38 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-23T10:42:36+00:00"
+  "all": "2026-11-23T22:30:17+00:00"
  },
  "narratives": [
   {
-   "article_count": 13,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "d0e6862a3ce23804",
+     "lang": "en",
+     "outlet": "CISA Alerts",
+     "published": "2026-11-23T12:00:00+00:00",
+     "publisher": "CISA",
+     "region": null,
+     "section": "intel",
+     "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+     "type": null,
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "db25320b07ed68e6",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-23T11:35:15+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+     "type": null,
+     "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/"
+    },
     {
      "added": "2026-11-21",
      "id": "60ecd129b9fbbe2e",
@@ -827,15 +853,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-21",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "db25320b07ed68e6"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-23T11:35:15+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/) reported that SAP NetWeaver and Cisco Expressway flaws could be exploited by threat actors to leak or modify server information and to execute commands as root."
+    },
     {
      "articles": [
       "c6a3844c11322527",
@@ -912,12 +950,25 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 22,
+   "article_count": 23,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "8bafc4650c84e62f",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-23T14:33:37+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft Entra Connect Health Breach Exposes Tenant Metadata and Admin Details",
+     "type": null,
+     "url": "https://securityaffairs.com/203820/data-breach/microsoft-entra-connect-health-breach-exposes-tenant-metadata-and-admin-details.html"
+    },
     {
      "added": "2026-11-23",
      "id": "fec75dbd357e134f",
@@ -1211,14 +1262,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-23",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -1426,7 +1477,7 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "covered",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
@@ -5218,8 +5269,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "de45751f764f0134",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-23T12:26:10+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Cisco Expressway vulnerability exploited to breach internal networks (CVE-2026-76466)",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/23/cisco-expressway-vulnerability-exploited-cve-2026-76466/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "b0bd92337cd3c6e9",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-23T12:02:15+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Critical Cisco Expressway Flaw to Gain Root Access and Infiltrate Internal Networks",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw/"
+    },
     {
      "added": "2026-11-20",
      "id": "20ba9e0605db6d81",
@@ -5247,15 +5324,27 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "cisco-expressway-security-flaw-exploitation",
    "label": "Cisco Expressway security flaw exploitation",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "b0bd92337cd3c6e9"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-23T12:02:15+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-exploit-critical-cisco-expressway-flaw/) reported that attackers are using a critical Cisco Expressway bug, CVE-2026-76466, to take full control of devices and move deeper into company networks."
+    },
     {
      "articles": [
       "38cd871ebcae0236"
@@ -5283,7 +5372,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
   },
@@ -5378,8 +5467,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "cfe94593cccaee95",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-23T13:00:14+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "01ab4d02c950544e",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-23T11:48:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Cleverbridge admits attackers stole customers' credit card and CVV numbers. Yep, you read that right",
+     "type": null,
+     "url": "https://www.theregister.com/cyber-crime/2026/11/23/cleverbridge-admits-attackers-stole-customers-credit-card-and-cvv-numbers-yep-you-read-that-right/5311573"
+    },
     {
      "added": "2026-11-23",
      "id": "8508340e4416b39a",
@@ -5407,14 +5522,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "cleverbridge-data-breach",
    "label": "Cleverbridge data breach",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
     {
      "articles": [
@@ -5444,7 +5559,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Cleverbridge data breach",
+   "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-23",
+    "of": 3,
+    "outlet": "Help Net Security",
+    "url": "https://www.helpnetsecurity.com/2026/11/23/cleverbridge-data-breach-card-numbers-cvv/"
+   },
    "topic": "cyber"
   },
   {
@@ -5591,7 +5713,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 1,
+   "article_count": 2,
    "articles": [
     {
      "added": "2026-11-23",
@@ -5605,24 +5727,327 @@
      "title": "Black Friday, red flags: too-good-to-be-true deals hiding real threats",
      "type": null,
      "url": "https://securelist.com/black-friday-threat-report-2026/122061/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "cabfdc8a03507602",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-23T06:00:16+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Black Friday scams started earlier this year without the usual red flags",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "black-friday-cyber-threats",
    "label": "Black Friday cyber threats",
    "last_updated": "2026-11-23",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
    "title": "Black Friday cyber threats",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "f6988db2faba75b8",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-23T19:42:20+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "be2e103b1cde0519",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-23T15:47:40+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+     "type": null,
+     "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "4994bdf822afcd61",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-23T12:29:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "azure-api-management-vulnerability",
+   "label": "Azure API Management vulnerability",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "4994bdf822afcd61"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-23T12:29:00+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598) reported that Norway linked cyberattacks on an energy firm to a critical Azure API Management flaw."
+    },
+    {
+     "articles": [
+      "be2e103b1cde0519"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-23T15:47:40+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/) reported that Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies."
+    },
+    {
+     "articles": [
+      "f6988db2faba75b8"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-23T19:42:20+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/) reported that Microsoft warned customers that a security vulnerability in Azure API Management Classic tiers was exploited to steal stored API credentials."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-23",
+    "of": 2,
+    "outlet": "The Register",
+    "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
+   },
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "eb887d2df2f9ad44",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-23T15:06:49+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+     "type": null,
+     "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/"
+    },
+    {
+     "added": "2026-11-23",
+     "dates": [
+      "2026-11-22"
+     ],
+     "id": "4487edc53b2017a8",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-23T12:28:09+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "n-able-mail-assure-vulnerability",
+   "label": "N-able Mail Assure vulnerability",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4487edc53b2017a8"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-23T12:28:09+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html) reported that N-able disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud email filtering service."
+    },
+    {
+     "articles": [
+      "eb887d2df2f9ad44"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-23T15:06:49+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/) reported that N-able has restored access to affected services and continues to monitor affected environments."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "N-able Mail Assure vulnerability",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "965d66820b0f9891",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-23T15:05:50+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "GL.iNet cloud compromise hits routers and KVMs, older backdoors also found",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "244cb103ba632437",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-23T13:26:22+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+     "type": null,
+     "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "gl-inet-cloud-compromise",
+   "label": "GL.iNet cloud compromise",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "244cb103ba632437"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-23T13:26:22+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/) reported that attackers abused a flaw in the GoodCloud remote management service to push malware to devices, requiring new firmware for cleaning."
+    },
+    {
+     "articles": [
+      "965d66820b0f9891"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-23T15:05:50+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/23/gl-inet-cloud-compromise-malware-backdoors/) reported that attackers compromised GoodCloud and used it to install malware on routers and KVM devices, alongside older backdoors."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "GL.iNet cloud compromise",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-23",
+     "id": "b86c1dd24011cb19",
+     "lang": "en",
+     "outlet": "Sophos X-Ops",
+     "published": "2026-11-23T00:00:00+00:00",
+     "publisher": "Sophos X-Ops",
+     "region": null,
+     "section": "intel",
+     "title": "Proof-of-concept exploit code available for Ghostscript ‘Upload2Shell’ vulnerability (CVE-2026-125396)",
+     "type": null,
+     "url": "https://www.sophos.com/en-us/blog/proof-of-concept-available-for-ghostscript-upload2shell"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "ghostscript-upload2shell-vulnerability",
+   "label": "Ghostscript Upload2Shell vulnerability",
+   "last_reported": "2026-11-23",
+   "last_updated": "2026-11-23",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "b86c1dd24011cb19"
+     ],
+     "date": "2026-11-23",
+     "group": "all",
+     "outlets": [
+      "Sophos X-Ops"
+     ],
+     "published": "2026-11-23T00:00:00+00:00",
+     "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/proof-of-concept-available-for-ghostscript-upload2shell) reported that proof-of-concept exploit code is available for the Ghostscript Upload2Shell vulnerability, CVE-2026-125396."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Ghostscript Upload2Shell vulnerability",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-23T19:43:54+00:00"
+ "updated": "2026-11-23T22:31:22+00:00"
 }

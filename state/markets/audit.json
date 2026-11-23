@@ -94,5 +94,37 @@
   "story": "",
   "text": "Take-Two’s ‘Grand Theft Auto VI’ Hits Nearly $4 Billion in Sales on Launch Day",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Democratic Republic of Congo cobalt export ban",
+  "text": "[4] reported that the Democratic Republic of Congo is reimposing its cobalt export ban for the second time in two years.",
+  "reason": "names not in cited articles: Democratic, Republic"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "skipped",
+  "group": "all",
+  "story": "United States and Iran diplomatic and military talks",
+  "text": "",
+  "reason": "off-topic for this site (topic: conflict): not created"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
+  "text": "[10] reported that Federal Reserve official John Williams indicated higher interest rates are likely over time to address inflation and expressed confidence that inflation will approach the 2% target in 2027.",
+  "reason": "names not in cited articles: Reserve"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "dropped",
+  "group": "all",
+  "story": "",
+  "text": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  }
 ]
