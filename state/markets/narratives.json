@@ -805,25 +805,25 @@
   {
    "articles": 556,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 7,
-   "continuing": 4,
+   "calls": 3,
+   "candidates": 15,
+   "continuing": 10,
    "corroborated": 0,
    "date": "2026-11-24",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 513,
-   "in_stories": 6,
-   "kept": 2,
+   "in_stories": 17,
+   "kept": 7,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 1,
-   "reported_by_2": 4,
-   "runs": 2,
-   "sent": 7,
+   "reported_by_2": 6,
+   "runs": 3,
+   "sent": 15,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -1098,7 +1098,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T04:46:58+00:00"
+  "all": "2026-11-24T08:13:18+00:00"
  },
  "narratives": [
   {
@@ -1386,7 +1386,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 17,
+   "article_count": 18,
    "articles": [
     {
      "added": "2026-11-23",
@@ -1400,6 +1400,19 @@
      "title": "Oil Prices Fall as Traders Weigh Supply Surplus, Gulf Attacks",
      "type": "international",
      "url": "https://www.wsj.com/business/energy-oil/oil-prices-edge-lower-as-traders-weigh-supply-surplus-gulf-attacks-6861119f?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "fe097f1863045638",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-23T15:51:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Slides Nearly 4% as Returning Supply Outweighs Gulf Attacks",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html"
     },
     {
      "added": "2026-11-23",
@@ -1610,15 +1623,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "fe097f1863045638"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-23T15:51:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html) reported that crude prices deepened their slide on Monday even as Wall Street rallied on Nvidia's reinstatement of chief executive Jensen Huang."
+    },
     {
      "articles": [
       "f97fa4a6db87cc36"
@@ -1778,9 +1803,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
    "title_from": {
     "backing": 3,
@@ -1958,8 +1983,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d78e88e65ff67e71",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-24T07:30:10+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Rene Haas to remain CEO of chipmaker Arm through 2033 amid Nvidia top job chatter",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/24/rene-haas-to-remain-ceo-of-chipmaker-arm-through-2033-amid-nvidia-top-job-chatter.html"
+    },
     {
      "added": "2026-11-23",
      "id": "81b01935850be486",
@@ -2159,18 +2197,18 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
    "label": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
+   "last_updated": "2026-11-24",
    "merged": [
     "nvidia-earnings-report",
     "nvidia-leadership-and-earnings"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -2353,9 +2391,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -3151,8 +3189,34 @@
    "topic": "markets"
   },
   {
-   "article_count": 15,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "faafdc45baf0378c",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-24T07:05:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "864d3fef306e097c",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-24T05:05:08+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Iran says three tankers hit mines in Hormuz despite U.S. escort, as Treasury widens sanctions",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html"
+    },
     {
      "added": "2026-11-24",
      "id": "2bcc8b2877192ccb",
@@ -3349,18 +3413,31 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "previous_titles": [
-    "Oil prices fall further on supply glut concerns; strong dollar weighs"
+    "Oil prices fall further on supply glut concerns; strong dollar weighs",
+    "Oil Prices Continue to Fall as Global Supply Surplus Weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "864d3fef306e097c"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-24T05:05:08+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/24/iran-trump-hormuz-crude-.html) reported that Iran said three oil tankers caught fire after hitting naval mines in the Strait of Hormuz, as the U.S. escalates sanctions aimed at cutting off Tehran's financing."
+    },
     {
      "articles": [
       "2bcc8b2877192ccb"
@@ -3484,16 +3561,16 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
+   "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
    "title_from": {
     "backing": 2,
-    "date": "2026-11-17",
+    "date": "2026-11-24",
     "of": 2,
-    "outlet": "Wall Street Journal",
-    "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-continue-to-fall-as-global-supply-surplus-weighs-7b54e93b?mod=rss_markets_main"
+    "outlet": "Oilprice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Hold-Near-Three-Month-Lows-Despite-Hormuz-Mine-Claims.html"
    },
    "topic": "energy"
   },
@@ -5378,8 +5455,47 @@
    "topic": "justice"
   },
   {
-   "article_count": 3,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "30ca9f72d076f9c2",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-23T15:43:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "CrowdStrike’s $44 Billion Zscaler Deal Reflects a New Imperative in Cybersecurity",
+     "type": "international",
+     "url": "https://www.wsj.com/pro/cybersecurity/crowdstrikes-44-billion-zscaler-deal-reflects-a-new-imperative-in-cybersecurity-5669e9db?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "e188abc1329e99ca",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-23T13:47:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "917ee7b212e53c09",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-23T12:40:01+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "CrowdStrike bets on network security with $43.9 billion Zscaler deal",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html"
+    },
     {
      "added": "2026-11-20",
      "id": "8683e40392ec20fc",
@@ -5420,15 +5536,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/crowdstrike-is-in-talks-to-buy-cybersecurity-firm-zscaler"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 3,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "crowdstrike-and-zscaler-acquisition-talks",
    "label": "CrowdStrike and Zscaler acquisition talks",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "917ee7b212e53c09"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-23T12:40:01+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html) reported that CrowdStrike said it would buy Zscaler in an all-stock deal that values the company at about $43.9 billion."
+    },
     {
      "articles": [
       "3df02ecad32ac246",
@@ -5457,8 +5585,15 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "CrowdStrike and Zscaler acquisition talks",
+   "status": "updated",
+   "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 2,
+    "outlet": "MarketWatch",
+    "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories"
+   },
    "topic": "business"
   },
   {
@@ -6045,8 +6180,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "997e928ca8fcdde6",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-23T11:55:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Labor Deal Fends Off Strike Threat at Ports of L.A., Long Beach",
+     "type": "international",
+     "url": "https://www.wsj.com/logistics-report/labor-deal-fends-off-strike-threat-at-ports-of-l-a-long-beach-5d578a35?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-22",
      "id": "a0af7216dbb1beb4",
@@ -6074,14 +6222,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-21/los-angeles-port-strike-threat-resolved-with-tentative-agreement"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "los-angeles-port-labor-contract",
    "label": "Los Angeles Port labor contract",
    "last_reported": "2026-11-22",
-   "last_updated": "2026-11-22",
-   "outlets_today": 0,
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6108,9 +6256,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/logistics-report/tentative-deal-averts-strike-threat-at-busiest-u-s-ports-6f9a60d1?mod=pls_whats_news_us_business_f) reported that a tentative deal averted a strike threat at the ports of Los Angeles and Long Beach after the contract was due to expire overnight."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Los Angeles Port labor contract",
    "topic": "economy"
   },
@@ -6185,8 +6333,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "1d84d337ff73e92c",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-24T07:11:59+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Compass Plans New York Main Listing, Adding to London Exodus",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/compass-plans-to-move-main-listing-to-new-york-in-blow-to-london"
+    },
     {
      "added": "2026-11-22",
      "id": "b090fe4552a363ac",
@@ -6214,14 +6375,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "compass-group-listing-move",
    "label": "Compass Group listing move",
    "last_reported": "2026-11-22",
-   "last_updated": "2026-11-22",
-   "outlets_today": 0,
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6248,9 +6409,9 @@
      "text": "[Financial Times](https://www.ft.com/content/7b48ea5e-6372-4bb7-ae5c-8b7ddd020883?syn-25a6b1a6=1) reported that the FTSE 100 catering giant is set to announce its intention to move as soon as Tuesday."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Compass Group listing move",
    "topic": "business"
   },
@@ -7176,9 +7337,79 @@
    "status": "new",
    "title": "US Senate investigation of JD Vance",
    "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "a1da49013b134bae",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-24T07:37:00+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Sanofi to buy US drugmaker Insmed for $41 billion in biggest deal under CEO Garijo",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "5778c428b10a0b69",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-24T06:54:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Sanofi to Buy Insmed for $41.0 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=rss_markets_main"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "sanofi-acquisition-of-insmed",
+   "label": "Sanofi acquisition of Insmed",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5778c428b10a0b69"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-24T06:54:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=rss_markets_main) reported that Sanofi will pay $175 per share to buy U.S. drugmaker Insmed for $41.0 billion."
+    },
+    {
+     "articles": [
+      "a1da49013b134bae"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T07:37:00+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163) reported that the transaction is the biggest deal under CEO Garijo."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Sanofi acquisition of Insmed",
+   "topic": "business-strategic"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-24T04:47:15+00:00"
+ "updated": "2026-11-24T08:13:35+00:00"
 }

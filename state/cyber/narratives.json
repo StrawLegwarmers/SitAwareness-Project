@@ -483,27 +483,27 @@
  ],
  "coverage": [
   {
-   "articles": 177,
+   "articles": 185,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
-   "continuing": 0,
+   "calls": 1,
+   "candidates": 2,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-24",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 151,
-   "in_stories": 0,
-   "kept": 0,
+   "groups": 159,
+   "in_stories": 4,
+   "kept": 3,
    "merged": 0,
-   "new": 0,
+   "new": 1,
    "rejected": 0,
-   "reported_by_2": 2,
-   "runs": 2,
-   "sent": 0,
+   "reported_by_2": 3,
+   "runs": 3,
+   "sent": 2,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -800,7 +800,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T04:42:39+00:00"
+  "all": "2026-11-24T08:01:03+00:00"
  },
  "narratives": [
   {
@@ -4355,8 +4355,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "0e25a70d63e8ef3c",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-24T04:53:16+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Actively Exploiting Cisco Expressway Vulnerability to Gain Full Root Access",
+     "type": null,
+     "url": "https://cybersecuritynews.com/cisco-expressway-vulnerability-exploited/"
+    },
     {
      "added": "2026-11-23",
      "id": "de45751f764f0134",
@@ -4410,14 +4423,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "cisco-expressway-security-flaw-exploitation",
    "label": "Cisco Expressway security flaw exploitation",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -4456,9 +4469,9 @@
      "text": "[Security Affairs](https://securityaffairs.com/203598/hacking/hackers-exploit-cisco-expressway-flaw-cve-2026-76466-to-breach-russian-organization.html) reported that the Cisco Expressway flaw CVE-2026-76466 is being exploited to gain root access and move from exposed devices into internal networks."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
   },
@@ -5131,9 +5144,111 @@
    "status": "unchanged",
    "title": "Ghostscript Upload2Shell vulnerability",
    "topic": "cyber"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "18a636fdae675abf",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-24T06:02:57+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "73e5a093f86644e9",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-24T06:00:50+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Linux patches can take weeks, and OpenAI and Cisco built Shirudo to help in the meantime",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/"
+    },
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-23"
+     ],
+     "id": "7b301ba882e25a2a",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-24T03:51:31+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers",
+     "type": null,
+     "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "openai-and-cisco-shirudo-tool",
+   "label": "OpenAI and Cisco Shirudo tool",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "18a636fdae675abf",
+      "73e5a093f86644e9",
+      "7b301ba882e25a2a"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News",
+      "Help Net Security",
+      "The Hacker News"
+     ],
+     "published": "2026-11-24T03:51:31+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/), [Help Net Security](https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/), [The Hacker News](https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html) reported that OpenAI and Cisco launched Shirudo, an open-source security tool designed to block exploits on running Linux servers."
+    },
+    {
+     "articles": [
+      "73e5a093f86644e9"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-24T06:00:50+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/24/cisco-openai-shirudo/) reported that Shirudo places temporary protections on running Linux systems while owners work on patches."
+    },
+    {
+     "articles": [
+      "18a636fdae675abf"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-24T06:02:57+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html) reported that Shirudo operates as an open-source Linux runtime allowing artificial intelligence agents to block exploits before patching."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "OpenAI and Cisco Shirudo tool",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-24T04:42:39+00:00"
+ "updated": "2026-11-24T08:03:16+00:00"
 }
