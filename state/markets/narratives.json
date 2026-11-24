@@ -805,25 +805,25 @@
   {
    "articles": 556,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 15,
-   "continuing": 10,
+   "calls": 4,
+   "candidates": 20,
+   "continuing": 15,
    "corroborated": 0,
    "date": "2026-11-24",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 513,
-   "in_stories": 17,
-   "kept": 7,
+   "in_stories": 24,
+   "kept": 9,
    "merged": 0,
    "new": 2,
-   "rejected": 1,
+   "rejected": 3,
    "reported_by_2": 6,
-   "runs": 3,
-   "sent": 15,
+   "runs": 4,
+   "sent": 20,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 10,
+   "updated": 13,
    "waiting": 0
   },
   {
@@ -1098,7 +1098,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T08:13:18+00:00"
+  "all": "2026-11-24T10:43:42+00:00"
  },
  "narratives": [
   {
@@ -1386,8 +1386,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "3de5ea7c503488bb",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-24T08:27:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Fall as Traders Weigh Supply Outlook, Shipping Risks",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-23",
      "id": "32636cc1c7b6dec5",
@@ -1623,14 +1636,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -1803,7 +1816,7 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
@@ -2882,8 +2895,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 15,
+   "article_count": 16,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "2a96b8a865a436a1",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T09:09:43+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "DB flags increasingly hawkish Fed tone as officials signal further rate hikes",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/db-flags-increasingly-hawkish-fed-tone-as-officials-signal-further-rate-hikes-5047396"
+    },
     {
      "added": "2026-11-23",
      "id": "275589c3f74cae8f",
@@ -3080,17 +3106,17 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
+   "last_updated": "2026-11-24",
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -3182,9 +3208,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -6333,8 +6359,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d0653e07bcc4db78",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-24T08:33:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Compass Group Plans to Move Primary Listing to U.S.",
+     "type": "international",
+     "url": "https://www.wsj.com/business/earnings/compass-group-plans-to-move-primary-listing-to-u-s-b06b7ea8?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-24",
      "id": "1d84d337ff73e92c",
@@ -6375,14 +6414,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "compass-group-listing-move",
    "label": "Compass Group listing move",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -6409,7 +6448,7 @@
      "text": "[Financial Times](https://www.ft.com/content/7b48ea5e-6372-4bb7-ae5c-8b7ddd020883?syn-25a6b1a6=1) reported that the FTSE 100 catering giant is set to announce its intention to move as soon as Tuesday."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "covered",
    "title": "Compass Group listing move",
@@ -7339,8 +7378,60 @@
    "topic": "politics"
   },
   {
-   "article_count": 2,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "b2bdf5857c747b37",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-24T10:17:31+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Drugmaker Insmed shares rally 14% after Sanofi agrees to buy it in pharma’s biggest deal in three years",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/24/insmed-sanofi-deal-stock-pharma.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "46025cb13f0f9aa5",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-24T09:39:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "80c8c3edf1d596ae",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-24T09:29:06+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Sanofi Agrees to Buy US Biotech Insmed for $41 Billion",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-24/sanofi-agrees-to-buy-us-biotech-insmed-for-41-billion-video"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "628bd9ad66f7284b",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-24T07:43:49+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Sanofi strikes $41bn deal to buy US biotech Insmed",
+     "type": "international",
+     "url": "https://www.ft.com/content/94e3ca43-cf90-4566-90df-86dd6a1554b2?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-24",
      "id": "a1da49013b134bae",
@@ -7368,15 +7459,39 @@
      "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=rss_markets_main"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 6,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "sanofi-acquisition-of-insmed",
    "label": "Sanofi acquisition of Insmed",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "628bd9ad66f7284b"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-24T07:43:49+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/94e3ca43-cf90-4566-90df-86dd6a1554b2?syn-25a6b1a6=1) reported that the French drugmaker is looking for ready-made additions to its commercial drug stable as it approaches a patent cliff."
+    },
+    {
+     "articles": [
+      "80c8c3edf1d596ae"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-24T09:29:06+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-24/sanofi-agrees-to-buy-us-biotech-insmed-for-41-billion-video) reported that the transaction is the biggest pharma acquisition in three years, expanding the French company’s immunology and rare-disease business."
+    },
     {
      "articles": [
       "5778c428b10a0b69"
@@ -7405,11 +7520,18 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Sanofi acquisition of Insmed",
+   "title": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
+   "title_from": {
+    "backing": 4,
+    "date": "2026-11-24",
+    "of": 4,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=pls_whats_news_us_business_f"
+   },
    "topic": "business-strategic"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-24T08:13:35+00:00"
+ "updated": "2026-11-24T10:43:59+00:00"
 }
