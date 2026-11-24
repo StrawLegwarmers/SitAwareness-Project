@@ -485,22 +485,22 @@
   {
    "articles": 218,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 14,
+   "calls": 4,
+   "candidates": 18,
    "continuing": 9,
    "corroborated": 1,
    "date": "2026-11-24",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 184,
-   "in_stories": 23,
-   "kept": 18,
+   "in_stories": 30,
+   "kept": 24,
    "merged": 0,
-   "new": 5,
+   "new": 9,
    "rejected": 0,
    "reported_by_2": 7,
-   "runs": 5,
-   "sent": 14,
+   "runs": 6,
+   "sent": 18,
    "skipped": 0,
    "split_calls": 0,
    "updated": 7,
@@ -800,7 +800,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T13:57:14+00:00"
+  "all": "2026-11-24T16:43:20+00:00"
  },
  "narratives": [
   {
@@ -5431,7 +5431,8 @@
    "last_updated": "2026-11-24",
    "outlets_today": 6,
    "previous_titles": [
-    "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers"
+    "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers",
+    "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems"
    ],
    "reports": [
     {
@@ -5514,13 +5515,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+   "title": "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers",
    "title_from": {
-    "backing": 2,
+    "backing": 5,
     "date": "2026-11-24",
     "of": 5,
-    "outlet": "SecurityWeek",
-    "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/"
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/"
    },
    "topic": "cyber"
   },
@@ -5788,9 +5789,268 @@
    "status": "new",
    "title": "New Enterotoxin Malware Uses NPM Packages to Deliver RAT",
    "topic": "cyber"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-20"
+     ],
+     "id": "b645740833d30d91",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-24T15:39:05+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "McDonald’s Japan Confirms Data Breach – Customer Information and Location Data Exposed",
+     "type": null,
+     "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "c6a6911504ddb5bf",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-24T14:09:37+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "McDonald's Japan data breach exposes customer location information",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "cd896d148b50b1f4",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-24T13:00:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
+     "type": null,
+     "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "mcdonald-s-japan-discloses-breach-exposing",
+   "label": "McDonald’s Japan discloses breach exposing customer purchase and location data",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "b645740833d30d91",
+      "c6a6911504ddb5bf",
+      "cd896d148b50b1f4"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "The Record",
+      "BleepingComputer",
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-24T13:00:00+00:00",
+     "text": "[The Record](https://therecord.media/japan-mcdonalds-cyberattack-breach), [BleepingComputer](https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/), [Cybersecurity News](https://cybersecuritynews.com/mcdonalds-japan-data-breach/) reported that McDonald's Japan disclosed a data breach exposing customer purchase histories and location data."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "McDonald’s Japan Confirms Data Breach – Customer Information and Location Data Exposed",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 2,
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/"
+   },
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "2d392bbeef7666df",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-24T09:33:33+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "GlobeTopper faces up to $2.5 million in lost revenue after hackers steal $70,000 in gift cards",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "b1379c653405099f",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-23T16:50:01+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "globetopper-cyberattack",
+   "label": "GlobeTopper cyberattack",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2d392bbeef7666df",
+      "b1379c653405099f"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer",
+      "Help Net Security"
+     ],
+     "published": "2026-11-23T16:50:01+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/), [Help Net Security](https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/) reported that GlobeTopper faced an estimated $2.5 million in lost revenue following a cyberattack."
+    },
+    {
+     "articles": [
+      "b1379c653405099f"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-23T16:50:01+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/) said hackers stole $70,000 in gift cards."
+    },
+    {
+     "articles": [
+      "2d392bbeef7666df"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-24T09:33:33+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/24/globetopper-breach-gift-cards/) reported that hackers breached the platform and stole API credentials belonging to business customers."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "GlobeTopper cyberattack",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "c64e2285484b8b84",
+     "lang": "en",
+     "outlet": "Recorded Future Research",
+     "published": "2026-11-24T00:00:00+00:00",
+     "publisher": "Recorded Future Research",
+     "region": null,
+     "section": "intel",
+     "title": "The Cyber Threats Behind Space Race 2.0",
+     "type": null,
+     "url": "https://www.recordedfuture.com/blog/cyber-threats-space-race"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "space-sector-cyber-threats",
+   "label": "Space sector cyber threats",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "c64e2285484b8b84"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Recorded Future Research"
+     ],
+     "published": "2026-11-24T00:00:00+00:00",
+     "text": "[Recorded Future Research](https://www.recordedfuture.com/blog/cyber-threats-space-race) reported on cybersecurity threats in Space Race 2.0, including commercial satellite attacks, ground vulnerabilities, and maritime risks."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Space sector cyber threats",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "ec8bb37ba70abb10",
+     "lang": "en",
+     "outlet": "Check Point Research",
+     "published": "2026-11-24T14:13:55+00:00",
+     "publisher": "Check Point Research",
+     "region": null,
+     "section": "intel",
+     "title": "Volant Manticore: Flying Under the Radar",
+     "type": null,
+     "url": "https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "volant-manticore-threat-group-activity",
+   "label": "Volant Manticore threat group activity",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "ec8bb37ba70abb10"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Check Point Research"
+     ],
+     "published": "2026-11-24T14:13:55+00:00",
+     "text": "[Check Point Research](https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/) reported that Check Point Research is tracking a previously undocumented Iran-nexus threat group named Volant Manticore."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Volant Manticore threat group activity",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-24T13:57:43+00:00"
+ "updated": "2026-11-24T16:44:24+00:00"
 }

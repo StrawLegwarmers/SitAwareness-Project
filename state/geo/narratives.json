@@ -805,20 +805,20 @@
   {
    "articles": 4108,
    "attached_by_code": 68,
-   "calls": 31,
-   "candidates": 1220,
-   "continuing": 874,
+   "calls": 39,
+   "candidates": 1572,
+   "continuing": 1115,
    "corroborated": 32,
    "date": "2026-11-24",
    "dropped": 9,
    "errors": [
-    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 3: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 8: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 6,
+   "failed_calls": 14,
    "groups": 3163,
    "in_stories": 1489,
    "kept": 877,
@@ -826,12 +826,12 @@
    "new": 187,
    "rejected": 88,
    "reported_by_2": 197,
-   "runs": 5,
-   "sent": 1172,
+   "runs": 6,
+   "sent": 1492,
    "skipped": 106,
    "split_calls": 0,
    "updated": 543,
-   "waiting": 0
+   "waiting": 32
   },
   {
    "articles": 4118,
@@ -295645,7 +295645,8 @@
    "outlets_today": 4,
    "previous_titles": [
     "Iran vows to use all means to counter US naval blockade, sanctions",
-    "Iran says it will use all available tools to confront US naval blockade"
+    "Iran says it will use all available tools to confront US naval blockade",
+    "Will use 'all available means' to counter U.S. blockade: Iran"
    ],
    "reports": [
     {
@@ -295729,13 +295730,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "iran",
-   "title": "Will use 'all available means' to counter U.S. blockade: Iran",
+   "title": "Iran says it will use all available tools to confront US naval blockade",
    "title_from": {
-    "backing": 3,
+    "backing": 2,
     "date": "2026-11-24",
     "of": 3,
-    "outlet": "The Hindu (World)",
-    "url": "https://www.thehindu.com/news/international/will-use-all-available-means-to-counter-us-blockade-iran/article71735993.ece"
+    "outlet": "Pakistan Today",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTC0yQ1ZkZy1qcnpmUUI2Mjd4RTFLN2cwd1BNMFhTVFlrX2dxRDY4YXlMMXNkY3hBTWJtbTZlYlhvNWI2bjhNUHQtcmNXX2VKZFBiTG1ycWpkR2cxV292LWViU0EwRW13WFNsV01iUkY5bGR3M3U4dFVSXzVzaWZlOGxCQndyLUJHSnlkLW1vYkF1dXR0Z1N5emYwZUdVMUROX3NnTnVOZDQyZWJJdmJiaGU2LUlOQQ?oc=5"
    },
    "topic": "security"
   },
@@ -301025,7 +301026,8 @@
    "last_updated": "2026-11-24",
    "outlets_today": 4,
    "previous_titles": [
-    "Breaking: Igbo community, leaders in Lagos declare their 2027 choice amid Tinubu vs Obi"
+    "Breaking: Igbo community, leaders in Lagos declare their 2027 choice amid Tinubu vs Obi",
+    "2027: Tinubu’s Lagos Igbo Outreach Sparks Debate Over Support Ahead of Presidential Election"
    ],
    "reports": [
     {
@@ -301105,13 +301107,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "nigeria",
-   "title": "2027: Tinubu’s Lagos Igbo Outreach Sparks Debate Over Support Ahead of Presidential Election",
+   "title": "Tinubu to Lagos Igbo: Vote for me in 2027, I was angry you didn’t vote for me in 2023",
    "title_from": {
-    "backing": 3,
+    "backing": 2,
     "date": "2026-11-24",
     "of": 3,
-    "outlet": "The Will (Nigeria)",
-    "url": "https://thewillnews.com/2027-tinubus-lagos-igbo-outreach-sparks-debate-over-support-ahead-of-presidential-election/"
+    "outlet": "Vanguard",
+    "url": "https://www.vanguardngr.com/2026/11/tinubu-to-lagos-igbo-vote-for-me-in-2027-i-was-angry-you-didnt-vote-for-me-in-2023/"
    },
    "topic": "politics"
   },
@@ -318147,5 +318149,5 @@
   "0d03ea8181c1a1f2"
  ],
  "site": "geo",
- "updated": "2026-11-24T14:12:37+00:00"
+ "updated": "2026-11-24T17:07:44+00:00"
 }
