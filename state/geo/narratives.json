@@ -803,11 +803,11 @@
  ],
  "coverage": [
   {
-   "articles": 4108,
+   "articles": 4143,
    "attached_by_code": 68,
-   "calls": 39,
-   "candidates": 1572,
-   "continuing": 1115,
+   "calls": 47,
+   "candidates": 2023,
+   "continuing": 1418,
    "corroborated": 32,
    "date": "2026-11-24",
    "dropped": 9,
@@ -818,20 +818,20 @@
     "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 8: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 14,
-   "groups": 3163,
+   "failed_calls": 22,
+   "groups": 3260,
    "in_stories": 1489,
    "kept": 877,
    "merged": 46,
    "new": 187,
    "rejected": 88,
-   "reported_by_2": 197,
-   "runs": 6,
-   "sent": 1492,
+   "reported_by_2": 229,
+   "runs": 7,
+   "sent": 1812,
    "skipped": 106,
    "split_calls": 0,
    "updated": 543,
-   "waiting": 32
+   "waiting": 131
   },
   {
    "articles": 4118,
@@ -43455,7 +43455,8 @@
    "last_updated": "2026-11-24",
    "outlets_today": 4,
    "previous_titles": [
-    "UN food agency chief calls for end to Sudan war as famine crisis deepens"
+    "UN food agency chief calls for end to Sudan war as famine crisis deepens",
+    "Wars choke global food routes, threatening aid for 7.3 million, WFP warns"
    ],
    "reports": [
     {
@@ -43585,13 +43586,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "sudan",
-   "title": "Wars choke global food routes, threatening aid for 7.3 million, WFP warns",
+   "title": "UN food agency chief warns wars jeopardize food aid for 7.3 million more people",
    "title_from": {
     "backing": 2,
     "date": "2026-11-24",
     "of": 3,
-    "outlet": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/24/wars-choke-global-food-routes-threatening-aid-for-7-3-million-wfp-warns?traffic_source=rss"
+    "outlet": "GMA News",
+    "url": "https://www.gmanetwork.com/news/topstories/world/1010553/un-food-agency-chief-warns-wars-jeopardize-food-aid-for-7-3-million-more-people/story/"
    }
   },
   {
@@ -303766,7 +303767,8 @@
    "last_updated": "2026-11-24",
    "outlets_today": 5,
    "previous_titles": [
-    "Federal appeals court hands Trump way out of conviction for hush-money payment"
+    "Federal appeals court hands Trump way out of conviction for hush-money payment",
+    "Appeals court gives Trump a win with new path to toss his hush-money convictions"
    ],
    "reports": [
     {
@@ -303786,13 +303788,13 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "us",
-   "title": "Appeals court gives Trump a win with new path to toss his hush-money convictions",
+   "title": "Federal appeals court hands Trump way out of conviction for hush-money payment",
    "title_from": {
     "backing": 4,
     "date": "2026-11-24",
     "of": 4,
-    "outlet": "The Independent World",
-    "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-hush-money-appeals-court-ruling-b3090241.html"
+    "outlet": "The Guardian",
+    "url": "https://www.theguardian.com/us-news/2026/nov/23/legal-path-erase-donald-trump-hush-money-conviction"
    },
    "topic": "justice"
   },
@@ -318149,5 +318151,5 @@
   "0d03ea8181c1a1f2"
  ],
  "site": "geo",
- "updated": "2026-11-24T17:07:44+00:00"
+ "updated": "2026-11-24T20:00:55+00:00"
 }

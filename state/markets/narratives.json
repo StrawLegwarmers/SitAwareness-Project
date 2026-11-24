@@ -805,9 +805,9 @@
   {
    "articles": 556,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 34,
-   "continuing": 23,
+   "calls": 7,
+   "candidates": 43,
+   "continuing": 27,
    "corroborated": 0,
    "date": "2026-11-24",
    "dropped": 1,
@@ -816,17 +816,17 @@
    ],
    "failed_calls": 1,
    "groups": 513,
-   "in_stories": 34,
-   "kept": 15,
+   "in_stories": 47,
+   "kept": 25,
    "merged": 0,
-   "new": 5,
-   "rejected": 3,
+   "new": 9,
+   "rejected": 5,
    "reported_by_2": 6,
-   "runs": 6,
-   "sent": 34,
+   "runs": 7,
+   "sent": 43,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 17,
+   "updated": 18,
    "waiting": 0
   },
   {
@@ -1101,7 +1101,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T14:12:38+00:00"
+  "all": "2026-11-24T20:00:55+00:00"
  },
  "narratives": [
   {
@@ -2911,7 +2911,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
     {
      "added": "2026-11-24",
@@ -2925,6 +2925,19 @@
      "title": "DB flags increasingly hawkish Fed tone as officials signal further rate hikes",
      "type": "specialist",
      "url": "https://www.investing.com/news/economy-news/db-flags-increasingly-hawkish-fed-tone-as-officials-signal-further-rate-hikes-5047396"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "b9da647b75696bc0",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-24T03:02:32+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Dollar climbs as renewed AI euphoria fuels Fed hike bets",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/forex/dollar-climbs-as-renewed-ai-euphoria-fuels-fed-hike-bets/articleshow/136118031.cms"
     },
     {
      "added": "2026-11-23",
@@ -3122,7 +3135,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3132,7 +3145,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -3224,7 +3237,7 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "covered",
    "title": "US dollar and gold markets",
@@ -7680,8 +7693,50 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "aa989b089255595e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-24T19:26:21+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic shares fall below IPO price. Traders see even more pain",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html"
+    },
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-19"
+     ],
+     "id": "cdb8ffec16e2f667",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-24T16:11:58+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic sinks 12%, falling below $83 IPO price, but analysts are still largely positive",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "99ec9f113b0eaf5b",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-24T15:21:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic’s stock just broke below its IPO price for the first time",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories"
+    },
     {
      "added": "2026-11-24",
      "id": "9a2d6afb99f28583",
@@ -7707,17 +7762,68 @@
      "title": "Anthropic stock falls below IPO price: live updates",
      "type": "international",
      "url": "https://www.marketwatch.com/bulletins/redirect/go?g=cb62e45a-2595-49e8-9966-dd12c0eeea7b&mod=mw_rss_bulletins"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "c899a9f86bd6f103",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-24T11:19:24+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 6,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "anthropic-stock-price-movements",
    "label": "Anthropic stock price movements",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "99ec9f113b0eaf5b",
+      "c899a9f86bd6f103"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "MarketWatch"
+     ],
+     "published": "2026-11-24T11:19:24+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading), [MarketWatch](https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories) reported that Anthropic shares traded below their $83 initial public offering price in premarket trading."
+    },
+    {
+     "articles": [
+      "cdb8ffec16e2f667"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-24T16:11:58+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html) reported that Anthropic has been sinking steadily since the stock opened at $111.50 on the Nasdaq on Nov. 19."
+    },
+    {
+     "articles": [
+      "aa989b089255595e"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-24T19:26:21+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/24/anthropic-options-trading-ipo-price.html) reported that options activity surged, with large put buys, call buys and put sales pointing to a divided market."
+    },
     {
      "articles": [
       "9a2d6afb99f28583"
@@ -7734,7 +7840,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Anthropic stock price movements",
+   "title": "Anthropic sinks 12%, falling below $83 IPO price, but analysts are still largely positive",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-24",
+    "of": 3,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html"
+   },
    "topic": "markets"
   },
   {
@@ -7796,9 +7909,277 @@
    "status": "new",
    "title": "Nasdaq futures drop on cooling AI stocks",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "f2aba02b5fc1468f",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-24T15:12:01+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Brazil Real Rallies on Reports Lula Backs Further Spending Curbs",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/brazil-real-rallies-on-reports-lula-backs-further-spending-curbs"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "e64ed23c9eee85ab",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T14:30:26+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Brazil’s Lula backs second round of fiscal measures to curb spending, source says",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "brazil-fiscal-measures",
+   "label": "Brazil fiscal measures",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f2aba02b5fc1468f"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-24T15:12:01+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/brazil-real-rallies-on-reports-lula-backs-further-spending-curbs) reported that the Brazilian real rallied by the most in nearly two months after reports that President Luiz Inacio Lula da Silva is backing further moves to curb government spending."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Brazil fiscal measures",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "1e9ce6b9920c0c47",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T16:06:34+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Venezuela unveils long-awaited economic framework, puts debt at $237.5 billion",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/venezuela-unveils-longawaited-economic-framework-puts-debt-at-2375-billion-5048560"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "ed3bc47e92523b63",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-24T15:01:19+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Venezuela Unveils $237 Billion Debt Load Ahead of Restructuring",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "venezuela-public-debt-framework",
+   "label": "Venezuela public debt framework",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ed3bc47e92523b63"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-24T15:01:19+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring) reported that Venezuela's government said public debt stood at $237.5 billion in 2025."
+    },
+    {
+     "articles": [
+      "1e9ce6b9920c0c47"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T16:06:34+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/venezuela-unveils-longawaited-economic-framework-puts-debt-at-2375-billion-5048560) reported that Venezuela unveiled its long-awaited economic framework and put debt at $237.5 billion."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Venezuela public debt framework",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "a4f902d990234d0c",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-24T17:28:37+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Waymo says recall prompted by 11 new incidents of robotaxis entering closed freeway lanes",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/24/waymo-recall-prompted-by-robotaxis-entering-closed-freeway-lanes.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "79d3c62d3d16e40e",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-24T16:17:04+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Waymo recalls 4,500 robotaxis after 11 closed lane incidents",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/waymo-recalls-4500-robotaxis-after-11-closed-lane-incidents-93CH-5048710"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "waymo-robotaxi-recall",
+   "label": "Waymo robotaxi recall",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a4f902d990234d0c"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-24T17:28:37+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/24/waymo-recall-prompted-by-robotaxis-entering-closed-freeway-lanes.html) reported that Waymo told the National Highway Traffic Safety Administration that three Waymo vehicles entered freeway lanes marked with cones as closed for construction on Nov. 9."
+    },
+    {
+     "articles": [
+      "79d3c62d3d16e40e"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T16:17:04+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/waymo-recalls-4500-robotaxis-after-11-closed-lane-incidents-93CH-5048710) reported that Waymo recalled 4,500 robotaxis after 11 closed lane incidents."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Waymo robotaxi recall",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "39eaacb6990ba637",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-24T18:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Iraq Refuses to Accept OPEC+ Assessment of its Production Capacity",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "19b83ebd11dfec98",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-24T17:04:34+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Iraq Rejects OPEC+ Assessment of Its Oil Production Capacity",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/iraq-rejects-opec-assessment-of-its-oil-production-capacity"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "iraq-opec-oil-production-capacity-assessment",
+   "label": "Iraq OPEC oil production capacity assessment",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "19b83ebd11dfec98"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-24T17:04:34+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/iraq-rejects-opec-assessment-of-its-oil-production-capacity) reported that Iraq rejected an assessment of its oil production capacity commissioned by OPEC+, according to people familiar with the matter."
+    },
+    {
+     "articles": [
+      "39eaacb6990ba637"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-24T18:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html) reported that Iraq is refusing to accept an OPEC+ assessment that says the country can sustainably produce less than 5 million barrels of oil per day."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Iraq OPEC oil production capacity assessment",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-24T17:10:35+00:00"
+ "updated": "2026-11-24T20:03:05+00:00"
 }

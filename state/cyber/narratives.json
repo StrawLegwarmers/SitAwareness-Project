@@ -485,22 +485,22 @@
   {
    "articles": 218,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 18,
+   "calls": 5,
+   "candidates": 20,
    "continuing": 9,
    "corroborated": 1,
    "date": "2026-11-24",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 184,
-   "in_stories": 30,
-   "kept": 24,
+   "in_stories": 32,
+   "kept": 26,
    "merged": 0,
-   "new": 9,
+   "new": 10,
    "rejected": 0,
    "reported_by_2": 7,
-   "runs": 6,
-   "sent": 18,
+   "runs": 7,
+   "sent": 20,
    "skipped": 0,
    "split_calls": 0,
    "updated": 7,
@@ -800,7 +800,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T16:43:20+00:00"
+  "all": "2026-11-24T19:41:15+00:00"
  },
  "narratives": [
   {
@@ -5844,6 +5844,9 @@
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
    "outlets_today": 3,
+   "previous_titles": [
+    "McDonald’s Japan Confirms Data Breach – Customer Information and Location Data Exposed"
+   ],
    "reports": [
     {
      "articles": [
@@ -5865,13 +5868,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "McDonald’s Japan Confirms Data Breach – Customer Information and Location Data Exposed",
+   "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
    "title_from": {
     "backing": 2,
     "date": "2026-11-24",
     "of": 2,
-    "outlet": "Cybersecurity News",
-    "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/"
+    "outlet": "The Record",
+    "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach"
    },
    "topic": "cyber"
   },
@@ -6048,9 +6051,79 @@
    "status": "new",
    "title": "Volant Manticore threat group activity",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "b6e6150492a16518",
+     "lang": "en",
+     "outlet": "Daily Mail",
+     "published": "2026-11-24T18:31:35+00:00",
+     "publisher": "Daily Mail",
+     "region": null,
+     "section": "aviation",
+     "title": "Hackers expose personal and payment details of Gatwick Airport parking customers - after MI5 issued warning over Russian sabotage",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFBaUnAxcnU5RlhyZjN1SlpNcE9adWloOENmbWFuOW5ldzNGQUpsek5BcUIzVklWYVFycklVQ3VsZnd0b21fQlJPdjN1d2RPU1ROOEswUmhmS2dkT0tPTk5ld29Bdmd4VWhGZl9KdkdJOC04a1ROLTc0aFctS2x1VlFtSzRmbGt2Q0xwQVRNTExKeWdMLW1NNnVGWDBObGRTeHfSAacBQVVfeXFMTWZsSTlrZTJBR2tXZlQ2SjhrY1hzRkZpZlpjY2hmbkZBTG1acEg1MGdUVllrME1PMWxUbkNvRkw5bnZLVzdFWGZLTTh5RE00Q25RYWpEeVgyVWRydUZfSXFmb19WSGNTLUZrcWVYVEd5bldVdGJkN0FVd01tOWF3QjVHOENLaEM4cWpVd3ZXSzd0akdJZWtocWdmN3hITlJ1dkQxcTR6Rmc?oc=5"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "a9b2bee6ff704f9f",
+     "lang": "en",
+     "outlet": "Airline Routes & Ground Services",
+     "published": "2026-11-24T16:25:59+00:00",
+     "publisher": "Airline Routes & Ground Services",
+     "region": null,
+     "section": "aviation",
+     "title": "Gatwick Airport disables parking payment app after customer data breach",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGVuX3dya1FZaDJDb1ZIUWo1QWVCSW1Cd0M1ajBMVmhTNXJBMHVQUzFUTm5UeU5WM25idjc5ZTBKTlFoMHpNbUxZcENWcTBxSkVodFc2Qm13S1pOdFA0ZUlqb1JSakFBNTRJVnV0QTg2bllwN3RwS2MyRzNxb2habG5vbkplaDBsRGxpczFMaFIyajdrRU1NMkdXWQ?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "gatwick-airport-data-breach",
+   "label": "Gatwick Airport data breach",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a9b2bee6ff704f9f"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Airline Routes & Ground Services"
+     ],
+     "published": "2026-11-24T16:25:59+00:00",
+     "text": "[Airline Routes & Ground Services](https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGVuX3dya1FZaDJDb1ZIUWo1QWVCSW1Cd0M1ajBMVmhTNXJBMHVQUzFUTm5UeU5WM25idjc5ZTBKTlFoMHpNbUxZcENWcTBxSkVodFc2Qm13S1pOdFA0ZUlqb1JSakFBNTRJVnV0QTg2bllwN3RwS2MyRzNxb2habG5vbkplaDBsRGxpczFMaFIyajdrRU1NMkdXWQ?oc=5) reported that Gatwick Airport disabled its parking payment application following a customer data breach."
+    },
+    {
+     "articles": [
+      "b6e6150492a16518"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Daily Mail"
+     ],
+     "published": "2026-11-24T18:31:35+00:00",
+     "text": "[Daily Mail](https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFBaUnAxcnU5RlhyZjN1SlpNcE9adWloOENmbWFuOW5ldzNGQUpsek5BcUIzVklWYVFycklVQ3VsZnd0b21fQlJPdjN1d2RPU1ROOEswUmhmS2dkT0tPTk5ld29Bdmd4VWhGZl9KdkdJOC04a1ROLTc0aFctS2x1VlFtSzRmbGt2Q0xwQVRNTExKeWdMLW1NNnVGWDBObGRTeHfSAacBQVVfeXFMTWZsSTlrZTJBR2tXZlQ2SjhrY1hzRkZpZlpjY2hmbkZBTG1acEg1MGdUVllrME1PMWxUbkNvRkw5bnZLVzdFWGZLTTh5RE00Q25RYWpEeVgyVWRydUZfSXFmb19WSGNTLUZrcWVYVEd5bldVdGJkN0FVd01tOWF3QjVHOENLaEM4cWpVd3ZXSzd0akdJZWtocWdmN3hITlJ1dkQxcTR6Rmc?oc=5) reported that hackers exposed personal and payment details of Gatwick Airport parking customers following an MI5 warning over Russian sabotage."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gatwick Airport data breach",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-24T16:44:24+00:00"
+ "updated": "2026-11-24T19:41:42+00:00"
 }
