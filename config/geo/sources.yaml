@@ -196,7 +196,7 @@ sources:
   - {name: ABC Australia World, feed: "https://www.abc.net.au/news/feed/51120/rss.xml", region: global, type: international, lang: en}
   - {name: UK FCDO travel advice, feed: "https://www.gov.uk/foreign-travel-advice.atom", region: global, type: government, lang: en}
   - {name: The Cipher Brief, feed: "https://www.thecipherbrief.com/feeds/feed.rss", region: global, type: specialist, lang: en}
-  - {name: The Soufan Center, feed: "https://thesoufancenter.org/feed/", region: global, type: think-tank, lang: en}
+  - {name: "The Soufan Center", feed: "https://thesoufancenter.org/feed/", region: "global", type: "think-tank", lang: "en", enabled: false, note: "Auto-disabled 2026-11-24: failing since 2026-11-17 (56 runs, HTTP 403). Re-enable when it works again."}
   - {name: War on the Rocks, feed: "https://warontherocks.com/feed/", region: global, type: specialist, lang: en}
   - {name: Sky News World, feed: "https://feeds.skynews.com/feeds/rss/world.xml", region: global, type: international, lang: en}
   - {name: Global Voices, feed: "https://globalvoices.org/feed/", region: global, type: international, lang: en}

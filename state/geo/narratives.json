@@ -805,29 +805,32 @@
   {
    "articles": 4108,
    "attached_by_code": 68,
-   "calls": 25,
-   "candidates": 1010,
-   "continuing": 733,
+   "calls": 31,
+   "candidates": 1220,
+   "continuing": 874,
    "corroborated": 32,
    "date": "2026-11-24",
-   "dropped": 8,
+   "dropped": 9,
    "errors": [
+    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 3: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 2,
+   "failed_calls": 6,
    "groups": 3163,
-   "in_stories": 1405,
-   "kept": 808,
-   "merged": 41,
-   "new": 167,
-   "rejected": 85,
+   "in_stories": 1489,
+   "kept": 877,
+   "merged": 46,
+   "new": 187,
+   "rejected": 88,
    "reported_by_2": 197,
-   "runs": 4,
-   "sent": 962,
-   "skipped": 103,
+   "runs": 5,
+   "sent": 1172,
+   "skipped": 106,
    "split_calls": 0,
-   "updated": 523,
+   "updated": 543,
    "waiting": 0
   },
   {
@@ -1163,7 +1166,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T10:35:02+00:00"
+  "all": "2026-11-24T13:57:43+00:00"
  },
  "narratives": [
   {
@@ -2232,8 +2235,21 @@
    }
   },
   {
-   "article_count": 109,
+   "article_count": 110,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "b7acb182ecc3c6b1",
+     "lang": "fr",
+     "outlet": "Le Figaro",
+     "published": "2026-11-24T13:35:33+00:00",
+     "publisher": "Le Figaro",
+     "region": "europe",
+     "section": null,
+     "title": "Présidentielle 2027 : une enquête ouverte pour détournement de fonds publics à l'agglomération du Havre présidée par Édouard Philippe",
+     "type": "local",
+     "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-une-enquete-ouverte-pour-detournement-de-fonds-publics-a-l-agglomeration-du-havre-presidee-par-edouard-philippe-20261124"
+    },
     {
      "added": "2026-11-24",
      "id": "b3931314e0b8a853",
@@ -2740,22 +2756,9 @@
      "title": "Présidentielle 2027 : Edouard Philippe met en musique une partie de son programme pour s’extirper du débat sur la primaire et de l’étau RN-LFI",
      "type": "local",
      "url": "https://www.lemonde.fr/politique/article/2026/11/18/presidentielle-2027-edouard-philippe-met-en-musique-une-partie-de-son-programme-pour-s-extirper-du-debat-sur-la-primaire-et-de-l-etau-rn-lfi_6813202_823448.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "e940eabce445ab90",
-     "lang": "fr",
-     "outlet": "Le Figaro",
-     "published": "2026-11-18T18:30:00+00:00",
-     "publisher": "Le Figaro",
-     "region": "europe",
-     "section": null,
-     "title": "Présidentielle 2027 : le processus d’une primaire s’enclenche dans la cacophonie en maintenant la pression sur Édouard Philippe",
-     "type": "local",
-     "url": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-le-processus-d-une-primaire-s-enclenche-dans-la-cacophonie-en-maintenant-la-pression-sur-edouard-philippe-20261118"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-09",
    "group": "europe",
    "id": "teddy-riner-announces-2027-french-presidential",
@@ -2770,6 +2773,18 @@
     "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race"
    ],
    "reports": [
+    {
+     "articles": [
+      "b7acb182ecc3c6b1"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Le Figaro"
+     ],
+     "published": "2026-11-24T13:35:33+00:00",
+     "text": "[Le Figaro](https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-une-enquete-ouverte-pour-detournement-de-fonds-publics-a-l-agglomeration-du-havre-presidee-par-edouard-philippe-20261124) reported that an investigation for public funds embezzlement was opened regarding the agglomeration of Le Havre presided over by Edouard Philippe."
+    },
     {
      "articles": [
       "b3931314e0b8a853"
@@ -3243,18 +3258,6 @@
      ],
      "published": "2026-11-17T06:10:28+00:00",
      "text": "[Le Figaro](https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-marine-le-pen-detaille-ce-mardi-son-projet-de-reforme-des-retraites-20261117) reported that National Rally candidate Marine Le Pen presented her pension reform project."
-    },
-    {
-     "articles": [
-      "43a76e5e8e983079"
-     ],
-     "date": "2026-11-17",
-     "group": "europe",
-     "outlets": [
-      "Le Monde"
-     ],
-     "published": "2026-11-17T04:33:10+00:00",
-     "text": "[Le Monde](https://www.lemonde.fr/politique/article/2026/11/17/impots-logement-smic-ce-qu-il-faut-retenir-du-debat-entre-candidats-a-la-presidentielle_6812895_823448.html) reported that presidential candidates Gabriel Attal, Raphaël Glucksmann, Marine Le Pen, Jean-Luc Mélenchon, and Bruno Retailleau debated taxes, salaries, housing, and pensions."
     }
    ],
    "single_source_today": false,
@@ -8047,8 +8050,34 @@
    "title": "Somalia: Political turmoil deepens over court and security disputes"
   },
   {
-   "article_count": 1207,
+   "article_count": 1209,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "70ae45bf0bb29d95",
+     "lang": "en",
+     "outlet": "Vanguard",
+     "published": "2026-11-24T11:41:19+00:00",
+     "publisher": "Vanguard",
+     "region": "africa",
+     "section": null,
+     "title": "Video: ‘I’m going to be better CEO’ – Huang speaks after reinstatement as Nvidia boss",
+     "type": "local",
+     "url": "https://www.vanguardngr.com/2026/11/video-im-going-to-be-better-ceo-huang-speaks-after-reinstatement-as-nvidia-boss/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "5eb9a456d7adf335",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-24T10:32:37+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "VIDEO: ‘I’ll be a better CEO,’ reinstated Nvidia boss tells cheering staff",
+     "type": "local",
+     "url": "https://punchng.com/video-ill-be-a-better-ceo-reinstated-nvidia-boss-tells-cheering-staff/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-24",
      "id": "48dc65c3fd2e5d6b",
@@ -8542,32 +8571,6 @@
      "title": "Bolsas asiáticas registran fuertes ganancias; regreso de Jensen Huang a Nvidia impulsa los mercados",
      "type": "local",
      "url": "https://www.eluniversal.com.mx/cartera/bolsas-asiaticas-registran-fuertes-ganancias-regreso-de-jensen-huang-a-nvidia-impulsa-los-mercados/"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "7a05360291e406ea",
-     "lang": "en",
-     "outlet": "Reuters",
-     "published": "2026-11-24T02:27:00+00:00",
-     "publisher": "Reuters",
-     "region": "global",
-     "section": null,
-     "title": "Singapore investigating Nvidia-linked Megaspeed after US blacklisting",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN3FSU3Z2eG9hMGxOaUJ3VkptMG9CbEx0cHhoQzZ6RC1uRXV0OWtRa3k1VzYtQkhMRUVBVzE5QlAwSktWS1IzN2o3SFRWalVsQ1UzMkNkYXM0TEdJUzhYMTU2VjNtdVkyWTBpRGVlbUMxREdoS1ZmeUUwbElCcF9CSmxHVDBhdVJNM3FfOGVNU1YwUEpwLUw0MXVBUUdKbDF5VjFHVHY5c0FGcFNxWGZCbQ?oc=5"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "ca30b783e32f69c7",
-     "lang": "es",
-     "outlet": "El Tiempo",
-     "published": "2026-11-24T01:55:34+00:00",
-     "publisher": "El Tiempo",
-     "region": "latam",
-     "section": null,
-     "title": "Inteligencia de EE. UU. rastreó contactos entre Alice Huang y agencia de espionaje chino mientras mantenía relación con el CEO de Nvidia, Jensen Huang",
-     "type": "local",
-     "url": "https://www.eltiempo.com/mundo/eeuu-y-canada/inteligencia-de-ee-uu-rastreo-contactos-entre-alice-huang-y-el-espionaje-chino-mientras-mantenia-una-relacion-con-el-ceo-de-nvidia-jensen-huang-3603455"
     }
    ],
    "articles_today": 40,
@@ -8619,6 +8622,18 @@
     "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing"
    ],
    "reports": [
+    {
+     "articles": [
+      "5eb9a456d7adf335"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-24T10:32:37+00:00",
+     "text": "[Punch](https://punchng.com/video-ill-be-a-better-ceo-reinstated-nvidia-boss-tells-cheering-staff/?utm_source=rss.punchng.com&utm_medium=web) reported that Jensen Huang, reinstated as Nvidia CEO after an 11-day absence, told cheering staff he will be a better CEO and apologised for his mistakes."
+    },
     {
      "articles": [
       "e021d782e043caf0"
@@ -9114,26 +9129,6 @@
      ],
      "published": "2026-11-23T04:28:39+00:00",
      "text": "[South China Morning Post](https://www.scmp.com/tech/tech-war/article/3375427/us-treasury-secretary-leaves-door-open-jensen-huangs-return-nvidia) reported that US Treasury Secretary Scott Bessent left the door open for Jensen Huang's return to Nvidia."
-    },
-    {
-     "also": [
-      {
-       "date": "2026-11-24",
-       "outlet": "Euronews",
-       "published": "2026-11-24T09:17:33+00:00",
-       "url": "https://www.euronews.com/video/2026/11/24/trump-says-he-spoke-to-nvidia-board-before-jensen-huangs-return-as-ceo"
-      }
-     ],
-     "articles": [
-      "9e21358d58999870"
-     ],
-     "date": "2026-11-23",
-     "group": "europe",
-     "outlets": [
-      "France 24"
-     ],
-     "published": "2026-11-23T14:06:17+00:00",
-     "text": "[France 24](https://www.france24.com/en/americas/20261123-nvidia-board-reinstates-disgraced-jensen-huang-as-ceo-president-says) reported that U.S. President Donald Trump admitted an active role in Nvidia's reinstatement of Jensen Huang as CEO."
     }
    ],
    "single_source_today": false,
@@ -18950,8 +18945,21 @@
    "title": "US warns Madagascar over growing military ties with Russia"
   },
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "8f811ca36f17a2ae",
+     "lang": "es",
+     "outlet": "El Universal (Mexico)",
+     "published": "2026-11-24T13:41:03+00:00",
+     "publisher": "El Universal (Mexico)",
+     "region": "latam",
+     "section": null,
+     "title": "Detienen en Sinaloa a Samuel Félix, productor de drogas ligado a “Los Mayos”; le aseguran un arma larga y cargadores",
+     "type": "local",
+     "url": "https://www.eluniversal.com.mx/nacion/detienen-en-sinaloa-a-samuel-felix-productor-de-drogas-ligado-a-los-mayos-le-aseguran-un-arma-larga-y-cargadores/"
+    },
     {
      "added": "2026-11-24",
      "id": "56ba506c05b0dbad",
@@ -19188,7 +19196,7 @@
      "url": "https://www.eluniversal.com.mx/nacion/ejercito-y-gn-inhabilitan-campamento-con-armas-en-chihuahua-aseguran-cartuchos-cargadores-y-vehiculo-con-blindaje-artesanal/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-11",
    "group": "latam",
    "id": "mexico-security-operations-in-chihuahua",
@@ -19197,6 +19205,18 @@
    "last_updated": "2026-11-24",
    "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "8f811ca36f17a2ae"
+     ],
+     "date": "2026-11-24",
+     "group": "latam",
+     "outlets": [
+      "El Universal (Mexico)"
+     ],
+     "published": "2026-11-24T13:41:03+00:00",
+     "text": "[El Universal (Mexico)](https://www.eluniversal.com.mx/nacion/detienen-en-sinaloa-a-samuel-felix-productor-de-drogas-ligado-a-los-mayos-le-aseguran-un-arma-larga-y-cargadores/) reported that Samuel Félix, a synthetic drug producer linked to Los Mayos, was detained in Sinaloa along with a long gun and magazines."
+    },
     {
      "articles": [
       "56ba506c05b0dbad"
@@ -20596,8 +20616,34 @@
    }
   },
   {
-   "article_count": 344,
+   "article_count": 346,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "baea272f7af61a99",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-24T11:37:15+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Russian attacks kill 9, injure 81 across Ukraine over past day, Zaporizhzhia residential building massively hit",
+     "type": "local",
+     "url": "https://kyivindependent.com/russian-attacks-kill-9-injure-77-across-ukraine-over-past-day-zaporizhzhia-residential-building-massively-hit/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "a051f2a3180e28a8",
+     "lang": "en",
+     "outlet": "Ukrainska Pravda",
+     "published": "2026-11-24T10:05:00+00:00",
+     "publisher": "Ukrainska Pravda",
+     "region": "europe",
+     "section": null,
+     "title": "Russian FPV drone attack on Zaporizhzhia injures woman",
+     "type": "local",
+     "url": "https://www.pravda.com.ua/eng/news/2026/11/24/8064366/"
+    },
     {
      "added": "2026-11-24",
      "id": "39325b6d30b0f39f",
@@ -21130,35 +21176,9 @@
      "title": "Russians kill two and injure over 20, including child, in Zaporizhzhia Oblast over past day – photo",
      "type": "local",
      "url": "https://www.pravda.com.ua/eng/news/2026/11/21/8063909/"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "aaa485589606c962",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-21T05:00:50+00:00",
-     "publisher": "The Guardian",
-     "region": "global",
-     "section": null,
-     "title": "‘So what if there’s a hole? It hasn’t collapsed’: Kyiv residents unbothered by Russian attacks on city’s bridges",
-     "type": "international",
-     "url": "https://www.theguardian.com/world/2026/nov/21/kyiv-russian-attacks-bridges"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "c5b2393c15d2f338",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-21T04:58:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Russia launches another attack on Kryvyi Rih, fire breaks out at industrial facility",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-ato/4187031-russia-launches-another-attack-on-kryvyi-rih-fire-breaks-out-at-industrial-facility.html"
     }
    ],
-   "articles_today": 13,
+   "articles_today": 15,
    "first_seen": "2026-11-11",
    "group": "asia",
    "id": "ukraine-drone-strikes-on-russia-and",
@@ -21174,7 +21194,7 @@
     "kyiv-foreign-embassies-damaged",
     "komyshuvakha-search-operations-and-casualties"
    ],
-   "outlets_today": 8,
+   "outlets_today": 9,
    "previous_titles": [
     "Russian Drone Strikes on Dnipro Injure Six, Including 15-Year-Old Boy",
     "Eleven injured, including child, in Russian strike on market in Kharkiv Oblast",
@@ -21188,6 +21208,30 @@
     "Russian forces strike Sloviansk, killing two, injuring three others"
    ],
    "reports": [
+    {
+     "articles": [
+      "a051f2a3180e28a8"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Ukrainska Pravda"
+     ],
+     "published": "2026-11-24T10:05:00+00:00",
+     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/24/8064366/) reported that a Russian FPV drone attack on Zaporizhzhia injured a woman who is now in serious condition."
+    },
+    {
+     "articles": [
+      "baea272f7af61a99"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-24T11:37:15+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/russian-attacks-kill-9-injure-77-across-ukraine-over-past-day-zaporizhzhia-residential-building-massively-hit/) reported that Russian attacks killed nine people and injured 81 across Ukraine over the past day, partially destroying a five-story residential building in Zaporizhzhia Oblast."
+    },
     {
      "articles": [
       "c49cef65f65794bd"
@@ -21654,32 +21698,6 @@
      ],
      "published": "2026-11-20T06:22:00+00:00",
      "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/20/8063739/) reported that Russian attacks damaged railway infrastructure and injured five people in Kryvyi Rih and Zhovti Vody in Dnipropetrovsk Oblast."
-    },
-    {
-     "articles": [
-      "d020a5c5403a2db9"
-     ],
-     "date": "2026-11-20",
-     "group": "europe",
-     "outlets": [
-      "Ukrainska Pravda"
-     ],
-     "published": "2026-11-19T16:29:00+00:00",
-     "text": "[Ukrainska Pravda](https://www.pravda.com.ua/eng/news/2026/11/19/8063672/) reported that Russian forces attacked Kharkiv with drones, injuring five people and damaging shops in the Saltivskyi district."
-    },
-    {
-     "articles": [
-      "557304be1ca16953",
-      "c70ecf5d177daf53"
-     ],
-     "date": "2026-11-20",
-     "group": "europe",
-     "outlets": [
-      "Kyiv Post",
-      "Ukrinform"
-     ],
-     "published": "2026-11-20T03:18:14+00:00",
-     "text": "[Kyiv Post](https://www.kyivpost.com/post/90656), [Ukrinform](https://www.ukrinform.net/rubric-ato/4186633-russian-drone-hits-hospital-in-kharkiv-four-people-injured.html) reported that a Russian drone struck a hospital in Kharkiv, injuring four people and damaging more than 50 windows."
     }
    ],
    "single_source_today": false,
@@ -33495,8 +33513,40 @@
    }
   },
   {
-   "article_count": 45,
+   "article_count": 47,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-24"
+     ],
+     "id": "0e9ecb53ce34e60a",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-24T13:30:00+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "Dólar hoy y dólar blue, EN VIVO: a cuánto cotizan el oficial y el paralelo este martes 24 de noviembre, minuto a minuto",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-martes-24-de-noviembre-nid24112026/"
+    },
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-24"
+     ],
+     "id": "7e4c6ac86eb8faa1",
+     "lang": "es",
+     "outlet": "El Deber",
+     "published": "2026-11-24T11:45:36+00:00",
+     "publisher": "El Deber",
+     "region": "latam",
+     "section": null,
+     "title": "¿Cuánto cuesta el dólar este martes 24 de noviembre? Hay cotizaciones distintas en los mercados",
+     "type": "local",
+     "url": "https://eldeber.com.bo/economia/cuanto-cuesta-dolar-este-martes-24-noviembre-hay-cotizaciones-distintas-mercados_1795520736"
+    },
     {
      "added": "2026-11-24",
      "dates": [
@@ -34101,49 +34151,29 @@
      "title": "Dólar MEP hoy: a cuánto cotiza este sábado 14 de noviembre",
      "type": "local",
      "url": "https://www.clarin.com/economia/dolar-mep-hoy-cotiza-sabado-14-noviembre_0_O4TEmTXZz7.html"
-    },
-    {
-     "added": "2026-11-14",
-     "dates": [
-      "2026-11-14"
-     ],
-     "id": "a4a9f5de8edd4a0d",
-     "lang": "es",
-     "outlet": "La Nación (Argentina)",
-     "published": "2026-11-14T10:02:00+00:00",
-     "publisher": "La Nación (Argentina)",
-     "region": "latam",
-     "section": null,
-     "title": "Dólar hoy y dólar blue hoy: a cuánto cotiza este sábado 14 de noviembre",
-     "type": "local",
-     "url": "https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-hoy-a-cuanto-cotiza-este-sabado-14-de-noviembre-nid14112026/"
-    },
-    {
-     "added": "2026-11-14",
-     "dates": [
-      "2026-11-14"
-     ],
-     "id": "1962802838e3a8f8",
-     "lang": "es",
-     "outlet": "Clarín",
-     "published": "2026-11-14T07:00:06+00:00",
-     "publisher": "Clarín",
-     "region": "latam",
-     "section": null,
-     "title": "Dólar blue hoy: a cuánto cotiza este sábado 14 de noviembre",
-     "type": "local",
-     "url": "https://www.clarin.com/economia/dolar-blue-hoy-cotiza-sabado-14-noviembre_0_ehgS3a4fqr.html"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 9,
    "first_seen": "2026-11-12",
    "group": "latam",
    "id": "argentina-exchange-rates",
    "label": "Argentina exchange rates",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "7e4c6ac86eb8faa1"
+     ],
+     "date": "2026-11-24",
+     "group": "latam",
+     "outlets": [
+      "El Deber"
+     ],
+     "published": "2026-11-24T11:45:36+00:00",
+     "text": "[El Deber](https://eldeber.com.bo/economia/cuanto-cuesta-dolar-este-martes-24-noviembre-hay-cotizaciones-distintas-mercados_1795520736) reported that the US dollar exceeds 12 Bolivianos in the informal market in Bolivia."
+    },
     {
      "articles": [
       "735da0d19960223c"
@@ -34255,7 +34285,7 @@
      "text": "[La Nación (Argentina)](https://www.lanacion.com.ar/economia/dolar/dolar-hoy-y-dolar-blue-en-vivo-a-cuanto-cotizan-el-oficial-y-el-paralelo-este-jueves-12-de-noviembre-nid12112026/), [Clarín](https://www.clarin.com/economia/dolar-hoy-cotizan-oficial-diferentes-tipos-cambio-jueves-12-noviembre_0_NWvqGFBq5Z.html) reported on the exchange rates for the official dollar and other types of currency in Argentina."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Argentina exchange rates"
@@ -35206,8 +35236,34 @@
    "title": "Spain Ceuta migration investigation"
   },
   {
-   "article_count": 161,
+   "article_count": 163,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "0a8012eb7255da8c",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-24T12:26:14+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Bayelsa boat tragedy: Diri appeals for FG’s support to complete roads",
+     "type": "local",
+     "url": "https://punchng.com/bayelsa-boat-tragedy-diri-appeals-for-fgs-support-to-complete-roads/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "de3e6e17974b0d23",
+     "lang": "en",
+     "outlet": "The Authority (Nigeria)",
+     "published": "2026-11-24T09:08:14+00:00",
+     "publisher": "The Authority (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "Boat Tragedy: Gov Diri Appeals For FG’s Support To Complete Senatorial Roads",
+     "type": "local",
+     "url": "https://authorityngr.com/2026/11/24/boat-tragedy-gov-diri-appeals-for-fgs-support-to-complete-senatorial-roads/"
+    },
     {
      "added": "2026-11-23",
      "id": "d9d889ffad6a27f9",
@@ -35704,41 +35760,15 @@
      "title": "Bayelsa tragedy: Ibadan rally will be low-key, devoid of much fanfare – Tinubu",
      "type": "local",
      "url": "https://tribuneonlineng.com/bayelsa-tragedy-ibadan-rally-will-be-low-key-devoid-of-much-fanfare-tinubu/"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "3acd923adaf609b4",
-     "lang": "en",
-     "outlet": "Punch",
-     "published": "2026-11-21T13:00:34+00:00",
-     "publisher": "Punch",
-     "region": "africa",
-     "section": null,
-     "title": "VIDEO: Tinubu, First Lady land in Ibadan for APC rally",
-     "type": "local",
-     "url": "https://punchng.com/video-tinubu-first-lady-land-in-ibadan-for-apc-rally/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "b5e9e08c2b87a50d",
-     "lang": "en",
-     "outlet": "Punch",
-     "published": "2026-11-21T12:14:47+00:00",
-     "publisher": "Punch",
-     "region": "africa",
-     "section": null,
-     "title": "APC rally: Traders make brisk sales in Ibadan",
-     "type": "local",
-     "url": "https://punchng.com/apc-rally-traders-make-brisk-sales-in-ibadan/?utm_source=rss.punchng.com&utm_medium=web"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "africa",
    "id": "apc-kano-stakeholders-support-group",
    "label": "APC Kano stakeholders support group",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
    "merged": [
     "rivers-capable-of-delivering-massive-votes",
     "apc-pcc-accuses-adc-ndc-of",
@@ -35749,7 +35779,7 @@
     "nigerian-political-mobilization-for-2027",
     "zamfara-police-rescue-operation"
    ],
-   "outlets_today": 0,
+   "outlets_today": 2,
    "previous_titles": [
     "Tinubu prepares five-year plan to end Boko Haram insurgency, tackle insecurity",
     "Nigerian newspapers review: Tinubu’s 5-year defence plan to end insecurity ready — APC-PCC",
@@ -35763,6 +35793,18 @@
     "President Orders Stiffer Safety Actions, Full Probe as 29 Perish in Bayelsa Boat Mishap"
    ],
    "reports": [
+    {
+     "articles": [
+      "de3e6e17974b0d23"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "The Authority (Nigeria)"
+     ],
+     "published": "2026-11-24T09:08:14+00:00",
+     "text": "[The Authority (Nigeria)](https://authorityngr.com/2026/11/24/boat-tragedy-gov-diri-appeals-for-fgs-support-to-complete-senatorial-roads/) reported that Bayelsa State Governor Douye Diri made a fresh appeal to the Federal Government to help complete three senatorial district road projects following a boat tragedy."
+    },
     {
      "articles": [
       "d9d889ffad6a27f9"
@@ -36264,23 +36306,11 @@
      ],
      "published": "2026-11-19T16:33:56+00:00",
      "text": "[Vanguard](https://www.vanguardngr.com/2026/11/umahi-urges-south-east-to-vote-massively-for-tinubu/) Vanguard reported that Minister of Works David Umahi urged voters in the South-East to support President Bola Tinubu in the 2027 general elections."
-    },
-    {
-     "articles": [
-      "a98061dc8f96c5da"
-     ],
-     "date": "2026-11-19",
-     "group": "africa",
-     "outlets": [
-      "Punch"
-     ],
-     "published": "2026-11-19T16:39:47+00:00",
-     "text": "[Punch](https://punchng.com/tinubu-has-ended-south-east-marginalisation-says-umahi/?utm_source=rss.punchng.com&utm_medium=web) Punch reported that David Umahi stated President Tinubu has ended the marginalization of the South-East through inclusion and road projects."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "nigeria",
    "title": "Tinubu Mourns Bayelsa Boat Tragedy Victims, Scales Down Ibadan Rally",
    "title_from": {
@@ -41146,8 +41176,34 @@
    }
   },
   {
-   "article_count": 286,
+   "article_count": 288,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "61175556a0ba8f98",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-24T12:28:16+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Kyiv Defends Strike on Russian Corvette in Libya as Act of Self-Defense",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/91048"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "5b146cdc0ff395ea",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-24T11:00:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "A Russian strike on Ukraine kills 2 and wounds children as Kyiv explains its attack in Libya",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnR2aXdGN1dOTnJ1QmhWQWhjWnEwOHQ3QzJ2VExKcHRVZEE3TlloVi11NnJRajdKaThMRGIxeElNM2ZvWWJ5c2dmT2xLbzA1ZHRra0JHTGdteC03dXA5RWFXWTMxejFtSC1odHJiem9QOTY1eWN6OXVEQjV4eUtXX1duQTFLellMcjBCb0NzLUIwT0c1S1FFZEU5N2ZLc3M?oc=5"
+    },
     {
      "added": "2026-11-24",
      "id": "8d3fe9174e9c7f46",
@@ -41647,35 +41703,9 @@
      "title": "Fire at Novoshakhtinsk oil refinery is visible even from space, Ukraine's General Staff says",
      "type": "local",
      "url": "https://www.pravda.com.ua/eng/news/2026/11/23/8064198/"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "0a523d05bee67963",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-23T11:42:51+00:00",
-     "publisher": "The Guardian",
-     "region": "global",
-     "section": null,
-     "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-     "type": "international",
-     "url": "https://www.theguardian.com/world/2026/nov/23/ukraine-naval-drones-strike-russian-warship-libya"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "1ce79322409e120d",
-     "lang": "en",
-     "outlet": "BBC World",
-     "published": "2026-11-23T11:34:10+00:00",
-     "publisher": "BBC",
-     "region": "global",
-     "section": null,
-     "title": "Ukraine shares video of strikes on Russian ships off Libya",
-     "type": "international",
-     "url": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 11,
+   "articles_today": 13,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "russian-warship-hit-by-ukrainian-drone",
@@ -41686,7 +41716,7 @@
     "explosion-on-russian-ship-in-libya",
     "russian-corvette-reportedly-destroyed-in-blast"
    ],
-   "outlets_today": 16,
+   "outlets_today": 17,
    "previous_titles": [
     "Finland Says It Detected Strike on Russian Warship in Baltic Sea",
     "Russian ship damaged by drone attack in Gulf of Finland, Helsinki and Moscow say",
@@ -41699,6 +41729,30 @@
     "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast"
    ],
    "reports": [
+    {
+     "articles": [
+      "5b146cdc0ff395ea"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Associated Press"
+     ],
+     "published": "2026-11-24T11:00:00+00:00",
+     "text": "[Associated Press](https://news.google.com/rss/articles/CBMinwFBVV95cUxOTnR2aXdGN1dOTnJ1QmhWQWhjWnEwOHQ3QzJ2VExKcHRVZEE3TlloVi11NnJRajdKaThMRGIxeElNM2ZvWWJ5c2dmT2xLbzA1ZHRra0JHTGdteC03dXA5RWFXWTMxejFtSC1odHJiem9QOTY1eWN6OXVEQjV4eUtXX1duQTFLellMcjBCb0NzLUIwT0c1S1FFZEU5N2ZLc3M?oc=5) reported that a Russian strike on Ukraine killed two people and wounded children as Kyiv explained its naval attack near Libya."
+    },
+    {
+     "articles": [
+      "61175556a0ba8f98"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Post"
+     ],
+     "published": "2026-11-24T12:28:16+00:00",
+     "text": "[Kyiv Post](https://www.kyivpost.com/post/91048) reported that Ukraine defended its naval drone operation against Russian military assets near Libya as a legitimate act of self-defense."
+    },
     {
      "articles": [
       "8d3fe9174e9c7f46"
@@ -42192,32 +42246,6 @@
      ],
      "published": "2026-11-22T16:01:29+00:00",
      "text": "[Reuters](https://news.google.com/rss/articles/CBMipgFBVV95cUxPTXUxa0FLT1o3Tzh4MUR0MV9ZenU1LU9PZl9QSzhsQXlOQThFNUxWbWFXRXZTOHFpb1lJdG1GTV9hOUZsc2x4YzBOSzV3ZHZkV2pyNjNIaTVWZEViQ2lLb3JkcjJsbGhVNXFmWXQ5c0pDTkVXeG9IbmlKV3AxYUtfNE5DVnhWX3lvNmg0SF9SZ1lHQzEtSnY1REsycUlvWFVEOFlBSXR3?oc=5) reported that Russia started towing a ship hit by drones in the Baltic, according to Finland."
-    },
-    {
-     "articles": [
-      "4d6eb3eaf5dcd751",
-      "9b419de71a67cfb8"
-     ],
-     "date": "2026-11-22",
-     "group": "europe",
-     "outlets": [
-      "Associated Press",
-      "Defence Blog"
-     ],
-     "published": "2026-11-22T15:48:12+00:00",
-     "text": "[Associated Press](https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEJrLWtkTl9ZY1lGN3JPaUNjSjVabFVGcnlERXpyYVdRNGN4OEtMOTVkczkzVDlhaWQxQ2xQdXdEak5oNkhBOWdrd01QV2hBYXlOZXV4Zl8weXpVNmxuMUlMM21sT2YwQjFqcjZIRlk4UmxQMUxPcTFRVjRQNFpqdzl4NjNodnZicldRLWRlV2R1allIR1BpM2x3?oc=5), [Defence Blog](https://defence-blog.com/libya-says-russian-corvette-in-benghazi-hit-by-drones/) reported that eastern Libya's government stated a Russian ship docked at the Benghazi naval base was likely hit by unmanned vehicles before dawn."
-    },
-    {
-     "articles": [
-      "dbbecc8c633ec55d"
-     ],
-     "date": "2026-11-22",
-     "group": "europe",
-     "outlets": [
-      "DW"
-     ],
-     "published": "2026-11-22T16:50:00+00:00",
-     "text": "[DW](https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-rdf) reported that a Russian vessel at an eastern Libyan naval base was hit by a suspected drone strike."
     }
    ],
    "single_source_today": false,
@@ -51504,7 +51532,7 @@
    }
   },
   {
-   "article_count": 61,
+   "article_count": 69,
    "articles": [
     {
      "added": "2026-11-24",
@@ -51573,6 +51601,19 @@
     },
     {
      "added": "2026-11-24",
+     "id": "f56ba04f9503605c",
+     "lang": "en",
+     "outlet": "This Day",
+     "published": "2026-11-24T03:53:10+00:00",
+     "publisher": "This Day",
+     "region": "africa",
+     "section": null,
+     "title": "APC Campaign Council Engages Media, Highlights Tinubu’s Reforms Ahead of 2027",
+     "type": "local",
+     "url": "https://www.thisdaylive.com/2026/11/24/apc-campaign-council-engages-media-highlights-tinubus-reforms-ahead-of-2027/"
+    },
+    {
+     "added": "2026-11-24",
      "id": "ee7265e1003b7c38",
      "lang": "en",
      "outlet": "Legit (Nigeria)",
@@ -51596,6 +51637,45 @@
      "title": "Gombe community seeks justice for three killed by Air Force personnel",
      "type": "local",
      "url": "https://punchng.com/gombe-community-seeks-justice-for-three-killed-by-air-force-personnel/?utm_source=rss.punchng.com&utm_medium=web"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "15a35fc35cd390f3",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-23T19:54:37+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "2027: APC flags off presidential/guber campaign in Zamfara",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/2027-apc-flags-off-presidential-guber-campaign-in-zamfara/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "bd014dd54efe2991",
+     "lang": "en",
+     "outlet": "The Sun (Nigeria)",
+     "published": "2026-11-23T18:54:07+00:00",
+     "publisher": "The Sun (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "Gov. Lawal flags-off Zamfara APC campaign in Mafara, vows inclusive governance",
+     "type": "local",
+     "url": "https://thesun.ng/gov-lawal-flags-off-zamfara-apc-campaign-in-mafara-vows-inclusive-governance/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "13ed7e6c2c909549",
+     "lang": "en",
+     "outlet": "Premium Times",
+     "published": "2026-11-23T18:05:11+00:00",
+     "publisher": "Premium Times",
+     "region": "africa",
+     "section": null,
+     "title": "Talata Mafara agog as Lawal flags off APC campaign in Zamfara",
+     "type": "local",
+     "url": "https://www.premiumtimesng.com/promoted/927466-talata-mafara-agog-as-lawal-flags-off-apc-campaign-in-zamfara.html"
     },
     {
      "added": "2026-11-21",
@@ -51726,6 +51806,19 @@
      "title": "PDP delegation visits injured APC leaders at Gombe hospital",
      "type": "local",
      "url": "https://www.vanguardngr.com/2026/11/pdp-delegation-visits-injured-apc-leaders-at-gombe-hospital/"
+    },
+    {
+     "added": "2026-11-18",
+     "id": "8d05450c4dec0a83",
+     "lang": "en",
+     "outlet": "Premium Times",
+     "published": "2026-11-18T16:44:51+00:00",
+     "publisher": "Premium Times",
+     "region": "africa",
+     "section": null,
+     "title": "Gov Lawal inaugurates campaign council, says the mission to rescue Zamfara is in progress",
+     "type": "local",
+     "url": "https://www.premiumtimesng.com/promoted/926268-gov-lawal-inaugurates-campaign-council-says-the-mission-to-rescue-zamfara-is-in-progress.html"
     },
     {
      "added": "2026-11-18",
@@ -51885,6 +51978,19 @@
     },
     {
      "added": "2026-11-17",
+     "id": "d882d95a7f310310",
+     "lang": "en",
+     "outlet": "Times of Malta",
+     "published": "2026-11-17T15:50:00+00:00",
+     "publisher": "Times of Malta",
+     "region": "europe",
+     "section": null,
+     "title": "PN to convene General Council next month ahead of deputy leadership elections",
+     "type": "local",
+     "url": "https://timesofmalta.com/article/pn-convene-general-council-next-month-deputy-leadership-elections.1137256"
+    },
+    {
+     "added": "2026-11-17",
      "id": "1e683325a4b4390b",
      "lang": "en",
      "outlet": "Legit (Nigeria)",
@@ -51947,94 +52053,19 @@
      "title": "Stay away from tomorrow’s APC campaign rally, Itsekiri youths warn Oborevwori",
      "type": "local",
      "url": "https://www.vanguardngr.com/2026/11/stay-away-from-tomorrows-apc-campaign-rally-itsekiri-youths-warn-oborevwori/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "2d3f259f781735f1",
-     "lang": "en",
-     "outlet": "Punch",
-     "published": "2026-11-17T01:15:40+00:00",
-     "publisher": "Punch",
-     "region": "africa",
-     "section": null,
-     "title": "A’Ibom gov seeks 80,000 LG votes for Tinubu, APC",
-     "type": "local",
-     "url": "https://punchng.com/aibom-gov-seeks-80000-lg-votes-for-tinubu-apc/?utm_source=rss.punchng.com&utm_medium=web"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "23e27ad43141e8cb",
-     "lang": "en",
-     "outlet": "The Sun (Nigeria)",
-     "published": "2026-11-16T18:30:20+00:00",
-     "publisher": "The Sun (Nigeria)",
-     "region": "africa",
-     "section": null,
-     "title": "Abia APC kicks off Presidential Campaign, promises massive votes for Tinubu",
-     "type": "local",
-     "url": "https://thesun.ng/abia-apc-kicks-off-presidential-campaign-promises-massive-votes-for-tinubu/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "9b09332848de6eeb",
-     "lang": "en",
-     "outlet": "Vanguard",
-     "published": "2026-11-16T18:20:01+00:00",
-     "publisher": "Vanguard",
-     "region": "africa",
-     "section": null,
-     "title": "APC flags off 2027 campaign in Abia, Kalu targets 75% for Tinubu",
-     "type": "local",
-     "url": "https://www.vanguardngr.com/2026/11/apc-flags-off-2027-campaign-in-abia-kalu-targets-75-for-tinubu/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "7f67aafef30190a1",
-     "lang": "en",
-     "outlet": "AllAfrica",
-     "published": "2026-11-16T15:13:32+00:00",
-     "publisher": "AllAfrica",
-     "region": "africa",
-     "section": null,
-     "title": "Nigeria: Tinubu - Kebbi APC Concludes Preparations for Presidential Rally",
-     "type": "regional",
-     "url": "https://allafrica.com/stories/202611160597.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "3b496de76e33512f",
-     "lang": "en",
-     "outlet": "This Day",
-     "published": "2026-11-16T10:11:15+00:00",
-     "publisher": "This Day",
-     "region": "africa",
-     "section": null,
-     "title": "As Deputy Speaker Kalu Flags Off APC Presidential Campaign for Tinubu, Shettima in Abia…",
-     "type": "local",
-     "url": "https://www.thisdaylive.com/2026/11/16/as-deputy-speaker-kalu-flags-off-apc-presidential-campaign-for-tinubu-shettima-in-abia/"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "d61053364fb7f7ca",
-     "lang": "en",
-     "outlet": "Nigerian Tribune",
-     "published": "2026-11-15T11:26:11+00:00",
-     "publisher": "Nigerian Tribune",
-     "region": "africa",
-     "section": null,
-     "title": "Kano Yoruba community endorses Tinubu, Yusuf for 2027 re-election",
-     "type": "local",
-     "url": "https://tribuneonlineng.com/kano-yoruba-community-endorses-tinubu-yusuf-for-2027-re-election/"
     }
    ],
-   "articles_today": 7,
+   "articles_today": 11,
    "first_seen": "2026-11-13",
    "group": "africa",
    "id": "nigeria-grassroots-mobilisation",
    "label": "Nigeria grassroots mobilisation",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 6,
+   "merged": [
+    "zamfara-apc-campaign-council"
+   ],
+   "outlets_today": 7,
    "previous_titles": [
     "Nigeria: Tompolo Leads Grassroots Mobilisation for Tinubu in Jigawa, Zamfara",
     "2027: Ondo APC to sustain grassroots mobilisation after Tinubu’s rally – Campaign DG, Olabimtan",
@@ -52043,9 +52074,46 @@
     "Abia APC kicks off Presidential Campaign, promises massive votes for Tinubu",
     "Breaking: Panic as APC chairman, campaign DG's vehicle crashes on way to rally",
     "At APC Presidential Rally In Birnin Kebbi, Tinubu Approves Inland Dry Port For Kebbi",
-    "Several Injured, Vehicles Damaged As Suspected Thugs Attack APC Campaign Convoy In Gombe"
+    "Several Injured, Vehicles Damaged As Suspected Thugs Attack APC Campaign Convoy In Gombe",
+    "15 APC supporters killed, 27 injured in Zamfara road crash; party postpones rally"
    ],
    "reports": [
+    {
+     "articles": [
+      "f56ba04f9503605c"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "This Day"
+     ],
+     "published": "2026-11-24T03:53:10+00:00",
+     "text": "[This Day](https://www.thisdaylive.com/2026/11/24/apc-campaign-council-engages-media-highlights-tinubus-reforms-ahead-of-2027/) reported that the All Progressives Congress Presidential Campaign Council engaged media practitioners in Lagos."
+    },
+    {
+     "articles": [
+      "13ed7e6c2c909549"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Premium Times"
+     ],
+     "published": "2026-11-23T18:05:11+00:00",
+     "text": "[Premium Times](https://www.premiumtimesng.com/promoted/927466-talata-mafara-agog-as-lawal-flags-off-apc-campaign-in-zamfara.html) reported that the rally brought together major APC stakeholders in the state, including the Director General of the Tinubu/Shettima Presidential Campaign Council."
+    },
+    {
+     "articles": [
+      "15a35fc35cd390f3"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Nigerian Tribune"
+     ],
+     "published": "2026-11-23T19:54:37+00:00",
+     "text": "[Nigerian Tribune](https://tribuneonlineng.com/2027-apc-flags-off-presidential-guber-campaign-in-zamfara/) reported that the All Progressives Congress in Zamfara State has flagged off its presidential and gubernatorial campaign ahead of the 2027 general elections."
+    },
     {
      "articles": [
       "208371d3b2ca1e21"
@@ -52177,6 +52245,18 @@
      ],
      "published": "2026-11-19T16:39:47+00:00",
      "text": "[Punch](https://punchng.com/2027-radda-warns-katsina-voters-against-irresponsible-politicians/?utm_source=rss.punchng.com&utm_medium=web) reported that Katsina Governor Dikko Radda urged Kankia voters to back the APC, Tinubu, and party candidates in 2027."
+    },
+    {
+     "articles": [
+      "8d05450c4dec0a83"
+     ],
+     "date": "2026-11-18",
+     "group": "africa",
+     "outlets": [
+      "Premium Times"
+     ],
+     "published": "2026-11-18T16:44:51+00:00",
+     "text": "[Premium Times](https://www.premiumtimesng.com/promoted/926268-gov-lawal-inaugurates-campaign-council-says-the-mission-to-rescue-zamfara-is-in-progress.html) reported that Zamfara State Governor Lawal inaugurated a campaign council to strengthen the party and build on good governance."
     },
     {
      "articles": [
@@ -52344,6 +52424,18 @@
     },
     {
      "articles": [
+      "f5e631514bc1e10d"
+     ],
+     "date": "2026-11-15",
+     "group": "africa",
+     "outlets": [
+      "The Sun (Nigeria)"
+     ],
+     "published": "2026-11-15T15:27:50+00:00",
+     "text": "[The Sun (Nigeria)](https://thesun.ng/apc-constitutes-over-900-member-gubernatorial-campaign-council-ahead-of-2027-general-elections-in-zamfara/) reported that the Zamfara State chapter of the All Progressives Congress constituted a 900-member gubernatorial campaign council."
+    },
+    {
+     "articles": [
       "d61053364fb7f7ca"
      ],
      "date": "2026-11-15",
@@ -52477,57 +52569,19 @@
      ],
      "published": "2026-11-13T14:07:15+00:00",
      "text": "[Nigerian Tribune](https://tribuneonlineng.com/ondo-apc-declares-unity-vows-to-deliver-tinubu-candidates-in-2027/) reported that the Ondo State chapter of the All Progressives Congress declared its readiness for the 2027 general elections."
-    },
-    {
-     "articles": [
-      "39987d0afb75ccfb"
-     ],
-     "date": "2026-11-13",
-     "group": "africa",
-     "outlets": [
-      "AllAfrica"
-     ],
-     "published": "2026-11-13T07:55:57+00:00",
-     "text": "[AllAfrica](https://allafrica.com/stories/202611130113.html) AllAfrica reported that Lagos State Governor Babajide Sanwo-Olu and his predecessor Akinwunmi Ambode sought voters' support for President Bola Tinubu."
-    },
-    {
-     "articles": [
-      "641bea1ed31fe2be"
-     ],
-     "date": "2026-11-13",
-     "group": "africa",
-     "outlets": [
-      "Nigerian Tribune"
-     ],
-     "published": "2026-11-13T12:18:55+00:00",
-     "text": "[Nigerian Tribune](https://tribuneonlineng.com/2027-ondo-apc-to-sustain-grassroots-mobilisation-after-tinubus-rally-campaign-dg-olabimtan/) reported that Ondo State APC Campaign Director-General Victor Olabimtan stated that the party will sustain grassroots mobilization following President Bola Tinubu's rally."
-    },
-    {
-     "articles": [
-      "dbfc9b4cdaa636a6",
-      "e6cebc877d63a6dc"
-     ],
-     "date": "2026-11-13",
-     "group": "africa",
-     "outlets": [
-      "Premium Times",
-      "AllAfrica"
-     ],
-     "published": "2026-11-12T20:30:19+00:00",
-     "text": "[Premium Times](https://www.premiumtimesng.com/news/top-news/924776-2027-tompolo-leads-grassroots-mobilisation-for-tinubu-in-jigawa-zamfara-unveils-56-vehicles.html), [AllAfrica](https://allafrica.com/stories/202611130111.html) reported that Tompolo led grassroots mobilisation for President Bola Ahmed Tinubu in Jigawa and Zamfara by unveiling 56 vehicles."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "nigeria",
-   "title": "15 APC supporters killed, 27 injured in Zamfara road crash; party postpones rally",
+   "title": "Gov. Lawal flags-off Zamfara APC campaign in Mafara, vows inclusive governance",
    "title_from": {
-    "backing": 3,
+    "backing": 5,
     "date": "2026-11-24",
-    "of": 4,
-    "outlet": "Premium Times",
-    "url": "https://www.premiumtimesng.com/news/top-news/927545-15-apc-supporters-killed-27-injured-in-zamfara-road-crash-party-postpones-rally.html"
+    "of": 6,
+    "outlet": "The Sun (Nigeria)",
+    "url": "https://thesun.ng/gov-lawal-flags-off-zamfara-apc-campaign-in-mafara-vows-inclusive-governance/"
    }
   },
   {
@@ -59497,8 +59551,21 @@
    }
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "5332da313393d3a7",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-24T13:45:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "Počinje besplatna vakcinacija protiv gripe u Kantonu Sarajevo: Ovo je spisak ambulanti i termina",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/pocinje-besplatna-vakcinacija-protiv-gripe-u-kantonu-sarajevo-ovo-je-spisak-ambulanti-i-termina/261124202"
+    },
     {
      "added": "2026-11-19",
      "id": "7d2d5c39188e4e4f",
@@ -59565,15 +59632,27 @@
      "url": "https://www.nezavisne.com/novosti/drustvo/Pocinje-vakcinacija-protiv-gripa-u-FBiH/992187"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "federation-of-bosnia-and-herzegovina-flu",
    "label": "Federation of Bosnia and Herzegovina flu vaccination",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "5332da313393d3a7"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Klix"
+     ],
+     "published": "2026-11-24T13:45:00+00:00",
+     "text": "[Klix](https://www.klix.ba/vijesti/bih/pocinje-besplatna-vakcinacija-protiv-gripe-u-kantonu-sarajevo-ovo-je-spisak-ambulanti-i-termina/261124202) reported that seasonal flu vaccination in Canton Sarajevo begins on Thursday, November 26, across all nine organizational units of the KS Health Center and family clinics."
+    },
     {
      "articles": [
       "7d2d5c39188e4e4f"
@@ -59623,9 +59702,9 @@
      "text": "[Oslobođenje](https://www.oslobodjenje.ba/vijesti/bih/stigle-su-vakcine-protiv-gripe-poznato-kada-pocinje-vakcinacija-u-f-bi-h/) reported that flu vaccines have arrived."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "bosnia",
    "title": "Federation of Bosnia and Herzegovina flu vaccination"
   },
@@ -71429,8 +71508,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 30,
+   "article_count": 31,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "05233baf7e4aa574",
+     "lang": "es",
+     "outlet": "La Nación (Argentina)",
+     "published": "2026-11-24T13:42:44+00:00",
+     "publisher": "La Nación (Argentina)",
+     "region": "latam",
+     "section": null,
+     "title": "Elecciones España 2026, EN VIVO: qué dicen las encuestas en los días previos",
+     "type": "local",
+     "url": "https://www.lanacion.com.ar/el-mundo/elecciones-espana-2026-en-vivo-que-dicen-las-encuestas-en-los-dias-previos-nid24112026/"
+    },
     {
      "added": "2026-11-24",
      "id": "5c5933b5d71ae712",
@@ -71825,7 +71917,7 @@
      "url": "https://www.larazon.es/espana/gobierno-activa-subida-pensiones-2027-primer-dia-campana-electoral_202611136af700a8d3bddc0868b05ce0.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "europe",
    "id": "spain-pension-revaluation-decree",
@@ -71835,7 +71927,7 @@
    "merged": [
     "spain-economic-electoral-debate"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -72097,7 +72189,7 @@
      "text": "[La Razón](https://www.larazon.es/espana/gobierno-activa-subida-pensiones-2027-primer-dia-campana-electoral_202611136af700a8d3bddc0868b05ce0.html), [El País](https://elpais.com/espana/elecciones-generales/2026-11-13/campana-elecciones-29n-y-actualidad-politica-en-directo.html) reported that the Council of Ministers approved the urgent processing of a decree to revalue pensions between 3% and 4%."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "spain",
@@ -73917,8 +74009,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 17,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "fb421b7a3acf77c0",
+     "lang": "en",
+     "outlet": "Yeni Şafak (English)",
+     "published": "2026-11-24T10:50:46+00:00",
+     "publisher": "Yeni Şafak (English)",
+     "region": "mena",
+     "section": null,
+     "title": "Israeli strikes hit southern Lebanon despite US-mediated deal",
+     "type": "local",
+     "url": "http://en.yenisafak.com/world/israeli-strikes-hit-southern-lebanon-despite-us-mediated-deal-3725945"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "1de56a39be8e8b15",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-24T05:43:31+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Israeli airstrikes, artillery shelling hit southern Lebanon as violations of US deal continue",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2642067/israeli-airstrikes-artillery-shelling-hit-southern-lebanon-as-violations-of-us-deal-continue"
+    },
     {
      "added": "2026-11-24",
      "id": "6f2c53063b94a9f4",
@@ -74144,15 +74262,39 @@
      "url": "http://en.yenisafak.com/world/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut-3725535"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "mena",
    "id": "israel-and-lebanon-border-shelling",
    "label": "Israel and Lebanon border shelling",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "1de56a39be8e8b15"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "The Express Tribune"
+     ],
+     "published": "2026-11-24T05:43:31+00:00",
+     "text": "[The Express Tribune](https://tribune.com.pk/story/2642067/israeli-airstrikes-artillery-shelling-hit-southern-lebanon-as-violations-of-us-deal-continue) reported that Israeli airstrikes and artillery shelling hit areas in Nabatieh, Marjayoun, Bint Jbeil and Tyre districts in southern Lebanon."
+    },
+    {
+     "articles": [
+      "fb421b7a3acf77c0"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Yeni Şafak (English)"
+     ],
+     "published": "2026-11-24T10:50:46+00:00",
+     "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/israeli-strikes-hit-southern-lebanon-despite-us-mediated-deal-3725945) reported that Israeli airstrikes, shelling and machine-gun fire hit southern Lebanon despite a US-mediated framework agreement with no casualties reported."
+    },
     {
      "articles": [
       "6f2c53063b94a9f4"
@@ -74312,7 +74454,7 @@
      "text": "[Yeni Şafak (English)](http://en.yenisafak.com/world/israeli-forces-shell-5-southern-lebanon-towns-as-drones-fly-low-over-beirut-3725535), [Naharnet](https://www.naharnet.com/stories/en/323762-low-flying-drones-buzz-beirut-as-israeli-shelling-targets-southern-towns) reported that Israeli forces shelled five southern Lebanon towns and low-flying drones buzzed Beirut."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "lebanon",
@@ -86855,7 +86997,6 @@
    ],
    "outlets_today": 8,
    "previous_titles": [
-    "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
     "New draft deal aims to avert collapse of talks at COP31 climate summit",
     "United Nations COP31 climate talks collapse in bitter row over fossil fuels",
     "COP31 Cover Deal Collapses as EU and Others Reject Draft Over Fossil Fuel Omission",
@@ -86864,7 +87005,8 @@
     "Climate talks collapse in chaotic end to COP31",
     "COP31 talks fail as EU, others reject any climate deal without language on a fossil fuel phase-out",
     "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate",
-    "COP31 Ends in Deadlock as Guterres Blasts Fossil Fuel Interests, Demands Urgent Climate Action"
+    "COP31 Ends in Deadlock as Guterres Blasts Fossil Fuel Interests, Demands Urgent Climate Action",
+    "Cop31 collapses: why did climate talks fall apart? - The Latest"
    ],
    "reports": [
     {
@@ -87396,13 +87538,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "turkey",
-   "title": "Cop31 collapses: why did climate talks fall apart? - The Latest",
+   "title": "Turkey's Erdogan says COP31 laid groundwork for more climate talks despite lack of deal",
    "title_from": {
-    "backing": 3,
+    "backing": 5,
     "date": "2026-11-24",
-    "of": 3,
-    "outlet": "The Guardian",
-    "url": "https://www.theguardian.com/news/audio/2026/nov/23/cop31-collapses-why-did-climate-talks-fall-apart-the-latest"
+    "of": 7,
+    "outlet": "Al-Monitor",
+    "url": "https://www.al-monitor.com/originals/2026/11/turkeys-erdogan-says-cop31-laid-groundwork-more-climate-talks-despite-lack-deal"
    },
    "topic": "diplomacy"
   },
@@ -128848,198 +128990,6 @@
    "topic": "politics"
   },
   {
-   "article_count": 8,
-   "articles": [
-    {
-     "added": "2026-11-24",
-     "id": "f56ba04f9503605c",
-     "lang": "en",
-     "outlet": "This Day",
-     "published": "2026-11-24T03:53:10+00:00",
-     "publisher": "This Day",
-     "region": "africa",
-     "section": null,
-     "title": "APC Campaign Council Engages Media, Highlights Tinubu’s Reforms Ahead of 2027",
-     "type": "local",
-     "url": "https://www.thisdaylive.com/2026/11/24/apc-campaign-council-engages-media-highlights-tinubus-reforms-ahead-of-2027/"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "15a35fc35cd390f3",
-     "lang": "en",
-     "outlet": "Nigerian Tribune",
-     "published": "2026-11-23T19:54:37+00:00",
-     "publisher": "Nigerian Tribune",
-     "region": "africa",
-     "section": null,
-     "title": "2027: APC flags off presidential/guber campaign in Zamfara",
-     "type": "local",
-     "url": "https://tribuneonlineng.com/2027-apc-flags-off-presidential-guber-campaign-in-zamfara/"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "bd014dd54efe2991",
-     "lang": "en",
-     "outlet": "The Sun (Nigeria)",
-     "published": "2026-11-23T18:54:07+00:00",
-     "publisher": "The Sun (Nigeria)",
-     "region": "africa",
-     "section": null,
-     "title": "Gov. Lawal flags-off Zamfara APC campaign in Mafara, vows inclusive governance",
-     "type": "local",
-     "url": "https://thesun.ng/gov-lawal-flags-off-zamfara-apc-campaign-in-mafara-vows-inclusive-governance/"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "13ed7e6c2c909549",
-     "lang": "en",
-     "outlet": "Premium Times",
-     "published": "2026-11-23T18:05:11+00:00",
-     "publisher": "Premium Times",
-     "region": "africa",
-     "section": null,
-     "title": "Talata Mafara agog as Lawal flags off APC campaign in Zamfara",
-     "type": "local",
-     "url": "https://www.premiumtimesng.com/promoted/927466-talata-mafara-agog-as-lawal-flags-off-apc-campaign-in-zamfara.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "8d05450c4dec0a83",
-     "lang": "en",
-     "outlet": "Premium Times",
-     "published": "2026-11-18T16:44:51+00:00",
-     "publisher": "Premium Times",
-     "region": "africa",
-     "section": null,
-     "title": "Gov Lawal inaugurates campaign council, says the mission to rescue Zamfara is in progress",
-     "type": "local",
-     "url": "https://www.premiumtimesng.com/promoted/926268-gov-lawal-inaugurates-campaign-council-says-the-mission-to-rescue-zamfara-is-in-progress.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "d882d95a7f310310",
-     "lang": "en",
-     "outlet": "Times of Malta",
-     "published": "2026-11-17T15:50:00+00:00",
-     "publisher": "Times of Malta",
-     "region": "europe",
-     "section": null,
-     "title": "PN to convene General Council next month ahead of deputy leadership elections",
-     "type": "local",
-     "url": "https://timesofmalta.com/article/pn-convene-general-council-next-month-deputy-leadership-elections.1137256"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "e54649083e7b7171",
-     "lang": "en",
-     "outlet": "Premium Times",
-     "published": "2026-11-15T17:07:18+00:00",
-     "publisher": "Premium Times",
-     "region": "africa",
-     "section": null,
-     "title": "2027 Poll: Zamfara APC constitutes 900-member gubernatorial campaign council",
-     "type": "local",
-     "url": "https://www.premiumtimesng.com/promoted/925362-2027-poll-zamfara-apc-constitutes-900-member-gubernatorial-campaign-council.html"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "f5e631514bc1e10d",
-     "lang": "en",
-     "outlet": "The Sun (Nigeria)",
-     "published": "2026-11-15T15:27:50+00:00",
-     "publisher": "The Sun (Nigeria)",
-     "region": "africa",
-     "section": null,
-     "title": "APC constitutes over 900-member gubernatorial campaign council ahead of 2027 general elections in Zamfara",
-     "type": "local",
-     "url": "https://thesun.ng/apc-constitutes-over-900-member-gubernatorial-campaign-council-ahead-of-2027-general-elections-in-zamfara/"
-    }
-   ],
-   "articles_today": 4,
-   "first_seen": "2026-11-15",
-   "group": "africa",
-   "id": "zamfara-apc-campaign-council",
-   "label": "Zamfara APC campaign council",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 4,
-   "reports": [
-    {
-     "articles": [
-      "f56ba04f9503605c"
-     ],
-     "date": "2026-11-24",
-     "group": "africa",
-     "outlets": [
-      "This Day"
-     ],
-     "published": "2026-11-24T03:53:10+00:00",
-     "text": "[This Day](https://www.thisdaylive.com/2026/11/24/apc-campaign-council-engages-media-highlights-tinubus-reforms-ahead-of-2027/) reported that the All Progressives Congress Presidential Campaign Council engaged media practitioners in Lagos."
-    },
-    {
-     "articles": [
-      "13ed7e6c2c909549"
-     ],
-     "date": "2026-11-24",
-     "group": "africa",
-     "outlets": [
-      "Premium Times"
-     ],
-     "published": "2026-11-23T18:05:11+00:00",
-     "text": "[Premium Times](https://www.premiumtimesng.com/promoted/927466-talata-mafara-agog-as-lawal-flags-off-apc-campaign-in-zamfara.html) reported that the rally brought together major APC stakeholders in the state, including the Director General of the Tinubu/Shettima Presidential Campaign Council."
-    },
-    {
-     "articles": [
-      "15a35fc35cd390f3"
-     ],
-     "date": "2026-11-24",
-     "group": "africa",
-     "outlets": [
-      "Nigerian Tribune"
-     ],
-     "published": "2026-11-23T19:54:37+00:00",
-     "text": "[Nigerian Tribune](https://tribuneonlineng.com/2027-apc-flags-off-presidential-guber-campaign-in-zamfara/) reported that the All Progressives Congress in Zamfara State has flagged off its presidential and gubernatorial campaign ahead of the 2027 general elections."
-    },
-    {
-     "articles": [
-      "8d05450c4dec0a83"
-     ],
-     "date": "2026-11-18",
-     "group": "africa",
-     "outlets": [
-      "Premium Times"
-     ],
-     "published": "2026-11-18T16:44:51+00:00",
-     "text": "[Premium Times](https://www.premiumtimesng.com/promoted/926268-gov-lawal-inaugurates-campaign-council-says-the-mission-to-rescue-zamfara-is-in-progress.html) reported that Zamfara State Governor Lawal inaugurated a campaign council to strengthen the party and build on good governance."
-    },
-    {
-     "articles": [
-      "f5e631514bc1e10d"
-     ],
-     "date": "2026-11-15",
-     "group": "africa",
-     "outlets": [
-      "The Sun (Nigeria)"
-     ],
-     "published": "2026-11-15T15:27:50+00:00",
-     "text": "[The Sun (Nigeria)](https://thesun.ng/apc-constitutes-over-900-member-gubernatorial-campaign-council-ahead-of-2027-general-elections-in-zamfara/) reported that the Zamfara State chapter of the All Progressives Congress constituted a 900-member gubernatorial campaign council."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "updated",
-   "subject": "nigeria",
-   "title": "Gov. Lawal flags-off Zamfara APC campaign in Mafara, vows inclusive governance",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-24",
-    "of": 2,
-    "outlet": "The Sun (Nigeria)",
-    "url": "https://thesun.ng/gov-lawal-flags-off-zamfara-apc-campaign-in-mafara-vows-inclusive-governance/"
-   },
-   "topic": "politics"
-  },
-  {
    "article_count": 6,
    "articles": [
     {
@@ -130742,8 +130692,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 18,
+   "article_count": 21,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "8f2c9eabb6aec4f0",
+     "lang": "ar",
+     "outlet": "Felesteen",
+     "published": "2026-11-24T13:44:00+00:00",
+     "publisher": "Felesteen",
+     "region": "mena",
+     "section": null,
+     "title": "قطر: \"إسرائيل\" تتحمل مسؤولية تنفيذ اتفاق وقف إطلاق النار بغزة",
+     "type": "local",
+     "url": "https://felesteen.news/post/190923/%D9%82%D8%B7%D8%B1-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%AA%D8%AD%D9%85%D9%84-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%88%D9%82%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-%D8%A8%D8%BA%D8%B2%D8%A9"
+    },
     {
      "added": "2026-11-24",
      "id": "c51bb44ac96e3b07",
@@ -130769,6 +130732,32 @@
      "title": "افتتاح معرض في الأمم المتحدة يوثق الإبادة الجماعية في غزة",
      "type": "local",
      "url": "https://felesteen.news/post/190890/%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D9%85%D8%B9%D8%B1%D8%B6-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D9%85%D9%85-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D9%8A%D9%88%D8%AB%D9%82-%D8%A7%D9%84%D8%A5%D8%A8%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B9%D9%8A%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "5ca7a65aec2c8dea",
+     "lang": "ar",
+     "outlet": "Felesteen",
+     "published": "2026-11-24T06:31:00+00:00",
+     "publisher": "Felesteen",
+     "region": "mena",
+     "section": null,
+     "title": "العاهل المغربي: الكارثة في غزة مستمرة رغم اتفاق وقف النار",
+     "type": "local",
+     "url": "https://felesteen.news/post/190867/%D8%A7%D9%84%D8%B9%D8%A7%D9%87%D9%84-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9-%D8%B1%D8%BA%D9%85-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "9fdf95bc090ec005",
+     "lang": "ar",
+     "outlet": "Asharq News",
+     "published": "2026-11-23T22:35:36+00:00",
+     "publisher": "Asharq News",
+     "region": "mena",
+     "section": null,
+     "title": "ملك المغرب: واقع غزة دون آمال وقف إطلاق النار وندعو لوقف اعتداءات المستوطنين",
+     "type": "regional",
+     "url": "https://asharq.com/politics/204157/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%A7%D9%82%D8%B9-%D8%BA%D8%B2%D8%A9-%D8%AF%D9%88%D9%86-%D8%A2%D9%85%D8%A7%D9%84-%D9%88%D9%82%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1/"
     },
     {
      "added": "2026-11-22",
@@ -130979,7 +130968,7 @@
      "url": "https://felesteen.news/post/190268/%D9%87%D8%A2%D8%B1%D8%AA%D8%B3-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%84%D9%85-%D8%AA%D9%84%D8%AA%D8%B2%D9%85-%D8%A8%D8%A5%D8%AF%D8%AE%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D9%81%D9%82-%D8%B9%D9%84%D9%8A%D9%87%D8%A7-%D8%A5%D9%84%D9%89-%D8%BA%D8%B2%D8%A9"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 5,
    "first_seen": "2026-11-15",
    "group": "mena",
    "id": "story-3",
@@ -130987,10 +130976,37 @@
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
    "merged": [
-    "peace-council-gaza-agreement-statements"
+    "peace-council-gaza-agreement-statements",
+    "king-mohammed-vi-statement-on-gaza"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "5ca7a65aec2c8dea",
+      "9fdf95bc090ec005"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Asharq News",
+      "Felesteen"
+     ],
+     "published": "2026-11-23T22:35:36+00:00",
+     "text": "[Asharq News](https://asharq.com/politics/204157/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%A7%D9%82%D8%B9-%D8%BA%D8%B2%D8%A9-%D8%AF%D9%88%D9%86-%D8%A2%D9%85%D8%A7%D9%84-%D9%88%D9%82%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1/), [Felesteen](https://felesteen.news/post/190867/%D8%A7%D9%84%D8%B9%D8%A7%D9%87%D9%84-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9-%D8%B1%D8%BA%D9%85-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D9%86%D8%A7%D8%B1) reported that Moroccan King Mohammed VI stated that the situation in Gaza does not meet expectations despite the ceasefire agreement."
+    },
+    {
+     "articles": [
+      "8f2c9eabb6aec4f0"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Felesteen"
+     ],
+     "published": "2026-11-24T13:44:00+00:00",
+     "text": "[Felesteen](https://felesteen.news/post/190923/%D9%82%D8%B7%D8%B1-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%AA%D8%AD%D9%85%D9%84-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D8%A9-%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%88%D9%82%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1-%D8%A8%D8%BA%D8%B2%D8%A9) reported that the Qatari Ministry of Foreign Affairs held Israel responsible for implementing its obligations under the Gaza Strip ceasefire agreement and called for pressure on Israel to fulfill its commitments."
+    },
     {
      "articles": [
       "880580e952d4fa2d"
@@ -131160,7 +131176,7 @@
      "text": "[Asharq News](https://asharq.com/politics/203178/4-%D8%AF%D9%88%D9%84-%D8%AA%D8%AF%D8%B9%D9%88-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D9%84%D9%84%D8%B3%D9%85%D8%A7%D8%AD-%D8%A7%D9%84%D9%81%D9%88%D8%B1%D9%8A-%D8%A8%D8%AF%D8%AE%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%BA%D8%B2%D8%A9/) reported that Canada, Britain, Italy, and Australia called on Israel to immediately and without hindrance allow humanitarian aid into Gaza."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "israel",
@@ -162736,8 +162752,34 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 16,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "48380b514f69445d",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-24T11:10:15+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "Hegseth ‘delays shipments of Patriot missiles to Ukraine’ as Putin steps up air attacks",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/europe/hegseth-pentagon-patriot-missiles-ukraine-b3090496.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "7d5421284a847e29",
+     "lang": "en",
+     "outlet": "Kyiv Post",
+     "published": "2026-11-24T10:38:53+00:00",
+     "publisher": "Kyiv Post",
+     "region": "europe",
+     "section": null,
+     "title": "Pentagon Delays Transfer of 60 Patriot Missiles to Ukraine – FT",
+     "type": "local",
+     "url": "https://www.kyivpost.com/post/91035"
+    },
     {
      "added": "2026-11-23",
      "id": "06a7b12ec5305c71",
@@ -162963,14 +163005,14 @@
      "url": "https://www.dailysabah.com/world/europe/ukraine-aims-1300-drones-at-russia-in-one-of-wars-largest-attacks"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "europe",
    "id": "ukraine-aims-1-300-drones-at",
    "label": "Ukraine aims 1,300 drones at Russia in one of war's largest attacks",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
    "previous_titles": [
     "Russia hits Ukraine with 400 drones, 110 missiles in one of war's largest attacks",
     "Russia Fires 84 Cruise Missiles, 404 Drones at Ukraine After Putin’s Retaliation Vow",
@@ -162978,6 +163020,30 @@
     "Zelensky says US delays on Patriot missiles are 'difficult to understand' as Russia fires 165 missiles in a week"
    ],
    "reports": [
+    {
+     "articles": [
+      "48380b514f69445d"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-24T11:10:15+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/europe/hegseth-pentagon-patriot-missiles-ukraine-b3090496.html) reported that US Defense Secretary Pete Hegseth delayed shipments of Patriot missiles to Ukraine, holding up interceptors paid for by European allies."
+    },
+    {
+     "articles": [
+      "7d5421284a847e29"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Post"
+     ],
+     "published": "2026-11-24T10:38:53+00:00",
+     "text": "[Kyiv Post](https://www.kyivpost.com/post/91035) reported that the Pentagon is delaying the transfer of around 60 Patriot interceptor missiles already purchased by Ukraine's Western allies."
+    },
     {
      "articles": [
       "06a7b12ec5305c71"
@@ -163139,7 +163205,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "russia",
    "title": "Russia Launched 2,700 Drones, 165 Missiles in Past Week, Zelensky Says",
    "title_from": {
@@ -168259,8 +168325,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "84acb65dd61ebfcb",
+     "lang": "en",
+     "outlet": "Nikkei Asia",
+     "published": "2026-11-24T13:54:51+00:00",
+     "publisher": "Nikkei Asia",
+     "region": "asia",
+     "section": null,
+     "title": "China's Huawei says it has homegrown answer to US chip design tool curbs",
+     "type": "regional",
+     "url": "https://asia.nikkei.com/spotlight/huawei-crackdown/china-s-huawei-says-it-has-homegrown-answer-to-us-chip-design-tool-curbs"
+    },
     {
      "added": "2026-11-19",
      "id": "4bf39c30e7efd560",
@@ -168301,15 +168380,27 @@
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z1FzanV3YlQwT2k5ZXk3Wnc3RzI2cVFsNDdjaHk5TTJJU0FiNnVPYllVYnRVcjZkTEMwYVZ6bU01SE54THNuRl9NdUVrekhxdXlwaVBubmhJTEt6Z1V4R2kwTGpjdmVkdkxxVl9vVkZXYWFuR1lEdjRWUnVPVG4tQVRLdVp4bXJvaVhSM1pXN25keDRrNXA4S0dvWWZoX3FfSE93?oc=5"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "asia",
    "id": "exclusive-china-taps-us-ai-models",
    "label": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "84acb65dd61ebfcb"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Nikkei Asia"
+     ],
+     "published": "2026-11-24T13:54:51+00:00",
+     "text": "[Nikkei Asia](https://asia.nikkei.com/spotlight/huawei-crackdown/china-s-huawei-says-it-has-homegrown-answer-to-us-chip-design-tool-curbs) reported that China's Huawei stated it has a homegrown answer to US chip design tool curbs."
+    },
     {
      "articles": [
       "4bf39c30e7efd560"
@@ -168337,9 +168428,9 @@
      "text": "[Reuters](https://news.google.com/rss/articles/CBMirwFBVV95cUxQemJ2WmtQZV96U0x6Z1FzanV3YlQwT2k5ZXk3Wnc3RzI2cVFsNDdjaHk5TTJJU0FiNnVPYllVYnRVcjZkTEMwYVZ6bU01SE54THNuRl9NdUVrekhxdXlwaVBubmhJTEt6Z1V4R2kwTGpjdmVkdkxxVl9vVkZXYWFuR1lEdjRWUnVPVG4tQVRLdVp4bXJvaVhSM1pXN25keDRrNXA4S0dvWWZoX3FfSE93?oc=5), [Rappler (Philippines)](https://www.rappler.com/technology/china-taps-us-ai-models-train-homegrown-rivals/) reported that China is utilizing US AI models through distillation to train homegrown rivals and bypass advanced chip restrictions."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "china",
    "title": "EXCLUSIVE: China taps US AI models to train homegrown rivals as chip curbs bite",
    "topic": "technology-policy"
@@ -168810,8 +168901,34 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "766d79a85a540852",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-24T13:54:51+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "More than 1,000 Russian soldiers died by suicide since Ukraine invasion, leaked data shows - report",
+     "type": "local",
+     "url": "https://www.jpost.com/international/article-915962"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "7c05e5f80293e806",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-24T10:55:40+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "1,000+ Russian troops died by suicide among 4.6 lakh deaths since Ukraine invasion: Report",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/russia-ukraine-war-soldiers-killed-on-battlefield-military-suicide-rates-putin-zelenskyy-latest-news-101795515459237.html"
+    },
     {
      "added": "2026-11-24",
      "id": "e36a34f4622f60bf",
@@ -168865,15 +168982,39 @@
      "url": "https://meduza.io/en/news/2026/11/17/eu-foreign-policy-chief-kaja-kallas-says-russian-soldiers-data-would-be-quite-easy-to-obtain-for-an-entry-ban-russia-s-state-duma-speaker-threatens-her-with-20-years-in-prison"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-17",
    "group": "europe",
    "id": "eu-foreign-policy-chief-kaja-kallas",
    "label": "EU foreign policy chief Kaja Kallas says Russian soldiers’ data would be ‘quite easy’ to obtain for ",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "7c05e5f80293e806"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-24T10:55:40+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/russia-ukraine-war-soldiers-killed-on-battlefield-military-suicide-rates-putin-zelenskyy-latest-news-101795515459237.html) reported that a report indicated Russia lost more than 460,000 people from February 2022 to September 2026, with over 1,000 soldiers dying by suicide."
+    },
+    {
+     "articles": [
+      "766d79a85a540852"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "The Jerusalem Post"
+     ],
+     "published": "2026-11-24T13:54:51+00:00",
+     "text": "[The Jerusalem Post](https://www.jpost.com/international/article-915962) reported that leaked data showed more than 1,000 Russian soldiers died by suicide since the Ukraine invasion, with experts believing the actual number is higher."
+    },
     {
      "articles": [
       "e36a34f4622f60bf"
@@ -168913,11 +169054,18 @@
      "text": "[Meduza](https://meduza.io/en/news/2026/11/17/eu-foreign-policy-chief-kaja-kallas-says-russian-soldiers-data-would-be-quite-easy-to-obtain-for-an-entry-ban-russia-s-state-duma-speaker-threatens-her-with-20-years-in-prison), [RT](https://rt-english.com/news/648945-kallas-wants-steal-russia-data/?utm_source=rss&utm_medium=rss&utm_campaign=RSS) reported that EU foreign policy chief Kaja Kallas proposed using intelligence services to obtain personal data of Russian soldiers for an entry ban, prompting a 20-year prison threat from Russia's State Duma speaker."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "subject": "russia",
-   "title": "EU foreign policy chief Kaja Kallas says Russian soldiers’ data would be ‘quite easy’ to obtain for ",
+   "title": "More than 1,000 Russian soldiers died by suicide since Ukraine invasion, leaked data shows - report",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 2,
+    "outlet": "The Jerusalem Post",
+    "url": "https://www.jpost.com/international/article-915962"
+   },
    "topic": "diplomacy"
   },
   {
@@ -184696,8 +184844,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d1801b3664ef638b",
+     "lang": "en",
+     "outlet": "Dawn (Pakistan)",
+     "published": "2026-11-24T13:49:08+00:00",
+     "publisher": "Dawn (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Reacting to Bilawal's remarks on 'brute majority', a section of legal community wants 26th, 27th Amendments repealed",
+     "type": "local",
+     "url": "https://www.dawn.com/news/2046784/reacting-to-bilawals-remarks-on-brute-majority-a-section-of-legal-community-wants-26th-27th-amendments-repealed"
+    },
     {
      "added": "2026-11-19",
      "id": "73ae3e822edec720",
@@ -184738,15 +184899,27 @@
      "url": "https://tribune.com.pk/story/2640851/bilawals-statement-on-constitutional-amendment-could-lead-to-disqualification-says-sanaullah"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-18",
    "group": "asia",
    "id": "bilawal-s-statement-on-constitutional-amendment",
    "label": "Bilawal's statement on constitutional amendment could lead to 'disqualification', says Sanaullah",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "d1801b3664ef638b"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Dawn (Pakistan)"
+     ],
+     "published": "2026-11-24T13:49:08+00:00",
+     "text": "[Dawn (Pakistan)](https://www.dawn.com/news/2046784/reacting-to-bilawals-remarks-on-brute-majority-a-section-of-legal-community-wants-26th-27th-amendments-repealed) reported that a hundred members of the legal fraternity and civil society called for the 26th and 27th Constitutional Amendments to be repealed following Bilawal's remarks on a brute majority."
+    },
     {
      "articles": [
       "73ae3e822edec720"
@@ -184772,9 +184945,9 @@
      "text": "[The Express Tribune](https://tribune.com.pk/story/2640851/bilawals-statement-on-constitutional-amendment-could-lead-to-disqualification-says-sanaullah) reported that a prime minister's adviser stated Bilawal's remarks about pressure during voting could lead to his disqualification."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Bilawal's statement on constitutional amendment could lead to 'disqualification', says Sanaullah",
    "topic": "politics"
   },
@@ -199945,8 +200118,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 18,
+   "article_count": 20,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "c20d2c938cb75fdb",
+     "lang": "en",
+     "outlet": "Premium Times",
+     "published": "2026-11-24T11:56:24+00:00",
+     "publisher": "Premium Times",
+     "region": "africa",
+     "section": null,
+     "title": "INEC selects 520 polling units for mock election in Enugu",
+     "type": "local",
+     "url": "https://www.premiumtimesng.com/news/more-news/927638-inec-selects-520-polling-units-for-mock-election-in-enugu.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "a372edf7490c1730",
+     "lang": "en",
+     "outlet": "Legit (Nigeria)",
+     "published": "2026-11-24T11:44:34+00:00",
+     "publisher": "Legit (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "INEC announces nationwide mock accreditation exercise, releases list of affected polling units",
+     "type": "local",
+     "url": "https://www.legit.ng/politics/1743029-inec-conduct-nationwide-mock-accreditation-exercise-publishes-polling-units-affected/"
+    },
     {
      "added": "2026-11-24",
      "id": "7f413eb80a193286",
@@ -200182,20 +200381,44 @@
      "url": "https://www.premiumtimesng.com/news/top-news/926084-inec-pledges-not-to-tamper-with-metadata-of-election-results-on-irev.html"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 8,
    "first_seen": "2026-11-18",
    "group": "africa",
    "id": "nigeria-inec-election-results-platform",
    "label": "Nigeria INEC election results platform",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 5,
+   "outlets_today": 7,
    "previous_titles": [
     "2027: INEC Says It Lacks Technology To Upload Election Results Beyond Polling Units On IReV",
     "2027: INEC selects 598 Delta polling units for mock accreditation",
     "2027 Elections: INEC Deploys BVAS For Mock Test in 17,676 Polling Units"
    ],
    "reports": [
+    {
+     "articles": [
+      "a372edf7490c1730"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Legit (Nigeria)"
+     ],
+     "published": "2026-11-24T11:44:34+00:00",
+     "text": "[Legit (Nigeria)](https://www.legit.ng/politics/1743029-inec-conduct-nationwide-mock-accreditation-exercise-publishes-polling-units-affected/) reported that INEC announced a nationwide BVAS mock accreditation and result upload exercise for November 28, 2026, and published selected polling units."
+    },
+    {
+     "articles": [
+      "c20d2c938cb75fdb"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Premium Times"
+     ],
+     "published": "2026-11-24T11:56:24+00:00",
+     "text": "[Premium Times](https://www.premiumtimesng.com/news/more-news/927638-inec-selects-520-polling-units-for-mock-election-in-enugu.html) reported that the INEC Resident Electoral Commissioner in Enugu State disclosed that 520 polling units were selected for the mock election."
+    },
     {
      "articles": [
       "7f413eb80a193286"
@@ -231754,8 +231977,21 @@
    "topic": "security"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "06313d8e7dbcff21",
+     "lang": "sr",
+     "outlet": "Blic",
+     "published": "2026-11-24T13:50:28+00:00",
+     "publisher": "Blic",
+     "region": "europe",
+     "section": null,
+     "title": "Najpoznatija svetska banja izašla na berzu i prikupila 110 miliona dolara: Zaboravite Antropik, Plava laguna sada vredi skoro 800 miliona dolara",
+     "type": "local",
+     "url": "https://www.blic.rs/biznis/vesti/islandska-plava-laguna-izasla-na-berzu-i-prikupila-110-miliona-dolara/7p2l3ww"
+    },
     {
      "added": "2026-11-23",
      "id": "ccbcd09537c1df37",
@@ -231796,15 +232032,27 @@
      "url": "https://www.klix.ba/biznis/finansije/historijski-debi-na-wall-streetu-anthropic-srusio-rekord-spacex-a-i-prikupio-813-milijarde-dolara/261119262"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-19",
    "group": "europe",
    "id": "historijski-debi-na-wall-streetu-anthropic",
    "label": "Historijski debi na Wall Streetu: Anthropic srušio rekord SpaceX-a i prikupio 81,3 milijarde dolara",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "06313d8e7dbcff21"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Blic"
+     ],
+     "published": "2026-11-24T13:50:28+00:00",
+     "text": "[Blic](https://www.blic.rs/biznis/vesti/islandska-plava-laguna-izasla-na-berzu-i-prikupila-110-miliona-dolara/7p2l3ww) reported that the Blue Lagoon spa went public and raised 110 million dollars."
+    },
     {
      "articles": [
       "ccbcd09537c1df37"
@@ -231830,9 +232078,9 @@
      "text": "[Klix](https://www.klix.ba/biznis/finansije/historijski-debi-na-wall-streetu-anthropic-srusio-rekord-spacex-a-i-prikupio-813-milijarde-dolara/261119262) Klix reported that Anthropic began trading on the Nasdaq under the ticker ANT with an initial price of $111.50."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "subject": "us",
    "title": "Historijski debi na Wall Streetu: Anthropic srušio rekord SpaceX-a i prikupio 81,3 milijarde dolara",
    "topic": "markets-strategic"
@@ -244492,7 +244740,7 @@
    "topic": "migration"
   },
   {
-   "article_count": 12,
+   "article_count": 15,
    "articles": [
     {
      "added": "2026-11-24",
@@ -244525,6 +244773,35 @@
      "dates": [
       "2026-11-23"
      ],
+     "id": "496a32ceddda22ff",
+     "lang": "en",
+     "outlet": "Mehr News",
+     "published": "2026-11-23T20:25:20+00:00",
+     "publisher": "Mehr News",
+     "region": "mena",
+     "section": null,
+     "title": "Land blockade of Iran almost impossible: FM Araghchi",
+     "type": "state-media",
+     "url": "https://en.mehrnews.com/news/249644/Land-blockade-of-Iran-practically-impossible-FM-Araghchi"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "53619197b472b1f0",
+     "lang": "en",
+     "outlet": "Hasht-e Subh",
+     "published": "2026-11-23T18:59:31+00:00",
+     "publisher": "Hasht-e Subh",
+     "region": "asia",
+     "section": null,
+     "title": "Araghchi: A Land Blockade of Iran Is Almost Impossible",
+     "type": "local",
+     "url": "https://8am.media/eng/araghchi-a-land-blockade-of-iran-is-almost-impossible/"
+    },
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-23"
+     ],
      "id": "8d214baafef5f4c5",
      "lang": "en",
      "outlet": "Mehr News",
@@ -244535,6 +244812,19 @@
      "title": "Iran continues to export oil despite US statements",
      "type": "state-media",
      "url": "https://en.mehrnews.com/news/249638/Iran-continues-to-export-oil-despite-US-statements"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "6348dc8b29f779c2",
+     "lang": "en",
+     "outlet": "IRNA English",
+     "published": "2026-11-23T15:51:53+00:00",
+     "publisher": "IRNA English",
+     "region": "mena",
+     "section": null,
+     "title": "Land blockade of Iran is impossible: Araghchi",
+     "type": "state-media",
+     "url": "https://en.irna.ir/news/86330512/Land-blockade-of-Iran-is-impossible-Araghchi"
     },
     {
      "added": "2026-11-23",
@@ -244660,15 +244950,45 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Restart-Oil-Exports-Despite-US-Naval-Blockade.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 6,
    "first_seen": "2026-11-20",
    "group": "mena",
    "id": "iran-oil-tanker-convoy-at-kharg",
    "label": "Iran oil tanker convoy at Kharg Island",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 3,
+   "merged": [
+    "iran-land-blockade-statements"
+   ],
+   "outlets_today": 5,
+   "previous_titles": [
+    "Iran Moves to Restart Oil Exports Despite U.S. Naval Blockade"
+   ],
    "reports": [
+    {
+     "articles": [
+      "6348dc8b29f779c2"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "IRNA English"
+     ],
+     "published": "2026-11-23T15:51:53+00:00",
+     "text": "[IRNA English](https://en.irna.ir/news/86330512/Land-blockade-of-Iran-is-impossible-Araghchi), a state-media outlet, reported that Foreign Minister Abbas Araghchi stated a land blockade of Iran is impossible given the country's size and extensive ties with neighboring countries."
+    },
+    {
+     "articles": [
+      "53619197b472b1f0"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Hasht-e Subh"
+     ],
+     "published": "2026-11-23T18:59:31+00:00",
+     "text": "[Hasht-e Subh](https://8am.media/eng/araghchi-a-land-blockade-of-iran-is-almost-impossible/) reported that Iranian Foreign Minister Seyed Abbas Araghchi said imposing a land blockade on Iran is almost impossible because of its vast size and connections."
+    },
     {
      "articles": [
       "14f090f72e3075e8"
@@ -244782,13 +245102,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "iran",
-   "title": "Iran Moves to Restart Oil Exports Despite U.S. Naval Blockade",
+   "title": "Again, Brent Falls Below $90 as Iran Vows to Breach US Blockade",
    "title_from": {
-    "backing": 3,
-    "date": "2026-11-20",
-    "of": 3,
-    "outlet": "OilPrice",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Moves-to-Restart-Oil-Exports-Despite-US-Naval-Blockade.html"
+    "backing": 4,
+    "date": "2026-11-24",
+    "of": 4,
+    "outlet": "This Day",
+    "url": "https://www.thisdaylive.com/2026/11/24/again-brent-falls-below-90-as-iran-vows-to-breach-us-blockade/"
    },
    "topic": "energy"
   },
@@ -274731,8 +275051,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 49,
+   "article_count": 51,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "96a4c6d0c790b740",
+     "lang": "en",
+     "outlet": "New York Times World",
+     "published": "2026-11-24T13:12:41+00:00",
+     "publisher": "New York Times",
+     "region": "global",
+     "section": null,
+     "title": "Death Toll From Indonesia Factory Fire Rises to 26 With Dozens Unaccounted for",
+     "type": "international",
+     "url": "https://www.nytimes.com/2026/11/24/world/asia/indonesia-factory-fire-deaths-missing.html"
+    },
     {
      "added": "2026-11-24",
      "id": "7d43e56be6181cb1",
@@ -274758,6 +275091,19 @@
      "title": "Indonesia: Search continues for workers trapped after deadly factory fire",
      "type": "regional",
      "url": "http://www.africanews.com/2026/11/24/indonesia-search-continues-for-workers-trapped-after-deadly-factory-fire/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "70c3822e1ffd9120",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-24T07:45:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Most victims of Indonesia factory fire died trying to reach emergency exit, rescuers say",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWdTQ2hjc1YtUzVWamFRbmNuR1hWdTZHNGxDTkNuTFludi0tb1pyVk03bnZ5Z0NWS0VjR3JMZzRPeDgtNWZpTU83Y2ZxQ2ZPbE1KMHEtMnc5ajlkNHI2SW1na3N1cU9UNTYyd01QdHNONjdDRHU3N1NSLXQ0cENXcUEwSHlOTExuOEdXVUJjaUdaU1hzZ3dBZkxBNA?oc=5"
     },
     {
      "added": "2026-11-24",
@@ -275233,51 +275579,50 @@
      "title": "Indonesia factory fire kills three, 36 people remain missing",
      "type": "local",
      "url": "https://www.nzherald.co.nz/world/indonesia-factory-fire-kills-three-36-people-remain-missing/XXTHE34CBBHXJBCCABVGALG6QI/"
-    },
-    {
-     "added": "2026-11-22",
-     "id": "acda8f526f61c936",
-     "lang": "en",
-     "outlet": "The Guardian World",
-     "published": "2026-11-22T07:11:17+00:00",
-     "publisher": "The Guardian",
-     "region": "global",
-     "section": null,
-     "title": "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
-     "type": "international",
-     "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "58f7f14d6e053371",
-     "lang": "en",
-     "outlet": "DW",
-     "published": "2026-11-22T06:14:00+00:00",
-     "publisher": "DW",
-     "region": "global",
-     "section": null,
-     "title": "Dozens missing as deadly fire tears through Indonesian candy factory",
-     "type": "international",
-     "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-tears-through-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-rdf"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 8,
    "first_seen": "2026-11-22",
    "group": "asia",
    "id": "indonesia-factory-fire",
    "label": "Indonesia factory fire",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 6,
+   "outlets_today": 7,
    "previous_titles": [
     "Rescuers say 39 missing after Indonesia factory fire",
     "Fire at confectionary factory in Indonesia leaves at least three dead and dozens missing",
     "Factory Fire: Seven bodies recovered; about 50 workers remain unaccounted for",
     "Search for Indonesia factory fire missing to resume on Nov 23, as police remove 24 body bags",
     "Indonesia factory fire kills 24 as rescuers search for dozens missing",
-    "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing"
+    "Deadly fire at confectionery factory kills 24 as rescuers search for dozens still missing",
+    "Dozens Unaccounted for After Fire Rips Through Candy Factory in Indonesia"
    ],
    "reports": [
+    {
+     "articles": [
+      "70c3822e1ffd9120"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Associated Press"
+     ],
+     "published": "2026-11-24T07:45:00+00:00",
+     "text": "[Associated Press](https://news.google.com/rss/articles/CBMimwFBVV95cUxNeWdTQ2hjc1YtUzVWamFRbmNuR1hWdTZHNGxDTkNuTFludi0tb1pyVk03bnZ5Z0NWS0VjR3JMZzRPeDgtNWZpTU83Y2ZxQ2ZPbE1KMHEtMnc5ajlkNHI2SW1na3N1cU9UNTYyd01QdHNONjdDRHU3N1NSLXQ0cENXcUEwSHlOTExuOEdXVUJjaUdaU1hzZ3dBZkxBNA?oc=5) reported that most victims of the Indonesia factory fire died trying to reach an emergency exit, according to rescuers."
+    },
+    {
+     "articles": [
+      "96a4c6d0c790b740"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "New York Times"
+     ],
+     "published": "2026-11-24T13:12:41+00:00",
+     "text": "[New York Times](https://www.nytimes.com/2026/11/24/world/asia/indonesia-factory-fire-deaths-missing.html) reported that the death toll from the Indonesia factory fire rose to 26 with dozens unaccounted for, and police opened a criminal investigation."
+    },
     {
      "articles": [
       "8bbf20917180b078"
@@ -275559,13 +275904,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "indonesia",
-   "title": "Dozens Unaccounted for After Fire Rips Through Candy Factory in Indonesia",
+   "title": "Death Toll From Indonesia Factory Fire Rises to 26 With Dozens Unaccounted for",
    "title_from": {
-    "backing": 3,
+    "backing": 6,
     "date": "2026-11-24",
-    "of": 3,
+    "of": 6,
     "outlet": "New York Times",
-    "url": "https://www.nytimes.com/2026/11/23/world/asia/indonesia-factory-fire.html"
+    "url": "https://www.nytimes.com/2026/11/24/world/asia/indonesia-factory-fire-deaths-missing.html"
    },
    "topic": "disaster"
   },
@@ -287095,8 +287440,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "54c94fce6fcd8651",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-24T13:35:58+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "DR Congo and Kenya agree to restore ties",
+     "type": "international",
+     "url": "https://www.france24.com/en/video/20261124-dr-congo-and-kenya-agree-to-restore-ties"
+    },
     {
      "added": "2026-11-24",
      "id": "b29438b85a94e7ca",
@@ -287176,14 +287534,14 @@
      "url": "https://nation.africa/kenya/news/africa/ruto-tshisekedi-seek-way-out-of-diplomatic-standoff--5680238"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-22",
    "group": "africa",
    "id": "ruto-tshisekedi-seek-way-out-of",
    "label": "Ruto, Tshisekedi seek way out of diplomatic standoff",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -287234,8 +287592,8 @@
      "text": "[Nation (Kenya)](https://nation.africa/kenya/news/africa/ruto-tshisekedi-seek-way-out-of-diplomatic-standoff--5680238) reported that President Ruto and President Tshisekedi sought a way out of their diplomatic standoff nearly three years after a fallout."
     }
    ],
-   "single_source_today": true,
-   "state_media_only_today": true,
+   "single_source_today": false,
+   "state_media_only_today": false,
    "status": "updated",
    "subject": "kenya",
    "title": "Ruto, Tshisekedi seek way out of diplomatic standoff",
@@ -295286,7 +295644,8 @@
    "last_updated": "2026-11-24",
    "outlets_today": 4,
    "previous_titles": [
-    "Iran vows to use all means to counter US naval blockade, sanctions"
+    "Iran vows to use all means to counter US naval blockade, sanctions",
+    "Iran says it will use all available tools to confront US naval blockade"
    ],
    "reports": [
     {
@@ -295370,13 +295729,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "iran",
-   "title": "Iran says it will use all available tools to confront US naval blockade",
+   "title": "Will use 'all available means' to counter U.S. blockade: Iran",
    "title_from": {
-    "backing": 2,
+    "backing": 3,
     "date": "2026-11-24",
-    "of": 2,
-    "outlet": "Pakistan Today",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTC0yQ1ZkZy1qcnpmUUI2Mjd4RTFLN2cwd1BNMFhTVFlrX2dxRDY4YXlMMXNkY3hBTWJtbTZlYlhvNWI2bjhNUHQtcmNXX2VKZFBiTG1ycWpkR2cxV292LWViU0EwRW13WFNsV01iUkY5bGR3M3U4dFVSXzVzaWZlOGxCQndyLUJHSnlkLW1vYkF1dXR0Z1N5emYwZUdVMUROX3NnTnVOZDQyZWJJdmJiaGU2LUlOQQ?oc=5"
+    "of": 3,
+    "outlet": "The Hindu (World)",
+    "url": "https://www.thehindu.com/news/international/will-use-all-available-means-to-counter-us-blockade-iran/article71735993.ece"
    },
    "topic": "security"
   },
@@ -300524,8 +300883,34 @@
    "topic": "politics"
   },
   {
-   "article_count": 8,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "a98eeb870c697dcf",
+     "lang": "en",
+     "outlet": "Premium Times",
+     "published": "2026-11-24T13:46:43+00:00",
+     "publisher": "Premium Times",
+     "region": "africa",
+     "section": null,
+     "title": "Tinubu to get more Igbo votes in Lagos in 2027 – Minister",
+     "type": "local",
+     "url": "https://www.premiumtimesng.com/news/more-news/927651-tinubu-to-get-more-igbo-votes-in-lagos-in-2027-minister.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "e95c3bf6990b15ac",
+     "lang": "en",
+     "outlet": "The Will (Nigeria)",
+     "published": "2026-11-24T10:50:12+00:00",
+     "publisher": "The Will (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "2027: Tinubu’s Lagos Igbo Outreach Sparks Debate Over Support Ahead of Presidential Election",
+     "type": "local",
+     "url": "https://thewillnews.com/2027-tinubus-lagos-igbo-outreach-sparks-debate-over-support-ahead-of-presidential-election/"
+    },
     {
      "added": "2026-11-24",
      "id": "8338f5772628ad9c",
@@ -300631,15 +301016,42 @@
      "url": "https://www.vanguardngr.com/2026/11/tinubu-sanwo-olu-court-igbo-community-ahead-of-2027-polls/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-23",
    "group": "africa",
    "id": "tinubu-sanwo-olu-court-igbo-community",
    "label": "Tinubu, Sanwo-Olu court Igbo community ahead of 2027 polls",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 4,
+   "previous_titles": [
+    "Breaking: Igbo community, leaders in Lagos declare their 2027 choice amid Tinubu vs Obi"
+   ],
    "reports": [
+    {
+     "articles": [
+      "e95c3bf6990b15ac"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "The Will (Nigeria)"
+     ],
+     "published": "2026-11-24T10:50:12+00:00",
+     "text": "[The Will (Nigeria)](https://thewillnews.com/2027-tinubus-lagos-igbo-outreach-sparks-debate-over-support-ahead-of-presidential-election/) reported that President Bola Tinubu's appeal to Igbo residents in Lagos State to support his re-election bid sparked debate over the community's political influence."
+    },
+    {
+     "articles": [
+      "a98eeb870c697dcf"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Premium Times"
+     ],
+     "published": "2026-11-24T13:46:43+00:00",
+     "text": "[Premium Times](https://www.premiumtimesng.com/news/more-news/927651-tinubu-to-get-more-igbo-votes-in-lagos-in-2027-minister.html) reported that the government received commitments from several Igbo groups after engaging leaders and members across Lagos State."
+    },
     {
      "articles": [
       "b59e6936d9ec0712"
@@ -300693,13 +301105,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "nigeria",
-   "title": "Breaking: Igbo community, leaders in Lagos declare their 2027 choice amid Tinubu vs Obi",
+   "title": "2027: Tinubu’s Lagos Igbo Outreach Sparks Debate Over Support Ahead of Presidential Election",
    "title_from": {
-    "backing": 2,
-    "date": "2026-11-23",
-    "of": 4,
-    "outlet": "Legit (Nigeria)",
-    "url": "https://www.legit.ng/politics/1742946-breaking-tinubu-reacts-igbo-community-leaders-lagos-declares-2027-choice/"
+    "backing": 3,
+    "date": "2026-11-24",
+    "of": 3,
+    "outlet": "The Will (Nigeria)",
+    "url": "https://thewillnews.com/2027-tinubus-lagos-igbo-outreach-sparks-debate-over-support-ahead-of-presidential-election/"
    },
    "topic": "politics"
   },
@@ -304113,100 +304525,6 @@
    "articles": [
     {
      "added": "2026-11-24",
-     "dates": [
-      "2026-11-23"
-     ],
-     "id": "496a32ceddda22ff",
-     "lang": "en",
-     "outlet": "Mehr News",
-     "published": "2026-11-23T20:25:20+00:00",
-     "publisher": "Mehr News",
-     "region": "mena",
-     "section": null,
-     "title": "Land blockade of Iran almost impossible: FM Araghchi",
-     "type": "state-media",
-     "url": "https://en.mehrnews.com/news/249644/Land-blockade-of-Iran-practically-impossible-FM-Araghchi"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "53619197b472b1f0",
-     "lang": "en",
-     "outlet": "Hasht-e Subh",
-     "published": "2026-11-23T18:59:31+00:00",
-     "publisher": "Hasht-e Subh",
-     "region": "asia",
-     "section": null,
-     "title": "Araghchi: A Land Blockade of Iran Is Almost Impossible",
-     "type": "local",
-     "url": "https://8am.media/eng/araghchi-a-land-blockade-of-iran-is-almost-impossible/"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "6348dc8b29f779c2",
-     "lang": "en",
-     "outlet": "IRNA English",
-     "published": "2026-11-23T15:51:53+00:00",
-     "publisher": "IRNA English",
-     "region": "mena",
-     "section": null,
-     "title": "Land blockade of Iran is impossible: Araghchi",
-     "type": "state-media",
-     "url": "https://en.irna.ir/news/86330512/Land-blockade-of-Iran-is-impossible-Araghchi"
-    }
-   ],
-   "articles_today": 3,
-   "first_seen": "2026-11-24",
-   "group": "mena",
-   "id": "iran-land-blockade-statements",
-   "label": "Iran land blockade statements",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 3,
-   "reports": [
-    {
-     "articles": [
-      "6348dc8b29f779c2"
-     ],
-     "date": "2026-11-24",
-     "group": "mena",
-     "outlets": [
-      "IRNA English"
-     ],
-     "published": "2026-11-23T15:51:53+00:00",
-     "text": "[IRNA English](https://en.irna.ir/news/86330512/Land-blockade-of-Iran-is-impossible-Araghchi), a state-media outlet, reported that Foreign Minister Abbas Araghchi stated a land blockade of Iran is impossible given the country's size and extensive ties with neighboring countries."
-    },
-    {
-     "articles": [
-      "53619197b472b1f0"
-     ],
-     "date": "2026-11-24",
-     "group": "mena",
-     "outlets": [
-      "Hasht-e Subh"
-     ],
-     "published": "2026-11-23T18:59:31+00:00",
-     "text": "[Hasht-e Subh](https://8am.media/eng/araghchi-a-land-blockade-of-iran-is-almost-impossible/) reported that Iranian Foreign Minister Seyed Abbas Araghchi said imposing a land blockade on Iran is almost impossible because of its vast size and connections."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "iran",
-   "title": "Araghchi: A Land Blockade of Iran Is Almost Impossible",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-24",
-    "of": 2,
-    "outlet": "Hasht-e Subh",
-    "url": "https://8am.media/eng/araghchi-a-land-blockade-of-iran-is-almost-impossible/"
-   },
-   "topic": "security"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-24",
      "id": "232c713dc58d4f84",
      "lang": "en",
      "outlet": "Meduza",
@@ -307147,8 +307465,34 @@
    "topic": "justice"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "1cf7b8f3889e10c5",
+     "lang": "en",
+     "outlet": "The Guardian World",
+     "published": "2026-11-24T12:22:04+00:00",
+     "publisher": "The Guardian",
+     "region": "global",
+     "section": null,
+     "title": "Leftwing coalition leader calls for rental revolution as Spain heads for snap election",
+     "type": "international",
+     "url": "https://www.theguardian.com/world/2026/nov/24/spain-election-ada-colau-broad-front-far-right"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "e797ab0139911a06",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-24T10:46:02+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "Spain set to head to polls in snap election that could boost far right",
+     "type": "international",
+     "url": "https://www.france24.com/en/video/20261124-spain-set-to-head-to-polls-in-snap-election-that-could-boost-far-right"
+    },
     {
      "added": "2026-11-24",
      "id": "77ccdf36c639b1aa",
@@ -307189,15 +307533,39 @@
      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemd4Tmk5Z2lPeWFoMHVxZ0RDNXVScWU4ZExQOGhoX0o0Rk9UdmRReHJiSzVld2pNVGpVSHF6cFVlWTU5bmpsX0pRN0dRejZiNmE0U2ZYS0tqel9mMDJReFlkMVNjamNnVE5YVUFwdWtUU1NGZWNUV3F4bF8wWUs3UHhzcllycEJhUVlZTFItZzlZV0c3ckl5Vm1xMVZVamtiUHZtZjZvSkhlZw?oc=5"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-24",
    "group": "europe",
    "id": "spain-s-right-set-to-win",
    "label": "Spain's right set to win majority despite Socialist gains, polls show",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 3,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "e797ab0139911a06"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-24T10:46:02+00:00",
+     "text": "[France 24](https://www.france24.com/en/video/20261124-spain-set-to-head-to-polls-in-snap-election-that-could-boost-far-right) reported that Socialist Prime Minister Pedro Sanchez seeks to thwart grim polls as Spain holds a snap general election that could boost the far right and propel the opposition conservative PP."
+    },
+    {
+     "articles": [
+      "1cf7b8f3889e10c5"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-24T12:22:04+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/world/2026/nov/24/spain-election-ada-colau-broad-front-far-right) reported that leftwing Broad Front coalition leader Ada Colau called for a rental revolution as Spain heads for the snap election."
+    },
     {
      "articles": [
       "4ec32a0f13de58ac"
@@ -307227,7 +307595,14 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "spain",
-   "title": "Spain's right set to win majority despite Socialist gains, polls show",
+   "title": "Spain set to head to polls in snap election that could boost far right",
+   "title_from": {
+    "backing": 4,
+    "date": "2026-11-24",
+    "of": 4,
+    "outlet": "France 24",
+    "url": "https://www.france24.com/en/video/20261124-spain-set-to-head-to-polls-in-snap-election-that-could-boost-far-right"
+   },
    "topic": "elections"
   },
   {
@@ -309902,8 +310277,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "4be4ddb06653b65c",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-24T12:19:01+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "China sentences official to death for spying, leaking state secrets",
+     "type": "local",
+     "url": "https://punchng.com/china-sentences-official-to-death-for-spying-leaking-state-secrets/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-24",
      "id": "8b98e72b1a1debd9",
@@ -309916,6 +310304,19 @@
      "title": "China sentences former government official to death for leaking state secrets to foreign agent",
      "type": "local",
      "url": "https://www.legit.ng/world/1742995-china-sentences-government-official-death-passing-state-secrets-foreign-agent/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "963146235c275f91",
+     "lang": "en",
+     "outlet": "Egypt Independent",
+     "published": "2026-11-24T09:15:26+00:00",
+     "publisher": "Egypt Independent",
+     "region": "mena",
+     "section": null,
+     "title": "China sentences official to death for passing state secrets to foreign spy",
+     "type": "local",
+     "url": "https://www.egyptindependent.com/china-sentences-official-to-death-for-passing-state-secrets-to-foreign-spy/"
     },
     {
      "added": "2026-11-24",
@@ -309957,15 +310358,27 @@
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnJaVllJLVpfeVZhdFJmdF9IWDExdmg0Mk4yRTVKUmJINUloN2N3cWpZelpuMTYySDRqcU5JeEo2di1KeTB0VGdyaGtjdnNCcGRSWUc4QnlHTF81bkltN2dUeGVmekdqa2JPMDd2b0lOVnRuVTdPcWc5MGE4cVlKeERzS2dYNDNPSWVLSw?oc=5"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 6,
    "first_seen": "2026-11-24",
    "group": "asia",
    "id": "china-official-sentenced-for-spying",
    "label": "China official sentenced for spying",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 4,
+   "outlets_today": 6,
    "reports": [
+    {
+     "articles": [
+      "963146235c275f91"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Egypt Independent"
+     ],
+     "published": "2026-11-24T09:15:26+00:00",
+     "text": "[Egypt Independent](https://www.egyptindependent.com/china-sentences-official-to-death-for-passing-state-secrets-to-foreign-spy/) reported that China sentenced a government official to death for handing over state secrets and classified documents to a foreign intelligence agent."
+    },
     {
      "articles": [
       "8b98e72b1a1debd9"
@@ -311416,8 +311829,21 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "e06ec92299c6bd15",
+     "lang": "bs",
+     "outlet": "Klix",
+     "published": "2026-11-24T13:41:00+00:00",
+     "publisher": "Klix",
+     "region": "europe",
+     "section": null,
+     "title": "SIPA objavila detalje akcije u kojoj je uhapšen Naser Orić: Oduzeto osam pištolja, 30.000 KM i 10.000 eura",
+     "type": "local",
+     "url": "https://www.klix.ba/vijesti/bih/sipa-objavila-detalje-akcije-u-kojoj-je-uhapsen-naser-oric-oduzeto-osam-pistolja-30000-km-i-10000-eura/261124200"
+    },
     {
      "added": "2026-11-24",
      "id": "7fb48774f35eddb3",
@@ -311601,7 +312027,7 @@
      "url": "https://www.klix.ba/vijesti/bih/policija-od-jutros-pretresa-objekte-osoba-koje-su-pomogle-u-skrivanju-dorda-zdrale-meta-akcije-naser-oric-i-efendija-iz-vogosce/261124044"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 15,
    "first_seen": "2026-11-24",
    "group": "europe",
    "id": "bosnia-security-operations",
@@ -312711,67 +313137,6 @@
    "articles": [
     {
      "added": "2026-11-24",
-     "id": "5ca7a65aec2c8dea",
-     "lang": "ar",
-     "outlet": "Felesteen",
-     "published": "2026-11-24T06:31:00+00:00",
-     "publisher": "Felesteen",
-     "region": "mena",
-     "section": null,
-     "title": "العاهل المغربي: الكارثة في غزة مستمرة رغم اتفاق وقف النار",
-     "type": "local",
-     "url": "https://felesteen.news/post/190867/%D8%A7%D9%84%D8%B9%D8%A7%D9%87%D9%84-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9-%D8%B1%D8%BA%D9%85-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D9%86%D8%A7%D8%B1"
-    },
-    {
-     "added": "2026-11-24",
-     "id": "9fdf95bc090ec005",
-     "lang": "ar",
-     "outlet": "Asharq News",
-     "published": "2026-11-23T22:35:36+00:00",
-     "publisher": "Asharq News",
-     "region": "mena",
-     "section": null,
-     "title": "ملك المغرب: واقع غزة دون آمال وقف إطلاق النار وندعو لوقف اعتداءات المستوطنين",
-     "type": "regional",
-     "url": "https://asharq.com/politics/204157/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%A7%D9%82%D8%B9-%D8%BA%D8%B2%D8%A9-%D8%AF%D9%88%D9%86-%D8%A2%D9%85%D8%A7%D9%84-%D9%88%D9%82%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1/"
-    }
-   ],
-   "articles_today": 2,
-   "first_seen": "2026-11-24",
-   "group": "mena",
-   "id": "king-mohammed-vi-statement-on-gaza",
-   "label": "King Mohammed VI statement on Gaza",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 2,
-   "reports": [
-    {
-     "articles": [
-      "5ca7a65aec2c8dea",
-      "9fdf95bc090ec005"
-     ],
-     "date": "2026-11-24",
-     "group": "mena",
-     "outlets": [
-      "Asharq News",
-      "Felesteen"
-     ],
-     "published": "2026-11-23T22:35:36+00:00",
-     "text": "[Asharq News](https://asharq.com/politics/204157/%D9%85%D9%84%D9%83-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%88%D8%A7%D9%82%D8%B9-%D8%BA%D8%B2%D8%A9-%D8%AF%D9%88%D9%86-%D8%A2%D9%85%D8%A7%D9%84-%D9%88%D9%82%D9%81-%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D8%A7%D8%B1/), [Felesteen](https://felesteen.news/post/190867/%D8%A7%D9%84%D8%B9%D8%A7%D9%87%D9%84-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D8%A7%D9%84%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9-%D9%85%D8%B3%D8%AA%D9%85%D8%B1%D8%A9-%D8%B1%D8%BA%D9%85-%D8%A7%D8%AA%D9%81%D8%A7%D9%82-%D9%88%D9%82%D9%81-%D8%A7%D9%84%D9%86%D8%A7%D8%B1) reported that Moroccan King Mohammed VI stated that the situation in Gaza does not meet expectations despite the ceasefire agreement."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "morocco",
-   "title": "King Mohammed VI statement on Gaza",
-   "topic": "diplomacy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-24",
      "id": "b6cbf7b0c409a49e",
      "lang": "en",
      "outlet": "The Will (Nigeria)",
@@ -313205,8 +313570,34 @@
    "topic": "crime"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "3f6caec35eb4b0e4",
+     "lang": "fr",
+     "outlet": "Le Monde",
+     "published": "2026-11-24T12:08:33+00:00",
+     "publisher": "Le Monde",
+     "region": "europe",
+     "section": null,
+     "title": "Sanofi, en s’offrant l’américain Insmed, se lance dans la plus importante acquisition de son histoire depuis 2004",
+     "type": "local",
+     "url": "https://www.lemonde.fr/economie/article/2026/11/24/sanofi-pret-a-debourser-37-6-milliards-d-euros-pour-l-americain-insmed-un-specialiste-du-traitement-des-maladies-respiratoires_6814758_3234.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "60cf06a60b550bc3",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-24T11:33:44+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Sanofi to buy US drugmaker Insmed for $41 billion in biggest acquisition in 20 years",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/us-news/sanofi-to-buy-us-drugmaker-insmed-for-41-billion-in-biggest-acquisition-in-20-years-101795519610016.html"
+    },
     {
      "added": "2026-11-24",
      "id": "e7fb14cb5d7223b2",
@@ -313234,15 +313625,27 @@
      "url": "https://www.lefigaro.fr/societes/avec-le-rachat-a-41-milliards-de-dollars-de-l-americain-insmed-sanofi-trouve-enfin-l-operation-qui-assure-son-avenir-20261124"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-24",
    "group": "europe",
    "id": "sanofi-acquisition-of-insmed",
    "label": "Sanofi acquisition of Insmed",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "60cf06a60b550bc3"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Hindustan Times"
+     ],
+     "published": "2026-11-24T11:33:44+00:00",
+     "text": "[Hindustan Times](https://www.hindustantimes.com/world-news/us-news/sanofi-to-buy-us-drugmaker-insmed-for-41-billion-in-biggest-acquisition-in-20-years-101795519610016.html) reported that Sanofi will acquire US drugmaker Insmed for $41 billion in cash in its biggest acquisition in 20 years."
+    },
     {
      "articles": [
       "858dba108046e306"
@@ -313271,7 +313674,15 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Sanofi acquisition of Insmed",
+   "subject": "us",
+   "title": "Sanofi to buy US drugmaker Insmed for $41 billion in biggest acquisition in 20 years",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 2,
+    "outlet": "Hindustan Times",
+    "url": "https://www.hindustantimes.com/world-news/us-news/sanofi-to-buy-us-drugmaker-insmed-for-41-billion-in-biggest-acquisition-in-20-years-101795519610016.html"
+   },
    "topic": "business-strategic"
   },
   {
@@ -315295,8 +315706,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "3200fd31b6c1dd16",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-24T12:39:41+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "Paris club refunds: Court freezes NGF’s N135.55bn, restrains 29 banks",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/paris-club-refunds-court-freezes-ngfs-n135-55bn-restrains-29-banks/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "19086a501cd1d295",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-24T11:00:28+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Court freezes $100m linked to governors over Paris Club refund",
+     "type": "local",
+     "url": "https://punchng.com/court-freezes-100m-linked-to-governors-over-paris-club-refund/?utm_source=rss.punchng.com&utm_medium=web"
+    },
     {
      "added": "2026-11-24",
      "id": "1f1f9e31fe23af7d",
@@ -315324,15 +315761,39 @@
      "url": "https://www.vanguardngr.com/2026/11/paris-club-refunds-court-freezes-n135-5bn-linked-to-governors-forum/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-24",
    "group": "africa",
    "id": "nigeria-governors-forum-paris-club-refunds",
    "label": "Nigeria Governors' Forum Paris Club refunds court order",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "19086a501cd1d295"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Punch"
+     ],
+     "published": "2026-11-24T11:00:28+00:00",
+     "text": "[Punch](https://punchng.com/court-freezes-100m-linked-to-governors-over-paris-club-refund/?utm_source=rss.punchng.com&utm_medium=web) reported that an Abuja High Court froze $100 million linked to governors over Paris Club refund fees following a dispute brought by lawyer Ted Iseghohi-."
+    },
+    {
+     "articles": [
+      "3200fd31b6c1dd16"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Nigerian Tribune"
+     ],
+     "published": "2026-11-24T12:39:41+00:00",
+     "text": "[Nigerian Tribune](https://tribuneonlineng.com/paris-club-refunds-court-freezes-ngfs-n135-55bn-restrains-29-banks/) reported that Justice Charles Agbaza of the FCT High Court ordered an interim freeze of N135.55 billion of the Nigerian Governors' Forum and restrained 29 banks."
+    },
     {
      "articles": [
       "1f1f9e31fe23af7d",
@@ -315352,7 +315813,14 @@
    "state_media_only_today": false,
    "status": "new",
    "subject": "nigeria",
-   "title": "Nigeria Governors' Forum Paris Club refunds court order",
+   "title": "Paris Club Refunds: Court freezes N135.5bn linked to Governors’ Forum",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-24",
+    "of": 3,
+    "outlet": "Vanguard",
+    "url": "https://www.vanguardngr.com/2026/11/paris-club-refunds-court-freezes-n135-5bn-linked-to-governors-forum/"
+   },
    "topic": "justice"
   },
   {
@@ -315598,8 +316066,34 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "ccee9c2051c0bc7d",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-24T12:01:20+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "French police officer who shot teenager to stand trial for murder following appeal",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "422ce4cf898893bf",
+     "lang": "en",
+     "outlet": "France 24",
+     "published": "2026-11-24T09:54:58+00:00",
+     "publisher": "France 24",
+     "region": "global",
+     "section": null,
+     "title": "Death of Nahel: French police officer who shot dead a teenage boy to stand trial for murder",
+     "type": "international",
+     "url": "https://www.france24.com/en/france/20261124-death-of-nahel-french-police-officer-who-shot-dead-a-teenage-boy-to-stand-trial-for-murder"
+    },
     {
      "added": "2026-11-24",
      "id": "3aff8637e8df713e",
@@ -315627,15 +316121,39 @@
      "url": "https://www.lemonde.fr/societe/article/2026/11/24/mort-de-nahel-la-cour-d-appel-de-versailles-ordonne-un-proces-pour-meurtre-a-l-encontre-du-policier_6814726_3224.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-24",
    "group": "europe",
    "id": "nahel-merzouk-police-shooting-trial-order",
    "label": "Nahel Merzouk police shooting trial order",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "422ce4cf898893bf"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "France 24"
+     ],
+     "published": "2026-11-24T09:54:58+00:00",
+     "text": "[France 24](https://www.france24.com/en/france/20261124-death-of-nahel-french-police-officer-who-shot-dead-a-teenage-boy-to-stand-trial-for-murder) reported that a French police officer who shot and killed 17-year-old Nahel Merzouk during a traffic stop in June 2023 will stand trial for murder following a ruling by the Versailles appeals court."
+    },
+    {
+     "articles": [
+      "ccee9c2051c0bc7d"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-24T12:01:20+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/europe/france-police-officer-shot-teenager-b3090567.html) reported that the officer's charge was originally lowered to voluntary assault leading to death before the appeal ruling."
+    },
     {
      "articles": [
       "259eb0564828af4c",
@@ -315654,6 +316172,7 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
+   "subject": "france",
    "title": "Nahel Merzouk police shooting trial order",
    "topic": "justice"
   },
@@ -315895,9 +316414,1738 @@
    "subject": "serbia",
    "title": "Serbia police arrest warrant for Vladimir Mandic",
    "topic": "crime"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d41f4a169f8ab8a8",
+     "lang": "en",
+     "outlet": "Baltic News Network",
+     "published": "2026-11-24T13:46:14+00:00",
+     "publisher": "Baltic News Network",
+     "region": "europe",
+     "section": null,
+     "title": "Poland: Peace in Ukraine will not mean an end to Russian sabotages",
+     "type": "local",
+     "url": "https://bnn-news.com/world/poland-peace-in-ukraine-will-not-mean-an-end-to-russian-sabotages-rdkyyr2"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "21f66ddef3af4cca",
+     "lang": "en",
+     "outlet": "Politico Europe",
+     "published": "2026-11-24T03:00:00+00:00",
+     "publisher": "Politico",
+     "region": "europe",
+     "section": null,
+     "title": "Peace in Ukraine won’t end Russian sabotage in Europe, Poland warns",
+     "type": "international",
+     "url": "https://www.politico.eu/article/ukraine-peace-wont-end-russian-sabotage-in-europe-poland-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "poland-and-europe-russian-sabotage-warning",
+   "label": "Poland and Europe Russian sabotage warning",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "21f66ddef3af4cca"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Politico"
+     ],
+     "published": "2026-11-24T03:00:00+00:00",
+     "text": "[Politico](https://www.politico.eu/article/ukraine-peace-wont-end-russian-sabotage-in-europe-poland-warns/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication) reported that Poland's intelligence minister said Moscow's hybrid campaign against Europe could persist whether the war goes Russia's way or not."
+    },
+    {
+     "articles": [
+      "d41f4a169f8ab8a8"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Baltic News Network"
+     ],
+     "published": "2026-11-24T13:46:14+00:00",
+     "text": "[Baltic News Network](https://bnn-news.com/world/poland-peace-in-ukraine-will-not-mean-an-end-to-russian-sabotages-rdkyyr2) reported that peace in Ukraine will not lead Russia's leaders to change their stance or put an end to acts of sabotage in European countries, including Poland."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "poland",
+   "title": "Poland and Europe Russian sabotage warning",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "8c36baa3e3eab5b5",
+     "lang": "en",
+     "outlet": "Africanews",
+     "published": "2026-11-24T13:00:05+00:00",
+     "publisher": "Africanews",
+     "region": "africa",
+     "section": null,
+     "title": "Madagascar seeks arrest warrants for former president Rajoelina and ex-premier",
+     "type": "regional",
+     "url": "http://www.africanews.com/2026/11/24/madagascar-seeks-arrest-warrants-for-former-president-rajoelina-and-ex-premier/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "014adc7e3d198bb4",
+     "lang": "fr",
+     "outlet": "RFI Afrique",
+     "published": "2026-11-24T03:33:28+00:00",
+     "publisher": "RFI",
+     "region": "africa",
+     "section": null,
+     "title": "Madagascar: mandats d'arrêt requis contre l'ancien président Rajoelina et son ex-Premier ministre dans l'affaire Boeing",
+     "type": "international",
+     "url": "https://www.rfi.fr/fr/afrique/20261124-madagascar-mandats-d-arr%C3%AAt-requis-contre-l-ancien-pr%C3%A9sident-rajoelina-et-son-ex-premier-ministre-dans-l-affaire-boeing"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "africa",
+   "id": "madagascar-arrest-warrants-for-former-leaders",
+   "label": "Madagascar arrest warrants for former leaders",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "014adc7e3d198bb4"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "RFI"
+     ],
+     "published": "2026-11-24T03:33:28+00:00",
+     "text": "[RFI](https://www.rfi.fr/fr/afrique/20261124-madagascar-mandats-d-arr%C3%AAt-requis-contre-l-ancien-pr%C3%A9sident-rajoelina-et-son-ex-premier-ministre-dans-l-affaire-boeing) reported that Madagascar's anticorruption prosecutor requested arrest warrants for former president Andry Rajoelina and his ex-prime minister in the Boeing affair."
+    },
+    {
+     "articles": [
+      "8c36baa3e3eab5b5"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "Africanews"
+     ],
+     "published": "2026-11-24T13:00:05+00:00",
+     "text": "[Africanews](http://www.africanews.com/2026/11/24/madagascar-seeks-arrest-warrants-for-former-president-rajoelina-and-ex-premier/) reported that the two former leaders are facing accusations of complicity in financing terrorism and the acquisition of heavy weapons in a case centring on five Boeing 777s."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "madagascar",
+   "title": "Madagascar arrest warrants for former leaders",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "6706d651769c8d58",
+     "lang": "en",
+     "outlet": "Meduza",
+     "published": "2026-11-24T10:40:19+00:00",
+     "publisher": "Meduza",
+     "region": "europe",
+     "section": null,
+     "title": "Lithuanian SIM cards found in Russian drones that attacked Ukraine",
+     "type": "local",
+     "url": "https://meduza.io/en/news/2026/11/24/lithuanian-sim-cards-found-in-russian-drones-that-attacked-ukraine"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "7774dd0655aabc90",
+     "lang": "en",
+     "outlet": "Kyiv Independent",
+     "published": "2026-11-24T05:00:31+00:00",
+     "publisher": "Kyiv Independent",
+     "region": "europe",
+     "section": null,
+     "title": "Exclusive: Freshly made European, American components found in Russian drones attacking Ukraine",
+     "type": "local",
+     "url": "https://kyivindependent.com/exclusive-freshly-made-european-american-components-found-in-russian-drones-attacking-ukraine/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "european-and-american-components-in-russian",
+   "label": "European and American components in Russian drones",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7774dd0655aabc90"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Kyiv Independent"
+     ],
+     "published": "2026-11-24T05:00:31+00:00",
+     "text": "[Kyiv Independent](https://kyivindependent.com/exclusive-freshly-made-european-american-components-found-in-russian-drones-attacking-ukraine/) reported that fresh European and American components were found in Russian drones attacking Ukraine in a story produced in collaboration with OCCRP, De Tijd, 15min and Paper."
+    },
+    {
+     "articles": [
+      "6706d651769c8d58"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Meduza"
+     ],
+     "published": "2026-11-24T10:40:19+00:00",
+     "text": "[Meduza](https://meduza.io/en/news/2026/11/24/lithuanian-sim-cards-found-in-russian-drones-that-attacked-ukraine) reported that Lithuanian prepaid SIM cards were found in Russian drones that attacked Ukraine in 2025, according to data from Ukrainian sources."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "ukraine",
+   "title": "European and American components in Russian drones",
+   "topic": "conflict"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "91f6530b9a6af6f1",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-24T12:36:55+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "FULL LIST: US adds 24 more names as 157 Nigerians face deportation",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/full-list-us-adds-24-more-names-as-157-nigerians-face-deportation/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "edf80e813aba5882",
+     "lang": "en",
+     "outlet": "The Sun (Nigeria)",
+     "published": "2026-11-24T07:16:12+00:00",
+     "publisher": "The Sun (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "US adds 24 Nigerians to deportation list, total hits 157",
+     "type": "local",
+     "url": "https://thesun.ng/us-adds-24-nigerians-to-deportation-list-total-hits-157/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "namerica",
+   "id": "us-adds-nigerians-to-deportation-list",
+   "label": "US adds Nigerians to deportation list",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "edf80e813aba5882"
+     ],
+     "date": "2026-11-24",
+     "group": "namerica",
+     "outlets": [
+      "The Sun (Nigeria)"
+     ],
+     "published": "2026-11-24T07:16:12+00:00",
+     "text": "[The Sun (Nigeria)](https://thesun.ng/us-adds-24-nigerians-to-deportation-list-total-hits-157/) reported that the United States Department of Homeland Security added 24 Nigerians to its list of foreign nationals facing deportation over alleged criminal activities, bringing the total to 157."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "us",
+   "title": "US adds Nigerians to deportation list",
+   "topic": "migration"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "3d5c3bbb68d0b5ed",
+     "lang": "en",
+     "outlet": "New York Times World",
+     "published": "2026-11-24T11:55:30+00:00",
+     "publisher": "New York Times",
+     "region": "global",
+     "section": null,
+     "title": "For China, Jensen Huang’s Return to Nvidia Is a Mixed Blessing",
+     "type": "international",
+     "url": "https://www.nytimes.com/2026/11/24/world/asia/jensen-huang-nvidia-china.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "2acdcd109125820a",
+     "lang": "en",
+     "outlet": "BBC World",
+     "published": "2026-11-24T07:26:27+00:00",
+     "publisher": "BBC",
+     "region": "global",
+     "section": null,
+     "title": "What China's Xi could take away from Jensen Huang's return to Nvidia",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "namerica",
+   "id": "what-china-s-xi-could-take",
+   "label": "What China's Xi could take away from Jensen Huang's return to Nvidia",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2acdcd109125820a"
+     ],
+     "date": "2026-11-24",
+     "group": "namerica",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-24T07:26:27+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss) reported that Jensen Huang being back at the helm of Nvidia is no guarantee of relief for Beijing."
+    },
+    {
+     "articles": [
+      "3d5c3bbb68d0b5ed"
+     ],
+     "date": "2026-11-24",
+     "group": "namerica",
+     "outlets": [
+      "New York Times"
+     ],
+     "published": "2026-11-24T11:55:30+00:00",
+     "text": "[New York Times](https://www.nytimes.com/2026/11/24/world/asia/jensen-huang-nvidia-china.html) reported that Beijing may welcome the return of the leading U.S. advocate for A.I. chip sales to China, but the saga could reinforce a Chinese push for self-reliance."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "us",
+   "title": "What China's Xi could take away from Jensen Huang's return to Nvidia",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 4,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "2588b7bd73329c22",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-24T11:58:47+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "Vietnam Blast: Six killed, dozens injured in a hot pot eatery blast in Hanoi",
+     "type": "local",
+     "url": "https://www.thehindu.com/news/international/vietnam-blast-six-killed-dozens-injured-in-a-hot-pot-eatery-blast-in-hanoi/article71738306.ece"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "72261ad35f927a01",
+     "lang": "en",
+     "outlet": "Hindustan Times",
+     "published": "2026-11-24T11:48:27+00:00",
+     "publisher": "Hindustan Times",
+     "region": "asia",
+     "section": null,
+     "title": "Six killed in hot pot eatery explosion in Vietnam's Hanoi, gas leak suspected",
+     "type": "local",
+     "url": "https://www.hindustantimes.com/world-news/hanoi-hot-pot-eatery-explosion-death-toll-vietnam-gas-leak-dong-da-district-fire-hanoi-blast-video-101795519361480.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "d925efb5134641a6",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-24T07:52:00+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "Explosion kills 6, injures 10 in Vietnam capital Hanoi",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZldRdngyRk9qdWlNdVBkYlFrTnBtV3M3WU45al9qVVp6OE9VRktQTWVKRWY0aWlfNjBhTVFNVlhaYkp4aEJVeVItSlpIUjAwd2I5RGh5MV9wZHVnNkc5c3F1MzA0elVvZ2x2bVFrMUM3NHgwVjJYaHpPRS0xa25Tb0VIUVBySTd5blMxNXhQYlVWMkh5bG0tbHRNN3hvck8zQnI3SG4tdGg?oc=5"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "fa268059615e2364",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-24T07:51:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Hanoi eatery blast kills 3 and injures more than a dozen",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSE9ZWEhqNHBLUzMzYXVpOGd4S1N0cVlCWUFPV2Yyblh2dE11Q2VVUjIwZEFfWUxyLUIzWElhdFRDNlZmdldqVWU0NG5WU3RfeFQyQTU3YnVsQlR6OC1TeUZvWUYzbEU0NnhNZ2tNc3h6TWJBRFdpZ2xOamY0anBaVWNhSnh2SlVvX3V2VmJ0alRocEFOS3VPM0tHZUttNUJ4TTRmdXBoZ21nMVdfTkE?oc=5"
+    }
+   ],
+   "articles_today": 4,
+   "first_seen": "2026-11-24",
+   "group": "asia",
+   "id": "hanoi-eatery-explosion",
+   "label": "Hanoi eatery explosion",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "fa268059615e2364"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Associated Press"
+     ],
+     "published": "2026-11-24T07:51:00+00:00",
+     "text": "[Associated Press](https://news.google.com/rss/articles/CBMirgFBVV95cUxOSE9ZWEhqNHBLUzMzYXVpOGd4S1N0cVlCWUFPV2Yyblh2dE11Q2VVUjIwZEFfWUxyLUIzWElhdFRDNlZmdldqVWU0NG5WU3RfeFQyQTU3YnVsQlR6OC1TeUZvWUYzbEU0NnhNZ2tNc3h6TWJBRFdpZ2xOamY0anBaVWNhSnh2SlVvX3V2VmJ0alRocEFOS3VPM0tHZUttNUJ4TTRmdXBoZ21nMVdfTkE?oc=5) reported that a Hanoi eatery blast killed three people and injured more than a dozen."
+    },
+    {
+     "articles": [
+      "2588b7bd73329c22"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "The Hindu (World)"
+     ],
+     "published": "2026-11-24T11:58:47+00:00",
+     "text": "[The Hindu (World)](https://www.thehindu.com/news/international/vietnam-blast-six-killed-dozens-injured-in-a-hot-pot-eatery-blast-in-hanoi/article71738306.ece) reported that six people were killed and dozens injured in a hot pot eatery blast in Hanoi, with police searching for survivors."
+    },
+    {
+     "articles": [
+      "d925efb5134641a6"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Reuters"
+     ],
+     "published": "2026-11-24T07:52:00+00:00",
+     "text": "[Reuters](https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZldRdngyRk9qdWlNdVBkYlFrTnBtV3M3WU45al9qVVp6OE9VRktQTWVKRWY0aWlfNjBhTVFNVlhaYkp4aEJVeVItSlpIUjAwd2I5RGh5MV9wZHVnNkc5c3F1MzA0elVvZ2x2bVFrMUM3NHgwVjJYaHpPRS0xa25Tb0VIUVBySTd5blMxNXhQYlVWMkh5bG0tbHRNN3hvck8zQnI3SG4tdGg?oc=5) reported that an explosion killed six people and injured 10 in Vietnam's capital Hanoi."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "vietnam",
+   "title": "Vietnam Blast: Six killed, dozens injured in a hot pot eatery blast in Hanoi",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-24",
+    "of": 3,
+    "outlet": "The Hindu (World)",
+    "url": "https://www.thehindu.com/news/international/vietnam-blast-six-killed-dozens-injured-in-a-hot-pot-eatery-blast-in-hanoi/article71738306.ece"
+   },
+   "topic": "disaster"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "1ff838ba7c7212a2",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-24T10:46:01+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "Myanmar, Syria top list as global landmine casualties hit 5-year high of 7,000",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "0f11bd8eca8896fd",
+     "lang": "en",
+     "outlet": "The National",
+     "published": "2026-11-24T08:00:41+00:00",
+     "publisher": "The National",
+     "region": "mena",
+     "section": null,
+     "title": "Landmine casualties hit five-year high as refugees return to Syria",
+     "type": "local",
+     "url": "https://www.thenationalnews.com/news/mena/2026/11/24/landmine-casualties-hit-five-year-high-as-refugees-return-to-syria/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "mena",
+   "id": "global-landmine-casualties-report",
+   "label": "Global landmine casualties report",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0f11bd8eca8896fd"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "The National"
+     ],
+     "published": "2026-11-24T08:00:41+00:00",
+     "text": "[The National](https://www.thenationalnews.com/news/mena/2026/11/24/landmine-casualties-hit-five-year-high-as-refugees-return-to-syria/) reported that landmine casualties hit a five-year high as refugees return to Syria."
+    },
+    {
+     "articles": [
+      "1ff838ba7c7212a2"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-24T10:46:01+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/news/world/middle-east/article/3375629/myanmar-syria-top-list-global-landmine-casualties-hit-5-year-high-7000) reported that casualties from landmines or unexploded ordnance reached a five-year high of 7,000 in 2025, with Myanmar and Syria topping the list."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Global landmine casualties report",
+   "topic": "humanitarian"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "71d97efcdcfe78a9",
+     "lang": "en",
+     "outlet": "Nigerian Tribune",
+     "published": "2026-11-24T12:19:03+00:00",
+     "publisher": "Nigerian Tribune",
+     "region": "africa",
+     "section": null,
+     "title": "IGP Disu orders probe into deadly political violence in Delta",
+     "type": "local",
+     "url": "https://tribuneonlineng.com/igp-disu-orders-probe-into-deadly-political-violence-in-delta/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "5c6d3c2f69c28030",
+     "lang": "en",
+     "outlet": "The Will (Nigeria)",
+     "published": "2026-11-24T09:15:15+00:00",
+     "publisher": "The Will (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "IGP Orders Probe, Vows Prosecution of Delta Killers, Sanctions For Erring Police Officers",
+     "type": "local",
+     "url": "https://thewillnews.com/igp-orders-probe-vows-prosecution-of-delta-killers-sanctions-for-erring-police-officers/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "africa",
+   "id": "delta-state-political-violence-investigation",
+   "label": "Delta State political violence investigation",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5c6d3c2f69c28030"
+     ],
+     "date": "2026-11-24",
+     "group": "africa",
+     "outlets": [
+      "The Will (Nigeria)"
+     ],
+     "published": "2026-11-24T09:15:15+00:00",
+     "text": "[The Will (Nigeria)](https://thewillnews.com/igp-orders-probe-vows-prosecution-of-delta-killers-sanctions-for-erring-police-officers/) reported that Nigeria's Inspector-General of Police, Olatunji Disu, ordered a full-scale investigation into the Ughelli bloodbath in Delta State and vowed prosecution of those responsible."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "nigeria",
+   "title": "Delta State political violence investigation",
+   "topic": "crime"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "8b54de76717233be",
+     "lang": "bs",
+     "outlet": "Dnevni Avaz",
+     "published": "2026-11-24T13:45:14+00:00",
+     "publisher": "Dnevni Avaz",
+     "region": "europe",
+     "section": null,
+     "title": "Pogledajte ko je maturant koji je pucao u školi u Kragujevcu: Evo šta je objavio prije napada",
+     "type": "local",
+     "url": "https://avaz.ba/vijesti/region/1090611/pogledajte-ko-je-maturant-koji-je-pucao-u-skoli-u-kragujevcu-evo-sta-je-objavio-prije-napada"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "f2d9b9751e140d0f",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-24T09:22:22+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Detalji napada u školi u Kragujevcu: Počeo pucati pa mu se zaglavila puška",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/ex-yu/Detalji-napada-u-skoli-u-Kragujevcu-Poceo-pucati-pa-mu-se-zaglavila-puska/993933"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "kragujevac-school-shooting-incident",
+   "label": "Kragujevac school shooting incident",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f2d9b9751e140d0f"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Nezavisne Novine"
+     ],
+     "published": "2026-11-24T09:22:22+00:00",
+     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/ex-yu/Detalji-napada-u-skoli-u-Kragujevcu-Poceo-pucati-pa-mu-se-zaglavila-puska/993933) reported that a larger tragedy was avoided at the First Technical School in Kragujevac when an assailant's rifle jammed after he began shooting."
+    },
+    {
+     "articles": [
+      "8b54de76717233be"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Dnevni Avaz"
+     ],
+     "published": "2026-11-24T13:45:14+00:00",
+     "text": "[Dnevni Avaz](https://avaz.ba/vijesti/region/1090611/pogledajte-ko-je-maturant-koji-je-pucao-u-skoli-u-kragujevcu-evo-sta-je-objavio-prije-napada) reported on digital traces and pre-attack publications left by the high school senior who fired a weapon at the school in Kragujevac."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "serbia",
+   "title": "Kragujevac school shooting incident",
+   "topic": "crime"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "148bab0f5cc0aba0",
+     "lang": "bs",
+     "outlet": "Oslobođenje",
+     "published": "2026-11-24T10:43:07+00:00",
+     "publisher": "Oslobođenje",
+     "region": "europe",
+     "section": null,
+     "title": "Pokrenut postupak protiv 'Pretisa' i direktora Fuada Šehića",
+     "type": "local",
+     "url": "https://www.oslobodjenje.ba/vijesti/bih/pokrenut-postupak-protiv-pretisa-i-direktora-fuada-sehica/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "9f43e200ee9ab1e6",
+     "lang": "sr",
+     "outlet": "Nezavisne Novine",
+     "published": "2026-11-24T09:55:00+00:00",
+     "publisher": "Nezavisne Novine",
+     "region": "europe",
+     "section": null,
+     "title": "Pokrenuli postupak protiv preduzeća \"Pretis\" i direktora Fuada Šehića",
+     "type": "local",
+     "url": "https://www.nezavisne.com/novosti/bih/Pokrenuli-postupak-protiv-preduzeca-Pretis-i-direktora-Fuada-Sehica/993941"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "pretis-and-director-legal-proceedings",
+   "label": "Pretis and director legal proceedings",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9f43e200ee9ab1e6"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Nezavisne Novine"
+     ],
+     "published": "2026-11-24T09:55:00+00:00",
+     "text": "[Nezavisne Novine](https://www.nezavisne.com/novosti/bih/Pokrenuli-postupak-protiv-preduzeca-Pretis-i-direktora-Fuada-Sehica/993941) reported that the Inspectorate of the Ministry of Foreign Trade and Economic Relations of Bosnia and Herzegovina initiated proceedings before the Prosecutor's Office of BiH against the company Pretis Vogošća and director Fuad Šehić."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "bosnia",
+   "title": "Pretis and director legal proceedings",
+   "topic": "justice"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "0d5040da7baaeff3",
+     "lang": "en",
+     "outlet": "Vanguard",
+     "published": "2026-11-24T10:59:56+00:00",
+     "publisher": "Vanguard",
+     "region": "africa",
+     "section": null,
+     "title": "Political violence: Sowore faults Kukah’s silence, rejects future peace accords",
+     "type": "local",
+     "url": "https://www.vanguardngr.com/2026/11/political-violence-sowore-faults-kukahs-silence-rejects-future-peace-accords/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "550d6ac901f40e77",
+     "lang": "en",
+     "outlet": "Punch",
+     "published": "2026-11-24T10:09:10+00:00",
+     "publisher": "Punch",
+     "region": "africa",
+     "section": null,
+     "title": "Political violence: Sowore rejects peace accord, questions peace committee’s relevance",
+     "type": "local",
+     "url": "https://punchng.com/political-violence-sowore-rejects-peace-accord-questions-peace-committees-relevance/?utm_source=rss.punchng.com&utm_medium=web"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "africa",
+   "id": "omoyele-sowore-peace-accord-rejection",
+   "label": "Omoyele Sowore peace accord rejection",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Omoyele Sowore peace accord rejection",
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "337bdc2179bea258",
+     "lang": "en",
+     "outlet": "Yeni Şafak (English)",
+     "published": "2026-11-24T12:18:32+00:00",
+     "publisher": "Yeni Şafak (English)",
+     "region": "mena",
+     "section": null,
+     "title": "Türkiye's first floating solar plant to generate power early next year",
+     "type": "local",
+     "url": "http://en.yenisafak.com/economy/turkiyes-first-floating-solar-plant-to-generate-power-early-next-year-3725949"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "2847d2173b1c83db",
+     "lang": "en",
+     "outlet": "Daily Sabah",
+     "published": "2026-11-24T10:14:00+00:00",
+     "publisher": "Daily Sabah",
+     "region": "mena",
+     "section": null,
+     "title": "Türkiye's first YEKA floating solar plant to begin generation in 2027",
+     "type": "local",
+     "url": "https://www.dailysabah.com/business/energy/turkiyes-first-yeka-floating-solar-plant-to-begin-generation-in-2027"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "turkey-floating-solar-plant-project",
+   "label": "Turkey floating solar plant project",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "2847d2173b1c83db"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Daily Sabah"
+     ],
+     "published": "2026-11-24T10:14:00+00:00",
+     "text": "[Daily Sabah](https://www.dailysabah.com/business/energy/turkiyes-first-yeka-floating-solar-plant-to-begin-generation-in-2027) reported that Turkey's first floating solar power plant built under the YEKA program is scheduled to begin electricity production in 2027."
+    },
+    {
+     "articles": [
+      "337bdc2179bea258"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Yeni Şafak (English)"
+     ],
+     "published": "2026-11-24T12:18:32+00:00",
+     "text": "[Yeni Şafak (English)](http://en.yenisafak.com/economy/turkiyes-first-floating-solar-plant-to-generate-power-early-next-year-3725949) reported that Turkey's first floating solar power plant under construction on the Demirkopru Dam in Salihli will generate power early next year."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "turkey",
+   "title": "Turkey floating solar plant project",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "0f351881d19a7370",
+     "lang": "en",
+     "outlet": "RTHK Local",
+     "published": "2026-11-24T11:49:37+00:00",
+     "publisher": "RTHK Local",
+     "region": "asia",
+     "section": null,
+     "title": "7.9pc increase in HK Electric tariffs, 1.8pc for CLP",
+     "type": "state-media",
+     "url": "https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "4867b6fabd8a25f4",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-24T10:15:21+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "Hongkongers face higher power bills next year as CLP, HK Electric raise tariffs",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/hong-kong/society/article/3375624/hongkongers-face-higher-power-bills-next-year-clp-hk-electric-raise-tariffs"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "asia",
+   "id": "hong-kong-electricity-tariff-increase",
+   "label": "Hong Kong electricity tariff increase",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4867b6fabd8a25f4"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-24T10:15:21+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/news/hong-kong/society/article/3375624/hongkongers-face-higher-power-bills-next-year-clp-hk-electric-raise-tariffs) reported that Hongkongers will face a 1.8 percent or 7.9 percent increase in power bills next year from CLP and HK Electric."
+    },
+    {
+     "articles": [
+      "0f351881d19a7370"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "RTHK Local"
+     ],
+     "published": "2026-11-24T11:49:37+00:00",
+     "text": "[RTHK Local](https://news.rthk.hk/rthk/en/component/k2/1879110-20261124.htm), a state-media outlet, reported that HK Electric tariffs will increase by 7.9 percent and CLP by 1.8 percent starting in January."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Hong Kong electricity tariff increase",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "dates": [
+      "2026-11-24"
+     ],
+     "id": "9f3bf9e67fb4d65b",
+     "lang": "en",
+     "outlet": "Ukrinform",
+     "published": "2026-11-24T12:19:00+00:00",
+     "publisher": "Ukrinform",
+     "region": "europe",
+     "section": null,
+     "title": "Norway in talks with Ukraine over attacks on Russian ships and regional stability",
+     "type": "local",
+     "url": "https://www.ukrinform.net/rubric-polytics/4188052-norway-in-talks-with-ukraine-over-attacks-on-russian-ships-and-regional-stability.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "c050ff1ae759e74c",
+     "lang": "en",
+     "outlet": "Reuters",
+     "published": "2026-11-24T10:21:24+00:00",
+     "publisher": "Reuters",
+     "region": "global",
+     "section": null,
+     "title": "Norway says there is dialogue with Ukraine regarding 'need for stability in our near areas'",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2ZZQnd0c3JtbHl5NFozeGhRRUotLUVZODlvQTVHT2ZmdVBoQ2lnanJyNVFkM0RaSXdCT3BncnMtRVdLdjM4UTVpS2JZeHNwbWlKSnhoZ0NQcmd3N1Mtd2hZaGxkZDBoUW80TXpVMHVtS0ctNmlWTE5nYlZXZXpqb2kxcW85VzRCTlFEWGprbTlhYnFpUFhiN3RzYW5MQU9GcTR2NVd6SHhSRTN3VWV2bjktWHRkdnY0djdRdlJXRG5VUEU?oc=5"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "norway-and-ukraine-talks-on-regional",
+   "label": "Norway and Ukraine talks on regional stability",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c050ff1ae759e74c"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Reuters"
+     ],
+     "published": "2026-11-24T10:21:24+00:00",
+     "text": "[Reuters](https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2ZZQnd0c3JtbHl5NFozeGhRRUotLUVZODlvQTVHT2ZmdVBoQ2lnanJyNVFkM0RaSXdCT3BncnMtRVdLdjM4UTVpS2JZeHNwbWlKSnhoZ0NQcmd3N1Mtd2hZaGxkZDBoUW80TXpVMHVtS0ctNmlWTE5nYlZXZXpqb2kxcW85VzRCTlFEWGprbTlhYnFpUFhiN3RzYW5MQU9GcTR2NVd6SHhSRTN3VWV2bjktWHRkdnY0djdRdlJXRG5VUEU?oc=5) reported that Norway stated there is dialogue with Ukraine regarding the need for stability in near areas."
+    },
+    {
+     "articles": [
+      "9f3bf9e67fb4d65b"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "Ukrinform"
+     ],
+     "published": "2026-11-24T12:19:00+00:00",
+     "text": "[Ukrinform](https://www.ukrinform.net/rubric-polytics/4188052-norway-in-talks-with-ukraine-over-attacks-on-russian-ships-and-regional-stability.html) reported that Norwegian Defense Minister Tore Sandvik stated Oslo was holding talks with Ukraine on attacks on Russian ships and regional stability."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "norway",
+   "title": "Norway and Ukraine talks on regional stability",
+   "topic": "diplomacy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "2046fe3259d20dc3",
+     "lang": "en",
+     "outlet": "RT",
+     "published": "2026-11-24T11:25:57+00:00",
+     "publisher": "RT",
+     "region": "europe",
+     "section": null,
+     "title": "Russia thwarts terrorist attack on synagogue – FSB (VIDEO)",
+     "type": "state-media",
+     "url": "https://rt-english.com/russia/649286-fsb-synagogue-bombing-thwarted/?utm_source=rss&utm_medium=rss&utm_campaign=RSS"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "7d6f8d5d63ef0205",
+     "lang": "en",
+     "outlet": "The Jerusalem Post",
+     "published": "2026-11-24T10:32:37+00:00",
+     "publisher": "The Jerusalem Post",
+     "region": "mena",
+     "section": null,
+     "title": "Russia thwarts potential terror attack on synagogue in Stavropol Region - report",
+     "type": "local",
+     "url": "https://www.jpost.com/international/article-915934"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "europe",
+   "id": "russia-thwarts-synagogue-terror-plot",
+   "label": "Russia thwarts synagogue terror plot",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "7d6f8d5d63ef0205"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "The Jerusalem Post"
+     ],
+     "published": "2026-11-24T10:32:37+00:00",
+     "text": "[The Jerusalem Post](https://www.jpost.com/international/article-915934) reported that Russia thwarted a potential terror attack on a synagogue in the Stavropol Region planned by a Russian national acting on instructions from an international terrorist organization."
+    },
+    {
+     "articles": [
+      "2046fe3259d20dc3"
+     ],
+     "date": "2026-11-24",
+     "group": "europe",
+     "outlets": [
+      "RT"
+     ],
+     "published": "2026-11-24T11:25:57+00:00",
+     "text": "[RT](https://rt-english.com/russia/649286-fsb-synagogue-bombing-thwarted/?utm_source=rss&utm_medium=rss&utm_campaign=RSS), a state-media outlet, reported that Russia's Federal Security Service thwarted a terrorist bombing plot targeting a synagogue in Kislovodsk."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "russia",
+   "title": "Russia thwarts synagogue terror plot",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "40b989d671dde467",
+     "lang": "en",
+     "outlet": "BBC US & Canada",
+     "published": "2026-11-24T11:40:46+00:00",
+     "publisher": "BBC",
+     "region": "namerica",
+     "section": null,
+     "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "f4b919abfe7b5759",
+     "lang": "en",
+     "outlet": "El País (English)",
+     "published": "2026-11-24T10:42:33+00:00",
+     "publisher": "El País",
+     "region": "europe",
+     "section": null,
+     "title": "More than 80 million people in the US expected to travel for Thanksgiving",
+     "type": "local",
+     "url": "https://english.elpais.com/usa/2026-11-24/more-than-80-million-people-in-the-us-expected-to-travel-for-thanksgiving.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "namerica",
+   "id": "storms-targeting-both-us-coasts-threaten",
+   "label": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "40b989d671dde467"
+     ],
+     "date": "2026-11-24",
+     "group": "namerica",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-24T11:40:46+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss) reported that storms targeting both US coasts, including a major Nor'easter, threaten to disrupt Thanksgiving travel for millions."
+    },
+    {
+     "articles": [
+      "f4b919abfe7b5759"
+     ],
+     "date": "2026-11-24",
+     "group": "namerica",
+     "outlets": [
+      "El País"
+     ],
+     "published": "2026-11-24T10:42:33+00:00",
+     "text": "[El País](https://english.elpais.com/usa/2026-11-24/more-than-80-million-people-in-the-us-expected-to-travel-for-thanksgiving.html) reported that more than 80 million people in the US are expected to travel for Thanksgiving while airline technical problems and rising ticket prices discourage flying."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "us",
+   "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "c3239059ab4c9b3c",
+     "lang": "en",
+     "outlet": "The New Arab",
+     "published": "2026-11-24T12:29:42+00:00",
+     "publisher": "The New Arab",
+     "region": "mena",
+     "section": null,
+     "title": "Gaza meningitis outbreak puts infants at risk amid winter flood",
+     "type": "regional",
+     "url": "https://www.newarab.com/features/gaza-meningitis-outbreak-puts-infants-risk-amid-winter-flood"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "6a943791a5ec7d42",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-24T10:47:41+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "Israeli air strikes in Gaza kill 7 as doctors warn of meningitis outbreak",
+     "type": "international",
+     "url": "https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak?traffic_source=rss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "mena",
+   "id": "gaza-meningitis-outbreak-and-air-strikes",
+   "label": "Gaza meningitis outbreak and air strikes",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6a943791a5ec7d42"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Al Jazeera"
+     ],
+     "published": "2026-11-24T10:47:41+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/news/2026/11/24/israeli-air-strikes-in-gaza-kill-7-as-doctors-warn-of-meningitis-outbreak?traffic_source=rss) reported that Israeli air strikes in Gaza killed seven people while Gaza health officials warned of a meningitis outbreak with cases rising to 272 in October."
+    },
+    {
+     "articles": [
+      "c3239059ab4c9b3c"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "The New Arab"
+     ],
+     "published": "2026-11-24T12:29:42+00:00",
+     "text": "[The New Arab](https://www.newarab.com/features/gaza-meningitis-outbreak-puts-infants-risk-amid-winter-flood) reported that doctors in Gaza report four to five new meningitis cases daily as sewage-laced floodwater and overcrowding spread infection among babies."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gaza meningitis outbreak and air strikes",
+   "topic": "health-emergency"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "974cf900cb546a1b",
+     "lang": "en",
+     "outlet": "Daily Times (Pakistan)",
+     "published": "2026-11-24T13:20:23+00:00",
+     "publisher": "Daily Times (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Two women among eight killed in Torghar accident",
+     "type": "local",
+     "url": "https://dailytimes.com.pk/1586292/two-women-among-eight-killed-in-torghar-accident/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "d33f47a2fe21a454",
+     "lang": "en",
+     "outlet": "Dawn (Pakistan)",
+     "published": "2026-11-24T11:00:36+00:00",
+     "publisher": "Dawn (Pakistan)",
+     "region": "asia",
+     "section": null,
+     "title": "Eight killed, seven injured as passenger vehicle plunges into ravine in KP's Torghar",
+     "type": "local",
+     "url": "https://www.dawn.com/news/2046768/eight-killed-seven-injured-as-passenger-vehicle-plunges-into-ravine-in-kps-torghar"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "asia",
+   "id": "torghar-ravine-vehicle-accident",
+   "label": "Torghar ravine vehicle accident",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d33f47a2fe21a454"
+     ],
+     "date": "2026-11-24",
+     "group": "asia",
+     "outlets": [
+      "Dawn (Pakistan)"
+     ],
+     "published": "2026-11-24T11:00:36+00:00",
+     "text": "[Dawn (Pakistan)](https://www.dawn.com/news/2046768/eight-killed-seven-injured-as-passenger-vehicle-plunges-into-ravine-in-kps-torghar) reported that at least eight people, including two women, were killed and seven others injured when a passenger vehicle plunged into a deep ravine in KP's Torghar."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "pakistan",
+   "title": "Torghar ravine vehicle accident",
+   "topic": "disaster"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "5b456bbc68f4aaa3",
+     "lang": "ar",
+     "outlet": "Asharq News",
+     "published": "2026-11-24T12:39:12+00:00",
+     "publisher": "Asharq News",
+     "region": "mena",
+     "section": null,
+     "title": "بينهم مدير عام جهاز الأمن الداخلي.. غارات إسرائيلية تقتل فلسطينيين في غزة",
+     "type": "regional",
+     "url": "https://asharq.com/politics/204209/%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D9%82%D8%AA%D9%84-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "654914113ead3e29",
+     "lang": "ar",
+     "outlet": "Felesteen",
+     "published": "2026-11-24T11:24:00+00:00",
+     "publisher": "Felesteen",
+     "region": "mena",
+     "section": null,
+     "title": "الاحتلال يغتال مسؤول الأمن الداخلي بقصف جوي غربي غزة",
+     "type": "local",
+     "url": "https://felesteen.news/post/190904/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%BA%D8%AA%D8%A7%D9%84-%D9%85%D8%B3%D8%A4%D9%88%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-%D8%A8%D9%82%D8%B5%D9%81-%D8%AC%D9%88%D9%8A-%D8%BA%D8%B1%D8%A8%D9%8A-%D8%BA%D8%B2%D8%A9"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "mena",
+   "id": "gaza-internal-security-official-assassination",
+   "label": "Gaza internal security official assassination",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "654914113ead3e29"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Felesteen"
+     ],
+     "published": "2026-11-24T11:24:00+00:00",
+     "text": "[Felesteen](https://felesteen.news/post/190904/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%BA%D8%AA%D8%A7%D9%84-%D9%85%D8%B3%D8%A4%D9%88%D9%84-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-%D8%A8%D9%82%D8%B5%D9%81-%D8%AC%D9%88%D9%8A-%D8%BA%D8%B1%D8%A8%D9%8A-%D8%BA%D8%B2%D8%A9) reported that the director-general of internal security, Brigadier General Naeem Muhammad Abu Nahal, was killed in an Israeli airstrike in western Gaza."
+    },
+    {
+     "articles": [
+      "5b456bbc68f4aaa3"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "Asharq News"
+     ],
+     "published": "2026-11-24T12:39:12+00:00",
+     "text": "[Asharq News](https://asharq.com/politics/204209/%D8%BA%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84%D9%8A%D8%A9-%D8%AA%D9%82%D8%AA%D9%84-%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%BA%D8%B2%D8%A9/) reported that Israeli airstrikes killed Palestinians in Gaza, including internal security director Naeem Muhammad Abu Nahal."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Gaza internal security official assassination",
+   "topic": "conflict"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "19225a20ff13ad08",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-24T12:50:38+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "UK sanctions Houthi leaders over alleged torture and rape in Yemen",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/uk/politics/uk-sanctions-houthis-ed-miliband-b3090603.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "9390b60311dd63b5",
+     "lang": "en",
+     "outlet": "The National",
+     "published": "2026-11-24T11:34:38+00:00",
+     "publisher": "The National",
+     "region": "mena",
+     "section": null,
+     "title": "Britain imposes sanctions on Houthi leaders over renewed attacks and torture",
+     "type": "local",
+     "url": "https://www.thenationalnews.com/news/uk/2026/11/24/uk-sanctions-houthis-over-shipping-attacks-and-alleged-torture/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "mena",
+   "id": "uk-sanctions-houthi-leaders",
+   "label": "UK sanctions Houthi leaders",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "19225a20ff13ad08"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-24T12:50:38+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/uk/politics/uk-sanctions-houthis-ed-miliband-b3090603.html) reported that the UK sanctioned Houthi leaders over alleged torture and rape in Yemen, with Ed Miliband stating the group must be held to account."
+    },
+    {
+     "articles": [
+      "9390b60311dd63b5"
+     ],
+     "date": "2026-11-24",
+     "group": "mena",
+     "outlets": [
+      "The National"
+     ],
+     "published": "2026-11-24T11:34:38+00:00",
+     "text": "[The National](https://www.thenationalnews.com/news/uk/2026/11/24/uk-sanctions-houthis-over-shipping-attacks-and-alleged-torture/) reported that Britain imposed sanctions on Houthi leaders over renewed attacks and torture."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "subject": "yemen",
+   "title": "UK sanctions Houthi leaders",
+   "topic": "diplomacy"
   }
  ],
- "retry": [],
+ "retry": [
+  "d156cf290da16fde",
+  "d4379a550edf1e2f",
+  "225c31128c3e0a28",
+  "1493a3a0e98f66ae",
+  "3d3f08f396bcf772",
+  "a6c9ba3b94e4dc80",
+  "988cb14713e04e28",
+  "c4206ee6c9ee8db0",
+  "c1b5bd0f58b02fa5",
+  "95c95f98a2bca7c5",
+  "82bf7f08950cb288",
+  "2ec3a3ffe83034ed",
+  "9615a2ece7e75147",
+  "8163806816433a54",
+  "200dbbba848f333b",
+  "c86c6fee83f87d32",
+  "1ecfd1006d6c80a2",
+  "9c3f48622c4f5656",
+  "562442008b9935b4",
+  "90dadf41bb4bae1d",
+  "b026027b4e5b0550",
+  "56f5bf40f17a773e",
+  "414365e90d9f2551",
+  "ded555f9b9bbad50",
+  "f4c140cd3d7ca306",
+  "dcf7d1a525de52e7",
+  "b5a9207bdaefaa52",
+  "a899908f5bf033fb",
+  "2f4eb076fd1de65e",
+  "466593a1f7f68d93",
+  "6abbb7db1ff3211e",
+  "f22db3ac3c557eb5",
+  "d0ccf8eeba75447f",
+  "f998ad92bb26e8c9",
+  "d9b0f900f4a40300",
+  "6cbeb0ed08f118fe",
+  "9935a504ac7caca9",
+  "93295c762d5db2e1",
+  "a2c50c7b14f1908a",
+  "473d50464779f364",
+  "19b32f43aed94100",
+  "2d21e4d7353b0a2c",
+  "75fe4664c7515d61",
+  "b3cb74fcd1a345f3",
+  "44c6be66710b00db",
+  "3817b64ac5c83816",
+  "84c60a7814440c5d",
+  "442dbe0334f5ec40",
+  "054b84c4e1d91cfe",
+  "b89f6145d02cd98a",
+  "0eb79af18c2e8ebd",
+  "52063e7fd4a596ef",
+  "939d91e1342f04c5",
+  "57d43da668f1b591",
+  "a74068847deba5b2",
+  "0b7341b381352cb4",
+  "2687f0291814464b",
+  "e23715d8469be483",
+  "19a99f6d0760a38f",
+  "dd6039c5e30c79d4",
+  "333567f9a29cd02e",
+  "75700d37c14d729a",
+  "28931729fe6bb3b3",
+  "55498ef199123304",
+  "d9a00034b929001c",
+  "dd8cda02aae90cf8",
+  "0bc28b0dfcf98109",
+  "d89e2caaa3cb1ba6",
+  "0a21b17072ff9530",
+  "0d2d9bffa695c751",
+  "3d89b528c7afc634",
+  "9262dd189190de51",
+  "3c001bc4a1630ed7",
+  "66baacb44de776cb",
+  "bae842d2f3f75ba7",
+  "753105d3b6c4144b",
+  "6c7e94a9a3c65886",
+  "d14ad8ebb88c13c8",
+  "4cdf8765809a7084",
+  "024788256a7c1b51",
+  "6eca8b43f179c1d0",
+  "e899f559647e9a00",
+  "ef32412c40d13622",
+  "ddda29f67a7bd9cc",
+  "8492e8cab754f673",
+  "1d804b92811f5aa0",
+  "8cf6db982505ecfb",
+  "3cf1e0369abc6f75",
+  "508c827a3c039ad5",
+  "1d88f19b7cb9ef13",
+  "17bcb5dd49dddab1",
+  "2bd8b40488df0197",
+  "d8bc3f7edf73f031",
+  "0cdd5000979cb199",
+  "28b506fae56a8bc4",
+  "51a3b579b78e3b45",
+  "abb36bb01aa2d895",
+  "96bda08aaf7b2d4e",
+  "35c6cb79c90d1528",
+  "7b0a98494ce3b051",
+  "2616920b30195adb",
+  "a33bce427b426180",
+  "565cf4fe279e812f",
+  "b288c9d3e0d385f4",
+  "ca0b3f7b60ec894c",
+  "e410b8c17d4e9abc",
+  "c01b7de7f4460e6b",
+  "dc782aaec2d57029",
+  "2e88a63293aba649",
+  "bd8da7962e048f6f",
+  "cc99a91975e31501",
+  "9b0da966a7a365e0",
+  "ea7ad179e583f3af",
+  "917c77d416fb00e7",
+  "5b6a093bd03afbed",
+  "3c9e42299b470da0",
+  "3eb90e8698cf9a05",
+  "4f578357a55500ec",
+  "afa5223b8cb91b33",
+  "b5f0d8bb590c8dcd",
+  "5100cf70b1559a8b",
+  "9d246c4d9edbe566",
+  "f5680281f060c5d6",
+  "2d02d5d69f54ab72",
+  "c04dc0430f68e9e2",
+  "f2eab47a4a1d38ea",
+  "22ce4a87df3c17b9",
+  "f5da9d022d08744b",
+  "39897326e1b51445",
+  "357f0028b1893304",
+  "8dc343a182032062",
+  "210cb8b51109aa62",
+  "c5f77caa2e1d759c",
+  "9bd9570043be41e6",
+  "3eca271155711d89",
+  "2d10988d2f431834",
+  "b6d939653c11bfea",
+  "883d031dc7fe9f6f",
+  "73acad3e5a16b4b1",
+  "795e5ff217549859",
+  "bf9ab7f14b3340d2",
+  "1e0ba4140d0dd91f",
+  "7df6c0b7de7e632b",
+  "cb159eed4e07571b",
+  "0640f00b6508f149",
+  "a76ad213f9e25d3c",
+  "779f56ab7e5fa828",
+  "74d4f60df432eb7c",
+  "1d8bc0515f552c95",
+  "b07da89a9722fe05",
+  "2fe44fd1c1f58d23",
+  "9c8997c67206d4a3",
+  "b63a3d9fd749e93f",
+  "b965083d518c8cc2",
+  "e3c2932b2c538b1b",
+  "f423332bba35f1a1",
+  "3fc6f0797365deaa",
+  "d89b2420c99de6e1",
+  "c39e4ee4ec546584",
+  "d45cc83e3490b1bf",
+  "48da080ea5bc97fb",
+  "dcf24c7cd37a8957",
+  "96d51289663d2f16",
+  "f83ab8a55aa3abfb",
+  "b0a7ce149ef6e63b",
+  "9bf8a8ca49362f4d",
+  "68b672f6d7c73992",
+  "dca5935f591926db",
+  "bdccdd497c3b585a",
+  "7984d2f578d4da90",
+  "96534cca05f84c4d",
+  "02a2d97da1b19643",
+  "e3d7c36f7764246c",
+  "5a901d9d541b60e3",
+  "e9a6d964e18a4021",
+  "e4a51003d847a400",
+  "089fb4e6ef9bb7f0",
+  "b032b74112b31152",
+  "792be2d81ab83c7b",
+  "59e38d580eb14e16",
+  "16ffcc5e28014d72",
+  "85769922f2cf1b28",
+  "bcd6d643c6a41aa4",
+  "64d428828a97a532",
+  "2eff6164aec55e4e",
+  "4efe1defd76738f0",
+  "8d485fc57e25edc5",
+  "735fcbf18e151ef4",
+  "be4e6ef896100413",
+  "c01c9b125ff287df",
+  "1e8daa4869768c34",
+  "4ccad201f0470878",
+  "7b4ff42a5567c6ef",
+  "86e4029ab7491f9e",
+  "585e8e2475a312b6",
+  "a2138b5d33cd100d",
+  "02f44c9d45f922b7",
+  "aea9172274585a87",
+  "7489ee92d8eba043",
+  "0de530ac3d0c5520",
+  "19a35342e827b671",
+  "be472d6fca38601b",
+  "2d3f17f5d0a00e68",
+  "ff890fc1dba85d98",
+  "d8b111c8fc9c3a23",
+  "8677ac17961c6074",
+  "052d49cab1498861",
+  "666f71700668a17e",
+  "2d9042d52d569ed7",
+  "3c475de200ad92fb",
+  "1a729449856a8de4",
+  "51fa82a2679d0b2f",
+  "30e4c339706a3791",
+  "d2c9ed116059232e",
+  "5f65d459a1aded54",
+  "af765a4afc228a09",
+  "1c82ed43d692665b",
+  "7b456bbde0624d30",
+  "2da1f3812b4093a5",
+  "11495d7d3581809b",
+  "ff2b273664e579b4",
+  "2d6a1803b2b85657",
+  "cb067ce263295b04",
+  "7c2521e4fd299282",
+  "d36e2465e88d5fba",
+  "78550f9a07fb0e16",
+  "8e2a989ed3261ad2",
+  "d8ee3b7708eba9f4",
+  "e0eb8ef1b5f6f1df",
+  "8a0feb20ec0bbb7a",
+  "96594f85b46c23d0",
+  "2325358cd21379aa",
+  "5160a44d83c1150f",
+  "2d0fe91ed5da1028",
+  "488fb4868730cd9e",
+  "51f4378a0c3a7d1f",
+  "6aced418c6327882",
+  "3f4f93c17b3370b6",
+  "7e23bfbab9ec2c05",
+  "0b1f8802543ec82c",
+  "8f21633323f01b66",
+  "acf66fd35251ee5b",
+  "9a82584462d72511",
+  "346d59757a468fb9",
+  "7b27a67553b49781",
+  "41aa7fabb777dbf6",
+  "0083d7eb53d759ea",
+  "cfe2e13ac33b115d",
+  "2734e073cf3164f9",
+  "41bf2adbb3b2c9bd",
+  "b8f4a7384b0f7e48",
+  "c804df3a82d314d1",
+  "795fc987737f02b1",
+  "66ca897f20eff234",
+  "8fda19b00eca10e4",
+  "229ef75e61dd686d",
+  "3486acede248c754",
+  "d1e5872ac01d295a",
+  "81021bba9c7e8a47",
+  "e425b83a2d09f804",
+  "a5923f51d8cfc7d6",
+  "3de8f896326039ee",
+  "92369475d0aac46c",
+  "0651e923e559913d",
+  "521a4039c60f931d",
+  "e1b5e406bf156d83",
+  "2b7947076d6a9f7c",
+  "9cb4705fb0096ecf",
+  "e4f3c6ac49bc7e56",
+  "b17390cbc63eefd8",
+  "0f96a1ac79dd7bc3",
+  "e1892c72cc75f3d8",
+  "12d08a67c8d8e502",
+  "ec574d5570a4e5c7",
+  "fd81d9c1be526a01",
+  "08c325963da5d640",
+  "c0f72fcc99e9caa7",
+  "a9f8b8a3bf1a271d",
+  "b4f85e7819abc615",
+  "aef32dbeaef03891",
+  "f5d7f2dd2382b1ce",
+  "45386989cd83907d",
+  "2b77135f0580d833",
+  "5d65934ca95049cf",
+  "c12a67a0751e60ff",
+  "58e9de5400dda045",
+  "b37f9e1a00b06637",
+  "d724add44c6382d7",
+  "60c19dc3415e8096",
+  "bc866bea11e164c3",
+  "27a0cf7b1f770141",
+  "1f50a1309fcd3f84",
+  "f55e9971eea33b61",
+  "897ceb5515a39046",
+  "7240ef7582f9106b",
+  "b0f2d834e6a91592",
+  "d0163aebe987e783",
+  "5b224084286d885b",
+  "c5746a65956f2304",
+  "923e80c2b29e8562",
+  "c2bbfed9fee0d5fd",
+  "71c38fb45eeaa2a8",
+  "565dfbbfbcdaf9a4",
+  "283ff94c326ca2ec",
+  "207b0fbd996b13a7",
+  "345bb04779ebfa27",
+  "eb6096ee880509d4",
+  "ccf7b0be14edb6d2",
+  "6ed88c760572cade",
+  "2fc8200c522e590d",
+  "6c874f563d6ad287",
+  "f265f0436386bec9",
+  "73e903a97482adb8",
+  "71e774c8b8bb3f75",
+  "c8398467510b1e9f",
+  "665bbda6733d28e5",
+  "0475b4ecddeb3b35",
+  "60db6d193961d19b",
+  "652ee85d7e2ea528",
+  "dd43cb7cd877231f",
+  "5350c8486e26ecf6",
+  "dc00408971bcf07c",
+  "5761970001f02c08",
+  "b86ba1e97aeff29c",
+  "9b5172990006c1c3",
+  "ee402897117a41bf",
+  "3cfaaa2a09322669",
+  "99a55d1c9a5f492c",
+  "bff8c8f772bfb8b7",
+  "cba40f5eda001f17",
+  "1cfdf08302f89d4d",
+  "b47b40aee615cd9b",
+  "4432daf116970afd",
+  "f5c25df8fc4a71c6",
+  "efcbd6ebd470b729",
+  "9ec75c76aa2ed07f",
+  "8b96c214c05f18aa",
+  "4f5f5db7fe619d3e",
+  "0d03ea8181c1a1f2"
+ ],
  "site": "geo",
- "updated": "2026-11-24T10:43:41+00:00"
+ "updated": "2026-11-24T14:12:37+00:00"
 }

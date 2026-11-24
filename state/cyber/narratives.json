@@ -483,27 +483,27 @@
  ],
  "coverage": [
   {
-   "articles": 188,
+   "articles": 218,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 5,
-   "continuing": 3,
-   "corroborated": 0,
+   "calls": 3,
+   "candidates": 14,
+   "continuing": 9,
+   "corroborated": 1,
    "date": "2026-11-24",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 160,
-   "in_stories": 8,
-   "kept": 7,
+   "groups": 184,
+   "in_stories": 23,
+   "kept": 18,
    "merged": 0,
-   "new": 2,
+   "new": 5,
    "rejected": 0,
-   "reported_by_2": 3,
-   "runs": 4,
-   "sent": 5,
+   "reported_by_2": 7,
+   "runs": 5,
+   "sent": 14,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 3,
+   "updated": 7,
    "waiting": 0
   },
   {
@@ -800,12 +800,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T10:34:44+00:00"
+  "all": "2026-11-24T13:57:14+00:00"
  },
  "narratives": [
   {
-   "article_count": 16,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "7854eff9bf090303",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-24T12:48:09+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/203882/hacking/u-s-cisa-adds-n-able-mailassure-and-project-monai-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
     {
      "added": "2026-11-24",
      "dates": [
@@ -821,6 +834,19 @@
      "title": "CISA Warns of VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller Flaws Exploited in Attacks",
      "type": null,
      "url": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "969847bcad890c7d",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-24T06:02:45+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
     },
     {
      "added": "2026-11-23",
@@ -1005,15 +1031,29 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "7854eff9bf090303",
+      "969847bcad890c7d"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "The Hacker News",
+      "Security Affairs"
+     ],
+     "published": "2026-11-24T06:02:45+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html), [Security Affairs](https://securityaffairs.com/203882/hacking/u-s-cisa-adds-n-able-mailassure-and-project-monai-flaws-to-its-known-exploited-vulnerabilities-catalog.html) reported that the U.S. Cybersecurity and Infrastructure Security Agency added flaws impacting N-able MailAssure and Project MONAI to its Known Exploited Vulnerabilities catalog."
+    },
     {
      "articles": [
       "9978808f228f610d"
@@ -1112,14 +1152,27 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
-   "article_count": 23,
+   "article_count": 24,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "f123170c054202cd",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-24T13:28:26+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+    },
     {
      "added": "2026-11-23",
      "id": "8bafc4650c84e62f",
@@ -1426,18 +1479,30 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
-   "last_reported": "2026-11-22",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
    "reports": [
+    {
+     "articles": [
+      "f123170c054202cd"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-24T13:28:26+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html) reported that Broadcom shipped patches to address vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer."
+    },
     {
      "articles": [
       "034036578ef4e210"
@@ -1641,9 +1706,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -4767,8 +4832,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "20609878ecb24cce",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-24T12:55:28+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical ASP.NET AntiCsrf Flaw Exploited in Attacks by triggering a web redirect on vulnerable apps",
+     "type": null,
+     "url": "https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/"
+    },
     {
      "added": "2026-11-23",
      "dates": [
@@ -4799,15 +4877,27 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "idunno-anticsrf-library-vulnerability",
    "label": "Idunno.AntiCsrf library vulnerability",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "20609878ecb24cce"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-24T12:55:28+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/) reported that attackers are exploiting a critical flaw in Idunno.AntiCsrf by triggering a web redirect on vulnerable applications."
+    },
     {
      "articles": [
       "4ec4e391633d1362"
@@ -4833,9 +4923,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/asp-net-anticsrf-flaw-under-attack/) reported that attackers are exploiting a critical flaw in Idunno.AntiCsrf, a third-party library used by older ASP.NET WebForms applications, and Mandiant confirmed active exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Idunno.AntiCsrf library vulnerability",
    "topic": "cyber"
   },
@@ -4884,8 +4974,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "72c580a64c2e2141",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-24T12:04:37+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Azure API Management vulnerability exploited to steal customers’ secrets",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "a1e3955c7df56b65",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-24T10:44:49+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
+    },
     {
      "added": "2026-11-23",
      "id": "f6988db2faba75b8",
@@ -4926,15 +5042,27 @@
      "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "azure-api-management-vulnerability",
    "label": "Azure API Management vulnerability",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "a1e3955c7df56b65"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-24T10:44:49+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html) reported that Norway's National Security Authority disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management."
+    },
     {
      "articles": [
       "4994bdf822afcd61"
@@ -4960,6 +5088,14 @@
      "text": "[SecurityWeek](https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/) reported that Microsoft closed an Azure API Management flaw exploited to target secrets at Norwegian energy companies."
     },
     {
+     "also": [
+      {
+       "date": "2026-11-24",
+       "outlet": "Help Net Security",
+       "published": "2026-11-24T12:04:37+00:00",
+       "url": "https://www.helpnetsecurity.com/2026/11/24/azure-apim-vulnerability-credential-theft/"
+      }
+     ],
      "articles": [
       "f6988db2faba75b8"
      ],
@@ -4974,7 +5110,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
    "title_from": {
     "backing": 2,
@@ -5202,8 +5338,47 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "fa9ca14e2a3489f5",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-24T13:34:23+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "7d2eda31a663631f",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-24T12:20:41+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+     "type": null,
+     "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "ffcb3fa5ebe4462c",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-24T12:00:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI and Cisco Release Open-Source Tool to Shield Unpatched Linux Systems",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/openai-cisco-shirudo-linux-shields/"
+    },
     {
      "added": "2026-11-24",
      "id": "18a636fdae675abf",
@@ -5247,15 +5422,54 @@
      "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 6,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "openai-and-cisco-shirudo-tool",
    "label": "OpenAI and Cisco Shirudo tool",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 3,
+   "outlets_today": 6,
+   "previous_titles": [
+    "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers"
+   ],
    "reports": [
+    {
+     "articles": [
+      "ffcb3fa5ebe4462c"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine"
+     ],
+     "published": "2026-11-24T12:00:00+00:00",
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/openai-cisco-shirudo-linux-shields/) reported that OpenAI and Cisco released Shirudo to help Linux users block exploitation of known vulnerabilities on live systems."
+    },
+    {
+     "articles": [
+      "7d2eda31a663631f"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-24T12:20:41+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/) reported that Shirudo uses artificial intelligence-generated shields to block Linux exploits while patches are prepared, but is not yet production-ready."
+    },
+    {
+     "articles": [
+      "fa9ca14e2a3489f5"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-24T13:34:23+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/) reported that OpenAI and Cisco launched an open-source Linux security tool named Shirudo that deploys temporary runtime protections."
+    },
     {
      "articles": [
       "18a636fdae675abf",
@@ -5300,19 +5514,32 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers",
+   "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
    "title_from": {
     "backing": 2,
     "date": "2026-11-24",
-    "of": 2,
-    "outlet": "Cybersecurity News",
-    "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/"
+    "of": 5,
+    "outlet": "SecurityWeek",
+    "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/"
    },
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "1d4d722ac82a2bc7",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-24T10:30:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "LaLiga Says Football Fans’ Personal Data Stolen",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/la-liga-says-football-fans/"
+    },
     {
      "added": "2026-11-24",
      "id": "9a312d81bd759ce6",
@@ -5340,14 +5567,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "spanish-laliga-data-breach",
    "label": "Spanish LaLiga data breach",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -5377,11 +5604,193 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Spanish LaLiga data breach",
+   "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 2,
+    "outlet": "The Record",
+    "url": "https://therecord.media/laliga-hacked-spain-top-professional-league-confirms-cyber-incident"
+   },
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "78cf4bbdc45a5e36",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-24T11:50:21+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
+     "type": null,
+     "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "cf76c3604527637d",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-23T20:54:51+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "kepco-data-breach",
+   "label": "KEPCO data breach",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "cf76c3604527637d"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-23T20:54:51+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/) reported that a threat actor breached the internal network of Korea Electric Power Corporation and accessed two systems containing customer, employee, and contractor data."
+    },
+    {
+     "articles": [
+      "78cf4bbdc45a5e36"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-24T11:50:21+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/) reported that hackers stole personal information from the company's customer portal and supplier relationship management platform."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "KEPCO data breach",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "cdbdf86c8960794c",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-24T13:35:37+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "GTA 6 hacker sentenced to seven years and released the same day",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "d5b5e8394d92e621",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-24T00:00:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "‘Grand Theft Auto VI’ hacker sentenced to seven years, released the same day",
+     "type": null,
+     "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "rockstar-games-hacker-sentencing",
+   "label": "Rockstar Games hacker sentencing",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "cdbdf86c8960794c",
+      "d5b5e8394d92e621"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "The Record",
+      "Help Net Security"
+     ],
+     "published": "2026-11-24T00:00:00+00:00",
+     "text": "[The Record](https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license), [Help Net Security](https://www.helpnetsecurity.com/2026/11/24/gta-vi-hacker-sentenced-seven-years-released-on-licence/) reported that a Lapsus$ member who hacked Rockstar Games and leaked footage of Grand Theft Auto VI was sentenced to seven years in prison on Monday and released from custody on licence the same day."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Rockstar Games hacker sentencing",
+   "topic": "crime"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "7acbee4b0461a95a",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-24T10:49:04+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "New Enterotoxin Malware Uses NPM Packages to Deliver RAT",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/enterotoxin-malware"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "new-enterotoxin-malware-uses-npm-packages",
+   "label": "New Enterotoxin Malware Uses NPM Packages to Deliver RAT",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "7acbee4b0461a95a"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-24T10:49:04+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/enterotoxin-malware) reported that NPM packages deliver a new Enterotoxin Windows remote access trojan to steal developer and cloud credentials."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "New Enterotoxin Malware Uses NPM Packages to Deliver RAT",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-24T10:35:02+00:00"
+ "updated": "2026-11-24T13:57:43+00:00"
 }

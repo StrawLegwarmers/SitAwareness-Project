@@ -805,25 +805,25 @@
   {
    "articles": 556,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 20,
-   "continuing": 15,
+   "calls": 5,
+   "candidates": 27,
+   "continuing": 19,
    "corroborated": 0,
    "date": "2026-11-24",
    "dropped": 1,
    "failed_calls": 0,
    "groups": 513,
-   "in_stories": 24,
-   "kept": 9,
+   "in_stories": 34,
+   "kept": 15,
    "merged": 0,
-   "new": 2,
+   "new": 5,
    "rejected": 3,
    "reported_by_2": 6,
-   "runs": 4,
-   "sent": 20,
+   "runs": 5,
+   "sent": 27,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 13,
+   "updated": 17,
    "waiting": 0
   },
   {
@@ -1098,7 +1098,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T10:43:42+00:00"
+  "all": "2026-11-24T14:12:38+00:00"
  },
  "narratives": [
   {
@@ -1830,8 +1830,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "58add8aff4435040",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-24T12:33:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rebound as Shipping Risks Persist",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-fall-as-traders-weigh-supply-outlook-shipping-risks-7225885e?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-20",
      "id": "2ec81938c9e64aa2",
@@ -1924,14 +1937,14 @@
      "url": "https://www.bbc.co.uk/news/articles/ckregdvr2y3go?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "gas-bills-to-rise-as-middle",
    "label": "Gas bills to rise as Middle East turmoil persists",
    "last_reported": "2026-11-17",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -1982,9 +1995,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed continued disruptions to Middle Eastern oil shipments."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Oil Prices Rise as Middle East Supply Risks Persist",
    "title_from": {
     "backing": 2,
@@ -4681,8 +4694,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "0e6825a32a8f5bb8",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-24T12:15:35+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "BAAJA Permitting Bill Passes Senate",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/baaja_permitting_bill_passes_senate-24-nov-2026-185155-article/?rss=true"
+    },
     {
      "added": "2026-11-20",
      "id": "14d3f0ef5a43db3b",
@@ -4710,15 +4736,27 @@
      "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "us-energy-permitting-reform-bill",
    "label": "US energy permitting reform bill",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "0e6825a32a8f5bb8"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-24T12:15:35+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/baaja_permitting_bill_passes_senate-24-nov-2026-185155-article/?rss=true) reported that the BAAJA Permitting Bill still needs to pass the House and go to the President to become law."
+    },
     {
      "articles": [
       "7d0f8ef57b33b43c"
@@ -4744,9 +4782,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Senate-Passes-Sweeping-Energy-Permitting-Reform-Bill-in-62-33-Vote.html) reported that the Senate passed the Bipartisan American Affordability and Jobs Bill in a 62-33 vote to speed up approval for large-scale energy projects."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "US energy permitting reform bill",
    "topic": "economy"
   },
@@ -6003,8 +6041,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "2da743d080560dac",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-24T12:00:05+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "COP31’s fossil fuels fight and the limits of carbon capture",
+     "type": "international",
+     "url": "https://www.ft.com/content/76791e9d-c24a-4a81-89a5-70bd757aa583?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-23",
      "id": "efe9a2e053de934e",
@@ -6071,14 +6122,14 @@
      "url": "https://www.ft.com/content/fb459525-6978-40f3-a079-4e59047858bd?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-21",
    "group": "all",
    "id": "cop31-climate-summit-negotiations",
    "label": "COP31 climate summit negotiations",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6141,9 +6192,9 @@
      "text": "[Investing.com](https://www.investing.com/news/commodities-news/cop31-climate-summit-risks-failure-as-talks-go-deep-into-overtime-5043482) reported that the COP31 climate summit risks failure as talks go deep into overtime."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "COP31 climate summit negotiations",
    "topic": "economy"
   },
@@ -6676,8 +6727,21 @@
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "b31ae25d2bc3e7fc",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-24T11:45:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "European Gas Prices Climb as Cold Snap Threatens Depleted Reserves",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html"
+    },
     {
      "added": "2026-11-23",
      "id": "ec07b482ad50b6da",
@@ -6718,15 +6782,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-23/european-gas-surges-as-cold-snap-threatens-tight-inventories"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "european-natural-gas-prices",
    "label": "European natural gas prices",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "b31ae25d2bc3e7fc"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-24T11:45:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Climb-as-Cold-Snap-Threatens-Depleted-Reserves.html) reported that European benchmark natural gas prices rose for the fourth consecutive trading session as a cold snap accelerated withdrawals from depleted reserves."
+    },
     {
      "articles": [
       "4ca9f633c863d639",
@@ -6753,9 +6829,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/European-Natural-Gas-Prices-Surge-86-as-Cold-Snap-Looms.html) reported that natural gas prices in Europe gained 8.6% to 96.075 euros per MWh as weather forecasts indicated colder weather."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "European natural gas prices",
    "topic": "markets"
   },
@@ -7529,9 +7605,197 @@
     "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=pls_whats_news_us_business_f"
    },
    "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d85c34ee11a12ffc",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-24T12:14:38+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Ousted BP Chairman Manifold to Join Aggreko Board Amid US IPO",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/ousted-bp-chairman-manifold-to-join-aggreko-board-amid-us-ipo"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "254a97595f7e8ca2",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-24T10:12:31+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Ousted BP chair Albert Manifold to join Aggreko board after IPO",
+     "type": "international",
+     "url": "https://www.ft.com/content/99b832dc-dd09-4eac-8121-dacc246a306e?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "albert-manifold-joins-aggreko-board",
+   "label": "Albert Manifold joins Aggreko board",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "254a97595f7e8ca2"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-24T10:12:31+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/99b832dc-dd09-4eac-8121-dacc246a306e?syn-25a6b1a6=1) reported that ousted BP chair Albert Manifold will join the Aggreko board and responded to bullying allegations by calling them lies."
+    },
+    {
+     "articles": [
+      "d85c34ee11a12ffc"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-24T12:14:38+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/ousted-bp-chairman-manifold-to-join-aggreko-board-amid-us-ipo) reported that former BP Plc Chairman Albert Manifold will join the board of power equipment and services firm Aggreko Plc as part of its move toward a US IPO."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Albert Manifold joins Aggreko board",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "9a2d6afb99f28583",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T13:00:38+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic falls below $83 IPO price in swift reversal after record listing",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "9e4e5c1ce0e47a44",
+     "lang": "en",
+     "outlet": "MarketWatch Bulletins",
+     "published": "2026-11-24T11:40:35+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Anthropic stock falls below IPO price: live updates",
+     "type": "international",
+     "url": "https://www.marketwatch.com/bulletins/redirect/go?g=cb62e45a-2595-49e8-9966-dd12c0eeea7b&mod=mw_rss_bulletins"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "anthropic-stock-price-movements",
+   "label": "Anthropic stock price movements",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9a2d6afb99f28583"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T13:00:38+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654) reported that Anthropic fell below its $83 IPO price in a swift reversal after its record listing."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Anthropic stock price movements",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d33a60f1a5ddff71",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-24T13:00:48+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Nasdaq futures drop as AI stocks cool after Nvidia-fueled rally: US Stock Market Live Updates",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "35be0f6dada0b452",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T12:49:20+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Nasdaq futures drop as AI stocks cool after Nvidia-fueled rally",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "nasdaq-futures-drop-on-cooling-ai",
+   "label": "Nasdaq futures drop on cooling AI stocks",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "35be0f6dada0b452",
+      "d33a60f1a5ddff71"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "ET Markets"
+     ],
+     "published": "2026-11-24T12:49:20+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567), [ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms) reported that Nasdaq futures dropped as AI stocks cooled following an Nvidia-fueled rally."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nasdaq futures drop on cooling AI stocks",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-24T10:43:59+00:00"
+ "updated": "2026-11-24T14:13:37+00:00"
 }
