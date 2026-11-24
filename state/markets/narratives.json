@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 539,
+   "articles": 556,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 4,
-   "continuing": 2,
+   "calls": 2,
+   "candidates": 7,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-24",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
-   "groups": 496,
-   "in_stories": 4,
-   "kept": 1,
+   "groups": 513,
+   "in_stories": 6,
+   "kept": 2,
    "merged": 0,
    "new": 1,
    "rejected": 1,
    "reported_by_2": 4,
-   "runs": 1,
-   "sent": 4,
+   "runs": 2,
+   "sent": 7,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -1098,7 +1098,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T02:09:21+00:00"
+  "all": "2026-11-24T04:46:58+00:00"
  },
  "narratives": [
   {
@@ -3151,8 +3151,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 14,
+   "article_count": 15,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "2bcc8b2877192ccb",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-24T03:00:46+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil holds near three-month low as rising supply offsets Hormuz threat",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-holds-near-threemonth-low-as-rising-supply-offsets-hormuz-threat-5046916"
+    },
     {
      "added": "2026-11-24",
      "id": "9d505b1aa3b057fa",
@@ -3336,18 +3349,30 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
-   "last_reported": "2026-11-23",
+   "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
    "outlets_today": 1,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "2bcc8b2877192ccb"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T03:00:46+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/oil-holds-near-threemonth-low-as-rising-supply-offsets-hormuz-threat-5046916) reported that oil held near a three-month low as rising supply offset the Hormuz threat."
+    },
     {
      "articles": [
       "63b04f98323132d2"
@@ -3461,7 +3486,7 @@
    ],
    "single_source_today": true,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "updated",
    "title": "Oil Prices Continue to Fall as Global Supply Surplus Weighs",
    "title_from": {
     "backing": 2,
@@ -6688,8 +6713,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "850685fd2430026f",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-23T17:22:20+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Capita’s pesky civil service pension mandate may be its saving grace",
+     "type": "international",
+     "url": "https://www.ft.com/content/e99cf35e-7d96-4eff-8c50-cb66f7d55b48?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-23",
      "id": "192dde2273b012b2",
@@ -6717,14 +6755,14 @@
      "url": "https://www.ft.com/content/d5e951e6-b5f6-4286-9de4-495c9a3c2472?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "capita-shares-drop-70-on-cash",
    "label": "Capita shares drop 70% on cash call after civil service pension failures",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_updated": "2026-11-24",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6751,9 +6789,9 @@
      "text": "[BBC](https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss) reported that public sector workers were hit by delays to pension payments in a scheme overseen by Capita since last year."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Capita shares drop 70% on cash call after civil service pension failures",
    "topic": "business"
   },
@@ -7142,5 +7180,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-24T02:09:38+00:00"
+ "updated": "2026-11-24T04:47:15+00:00"
 }
