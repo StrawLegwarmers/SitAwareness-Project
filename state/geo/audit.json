@@ -1,413 +1,5 @@
 [
  {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Robert Pattinson cast as James Bond",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "global",
-  "story": "2027 Grammy Award nominations",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "FIFA presidential election",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Peruvians honour Pope Leo XIV with procession through Lima",
-  "text": "[81] reported that Peruvian President Keiko Fujimori maintained a trip to Asia amid the pope's visit.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "UK authorities investigating after Russell Brand's message from prison",
-  "text": "[80] reported that UK politician Ed Miliband criticized Russell Brand's message from jail as disgusting and lacking remorse.",
-  "reason": "wording not from cited articles: politician, criticized, disgusting, lacking"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "‘Indifferent, like a teenager’: Former US President Joe Biden on Russia's Putin in new memoir",
-  "text": "US and Chinese leaders APEC meeting",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Trump on restrictions on Starlink access in Ukraine: ‘I haven't heard that’",
-  "text": "[106] reported that the EU sanctioned Tatiana Kim and around fifty Russian banks and financial institutions.",
-  "reason": "number not in cited articles: 50"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "mena",
-  "story": "China presses for Yemen settlement as envoy holds talks in Iran, Oman, Saudi Arabia",
-  "text": "China diplomatic push for Yemen settlement",
-  "reason": "title replaced by a headline: wording not from cited articles: diplomatic, push"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "KCSE candidate death from lab chemical",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "dropped",
-  "group": "africa",
-  "story": "",
-  "text": "Uyo Book Club Plans Colloquium To Honour Attah At 88",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "mena",
-  "story": "IDF strikes Hezbollah weapons shipment on Syria-Lebanon border as US envoy visits Beirut",
-  "text": "Israel-Hezbollah border clashes",
-  "reason": "title replaced by a headline: names not in cited articles: Israel-Hezbollah"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "mena",
-  "story": "President Sheikh Mohamed meets Venezuela's acting President to strengthen ties",
-  "text": "Venezuela and UAE bilateral relations",
-  "reason": "title replaced by a headline: wording not from cited articles: bilateral, relations"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "africa",
-  "story": "TSC finally gets new CEO as Cheptumo Ayabei appointed",
-  "text": "Teachers Service Commission leadership appointment",
-  "reason": "title replaced by a headline: wording not from cited articles: leadership, appointment"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "TSC finally gets new CEO as Cheptumo Ayabei appointed",
-  "text": "[7] reported that Cheptumo Ayabei was appointed as the new Chief Executive Officer of the Teachers Service Commission.",
-  "reason": "names not in cited articles: Executive, Officer, Service, Teachers"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "europe",
-  "story": "Pilot to be sentenced next month over €8m cocaine import",
-  "text": "Ireland cocaine importation sentencing",
-  "reason": "title replaced by a headline: names not in cited articles: Ireland"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Death of Pearl Harbor survivor Freeman Johnson",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "africa",
-  "story": "Shettima orders immediate release of 3m fertiliser bags for dry-season farming",
-  "text": "Nigeria fertilizer distribution directive",
-  "reason": "title replaced by a headline: wording not from cited articles: fertilizer, distribution"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Shettima orders immediate release of 3m fertiliser bags for dry-season farming",
-  "text": "[28] reported that President Bola Tinubu ordered the immediate mobilisation and release of the fertiliser bags for dry-season farming and directed the National Security Adviser to track stocks.",
-  "reason": "names not in cited articles: Adviser"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Five European Countries Plan to Deport Migrants to Rwanda",
-  "text": "[29] reported that 47 aid, trade union and rights groups urged five European countries to abandon the Rwanda plan in a joint statement.",
-  "reason": "names not in cited articles: European"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "global",
-  "story": "Forensic expert says his analysis raises doubts about how Epstein died",
-  "text": "Forensic analysis of Jeffrey Epstein death",
-  "reason": "title replaced by a headline: names not in cited articles: Jeffrey"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "africa",
-  "story": "Tompolo rallies Ebonyi voters for Tinubu, donates 25 vehicles",
-  "text": "Tompolo political rally for Tinubu re-election",
-  "reason": "title replaced by a headline: wording not from cited articles: political, rally"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "global",
-  "story": "GTA 6 hacker pleads guilty to cybercrimes after hospital release",
-  "text": "Arion Kurtaj cybercrime guilty plea",
-  "reason": "title replaced by a headline: wording not from cited articles: cybercrime, plea"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Lula and Milei's rivalry spills into Spain as Pedro Sánchez faces crucial election battle against right",
-  "text": "[53] reported that Spanish Prime Minister Pedro Sanchez and Brazilian President Luiz Inacio Lula da Silva met in Madrid to discuss their bilateral agenda and reaffirm cooperation amid the threat of the far right.",
-  "reason": "names not in cited articles: Inacio, Luiz, Pedro, Silva"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Neandertal genetic variant study on brain volume",
-  "text": "",
-  "reason": "off-topic for this site (topic: science): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Lula endorsement of Pedro Sanchez",
-  "text": "[60] reported that a majority of electoral polls indicate the Spanish left will lose power on November 29.",
-  "reason": "countries not in cited articles: spain"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Bojana River upstream flow phenomenon",
-  "text": "",
-  "reason": "off-topic for this site (topic: weather): not created"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
-  "text": "",
-  "reason": "continuation not supported by the headlines: Estados Unidos recupera la normalidad aérea tras miles de cancelaciones y una fa"
- },
- {
-  "date": "2026-11-16",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Estados Unidos recupera la normalidad aérea tras miles de cancelaciones y una falla en el sistema de",
-  "text": "",
-  "reason": "title replaced by a headline: empty title"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Russian Strikes Across Ukraine Kill 2, Injure at Least 12",
-  "text": "[67] reported that President Volodymyr Zelensky stated intelligence indicates Russia plans to increase missile production and receives ballistic missiles from North Korea monthly.",
-  "reason": "analysis word not used by the source: 'indicates'"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Trump blames Biden for nationwide grounding of flights, in first address since crisis",
-  "text": "[16] reported that US President Donald Trump blamed old technology and Joe Biden for the problems surrounding the grounding of planes.",
-  "reason": "names not in cited articles: Donald, Joe"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Le Pen confirms plans to end financial aid to Ukraine if elected",
-  "text": "[19] reported that Marine Le Pen stated France will continue providing aid to Ukraine if she is elected.",
-  "reason": "wording not from cited articles: marine, continue, providing"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Ukraine Peace Talks: Who Will Represent the EU, and What Are Russia’s Conditions",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Trump Claims Putin Is ‘Backing Down,’ Would Like to See War End"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ukraine Peace Talks: Who Will Represent the EU, and What Are Russia’s Conditions",
-  "text": "[26] reported that US President Donald Trump stated Russian President Vladimir Putin is backing down in the war against Ukraine and would like to see the war end.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "INEC debunks claim BVAS can be remotely logged out, says offline upload intact",
-  "text": "[6] reported that the Independent National Electoral Commission dismissed viral claims about the manipulation of BVAS machines.",
-  "reason": "names not in cited articles: Independent"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Crimean Bridge Shut After Ukrainian Strike as Russia Claims 1,336 Drones Downed Overnight",
-  "text": "[22] reported that up to 2,000 vehicles were stuck in queues following an attack on the Crimean Bridge that halted traffic.",
-  "reason": "names not in cited articles: Crimean"
- },
- {
-  "date": "2026-11-16",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "University of Abuja land dispute",
-  "text": "[36] reported that the FCTA stated the University of Abuja sold land to individuals and corporate bodies.",
-  "reason": "names not in cited articles: University"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Underwater data center development",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-16",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Trump administration LinkedIn data subpoena",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Ukraine Peace Talks: Who Will Represent the EU, and What Are Russia’s Conditions",
-  "text": "Kremlin Aide Denies Russia Agreed to Include Europe in Ukraine Peace Talks",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "europe",
-  "story": "President Trump says he 'wouldn't mind' Jensen Huang being reinstated as Nvidia CEO",
-  "text": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Imran Khan’s sisters released from jail following backchannel political understandings",
-  "text": "Jailed Pakistan ex-PM Imran Khan writes to judges, seeks vital medical care",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Trump administration tightens AI chip export rules to restrict China's access to Nvidia chips",
-  "text": "EU insta a Nvidia a aclarar si eludió restricciones de exportación de chips a China",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "mena",
-  "story": "Houthis advance in Yemen as government forces move to defend Aden",
-  "text": "Lt. Gen. Fahd bin Hamad replaced as Saudi Joint Forces Commander amid Houthi Attacks",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
-  "text": "UN lethal autonomous weapons talks",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "Chase, Bank of America, US Bank and Wells Fargo users report mobile banking outages",
-  "text": "Estados Unidos recupera la normalidad aérea tras miles de cancelaciones y una falla en el sistema de",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Nuclear safety regulators warn of rising accident risk in Ukraine – Reuters",
-  "text": "Nuclear accident risk in Ukraine",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Sudanese army offensive in West Kordofan",
-  "text": "Sudan army airstrike in West Kordofan",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "europe",
-  "story": "US Embassy congratulates new Bosnia presidency",
-  "text": "Bosnia and Herzegovina new presidency members take office",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Jeffrey Epstein autopsy records examination",
-  "text": "Forensic expert says his analysis raises doubts about how Epstein died",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Lula and Milei's rivalry spills into Spain as Pedro Sánchez faces crucial election battle against right",
-  "text": "Lula endorsement of Pedro Sanchez",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-16",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Le Pen confirms plans to end financial aid to Ukraine if elected",
-  "text": "Marine Le Pen statements on Ukraine aid",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
   "date": "2026-11-17",
   "kind": "skipped",
   "group": "namerica",
@@ -3397,6 +2989,742 @@
   "group": "europe",
   "story": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
   "text": "US Treasury Secretary leaves door open for Jensen Huang’s return to Nvidia",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Jensen Huang 'honoured to return' to Nvidia less than two weeks after resignatio"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): ‘I’m going to be a better CEO’: Jensen Huang tells Nvidia employees on ‘first da"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Jensen Huang returns to Nvidia to applause from staff, no trademark leather jack"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Un buque de guerra ruso es atacado y hundido por drones ucranianos en un puerto "
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Kiev se adjudicó los ataques contra dos barcos rusos en Libia y llevó la guerra "
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Ataque de Ucrania con drones contra dos barcos rusos en la costa de Libia desata"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Lo que el ataque contra un buque militar ruso en Libia revela sobre la propagaci"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Albania denies drones that sank Russian corvette Merkury were launched from its "
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Ukraine says sea drones sank Russian corvette off Libya"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukraine Strikes Russian Warship, Cargo Vessel Off Libya's Coast",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Albania denies drones in Libya attack launched from its territory"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "namerica",
+  "story": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
+  "text": "Alice Huang Nvidia Espionage Investigation",
+  "reason": "title replaced by a headline: names not in cited articles: Espionage, Investigation"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "namerica",
+  "story": "JD Vance played key role in Jensen Huang's Nvidia return after Marco Rubio triggered his ouster: Rep",
+  "text": "Nvidia Reinstatement Political Reactions",
+  "reason": "title replaced by a headline: names not in cited articles: Political, Reactions"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "JD Vance played key role in Jensen Huang's Nvidia return after Marco Rubio triggered his ouster: Rep",
+  "text": "[33] reported that Israeli President Isaac Herzog and Prime Minister Benjamin Netanyahu lauded Jensen Huang's reinstatement as Nvidia's CEO.",
+  "reason": "wording not from cited articles: president, isaac, prime, minister, benjamin"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Iran Flogging Sentence for Singer",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "FIFA 2031 and 2035 Women's World Cup Hosts",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US Federal Appeals Court Trump Hush Money Case",
+  "text": "[63] reported that an appeals court gave Donald Trump a new path to toss his hush-money convictions in his failed attempts to move the case into federal jurisdiction.",
+  "reason": "names not in cited articles: Donald"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US Federal Appeals Court Trump Hush Money Case",
+  "text": "[66] reported that a three-judge panel ordered a lower court to promptly issue a decision on whether the case should remain in federal court.",
+  "reason": "number not in cited articles: 3"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Polish Airspace Violation by Russian Drone",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "europe",
+  "story": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+  "text": "Russia Warnings on Black Sea and Baltic Attacks",
+  "reason": "title replaced by a headline: names not in cited articles: Black, Warnings"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Finland Moves to Bar Russian Athletes From Entry Over Ukraine War",
+  "text": "[94] reported that the European Union proposed a new sanctions package targeting Russian banks, crypto, shadow fleet, oil refineries, soldiers, and athletes.",
+  "reason": "names not in cited articles: European, Union"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US Suspects Iran in Cyberattacks on Ships",
+  "text": "[102] reported that the US eyes Iran as a possible culprit in dozens of new cyberattacks against ships, according to the Wall Street Journal.",
+  "reason": "names not in cited articles: Journal, Street, Wall"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Bangladesh Garment Workers Wage Protests",
+  "text": "[127] reported that Bangladesh garment manufacturers are set to propose a 15% wage hike.",
+  "reason": "names not in cited articles: Bangladesh"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "PEN America Writers Splinter Group Formation",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Dangote Wins 2026 Obafemi Awolowo Prize for Leadership",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Raja Krishnamoorthi calls Nvidia's decision to reinstate Jensen Huang 'outrageou"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): What stands behind Nvidia's decision to reinstate Jensen Huang as company's CEO "
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Nvidia board bypassed senior leadership in decision to reinstate Jensen Huang: R"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Jensen Huang vuelve a Nvidia: la junta directiva revirtió su decisión en dos sem"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Acciones de Nvidia subieron un 30 por ciento tras el regreso de Jensen Huang a l"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Jensen Huang vuelve a las oficinas de Nvidia entre ovaciones de los empleados"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump says he 'convinced' Nvidia to reinstate Jensen Huang"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump got Jensen Huang back atop Nvidia — US security be damned"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Trump says he assured Nvidia that Jensen Huang posed no national security threat"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Huang se vratio na čelo kompanije Nvidia: Zaposleni ga dočekali aplauzom"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Jensen Huang se vratio u Nvidiju, zaposlenici ga dočekali aplauzom: \"Bit ću bolj"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Video / Huang se vraća na čelo Nvidije: Zaposlenici ga dočekali ovacijama"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): (URGENT) Seoul shares open sharply higher after Jensen Huang returns"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Seoul shares surge on Jensen Huang's return, triggering buy-side sidecar"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Seoul shares open sharply higher after Jensen Huang returns"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): (LEAD) Seoul shares open sharply higher after Jensen Huang returns"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Nvidia restituye a Jensen Huang como director ejecutivo tras la intervención del"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Nvidia restituye a Jensen Huang como director ejecutivo"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Nvidia restituye a Jensen Huang como CEO tras intervención de Trump y se dispara"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "[4] reported that Raja Krishnamoorthi called Nvidia's decision to reinstate Jensen Huang 'outrageous'.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "[5] reported that board chairman Harvey Jones declared on November 17 that the company had no intention of reinstating Huang, but six days later the board voted to do so.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
+  "text": "[6] reported that Jensen Huang’s return was finalised within a few hours that day and made public shortly before trading began in New York on Monday.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores",
+  "text": "[28] reported that President Trump halted the Iowa bomb material detonation and left the decision to incoming governor-elect Rob Sand.",
+  "reason": "names not in cited articles: Rob, Sand"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "US expands Iran sanctions, targets 'shadow-banking' networks",
+  "text": "US sanctions on Iranian shadow banking",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "global",
+  "story": "Ethics probe finds Democratic Rep. Jimmy Gomez made unwelcome sexual advances to a staffer",
+  "text": "Representative Jimmy Gomez resignation inquiry",
+  "reason": "title replaced by a headline: wording not from cited articles: resignation, inquiry"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "First Thing: Cop31 talks collapse without deal in blow to planet’s future climate",
+  "text": "[80] reported that the EU and other nations stated that the summit failed amid unprecedented climate disasters and warming.",
+  "reason": "wording not from cited articles: summit, failed, amid"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ireland weather warnings",
+  "text": "",
+  "reason": "off-topic for this site (topic: weather): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Bulgaria Sliven wind emergency alerts",
+  "text": "",
+  "reason": "off-topic for this site (topic: weather): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Robert Pattinson cobró un millón de dólares por audicionar para James Bond y ganará casi 100 millones por actuar",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "dropped",
+  "group": "latam",
+  "story": "",
+  "text": "Resultados del Quini 6 del domingo 22 de noviembre: cuáles fueron los números de la suerte en el sorteo",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Krebs: Dieter Nuhr (66) sagt alle Auftritte per sofort ab",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "dropped",
+  "group": "africa",
+  "story": "",
+  "text": "Seplat Energy Champions Responsible AI Adoption for Sustainable Industry Growth",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Cuba healthcare conditions",
+  "text": "[7] reported that WHO chief Tedros Adhanom Ghebreyesus visited Cuba amid severe shortages at hospitals and worsening health conditions where pediatric cancer survival rates have fallen sharply.",
+  "reason": "names not in cited articles: Adhanom, Ghebreyesus, Tedros"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Foreign Ministers of Oman, Iran and Uzbekistan Discuss Regional Developments",
+  "text": "US and Qatar talks on Iran",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Albania and Kosovo weather conditions",
+  "text": "",
+  "reason": "off-topic for this site (topic: weather): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+  "text": "Ukraine drone attacks in Libya and Baltic Sea",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "asia",
+  "story": "Taliban deploys police to protect Afghanistan’s vanishing forests",
+  "text": "Afghanistan forest protection deployment",
+  "reason": "title replaced by a headline: wording not from cited articles: protection, deployment"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Paris Christmas lights switch-on",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Istanbul Hagia Sophia underground tunnels discovery",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "europe",
+  "story": "Russia recruits agents in Europe through Discord: over 20 million job ads identified by Ukrainian in",
+  "text": "Russia intelligence recruitment via messaging platforms",
+  "reason": "title replaced by a headline: wording not from cited articles: recruitment, via, messaging, platforms"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "White House national cyber director Sean Cairncross fired after slew of tech outages, source says",
+  "text": "[67][68] reported that the public submitted critical suggestions referencing political scandals when the White House asked for names for the Thanksgiving turkeys designated for a pardon.",
+  "reason": "analysis word not used by the source: 'critical'"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "title",
+  "group": "europe",
+  "story": "Spain's right set to win majority despite Socialist gains, polls show",
+  "text": "Spain upcoming election polls",
+  "reason": "title replaced by a headline: wording not from cited articles: upcoming, election"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Spain's right set to win majority despite Socialist gains, polls show",
+  "text": "[78] reported that the state-run CIS poll placed the Socialists at 34.4 percent and the conservative People's Party at 24.7 percent ahead of the vote on November 29.",
+  "reason": "names not in cited articles: Party, People"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Benue PDP campaign council inauguration",
+  "text": "[2] reported that the Ebonyi State Peoples Democratic Party inaugurated its campaign council and urged members to show unity and discipline.",
+  "reason": "names not in cited articles: Democratic, Peoples"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "US HUD mixed-status housing rule lawsuit",
+  "text": "[9] reported that states sued the Department of Housing and Urban Development over a rule that could cut off housing aid for mixed-status families.",
+  "reason": "names not in cited articles: Development, Urban"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Government funds pharmaceutical research in Colombia",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Laure Lavalette student writings controversy",
+  "text": "[13] reported that Jordan Bardella acknowledged a fault by Laure Lavalette regarding antisemitic texts in her student union in the 1990s but maintained his total support for her.",
+  "reason": "number not in cited articles: 1990"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores",
+  "text": "[17] reported that Donald Trump reluctantly ordered the Army to pause the detonation of unstable ammunition and put the decision in the hands of the courts.",
+  "reason": "names not in cited articles: Donald"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Greek prime minister pension announcement",
+  "text": "[25] reported that Greek Prime Minister Kyriakos Mitsotakis faced criticism after suggesting in a video announcing a 400 euro payment to pensioners that they buy GTA 6 for their grandchildren.",
+  "reason": "analysis word not used by the source: 'suggesting'"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Jensen Huang return boosts Asian markets",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Nigeria police colleges overhaul funding",
+  "text": "[41] reported that the National Economic Council approved an additional 130 billion Naira to upgrade police training institutions, raising total funding to 230 billion Naira.",
+  "reason": "number not in cited articles: 130000000000, 230000000000"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Pakistani astronaut on Chinese space station mission",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "HSE executive tenure termination",
+  "text": "[45] reported that Anne O'Connor became a public face of the health service pandemic response as HSE chief operations officer.",
+  "reason": "names not in cited articles: O'Connor"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "HSE executive tenure termination",
+  "text": "[47] reported on a podcast discussing why HSE chief Anne O'Connor was removed.",
+  "reason": "names not in cited articles: O'Connor"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Salvadoran military deaths in Haiti",
+  "text": "[1] reported that three Salvadoran soldiers died while handling explosives.",
+  "reason": "countries not in cited articles: el-salvador"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Eisenkot refutes Netanyahu's threats for urgent Iran war as unity talks continue",
+  "text": "[13] reported that Gadi Eisenkot stated no immediate threat justifies an attack on Iran.",
+  "reason": "names not in cited articles: Gadi"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "AI employment bias research",
+  "text": "[16] reported that South Korean Education Minister Choi Kyu-jin resigned amid controversy over AI cheating in examinations.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Hagia Sophia restoration tunnels",
+  "text": "[28] reported that archaeologists have been uncovering underground tunnel networks beneath the Hagia Sophia since 2025, which may soon open to tourists.",
+  "reason": "analysis word not used by the source: 'may'"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "‘Brexit is done’: Theresa May tells Burnham to move on",
+  "text": "[31] reported that readers debated Andy Burnham's EU deal, with one praising his practical steps to rebuild European relations and another citing democratic principles.",
+  "reason": "wording not from cited articles: readers, debated, one, praising, another, citing"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Russia Accused Of Plotting To Kill Same Ukrainian American Rapper Twice In 2 Months",
+  "text": "[39], a Russian state media outlet, reported commentary criticizing Western analysts over alleged pretexts to start a war with Russia.",
+  "reason": "names not in cited articles: Western"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Miguel Hidalgo gas explosion",
+  "text": "[22] reported that Mayor Tabe requested 8 billion 500 million pesos for the Miguel Hidalgo borough in 2027, marking an increase of 160% compared to his 2026 budget request.",
+  "reason": "number not in cited articles: 500000000, 8000000000"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Pacto Histórico congressional degree scandal",
+  "text": "[40] reported that La Guajira Senator Johana Osorio denied presenting herself as graduated amid public scrutiny over her academic information.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+  "text": "Over 450 German schools receive bomb threats",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "europe",
+  "story": "HDZ political talks and leadership",
+  "text": "Bosnia Constitutional Court insignia ruling",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "africa",
+  "story": "In Akwa Ibom, residents say major agricultural project worsens road condition",
+  "text": "Nigerian officials pledge votes for Tinubu",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
+  "text": "U.S. Tracked Alice Huang’s Contacts With China Spy Agency During Nvidia Affair",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
+  "text": "JD Vance played key role in Jensen Huang's Nvidia return after Marco Rubio triggered his ouster: Rep",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
+  "text": "Asian American women feel impact of Nvidia CEO affair scandal, 'spy' accusations",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

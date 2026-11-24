@@ -1,6 +1,118 @@
 {
  "archived": [
   {
+   "article_count": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "optimjack-supply-chain-attack",
+   "last_updated": "2026-11-17",
+   "title": "OPTIMJACK supply chain attack"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "malicious-npm-packages",
+   "last_updated": "2026-11-17",
+   "title": "Malicious npm packages"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "hijacked-optimizely-snippets-served-malicious-code",
+   "last_updated": "2026-11-17",
+   "title": "Hijacked Optimizely snippets served malicious code on major websites"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "oracle-java-vulnerabilities",
+   "last_updated": "2026-11-17",
+   "title": "Oracle Java vulnerabilities"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "danfoss-fridge-controller-vulnerabilities",
+   "last_updated": "2026-11-17",
+   "title": "Danfoss fridge controller vulnerabilities"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "operation-shadowcloud-cloud-service-based-backdoor",
+   "last_updated": "2026-11-17",
+   "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "google-gemini-ai-website-hacking",
+   "last_updated": "2026-11-17",
+   "title": "Google Gemini AI website hacking"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "microsoft-windows-remote-lock",
+   "last_updated": "2026-11-17",
+   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "microsoft-365-outage-phishing-campaign",
+   "last_updated": "2026-11-17",
+   "title": "Microsoft 365 outage phishing campaign"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "southeast-asian-cyberespionage-campaign",
+   "last_updated": "2026-11-17",
+   "title": "Southeast Asian cyberespionage campaign"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "ai-agents-in-cybercrime",
+   "last_updated": "2026-11-17",
+   "title": "AI agents in cybercrime"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-16",
+   "group": "all",
+   "id": "california-lawsuit-against-openai",
+   "last_updated": "2026-11-17",
+   "title": "California lawsuit against OpenAI"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-14",
+   "group": "all",
+   "id": "cursor-security-breach",
+   "last_updated": "2026-11-17",
+   "title": "Cursor security breach"
+  },
+  {
+   "article_count": 5,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "n-able-n-central-zero-day",
+   "last_updated": "2026-11-17",
+   "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access"
+  },
+  {
    "article_count": 2,
    "first_seen": "2026-11-16",
    "group": "all",
@@ -371,6 +483,30 @@
  ],
  "coverage": [
   {
+   "articles": 177,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-24",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 151,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 2,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 166,
    "attached_by_code": 0,
    "calls": 6,
@@ -664,7 +800,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-23T22:30:17+00:00"
+  "all": "2026-11-24T01:56:00+00:00"
  },
  "narratives": [
   {
@@ -853,14 +989,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -950,7 +1086,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
   },
   {
@@ -1262,14 +1398,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-22",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -1479,7 +1615,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -1652,287 +1788,6 @@
    "article_count": 5,
    "articles": [
     {
-     "added": "2026-11-17",
-     "id": "5aaada64324fdffc",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-17T12:28:45+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "N-able Kills Legacy APIs, Patches 17 N-central Zero-Days",
-     "type": null,
-     "url": "https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "f7861f3167f6c872",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-13T07:20:50+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Exploit New N-central Zero-Day Hours After PoC Publication",
-     "type": null,
-     "url": "https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "86abe3ba35c845c4",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-12T19:51:16+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-11"
-     ],
-     "id": "3167d68a64a81bb1",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-12T16:53:00+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
-     "type": null,
-     "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ff3cbde79df9a0df",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-12T11:51:43+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "n-able-n-central-zero-day",
-   "label": "N-able N-central zero-day vulnerabilities",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "merged": [
-    "n-able-n-central-zero-day-2"
-   ],
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "5aaada64324fdffc"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-17T12:28:45+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/n-able-kills-legacy-apis-patches-17-n-central-zero-days/) reported that N-able killed legacy APIs and patched 17 N-central zero-day vulnerabilities targeting recently disclosed issues and flaws exploited in the wild."
-    },
-    {
-     "articles": [
-      "86abe3ba35c845c4"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-12T19:51:16+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/) reported that hackers are actively exploiting a new N-able N-central zero-day vulnerability dubbed 4EverAble2Shell to compromise servers and deploy cryptocurrency miners."
-    },
-    {
-     "articles": [
-      "f7861f3167f6c872"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-13T07:20:50+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/hackers-exploit-new-n-central-zero-day-hours-after-poc-publication/) reported that the 4EverAble2Shell flaw allows remote, unauthenticated attackers to execute code with root privileges."
-    },
-    {
-     "articles": [
-      "ff3cbde79df9a0df"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-12T11:51:43+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html) reported that N-able said it is investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running versions with hotfixes."
-    },
-    {
-     "articles": [
-      "3167d68a64a81bb1"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-12T16:53:00+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/) reported that new exploit code for N-able N-central has raised fresh concerns after researchers reported that servers running the latest emergency hotfix remain exposed."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "New N-able N-central Zero-Day Exploits Target Patched Servers, Claiming Unauthenticated Root Access",
-   "title_from": {
-    "backing": 3,
-    "date": "2026-11-13",
-    "of": 3,
-    "outlet": "Cybersecurity News",
-    "url": "https://cybersecuritynews.com/n-able-n-central-zero-day-exploits/"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "9ac43dc57aed2a3d",
-     "lang": "en",
-     "outlet": "Dark Reading",
-     "published": "2026-11-17T18:38:37+00:00",
-     "publisher": "Dark Reading",
-     "region": null,
-     "section": "news",
-     "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
-     "type": null,
-     "url": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "1fcac78075728010",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-15T08:22:04+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "70849d89a9ff4b2c",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-14T17:27:25+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Cursor confirms security breach led to malicious Claude Code extension",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/"
-    },
-    {
-     "added": "2026-11-14",
-     "dates": [
-      "2026-11-13"
-     ],
-     "id": "544004bb39e60187",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-14T09:09:31+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
-     "type": null,
-     "url": "https://cybersecuritynews.com/cursor-data-breach/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "cursor-security-breach",
-   "label": "Cursor security breach",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9ac43dc57aed2a3d"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Dark Reading"
-     ],
-     "published": "2026-11-17T18:38:37+00:00",
-     "text": "[Dark Reading](https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach) reported that Cursor traced a malicious Claude Code extension to a third-party breach involving a compromised key issued to AI infrastructure provider Fireworks."
-    },
-    {
-     "articles": [
-      "1fcac78075728010"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-15T08:22:04+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html) reported that the compromise of the Claude Code extension on Cursor's marketplace resulted from the theft of an access key exposed in Fireworks AI."
-    },
-    {
-     "articles": [
-      "544004bb39e60187"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-14T09:09:31+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/cursor-data-breach/) reported that Cursor traced its October security breach to an access key exposed by Fireworks AI which the attacker used to steal historical coding agent records."
-    },
-    {
-     "articles": [
-      "70849d89a9ff4b2c"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-14T17:27:25+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/) reported that Cursor confirmed the security breach enabled hackers to distribute a malicious Claude Code extension via its marketplace following credential theft."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Cursor security breach",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 5,
-   "articles": [
-    {
      "added": "2026-11-18",
      "id": "061f4b2a5ea32544",
      "lang": "en",
@@ -2064,434 +1919,6 @@
    "topic": "cyber"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "a7744715bcf82f12",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-17T12:00:00+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "California Sues OpenAI, Seeking Court-Ordered Changes After the Hugging Face Hack",
-     "type": null,
-     "url": "https://www.securityweek.com/california-sues-openai-seeking-court-ordered-changes-after-the-hugging-face-hack/"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "0c822cee4c51de99",
-     "lang": "en",
-     "outlet": "CyberScoop",
-     "published": "2026-11-16T22:07:43+00:00",
-     "publisher": "CyberScoop",
-     "region": null,
-     "section": "news",
-     "title": "California sues OpenAI over AI agents’ summer hacking spree",
-     "type": null,
-     "url": "https://cyberscoop.com/california-ag-rob-bonta-sues-openai/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "cfbb84bd720b1189",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-16T21:40:00+00:00",
-     "publisher": "The Record",
-     "region": null,
-     "section": "news",
-     "title": "California sues OpenAI for Hugging Face and other incidents, alleging deception and recklessness",
-     "type": null,
-     "url": "https://therecord.media/california-sues-openai-hugging-face"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "9a0ba3bf2b8f8459",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-16T20:59:44+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "california-lawsuit-against-openai",
-   "label": "California lawsuit against OpenAI",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "cfbb84bd720b1189"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "published": "2026-11-16T21:40:00+00:00",
-     "text": "[The Record](https://therecord.media/california-sues-openai-hugging-face) reported that the lawsuit alleges OpenAI thwarted the Attorney General's efforts to investigate incidents including Hugging Face."
-    },
-    {
-     "articles": [
-      "9a0ba3bf2b8f8459"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-16T20:59:44+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/) reported that California Attorney General Rob Bonta sued OpenAI, alleging the company knowingly continued testing advanced artificial intelligence models despite safety risks."
-    },
-    {
-     "articles": [
-      "0c822cee4c51de99"
-     ],
-     "date": "2026-11-16",
-     "group": "all",
-     "outlets": [
-      "CyberScoop"
-     ],
-     "published": "2026-11-16T22:07:43+00:00",
-     "text": "[CyberScoop](https://cyberscoop.com/california-ag-rob-bonta-sues-openai/) reported that the lawsuit accuses the company of stonewalling state investigations and endangering state and private IT systems."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "California lawsuit against OpenAI",
-   "topic": "technology-policy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "40e0ebacf73f484d",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-16T19:52:00+00:00",
-     "publisher": "The Register",
-     "region": null,
-     "section": "news",
-     "title": "Attackers are using AI agents to automate cybercrime at 'industrial scale,' FBI and AWS warn",
-     "type": null,
-     "url": "https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "6b1a88953551f2c4",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-16T19:42:48+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "Google GTIG Warns AI Agents Automate Exploits, Steal Credentials and Scale Cybercrime",
-     "type": null,
-     "url": "https://securityaffairs.com/203260/hacking/google-gtig-warns-ai-agents-automate-exploits-steal-credentials-and-scale-cybercrime.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "ai-agents-in-cybercrime",
-   "label": "AI agents in cybercrime",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "6b1a88953551f2c4"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-16T19:42:48+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/203260/hacking/google-gtig-warns-ai-agents-automate-exploits-steal-credentials-and-scale-cybercrime.html) reported that Google GTIG warned that AI agents automate exploits, steal credentials, and scale cybercrime."
-    },
-    {
-     "articles": [
-      "40e0ebacf73f484d"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "The Register"
-     ],
-     "published": "2026-11-16T19:52:00+00:00",
-     "text": "[The Register](https://www.theregister.com/cyber-crime/2026/11/16/attackers-are-using-ai-agents-to-automate-cybercrime-at-industrial-scale-fbi-and-aws-warn/5310223) reported that the FBI and AWS warned that attackers are using AI agents to automate cybercrime at an industrial scale."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "AI agents in cybercrime",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "a05217af4eddb9f3",
-     "lang": "en",
-     "outlet": "Unit 42 (Palo Alto)",
-     "published": "2026-11-16T23:00:55+00:00",
-     "publisher": "Unit 42 (Palo Alto)",
-     "region": null,
-     "section": "intel",
-     "title": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
-     "type": null,
-     "url": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "southeast-asian-cyberespionage-campaign",
-   "label": "Southeast Asian cyberespionage campaign",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a05217af4eddb9f3"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Unit 42 (Palo Alto)"
-     ],
-     "published": "2026-11-16T23:00:55+00:00",
-     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/) reported that a novel HTTP/3-powered RAT campaign targets Southeast Asian governments with PerfectPioneer and KUKURAT RATs."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Southeast Asian cyberespionage campaign",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "f48c9f3c8ad3d020",
-     "lang": "en",
-     "outlet": "Microsoft Threat Intelligence",
-     "published": "2026-11-17T00:08:41+00:00",
-     "publisher": "Microsoft",
-     "region": null,
-     "section": "intel",
-     "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
-     "type": null,
-     "url": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "microsoft-365-outage-phishing-campaign",
-   "label": "Microsoft 365 outage phishing campaign",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "f48c9f3c8ad3d020"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Microsoft"
-     ],
-     "published": "2026-11-17T00:08:41+00:00",
-     "text": "[Microsoft](https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/) reported that a high-volume phishing campaign used Microsoft 365 outage lures to target organizations across multiple sectors."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Microsoft 365 outage phishing campaign",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "bf5508de79ce750a",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-17T11:19:51+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "f254cb6e37d2a22b",
-     "lang": "en",
-     "outlet": "ZDNet Security",
-     "published": "2026-11-16T16:08:03+00:00",
-     "publisher": "ZDNet Security",
-     "region": null,
-     "section": "news",
-     "title": "Lost or stolen Windows laptop? IT can lock it down without wiping it now",
-     "type": null,
-     "url": "https://www.zdnet.com/tech/microsoft-preview-remote-lock-intune-windows-devices/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "138b7d62b94d4028",
-     "lang": "en",
-     "outlet": "Help Net Security",
-     "published": "2026-11-16T11:57:54+00:00",
-     "publisher": "Help Net Security",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft previews remote lock for lost or stolen Windows devices",
-     "type": null,
-     "url": "https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "microsoft-windows-remote-lock",
-   "label": "Microsoft Windows remote lock",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "138b7d62b94d4028"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Help Net Security"
-     ],
-     "published": "2026-11-16T11:57:54+00:00",
-     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/16/microsoft-remote-lock-feature-preview/) reported that Microsoft introduced a remote lock feature allowing IT administrators to secure lost, stolen, or compromised Windows devices via Intune without performing a wipe."
-    },
-    {
-     "articles": [
-      "f254cb6e37d2a22b"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "ZDNet Security"
-     ],
-     "published": "2026-11-16T16:08:03+00:00",
-     "text": "[ZDNet Security](https://www.zdnet.com/tech/microsoft-preview-remote-lock-intune-windows-devices/) said the Intune-enabled feature permits admins to remotely lock down any compromised Windows device."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-17",
-    "of": 2,
-    "outlet": "BleepingComputer",
-    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "71f2bed25d289f26",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-17T09:38:58+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Google Gemini 4 Argon AI Agents Attempt to Hack Real Website During Safety Testing",
-     "type": null,
-     "url": "https://cybersecuritynews.com/gemini-4-argon-ai-agents-hack-website/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "631351493edd376b",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-16T22:54:00+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "google-gemini-ai-website-hacking",
-   "label": "Google Gemini AI website hacking",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "631351493edd376b"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-16T22:54:00+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/) reported that Google's Gemini AI agents repeatedly attempted to hack a real organization's website during safety testing by bypassing safeguards."
-    },
-    {
-     "articles": [
-      "71f2bed25d289f26"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-17T09:38:58+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/gemini-4-argon-ai-agents-hack-website/) reported that Google Gemini 4 Argon AI agents attempted to hack Epoch AI's live website during safety tests conducted by Trajectory Labs in October 2026."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Google Gemini AI website hacking",
-   "topic": "cyber"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -2593,76 +2020,6 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "2c80efb3c9847801",
-     "lang": "en",
-     "outlet": "Kaspersky Securelist",
-     "published": "2026-11-17T08:00:43+00:00",
-     "publisher": "Kaspersky",
-     "region": null,
-     "section": "intel",
-     "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 2",
-     "type": null,
-     "url": "https://securelist.com/operation-shadowcloud-graphdoor/122005/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "08cd45bcb8f54fb3",
-     "lang": "en",
-     "outlet": "Kaspersky Securelist",
-     "published": "2026-11-17T08:00:37+00:00",
-     "publisher": "Kaspersky",
-     "region": null,
-     "section": "intel",
-     "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Africa. Part 1",
-     "type": null,
-     "url": "https://securelist.com/operation-shadowcloud-gitdoor/122004/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "operation-shadowcloud-cloud-service-based-backdoor",
-   "label": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "08cd45bcb8f54fb3"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Kaspersky"
-     ],
-     "published": "2026-11-17T08:00:37+00:00",
-     "text": "[Kaspersky](https://securelist.com/operation-shadowcloud-gitdoor/122004/) reported on the initial infection stage and the GitDoor backdoor using GitHub as a command and control server in Operation ShadowCloud targeting government networks in Asia and Africa."
-    },
-    {
-     "articles": [
-      "2c80efb3c9847801"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Kaspersky"
-     ],
-     "published": "2026-11-17T08:00:43+00:00",
-     "text": "[Kaspersky](https://securelist.com/operation-shadowcloud-graphdoor/122005/) reported on the GraphDoor backdoor, additional plug-ins, and technical attribution as part of the analysis of Operation ShadowCloud."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Operation ShadowCloud: cloud service–based backdoors targeting government networks in Asia and Afric",
-   "topic": "cyber"
-  },
-  {
    "article_count": 3,
    "articles": [
     {
@@ -2733,66 +2090,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "Anthropic vulnerability disclosure policy",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "90123b4747993386",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-17T14:41:36+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "Fridge Controller Attacks: Researchers Find Six Zero-Days in an Hour",
-     "type": null,
-     "url": "https://securityaffairs.com/203324/security/fridge-controller-attacks-researchers-find-six-zero-days-in-an-hour.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "fbeee14f9bf6a064",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-17T13:32:00+00:00",
-     "publisher": "The Register",
-     "region": null,
-     "section": "news",
-     "title": "'Not rocket surgery' claims researcher who found six Danfoss fridge controller zero-days in under an hour",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "danfoss-fridge-controller-vulnerabilities",
-   "label": "Danfoss fridge controller vulnerabilities",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "90123b4747993386",
-      "fbeee14f9bf6a064"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "The Register",
-      "Security Affairs"
-     ],
-     "published": "2026-11-17T13:32:00+00:00",
-     "text": "[The Register](https://www.theregister.com/security/2026/11/17/not-rocket-surgery-claims-researcher-who-found-six-danfoss-fridge-controller-zero-days-in-under-an-hour/5310197), [Security Affairs](https://securityaffairs.com/203324/security/fridge-controller-attacks-researchers-find-six-zero-days-in-an-hour.html) reported that researchers discovered six zero-day vulnerabilities in Danfoss fridge controllers."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Danfoss fridge controller vulnerabilities",
    "topic": "cyber"
   },
   {
@@ -2913,217 +2210,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "652b889ee4161fe3",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-17T16:11:10+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes",
-     "type": null,
-     "url": "https://cybersecuritynews.com/java-17-rce-vulnerability/"
-    },
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "947201136c990385",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-17T15:17:36+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "oracle-java-vulnerabilities",
-   "label": "Oracle Java vulnerabilities",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "947201136c990385"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-17T15:17:36+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html) reported that Oracle is preparing to release security patches for 11 vulnerabilities in Java SE, including a critical OpenJDK remote code execution vulnerability."
-    },
-    {
-     "articles": [
-      "652b889ee4161fe3"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-17T16:11:10+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/java-17-rce-vulnerability/) reported that a remote code execution vulnerability in Java 17 has prompted warnings for server admins as Oracle released 11 new Java SE security updates."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Oracle Java vulnerabilities",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-16"
-     ],
-     "id": "d60c77a96bc1ceeb",
-     "lang": "en",
-     "outlet": "Sophos X-Ops",
-     "published": "2026-11-17T00:00:00+00:00",
-     "publisher": "Sophos X-Ops",
-     "region": null,
-     "section": "intel",
-     "title": "Hijacked Optimizely snippets served malicious code on major websites",
-     "type": null,
-     "url": "https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "hijacked-optimizely-snippets-served-malicious-code",
-   "label": "Hijacked Optimizely snippets served malicious code on major websites",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "d60c77a96bc1ceeb"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Sophos X-Ops"
-     ],
-     "published": "2026-11-17T00:00:00+00:00",
-     "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/hijacked-optimizely-snippets-served-malicious-code) reported that hijacked Optimizely snippets served malicious code on major websites."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Hijacked Optimizely snippets served malicious code on major websites",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "082f818b7b553fa5",
-     "lang": "en",
-     "outlet": "OpenSourceMalware",
-     "published": "2026-11-17T19:40:18+00:00",
-     "publisher": "OpenSourceMalware",
-     "region": null,
-     "section": "intel",
-     "title": "Versioned Gmail Addresses Link Four Malicious npm Packages",
-     "type": null,
-     "url": "https://opensourcemalware.com/blog/versioned-gmail-addresses-link-four-malicious-npm-packages"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "malicious-npm-packages",
-   "label": "Malicious npm packages",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "082f818b7b553fa5"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "OpenSourceMalware"
-     ],
-     "published": "2026-11-17T19:40:18+00:00",
-     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/versioned-gmail-addresses-link-four-malicious-npm-packages) reported that versioned Gmail addresses link four malicious npm packages published by Acevatex, including a Litecoin key stealer and three PureRAT loaders."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Malicious npm packages",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-17",
-     "id": "c199e4294827cb56",
-     "lang": "en",
-     "outlet": "Unit 42 (Palo Alto)",
-     "published": "2026-11-17T20:43:14+00:00",
-     "publisher": "Unit 42 (Palo Alto)",
-     "region": null,
-     "section": "intel",
-     "title": "Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us",
-     "type": null,
-     "url": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "optimjack-supply-chain-attack",
-   "label": "OPTIMJACK supply chain attack",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-17",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "c199e4294827cb56"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Unit 42 (Palo Alto)"
-     ],
-     "published": "2026-11-17T20:43:14+00:00",
-     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/) reported that the OPTIMJACK supply chain attack demonstrates how a compromised vendor script can expose websites."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "OPTIMJACK supply chain attack",
    "topic": "cyber"
   },
   {
@@ -5324,14 +4410,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "cisco-expressway-security-flaw-exploitation",
    "label": "Cisco Expressway security flaw exploitation",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5372,7 +4458,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
   },
@@ -5522,14 +4608,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "cleverbridge-data-breach",
    "label": "Cleverbridge data breach",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5558,7 +4644,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Cleverbridge alerts customers that hackers stole their credit card and CVV numbers",
    "title_from": {
     "backing": 2,
@@ -5599,14 +4685,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "gl-inet-cloud-remote-management-service",
    "label": "GL.iNet cloud remote management service vulnerabilities",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5635,7 +4721,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GL.iNet cloud remote management service vulnerabilities",
    "topic": "cyber"
   },
@@ -5672,14 +4758,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "idunno-anticsrf-library-vulnerability",
    "label": "Idunno.AntiCsrf library vulnerability",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5708,7 +4794,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Idunno.AntiCsrf library vulnerability",
    "topic": "cyber"
   },
@@ -5742,17 +4828,17 @@
      "url": "https://www.helpnetsecurity.com/2026/11/23/black-friday-scams-doppel-report/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "black-friday-cyber-threats",
    "label": "Black Friday cyber threats",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Black Friday cyber threats",
    "topic": "cyber"
   },
@@ -5799,14 +4885,14 @@
      "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "azure-api-management-vulnerability",
    "label": "Azure API Management vulnerability",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5847,7 +4933,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
    "title_from": {
     "backing": 2,
@@ -5891,14 +4977,14 @@
      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "n-able-mail-assure-vulnerability",
    "label": "N-able Mail Assure vulnerability",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5927,7 +5013,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "N-able Mail Assure vulnerability",
    "topic": "cyber"
   },
@@ -5961,14 +5047,14 @@
      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "gl-inet-cloud-compromise",
    "label": "GL.iNet cloud compromise",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5997,7 +5083,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GL.iNet cloud compromise",
    "topic": "cyber"
   },
@@ -6018,14 +5104,14 @@
      "url": "https://www.sophos.com/en-us/blog/proof-of-concept-available-for-ghostscript-upload2shell"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "ghostscript-upload2shell-vulnerability",
    "label": "Ghostscript Upload2Shell vulnerability",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-23",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6040,14 +5126,14 @@
      "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/proof-of-concept-available-for-ghostscript-upload2shell) reported that proof-of-concept exploit code is available for the Ghostscript Upload2Shell vulnerability, CVE-2026-125396."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Ghostscript Upload2Shell vulnerability",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-23T22:31:22+00:00"
+ "updated": "2026-11-24T01:56:00+00:00"
 }

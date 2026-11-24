@@ -126,5 +126,21 @@
   "story": "",
   "text": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "skipped",
+  "group": "all",
+  "story": "India interest rates",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+  "text": "[5] reported that Federal Reserve official Williams stated the central bank has work to do to lower inflation.",
+  "reason": "names not in cited articles: Reserve"
  }
 ]
