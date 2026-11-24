@@ -485,25 +485,25 @@
   {
    "articles": 218,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 20,
-   "continuing": 9,
+   "calls": 6,
+   "candidates": 22,
+   "continuing": 10,
    "corroborated": 1,
    "date": "2026-11-24",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 184,
-   "in_stories": 32,
-   "kept": 26,
+   "in_stories": 35,
+   "kept": 28,
    "merged": 0,
-   "new": 10,
+   "new": 11,
    "rejected": 0,
    "reported_by_2": 7,
-   "runs": 7,
-   "sent": 20,
+   "runs": 8,
+   "sent": 22,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 7,
+   "updated": 8,
    "waiting": 0
   },
   {
@@ -800,11 +800,11 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T19:41:15+00:00"
+  "all": "2026-11-24T22:35:30+00:00"
  },
  "narratives": [
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
     {
      "added": "2026-11-24",
@@ -818,6 +818,19 @@
      "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
      "type": null,
      "url": "https://securityaffairs.com/203882/hacking/u-s-cisa-adds-n-able-mailassure-and-project-monai-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "293d73ef13e2a0c8",
+     "lang": "en",
+     "outlet": "CISA Alerts",
+     "published": "2026-11-24T12:00:00+00:00",
+     "publisher": "CISA",
+     "region": null,
+     "section": "intel",
+     "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+     "type": null,
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog"
     },
     {
      "added": "2026-11-24",
@@ -1031,14 +1044,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
     {
      "articles": [
@@ -1155,7 +1168,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation"
+   "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 3,
+    "outlet": "Security Affairs",
+    "url": "https://securityaffairs.com/203882/hacking/u-s-cisa-adds-n-able-mailassure-and-project-monai-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+   }
   },
   {
    "article_count": 24,
@@ -6121,9 +6141,79 @@
    "status": "new",
    "title": "Gatwick Airport data breach",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "324ca5b6ba6b95d7",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-24T20:21:20+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "New Inception extortion gang launches large-scale vishing campaign",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "8fb5fd7d53866eab",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-24T16:30:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "New Inception Extortion Brand Tied to SSO Vishing Campaign",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "inception-extortion-campaign",
+   "label": "Inception extortion campaign",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8fb5fd7d53866eab"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine"
+     ],
+     "published": "2026-11-24T16:30:00+00:00",
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/) reported that Okta and ReversingLabs linked Inception to a single sign-on vishing campaign targeting employee credentials."
+    },
+    {
+     "articles": [
+      "324ca5b6ba6b95d7"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-24T20:21:20+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/) reported that a newly formed data extortion group named Inception launched a large-scale campaign targeting single sign-on credentials of multiple global organizations."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Inception extortion campaign",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-24T19:41:42+00:00"
+ "updated": "2026-11-24T22:35:46+00:00"
 }

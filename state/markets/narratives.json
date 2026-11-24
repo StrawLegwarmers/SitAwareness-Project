@@ -805,9 +805,9 @@
   {
    "articles": 556,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 43,
-   "continuing": 27,
+   "calls": 8,
+   "candidates": 47,
+   "continuing": 28,
    "corroborated": 0,
    "date": "2026-11-24",
    "dropped": 1,
@@ -816,14 +816,14 @@
    ],
    "failed_calls": 1,
    "groups": 513,
-   "in_stories": 47,
-   "kept": 25,
+   "in_stories": 54,
+   "kept": 31,
    "merged": 0,
-   "new": 9,
+   "new": 12,
    "rejected": 5,
    "reported_by_2": 6,
-   "runs": 7,
-   "sent": 43,
+   "runs": 8,
+   "sent": 47,
    "skipped": 1,
    "split_calls": 0,
    "updated": 18,
@@ -1101,7 +1101,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T20:00:55+00:00"
+  "all": "2026-11-24T22:48:34+00:00"
  },
  "narratives": [
   {
@@ -7969,8 +7969,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "d2d9f5291dd9e426",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-24T21:55:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Venezuela Reveals an Eye-Popping Debt Load of $237 Billion",
+     "type": "international",
+     "url": "https://www.wsj.com/world/americas/venezuela-reveals-an-eye-popping-debt-load-of-237-billion-16bddcde?mod=rss_markets_main"
+    },
     {
      "added": "2026-11-24",
      "id": "1e9ce6b9920c0c47",
@@ -7998,14 +8011,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "venezuela-public-debt-framework",
    "label": "Venezuela public debt framework",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -8035,7 +8048,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Venezuela public debt framework",
+   "title": "Venezuela Unveils $237 Billion Debt Load Ahead of Restructuring",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-24",
+    "of": 2,
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-24/venezuela-unveils-237-billion-debt-load-ahead-of-restructuring"
+   },
    "topic": "economy"
   },
   {
@@ -8177,9 +8197,219 @@
    "status": "new",
    "title": "Iraq OPEC oil production capacity assessment",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "4a8643894f2d1ada",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-24T21:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Bank of Korea Seen Resuming Rate Hikes as AI Boom Stokes Growth",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-korea-seen-resuming-rate-hikes-as-ai-boom-stokes-growth"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "526eafaf524b6e8b",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T00:49:01+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "South Korea’s central bank seen raising rates on Thursday, once more next quarter - Reuters poll",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "south-korea-interest-rates",
+   "label": "South Korea interest rates",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "4a8643894f2d1ada"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-24T21:00:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/bank-of-korea-seen-resuming-rate-hikes-as-ai-boom-stokes-growth) reported that the Bank of Korea is expected to resume raising interest rates as a semiconductor boom drives growth and keeps inflation elevated."
+    },
+    {
+     "articles": [
+      "526eafaf524b6e8b"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T00:49:01+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788) reported that a Reuters poll showed the central bank is seen raising rates on Thursday and once more next quarter."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "South Korea interest rates",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "ab460803a4cf3175",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-24T21:13:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Shein to Pay $100 Million to Settle FTC Claims of Unfair Customer Service",
+     "type": "international",
+     "url": "https://www.wsj.com/business/retail/shein-to-pay-100-million-to-settle-ftc-claims-of-unfair-customer-service-1d294269?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "db6df4a30be517a2",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-24T19:06:39+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Shein to pay $100 million to settle US shipping, customer service claims",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/shein-to-pay-100-million-to-settle-us-claims-ftc-official-says-5048743"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "shein-ftc-settlement",
+   "label": "Shein FTC settlement",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ab460803a4cf3175"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-24T21:13:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/shein-to-pay-100-million-to-settle-ftc-claims-of-unfair-customer-service-1d294269?mod=pls_whats_news_us_business_f) reported that Shein Global Holdings agreed to pay $100 million to resolve Federal Trade Commission claims regarding unfair customer-service practices."
+    },
+    {
+     "articles": [
+      "db6df4a30be517a2"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T19:06:39+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/shein-to-pay-100-million-to-settle-us-claims-ftc-official-says-5048743) reported that Shein will pay $100 million to settle US shipping and customer service claims."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Shein FTC settlement",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-24",
+     "id": "3ca2ad8b8b31b89e",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-24T22:22:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "China’s Huawei Convicted of Fraud in U.S. Criminal Trial",
+     "type": "international",
+     "url": "https://www.wsj.com/business/telecom/chinas-huawei-convicted-of-fraud-in-u-s-criminal-trial-20e17ac3?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-24",
+     "id": "a1d985a4ed04c26e",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-24T22:01:12+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "China’s Huawei convicted in sprawling US criminal trial over Iran business",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/chinas-huawei-convicted-at-us-criminal-trial-stemming-from-iran-business-5048943"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-24",
+   "group": "all",
+   "id": "huawei-us-criminal-trial",
+   "label": "Huawei US criminal trial",
+   "last_reported": "2026-11-24",
+   "last_updated": "2026-11-24",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3ca2ad8b8b31b89e"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-24T22:22:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/telecom/chinas-huawei-convicted-of-fraud-in-u-s-criminal-trial-20e17ac3?mod=pls_whats_news_us_business_f) reported that a federal jury convicted Huawei of fraud and other offenses while acquitting it of racketeering conspiracy."
+    },
+    {
+     "articles": [
+      "a1d985a4ed04c26e"
+     ],
+     "date": "2026-11-24",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T22:01:12+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/chinas-huawei-convicted-at-us-criminal-trial-stemming-from-iran-business-5048943) reported that Huawei was convicted in a US criminal trial over Iran business."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Huawei US criminal trial",
+   "topic": "justice"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-24T20:03:05+00:00"
+ "updated": "2026-11-24T22:48:52+00:00"
 }
