@@ -1,565 +1,5 @@
 [
  {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "James Bond film casting",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Apple services outage",
-  "text": "[51] reported that Apple has not yet publicly acknowledged the technical disruption on its status page.",
-  "reason": "wording not from cited articles: acknowledged, technical, status"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Melbourne Cup horse remains incident",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "africa",
-  "story": "APC PCC accuses ADC, NDC of endangering lives of innocent young Nigerians",
-  "text": "Nigeria political campaign allegations",
-  "reason": "title replaced by a headline: wording not from cited articles: political, allegations"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Grand Theft Auto VI video game release",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "At Least 13 Killed in Military Transport Plane Crash in Siberia – Reports",
-  "text": "[145][146] reported that a Russian military transport aircraft crashed in the Kemerovo region, with preliminary findings indicating a technical malfunction.",
-  "reason": "analysis word not used by the source: 'indicating'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "US soldier arrested in UK over espionage",
-  "text": "[157][158] reported that British police handed detained US soldier Lieutenant Colonel Brandon Tyner over to US military custody following espionage allegations.",
-  "reason": "names not in cited articles: Colonel, Lieutenant"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Shopping mall escalator accident in Belgrade",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "africa",
-  "story": "Actress Regina Re’s daughter to be charged with murder",
-  "text": "Kenya: Regina Re murder charges",
-  "reason": "title replaced by a headline: names not in cited articles: Kenya"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Belgrade shopping mall escalator accident",
-  "text": "[24] reported that three minors sustained serious head and bodily injuries after falling on the escalator in the Galerija shopping center in Belgrade.",
-  "reason": "number not in cited articles: 3"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "asia",
-  "story": "Pakistan, Turkmenistan discuss ways to strengthen trade, energy, regional connectivity ties",
-  "text": "Pakistan and Turkmenistan bilateral agreements",
-  "reason": "title replaced by a headline: wording not from cited articles: bilateral, agreements"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "africa",
-  "story": "Drones account for nearly three-quarters of Sudan war deaths this year, UN says",
-  "text": "Sudan conflict drone casualties",
-  "reason": "title replaced by a headline: wording not from cited articles: conflict, drone, casualties"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Nvidia third-quarter financial results",
-  "text": "[42] reported that Nvidia reached revenues of more than 115 billion dollars in the third quarter.",
-  "reason": "number not in cited articles: 115000000000"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Bryson DeChambeau joins DP World Tour",
-  "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "mena",
-  "story": "US Strikes Qeshm Island as Iran Targets Bahrain Radar",
-  "text": "US military strike on Qeshm Island missile base",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Buenos Aires tax incentive regime for SMEs",
-  "text": "[60] reported that the incentive program features a tax quota of up to 300 billion pesos.",
-  "reason": "number not in cited articles: 300000000000"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Germany migrant deportation center proposal in Rwanda",
-  "text": "[62] reported that five countries proposed a migrant return center in Rwanda, sparking warnings from the UN and NGOs.",
-  "reason": "analysis word not used by the source: 'sparking'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Tinubu pardons 78 convoy attack suspects, police arrest 8 over Kwankwaso assault",
-  "text": "[73] reported that the Young Progressives Party presidential candidate promised to release 40 million naira to every ward monthly if elected.",
-  "reason": "number not in cited articles: 40000000"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "europe",
-  "story": "Russia’s Lavrov says French troops in Ukraine amount to ‘direct participation’ in war",
-  "text": "Russia-France diplomatic friction over Ukraine troops",
-  "reason": "title replaced by a headline: names not in cited articles: Russia-France"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ramstein group air defense talks",
-  "text": "[6] reported that Ukrainian President Volodymyr Zelensky called on allies to exchange interceptor missiles for newer and better ones on order, and to provide 40 more F-16 jets.",
-  "reason": "names not in cited articles: Volodymyr"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "UK Charity Commission inquiry into JW3 Trust",
-  "text": "[14] reported that the International Centre of Justice for Palestinians raised serious concerns that JW3 may have facilitated activities connected to the maintenance of illegal Israeli settlements.",
-  "reason": "names not in cited articles: Centre, International"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "europe",
-  "story": "Uzbuna u Moldaviji: Iznad glavnog grada se pojavio ruski dron, zatvoren i zračni prostor",
-  "text": "Moldovan airspace airspace closure due to drone",
-  "reason": "title replaced by a headline: countries not in cited articles: moldova"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Jeff Bezos Amazon share donation",
-  "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Moldova airspace closure following drone incursion",
-  "text": "Drones enter Moldovan airspace",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Nigerian political mobilization for 2027",
-  "text": "Kogi APC presidential campaign council inauguration",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "africa",
-  "story": "Reps move to investigate attacks on 10 power transmission towers",
-  "text": "Investigation into power transmission tower attacks",
-  "reason": "title replaced by a headline: names not in cited articles: Investigation"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Reps move to investigate attacks on 10 power transmission towers",
-  "text": "[39][40] reported that the House of Representatives directed the Transmission Company of Nigeria and the Niger Delta Power Holding Company to account for vandalized transmission towers.",
-  "reason": "names not in cited articles: Company, Delta, Holding"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Robert Pattinson as James Bond selection",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Medical fundraising for Draženko Akrap",
-  "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "US intelligence suggests Iran planning to detonate ‘dirty bomb’ in Washington DC to target Trump officials: Report",
-  "text": "Iranian response to chemical weapons allegations",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "europe",
-  "story": "US envoy Kushner says progress made in Ukraine talks",
-  "text": "US envoys peace talks and Ukraine deep strikes",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Military transport plane crash in Siberia",
-  "text": "[65][66] reported that 19 people were killed when a military transport plane crashed near the village of Yagunovo in the Kemerovo region of southern Russia.",
-  "reason": "analysis word not used by the source: 'crashed'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Gombe State governor road accident donations",
-  "text": "[75][76] reported that Gombe State Governor Muhammadu Inuwa Yahaya visited families of victims of a road accident involving APC members and donated five million naira.",
-  "reason": "number not in cited articles: 5000000"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Weather forecast changes in Bosnia and Herzegovina",
-  "text": "",
-  "reason": "off-topic for this site (topic: weather): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "India news: Modi to attend ASEAN, Quad meet in Manila",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Putin stigao u Kinu: Sprema se važan sastanak sa Trampom i Sijem (VIDEO)"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "India news: Modi to attend ASEAN, Quad meet in Manila",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Putin sletio u Kinu, uskoro važan sastanak sa Trumpom i Xijem"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "India news: Modi to attend ASEAN, Quad meet in Manila",
-  "text": "[21][22] reported that Russian President Vladimir Putin arrived in China to participate in the Apec summit.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "europe",
-  "story": "UK sanctions eight Israeli construction firms over West Bank settlements",
-  "text": "Australia sanctions on Israeli settler leaders",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Austrian court cocaine smuggling trial",
-  "text": "[15][16] reported that the Provincial Court in Salzburg continued the trial of two 46-year-old men accused of cocaine smuggling.",
-  "reason": "number not in cited articles: 2"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Bihać commemoration of Vukovar and Škabrnja",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Shannon Airport military aircraft vandalism charges",
-  "text": "[25][26] reported that a 48-year-old Irish man was indicted in the United States for allegedly destroying a 60 million dollar US military aircraft at Shannon Airport after breaching security.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Nvidia third quarter financial results",
-  "text": "",
-  "reason": "off-topic for this site (topic: business): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "AI employment bias research",
-  "text": "[44] reported that major artificial intelligence companies in China are rolling out advanced models with reduced capabilities for launching cyberattacks.",
-  "reason": "analysis word not used by the source: 'major'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Belgrade shopping center escalator incident",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "2027: SERAP Gives INEC Chairman Seven Days To Prosecute Electoral Violence Suspects",
-  "text": "[53] reported that the Nigerian Senate urged INEC to disqualify political candidates linked to electoral violence.",
-  "reason": "names not in cited articles: Nigerian"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Sofia Chelepeshko Road reconstruction",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ukraine Hits Major Russian Petrochemical Hub as Moscow Claims Record 1,441 Drones Downed",
-  "text": "[5] reported that UK Defense Secretary Wes Streeting announced the United Kingdom will supply Ukraine with more than 1,000 short-range air defense missiles and launchers starting in December.",
-  "reason": "names not in cited articles: Kingdom, United"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Paraguay ex-president moved to military jail amid special treatment reports",
-  "text": "[8] reported that former Paraguayan president Santiago Peña arrived at a military prison in Asuncion handcuffed and wearing a bulletproof vest amid investigations into his links with the Ueno Bank scandal.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US intelligence suggests Iran planning to detonate ‘dirty bomb’ in Washington DC to target Trump officials: Report",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Iran odbacuje tvrdnje da planira hemijski napad u Washingtonu: \"Huškaju na rat\""
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US intelligence suggests Iran planning to detonate ‘dirty bomb’ in Washington DC to target Trump officials: Report",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Iran to view dams, ports near US bases as military targets — parliament speaker"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US intelligence suggests Iran planning to detonate ‘dirty bomb’ in Washington DC to target Trump officials: Report",
-  "text": "[14] reported that Iran rejected claims of planning a chemical attack in Washington, DC.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US intelligence suggests Iran planning to detonate ‘dirty bomb’ in Washington DC to target Trump officials: Report",
-  "text": "[25] reported that Iranian parliamentary speaker Mohammad Bagher Ghalibaf stated Iran would view dams and ports near US bases as military targets.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Judo star Teddy Riner is taking on what may be his toughest battle in the French presidential race",
-  "text": "[18] reported that Marine Le Pen's presidential campaign maintains a focus on the 62-year retirement age threshold amid economic policy shifts by the National Rally.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "US House Democratic Leader Jeffries wants 'dramatic change' in Middle East",
-  "text": "[3] reported that lawmaker Hakeem Jeffries is shifting strategy as he vies to become the chamber's first Black speaker.",
-  "reason": "names not in cited articles: Hakeem"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Ogun State ADC leadership dispute",
-  "text": "[18] reported that a caretaker committee emerged in the Jigawa State chapter of the African Democratic Congress amid an ongoing leadership crisis.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "US strikes Iran",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Brazil fiscal adjustment bill approval",
-  "text": "[32] reported that Senator Alcolumbre postponed the voting on highlights of the fiscal adjustment bill after a request by rapporteur Eduardo Braga following a failure to reach an agreement with the opposition.",
-  "reason": "analysis word not used by the source: 'highlights'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Cairo International Film Festival opening",
-  "text": "[3] reported that the Cairo International Film Festival honoured Mauritanian director Abderrahmane Sissako with the Golden Pyramid Award for Lifetime Achievement.",
-  "reason": "countries not in cited articles: mauritania"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "Gqeberha traffic light vandalism arrests",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "mena",
-  "story": "France Blames Iran for Supermarket Refrigerator Cyberattack",
-  "text": "Explosion reported on Qeshm Island",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Tinubu prepares five-year plan to end Boko Haram insurgency, tackle insecurity",
-  "text": "APC PCC accuses ADC, NDC of endangering lives of innocent young Nigerians",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Iran FM calls on Field Marshal Asim Munir, lauds Pakistan’s role in promoting regional peace",
-  "text": "Pakistan and Uzbekistan defense cooperation",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "mena",
-  "story": "Saudi King replaces Coalition commander as Houthis advance toward Yemen’s Aden",
-  "text": "Yemen’s armed forces say they struck Saudi-backed forces in Lahj",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "UPS cargo plane, Copa Airlines passenger jet collide at Miami airport in US",
-  "text": "Un choque de trenes deja a 46 heridos en la República Checa",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "asia",
-  "story": "UK authorities investigating after Russell Brand's message from prison",
-  "text": "Woman who alleges Russell Brand raped her when she was 16 waives anonymity",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "namerica",
-  "story": "Classified N.S.A. Network Goes Down, Causing Work Disruptions",
-  "text": "US National Security Agency network outage",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "europe",
-  "story": "At Least 13 Killed in Military Transport Plane Crash in Siberia – Reports",
-  "text": "Military transport plane crash in Siberia",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Ukraine’s attack on Kerch Bridge is a major blow to Putin and Russia’s control of Crimea",
-  "text": "Crimean Bridge strikes",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Cinco países europeos crearán en Ruanda el primer centro de deportación fuera de la UE",
-  "text": "Germany migrant deportation center proposal in Rwanda",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
-  "date": "2026-11-17",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Trump backs Jensen Huang’s likely return to Nvidia despite China spy concerns",
-  "text": "Nvidia third-quarter financial results",
-  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
- },
- {
   "date": "2026-11-18",
   "kind": "skipped",
   "group": "global",
@@ -3813,6 +3253,494 @@
   "group": "europe",
   "story": "Prince William country home break-in",
   "text": "Norfolk royal estate break-in",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Pope Francis private diaries publication",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Pakistan astronaut space station mission",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Rudy Giuliani Presidential Medal of Freedom",
+  "text": "[91] reported that U.S. President Donald Trump will give the Presidential Medal of Freedom to Rudy Giuliani.",
+  "reason": "names not in cited articles: Donald, Presidential, Rudy"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Iran singer Parastoo Ahmadi flogging",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Kilmar Abrego Garcia US departure",
+  "text": "[137] reported that Salvadoran migrant Kilmar Abrego Garcia is set to leave the United States voluntarily.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iraq federal control over Kurdish oilfields",
+  "text": "[166] reported that Iraqi Prime Minister Ali al-Zaidi ordered the energy ministry to manage oilfields in areas under Kurdish security control.",
+  "reason": "names not in cited articles: Ali"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Senegal AFCON title appeal ruling",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Anthropic stock price drop",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Riyadh financial center Houthi attack",
+  "text": "Riyadh skyscraper projectile attacks",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Pakistan freedom of expression warnings",
+  "text": "[285] reported that Interior Minister Mohsin Naqvi stated the government has no intention of curtailing freedom of expression but warned against crossing red lines.",
+  "reason": "names not in cited articles: Mohsin"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Could everything be broken? Grounded jets, Microsoft outage, AI chaos make some wonder",
+  "text": "[18] reported that the Federal Aviation Administration halted flights at Chicago O'Hare Airport after a radar system outage.",
+  "reason": "names not in cited articles: Administration, Aviation"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Live: Beau Lamarre-Condon faces defence re-examination",
+  "text": "[25] reported that a jury found former police officer Beau Lamarre-Condon guilty of murdering a Sydney couple.",
+  "reason": "wording not from cited articles: jury, former, police, officer"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Africa Cup of Nations final CAS ruling",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "title",
+  "group": "namerica",
+  "story": "Shein to pay $100 million to settle US shipping, customer service claims",
+  "text": "Shein settlement with FTC",
+  "reason": "title replaced by a headline: names not in cited articles: FTC"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "South Korea shares drop on US tech losses",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Al Ahly club negotiations reports",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Hong Kong astronaut return",
+  "text": "",
+  "reason": "off-topic for this site (topic: technology): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "global",
+  "story": "FIFA documents and private equity plan",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Nigeria HIV treatment viral suppression rates",
+  "text": "",
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Arsenal vs Borussia Dortmund match",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Nvidia CEO Jensen Huang apology",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "latam",
+  "story": "Car bomb hits Meta government headquarters in Colombia's Villavicencio",
+  "text": "Colombia car bomb explosion and FARC peace accord",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Schumer accuses Nvidia CEO of export control violation",
+  "text": "[100] reported that Schumer accused Nvidia CEO Jensen Huang of violating US export control law.",
+  "reason": "names not in cited articles: Huang, Jensen"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Miss Universe 2026",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "title",
+  "group": "europe",
+  "story": "Mladić (27) iz BiH pretukao partnerku (52) i dva austrijska policajca",
+  "text": "Austria partner assault and police attack",
+  "reason": "title replaced by a headline: countries not in cited articles: austria"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Mega-Sena lottery draw",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Delta Govt Imposes Night Curfew In Ughelli North Following Attack On Ex-Deputy Senate President Omo-Agege",
+  "text": "[46] reported that Delta State Governor Sheriff Oborevwori ordered arrests and mourned six dead.",
+  "reason": "names not in cited articles: Sheriff"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Egypt Gold Prices and Dollar Decline",
+  "text": "[52][53] reported that Hani Milad, head of the General Division of Gold at the Federation of Egyptian Chambers of Commerce, announced significant declines in gold prices.",
+  "reason": "analysis word not used by the source: 'significant'"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran says reopening Hormuz ‘not difficult’ if US accepts Tehran’s conditions",
+  "text": "[58], a state-media outlet, reported that Iranian Parliament Speaker Mohammad Bagher Ghalibaf stated Iran will not engage in talks until its conditions are met.",
+  "reason": "names not in cited articles: Bagher, Mohammad"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Turkey floating solar plant project",
+  "text": "[23] reported that Turkey's first floating solar power plant facility, costing $45 million, is expected to produce around 77.6 million kilowatt-hours of electricity annually to supply approximately 20,000 households.",
+  "reason": "number not in cited articles: 45000000"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "France civil service protests and wages",
+  "text": "[37] reported that Laurent Nuñez stated he proposed a successor to prefect Hugues Moutouh amid suspicion regarding the transmission of confidential information to the Rassemblement national.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "PTI's Zafar says Karachi can become separate province, Imran Khan favours new administrative units",
+  "text": "[17] reported that the Pakistan Tehreek-e-Insaf sought a wider opposition alliance and demanded Imran Khan's transfer to Shifa Hospital.",
+  "reason": "names not in cited articles: Khan, Pakistan, Tehreek-e-Insaf"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Israel government coalition talks",
+  "text": "[24] reported that the opposition bloc led by Yisrael Beytenu party leader Gadi Eisenkot is considering forming a narrow, short-term minority government consisting of five factions to oust Benjamin Netanyahu.",
+  "reason": "number not in cited articles: 5"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "هآرتس: \"إسرائيل\" لم تلتزم بإدخال المساعدات المتفق عليها إلى غزة",
+  "text": "[25] reported that the Democratic Front for the Liberation of Palestine condemned ongoing Israeli massacres in the Gaza Strip that resulted in the deaths of 13 citizens within 24 hours.",
+  "reason": "number not in cited articles: 24"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Discos top corruption risk ranking among 25 institutions",
+  "text": "[26] reported that an assessment flagged substantial corruption risks at the Federal Board of Revenue, Capital Development Authority, and Passco while highlighting ghost pensioners.",
+  "reason": "names not in cited articles: Authority, Board, Capital, Development, Revenue"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Rwanda: Rwanda, Five EU Countries Announce Migration Partnership",
+  "text": "[28] reported that 76 MEPs signed a letter calling on the European Commission to assess human rights in Rwanda amid plans to set up a migrant return hub.",
+  "reason": "names not in cited articles: European"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Israel's Eisenkot Condemns Settler Attacks In West Bank As 'Jewish Terrorism'",
+  "text": "[36] reported that Army Radio stated that the volume and severity of nationalistically motivated crime attacks during the Judea and Samaria olive harvest surged by 74 percent over two years.",
+  "reason": "analysis word not used by the source: 'surged'"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Colombia and Venezuela political relations",
+  "text": "[39] reported that the 'Venezuela Renace' report stated Venezuela's public debt reached 237,544 million dollars and called it unsustainable, ending over eight years of macroeconomic opacity.",
+  "reason": "number not in cited articles: 237544000000"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Zelenskiy says Ukraine held new talks with US, European officials on peace prospects",
+  "text": "[12] reported that Gavin Hall examined how both sides in the Russia-Ukraine war are prepared to operate outside of the conflict zone.",
+  "reason": "names not in cited articles: Russia-Ukraine"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "North Carolina win gives Democrats biggest US House majority since early 1990s",
+  "text": "[12] reported that banks financing SpaceX fear Elon Musk might launch Nvidia chips into space that serve as collateral for a loan.",
+  "reason": "analysis word not used by the source: 'might'"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Iran says reopening Hormuz ‘not difficult’ if US accepts Tehran’s conditions",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): El Ejército iraní ordena endurecer el bloqueo en el estrecho de Ormuz hasta que "
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran says reopening Hormuz ‘not difficult’ if US accepts Tehran’s conditions",
+  "text": "[20] reported that the Iranian army ordered the blockade in the Strait of Hormuz to be tightened until the United States complies with its demands.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ankara drug money laundering investigation",
+  "text": "[22], a state-media outlet, reported that 23 suspects out of 35 were detained in an operation targeting celebrities in Istanbul.",
+  "reason": "wording not from cited articles: suspects, detained, operation, targeting, celebrities"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Democratic Republic of Congo political and religious tensions",
+  "text": "[36] reported that eucharistic celebrations were banned in Kinshasa and Catholics were dispersed in Lubumbashi amid tensions between state and church.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Pentagon accuses Canada of failing as a credible defence partner over spending and F-35 review",
+  "text": "[8] reported that relations between Canada and the United States have been strained by trade disputes and threats.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "US Senate election in Alaska",
+  "text": "",
+  "reason": "continuation not supported by the headlines: Alaska ends deal to give voter records to US Justice Department"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "skipped",
+  "group": "global",
+  "story": "",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Nigeria budget revision",
+  "text": "[36] reported that President Bola Tinubu asked the House to re-enact the 2026 budget, cutting expenditure from N68.32tn to N65.18tn while retaining the N31.46tn fiscal deficit and N29.22tn borrowing.",
+  "reason": "names not in cited articles: Bola"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "europe",
+  "story": "NATO to Deploy Early-Warning Aircraft to Poland Following Russian Missile Incidents",
+  "text": "NATO AWACS deployment to Poland",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "asia",
+  "story": "PTI's Zafar says Karachi can become separate province, Imran Khan favours new administrative units",
+  "text": "Imran Khan opposition alliance expansion",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Police arrest 11 suspected yahoo boys in Ogun, recover charms",
+  "text": "Daura emirate tourist assault allegations",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "europe",
+  "story": "France civil service protests and wages",
+  "text": "France interior ministry leak inquiry",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "europe",
+  "story": "More than 1,000 Russian soldiers died by suicide since Ukraine invasion, leaked data shows - report",
+  "text": "Leaked data shows more than 1,000 Russian military suicides during Ukraine war",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Alleged cyberbullying: Sowore’s delay in filing court documents stalls his trial",
+  "text": "DSS and SERAP defamation fine appeal",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Ankara drug money laundering investigation",
+  "text": "Istanbul drug and prostitution investigation",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "CIA system breached in latest cyberattack targeting US intelligence agencies",
+  "text": "CIA unclassified information security breach",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Riyadh financial center Houthi attack",
+  "text": "Saudi skyscraper hit again, coalition slams 'terrorist attack'",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Nigeria budget revision",
+  "text": "Nigeria revised 2026 budget and laws",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "CIA system breached in latest cyberattack targeting US intelligence agencies",
+  "text": "CIA and US intelligence agencies cyberattack",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Microsoft service disruption and emergency alert",
+  "text": "Microsoft declares Code Red after outage",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Putin says retaliation ‘inevitable’ after Ukraine hit Russian oil plants",
+  "text": "Russia Ukraine oil refinery strikes",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

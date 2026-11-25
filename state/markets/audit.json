@@ -1,61 +1,5 @@
 [
  {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "all",
-  "story": "Trump on Iran dirty bomb plan",
-  "text": "",
-  "reason": "off-topic for this site (topic: security): not created"
- },
- {
-  "date": "2026-11-17",
-  "kind": "title",
-  "group": "all",
-  "story": "Dems Plan Probes of Trump's $100B Venezuela Oil Deal",
-  "text": "Democratic probes of Venezuela oil deal",
-  "reason": "title replaced by a headline: names not in cited articles: Democratic"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "all",
-  "story": "Federal Reserve interest rates",
-  "text": "[11] reported that Federal Reserve Bank of New York President John Williams dismissed the suggestion of dramatic action.",
-  "reason": "analysis word not used by the source: 'dramatic'"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "all",
-  "story": "Nationwide Ground Stop Lifted, Nvidia Spy Scandal, Starship’s Longest Test Flight",
-  "text": "[15] reported that the United States is probing why a router installation sparked a mass flight grounding.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "all",
-  "story": "Nvidia leadership and earnings",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Nvidia doubles revenue in first earnings since Jensen Huang’s resignation"
- },
- {
-  "date": "2026-11-17",
-  "kind": "skipped",
-  "group": "all",
-  "story": "Nvidia leadership and earnings",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): What to watch for in Nvidia’s first earnings report since Jensen Huang resigned"
- },
- {
-  "date": "2026-11-17",
-  "kind": "rejected",
-  "group": "all",
-  "story": "Nvidia leadership and earnings",
-  "text": "[3] reported that Nvidia doubled revenue in its first earnings report since Jensen Huang's resignation.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
   "date": "2026-11-19",
   "kind": "skipped",
   "group": "all",
@@ -126,5 +70,13 @@
   "story": "",
   "text": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "title",
+  "group": "all",
+  "story": "RBA’s Jacobs Says Financial Conditions ‘Restrictive’ After Hikes",
+  "text": "Australia interest rates and inflation",
+  "reason": "title replaced by a headline: wording not from cited articles: interest, rates"
  }
 ]

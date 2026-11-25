@@ -38,5 +38,13 @@
   "story": "",
   "text": "Jensen Huang Returns as NVIDIA CEO Following Unanimous Board Vote",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-25",
+  "kind": "rejected",
+  "group": "all",
+  "story": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+  "text": "[1] reported that Broadcom shipped patches for critical VMware vulnerabilities including an authentication bypass in vCenter and code execution flaws on ESX hosts.",
+  "reason": "names not in cited articles: Broadcom"
  }
 ]

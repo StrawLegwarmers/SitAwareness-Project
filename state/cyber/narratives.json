@@ -1,6 +1,126 @@
 {
  "archived": [
   {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "cloud-keys-leaked-in-docker-hub",
+   "last_updated": "2026-11-18",
+   "title": "Cloud keys leaked in Docker Hub images"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "windows-hello-and-bitlocker-pin-vulnerabilities",
+   "last_updated": "2026-11-18",
+   "title": "Windows Hello and BitLocker PIN vulnerabilities"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "the-challenge-of-defending-against-bulletproof",
+   "last_updated": "2026-11-18",
+   "title": "The challenge of defending against bulletproof dead drops on public blockchains"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "equinor-cyberattack",
+   "last_updated": "2026-11-18",
+   "title": "Equinor cyberattack"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "scattered-spider-sentencing",
+   "last_updated": "2026-11-18",
+   "title": "Scattered Spider sentencing"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "auditteam-opsagent-ransomware-framework",
+   "last_updated": "2026-11-18",
+   "title": "AuditTeam OpsAgent ransomware framework"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "react2steal-uses-github-actions-to-exploit",
+   "last_updated": "2026-11-18",
+   "title": "React2STEAL Uses GitHub Actions to Exploit React2Shell"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "national-security-agency-network-outage",
+   "last_updated": "2026-11-18",
+   "title": "National Security Agency network outage"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "java4shell-vulnerability-disclosure",
+   "last_updated": "2026-11-18",
+   "title": "Java4Shell vulnerability disclosure"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "microsoft-agent-framework-pypi-package-compromise",
+   "last_updated": "2026-11-18",
+   "title": "Microsoft’s Agent Framework PyPI Package Hacked to Steal Azure and GitHub Credentials"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "cold-relic-a-case-study-in",
+   "last_updated": "2026-11-18",
+   "title": "COLD RELIC: A Case Study in Impersonation and Compromise"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "anthropic-vulnerability-disclosure-policy",
+   "last_updated": "2026-11-18",
+   "title": "Anthropic vulnerability disclosure policy"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-17",
+   "group": "all",
+   "id": "optimizely-script-hijacking-campaign",
+   "last_updated": "2026-11-18",
+   "title": "Optimizely script hijacking campaign"
+  },
+  {
+   "article_count": 5,
+   "first_seen": "2026-11-15",
+   "group": "all",
+   "id": "meta-fine-in-italy",
+   "last_updated": "2026-11-18",
+   "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access"
+  },
+  {
+   "article_count": 5,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "microsoft-365-cloud-service-outage",
+   "last_updated": "2026-11-18",
+   "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users"
+  },
+  {
    "article_count": 1,
    "first_seen": "2026-11-17",
    "group": "all",
@@ -483,6 +603,30 @@
  ],
  "coverage": [
   {
+   "articles": 186,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 2,
+   "continuing": 1,
+   "corroborated": 0,
+   "date": "2026-11-25",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 150,
+   "in_stories": 3,
+   "kept": 2,
+   "merged": 0,
+   "new": 1,
+   "rejected": 1,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 2,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
+  {
    "articles": 218,
    "attached_by_code": 0,
    "calls": 6,
@@ -800,7 +944,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-24T22:35:30+00:00"
+  "all": "2026-11-25T01:59:49+00:00"
  },
  "narratives": [
   {
@@ -1044,14 +1188,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -1167,7 +1311,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
    "title_from": {
     "backing": 2,
@@ -1178,8 +1322,34 @@
    }
   },
   {
-   "article_count": 24,
+   "article_count": 26,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "6c155de55a703f4a",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-24T23:20:02+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "VMware patches critical vCenter authentication bypass and ESX flaws",
+     "type": null,
+     "url": "https://securityaffairs.com/203931/security/vmware-patches-critical-vcenter-authentication-bypass-and-esx-flaws.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "5c611e48612d3cdc",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-24T16:32:56+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+     "type": null,
+     "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/"
+    },
     {
      "added": "2026-11-24",
      "id": "f123170c054202cd",
@@ -1499,18 +1669,30 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
    "reports": [
+    {
+     "articles": [
+      "6c155de55a703f4a"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-24T23:20:02+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/203931/security/vmware-patches-critical-vcenter-authentication-bypass-and-esx-flaws.html) reported that Broadcom patched 23 VMware flaws, covering a critical vCenter authentication bypass and three flaws allowing code execution on ESX hosts."
+    },
     {
      "articles": [
       "f123170c054202cd"
@@ -1726,7 +1908,7 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/apache-patches-critical-http-2-flaw/) reported that Apache fixed a critical bug in its HTTP/2 module, tracked as CVE-2026-119618, that could let a remote attacker run code on a web server."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
@@ -1737,1132 +1919,6 @@
     "outlet": "SecurityWeek",
     "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/"
    }
-  },
-  {
-   "article_count": 5,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "9337ed2452fe2be4",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T12:23:15+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Impersonate Microsoft Exchange Online Alerts to Trick Users During Microsoft 365 Outage",
-     "type": null,
-     "url": "https://cybersecuritynews.com/hackers-impersonate-microsoft-exchange/"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "a385676b7edbec5b",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-13T08:35:18+00:00",
-     "publisher": "Malwarebytes Labs",
-     "region": null,
-     "section": "intel",
-     "title": "Worldwide Microsoft 365 outage disrupts Outlook, SharePoint, Teams, and more",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12",
-      "2026-11-13"
-     ],
-     "id": "689c13e72e2fc43e",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-13T06:51:21+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
-     "type": null,
-     "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/"
-    },
-    {
-     "added": "2026-11-13",
-     "dates": [
-      "2026-11-12"
-     ],
-     "id": "b56941a6bc981265",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-12T20:41:47+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft Cloud Outage Hits Outlook, Teams, Copilot and AI Services",
-     "type": null,
-     "url": "https://securityaffairs.com/202932/security/microsoft-cloud-outage-hits-outlook-teams-copilot-and-ai-services.html"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "594efea33c81c3c1",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-12T20:15:16+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "microsoft-365-cloud-service-outage",
-   "label": "Microsoft 365 cloud service outage",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9337ed2452fe2be4"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-18T12:23:15+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-impersonate-microsoft-exchange/) reported that hackers used a Microsoft 365 outage to send fake Exchange Online alerts claiming emails would be deleted unless recipients responded."
-    },
-    {
-     "articles": [
-      "b56941a6bc981265"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-12T20:41:47+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/202932/security/microsoft-cloud-outage-hits-outlook-teams-copilot-and-ai-services.html) reported that a Microsoft outage disrupted Outlook, Teams, and Copilot while also breaking OpenAI and Anthropic connectors to Microsoft 365 accounts."
-    },
-    {
-     "articles": [
-      "594efea33c81c3c1"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-12T20:15:16+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/) reported that Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot."
-    },
-    {
-     "articles": [
-      "689c13e72e2fc43e"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-13T06:51:21+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/massive-microsoft-365-outage/) reported that a major Microsoft 365 outage disrupted cloud service access on November 12 and continued into November 13, 2026, as Microsoft worked to restore failing infrastructure."
-    },
-    {
-     "articles": [
-      "a385676b7edbec5b"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Malwarebytes Labs"
-     ],
-     "published": "2026-11-13T08:35:18+00:00",
-     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/worldwide-microsoft-365-outage-disrupts-outlook-sharepoint-teams-and-more) reported that a worldwide Microsoft 365 outage is having a severe impact on companies that rely on services like Outlook, Sharepoint, and Teams."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Massive Microsoft 365 Outage Impacts Exchange Online, Teams, SharePoint, Copilot, and Defender XDR Users",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-13",
-    "of": 2,
-    "outlet": "Cybersecurity News",
-    "url": "https://cybersecuritynews.com/massive-microsoft-365-outage/"
-   },
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 5,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "061f4b2a5ea32544",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-17T11:34:09+00:00",
-     "publisher": "Malwarebytes Labs",
-     "region": null,
-     "section": "intel",
-     "title": "Facebook may have access to your entire photo gallery",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/mobile/2026/11/facebook-may-have-access-to-your-entire-photo-gallery"
-    },
-    {
-     "added": "2026-11-16",
-     "dates": [
-      "2026-11-14"
-     ],
-     "id": "4c40463e712bbf9c",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-16T10:38:30+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Meta Hit With €805 Million Fine Over Facebook’s Unauthorized Access to Android Photo Galleries",
-     "type": null,
-     "url": "https://cybersecuritynews.com/meta-hit-with-e805-million-fine/"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "d681fa4a32225e07",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-15T18:11:56+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
-     "type": null,
-     "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html"
-    },
-    {
-     "added": "2026-11-15",
-     "dates": [
-      "2026-11-14"
-     ],
-     "id": "63e9cf8834bb2815",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-15T11:27:31+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
-    },
-    {
-     "added": "2026-11-15",
-     "id": "b6c0bf0fcb749c6b",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-14T19:00:00+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
-     "type": null,
-     "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "meta-fine-in-italy",
-   "label": "Meta fine in Italy",
-   "last_reported": "2026-11-15",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "d681fa4a32225e07"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-15T18:11:56+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html) reported that Italy fined Meta €805 million over Facebook's access to Android users' photo galleries without specific consent, affecting around 20 million people."
-    },
-    {
-     "articles": [
-      "b6c0bf0fcb749c6b"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-14T19:00:00+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/) reported that Meta was fined $887 Million in Italy over Android gallery photos and videos on Facebook."
-    },
-    {
-     "articles": [
-      "63e9cf8834bb2815"
-     ],
-     "date": "2026-11-15",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-15T11:27:31+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html) reported that Meta was fined €805 Million in Italy over Facebook's Android gallery access without explicit consent."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Meta Fined €805 Million in Italy Over Facebook’s Default Photo Gallery Access",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-15",
-    "of": 2,
-    "outlet": "Security Affairs",
-    "url": "https://securityaffairs.com/203174/laws-and-regulations/meta-fined-e805-million-in-italy-over-facebooks-default-photo-gallery-access.html"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "dates": [
-      "2026-11-16"
-     ],
-     "id": "2f254f685c6747ef",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-17T12:51:03+00:00",
-     "publisher": "Malwarebytes Labs",
-     "region": null,
-     "section": "intel",
-     "title": "CNN, BBC, Zoom, and other sites served malicious code in supply-chain attack",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "0866adf59a33cc46",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-17T09:38:44+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "OPTIMJACK: BBC, CNN and Zoom Among Targets of Optimizely Script Hijacking",
-     "type": null,
-     "url": "https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html"
-    },
-    {
-     "added": "2026-11-17",
-     "dates": [
-      "2026-11-16"
-     ],
-     "id": "4e5896d7bb8e86f2",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-17T07:12:13+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "optimizely-script-hijacking-campaign",
-   "label": "Optimizely script hijacking campaign",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "2f254f685c6747ef"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Malwarebytes Labs"
-     ],
-     "published": "2026-11-17T12:51:03+00:00",
-     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/cnn-bbc-zoom-and-other-sites-served-malicious-code-in-supply-chain-attack) reported that CNN, BBC, Zoom, and other sites served malicious code in a supply-chain attack."
-    },
-    {
-     "articles": [
-      "4e5896d7bb8e86f2"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-17T07:12:13+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html) reported that an attacker exploited a flaw in Optimizely Web Experimentation to insert malicious code into customer website scripts."
-    },
-    {
-     "articles": [
-      "0866adf59a33cc46"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-17T09:38:44+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/203289/malware/optimjack-bbc-cnn-and-zoom-among-targets-of-optimizely-script-hijacking.html) reported that attackers hijacked Optimizely scripts on 178 organizations' websites under the name OPTIMJACK, spreading malware to target iPhones and steal payment card data and cryptocurrency."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Optimizely script hijacking campaign",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "47776f300bda0a0e",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T09:48:45+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic Reduces Vulnerability Disclosure Deadline from 90 to 30 Days as AI Quickly Identifies Flaws",
-     "type": null,
-     "url": "https://cybersecuritynews.com/anthropic-cuts-critical-vulnerability-disclosure-deadline/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "ddc5b1c91a77bdcf",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-17T15:30:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic Cuts Disclosure Deadline to 30 Days For Serious Bugs",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "25e8eabd2504db43",
-     "lang": "en",
-     "outlet": "Help Net Security",
-     "published": "2026-11-17T06:46:16+00:00",
-     "publisher": "Help Net Security",
-     "region": null,
-     "section": "news",
-     "title": "Anthropic vulnerability disclosure deadline drops to 30 days for serious bugs",
-     "type": null,
-     "url": "https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "anthropic-vulnerability-disclosure-policy",
-   "label": "Anthropic vulnerability disclosure policy",
-   "last_reported": "2026-11-17",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "25e8eabd2504db43",
-      "ddc5b1c91a77bdcf"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Help Net Security",
-      "Infosecurity Magazine"
-     ],
-     "published": "2026-11-17T06:46:16+00:00",
-     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/17/anthropic-vulnerability-disclosure-days/), [Infosecurity Magazine](https://www.infosecurity-magazine.com/news/anthropic-disclosure-deadline-30/) reported that Anthropic reduced its vulnerability disclosure deadline to 30 days for high- and critical-severity bugs."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Anthropic vulnerability disclosure policy",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "bc2b95709c149819",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-18T15:15:00+00:00",
-     "publisher": "The Record",
-     "region": null,
-     "section": "news",
-     "title": "Russian cyber-espionage group used stolen cloud data to hack into organizations, Google says",
-     "type": null,
-     "url": "https://therecord.media/russia-cyber-espionage-google"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "3dd8154d8a399a8b",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T06:18:38+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Google Reveals How Russian Hackers Used One Cloud Breach to Compromise Another US Organization",
-     "type": null,
-     "url": "https://cybersecuritynews.com/russian-hackers-3/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "b0818a23c548229a",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-18T05:58:04+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "cb3c4130a10ba7a4",
-     "lang": "en",
-     "outlet": "Google Threat Intelligence",
-     "published": "2026-11-17T14:00:00+00:00",
-     "publisher": "Google",
-     "region": null,
-     "section": "intel",
-     "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
-     "type": null,
-     "url": "https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "cold-relic-a-case-study-in",
-   "label": "COLD RELIC: A Case Study in Impersonation and Compromise",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "bc2b95709c149819"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "published": "2026-11-18T15:15:00+00:00",
-     "text": "[The Record](https://therecord.media/russia-cyber-espionage-google) reported that Russian state-backed hackers are using information stolen from cloud accounts to impersonate trusted contacts and launch new espionage attacks."
-    },
-    {
-     "articles": [
-      "b0818a23c548229a"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-18T05:58:04+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html) reported that the Russia-linked cyber espionage group known as Cold Relic weaponized a single cloud compromise to breach a second U.S. organization."
-    },
-    {
-     "articles": [
-      "3dd8154d8a399a8b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-18T06:18:38+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/russian-hackers-3/) reported that Russian state-sponsored hackers broke into a U.S. organization’s Google Workspace environment in late 2025, stole its staff directory and cloud files, and used them in a subsequent breach."
-    },
-    {
-     "articles": [
-      "cb3c4130a10ba7a4"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Google"
-     ],
-     "published": "2026-11-17T14:00:00+00:00",
-     "text": "[Google](https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise/) published a case study by Mandiant on impersonation and compromise titled COLD RELIC."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "COLD RELIC: A Case Study in Impersonation and Compromise",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "a8ad372ddb898f7b",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-18T16:58:42+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/"
-    },
-    {
-     "added": "2026-11-18",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "c741de26a0a034ac",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-18T06:45:26+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
-    },
-    {
-     "added": "2026-11-18",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "d7354e5762cd72ad",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T03:30:19+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft’s Agent Framework PyPI Package Hacked to Steal Azure and GitHub Credentials",
-     "type": null,
-     "url": "https://cybersecuritynews.com/microsofts-agent-framework-pypi-package/"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "d167e048362c928b",
-     "lang": "en",
-     "outlet": "OpenSourceMalware",
-     "published": "2026-11-17T22:29:56+00:00",
-     "publisher": "OpenSourceMalware",
-     "region": null,
-     "section": "intel",
-     "title": "Official Microsoft agent-framework PyPI package compromised",
-     "type": null,
-     "url": "https://opensourcemalware.com/blog/agent-framework-pypi-compromised"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-17",
-   "group": "all",
-   "id": "microsoft-agent-framework-pypi-package-compromise",
-   "label": "Microsoft agent-framework PyPI package compromise",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "d7354e5762cd72ad"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-18T03:30:19+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/microsofts-agent-framework-pypi-package/) reported that hackers published two malicious versions of Microsoft’s agent-framework package on the Python Package Index on November 17, 2026."
-    },
-    {
-     "articles": [
-      "c741de26a0a034ac"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-18T06:45:26+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html) reported that threat actors compromised Microsoft's agent-framework package to push a credential stealer."
-    },
-    {
-     "articles": [
-      "d167e048362c928b"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "OpenSourceMalware"
-     ],
-     "published": "2026-11-17T22:29:56+00:00",
-     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/agent-framework-pypi-compromised) reported that versions 1.26.1 and 1.26.2 of the official Microsoft agent-framework Python package contain malware."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Microsoft’s Agent Framework PyPI Package Hacked to Steal Azure and GitHub Credentials",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-18",
-    "of": 2,
-    "outlet": "Cybersecurity News",
-    "url": "https://cybersecuritynews.com/microsofts-agent-framework-pypi-package/"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "1f10a2bd318c1ecc",
-     "lang": "en",
-     "outlet": "Cisco Talos",
-     "published": "2026-11-18T01:53:03+00:00",
-     "publisher": "Cisco",
-     "region": null,
-     "section": "intel",
-     "title": "CVE-2026-114938: Critical vulnerability in OpenJDK JAVA",
-     "type": null,
-     "url": "https://blog.talosintelligence.com/java4shell/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "394b6aac48d5602b",
-     "lang": "en",
-     "outlet": "Sophos X-Ops",
-     "published": "2026-11-17T00:00:00+00:00",
-     "publisher": "Sophos X-Ops",
-     "region": null,
-     "section": "intel",
-     "title": "'Java4Shell' vulnerability (CVE-2026-114938) could allow remote code execution",
-     "type": null,
-     "url": "https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "java4shell-vulnerability-disclosure",
-   "label": "Java4Shell vulnerability disclosure",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "394b6aac48d5602b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Sophos X-Ops"
-     ],
-     "published": "2026-11-17T00:00:00+00:00",
-     "text": "[Sophos X-Ops](https://www.sophos.com/en-us/blog/java4shell-could-allow-remote-code-execution) reported that the 'Java4Shell' vulnerability (CVE-2026-114938) could allow remote code execution."
-    },
-    {
-     "articles": [
-      "1f10a2bd318c1ecc"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cisco"
-     ],
-     "published": "2026-11-18T01:53:03+00:00",
-     "text": "[Cisco](https://blog.talosintelligence.com/java4shell/) reported that Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java dubbed 'Java4Shell' with a CVSS 4.0 score of 9.2."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Java4Shell vulnerability disclosure",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "30ec10a4832eab1f",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-18T02:15:07+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
-     "type": null,
-     "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "ef78130a876363db",
-     "lang": "en",
-     "outlet": "The Guardian Data and computer security",
-     "published": "2026-11-17T20:35:23+00:00",
-     "publisher": "The Guardian Data and computer security",
-     "region": null,
-     "section": "news",
-     "title": "National Security Agency network for internal communications goes down",
-     "type": null,
-     "url": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "national-security-agency-network-outage",
-   "label": "National Security Agency network outage",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "ef78130a876363db"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Guardian Data and computer security"
-     ],
-     "published": "2026-11-17T20:35:23+00:00",
-     "text": "[The Guardian Data and computer security](https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down) reported that the National Security Agency network for internal communications went down and the agency issued a code yellow for NSANet."
-    },
-    {
-     "articles": [
-      "30ec10a4832eab1f"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-18T02:15:07+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/) reported that a defense official said the classified communications network at the National Security Agency went down and disrupted the operations of NSANet."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "National Security Agency network outage",
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "1b0d7eb45d6b8dd3",
-     "lang": "en",
-     "outlet": "OpenSourceMalware",
-     "published": "2026-11-18T06:30:00+00:00",
-     "publisher": "OpenSourceMalware",
-     "region": null,
-     "section": "intel",
-     "title": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
-     "type": null,
-     "url": "https://opensourcemalware.com/blog/react2steal-github-actions"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "react2steal-uses-github-actions-to-exploit",
-   "label": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "1b0d7eb45d6b8dd3"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "OpenSourceMalware"
-     ],
-     "published": "2026-11-18T06:30:00+00:00",
-     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/react2steal-github-actions) reported that the React2STEAL campaign uses GitHub Actions to exploit React2Shell, exposing stolen AWS credentials, AI keys, and.env files from over 1,200 hosts in public repositories."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "React2STEAL Uses GitHub Actions to Exploit React2Shell",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "55a9a9da0c66cfe9",
-     "lang": "en",
-     "outlet": "Kaspersky Securelist",
-     "published": "2026-11-18T07:00:07+00:00",
-     "publisher": "Kaspersky",
-     "region": null,
-     "section": "intel",
-     "title": "The forced audit: how AuditTeam’s OpsAgent framework masks ransomware as consulting",
-     "type": null,
-     "url": "https://securelist.com/auditteam-opsagent-forced-audit/122031/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "auditteam-opsagent-ransomware-framework",
-   "label": "AuditTeam OpsAgent ransomware framework",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "55a9a9da0c66cfe9"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Kaspersky"
-     ],
-     "published": "2026-11-18T07:00:07+00:00",
-     "text": "[Kaspersky](https://securelist.com/auditteam-opsagent-forced-audit/122031/) reported that the AuditTeam ransomware gang uses an OpsAgent implant with a Rust rewrite and an extortion model demanding a consulting fee, which masks ransomware as consulting."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "AuditTeam OpsAgent ransomware framework",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "5fd126d460cd8923",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-18T13:19:32+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-     "type": null,
-     "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "1e9e35fa74660368",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-18T08:24:18+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "scattered-spider-sentencing",
-   "label": "Scattered Spider sentencing",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "1e9e35fa74660368"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-18T08:24:18+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/) reported that a British leader of the Scattered Spider cybercrime collective was sentenced to six years in prison in the United States for stealing millions in cryptocurrency."
-    },
-    {
-     "articles": [
-      "5fd126d460cd8923"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-18T13:19:32+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/) reported that British national Tyler Robert Buchanan is the last of five defendants sentenced in the United States hacking case, according to the DOJ."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Scattered Spider sentencing",
-   "topic": "crime"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "f0af64b71f5aa03b",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-18T13:30:00+00:00",
-     "publisher": "The Record",
-     "region": null,
-     "section": "news",
-     "title": "Cyberattack hits Norwegian energy giant Equinor, disrupting internal services",
-     "type": null,
-     "url": "https://therecord.media/norway-equinor-cyberattack-energy"
-    },
-    {
-     "added": "2026-11-18",
-     "dates": [
-      "2026-11-17"
-     ],
-     "id": "e76869cec312978b",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-18T11:36:00+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "Norwegian Gas Giant Equinor Says It’s Under Cyberattack. Production Keeps Running",
-     "type": null,
-     "url": "https://securityaffairs.com/203394/hacking/norwegian-gas-giant-equinor-says-its-under-cyberattack-production-keeps-running.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "equinor-cyberattack",
-   "label": "Equinor cyberattack",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "e76869cec312978b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-18T11:36:00+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/203394/hacking/norwegian-gas-giant-equinor-says-its-under-cyberattack-production-keeps-running.html) reported that Norwegian gas giant Equinor confirmed a cyberattack on its IT systems with no impact on production or confirmed data theft."
-    },
-    {
-     "articles": [
-      "f0af64b71f5aa03b"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "published": "2026-11-18T13:30:00+00:00",
-     "text": "[The Record](https://therecord.media/norway-equinor-cyberattack-energy) reported that Equinor is working to contain a cyberattack on its IT systems that the company stated has not impacted oil and gas production."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Equinor cyberattack",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "606c412217645ecd",
-     "lang": "en",
-     "outlet": "Cisco Talos",
-     "published": "2026-11-18T11:00:00+00:00",
-     "publisher": "Cisco",
-     "region": null,
-     "section": "intel",
-     "title": "The challenge of defending against bulletproof dead drops on public blockchains",
-     "type": null,
-     "url": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "the-challenge-of-defending-against-bulletproof",
-   "label": "The challenge of defending against bulletproof dead drops on public blockchains",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "606c412217645ecd"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cisco"
-     ],
-     "published": "2026-11-18T11:00:00+00:00",
-     "text": "[Cisco](https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/) reported on the evolution of malware command-and-control infrastructure shifting toward decentralized bulletproof dead drops on public blockchains."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "The challenge of defending against bulletproof dead drops on public blockchains",
-   "topic": "cyber"
   },
   {
    "article_count": 2,
@@ -2932,146 +1988,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "35c27b557a5ece2a",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T14:16:45+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "New Hello Again Attack Bypasses Windows Hello and BitLocker PIN Lockout Protection",
-     "type": null,
-     "url": "https://cybersecuritynews.com/hello-attack-bypasses-windows-hello-and-bitlocker/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "f81ea9f9198535fd",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-18T12:28:30+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "windows-hello-and-bitlocker-pin-vulnerabilities",
-   "label": "Windows Hello and BitLocker PIN vulnerabilities",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "f81ea9f9198535fd"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-18T12:28:30+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html) reported that researchers found the TPM lockout for Windows Hello and BitLocker PINs on AMD-based PCs and some Intel PCs can be reset by someone who opens the PC case."
-    },
-    {
-     "articles": [
-      "35c27b557a5ece2a"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-18T14:16:45+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/hello-attack-bypasses-windows-hello-and-bitlocker/) reported that researchers demonstrated someone with a laptop and a few cheap parts can guess a Windows Hello PIN in about 40 hours."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Windows Hello and BitLocker PIN vulnerabilities",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-18",
-     "id": "d120e671065d8567",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T13:52:43+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Steal Exposed AWS Credentials From Docker Hub Images in Just 8 Seconds",
-     "type": null,
-     "url": "https://cybersecuritynews.com/hackers-steal-exposed-aws-credentials/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "2207e09692755ad9",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-17T21:27:17+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "cloud-keys-leaked-in-docker-hub",
-   "label": "Cloud keys leaked in Docker Hub images",
-   "last_reported": "2026-11-18",
-   "last_updated": "2026-11-18",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "2207e09692755ad9"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-17T21:27:17+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/) reported that credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication."
-    },
-    {
-     "articles": [
-      "d120e671065d8567"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-18T13:52:43+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-steal-exposed-aws-credentials/) reported that automated bots used a decoy Amazon Web Services access key 7.86 seconds after researchers published the Docker Hub image containing it."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Cloud keys leaked in Docker Hub images",
    "topic": "cyber"
   },
   {
@@ -4536,14 +3452,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "cisco-expressway-security-flaw-exploitation",
    "label": "Cisco Expressway security flaw exploitation",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4582,9 +3498,9 @@
      "text": "[Security Affairs](https://securityaffairs.com/203598/hacking/hackers-exploit-cisco-expressway-flaw-cve-2026-76466-to-breach-russian-organization.html) reported that the Cisco Expressway flaw CVE-2026-76466 is being exploited to gain root access and move from exposed devices into internal networks."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Cisco Expressway security flaw exploitation",
    "topic": "cyber"
   },
@@ -4897,14 +3813,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "idunno-anticsrf-library-vulnerability",
    "label": "Idunno.AntiCsrf library vulnerability",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4943,9 +3859,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/asp-net-anticsrf-flaw-under-attack/) reported that attackers are exploiting a critical flaw in Idunno.AntiCsrf, a third-party library used by older ASP.NET WebForms applications, and Mandiant confirmed active exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Idunno.AntiCsrf library vulnerability",
    "topic": "cyber"
   },
@@ -5062,14 +3978,14 @@
      "url": "https://www.theregister.com/security/2026/11/23/norway-links-energy-firm-cyberattacks-to-critical-azure-api-management-flaw/5311598"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "azure-api-management-vulnerability",
    "label": "Azure API Management vulnerability",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5130,7 +4046,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Norway links energy firm cyberattacks to critical Azure API Management flaw",
    "title_from": {
     "backing": 2,
@@ -5190,14 +4106,14 @@
      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "n-able-mail-assure-vulnerability",
    "label": "N-able Mail Assure vulnerability",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5236,9 +4152,9 @@
      "text": "[SecurityWeek](https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/) reported that N-able has restored access to affected services and continues to monitor affected environments."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "N-able Mail Assure vulnerability",
    "topic": "cyber"
   },
@@ -5442,14 +4358,14 @@
      "url": "https://cybersecuritynews.com/openai-and-cisco-launch-shirudo/"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "openai-and-cisco-shirudo-tool",
    "label": "OpenAI and Cisco Shirudo tool",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 6,
+   "outlets_today": 0,
    "previous_titles": [
     "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers",
     "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems"
@@ -5534,7 +4450,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "OpenAI and Cisco Launch Shirudo AI Security Tool to Block Exploits on Linux Servers",
    "title_from": {
     "backing": 5,
@@ -5588,14 +4504,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "spanish-laliga-data-breach",
    "label": "Spanish LaLiga data breach",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5624,7 +4540,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "LaLiga hacked: Spain’s top football league confirms theft of fans’ personal data",
    "title_from": {
     "backing": 2,
@@ -5665,14 +4581,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "kepco-data-breach",
    "label": "KEPCO data breach",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5701,7 +4617,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "KEPCO data breach",
    "topic": "cyber"
   },
@@ -5735,14 +4651,14 @@
      "url": "https://therecord.media/gta-vi-hacker-arion-kurtaj-released-on-license"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "rockstar-games-hacker-sentencing",
    "label": "Rockstar Games hacker sentencing",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5761,7 +4677,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Rockstar Games hacker sentencing",
    "topic": "crime"
   },
@@ -5782,14 +4698,14 @@
      "url": "https://opensourcemalware.com/blog/enterotoxin-malware"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "new-enterotoxin-malware-uses-npm-packages",
    "label": "New Enterotoxin Malware Uses NPM Packages to Deliver RAT",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5804,9 +4720,9 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/enterotoxin-malware) reported that NPM packages deliver a new Enterotoxin Windows remote access trojan to steal developer and cloud credentials."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "New Enterotoxin Malware Uses NPM Packages to Deliver RAT",
    "topic": "cyber"
   },
@@ -5856,14 +4772,14 @@
      "url": "https://therecord.media/japan-mcdonalds-cyberattack-breach"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "mcdonald-s-japan-discloses-breach-exposing",
    "label": "McDonald’s Japan discloses breach exposing customer purchase and location data",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "previous_titles": [
     "McDonald’s Japan Confirms Data Breach – Customer Information and Location Data Exposed"
    ],
@@ -5887,7 +4803,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "McDonald’s Japan discloses breach exposing customer purchase and location data",
    "title_from": {
     "backing": 2,
@@ -5928,14 +4844,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "globetopper-cyberattack",
    "label": "GlobeTopper cyberattack",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5978,7 +4894,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GlobeTopper cyberattack",
    "topic": "cyber"
   },
@@ -5999,14 +4915,14 @@
      "url": "https://www.recordedfuture.com/blog/cyber-threats-space-race"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "space-sector-cyber-threats",
    "label": "Space sector cyber threats",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6021,9 +4937,9 @@
      "text": "[Recorded Future Research](https://www.recordedfuture.com/blog/cyber-threats-space-race) reported on cybersecurity threats in Space Race 2.0, including commercial satellite attacks, ground vulnerabilities, and maritime risks."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Space sector cyber threats",
    "topic": "cyber"
   },
@@ -6044,14 +4960,14 @@
      "url": "https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "volant-manticore-threat-group-activity",
    "label": "Volant Manticore threat group activity",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6066,9 +4982,9 @@
      "text": "[Check Point Research](https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/) reported that Check Point Research is tracking a previously undocumented Iran-nexus threat group named Volant Manticore."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Volant Manticore threat group activity",
    "topic": "cyber"
   },
@@ -6102,14 +5018,14 @@
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGVuX3dya1FZaDJDb1ZIUWo1QWVCSW1Cd0M1ajBMVmhTNXJBMHVQUzFUTm5UeU5WM25idjc5ZTBKTlFoMHpNbUxZcENWcTBxSkVodFc2Qm13S1pOdFA0ZUlqb1JSakFBNTRJVnV0QTg2bllwN3RwS2MyRzNxb2habG5vbkplaDBsRGxpczFMaFIyajdrRU1NMkdXWQ?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "gatwick-airport-data-breach",
    "label": "Gatwick Airport data breach",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6138,7 +5054,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Gatwick Airport data breach",
    "topic": "cyber"
   },
@@ -6172,14 +5088,14 @@
      "url": "https://www.infosecurity-magazine.com/news/inception-extortion-sso-vishing/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "inception-extortion-campaign",
    "label": "Inception extortion campaign",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-24",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6208,12 +5124,57 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Inception extortion campaign",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "b061daaf7e341923",
+     "lang": "en",
+     "outlet": "Unit 42 (Palo Alto)",
+     "published": "2026-11-24T23:00:14+00:00",
+     "publisher": "Unit 42 (Palo Alto)",
+     "region": null,
+     "section": "intel",
+     "title": "NGINX HTTP/2 Use-After-Free: CVE-2026-123633",
+     "type": null,
+     "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "nginx-http-2-vulnerability",
+   "label": "NGINX HTTP/2 vulnerability",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "b061daaf7e341923"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Unit 42 (Palo Alto)"
+     ],
+     "published": "2026-11-24T23:00:14+00:00",
+     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/) reported a technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "NGINX HTTP/2 vulnerability",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-24T22:35:46+00:00"
+ "updated": "2026-11-25T02:00:06+00:00"
 }
