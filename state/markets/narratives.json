@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 497,
+   "articles": 504,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 4,
-   "continuing": 3,
+   "calls": 2,
+   "candidates": 10,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 449,
-   "in_stories": 7,
-   "kept": 5,
+   "groups": 456,
+   "in_stories": 14,
+   "kept": 11,
    "merged": 0,
-   "new": 1,
+   "new": 3,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 1,
-   "sent": 4,
+   "runs": 2,
+   "sent": 10,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 3,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -1125,7 +1125,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T02:06:11+00:00"
+  "all": "2026-11-25T04:49:16+00:00"
  },
  "narratives": [
   {
@@ -1413,8 +1413,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 20,
+   "article_count": 21,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "ca686cd84ed6f145",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-25T02:00:39+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil prices fall as supply glut concerns offset Middle East disruption fears",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-as-supply-glut-concerns-offset-middle-east-disruption-fears-5049537"
+    },
     {
      "added": "2026-11-25",
      "id": "15c48c0efe5d3607",
@@ -1676,7 +1689,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
@@ -1685,6 +1698,18 @@
    "last_updated": "2026-11-25",
    "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "ca686cd84ed6f145"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-25T02:00:39+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-as-supply-glut-concerns-offset-middle-east-disruption-fears-5049537) reported that oil prices fell as supply glut concerns offset Middle East disruption fears."
+    },
     {
      "articles": [
       "15c48c0efe5d3607"
@@ -2960,8 +2985,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 17,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "af1d054a6bcda091",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-25T02:49:04+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold Silver Rates Live Updates: Gold falls over 2% as rate hike bets rise; silver edges lower",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms"
+    },
     {
      "added": "2026-11-24",
      "id": "2a96b8a865a436a1",
@@ -3184,18 +3222,30 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-24",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "af1d054a6bcda091"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "ET Markets"
+     ],
+     "published": "2026-11-25T02:49:04+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-25th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136146334.cms) reported that gold fell over 2% as rate hike bets rose while silver edges lower."
+    },
     {
      "articles": [
       "275589c3f74cae8f",
@@ -3286,9 +3336,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
@@ -6628,8 +6678,21 @@
    "topic": "business"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "914e220ccd5dcf1e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-25T02:43:33+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html"
+    },
     {
      "added": "2026-11-25",
      "id": "4633f57212f15166",
@@ -6683,15 +6746,27 @@
      "url": "https://www.ft.com/content/6f89d7f9-563e-4c80-b071-e1bfeecbba7b?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "huawei-us-criminal-trial",
    "label": "Huawei US criminal trial",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "914e220ccd5dcf1e"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-25T02:43:33+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html) reported that Huawei was found guilty of bank fraud, money laundering, and trade secret theft conspiracy in a U.S. trial."
+    },
     {
      "articles": [
       "b4b706807e3d68be"
@@ -6744,7 +6819,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Huawei US criminal trial",
+   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-25",
+    "of": 2,
+    "outlet": "BBC",
+    "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+   },
    "topic": "justice"
   },
   {
@@ -6831,9 +6913,137 @@
    "status": "new",
    "title": "RBA’s Jacobs Says Financial Conditions ‘Restrictive’ After Hikes",
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "717762bc72579005",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-24T15:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "EU to Seek Overhaul of UN Climate Consensus Decisions After COP31 Failure",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/EU-to-Seek-Overhaul-of-UN-Climate-Consensus-Decisions-After-COP31-Failure.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "35cc96d7f8db7a35",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-24T05:00:25+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "EU to seek changes to UN climate talks process after COP failure",
+     "type": "international",
+     "url": "https://www.ft.com/content/f01d609c-485d-4d1d-ac0a-5fa1fd5c7612"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "eu-climate-talks-process-review",
+   "label": "EU climate talks process review",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "35cc96d7f8db7a35"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-24T05:00:25+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/f01d609c-485d-4d1d-ac0a-5fa1fd5c7612) reported that the EU will seek changes to the UN climate talks process after the breakdown of COP."
+    },
+    {
+     "articles": [
+      "717762bc72579005"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-24T15:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/EU-to-Seek-Overhaul-of-UN-Climate-Consensus-Decisions-After-COP31-Failure.html) reported that the European Union will propose to the UN to review the consensus decision-making model of the COP climate conferences following the COP31 failure."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "EU climate talks process review",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "a534ff64900f041f",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-25T03:36:19+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Starbucks to engage banks for sale of Japan business, Bloomberg News reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/starbucks-to-engage-banks-for-sale-of-japan-business-bloomberg-news-reports-5049633"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "fd24e8eadda3d6fa",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-25T03:10:23+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Starbucks Is Said to Engage Banks for Sale of Japan Business",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/starbucks-is-said-to-engage-banks-for-sale-of-japan-business"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "starbucks-japan-business-sale",
+   "label": "Starbucks Japan business sale",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "fd24e8eadda3d6fa"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-25T03:10:23+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-25/starbucks-is-said-to-engage-banks-for-sale-of-japan-business) reported that Starbucks Corp. has tapped advisers to prepare for a potential sale of its Japan business for several billion dollars."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Starbucks Japan business sale",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-25T02:06:28+00:00"
+ "updated": "2026-11-25T04:49:34+00:00"
 }
