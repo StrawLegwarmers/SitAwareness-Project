@@ -605,9 +605,9 @@
   {
    "articles": 211,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 16,
-   "continuing": 7,
+   "calls": 5,
+   "candidates": 24,
+   "continuing": 9,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 2,
@@ -615,18 +615,18 @@
     "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
    "failed_calls": 1,
-   "groups": 182,
-   "in_stories": 9,
-   "kept": 8,
+   "groups": 191,
+   "in_stories": 19,
+   "kept": 17,
    "merged": 0,
-   "new": 3,
+   "new": 8,
    "rejected": 1,
    "reported_by_2": 5,
-   "runs": 5,
-   "sent": 16,
+   "runs": 6,
+   "sent": 24,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 3,
+   "updated": 4,
    "waiting": 0
   },
   {
@@ -947,12 +947,25 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T10:38:48+00:00"
+  "all": "2026-11-25T16:42:42+00:00"
  },
  "narratives": [
   {
-   "article_count": 19,
+   "article_count": 20,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "1096835b6ddb7d9c",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-25T11:46:54+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/203965/uncategorized/u-s-cisa-adds-drupal-core-idunno-anticsrf-and-optimizely-web-experimentation-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
     {
      "added": "2026-11-24",
      "id": "7854eff9bf090303",
@@ -1191,14 +1204,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -1312,9 +1325,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html) reported that CISA added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities catalog amid reports of possible exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
    "title_from": {
     "backing": 2,
@@ -5372,9 +5385,341 @@
    "status": "new",
    "title": "Preinstalled Android malware research",
    "topic": "cyber"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "593c15fdc3a7f2a7",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-25T15:00:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto Fixes Fragnesia Kernel Bug Chained With PHP2Shell in Firewall Attacks",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/palo-alto-fragnesia-php2shell-fix/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "7f1689e74d4216f5",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-25T08:12:24+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+     "type": null,
+     "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "595b3f9da79d36ad",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-25T08:08:43+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto Networks Confirms Hackers Are Exploiting Fragnesia Flaw to Gain Root Access to Firewalls",
+     "type": null,
+     "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "palo-alto-networks-fragnesia-flaw-exploitation",
+   "label": "Palo Alto Networks Fragnesia flaw exploitation",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "595b3f9da79d36ad"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-25T08:08:43+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/) reported that Palo Alto Networks confirmed that hackers are exploiting Fragnesia tracked as CVE-2026-46300, a Linux kernel flaw, to gain root access to firewalls."
+    },
+    {
+     "articles": [
+      "7f1689e74d4216f5"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-25T08:12:24+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/) reported that a China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers."
+    },
+    {
+     "articles": [
+      "593c15fdc3a7f2a7"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Infosecurity Magazine"
+     ],
+     "published": "2026-11-25T15:00:00+00:00",
+     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/palo-alto-fragnesia-php2shell-fix/) reported that Palo Alto fixed Fragnesia after attackers chained it with PHP2Shell to root firewalls."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Palo Alto Fixes Fragnesia Kernel Bug Chained With PHP2Shell in Firewall Attacks",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-25",
+    "of": 2,
+    "outlet": "Infosecurity Magazine",
+    "url": "https://www.infosecurity-magazine.com/news/palo-alto-fragnesia-php2shell-fix/"
+   },
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "81837f92c01da335",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-25T11:54:28+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Iran-Linked Volant Manticore Hackers Target Airlines and Hospitals With New KuboShell Backdoor",
+     "type": null,
+     "url": "https://cybersecuritynews.com/iran-linked-volant-manticore-hackers/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "c2021b3a1d923ee2",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-24T16:54:07+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "volant-manticore-cyber-espionage-campaign",
+   "label": "Volant Manticore cyber espionage campaign",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c2021b3a1d923ee2"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-24T16:54:07+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html) reported that an Iran-aligned cyber espionage group called Volant Manticore targeted telecommunications companies, airlines, and critical infrastructure using an IPFS-Based KuboShell backdoor."
+    },
+    {
+     "articles": [
+      "81837f92c01da335"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-25T11:54:28+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/iran-linked-volant-manticore-hackers/) reported that Volant Manticore used a fake résumé to target a Cyprus-based airline and later turned to healthcare-themed phishing."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Volant Manticore cyber espionage campaign",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "bf08074be63ce364",
+     "lang": "en",
+     "outlet": "CyberScoop",
+     "published": "2026-11-25T13:03:24+00:00",
+     "publisher": "CyberScoop",
+     "region": null,
+     "section": "news",
+     "title": "FinCEN investigates cybersecurity incident, takes systems offline",
+     "type": null,
+     "url": "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "a36252851cc7054a",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-25T00:00:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "Treasury's FinCEN takes systems offline after cybersecurity incident",
+     "type": null,
+     "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "us-treasury-department-fincen-cyber-incident",
+   "label": "US Treasury Department FinCEN cyber incident",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a36252851cc7054a"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "The Record"
+     ],
+     "published": "2026-11-25T00:00:00+00:00",
+     "text": "[The Record](https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident) reported that the Treasury Department took some systems offline after a cybersecurity incident that resulted in unauthorized access to a limited set of systems."
+    },
+    {
+     "articles": [
+      "bf08074be63ce364"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "CyberScoop"
+     ],
+     "published": "2026-11-25T13:03:24+00:00",
+     "text": "[CyberScoop](https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/) reported that the filing portal remains operational and deadlines for affected filers have been extended."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US Treasury Department FinCEN cyber incident",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "c5fa1bb39f50fc2f",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-25T11:23:42+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "WalletGuard: A Crypto Phishing Campaign Hosted Entirely on GitHub",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/walletguard-phishing-campaign"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "walletguard-github-crypto-phishing-campaign",
+   "label": "WalletGuard GitHub crypto phishing campaign",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "c5fa1bb39f50fc2f"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-25T11:23:42+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/walletguard-phishing-campaign) reported that WalletGuard is a coordinated, AI-generated phishing campaign hosted and run entirely in GitHub that targeted over 200 open-source projects."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "WalletGuard GitHub crypto phishing campaign",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "10114eb8e4c15ef6",
+     "lang": "en",
+     "outlet": "OpenSourceMalware",
+     "published": "2026-11-25T16:41:00+00:00",
+     "publisher": "OpenSourceMalware",
+     "region": null,
+     "section": "intel",
+     "title": "How a Fake Job Interview Led to the $6.34 Billion Binance Theft",
+     "type": null,
+     "url": "https://opensourcemalware.com/blog/how-a-fake-job-interview-led-to-the-6-34-billion-binance-theft"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "how-a-fake-job-interview-led",
+   "label": "How a Fake Job Interview Led to the $6.34 Billion Binance Theft",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "10114eb8e4c15ef6"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "OpenSourceMalware"
+     ],
+     "published": "2026-11-25T16:41:00+00:00",
+     "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/how-a-fake-job-interview-led-to-the-6-34-billion-binance-theft) reported that North Korea's TraderTraitor used the Contagious Interview playbook in an incident described as a Binance theft."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "How a Fake Job Interview Led to the $6.34 Billion Binance Theft",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-25T13:59:02+00:00"
+ "updated": "2026-11-25T16:43:02+00:00"
 }

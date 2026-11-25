@@ -805,9 +805,9 @@
   {
    "articles": 4160,
    "attached_by_code": 20,
-   "calls": 31,
-   "candidates": 1183,
-   "continuing": 881,
+   "calls": 39,
+   "candidates": 1565,
+   "continuing": 1124,
    "corroborated": 27,
    "date": "2026-11-25",
    "dropped": 1,
@@ -818,20 +818,20 @@
     "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "call 8: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 10,
-   "groups": 3148,
+   "failed_calls": 18,
+   "groups": 3181,
    "in_stories": 1163,
    "kept": 680,
    "merged": 39,
    "new": 87,
    "rejected": 57,
-   "reported_by_2": 184,
-   "runs": 5,
-   "sent": 1163,
+   "reported_by_2": 231,
+   "runs": 6,
+   "sent": 1483,
    "skipped": 46,
    "split_calls": 0,
    "updated": 521,
-   "waiting": 0
+   "waiting": 62
   },
   {
    "articles": 4181,
@@ -215380,7 +215380,8 @@
     "US Army to detonate tonnes of unstable explosives in Iowa despite court order",
     "‘Extremely concerning’: Inside a US Army plan to detonate Iowa lead stores",
     "Trump orders U.S. Army to pause detonation of lead explosives in Iowa",
-    "US Army reschedules detonation of toxic explosives at Iowa ammunition plant"
+    "US Army reschedules detonation of toxic explosives at Iowa ammunition plant",
+    "CDC issues health advisory for Iowa residents ahead of US Army's planned 5-ton chemical explosion"
    ],
    "reports": [
     {
@@ -215852,13 +215853,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "us",
-   "title": "CDC issues health advisory for Iowa residents ahead of US Army's planned 5-ton chemical explosion",
+   "title": "Iowa lead azide detonation: Health officials issue urgent safety advisory ahead of Army’s planned blast",
    "title_from": {
-    "backing": 3,
+    "backing": 4,
     "date": "2026-11-25",
-    "of": 3,
+    "of": 5,
     "outlet": "Hindustan Times",
-    "url": "https://www.hindustantimes.com/world-news/us-news/cdc-issues-health-advisory-for-iowa-residents-ahead-of-us-armys-planned-5-ton-chemical-explosion-101795545395531.html"
+    "url": "https://www.hindustantimes.com/world-news/us-news/iowa-lead-azide-detonation-health-officials-issue-urgent-safety-advisory-ahead-of-army-s-planned-blast-101795572542124.html"
    },
    "topic": "disaster"
   },
@@ -320573,7 +320574,8 @@
    "outlets_today": 10,
    "previous_titles": [
     "Turkish military helicopter crash kills five in western Turkiye",
-    "5 soldiers killed in Turkish military helicopter crash in Eskişehir"
+    "5 soldiers killed in Turkish military helicopter crash in Eskişehir",
+    "Five Turkish soldiers killed in helicopter crash, ministry says"
    ],
    "reports": [
     {
@@ -320621,13 +320623,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "turkey",
-   "title": "Five Turkish soldiers killed in helicopter crash, ministry says",
+   "title": "5 soldiers killed in Turkish military helicopter crash in Eskişehir",
    "title_from": {
     "backing": 9,
     "date": "2026-11-25",
     "of": 9,
-    "outlet": "Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNajhSeXVaY0VYd21jZUY5Vk40RWF6bC1DSFVzZVpucUxKTXVncGxudHNqdG96enFzVC1XWVNLYmJyUVA2TEdvd1JPZkNhbVdZV0laUXV6RmcwSzBuODV4Qkh4SWVjeU9ncnpHYndhM2t4LXlRRGtZcS1qWTY2YWQ4T0c3MWQtQm9BbHVVV3JKS2RubmlGSlNMYW5jQzczSjBPRnJwV2IzdEEtaS0ySWNsaWZSYw?oc=5"
+    "outlet": "Daily Sabah",
+    "url": "https://www.dailysabah.com/politics/5-soldiers-killed-in-turkish-military-helicopter-crash-in-eskisehir/news"
    },
    "topic": "security"
   },
@@ -328318,5 +328320,5 @@
   "7a6a7e8c83609808"
  ],
  "site": "geo",
- "updated": "2026-11-25T14:22:53+00:00"
+ "updated": "2026-11-25T17:01:55+00:00"
 }
