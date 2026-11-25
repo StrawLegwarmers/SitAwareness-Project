@@ -805,9 +805,9 @@
   {
    "articles": 525,
    "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 51,
-   "continuing": 25,
+   "calls": 8,
+   "candidates": 55,
+   "continuing": 26,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 2,
@@ -817,15 +817,15 @@
    ],
    "failed_calls": 2,
    "groups": 473,
-   "in_stories": 55,
-   "kept": 35,
+   "in_stories": 60,
+   "kept": 37,
    "merged": 0,
-   "new": 16,
+   "new": 17,
    "rejected": 2,
    "reported_by_2": 11,
-   "runs": 7,
-   "sent": 51,
-   "skipped": 2,
+   "runs": 8,
+   "sent": 55,
+   "skipped": 3,
    "split_calls": 0,
    "updated": 16,
    "waiting": 0
@@ -1129,7 +1129,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T19:48:32+00:00"
+  "all": "2026-11-25T22:41:52+00:00"
  },
  "narratives": [
   {
@@ -7753,7 +7753,7 @@
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-25",
@@ -7767,6 +7767,19 @@
      "title": "US proposes new tariffs on 14 trading partners, including China, Japan and the EU – business live",
      "type": "international",
      "url": "https://www.theguardian.com/business/live/2026/nov/25/rise-energy-bills-britain-2166-impossible-high-millions-households-stocks-tumble-as-ai-rally-fizzles-live-updates"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "37c8409d9e9515f5",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-25T14:59:44+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Trump proposing new tariffs on 14 partners including China and EU",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe"
     },
     {
      "added": "2026-11-25",
@@ -7795,7 +7808,7 @@
      "url": "https://www.investing.com/news/economy-news/trump-admin-proposes-new-tariffs-on-14-trading-partners-20-on-china--report-5050709"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "us-proposed-tariffs-on-trading-partners",
@@ -8168,9 +8181,109 @@
    "status": "new",
    "title": "SpaceX orbital data center satellites approval",
    "topic": "technology-policy"
+  },
+  {
+   "article_count": 4,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "1211f2341bce99bf",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-25T20:49:00+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed survey shows continued economic growth, sticky inflation in recent weeks",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/fed-survey-shows-continued-growth-and-sticky-inflation-in-recent-weeks-5051371"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "f34890eddbb27741",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-25T20:41:20+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Fed Beige Book shows slight growth, sticky inflation ahead of Dec meeting",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/fed-beige-book-shows-slight-growth-sticky-inflation-ahead-of-dec-meeting-5051430"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "bab8cbd87f41fe76",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-25T20:07:37+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Fed survey shows continued growth and sticky inflation in recent weeks",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-survey-shows-continued-growth-and-sticky-inflation-in-recent-weeks/articleshow/136172166.cms"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "0153e8b2b88c7795",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-25T19:35:50+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures"
+    }
+   ],
+   "articles_today": 4,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "us-federal-reserve-beige-book-survey",
+   "label": "US Federal Reserve Beige Book survey",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "0153e8b2b88c7795",
+      "f34890eddbb27741"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-25T19:35:50+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures), [Investing.com](https://www.investing.com/news/economy-news/fed-beige-book-shows-slight-growth-sticky-inflation-ahead-of-dec-meeting-5051430) reported that the Federal Reserve Beige Book survey showed slight to moderate economic growth and increased wage pressures in recent weeks."
+    },
+    {
+     "articles": [
+      "1211f2341bce99bf",
+      "bab8cbd87f41fe76"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "ET Markets",
+      "Investing.com"
+     ],
+     "published": "2026-11-25T20:07:37+00:00",
+     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/news/fed-survey-shows-continued-growth-and-sticky-inflation-in-recent-weeks/articleshow/136172166.cms), [Investing.com](https://www.investing.com/news/economy-news/fed-survey-shows-continued-growth-and-sticky-inflation-in-recent-weeks-5051371) reported that the Federal survey showed continued economic growth and sticky inflation ahead of the December meeting."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US Federal Reserve Beige Book survey",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-25T19:48:51+00:00"
+ "updated": "2026-11-25T22:43:04+00:00"
 }

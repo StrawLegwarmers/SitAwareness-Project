@@ -605,9 +605,9 @@
   {
    "articles": 237,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 28,
-   "continuing": 11,
+   "calls": 7,
+   "candidates": 30,
+   "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 2,
@@ -616,17 +616,17 @@
    ],
    "failed_calls": 1,
    "groups": 209,
-   "in_stories": 23,
-   "kept": 21,
+   "in_stories": 25,
+   "kept": 22,
    "merged": 0,
    "new": 9,
    "rejected": 1,
    "reported_by_2": 5,
-   "runs": 7,
-   "sent": 28,
+   "runs": 8,
+   "sent": 30,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 5,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -947,11 +947,11 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T19:36:09+00:00"
+  "all": "2026-11-25T22:33:28+00:00"
  },
  "narratives": [
   {
-   "article_count": 21,
+   "article_count": 22,
    "articles": [
     {
      "added": "2026-11-25",
@@ -968,6 +968,19 @@
      "title": "CISA Warns of Drupal Core RCE, Idunno AntiCsrf and Optimizely Flaws Exploited in Attacks",
      "type": null,
      "url": "https://cybersecuritynews.com/drupal-idunno-anticsrf-optimizely-flaws-exploited/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "69eb1b380962fd5c",
+     "lang": "en",
+     "outlet": "CISA Alerts",
+     "published": "2026-11-25T12:00:00+00:00",
+     "publisher": "CISA",
+     "region": null,
+     "section": "intel",
+     "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+     "type": null,
+     "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog"
     },
     {
      "added": "2026-11-25",
@@ -1220,14 +1233,17 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 3,
+   "previous_titles": [
+    "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog"
+   ],
    "reports": [
     {
      "articles": [
@@ -1356,13 +1372,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
+   "title": "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog",
    "title_from": {
     "backing": 2,
-    "date": "2026-11-24",
-    "of": 3,
+    "date": "2026-11-25",
+    "of": 2,
     "outlet": "Security Affairs",
-    "url": "https://securityaffairs.com/203882/hacking/u-s-cisa-adds-n-able-mailassure-and-project-monai-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    "url": "https://securityaffairs.com/203965/uncategorized/u-s-cisa-adds-drupal-core-idunno-anticsrf-and-optimizely-web-experimentation-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
    }
   },
   {
@@ -5443,8 +5459,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "cc07ebb8b32f8ba4",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-25T22:05:09+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
+    },
     {
      "added": "2026-11-25",
      "id": "593c15fdc3a7f2a7",
@@ -5485,15 +5514,27 @@
      "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "palo-alto-networks-fragnesia-flaw-exploitation",
    "label": "Palo Alto Networks Fragnesia flaw exploitation",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "cc07ebb8b32f8ba4"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-25T22:05:09+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/) reported that threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed."
+    },
     {
      "articles": [
       "595b3f9da79d36ad"
@@ -5847,5 +5888,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-25T19:36:44+00:00"
+ "updated": "2026-11-25T22:33:45+00:00"
 }
