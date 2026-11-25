@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 504,
+   "articles": 517,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 10,
-   "continuing": 7,
+   "calls": 3,
+   "candidates": 19,
+   "continuing": 10,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 456,
-   "in_stories": 14,
-   "kept": 11,
+   "groups": 465,
+   "in_stories": 27,
+   "kept": 20,
    "merged": 0,
-   "new": 3,
+   "new": 8,
    "rejected": 0,
-   "reported_by_2": 2,
-   "runs": 2,
-   "sent": 10,
-   "skipped": 0,
+   "reported_by_2": 6,
+   "runs": 3,
+   "sent": 19,
+   "skipped": 1,
    "split_calls": 0,
-   "updated": 6,
+   "updated": 9,
    "waiting": 0
   },
   {
@@ -1125,7 +1125,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T04:49:16+00:00"
+  "all": "2026-11-25T08:09:08+00:00"
  },
  "narratives": [
   {
@@ -1413,8 +1413,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 21,
+   "article_count": 22,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "1053c8f993fb32fc",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-25T07:18:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Fall as Traders Weigh Supply Outlook, Renewed Middle East Tensions",
+     "type": "international",
+     "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-25",
      "id": "ca686cd84ed6f145",
@@ -1689,15 +1702,27 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "1053c8f993fb32fc"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-25T07:18:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198?mod=pls_whats_news_us_business_f) reported that oil prices fell sharply as traders weighed expectations of a global supply surplus ahead of an OPEC+ meeting."
+    },
     {
      "articles": [
       "ca686cd84ed6f145"
@@ -1893,7 +1918,7 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
@@ -5331,8 +5356,21 @@
    "topic": "business"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "c36bfcedf2605e3a",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-25T05:00:22+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "How 156,000 civil service pensions pushed Capita to the brink",
+     "type": "international",
+     "url": "https://www.ft.com/content/faed5022-fed4-4f23-98be-e6a09b3c5820?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-24",
      "id": "850685fd2430026f",
@@ -5373,14 +5411,14 @@
      "url": "https://www.ft.com/content/d5e951e6-b5f6-4286-9de4-495c9a3c2472?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "capita-shares-drop-70-on-cash",
    "label": "Capita shares drop 70% on cash call after civil service pension failures",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -5407,9 +5445,9 @@
      "text": "[BBC](https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo?at_medium=RSS&at_campaign=rss) reported that public sector workers were hit by delays to pension payments in a scheme overseen by Capita since last year."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Capita shares drop 70% on cash call after civil service pension failures",
    "topic": "business"
   },
@@ -6608,8 +6646,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "35bc68bf33d7bb47",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-25T04:54:23+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Shein to pay US$100 million to settle US shipping, customer service claims",
+     "type": "regional",
+     "url": "https://www.scmp.com/tech/article/3375701/shein-pay-us100-million-settle-us-shipping-customer-service-claims"
+    },
     {
      "added": "2026-11-24",
      "id": "ab460803a4cf3175",
@@ -6637,14 +6688,14 @@
      "url": "https://www.investing.com/news/stock-market-news/shein-to-pay-100-million-to-settle-us-claims-ftc-official-says-5048743"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "shein-ftc-settlement",
    "label": "Shein FTC settlement",
    "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6671,9 +6722,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/shein-to-pay-100-million-to-settle-us-claims-ftc-official-says-5048743) reported that Shein will pay $100 million to settle US shipping and customer service claims."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Shein FTC settlement",
    "topic": "business"
   },
@@ -7041,9 +7092,339 @@
    "status": "new",
    "title": "Starbucks Japan business sale",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "5d53cb4b3d0456d6",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-25T06:47:48+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "BYD eyes a second European plant, enters talks with Ineos over a French assembly",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "fa290846c9483874",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-24T15:14:22+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Ratcliffe’s Ineos in talks to sell French car plant to BYD in US production shift",
+     "type": "international",
+     "url": "https://www.ft.com/content/a175e762-4114-42e0-8d97-3631a26fb66b?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "ineos-and-byd-plant-talks",
+   "label": "Ineos and BYD plant talks",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "fa290846c9483874"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-24T15:14:22+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/a175e762-4114-42e0-8d97-3631a26fb66b?syn-25a6b1a6=1) reported that Ratcliffe's Ineos is in talks to sell a French car plant to BYD in a US production shift."
+    },
+    {
+     "articles": [
+      "5d53cb4b3d0456d6"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-25T06:47:48+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/china-evs/article/3375711/byd-eyes-second-european-plant-enters-talks-ineos-over-french-assembly-france) reported that BYD entered exclusive talks to take over an assembly from Ineos Automotive."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Ineos and BYD plant talks",
+   "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "1e6577ee239f3eb5",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-25T07:58:42+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "British household energy bills to soar 26% from January",
+     "type": "international",
+     "url": "https://www.ft.com/content/e9dea6f2-dcf8-4ec5-96ec-0415694bf897?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "dac6148d6f42579f",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-25T00:29:58+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Households braced for soaring energy bills with new price cap to be announced",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "households-braced-for-soaring-energy-bills",
+   "label": "Households braced for soaring energy bills with new price cap to be announced",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "dac6148d6f42579f"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "BBC"
+     ],
+     "published": "2026-11-25T00:29:58+00:00",
+     "text": "[BBC](https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss) reported that domestic gas prices will rise significantly in January under regulator Ofgem's new price cap."
+    },
+    {
+     "articles": [
+      "1e6577ee239f3eb5"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-25T07:58:42+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/e9dea6f2-dcf8-4ec5-96ec-0415694bf897?syn-25a6b1a6=1) reported that British household energy bills will soar 26% from January according to regulator Ofgem."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Households braced for soaring energy bills with new price cap to be announced",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "267a169b5081c5da",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-25T06:45:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Goldman Sachs Sees U.S. Natural Gas Demand Surging on Data Center Boom",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-US-Natural-Gas-Demand-Surging-on-Data-Center-Boom.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "d319e0e587b0f4f3",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-25T03:30:36+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Goldman says US data center boom through 2028 will lift power and gas demand",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "goldman-sachs-natural-gas-demand-forecast",
+   "label": "Goldman Sachs natural gas demand forecast",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "267a169b5081c5da",
+      "d319e0e587b0f4f3"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-25T03:30:36+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/goldman-says-us-data-center-boom-through-2028-will-lift-power-and-gas-demand-5049616), [Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Goldman-Sachs-Sees-US-Natural-Gas-Demand-Surging-on-Data-Center-Boom.html) reported that Goldman Sachs forecast the US data center boom through 2028 will lift power and natural gas demand."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Goldman Sachs natural gas demand forecast",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "1681c2f4c46130ab",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-25T07:18:41+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "EasyJet posts annual profit miss on fuel costs ahead of Apollo takeover",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/easyjet-posts-annual-profit-miss-on-fuel-costs-ahead-of-apollo-takeover-5049859"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "b556ea0471beef2e",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-25T07:16:22+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "EasyJet Profit Hit By Iran War as Apollo Takeover Looms",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-25/easyjet-profit-hit-by-middle-east-war-as-apollo-takeover-looms"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "easyjet-annual-profit-and-apollo-takeover",
+   "label": "EasyJet annual profit and Apollo takeover",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "b556ea0471beef2e"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-25T07:16:22+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-25/easyjet-profit-hit-by-middle-east-war-as-apollo-takeover-looms) reported that EasyJet said the fallout from the Middle East war eroded most of its profit in the fiscal year."
+    },
+    {
+     "articles": [
+      "1681c2f4c46130ab"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-25T07:18:41+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/easyjet-posts-annual-profit-miss-on-fuel-costs-ahead-of-apollo-takeover-5049859) reported that EasyJet posted an annual profit miss on fuel costs ahead of an Apollo takeover."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "EasyJet annual profit and Apollo takeover",
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "1e8790c912709d16",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-25T07:44:24+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Treasury yields fall as investors await key inflation signal",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "0c95e47da40a6515",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-25T07:44:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "U.S. Treasury Yields Fall Ahead of PCE Inflation Data",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995?mod=rss_markets_main"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "us-treasury-yields-movement",
+   "label": "US Treasury yields movement",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0c95e47da40a6515",
+      "1e8790c912709d16"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "CNBC"
+     ],
+     "published": "2026-11-25T07:44:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995?mod=rss_markets_main), [CNBC](https://www.cnbc.com/2026/11/25/treasury-yields-bonds-inflation.html) reported that US Treasury yields fell as investors awaited October personal consumption expenditures inflation data and spending data."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US Treasury yields movement",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-25T04:49:34+00:00"
+ "updated": "2026-11-25T08:09:30+00:00"
 }

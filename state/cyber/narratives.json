@@ -603,27 +603,27 @@
  ],
  "coverage": [
   {
-   "articles": 191,
+   "articles": 199,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 2,
-   "continuing": 1,
+   "calls": 2,
+   "candidates": 5,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-25",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
-   "groups": 154,
-   "in_stories": 3,
-   "kept": 2,
+   "groups": 162,
+   "in_stories": 6,
+   "kept": 5,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 1,
-   "reported_by_2": 1,
-   "runs": 2,
-   "sent": 2,
+   "reported_by_2": 2,
+   "runs": 3,
+   "sent": 5,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -944,7 +944,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T04:44:08+00:00"
+  "all": "2026-11-25T08:04:28+00:00"
  },
  "narratives": [
   {
@@ -3768,8 +3768,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "197f2cfaaafa5620",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-25T07:22:32+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Exploited: Abandoned Idunno.AntiCsrf library opens legacy ASP.NET apps to RCE (CVE-2026-131914)",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/"
+    },
     {
      "added": "2026-11-24",
      "id": "20609878ecb24cce",
@@ -3813,15 +3826,27 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "idunno-anticsrf-library-vulnerability",
    "label": "Idunno.AntiCsrf library vulnerability",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "197f2cfaaafa5620"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-25T07:22:32+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/25/idunno-anticsrf-rce-cve-2026-131914-exploited/) reported that the US Cybersecurity and Infrastructure Security Agency added CVE-2026-132224 to its Known Exploited Vulnerabilities catalog."
+    },
     {
      "articles": [
       "20609878ecb24cce"
@@ -3859,9 +3884,9 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/asp-net-anticsrf-flaw-under-attack/) reported that attackers are exploiting a critical flaw in Idunno.AntiCsrf, a third-party library used by older ASP.NET WebForms applications, and Mandiant confirmed active exploitation."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Idunno.AntiCsrf library vulnerability",
    "topic": "cyber"
   },
@@ -5172,9 +5197,79 @@
    "status": "new",
    "title": "NGINX HTTP/2 vulnerability",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "db09a0b39218d867",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-25T06:50:19+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "1d0ba397ab70992e",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-24T16:15:23+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Hackers compromise Check Point Servers in 22 organizations",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "check-point-servers-compromise",
+   "label": "Check Point servers compromise",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1d0ba397ab70992e"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-24T16:15:23+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/) reported that threat actors exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers."
+    },
+    {
+     "articles": [
+      "db09a0b39218d867"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-25T06:50:19+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html) reported that an unknown threat actor used artificial intelligence-driven offensive tooling in a campaign targeting Check Point Security Management servers."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Check Point servers compromise",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-25T04:44:09+00:00"
+ "updated": "2026-11-25T08:04:45+00:00"
 }
