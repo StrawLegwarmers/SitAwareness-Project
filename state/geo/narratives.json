@@ -805,26 +805,29 @@
   {
    "articles": 4160,
    "attached_by_code": 20,
-   "calls": 23,
-   "candidates": 893,
-   "continuing": 702,
+   "calls": 31,
+   "candidates": 1183,
+   "continuing": 881,
    "corroborated": 27,
    "date": "2026-11-25",
    "dropped": 1,
    "errors": [
-    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "call 2: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+    "call 4: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 5: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 6: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 7: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "call 8: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
    ],
-   "failed_calls": 2,
+   "failed_calls": 10,
    "groups": 3148,
    "in_stories": 1163,
    "kept": 680,
-   "merged": 37,
+   "merged": 39,
    "new": 87,
    "rejected": 57,
-   "reported_by_2": 115,
-   "runs": 4,
-   "sent": 873,
+   "reported_by_2": 184,
+   "runs": 5,
+   "sent": 1163,
    "skipped": 46,
    "split_calls": 0,
    "updated": 521,
@@ -3845,7 +3848,8 @@
     "Israel government formation: Eisenkot's Yashar party reaches out to Netanyahu's camp for coalition talks",
     "Gadi Eisenkot invites Netanyahu's Likud party for 'marathon' coalition talks",
     "Israel's coalition talks stall as Netanyahu, Eisenkot clash over premiership",
-    "Netanyahu, Eisenkot parties end talks without deal on forming Israel governmentt"
+    "Netanyahu, Eisenkot parties end talks without deal on forming Israel governmentt",
+    "Israel’s Eisenkot secures first coalition partner in bid to form government"
    ],
    "reports": [
     {
@@ -4407,13 +4411,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "israel",
-   "title": "Israel’s Eisenkot secures first coalition partner in bid to form government",
+   "title": "Israel's Democrats party pauses coalition talks with Eisenkot's bloc",
    "title_from": {
-    "backing": 4,
+    "backing": 9,
     "date": "2026-11-25",
-    "of": 4,
-    "outlet": "Al Jazeera",
-    "url": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government?traffic_source=rss"
+    "of": 9,
+    "outlet": "Hindustan Times",
+    "url": "https://www.hindustantimes.com/world-news/israels-democrats-party-pauses-coalition-talks-with-gadi-eisenkots-bloc-yair-golan-101795557258994.html"
    }
   },
   {
@@ -8589,7 +8593,6 @@
    ],
    "outlets_today": 30,
    "previous_titles": [
-    "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
     "Jensen Huang receives support from allies after Nvidia exit: Here's what they have told him",
     "Alice Huang and her husband’s close associate Li Ming routed Nvidia chips to China: Report",
     "Alice Huang in touch with Chinese spy agency during affair with Nvidia CEO, NYT",
@@ -8598,7 +8601,8 @@
     "Nvidia Stock Surges Over 31% As Board Reinstates Jensen Huang With White House Backing",
     "Nvidia Stocks Surge over 30%, Gains Record $952bn as Board Reinstates Jensen Huang as CEO",
     "Why Trump's move to get Jensen Huang reinstated as Nvidia CEO won't end the questions",
-    "Jensen Huang denies Trump’s role in his return as Nvidia CEO: Report"
+    "Jensen Huang denies Trump’s role in his return as Nvidia CEO: Report",
+    "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’"
    ],
    "reports": [
     {
@@ -9126,13 +9130,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "us",
-   "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
+   "title": "Jensen Huang denies Trump’s role in his return as Nvidia CEO: Report",
    "title_from": {
-    "backing": 17,
+    "backing": 20,
     "date": "2026-11-25",
     "of": 23,
-    "outlet": "The Guardian",
-    "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff"
+    "outlet": "Hindustan Times",
+    "url": "https://www.hindustantimes.com/world-news/us-news/jensen-huang-admits-code-of-conduct-violations-and-apologizes-to-nvidia-employees-after-ceo-return-i-made-some-terrible-mistakes-101795566283156.html"
    }
   },
   {
@@ -119113,7 +119117,7 @@
    "topic": "politics"
   },
   {
-   "article_count": 56,
+   "article_count": 62,
    "articles": [
     {
      "added": "2026-11-25",
@@ -119467,6 +119471,84 @@
      "url": "https://www.nytimes.com/2026/11/24/world/europe/harry-meghan-royal-family-uk.html"
     },
     {
+     "added": "2026-11-24",
+     "id": "f61e0f578c6b1f65",
+     "lang": "en",
+     "outlet": "The Hindu (World)",
+     "published": "2026-11-24T04:40:14+00:00",
+     "publisher": "The Hindu (World)",
+     "region": "asia",
+     "section": null,
+     "title": "Elon Musk’s companies sued by U.S. states over flood of sexualised images made with Grok AI",
+     "type": "local",
+     "url": "https://www.thehindu.com/sci-tech/technology/elon-musks-companies-sued-by-us-states-over-flood-of-sexualised-images-made-with-grok-ai/article71737074.ece"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "c638e0af395d7a62",
+     "lang": "en",
+     "outlet": "South China Morning Post",
+     "published": "2026-11-23T22:26:15+00:00",
+     "publisher": "South China Morning Post",
+     "region": "asia",
+     "section": null,
+     "title": "US states sue Musk companies over flood of sexualised images made with AI chatbot Grok",
+     "type": "regional",
+     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375532/us-states-sue-musk-companies-over-flood-sexualised-images-made-ai-chatbot-grok"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "5a7a4b24cfed545d",
+     "lang": "en",
+     "outlet": "Al Jazeera",
+     "published": "2026-11-23T21:15:33+00:00",
+     "publisher": "Al Jazeera",
+     "region": "global",
+     "section": null,
+     "title": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
+     "type": "international",
+     "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "85e618cdb6f8c995",
+     "lang": "en",
+     "outlet": "The Independent World",
+     "published": "2026-11-23T16:37:25+00:00",
+     "publisher": "The Independent World",
+     "region": "global",
+     "section": null,
+     "title": "Elon Musk companies sued over AI Grok profiting from child abuse images and explicit content",
+     "type": "international",
+     "url": "https://www.independent.co.uk/news/world/americas/elon-musk-grok-sued-child-sexual-abuse-ai-b3090098.html"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "fa73afa85ffd283a",
+     "lang": "en",
+     "outlet": "The Express Tribune",
+     "published": "2026-11-23T14:21:03+00:00",
+     "publisher": "The Express Tribune",
+     "region": "asia",
+     "section": null,
+     "title": "Virginia, Oregon sue Musk's SpaceX over Grok AI's creation of child sexual abuse images",
+     "type": "local",
+     "url": "https://tribune.com.pk/story/2641919/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-of-child-sexual-abuse-images"
+    },
+    {
+     "added": "2026-11-23",
+     "id": "b0a385857ff2f5d1",
+     "lang": "en",
+     "outlet": "AP News",
+     "published": "2026-11-23T13:44:00+00:00",
+     "publisher": "Associated Press",
+     "region": "global",
+     "section": null,
+     "title": "Sexual images from Elon Musk’s AI chatbot harmed consumers, AGs argue",
+     "type": "wire",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORmt4N1d4MGFnXzJiOXBseVl4SExXOGZ4YkVoXzdMV0RCd1dnMHc5RWpJNTNCOTFxb2VSa3I1M19rZnRYaG4zOTZHZWtoQmRyc2RIdURGUEFnRWlaZkhSNi1aTXQyRmpQaGc4aHptWnRoTmQ1M3dIQlZrRDhIck8zQm1TNmdmUVdOVTg2SmJLdTlLbk1oMDZUdDFxTHFPbWc?oc=5"
+    },
+    {
      "added": "2026-11-23",
      "id": "09dbe458b1710cf2",
      "lang": "en",
@@ -119556,87 +119638,6 @@
      "title": "Thomas Markle faces mental competency hearing in US criminal case",
      "type": "international",
      "url": "https://www.independent.co.uk/news/world/americas/crime/thomas-markle-hearing-mental-competency-florida-b3087970.html"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "d86eeb741aee8517",
-     "lang": "en",
-     "outlet": "AP News",
-     "published": "2026-11-19T05:10:00+00:00",
-     "publisher": "Associated Press",
-     "region": "global",
-     "section": null,
-     "title": "Mental competency at issue in US criminal case against Meghan’s father",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVlZOam9mNDQ3bF9PTUdjclZQU1RaeEVPVXFVUjZHS0RrRlEtN0NWX0FZMW1ZbW16aThraElZUENGamVlbHJrQ2I4eVFhVE1ZMzdOMjVPSXpWclp5TlZmcEM4TWlHRlpvS2ZERmY4RWdCVTdxT01fNjhuYVZoLXNrQVBpZ2JaVllhLTFuOTZUajFyZw?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "a7f4460fe2cd236e",
-     "lang": "en",
-     "outlet": "The Independent World",
-     "published": "2026-11-18T22:10:18+00:00",
-     "publisher": "The Independent World",
-     "region": "global",
-     "section": null,
-     "title": "UK's Prince Harry sees 'big separation' between US administration, public on support for Ukraine",
-     "type": "international",
-     "url": "https://www.independent.co.uk/news/world/americas/ukraine-russia-california-british-army-london-b3087564.html"
-    },
-    {
-     "added": "2026-11-18",
-     "dates": [
-      "2026-11-06"
-     ],
-     "id": "de103133758fa631",
-     "lang": "es",
-     "outlet": "El Universal (Mexico)",
-     "published": "2026-11-18T21:39:20+00:00",
-     "publisher": "El Universal (Mexico)",
-     "region": "latam",
-     "section": null,
-     "title": "Corte de EU fija para este jueves nueva audiencia del padre de Meghan Markle; se determinará su capacidad mental",
-     "type": "local",
-     "url": "https://www.eluniversal.com.mx/mundo/corte-de-eu-fija-para-este-jueves-nueva-audiencia-del-padre-de-meghan-markle-se-determinara-su-capacidad-mental/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "f268f091b43baaf1",
-     "lang": "es",
-     "outlet": "El Sol de México",
-     "published": "2026-11-18T17:03:18+00:00",
-     "publisher": "El Sol de México",
-     "region": "latam",
-     "section": null,
-     "title": "Corte de EU fija para este jueves una nueva audiencia para el padre de Meghan Markle",
-     "type": "local",
-     "url": "https://oem.com.mx/elsoldemexico/mundo/corte-de-eu-fija-para-este-jueves-una-nueva-audiencia-para-el-padre-de-meghan-markle-33198640"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "9a406b4ad324c407",
-     "lang": "en",
-     "outlet": "Ukrinform",
-     "published": "2026-11-18T02:25:00+00:00",
-     "publisher": "Ukrinform",
-     "region": "europe",
-     "section": null,
-     "title": "Prince Harry presented with book 'Unbreakable Kherson' during visit to Ukraine",
-     "type": "local",
-     "url": "https://www.ukrinform.net/rubric-society/4185733-prince-harry-presented-with-book-unbreakable-kherson-during-visit-to-ukraine.html"
-    },
-    {
-     "added": "2026-11-16",
-     "id": "b195d12288b6be5d",
-     "lang": "en",
-     "outlet": "Ukrainska Pravda",
-     "published": "2026-11-16T17:58:00+00:00",
-     "publisher": "Ukrainska Pravda",
-     "region": "europe",
-     "section": null,
-     "title": "\"I've seen your face in the news!\": Prince Harry meets Ukrainian soldier evacuated from his position by drone – video",
-     "type": "local",
-     "url": "https://www.pravda.com.ua/eng/news/2026/11/16/8063156/"
     }
    ],
    "articles_today": 26,
@@ -119648,7 +119649,8 @@
    "last_updated": "2026-11-25",
    "merged": [
     "thomas-markle-us-court-hearing",
-    "thomas-markle-legal-and-medical-case"
+    "thomas-markle-legal-and-medical-case",
+    "us-states-lawsuit-against-spacex-grok"
    ],
    "outlets_today": 24,
    "previous_titles": [
@@ -119784,6 +119786,18 @@
     },
     {
      "articles": [
+      "f61e0f578c6b1f65"
+     ],
+     "date": "2026-11-24",
+     "group": "namerica",
+     "outlets": [
+      "The Hindu (World)"
+     ],
+     "published": "2026-11-24T04:40:14+00:00",
+     "text": "[The Hindu (World)](https://www.thehindu.com/sci-tech/technology/elon-musks-companies-sued-by-us-states-over-flood-of-sexualised-images-made-with-grok-ai/article71737074.ece) reported that two Democratic attorneys general filed lawsuits against Elon Musk's companies over the Grok AI chatbot's ability to generate sexualized images."
+    },
+    {
+     "articles": [
       "95c94a22eabb0e39"
      ],
      "date": "2026-11-24",
@@ -119793,6 +119807,30 @@
      ],
      "published": "2026-11-24T10:02:08+00:00",
      "text": "[New York Times](https://www.nytimes.com/2026/11/24/world/europe/harry-meghan-royal-family-uk.html) reported that the Sussexes are back in the UK arranging a program of public appearances."
+    },
+    {
+     "articles": [
+      "85e618cdb6f8c995"
+     ],
+     "date": "2026-11-23",
+     "group": "namerica",
+     "outlets": [
+      "The Independent World"
+     ],
+     "published": "2026-11-23T16:37:25+00:00",
+     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/elon-musk-grok-sued-child-sexual-abuse-ai-b3090098.html) reported that Elon Musk's companies were sued over the AI Grok profiting from child abuse images and explicit content."
+    },
+    {
+     "articles": [
+      "5a7a4b24cfed545d"
+     ],
+     "date": "2026-11-23",
+     "group": "namerica",
+     "outlets": [
+      "Al Jazeera"
+     ],
+     "published": "2026-11-23T21:15:33+00:00",
+     "text": "[Al Jazeera](https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss) reported that Virginia and Oregon filed separate lawsuits accusing SpaceX of promoting Grok's spicy mode."
     },
     {
      "articles": [
@@ -288816,148 +288854,6 @@
    "topic": "diplomacy"
   },
   {
-   "article_count": 6,
-   "articles": [
-    {
-     "added": "2026-11-24",
-     "id": "f61e0f578c6b1f65",
-     "lang": "en",
-     "outlet": "The Hindu (World)",
-     "published": "2026-11-24T04:40:14+00:00",
-     "publisher": "The Hindu (World)",
-     "region": "asia",
-     "section": null,
-     "title": "Elon Musk’s companies sued by U.S. states over flood of sexualised images made with Grok AI",
-     "type": "local",
-     "url": "https://www.thehindu.com/sci-tech/technology/elon-musks-companies-sued-by-us-states-over-flood-of-sexualised-images-made-with-grok-ai/article71737074.ece"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "c638e0af395d7a62",
-     "lang": "en",
-     "outlet": "South China Morning Post",
-     "published": "2026-11-23T22:26:15+00:00",
-     "publisher": "South China Morning Post",
-     "region": "asia",
-     "section": null,
-     "title": "US states sue Musk companies over flood of sexualised images made with AI chatbot Grok",
-     "type": "regional",
-     "url": "https://www.scmp.com/news/world/united-states-canada/article/3375532/us-states-sue-musk-companies-over-flood-sexualised-images-made-ai-chatbot-grok"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "5a7a4b24cfed545d",
-     "lang": "en",
-     "outlet": "Al Jazeera",
-     "published": "2026-11-23T21:15:33+00:00",
-     "publisher": "Al Jazeera",
-     "region": "global",
-     "section": null,
-     "title": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
-     "type": "international",
-     "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "85e618cdb6f8c995",
-     "lang": "en",
-     "outlet": "The Independent World",
-     "published": "2026-11-23T16:37:25+00:00",
-     "publisher": "The Independent World",
-     "region": "global",
-     "section": null,
-     "title": "Elon Musk companies sued over AI Grok profiting from child abuse images and explicit content",
-     "type": "international",
-     "url": "https://www.independent.co.uk/news/world/americas/elon-musk-grok-sued-child-sexual-abuse-ai-b3090098.html"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "fa73afa85ffd283a",
-     "lang": "en",
-     "outlet": "The Express Tribune",
-     "published": "2026-11-23T14:21:03+00:00",
-     "publisher": "The Express Tribune",
-     "region": "asia",
-     "section": null,
-     "title": "Virginia, Oregon sue Musk's SpaceX over Grok AI's creation of child sexual abuse images",
-     "type": "local",
-     "url": "https://tribune.com.pk/story/2641919/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-of-child-sexual-abuse-images"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "b0a385857ff2f5d1",
-     "lang": "en",
-     "outlet": "AP News",
-     "published": "2026-11-23T13:44:00+00:00",
-     "publisher": "Associated Press",
-     "region": "global",
-     "section": null,
-     "title": "Sexual images from Elon Musk’s AI chatbot harmed consumers, AGs argue",
-     "type": "wire",
-     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORmt4N1d4MGFnXzJiOXBseVl4SExXOGZ4YkVoXzdMV0RCd1dnMHc5RWpJNTNCOTFxb2VSa3I1M19rZnRYaG4zOTZHZWtoQmRyc2RIdURGUEFnRWlaZkhSNi1aTXQyRmpQaGc4aHptWnRoTmQ1M3dIQlZrRDhIck8zQm1TNmdmUVdOVTg2SmJLdTlLbk1oMDZUdDFxTHFPbWc?oc=5"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "namerica",
-   "id": "us-states-lawsuit-against-spacex-grok",
-   "label": "US states lawsuit against SpaceX Grok AI",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "f61e0f578c6b1f65"
-     ],
-     "date": "2026-11-24",
-     "group": "namerica",
-     "outlets": [
-      "The Hindu (World)"
-     ],
-     "published": "2026-11-24T04:40:14+00:00",
-     "text": "[The Hindu (World)](https://www.thehindu.com/sci-tech/technology/elon-musks-companies-sued-by-us-states-over-flood-of-sexualised-images-made-with-grok-ai/article71737074.ece) reported that two Democratic attorneys general filed lawsuits against Elon Musk's companies over the Grok AI chatbot's ability to generate sexualized images."
-    },
-    {
-     "articles": [
-      "85e618cdb6f8c995"
-     ],
-     "date": "2026-11-23",
-     "group": "namerica",
-     "outlets": [
-      "The Independent World"
-     ],
-     "published": "2026-11-23T16:37:25+00:00",
-     "text": "[The Independent World](https://www.independent.co.uk/news/world/americas/elon-musk-grok-sued-child-sexual-abuse-ai-b3090098.html) reported that Elon Musk's companies were sued over the AI Grok profiting from child abuse images and explicit content."
-    },
-    {
-     "articles": [
-      "5a7a4b24cfed545d"
-     ],
-     "date": "2026-11-23",
-     "group": "namerica",
-     "outlets": [
-      "Al Jazeera"
-     ],
-     "published": "2026-11-23T21:15:33+00:00",
-     "text": "[Al Jazeera](https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss) reported that Virginia and Oregon filed separate lawsuits accusing SpaceX of promoting Grok's spicy mode."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "subject": "us",
-   "title": "Elon Musk companies sued over AI Grok profiting from child abuse images and explicit content",
-   "title_from": {
-    "backing": 4,
-    "date": "2026-11-23",
-    "of": 4,
-    "outlet": "The Independent World",
-    "url": "https://www.independent.co.uk/news/world/americas/elon-musk-grok-sued-child-sexual-abuse-ai-b3090098.html"
-   },
-   "topic": "technology-policy"
-  },
-  {
    "article_count": 4,
    "articles": [
     {
@@ -299625,7 +299521,8 @@
    "last_updated": "2026-11-25",
    "outlets_today": 4,
    "previous_titles": [
-    "Israeli court weighs extending detention of Palestinian student without trial"
+    "Israeli court weighs extending detention of Palestinian student without trial",
+    "Palestinian student’s detention without charge prompts Jerusalem protests"
    ],
    "reports": [
     {
@@ -299719,13 +299616,13 @@
    "state_media_only_today": false,
    "status": "updated",
    "subject": "israel",
-   "title": "Palestinian student’s detention without charge prompts Jerusalem protests",
+   "title": "Palestinian student’s detention without trial prompts protests in Jerusalem",
    "title_from": {
     "backing": 2,
     "date": "2026-11-25",
     "of": 3,
-    "outlet": "ABC Australia",
-    "url": "https://www.abc.net.au/news/2026-11-25/protesters-demand-release-of-palestinian-student-activist/107424896"
+    "outlet": "Pakistan Observer",
+    "url": "https://pakobserver.net/palestinian-students-detention-without-trial-prompts-protests-in-jerusalem/"
    },
    "topic": "justice"
   },
@@ -314451,7 +314348,7 @@
    "topic": "security"
   },
   {
-   "article_count": 17,
+   "article_count": 19,
    "articles": [
     {
      "added": "2026-11-25",
@@ -314478,6 +314375,19 @@
      "title": "Court nullifies Omo-Agege’s NDC Senatorial candidacy, directs INEC to remove his name",
      "type": "local",
      "url": "https://thechronicle.com.gh/court-nullifies-omo-ageges-ndc-senatorial-candidacy-directs-inec-to-remove-his-name/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "86a000db067a7314",
+     "lang": "en",
+     "outlet": "The Authority (Nigeria)",
+     "published": "2026-11-25T04:31:58+00:00",
+     "publisher": "The Authority (Nigeria)",
+     "region": "africa",
+     "section": null,
+     "title": "NDC boycotts IGP’s security meeting, accuses police of failing to protect members",
+     "type": "local",
+     "url": "https://authorityngr.com/2026/11/25/ndc-boycotts-igps-security-meeting-accuses-police-of-failing-to-protect-members/"
     },
     {
      "added": "2026-11-24",
@@ -314569,6 +314479,19 @@
      "title": "2027: Omo-Agege speaks on court judgement nullifying his NDC senatorial ticket",
      "type": "local",
      "url": "https://www.premiumtimesng.com/regional/south-south-regional/927726-2027-omo-agege-speaks-on-court-judgement-nullifying-his-ndc-senatorial-ticket.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "76bddbfe48d19306",
+     "lang": "en",
+     "outlet": "Premium Times",
+     "published": "2026-11-24T17:53:42+00:00",
+     "publisher": "Premium Times",
+     "region": "africa",
+     "section": null,
+     "title": "NDC boycotts IGP’s security meeting over attacks on members",
+     "type": "local",
+     "url": "https://www.premiumtimesng.com/regional/south-south-regional/927725-ndc-boycotts-igps-security-meeting-over-attacks-on-members.html"
     },
     {
      "added": "2026-11-25",
@@ -314675,7 +314598,7 @@
      "url": "https://www.vanguardngr.com/2026/11/court-sacks-omo-agege-as-ndc-senatorial-candidate-orders-inec-to-delist-him/"
     }
    ],
-   "articles_today": 14,
+   "articles_today": 16,
    "first_seen": "2026-11-24",
    "group": "africa",
    "id": "omo-agege-candidacy-nullification-appeal",
@@ -314683,13 +314606,28 @@
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
    "merged": [
-    "nigeria-court-rulings-on-2027-candidacies"
+    "nigeria-court-rulings-on-2027-candidacies",
+    "ndc-security-meeting-boycott"
    ],
    "outlets_today": 9,
    "previous_titles": [
     "Omo-Agege rejects Warri judgment, heads to Appeal Court, says ruling defies facts, law and logic"
    ],
    "reports": [
+    {
+     "articles": [
+      "76bddbfe48d19306",
+      "86a000db067a7314"
+     ],
+     "date": "2026-11-25",
+     "group": "africa",
+     "outlets": [
+      "Premium Times",
+      "The Authority (Nigeria)"
+     ],
+     "published": "2026-11-24T17:53:42+00:00",
+     "text": "[Premium Times](https://www.premiumtimesng.com/regional/south-south-regional/927725-ndc-boycotts-igps-security-meeting-over-attacks-on-members.html), [The Authority (Nigeria)](https://authorityngr.com/2026/11/25/ndc-boycotts-igps-security-meeting-accuses-police-of-failing-to-protect-members/) reported that the Nigeria Democratic Congress boycotted a security meeting called by the Inspector-General of Police over safety concerns for its members."
+    },
     {
      "articles": [
       "76dc7093488b6917"
@@ -325556,67 +325494,6 @@
    "articles": [
     {
      "added": "2026-11-25",
-     "id": "86a000db067a7314",
-     "lang": "en",
-     "outlet": "The Authority (Nigeria)",
-     "published": "2026-11-25T04:31:58+00:00",
-     "publisher": "The Authority (Nigeria)",
-     "region": "africa",
-     "section": null,
-     "title": "NDC boycotts IGP’s security meeting, accuses police of failing to protect members",
-     "type": "local",
-     "url": "https://authorityngr.com/2026/11/25/ndc-boycotts-igps-security-meeting-accuses-police-of-failing-to-protect-members/"
-    },
-    {
-     "added": "2026-11-25",
-     "id": "76bddbfe48d19306",
-     "lang": "en",
-     "outlet": "Premium Times",
-     "published": "2026-11-24T17:53:42+00:00",
-     "publisher": "Premium Times",
-     "region": "africa",
-     "section": null,
-     "title": "NDC boycotts IGP’s security meeting over attacks on members",
-     "type": "local",
-     "url": "https://www.premiumtimesng.com/regional/south-south-regional/927725-ndc-boycotts-igps-security-meeting-over-attacks-on-members.html"
-    }
-   ],
-   "articles_today": 2,
-   "first_seen": "2026-11-25",
-   "group": "africa",
-   "id": "ndc-security-meeting-boycott",
-   "label": "NDC security meeting boycott",
-   "last_reported": "2026-11-25",
-   "last_updated": "2026-11-25",
-   "outlets_today": 2,
-   "reports": [
-    {
-     "articles": [
-      "76bddbfe48d19306",
-      "86a000db067a7314"
-     ],
-     "date": "2026-11-25",
-     "group": "africa",
-     "outlets": [
-      "Premium Times",
-      "The Authority (Nigeria)"
-     ],
-     "published": "2026-11-24T17:53:42+00:00",
-     "text": "[Premium Times](https://www.premiumtimesng.com/regional/south-south-regional/927725-ndc-boycotts-igps-security-meeting-over-attacks-on-members.html), [The Authority (Nigeria)](https://authorityngr.com/2026/11/25/ndc-boycotts-igps-security-meeting-accuses-police-of-failing-to-protect-members/) reported that the Nigeria Democratic Congress boycotted a security meeting called by the Inspector-General of Police over safety concerns for its members."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "subject": "nigeria",
-   "title": "NDC security meeting boycott",
-   "topic": "politics"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-25",
      "id": "7c3869f3d9f11619",
      "lang": "en",
      "outlet": "Hindustan Times",
@@ -328441,5 +328318,5 @@
   "7a6a7e8c83609808"
  ],
  "site": "geo",
- "updated": "2026-11-25T10:47:23+00:00"
+ "updated": "2026-11-25T14:22:53+00:00"
 }

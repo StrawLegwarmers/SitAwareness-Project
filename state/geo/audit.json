@@ -3257,90 +3257,18 @@
  },
  {
   "date": "2026-11-25",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Оригиналната продукция от Уест Енд на мюзикълa MAMMA MIA! идва в София през 2027 г.",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-25",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Israel’s Eisenkot secures first coalition partner in bid to form government",
-  "text": "[39] reported that Gadi Eisenkot has until December 6 to form a government under a 28-day mandate, though he could ask for a 14-day extension.",
-  "reason": "names not in cited articles: Gadi"
- },
- {
-  "date": "2026-11-25",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Egypt Gold Prices and Dollar Decline",
-  "text": "[25] reported that global gold prices declined amid a stronger US dollar and renewed selling pressure in precious metals markets.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-25",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Serbia National Assembly disruption",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Vučić: Učestvujemo u delegacijama da bi branili suverenitet i teritorijalni inte"
- },
- {
-  "date": "2026-11-25",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Serbia National Assembly disruption",
-  "text": "[35] reported that parliamentary group leader Aleksandar Vučić stated that participation in delegations is intended to defend sovereignty and territorial integrity.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-25",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Afghanistan dengue fever surge",
-  "text": "[23] reported that Médecins Sans Frontières reported a 28 percent increase in child malnutrition cases in Afghanistan.",
-  "reason": "names not in cited articles: Frontières, Médecins, Sans"
- },
- {
-  "date": "2026-11-25",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "PM Sánchez admits 'mistakes' in key debate ahead of Spain's election",
-  "text": "[34] reported that Spain's Popular Party enters the election as the favorite, though it may need the support of the far-right to achieve an absolute majority.",
-  "reason": "analysis word not used by the source: 'may'"
- },
- {
-  "date": "2026-11-25",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Yusuf: Kwankwaso Made Me Swear by the Quran to Return to APC, He Took My Wife",
-  "text": "[37] reported that Morka asked Peter Obi and the National Democratic Congress when Nigerian law prescribed the death penalty for election rigging.",
-  "reason": "names not in cited articles: Congress, Democratic, Peter"
- },
- {
-  "date": "2026-11-25",
   "kind": "merged",
-  "group": "asia",
-  "story": "Security forces kill 15 terrorists in Balochistan's Mastung district: state media",
-  "text": "Lakki Marwat police operation",
+  "group": "europe",
+  "story": "Thomas Markle, father of Meghan, indicted over child sexual abuse material",
+  "text": "Elon Musk companies sued over AI Grok profiting from child abuse images and explicit content",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-25",
   "kind": "merged",
   "group": "africa",
-  "story": "Peter Obi’s Campaign Shuts Down Onitsha in Show of Strength",
-  "text": "Campaign violence: Kwankwasiyya supporters carry sticks but don’t harm anyone - Obi",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-25",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Omo-Agege rejects Warri judgment, heads to Appeal Court, says ruling defies facts, law and logic",
-  "text": "Fresh Setback For Omo-Agege as Court Nullifies His NDC Senatorial Ticket",
+  "story": "Court nullifies Omo-Agege’s NDC Senatorial candidacy, directs INEC to remove his name",
+  "text": "NDC security meeting boycott",
   "reason": "duplicate story merged into an existing one"
  }
 ]

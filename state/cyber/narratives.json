@@ -605,22 +605,25 @@
   {
    "articles": 211,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 9,
-   "continuing": 4,
+   "calls": 4,
+   "candidates": 16,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 2,
-   "failed_calls": 0,
-   "groups": 177,
+   "errors": [
+    "call 1: HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+   ],
+   "failed_calls": 1,
+   "groups": 182,
    "in_stories": 9,
    "kept": 8,
    "merged": 0,
    "new": 3,
    "rejected": 1,
-   "reported_by_2": 2,
-   "runs": 4,
-   "sent": 9,
+   "reported_by_2": 5,
+   "runs": 5,
+   "sent": 16,
    "skipped": 0,
    "split_calls": 0,
    "updated": 3,
@@ -5373,5 +5376,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-25T10:39:52+00:00"
+ "updated": "2026-11-25T13:59:02+00:00"
 }
