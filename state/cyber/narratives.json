@@ -603,27 +603,27 @@
  ],
  "coverage": [
   {
-   "articles": 199,
+   "articles": 211,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 5,
-   "continuing": 2,
+   "calls": 3,
+   "candidates": 9,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-25",
-   "dropped": 1,
+   "dropped": 2,
    "failed_calls": 0,
-   "groups": 162,
-   "in_stories": 6,
-   "kept": 5,
+   "groups": 177,
+   "in_stories": 9,
+   "kept": 8,
    "merged": 0,
-   "new": 2,
+   "new": 3,
    "rejected": 1,
    "reported_by_2": 2,
-   "runs": 3,
-   "sent": 5,
+   "runs": 4,
+   "sent": 9,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -944,7 +944,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T08:04:28+00:00"
+  "all": "2026-11-25T10:38:48+00:00"
  },
  "narratives": [
   {
@@ -3768,8 +3768,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "de894df5d6981ad5",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-25T09:05:13+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+     "type": null,
+     "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/"
+    },
     {
      "added": "2026-11-25",
      "id": "197f2cfaaafa5620",
@@ -3826,15 +3839,27 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "idunno-anticsrf-library-vulnerability",
    "label": "Idunno.AntiCsrf library vulnerability",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "de894df5d6981ad5"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-25T09:05:13+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/) reported that attackers can exploit CVE-2026-131914 to achieve remote code execution via a single web request containing specially crafted data."
+    },
     {
      "articles": [
       "197f2cfaaafa5620"
@@ -3884,7 +3909,7 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/asp-net-anticsrf-flaw-under-attack/) reported that attackers are exploiting a critical flaw in Idunno.AntiCsrf, a third-party library used by older ASP.NET WebForms applications, and Mandiant confirmed active exploitation."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Idunno.AntiCsrf library vulnerability",
@@ -5199,7 +5224,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-25",
@@ -5226,17 +5251,42 @@
      "title": "Hackers compromise Check Point Servers in 22 organizations",
      "type": null,
      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "b2f8e393b1a5d07d",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-24T14:21:56+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+     "type": null,
+     "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "check-point-servers-compromise",
    "label": "Check Point servers compromise",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "b2f8e393b1a5d07d"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-24T14:21:56+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/) reported that the attacks against Check Point Security Management servers were launched from 99 IP addresses and targeted organizations across multiple industries and countries."
+    },
     {
      "articles": [
       "1d0ba397ab70992e"
@@ -5265,11 +5315,63 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Check Point servers compromise",
+   "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-25",
+    "of": 2,
+    "outlet": "SecurityWeek",
+    "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
+   },
    "topic": "security"
+  },
+  {
+   "article_count": 1,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "a7ae8135f7575c28",
+     "lang": "en",
+     "outlet": "Kaspersky Securelist",
+     "published": "2026-11-25T09:00:35+00:00",
+     "publisher": "Kaspersky",
+     "region": null,
+     "section": "intel",
+     "title": "How to protect against preinstalled Android malware",
+     "type": null,
+     "url": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093/"
+    }
+   ],
+   "articles_today": 1,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "preinstalled-android-malware-research",
+   "label": "Preinstalled Android malware research",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
+   "reports": [
+    {
+     "articles": [
+      "a7ae8135f7575c28"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Kaspersky"
+     ],
+     "published": "2026-11-25T09:00:35+00:00",
+     "text": "[Kaspersky](https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093/) reported on Trojans in the firmware of Android devices, sharing statistics and discussing risks to corporate users along with ways to counter the threat."
+    }
+   ],
+   "single_source_today": true,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Preinstalled Android malware research",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-25T08:04:45+00:00"
+ "updated": "2026-11-25T10:39:52+00:00"
 }

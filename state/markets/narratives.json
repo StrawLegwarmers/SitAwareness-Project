@@ -805,25 +805,25 @@
   {
    "articles": 517,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 19,
-   "continuing": 10,
+   "calls": 4,
+   "candidates": 25,
+   "continuing": 14,
    "corroborated": 0,
    "date": "2026-11-25",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 465,
-   "in_stories": 27,
-   "kept": 20,
+   "in_stories": 35,
+   "kept": 25,
    "merged": 0,
-   "new": 8,
-   "rejected": 0,
+   "new": 10,
+   "rejected": 1,
    "reported_by_2": 6,
-   "runs": 3,
-   "sent": 19,
+   "runs": 4,
+   "sent": 25,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 9,
+   "updated": 13,
    "waiting": 0
   },
   {
@@ -1125,7 +1125,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-25T08:09:08+00:00"
+  "all": "2026-11-25T10:47:23+00:00"
  },
  "narratives": [
   {
@@ -1413,7 +1413,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 22,
+   "article_count": 23,
    "articles": [
     {
      "added": "2026-11-25",
@@ -1440,6 +1440,19 @@
      "title": "Oil prices fall as supply glut concerns offset Middle East disruption fears",
      "type": "specialist",
      "url": "https://www.investing.com/news/commodities-news/oil-prices-fall-as-supply-glut-concerns-offset-middle-east-disruption-fears-5049537"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "0054d0a50991ffb8",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-25T02:00:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Futures Decline as Traders Weigh Competing Supply Risks",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-decline-as-traders-weigh-competing-supply-risks-9dd3835d?mod=rss_markets_main"
     },
     {
      "added": "2026-11-25",
@@ -1702,7 +1715,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
@@ -1711,6 +1724,18 @@
    "last_updated": "2026-11-25",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "0054d0a50991ffb8"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-25T02:00:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/oil-futures-decline-as-traders-weigh-competing-supply-risks-9dd3835d?mod=rss_markets_main) reported that oil futures declined in Asia as traders weigh supply oversupply risks against ongoing attacks in the Strait of Hormuz."
+    },
     {
      "articles": [
       "1053c8f993fb32fc"
@@ -3010,8 +3035,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "cfa60fdd110b0b26",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-25T02:58:14+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold holds near 15-mth lows on Fed hike bets; PCE inflation awaited",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-holds-near-15mth-lows-on-fed-hike-bets-pce-inflation-awaited-5049591"
+    },
     {
      "added": "2026-11-25",
      "id": "af1d054a6bcda091",
@@ -3247,7 +3285,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3257,7 +3295,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -3361,15 +3399,28 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "US dollar and gold markets",
    "topic": "markets"
   },
   {
-   "article_count": 17,
+   "article_count": 18,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "27454569186b96de",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-25T09:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Iran Reports Fresh Tanker Explosions as Hormuz Attacks Intensify",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html"
+    },
     {
      "added": "2026-11-24",
      "id": "faafdc45baf0378c",
@@ -3592,19 +3643,31 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs",
     "Oil Prices Continue to Fall as Global Supply Surplus Weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "27454569186b96de"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-25T09:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Iran-Reports-Fresh-Tanker-Explosions-as-Hormuz-Attacks-Intensify.html) reported that two oil tankers exploded after hitting naval mines while transiting the Strait of Hormuz on unauthorized routes."
+    },
     {
      "articles": [
       "864d3fef306e097c"
@@ -3740,9 +3803,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
    "title_from": {
     "backing": 2,
@@ -6506,8 +6569,21 @@
    "topic": "business"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "ad1c8093f0d10042",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-25T08:45:31+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Iraq Rebuffs OPEC Assessment of Output Capacity",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/wire/iraq_rebuffs_opec_assessment_of_output_capacity-25-nov-2026-185161-article/?rss=true"
+    },
     {
      "added": "2026-11-24",
      "id": "39eaacb6990ba637",
@@ -6535,14 +6611,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-24/iraq-rejects-opec-assessment-of-its-oil-production-capacity"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "iraq-opec-oil-production-capacity-assessment",
    "label": "Iraq OPEC oil production capacity assessment",
    "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_updated": "2026-11-25",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6569,9 +6645,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Iraq-Refuses-to-Accept-OPEC-Assessment-of-its-Production-Capacity.html) reported that Iraq is refusing to accept an OPEC+ assessment that says the country can sustainably produce less than 5 million barrels of oil per day."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Iraq OPEC oil production capacity assessment",
    "topic": "economy"
   },
@@ -7422,9 +7498,139 @@
    "status": "new",
    "title": "US Treasury yields movement",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "c7f7d3c532c074f5",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-25T09:18:37+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "d1e3481b4e738643",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-24T19:42:25+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Putin says Ukraine hits Russian oil plants despite Trump’s requests, promises retaliation",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-5048918"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "ukraine-and-russia-oil-refinery-attacks",
+   "label": "Ukraine and Russia oil refinery attacks",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c7f7d3c532c074f5"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-25T09:18:37+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html) reported that Ukraine's foreign minister told Putin to end the war if he wants Kyiv to stop attacking Russian refineries, after Putin said retaliation was inevitable."
+    },
+    {
+     "articles": [
+      "d1e3481b4e738643"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-24T19:42:25+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/putin-says-ukraine-hits-russian-oil-plants-despite-trumps-requests-promises-retaliation-5048918) reported that Putin stated Ukraine hits Russian oil plants despite requests from Trump and promised retaliation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Ukraine and Russia oil refinery attacks",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-25",
+     "id": "b42798a399fca3bc",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-25T08:30:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "U.K. Regulator Says McCormick Sale of Colman’s Could Address Unilever Foods Merger Concerns",
+     "type": "international",
+     "url": "https://www.wsj.com/business/retail/u-k-regulator-says-mccormick-sale-of-colmans-could-address-unilever-foods-merger-concerns-f700a2ae?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-25",
+     "id": "681d1dfd6626ee6f",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-25T07:36:37+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "UK watchdog says Colman’s sale could address Unilever-McCormick deal concerns",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/uk-watchdog-sayscolmans-sale-could-address-unilevermccormick-deal-concerns-5049890"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-25",
+   "group": "all",
+   "id": "unilever-and-mccormick-colman-s-sale",
+   "label": "Unilever and McCormick Colman's sale",
+   "last_reported": "2026-11-25",
+   "last_updated": "2026-11-25",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "681d1dfd6626ee6f",
+      "b42798a399fca3bc"
+     ],
+     "date": "2026-11-25",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal",
+      "Investing.com"
+     ],
+     "published": "2026-11-25T07:36:37+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/retail/u-k-regulator-says-mccormick-sale-of-colmans-could-address-unilever-foods-merger-concerns-f700a2ae?mod=pls_whats_news_us_business_f), [Investing.com](https://www.investing.com/news/stock-market-news/uk-watchdog-sayscolmans-sale-could-address-unilevermccormick-deal-concerns-5049890) reported that the U.K. competition watchdog said McCormick's proposed sale of the Colman's brand could address competition concerns regarding its planned $65 billion tie-up with Unilever Foods."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Unilever and McCormick Colman's sale",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-25T08:09:30+00:00"
+ "updated": "2026-11-25T10:47:41+00:00"
 }
