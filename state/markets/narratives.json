@@ -805,25 +805,25 @@
   {
    "articles": 516,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 15,
-   "continuing": 7,
+   "calls": 4,
+   "candidates": 21,
+   "continuing": 9,
    "corroborated": 1,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 452,
-   "in_stories": 27,
-   "kept": 16,
+   "in_stories": 34,
+   "kept": 21,
    "merged": 0,
-   "new": 7,
+   "new": 9,
    "rejected": 1,
    "reported_by_2": 7,
-   "runs": 3,
-   "sent": 15,
-   "skipped": 0,
+   "runs": 4,
+   "sent": 21,
+   "skipped": 2,
    "split_calls": 0,
-   "updated": 6,
+   "updated": 8,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T08:06:41+00:00"
+  "all": "2026-11-26T10:46:45+00:00"
  },
  "narratives": [
   {
@@ -1441,8 +1441,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 25,
+   "article_count": 26,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "1b234118ccad1929",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-26T08:28:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Mixed as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-middle-east-supply-risks-opec-meeting-c234598a?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-26",
      "id": "8109872d7def657b",
@@ -1769,7 +1782,7 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
@@ -1778,6 +1791,18 @@
    "last_updated": "2026-11-26",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "1b234118ccad1929"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-26T08:28:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-middle-east-supply-risks-opec-meeting-c234598a?mod=pls_whats_news_us_business_f) reported that oil prices were mixed as traders weighed Middle East supply risks and an upcoming OPEC+ meeting."
+    },
     {
      "articles": [
       "3e4052866fb82079"
@@ -8098,8 +8123,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "5858202f2e1c402f",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-26T00:07:51+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "US approves SpaceX plan to send a million data satellites to space",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
+    },
     {
      "added": "2026-11-25",
      "id": "009e500b27a9bb32",
@@ -8127,14 +8165,14 @@
      "url": "https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "spacex-orbital-data-center-satellites-approval",
    "label": "SpaceX orbital data center satellites approval",
    "last_reported": "2026-11-25",
-   "last_updated": "2026-11-25",
-   "outlets_today": 0,
+   "last_updated": "2026-11-26",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -8151,9 +8189,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f), [CNBC](https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html) reported that the FCC authorized SpaceX to deploy 1 million space-based AI data center satellites known as Starmind."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "SpaceX orbital data center satellites approval",
    "topic": "technology-policy"
   },
@@ -8760,9 +8798,169 @@
    "status": "new",
    "title": "Adani firms public bond sale",
    "topic": "markets"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "ed5eca202bbdc273",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T08:50:20+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "UniCredit Clears Final Hurdle to Take Over Commerzbank",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-26/unicredit-clears-final-hurdle-to-take-over-commerzbank-video"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "6e010c6f18a1d92a",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-26T08:42:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "UniCredit Seeks Commerzbank Chair Role for CEO Orcel After Takeover Clears Final Hurdle",
+     "type": "international",
+     "url": "https://www.wsj.com/business/unicredit-clears-final-hurdle-in-commerzbank-takeover-83ae477f?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "198c0f75cd13ad4c",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T07:33:32+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "UniCredit clears final hurdles for Commerzbank takeover",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/unicredit-clears-final-hurdles-for-commerzbank-takeover-5052161"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "unicredit-commerzbank-takeover",
+   "label": "UniCredit Commerzbank takeover",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "6e010c6f18a1d92a"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-26T08:42:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/unicredit-clears-final-hurdle-in-commerzbank-takeover-83ae477f?mod=pls_whats_news_us_business_f) reported that UniCredit received approval from Poland’s financial regulator, satisfying all regulatory conditions for its takeover of Commerzbank, and seeks the German lender's chair role for its CEO Orcel."
+    },
+    {
+     "articles": [
+      "ed5eca202bbdc273"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-26T08:50:20+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-26/unicredit-clears-final-hurdle-to-take-over-commerzbank-video) reported that UniCredit cleared the final regulatory hurdle to take control of Commerzbank and plans to propose its CEO Andrea Orcel as chairman."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "UniCredit Seeks Commerzbank Chair Role for CEO Orcel After Takeover Clears Final Hurdle",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-26",
+    "of": 2,
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/unicredit-clears-final-hurdle-in-commerzbank-takeover-83ae477f?mod=pls_whats_news_us_business_f"
+   },
+   "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "51683e4329c9da88",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T09:36:53+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Norse Atlantic shares rebound 23% after flight halt, bankruptcy warning",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/norse-atlantic-shares-fall-18-as-flight-halt-raises-bankruptcy-risk-5052227"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "6c17a5fa8a1258de",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T01:52:20+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Norse Atlantic flights suspended after warning finances 'critical'",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "norse-atlantic-flight-suspension",
+   "label": "Norse Atlantic flight suspension",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6c17a5fa8a1258de"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T01:52:20+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html) reported that Norse Atlantic suspended flights while warning its financial position was critical and seeking short-term financing."
+    },
+    {
+     "articles": [
+      "51683e4329c9da88"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T09:36:53+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/norse-atlantic-shares-fall-18-as-flight-halt-raises-bankruptcy-risk-5052227) reported that Norse Atlantic shares rebounded 23% following its flight halt and bankruptcy warning."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Norse Atlantic flight suspension",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T08:07:00+00:00"
+ "updated": "2026-11-26T10:47:04+00:00"
 }

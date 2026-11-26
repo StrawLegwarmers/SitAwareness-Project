@@ -709,22 +709,22 @@
   {
    "articles": 214,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 3,
+   "calls": 3,
+   "candidates": 4,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 186,
-   "in_stories": 5,
-   "kept": 3,
-   "merged": 0,
+   "in_stories": 7,
+   "kept": 4,
+   "merged": 1,
    "new": 2,
-   "rejected": 1,
+   "rejected": 2,
    "reported_by_2": 3,
-   "runs": 3,
-   "sent": 3,
+   "runs": 4,
+   "sent": 4,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -1052,7 +1052,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T08:02:25+00:00"
+  "all": "2026-11-26T10:37:44+00:00"
  },
  "narratives": [
   {
@@ -5064,8 +5064,34 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "297454ed45f8b5de",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-26T09:32:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "1Password Hit by Backend Breach via Hijacked Employee GitHub Account",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/1password-github-account-backend/"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "992f4d18cae3b0e0",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-26T08:42:32+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/"
+    },
     {
      "added": "2026-11-26",
      "id": "dea1925ce5845b82",
@@ -5093,15 +5119,27 @@
      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "1password-data-breach",
    "label": "1Password data breach",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "992f4d18cae3b0e0"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-26T08:42:32+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/) reported that an attacker accessed a 1Password employee's corporate GitHub account and copied account records and source code."
+    },
     {
      "articles": [
       "8ec1c6e04cbe6ae3"
@@ -5130,11 +5168,18 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "1Password data breach",
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-26",
+    "of": 3,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+   },
    "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-26T08:02:44+00:00"
+ "updated": "2026-11-26T10:38:00+00:00"
 }
