@@ -1,6 +1,110 @@
 {
  "archived": [
   {
+   "article_count": 1,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "crowdstrike-java4shell-cve-2026-114938-discovery",
+   "last_updated": "2026-11-19",
+   "title": "CrowdStrike Java4Shell CVE-2026-114938 discovery"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "coinbase-elon-musk-deepfake-scam",
+   "last_updated": "2026-11-19",
+   "title": "Coinbase Elon Musk deepfake scam"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "european-commission-cyberattack",
+   "last_updated": "2026-11-19",
+   "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "php-security-vulnerabilities",
+   "last_updated": "2026-11-19",
+   "title": "PHP security vulnerabilities"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "check-point-llm-security-research",
+   "last_updated": "2026-11-19",
+   "title": "Check Point LLM security research"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "n-able-cloud-server-breach",
+   "last_updated": "2026-11-19",
+   "title": "N-able cloud server breach"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "wellington-it-cyberattack",
+   "last_updated": "2026-11-19",
+   "title": "Wellington IT cyberattack"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "microsoft-python-agent-framework-malware",
+   "last_updated": "2026-11-19",
+   "title": "Microsoft Python agent framework malware"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "international-ransomware-gang-arrests",
+   "last_updated": "2026-11-19",
+   "title": "International ransomware gang arrests"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "gentlemen-ransomware-nvidia-data-leak-claims",
+   "last_updated": "2026-11-19",
+   "title": "Gentlemen ransomware NVIDIA data leak claims"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "jaipur-airport-security-breach",
+   "last_updated": "2026-11-19",
+   "title": "After Delhi, Jaipur Airport Faces Security Breach: Youth Scales Boundary Wall, Caught By CISF"
+  },
+  {
+   "article_count": 10,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "delhi-airport-security-breach",
+   "last_updated": "2026-11-19",
+   "title": "Man forces entry into Delhi airport Terminal 3, CISF apprehends him within seconds"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "shannon-airport-c-130h-sabotage",
+   "last_updated": "2026-11-19",
+   "title": "Shannon Airport C-130H sabotage"
+  },
+  {
    "article_count": 2,
    "first_seen": "2026-11-18",
    "group": "all",
@@ -603,6 +707,30 @@
  ],
  "coverage": [
   {
+   "articles": 197,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-26",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 171,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 2,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 237,
    "attached_by_code": 0,
    "calls": 7,
@@ -921,33 +1049,10 @@
    "split_calls": 0,
    "updated": 3,
    "waiting": 0
-  },
-  {
-   "articles": 59,
-   "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
-   "continuing": 0,
-   "corroborated": 0,
-   "date": "2026-11-12",
-   "failed_calls": 0,
-   "groups": 59,
-   "in_stories": 0,
-   "kept": 0,
-   "merged": 0,
-   "new": 0,
-   "rejected": 0,
-   "reported_by_2": 0,
-   "runs": 3,
-   "sent": 0,
-   "skipped": 0,
-   "split_calls": 0,
-   "updated": 0,
-   "waiting": 0
   }
  ],
  "last_run": {
-  "all": "2026-11-25T22:33:28+00:00"
+  "all": "2026-11-26T01:59:14+00:00"
  },
  "narratives": [
   {
@@ -1233,14 +1338,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "previous_titles": [
     "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog"
    ],
@@ -1371,7 +1476,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog",
    "title_from": {
     "backing": 2,
@@ -1729,14 +1834,14 @@
      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-12",
    "group": "all",
    "id": "apache-http-2-and-palo-alto",
    "label": "Apache HTTP/2 and Palo Alto vulnerabilities",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "previous_titles": [
     "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required"
    ],
@@ -1970,7 +2075,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
    "title_from": {
     "backing": 2,
@@ -2049,1004 +2154,6 @@
    "status": "unchanged",
    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
    "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "0880e23c69176d25",
-     "lang": "en",
-     "outlet": "FlightGlobal",
-     "published": "2026-11-18T17:44:34+00:00",
-     "publisher": "FlightGlobal",
-     "region": null,
-     "section": "aviation",
-     "title": "Corrosive gallium, axe used to sabotage C-130H at Shannon airport: US authorities",
-     "type": null,
-     "url": "https://www.flightglobal.com/defence/2026/11/corrosive-gallium-and-an-axe-used-in-sabotage-of-us-c-130h-at-shannon-airport-us-authorities-allege/"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "8188af5b2c4b90d8",
-     "lang": "en",
-     "outlet": "AeroTime",
-     "published": "2026-11-18T09:35:51+00:00",
-     "publisher": "AeroTime",
-     "region": null,
-     "section": "aviation",
-     "title": "US indicts Irish man over destruction of C-130H at Shannon Airport",
-     "type": null,
-     "url": "https://www.aerotime.aero/articles/irish-man-indicted-c130h-destruction-shannon-airport"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "shannon-airport-c-130h-sabotage",
-   "label": "Shannon Airport C-130H sabotage",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "8188af5b2c4b90d8"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "AeroTime"
-     ],
-     "published": "2026-11-18T09:35:51+00:00",
-     "text": "[AeroTime](https://www.aerotime.aero/articles/irish-man-indicted-c130h-destruction-shannon-airport) reported that US federal prosecutors have indicted an Irish man over the destruction of a US Air National Guard C-130H at Shannon Airport."
-    },
-    {
-     "articles": [
-      "0880e23c69176d25"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "FlightGlobal"
-     ],
-     "published": "2026-11-18T17:44:34+00:00",
-     "text": "[FlightGlobal](https://www.flightglobal.com/defence/2026/11/corrosive-gallium-and-an-axe-used-in-sabotage-of-us-c-130h-at-shannon-airport-us-authorities-allege/) reported that US authorities stated corrosive gallium and an axe were used to sabotage the aircraft, leaving it inoperable."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Shannon Airport C-130H sabotage",
-   "topic": "security"
-  },
-  {
-   "article_count": 10,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "7c8adc81d1710d1a",
-     "lang": "en",
-     "outlet": "Rediff",
-     "published": "2026-11-19T10:57:37+00:00",
-     "publisher": "Rediff",
-     "region": null,
-     "section": "aviation",
-     "title": "Man without travel documents forces entry into Delhi airport",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVFuLUQ1UzVJMERldl9jVkFHQWFWeUVpcmdaWDRGSHRXSS15NTZTOXAzSXgzT3RKUExRajk2WTV6blN3N3pkU2dOMWxIVnFtVVVzRUFWN2d3eEh1bmthLXk0a2tiVHBHc3FYN0FlVlFpX3B0WkJieElpX21aUG96N1FpdUg0alRqU2JUb0x1ZjAyckVQT1hBeVZoNWV0Y1piaEdiSUJRckd1RThv?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "ff7f03c1ec4a6386",
-     "lang": "en",
-     "outlet": "ABP Live English",
-     "published": "2026-11-19T07:48:56+00:00",
-     "publisher": "ABP Live English",
-     "region": null,
-     "section": "aviation",
-     "title": "Delhi Airport Security: Man Tries to Breach Security and Enter Airport, CISF Nabs Him",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNTmV1M2tPTks2WFg4d3JQckE4QTlMQW54OGJqQklrMHZsYW9ua0E1RWE4OVFFczhZa2w1RlluRTFnZ2lrOUl2MVVTRmJlV0RTMXJiWHgxZG96QUkzT21YRGFrQnU2UnJzWmZxVTlGd0VxX2lYckVXYi1fSXAxRExtaFJNVi1QRXRqV3ZPU0xRTU9ZSHlpeDZJclhGajRkMnhia0VZX1dtWS1nUDh2SkZpMGg5RzczdVZ6bW1NRkZZekM3dzBKaDNSOXFOUDJ0X1hpUFV1WnppQQ?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "7211c92a48ff89cd",
-     "lang": "en",
-     "outlet": "News18",
-     "published": "2026-11-19T06:03:19+00:00",
-     "publisher": "News18",
-     "region": null,
-     "section": "aviation",
-     "title": "Delhi Airport Security Breach: Man Forces His Way Past CISF Into Terminal 3, Arrested",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNOVhkNE1XbS1CZDNfZWFPU0lNUGhxSmRlZU1BUHFwOUZBTGNMUG1QQ01FVDVNaXZta0hQTzRRdzZGaC1GNVlNZGx1Y0U5Y0k4Y3VtTmNndnBFeEprd1dmd1p6ZWdFT0hsVlVRejRneDQ2Z09BZklKWEJPTUZNSVh6Y0k4eXFKdzBqT3VJZzZiOGstal9tUzRoVXlZbVZxa3ZRTlVDcGJuQnY0NEJuTG95QWZqMHJHWjBSMnFiRm5EUS1qaTJzY2ROZUg3d0J5RlF3MHBRYjNCMjdQOWl5VG5oTtIB5gFBVV95cUxPdFdUYUh2Z1VaVWh1V2lvbnJxQVhBZHN1U3BnMjFYM2huYW5jYWttcDdGejEwM3VOTzFCZWUzM0RsT21NVENtczdIOEYwNmZmUkNQTGx2YzRVNGdvT21OMS0xSS10WkprOVJMUmJXRzZDdTNDblRxVUJZMFNyaGRQcU5GMzhxa0VGS29IRXBZdmxpd3RUS25mVXVsY3JXVWwyVkNuZTV3MFRoRXA4QVV3LXRiZTM1T0lZMHh0azhwZm5hQlV5aHpIYVpObndIOGlpd3ZOalBGVUpaSjc1MXpGMlp4RkE4Zw?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "2eee484312003bf0",
-     "lang": "en",
-     "outlet": "Rediff",
-     "published": "2026-11-19T04:46:13+00:00",
-     "publisher": "Rediff",
-     "region": null,
-     "section": "aviation",
-     "title": "CISF foils security breach at Delhi airport, man held",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQN3RiYlJEaHhKbjNhZjU3MHJJQ09tSlREMDd5X2lDMko0a2NXNWh5NlZXTWZmLTlSbkdESVNDZUZ5cUhndDRoV19tX2dQcWxadEVnSzdiX3gyUmNIOHI3XzNZaWdCRmhYb3V5RnFsTFpPcXZva0tsLXR0RmQwTW56LUY2aWVxRHV4M2FjNWxSOVRUdEl1RWZDcDE2UXFxVnJMZW1aUTVlQUJzcXpMLU5Ya3BGcFRLWkpGdVNEbUpEU3o4bV9RNUlXbzRyTHBuTVItMHc?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "2d2064edc1c01992",
-     "lang": "en",
-     "outlet": "Telegraph India",
-     "published": "2026-11-19T04:25:34+00:00",
-     "publisher": "Telegraph India",
-     "region": null,
-     "section": "aviation",
-     "title": "Man forces entry into Delhi airport Terminal 3, CISF apprehends him within seconds",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM3o2bl9fSTFCNXRpY0pNTURPdExMMkZmUjltQUJGcHd3MUdTTWxsbnlWaWJUczA3Ymx4aVR3MEtZQURnUFN5U0VBQ0h4VW5OMnZSMTVGYWtpa3hSVDZxbjlpWHNfOGQ5dkhKR29ia2RJd21YMDJ6XzIzRjgyX2FtekZIU2laRTgzdFlEdGF4aF96RWlEc1FWUllfY1VLM2FDVmwtV1B4aU90TjlReElGak9CckFLTklERHdRN0FMTlN2ZlpWdEdOczNR0gHPAUFVX3lxTE5lQXRaYkxLNkdCUzNIOTM0QVBfdm1DakNGektlMjVwNnZSbWhlaDgxemdZYVR3d3BjY2c5RVpvN3ViMGRXTDR2MEV1ak05UjVZa1VtYmZrNnNYMDNGMGI4cFlLQTh0VlJmWGY5TW1lOHFadmgtMkttY0phYllTcWktWWdoMFQ1YjFoQXV2a0hYc1BoWGZpeG9PRWlWX2JBVmR6SDdpYXlzeFU1UWEtSXRLNHZGLTA0OUN0X1lYSWhCSVFoUDlsbWhDVEZMVjF5bw?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "766f3593d109c6c7",
-     "lang": "en",
-     "outlet": "Mid-Day",
-     "published": "2026-11-19T03:56:00+00:00",
-     "publisher": "Mid-Day",
-     "region": null,
-     "section": "aviation",
-     "title": "CISF averts potential security breach at Delhi airport with swift action at Terminal 3",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOVVNaeFUtMzU3MGZaR1FXUEh0NU0tYjlGSGhOaUlPMjl0V0VPQlExVlJ4LXc2R0hKNkVHSTNDaUtvQThRNVdMZzAtQk5xV2ZkQWpJeTVSYUpMcW01RDdfa0I1eU4yLVJDNlZObndxX0wxZkxXaG1RQ3V4b243dE1JQVZmLWhRYkhUNUVJUzRhZ1V4aEhXbHNJNHRqbHB1aWlhTTZrUWxXb0FwX25FS04zaWo3elJtbDd5QW5NZUdlcXBGeHFmV29acDdNbkFnU1NXbHVYLXdYQ0UwYXRyMXc?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "3ef60b8b7fb0a143",
-     "lang": "en",
-     "outlet": "Asianet Newsable",
-     "published": "2026-11-19T03:52:38+00:00",
-     "publisher": "Asianet Newsable",
-     "region": null,
-     "section": "aviation",
-     "title": "Delhi IGI Airport Security Breach: Man Tries To Force Entry Into T3, CISF Acts - WATCH",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdk1GaGNaa3lrdkVhaUczbUNFckhDN2dMRWJpaGwwcU5XdTVFeDFkQkxIcGQzZUZTcTliOWg2Y0JVd0hXOE14LXVtNGRMZERpaEl1RlFxV0dGaFNkeV9SMGhNOXRKdmRyTUFjRkpjQ2RJSVBQbk83YzlQc3dIY3h1dWhTbExEQXVTZUpwTmZDQW1qdTQ3dXVaSERSX1gyUnQ0aUxUV0hseTlPWEZyeGY2U3p5ZGR5cnpscG5keVg3NmIyZ1RKT3ktbDFSRnN3TVVTZlk4YkFyWm3SAd4BQVVfeXFMUGJ2bEdzZlBfeWJ2ellEYXdybERSUk0xVHNkY1hGdTlEanJuY1V4MkszY1RLRFVuV2JHa3hVNWoxa2FFNkd4Qkk5dVFxYWxyTDl1b21GaGprVmk0Ni1KNjVQU3E5cjRERmdNX3Q5STlCSTMydnhDSktuWUZmbXd2TmNvNEdfLVhlel9zSkIwVV9KczhpaGlSRlFveXBQQTlOUWJhb3JrTVlUaWt5WlJjQU9mRHJYNDVOT3RsaTUyOHNnc0xOMm5OQnBQMHJsM1BQQkJteDRSUUplWE9xM3RB?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "f0f3de1eabb6c0f4",
-     "lang": "en",
-     "outlet": "Free Press Journal",
-     "published": "2026-11-19T03:40:22+00:00",
-     "publisher": "Free Press Journal",
-     "region": null,
-     "section": "aviation",
-     "title": "Delhi Airport On High Alert As CISF Foils Major Security Breach After Haryana Man Forcefully Storms Terminal 3",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNaGxXZ1ZoR0VlYUE1cWZJaDRIZlJUeWlZS1kwNTlibVlwUjIwcmNnVWd4TnFmejhHRGl1bmh5UzZwVEJzZ0pWc0F3TUlycEtzbjdJN19OM0JLUlRfbmdZcjhhczB4RTRxQThoQUxoRnc2Y2djdTU3NkF1R0I5dk5qY3VRRlp5OVhBbUZRVVF2ako5amRpUVRZdnRfN3dvcExyVW1Tb1lWQUE2eWlxR3M3TEdmWGxIdmpFeXk2eG95TVZHdTR0aXJtaUNLNUZlVzVHMkx4YlY3RVptRGZFdnZfMVJ1MWQ0VHJfSFdUZDJtb3pzMGRramZibVZreDhndWptLTc5LXh4TXBsQW_SAZACQVVfeXFMUDFCRWFkZ2M4SDNNOTBFQ3prSGRNbVMtZzZacDVvRFVLeTdMQUE1ZFFRdGgxQ2Z5bVJybldPS1ctNWZaeUpOZHdoOVh4V0NFRzdpaEQzRTZ4Zkp4UW9wbURnU0VsZDZ3RXR4VXpVQXQyMGU4T2k1WUU3bi03RWtyV256Q3BnX3ZOTlNtT0JrbWp6ZHhrdnhsWExNU1prYkMwdE9zejNRMkpiWHJkUjdEYTFmY2dUOHMzc1RUWmswUF9IY3R0MTlQUUpRNVJCRWRUVVFHek96VTRmN2xta0I3MnBKcGZRY0hvX2k5RW52Q25rUXlrU2o5cFJHWG1Dd0JkazF0OXJ5dXlZZUVxZ2RUdXY?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "85959ccae6fefeb3",
-     "lang": "en",
-     "outlet": "Bhaskar English",
-     "published": "2026-11-19T02:26:57+00:00",
-     "publisher": "Bhaskar English",
-     "region": null,
-     "section": "aviation",
-     "title": "Man forcibly enters Delhi airport terminal: CISF personnel swiftly apprehend intruder, preventing a potenti...",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeGtzSUY4QWJ1eDZkeU9QMTlLdk51UEZYQ3ZUTGZrY0c0eWItRk9HRTlmS2NGdm9lUTliUFhxNmxGX0JxaS1IN2RZZV9qbFBpVXhpMUxlWVZKNUJxZW1mVUN4a2xvb0owYjNWakw0RU51akZCa3pTQ2dCYWp1SXROdWJBdlFRelJVQS1IaUlYX3V4WFgtMDQ1SFF4VHRUYU1PQ2k1b1ZSOHVSLWtzZE8zN3dLbjV2Tm0tS1JuMWxHT3J3VnN5UXQw0gHMAUFVX3lxTFA5NEVQRXFZcl9zT0ZzQXRraUNSaGRRbGItb2FLbEpHUVBsbUV4Nkh2YlBRUE1XN3NJNHpDUTdrWWtpa09nUHFhY195UDdQRlJwa1RNc19OeUwtR2dOQXZJU0pxaHdhVzZOMDNUbW50eW5SRUVfS1c4VnV1elVubmx4WEFlSHU1V0k0REJWWnRETXoxdUhGTEFWT1JHai05UDhUaF9PaDhYT0lPTVQ3dkM0UXFUSExHSlF5ay1keC0xaGRlcW45UjV1SkkwVw?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "83b13a827a51b2c5",
-     "lang": "en",
-     "outlet": "ABP Live English",
-     "published": "2026-11-19T01:48:57+00:00",
-     "publisher": "ABP Live English",
-     "region": null,
-     "section": "aviation",
-     "title": "Delhi Airport Security Breach Attempt Foiled CISF Nabs Man Trying To Force Way Into T3 | VIDEO",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWXJmV0E4ZGxDNFlPZ3BWSlNiOWh5ejZSZmlXUnU0c056bHctSHFpMXE5VVAtbG5mZllxOTlLdV9VVnZZVXVzT2tJOWZ5WjJFcFJ1eUZOaVA4ZnVMUUFxVkxFdHFTWmlsZnVucWR2U25TY3lkTnVKeEx0MWpuVGtNSW1JNXFxanNBQkt0bnNlcGlpZGdMVzVvOVlMS051NmxMVk9GOFV0VDZtRllDbl95YjlDcmtkSVFKc3BFb3NDNHjSAcYBQVVfeXFMTmRSZ1VMWkFzTFU5dHpRdVRiWnVhOFhJZ3loZm83cnB4bXJNMTBLYUZtbkFZQzFJVmtpb0RSSURKaFAtMEJQWlF3ZE9iT1BkX0ZYTjFqLXd2bWFxSmZrNm8ybGxPeU5fU2FIVmo3Y3pSVnNTNjl2MnFISzRMaFdvZEc2Sno0NUpTLXFwaHZ0UzJYdkNWRm43bjRld0s2RlA1aVFXaXp2UHhrSVhGdDJHUkdqVmhFaFlDa2N2dFBjTnkwWTFtY3d3?oc=5"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "delhi-airport-security-breach",
-   "label": "Delhi Airport security breach",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "7c8adc81d1710d1a"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Rediff"
-     ],
-     "published": "2026-11-19T10:57:37+00:00",
-     "text": "[Rediff](https://news.google.com/rss/articles/CBMirAFBVV95cUxOMVFuLUQ1UzVJMERldl9jVkFHQWFWeUVpcmdaWDRGSHRXSS15NTZTOXAzSXgzT3RKUExRajk2WTV6blN3N3pkU2dOMWxIVnFtVVVzRUFWN2d3eEh1bmthLXk0a2tiVHBHc3FYN0FlVlFpX3B0WkJieElpX21aUG96N1FpdUg0alRqU2JUb0x1ZjAyckVQT1hBeVZoNWV0Y1piaEdiSUJRckd1RThv?oc=5) reported that a man without travel documents forced entry into Delhi airport."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Man forces entry into Delhi airport Terminal 3, CISF apprehends him within seconds",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-19",
-    "of": 5,
-    "outlet": "Telegraph India",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM3o2bl9fSTFCNXRpY0pNTURPdExMMkZmUjltQUJGcHd3MUdTTWxsbnlWaWJUczA3Ymx4aVR3MEtZQURnUFN5U0VBQ0h4VW5OMnZSMTVGYWtpa3hSVDZxbjlpWHNfOGQ5dkhKR29ia2RJd21YMDJ6XzIzRjgyX2FtekZIU2laRTgzdFlEdGF4aF96RWlEc1FWUllfY1VLM2FDVmwtV1B4aU90TjlReElGak9CckFLTklERHdRN0FMTlN2ZlpWdEdOczNR0gHPAUFVX3lxTE5lQXRaYkxLNkdCUzNIOTM0QVBfdm1DakNGektlMjVwNnZSbWhlaDgxemdZYVR3d3BjY2c5RVpvN3ViMGRXTDR2MEV1ak05UjVZa1VtYmZrNnNYMDNGMGI4cFlLQTh0VlJmWGY5TW1lOHFadmgtMkttY0phYllTcWktWWdoMFQ1YjFoQXV2a0hYc1BoWGZpeG9PRWlWX2JBVmR6SDdpYXlzeFU1UWEtSXRLNHZGLTA0OUN0X1lYSWhCSVFoUDlsbWhDVEZMVjF5bw?oc=5"
-   },
-   "topic": "security"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "77a1f09cd63dc35d",
-     "lang": "en",
-     "outlet": "Moneycontrol.com",
-     "published": "2026-11-19T07:55:14+00:00",
-     "publisher": "Moneycontrol.com",
-     "region": null,
-     "section": "aviation",
-     "title": "After Delhi airport breach, Jaipur airport security scare as youth scales boundary wall, enters premises",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbTQzQlcyOVlWWmt6RzB0eVJuTGUxak9abDNuQVZsZFpXVTZQdW9xM0tjRjZrWWFmRU9kdVloS1JxTlZqWWRuWXVydWRyMi1ZREU0emZoT3JZOExaN0RnN3RRUzBNSXpHUm83M3p6X0U0blh4bE1YWGgtakVxM0JiNE5sYkxweGI5czV4ZGxMVmMxQnd0bDdTSjBQbFlxbmE4YnM1aFRJY0YtT1ozUnYxWm5FNDl4VVF0WVZ5dEpVR1ZaWVFGb0pzUk5aQ1lRNHZFZVVhTmdTMjNVRm5fd2tyYmZnbWNTUkkxbmxTZm5xNNIB9AFBVV95cUxQaWQwMmV1Z1lxUFZYNGM0QU1JZHR1QjNzS3ZidVltcnM1RUpSMWRsaG0xNnJZN3h2NzhndUJCUUFWZXRVUDFfVE1aYUlFM21Ga1NiQUhaMnZpME5XNERVSUtjSE1talZOQUR6STdKQW5oeFFrMjlpXzNYOC03WWN4UGptZmFqaFI5UkpkMHNxYmVxNFFwd216UFVwZl9oeXVPdmlGdWlpa3BCY1JXMGNma056Y0pVdU01eWl6NkZocjA4R1R1eHRMZXoxY2VqVDdQNDFFeTZNNXpRRF9QM1RoUVN2SmhjTEdDdW1RNG1PQ3U2eEln?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "0d8174307ce78822",
-     "lang": "en",
-     "outlet": "Bhaskar English",
-     "published": "2026-11-19T07:18:34+00:00",
-     "publisher": "Bhaskar English",
-     "region": null,
-     "section": "aviation",
-     "title": "Youth jumps over Jaipur airport wall to enter premises: CISF personnel catch him; he says some people were ...",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNnc3Yy1MWEljZUVtekVVT0NCbHI1cXlrZEo3Uks1Z2lOV2x5UWNFeDRSenFVRUczRzFCUVUtdEFhMzNGT2xpYkkzbjVBd2ZwaTVsMExFTkFFMWZIaTQ4RjZFemJVRE4yTUdGaGUzMmhBdVQxZGNZbDh6MVdHU1k0WG9lb1poS0ZhMUZFZVlGRXZPQ3duNUI1NnRsbXpOSFhWSFNNUUo2c0JiV2U4LVAwT2MxeV9lTEN0dGxjQS10eTE2amdoN2hyc0F4V1k3dk3SAdQBQVVfeXFMTmhoMUk4SmRISWdJMWlMTHhmZmRjdE56QWNfbW1lNTlSVzZWc3I0UkM4cFFBejlqNXdLcmdoeUt5LUV1SURfakg4STVsMnA3VG96OGh4d0xCRlVjbEJ0RXJrNnhfQVJDdjJldFVaMW5lUFFlM1lxMFBNbHpucUQwNWZ5WEl2aGJFWU5ocGE1UE5FeXUyWDNTSFRHdTFWU3lpd1d4MzdPVkg0ZnhjeDlSOERoV2lUd2lmUkJIVHpCZ19UTnpqSTE0dGJVVXBfZFJya2RLcUs?oc=5"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "4ae99a21507526fb",
-     "lang": "en",
-     "outlet": "News18",
-     "published": "2026-11-19T07:06:24+00:00",
-     "publisher": "News18",
-     "region": null,
-     "section": "aviation",
-     "title": "After Delhi, Jaipur Airport Faces Security Breach: Youth Scales Boundary Wall, Caught By CISF",
-     "type": null,
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRE8tOHNrckVqY21xMTFMLTFuTXhIQXNpWTBSa0NNMXE3dlJyWTloQmxjM3hjbzJ4R3ZrUFhqV1ZXQy0zVlhscDVxWGw1SFR2RGQxRlNtV1RmenQyalZLdGJ1UGVvdFd5ZEFZd2owa1U2YU9BTEJZaEJ4UHhkckpXWk5TUFYzR1N5VEN4aWxwY1dCQzZTbWE5MWhJSVdoS3ZBUkJ0WS1qYUtCZFVEU2p2T2EwR1VRdF9QYzdaS3E0VHlFd3E4OUtSUVRzZEZQTE9jT05xRG9EVXprMVNRb2hB0gHkAUFVX3lxTE95b3F0MV9EaE9hWjhKamk0RTl0cW5SZjAyUHEzWUxiRGc4bDB5Xy03VEN3Nkt0bXNNMUdvLUo1SERCX2pvbFJPSnNDOXJCcV9JOEhvVVV0Uk15QUtGanQzVjBkZlRHaFpTNHJDc2F2enNJb25hOWxOSVZkVElETzVHWVVaWTJOd0xiZWNhRWIwMzA2SVptaWc2MDV5RXRJSExYRlJRUnlUTV9Cd3A0VWdIOEhnd0hkdXlSem03b2RPWkNGd0tXeHdkSjZkZEtQcFJ5dDQ0MzFBYjdHZnRVSUVKWkNSQw?oc=5"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "jaipur-airport-security-breach",
-   "label": "Jaipur airport security breach",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "0d8174307ce78822",
-      "4ae99a21507526fb"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "News18",
-      "Bhaskar English"
-     ],
-     "published": "2026-11-19T07:06:24+00:00",
-     "text": "[News18](https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRE8tOHNrckVqY21xMTFMLTFuTXhIQXNpWTBSa0NNMXE3dlJyWTloQmxjM3hjbzJ4R3ZrUFhqV1ZXQy0zVlhscDVxWGw1SFR2RGQxRlNtV1RmenQyalZLdGJ1UGVvdFd5ZEFZd2owa1U2YU9BTEJZaEJ4UHhkckpXWk5TUFYzR1N5VEN4aWxwY1dCQzZTbWE5MWhJSVdoS3ZBUkJ0WS1qYUtCZFVEU2p2T2EwR1VRdF9QYzdaS3E0VHlFd3E4OUtSUVRzZEZQTE9jT05xRG9EVXprMVNRb2hB0gHkAUFVX3lxTE95b3F0MV9EaE9hWjhKamk0RTl0cW5SZjAyUHEzWUxiRGc4bDB5Xy03VEN3Nkt0bXNNMUdvLUo1SERCX2pvbFJPSnNDOXJCcV9JOEhvVVV0Uk15QUtGanQzVjBkZlRHaFpTNHJDc2F2enNJb25hOWxOSVZkVElETzVHWVVaWTJOd0xiZWNhRWIwMzA2SVptaWc2MDV5RXRJSExYRlJRUnlUTV9Cd3A0VWdIOEhnd0hkdXlSem03b2RPWkNGd0tXeHdkSjZkZEtQcFJ5dDQ0MzFBYjdHZnRVSUVKWkNSQw?oc=5), [Bhaskar English](https://news.google.com/rss/articles/CBMizwFBVV95cUxQNnc3Yy1MWEljZUVtekVVT0NCbHI1cXlrZEo3Uks1Z2lOV2x5UWNFeDRSenFVRUczRzFCUVUtdEFhMzNGT2xpYkkzbjVBd2ZwaTVsMExFTkFFMWZIaTQ4RjZFemJVRE4yTUdGaGUzMmhBdVQxZGNZbDh6MVdHU1k0WG9lb1poS0ZhMUZFZVlGRXZPQ3duNUI1NnRsbXpOSFhWSFNNUUo2c0JiV2U4LVAwT2MxeV9lTEN0dGxjQS10eTE2amdoN2hyc0F4V1k3dk3SAdQBQVVfeXFMTmhoMUk4SmRISWdJMWlMTHhmZmRjdE56QWNfbW1lNTlSVzZWc3I0UkM4cFFBejlqNXdLcmdoeUt5LUV1SURfakg4STVsMnA3VG96OGh4d0xCRlVjbEJ0RXJrNnhfQVJDdjJldFVaMW5lUFFlM1lxMFBNbHpucUQwNWZ5WEl2aGJFWU5ocGE1UE5FeXUyWDNTSFRHdTFWU3lpd1d4MzdPVkg0ZnhjeDlSOERoV2lUd2lmUkJIVHpCZ19UTnpqSTE0dGJVVXBfZFJya2RLcUs?oc=5) reported that a youth scaled the boundary wall of Jaipur Airport and was caught by CISF personnel."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "After Delhi, Jaipur Airport Faces Security Breach: Youth Scales Boundary Wall, Caught By CISF",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-19",
-    "of": 2,
-    "outlet": "News18",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRE8tOHNrckVqY21xMTFMLTFuTXhIQXNpWTBSa0NNMXE3dlJyWTloQmxjM3hjbzJ4R3ZrUFhqV1ZXQy0zVlhscDVxWGw1SFR2RGQxRlNtV1RmenQyalZLdGJ1UGVvdFd5ZEFZd2owa1U2YU9BTEJZaEJ4UHhkckpXWk5TUFYzR1N5VEN4aWxwY1dCQzZTbWE5MWhJSVdoS3ZBUkJ0WS1qYUtCZFVEU2p2T2EwR1VRdF9QYzdaS3E0VHlFd3E4OUtSUVRzZEZQTE9jT05xRG9EVXprMVNRb2hB0gHkAUFVX3lxTE95b3F0MV9EaE9hWjhKamk0RTl0cW5SZjAyUHEzWUxiRGc4bDB5Xy03VEN3Nkt0bXNNMUdvLUo1SERCX2pvbFJPSnNDOXJCcV9JOEhvVVV0Uk15QUtGanQzVjBkZlRHaFpTNHJDc2F2enNJb25hOWxOSVZkVElETzVHWVVaWTJOd0xiZWNhRWIwMzA2SVptaWc2MDV5RXRJSExYRlJRUnlUTV9Cd3A0VWdIOEhnd0hkdXlSem03b2RPWkNGd0tXeHdkSjZkZEtQcFJ5dDQ0MzFBYjdHZnRVSUVKWkNSQw?oc=5"
-   },
-   "topic": "security"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "1939fa9941e1b641",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-19T09:23:21+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
-    },
-    {
-     "added": "2026-11-19",
-     "dates": [
-      "2026-11-18"
-     ],
-     "id": "5cfcab9f2b31c744",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-18T13:37:43+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "The Gentlemen Ransomware Gang Allegedly Claims to Have Breached NVIDIA",
-     "type": null,
-     "url": "https://cybersecuritynews.com/nvidia-data-breach-claim/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "gentlemen-ransomware-nvidia-data-leak-claims",
-   "label": "Gentlemen ransomware NVIDIA data leak claims",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "5cfcab9f2b31c744"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-18T13:37:43+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/nvidia-data-breach-claim/) reported that the Gentlemen ransomware gang listed NVIDIA on its dark web leak site on November 18, 2026, though the post does not prove a breach occurred."
-    },
-    {
-     "articles": [
-      "1939fa9941e1b641"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-19T09:23:21+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/) reported that NVIDIA is investigating claims of a security breach."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Gentlemen ransomware NVIDIA data leak claims",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "26c45144ad24447c",
-     "lang": "en",
-     "outlet": "Help Net Security",
-     "published": "2026-11-19T10:07:30+00:00",
-     "publisher": "Help Net Security",
-     "region": null,
-     "section": "news",
-     "title": "Ukraine arrests key members of ransomware gang that extorted $40.5 million posing as IT support",
-     "type": null,
-     "url": "https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "1287910668bc1a58",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-18T23:08:33+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "international-ransomware-gang-arrests",
-   "label": "International ransomware gang arrests",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "1287910668bc1a58"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-18T23:08:33+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/) reported that Ukrainian authorities, working with the FBI, arrested four suspected members of an international ransomware organization tied to more than $40.5 million in ransoms."
-    },
-    {
-     "articles": [
-      "26c45144ad24447c"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Help Net Security"
-     ],
-     "published": "2026-11-19T10:07:30+00:00",
-     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/19/ukraine-ransomware-gang-arrests-fake-it-support-calls/) reported that the suspects posed as IT support and extorted at least 28 companies."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "International ransomware gang arrests",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "e49ef0645aa4660f",
-     "lang": "en",
-     "outlet": "Help Net Security",
-     "published": "2026-11-19T12:53:44+00:00",
-     "publisher": "Help Net Security",
-     "region": null,
-     "section": "news",
-     "title": "Credential stealer slipped into Microsoft’s official Python agent framework",
-     "type": null,
-     "url": "https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "be3de67462392ba3",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-18T17:23:37+00:00",
-     "publisher": "The Register",
-     "region": null,
-     "section": "news",
-     "title": "Microsoft's official Python agent framework hijacked to distribute malware",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "microsoft-python-agent-framework-malware",
-   "label": "Microsoft Python agent framework malware",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "be3de67462392ba3"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "The Register"
-     ],
-     "published": "2026-11-18T17:23:37+00:00",
-     "text": "[The Register](https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858) reported that someone compromised GitHub organization admin credentials to hijack Microsoft's official Python agent framework and distribute malware."
-    },
-    {
-     "articles": [
-      "e49ef0645aa4660f"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Help Net Security"
-     ],
-     "published": "2026-11-19T12:53:44+00:00",
-     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/19/microsoft-agent-framework-package-pypi-compromised/) reported that two releases of Microsoft's official agent-framework package on the Python Package Index carried code that steals cloud and CI/CD credentials from developers."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Microsoft Python agent framework malware",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "1c32870d37292eb9",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-19T11:45:00+00:00",
-     "publisher": "The Register",
-     "region": null,
-     "section": "news",
-     "title": "Cyberattack on service provider exposes payee data at 40 Irish credit unions",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "e1419363192b687c",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-18T19:39:33+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "wellington-it-cyberattack",
-   "label": "Wellington IT cyberattack",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "e1419363192b687c"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-18T19:39:33+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/) reported that a cyberattack on Wellington IT exposed sensitive information belonging to members of credit unions, with 40 located in Ireland."
-    },
-    {
-     "articles": [
-      "1c32870d37292eb9"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "The Register"
-     ],
-     "published": "2026-11-19T11:45:00+00:00",
-     "text": "[The Register](https://www.theregister.com/security/2026/11/19/cyberattack-on-service-provider-exposes-payee-data-at-40-irish-credit-unions/5310979) reported that a minister called the notification delay not acceptable after an October attack on Irish banking player Wellington IT came to light in November."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Wellington IT cyberattack",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "899b744ee0f7dbb8",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-19T10:44:04+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "N-able Confirms Server Breach, Disables Mail Assure and SpamExperts Management Access",
-     "type": null,
-     "url": "https://cybersecuritynews.com/n-able-confirms-server-breach/"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "c22f84a656114122",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-19T09:31:26+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "n-able-cloud-server-breach",
-   "label": "N-able cloud server breach",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "c22f84a656114122"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-19T09:31:26+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html) reported that unknown threat actors gained unauthorized access to a server in the Mail Assure and Spam Experts Hosted Cloud, causing disruption across three regions."
-    },
-    {
-     "articles": [
-      "899b744ee0f7dbb8"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-19T10:44:04+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/n-able-confirms-server-breach/) reported that N-able disabled management access across the Americas, Europe, and Australia following unauthorized access to a server in its Mail Assure and SpamExperts Hosted Cloud environment."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "N-able cloud server breach",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "86d72ddd374f6041",
-     "lang": "en",
-     "outlet": "Check Point Research",
-     "published": "2026-11-19T13:19:10+00:00",
-     "publisher": "Check Point Research",
-     "region": null,
-     "section": "intel",
-     "title": "30 Years of Gatekeeper Asymmetry Doom: The Paradox that Makes Powerful LLMs More Vulnerable",
-     "type": null,
-     "url": "https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "check-point-llm-security-research",
-   "label": "Check Point LLM security research",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "86d72ddd374f6041"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Check Point Research"
-     ],
-     "published": "2026-11-19T13:19:10+00:00",
-     "text": "[Check Point Research](https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/) reported an exposition for a principle of gatekeeper asymmetry doom in information security regarding vulnerabilities in powerful LLMs."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Check Point LLM security research",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "dates": [
-      "2026-11-19"
-     ],
-     "id": "b98371a27893c32b",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-19T14:42:41+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Urges Users to Update",
-     "type": null,
-     "url": "https://cybersecuritynews.com/php-8-released/"
-    },
-    {
-     "added": "2026-11-19",
-     "dates": [
-      "2026-11-19"
-     ],
-     "id": "0c5ae972e54fa219",
-     "lang": "en",
-     "outlet": "The Hacker News",
-     "published": "2026-11-19T04:33:46+00:00",
-     "publisher": "The Hacker News",
-     "region": null,
-     "section": "news",
-     "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-     "type": null,
-     "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "php-security-vulnerabilities",
-   "label": "PHP security vulnerabilities",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "0c5ae972e54fa219"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "The Hacker News"
-     ],
-     "published": "2026-11-19T04:33:46+00:00",
-     "text": "[The Hacker News](https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html) reported that PHP maintainers issued an advisory announcing an upcoming security release addressing critical flaws."
-    },
-    {
-     "articles": [
-      "b98371a27893c32b"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-19T14:42:41+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/php-8-released/) reported that the PHP security team warned of vulnerabilities across all branches covered by its security update."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "PHP security vulnerabilities",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "7d54a46725fb4a2e",
-     "lang": "en",
-     "outlet": "The Record",
-     "published": "2026-11-19T15:15:00+00:00",
-     "publisher": "The Record",
-     "region": null,
-     "section": "news",
-     "title": "European Commission confirms cyberattack, says hackers used AI tool",
-     "type": null,
-     "url": "https://therecord.media/european-commission-confirms-cyberattack-using-ai"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "0e41b497221c3bd5",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-19T15:06:40+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption",
-     "type": null,
-     "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "819d875be7bc659c",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-19T09:53:35+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Target European Commission with ARTEX AI Tool in Major Cyberattack",
-     "type": null,
-     "url": "https://cybersecuritynews.com/european-commission-cyberattack/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "european-commission-cyberattack",
-   "label": "European Commission cyberattack",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "0e41b497221c3bd5"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-19T15:06:40+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html) reported that investigators are assessing whether staff data was stolen in the cyberattack."
-    },
-    {
-     "articles": [
-      "819d875be7bc659c"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-19T09:53:35+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/european-commission-cyberattack/) reported that a cyberattack on the European Commission disrupted staff services for more than 10 days."
-    },
-    {
-     "articles": [
-      "7d54a46725fb4a2e"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "The Record"
-     ],
-     "published": "2026-11-19T15:15:00+00:00",
-     "text": "[The Record](https://therecord.media/european-commission-confirms-cyberattack-using-ai) reported that the European Commission confirmed the cyberattack and stated hackers used an AI tool."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "European Commission Cyberattack: ARTEX AI Tool Suspected in Prolonged Disruption",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-19",
-    "of": 2,
-    "outlet": "Security Affairs",
-    "url": "https://securityaffairs.com/203483/hacking/european-commission-cyberattack-artex-ai-tool-suspected-in-prolonged-disruption.html"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "9823e1d647981c29",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-19T17:26:39+00:00",
-     "publisher": "Malwarebytes Labs",
-     "region": null,
-     "section": "intel",
-     "title": "Deepfake Elon Musk nearly costs viewers $4.7 million in crypto",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/ai/2026/11/deepfake-elon-musk-nearly-costs-viewers-4-7-million-in-crypto"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "a6b12cc372b51730",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-18T20:49:32+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "coinbase-elon-musk-deepfake-scam",
-   "label": "Coinbase Elon Musk deepfake scam",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a6b12cc372b51730"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-18T20:49:32+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/) reported that Coinbase blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Coinbase Elon Musk deepfake scam",
-   "topic": "crime"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-19",
-     "id": "3322786abffb0ffc",
-     "lang": "en",
-     "outlet": "CrowdStrike Blog",
-     "published": "2026-11-19T19:40:18+00:00",
-     "publisher": "CrowdStrike Blog",
-     "region": null,
-     "section": "intel",
-     "title": "Java4Shell (CVE-2026-114938): CrowdStrike Detects Exposure and Post-Exploitation Activity",
-     "type": null,
-     "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "crowdstrike-java4shell-cve-2026-114938-discovery",
-   "label": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
-   "last_reported": "2026-11-19",
-   "last_updated": "2026-11-19",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "3322786abffb0ffc"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "CrowdStrike Blog"
-     ],
-     "published": "2026-11-19T19:40:18+00:00",
-     "text": "[CrowdStrike Blog](https://www.crowdstrike.com/en-us/blog/crowdstrike-helps-protect-against-java4shell-cve-2026-114938/) reported that CrowdStrike detected exposure and post-exploitation activity related to Java4Shell vulnerability CVE-2026-114938."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "CrowdStrike Java4Shell CVE-2026-114938 discovery",
-   "topic": "security"
   },
   {
    "article_count": 8,
@@ -3899,14 +3006,14 @@
      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "idunno-anticsrf-library-vulnerability",
    "label": "Idunno.AntiCsrf library vulnerability",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3971,7 +3078,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Idunno.AntiCsrf library vulnerability",
    "topic": "cyber"
   },
@@ -5255,14 +4362,14 @@
      "url": "https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "nginx-http-2-vulnerability",
    "label": "NGINX HTTP/2 vulnerability",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5277,9 +4384,9 @@
      "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/cve-2026-123633-nginx-http2-vulnerability/) reported a technical analysis of CVE-2026-123633, an NGINX HTTP/2 use-after-free flaw, with details on affected versions, sanitizer tests, and patch guidance."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "NGINX HTTP/2 vulnerability",
    "topic": "cyber"
   },
@@ -5339,14 +4446,14 @@
      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "check-point-servers-compromise",
    "label": "Check Point servers compromise",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "previous_titles": [
     "Check Point Security Management Servers Hacked in AI-Assisted Campaign"
    ],
@@ -5402,7 +4509,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "GT13: AI-Assisted Hackers Target 22 Organizations Through Check Point Servers",
    "title_from": {
     "backing": 3,
@@ -5430,14 +4537,14 @@
      "url": "https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "preinstalled-android-malware-research",
    "label": "Preinstalled Android malware research",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5452,9 +4559,9 @@
      "text": "[Kaspersky](https://securelist.com/tr/how-to-protect-against-preinstalled-android-malware/122093/) reported on Trojans in the firmware of Android devices, sharing statistics and discussing risks to corporate users along with ways to counter the threat."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Preinstalled Android malware research",
    "topic": "cyber"
   },
@@ -5514,14 +4621,14 @@
      "url": "https://cybersecuritynews.com/palo-alto-confirms-fragnesia-exploitation/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "palo-alto-networks-fragnesia-flaw-exploitation",
    "label": "Palo Alto Networks Fragnesia flaw exploitation",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5574,7 +4681,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Palo Alto Fixes Fragnesia Kernel Bug Chained With PHP2Shell in Firewall Attacks",
    "title_from": {
     "backing": 2,
@@ -5615,14 +4722,14 @@
      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "volant-manticore-cyber-espionage-campaign",
    "label": "Volant Manticore cyber espionage campaign",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5651,7 +4758,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Volant Manticore cyber espionage campaign",
    "topic": "cyber"
   },
@@ -5685,14 +4792,14 @@
      "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "us-treasury-department-fincen-cyber-incident",
    "label": "US Treasury Department FinCEN cyber incident",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5721,7 +4828,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US Treasury Department FinCEN cyber incident",
    "topic": "cyber"
   },
@@ -5742,14 +4849,14 @@
      "url": "https://opensourcemalware.com/blog/walletguard-phishing-campaign"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "walletguard-github-crypto-phishing-campaign",
    "label": "WalletGuard GitHub crypto phishing campaign",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5764,9 +4871,9 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/walletguard-phishing-campaign) reported that WalletGuard is a coordinated, AI-generated phishing campaign hosted and run entirely in GitHub that targeted over 200 open-source projects."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "WalletGuard GitHub crypto phishing campaign",
    "topic": "cyber"
   },
@@ -5787,14 +4894,14 @@
      "url": "https://opensourcemalware.com/blog/how-a-fake-job-interview-led-to-the-6-34-billion-binance-theft"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "how-a-fake-job-interview-led",
    "label": "How a Fake Job Interview Led to the $6.34 Billion Binance Theft",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5809,9 +4916,9 @@
      "text": "[OpenSourceMalware](https://opensourcemalware.com/blog/how-a-fake-job-interview-led-to-the-6-34-billion-binance-theft) reported that North Korea's TraderTraitor used the Contagious Interview playbook in an incident described as a Binance theft."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "How a Fake Job Interview Led to the $6.34 Billion Binance Theft",
    "topic": "cyber"
   },
@@ -5845,14 +4952,14 @@
      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2aFFjSnlpZTVYazFsMzVxcVF2T3hUWEZlVmhXTklLWFlIS1ZPdUNuNk95S0RpRjV0NldBeGpBVXhESFVzbDhDNXZpaXZvOGdXSFFEMjA4Slc?oc=5"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "iranian-hackers-target-cyprus-infrastructure",
    "label": "Iranian hackers target Cyprus infrastructure",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-25",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5881,12 +4988,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Iranian hackers target Cyprus infrastructure",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-25T22:33:45+00:00"
+ "updated": "2026-11-26T01:59:15+00:00"
 }
