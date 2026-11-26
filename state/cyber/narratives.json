@@ -709,22 +709,22 @@
   {
    "articles": 214,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 4,
+   "calls": 4,
+   "candidates": 7,
    "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 186,
-   "in_stories": 7,
-   "kept": 4,
+   "in_stories": 13,
+   "kept": 10,
    "merged": 1,
-   "new": 2,
+   "new": 5,
    "rejected": 2,
    "reported_by_2": 3,
-   "runs": 4,
-   "sent": 4,
+   "runs": 5,
+   "sent": 7,
    "skipped": 0,
    "split_calls": 0,
    "updated": 1,
@@ -1052,7 +1052,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T10:37:44+00:00"
+  "all": "2026-11-26T13:56:35+00:00"
  },
  "narratives": [
   {
@@ -5177,9 +5177,225 @@
     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
    },
    "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "dates": [
+      "2026-11-24"
+     ],
+     "id": "62e432cc4fe91a78",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-26T08:33:52+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical Danfoss Refrigeration Controller Flaw Could Allow Remote Code Execution Without Authentication",
+     "type": null,
+     "url": "https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "cf0cf9851124d6e1",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-25T16:13:40+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "danfoss-refrigeration-controllers-vulnerability",
+   "label": "Danfoss refrigeration controllers vulnerability",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "cf0cf9851124d6e1"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-25T16:13:40+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/) reported that the U.S. Cybersecurity and Infrastructure Security Agency warned about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers."
+    },
+    {
+     "articles": [
+      "62e432cc4fe91a78"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-26T08:33:52+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/) reported that CVE-2026-129713 affects Danfoss AK-SM 8xxA refrigeration controllers running version 5.4.0 or earlier and could allow unauthenticated remote code execution."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Danfoss refrigeration controllers vulnerability",
+   "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "029eb0c3d4bc27ae",
+     "lang": "en",
+     "outlet": "AeroTime",
+     "published": "2026-11-26T11:54:35+00:00",
+     "publisher": "AeroTime",
+     "region": null,
+     "section": "aviation",
+     "title": "FedEx MD-11 overruns runway at Miami airport, triggering ground stop",
+     "type": null,
+     "url": "https://www.aerotime.aero/articles/fedex-md-11-runway-overrun-miami-airport"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "8caab8fc6687bb59",
+     "lang": "en",
+     "outlet": "Simple Flying",
+     "published": "2026-11-26T02:52:52+00:00",
+     "publisher": "Simple Flying",
+     "region": null,
+     "section": "aviation",
+     "title": "34-Year-Old FedEx McDonnell Douglas MD-11 Overshoots Runway In Miami, Triggers Ground Stop",
+     "type": null,
+     "url": "https://simpleflying.com/fedex-mcdonnell-douglas-md-11-overshoots-runway-miami-triggers-ground-stop/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "fedex-md-11-miami-runway-overruns",
+   "label": "FedEx MD-11 Miami runway overruns",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8caab8fc6687bb59"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Simple Flying"
+     ],
+     "published": "2026-11-26T02:52:52+00:00",
+     "text": "[Simple Flying](https://simpleflying.com/fedex-mcdonnell-douglas-md-11-overshoots-runway-miami-triggers-ground-stop/) reported that a 34-year-old FedEx McDonnell Douglas MD-11 overshot the runway in Miami and triggered a ground stop with no injuries reported."
+    },
+    {
+     "articles": [
+      "029eb0c3d4bc27ae"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "AeroTime"
+     ],
+     "published": "2026-11-26T11:54:35+00:00",
+     "text": "[AeroTime](https://www.aerotime.aero/articles/fedex-md-11-runway-overrun-miami-airport) reported that a FedEx Express McDonnell Douglas MD-11 freighter overran a runway while landing at Miami International Airport."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "FedEx MD-11 Miami runway overruns",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "dates": [
+      "2026-11-25"
+     ],
+     "id": "697b96b644a76591",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-26T09:06:38+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Drupal Warns of Active Attacks Exploiting New Critical Website Takeover Vulnerability",
+     "type": null,
+     "url": "https://cybersecuritynews.com/drupal-website-takeover-flaw/"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "3d096e7b634570ba",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-26T07:02:34+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "drupal-vulnerability-active-exploitation",
+   "label": "Drupal vulnerability active exploitation",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "3d096e7b634570ba"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-26T07:02:34+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html) reported that Drupal warned of a new highly critical security flaw impacting Drupal core that has been exploited in the wild under the tracking number CVE-."
+    },
+    {
+     "articles": [
+      "697b96b644a76591"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-26T09:06:38+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/drupal-website-takeover-flaw/) reported that attackers are actively exploiting CVE-2026-136716, a highly critical access bypass that can let them take over vulnerable websites."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Drupal vulnerability active exploitation",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-26T10:38:00+00:00"
+ "updated": "2026-11-26T13:57:09+00:00"
 }

@@ -3513,258 +3513,514 @@
  },
  {
   "date": "2026-11-26",
-  "kind": "title",
-  "group": "namerica",
-  "story": "India news: Resolve tariff concerns in trade talks — India tells US",
-  "text": "Global opposition to proposed US tariffs",
-  "reason": "title replaced by a headline: names not in cited articles: Global"
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Judges recommend prosecutors end corruption case against Netanyahu",
+  "text": "[146] reported that Prime Minister Benjamin Netanyahu called the court's recommendation a ray of light for truth and justice.",
+  "reason": "names not in cited articles: Benjamin"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Duran Duran guitarist Andy Taylor death",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
  },
  {
   "date": "2026-11-26",
   "kind": "rejected",
-  "group": "namerica",
-  "story": "India news: Resolve tariff concerns in trade talks — India tells US",
-  "text": "[17][18] reported that India urged the United States to resolve trade and tariff concerns through ongoing bilateral negotiations and denied US claims that New Delhi's policies promote excess manufacturing capacity.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-26",
-  "kind": "title",
   "group": "europe",
-  "story": "EU leaders seek to bridge their differences and agree on a budget deal and a new loan for Ukraine",
-  "text": "EU budget and Ukraine financial support summit",
-  "reason": "title replaced by a headline: wording not from cited articles: financial, support"
+  "story": "UK net migration statistics",
+  "text": "[33] reported that the drop offers a political boost to the Labour government amid pressure from Reform UK.",
+  "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-26",
   "kind": "skipped",
   "group": "europe",
-  "story": "Veruschka von Lehndorff death",
+  "story": "Angelina Jolie and Brad Pitt winery settlement",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Pakistan medicine verification app launch",
+  "text": "",
+  "reason": "off-topic for this site (topic: technology): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Pete Edochie death and tributes",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Miss Universe 2026 pageant results",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Hera spacecraft images of Dimorphos crater",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Generic HIV prevention drug rollout in Africa",
+  "text": "",
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "merged",
+  "group": "global",
+  "story": "Bandits attack Zamfara mosque, kill APC e-registration supervisor, abduct worshippers",
+  "text": "Jigawa village community attack",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Goncourt des Lycéens literary prize award",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "dropped",
+  "group": "africa",
+  "story": "",
+  "text": "Security operatives assault lawmaker’s aide attempting to access 2026 budget review meeting venue",
+  "reason": "the AI returned no story for this group of 3 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Sierra Leone maternal mortality",
+  "text": "",
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "India Netflix Pakistani series dispute",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "European Commission energy truce proposal",
+  "text": "[25] reported that European Commission chief Ursula von der Leyen told lawmakers that an energy ceasefire would show Vladimir Putin is serious about peace talks.",
+  "reason": "names not in cited articles: Ursula, Vladimir"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
+  "group": "mena",
+  "story": "Eisenkot, Liberman agree Defense, Justice Mins. to go to Yisrael Beytenu in coalition deal - report",
+  "text": "Israel coalition deal ministry allocation",
+  "reason": "title replaced by a headline: wording not from cited articles: ministry, allocation"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Eisenkot, Liberman agree Defense, Justice Mins. to go to Yisrael Beytenu in coalition deal - report",
+  "text": "[41] reported that Avigdor Liberman will receive defense, justice, and aliyah and integration portfolios under a coalition deal.",
+  "reason": "names not in cited articles: Avigdor"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Death of Andy Taylor",
   "text": "",
   "reason": "off-topic for this site (topic: celebrity): not created"
  },
  {
   "date": "2026-11-26",
   "kind": "skipped",
-  "group": "europe",
-  "story": "Ibiza oil tanker sinking",
+  "group": "asia",
+  "story": "Jannik Sinner Australian Open absence",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): Espagne : un pétrolier chargé de diesel coule au large d’Ibiza, faisant un mort"
+  "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Ibiza oil tanker sinking",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Espagne : un navire transportant du diesel coule au large d’Ibiza, un membre de "
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ibiza oil tanker sinking",
-  "text": "[47][48] reported that the vessel sank about 40 kilometers from Ibiza, and Spanish authorities deployed a vessel while activating the maritime pollution emergency plan.",
-  "reason": "cites an article that doesn't belong to this story"
+  "kind": "title",
+  "group": "mena",
+  "story": "Man shot dead in central Israel; Arab community death toll rises to 207",
+  "text": "Israel and Nigeria violent incidents",
+  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
  },
  {
   "date": "2026-11-26",
   "kind": "skipped",
   "group": "asia",
-  "story": "China-Pakistan space cooperation",
+  "story": "China and Pakistan joint space exploration",
   "text": "",
   "reason": "off-topic for this site (topic: technology): not created"
  },
  {
   "date": "2026-11-26",
-  "kind": "title",
+  "kind": "rejected",
   "group": "asia",
-  "story": "Unification minister nominee vows low-key, practical approach to N. Korea relations",
-  "text": "South Korea unification minister nomination",
-  "reason": "title replaced by a headline: wording not from cited articles: south, nomination"
- },
- {
-  "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Alaskan remote community turkey airdrops",
-  "text": "",
-  "reason": "off-topic for this site (topic: lifestyle): not created"
- },
- {
-  "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Pakistan medicine verification application",
-  "text": "",
-  "reason": "off-topic for this site (topic: technology): not created"
+  "story": "MQM-P demands action over Bilawal’s bloodshed remarks amid debate on new provinces",
+  "text": "[63] reported that PPP chairman Bilawal Bhutto Zardari reiterated his call for a political reset amid an economic crisis.",
+  "reason": "names not in cited articles: Bhutto, Zardari"
  },
  {
   "date": "2026-11-26",
   "kind": "title",
-  "group": "europe",
-  "story": "Kuter zatonął u wybrzeży Islandii. Obywatel Polski wśród ofiar",
-  "text": "Icelandic waters fishing vessel sinking",
-  "reason": "title replaced by a headline: countries not in cited articles: iceland"
+  "group": "asia",
+  "story": "295 Afghans released from Pakistani prisons return home",
+  "text": "Release of Afghan prisoners in Pakistan",
+  "reason": "title replaced by a headline: wording not from cited articles: release, prisoners"
  },
  {
   "date": "2026-11-26",
   "kind": "rejected",
-  "group": "mena",
-  "story": "Egypt road traffic accident condolences",
-  "text": "[80] reported that Egyptian authorities announced the final death toll of the Ring Road accident in Giza's Waraq district reached 31 fatalities and 21 injuries, with the public prosecution launching an investigation.",
-  "reason": "number not in cited articles: 21"
+  "group": "namerica",
+  "story": "Elon Musk promises two SpaceX shares for every US child, including one from his own stake",
+  "text": "[69] reported that Elon Musk pledged two SpaceX shares for every US child as part of an $18 billion AI charm offensive following SpaceX approval for 1 million satellites.",
+  "reason": "names not in cited articles: Elon"
  },
  {
   "date": "2026-11-26",
   "kind": "skipped",
-  "group": "mena",
-  "story": "Egypt highway fuel truck fire",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Le Caire : Au moins 31 morts dans l’incendie d’un camion-citerne sur une autorou"
- },
- {
-  "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "Egypt highway fuel truck fire",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Terrible accident en Egypte: 31 morts et 21 blessés"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Egypt highway fuel truck fire",
-  "text": "[41] reported that at least 31 people died in the fuel truck fire on an autoroute in a popular district of Giza within the Cairo agglomeration.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Egypt highway fuel truck fire",
-  "text": "[42] reported that a heavy vehicle transporting hydrocarbons caused a massive fire resulting in 31 deaths and 21 injuries in Giza.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Ukrainian laser downs Russian jet-powered drone in world first",
-  "text": "[28] reported that Ukraine recorded its first laser strike against a Russian jet drone amidst escalating attacks on critical infrastructure.",
-  "reason": "analysis word not used by the source: 'escalating'"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
   "group": "africa",
-  "story": "CBN Boosts BDCs’ Dollar Supply to $1m Weekly, Eases Cash Withdrawal Rules",
-  "text": "[40] reported that Central Bank Governor Cardoso stated the naira fell to N1,455/$ on the parallel market and N1,397/$ officially while reserves dipped to $54.25bn due to seasonal demand and 2027 election spending.",
-  "reason": "names not in cited articles: Bank, Central"
- },
- {
-  "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Australia gas export and LNG policies",
+  "story": "Kenyan court halts Ebola facility",
   "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Indonesia OECD accession talks",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
+  "reason": "off-topic for this site (topic: health): not created"
  },
  {
   "date": "2026-11-26",
   "kind": "skipped",
   "group": "europe",
-  "story": "Russia annual call-in show",
+  "story": "EU fine on fragrance cartel",
   "text": "",
   "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Türkiye to issue commemorative stamp for KIZILELMA unmanned fighter jet",
-  "text": "[31] reported that Ministry of National Defense spokesperson Admiral Aktürk stated they share the pride of being the first country to bring the KIZILELMA unmanned fighter jet into its inventory.",
-  "reason": "names not in cited articles: Admiral"
- },
- {
-  "date": "2026-11-26",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "SpaceX FCC authorization and Starship plans",
-  "text": "",
-  "reason": "new story with fewer than 2 articles"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Europe hybrid threats assessment",
-  "text": "[3] reported that European governments are increasingly advising citizens to prepare for emergencies following unexpected disruptions.",
-  "reason": "names not in cited articles: European"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Judge throws Supreme Court in Trump’s face in birthright citizenship rebuke",
-  "text": "[10] reported that a federal judge in D.C. blocked President Donald Trump's second birthright citizenship order, granted class-action status, and halted new restrictions on children.",
-  "reason": "names not in cited articles: Donald"
  },
  {
   "date": "2026-11-26",
   "kind": "merged",
+  "group": "asia",
+  "story": "Bangkok oil depot explosion",
+  "text": "Bangkok oil facility explosion",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Nvidia halts chip shipments to Southeast Asia amid scrutiny over China links: Report",
+  "text": "Nvidia halts Southeast Asia chip shipments",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "Las Adidas con estampado ‘animal print’ que arrasan en Amazon: rebajadas a menos de 40 euros en Black Friday",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "dropped",
   "group": "latam",
-  "story": "El Salvador’s leader Bukele reveals how 3 Salvadoran soldiers died fighting gangs in Haiti",
-  "text": "El Salvador presidential election candidacy",
-  "reason": "duplicate story merged into an existing one"
+  "story": "",
+  "text": "Black Friday y Cyber Monday, ¿por qué se festejan y dónde encontrar ofertas en México?",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
  },
  {
   "date": "2026-11-26",
-  "kind": "merged",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Moldova illegal online casino network dismantlement",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Türkiye cyber espionage network dismantlement",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
+  "group": "europe",
+  "story": "Zatvor za bivše visoke hrvatske dužnosnice: Osuđene zbog namještanja poslova hercegovačkom biznismen",
+  "text": "Croatia corruption trial sentencing",
+  "reason": "title replaced by a headline: countries not in cited articles: croatia"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Zatvor za bivše visoke hrvatske dužnosnice: Osuđene zbog namještanja poslova hercegovačkom biznismen",
+  "text": "[21][22] reported that former Croatian state secretary Josipa Pleslić and former regional development minister Gabrijela Žalac were sentenced to prison by the County Court.",
+  "reason": "countries not in cited articles: croatia"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
   "group": "global",
-  "story": "Pope Leo calls COP31 failure ‘troubling,’ urges action on climate change",
-  "text": "COP31 climate finance and artificial intelligence",
-  "reason": "duplicate story merged into an existing one"
+  "story": "EU chief urges leaders to 'compromise' for budget deal by year-end",
+  "text": "European Union long-term budget negotiations",
+  "reason": "title replaced by a headline: names not in cited articles: Union"
  },
  {
   "date": "2026-11-26",
-  "kind": "merged",
-  "group": "africa",
-  "story": "NDC: Tinubu Spends Big on Campaign Propaganda, Neglects Security, Health Budgets",
-  "text": "Kano state influencer assassination attempt allegation",
-  "reason": "duplicate story merged into an existing one"
+  "kind": "title",
+  "group": "europe",
+  "story": "UK tells 100,000 military reservists to prepare for war amid Russia threats in first since Cold War",
+  "text": "United Kingdom military reservists outreach",
+  "reason": "title replaced by a headline: names not in cited articles: Kingdom, United"
  },
  {
   "date": "2026-11-26",
   "kind": "merged",
   "group": "asia",
-  "story": "KEPCO data breach incident",
-  "text": "CIA and US intelligence office suffer intrusion exposing unclassified information",
+  "story": "Russian Strikes Kill 2, Including Teenage Boy, in Odesa Region, Injure 2 in Kyiv",
+  "text": "Ukraine police officers killed in Zaporizhzhia strike",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "French housing energy performance regulations amendment",
+  "text": "[39][40] reported that the National Assembly of Guinea adopted a bill creating the country's sovereign wealth fund, allocating 30 percent of revenues from the Simandou project to it.",
+  "reason": "number not in cited articles: 30"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
+  "group": "asia",
+  "story": "Vietnam must explain ‘abduction’ of activists: U.N. experts",
+  "text": "UN demands explanation on activists' abduction",
+  "reason": "title replaced by a headline: wording not from cited articles: explanation, activists', abduction"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
+  "group": "asia",
+  "story": "Govt Proposes Rs0.83 Per Unit Cap on Electricity Fuel Adjustment",
+  "text": "Pakistan electricity fuel cost adjustment cap",
+  "reason": "title replaced by a headline: names not in cited articles: Pakistan"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
+  "group": "europe",
+  "story": "Ukraine repatriates 250 bodies that Russia claims are Ukrainian military personnel",
+  "text": "Repatriation of fallen bodies from Russia",
+  "reason": "title replaced by a headline: names not in cited articles: Repatriation"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Sofia Juvenile Detention Ruling",
+  "text": "[59][60] reported that the Sofia City Court confirmed the permanent detention of three minors accused of sexual abuse against a 15-year-old girl.",
+  "reason": "number not in cited articles: 3"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "title",
+  "group": "africa",
+  "story": "2027: We’ll protect voters, INEC, parties, others — FG",
+  "text": "Nigeria federal government 2027 election protection",
+  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "2027: We’ll protect voters, INEC, parties, others — FG",
+  "text": "[69][70] reported that the Nigerian Federal Government assured voters, politicians, electoral officials, and political parties of adequate protection ahead of the 2027 general elections.",
+  "reason": "names not in cited articles: Nigerian"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "Gordon Ramsay takes the wheel for BBC's 'Top Gear' comeback",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Vologda child starvation death",
+  "text": "[1] reported that an eleven-year-old girl in Vologda died from starvation in a large family, and her seven-year-old brother was hospitalized in an emaciated condition.",
+  "reason": "number not in cited articles: 7"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "At COP31, conflict over climate science slows action on global warming",
+  "text": "[44] reported that the EU rejected a final deal at the United Nations climate summit in Türkiye over the absence of explicit language on transitioning away from fossil fuels while easing its own climate rules.",
+  "reason": "names not in cited articles: Nations, United"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Kushner accused of being Putin’s spokesman after praising ‘political grandmaster’",
+  "text": "[20] reported that US Special Envoy Jared Kushner claimed Ukraine is responsible for delays in peace negotiations with Russia over an attack on Vladimir Putin's house in 2025.",
+  "reason": "names not in cited articles: Envoy, Special, Vladimir"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Kushner accused of being Putin’s spokesman after praising ‘political grandmaster’",
+  "text": "[24] reported that US envoy Jared Kushner stated in an interview that Europe has no plan for Ukraine and that people should be grateful Vladimir Putin has not used nuclear weapons.",
+  "reason": "wording not from cited articles: plan, people, vladimir, nuclear, weapons"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Kushner says Ukraine and Russia are preparing what could be the war’s largest prisoner swap",
+  "text": "[22] reported that Belarus President Alexander Lukashenko criticized the logic behind Vladimir Putin's claim to Ukrainian land.",
+  "reason": "names not in cited articles: Alexander, Belarus, Vladimir"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Houthis claim attacks on Saudi oil refinery, Riyadh financial centre",
+  "text": "[31] reported that the United Kingdom sanctioned the Houthi group and its leaders, accusing them of undermining stability in the Middle East amidst attacks on Saudi Arabia.",
+  "reason": "names not in cited articles: Arabia, Kingdom, United"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "U.S. judge blocks FCC from revoking licences of Disney-owned ABC stations",
+  "text": "[34] reported that a U.S. judge ruled the Federal Communications Commission violated ABC's free speech and cannot punish the network.",
+  "reason": "names not in cited articles: Communications"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Delta State 2027 appropriation bill",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Oborevwori’s aide resigns over Uduere killings, alleges intimidation of oppositi"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Delta State 2027 appropriation bill",
+  "text": "[37] reported that the Delta State House of Assembly passed the 2027 Appropriation Bill, approving a total budget of 1.272 trillion naira, up from the governor's 1.23 trillion naira proposal.",
+  "reason": "number not in cited articles: 1230000000000"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Delta State 2027 appropriation bill",
+  "text": "[38] reported that an aide to the Delta State governor resigned over the killing of six opposition supporters, accusing the state government of failing to protect lives.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Zenica psychiatric clinic patient abuse arrests",
+  "text": "[1] reported that evidence in the \"Emisar\" operation indicates that Naser Orić leads a criminal group.",
+  "reason": "analysis word not used by the source: 'indicates'"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "MPC Holds MPR At 23 Percent As CBN Signals Continued Focus On Inflation",
+  "text": "[4] reported that Treasury Bill rates rose 71 basis points to 16.60 percent following the Central Bank of Nigeria holding its Monetary Policy Rate at 23 percent.",
+  "reason": "names not in cited articles: Bank, Central, Monetary, Nigeria, Policy, Treasury"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Ibom LNG, Afreximbank sign deal to mobilise $1.5bn for Akwa Ibom gas project",
+  "text": "[9] reported that the Borno State Police Command arrested six suspects over shop break-ins in Maiduguri and recovered stolen goods valued at over ₦11.7 million.",
+  "reason": "number not in cited articles: 11700000"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Russian Strikes Kill 2, Including Teenage Boy, in Odesa Region, Injure 2 in Kyiv",
+  "text": "Russian Strike Kills 2 in Kharkiv as Moscow Pounds Ukraine with Ballistic Missiles, 100+ Drones",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-26",
   "kind": "merged",
   "group": "namerica",
-  "story": "Storms and flooding in US could disrupt Thanksgiving travel for tens of millions",
-  "text": "Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade",
+  "story": "Central Park horse-drawn carriage drivers sue New York City minutes after Mayor Zohran Mamdani signs ban",
+  "text": "Zohran Mamdani unveils plan to close New York’s Rikers Island jail by 2032",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-26",
   "kind": "merged",
-  "group": "mena",
-  "story": "Egypt road traffic accident condolences",
-  "text": "Egypt highway fuel truck fire",
+  "group": "asia",
+  "story": "South Korea’s education minister resigns after backlash over AI exam cheating rules",
+  "text": "[Breaking] Perfect LEET scorer Lee Jin-woo found in cardiac arrest at Seoul motel",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Hong Kong Grieves Fire Victims Under Watchful Eye of Authorities",
+  "text": "Hong Kong Wang Fuk Court support grants",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "merged",
+  "group": "europe",
+  "story": "Laure Lavalette student writings controversy",
+  "text": "Jordan Bardella antisemitism allegations",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Afghanistan rights and public participation",
+  "text": "Aid cuts to Taliban-ruled Afghanistan further curb women's access to healthcare, education and food",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]

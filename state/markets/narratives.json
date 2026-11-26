@@ -805,25 +805,25 @@
   {
    "articles": 516,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 21,
-   "continuing": 9,
+   "calls": 5,
+   "candidates": 28,
+   "continuing": 14,
    "corroborated": 1,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 452,
-   "in_stories": 34,
-   "kept": 21,
+   "in_stories": 43,
+   "kept": 28,
    "merged": 0,
-   "new": 9,
+   "new": 11,
    "rejected": 1,
    "reported_by_2": 7,
-   "runs": 4,
-   "sent": 21,
+   "runs": 5,
+   "sent": 28,
    "skipped": 2,
    "split_calls": 0,
-   "updated": 8,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T10:46:45+00:00"
+  "all": "2026-11-26T14:05:12+00:00"
  },
  "narratives": [
   {
@@ -1441,8 +1441,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 26,
+   "article_count": 28,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "54808526f4e97d04",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-26T12:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rebound as Middle East Supply Fears Return",
+     "type": "specialist",
+     "url": "https://oilprice.com/Energy/Energy-General/Oil-Prices-Rebound-as-Middle-East-Supply-Fears-Return.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "ce02defd66af6262",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-26T11:14:58+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Europe gas prices rangebound as markets weigh Middle East tensions",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/europe-gas-prices-rangebound-as-markets-weigh-middle-east-tensions-5052229"
+    },
     {
      "added": "2026-11-26",
      "id": "1b234118ccad1929",
@@ -1782,15 +1808,42 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 4,
+   "previous_titles": [
+    "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears"
+   ],
    "reports": [
+    {
+     "articles": [
+      "54808526f4e97d04"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-26T12:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Energy/Energy-General/Oil-Prices-Rebound-as-Middle-East-Supply-Fears-Return.html) reported that January WTI crude oil futures recovered from a three-month low as renewed concern over Middle East supply brought buyers back into the market."
+    },
+    {
+     "articles": [
+      "ce02defd66af6262"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T11:14:58+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/europe-gas-prices-rangebound-as-markets-weigh-middle-east-tensions-5052229) reported that Europe gas prices are rangebound as markets weigh Middle East tensions."
+    },
     {
      "articles": [
       "1b234118ccad1929"
@@ -2049,13 +2102,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears",
+   "title": "Oil Prices Mixed as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
    "title_from": {
-    "backing": 3,
-    "date": "2026-11-20",
+    "backing": 2,
+    "date": "2026-11-26",
     "of": 3,
-    "outlet": "Oilprice.com",
-    "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rebound-as-Houthi-Attacks-Reignite-Middle-East-Supply-Fears.html"
+    "outlet": "Wall Street Journal",
+    "url": "https://www.wsj.com/business/energy-oil/oil-prices-mixed-as-traders-weigh-middle-east-supply-risks-opec-meeting-c234598a?mod=pls_whats_news_us_business_f"
    },
    "topic": "energy"
   },
@@ -5724,8 +5777,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "afa095ca24f90031",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T12:24:07+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Congo Closes on Top Copper Supplier Chile as Exports Soar Again",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/congo-closes-on-top-copper-supplier-chile-as-exports-soar-again"
+    },
     {
      "added": "2026-11-23",
      "id": "a2a809cd447028fa",
@@ -5753,15 +5819,27 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "democratic-republic-of-congo-cobalt-export",
    "label": "Democratic Republic of Congo cobalt export ban",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "afa095ca24f90031"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-26T12:24:07+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/congo-closes-on-top-copper-supplier-chile-as-exports-soar-again) reported that the Democratic Republic of Congo is closing the gap on Chile after quarterly exports topped 1 million tons for the first time."
+    },
     {
      "articles": [
       "4e0a90080246ac20"
@@ -5775,9 +5853,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide) reported that the Democratic Republic of Congo will reintroduce a ban on cobalt exports from the end of the month to reverse a price slump."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Democratic Republic of Congo cobalt export ban",
    "topic": "markets"
   },
@@ -8800,8 +8878,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "b201a3f07e05d805",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-26T09:24:06+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "UniCredit to propose Orcel as chair of Commerzbank",
+     "type": "international",
+     "url": "https://www.ft.com/content/d10e7600-2f98-42d6-8262-19f0a57d1112?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-26",
      "id": "ed5eca202bbdc273",
@@ -8842,15 +8933,27 @@
      "url": "https://www.investing.com/news/stock-market-news/unicredit-clears-final-hurdles-for-commerzbank-takeover-5052161"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "unicredit-commerzbank-takeover",
    "label": "UniCredit Commerzbank takeover",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "b201a3f07e05d805"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-26T09:24:06+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/d10e7600-2f98-42d6-8262-19f0a57d1112?syn-25a6b1a6=1) reported that UniCredit will put forward its chief executive as head of the supervisory board at its German rival."
+    },
     {
      "articles": [
       "6e010c6f18a1d92a"
@@ -8890,8 +8993,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "3cf57b89cad904af",
+     "lang": "en",
+     "outlet": "BBC Business",
+     "published": "2026-11-26T13:30:12+00:00",
+     "publisher": "BBC",
+     "region": null,
+     "section": "news",
+     "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+     "type": "international",
+     "url": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss"
+    },
     {
      "added": "2026-11-26",
      "id": "51683e4329c9da88",
@@ -8919,14 +9035,14 @@
      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "norse-atlantic-flight-suspension",
    "label": "Norse Atlantic flight suspension",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -8956,11 +9072,146 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Norse Atlantic flight suspension",
+   "title": "Norse Atlantic suspends all flights as it faces potential collapse",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-26",
+    "of": 2,
+    "outlet": "BBC",
+    "url": "https://www.bbc.co.uk/news/articles/c9kgmd0ldy0lo?at_medium=RSS&at_campaign=rss"
+   },
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "665b69dd22e8e20e",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-26T13:25:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "ECB Saw Need for Another Rate Hike Unless Inflation Outlook Improved ‘Significantly’",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/central-banking/ecb-saw-need-for-another-rate-hike-unless-inflation-outlook-improved-significantly-c9a68f2b?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "9d070adeed1c508c",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T13:09:36+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "ECB Officials Saw More Tightening With Inflation Outlook Worse",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/ecb-officials-saw-more-tightening-with-inflation-outlook-worse"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "european-central-bank-monetary-policy",
+   "label": "European Central Bank monetary policy",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9d070adeed1c508c"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-26T13:09:36+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/ecb-officials-saw-more-tightening-with-inflation-outlook-worse) reported that European Central Bank officials meeting last month envisaged tightening monetary policy further in the future after the outlook for inflation worsened."
+    },
+    {
+     "articles": [
+      "665b69dd22e8e20e"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-26T13:25:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/central-banking/ecb-saw-need-for-another-rate-hike-unless-inflation-outlook-improved-significantly-c9a68f2b?mod=rss_socialeconomyfeed) reported that many officials at the central bank viewed another rise in the key interest rate as necessary unless there was a significant cooling of the outlook for inflation."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "European Central Bank monetary policy",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "69789d6916f1f593",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-26T13:27:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Altria Considering Possible Offer For Imperial Brands",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "845a18a33e66beae",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T13:24:24+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Altria weighs possible offer for UK’s Imperial Brands",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/altria-weighs-possible-offer-for-uks-imperial-brands-5052505"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "altria-and-imperial-brands-potential-deal",
+   "label": "Altria and Imperial Brands potential deal",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "69789d6916f1f593"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-26T13:27:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b?mod=pls_whats_news_us_business_f) reported that Altria is considering a possible cash offer for Imperial Brands and is in talks with a third party to buy part of Imperial Brands if a deal proceeds."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Altria and Imperial Brands potential deal",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T10:47:04+00:00"
+ "updated": "2026-11-26T14:05:31+00:00"
 }

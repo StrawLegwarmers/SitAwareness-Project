@@ -30,21 +30,5 @@
   "story": "",
   "text": "Jensen Huang Returns as NVIDIA CEO Following Unanimous Board Vote",
   "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-26",
-  "kind": "merged",
-  "group": "all",
-  "story": "1Password data breach",
-  "text": "1Password data breach",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-26",
-  "kind": "rejected",
-  "group": "all",
-  "story": "1Password data breach",
-  "text": "[2] reported that customer data was taken in the backend breach, but user vaults were not affected.",
-  "reason": "wording not from cited articles: taken, user, affected"
  }
 ]
