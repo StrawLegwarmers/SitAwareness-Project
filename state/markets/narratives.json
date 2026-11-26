@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 506,
+   "articles": 516,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 8,
-   "continuing": 5,
+   "calls": 2,
+   "candidates": 14,
+   "continuing": 7,
    "corroborated": 1,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 446,
-   "in_stories": 13,
-   "kept": 7,
+   "groups": 452,
+   "in_stories": 25,
+   "kept": 15,
    "merged": 0,
-   "new": 3,
-   "rejected": 0,
+   "new": 6,
+   "rejected": 1,
    "reported_by_2": 7,
-   "runs": 1,
-   "sent": 8,
+   "runs": 2,
+   "sent": 14,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T02:01:59+00:00"
+  "all": "2026-11-26T04:48:00+00:00"
  },
  "narratives": [
   {
@@ -3113,8 +3113,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 21,
+   "article_count": 22,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "2e3020106cb4c2f8",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-26T02:44:21+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold gains 1%, silver rallies 3% on MCX even as Fed rate hike bets weigh on bullion: Gold Silver Rates Live Updates",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/url-live-updates-gold-rate-today-26th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136176736.cms"
+    },
     {
      "added": "2026-11-26",
      "id": "109c73303d589547",
@@ -3389,7 +3402,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3399,7 +3412,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -3520,7 +3533,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "US dollar and gold markets",
+   "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-26",
+    "of": 2,
+    "outlet": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes"
+   },
    "topic": "markets"
   },
   {
@@ -6552,8 +6572,34 @@
    "topic": "economy"
   },
   {
-   "article_count": 4,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "29d96f56c4ad0041",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-26T04:18:41+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "South Korea’s central bank raises rates, upgrades 2027 growth outlook",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "b4d703ede46b686b",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T01:50:21+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html"
+    },
     {
      "added": "2026-11-26",
      "id": "e0b0b08f8c8aad43",
@@ -6607,15 +6653,39 @@
      "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "south-korea-interest-rates",
    "label": "South Korea interest rates",
-   "last_reported": "2026-11-24",
+   "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "b4d703ede46b686b"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T01:50:21+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html) reported that the central bank raised rates by 25 basis points to 3.25% for its final meeting of the year."
+    },
+    {
+     "articles": [
+      "29d96f56c4ad0041"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T04:18:41+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-5051906) reported that South Korea's central bank upgraded its 2027 growth outlook."
+    },
     {
      "also": [
       {
@@ -6651,7 +6721,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "updated",
    "title": "South Korea interest rates",
    "topic": "economy"
   },
@@ -8374,9 +8444,265 @@
    "status": "new",
    "title": "Situational Awareness hedge fund losses",
    "topic": "markets"
+  },
+  {
+   "article_count": 5,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "bbf3691e20c549b0",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T04:00:15+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "7eb8ffa3c4a67d1c",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-26T03:03:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Judge Says FCC Must Stop ABC License Review",
+     "type": "international",
+     "url": "https://www.wsj.com/business/media/judge-says-fcc-must-stop-abc-license-review-3748d619?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "a94a6240d0b3de07",
+     "lang": "en",
+     "outlet": "The Guardian Business",
+     "published": "2026-11-26T02:52:47+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Judge blocks Brendan Carr-led FCC from taking any further action against ABC’s licenses",
+     "type": "international",
+     "url": "https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "5174a591ddb45d34",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T02:45:06+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "U.S. judge blocks FCC from revoking Disney’s ABC TV licenses",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/us-judge-blocks-fcc-from-revoking-disneys-abc-tv-licenses-5051928"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "4cfeffc3febe75e7",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T00:36:21+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Judge bars US FCC from taking steps to threaten ABC’s broadcast license",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/judge-bars-us-fcc-from-taking-steps-to-threaten-abcs-broadcast-license-5051818"
+    }
+   ],
+   "articles_today": 5,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "fcc-abc-license-review-dispute",
+   "label": "FCC ABC license review dispute",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 4,
+   "reports": [
+    {
+     "articles": [
+      "a94a6240d0b3de07"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-26T02:52:47+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/us-news/2026/nov/25/brendan-carr-fcc-abc-licenses) reported that federal judge Loren L AliKhan granted a preliminary injunction in ABC’s favor after the network sued the FCC."
+    },
+    {
+     "articles": [
+      "bbf3691e20c549b0"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T04:00:15+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html) reported that a judge blocked the FCC's early license renewal process for Disney-owned ABC stations."
+    },
+    {
+     "articles": [
+      "7eb8ffa3c4a67d1c"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-26T03:03:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/media/judge-says-fcc-must-stop-abc-license-review-3748d619?mod=pls_whats_news_us_business_f) reported that the Disney-owned network accused the agency of trying to quash free speech critical of Trump."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-26",
+    "of": 3,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html"
+   },
+   "topic": "politics"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "457d7fd1ef00f18c",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T03:19:44+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "S&P warns Nvidia credit rating could be cut over 'rising' management and governance risk",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "25d4478805ac530c",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-25T19:00:44+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "S&P Global places Nvidia rating on ’CreditWatch Negative’ on rising management and governance risks",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks-5051352"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "nvidia-credit-rating-governance-risk",
+   "label": "Nvidia credit rating governance risk",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "457d7fd1ef00f18c"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T03:19:44+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/nvidia-market-governance-risk.html) reported that S&P Global Ratings said Nvidia's credit rating could be cut by one notch due to rising management and governance risk."
+    },
+    {
+     "articles": [
+      "25d4478805ac530c"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-25T19:00:44+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks-5051352) reported that S&P Global placed Nvidia rating on CreditWatch Negative."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Nvidia credit rating governance risk",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "7d68375455e3bc12",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T00:27:52+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "36f02f89a7da2990",
+     "lang": "en",
+     "outlet": "MarketWatch Top Stories",
+     "published": "2026-11-25T21:50:00+00:00",
+     "publisher": "MarketWatch",
+     "region": null,
+     "section": "news",
+     "title": "Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’",
+     "type": "international",
+     "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "spacex-and-elon-musk-trump-accounts",
+   "label": "SpaceX and Elon Musk Trump accounts donation",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "36f02f89a7da2990"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "MarketWatch"
+     ],
+     "published": "2026-11-25T21:50:00+00:00",
+     "text": "[MarketWatch](https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories) reported that SpaceX will provide one newly issued Class A share to every active Trump account and CEO Elon Musk will match that gift."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "SpaceX and Elon Musk Trump accounts donation",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T02:02:19+00:00"
+ "updated": "2026-11-26T04:48:20+00:00"
 }
