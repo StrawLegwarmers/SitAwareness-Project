@@ -805,22 +805,22 @@
   {
    "articles": 516,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 14,
+   "calls": 3,
+   "candidates": 15,
    "continuing": 7,
    "corroborated": 1,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 452,
-   "in_stories": 25,
-   "kept": 15,
+   "in_stories": 27,
+   "kept": 16,
    "merged": 0,
-   "new": 6,
+   "new": 7,
    "rejected": 1,
    "reported_by_2": 7,
-   "runs": 2,
-   "sent": 14,
+   "runs": 3,
+   "sent": 15,
    "skipped": 0,
    "split_calls": 0,
    "updated": 6,
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T04:48:00+00:00"
+  "all": "2026-11-26T08:06:41+00:00"
  },
  "narratives": [
   {
@@ -8700,9 +8700,69 @@
    "status": "new",
    "title": "SpaceX and Elon Musk Trump accounts donation",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "a527556fbb8ccd05",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-26T04:49:08+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Adani firms plan public bond sale to raise at least Rs 2,000 crore",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/articleshow/136178950.cms"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "756a38fe8587a404",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T03:42:25+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Adani Firms Plan Public Bond Sale to Raise at Least $220 Million",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "adani-firms-public-bond-sale",
+   "label": "Adani firms public bond sale",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "756a38fe8587a404",
+      "a527556fbb8ccd05"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "ET Markets"
+     ],
+     "published": "2026-11-26T03:42:25+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million), [ET Markets](https://economictimes.indiatimes.com/markets/bonds/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million/articleshow/136178950.cms) reported that two companies controlled by Gautam Adani plan public bond sales to raise at least $220 million."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Adani firms public bond sale",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T04:48:20+00:00"
+ "updated": "2026-11-26T08:07:00+00:00"
 }

@@ -707,27 +707,27 @@
  ],
  "coverage": [
   {
-   "articles": 197,
+   "articles": 214,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
-   "continuing": 0,
+   "calls": 2,
+   "candidates": 3,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 171,
-   "in_stories": 1,
-   "kept": 0,
+   "groups": 186,
+   "in_stories": 5,
+   "kept": 3,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 1,
-   "reported_by_2": 2,
-   "runs": 2,
-   "sent": 1,
+   "reported_by_2": 3,
+   "runs": 3,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -1052,12 +1052,38 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T04:43:30+00:00"
+  "all": "2026-11-26T08:02:25+00:00"
  },
  "narratives": [
   {
-   "article_count": 22,
+   "article_count": 24,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "4b8b841a1b5c78da",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-26T06:44:46+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "7ca73063fca1d317",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-26T06:05:09+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "U.S. CISA adds HPE, Danfoss, Mitel MiCollab, and Vates Xen Orchestra flaws to its Known Exploited Vulnerabilities catalog",
+     "type": null,
+     "url": "https://securityaffairs.com/204014/hacking/u-s-cisa-adds-hpe-juniper-session-smart-conductor-and-session-smart-router-flaw-to-its-known-exploited-vulnerabilities-catalog.html"
+    },
     {
      "added": "2026-11-25",
      "dates": [
@@ -1338,18 +1364,32 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 2,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
-   "last_reported": "2026-11-25",
-   "last_updated": "2026-11-25",
-   "outlets_today": 0,
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
    "previous_titles": [
     "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog"
    ],
    "reports": [
+    {
+     "articles": [
+      "4b8b841a1b5c78da",
+      "7ca73063fca1d317"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Security Affairs",
+      "The Hacker News"
+     ],
+     "published": "2026-11-26T06:05:09+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/204014/hacking/u-s-cisa-adds-hpe-juniper-session-smart-conductor-and-session-smart-router-flaw-to-its-known-exploited-vulnerabilities-catalog.html), [The Hacker News](https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html) reported that the U.S. Cybersecurity and Infrastructure Security Agency added vulnerabilities affecting HPE, Danfoss, Mitel MiCollab, Vates Xen Orchestra, and Juniper to its Known Exploited Vulnerabilities catalog."
+    },
     {
      "articles": [
       "0739bb612a7edf39"
@@ -1476,7 +1516,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog",
    "title_from": {
     "backing": 2,
@@ -5022,9 +5062,79 @@
    "status": "new",
    "title": "Securing Employees’ AI Use Requires a Unified Architecture",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "dea1925ce5845b82",
+     "lang": "en",
+     "outlet": "The Hacker News",
+     "published": "2026-11-26T04:20:22+00:00",
+     "publisher": "The Hacker News",
+     "region": null,
+     "section": "news",
+     "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+     "type": null,
+     "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "8ec1c6e04cbe6ae3",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-25T21:33:33+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "1Password customer data stolen after employee GitHub account breach",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "1password-data-breach",
+   "label": "1Password data breach",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "8ec1c6e04cbe6ae3"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-25T21:33:33+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/) reported that 1Password disclosed a data breach following the compromise of an employee's corporate GitHub account, which was used to deploy malicious code to backend services."
+    },
+    {
+     "articles": [
+      "dea1925ce5845b82"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "The Hacker News"
+     ],
+     "published": "2026-11-26T04:20:22+00:00",
+     "text": "[The Hacker News](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html) reported that customer data and source code were stolen during the security incident involving backend systems."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "1Password data breach",
+   "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-26T04:43:47+00:00"
+ "updated": "2026-11-26T08:02:44+00:00"
 }
