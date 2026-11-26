@@ -709,25 +709,25 @@
   {
    "articles": 214,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 7,
-   "continuing": 1,
+   "calls": 5,
+   "candidates": 11,
+   "continuing": 4,
    "corroborated": 0,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 186,
-   "in_stories": 13,
+   "in_stories": 15,
    "kept": 10,
    "merged": 1,
    "new": 5,
    "rejected": 2,
    "reported_by_2": 3,
-   "runs": 5,
-   "sent": 7,
+   "runs": 6,
+   "sent": 11,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -1052,7 +1052,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T13:56:35+00:00"
+  "all": "2026-11-26T16:41:53+00:00"
  },
  "narratives": [
   {
@@ -4803,8 +4803,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "79fac2fa690ed27e",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-25T17:01:30+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "U.S. Treasury’s FinCEN Confirms Cyberattack, Takes Systems Offline After Unauthorized Access",
+     "type": null,
+     "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/"
+    },
     {
      "added": "2026-11-25",
      "id": "bf08074be63ce364",
@@ -4832,14 +4845,14 @@
      "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "us-treasury-department-fincen-cyber-incident",
    "label": "US Treasury Department FinCEN cyber incident",
    "last_reported": "2026-11-25",
-   "last_updated": "2026-11-25",
-   "outlets_today": 0,
+   "last_updated": "2026-11-26",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -4866,9 +4879,9 @@
      "text": "[CyberScoop](https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/) reported that the filing portal remains operational and deadlines for affected filers have been extended."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "US Treasury Department FinCEN cyber incident",
    "topic": "cyber"
   },
@@ -5127,6 +5140,9 @@
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
    "outlets_today": 4,
+   "previous_titles": [
+    "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach"
+   ],
    "reports": [
     {
      "articles": [
@@ -5168,19 +5184,32 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
    "title_from": {
-    "backing": 2,
+    "backing": 3,
     "date": "2026-11-26",
     "of": 3,
-    "outlet": "The Hacker News",
-    "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    "outlet": "Help Net Security",
+    "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/"
    },
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "b3309653a7a93be4",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-26T14:15:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/"
+    },
     {
      "added": "2026-11-26",
      "dates": [
@@ -5211,14 +5240,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "danfoss-refrigeration-controllers-vulnerability",
    "label": "Danfoss refrigeration controllers vulnerability",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
     {
      "articles": [
@@ -5248,7 +5277,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Danfoss refrigeration controllers vulnerability",
+   "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-26",
+    "of": 2,
+    "outlet": "Infosecurity Magazine",
+    "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/"
+   },
    "topic": "security"
   },
   {
@@ -5397,5 +5433,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-26T13:57:09+00:00"
+ "updated": "2026-11-26T16:42:10+00:00"
 }

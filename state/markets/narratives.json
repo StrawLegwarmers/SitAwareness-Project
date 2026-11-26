@@ -805,25 +805,25 @@
   {
    "articles": 516,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 28,
-   "continuing": 14,
+   "calls": 6,
+   "candidates": 35,
+   "continuing": 17,
    "corroborated": 1,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 452,
-   "in_stories": 43,
-   "kept": 28,
-   "merged": 0,
-   "new": 11,
-   "rejected": 1,
+   "in_stories": 53,
+   "kept": 34,
+   "merged": 1,
+   "new": 14,
+   "rejected": 2,
    "reported_by_2": 7,
-   "runs": 5,
-   "sent": 28,
-   "skipped": 2,
+   "runs": 6,
+   "sent": 35,
+   "skipped": 3,
    "split_calls": 0,
-   "updated": 10,
+   "updated": 13,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T14:05:12+00:00"
+  "all": "2026-11-26T16:48:46+00:00"
  },
  "narratives": [
   {
@@ -3191,7 +3191,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 22,
+   "article_count": 23,
    "articles": [
     {
      "added": "2026-11-26",
@@ -3205,6 +3205,19 @@
      "title": "Gold gains 1%, silver rallies 3% on MCX even as Fed rate hike bets weigh on bullion: Gold Silver Rates Live Updates",
      "type": "regional",
      "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/url-live-updates-gold-rate-today-26th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136176736.cms"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "976a22cfa02b953c",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-26T02:05:38+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold extends losses as hot US inflation cements Fed hike bets",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-extends-losses-as-hot-us-inflation-cements-fed-hike-bets/articleshow/136176262.cms"
     },
     {
      "added": "2026-11-26",
@@ -3480,7 +3493,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3622,8 +3635,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 18,
+   "article_count": 19,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "0dc1ac2eda13ca0f",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-26T16:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Tanker Traffic at Hormuz Ticks Up Despite Intensified Attacks",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Tanker-Traffic-at-Hormuz-Ticks-Up-Despite-Intensified-Attacks.html"
+    },
     {
      "added": "2026-11-25",
      "id": "27454569186b96de",
@@ -3859,19 +3885,31 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
-   "last_reported": "2026-11-25",
-   "last_updated": "2026-11-25",
-   "outlets_today": 0,
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 1,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs",
     "Oil Prices Continue to Fall as Global Supply Surplus Weighs"
    ],
    "reports": [
+    {
+     "articles": [
+      "0dc1ac2eda13ca0f"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-26T16:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Tanker-Traffic-at-Hormuz-Ticks-Up-Despite-Intensified-Attacks.html) reported that the number of tankers carrying energy products through the Strait of Hormuz increased in November despite attacks and incidents."
+    },
     {
      "articles": [
       "27454569186b96de"
@@ -4019,9 +4057,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
    "title_from": {
     "backing": 2,
@@ -6374,8 +6412,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "136d381e2712c896",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-26T14:54:35+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Brazil’s finance minister to meet Lula on further fiscal measures",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/brazils-finance-ministerto-meet-lula-on-further-fiscal-measures-5052560"
+    },
     {
      "added": "2026-11-24",
      "id": "f2aba02b5fc1468f",
@@ -6403,14 +6454,14 @@
      "url": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "brazil-fiscal-measures",
    "label": "Brazil fiscal measures",
    "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_updated": "2026-11-26",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6425,9 +6476,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/brazil-real-rallies-on-reports-lula-backs-further-spending-curbs) reported that the Brazilian real rallied by the most in nearly two months after reports that President Luiz Inacio Lula da Silva is backing further moves to curb government spending."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Brazil fiscal measures",
    "topic": "economy"
   },
@@ -9153,8 +9204,47 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 5,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "dd4cf0cc28abc02d",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-26T16:02:18+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Altria explores takeover bid for Imperial Brands",
+     "type": "international",
+     "url": "https://www.ft.com/content/696e99b0-f6d1-4a1a-95b0-f68de88520d9?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "fec3fcf7f1ff7986",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T15:24:22+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "US Marlboro maker Altria explores Imperial Brands takeover in Big Tobacco mega deal",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands-5052558"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "32755d02b8468ba6",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T14:47:37+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands.html"
+    },
     {
      "added": "2026-11-26",
      "id": "69789d6916f1f593",
@@ -9182,14 +9272,17 @@
      "url": "https://www.investing.com/news/stock-market-news/altria-weighs-possible-offer-for-uks-imperial-brands-5052505"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 5,
    "first_seen": "2026-11-26",
    "group": "all",
-   "id": "altria-and-imperial-brands-potential-deal",
-   "label": "Altria and Imperial Brands potential deal",
+   "id": "altria-acquisition-of-imperial-brands",
+   "label": "Altria acquisition of Imperial Brands",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "merged": [
+    "altria-and-imperial-brands-potential-deal"
+   ],
+   "outlets_today": 4,
    "reports": [
     {
      "articles": [
@@ -9202,16 +9295,177 @@
      ],
      "published": "2026-11-26T13:27:00+00:00",
      "text": "[Wall Street Journal](https://www.wsj.com/business/deals/altria-considering-possible-offer-for-imperial-brands-7cef494b?mod=pls_whats_news_us_business_f) reported that Altria is considering a possible cash offer for Imperial Brands and is in talks with a third party to buy part of Imperial Brands if a deal proceeds."
+    },
+    {
+     "articles": [
+      "32755d02b8468ba6"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T14:47:37+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands.html) reported that U.S. tobacco group Altria was considering a possible all-cash offer for Imperial Brands."
+    },
+    {
+     "articles": [
+      "dd4cf0cc28abc02d"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-26T16:02:18+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/696e99b0-f6d1-4a1a-95b0-f68de88520d9?syn-25a6b1a6=1) reported that the deal would remove another of the U.K.’s large listed companies from the London stock market."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Altria and Imperial Brands potential deal",
+   "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
+   "title_from": {
+    "backing": 3,
+    "date": "2026-11-26",
+    "of": 3,
+    "outlet": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/26/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands.html"
+   },
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "cdf1d3ee7bc2e3b6",
+     "lang": "en",
+     "outlet": "Rigzone",
+     "published": "2026-11-26T15:02:46+00:00",
+     "publisher": "Rigzone",
+     "region": null,
+     "section": "news",
+     "title": "Eldridge Consortium Pens Deal to Acquire Lukoil International",
+     "type": "specialist",
+     "url": "https://www.rigzone.com/news/eldridge_consortium_pens_deal_to_acquire_lukoil_international-26-nov-2026-185176-article/?rss=true"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "73d47accca22d2a0",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-25T20:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "U.S.-Backed Consortium Signs Deal for Lukoil's International Oil Empire",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Backed-Consortium-Signs-Deal-for-Lukoils-International-Oil-Empire.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "lukoil-international-assets-acquisition",
+   "label": "Lukoil international assets acquisition",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "73d47accca22d2a0"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-25T20:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/US-Backed-Consortium-Signs-Deal-for-Lukoils-International-Oil-Empire.html) reported that US billionaire Todd Boehly signed a deal with Lukoil to buy the sanctioned Russian oil company's international assets through a share swap backed by the US."
+    },
+    {
+     "articles": [
+      "cdf1d3ee7bc2e3b6"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Rigzone"
+     ],
+     "published": "2026-11-26T15:02:46+00:00",
+     "text": "[Rigzone](https://www.rigzone.com/news/eldridge_consortium_pens_deal_to_acquire_lukoil_international-26-nov-2026-185176-article/?rss=true) reported that the agreement to acquire the sanctioned Russian company's upstream and downstream international assets aims to secure critical global energy assets."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Lukoil international assets acquisition",
+   "topic": "business-strategic"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "e63a7abaec456fac",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T15:28:26+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "fad9f3367b20949b",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T14:05:43+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Spain's De Cos Set to Succeed Lagarde as ECB President",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video-mwxmko5n"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "spain-s-de-cos-set-to",
+   "label": "Spain's De Cos Set to Succeed Lagarde as ECB President",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e63a7abaec456fac",
+      "fad9f3367b20949b"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "CNBC"
+     ],
+     "published": "2026-11-26T14:05:43+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video-mwxmko5n), [CNBC](https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html) reported that Pablo Hernandez de Cos is set to succeed Christine Lagarde as European Central Bank president next year."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Spain's De Cos Set to Succeed Lagarde as ECB President",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T14:05:31+00:00"
+ "updated": "2026-11-26T16:49:07+00:00"
 }
