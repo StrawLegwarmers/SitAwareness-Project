@@ -709,25 +709,25 @@
   {
    "articles": 214,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 11,
-   "continuing": 4,
+   "calls": 6,
+   "candidates": 13,
+   "continuing": 6,
    "corroborated": 0,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 186,
-   "in_stories": 15,
-   "kept": 10,
-   "merged": 1,
+   "in_stories": 17,
+   "kept": 11,
+   "merged": 2,
    "new": 5,
    "rejected": 2,
    "reported_by_2": 3,
-   "runs": 6,
-   "sent": 11,
+   "runs": 7,
+   "sent": 13,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 2,
+   "updated": 3,
    "waiting": 0
   },
   {
@@ -1052,12 +1052,57 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T16:41:53+00:00"
+  "all": "2026-11-26T19:43:26+00:00"
  },
  "narratives": [
   {
-   "article_count": 24,
+   "article_count": 28,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "b3309653a7a93be4",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-26T14:15:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/"
+    },
+    {
+     "added": "2026-11-26",
+     "dates": [
+      "2026-11-25"
+     ],
+     "id": "1da351e876835d35",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-26T14:09:18+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog",
+     "type": null,
+     "url": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/"
+    },
+    {
+     "added": "2026-11-26",
+     "dates": [
+      "2026-11-24"
+     ],
+     "id": "62e432cc4fe91a78",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-26T08:33:52+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Critical Danfoss Refrigeration Controller Flaw Could Allow Remote Code Execution Without Authentication",
+     "type": null,
+     "url": "https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/"
+    },
     {
      "added": "2026-11-26",
      "id": "4b8b841a1b5c78da",
@@ -1099,6 +1144,19 @@
      "title": "CISA Warns of Drupal Core RCE, Idunno AntiCsrf and Optimizely Flaws Exploited in Attacks",
      "type": null,
      "url": "https://cybersecuritynews.com/drupal-idunno-anticsrf-optimizely-flaws-exploited/"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "cf0cf9851124d6e1",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-25T16:13:40+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
     },
     {
      "added": "2026-11-25",
@@ -1364,18 +1422,46 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 6,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
    "label": "SonicWall SonicOS SSL-VPN Flaw Under Active Exploitation",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "merged": [
+    "danfoss-refrigeration-controllers-vulnerability"
+   ],
+   "outlets_today": 5,
    "previous_titles": [
-    "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog"
+    "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
+    "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog"
    ],
    "reports": [
+    {
+     "articles": [
+      "cf0cf9851124d6e1"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-25T16:13:40+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/) reported that the U.S. Cybersecurity and Infrastructure Security Agency warned about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers."
+    },
+    {
+     "articles": [
+      "62e432cc4fe91a78"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-26T08:33:52+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/) reported that CVE-2026-129713 affects Danfoss AK-SM 8xxA refrigeration controllers running version 5.4.0 or earlier and could allow unauthenticated remote code execution."
+    },
     {
      "articles": [
       "4b8b841a1b5c78da",
@@ -1517,13 +1603,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
-   "title": "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog",
+   "title": "CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog",
    "title_from": {
-    "backing": 2,
-    "date": "2026-11-25",
-    "of": 2,
-    "outlet": "Security Affairs",
-    "url": "https://securityaffairs.com/203965/uncategorized/u-s-cisa-adds-drupal-core-idunno-anticsrf-and-optimizely-web-experimentation-flaws-to-its-known-exploited-vulnerabilities-catalog.html"
+    "backing": 4,
+    "date": "2026-11-26",
+    "of": 4,
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/cisa-adds-10-flaws-to-kev/"
    }
   },
   {
@@ -5077,7 +5163,7 @@
    "topic": "cyber"
   },
   {
-   "article_count": 4,
+   "article_count": 5,
    "articles": [
     {
      "added": "2026-11-26",
@@ -5107,6 +5193,19 @@
     },
     {
      "added": "2026-11-26",
+     "id": "9f2cadbf4a9e0c8c",
+     "lang": "en",
+     "outlet": "SecurityWeek",
+     "published": "2026-11-26T08:32:10+00:00",
+     "publisher": "SecurityWeek",
+     "region": null,
+     "section": "news",
+     "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+     "type": null,
+     "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/"
+    },
+    {
+     "added": "2026-11-26",
      "id": "dea1925ce5845b82",
      "lang": "en",
      "outlet": "The Hacker News",
@@ -5132,18 +5231,31 @@
      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "1password-data-breach",
    "label": "1Password data breach",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 4,
+   "outlets_today": 5,
    "previous_titles": [
-    "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach"
+    "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "1Password breached through hijacked employee GitHub account, customer names and emails stolen"
    ],
    "reports": [
+    {
+     "articles": [
+      "9f2cadbf4a9e0c8c"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "SecurityWeek"
+     ],
+     "published": "2026-11-26T08:32:10+00:00",
+     "text": "[SecurityWeek](https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/) reported that vaults were not accessed during the incident."
+    },
     {
      "articles": [
       "992f4d18cae3b0e0"
@@ -5184,106 +5296,13 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
    "title_from": {
     "backing": 3,
     "date": "2026-11-26",
-    "of": 3,
-    "outlet": "Help Net Security",
-    "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/"
-   },
-   "topic": "security"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-26",
-     "id": "b3309653a7a93be4",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-26T14:15:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/"
-    },
-    {
-     "added": "2026-11-26",
-     "dates": [
-      "2026-11-24"
-     ],
-     "id": "62e432cc4fe91a78",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-26T08:33:52+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Critical Danfoss Refrigeration Controller Flaw Could Allow Remote Code Execution Without Authentication",
-     "type": null,
-     "url": "https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/"
-    },
-    {
-     "added": "2026-11-26",
-     "id": "cf0cf9851124d6e1",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-25T16:13:40+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
-    }
-   ],
-   "articles_today": 3,
-   "first_seen": "2026-11-26",
-   "group": "all",
-   "id": "danfoss-refrigeration-controllers-vulnerability",
-   "label": "Danfoss refrigeration controllers vulnerability",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
-   "outlets_today": 3,
-   "reports": [
-    {
-     "articles": [
-      "cf0cf9851124d6e1"
-     ],
-     "date": "2026-11-26",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-25T16:13:40+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/) reported that the U.S. Cybersecurity and Infrastructure Security Agency warned about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers."
-    },
-    {
-     "articles": [
-      "62e432cc4fe91a78"
-     ],
-     "date": "2026-11-26",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-26T08:33:52+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/danfoss-refrigeration-controller-flaw/) reported that CVE-2026-129713 affects Danfoss AK-SM 8xxA refrigeration controllers running version 5.4.0 or earlier and could allow unauthenticated remote code execution."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "title": "CISA Issues Alert After Danfoss Reveals Critical Flaw in Fridge Controllers",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-26",
-    "of": 2,
-    "outlet": "Infosecurity Magazine",
-    "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/"
+    "of": 4,
+    "outlet": "The Hacker News",
+    "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
    },
    "topic": "security"
   },
@@ -5433,5 +5452,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-26T16:42:10+00:00"
+ "updated": "2026-11-26T19:43:47+00:00"
 }

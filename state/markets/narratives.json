@@ -805,25 +805,25 @@
   {
    "articles": 516,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 35,
-   "continuing": 17,
+   "calls": 7,
+   "candidates": 39,
+   "continuing": 20,
    "corroborated": 1,
    "date": "2026-11-26",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 452,
-   "in_stories": 53,
-   "kept": 34,
+   "in_stories": 59,
+   "kept": 38,
    "merged": 1,
-   "new": 14,
-   "rejected": 2,
+   "new": 15,
+   "rejected": 3,
    "reported_by_2": 7,
-   "runs": 6,
-   "sent": 35,
+   "runs": 7,
+   "sent": 39,
    "skipped": 3,
    "split_calls": 0,
-   "updated": 13,
+   "updated": 14,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-26T16:48:46+00:00"
+  "all": "2026-11-26T19:48:36+00:00"
  },
  "narratives": [
   {
@@ -3191,8 +3191,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 23,
+   "article_count": 24,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "65ec62a91fc68a76",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-26T03:20:43+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold eases as U.S. inflation data reinforces Fed rate-hike bets",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-eases-as-us-inflation-data-reinforces-fed-ratehike-bets-5051964"
+    },
     {
      "added": "2026-11-26",
      "id": "2e3020106cb4c2f8",
@@ -3493,7 +3506,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3503,7 +3516,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 3,
+   "outlets_today": 4,
    "reports": [
     {
      "articles": [
@@ -9204,7 +9217,7 @@
    "topic": "economy"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
     {
      "added": "2026-11-26",
@@ -9270,9 +9283,22 @@
      "title": "Altria weighs possible offer for UK’s Imperial Brands",
      "type": "specialist",
      "url": "https://www.investing.com/news/stock-market-news/altria-weighs-possible-offer-for-uks-imperial-brands-5052505"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "108f2c76002dec78",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T13:08:53+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Altria, Japan Tobacco Explore Breakup of Imperial Brands",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 6,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "altria-acquisition-of-imperial-brands",
@@ -9282,8 +9308,20 @@
    "merged": [
     "altria-and-imperial-brands-potential-deal"
    ],
-   "outlets_today": 4,
+   "outlets_today": 5,
    "reports": [
+    {
+     "articles": [
+      "108f2c76002dec78"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-26T13:08:53+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands) reported that Altria Group Inc. and Japan Tobacco Inc. are exploring a potential breakup of British cigarette maker Imperial Brands Plc in a large deal."
+    },
     {
      "articles": [
       "69789d6916f1f593"
@@ -9405,8 +9443,34 @@
    "topic": "business-strategic"
   },
   {
-   "article_count": 2,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "759569aeba66d1a1",
+     "lang": "en",
+     "outlet": "The Guardian Economics",
+     "published": "2026-11-26T17:50:54+00:00",
+     "publisher": "The Guardian",
+     "region": null,
+     "section": "news",
+     "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+     "type": "international",
+     "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "ba74d4237f948339",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-26T16:02:36+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Pablo Hernández de Cos: the ‘consensus-builder’ taking over the ECB",
+     "type": "international",
+     "url": "https://www.ft.com/content/1fda901a-222a-4b3e-8e20-ea80c3fbf1d2?syn-25a6b1a6=1"
+    },
     {
      "added": "2026-11-26",
      "id": "e63a7abaec456fac",
@@ -9434,15 +9498,39 @@
      "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video-mwxmko5n"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 4,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "spain-s-de-cos-set-to",
    "label": "Spain's De Cos Set to Succeed Lagarde as ECB President",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 4,
    "reports": [
+    {
+     "articles": [
+      "ba74d4237f948339"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-26T16:02:36+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/1fda901a-222a-4b3e-8e20-ea80c3fbf1d2?syn-25a6b1a6=1) reported that Spanish economist Pablo Hernández de Cos is viewed as a consensus-builder with diplomatic finesse and academic rigour."
+    },
+    {
+     "articles": [
+      "759569aeba66d1a1"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "The Guardian"
+     ],
+     "published": "2026-11-26T17:50:54+00:00",
+     "text": "[The Guardian](https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president) reported that former Bank of Spain governor Pablo Hernández de Cos was chosen to succeed Christine Lagarde as European Central Bank president after winning support from the EU's biggest countries."
+    },
     {
      "articles": [
       "e63a7abaec456fac",
@@ -9461,11 +9549,76 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Spain's De Cos Set to Succeed Lagarde as ECB President",
+   "title": "Pablo Hernández de Cos: the ‘consensus-builder’ taking over the ECB",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-26",
+    "of": 3,
+    "outlet": "Financial Times",
+    "url": "https://www.ft.com/content/1fda901a-222a-4b3e-8e20-ea80c3fbf1d2?syn-25a6b1a6=1"
+   },
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-26",
+     "id": "5a4c156322004a3e",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T18:44:15+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html"
+    },
+    {
+     "added": "2026-11-26",
+     "id": "85d5caae900acbfb",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-26T16:07:00+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Trump demands probe of GDP data released before midterms",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-26",
+   "group": "all",
+   "id": "us-gross-domestic-product-data-revision",
+   "label": "US gross domestic product data revision",
+   "last_reported": "2026-11-26",
+   "last_updated": "2026-11-26",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "5a4c156322004a3e"
+     ],
+     "date": "2026-11-26",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T18:44:15+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html) reported that President Donald Trump demanded an immediate investigation into a record-setting error after third-quarter gross domestic product data received a massive upward revision."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "US gross domestic product data revision",
    "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T16:49:07+00:00"
+ "updated": "2026-11-26T19:48:54+00:00"
 }
