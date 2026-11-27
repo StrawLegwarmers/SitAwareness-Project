@@ -805,25 +805,25 @@
   {
    "articles": 431,
    "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 24,
-   "continuing": 13,
+   "calls": 6,
+   "candidates": 28,
+   "continuing": 15,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 394,
-   "in_stories": 34,
-   "kept": 23,
-   "merged": 1,
-   "new": 9,
+   "in_stories": 41,
+   "kept": 27,
+   "merged": 2,
+   "new": 11,
    "rejected": 4,
    "reported_by_2": 4,
-   "runs": 5,
-   "sent": 24,
+   "runs": 6,
+   "sent": 28,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 11,
+   "updated": 13,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T14:02:56+00:00"
+  "all": "2026-11-27T16:49:05+00:00"
  },
  "narratives": [
   {
@@ -8422,8 +8422,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "1509f4a187c52e74",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T15:54:40+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Explainer-A million satellites? What SpaceX’s Starmind could mean for Earth and space",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/explainera-million-satellites-what-spacexs-starmind-could-mean-for-earth-and-space-5053673"
+    },
     {
      "added": "2026-11-26",
      "id": "5858202f2e1c402f",
@@ -8464,14 +8477,14 @@
      "url": "https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "spacex-orbital-data-center-satellites-approval",
    "label": "SpaceX orbital data center satellites approval",
    "last_reported": "2026-11-25",
-   "last_updated": "2026-11-26",
-   "outlets_today": 0,
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -8488,9 +8501,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f), [CNBC](https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html) reported that the FCC authorized SpaceX to deploy 1 million space-based AI data center satellites known as Starmind."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "SpaceX orbital data center satellites approval",
    "topic": "technology-policy"
   },
@@ -9239,8 +9252,47 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "6dea8f13981dda01",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T16:24:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Norse Atlantic files for bankruptcy, halts flights as Iran war drives up fuel costs",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/norse-atlantic-files-for-bankruptcy-halts-flights-as-iran-war-drives-up-fuel-costs-5053705"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "0e6ff9dc197f24c4",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-27T13:32:10+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "12644718455e1d02",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T13:10:33+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Norse Atlantic Airways files for bankruptcy in Norway",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/norse-atlantic-airways-files-for-bankruptcy-in-norway-5053483"
+    },
     {
      "added": "2026-11-26",
      "id": "3cf57b89cad904af",
@@ -9281,15 +9333,42 @@
      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 3,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "norse-atlantic-flight-suspension",
    "label": "Norse Atlantic flight suspension",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
-   "outlets_today": 0,
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "merged": [
+    "norse-atlantic-bankruptcy"
+   ],
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "0e6ff9dc197f24c4"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-27T13:32:10+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html) reported that budget carrier Norse Atlantic filed for bankruptcy after failing to secure funding as soaring fuel costs strained operations."
+    },
+    {
+     "articles": [
+      "6dea8f13981dda01"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-27T16:24:23+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/norse-atlantic-files-for-bankruptcy-halts-flights-as-iran-war-drives-up-fuel-costs-5053705) reported that Norse Atlantic filed for bankruptcy and halted flights as Iran war drives up fuel costs."
+    },
     {
      "articles": [
       "6c17a5fa8a1258de"
@@ -9317,7 +9396,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Norse Atlantic suspends all flights as it faces potential collapse",
    "title_from": {
     "backing": 2,
@@ -10380,65 +10459,151 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-27",
-     "id": "0e6ff9dc197f24c4",
+     "id": "a09936843993a3e4",
      "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-27T13:32:10+00:00",
-     "publisher": "CNBC",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-27T14:47:10+00:00",
+     "publisher": "Bloomberg",
      "region": null,
      "section": "news",
-     "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+     "title": "US Storm Triggers East Coast Power Outages",
      "type": "international",
-     "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+     "url": "https://www.bloomberg.com/news/videos/2026-11-27/us-storm-triggers-east-coast-power-outages-video"
     },
     {
      "added": "2026-11-27",
-     "id": "12644718455e1d02",
+     "id": "e8f65f82b9a5c729",
      "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-27T13:10:33+00:00",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-27T14:20:06+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Power Outages, Flood Risks Linger After Storm Wallops East Coast",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/dangerous-nor-easter-storm-triggers-widespread-power-outages"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "ed7ae4ccea8d6e53",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-26T21:24:22+00:00",
      "publisher": "Investing.com",
      "region": null,
      "section": "news",
-     "title": "Norse Atlantic Airways files for bankruptcy in Norway",
+     "title": "Thanksgiving storm knocks out power, disrupts flights on US East Coast",
      "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/norse-atlantic-airways-files-for-bankruptcy-in-norway-5053483"
+     "url": "https://www.investing.com/news/commodities-news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-5052706"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-27",
    "group": "all",
-   "id": "norse-atlantic-bankruptcy",
-   "label": "Norse Atlantic bankruptcy",
+   "id": "power-outages-flood-risks-linger-after",
+   "label": "Power Outages, Flood Risks Linger After Storm Wallops East Coast",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
    "outlets_today": 2,
    "reports": [
     {
      "articles": [
-      "0e6ff9dc197f24c4"
+      "a09936843993a3e4",
+      "e8f65f82b9a5c729"
      ],
      "date": "2026-11-27",
      "group": "all",
      "outlets": [
-      "CNBC"
+      "Bloomberg"
      ],
-     "published": "2026-11-27T13:32:10+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html) reported that budget carrier Norse Atlantic filed for bankruptcy after failing to secure funding as soaring fuel costs strained operations."
+     "published": "2026-11-27T14:20:06+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/dangerous-nor-easter-storm-triggers-widespread-power-outages) reported that more than 500,000 homes and businesses along the East Coast are without power after an explosive storm uprooted trees and inundated commuter rail lines."
+    },
+    {
+     "articles": [
+      "ed7ae4ccea8d6e53"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T21:24:22+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-5052706) reported that a Thanksgiving storm knocked out power and disrupted flights on the US East Coast."
     }
    ],
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Norse Atlantic bankruptcy",
-   "topic": "markets"
+   "title": "Power Outages, Flood Risks Linger After Storm Wallops East Coast",
+   "topic": "infrastructure"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "e935ab38e4f34dbf",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-27T14:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "U.S. Encouraged Iraq and Venezuela to Leave OPEC, Sources Say",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Pushed-Iraq-and-Venezuela-to-Consider-Quitting-OPEC-Sources-Say.html"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "ed984b789db0875d",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-27T06:12:19+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/exclusiveus-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-5052970"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "exclusive-us-pushed-venezuela-iraq-to",
+   "label": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e935ab38e4f34dbf",
+      "ed984b789db0875d"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-27T06:12:19+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/exclusiveus-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-5052970), [Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/US-Pushed-Iraq-and-Venezuela-to-Consider-Quitting-OPEC-Sources-Say.html) reported that the US administration encouraged Iraq and Venezuela to consider leaving OPEC."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+   "topic": "energy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T14:03:13+00:00"
+ "updated": "2026-11-27T16:49:23+00:00"
 }

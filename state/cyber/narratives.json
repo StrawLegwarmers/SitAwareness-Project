@@ -757,22 +757,22 @@
   {
    "articles": 161,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 6,
+   "calls": 4,
+   "candidates": 8,
    "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-27",
-   "dropped": 0,
+   "dropped": 1,
    "failed_calls": 0,
    "groups": 146,
-   "in_stories": 10,
-   "kept": 10,
+   "in_stories": 12,
+   "kept": 11,
    "merged": 0,
-   "new": 3,
-   "rejected": 0,
+   "new": 4,
+   "rejected": 1,
    "reported_by_2": 2,
-   "runs": 5,
-   "sent": 6,
+   "runs": 6,
+   "sent": 8,
    "skipped": 0,
    "split_calls": 0,
    "updated": 2,
@@ -1100,7 +1100,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T13:57:14+00:00"
+  "all": "2026-11-27T16:43:18+00:00"
  },
  "narratives": [
   {
@@ -5186,7 +5186,14 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Remus malware Gmail extension",
+   "title": "Hackers Use Hidden Chrome Extension to Read Gmail Messages Without Stealing Passwords",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-27",
+    "of": 2,
+    "outlet": "Cybersecurity News",
+    "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/"
+   },
    "topic": "cyber"
   },
   {
@@ -5258,9 +5265,67 @@
    "status": "new",
    "title": "British government cyber incident",
    "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "2f9c902403795146",
+     "lang": "en",
+     "outlet": "Infosecurity Magazine",
+     "published": "2026-11-27T11:15:00+00:00",
+     "publisher": "Infosecurity Magazine",
+     "region": null,
+     "section": "news",
+     "title": "UK Welfare and Pension Services Taken Offline Following Cyber Incident",
+     "type": null,
+     "url": "https://www.infosecurity-magazine.com/news/uk-welfare-services-offline/"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "e5be07d38c720199",
+     "lang": "en",
+     "outlet": "ComputerWeekly Security",
+     "published": "2026-11-27T09:45:00+00:00",
+     "publisher": "ComputerWeekly Security",
+     "region": null,
+     "section": "news",
+     "title": "Investigation underway into DWP cyber incident as services taken offline",
+     "type": null,
+     "url": "https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "dwp-cyber-incident",
+   "label": "DWP cyber incident",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "e5be07d38c720199"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "ComputerWeekly Security"
+     ],
+     "published": "2026-11-27T09:45:00+00:00",
+     "text": "[ComputerWeekly Security](https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline) reported that the UK’s largest government department, the Department for Work and Pensions, has taken services offline following a cyber incident."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "DWP cyber incident",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-27T13:57:31+00:00"
+ "updated": "2026-11-27T16:43:34+00:00"
 }
