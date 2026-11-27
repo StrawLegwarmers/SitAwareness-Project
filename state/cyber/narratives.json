@@ -757,22 +757,22 @@
   {
    "articles": 161,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 3,
-   "continuing": 2,
+   "calls": 3,
+   "candidates": 6,
+   "continuing": 3,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 146,
-   "in_stories": 4,
-   "kept": 4,
+   "in_stories": 10,
+   "kept": 10,
    "merged": 0,
-   "new": 1,
+   "new": 3,
    "rejected": 0,
-   "reported_by_2": 1,
-   "runs": 4,
-   "sent": 3,
+   "reported_by_2": 2,
+   "runs": 5,
+   "sent": 6,
    "skipped": 0,
    "split_calls": 0,
    "updated": 2,
@@ -1100,7 +1100,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T10:35:35+00:00"
+  "all": "2026-11-27T13:57:14+00:00"
  },
  "narratives": [
   {
@@ -4993,7 +4993,7 @@
    "topic": "security"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
     {
      "added": "2026-11-27",
@@ -5010,6 +5010,19 @@
     },
     {
      "added": "2026-11-27",
+     "id": "1b70d4f287422ddd",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-26T15:29:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "'Significant number of customer records' pwned in Flight Centre Travel Group breach",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360"
+    },
+    {
+     "added": "2026-11-27",
      "id": "9dc1cb3808f42660",
      "lang": "en",
      "outlet": "Security Affairs",
@@ -5022,15 +5035,27 @@
      "url": "https://securityaffairs.com/204049/data-breach/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "flight-centre-data-breach",
    "label": "Flight Centre data breach",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "1b70d4f287422ddd"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-26T15:29:00+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360) reported that a significant number of customer records were compromised in the Flight Centre Travel Group breach."
+    },
     {
      "articles": [
       "9dc1cb3808f42660"
@@ -5059,11 +5084,183 @@
    "single_source_today": false,
    "state_media_only_today": false,
    "status": "new",
-   "title": "Flight Centre data breach",
+   "title": "Australia’s Flight Centre Data Breach Exposes Customer Records and Passport Details",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-27",
+    "of": 2,
+    "outlet": "Security Affairs",
+    "url": "https://securityaffairs.com/204049/data-breach/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details.html"
+   },
+   "topic": "cyber"
+  },
+  {
+   "article_count": 3,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "d7e72b040aa0b323",
+     "lang": "en",
+     "outlet": "Cybersecurity News",
+     "published": "2026-11-27T12:19:36+00:00",
+     "publisher": "Cybersecurity News",
+     "region": null,
+     "section": "news",
+     "title": "Hackers Use Hidden Chrome Extension to Read Gmail Messages Without Stealing Passwords",
+     "type": null,
+     "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "f40377b61b1d9bd1",
+     "lang": "en",
+     "outlet": "Malwarebytes Labs",
+     "published": "2026-11-27T12:09:14+00:00",
+     "publisher": "Malwarebytes Labs",
+     "region": null,
+     "section": "intel",
+     "title": "Malware steals Gmail messages using a fake Google Sheets extension",
+     "type": null,
+     "url": "https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "9a0bd3081141748f",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-26T15:23:28+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
+    }
+   ],
+   "articles_today": 3,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "remus-malware-gmail-extension",
+   "label": "Remus malware Gmail extension",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "9a0bd3081141748f"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-26T15:23:28+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/) reported that the Remus infostealer is stealing Gmail messages through a malicious Chrome extension marketed as a zero-day exploit."
+    },
+    {
+     "articles": [
+      "f40377b61b1d9bd1"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Malwarebytes Labs"
+     ],
+     "published": "2026-11-27T12:09:14+00:00",
+     "text": "[Malwarebytes Labs](https://www.malwarebytes.com/blog/news/2026/11/malware-steals-gmail-messages-using-a-fake-google-sheets-extension) reported that the fake Chrome extension can read Gmail after a password change if the user signs back in on the infected browser."
+    },
+    {
+     "articles": [
+      "d7e72b040aa0b323"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Cybersecurity News"
+     ],
+     "published": "2026-11-27T12:19:36+00:00",
+     "text": "[Cybersecurity News](https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/) reported that hackers using Remus Stealer can read unread Gmail messages without stealing the victim’s Google password."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Remus malware Gmail extension",
+   "topic": "cyber"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "3f96d715de8752bb",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-27T10:01:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "British social security system techies yank services offline following 'cyber incident'",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "c7149ded0c36e969",
+     "lang": "en",
+     "outlet": "The Record",
+     "published": "2026-11-27T00:00:00+00:00",
+     "publisher": "The Record",
+     "region": null,
+     "section": "news",
+     "title": "British government takes services offline following ‘cyber incident’",
+     "type": null,
+     "url": "https://therecord.media/uk-department-work-pensions-cyber-incident"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "british-government-cyber-incident",
+   "label": "British government cyber incident",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "c7149ded0c36e969"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "The Record"
+     ],
+     "published": "2026-11-27T00:00:00+00:00",
+     "text": "[The Record](https://therecord.media/uk-department-work-pensions-cyber-incident) reported that the Department for Work and Pensions experienced a cyber incident resulting in several services being taken down as a precaution."
+    },
+    {
+     "articles": [
+      "3f96d715de8752bb"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-27T10:01:00+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522) reported that pensioners were assured their funds will arrive as normal following the incident."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "British government cyber incident",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-27T10:35:52+00:00"
+ "updated": "2026-11-27T13:57:31+00:00"
 }

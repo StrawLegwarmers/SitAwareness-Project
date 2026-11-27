@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 407,
+   "articles": 431,
    "attached_by_code": 0,
-   "calls": 4,
-   "candidates": 21,
-   "continuing": 12,
+   "calls": 5,
+   "candidates": 24,
+   "continuing": 13,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 366,
-   "in_stories": 29,
-   "kept": 20,
-   "merged": 0,
-   "new": 7,
+   "groups": 394,
+   "in_stories": 34,
+   "kept": 23,
+   "merged": 1,
+   "new": 9,
    "rejected": 4,
    "reported_by_2": 4,
-   "runs": 4,
-   "sent": 21,
+   "runs": 5,
+   "sent": 24,
    "skipped": 1,
    "split_calls": 0,
-   "updated": 10,
+   "updated": 11,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T10:39:52+00:00"
+  "all": "2026-11-27T14:02:56+00:00"
  },
  "narratives": [
   {
@@ -4280,8 +4280,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "3a8745de9f34a4ba",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-27T13:31:56+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "ECB’s Nagel Signals Need for Another Rate Hike in December",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/ecb-s-nagel-signals-need-for-another-rate-hike-in-december"
+    },
     {
      "added": "2026-11-23",
      "id": "a12c64660bf9c73d",
@@ -4322,14 +4335,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "european-central-bank-interest-rates",
    "label": "European Central Bank interest rates",
    "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -4368,9 +4381,9 @@
      "text": "[Investing.com](https://www.investing.com/news/economy-news/ecbs-nagel-will-likely-need-to-act-in-december-but-price-expectations-remain-anchored-5042238) reported that ECB's Nagel stated the bank will likely need to act in December while price expectations remain anchored."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "European Central Bank interest rates",
    "topic": "economy"
   },
@@ -6469,8 +6482,47 @@
    "topic": "markets"
   },
   {
-   "article_count": 3,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "0a58fb5eaa98a4d2",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-27T01:08:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "29bb21a3e5ad30bb",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-27T00:59:07+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
+     "type": "international",
+     "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "5b63ab15202be185",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T23:18:21+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Lula Taps Bradesco Chair as Finance Chief to Soothe Markets",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets"
+    },
     {
      "added": "2026-11-26",
      "id": "136d381e2712c896",
@@ -6483,6 +6535,19 @@
      "title": "Brazil’s finance minister to meet Lula on further fiscal measures",
      "type": "specialist",
      "url": "https://www.investing.com/news/economy-news/brazils-finance-ministerto-meet-lula-on-further-fiscal-measures-5052560"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "56e0b5bd3a4a96d1",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T13:01:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Brazil’s Lula sounds out Bradesco chairman as finance minister, sources say",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498"
     },
     {
      "added": "2026-11-24",
@@ -6511,15 +6576,56 @@
      "url": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 4,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "brazil-fiscal-measures",
    "label": "Brazil fiscal measures",
-   "last_reported": "2026-11-24",
-   "last_updated": "2026-11-26",
-   "outlets_today": 0,
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "merged": [
+    "brazil-finance-minister-appointment"
+   ],
+   "outlets_today": 3,
    "reports": [
+    {
+     "articles": [
+      "29bb21a3e5ad30bb",
+      "5b63ab15202be185"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Financial Times"
+     ],
+     "published": "2026-11-26T23:18:21+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets), [Financial Times](https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1) reported that President Luiz Inácio Lula da Silva tapped Bradesco Chairman Luiz Carlos Trabuco Cappi as finance minister to soothe markets."
+    },
+    {
+     "articles": [
+      "56e0b5bd3a4a96d1"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T13:01:23+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498) reported that sources said Brazil’s Lula was sounding out the Bradesco chairman as finance minister."
+    },
+    {
+     "articles": [
+      "0a58fb5eaa98a4d2"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-27T01:08:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister) reported that Brazilian assets gained after the appointment."
+    },
     {
      "articles": [
       "f2aba02b5fc1468f"
@@ -6535,8 +6641,15 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Brazil fiscal measures",
+   "status": "updated",
+   "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-27",
+    "of": 2,
+    "outlet": "Financial Times",
+    "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
+   },
    "topic": "economy"
   },
   {
@@ -9941,123 +10054,6 @@
    "topic": "markets"
   },
   {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-27",
-     "id": "0a58fb5eaa98a4d2",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-27T01:08:00+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister"
-    },
-    {
-     "added": "2026-11-27",
-     "id": "29bb21a3e5ad30bb",
-     "lang": "en",
-     "outlet": "FT Global Economy",
-     "published": "2026-11-27T00:59:07+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
-     "type": "international",
-     "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
-    },
-    {
-     "added": "2026-11-27",
-     "id": "5b63ab15202be185",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-26T23:18:21+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Lula Taps Bradesco Chair as Finance Chief to Soothe Markets",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets"
-    },
-    {
-     "added": "2026-11-27",
-     "id": "56e0b5bd3a4a96d1",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-26T13:01:23+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Brazil’s Lula sounds out Bradesco chairman as finance minister, sources say",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498"
-    }
-   ],
-   "articles_today": 4,
-   "first_seen": "2026-11-27",
-   "group": "all",
-   "id": "brazil-finance-minister-appointment",
-   "label": "Brazil finance minister appointment",
-   "last_reported": "2026-11-27",
-   "last_updated": "2026-11-27",
-   "outlets_today": 3,
-   "reports": [
-    {
-     "articles": [
-      "29bb21a3e5ad30bb",
-      "5b63ab15202be185"
-     ],
-     "date": "2026-11-27",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Financial Times"
-     ],
-     "published": "2026-11-26T23:18:21+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets), [Financial Times](https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1) reported that President Luiz Inácio Lula da Silva tapped Bradesco Chairman Luiz Carlos Trabuco Cappi as finance minister to soothe markets."
-    },
-    {
-     "articles": [
-      "56e0b5bd3a4a96d1"
-     ],
-     "date": "2026-11-27",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-26T13:01:23+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498) reported that sources said Brazil’s Lula was sounding out the Bradesco chairman as finance minister."
-    },
-    {
-     "articles": [
-      "0a58fb5eaa98a4d2"
-     ],
-     "date": "2026-11-27",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-27T01:08:00+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister) reported that Brazilian assets gained after the appointment."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "new",
-   "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-27",
-    "of": 2,
-    "outlet": "Financial Times",
-    "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
-   },
-   "topic": "economy"
-  },
-  {
    "article_count": 2,
    "articles": [
     {
@@ -10312,9 +10308,137 @@
    "status": "new",
    "title": "Thales acquisition of Lumibird",
    "topic": "business"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "3d38e4ec9315e124",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-27T13:39:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "The French economy tipped into a recession in the third quarter as summer heat waves slowed Airbus’s factories, complicating the government’s plans to narrow its yawning budget deficit",
+     "type": "international",
+     "url": "https://www.wsj.com/world/europe/french-economy-slips-into-recession-as-exports-sag-47e934c5?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "f81bae3468cb2cbd",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-27T09:43:53+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "French economy shrinks 0.2% in third quarter",
+     "type": "international",
+     "url": "https://www.ft.com/content/5325ace3-d69a-4686-acb6-2f06de6afd11?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "french-economy-shrinks-0-2-in",
+   "label": "French economy shrinks 0.2% in third quarter",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "f81bae3468cb2cbd"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-27T09:43:53+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/5325ace3-d69a-4686-acb6-2f06de6afd11?syn-25a6b1a6=1) reported that the French economy shrank 0.2% in the third quarter after quarterly GDP reduction was worse than initially estimated."
+    },
+    {
+     "articles": [
+      "3d38e4ec9315e124"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-27T13:39:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/world/europe/french-economy-slips-into-recession-as-exports-sag-47e934c5?mod=rss_socialeconomyfeed) reported that summer heat waves slowed Airbus’s factories."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "French economy shrinks 0.2% in third quarter",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "0e6ff9dc197f24c4",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-27T13:32:10+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "12644718455e1d02",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T13:10:33+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Norse Atlantic Airways files for bankruptcy in Norway",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/norse-atlantic-airways-files-for-bankruptcy-in-norway-5053483"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "norse-atlantic-bankruptcy",
+   "label": "Norse Atlantic bankruptcy",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0e6ff9dc197f24c4"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-27T13:32:10+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html) reported that budget carrier Norse Atlantic filed for bankruptcy after failing to secure funding as soaring fuel costs strained operations."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Norse Atlantic bankruptcy",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T10:40:11+00:00"
+ "updated": "2026-11-27T14:03:13+00:00"
 }

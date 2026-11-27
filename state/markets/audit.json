@@ -65,10 +65,18 @@
  },
  {
   "date": "2026-11-27",
-  "kind": "skipped",
+  "kind": "title",
   "group": "all",
-  "story": "UK Department for Work and Pensions cyber incident",
-  "text": "",
-  "reason": "off-topic for this site (topic: cyber): not created"
+  "story": "French economy shrinks 0.2% in third quarter",
+  "text": "French economic contraction",
+  "reason": "title replaced by a headline: wording not from cited articles: economic, contraction"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "merged",
+  "group": "all",
+  "story": "Brazil fiscal measures",
+  "text": "Lula names banker as Brazil finance minister in attempt to calm markets",
+  "reason": "duplicate story merged into an existing one"
  }
 ]
