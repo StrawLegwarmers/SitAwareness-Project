@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 431,
+   "articles": 435,
    "attached_by_code": 0,
-   "calls": 6,
-   "candidates": 28,
-   "continuing": 15,
+   "calls": 7,
+   "candidates": 32,
+   "continuing": 16,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 394,
-   "in_stories": 41,
-   "kept": 27,
+   "groups": 399,
+   "in_stories": 46,
+   "kept": 31,
    "merged": 2,
-   "new": 11,
+   "new": 13,
    "rejected": 4,
    "reported_by_2": 4,
-   "runs": 6,
-   "sent": 28,
-   "skipped": 1,
+   "runs": 7,
+   "sent": 32,
+   "skipped": 3,
    "split_calls": 0,
-   "updated": 13,
+   "updated": 14,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T16:49:05+00:00"
+  "all": "2026-11-27T19:45:32+00:00"
  },
  "narratives": [
   {
@@ -6482,8 +6482,21 @@
    "topic": "markets"
   },
   {
-   "article_count": 7,
+   "article_count": 8,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "2201e670f14e7faf",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-27T17:30:43+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Brazilian markets rally after Lula taps Bradesco chairman for finance chief",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/brazilian-markets-rally-after-lula-taps-bradesco-chairman-for-finance-chief-5053727"
+    },
     {
      "added": "2026-11-27",
      "id": "0a58fb5eaa98a4d2",
@@ -6576,7 +6589,7 @@
      "url": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 5,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "brazil-fiscal-measures",
@@ -10601,9 +10614,153 @@
    "status": "new",
    "title": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
    "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "e348a101634cd234",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-27T17:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "OPEC+ Faces Growing Pressure As Iraq Pushes for Higher Quota",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/OPEC-Faces-Growing-Pressure-As-Iraq-Pushes-for-Higher-Quota.html"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "0b3ef9cb098a86a8",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-27T16:42:25+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Iraq in talks with OPEC for higher oil quota, minister says before OPEC+ meeting",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/iraq-in-talks-with-opec-for-higher-oil-quota-minister-says-before-opec-meeting-5053712"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "iraq-opec-quota-talks",
+   "label": "Iraq OPEC quota talks",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0b3ef9cb098a86a8",
+      "e348a101634cd234"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com",
+      "Oilprice.com"
+     ],
+     "published": "2026-11-27T16:42:25+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/commodities-news/iraq-in-talks-with-opec-for-higher-oil-quota-minister-says-before-opec-meeting-5053712), [Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/OPEC-Faces-Growing-Pressure-As-Iraq-Pushes-for-Higher-Quota.html) reported that Iraq is in talks with OPEC to secure a higher production quota."
+    },
+    {
+     "articles": [
+      "e348a101634cd234"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-27T17:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/OPEC-Faces-Growing-Pressure-As-Iraq-Pushes-for-Higher-Quota.html) reported that Oil Minister Basim Mohammed Khudair stated the country needs a higher production quota ahead of the OPEC+ meeting."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Iraq OPEC quota talks",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "fb332f62521ccaa3",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T18:48:19+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI countersues Apple for stealing trade secrets, FT reports",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/openai-countersues-apple-for-stealing-trade-secrets-ft-reports-5053798"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "d1c271d7bd2688bc",
+     "lang": "en",
+     "outlet": "FT Companies",
+     "published": "2026-11-27T18:20:05+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "OpenAI countersues Apple for stealing trade secrets",
+     "type": "international",
+     "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "openai-and-apple-legal-dispute",
+   "label": "OpenAI and Apple legal dispute",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "d1c271d7bd2688bc",
+      "fb332f62521ccaa3"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Financial Times",
+      "Investing.com"
+     ],
+     "published": "2026-11-27T18:20:05+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1), [Investing.com](https://www.investing.com/news/stock-market-news/openai-countersues-apple-for-stealing-trade-secrets-ft-reports-5053798) reported that OpenAI countersued Apple for stealing trade secrets."
+    },
+    {
+     "articles": [
+      "d1c271d7bd2688bc"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Financial Times"
+     ],
+     "published": "2026-11-27T18:20:05+00:00",
+     "text": "[Financial Times](https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1) reported that the ChatGPT maker also accuses the tech giant of coercing and threatening suppliers who work with both companies."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "OpenAI and Apple legal dispute",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T16:49:23+00:00"
+ "updated": "2026-11-27T19:45:50+00:00"
 }
