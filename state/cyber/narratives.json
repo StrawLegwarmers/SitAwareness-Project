@@ -2,6 +2,54 @@
  "archived": [
   {
    "article_count": 1,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "com-affiliate-vishing-and-data-theft",
+   "last_updated": "2026-11-20",
+   "title": "Com affiliate vishing and data theft campaigns"
+  },
+  {
+   "article_count": 1,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "greenjuliett-and-ai-attack-workflows",
+   "last_updated": "2026-11-20",
+   "title": "GreenJuliett and AI attack workflows"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "sbc-medical-group-data-breaches",
+   "last_updated": "2026-11-20",
+   "title": "SBC Medical Group data breaches"
+  },
+  {
+   "article_count": 4,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "transport-for-london-data-breach",
+   "last_updated": "2026-11-20",
+   "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach"
+  },
+  {
+   "article_count": 8,
+   "first_seen": "2026-11-19",
+   "group": "all",
+   "id": "jpmorgan-chase-data-breach",
+   "last_updated": "2026-11-20",
+   "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-18",
+   "group": "all",
+   "id": "uat-12643-suspected-north-korea-aligned",
+   "last_updated": "2026-11-20",
+   "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali"
+  },
+  {
+   "article_count": 1,
    "first_seen": "2026-11-19",
    "group": "all",
    "id": "crowdstrike-java4shell-cve-2026-114938-discovery",
@@ -707,6 +755,30 @@
  ],
  "coverage": [
   {
+   "articles": 147,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-27",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 130,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 0,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
+  {
    "articles": 214,
    "attached_by_code": 0,
    "calls": 6,
@@ -1025,34 +1097,10 @@
    "split_calls": 0,
    "updated": 3,
    "waiting": 0
-  },
-  {
-   "articles": 275,
-   "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 39,
-   "continuing": 10,
-   "corroborated": 0,
-   "date": "2026-11-13",
-   "dropped": 1,
-   "failed_calls": 0,
-   "groups": 228,
-   "in_stories": 48,
-   "kept": 46,
-   "merged": 4,
-   "new": 18,
-   "rejected": 0,
-   "reported_by_2": 6,
-   "runs": 9,
-   "sent": 39,
-   "skipped": 0,
-   "split_calls": 0,
-   "updated": 3,
-   "waiting": 0
   }
  ],
  "last_run": {
-  "all": "2026-11-26T22:33:39+00:00"
+  "all": "2026-11-27T01:59:28+00:00"
  },
  "narratives": [
   {
@@ -1422,7 +1470,7 @@
      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 0,
    "first_seen": "2026-11-09",
    "group": "all",
    "id": "sonicwall-sonicos-ssl-vpn-flaw-under",
@@ -1432,7 +1480,7 @@
    "merged": [
     "danfoss-refrigeration-controllers-vulnerability"
    ],
-   "outlets_today": 5,
+   "outlets_today": 0,
    "previous_titles": [
     "U.S. CISA adds N-able MailAssure and Project MONAI flaws to its Known Exploited Vulnerabilities catalog",
     "U.S. CISA adds Drupal Core, Idunno AntiCsrf, and Optimizely Web Experimentation flaws to its Known Exploited Vulnerabilities catalog"
@@ -1602,7 +1650,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "CISA Adds 10 Flaws from Danfoss, HPE, Mitel MiCollab and Vates Xen to Exploited Catalog",
    "title_from": {
     "backing": 4,
@@ -2212,471 +2260,6 @@
    }
   },
   {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "07feac930aca3eed",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-20T09:00:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "Suspected North Korea-Aligned Group Hides C2 on Solana Blockchain",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/overlord-rat-solana-blockchain-c2/"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "8a8767d197aed23e",
-     "lang": "en",
-     "outlet": "Cisco Talos",
-     "published": "2026-11-18T11:00:00+00:00",
-     "publisher": "Cisco",
-     "region": null,
-     "section": "intel",
-     "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
-     "type": null,
-     "url": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-18",
-   "group": "all",
-   "id": "uat-12643-suspected-north-korea-aligned",
-   "label": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "07feac930aca3eed"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "published": "2026-11-20T09:00:00+00:00",
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/overlord-rat-solana-blockchain-c2/) reported that Cisco Talos tied a RAT that hides command and control on Solana and survives Windows resets to UAT-12643."
-    },
-    {
-     "articles": [
-      "8a8767d197aed23e"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Cisco"
-     ],
-     "published": "2026-11-18T11:00:00+00:00",
-     "text": "[Cisco](https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/) reported that Cisco Talos discovered malicious infrastructure associated with a financially motivated and suspected North Korea-aligned threat group tracked as UAT-12643."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infosteali",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 8,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "755204181a1e5578",
-     "lang": "en",
-     "outlet": "Graham Cluley",
-     "published": "2026-11-20T18:57:38+00:00",
-     "publisher": "Graham Cluley",
-     "region": null,
-     "section": "news",
-     "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers",
-     "type": null,
-     "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/n0n-extortion-leaks-data-jpmorgan-chase-visa-mastercard"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "0a1d3ff0d541f022",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-20T15:58:06+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "7c3b318f19ce106b",
-     "lang": "en",
-     "outlet": "Security Affairs",
-     "published": "2026-11-20T14:56:32+00:00",
-     "publisher": "Security Affairs",
-     "region": null,
-     "section": "news",
-     "title": "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims",
-     "type": null,
-     "url": "https://securityaffairs.com/203614/data-breach/jpmorgan-visa-and-mastercard-report-third-party-data-breaches-after-n0n-claims.html"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "6061bbd78a87d645",
-     "lang": "en",
-     "outlet": "Malwarebytes Labs",
-     "published": "2026-11-20T12:51:36+00:00",
-     "publisher": "Malwarebytes Labs",
-     "region": null,
-     "section": "intel",
-     "title": "Hackers leak data linked to Visa, Mastercard, and JPMorgan customers",
-     "type": null,
-     "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/hackers-leak-data-linked-to-visa-mastercard-and-jpmorgan-customers"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "bd2f6c5823767399",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-20T07:35:46+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-     "type": null,
-     "url": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/"
-    },
-    {
-     "added": "2026-11-20",
-     "dates": [
-      "2026-11-19"
-     ],
-     "id": "e5c6db05412a81df",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-20T06:02:03+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks",
-     "type": null,
-     "url": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/"
-    },
-    {
-     "added": "2026-11-19",
-     "id": "79221125fd828262",
-     "lang": "en",
-     "outlet": "The Register Security",
-     "published": "2026-11-19T21:12:33+00:00",
-     "publisher": "The Register",
-     "region": null,
-     "section": "news",
-     "title": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
-     "type": null,
-     "url": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175"
-    },
-    {
-     "added": "2026-11-19",
-     "dates": [
-      "2026-11-19"
-     ],
-     "id": "8c40b74349e6eb6a",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-19T16:14:31+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "JPMorgan Chase Confirms Third-Party Cyberattack That May Have Exposed Customer Names and Emails",
-     "type": null,
-     "url": "https://cybersecuritynews.com/jpmorgan-third-party-data-breach/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-19",
-   "group": "all",
-   "id": "jpmorgan-chase-data-breach",
-   "label": "JPMorgan Chase data breach",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
-   "previous_titles": [
-    "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
-    "JPMorgan, Visa and Mastercard Report Third-Party Data Breaches After N0n Claims"
-   ],
-   "reports": [
-    {
-     "articles": [
-      "7c3b318f19ce106b"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Security Affairs"
-     ],
-     "published": "2026-11-20T14:56:32+00:00",
-     "text": "[Security Affairs](https://securityaffairs.com/203614/data-breach/jpmorgan-visa-and-mastercard-report-third-party-data-breaches-after-n0n-claims.html) reported that JPMorgan, Visa and Mastercard disclosed third-party data breaches after the N0n extortion group claimed to have stolen customer information."
-    },
-    {
-     "articles": [
-      "0a1d3ff0d541f022"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-20T15:58:06+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/) reported that J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data."
-    },
-    {
-     "articles": [
-      "e5c6db05412a81df"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-20T06:02:03+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/) reported that hackers published customer data linked to Visa, Mastercard and JPMorgan Chase after cyberattacks on third-party service providers."
-    },
-    {
-     "articles": [
-      "bd2f6c5823767399"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-20T07:35:46+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/) reported that the N0n extortion group leaked data allegedly tied to their customers."
-    },
-    {
-     "articles": [
-      "8c40b74349e6eb6a"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "Cybersecurity News"
-     ],
-     "published": "2026-11-19T16:14:31+00:00",
-     "text": "[Cybersecurity News](https://cybersecuritynews.com/jpmorgan-third-party-data-breach/) reported that JPMorgan Chase confirmed a cyberattack targeting outside companies that provide services to the bank."
-    },
-    {
-     "articles": [
-      "79221125fd828262"
-     ],
-     "date": "2026-11-19",
-     "group": "all",
-     "outlets": [
-      "The Register"
-     ],
-     "published": "2026-11-19T21:12:33+00:00",
-     "text": "[The Register](https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175) reported that Chase, Visa, and Mastercard confirmed third-party cyberattacks that may have exposed customers' information."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "n0n extortion gang leaks data of JPMorgan Chase, Visa, and Mastercard customers",
-   "title_from": {
-    "backing": 5,
-    "date": "2026-11-20",
-    "of": 5,
-    "outlet": "Graham Cluley",
-    "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/n0n-extortion-leaks-data-jpmorgan-chase-visa-mastercard"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 4,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "1cc94777cfd60a60",
-     "lang": "en",
-     "outlet": "Help Net Security",
-     "published": "2026-11-20T10:21:41+00:00",
-     "publisher": "Help Net Security",
-     "region": null,
-     "section": "news",
-     "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach",
-     "type": null,
-     "url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/"
-    },
-    {
-     "added": "2026-11-20",
-     "dates": [
-      "2026-11-16"
-     ],
-     "id": "df3516957ebfc636",
-     "lang": "en",
-     "outlet": "Cybersecurity News",
-     "published": "2026-11-20T09:48:17+00:00",
-     "publisher": "Cybersecurity News",
-     "region": null,
-     "section": "news",
-     "title": "Hackers Breach TfL Oyster Photocard Accounts, Exposing Personal Data of 265,000 Customers",
-     "type": null,
-     "url": "https://cybersecuritynews.com/hackers-breach-tfl-oyster-photocard-accounts/"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "6870b8ca0d602f33",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-19T18:20:01+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "b495a0338b9483c5",
-     "lang": "en",
-     "outlet": "Infosecurity Magazine",
-     "published": "2026-11-19T11:35:00+00:00",
-     "publisher": "Infosecurity Magazine",
-     "region": null,
-     "section": "news",
-     "title": "TfL Warns 265,000 Photocard Customers May Have Had Personal Data Exposed",
-     "type": null,
-     "url": "https://www.infosecurity-magazine.com/news/tfl-customers-personal-data-exposed/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-20",
-   "group": "all",
-   "id": "transport-for-london-data-breach",
-   "label": "Transport for London data breach",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "1cc94777cfd60a60",
-      "6870b8ca0d602f33",
-      "b495a0338b9483c5",
-      "df3516957ebfc636"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine",
-      "Cybersecurity News",
-      "BleepingComputer",
-      "Help Net Security"
-     ],
-     "published": "2026-11-19T11:35:00+00:00",
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/tfl-customers-personal-data-exposed/), [Cybersecurity News](https://cybersecuritynews.com/hackers-breach-tfl-oyster-photocard-accounts/), [BleepingComputer](https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/), [Help Net Security](https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/) reported that a data breach at Transport for London exposed the personal information of 265,000 Oyster photocard customers."
-    },
-    {
-     "articles": [
-      "b495a0338b9483c5"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Infosecurity Magazine"
-     ],
-     "published": "2026-11-19T11:35:00+00:00",
-     "text": "[Infosecurity Magazine](https://www.infosecurity-magazine.com/news/tfl-customers-personal-data-exposed/) reported that London's transport body was alerted to the incident after emails were sent from its system to Oyster Photocard customers."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "265,000 Oyster photocard customers’ data exposed in Transport for London breach",
-   "title_from": {
-    "backing": 3,
-    "date": "2026-11-20",
-    "of": 3,
-    "outlet": "Help Net Security",
-    "url": "https://www.helpnetsecurity.com/2026/11/20/transport-for-london-oyster-photocard-data-breach/"
-   },
-   "topic": "cyber"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "0cf9ac0080e0da0e",
-     "lang": "en",
-     "outlet": "SecurityWeek",
-     "published": "2026-11-20T11:36:51+00:00",
-     "publisher": "SecurityWeek",
-     "region": null,
-     "section": "news",
-     "title": "SBC Medical Group Data Breach Impacts Over 2 Million",
-     "type": null,
-     "url": "https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "eb92bfb0bc0f5362",
-     "lang": "en",
-     "outlet": "BleepingComputer",
-     "published": "2026-11-19T22:25:42+00:00",
-     "publisher": "BleepingComputer",
-     "region": null,
-     "section": "news",
-     "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-     "type": null,
-     "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-20",
-   "group": "all",
-   "id": "sbc-medical-group-data-breaches",
-   "label": "SBC Medical Group data breaches",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "eb92bfb0bc0f5362"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "BleepingComputer"
-     ],
-     "published": "2026-11-19T22:25:42+00:00",
-     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/) reported that SBC Medical Group warned in an SEC filing that two cybersecurity incidents exposed sensitive customer data."
-    },
-    {
-     "articles": [
-      "0cf9ac0080e0da0e"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "SecurityWeek"
-     ],
-     "published": "2026-11-20T11:36:51+00:00",
-     "text": "[SecurityWeek](https://www.securityweek.com/sbc-medical-group-data-breach-impacts-over-2-million/) reported that threat actors accessed databases containing customer information associated with clinics in Japan."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "SBC Medical Group data breaches",
-   "topic": "cyber"
-  },
-  {
    "article_count": 5,
    "articles": [
     {
@@ -2795,96 +2378,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "Cisco Expressway security flaw exploitation",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "365380a11c39515a",
-     "lang": "en",
-     "outlet": "Recorded Future Research",
-     "published": "2026-11-20T00:00:00+00:00",
-     "publisher": "Recorded Future Research",
-     "region": null,
-     "section": "intel",
-     "title": "AI Joins the Industrial Attack Workflow",
-     "type": null,
-     "url": "https://www.recordedfuture.com/blog/ai-industrial-attack-workflow"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-20",
-   "group": "all",
-   "id": "greenjuliett-and-ai-attack-workflows",
-   "label": "GreenJuliett and AI attack workflows",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "365380a11c39515a"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Recorded Future Research"
-     ],
-     "published": "2026-11-20T00:00:00+00:00",
-     "text": "[Recorded Future Research](https://www.recordedfuture.com/blog/ai-industrial-attack-workflow) reported that Insikt Group analyzed how GreenJuliett and AI frameworks like ARTEX are accelerating cyberattacks on OT networks."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "GreenJuliett and AI attack workflows",
-   "topic": "cyber"
-  },
-  {
-   "article_count": 1,
-   "articles": [
-    {
-     "added": "2026-11-20",
-     "id": "e29b70986e7bcf16",
-     "lang": "en",
-     "outlet": "Unit 42 (Palo Alto)",
-     "published": "2026-11-20T22:00:25+00:00",
-     "publisher": "Unit 42 (Palo Alto)",
-     "region": null,
-     "section": "intel",
-     "title": "Dialing for Data: Inside the Com’s High-Profile Heists",
-     "type": null,
-     "url": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-20",
-   "group": "all",
-   "id": "com-affiliate-vishing-and-data-theft",
-   "label": "Com affiliate vishing and data theft campaigns",
-   "last_reported": "2026-11-20",
-   "last_updated": "2026-11-20",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "e29b70986e7bcf16"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Unit 42 (Palo Alto)"
-     ],
-     "published": "2026-11-20T22:00:25+00:00",
-     "text": "[Unit 42 (Palo Alto)](https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/) reported that an analysis of Com affiliate vishing attacks, cloud data theft, and extortion campaigns targeted healthcare and finance."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Com affiliate vishing and data theft campaigns",
    "topic": "cyber"
   },
   {
@@ -4931,14 +4424,14 @@
      "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "us-treasury-department-fincen-cyber-incident",
    "label": "US Treasury Department FinCEN cyber incident",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4965,9 +4458,9 @@
      "text": "[CyberScoop](https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/) reported that the filing portal remains operational and deadlines for affected filers have been extended."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "US Treasury Department FinCEN cyber incident",
    "topic": "cyber"
   },
@@ -5148,17 +4641,17 @@
      "url": "https://www.crowdstrike.com/en-us/blog/securing-employees-ai-use-requires-unified-architecture/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "securing-employees-ai-use-requires-a",
    "label": "Securing Employees’ AI Use Requires a Unified Architecture",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Securing Employees’ AI Use Requires a Unified Architecture",
    "topic": "cyber"
   },
@@ -5231,14 +4724,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "1password-data-breach",
    "label": "1Password data breach",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 5,
+   "outlets_today": 0,
    "previous_titles": [
     "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
     "1Password breached through hijacked employee GitHub account, customer names and emails stolen"
@@ -5295,7 +4788,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
    "title_from": {
     "backing": 3,
@@ -5336,14 +4829,14 @@
      "url": "https://simpleflying.com/fedex-mcdonnell-douglas-md-11-overshoots-runway-miami-triggers-ground-stop/"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "fedex-md-11-miami-runway-overruns",
    "label": "FedEx MD-11 Miami runway overruns",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5372,7 +4865,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "FedEx MD-11 Miami runway overruns",
    "topic": "infrastructure"
   },
@@ -5409,14 +4902,14 @@
      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "drupal-vulnerability-active-exploitation",
    "label": "Drupal vulnerability active exploitation",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5445,12 +4938,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Drupal vulnerability active exploitation",
    "topic": "security"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-26T22:33:39+00:00"
+ "updated": "2026-11-27T01:59:28+00:00"
 }

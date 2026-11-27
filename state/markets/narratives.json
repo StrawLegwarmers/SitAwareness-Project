@@ -2,6 +2,14 @@
  "archived": [
   {
    "article_count": 2,
+   "first_seen": "2026-11-22",
+   "group": "all",
+   "id": "south-korea-stock-market-stabilization-fund",
+   "last_updated": "2026-11-22",
+   "title": "South Korea stock market stabilization fund"
+  },
+  {
+   "article_count": 2,
    "first_seen": "2026-11-21",
    "group": "all",
    "id": "databricks-in-early-talks-to-raise",
@@ -791,17 +799,33 @@
    "id": "new-orleans-tanker-collision",
    "last_updated": "2026-11-14",
    "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "bank-of-england-interest-rates",
-   "last_updated": "2026-11-14",
-   "title": "Bank of England interest rates"
   }
  ],
  "coverage": [
+  {
+   "articles": 388,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 8,
+   "continuing": 4,
+   "corroborated": 0,
+   "date": "2026-11-27",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 344,
+   "in_stories": 12,
+   "kept": 10,
+   "merged": 0,
+   "new": 3,
+   "rejected": 0,
+   "reported_by_2": 4,
+   "runs": 1,
+   "sent": 8,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 4,
+   "waiting": 0
+  },
   {
    "articles": 516,
    "attached_by_code": 0,
@@ -1126,34 +1150,10 @@
    "split_calls": 0,
    "updated": 7,
    "waiting": 0
-  },
-  {
-   "articles": 784,
-   "attached_by_code": 0,
-   "calls": 8,
-   "candidates": 37,
-   "continuing": 5,
-   "corroborated": 0,
-   "date": "2026-11-13",
-   "dropped": 2,
-   "failed_calls": 0,
-   "groups": 700,
-   "in_stories": 77,
-   "kept": 44,
-   "merged": 3,
-   "new": 27,
-   "rejected": 12,
-   "reported_by_2": 14,
-   "runs": 8,
-   "sent": 37,
-   "skipped": 1,
-   "split_calls": 0,
-   "updated": 0,
-   "waiting": 0
   }
  ],
  "last_run": {
-  "all": "2026-11-26T22:38:28+00:00"
+  "all": "2026-11-27T02:01:42+00:00"
  },
  "narratives": [
   {
@@ -1808,14 +1808,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "previous_titles": [
     "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears"
    ],
@@ -2101,7 +2101,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Oil Prices Mixed as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
    "title_from": {
     "backing": 2,
@@ -2292,8 +2292,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 16,
+   "article_count": 17,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "882971112cdd879f",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-26T03:13:43+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html"
+    },
     {
      "added": "2026-11-24",
      "id": "d78e88e65ff67e71",
@@ -2506,19 +2519,31 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
    "label": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-24",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
    "merged": [
     "nvidia-earnings-report",
     "nvidia-leadership-and-earnings"
    ],
-   "outlets_today": 0,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "882971112cdd879f"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-26T03:13:43+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/26/dennys-jensen-huang-nvidia.html) reported that Denny's reaffirmed its longstanding ties with Jensen Huang following his return as Nvidia CEO."
+    },
     {
      "articles": [
       "e77509465edd69c2"
@@ -2700,9 +2725,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -3191,8 +3216,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 24,
+   "article_count": 25,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "4cfa8a9ca4c5b102",
+     "lang": "en",
+     "outlet": "Investing.com Commodities",
+     "published": "2026-11-27T01:27:52+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Gold steadies near 15-month low as Fed hike bets offset tech-led rally",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/commodities-news/gold-steadies-near-15month-low-as-fed-hike-bets-offset-techled-rally-5052805"
+    },
     {
      "added": "2026-11-26",
      "id": "65ec62a91fc68a76",
@@ -3506,17 +3544,17 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
    "label": "US dollar and gold markets",
    "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
+   "last_updated": "2026-11-27",
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 4,
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -3634,9 +3672,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "covered",
    "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -3898,14 +3936,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-17",
    "group": "all",
    "id": "global-oil-market-oversupply",
    "label": "Global oil market oversupply",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "previous_titles": [
     "Oil prices fall further on supply glut concerns; strong dollar weighs",
     "Oil Prices Continue to Fall as Global Supply Surplus Weighs"
@@ -4070,9 +4108,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Fall-as-Fears-of-a-Global-Supply-Glut-Return.html), [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) reported that oil prices fell amid returns of fears regarding a global supply glut, with [Investing.com](https://www.investing.com/news/commodities-news/oil-prices-fall-further-on-supply-glut-concerns-strong-dollar-weighs-5031393) noting that a strong dollar also weighed on prices."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Oil Prices Hold Near Three-Month Lows Despite Hormuz Mine Claims",
    "title_from": {
     "backing": 2,
@@ -4779,76 +4817,6 @@
    "status": "unchanged",
    "title": "Los Angeles Port labor contract",
    "topic": "economy"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-22",
-     "id": "c0627accf64da0d5",
-     "lang": "en",
-     "outlet": "ET Markets",
-     "published": "2026-11-22T11:45:31+00:00",
-     "publisher": "ET Markets",
-     "region": null,
-     "section": "news",
-     "title": "South Korea prepares market stabilisation funds after KOSPI hits 10-month low",
-     "type": "regional",
-     "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms"
-    },
-    {
-     "added": "2026-11-22",
-     "id": "9a50532a8659b8f7",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-22T10:54:22+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "South Korea prepares stock market stabilization fund after Kospi plunges 5.2%",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-22",
-   "group": "all",
-   "id": "south-korea-stock-market-stabilization-fund",
-   "label": "South Korea stock market stabilization fund",
-   "last_reported": "2026-11-22",
-   "last_updated": "2026-11-22",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "9a50532a8659b8f7"
-     ],
-     "date": "2026-11-22",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-22T10:54:22+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/south-korea-prepares-stock-market-stabilization-fund-after-kospi-plunges-52-5043890) reported that South Korea prepares a stock market stabilization fund after the Kospi plunges 5.2 percent."
-    },
-    {
-     "articles": [
-      "c0627accf64da0d5"
-     ],
-     "date": "2026-11-22",
-     "group": "all",
-     "outlets": [
-      "ET Markets"
-     ],
-     "published": "2026-11-22T11:45:31+00:00",
-     "text": "[ET Markets](https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/south-korea-prepares-market-stabilisation-funds-after-kospi-hits-10-month-low/articleshow/136073016.cms) reported that South Korea's finance ministry is poised to activate market stabilisation funds in response to falling stock indices after the KOSPI hits a 10-month low."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "South Korea stock market stabilization fund",
-   "topic": "markets"
   },
   {
    "article_count": 4,
@@ -5870,14 +5838,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-23",
    "group": "all",
    "id": "democratic-republic-of-congo-cobalt-export",
    "label": "Democratic Republic of Congo cobalt export ban",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5904,9 +5872,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/top-cobalt-producer-congo-will-ban-exports-again-as-prices-slide) reported that the Democratic Republic of Congo will reintroduce a ban on cobalt exports from the end of the month to reverse a price slump."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Democratic Republic of Congo cobalt export ban",
    "topic": "markets"
   },
@@ -6467,14 +6435,14 @@
      "url": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "brazil-fiscal-measures",
    "label": "Brazil fiscal measures",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6489,9 +6457,9 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-24/brazil-real-rallies-on-reports-lula-backs-further-spending-curbs) reported that the Brazilian real rallied by the most in nearly two months after reports that President Luiz Inacio Lula da Silva is backing further moves to curb government spending."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Brazil fiscal measures",
    "topic": "economy"
   },
@@ -6820,14 +6788,14 @@
      "url": "https://www.investing.com/news/economy-news/south-koreas-central-bank-seen-raising-rates-on-thursday-once-more-next-quarter--reuters-poll-5046788"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "south-korea-interest-rates",
    "label": "South Korea interest rates",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6888,7 +6856,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "South Korea interest rates",
    "topic": "economy"
   },
@@ -8025,14 +7993,14 @@
      "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "todd-boehly-acquisition-of-lukoil-overseas",
    "label": "Todd Boehly acquisition of Lukoil overseas assets",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8061,9 +8029,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/deals/dodgers-owner-todd-boehly-clinches-deal-for-overseas-assets-of-russias-lukoil-9679356a?mod=rss_markets_main) reported that the sale was initially sparked after the Trump administration placed sanctions on Lukoil assets."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Dodgers Owner Todd Boehly Clinches Deal for Overseas Assets of Russia’s Lukoil",
    "title_from": {
     "backing": 2,
@@ -8307,14 +8275,14 @@
      "url": "https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "spacex-orbital-data-center-satellites-approval",
    "label": "SpaceX orbital data center satellites approval",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-26",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8331,9 +8299,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f), [CNBC](https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html) reported that the FCC authorized SpaceX to deploy 1 million space-based AI data center satellites known as Starmind."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "SpaceX orbital data center satellites approval",
    "topic": "technology-policy"
   },
@@ -8467,14 +8435,14 @@
      "url": "https://www.investing.com/news/economy-news/analysisvolatilityweary-investors-hammered-as-tariff-mayhem-adds-to-tech-pain-5051297"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "us-tariff-proposals-on-trading-partners",
    "label": "US tariff proposals on trading partners",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8491,7 +8459,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US tariff proposals on trading partners",
    "topic": "economy"
   },
@@ -8525,14 +8493,14 @@
      "url": "https://www.wsj.com/finance/investing/dan-loebs-hedge-fund-returns-to-startup-investing-years-after-ftx-loss-46f36108?mod=rss_markets_main"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "third-point-startup-and-private-investments",
    "label": "Third Point startup and private investments",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8561,7 +8529,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Third Point startup and private investments",
    "topic": "business"
   },
@@ -8595,14 +8563,14 @@
      "url": "https://www.wsj.com/finance/investing/aschenbrenners-situational-awareness-tells-investors-it-lost-65-in-third-quarter-de8e9797?mod=rss_markets_main"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "situational-awareness-hedge-fund-losses",
    "label": "Situational Awareness hedge fund losses",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8621,7 +8589,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Situational Awareness hedge fund losses",
    "topic": "markets"
   },
@@ -8694,14 +8662,14 @@
      "url": "https://www.investing.com/news/stock-market-news/judge-bars-us-fcc-from-taking-steps-to-threaten-abcs-broadcast-license-5051818"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "fcc-abc-license-review-dispute",
    "label": "FCC ABC license review dispute",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8742,7 +8710,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
    "title_from": {
     "backing": 3,
@@ -8783,14 +8751,14 @@
      "url": "https://www.investing.com/news/stock-market-news/sp-global-places-nvidia-rating-on-creditwatch-negative-on-rising-management-and-governance-risks-5051352"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "nvidia-credit-rating-governance-risk",
    "label": "Nvidia credit rating governance risk",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8819,13 +8787,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Nvidia credit rating governance risk",
    "topic": "business-strategic"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "8ad704a47e35a947",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T23:31:47+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Musk says he will donate another SpaceX share to American kids annually",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/musk-says-he-will-donate-another-spacex-share-to-american-kids-annually-5052757"
+    },
     {
      "added": "2026-11-26",
      "id": "7d68375455e3bc12",
@@ -8853,15 +8834,27 @@
      "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 1,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "spacex-and-elon-musk-trump-accounts",
    "label": "SpaceX and Elon Musk Trump accounts donation",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "8ad704a47e35a947"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T23:31:47+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/musk-says-he-will-donate-another-spacex-share-to-american-kids-annually-5052757) reported that Musk said he will donate another SpaceX share to American kids annually."
+    },
     {
      "articles": [
       "36f02f89a7da2990"
@@ -8875,9 +8868,9 @@
      "text": "[MarketWatch](https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories) reported that SpaceX will provide one newly issued Class A share to every active Trump account and CEO Elon Musk will match that gift."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "updated",
    "title": "SpaceX and Elon Musk Trump accounts donation",
    "topic": "business"
   },
@@ -8911,14 +8904,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-26/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "adani-firms-public-bond-sale",
    "label": "Adani firms public bond sale",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8937,7 +8930,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Adani firms public bond sale",
    "topic": "markets"
   },
@@ -8997,14 +8990,14 @@
      "url": "https://www.investing.com/news/stock-market-news/unicredit-clears-final-hurdles-for-commerzbank-takeover-5052161"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "unicredit-commerzbank-takeover",
    "label": "UniCredit Commerzbank takeover",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9045,7 +9038,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "UniCredit Seeks Commerzbank Chair Role for CEO Orcel After Takeover Clears Final Hurdle",
    "title_from": {
     "backing": 2,
@@ -9099,14 +9092,14 @@
      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "norse-atlantic-flight-suspension",
    "label": "Norse Atlantic flight suspension",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9135,7 +9128,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Norse Atlantic suspends all flights as it faces potential collapse",
    "title_from": {
     "backing": 2,
@@ -9176,14 +9169,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-26/ecb-officials-saw-more-tightening-with-inflation-outlook-worse"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "european-central-bank-monetary-policy",
    "label": "European Central Bank monetary policy",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9212,13 +9205,26 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "European Central Bank monetary policy",
    "topic": "economy"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "b68b2750cbd92caf",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-27T00:26:05+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Japan Tobacco Shares Climb on Potential Imperial Brands Takeover",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/japan-tobacco-shares-climb-on-potential-imperial-brands-takeover"
+    },
     {
      "added": "2026-11-26",
      "id": "dd4cf0cc28abc02d",
@@ -9298,18 +9304,30 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands"
     }
    ],
-   "articles_today": 6,
+   "articles_today": 1,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "altria-acquisition-of-imperial-brands",
    "label": "Altria acquisition of Imperial Brands",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
    "merged": [
     "altria-and-imperial-brands-potential-deal"
    ],
-   "outlets_today": 5,
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "b68b2750cbd92caf"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-27T00:26:05+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/japan-tobacco-shares-climb-on-potential-imperial-brands-takeover) reported that Japan Tobacco shares climbed on potential Imperial Brands takeover news."
+    },
     {
      "articles": [
       "108f2c76002dec78"
@@ -9359,9 +9377,9 @@
      "text": "[Financial Times](https://www.ft.com/content/696e99b0-f6d1-4a1a-95b0-f68de88520d9?syn-25a6b1a6=1) reported that the deal would remove another of the U.K.’s large listed companies from the London stock market."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "updated",
    "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
    "title_from": {
     "backing": 3,
@@ -9402,14 +9420,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Backed-Consortium-Signs-Deal-for-Lukoils-International-Oil-Empire.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "lukoil-international-assets-acquisition",
    "label": "Lukoil international assets acquisition",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9438,7 +9456,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Lukoil international assets acquisition",
    "topic": "business-strategic"
   },
@@ -9498,14 +9516,14 @@
      "url": "https://www.bloomberg.com/news/videos/2026-11-26/spain-s-de-cos-set-to-succeed-lagarde-as-ecb-president-video-mwxmko5n"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "spain-s-de-cos-set-to",
    "label": "Spain's De Cos Set to Succeed Lagarde as ECB President",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 4,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9548,7 +9566,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Pablo Hernández de Cos: the ‘consensus-builder’ taking over the ECB",
    "title_from": {
     "backing": 2,
@@ -9589,14 +9607,14 @@
      "url": "https://www.investing.com/news/economy-news/trump-demands-probe-of-gdp-data-released-before-midterms-5052586"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "us-gross-domestic-product-data-revision",
    "label": "US gross domestic product data revision",
    "last_reported": "2026-11-26",
    "last_updated": "2026-11-26",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9613,12 +9631,269 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "US gross domestic product data revision",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "431149f034fe952e",
+     "lang": "en",
+     "outlet": "Bloomberg Economics",
+     "published": "2026-11-26T23:36:40+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Tokyo’s Faster Pace of Inflation Backs Case for BOJ Rate Hike",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "ac90bd37622a3079",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-26T03:55:28+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "BOJ’s Tamura flags faster pace of rate hikes amid inflation risk",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/bojs-tamura-flags-faster-pace-of-rate-hikes-amid-inflation-risk-5051988"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "japan-inflation-and-interest-rates",
+   "label": "Japan inflation and interest rates",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "431149f034fe952e"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-26T23:36:40+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure) reported that inflation in Japan’s capital city accelerated to the fastest pace this year."
+    },
+    {
+     "articles": [
+      "ac90bd37622a3079"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T03:55:28+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/economy-news/bojs-tamura-flags-faster-pace-of-rate-hikes-amid-inflation-risk-5051988) reported that BOJ board member Tamura flagged a faster pace of rate hikes amid inflation risk."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Japan inflation and interest rates",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "6e243ba5622ccf5a",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T23:00:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Bankers Pay Up for Hong Kong Apartments as Rents Hit New Highs",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/bankers-pay-up-for-hong-kong-apartments-as-rents-hit-new-highs"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "192006dfe6d1baaa",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-26T11:00:16+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Hong Kong’s home prices fall in October as rents hit a record high",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/markets/article/3375931/hong-kongs-home-prices-fall-october-rents-hit-record-high"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "hong-kong-real-estate-market",
+   "label": "Hong Kong real estate market",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "6e243ba5622ccf5a"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-26T23:00:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/bankers-pay-up-for-hong-kong-apartments-as-rents-hit-new-highs) reported that bankers are paying higher prices for apartments in Hong Kong as rents hit new highs."
+    },
+    {
+     "articles": [
+      "192006dfe6d1baaa"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "South China Morning Post"
+     ],
+     "published": "2026-11-26T11:00:16+00:00",
+     "text": "[South China Morning Post](https://www.scmp.com/business/markets/article/3375931/hong-kongs-home-prices-fall-october-rents-hit-record-high) reported that Hong Kong’s home prices declined in October as rents hit a record high."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Hong Kong real estate market",
+   "topic": "markets"
+  },
+  {
+   "article_count": 4,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "0a58fb5eaa98a4d2",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-27T01:08:00+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "29bb21a3e5ad30bb",
+     "lang": "en",
+     "outlet": "FT Global Economy",
+     "published": "2026-11-27T00:59:07+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
+     "type": "international",
+     "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "5b63ab15202be185",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-26T23:18:21+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "Lula Taps Bradesco Chair as Finance Chief to Soothe Markets",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "56e0b5bd3a4a96d1",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T13:01:23+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Brazil’s Lula sounds out Bradesco chairman as finance minister, sources say",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498"
+    }
+   ],
+   "articles_today": 4,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "brazil-finance-minister-appointment",
+   "label": "Brazil finance minister appointment",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 3,
+   "reports": [
+    {
+     "articles": [
+      "29bb21a3e5ad30bb",
+      "5b63ab15202be185"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Financial Times"
+     ],
+     "published": "2026-11-26T23:18:21+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-26/lula-taps-bradesco-chairman-as-finance-chief-to-reassure-markets), [Financial Times](https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1) reported that President Luiz Inácio Lula da Silva tapped Bradesco Chairman Luiz Carlos Trabuco Cappi as finance minister to soothe markets."
+    },
+    {
+     "articles": [
+      "56e0b5bd3a4a96d1"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T13:01:23+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/brazils-lula-sounds-out-bradescochairman-as-finance-minister-sources-say-5052498) reported that sources said Brazil’s Lula was sounding out the Bradesco chairman as finance minister."
+    },
+    {
+     "articles": [
+      "0a58fb5eaa98a4d2"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-27T01:08:00+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister) reported that Brazilian assets gained after the appointment."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
+   "title_from": {
+    "backing": 2,
+    "date": "2026-11-27",
+    "of": 2,
+    "outlet": "Financial Times",
+    "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
+   },
    "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-26T22:38:28+00:00"
+ "updated": "2026-11-27T02:01:59+00:00"
 }
