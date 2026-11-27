@@ -803,7 +803,7 @@
  ],
  "coverage": [
   {
-   "articles": 435,
+   "articles": 438,
    "attached_by_code": 0,
    "calls": 7,
    "candidates": 32,
@@ -812,14 +812,14 @@
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 399,
+   "groups": 401,
    "in_stories": 46,
    "kept": 31,
    "merged": 2,
    "new": 13,
    "rejected": 4,
    "reported_by_2": 4,
-   "runs": 7,
+   "runs": 8,
    "sent": 32,
    "skipped": 3,
    "split_calls": 0,
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T19:45:32+00:00"
+  "all": "2026-11-27T22:39:27+00:00"
  },
  "narratives": [
   {
@@ -10762,5 +10762,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T19:45:50+00:00"
+ "updated": "2026-11-27T22:39:27+00:00"
 }
