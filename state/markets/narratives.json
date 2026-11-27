@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 388,
+   "articles": 394,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 11,
-   "continuing": 7,
+   "calls": 3,
+   "candidates": 16,
+   "continuing": 9,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 344,
-   "in_stories": 16,
-   "kept": 12,
+   "groups": 354,
+   "in_stories": 24,
+   "kept": 17,
    "merged": 0,
-   "new": 3,
-   "rejected": 2,
+   "new": 6,
+   "rejected": 4,
    "reported_by_2": 4,
-   "runs": 2,
-   "sent": 11,
+   "runs": 3,
+   "sent": 16,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 6,
+   "updated": 8,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T04:44:49+00:00"
+  "all": "2026-11-27T08:05:27+00:00"
  },
  "narratives": [
   {
@@ -1441,8 +1441,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 28,
+   "article_count": 29,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "a27d661eef85214f",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-27T05:18:44+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Climb as Middle East Supply Risks Overshadow Glut Fears",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Middle-East-Supply-Risks-Overshadow-Glut-Fears.html"
+    },
     {
      "added": "2026-11-26",
      "id": "54808526f4e97d04",
@@ -1808,18 +1821,30 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
-   "outlets_today": 0,
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "previous_titles": [
     "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears"
    ],
    "reports": [
+    {
+     "articles": [
+      "a27d661eef85214f"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-27T05:18:44+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Climb-as-Middle-East-Supply-Risks-Overshadow-Glut-Fears.html) reported that crude oil prices climbed as Middle East supply risks overshadowed glut fears and tanker attacks in the Strait of Hormuz undermined supply."
+    },
     {
      "articles": [
       "54808526f4e97d04"
@@ -2099,9 +2124,9 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Oil Prices Mixed as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
    "title_from": {
     "backing": 2,
@@ -5965,8 +5990,21 @@
    "topic": "politics"
   },
   {
-   "article_count": 6,
+   "article_count": 7,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "056b8dbb6706d7f2",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T06:12:34+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Sanofi CEO got to work on $41 billion Insmed deal straight after taking office",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/sanofi-ceo-got-to-work-on-41-billion-insmed-deal-straight-after-taking-office-5052971"
+    },
     {
      "added": "2026-11-24",
      "id": "b2bdf5857c747b37",
@@ -6046,14 +6084,14 @@
      "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=rss_markets_main"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "sanofi-acquisition-of-insmed",
    "label": "Sanofi acquisition of Insmed",
    "last_reported": "2026-11-24",
-   "last_updated": "2026-11-24",
-   "outlets_today": 0,
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -6104,9 +6142,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163) reported that the transaction is the biggest deal under CEO Garijo."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "covered",
    "title": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
    "title_from": {
     "backing": 4,
@@ -9967,9 +10005,195 @@
     "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1"
    },
    "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "1dfa220332f2d987",
+     "lang": "en",
+     "outlet": "WSJ Economy",
+     "published": "2026-11-27T02:28:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "China’s Industrial Profit Surged Despite Headwinds",
+     "type": "international",
+     "url": "https://www.wsj.com/economy/chinas-industrial-profit-surged-despite-headwinds-0296ec7c?mod=rss_socialeconomyfeed"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "1fad6c91a9b6a133",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-27T01:38:00+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "china-industrial-profits-growth",
+   "label": "China industrial profits growth",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "1dfa220332f2d987"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-27T02:28:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/economy/chinas-industrial-profit-surged-despite-headwinds-0296ec7c?mod=rss_socialeconomyfeed) stated that China's industrial profit surged in October despite mounting domestic headwinds due to robust global demand for tech products."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "China industrial profits growth",
+   "topic": "economy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "278265dc10cfb2d4",
+     "lang": "en",
+     "outlet": "Oilprice.com",
+     "published": "2026-11-27T07:30:00+00:00",
+     "publisher": "Oilprice.com",
+     "region": null,
+     "section": "news",
+     "title": "Australia Passes Landmark Law to Reserve Gas for Domestic Consumers",
+     "type": "specialist",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Australia-Passes-Landmark-Law-to-Reserve-Gas-for-Domestic-Consumers.html"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "ce63722de55433e6",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-27T05:14:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Australia Orders LNG Exporters Reserve Some Gas to Plug Shortages at Home",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/commodities-futures/australia-orders-lng-exporters-reserve-some-gas-to-plug-shortages-at-home-72d6fe9b?mod=rss_markets_main"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "australia-lng-domestic-gas-reservation-law",
+   "label": "Australia LNG domestic gas reservation law",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ce63722de55433e6"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-27T05:14:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/commodities-futures/australia-orders-lng-exporters-reserve-some-gas-to-plug-shortages-at-home-72d6fe9b?mod=rss_markets_main) reported that Australia will require liquefied natural gas exporters to reserve up to a fifth of their shipments for the domestic market."
+    },
+    {
+     "articles": [
+      "278265dc10cfb2d4"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Oilprice.com"
+     ],
+     "published": "2026-11-27T07:30:00+00:00",
+     "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Australia-Passes-Landmark-Law-to-Reserve-Gas-for-Domestic-Consumers.html) reported that the Australian parliament passed a law mandating LNG exporters to set aside gas equivalent to up to 20% of their annual export volumes."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Australia LNG domestic gas reservation law",
+   "topic": "energy"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "ec95a5c953bb618e",
+     "lang": "en",
+     "outlet": "WSJ Markets",
+     "published": "2026-11-27T07:22:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Chinese Shares Lifted as Beijing Signals More Market Support",
+     "type": "international",
+     "url": "https://www.wsj.com/finance/stocks/chinese-shares-lifted-as-beijing-signals-more-market-support-3a1d1468?mod=rss_markets_main"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "851f5e46e313cf60",
+     "lang": "en",
+     "outlet": "FT Markets",
+     "published": "2026-11-27T06:25:21+00:00",
+     "publisher": "Financial Times",
+     "region": null,
+     "section": "news",
+     "title": "Chinese shares soar after Beijing signals more support",
+     "type": "international",
+     "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "chinese-shares-market-support",
+   "label": "Chinese shares market support",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "ec95a5c953bb618e"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-27T07:22:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/chinese-shares-lifted-as-beijing-signals-more-market-support-3a1d1468?mod=rss_markets_main) reported that Chinese shares were lifted as authorities reiterated support for capital markets and vowed stabilization policies."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Chinese shares market support",
+   "topic": "markets"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T04:45:06+00:00"
+ "updated": "2026-11-27T08:05:44+00:00"
 }

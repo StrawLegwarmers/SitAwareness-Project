@@ -3449,162 +3449,338 @@
  },
  {
   "date": "2026-11-27",
-  "kind": "rejected",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Keystone Bank leadership change",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "title",
   "group": "namerica",
-  "story": "Trump says he urged Putin to 'pull back' military aggression in Europe",
-  "text": "[26] reported that Donald Putin and Volodymyr Zelenskyy 'really hate each other'.",
-  "reason": "names not in cited articles: Donald, Volodymyr"
+  "story": "Trump says ‘victory at hand’ in Iran, urges Tehran to reach deal",
+  "text": "US statements on Iran",
+  "reason": "title replaced by a headline: wording not from cited articles: statements"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "title",
+  "group": "mena",
+  "story": "Iran war live: Iran’s Araghchi calls deadly Kuwait attack ‘suspicious’",
+  "text": "Kuwait attack diplomatic fallout",
+  "reason": "title replaced by a headline: wording not from cited articles: diplomatic, fallout"
  },
  {
   "date": "2026-11-27",
   "kind": "skipped",
-  "group": "asia",
-  "story": "Shenzhou-24 space mission",
+  "group": "global",
+  "story": "Frecce Tricolori M-346 aircraft livery",
   "text": "",
   "reason": "off-topic for this site (topic: technology): not created"
  },
  {
   "date": "2026-11-27",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Tokyo core inflation rate",
-  "text": "[54][55] reported that Tokyo's core consumer price index rose 2.9% in November, reaching its highest level in 16 months and bolstering the case for a Bank of Japan rate hike.",
-  "reason": "names not in cited articles: Bank"
+  "kind": "title",
+  "group": "africa",
+  "story": "Mackenzie convicted of terror offences over Shakahola deaths",
+  "text": "Shakahola cult terrorism convictions",
+  "reason": "title replaced by a headline: wording not from cited articles: cult, convictions"
  },
  {
   "date": "2026-11-27",
   "kind": "title",
+  "group": "europe",
+  "story": "Ukrainian NGOs urge EU to demand stronger reforms as Brussels reportedly accepts backsliding on rule",
+  "text": "Ukrainian NGO rule of law concerns",
+  "reason": "title replaced by a headline: wording not from cited articles: ngo, concerns"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Under-17 World Cup football matches",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Cairo court cases and Egyptian sports records",
+  "text": "Olubunmi Tunji-Ojo NYSC records court case",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "title",
+  "group": "asia",
+  "story": "Oil on track to snap 3-week losing streak over supply fears",
+  "text": "Global oil prices and supply fears",
+  "reason": "title replaced by a headline: names not in cited articles: Global"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "title",
+  "group": "europe",
+  "story": "Global news agency AFP reports cyberattack, shuts down content platform",
+  "text": "Agence France-Presse cyberattack",
+  "reason": "title replaced by a headline: names not in cited articles: Agence, France-Presse"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Global news agency AFP reports cyberattack, shuts down content platform",
+  "text": "[101][102] reported that Agence France-Presse suffered a cyberattack and shut down its content platform.",
+  "reason": "names not in cited articles: Agence, France-Presse"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "title",
+  "group": "africa",
+  "story": "2027 Election: IBB, Abdulsalami endorse Tinubu — Gbajabiamila",
+  "text": "Nigerian political endorsements for 2027",
+  "reason": "title replaced by a headline: wording not from cited articles: political, endorsements"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
   "group": "global",
-  "story": "Breaking: Former RAAF pilot Robert Crawford found guilty of wife's murder",
-  "text": "Robert Crawford murder trial verdict",
-  "reason": "title replaced by a headline: wording not from cited articles: trial, verdict"
+  "story": "Global gold prices rebound",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
  },
  {
   "date": "2026-11-27",
-  "kind": "rejected",
+  "kind": "merged",
   "group": "namerica",
-  "story": "US military presence review in Europe delayed",
-  "text": "[3] reported that the United States will delay the overhaul of its military presence in Europe.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-27",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "2027: Stop challenging Tinubu, Uba Sani tells Northern politicians",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): 2027: Nana Shettima urges North-East voters to re-elect Tinubu"
- },
- {
-  "date": "2026-11-27",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "2027: Stop challenging Tinubu, Uba Sani tells Northern politicians",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Ex-Ekiti Deputy Gov rallies support for Tinubu"
+  "story": "Trump statements on Russia and China intelligence sharing",
+  "text": "US remarks on Iran support",
+  "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-27",
   "kind": "rejected",
   "group": "africa",
-  "story": "2027: Stop challenging Tinubu, Uba Sani tells Northern politicians",
-  "text": "[5] reported that Vice President's wife Hajiya Nana Shettima urged voters in the six North-East states to re-elect President Bola Tinubu.",
+  "story": "Nigeria pension backlog clearance",
+  "text": "[13][14] reported that the Pension Transitional Arrangement Directorate stated the Federal Government has cleared unfunded pension liabilities since 2013.",
+  "reason": "names not in cited articles: Arrangement, Directorate, Transitional"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Major storm batters US on Thanksgiving holiday, disrupting flights and power",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Oluja pokvarila praznik Amerikancima: Gotovo milion ljudi u mraku na Dan zahvaln"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Major storm batters US on Thanksgiving holiday, disrupting flights and power",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Oluja pogodila SAD na Dan zahvalnosti, odgođena čuvena parada u New Yorku"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Tinubu Okays Plan By World’s Lagest Bus Manufacturer, Yutong, To Establish CNG Assembly Plant In Nigeria",
+  "text": "[23][24] reported that President Bola Tinubu promised to increase national food-storage capacity by 50 percent by 2028 and reduce post-harvest losses by 2030 in an agricultural plan.",
+  "reason": "names not in cited articles: Bola"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Bulgarian football fans attacked in Marseille",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Gunmen attack NDC rally in Edo, injure one as Obi charges Nigerians to defend votes",
+  "text": "Nigeria 2027 election slogans",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Taj Mahal marble slab auction",
+  "text": "",
+  "reason": "off-topic for this site (topic: culture): not created"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Bollywood opposes Netflix Pakistani series",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iran denies responsibility for attack on Kuwait that killed two Italians",
+  "text": "[55][56] reported that Sheikh Mohammed opened a 1.4 billion dirham hydroelectric plant during a visit to Hatta.",
+  "reason": "number not in cited articles: 1400000000"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Russian Strike Kills 2 in Kharkiv as Moscow Pounds Ukraine with Ballistic Missiles, 100+ Drones",
+  "text": "[57][58] reported that Russian forces launched more than 70 combined drone attacks on the Kryvyi Rih, Nikopol, and five other districts in the Dnipropetrovsk region, resulting in damage, one fatality, and several injuries.",
+  "reason": "number not in cited articles: 70"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Cork University Hospital staffing concerns",
+  "text": "[63][64] reported that Minister for Health Jennifer Carroll MacNeill's RTÉ Radio appearance regarding Cork University Hospital and the Anne O’Connor sacking controversy drew intense political and media scrutiny.",
+  "reason": "wording not from cited articles: regarding, cork, university, hospital, drew, intense"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
+  "text": "[73] reported that French President Emmanuel Macron rejected further EU budget cuts proposed by Antonio Costa, describing them as a strategic mistake.",
+  "reason": "names not in cited articles: Antonio, Costa, Emmanuel"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "NGE condemns prosecution of FIJ journalist, demands release",
+  "text": "[76] reported that opposition parties and PANDEF demanded the arrest of sponsors of attacks on National Democratic Congress supporters.",
+  "reason": "names not in cited articles: Congress, Democratic"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "NAFDAC destroys N100bn counterfeit products, uncovers illegal drug and cosmetics factories",
+  "text": "[1] reported that the National Agency for Food and Drug Administration and Control shut down the Zuba International Market and seized counterfeit products worth over 300 million naira.",
+  "reason": "number not in cited articles: 300000000"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Tinubu approves N100m, three-bedroom flats for families of NAF 931 crash victims",
+  "text": "[27] reported that President Bola Tinubu announced houses and 100 million naira for the families of the 25 victims of the NAF 931 aircraft crash during a memorial service.",
+  "reason": "number not in cited articles: 931"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Pakistan leaders discuss AJK development projects",
+  "text": "[23] reported that the Azad Jammu and Kashmir government unveiled a 100-day development plan allocating 15 billion rupees for health, education, tourism, and employment.",
+  "reason": "number not in cited articles: 15000000000"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Former APC State Chairmen Mobilise Nationwide for Tinubu’s Re-election in 2027",
+  "text": "[25] reported that former Nigerian leaders Ibrahim Babangida and Abdulsalami Abubakar expressed their positions on Thursday when receiving a delegation from the Presidency.",
+  "reason": "names not in cited articles: Abubakar, Ibrahim"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Ukrainian attacks drive Russian oil refining to 20-year low – Bloomberg",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Russia attacks energy facilities, logistics and critical infrastructure in three"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Ukrainian attacks drive Russian oil refining to 20-year low – Bloomberg",
+  "text": "[10] reported that Russian forces targeted energy, railway, and critical infrastructure facilities in three Ukrainian oblasts overnight, injuring two people.",
   "reason": "cites an article that doesn't belong to this story"
  },
  {
   "date": "2026-11-27",
   "kind": "rejected",
+  "group": "europe",
+  "story": "Turkey municipal assembly working regulations",
+  "text": "[5], a Turkish state outlet, reported that international agreements signed by Turkey with various countries and international organizations were published in the Official Gazette after being approved by President Recep Tayyip Erdogan.",
+  "reason": "wording not from cited articles: international, agreements, signed, various, countries, international"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Anthropic, OpenAI grapple with unreleased AI models, Axios reports",
+  "text": "[8], a Turkish state outlet, reported that CBS News stated that at least two Chinese-backed companies operating in the United States are purchasing Nvidia's most advanced artificial intelligence chips.",
+  "reason": "names not in cited articles: Chinese-backed, States, United"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
   "group": "africa",
-  "story": "2027: Stop challenging Tinubu, Uba Sani tells Northern politicians",
-  "text": "[14] reported that former Ekiti State Deputy Governor Modupe Adelabu called on Nigerians to support President Bola Tinubu's re-election in 2027.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-27",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "New York postpones Thanksgiving parade as 'heavy' storm hits US East Coast",
-  "text": "[8] reported that storms disrupted United States Thanksgiving holiday travel.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-27",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "New York postpones Thanksgiving parade as 'heavy' storm hits US East Coast",
-  "text": "[19] reported that a major storm battered the United States on the Thanksgiving holiday, resulting in 400 flight cancellations and the postponement of New York's Macy's parade.",
-  "reason": "names not in cited articles: States, United"
+  "story": "Nigeria Democratic Congress leadership resignation",
+  "text": "[16] reported that an aide to the Delta governor resigned over campaign killings and the Independent National Electoral Commission named nine states affected by political attacks.",
+  "reason": "names not in cited articles: Electoral, Independent"
  },
  {
   "date": "2026-11-27",
   "kind": "skipped",
-  "group": "latam",
-  "story": "Venezuela government program consultations",
+  "group": "africa",
+  "story": "Dangote refinery cooking gas prices",
   "text": "",
   "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-27",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "U.S. approves SpaceX plan to deploy 1 million satellites for data centres in space",
-  "text": "[12], a state-run outlet, reported that the United States approved SpaceX's plan for 1 million space data center satellites.",
-  "reason": "names not in cited articles: States, United"
+  "kind": "skipped",
+  "group": "global",
+  "story": "China’s Persian Gulf oil imports hit highest level since start of Iran war",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): إجراء عاجل من الحرس الثوري ضد طائرة أمريكية.. تفاصيل"
  },
  {
   "date": "2026-11-27",
   "kind": "rejected",
+  "group": "global",
+  "story": "China’s Persian Gulf oil imports hit highest level since start of Iran war",
+  "text": "[5] reported that a U.S. F-16 fighter jet retreated following warning fire from the Islamic Revolutionary Guard Corps air defense in the south of Hengam Island.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Sara Duterte trial witness subpoenas",
+  "text": "[3] reported that Vice President Sara Duterte stated she borrowed 5 million pesos from two friends last year to cover travel expenses to The Hague and impeachment preparations.",
+  "reason": "number not in cited articles: 5000000"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "merged",
   "group": "africa",
   "story": "Gunmen attack NDC rally in Edo, injure one as Obi charges Nigerians to defend votes",
-  "text": "[25] reported that the African Democratic Congress raised an alarm over political violence and PANDEF sought a probe into Delta killings.",
-  "reason": "names not in cited articles: African, Congress, Democratic"
- },
- {
-  "date": "2026-11-27",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Mexico security operations in Chihuahua",
-  "text": "[6] reported that four alleged members of a network that killed people to collect life insurance in Jalisco were detained, with over 2 million pesos secured.",
-  "reason": "number not in cited articles: 2000000"
- },
- {
-  "date": "2026-11-27",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Mexico City Corona Capital economic impact",
-  "text": "[10] reported that 2,504 women entrepreneurs graduated from the Women's Economic Autonomy Program in Mexico City, with 80 percent already running a business.",
-  "reason": "number not in cited articles: 2504"
- },
- {
-  "date": "2026-11-27",
-  "kind": "merged",
-  "group": "asia",
-  "story": "Govt reduces petrol price by Re1 per litre, diesel by Rs2 per litre",
-  "text": "Pakistan gold and currency rates",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-27",
-  "kind": "merged",
-  "group": "mena",
-  "story": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
-  "text": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-27",
-  "kind": "merged",
-  "group": "mena",
-  "story": "Netanyahu tells aides ‘miracle’ needed to prevent Eisenkot from forming government",
-  "text": "Jared Kushner warning on Israel Gaza policy",
+  "text": "Nigeria Democratic Congress leadership resignation",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-27",
   "kind": "merged",
   "group": "europe",
-  "story": "IAEA talks on Zaporizhzhia nuclear plant ceasefire",
-  "text": "Zaporizhzhia nuclear plant ceasefire talks",
-  "reason": "duplicate story merged into an existing one"
+  "story": "Besiktas fans police violence in Georgia",
+  "text": "Europa League match police clashes",
+  "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
  }
 ]
