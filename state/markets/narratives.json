@@ -803,27 +803,27 @@
  ],
  "coverage": [
   {
-   "articles": 394,
+   "articles": 407,
    "attached_by_code": 0,
-   "calls": 3,
-   "candidates": 16,
-   "continuing": 9,
+   "calls": 4,
+   "candidates": 21,
+   "continuing": 12,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 354,
-   "in_stories": 24,
-   "kept": 17,
+   "groups": 366,
+   "in_stories": 29,
+   "kept": 20,
    "merged": 0,
-   "new": 6,
+   "new": 7,
    "rejected": 4,
    "reported_by_2": 4,
-   "runs": 3,
-   "sent": 16,
-   "skipped": 0,
+   "runs": 4,
+   "sent": 21,
+   "skipped": 1,
    "split_calls": 0,
-   "updated": 8,
+   "updated": 10,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T08:05:27+00:00"
+  "all": "2026-11-27T10:39:52+00:00"
  },
  "narratives": [
   {
@@ -1441,8 +1441,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 29,
+   "article_count": 30,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "371a6238061bd934",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-27T08:27:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist",
+     "type": "international",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550?mod=pls_whats_news_us_business_f"
+    },
     {
      "added": "2026-11-27",
      "id": "a27d661eef85214f",
@@ -1821,18 +1834,30 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 2,
    "previous_titles": [
     "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears"
    ],
    "reports": [
+    {
+     "articles": [
+      "371a6238061bd934"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-27T08:27:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550?mod=pls_whats_news_us_business_f) reported that oil prices rose as traders weighed renewed threats to Middle Eastern supplies ahead of a meeting of OPEC and its allies."
+    },
     {
      "articles": [
       "a27d661eef85214f"
@@ -2124,7 +2149,7 @@
      "text": "[Oilprice.com](https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html) reported that crude oil prices were on course to book their second week of losses after two consecutive days of gains on news from the Middle East."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Oil Prices Mixed as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
@@ -9261,8 +9286,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 9,
+   "article_count": 10,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "daf151cb423f5cc9",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T10:12:41+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Japan Tobacco shares surge on talk it may acquire part of Imperial",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/japan-tobacco-shares-surge-on-talk-it-may-acquire-part-of-imperial-5053257"
+    },
     {
      "added": "2026-11-27",
      "id": "ae8e4e7d0d0939b3",
@@ -9381,7 +9419,7 @@
      "url": "https://www.investing.com/news/stock-market-news/imperial-shares-jump-to-highest-since-2017-on-japan-tobacco-deal-report-5052501"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "altria-acquisition-of-imperial-brands",
@@ -9795,8 +9833,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "84254de99285df08",
+     "lang": "en",
+     "outlet": "SCMP Business",
+     "published": "2026-11-27T08:00:13+00:00",
+     "publisher": "South China Morning Post",
+     "region": null,
+     "section": "news",
+     "title": "Hong Kong gold imports surge 24.4% in October to 4-month high on lower bullion prices",
+     "type": "regional",
+     "url": "https://www.scmp.com/business/commodities/article/3376000/hong-kong-gold-imports-surge-244-october-four-month-high-lower-bullion-prices"
+    },
     {
      "added": "2026-11-27",
      "id": "a1b738fed762c110",
@@ -9837,7 +9888,7 @@
      "url": "https://www.scmp.com/business/markets/article/3375931/hong-kongs-home-prices-fall-october-rents-hit-record-high"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 4,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "hong-kong-real-estate-market",
@@ -10191,9 +10242,79 @@
    "status": "new",
    "title": "Chinese shares market support",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "a4089afda7fa4b11",
+     "lang": "en",
+     "outlet": "WSJ US Business",
+     "published": "2026-11-27T08:52:00+00:00",
+     "publisher": "Wall Street Journal",
+     "region": null,
+     "section": "news",
+     "title": "Lumibird Shares Surge After Thales Targets Majority Stake in $483 Million Laser Deal",
+     "type": "international",
+     "url": "https://www.wsj.com/business/deals/lumibird-shares-surge-after-thales-targets-majority-stake-in-483-million-laser-deal-48d6e693?mod=pls_whats_news_us_business_f"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "a87537c4d60d195f",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T06:13:31+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Thales in exclusive talks to buy 51.6% stake in Lumibird",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/thales-in-exclusive-talks-to-buy-516-stake-in-lumibird-5052994"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "thales-acquisition-of-lumibird",
+   "label": "Thales acquisition of Lumibird",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "a4089afda7fa4b11"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Wall Street Journal"
+     ],
+     "published": "2026-11-27T08:52:00+00:00",
+     "text": "[Wall Street Journal](https://www.wsj.com/business/deals/lumibird-shares-surge-after-thales-targets-majority-stake-in-483-million-laser-deal-48d6e693?mod=pls_whats_news_us_business_f) reported that Thales plans to buy a 51.6% stake in Lumibird from its chief executive officer and majority shareholder, Marc Le Flohic, in a laser-technology deal valued at $483 million."
+    },
+    {
+     "articles": [
+      "a87537c4d60d195f"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-27T06:13:31+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/thales-in-exclusive-talks-to-buy-516-stake-in-lumibird-5052994) reported that Thales is in exclusive talks to buy a 51.6% stake in Lumibird."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Thales acquisition of Lumibird",
+   "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T08:05:44+00:00"
+ "updated": "2026-11-27T10:40:11+00:00"
 }

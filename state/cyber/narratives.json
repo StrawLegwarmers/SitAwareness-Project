@@ -755,27 +755,27 @@
  ],
  "coverage": [
   {
-   "articles": 147,
+   "articles": 161,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
-   "continuing": 1,
+   "calls": 2,
+   "candidates": 3,
+   "continuing": 2,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 130,
-   "in_stories": 1,
-   "kept": 1,
+   "groups": 146,
+   "in_stories": 4,
+   "kept": 4,
    "merged": 0,
-   "new": 0,
+   "new": 1,
    "rejected": 0,
-   "reported_by_2": 0,
-   "runs": 3,
-   "sent": 1,
+   "reported_by_2": 1,
+   "runs": 4,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 1,
+   "updated": 2,
    "waiting": 0
   },
   {
@@ -1100,7 +1100,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T08:01:16+00:00"
+  "all": "2026-11-27T10:35:35+00:00"
  },
  "narratives": [
   {
@@ -4895,8 +4895,21 @@
    "topic": "infrastructure"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "2ddf4b4e1a947987",
+     "lang": "en",
+     "outlet": "BleepingComputer",
+     "published": "2026-11-27T10:10:15+00:00",
+     "publisher": "BleepingComputer",
+     "region": null,
+     "section": "news",
+     "title": "Drupal warns of new site takeover flaw exploited in attacks",
+     "type": null,
+     "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/"
+    },
     {
      "added": "2026-11-26",
      "dates": [
@@ -4927,15 +4940,27 @@
      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "drupal-vulnerability-active-exploitation",
    "label": "Drupal vulnerability active exploitation",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
-   "outlets_today": 0,
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "2ddf4b4e1a947987"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "BleepingComputer"
+     ],
+     "published": "2026-11-27T10:10:15+00:00",
+     "text": "[BleepingComputer](https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/) reported that the Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites."
+    },
     {
      "articles": [
       "3d096e7b634570ba"
@@ -4961,14 +4986,84 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/drupal-website-takeover-flaw/) reported that attackers are actively exploiting CVE-2026-136716, a highly critical access bypass that can let them take over vulnerable websites."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Drupal vulnerability active exploitation",
    "topic": "security"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "0cdbccf289f2d551",
+     "lang": "en",
+     "outlet": "Help Net Security",
+     "published": "2026-11-27T09:31:44+00:00",
+     "publisher": "Help Net Security",
+     "region": null,
+     "section": "news",
+     "title": "Flight Centre Travel Group warns of customer data breach involving some passport details",
+     "type": null,
+     "url": "https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "9dc1cb3808f42660",
+     "lang": "en",
+     "outlet": "Security Affairs",
+     "published": "2026-11-26T11:51:11+00:00",
+     "publisher": "Security Affairs",
+     "region": null,
+     "section": "news",
+     "title": "Australia’s Flight Centre Data Breach Exposes Customer Records and Passport Details",
+     "type": null,
+     "url": "https://securityaffairs.com/204049/data-breach/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details.html"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-27",
+   "group": "all",
+   "id": "flight-centre-data-breach",
+   "label": "Flight Centre data breach",
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "9dc1cb3808f42660"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Security Affairs"
+     ],
+     "published": "2026-11-26T11:51:11+00:00",
+     "text": "[Security Affairs](https://securityaffairs.com/204049/data-breach/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details.html) reported that Australia's Flight Centre is investigating a third-party breach that exposed customer travel records and limited passport details."
+    },
+    {
+     "articles": [
+      "0cdbccf289f2d551"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Help Net Security"
+     ],
+     "published": "2026-11-27T09:31:44+00:00",
+     "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/) reported that travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, involved in a data breach."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "Flight Centre data breach",
+   "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-27T08:01:17+00:00"
+ "updated": "2026-11-27T10:35:52+00:00"
 }
