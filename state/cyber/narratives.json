@@ -757,25 +757,25 @@
   {
    "articles": 147,
    "attached_by_code": 0,
-   "calls": 0,
-   "candidates": 0,
-   "continuing": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 130,
-   "in_stories": 0,
-   "kept": 0,
+   "in_stories": 1,
+   "kept": 1,
    "merged": 0,
    "new": 0,
    "rejected": 0,
    "reported_by_2": 0,
-   "runs": 1,
-   "sent": 0,
+   "runs": 2,
+   "sent": 1,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -1100,7 +1100,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T01:59:28+00:00"
+  "all": "2026-11-27T04:42:13+00:00"
  },
  "narratives": [
   {
@@ -4656,8 +4656,21 @@
    "topic": "cyber"
   },
   {
-   "article_count": 5,
+   "article_count": 6,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "e3ee0f1f5da9b351",
+     "lang": "en",
+     "outlet": "The Register Security",
+     "published": "2026-11-26T11:02:00+00:00",
+     "publisher": "The Register",
+     "region": null,
+     "section": "news",
+     "title": "Hackers help themselves to 1Password's source code and customer data",
+     "type": null,
+     "url": "https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317"
+    },
     {
      "added": "2026-11-26",
      "id": "297454ed45f8b5de",
@@ -4724,19 +4737,31 @@
      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "1password-data-breach",
    "label": "1Password data breach",
-   "last_reported": "2026-11-26",
-   "last_updated": "2026-11-26",
-   "outlets_today": 0,
+   "last_reported": "2026-11-27",
+   "last_updated": "2026-11-27",
+   "outlets_today": 1,
    "previous_titles": [
     "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
     "1Password breached through hijacked employee GitHub account, customer names and emails stolen"
    ],
    "reports": [
+    {
+     "articles": [
+      "e3ee0f1f5da9b351"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "The Register"
+     ],
+     "published": "2026-11-26T11:02:00+00:00",
+     "text": "[The Register](https://www.theregister.com/security/2026/11/26/hackers-help-themselves-to-1passwords-source-code-and-customer-data/5312317) reported that an intruder planted malicious code in backend services while the company stated that passwords are safe."
+    },
     {
      "articles": [
       "9f2cadbf4a9e0c8c"
@@ -4786,9 +4811,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html) reported that customer data and source code were stolen during the security incident involving backend systems."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
    "title_from": {
     "backing": 3,
@@ -4945,5 +4970,5 @@
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-27T01:59:28+00:00"
+ "updated": "2026-11-27T04:42:29+00:00"
 }

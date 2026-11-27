@@ -805,25 +805,25 @@
   {
    "articles": 388,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 8,
-   "continuing": 4,
+   "calls": 2,
+   "candidates": 11,
+   "continuing": 7,
    "corroborated": 0,
    "date": "2026-11-27",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 344,
-   "in_stories": 12,
-   "kept": 10,
+   "in_stories": 16,
+   "kept": 12,
    "merged": 0,
    "new": 3,
-   "rejected": 0,
+   "rejected": 2,
    "reported_by_2": 4,
-   "runs": 1,
-   "sent": 8,
+   "runs": 2,
+   "sent": 11,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 4,
+   "updated": 6,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-27T02:01:42+00:00"
+  "all": "2026-11-27T04:44:49+00:00"
  },
  "narratives": [
   {
@@ -3216,8 +3216,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 25,
+   "article_count": 26,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "603b067a6e3a448b",
+     "lang": "en",
+     "outlet": "ET Markets",
+     "published": "2026-11-27T03:29:30+00:00",
+     "publisher": "ET Markets",
+     "region": null,
+     "section": "news",
+     "title": "Gold jumps 1.5%, silver surges 4.5% as bullion rebounds from multi-month lows: Gold Silver Rates Live Updates",
+     "type": "regional",
+     "url": "https://economictimes.indiatimes.com/markets/stocks/live-blog/live-updates-gold-rate-today-27th-november-24k-22k-20k-18-carat-mcx-gold-silver-price-in-delhi-hyderabad-chennai-bengaluru-citywise/liveblog/136208041.cms"
+    },
     {
      "added": "2026-11-27",
      "id": "4cfa8a9ca4c5b102",
@@ -3544,7 +3557,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 2,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3554,7 +3567,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
     {
      "articles": [
@@ -3672,7 +3685,7 @@
      "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/dollar-poised-for-best-week-in-over-a-month-on-fed-hike-bets) reported that the dollar wrapped its best week in over a month and extended a rally fueled by expectations that the Federal Reserve will increase interest rates."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "covered",
    "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
@@ -9210,8 +9223,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 7,
+   "article_count": 9,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "ae8e4e7d0d0939b3",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-27T02:22:49+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Japan Tobacco shares surge on report of Imperial Brands takeover",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/japan-tobacco-shares-surge-on-report-of-imperial-brands-takeover-5052817"
+    },
     {
      "added": "2026-11-27",
      "id": "b68b2750cbd92caf",
@@ -9302,9 +9328,22 @@
      "title": "Altria, Japan Tobacco Explore Breakup of Imperial Brands",
      "type": "international",
      "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands"
+    },
+    {
+     "added": "2026-11-27",
+     "id": "0beb7ae8ea2dc76a",
+     "lang": "en",
+     "outlet": "Investing.com Stock Markets",
+     "published": "2026-11-26T13:06:09+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "Imperial shares jump to highest since 2017 on Japan Tobacco deal report",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/stock-market-news/imperial-shares-jump-to-highest-since-2017-on-japan-tobacco-deal-report-5052501"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 3,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "altria-acquisition-of-imperial-brands",
@@ -9314,8 +9353,20 @@
    "merged": [
     "altria-and-imperial-brands-potential-deal"
    ],
-   "outlets_today": 1,
+   "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "0beb7ae8ea2dc76a"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Investing.com"
+     ],
+     "published": "2026-11-26T13:06:09+00:00",
+     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/imperial-shares-jump-to-highest-since-2017-on-japan-tobacco-deal-report-5052501) reported that Imperial shares jumped to their highest since 2017 following a report about a Japan Tobacco deal."
+    },
     {
      "articles": [
       "b68b2750cbd92caf"
@@ -9377,7 +9428,7 @@
      "text": "[Financial Times](https://www.ft.com/content/696e99b0-f6d1-4a1a-95b0-f68de88520d9?syn-25a6b1a6=1) reported that the deal would remove another of the U.K.’s large listed companies from the London stock market."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
    "status": "updated",
    "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
@@ -9706,8 +9757,21 @@
    "topic": "economy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-27",
+     "id": "a1b738fed762c110",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-27T03:41:24+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "What’s Driving Hong Kong Home Rents to New Highs",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/videos/2026-11-27/what-s-driving-hong-kong-home-rents-to-new-highs-video"
+    },
     {
      "added": "2026-11-27",
      "id": "6e243ba5622ccf5a",
@@ -9735,7 +9799,7 @@
      "url": "https://www.scmp.com/business/markets/article/3375931/hong-kongs-home-prices-fall-october-rents-hit-record-high"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 3,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "hong-kong-real-estate-market",
@@ -9744,6 +9808,18 @@
    "last_updated": "2026-11-27",
    "outlets_today": 2,
    "reports": [
+    {
+     "articles": [
+      "a1b738fed762c110"
+     ],
+     "date": "2026-11-27",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-27T03:41:24+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/videos/2026-11-27/what-s-driving-hong-kong-home-rents-to-new-highs-video) reported that competing offers are pushing Hong Kong rents higher as returning expatriates increase."
+    },
     {
      "articles": [
       "6e243ba5622ccf5a"
@@ -9895,5 +9971,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T02:01:59+00:00"
+ "updated": "2026-11-27T04:45:06+00:00"
 }
