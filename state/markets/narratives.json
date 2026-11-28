@@ -2,6 +2,78 @@
  "archived": [
   {
    "article_count": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "morgan-stanley-market-buying-opportunity",
+   "last_updated": "2026-11-23",
+   "title": "Morgan Stanley market buying opportunity"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "trump-administration-push-for-jensen-huang",
+   "last_updated": "2026-11-23",
+   "title": "Trump administration push for Jensen Huang return"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "texas-pacific-land-acquisition-of-eaglerock",
+   "last_updated": "2026-11-23",
+   "title": "Texas Pacific Land acquisition of EagleRock Land"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "crowdstrike-acquisition-of-zscaler",
+   "last_updated": "2026-11-23",
+   "title": "CrowdStrike acquisition of Zscaler"
+  },
+  {
+   "article_count": 2,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "abb-acquisition-of-ziehl-abegg",
+   "last_updated": "2026-11-23",
+   "title": "ABB acquisition of Ziehl-Abegg"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "byd-hit-after-court-bars-suv",
+   "last_updated": "2026-11-23",
+   "title": "BYD’s Shares Fall After Dutch Court Bars Sales of Ti7 SUV Model in EU"
+  },
+  {
+   "article_count": 3,
+   "first_seen": "2026-11-23",
+   "group": "all",
+   "id": "delta-delays-hundreds-of-flights-over",
+   "last_updated": "2026-11-23",
+   "title": "Delta Delays Hundreds of Flights Over System Outage"
+  },
+  {
+   "article_count": 6,
+   "first_seen": "2026-11-20",
+   "group": "all",
+   "id": "bayer-roundup-settlement-approval",
+   "last_updated": "2026-11-23",
+   "title": "Bayer Roundup settlement approval"
+  },
+  {
+   "article_count": 24,
+   "first_seen": "2026-11-13",
+   "group": "all",
+   "id": "federal-reserve-interest-rates",
+   "last_updated": "2026-11-23",
+   "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes"
+  },
+  {
+   "article_count": 2,
    "first_seen": "2026-11-22",
    "group": "all",
    "id": "south-korea-stock-market-stabilization-fund",
@@ -727,81 +799,33 @@
    "id": "warren-buffett-charitable-donations",
    "last_updated": "2026-11-16",
    "title": "Warren Buffett charitable donations"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "blackstone-acquisition-of-amazon-data-centers",
-   "last_updated": "2026-11-16",
-   "title": "Blackstone acquisition of Amazon data centers"
-  },
-  {
-   "article_count": 3,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "johnson-johnson-acquisition-of-ollin-biosciences",
-   "last_updated": "2026-11-16",
-   "title": "J&J to buy eye disease biotech Ollin Biosciences for up to $3.3 billion"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "china-economic-output-and-sales",
-   "last_updated": "2026-11-16",
-   "title": "China economic output and sales"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "japan-economy-contraction",
-   "last_updated": "2026-11-16",
-   "title": "Japan economy contraction"
-  },
-  {
-   "article_count": 4,
-   "first_seen": "2026-11-16",
-   "group": "all",
-   "id": "akeso-cancer-drug-fda-rejection",
-   "last_updated": "2026-11-16",
-   "title": "The FDA declined to approve one of biotech’s most closely watched cancer drugs"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "new-world-rights-issue",
-   "last_updated": "2026-11-15",
-   "title": "New World rights issue"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "washington-public-golf-course-redevelopment",
-   "last_updated": "2026-11-15",
-   "title": "Washington public golf course redevelopment"
-  },
-  {
-   "article_count": 2,
-   "first_seen": "2026-11-15",
-   "group": "all",
-   "id": "european-central-bank-fiscal-policy",
-   "last_updated": "2026-11-15",
-   "title": "European Central Bank fiscal policy"
-  },
-  {
-   "article_count": 5,
-   "first_seen": "2026-11-14",
-   "group": "all",
-   "id": "new-orleans-tanker-collision",
-   "last_updated": "2026-11-14",
-   "title": "Tanker Hits Cruise Ship With Over 100 People on Board in New Orleans"
   }
  ],
  "coverage": [
+  {
+   "articles": 421,
+   "attached_by_code": 0,
+   "calls": 0,
+   "candidates": 0,
+   "continuing": 0,
+   "corroborated": 0,
+   "date": "2026-11-28",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 388,
+   "in_stories": 0,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 2,
+   "runs": 1,
+   "sent": 0,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 0,
+   "waiting": 0
+  },
   {
    "articles": 438,
    "attached_by_code": 0,
@@ -1126,34 +1150,10 @@
    "split_calls": 0,
    "updated": 1,
    "waiting": 0
-  },
-  {
-   "articles": 835,
-   "attached_by_code": 0,
-   "calls": 7,
-   "candidates": 24,
-   "continuing": 6,
-   "corroborated": 1,
-   "date": "2026-11-14",
-   "dropped": 4,
-   "failed_calls": 0,
-   "groups": 724,
-   "in_stories": 38,
-   "kept": 28,
-   "merged": 2,
-   "new": 11,
-   "rejected": 1,
-   "reported_by_2": 9,
-   "runs": 8,
-   "sent": 24,
-   "skipped": 1,
-   "split_calls": 0,
-   "updated": 7,
-   "waiting": 0
   }
  ],
  "last_run": {
-  "all": "2026-11-27T22:39:27+00:00"
+  "all": "2026-11-28T01:59:11+00:00"
  },
  "narratives": [
   {
@@ -1834,14 +1834,14 @@
      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Head-for-Second-Weekly-Loss-Despite-Fresh-Middle-East-Attacks.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "crude-oil-weekly-price-movement",
    "label": "Crude oil weekly price movement",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "previous_titles": [
     "Oil Prices Rebound as Houthi Attacks Reignite Middle East Supply Fears"
    ],
@@ -2151,7 +2151,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Oil Prices Mixed as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
    "title_from": {
     "backing": 2,
@@ -2569,7 +2569,7 @@
      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "who-is-nvidia-s-interim-ceo",
@@ -2580,7 +2580,7 @@
     "nvidia-earnings-report",
     "nvidia-leadership-and-earnings"
    ],
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -2775,9 +2775,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/colette-kress-the-cfo-who-challenged-huangs-bets-is-nvidias-interim-ceo-5023936) reported that Colette Kress is Nvidia’s interim CEO."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Who Is Colette Kress? Meet Nvidia’s New Interim CEO",
    "title_from": {
     "backing": 2,
@@ -2787,483 +2787,6 @@
     "url": "https://www.wsj.com/tech/colette-kress-nvidia-interim-ceo-ff26ef3a?mod=pls_whats_news_us_business_f"
    },
    "topic": "business"
-  },
-  {
-   "article_count": 24,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "ec1ffcc909d44a74",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-23T21:02:17+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "e613828dc9f093b3",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-20T18:56:10+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Paulson open to back-to-back rate hikes at steady pace",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "e2088fe53d2c0f01",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-20T17:50:38+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Cook says September rate hike likely insufficient to curb price pressures",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-cook-says-september-rate-hike-likely-insufficient-to-curb-price-pressures-5042348"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "c1a97d28fb17d721",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-20T17:24:58+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Cook says rate hikes needed to lower high inflation",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "0828fffde936c3ac",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-18T19:26:32+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "6ceeffe67438929e",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-18T19:20:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "The minutes showed almost all expected further moves, and a few who backed the hold saw it as a “close call”",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7?mod=rss_socialeconomyfeed"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "1035efb6e581505d",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-18T19:00:01+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "f0a1e239fdb024da",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-18T18:35:36+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Daly urges cautious additional rate hikes",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-daly-urges-cautious-additional-rate-hikes-5036825"
-    },
-    {
-     "added": "2026-11-18",
-     "id": "98e51c69f3ddb9c6",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-18T18:16:35+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Daly Urges Rate Hikes With a Thoughtful, Measured Approach",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-s-daly-urges-rate-hikes-with-a-thoughtful-measured-approach"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "0f1eef97eb98613a",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-17T20:06:05+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed Officials Debate Pace of Rate Hikes as Williams Urges Measured Action",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-williams-says-no-need-for-dramatic-rate-move"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "e9a4ff6a1296bb9f",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-17T19:53:34+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Williams says more rate hikes likely needed amid inflation",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "c5bd485a3f182aed",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-17T14:36:14+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem signals multiple rate hikes likely needed before spring 2027",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-musalem-signals-multiple-rate-hikes-likely-needed-before-spring-2027-5033318"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "b8ffbafa02d9675e",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-17T13:40:54+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "St. Louis Fed's Musalem says four more rate hikes may be needed in coming months",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "5e45d320d047bd1f",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-17T13:20:19+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem Says Economy to Likely Require ‘Several’ Hikes by Spring",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/videos/2026-11-17/fed-s-musalem-several-hikes-likely-needed-by-spring-video"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "7e3d049946065748",
-     "lang": "en",
-     "outlet": "WSJ Economy",
-     "published": "2026-11-17T13:14:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem Says Several Rate Hikes Likely Needed Before Spring 2027",
-     "type": "international",
-     "url": "https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "47d20e2eec55532f",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-17T12:36:21+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem: US likely needs several rate hikes by spring to control inflation",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730"
-    },
-    {
-     "added": "2026-11-17",
-     "id": "fa1894f8ff87497d",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-17T12:30:00+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Musalem Says ‘Several’ Rate Hikes Likely Needed by Spring",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "78fc27705b19b2f8",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-14T15:48:19+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Collins says gradual rate hikes best to manage economic risks",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385"
-    },
-    {
-     "added": "2026-11-14",
-     "id": "2112fae2aef7bd41",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-14T15:08:45+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Collins Says ‘Steady, Gradual’ Rate Hikes Appropriate",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "94300eb4930b3d49",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-13T18:48:22+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed likely to need to raise rates amid worsening inflation: Daly",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/fed-likely-to-need-to-raise-rates-amid-worsening-inflation-daly-5026338"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "553cccf364f73e24",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-13T17:53:33+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Daly says rates likely need to rise amid inflation concerns",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "f3dfda98e0098d51",
-     "lang": "en",
-     "outlet": "Investing.com Economy",
-     "published": "2026-11-13T15:58:42+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Collins says more rate hikes may be needed soon",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/economy-news/feds-collins-says-more-rate-hikes-may-be-needed-soon-5026128"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "ece8f5e17e3adc6b",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-13T14:10:00+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Collins Says Higher Rates Are Appropriate ‘Soon’",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-13/fed-s-collins-says-inflation-fight-trumps-housing-woes"
-    },
-    {
-     "added": "2026-11-13",
-     "id": "aad97369659b2af8",
-     "lang": "en",
-     "outlet": "Bloomberg Economics",
-     "published": "2026-11-12T18:54:22+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Fed’s Daly Says More Rate Hikes Needed to Cool Inflation",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-13",
-   "group": "all",
-   "id": "federal-reserve-interest-rates",
-   "label": "Federal Reserve interest rates",
-   "last_reported": "2026-11-21",
-   "last_updated": "2026-11-23",
-   "merged": [
-    "fed-rate-hikes"
-   ],
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "c1a97d28fb17d721",
-      "e2088fe53d2c0f01"
-     ],
-     "date": "2026-11-21",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-20T17:24:58+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-cook-says-rate-hikes-needed-to-lower-high-inflation-5042321) reported that Fed governor Cook stated rate hikes are needed to lower high inflation and that the September rate hike is likely insufficient to curb price pressures."
-    },
-    {
-     "articles": [
-      "e613828dc9f093b3"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-20T18:56:10+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-paulson-open-to-backtoback-rate-hikes-at-steady-pace-5042425) reported that Fed's Paulson is open to back-to-back rate hikes at a steady pace."
-    },
-    {
-     "articles": [
-      "98e51c69f3ddb9c6"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-18T18:16:35+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/fed-s-daly-urges-rate-hikes-with-a-thoughtful-measured-approach) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest rate increases are needed but the U.S. central bank should take a measured approach."
-    },
-    {
-     "articles": [
-      "1035efb6e581505d",
-      "6ceeffe67438929e"
-     ],
-     "date": "2026-11-18",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-18T19:00:01+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes), [Wall Street Journal](https://www.wsj.com/economy/central-banking/fed-officials-saw-higher-rates-ahead-when-they-held-steady-last-month-ad4f3bf7?mod=rss_socialeconomyfeed) reported that almost all Federal Reserve officials agreed at their October meeting that they would likely have to raise interest rates in the months ahead."
-    },
-    {
-     "articles": [
-      "47d20e2eec55532f",
-      "5e45d320d047bd1f",
-      "7e3d049946065748",
-      "fa1894f8ff87497d"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Wall Street Journal",
-      "Investing.com"
-     ],
-     "published": "2026-11-17T12:30:00+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-17/fed-s-musalem-says-several-rate-hikes-likely-needed-by-spring), [Wall Street Journal](https://www.wsj.com/economy/central-banking/feds-musalem-says-several-rate-hikes-likely-needed-before-spring-2027-ffb3a9fc?mod=rss_socialeconomyfeed), [Investing.com](https://www.investing.com/news/economy-news/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-to-control-inflation-5032730) reported that St. Louis Fed President Alberto Musalem stated the economy will likely need several interest rate increases by next spring to control inflation."
-    },
-    {
-     "articles": [
-      "b8ffbafa02d9675e"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-17T13:40:54+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/17/alberto-musalem-fed-interest-rates.html) reported that St. Louis Fed's Musalem said four more rate hikes may be needed in the coming months."
-    },
-    {
-     "articles": [
-      "e9a4ff6a1296bb9f"
-     ],
-     "date": "2026-11-17",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-17T19:53:34+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/economy-news/feds-williams-says-more-rate-hikes-likely-needed-amid-inflation-5033876) reported that Williams stated more rate hikes are likely needed amid inflation."
-    },
-    {
-     "articles": [
-      "2112fae2aef7bd41",
-      "78fc27705b19b2f8"
-     ],
-     "date": "2026-11-14",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-14T15:08:45+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-14/fed-s-collins-says-steady-gradual-rate-hikes-appropriate), [Investing.com](https://www.investing.com/news/economy-news/feds-collins-says-gradual-rate-hikes-best-to-manage-economic-risks-5027385) reported that Federal Reserve Bank of Boston President Susan Collins stated that a gradual path for interest-rate hikes will be appropriate."
-    },
-    {
-     "articles": [
-      "ece8f5e17e3adc6b",
-      "f3dfda98e0098d51"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-13T14:10:00+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-13/fed-s-collins-says-inflation-fight-trumps-housing-woes), [Investing.com](https://www.investing.com/news/economy-news/feds-collins-says-more-rate-hikes-may-be-needed-soon-5026128) reported that Federal Reserve Bank of Boston President Susan Collins said additional interest-rate increases will be needed soon as price pressures broaden."
-    },
-    {
-     "articles": [
-      "553cccf364f73e24",
-      "94300eb4930b3d49",
-      "aad97369659b2af8"
-     ],
-     "date": "2026-11-13",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-12T18:54:22+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation), [Investing.com](https://www.investing.com/news/economy-news/feds-daly-says-rates-likely-need-to-rise-amid-inflation-concerns-5026287) reported that Federal Reserve Bank of San Francisco President Mary Daly said further interest-rate increases will be needed to bring down inflation."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Fed Minutes Show Almost All Officials Expect More Rate Hikes",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-18",
-    "of": 3,
-    "outlet": "Bloomberg",
-    "url": "https://www.bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
-   },
-   "topic": "economy"
   },
   {
    "article_count": 26,
@@ -3607,7 +3130,7 @@
      "url": "https://www.investing.com/news/commodities-news/gold-clings-below-4000-as-inflation-fears-fuel-bets-on-bigger-fed-hikes-5020139"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-13",
    "group": "all",
    "id": "us-dollar-and-gold-markets",
@@ -3617,7 +3140,7 @@
    "merged": [
     "gold-steadies-near-14-month-low"
    ],
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -3737,7 +3260,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
    "title_from": {
     "backing": 2,
@@ -4335,14 +3858,14 @@
      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-needs-december-rate-hike-into-restrictive-zone-nagel-says"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-20",
    "group": "all",
    "id": "european-central-bank-interest-rates",
    "label": "European Central Bank interest rates",
    "last_reported": "2026-11-23",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4381,9 +3904,9 @@
      "text": "[Investing.com](https://www.investing.com/news/economy-news/ecbs-nagel-will-likely-need-to-act-in-december-but-price-expectations-remain-anchored-5042238) reported that ECB's Nagel stated the bank will likely need to act in December while price expectations remain anchored."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "European Central Bank interest rates",
    "topic": "economy"
   },
@@ -4528,130 +4051,6 @@
     "url": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories"
    },
    "topic": "business"
-  },
-  {
-   "article_count": 6,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "4820122829067e44",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-23T07:32:43+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Bayer wins approval for $7.25 billion Roundup settlement",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/bayer-wins-approval-for-725-billion-roundup-settlement-5044553"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "bc256aed3f9b1042",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-23T06:54:20+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Bayer shares seen up 7% after Missouri judge approves Roundup settlement",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/bayer-shares-seen-up-7-after-missouri-judge-approves-roundup-settlement-5044470"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "4527c21d9187138a",
-     "lang": "en",
-     "outlet": "The Guardian Business",
-     "published": "2026-11-20T23:42:43+00:00",
-     "publisher": "The Guardian",
-     "region": null,
-     "section": "news",
-     "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
-     "type": "international",
-     "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
-    },
-    {
-     "added": "2026-11-21",
-     "id": "803df6ac6cd16455",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-20T23:16:28+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Bayer’s $7.25bn settlement over cancer cases approved by US judge",
-     "type": "international",
-     "url": "https://www.ft.com/content/e7d36416-9eb7-4479-a217-d593545499df?syn-25a6b1a6=1"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "9d1e3e14a8047b35",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-20T21:36:47+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Missouri judge approves Bayer’s $7.25 billion Roundup settlement",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643"
-    },
-    {
-     "added": "2026-11-20",
-     "id": "995b72ebba2d1ad4",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-20T20:48:14+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Bayer’s $7.25 Billion Roundup Settlement Approved by Judge",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-20",
-   "group": "all",
-   "id": "bayer-roundup-settlement-approval",
-   "label": "Bayer Roundup settlement approval",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "bc256aed3f9b1042"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-23T06:54:20+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/bayer-shares-seen-up-7-after-missouri-judge-approves-roundup-settlement-5044470) reported that Bayer shares rose 7% after a Missouri judge approved the Roundup settlement."
-    },
-    {
-     "articles": [
-      "995b72ebba2d1ad4",
-      "9d1e3e14a8047b35"
-     ],
-     "date": "2026-11-20",
-     "group": "all",
-     "outlets": [
-      "Bloomberg",
-      "Investing.com"
-     ],
-     "published": "2026-11-20T20:48:14+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-20/bayer-s-7-25-billion-roundup-settlement-approved-by-us-judge), [Investing.com](https://www.investing.com/news/stock-market-news/missouri-judge-approves-bayers-725-billion-roundup-settlement-5042643) reported that a Missouri judge approved Bayer AG's proposal to pay as much as $7.25 billion to resolve tens of thousands of US lawsuits over Roundup."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Bayer Roundup settlement approval",
-   "topic": "justice"
   },
   {
    "article_count": 6,
@@ -4994,77 +4393,6 @@
    "article_count": 3,
    "articles": [
     {
-     "added": "2026-11-23",
-     "id": "9bc61029477b280d",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-22T19:25:06+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "Delta flight delays add to concerns about US air travel systems",
-     "type": "international",
-     "url": "https://www.ft.com/content/14566557-3f63-4eeb-b589-6cb1144dc918?syn-25a6b1a6=1"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "2f07497a9e0eefbc",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-22T19:18:20+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Delta flights faced brief delays at Atlanta airport over automated system issue",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/delta-flights-faced-brief-delays-atatlanta-airport-over-automated-system-issue-5044102"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "a470d326c9fa79dd",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-22T17:28:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Delta Delays Hundreds of Flights Over System Outage",
-     "type": "international",
-     "url": "https://www.wsj.com/business/airlines/delta-delays-hundreds-of-flights-over-system-outage-6bbba92c?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "delta-delays-hundreds-of-flights-over",
-   "label": "Delta Delays Hundreds of Flights Over System Outage",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a470d326c9fa79dd"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-22T17:28:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/airlines/delta-delays-hundreds-of-flights-over-system-outage-6bbba92c?mod=pls_whats_news_us_business_f) reported that Delta delayed hundreds of flights due to a system outage ahead of Thanksgiving travel."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Delta Delays Hundreds of Flights Over System Outage",
-   "topic": "infrastructure"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
      "added": "2026-11-25",
      "id": "d0485c5a4ce0213a",
      "lang": "en",
@@ -5144,96 +4472,6 @@
    "state_media_only_today": false,
    "status": "unchanged",
    "title": "Tata Steel stake acquisition in APL Apollo Tubes",
-   "topic": "business"
-  },
-  {
-   "article_count": 3,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "02e8c75ba7c9d22e",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-23T08:49:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "BYD’s Shares Fall After Dutch Court Bars Sales of Ti7 SUV Model in EU",
-     "type": "international",
-     "url": "https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808?mod=pls_whats_news_us_business_f"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "58b026332fa10240",
-     "lang": "en",
-     "outlet": "SCMP Business",
-     "published": "2026-11-23T06:00:14+00:00",
-     "publisher": "South China Morning Post",
-     "region": null,
-     "section": "news",
-     "title": "BYD pledges to fight EU sales ban in infringement battle with Jaguar Land Rover",
-     "type": "regional",
-     "url": "https://www.scmp.com/business/china-business/article/3375437/byd-pledges-fight-eu-sales-ban-infringement-battle-jaguar-land-rover"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "eaa8520e0408d2f3",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-23T02:48:12+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "BYD hit after court bars SUV from EU over Land Rover design copy",
-     "type": "international",
-     "url": "https://www.ft.com/content/aeb7d4c9-393f-4ea3-9465-0bbeb754c614?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "byd-hit-after-court-bars-suv",
-   "label": "BYD hit after court bars SUV from EU over Land Rover design copy",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "02e8c75ba7c9d22e"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-23T08:49:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808?mod=pls_whats_news_us_business_f) reported that shares of BYD fell after a Dutch court provisionally barred sales of its large SUV model in the EU for infringing on the design of Jaguar Land Rover."
-    },
-    {
-     "articles": [
-      "58b026332fa10240"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "South China Morning Post"
-     ],
-     "published": "2026-11-23T06:00:14+00:00",
-     "text": "[South China Morning Post](https://www.scmp.com/business/china-business/article/3375437/byd-pledges-fight-eu-sales-ban-infringement-battle-jaguar-land-rover) reported that BYD will appeal the sales ban on its premium sport utility vehicle after a Dutch court found an infringement on the design of Jaguar Land Rover."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "BYD’s Shares Fall After Dutch Court Bars Sales of Ti7 SUV Model in EU",
-   "title_from": {
-    "backing": 2,
-    "date": "2026-11-23",
-    "of": 2,
-    "outlet": "Wall Street Journal",
-    "url": "https://www.wsj.com/business/autos/byds-shares-fall-after-dutch-court-bars-sales-of-ti7-suv-model-in-eu-f18ff808?mod=pls_whats_news_us_business_f"
-   },
    "topic": "business"
   },
   {
@@ -5344,76 +4582,6 @@
    "status": "unchanged",
    "title": "European natural gas prices",
    "topic": "markets"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "419b7ac7e6dd61bb",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-23T07:12:18+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "ABB to acquire Germany’s Ziehl-Abegg for $2.65 billion",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/abb-to-acquire-germanys-ziehlabegg-for-265-billion-5044422"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "a8e442b629bccd7a",
-     "lang": "en",
-     "outlet": "WSJ Markets",
-     "published": "2026-11-23T06:28:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "ABB to Buy Germany’s Ziehl-Abegg for $2.22 Billion",
-     "type": "international",
-     "url": "https://www.wsj.com/business/energy-oil/abb-to-buy-germanys-ziehl-abegg-for-2-22-billion-fad3bf35?mod=rss_markets_main"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "abb-acquisition-of-ziehl-abegg",
-   "label": "ABB acquisition of Ziehl-Abegg",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "a8e442b629bccd7a"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-23T06:28:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/abb-to-buy-germanys-ziehl-abegg-for-2-22-billion-fad3bf35?mod=rss_markets_main) reported that ABB agreed to buy Germany’s Ziehl-Abegg for $2.22 billion to expand its offerings for heating, ventilation, air conditioning, and industrial-cooling applications."
-    },
-    {
-     "articles": [
-      "419b7ac7e6dd61bb"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-23T07:12:18+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/abb-to-acquire-germanys-ziehlabegg-for-265-billion-5044422) reported that ABB is to acquire Germany’s Ziehl-Abegg for $2.65 billion."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "ABB acquisition of Ziehl-Abegg",
-   "topic": "business"
   },
   {
    "article_count": 4,
@@ -5606,270 +4774,6 @@
    "status": "unchanged",
    "title": "Capita shares drop 70% on cash call after civil service pension failures",
    "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "11ed377f2f7cd5d8",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-23T13:37:04+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "CrowdStrike snaps up Zscaler in $44 billion deal as cyber threats mount",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/crowdstrike-bets-on-network-security-with-439-billion-zscaler-deal-5044856"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "db927eeb1d6805fb",
-     "lang": "en",
-     "outlet": "FT Companies",
-     "published": "2026-11-23T11:02:10+00:00",
-     "publisher": "Financial Times",
-     "region": null,
-     "section": "news",
-     "title": "CrowdStrike to buy Zscaler in $44bn deal as cyber threats mount",
-     "type": "international",
-     "url": "https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "crowdstrike-acquisition-of-zscaler",
-   "label": "CrowdStrike acquisition of Zscaler",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "db927eeb1d6805fb"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Financial Times"
-     ],
-     "published": "2026-11-23T11:02:10+00:00",
-     "text": "[Financial Times](https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1) reported that CrowdStrike is to buy Zscaler in a $44 billion all-stock acquisition as businesses and governments grapple with technology outages."
-    },
-    {
-     "articles": [
-      "11ed377f2f7cd5d8"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Investing.com"
-     ],
-     "published": "2026-11-23T13:37:04+00:00",
-     "text": "[Investing.com](https://www.investing.com/news/stock-market-news/crowdstrike-bets-on-network-security-with-439-billion-zscaler-deal-5044856) reported that CrowdStrike is acquiring Zscaler in a $44 billion deal."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "CrowdStrike acquisition of Zscaler",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "9f8e4184453bcbfa",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-23T13:36:03+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "EagleRock, Texas Pacific Land stocks rise on $3B deal",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/eaglerock-texas-pacific-land-stocks-rise-on-3b-deal-5045695"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "6355dc3212bdc39d",
-     "lang": "en",
-     "outlet": "WSJ US Business",
-     "published": "2026-11-23T11:54:00+00:00",
-     "publisher": "Wall Street Journal",
-     "region": null,
-     "section": "news",
-     "title": "Texas Pacific Land to Buy EagleRock Land in $3 Billion All-Stock Deal",
-     "type": "international",
-     "url": "https://www.wsj.com/business/energy-oil/texas-pacific-land-to-buy-eaglerock-land-in-3-billion-all-stock-deal-643be79c?mod=pls_whats_news_us_business_f"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "texas-pacific-land-acquisition-of-eaglerock",
-   "label": "Texas Pacific Land acquisition of EagleRock Land",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "also": [
-      {
-       "date": "2026-11-23",
-       "outlet": "Investing.com",
-       "published": "2026-11-23T13:36:03+00:00",
-       "url": "https://www.investing.com/news/stock-market-news/eaglerock-texas-pacific-land-stocks-rise-on-3b-deal-5045695"
-      }
-     ],
-     "articles": [
-      "6355dc3212bdc39d"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Wall Street Journal"
-     ],
-     "published": "2026-11-23T11:54:00+00:00",
-     "text": "[Wall Street Journal](https://www.wsj.com/business/energy-oil/texas-pacific-land-to-buy-eaglerock-land-in-3-billion-all-stock-deal-643be79c?mod=pls_whats_news_us_business_f) reported that Texas Pacific Land agreed to acquire land-and-water management firm EagleRock Land in an all-stock deal with an implied equity value of roughly $3 billion."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Texas Pacific Land acquisition of EagleRock Land",
-   "topic": "business"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "cc9e96793f42fc26",
-     "lang": "en",
-     "outlet": "Investing.com Stock Markets",
-     "published": "2026-11-23T13:30:26+00:00",
-     "publisher": "Investing.com",
-     "region": null,
-     "section": "news",
-     "title": "Trump admin circle the wagons in push for Nvidia to bring back Jensen Huang",
-     "type": "specialist",
-     "url": "https://www.investing.com/news/stock-market-news/trump-admin-circles-the-wagons-in-push-for-nvidia-to-bring--back-jensen-huang-5045613"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "e355159a61ea05f7",
-     "lang": "en",
-     "outlet": "MarketWatch Top Stories",
-     "published": "2026-11-23T12:26:00+00:00",
-     "publisher": "MarketWatch",
-     "region": null,
-     "section": "news",
-     "title": "Nvidia stock bounces as Trump administration pushes for rehiring of Jensen Huang",
-     "type": "international",
-     "url": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "trump-administration-push-for-jensen-huang",
-   "label": "Trump administration push for Jensen Huang return",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "e355159a61ea05f7"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "MarketWatch"
-     ],
-     "published": "2026-11-23T12:26:00+00:00",
-     "text": "[MarketWatch](https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories) reported that Nvidia shares rose on Monday after the Trump administration pushed for the reinstatement of Jensen Huang to lead the company."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Trump administration push for Jensen Huang return",
-   "topic": "business-strategic"
-  },
-  {
-   "article_count": 2,
-   "articles": [
-    {
-     "added": "2026-11-23",
-     "id": "93d86674ff0ca62a",
-     "lang": "en",
-     "outlet": "CNBC Top News",
-     "published": "2026-11-23T18:42:36+00:00",
-     "publisher": "CNBC",
-     "region": null,
-     "section": "news",
-     "title": "Morgan Stanley says this is a big buying opportunity: ‘We’re not going to miss it’",
-     "type": "international",
-     "url": "https://www.cnbc.com/2026/11/23/morgan-stanley-says-this-is-a-big-buying-opportunity-were-not-going-to-miss-it.html"
-    },
-    {
-     "added": "2026-11-23",
-     "id": "64b5fd0003719933",
-     "lang": "en",
-     "outlet": "Bloomberg Markets",
-     "published": "2026-11-23T10:02:24+00:00",
-     "publisher": "Bloomberg",
-     "region": null,
-     "section": "news",
-     "title": "Morgan Stanley’s Wilson Says Buying Opportunity Too Good to Miss",
-     "type": "international",
-     "url": "https://www.bloomberg.com/news/articles/2026-11-23/morgan-stanley-s-wilson-says-buying-opportunity-too-good-to-miss"
-    }
-   ],
-   "articles_today": 0,
-   "first_seen": "2026-11-23",
-   "group": "all",
-   "id": "morgan-stanley-market-buying-opportunity",
-   "label": "Morgan Stanley market buying opportunity",
-   "last_reported": "2026-11-23",
-   "last_updated": "2026-11-23",
-   "outlets_today": 0,
-   "reports": [
-    {
-     "articles": [
-      "64b5fd0003719933"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "Bloomberg"
-     ],
-     "published": "2026-11-23T10:02:24+00:00",
-     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-23/morgan-stanley-s-wilson-says-buying-opportunity-too-good-to-miss) reported that Morgan Stanley's Wilson stated that the recent correction in the S&P 500 and Dow Jones Industrial Average has created a buying opportunity."
-    },
-    {
-     "articles": [
-      "93d86674ff0ca62a"
-     ],
-     "date": "2026-11-23",
-     "group": "all",
-     "outlets": [
-      "CNBC"
-     ],
-     "published": "2026-11-23T18:42:36+00:00",
-     "text": "[CNBC](https://www.cnbc.com/2026/11/23/morgan-stanley-says-this-is-a-big-buying-opportunity-were-not-going-to-miss-it.html) reported that Morgan Stanley stated that last week's sell-off provided a capitulation signal for sentiment and portfolio positioning, creating a buying opportunity."
-    }
-   ],
-   "single_source_today": false,
-   "state_media_only_today": false,
-   "status": "unchanged",
-   "title": "Morgan Stanley market buying opportunity",
-   "topic": "markets"
   },
   {
    "article_count": 3,
@@ -6122,14 +5026,14 @@
      "url": "https://www.wsj.com/business/deals/sanofi-to-buy-insmed-for-41-0-billion-36d6b07d?mod=rss_markets_main"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "sanofi-acquisition-of-insmed",
    "label": "Sanofi acquisition of Insmed",
    "last_reported": "2026-11-24",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6180,9 +5084,9 @@
      "text": "[Investing.com](https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163) reported that the transaction is the biggest deal under CEO Garijo."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "Sanofi Strikes $41 Billion Deal to Buy U.S. Drugmaker Insmed",
    "title_from": {
     "backing": 4,
@@ -6589,7 +5493,7 @@
      "url": "https://www.investing.com/news/economy-news/brazils-lula-backs-second-round-of-fiscal-measures-to-curb-spending-source-says-5048482"
     }
    ],
-   "articles_today": 5,
+   "articles_today": 0,
    "first_seen": "2026-11-24",
    "group": "all",
    "id": "brazil-fiscal-measures",
@@ -6599,7 +5503,7 @@
    "merged": [
     "brazil-finance-minister-appointment"
    ],
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -6654,7 +5558,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
    "title_from": {
     "backing": 2,
@@ -8490,14 +7394,14 @@
      "url": "https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-25",
    "group": "all",
    "id": "spacex-orbital-data-center-satellites-approval",
    "label": "SpaceX orbital data center satellites approval",
    "last_reported": "2026-11-25",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -8514,9 +7418,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7?mod=pls_whats_news_us_business_f), [CNBC](https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html) reported that the FCC authorized SpaceX to deploy 1 million space-based AI data center satellites known as Starmind."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "covered",
+   "status": "unchanged",
    "title": "SpaceX orbital data center satellites approval",
    "topic": "technology-policy"
   },
@@ -9049,14 +7953,14 @@
      "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "spacex-and-elon-musk-trump-accounts",
    "label": "SpaceX and Elon Musk Trump accounts donation",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9083,9 +7987,9 @@
      "text": "[MarketWatch](https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories) reported that SpaceX will provide one newly issued Class A share to every active Trump account and CEO Elon Musk will match that gift."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "SpaceX and Elon Musk Trump accounts donation",
    "topic": "business"
   },
@@ -9346,7 +8250,7 @@
      "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "norse-atlantic-flight-suspension",
@@ -9356,7 +8260,7 @@
    "merged": [
     "norse-atlantic-bankruptcy"
    ],
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9409,7 +8313,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Norse Atlantic suspends all flights as it faces potential collapse",
    "title_from": {
     "backing": 2,
@@ -9624,7 +8528,7 @@
      "url": "https://www.investing.com/news/stock-market-news/imperial-shares-jump-to-highest-since-2017-on-japan-tobacco-deal-report-5052501"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "altria-acquisition-of-imperial-brands",
@@ -9634,7 +8538,7 @@
    "merged": [
     "altria-and-imperial-brands-potential-deal"
    ],
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -9711,7 +8615,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Marlboro maker Altria explores takeover of UK's Imperial Brands",
    "title_from": {
     "backing": 3,
@@ -9997,14 +8901,14 @@
      "url": "https://www.investing.com/news/economy-news/bojs-tamura-flags-faster-pace-of-rate-hikes-amid-inflation-risk-5051988"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "japan-inflation-and-interest-rates",
    "label": "Japan inflation and interest rates",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10033,7 +8937,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Japan inflation and interest rates",
    "topic": "economy"
   },
@@ -10093,14 +8997,14 @@
      "url": "https://www.scmp.com/business/markets/article/3375931/hong-kongs-home-prices-fall-october-rents-hit-record-high"
     }
    ],
-   "articles_today": 4,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "hong-kong-real-estate-market",
    "label": "Hong Kong real estate market",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10141,7 +9045,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Hong Kong real estate market",
    "topic": "markets"
   },
@@ -10175,14 +9079,14 @@
      "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "china-industrial-profits-growth",
    "label": "China industrial profits growth",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10199,7 +9103,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "China industrial profits growth",
    "topic": "economy"
   },
@@ -10233,14 +9137,14 @@
      "url": "https://www.wsj.com/finance/commodities-futures/australia-orders-lng-exporters-reserve-some-gas-to-plug-shortages-at-home-72d6fe9b?mod=rss_markets_main"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "australia-lng-domestic-gas-reservation-law",
    "label": "Australia LNG domestic gas reservation law",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10269,7 +9173,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Australia LNG domestic gas reservation law",
    "topic": "energy"
   },
@@ -10303,14 +9207,14 @@
      "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "chinese-shares-market-support",
    "label": "Chinese shares market support",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10327,7 +9231,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Chinese shares market support",
    "topic": "markets"
   },
@@ -10361,14 +9265,14 @@
      "url": "https://www.investing.com/news/stock-market-news/thales-in-exclusive-talks-to-buy-516-stake-in-lumibird-5052994"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "thales-acquisition-of-lumibird",
    "label": "Thales acquisition of Lumibird",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10397,7 +9301,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Thales acquisition of Lumibird",
    "topic": "business"
   },
@@ -10431,14 +9335,14 @@
      "url": "https://www.ft.com/content/5325ace3-d69a-4686-acb6-2f06de6afd11?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "french-economy-shrinks-0-2-in",
    "label": "French economy shrinks 0.2% in third quarter",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10467,7 +9371,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "French economy shrinks 0.2% in third quarter",
    "topic": "economy"
   },
@@ -10514,14 +9418,14 @@
      "url": "https://www.investing.com/news/commodities-news/thanksgiving-storm-knocks-out-power-disrupts-flights-on-us-east-coast-5052706"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "power-outages-flood-risks-linger-after",
    "label": "Power Outages, Flood Risks Linger After Storm Wallops East Coast",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10551,7 +9455,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Power Outages, Flood Risks Linger After Storm Wallops East Coast",
    "topic": "infrastructure"
   },
@@ -10585,14 +9489,14 @@
      "url": "https://www.investing.com/news/commodities-news/exclusiveus-pushed-venezuela-iraq-to-consider-leaving-opec-sources-say-5052970"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "exclusive-us-pushed-venezuela-iraq-to",
    "label": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10611,7 +9515,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Exclusive-US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
    "topic": "energy"
   },
@@ -10645,14 +9549,14 @@
      "url": "https://www.investing.com/news/commodities-news/iraq-in-talks-with-opec-for-higher-oil-quota-minister-says-before-opec-meeting-5053712"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "iraq-opec-quota-talks",
    "label": "Iraq OPEC quota talks",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10683,7 +9587,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Iraq OPEC quota talks",
    "topic": "energy"
   },
@@ -10717,14 +9621,14 @@
      "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "openai-and-apple-legal-dispute",
    "label": "OpenAI and Apple legal dispute",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -10755,12 +9659,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "OpenAI and Apple legal dispute",
    "topic": "business"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-27T22:39:27+00:00"
+ "updated": "2026-11-28T01:59:12+00:00"
 }

@@ -1,285 +1,5 @@
 [
  {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Fiona the hippo death",
-  "text": "",
-  "reason": "off-topic for this site (topic: culture): not created"
- },
- {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Denmark expels Russian diplomat over rapper plot",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Trump defends calling Putin a friend but says he ‘can’t speak’ to whether he's a friend to the US",
-  "text": "Trump press conference on foreign relations",
-  "reason": "title replaced by a headline: wording not from cited articles: foreign, relations"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Trump defends calling Putin a friend but says he ‘can’t speak’ to whether he's a friend to the US",
-  "text": "[45][46][47] reported that US President Donald Trump defended calling Vladimir Putin a friend during a press conference while accusing Iran of dishonesty.",
-  "reason": "names not in cited articles: Donald, Vladimir"
- },
- {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "El Salvador President Nayib Bukele seeks third term at home while fighting gangs in Haiti",
-  "text": "",
-  "reason": "continuation not supported by the headlines: Two Salvadoran soldiers killed in Haiti while handling explosives"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "latam",
-  "story": "Two Salvadoran soldiers killed in Haiti while handling explosives",
-  "text": "",
-  "reason": "title replaced by a headline: empty title"
- },
- {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Bolsonaro hospitalized with abdominal pain",
-  "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "africa",
-  "story": "FG commissions new 120MVA Billiri Substation, upgrades Gombe with 300MVA, 100MVA transformers",
-  "text": "Nigeria power infrastructure upgrades",
-  "reason": "title replaced by a headline: names not in cited articles: Nigeria"
- },
- {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "Wesley University convocation",
-  "text": "",
-  "reason": "off-topic for this site (topic: culture): not created"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "North Macedonia prevents 'terrorist' assassination plot targeting person in Greece",
-  "text": "[112][113] reported that an Indian man, Nikhil Gupta, was sentenced to 19 years in prison in the United States for a plot to kill a Sikh separatist leader.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-20",
-  "kind": "dropped",
-  "group": "latam",
-  "story": "",
-  "text": "U-17 Reggae Boyz lose World Cup opener",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "2027: SERAP Gives INEC Chairman Seven Days To Prosecute Electoral Violence Suspects",
-  "text": "[1] reported that All Progressives Congress National Secretary Dr Ajibola Basiru warned Nigerians against calls to reverse the fuel subsidy and rallied the movement ahead of the 2027 general elections.",
-  "reason": "analysis word not used by the source: 'rallied'"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "namerica",
-  "story": "Trump says more work to be done to achieve fair trade deal with Canada",
-  "text": "Canada United States trade negotiations",
-  "reason": "title replaced by a headline: names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Trump says more work to be done to achieve fair trade deal with Canada",
-  "text": "[7][8] reported that US President Donald Trump stated more work needs to be done to achieve a fair trade deal with Canada.",
-  "reason": "names not in cited articles: Donald"
- },
- {
-  "date": "2026-11-20",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Russian Drone Hits Kharkiv Hospital, Injuring Four and Shattering More Than 50 Windows",
-  "text": "Russian strikes in Kharkiv region",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "africa",
-  "story": "Yahaya Bello denies imposing Ododo as Kogi governor",
-  "text": "Kogi State political leadership statements",
-  "reason": "title replaced by a headline: wording not from cited articles: state, leadership, statements"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "mena",
-  "story": "European emissions proposal faces Middle East pushback at UN aviation agency",
-  "text": "ICAO Middle East pushback on EU emissions",
-  "reason": "title replaced by a headline: names not in cited articles: ICAO"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Russia Pushes Back Against U.S. Idea of NATO-Style Security Guarantees for Ukraine",
-  "text": "[32] reported that Donald Trump stated it is necessary to get a deal first before talking about security guarantees for Ukraine.",
-  "reason": "names not in cited articles: Donald"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "africa",
-  "story": "I’m Nigeria’s most transparent, vilified politician – Yahaya Bello",
-  "text": "Yahaya Bello transparency statements",
-  "reason": "title replaced by a headline: wording not from cited articles: transparency, statements"
- },
- {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Home Alone film sequel development by Disney",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-20",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Fiona the hippo necropsy findings",
-  "text": "",
-  "reason": "off-topic for this site (topic: other): not created"
- },
- {
-  "date": "2026-11-20",
-  "kind": "title",
-  "group": "africa",
-  "story": "Sowore vows to scrap NELFUND, promises N100,000 student grants",
-  "text": "Omoyele Sowore 2027 presidential campaign proposals",
-  "reason": "title replaced by a headline: wording not from cited articles: campaign, proposals"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Burnham, EU Leaders Agree Deals on Trade, Carbon Markets and Youth Mobility",
-  "text": "[75][76] reported that the United Kingdom and the European Union agreed on new deals covering trade and youth mobility at a summit.",
-  "reason": "names not in cited articles: European, Kingdom, Union, United"
- },
- {
-  "date": "2026-11-20",
-  "kind": "dropped",
-  "group": "namerica",
-  "story": "",
-  "text": "Trump’s Forest Service has been quietly releasing secret case files - on Bigfoot",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Vladimir Putin statements on Ukraine",
-  "text": "[7], a Russian state-aligned outlet, reported that Vladimir Putin called on Ukrainians to come over to Russia's side.",
-  "reason": "wording not from cited articles: vladimir, called, side"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "'I would love to see him be back': Trump urges Nvidia to give Jensen Huang 'second chance'",
-  "text": "[38] reported that Donald Huang stated Jensen Huang deserves a second chance and doubled down on data centres.",
-  "reason": "names not in cited articles: Donald"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "africa",
-  "story": "Dakhla World Summit on health and social protection",
-  "text": "[20], a Niger state outlet, reported that Moroccan Minister of Health and Social Protection Pr Youns Bjijou noted major challenges facing health and social protection systems at the Dakhla summit.",
-  "reason": "analysis word not used by the source: 'major'"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "France weather orange alert and floods",
-  "text": "[28] reported that heavy rains decreased in the Pas-de-Calais after up to over 150 millimeters fell in seventy-two hours.",
-  "reason": "number not in cited articles: 2, 70"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Peace Council Gaza agreement statements",
-  "text": "[33] reported that Hamas stated Israeli escalation in Gaza and the death of 7 martyrs represent an escalation.",
-  "reason": "analysis word not used by the source: 'escalation'"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Israeli occupiers injure Palestinian couple, raise Israeli flags at girls’ school in West Bank",
-  "text": "[1] reported that Israeli drone attacks killed seven Palestinians in central Gaza amid ongoing attacks.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "AI employment bias research",
-  "text": "[22] reported that U.S. Treasury Secretary Scott Bessent stated that President Donald Trump and Chinese counterpart Xi Jinping agreed not to allow artificial intelligence to independently launch major military operations.",
-  "reason": "analysis word not used by the source: 'major'"
- },
- {
-  "date": "2026-11-20",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Mamdani and Trump agree to 90-day delay on new food assistance rules for corner stores",
-  "text": "[31] reported that New York City Mayor Zohran Mamdani spoke at the funeral for a 15-year-old Ghanaian boy killed in the US.",
-  "reason": "names not in cited articles: City, Zohran"
- },
- {
-  "date": "2026-11-20",
-  "kind": "merged",
-  "group": "mena",
-  "story": "Israeli occupiers injure Palestinian couple, raise Israeli flags at girls’ school in West Bank",
-  "text": "West Bank Palestinian man shot by settler guards",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-20",
-  "kind": "merged",
-  "group": "europe",
-  "story": "Ukraine's allies to meet in Berlin to rally support for Kyiv after Trump-Putin-Xi talks",
-  "text": "Ukraine's allies gather in Berlin for 'Coalition of the Willing' summit",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-20",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Soludo presents APGA flag to Tinubu as presidential flagbearer at Awka mega rally",
-  "text": "2027: Why billboard featuring Peter Obi was removed – Anambra govt",
-  "reason": "duplicate story merged into an existing one"
- },
- {
   "date": "2026-11-21",
   "kind": "skipped",
   "group": "europe",
@@ -3718,5 +3438,253 @@
   "story": "Germany's AfD co-leader calls for deportation of 2.6 million Ukrainians, Syrians and Afghans",
   "text": "Sikorski responds to AfD leader over Kyiv",
   "reason": "same event, confirmed by the AI's duplicate check: merged into the older story"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "US Escalates Iran Blockade, Strikes Commercial Vessel After Defying Military Warnings",
+  "text": "[9] reported that the US Central Command stated the blockade has disabled six ships and redirected 158 while negotiations with Iran remain stalled.",
+  "reason": "names not in cited articles: Central, Command"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Manchester Don Toliver concert robberies",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Washington Reagan National Airport plane collision",
+  "text": "[21] reported that no injuries were reported and the Federal Aviation Administration plans to investigate the incident.",
+  "reason": "names not in cited articles: Administration, Aviation"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "namerica",
+  "story": "Washington Reagan National Airport plane collision",
+  "text": "[23] reported that the incident occurred around 5:10 PM ET.",
+  "reason": "number not in cited articles: 10, 5"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "EZLN delegation visit to Mexico City",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Gavi malaria vaccine funding restoration",
+  "text": "",
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Global gold prices rebound",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "asia",
+  "story": "Asian Development Bank loan to Pakistan",
+  "text": "Asian Development Bank loans to Pakistan",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "namerica",
+  "story": "Ilia Malinin world record figure skating",
+  "text": "",
+  "reason": "off-topic for this site (topic: sport): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
+  "text": "[61] reported that Nvidia's board changed its mind within six days to rehire Jensen Huang as chief executive.",
+  "reason": "number not in cited articles: 6"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "French authorities ban far-right anti-woke concert",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Maxillofacial surgeons shortage in Northern Nigeria",
+  "text": "",
+  "reason": "off-topic for this site (topic: health): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Jamaica Women's World Cup qualification",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Kenyan Cult Leader Convicted of Terrorism",
+  "text": "Kenyan cult leader conviction for starvation deaths",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Hind Sabri and Ahmed Helmy film collaboration",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "latam",
+  "story": "Black Friday promotions in Latin America",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Princess Kate takes to the mountains to face mortality in film about cancer recovery",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "dropped",
+  "group": "asia",
+  "story": "",
+  "text": "Media mogul admits saying Australian child sex abuse survivor 'looking to be raped again'",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "dropped",
+  "group": "mena",
+  "story": "",
+  "text": "مباراة الأهلي والاتحاد في نهائي دوري المرتبط للسلة.. الموعد والقنوات الناقلة",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Nigeria: Kano Govt Dismisses Kwankwaso's EFCC Allegations Against Governor Yusuf",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Dos aviones de American Airlines se rozan las alas en un aeropuerto de Washingto"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Africa: El Niño Adds New Hunger Hotspots As Conflict Continues to Drive Risk of Famine, Warn FAO and WFP",
+  "text": "Sudan hunger crisis and WFP funding cuts",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Severe weather alerts in Argentina",
+  "text": "[39] reported that the first winter storm brought extreme cold and sub-zero temperatures to several Mexican states.",
+  "reason": "number not in cited articles: 0"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Mexico City General Development Plan debate",
+  "text": "[34] reported that Venustiano Carranza Mayor Evelyn Parra requested 670 million pesos in additional funds for the 2027 budget.",
+  "reason": "number not in cited articles: 670000000"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Spain’s Pedro Sanchez bets on left-wing voting surge to defy election polls",
+  "text": "[36] reported that Spanish Prime Minister Pedro Sánchez wrapped up his campaign with a large rally in Madrid, expressing confidence in a progressive majority.",
+  "reason": "wording not from cited articles: pedro, wrapped, large, expressing, confidence"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "France civil service protests and wages",
+  "text": "[38] reported that the office and home of Marine Le Pen's former chief of staff Ambroise de Rancourt were searched amid suspicions of leaked confidential information from the Interior Ministry.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Iraq reaches compromise with Kataib Hezbollah over armed group stronghold",
+  "text": "[41] reported that U.S. President Donald Trump backed Iraqi Prime Minister al-Zaidi's plan to end oil smuggling and bring weapons under state control.",
+  "reason": "names not in cited articles: Donald"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
+  "text": "[15] reported that Nvidia AI servers are being advertised for up to $3.4 million in China amid tighter United States export controls.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "US Escalates Iran Blockade, Strikes Commercial Vessel After Defying Military Warnings",
+  "text": "[22] reported that the United States struck a vessel attempting a blockade run near Iran as President Trump pressures Tehran's economy.",
+  "reason": "names not in cited articles: States, United"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Taiwan tells Meta thousands of China-linked accounts seek to influence elections",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Taiwan votes for thousands of officials with all eyes on Taipei mayor races"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Taiwan tells Meta thousands of China-linked accounts seek to influence elections",
+  "text": "[23][36] reported that Taiwan went to the polls in local elections as voters chose officials across various races.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Iraq reaches compromise with Kataib Hezbollah over armed group stronghold",
+  "text": "Trump voices support for Iraqi premier’s efforts to ‘assert state authority’",
+  "reason": "duplicate story merged into an existing one"
  }
 ]

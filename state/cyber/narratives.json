@@ -755,6 +755,30 @@
  ],
  "coverage": [
   {
+   "articles": 133,
+   "attached_by_code": 0,
+   "calls": 1,
+   "candidates": 1,
+   "continuing": 1,
+   "corroborated": 0,
+   "date": "2026-11-28",
+   "dropped": 0,
+   "failed_calls": 0,
+   "groups": 121,
+   "in_stories": 1,
+   "kept": 0,
+   "merged": 0,
+   "new": 0,
+   "rejected": 0,
+   "reported_by_2": 1,
+   "runs": 1,
+   "sent": 1,
+   "skipped": 0,
+   "split_calls": 0,
+   "updated": 1,
+   "waiting": 0
+  },
+  {
    "articles": 161,
    "attached_by_code": 0,
    "calls": 4,
@@ -1073,34 +1097,10 @@
    "split_calls": 0,
    "updated": 2,
    "waiting": 0
-  },
-  {
-   "articles": 312,
-   "attached_by_code": 0,
-   "calls": 5,
-   "candidates": 8,
-   "continuing": 3,
-   "corroborated": 0,
-   "date": "2026-11-14",
-   "dropped": 0,
-   "failed_calls": 0,
-   "groups": 252,
-   "in_stories": 12,
-   "kept": 9,
-   "merged": 0,
-   "new": 5,
-   "rejected": 2,
-   "reported_by_2": 3,
-   "runs": 8,
-   "sent": 8,
-   "skipped": 0,
-   "split_calls": 0,
-   "updated": 3,
-   "waiting": 0
   }
  ],
  "last_run": {
-  "all": "2026-11-27T22:34:45+00:00"
+  "all": "2026-11-28T01:57:11+00:00"
  },
  "narratives": [
   {
@@ -4737,14 +4737,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "1password-data-breach",
    "label": "1Password data breach",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "previous_titles": [
     "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
     "1Password breached through hijacked employee GitHub account, customer names and emails stolen"
@@ -4811,9 +4811,9 @@
      "text": "[The Hacker News](https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html) reported that customer data and source code were stolen during the security incident involving backend systems."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
    "title_from": {
     "backing": 3,
@@ -4940,14 +4940,14 @@
      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
     }
    ],
-   "articles_today": 1,
+   "articles_today": 0,
    "first_seen": "2026-11-26",
    "group": "all",
    "id": "drupal-vulnerability-active-exploitation",
    "label": "Drupal vulnerability active exploitation",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 1,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -4986,14 +4986,14 @@
      "text": "[Cybersecurity News](https://cybersecuritynews.com/drupal-website-takeover-flaw/) reported that attackers are actively exploiting CVE-2026-136716, a highly critical access bypass that can let them take over vulnerable websites."
     }
    ],
-   "single_source_today": true,
+   "single_source_today": false,
    "state_media_only_today": false,
-   "status": "updated",
+   "status": "unchanged",
    "title": "Drupal vulnerability active exploitation",
    "topic": "security"
   },
   {
-   "article_count": 3,
+   "article_count": 4,
    "articles": [
     {
      "added": "2026-11-27",
@@ -5033,16 +5033,29 @@
      "title": "Australia’s Flight Centre Data Breach Exposes Customer Records and Passport Details",
      "type": null,
      "url": "https://securityaffairs.com/204049/data-breach/australias-flight-centre-data-breach-exposes-customer-records-and-passport-details.html"
+    },
+    {
+     "added": "2026-11-28",
+     "id": "ec80eb771ddaec71",
+     "lang": "en",
+     "outlet": "The Australian",
+     "published": "2026-11-25T23:38:00+00:00",
+     "publisher": "The Australian",
+     "region": null,
+     "section": "aviation",
+     "title": "What Flight Centre customers must do now after cyber attack hits passport and personal data",
+     "type": null,
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQejFrbkFlNXpDUzc1bVlsQ1NKdUtTY1dGMjc3Q1NldzNMRldUck1WQURKbDdYeHdHMHRramxuMWRfX1FvVzR0MWlJMHpuVU1DX0ZCLWtoODFUT3FQQVBBYWt1eUNVNDNNdVZZMmw3UUhka2tRdFNfMFluRllKeTlZRF9TRXFWSHctX29OQlZNYnNMNjR4R0VqSHM3QVgtV0ExNUFhYUZyMUtFSHdXSTR0NjZwZmdwMFE4UDFHUUlVYlNBM09TdkVTanpSejZKUU9BYk1WRlAtQ0dTMU9iT1FDUlR0QkR6TzBhTDZRYklqZjVPak9FUHVGakFFRDFVQVVpSjM3YWZQLWJDQQ?oc=5"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 1,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "flight-centre-data-breach",
    "label": "Flight Centre data breach",
    "last_reported": "2026-11-27",
-   "last_updated": "2026-11-27",
-   "outlets_today": 3,
+   "last_updated": "2026-11-28",
+   "outlets_today": 1,
    "reports": [
     {
      "articles": [
@@ -5081,9 +5094,9 @@
      "text": "[Help Net Security](https://www.helpnetsecurity.com/2026/11/27/flight-centre-travel-group-data-breach-booking-system/) reported that travellers who booked accommodation through Flight Centre and several of its leisure brands may have had their names, and in rare cases passport and health details, involved in a data breach."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "covered",
    "title": "Australia’s Flight Centre Data Breach Exposes Customer Records and Passport Details",
    "title_from": {
     "backing": 2,
@@ -5137,14 +5150,14 @@
      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/"
     }
    ],
-   "articles_today": 3,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "remus-malware-gmail-extension",
    "label": "Remus malware Gmail extension",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 3,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5185,7 +5198,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "Hackers Use Hidden Chrome Extension to Read Gmail Messages Without Stealing Passwords",
    "title_from": {
     "backing": 2,
@@ -5226,14 +5239,14 @@
      "url": "https://therecord.media/uk-department-work-pensions-cyber-incident"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "british-government-cyber-incident",
    "label": "British government cyber incident",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5262,7 +5275,7 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "British government cyber incident",
    "topic": "cyber"
   },
@@ -5296,14 +5309,14 @@
      "url": "https://www.computerweekly.com/news/366655538/Investigation-underway-into-DWP-cyber-security-incident-as-services-taken-offline"
     }
    ],
-   "articles_today": 2,
+   "articles_today": 0,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "dwp-cyber-incident",
    "label": "DWP cyber incident",
    "last_reported": "2026-11-27",
    "last_updated": "2026-11-27",
-   "outlets_today": 2,
+   "outlets_today": 0,
    "reports": [
     {
      "articles": [
@@ -5320,12 +5333,12 @@
    ],
    "single_source_today": false,
    "state_media_only_today": false,
-   "status": "new",
+   "status": "unchanged",
    "title": "DWP cyber incident",
    "topic": "cyber"
   }
  ],
  "retry": [],
  "site": "cyber",
- "updated": "2026-11-27T22:34:46+00:00"
+ "updated": "2026-11-28T01:57:27+00:00"
 }
