@@ -3441,202 +3441,386 @@
  },
  {
   "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "RAF Lakenheath drone incident",
-  "text": "[1] reported that the US military repelled drones at a UK airbase this month according to the Financial Times.",
-  "reason": "names not in cited articles: Financial, Times"
- },
- {
-  "date": "2026-11-28",
   "kind": "skipped",
-  "group": "europe",
-  "story": "Fourteen found dead on migrant boat off Spain's Canary Islands",
+  "group": "asia",
+  "story": "Body of 12-Year-Old Boy Found in Afghanistan’s Ghazni Province Four Days After Disappearance",
   "text": "",
-  "reason": "not added to this story (headline doesn't match it): Tragedija kod Kanarskih ostrva: Pronađeno 14 tijela migranata"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Fourteen found dead on migrant boat off Spain's Canary Islands",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Pronađeno 14 tela! Užas kod Kanarskih ostrva, zaustavljen čamac sa migrantima, š"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Fourteen found dead on migrant boat off Spain's Canary Islands",
-  "text": "[89] reported that Maritime Rescue services stated the lifeless bodies of 14 migrants were found after a boat with about 100 people was stopped near the Spanish Canary Islands.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Le Pentagone assure que ses systèmes informatiques sont « sûrs et sécurisés », a"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): L'armée américaine visée par une cyberattaque ? Le Pentagone assure que ses syst"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
-  "text": "[88] reported that Federal News Network also affirmed the system had been hacked based on a person familiar with the matter.",
-  "reason": "cites an article that doesn't belong to this story"
+  "reason": "not added to this story (headline doesn't match it): Israeli attack kills two MSF staff in Gaza"
  },
  {
   "date": "2026-11-28",
   "kind": "skipped",
   "group": "asia",
-  "story": "Pakistan international paragliding championship",
+  "story": "Body of 12-Year-Old Boy Found in Afghanistan’s Ghazni Province Four Days After Disappearance",
   "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "title",
-  "group": "europe",
-  "story": "Austria’s Far Right Proposes Deporting Migrants to Ukraine",
-  "text": "Austria far-right migrant deportation proposal",
-  "reason": "title replaced by a headline: wording not from cited articles: deportation, proposal"
+  "reason": "not added to this story (headline doesn't match it): أفغانستان : سقوط ضحايا جراء انفجار استهدف مدرسة في ولاية كونار"
  },
  {
   "date": "2026-11-28",
   "kind": "skipped",
-  "group": "latam",
-  "story": "Guadalajara International Book Fair Italy exhibition",
+  "group": "asia",
+  "story": "Body of 12-Year-Old Boy Found in Afghanistan’s Ghazni Province Four Days After Disappearance",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): أفغانستان.. انفجار قرب مدرسة يودي بحياة 7 طلاب ويصيب 99 آخرين"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Body of 12-Year-Old Boy Found in Afghanistan’s Ghazni Province Four Days After Disappearance",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): أفغانستان.. وفاة 7 أشخاص وإصابة 99 أخرين في انفجار قرب مدرسة ثانوية"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Jermaine Haley death",
+  "text": "",
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Senior IRGC officials vow to break US blockade on Strait of Hormuz, claim Iran's ports are 'open'",
+  "text": "Hormuz strait maritime blockade and tanker incidents",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Senior IRGC officials vow to break US blockade on Strait of Hormuz, claim Iran's ports are 'open'",
+  "text": "[31] reported that the Iranian Revolutionary Guard Corps announced two oil tankers suffered explosions and fires after hitting sea mines in the Strait of Hormuz.",
+  "reason": "number not in cited articles: 2"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "mena",
+  "story": "Senior IRGC officials vow to break US blockade on Strait of Hormuz, claim Iran's ports are 'open'",
+  "text": "[32] reported that the International Maritime Organization stated about 300 ships and 6,000 sailors are stranded in the Strait of Hormuz, according to Fars News Agency.",
+  "reason": "number not in cited articles: 6000"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Tinubu: We Must Overwhelm Our Opponents with Votes, Urges Reconciliation in APC",
+  "text": "",
+  "reason": "continuation not supported by the headlines: 2027: Ajadi unveils campaign council, announces ₦300m empowerment plans, shares "
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "title",
+  "group": "africa",
+  "story": "2027: Ajadi unveils campaign council, announces ₦300m empowerment plans, shares vehicles to committe",
+  "text": "",
+  "reason": "title replaced by a headline: empty title"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Iran singer flogging punishment",
+  "text": "",
+  "reason": "off-topic for this site (entertainment, sport...): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "3 Killed in Russian Attacks on Chernihiv Region, People Feared Trapped in Nizhyn",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Novoshakhtinsk oil refinery, oil pumping station in Samara region targeted for s"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "3 Killed in Russian Attacks on Chernihiv Region, People Feared Trapped in Nizhyn",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Drones Strike Russia’s Novoshakhtinsk Refinery and Samara Oil Hub"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Tinubu: We Must Overwhelm Our Opponents with Votes, Urges Reconciliation in APC",
+  "text": "[46][47][48] reported that Social Democratic Party presidential candidate Adewole Adebayo promised to sell petrol at 200 naira per litre without subsidy if elected in 2027.",
+  "reason": "number not in cited articles: 200"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Gaza mural honoring Besiktas player solidarity",
   "text": "",
   "reason": "off-topic for this site (topic: culture): not created"
  },
  {
   "date": "2026-11-28",
   "kind": "skipped",
-  "group": "africa",
-  "story": "Osun State foundation medical outreach",
+  "group": "mena",
+  "story": "Hend Sabry and Ahmed Helmy film collaboration",
   "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
+  "reason": "off-topic for this site (topic: entertainment): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Gelsenkirchen bench fining incident",
+  "text": "",
+  "reason": "off-topic for this site (topic: other): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Saudi-led coalition intercepts Houthi cruise missile fired toward capital Riyadh",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Rat sa Hutima: Saudijska Arabija oborila krstareću raketu ispaljenu prema Rijadu"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "mena",
+  "story": "Saudi-led coalition intercepts Houthi cruise missile fired toward capital Riyadh",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Razmjena vatre: Saudijska Arabija oborila krstareću raketu ispaljenu prema Rijad"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
-  "group": "latam",
-  "story": "Peru military helicopter crash",
-  "text": "[73] reported that eight people died in a Peruvian military helicopter crash during a rescue mission in the VRAEM valley with the pilot as the sole survivor.",
-  "reason": "names not in cited articles: VRAEM"
+  "group": "mena",
+  "story": "Saudi-led coalition intercepts Houthi cruise missile fired toward capital Riyadh",
+  "text": "[111][112] reported that Saudi Arabia announced it shot down a cruise missile targeting Riyadh after Houthi media reported on Saudi attacks on Yemen.",
+  "reason": "cites an article that doesn't belong to this story"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "asia",
+  "story": "South Korea monitoring Kim visit",
+  "text": "South Korea monitoring Kim Jong-un China visit",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Child abuse investigation in Alabama",
+  "text": "Podem boarding school child abuse investigation",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "namerica",
+  "story": "Ohio baby shower shooting leaves three dead and one injured amid domestic dispute",
+  "text": "Uruzgan Province land and debt disputes",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Herzegovina weather and river levels",
+  "text": "[15][16] reported that rising water levels of the Trebižat River threatened a family home and a solar panel caught fire on a health center roof amid heavy rain in Herzegovina.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Pakistan gold price fluctuations",
+  "text": "",
+  "reason": "off-topic for this site (topic: markets): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Taiwan local elections campaign",
+  "text": "[23][24] reported that voters in Taiwan cast ballots for thousands of officials with a focus on Taipei mayoral races.",
+  "reason": "wording not from cited articles: voters, cast, ballots, focus, mayoral"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Italy denies that Zelenskyy coordinated attack on Russian ship in Libya with partners",
+  "text": "[25] reported that Italian Prime Minister Giorgia Meloni and Ukrainian President Volodymyr Zelenskyy had a tense conversation regarding a lack of coordination over an attack in Libya.",
+  "reason": "wording not from cited articles: prime, minister, giorgia, president, volodymyr, regarding"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "CDA seals Maulana Fazlur Rehman’s residence in Islamabad, son Asjad arrested",
+  "text": "[32] reported that JUI-F chief Maulana Fazlur Rehman's Islamabad residence was sealed after the Capital Development Authority cancelled the property transfer.",
+  "reason": "names not in cited articles: Authority, Capital, Development, Fazlur, Maulana, Rehman"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Obi defends Kwankwasiyya members’ use of sticks amid rising political violence",
+  "text": "[36] reported that NDC campaign Director-General Ibrahim Abdulkarim urged Peter Obi's supporters to help manage his weaknesses.",
+  "reason": "names not in cited articles: Director-General, Peter"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Macron accuses ‘arrogant’ Le Pen of speaking as if she already won",
+  "text": "[48] reported that French President Emmanuel Macron criticized far-right leader Marine Le Pen's arrogance amid the EU long-term budget dispute.",
+  "reason": "analysis word not used by the source: 'amid'"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
   "group": "europe",
   "story": "Ankara drug money laundering investigation",
-  "text": "[95], a state-media outlet, reported that four suspects were detained in Istanbul over alleged cyber attacks on X Corp.'s infrastructure and servers targeting US President Donald Trump's cabinet members.",
-  "reason": "wording not from cited articles: suspects, detained, cyber, attacks, infrastructure, servers"
- },
- {
-  "date": "2026-11-28",
-  "kind": "dropped",
-  "group": "europe",
-  "story": "",
-  "text": "Diplomatska bura nakon pogibije Italijana u Kuvajtu: Tajani prozvao Teheran, Iran nudi zajedničku istragu",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+  "text": "[49], a state-media outlet, reported that 70 suspects were detained in simultaneous operations across 31 provinces centered around Ankara.",
+  "reason": "wording not from cited articles: suspects, detained, simultaneous, operations, across, provinces"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
-  "group": "europe",
-  "story": "Toplodol Tunnel Traffic Restoration",
-  "text": "[2] reported that both tubes of the Toplodol tunnel on the Hemus motorway are in use starting November 28, with the Sofia-bound tube currently undergoing major renovations.",
-  "reason": "number not in cited articles: 28"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "Bosnia and Herzegovina Weather Conditions",
-  "text": "",
-  "reason": "off-topic for this site (topic: weather): not created"
+  "group": "mena",
+  "story": "Israel's Eisenkot reaches deal with left-wing faction as coalition talks gain steam",
+  "text": "[53] reported that Gadi Eisenkot's coalition moves moved closer to ousting Benjamin Netanyahu after advancing cooperation with ultra-Orthodox and Arab parties.",
+  "reason": "names not in cited articles: Benjamin, Gadi"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
-  "group": "namerica",
-  "story": "Some Americans canceled or postponed Thanksgiving dinners amid power outages and storms.",
-  "text": "[21] reported that cleanup began across the United States after Thanksgiving storms brought flooding, power outages, and snow, snarling travel and leading to water rescues from New York to Virginia.",
+  "group": "latam",
+  "story": "Mexico files complaint with US over DEA tip line on alleged drug dealers",
+  "text": "[8] reported that Mexican President Claudia Sheinbaum denounced the United States hotline for reporting drug cartel activities as foreign interference.",
   "reason": "names not in cited articles: States, United"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
-  "group": "latam",
-  "story": "Venezuela pilgrimage announcement",
-  "text": "[28] reported that Maria Corina Machado launched an initiative to gather proposals from across the nation and the diaspora for democratic reform.",
-  "reason": "names not in cited articles: Corina"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "South Korea monitoring Kim visit",
-  "text": "[29] reported that South Korea's spy agency stated it is closely monitoring developments amid speculation over North Korean leader Kim Jong Un's possible visit to China.",
-  "reason": "names not in cited articles: Jong, Kim"
+  "group": "africa",
+  "story": "Ogun 2027: YAKSCO hails court judgement affirming Yayi’s APC guber candidacy",
+  "text": "[16] reported that an All Progressives Congress candidate in Owo/Ose urged party unity ahead of 2027 following a Supreme Court decision.",
+  "reason": "names not in cited articles: All, Congress, Progressives"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
   "group": "europe",
-  "story": "HSE executive tenure termination",
-  "text": "[40] reported that sacked HSE chief executive Anne O'Connor argued in correspondence that her dismissal was unlawful, violated contract rights, and was contrary to fair procedures.",
-  "reason": "names not in cited articles: O'Connor"
+  "story": "Turkish parliamentary meetings on children and terror",
+  "text": "[24], a state-media outlet, reported that Turkish Parliament Speaker Numan Kurtulmuş stated efforts are underway to unite Middle Eastern peoples against divide-and-rule scenarios.",
+  "reason": "names not in cited articles: Eastern, Middle, Turkish"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "global",
+  "story": "Five killed, six injured as suspected herdsmen attack Jigawa community",
+  "text": "[34] reported that residents fled Luma town in Borgu Local Government Area of Niger State as suspected bandits razed houses in an attack.",
+  "reason": "names not in cited articles: Area, Local"
  },
  {
   "date": "2026-11-28",
   "kind": "skipped",
-  "group": "latam",
-  "story": "Peru military helicopter crash",
+  "group": "europe",
+  "story": "Moldova agricultural risk assessment",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "BP Tapera home loan scheme",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Afghanistan Kunar province explosion",
+  "text": "",
+  "reason": "new story with fewer than 2 articles"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Russian drone interceptions",
   "text": "",
   "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
-  "group": "mena",
-  "story": "Tinubu: APC chieftain condemns attack on Rarara at Abuja mosque",
-  "text": "[24] reported that the Wall and Settlement Resistance Commission revealed that Israeli authorities issued 12 notices since the beginning of 2026 to allocate about 52,400 dunums of Palestinian land for settlement grazing.",
-  "reason": "number not in cited articles: 52400"
+  "group": "namerica",
+  "story": "Hackers breach key US Air Force cloud system",
+  "text": "[2] reported that the intrusion could have compromised military applications and sensitive personal data amidst a wave of cyberattacks against US federal agencies.",
+  "reason": "analysis word not used by the source: 'could'"
  },
  {
   "date": "2026-11-28",
   "kind": "rejected",
   "group": "africa",
-  "story": "Uganda begins Africa's first mRNA Ebola vaccine trial",
-  "text": "[29] reported that Uganda started an mRNA Ebola vaccine trial targeting the less common Bundibugyo strain behind the outbreak in the neighboring Democratic Republic of Congo.",
-  "reason": "names not in cited articles: Democratic, Republic"
+  "story": "Nigeria Customs Service suspends training college activities",
+  "text": "[10] reported that the Federal Character Commission stated it found 317 alleged cases of compromise in Customs recruitment and lifted the suspension on training for 3,852 newly recruited personnel.",
+  "reason": "names not in cited articles: Character"
  },
  {
   "date": "2026-11-28",
   "kind": "merged",
   "group": "namerica",
-  "story": "Judge blocks Donald Trump’s ‘rush job’ triumphal arch over airport safety concerns",
-  "text": "Judge throws Supreme Court in Trump’s face in birthright citizenship rebuke",
+  "story": "China and other U.S. trading partners hit back at Trump’s new tariff plans",
+  "text": "Trump rebuilds tariff wall with new duties on China, Japan and others",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-28",
   "kind": "merged",
-  "group": "latam",
-  "story": "Protests in Puerto Rico",
-  "text": "Puerto Rico utility protests",
+  "group": "namerica",
+  "story": "China and other U.S. trading partners hit back at Trump’s new tariff plans",
+  "text": "US global tariff proposals",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Guterres Condemns Deadly Drone Attack on Kuwait",
+  "text": "Iran war live: Iran’s Araghchi calls deadly Kuwait attack ‘suspicious’",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Two Syrian security personnel killed in ISIL suicide attack",
+  "text": "Drone attack in Suwayda",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "africa",
+  "story": "Nigeria and Poland investment and fisheries cooperation",
+  "text": "Central Bank of Nigeria diaspora remittances",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "mena",
+  "story": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
+  "text": "Saudi-led coalition intercepts Houthi cruise missile fired toward capital Riyadh",
   "reason": "duplicate story merged into an existing one"
  }
 ]

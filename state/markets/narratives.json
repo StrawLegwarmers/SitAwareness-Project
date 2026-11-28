@@ -805,25 +805,25 @@
   {
    "articles": 423,
    "attached_by_code": 0,
-   "calls": 2,
-   "candidates": 2,
-   "continuing": 0,
+   "calls": 3,
+   "candidates": 3,
+   "continuing": 1,
    "corroborated": 0,
    "date": "2026-11-28",
    "dropped": 0,
    "failed_calls": 0,
    "groups": 392,
-   "in_stories": 4,
-   "kept": 4,
+   "in_stories": 5,
+   "kept": 5,
    "merged": 0,
    "new": 2,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 3,
-   "sent": 2,
+   "runs": 4,
+   "sent": 3,
    "skipped": 0,
    "split_calls": 0,
-   "updated": 0,
+   "updated": 1,
    "waiting": 0
   },
   {
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-28T07:56:10+00:00"
+  "all": "2026-11-28T10:33:29+00:00"
  },
  "narratives": [
   {
@@ -9178,8 +9178,21 @@
    "topic": "energy"
   },
   {
-   "article_count": 2,
+   "article_count": 3,
    "articles": [
+    {
+     "added": "2026-11-28",
+     "id": "df7b4b03215b10fc",
+     "lang": "en",
+     "outlet": "CNBC Top News",
+     "published": "2026-11-27T10:13:44+00:00",
+     "publisher": "CNBC",
+     "region": null,
+     "section": "news",
+     "title": "Chinese chip stocks notch biggest ever one-day gains as Beijing signals broader market support",
+     "type": "international",
+     "url": "https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html"
+    },
     {
      "added": "2026-11-27",
      "id": "ec95a5c953bb618e",
@@ -9207,15 +9220,27 @@
      "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1"
     }
    ],
-   "articles_today": 0,
+   "articles_today": 1,
    "first_seen": "2026-11-27",
    "group": "all",
    "id": "chinese-shares-market-support",
    "label": "Chinese shares market support",
-   "last_reported": "2026-11-27",
-   "last_updated": "2026-11-27",
-   "outlets_today": 0,
+   "last_reported": "2026-11-28",
+   "last_updated": "2026-11-28",
+   "outlets_today": 1,
    "reports": [
+    {
+     "articles": [
+      "df7b4b03215b10fc"
+     ],
+     "date": "2026-11-28",
+     "group": "all",
+     "outlets": [
+      "CNBC"
+     ],
+     "published": "2026-11-27T10:13:44+00:00",
+     "text": "[CNBC](https://www.cnbc.com/2026/11/27/china-chip-stocks-beijing-market-support.html) reported that Chinese chip stocks registered their biggest ever one-day gains after policymakers pledged market liquidity support."
+    },
     {
      "articles": [
       "ec95a5c953bb618e"
@@ -9229,9 +9254,9 @@
      "text": "[Wall Street Journal](https://www.wsj.com/finance/stocks/chinese-shares-lifted-as-beijing-signals-more-market-support-3a1d1468?mod=rss_markets_main) reported that Chinese shares were lifted as authorities reiterated support for capital markets and vowed stabilization policies."
     }
    ],
-   "single_source_today": false,
+   "single_source_today": true,
    "state_media_only_today": false,
-   "status": "unchanged",
+   "status": "updated",
    "title": "Chinese shares market support",
    "topic": "markets"
   },
@@ -9810,5 +9835,5 @@
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-28T07:56:26+00:00"
+ "updated": "2026-11-28T10:33:45+00:00"
 }
