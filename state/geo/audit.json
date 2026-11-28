@@ -3441,250 +3441,186 @@
  },
  {
   "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "US Escalates Iran Blockade, Strikes Commercial Vessel After Defying Military Warnings",
-  "text": "[9] reported that the US Central Command stated the blockade has disabled six ships and redirected 158 while negotiations with Iran remain stalled.",
-  "reason": "names not in cited articles: Central, Command"
- },
- {
-  "date": "2026-11-28",
   "kind": "skipped",
   "group": "europe",
-  "story": "Manchester Don Toliver concert robberies",
+  "story": "Don Toliver concert robberies",
   "text": "",
   "reason": "off-topic for this site (entertainment, sport...): not created"
  },
  {
   "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Washington Reagan National Airport plane collision",
-  "text": "[21] reported that no injuries were reported and the Federal Aviation Administration plans to investigate the incident.",
-  "reason": "names not in cited articles: Administration, Aviation"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "namerica",
-  "story": "Washington Reagan National Airport plane collision",
-  "text": "[23] reported that the incident occurred around 5:10 PM ET.",
-  "reason": "number not in cited articles: 10, 5"
+  "kind": "skipped",
+  "group": "mena",
+  "story": "West Bank military equipment and settlement expansion",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Israel diz ter matado dois \"terroristas\" que trabalhavam para a ONG Médico Sem F"
  },
  {
   "date": "2026-11-28",
   "kind": "skipped",
+  "group": "mena",
+  "story": "West Bank military equipment and settlement expansion",
+  "text": "",
+  "reason": "not added to this story (headline doesn't match it): Ataque israelense mata dois vigias ligado ao Médicos Sem Fronteiras em Gaza"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "asia",
+  "story": "Jermaine Haley death",
+  "text": "",
+  "reason": "off-topic for this site (topic: celebrity): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "africa",
+  "story": "Oando rights issue",
+  "text": "",
+  "reason": "off-topic for this site (topic: business): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "merged",
+  "group": "europe",
+  "story": "EU Budget Talks Stall as Merz Calls for Long-Term Ukraine Funding",
+  "text": "EU Brussels summit Ukraine funding",
+  "reason": "duplicate story merged into an existing one"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "global",
+  "story": "Eba orca protection dog",
+  "text": "",
+  "reason": "off-topic for this site (topic: science): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "global",
+  "story": "East Coast storms and power outages",
+  "text": "",
+  "reason": "off-topic for this site (topic: weather): not created"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
   "group": "latam",
-  "story": "EZLN delegation visit to Mexico City",
+  "story": "Mexico FGR INE corruption network investigation",
+  "text": "[48][49] reported that Prosecutor Ernestina Godoy detailed that the investigation into an irregular contracts network in the INE could involve more than 50 individuals and corporate entities.",
+  "reason": "analysis word not used by the source: 'could'"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "Lagos: Sanwo-Olu suspends November sanitation exercise over INEC mock accreditation",
+  "text": "[55] reported that INEC will deploy over 1.41 million ad hoc personnel alongside 57,000 newly procured BVAS devices calibrated at a reduced threshold of 850 voters per machine.",
+  "reason": "number not in cited articles: 1410000"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "South Korea monitoring Kim visit",
+  "text": "[56] reported that South Korea's spy agency stated it is closely monitoring developments amid speculation over North Korean leader Kim Jong Un's possible visit to China.",
+  "reason": "names not in cited articles: Jong, Kim"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "President Zardari, PM Shehbaz agree on resolving all matters through dialogue",
+  "text": "[80] reported that President Zardari and PML-Q chief Shujaat discussed politics.",
+  "reason": "names not in cited articles: PML-Q"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "dropped",
+  "group": "europe",
+  "story": "",
+  "text": "El sérum coreano de Medicube con PDRN de salmón por menos de 13 euros en Amazon por Black Friday",
+  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Google faces $220m claim in Muslim nation over harmful YouTube content",
+  "text": "[14] reported that Malaysia's Prime Minister stated that lawsuits will not affect Google's investments in the country.",
+  "reason": "wording not from cited articles: prime, minister, country"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "In Kano, Tinubu has the machine, but Kwankwaso has the crowd ahead of Nigeria polls",
+  "text": "[31] reported that the Kano State government declared that Kwankwaso should stop dragging Governor Yusuf into his Economic and Financial Crimes Commission troubles.",
+  "reason": "names not in cited articles: Crimes, Economic, Financial"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "latam",
+  "story": "Rio de Janeiro university class suspensions",
+  "text": "[34] reported that the weekend forecast in Brazil indicates storms in the South and heavy rain in areas of the Southeast, including São Paulo and Rio de Janeiro.",
+  "reason": "analysis word not used by the source: 'indicates'"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "africa",
+  "story": "2027: Opposition alliances ‘ll fail again, Fashola declares at APC Lagos rally",
+  "text": "[1] reported that former Lagos Governor Babatunde Fashola stated the party's scientific polls failed to identify Lagos as a battleground in 2023 and rejected the death penalty for election riggers while seeking stiffer jail terms.",
+  "reason": "names not in cited articles: Babatunde"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "asia",
+  "story": "Sara Duterte trial witness subpoenas",
+  "text": "[8] reported that legal developments are unfolding in the nine months leading to the trial's opening at the International Criminal Court on November 30.",
+  "reason": "names not in cited articles: Criminal, International"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "rejected",
+  "group": "europe",
+  "story": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+  "text": "[10] reported that Norwegian airline Norse Atlantic filed for bankruptcy, canceled its flights, and suspended ticket sales amid economic crisis.",
+  "reason": "analysis word not used by the source: 'amid'"
+ },
+ {
+  "date": "2026-11-28",
+  "kind": "skipped",
+  "group": "europe",
+  "story": "Khabarovsk Krai traffic collision",
   "text": "",
   "reason": "new story with fewer than 2 articles"
  },
  {
   "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Gavi malaria vaccine funding restoration",
-  "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "global",
-  "story": "Global gold prices rebound",
-  "text": "",
-  "reason": "off-topic for this site (topic: markets): not created"
- },
- {
-  "date": "2026-11-28",
   "kind": "merged",
-  "group": "asia",
-  "story": "Asian Development Bank loan to Pakistan",
-  "text": "Asian Development Bank loans to Pakistan",
-  "reason": "duplicate story merged into an existing one"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "namerica",
-  "story": "Ilia Malinin world record figure skating",
-  "text": "",
-  "reason": "off-topic for this site (topic: sport): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
   "group": "europe",
   "story": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
-  "text": "[61] reported that Nvidia's board changed its mind within six days to rehire Jensen Huang as chief executive.",
-  "reason": "number not in cited articles: 6"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "europe",
-  "story": "French authorities ban far-right anti-woke concert",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "Maxillofacial surgeons shortage in Northern Nigeria",
-  "text": "",
-  "reason": "off-topic for this site (topic: health): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Jamaica Women's World Cup qualification",
-  "text": "",
-  "reason": "off-topic for this site (entertainment, sport...): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "merged",
-  "group": "africa",
-  "story": "Kenyan Cult Leader Convicted of Terrorism",
-  "text": "Kenyan cult leader conviction for starvation deaths",
+  "text": "Nvidia suppliers, startups in Asia cheer Huang's return as uncertainty eases",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "mena",
-  "story": "Hind Sabri and Ahmed Helmy film collaboration",
-  "text": "",
-  "reason": "off-topic for this site (topic: entertainment): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "latam",
-  "story": "Black Friday promotions in Latin America",
-  "text": "",
-  "reason": "off-topic for this site (topic: markets): not created"
- },
- {
-  "date": "2026-11-28",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "Princess Kate takes to the mountains to face mortality in film about cancer recovery",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-28",
-  "kind": "dropped",
-  "group": "asia",
-  "story": "",
-  "text": "Media mogul admits saying Australian child sex abuse survivor 'looking to be raped again'",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-28",
-  "kind": "dropped",
-  "group": "mena",
-  "story": "",
-  "text": "مباراة الأهلي والاتحاد في نهائي دوري المرتبط للسلة.. الموعد والقنوات الناقلة",
-  "reason": "the AI returned no story for this group of 2 outlets (judged off-topic or not news)"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "africa",
-  "story": "Nigeria: Kano Govt Dismisses Kwankwaso's EFCC Allegations Against Governor Yusuf",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Dos aviones de American Airlines se rozan las alas en un aeropuerto de Washingto"
- },
- {
-  "date": "2026-11-28",
   "kind": "merged",
-  "group": "africa",
-  "story": "Africa: El Niño Adds New Hunger Hotspots As Conflict Continues to Drive Risk of Famine, Warn FAO and WFP",
-  "text": "Sudan hunger crisis and WFP funding cuts",
+  "group": "mena",
+  "story": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
+  "text": "Turkey's Erdogan ratifies Mecca defence pact with Saudi Arabia, Pakistan",
   "reason": "duplicate story merged into an existing one"
  },
  {
   "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Severe weather alerts in Argentina",
-  "text": "[39] reported that the first winter storm brought extreme cold and sub-zero temperatures to several Mexican states.",
-  "reason": "number not in cited articles: 0"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "latam",
-  "story": "Mexico City General Development Plan debate",
-  "text": "[34] reported that Venustiano Carranza Mayor Evelyn Parra requested 670 million pesos in additional funds for the 2027 budget.",
-  "reason": "number not in cited articles: 670000000"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Spain’s Pedro Sanchez bets on left-wing voting surge to defy election polls",
-  "text": "[36] reported that Spanish Prime Minister Pedro Sánchez wrapped up his campaign with a large rally in Madrid, expressing confidence in a progressive majority.",
-  "reason": "wording not from cited articles: pedro, wrapped, large, expressing, confidence"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "France civil service protests and wages",
-  "text": "[38] reported that the office and home of Marine Le Pen's former chief of staff Ambroise de Rancourt were searched amid suspicions of leaked confidential information from the Interior Ministry.",
-  "reason": "analysis word not used by the source: 'amid'"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "Iraq reaches compromise with Kataib Hezbollah over armed group stronghold",
-  "text": "[41] reported that U.S. President Donald Trump backed Iraqi Prime Minister al-Zaidi's plan to end oil smuggling and bring weapons under state control.",
-  "reason": "names not in cited articles: Donald"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "europe",
-  "story": "Lutnick and Huang are testifying about Trump’s Nvidia scandal. Here’s what Congress needs to ask",
-  "text": "[15] reported that Nvidia AI servers are being advertised for up to $3.4 million in China amid tighter United States export controls.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "mena",
-  "story": "US Escalates Iran Blockade, Strikes Commercial Vessel After Defying Military Warnings",
-  "text": "[22] reported that the United States struck a vessel attempting a blockade run near Iran as President Trump pressures Tehran's economy.",
-  "reason": "names not in cited articles: States, United"
- },
- {
-  "date": "2026-11-28",
-  "kind": "skipped",
-  "group": "asia",
-  "story": "Taiwan tells Meta thousands of China-linked accounts seek to influence elections",
-  "text": "",
-  "reason": "not added to this story (headline doesn't match it): Taiwan votes for thousands of officials with all eyes on Taipei mayor races"
- },
- {
-  "date": "2026-11-28",
-  "kind": "rejected",
-  "group": "asia",
-  "story": "Taiwan tells Meta thousands of China-linked accounts seek to influence elections",
-  "text": "[23][36] reported that Taiwan went to the polls in local elections as voters chose officials across various races.",
-  "reason": "cites an article that doesn't belong to this story"
- },
- {
-  "date": "2026-11-28",
   "kind": "merged",
   "group": "mena",
-  "story": "Iraq reaches compromise with Kataib Hezbollah over armed group stronghold",
-  "text": "Trump voices support for Iraqi premier’s efforts to ‘assert state authority’",
+  "story": "EU Demands Tougher Pressure on Iran After Drone Strike Kills Two Italians in Kuwait",
+  "text": "Iran denies Kuwait military facility attack",
   "reason": "duplicate story merged into an existing one"
  }
 ]
