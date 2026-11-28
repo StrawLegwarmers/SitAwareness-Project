@@ -803,24 +803,24 @@
  ],
  "coverage": [
   {
-   "articles": 421,
+   "articles": 423,
    "attached_by_code": 0,
-   "calls": 1,
-   "candidates": 1,
+   "calls": 2,
+   "candidates": 2,
    "continuing": 0,
    "corroborated": 0,
    "date": "2026-11-28",
    "dropped": 0,
    "failed_calls": 0,
-   "groups": 388,
-   "in_stories": 2,
-   "kept": 2,
+   "groups": 392,
+   "in_stories": 4,
+   "kept": 4,
    "merged": 0,
-   "new": 1,
+   "new": 2,
    "rejected": 0,
    "reported_by_2": 2,
-   "runs": 2,
-   "sent": 1,
+   "runs": 3,
+   "sent": 2,
    "skipped": 0,
    "split_calls": 0,
    "updated": 0,
@@ -1153,7 +1153,7 @@
   }
  ],
  "last_run": {
-  "all": "2026-11-28T04:42:05+00:00"
+  "all": "2026-11-28T07:56:10+00:00"
  },
  "narratives": [
   {
@@ -9734,9 +9734,81 @@
    "status": "new",
    "title": "Stock market jobs data and rate view",
    "topic": "markets"
+  },
+  {
+   "article_count": 2,
+   "articles": [
+    {
+     "added": "2026-11-28",
+     "id": "0d117df9734fbeb7",
+     "lang": "en",
+     "outlet": "Investing.com Economy",
+     "published": "2026-11-28T05:02:55+00:00",
+     "publisher": "Investing.com",
+     "region": null,
+     "section": "news",
+     "title": "China’s import logistics demand falls 0.6% in January-October",
+     "type": "specialist",
+     "url": "https://www.investing.com/news/economy-news/chinas-import-logistics-demand-falls-06-in-januaryoctober-5054171"
+    },
+    {
+     "added": "2026-11-28",
+     "id": "6a7cf6653de7092f",
+     "lang": "en",
+     "outlet": "Bloomberg Markets",
+     "published": "2026-11-28T03:01:44+00:00",
+     "publisher": "Bloomberg",
+     "region": null,
+     "section": "news",
+     "title": "China Import Logistics Fell 0.6% in January-October, Xinhua Says",
+     "type": "international",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-28/china-import-logistics-fell-0-6-in-january-october-xinhua-says"
+    }
+   ],
+   "articles_today": 2,
+   "first_seen": "2026-11-28",
+   "group": "all",
+   "id": "china-import-logistics",
+   "label": "China import logistics",
+   "last_reported": "2026-11-28",
+   "last_updated": "2026-11-28",
+   "outlets_today": 2,
+   "reports": [
+    {
+     "articles": [
+      "0d117df9734fbeb7",
+      "6a7cf6653de7092f"
+     ],
+     "date": "2026-11-28",
+     "group": "all",
+     "outlets": [
+      "Bloomberg",
+      "Investing.com"
+     ],
+     "published": "2026-11-28T03:01:44+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-28/china-import-logistics-fell-0-6-in-january-october-xinhua-says), [Investing.com](https://www.investing.com/news/economy-news/chinas-import-logistics-demand-falls-06-in-januaryoctober-5054171) reported that China's import logistics demand fell 0.6% in the first 10 months of the year."
+    },
+    {
+     "articles": [
+      "6a7cf6653de7092f"
+     ],
+     "date": "2026-11-28",
+     "group": "all",
+     "outlets": [
+      "Bloomberg"
+     ],
+     "published": "2026-11-28T03:01:44+00:00",
+     "text": "[Bloomberg](https://www.bloomberg.com/news/articles/2026-11-28/china-import-logistics-fell-0-6-in-january-october-xinhua-says) reported that the figure extends a slowdown from 9.6% growth in January-February."
+    }
+   ],
+   "single_source_today": false,
+   "state_media_only_today": false,
+   "status": "new",
+   "title": "China import logistics",
+   "topic": "economy"
   }
  ],
  "retry": [],
  "site": "markets",
- "updated": "2026-11-28T04:42:21+00:00"
+ "updated": "2026-11-28T07:56:26+00:00"
 }
